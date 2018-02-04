@@ -1354,9 +1354,49 @@ var ofogache = [{
         "poblacion": 56
     },
     {
-        "nombre": "Balbona",
+        "nombre": "Moscardón",
         "sobrecullida": "Teruel y Albarracín",
-        "poblacion": 60
+        "poblacion": 30
+    },
+    {
+        "nombre": "Villar del Cobo",
+        "sobrecullida": "Teruel y Albarracín",
+        "poblacion": 95
+    },
+    {
+        "nombre": "Bronchales",
+        "sobrecullida": "Teruel y Albarracín",
+        "poblacion": 31
+    },
+    {
+        "nombre": "Orihuela del Tremedal",
+        "sobrecullida": "Teruel y Albarracín",
+        "poblacion": 47
+    },
+    {
+        "nombre": "Monterde de Albarracín",
+        "sobrecullida": "Teruel y Albarracín",
+        "poblacion": 10
+    },
+    {
+        "nombre": "Rodenas",
+        "sobrecullida": "Teruel y Albarracín",
+        "poblacion": 16
+    },
+    {
+        "nombre": "Pozondón",
+        "sobrecullida": "Teruel y Albarracín",
+        "poblacion": 13
+    },
+    {
+        "nombre": "Villastar",
+        "sobrecullida": "Teruel y Albarracín",
+        "poblacion": 10
+    },
+    {
+        "nombre": "Royuela",
+        "sobrecullida": "Teruel y Albarracín",
+        "poblacion": 6
     }
 
 
