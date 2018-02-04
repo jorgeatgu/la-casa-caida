@@ -1397,6 +1397,436 @@ var ofogache = [{
         "nombre": "Royuela",
         "sobrecullida": "Teruel y Albarracín",
         "poblacion": 6
+    },
+    {
+        "nombre": "Cosuenda",
+        "sobrecullida": "Daroca",
+        "poblacion": 41
+    },
+    {
+        "nombre": "Aguaron",
+        "sobrecullida": "Daroca",
+        "poblacion": 60
+    },
+    {
+        "nombre": "Encinacorba",
+        "sobrecullida": "Daroca",
+        "poblacion": 162
+    },
+    {
+        "nombre": "Paniza",
+        "sobrecullida": "Daroca",
+        "poblacion": 102
+    },
+    {
+        "nombre": "Cerveruela",
+        "sobrecullida": "Daroca",
+        "poblacion": 5
+    },
+    {
+        "nombre": "Vistabella",
+        "sobrecullida": "Daroca",
+        "poblacion": 5
+    },
+    {
+        "nombre": "Alandren",
+        "sobrecullida": "Daroca",
+        "poblacion": 3
+    },
+    {
+        "nombre": "Villar de los Navarros",
+        "sobrecullida": "Daroca",
+        "poblacion": 102
+    },
+    {
+        "nombre": "Nogueras",
+        "sobrecullida": "Daroca",
+        "poblacion": 27
+    },
+    {
+        "nombre": "Santa Cruz de Nogueras",
+        "sobrecullida": "Daroca",
+        "poblacion": 27
+    },
+    {
+        "nombre": "Bádenas",
+        "sobrecullida": "Daroca",
+        "poblacion": 45
+    },
+    {
+        "nombre": "Mezquita de Loscos",
+        "sobrecullida": "Daroca",
+        "poblacion": 37
+    },
+    {
+        "nombre": "Loscos",
+        "sobrecullida": "Daroca",
+        "poblacion": 17
+    },
+    {
+        "nombre": "Mercadal",
+        "sobrecullida": "Daroca",
+        "poblacion": 1
+    },
+    {
+        "nombre": "Plenas",
+        "sobrecullida": "Daroca",
+        "poblacion": 22
+    },
+    {
+        "nombre": "Moyuela",
+        "sobrecullida": "Daroca",
+        "poblacion": 73
+    },
+    {
+        "nombre": "Monforte de Moyuela",
+        "sobrecullida": "Daroca",
+        "poblacion": 78
+    },
+    {
+        "nombre": "Piedrahita",
+        "sobrecullida": "Daroca",
+        "poblacion": 29
+    },
+    {
+        "nombre": "El Colladico",
+        "sobrecullida": "Daroca",
+        "poblacion": 5
+    },
+    {
+        "nombre": "Rudilla",
+        "sobrecullida": "Daroca",
+        "poblacion": 25
+    },
+    {
+        "nombre": "Fonfría",
+        "sobrecullida": "Daroca",
+        "poblacion": 7
+    },
+    {
+        "nombre": "Allueva",
+        "sobrecullida": "Daroca",
+        "poblacion": 17
+    },
+    {
+        "nombre": "Torrecilla del Rebollar",
+        "sobrecullida": "Daroca",
+        "poblacion": 40
+    },
+    {
+        "nombre": "Godos",
+        "sobrecullida": "Daroca",
+        "poblacion": 22
+    },
+    {
+        "nombre": "Nueros",
+        "sobrecullida": "Daroca",
+        "poblacion": 13
+    },
+    {
+        "nombre": "Barrachina",
+        "sobrecullida": "Daroca",
+        "poblacion": 46
+    },
+    {
+        "nombre": "Torre los negros",
+        "sobrecullida": "Daroca",
+        "poblacion": 34
+    },
+    {
+        "nombre": "Portalrubio",
+        "sobrecullida": "Daroca",
+        "poblacion": 25
+    },
+    {
+        "nombre": "Cuevas del Portalrubio",
+        "sobrecullida": "Daroca",
+        "poblacion": 11
+    },
+    {
+        "nombre": "Cervera del Rincón",
+        "sobrecullida": "Daroca",
+        "poblacion": 20
+    },
+    {
+        "nombre": "Pancrudo",
+        "sobrecullida": "Daroca",
+        "poblacion": 37
+    },
+    {
+        "nombre": "Alpeñes",
+        "sobrecullida": "Daroca",
+        "poblacion": 29
+    },
+    {
+        "nombre": "Corbatón",
+        "sobrecullida": "Daroca",
+        "poblacion": 17
+    },
+    {
+        "nombre": "Rubielos de la Cerida",
+        "sobrecullida": "Daroca",
+        "poblacion": 22
+    },
+    {
+        "nombre": "Bañon",
+        "sobrecullida": "Daroca",
+        "poblacion": 24
+    },
+    {
+        "nombre": "Cosa",
+        "sobrecullida": "Daroca",
+        "poblacion": 27
+    },
+    {
+        "nombre": "El Villarejo",
+        "sobrecullida": "Daroca",
+        "poblacion": 10
+    },
+    {
+        "nombre": "Cutanda",
+        "sobrecullida": "Daroca",
+        "poblacion": 71
+    },
+    {
+        "nombre": "Cosuenda",
+        "sobrecullida": "Daroca",
+        "poblacion": 41
+    },
+    {
+        "nombre": "Olalla",
+        "sobrecullida": "Daroca",
+        "poblacion": 26
+    },
+    {
+        "nombre": "Collados",
+        "sobrecullida": "Daroca",
+        "poblacion": 9
+    },
+    {
+        "nombre": "Valverde",
+        "sobrecullida": "Daroca",
+        "poblacion": 7
+    },
+    {
+        "nombre": "Cuencabuena",
+        "sobrecullida": "Daroca",
+        "poblacion": 20
+    },
+    {
+        "nombre": "Lechago",
+        "sobrecullida": "Daroca",
+        "poblacion": 32
+    },
+    {
+        "nombre": "Navarrete del Rio",
+        "sobrecullida": "Daroca",
+        "poblacion": 21
+    },
+    {
+        "nombre": "Calamocha",
+        "sobrecullida": "Daroca",
+        "poblacion": 104
+    },
+    {
+        "nombre": "El Poyo",
+        "sobrecullida": "Daroca",
+        "poblacion": 17
+    },
+    {
+        "nombre": "Fuentes Claras",
+        "sobrecullida": "Daroca",
+        "poblacion": 39
+    },
+    {
+        "nombre": "Caminreal",
+        "sobrecullida": "Daroca",
+        "poblacion": 19
+    },
+    {
+        "nombre": "Torrijo del Campo",
+        "sobrecullida": "Daroca",
+        "poblacion": 19
+    },
+    {
+        "nombre": "Monreal del Campo",
+        "sobrecullida": "Daroca",
+        "poblacion": 26
+    },
+    {
+        "nombre": "Villafranca del Campo",
+        "sobrecullida": "Daroca",
+        "poblacion": 28
+    },
+    {
+        "nombre": "Singra",
+        "sobrecullida": "Daroca",
+        "poblacion": 23
+    },
+    {
+        "nombre": "Almohaja",
+        "sobrecullida": "Daroca",
+        "poblacion": 15
+    },
+    {
+        "nombre": "Peracense",
+        "sobrecullida": "Daroca",
+        "poblacion": 7
+    },
+    {
+        "nombre": "Villar del Salz",
+        "sobrecullida": "Daroca",
+        "poblacion": 14
+    },
+    {
+        "nombre": "Ojos Negros",
+        "sobrecullida": "Daroca",
+        "poblacion": 75
+    },
+    {
+        "nombre": "Pozuel del Campo",
+        "sobrecullida": "Daroca",
+        "poblacion": 24
+    },
+    {
+        "nombre": "Blancas",
+        "sobrecullida": "Daroca",
+        "poblacion": 51
+    },
+    {
+        "nombre": "Odón",
+        "sobrecullida": "Daroca",
+        "poblacion": 26
+    },
+    {
+        "nombre": "Bello",
+        "sobrecullida": "Daroca",
+        "poblacion": 43
+    },
+    {
+        "nombre": "Torralba de los Sisones",
+        "sobrecullida": "Daroca",
+        "poblacion": 12
+    },
+    {
+        "nombre": "Villabla de los Morales",
+        "sobrecullida": "Daroca",
+        "poblacion": 1
+    },
+    {
+        "nombre": "Tornos",
+        "sobrecullida": "Daroca",
+        "poblacion": 27
+    },
+    {
+        "nombre": "Castejón de los Tornos",
+        "sobrecullida": "Daroca",
+        "poblacion": 17
+    },
+    {
+        "nombre": "Berrueco",
+        "sobrecullida": "Daroca",
+        "poblacion": 19
+    },
+    {
+        "nombre": "Gallocanta",
+        "sobrecullida": "Daroca",
+        "poblacion": 12
+    },
+    {
+        "nombre": "Las cuerlas",
+        "sobrecullida": "Daroca",
+        "poblacion": 6
+    },
+    {
+        "nombre": "Torralba de los Frailes",
+        "sobrecullida": "Daroca",
+        "poblacion": 57
+    },
+    {
+        "nombre": "Used",
+        "sobrecullida": "Daroca",
+        "poblacion": 53
+    },
+    {
+        "nombre": "Santed",
+        "sobrecullida": "Daroca",
+        "poblacion": 30
+    },
+    {
+        "nombre": "Orcajo",
+        "sobrecullida": "Daroca",
+        "poblacion": 47
+    },
+    {
+        "nombre": "Murero",
+        "sobrecullida": "Daroca",
+        "poblacion": 24
+    },
+    {
+        "nombre": "Manchones",
+        "sobrecullida": "Daroca",
+        "poblacion": 50
+    },
+    {
+        "nombre": "Balconchan",
+        "sobrecullida": "Daroca",
+        "poblacion": 10
+    },
+    {
+        "nombre": "Val de San Martín",
+        "sobrecullida": "Daroca",
+        "poblacion": 11
+    },
+    {
+        "nombre": "Valdehorna",
+        "sobrecullida": "Daroca",
+        "poblacion": 22
+    },
+    {
+        "nombre": "Villanueva de Jiloca",
+        "sobrecullida": "Daroca",
+        "poblacion": 38
+    },
+    {
+        "nombre": "San Martín del Rio",
+        "sobrecullida": "Daroca",
+        "poblacion": 32
+    },
+    {
+        "nombre": "Baguena",
+        "sobrecullida": "Daroca",
+        "poblacion": 62
+    },
+    {
+        "nombre": "Burbáguena",
+        "sobrecullida": "Daroca",
+        "poblacion": 107
+    },
+    {
+        "nombre": "Luco de Jiloca",
+        "sobrecullida": "Daroca",
+        "poblacion": 23
+    },
+    {
+        "nombre": "Anento",
+        "sobrecullida": "Daroca",
+        "poblacion": 42
+    },
+    {
+        "nombre": "Nombrevilla",
+        "sobrecullida": "Daroca",
+        "poblacion": 46
+    },
+    {
+        "nombre": "Daroca",
+        "sobrecullida": "Daroca",
+        "poblacion": 437
+    },
+    {
+        "nombre": "Romanos",
+        "sobrecullida": "Daroca",
+        "poblacion": 38
     }
 
 
