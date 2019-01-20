@@ -1,0 +1,237 @@
+year,cp,name,population
+1981,44001,Ababuj,115
+1981,44002,Abejuela,63
+1981,44003,Aguatón,50
+1981,44004,Aguaviva,706
+1981,44005,Aguilar del Alfambra,131
+1981,44006,Alacón,543
+1981,44007,Alba,403
+1981,44008,Albalate del Arzobispo,2739
+1981,44009,Albarracín,1127
+1981,44010,Albentosa,350
+1981,44011,Alcaine,54
+1981,44012,Alcalá de la Selva,579
+1981,44013,Alcañiz,11651
+1981,44014,Alcorisa,3112
+1981,44016,Alfambra,934
+1981,44017,Aliaga,866
+1981,44018,Almohaja,34
+1981,44019,Alobras,150
+1981,44020,Alpeñés,35
+1981,44021,Allepuz,236
+1981,44022,Alloza,1006
+1981,44023,Allueva,9
+1981,44024,Anadón,41
+1981,44025,Andorra,8221
+1981,44026,Arcos de las Salinas,169
+1981,44027,Arens de Lledó,305
+1981,44028,Argente,385
+1981,44029,Ariño,923
+1981,44031,Azaila,293
+1981,44032,Bádenas,38
+1981,44033,Báguena,773
+1981,44034,Bañón,276
+1981,44035,Barrachina,239
+1981,44036,Bea,19
+1981,44037,Beceite,733
+1981,44038,Belmonte de San José,212
+1981,44039,Bello,596
+1981,44040,Berge,274
+1981,44041,Bezas,88
+1981,44042,Blancas,330
+1981,44043,Blesa,215
+1981,44044,Bordón,156
+1981,44045,Bronchales,438
+1981,44046,Bueña,178
+1981,44047,Burbáguena,486
+1981,44048,Cabra de Mora,133
+1981,44049,Calaceite,1456
+1981,44050,Calamocha,4764
+1981,44051,Calanda,3323
+1981,44052,Calomarde,117
+1981,44053,Camañas,208
+1981,44054,Camarena de la Sierra,175
+1981,44055,Camarillas,179
+1981,44056,Caminreal,1075
+1981,44059,Cantavieja,877
+1981,44060,Cañada de Benatanduz,91
+1981,44061,Cañada de Verich (La),154
+1981,44062,Cañada Vellida,101
+1981,44063,Cañizar del Olivar,163
+1981,44064,Cascante del Río,181
+1981,44065,Castejón de Tornos,155
+1981,44066,Castel de Cabra,286
+1981,44067,Castelnou,148
+1981,44068,Castelserás,1009
+1981,44070,Castellar (El),122
+1981,44071,Castellote,1050
+1981,44074,Cedrillas,592
+1981,44075,Celadas,555
+1981,44076,Cella,3218
+1981,44077,Cerollera (La),127
+1981,44080,Codoñera (La),436
+1981,44082,Corbalán,129
+1981,44084,Cortes de Aragón,192
+1981,44085,Cosa,147
+1981,44086,Cretas,737
+1981,44087,Crivillén,161
+1981,44088,Cuba (La),121
+1981,44089,Cubla,96
+1981,44090,Cucalón,136
+1981,44092,Cuervo (El),184
+1981,44093,Cuevas de Almudén,138
+1981,44094,Cuevas Labradas,248
+1981,44096,Ejulve,289
+1981,44097,Escorihuela,321
+1981,44099,Escucha,1593
+1981,44100,Estercuel,423
+1981,44101,Ferreruela de Huerva,142
+1981,44102,Fonfría,45
+1981,44103,Formiche Alto,240
+1981,44105,Fórnoles,166
+1981,44106,Fortanete,325
+1981,44107,Foz-Calanda,299
+1981,44108,Fresneda (La),581
+1981,44109,Frías de Albarracín,237
+1981,44110,Fuenferrada,59
+1981,44111,Fuentes Calientes,211
+1981,44112,Fuentes Claras,909
+1981,44113,Fuentes de Rubielos,96
+1981,44114,Fuentespalda,462
+1981,44115,Galve,161
+1981,44116,Gargallo,151
+1981,44117,Gea de Albarracín,550
+1981,44118,Ginebrosa (La),354
+1981,44119,Griegos,180
+1981,44120,Guadalaviar,346
+1981,44121,Gúdar,98
+1981,44122,Híjar,2240
+1981,44123,Hinojosa de Jarque,308
+1981,44124,Hoz de la Vieja (La),239
+1981,44125,Huesa del Común,230
+1981,44126,Iglesuela del Cid (La),606
+1981,44127,Jabaloyas,157
+1981,44128,Jarque de la Val,139
+1981,44129,Jatiel,66
+1981,44130,Jorcas,98
+1981,44131,Josa,77
+1981,44132,Lagueruela,107
+1981,44133,Lanzuela,63
+1981,44135,Libros,265
+1981,44136,Lidón,133
+1981,44137,Linares de Mora,416
+1981,44138,Loscos,301
+1981,44141,Lledó,276
+1981,44142,Maicas,27
+1981,44143,Manzanera,575
+1981,44144,Martín del Río,607
+1981,44145,Mas de las Matas,1557
+1981,44146,Mata de los Olmos (La),315
+1981,44147,Mazaleón,710
+1981,44148,Mezquita de Jarque,204
+1981,44149,Mirambel,159
+1981,44150,Miravete de la Sierra,67
+1981,44151,Molinos,418
+1981,44152,Monforte de Moyuela,133
+1981,44153,Monreal del Campo,2518
+1981,44154,Monroyo,412
+1981,44155,Montalbán,2135
+1981,44156,Monteagudo del Castillo,110
+1981,44157,Monterde de Albarracín,101
+1981,44158,Mora de Rubielos,1414
+1981,44159,Moscardón,85
+1981,44160,Mosqueruela,853
+1981,44161,Muniesa,1009
+1981,44163,Noguera de Albarracín,202
+1981,44164,Nogueras,47
+1981,44165,Nogueruelas,280
+1981,44167,Obón,93
+1981,44168,Odón,354
+1981,44169,Ojos Negros,1029
+1981,44171,Olba,252
+1981,44172,Oliete,711
+1981,44173,Olmos (Los),215
+1981,44174,Orihuela del Tremedal,738
+1981,44175,Orrios,236
+1981,44176,Palomar de Arroyos,341
+1981,44177,Pancrudo,305
+1981,44178,Parras de Castellote (Las),155
+1981,44179,Peñarroya de Tastavins,683
+1981,44180,Peracense,112
+1981,44181,Peralejos,134
+1981,44182,Perales del Alfambra,381
+1981,44183,Pitarque,159
+1981,44184,Plou,67
+1981,44185,Pobo (El),227
+1981,44187,Portellada (La),396
+1981,44189,Pozondón,132
+1981,44190,Pozuel del Campo,179
+1981,44191,Puebla de Híjar (La),1597
+1981,44192,Puebla de Valverde (La),579
+1981,44193,Puertomingalvo,213
+1981,44194,Ráfales,328
+1981,44195,Rillo,263
+1981,44196,Riodeva,324
+1981,44197,Ródenas,122
+1981,44198,Royuela,290
+1981,44199,Rubiales,28
+1981,44200,Rubielos de la Cérida,97
+1981,44201,Rubielos de Mora,678
+1981,44203,Salcedillo,9
+1981,44204,Saldón,59
+1981,44205,Samper de Calanda,1403
+1981,44206,San Agustín,233
+1981,44207,San Martín del Río,439
+1981,44208,Santa Cruz de Nogueras,38
+1981,44209,Santa Eulalia,1919
+1981,44210,Sarrión,1149
+1981,44211,Segura de los Baños,96
+1981,44212,Seno,63
+1981,44213,Singra,148
+1981,44215,Terriente,265
+1981,44216,Teruel,25935
+1981,44217,Toril y Masegoso,61
+1981,44218,Tormón,61
+1981,44219,Tornos,364
+1981,44220,Torralba de los Sisones,282
+1981,44221,Torrecilla de Alcañiz,533
+1981,44222,Torrecilla del Rebollar,236
+1981,44223,Torre de Arcas,171
+1981,44224,Torre de las Arcas,61
+1981,44225,Torre del Compte,236
+1981,44226,Torrelacárcel,433
+1981,44227,Torre los Negros,127
+1981,44228,Torremocha de Jiloca,258
+1981,44229,Torres de Albarracín,243
+1981,44230,Torrevelilla,232
+1981,44231,Torrijas,93
+1981,44232,Torrijo del Campo,728
+1981,44234,Tramacastiel,154
+1981,44235,Tramacastilla,165
+1981,44236,Tronchón,161
+1981,44237,Urrea de Gaén,757
+1981,44238,Utrillas,4556
+1981,44239,Valacloche,46
+1981,44240,Valbona,215
+1981,44241,Valdealgorfa,870
+1981,44243,Valdecuenca,60
+1981,44244,Valdelinares,164
+1981,44245,Valdeltormo,500
+1981,44246,Valderrobres,1877
+1981,44247,Valjunquera,618
+1981,44249,Vallecillo (El),17
+1981,44250,Veguillas de la Sierra,51
+1981,44251,Villafranca del Campo,553
+1981,44252,Villahermosa del Campo,114
+1981,44256,Villanueva del Rebollar de la Sierra,64
+1981,44257,Villar del Cobo,285
+1981,44258,Villar del Salz,184
+1981,44260,Villarluengo,289
+1981,44261,Villarquemado,1176
+1981,44262,Villarroya de los Pinares,249
+1981,44263,Villastar,425
+1981,44264,Villel,462
+1981,44265,Vinaceite,422
+1981,44266,Visiedo,328
+1981,44267,Vivel del Río Martín,191
+1981,44268,Zoma (La),49
