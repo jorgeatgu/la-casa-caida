@@ -1,0 +1,294 @@
+year,cp,name,population
+1960,50001,Abanto,644
+1960,50002,Acered,615
+1960,50003,Agón,328
+1960,50004,Aguarón,1365
+1960,50005,Aguilón,787
+1960,50006,Ainzón,1741
+1960,50007,Aladrén,248
+1960,50008,Alagón,5334
+1960,50009,Alarba,394
+1960,50010,Alberite de San Juan,196
+1960,50011,Albeta,247
+1960,50012,Alborge,203
+1960,50013,Alcalá de Ebro,591
+1960,50014,Alcalá de Moncayo,352
+1960,50015,Alconchel de Ariza,573
+1960,50016,Aldehuela de Liestos,350
+1960,50017,Alfajarín,1188
+1960,50018,Alfamén,1393
+1960,50019,Alforque,253
+1960,50020,Alhama de Aragón,2015
+1960,50021,Almochuel,127
+1960,50022,Almolda (La),991
+1960,50023,Almonacid de la Cuba,607
+1960,50024,Almonacid de la Sierra,1376
+1960,50025,Almunia de Doña Godina (La),4423
+1960,50026,Alpartir,874
+1960,50027,Ambel,841
+1960,50028,Anento,270
+1960,50029,Aniñón,1461
+1960,50030,Añón de Moncayo,678
+1960,50031,Aranda de Moncayo,803
+1960,50032,Arándiga,1132
+1960,50033,Ardisa,285
+1960,50034,Ariza,2654
+1960,50035,Artieda,233
+1960,50036,Asín,338
+1960,50037,Atea,909
+1960,50038,Ateca,2726
+1960,50039,Azuara,2062
+1960,50040,Badules,341
+1960,50041,Bagüés,95
+1960,50042,Balconchán,84
+1960,50043,Bárboles,740
+1960,50044,Bardallur,678
+1960,50045,Belchite,2816
+1960,50046,Belmonte de Gracián,799
+1960,50047,Berdejo,209
+1960,50048,Berrueco,182
+1960,50050,Bijuesca,603
+1960,50051,Biota,1900
+1960,50052,Bisimbre,237
+1960,50053,Boquiñeni,1424
+1960,50054,Bordalba,388
+1960,50055,Borja,4490
+1960,50056,Botorrita,479
+1960,50057,Brea de Aragón,1751
+1960,50058,Bubierca,380
+1960,50059,Bujaraloz,1057
+1960,50060,Bulbuente,545
+1960,50061,Bureta,534
+1960,50062,Burgo de Ebro (El),1186
+1960,50063,Buste (El),357
+1960,50064,Cabañas de Ebro,744
+1960,50065,Cabolafuente,515
+1960,50066,Cadrete,665
+1960,50067,Calatayud,18251
+1960,50068,Calatorao,3317
+1960,50069,Calcena,639
+1960,50070,Calmarza,422
+1960,50071,Campillo de Aragón,627
+1960,50072,Carenas,918
+1960,50073,Cariñena,3031
+1960,50074,Caspe,9603
+1960,50075,Castejón de Alarba,298
+1960,50076,Castejón de las Armas,401
+1960,50077,Castejón de Valdejasa,902
+1960,50078,Castiliscar,1012
+1960,50079,Cervera de la Cañada,772
+1960,50080,Cerveruela,153
+1960,50081,Cetina,2049
+1960,50082,Cimballa,483
+1960,50083,Cinco Olivas,286
+1960,50084,Clarés de Ribota,409
+1960,50085,Codo,719
+1960,50086,Codos,852
+1960,50087,Contamina,200
+1960,50088,Cosuenda,866
+1960,50089,Cuarte de Huerva,491
+1960,50090,Cubel,535
+1960,50091,Cuerlas (Las),416
+1960,50092,Chiprana,910
+1960,50093,Chodes,406
+1960,50094,Daroca,3323
+1960,50095,Ejea de los Caballeros,11242
+1960,50096,Embid de Ariza,456
+1960,50098,Encinacorba,680
+1960,50099,Épila,5173
+1960,50100,Erla,916
+1960,50101,Escatrón,3668
+1960,50102,Fabara,1781
+1960,50104,Farlete,587
+1960,50105,Fayón,1683
+1960,50106,Fayos (Los),452
+1960,50107,Figueruelas,672
+1960,50108,Fombuena,108
+1960,50109,Frago (El),371
+1960,50110,Frasno (El),1232
+1960,50111,Fréscano,452
+1960,50113,Fuendejalón,1323
+1960,50114,Fuendetodos,401
+1960,50115,Fuentes de Ebro,3436
+1960,50116,Fuentes de Jiloca,1001
+1960,50117,Gallocanta,476
+1960,50118,Gallur,4328
+1960,50119,Gelsa,1725
+1960,50120,Godojos,374
+1960,50121,Gotor,473
+1960,50122,Grisel,295
+1960,50123,Grisén,708
+1960,50124,Herrera de los Navarros,1484
+1960,50125,Ibdes,1640
+1960,50126,Illueca,2144
+1960,50128,Isuerre,215
+1960,50129,Jaraba,704
+1960,50130,Jarque,1015
+1960,50131,Jaulín,505
+1960,50132,Joyosa (La),485
+1960,50133,Lagata,374
+1960,50134,Langa del Castillo,617
+1960,50135,Layana,385
+1960,50136,Lécera,1906
+1960,50137,Leciñena,1730
+1960,50138,Lechón,141
+1960,50139,Letux,876
+1960,50140,Litago,453
+1960,50141,Lituénigo,312
+1960,50142,Lobera de Onsella,448
+1960,50143,Longares,1245
+1960,50144,Longás,222
+1960,50146,Lucena de Jalón,423
+1960,50147,Luceni,1772
+1960,50148,Luesia,1221
+1960,50149,Luesma,186
+1960,50150,Lumpiaque,2005
+1960,50151,Luna,1893
+1960,50152,Maella,2688
+1960,50153,Magallón,1818
+1960,50154,Mainar,390
+1960,50155,Malanquilla,399
+1960,50156,Maleján,487
+1960,50157,Malón,882
+1960,50159,Maluenda,1634
+1960,50160,Mallén,3521
+1960,50161,Manchones,568
+1960,50162,Mara,656
+1960,50163,María de Huerva,698
+1960,50164,Mediana de Aragón,828
+1960,50165,Mequinenza,5784
+1960,50166,Mesones de Isuela,728
+1960,50167,Mezalocha,494
+1960,50168,Mianos,117
+1960,50169,Miedes de Aragón,1039
+1960,50170,Monegrillo,689
+1960,50171,Moneva,539
+1960,50172,Monreal de Ariza,836
+1960,50173,Monterde,880
+1960,50174,Montón,464
+1960,50175,Morata de Jalón,2760
+1960,50176,Morata de Jiloca,961
+1960,50177,Morés,1142
+1960,50178,Moros,1195
+1960,50179,Moyuela,1030
+1960,50180,Mozota,223
+1960,50181,Muel,1379
+1960,50182,Muela (La),1011
+1960,50183,Munébrega,1074
+1960,50184,Murero,488
+1960,50185,Murillo de Gállego,470
+1960,50186,Navardún,302
+1960,50187,Nigüella,273
+1960,50188,Nombrevilla,161
+1960,50189,Nonaspe,1733
+1960,50190,Novallas,1478
+1960,50191,Novillas,1005
+1960,50192,Nuévalos,823
+1960,50193,Nuez de Ebro,538
+1960,50194,Olvés,500
+1960,50195,Orcajo,243
+1960,50196,Orera,336
+1960,50197,Orés,417
+1960,50198,Oseja,220
+1960,50199,Osera de Ebro,407
+1960,50200,Paniza,1166
+1960,50201,Paracuellos de Jiloca,1069
+1960,50202,Paracuellos de la Ribera,800
+1960,50203,Pastriz,929
+1960,50204,Pedrola,2677
+1960,50205,Pedrosas (Las),251
+1960,50206,Perdiguera,680
+1960,50207,Piedratajada,354
+1960,50208,Pina de Ebro,2270
+1960,50209,Pinseque,1356
+1960,50210,Pintanos (Los),336
+1960,50211,Plasencia de Jalón,728
+1960,50212,Pleitas,164
+1960,50213,Plenas,469
+1960,50214,Pomer,342
+1960,50215,Pozuel de Ariza,290
+1960,50216,Pozuelo de Aragón,559
+1960,50217,Pradilla de Ebro,1016
+1960,50218,Puebla de Albortón,382
+1960,50219,Puebla de Alfindén (La),1287
+1960,50220,Puendeluna,227
+1960,50221,Purujosa,264
+1960,50222,Quinto,2572
+1960,50223,Remolinos,1934
+1960,50224,Retascón,229
+1960,50225,Ricla,2716
+1960,50227,Romanos,329
+1960,50228,Rueda de Jalón,803
+1960,50229,Ruesca,184
+1960,50230,Sádaba,2971
+1960,50231,Salillas de Jalón,690
+1960,50232,Salvatierra de Esca,780
+1960,50233,Samper del Salz,239
+1960,50234,San Martín de la Virgen de Moncayo,405
+1960,50235,San Mateo de Gállego,1793
+1960,50236,Santa Cruz de Grío,720
+1960,50237,Santa Cruz de Moncayo,216
+1960,50238,Santa Eulalia de Gállego,305
+1960,50239,Santed,316
+1960,50240,Sástago,2444
+1960,50241,Saviñán,1616
+1960,50242,Sediles,241
+1960,50243,Sestrica,926
+1960,50244,Sierra de Luna,594
+1960,50245,Sigüés,696
+1960,50246,Sisamón,520
+1960,50247,Sobradiel,684
+1960,50248,Sos del Rey Católico,2199
+1960,50249,Tabuenca,1001
+1960,50250,Talamantes,291
+1960,50251,Tarazona,12020
+1960,50252,Tauste,6667
+1960,50253,Terrer,1624
+1960,50254,Tierga,674
+1960,50255,Tobed,723
+1960,50256,Torralba de los Frailes,575
+1960,50257,Torralba de Ribota,467
+1960,50258,Torralbilla,358
+1960,50259,Torrehermosa,251
+1960,50260,Torrelapaja,299
+1960,50261,Torrellas,746
+1960,50262,Torres de Berrellén,1808
+1960,50263,Torrijo de la Cañada,1311
+1960,50264,Tosos,628
+1960,50265,Trasmoz,241
+1960,50266,Trasobares,801
+1960,50267,Uncastillo,2729
+1960,50268,Undués de Lerda,213
+1960,50269,Urrea de Jalón,857
+1960,50270,Urriés,442
+1960,50271,Used,1045
+1960,50272,Utebo,3289
+1960,50273,Valdehorna,179
+1960,50274,Val de San Martín,271
+1960,50275,Valmadrid,280
+1960,50276,Valpalmas,466
+1960,50277,Valtorres,431
+1960,50278,Velilla de Ebro,652
+1960,50279,Velilla de Jiloca,400
+1960,50280,Vera de Moncayo,1052
+1960,50281,Vierlas,206
+1960,50282,Vilueña (La),386
+1960,50283,Villadoz,279
+1960,50284,Villafeliche,734
+1960,50285,Villafranca de Ebro,726
+1960,50286,Villalba de Perejil,191
+1960,50287,Villalengua,1009
+1960,50288,Villanueva de Gállego,2157
+1960,50289,Villanueva de Jiloca,358
+1960,50290,Villanueva de Huerva,1079
+1960,50291,Villar de los Navarros,894
+1960,50292,Villarreal de Huerva,415
+1960,50293,Villarroya de la Sierra,1659
+1960,50294,Villarroya del Campo,280
+1960,50295,Vistabella,344
+1960,50296,Zaida (La),569
+1960,50297,Zaragoza,301655
+1960,50298,Zuera,5340
+1960,50901,Biel,864
+1960,50902,Marracos,302
+1960,50903,Villamayor de Gállego,2320
