@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #DDE8E0;
+}
+
+.container-chart {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.title {
+    font-size: 2rem;
+    margin-top: 0;
+    font-family: var(--title);
+}
+
+.text {
+    font-size: 1rem;
+    font-family: var(--text);
+}
+
+.line-chart {
+    text {
+        font-family: var(--text);
+        font-size: 14px;
+    }
+    .line {
+        fill: none;
+        stroke-width: 3;
+        stroke: #3A295C;
+    }
+    .axis-y {
+        .domain {
+            stroke: none;
+        }
+        line {
+            stroke-dasharray: 3px;
+        }
+    }
+}

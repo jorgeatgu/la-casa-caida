@@ -1,0 +1,63 @@
+.header-text {
+    position: absolute;
+    bottom: 10rem;
+    left: 1rem;
+}
+
+.header-title {
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: var(--titular);
+    color: #0c011f;
+    margin: 0;
+    padding: .5rem 1rem;
+    background-color: #fff;
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.header-100 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.header-absolute {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    animation-duration: 3s;
+    animation-name: blur;
+    animation-timing-function: linear;
+}
+
+.header-photo {
+    position: absolute;
+    bottom: .25rem;
+    right: 1rem;
+}
+
+.header-photo-icon {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-photo-text {
+    font-size: 12px;
+    font-family: var(--roboto);
+    color: var(--white);
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: .25rem;
+    a {
+        color: currentColor;
+    }
+}
