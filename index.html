@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,600|IBM+Plex+Serif:400,700|Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Adamina|Playfair+Display:400,700" rel="stylesheet">
 
 </head>
 
@@ -16,21 +16,34 @@
     <header>
         <nav></nav>
     </header>
-    <div class="header-100">
-        <img src="img/portada.jpg" alt="" class="header-absolute">
-        <div class="header-text">
-            <h1 class="header-title">La casa <span class="bold">caída</span></h1>
-        </div>
-        <div class="header-photo">
-            <svg aria-hidden="true" data-prefix="fal" data-icon="camera-alt" class="header-photo-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#fff" d="M256 408c-66.2 0-120-53.8-120-120s53.8-120 120-120 120 53.8 120 120-53.8 120-120 120zm0-208c-48.5 0-88 39.5-88 88s39.5 88 88 88 88-39.5 88-88-39.5-88-88-88zm-32 88c0-17.6 14.4-32 32-32 8.8 0 16-7.2 16-16s-7.2-16-16-16c-35.3 0-64 28.7-64 64 0 8.8 7.2 16 16 16s16-7.2 16-16zM324.3 64c3.3 0 6.3 2.1 7.5 5.2l22.1 58.8H464c8.8 0 16 7.2 16 16v288c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16h110.2l20.1-53.6c2.3-6.2 8.3-10.4 15-10.4h131m0-32h-131c-20 0-37.9 12.4-44.9 31.1L136 96H48c-26.5 0-48 21.5-48 48v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V144c0-26.5-21.5-48-48-48h-88l-14.3-38c-5.8-15.7-20.7-26-37.4-26z"></path></svg>
-            <span class="header-photo-text">La fotografía esta hecha en los Monegros
-             por <a href="https://www.flickr.com/photos/polgaroid/4531303205/in/album-72157626176625614/">Pato Hernán</a>.</span>
-        </div>
-    </div>
+    <section class="header">
+        <h3 class="header-title">
+            <span class="text-wrapper">
+            La casa <span class="letters">caída</span>
+            </span>
+        </h3>
+        <p class="header-ronda">
+            <span class="header-ronda-text">Delante de esta puerta cerrada</span>
+            <span class="header-ronda-text">la ronda lleva tanto sin parar.</span>
+            <span class="header-ronda-text">Por esa ventaneta hoy tan sombría,</span>
+            <span class="header-ronda-text">en otro tiempo nanas se escuchaba cantar.</span>
+            <span class="header-ronda-text">Febrero tras febrero, eterno invierno,</span>
+            <span class="header-ronda-text">a esta puerta la vida ya no ha vuelto a llamar.</span>
+        </p>
+        <p class="header-text">La casa caída es una bonita y triste canción de la <a href="http://www.rondadors.com/d2/18/d2_18.php">Ronda de Boltaña</a>, trata sobre la despoblación del Alto Aragón. <span class="bold">Si se nos cae la casa se vuelve a levantar,</span> canta la Ronda. El problema al que nos enfrentamos en Aragón(y en otras partes de España) es que cada día esta más cerca el momento donde no haya nadie para levantar la casa.</p>
+        <p class="header-text">Según el INE el número total de habitantes en Aragón es de 1.308.728. <span class="bold">El 50.95% de ellos reside en Zaragoza</span>. Estas cifras dejan la densidad de población en 27,42 hab/km2, solo por delante de Castilla y León, Castilla-La Mancha y Extremadura.</p>
+        <p class="header-text">Según el informe “Las tres SESPAs de Aragón en el marco de los Fondos de Cohesión 2021-2027” el 75.92% de los municipios de Aragón tienen <span class="bold">una densidad de 4,37 hab/km2</span>. Hay que tener en cuenta que una <span class="bold">densidad inferior a 10 hab/km2</span> se considera <span class="bold">desierto demográfico</span>.
+
+</p>
+    </section>
     <section class="container">
-        <section class="container-chart">
+        <img src="img/teruel.jpg" alt="" class="section-image">
+        <div class="section-text">
             <h3 class="title">Teruel ¿existe?</h3>
-            <p class="text">Total de habitantes en la provincia de Teruel desde 1910 hasta 2018. Datos del censo.</p>
+            <p class="text">Según el informe “Las tres SESPAs de Aragón en el marco de los Fondos de Cohesión 2021-2027” el 75.92% de los municipios de Aragón tienen <span class="bold">una densidad de 4,37 hab/km2</span>. Hay que tener en cuenta que una <span class="bold">densidad inferior a 10 hab/km2</span> se considera <span class="bold">desierto demográfico</span>.</p>
+        </div>
+
+        <section class="container-chart">
             <article class="line-teruel">
                 <svg class="line-chart">
                     <g class="line-teruel-container"></g>
@@ -38,10 +51,15 @@
             </article>
         </section>
     </section>
+    <section class="creditos">
+
+    </section>
     <footer>
     </footer>
     <script src="js/d3.min.js"></script>
-    <script src="js/line-teruel.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
