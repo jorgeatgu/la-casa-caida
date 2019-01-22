@@ -47,7 +47,6 @@ year,cp,name,population
 2018,50046,Belmonte de Gracián,198
 2018,50047,Berdejo,47
 2018,50048,Berrueco,33
-2018,50901,Biel,140
 2018,50050,Bijuesca,98
 2018,50051,Biota,948
 2018,50052,Bisimbre,97
@@ -80,8 +79,6 @@ year,cp,name,population
 2018,50079,Cervera de la Cañada,271
 2018,50080,Cerveruela,35
 2018,50081,Cetina,592
-2018,50092,Chiprana,508
-2018,50093,Chodes,113
 2018,50082,Cimballa,93
 2018,50083,Cinco Olivas,112
 2018,50084,Clarés de Ribota,65
@@ -92,6 +89,8 @@ year,cp,name,population
 2018,50089,Cuarte de Huerva,13055
 2018,50090,Cubel,168
 2018,50091,Cuerlas Las,39
+2018,50092,Chiprana,508
+2018,50093,Chodes,113
 2018,50094,Daroca,1996
 2018,50095,Ejea de los Caballeros,16605
 2018,50096,Embid de Ariza,36
@@ -131,8 +130,8 @@ year,cp,name,population
 2018,50134,Langa del Castillo,132
 2018,50135,Layana,100
 2018,50136,Lécera,661
-2018,50138,Lechón,53
 2018,50137,Leciñena,1162
+2018,50138,Lechón,53
 2018,50139,Letux,342
 2018,50140,Litago,166
 2018,50141,Lituénigo,127
@@ -150,13 +149,12 @@ year,cp,name,population
 2018,50154,Mainar,151
 2018,50155,Malanquilla,100
 2018,50156,Maleján,259
-2018,50160,Mallén,3083
 2018,50157,Malón,323
 2018,50159,Maluenda,942
+2018,50160,Mallén,3083
 2018,50161,Manchones,98
 2018,50162,Mara,181
 2018,50163,María de Huerva,5663
-2018,50902,Marracos,86
 2018,50164,Mediana de Aragón,465
 2018,50165,Mequinenza,2301
 2018,50166,Mesones de Isuela,271
@@ -222,7 +220,6 @@ year,cp,name,population
 2018,50227,Romanos,119
 2018,50228,Rueda de Jalón,325
 2018,50229,Ruesca,72
-2018,50241,Sabiñán,691
 2018,50230,Sádaba,1324
 2018,50231,Salillas de Jalón,304
 2018,50232,Salvatierra de Esca,198
@@ -234,6 +231,7 @@ year,cp,name,population
 2018,50238,Santa Eulalia de Gállego,98
 2018,50239,Santed,61
 2018,50240,Sástago,1170
+2018,50241,Sabiñán,691
 2018,50242,Sediles,95
 2018,50243,Sestrica,370
 2018,50244,Sierra de Luna,253
@@ -265,8 +263,8 @@ year,cp,name,population
 2018,50270,Urriés,38
 2018,50271,Used,271
 2018,50272,Utebo,18602
-2018,50274,Val de San Martín,64
 2018,50273,Valdehorna,30
+2018,50274,Val de San Martín,64
 2018,50275,Valmadrid,112
 2018,50276,Valpalmas,142
 2018,50277,Valtorres,68
@@ -274,21 +272,23 @@ year,cp,name,population
 2018,50279,Velilla de Jiloca,90
 2018,50280,Vera de Moncayo,360
 2018,50281,Vierlas,74
+2018,50282,La Vilueña,77
 2018,50283,Villadoz,88
 2018,50284,Villafeliche,170
 2018,50285,Villafranca de Ebro,830
 2018,50286,Villalba de Perejil,99
 2018,50287,Villalengua,319
-2018,50903,Villamayor de Gállego,2696
 2018,50288,Villanueva de Gállego,4661
-2018,50290,Villanueva de Huerva,463
 2018,50289,Villanueva de Jiloca,46
+2018,50290,Villanueva de Huerva,463
 2018,50291,Villar de los Navarros,102
 2018,50292,Villarreal de Huerva,274
 2018,50293,Villarroya de la Sierra,466
 2018,50294,Villarroya del Campo,68
-2018,50282,La Vilueña,77
 2018,50295,Vistabella,49
 2018,50296,La Zaida,455
 2018,50297,Zaragoza,666880
 2018,50298,Zuera,8365
+2018,50901,Biel,140
+2018,50902,Marracos,86
+2018,50903,Villamayor de Gállego,2696

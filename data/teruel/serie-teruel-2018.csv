@@ -15,12 +15,12 @@ year,cp,name,population
 2018,44014, Alcorisa,3276
 2018,44016, Alfambra,531
 2018,44017, Aliaga,358
-2018,44021, Allepuz,126
-2018,44022, Alloza,582
-2018,44023, Allueva,29
 2018,44018, Almohaja,16
 2018,44019, Alobras,62
 2018,44020, Alpeñés,22
+2018,44021, Allepuz,126
+2018,44022, Alloza,582
+2018,44023, Allueva,29
 2018,44024, Anadón,27
 2018,44025, Andorra,7633
 2018,44026, Arcos de las Salinas,105
@@ -34,8 +34,8 @@ year,cp,name,population
 2018,44035, Barrachina,118
 2018,44036, Bea,31
 2018,44037, Beceite,541
-2018,44039, Bello,225
 2018,44038, Belmonte de San José,113
+2018,44039, Bello,225
 2018,44040, Berge,244
 2018,44041, Bezas,70
 2018,44042, Blancas,125
@@ -61,10 +61,10 @@ year,cp,name,population
 2018,44064, Cascante del Río,71
 2018,44065, Castejón de Tornos,62
 2018,44066, Castel de Cabra,104
-2018,44070, El Castellar,52
-2018,44071, Castellote,676
 2018,44067, Castelnou,160
 2018,44068, Castelserás,831
+2018,44070, El Castellar,52
+2018,44071, Castellote,676
 2018,44074, Cedrillas,630
 2018,44075, Celadas,396
 2018,44076, Cella,2606
@@ -120,8 +120,8 @@ year,cp,name,population
 2018,44135, Libros,101
 2018,44136, Lidón,55
 2018,44137, Linares de Mora,249
-2018,44141, Lledó,172
 2018,44138, Loscos,129
+2018,44141, Lledó,172
 2018,44142, Maicas,27
 2018,44143, Manzanera,519
 2018,44144, Martín del Río,417
@@ -194,13 +194,13 @@ year,cp,name,population
 2018,44218, Tormón,31
 2018,44219, Tornos,213
 2018,44220, Torralba de los Sisones,156
+2018,44221, Torrecilla de Alcañiz,423
+2018,44222, Torrecilla del Rebollar,127
 2018,44223, Torre de Arcas,89
 2018,44224, Torre de las Arcas,28
 2018,44225, Torre del Compte,132
-2018,44227, Torre los Negros,88
-2018,44221, Torrecilla de Alcañiz,423
-2018,44222, Torrecilla del Rebollar,127
 2018,44226, Torrelacárcel,154
+2018,44227, Torre los Negros,88
 2018,44228, Torremocha de Jiloca,107
 2018,44229, Torres de Albarracín,183
 2018,44230, Torrevelilla,189

@@ -3,7 +3,6 @@ year,cp,name,population
 2018,22002,Abizanda,151
 2018,22003,Adahuesca,172
 2018,22004,Agüero,130
-2018,22907,Aínsa-Sobrarbe,2151
 2018,22006,Aisa,321
 2018,22007,Albalate de Cinca,1102
 2018,22008,Albalatillo,181
@@ -46,7 +45,6 @@ year,cp,name,population
 2018,22052,Belver de Cinca,1292
 2018,22053,Benabarre,1107
 2018,22054,Benasque,2157
-2018,22246,Beranuy,78
 2018,22055,Berbegal,345
 2018,22057,Bielsa,476
 2018,22058,Bierge,231
@@ -69,18 +67,18 @@ year,cp,name,population
 2018,22079,Capdesaso,174
 2018,22080,Capella,354
 2018,22081,Casbas de Huesca,269
+2018,22082,Castejón del Puente,315
 2018,22083,Castejón de Monegros,531
 2018,22084,Castejón de Sos,753
-2018,22082,Castejón del Puente,315
 2018,22085,Castelflorite,108
 2018,22086,Castiello de Jaca,267
 2018,22087,Castigaleu,86
 2018,22088,Castillazuelo,169
 2018,22089,Castillonroy,312
+2018,22090,Colungo,114
 2018,22094,Chalamera,108
 2018,22095,Chía,86
 2018,22096,Chimillas,391
-2018,22090,Colungo,114
 2018,22099,Esplús,541
 2018,22102,Estada,204
 2018,22103,Estadilla,794
@@ -98,7 +96,6 @@ year,cp,name,population
 2018,22117,Graus,3305
 2018,22119,Gurrea de Gállego,1476
 2018,22122,Hoz de Jaca,76
-2018,22908,Hoz y Costean,226
 2018,22124,Huerto,218
 2018,22125,Huesca,52463
 2018,22126,Ibieca,97
@@ -119,7 +116,6 @@ year,cp,name,population
 2018,22149,Loarre,331
 2018,22150,Loporzano,522
 2018,22151,Loscorrales,106
-2018,22905,Lupiñén-Ortilla,341
 2018,22155,Monesma y Cajigar,73
 2018,22156,Monflorite-Lascasas,403
 2018,22157,Montanuy,215
@@ -145,7 +141,6 @@ year,cp,name,population
 2018,22186,Pozán de Vero,218
 2018,22187,Puebla de Castro La,372
 2018,22188,Puente de Montañana,93
-2018,22902,Puente la Reina de Jaca,260
 2018,22189,Puértolas,215
 2018,22190,Pueyo de Araguás El,154
 2018,22193,Pueyo de Santa Cruz,314
@@ -158,12 +153,10 @@ year,cp,name,population
 2018,22203,Salillas,96
 2018,22204,Sallent de Gállego,1463
 2018,22205,San Esteban de Litera,506
-2018,22207,San Juan de Plan,152
-2018,22903,San Miguel del Cinca,813
 2018,22206,Sangarrén,219
+2018,22207,San Juan de Plan,152
 2018,22208,Santa Cilia,231
 2018,22209,Santa Cruz de la Serós,180
-2018,22906,Santa María de Dulcis,208
 2018,22212,Santaliestra y San Quílez,81
 2018,22213,Sariñena,4168
 2018,22214,Secastilla,146
@@ -174,7 +167,6 @@ year,cp,name,population
 2018,22221,Sesué,127
 2018,22222,Siétamo,664
 2018,22223,Sopeira,94
-2018,22904,Sotonera La,894
 2018,22225,Tamarite de Litera,3528
 2018,22226,Tardienta,952
 2018,22227,Tella-Sin,226
@@ -189,10 +181,9 @@ year,cp,name,population
 2018,22239,Tramaced,99
 2018,22242,Valfarta,69
 2018,22243,Valle de Bardají,34
-2018,22901,Valle de Hecho,839
 2018,22244,Valle de Lierp,46
 2018,22245,Velilla de Cinca,463
-2018,22909,Vencillón,399
+2018,22246,Beranuy,78
 2018,22247,Viacamp y Litera,36
 2018,22248,Vicién,116
 2018,22249,Villanova,159
@@ -201,3 +192,12 @@ year,cp,name,population
 2018,22252,Yebra de Basa,147
 2018,22253,Yésero,60
 2018,22254,Zaidín,1774
+2018,22901,Valle de Hecho,839
+2018,22902,Puente la Reina de Jaca,260
+2018,22903,San Miguel del Cinca,813
+2018,22904,Sotonera La,894
+2018,22905,Lupiñén-Ortilla,341
+2018,22906,Santa María de Dulcis,208
+2018,22907,Aínsa-Sobrarbe,2151
+2018,22908,Hoz y Costean,226
+2018,22909,Vencillón,399

@@ -1,4 +1,4 @@
-year,cp,name,population
+cyear,cp,name,population
 1900,22001,Abiego,1383
 1900,22002,Abizanda,463
 1900,22003,Adahuesca,725
@@ -89,7 +89,7 @@ year,cp,name,population
 1900,22110,Fonz,2006
 1900,22111,Foradada del Toscar,665
 1900,22112,Fraga,6934
-1900,22113,Fueva (La),2691
+1900,22113,Fueva,2691
 1900,22114,Gistaín,444
 1900,22115,Grado (El),1605
 1900,22116,Grañén,1431
@@ -8859,7 +8859,7 @@ year,cp,name,population
 2018,50088,Cosuenda,367
 2018,50089,Cuarte de Huerva,13055
 2018,50090,Cubel,168
-2018,50091,Cuerlas, Las,39
+2018,50091,Cuerlas Las,39
 2018,50094,Daroca,1996
 2018,50095,Ejea de los Caballeros,16605
 2018,50096,Embid de Ariza,36
@@ -8870,11 +8870,11 @@ year,cp,name,population
 2018,50102,Fabara,1152
 2018,50104,Farlete,386
 2018,50105,Fayón,354
-2018,50106,Fayos, Los,141
+2018,50106,Fayos Los,141
 2018,50107,Figueruelas,1240
 2018,50108,Fombuena,54
-2018,50109,Frago, El,99
-2018,50110,Frasno, El,384
+2018,50109,Frago El,99
+2018,50110,Frasno El,384
 2018,50111,Fréscano,202
 2018,50113,Fuendejalón,793
 2018,50114,Fuendetodos,121
@@ -8894,7 +8894,7 @@ year,cp,name,population
 2018,50129,Jaraba,280
 2018,50130,Jarque,436
 2018,50131,Jaulín,237
-2018,50132,Joyosa, La,1072
+2018,50132,Joyosa La,1072
 2018,50133,Lagata,111
 2018,50134,Langa del Castillo,132
 2018,50135,Layana,100
@@ -8943,7 +8943,7 @@ year,cp,name,population
 2018,50179,Moyuela,245
 2018,50180,Mozota,130
 2018,50181,Muel,1333
-2018,50182,Muela, La,5479
+2018,50182,Muela La,5479
 2018,50183,Munébrega,385
 2018,50184,Murero,107
 2018,50185,Murillo de Gállego,174
@@ -8966,12 +8966,12 @@ year,cp,name,population
 2018,50202,Paracuellos de la Ribera,158
 2018,50203,Pastriz,1293
 2018,50204,Pedrola,3509
-2018,50205,Pedrosas, Las,90
+2018,50205,Pedrosas Las,90
 2018,50206,Perdiguera,577
 2018,50207,Piedratajada,97
 2018,50208,Pina de Ebro,2373
 2018,50209,Pinseque,3908
-2018,50210,Pintanos, Los,37
+2018,50210,Pintanos Los,37
 2018,50211,Plasencia de Jalón,303
 2018,50212,Pleitas,36
 2018,50213,Plenas,101
@@ -9152,9 +9152,9 @@ year,cp,name,population
 2018,22110, Fonz,870
 2018,22111, Foradada del Toscar,173
 2018,22112, Fraga,14979
-2018,22113, Fueva, La,597
+2018,22113, Fueva La,597
 2018,22114, Gistaín,149
-2018,22115, Grado, El,426
+2018,22115, Grado El,426
 2018,22116, Grañén,1753
 2018,22117, Graus,3305
 2018,22119, Gurrea de Gállego,1476
@@ -9194,7 +9194,7 @@ year,cp,name,population
 2018,22168, Palo,27
 2018,22170, Panticosa,786
 2018,22172, Peñalba,622
-2018,22173, Peñas de Riglos, Las,251
+2018,22173, Peñas de Riglos Las,251
 2018,22174, Peralta de Alcofea,562
 2018,22175, Peralta de Calasanz,219
 2018,22176, Peraltilla,199
@@ -9204,11 +9204,11 @@ year,cp,name,population
 2018,22182, Plan,287
 2018,22184, Poleñino,200
 2018,22186, Pozán de Vero,218
-2018,22187, Puebla de Castro, La,372
+2018,22187, Puebla de Castro La,372
 2018,22188, Puente de Montañana,93
 2018,22902, Puente la Reina de Jaca,260
 2018,22189, Puértolas,215
-2018,22190, Pueyo de Araguás, El,154
+2018,22190, Pueyo de Araguás El,154
 2018,22193, Pueyo de Santa Cruz,314
 2018,22195, Quicena,283
 2018,22197, Robres,541
@@ -9235,7 +9235,7 @@ year,cp,name,population
 2018,22221, Sesué,127
 2018,22222, Siétamo,664
 2018,22223, Sopeira,94
-2018,22904, Sotonera, La,894
+2018,22904, Sotonera La,894
 2018,22225, Tamarite de Litera,3528
 2018,22226, Tardienta,952
 2018,22227, Tella-Sin,226
@@ -9341,7 +9341,7 @@ year,cp,name,population
 2018,44088, La Cuba,41
 2018,44089, Cubla,54
 2018,44090, Cucalón,80
-2018,44092, Cuervo, El,86
+2018,44092, Cuervo El,86
 2018,44093, Cuevas de Almudén,122
 2018,44094, Cuevas Labradas,131
 2018,44096, Ejulve,180
@@ -9364,7 +9364,7 @@ year,cp,name,population
 2018,44115, Galve,161
 2018,44116, Gargallo,89
 2018,44117, Gea de Albarracín,376
-2018,44118, Ginebrosa, La,200
+2018,44118, Ginebrosa La,200
 2018,44119, Griegos,143
 2018,44120, Guadalaviar,242
 2018,44121, Gúdar,72
@@ -9413,7 +9413,7 @@ year,cp,name,population
 2018,44169, Ojos Negros,377
 2018,44171, Olba,226
 2018,44172, Oliete,364
-2018,44173, Olmos, Los,122
+2018,44173, Olmos Los,122
 2018,44174, Orihuela del Tremedal,487
 2018,44175, Orrios,126
 2018,44176, Palomar de Arroyos,169
@@ -9425,7 +9425,7 @@ year,cp,name,population
 2018,44182, Perales del Alfambra,221
 2018,44183, Pitarque,79
 2018,44184, Plou,43
-2018,44185, Pobo, El,114
+2018,44185, Pobo El,114
 2018,44187, La Portellada,243
 2018,44189, Pozondón,48
 2018,44190, Pozuel del Campo,68
