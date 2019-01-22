@@ -1,3 +1,28 @@
+function animation() {
+    $('.header-title .letters').each(function(){
+      $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+    });
+
+    anime.timeline()
+      .add({
+        targets: '.header-title .letter',
+        translateY: [0, "1.5rem"],
+        translateZ: 0,
+        duration: 750,
+        delay: anime.stagger(500)
+      }).add({
+        targets: '.letter',
+        translateY: ["1.5rem", "2rem"],
+        translateZ: 0,
+        rotate: 45,
+        duration: 750,
+        delay: anime.stagger(1000)
+      });
+}
+
+animation();
+
+
 const line = () => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
     const margin = { top: 24, right: 24, bottom: 24, left: 96 };
@@ -158,4 +183,3 @@ const line = () => {
 }
 
 line();
-
