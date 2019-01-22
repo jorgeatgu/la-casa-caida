@@ -5,5 +5,7 @@
 */
 
 @import '_variables';
+@import '_comun';
 @import '_header';
-@import '_home';
+@import '_section';
+@import '_chart';

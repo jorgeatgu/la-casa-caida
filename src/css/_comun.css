@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background-color: var(--background);
+    line-height: 1.4;
+    color: var(--black);
+    font-family: var(--text);
+}
+
+.container {
+    background-color: #DDE8E0;
+    font-size: 0;
+}
+
+.container-chart {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.bold {
+    font-weight: bold;
+}

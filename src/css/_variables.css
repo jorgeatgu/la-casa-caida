@@ -1,6 +1,8 @@
 :root {
     --monospace: 'SFMono-Regular', Consolas, Menlo, Courier, monospace;
-    --title: 'IBM Plex Serif', serif;
-    --text: 'IBM Plex Sans Condensed', sans-serif;
-    --titular: 'Playfair Display', serif;
+    --title: 'Playfair Display', serif;
+    --text: 'Adamina', serif;
+    --black: #111;
+    --white: #fff;
+    --background: #FBDED5;
 }

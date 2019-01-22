@@ -1,0 +1,19 @@
+.section-image {
+    height: 50vh;
+    margin-top: 5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.section-text {
+    display: inline-block;
+    width: 30rem;
+    vertical-align: middle;
+    padding-left: 2rem;
+    .title {
+        margin-bottom: .25rem;
+    }
+    .text {
+        margin-top: .5rem;
+    }
+}
