@@ -29,10 +29,9 @@ csvgrep -c 2 -r "^(5)([0-9]{4})" serie-historica-aragon.csv > zaragoza.csv
 
 Calcular porcentaje de mayores de 65 años
 
-La encuesta del INE de 2011 nos da la opción de saber la edad de los habitantes de cada municipio de España. Hasta 2021 no se volverá a hacer este tipo de encuesta.
 
-Lo primero es seleccionar por código postal de cada una de las provincias y seleccionar todas las opciones desde 65 años hasta 100 años. Con esto obtenemos un CSV con las cantidades de población por años. 
+Pueblos con menos de cinco menores de 18 años
+```
+jq -r '(.[] | select(.total <= 0))'
+```
 
-El CSV hay que trabajarlo un poco. En primer lugar si no hay habitantes de esas edad lo marca con dos puntos, estos dos puntos los he sustituído por 0. He eliminado las cabeceras ya que no aportan nada, he eliminado años de los headers y solamente he dejado la edad.
-
-Ahora toca sumar el total de población, para ello he utilizado algo que llevo tiempo usando y es una extensión de sublime text. Lo primero es dejar el CSV solamente con números

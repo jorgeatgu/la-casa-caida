@@ -1,0 +1,1182 @@
+{
+    "Ababuj": {
+        "cp": 44001.0,
+        "munipio": "Ababuj",
+        "total": 7.0
+    },
+    "Abejuela": {
+        "cp": 44002.0,
+        "munipio": "Abejuela",
+        "total": 2.0
+    },
+    "Aguatón": {
+        "cp": 44003.0,
+        "munipio": "Aguatón",
+        "total": 0.0
+    },
+    "Aguaviva": {
+        "cp": 44004.0,
+        "munipio": "Aguaviva",
+        "total": 81.0
+    },
+    "Aguilar del Alfambra": {
+        "cp": 44005.0,
+        "munipio": "Aguilar del Alfambra",
+        "total": 8.0
+    },
+    "Alacón": {
+        "cp": 44006.0,
+        "munipio": "Alacón",
+        "total": 17.0
+    },
+    "Alba": {
+        "cp": 44007.0,
+        "munipio": "Alba",
+        "total": 14.0
+    },
+    "Albalate del Arzobispo": {
+        "cp": 44008.0,
+        "munipio": "Albalate del Arzobispo",
+        "total": 293.0
+    },
+    "Albarracín": {
+        "cp": 44009.0,
+        "munipio": "Albarracín",
+        "total": 157.0
+    },
+    "Albentosa": {
+        "cp": 44010.0,
+        "munipio": "Albentosa",
+        "total": 54.0
+    },
+    "Alcaine": {
+        "cp": 44011.0,
+        "munipio": "Alcaine",
+        "total": 5.0
+    },
+    "Alcalá de la Selva": {
+        "cp": 44012.0,
+        "munipio": "Alcalá de la Selva",
+        "total": 31.0
+    },
+    "Alcañiz": {
+        "cp": 44013.0,
+        "munipio": "Alcañiz",
+        "total": 3347.0
+    },
+    "Alcorisa": {
+        "cp": 44014.0,
+        "munipio": "Alcorisa",
+        "total": 618.0
+    },
+    "Alfambra": {
+        "cp": 44016.0,
+        "munipio": "Alfambra",
+        "total": 49.0
+    },
+    "Aliaga": {
+        "cp": 44017.0,
+        "munipio": "Aliaga",
+        "total": 56.0
+    },
+    "Almohaja": {
+        "cp": 44018.0,
+        "munipio": "Almohaja",
+        "total": 0.0
+    },
+    "Alobras": {
+        "cp": 44019.0,
+        "munipio": "Alobras",
+        "total": 0.0
+    },
+    "Alpeñés": {
+        "cp": 44020.0,
+        "munipio": "Alpeñés",
+        "total": 0.0
+    },
+    "Allepuz": {
+        "cp": 44021.0,
+        "munipio": "Allepuz",
+        "total": 18.0
+    },
+    "Alloza": {
+        "cp": 44022.0,
+        "munipio": "Alloza",
+        "total": 70.0
+    },
+    "Allueva": {
+        "cp": 44023.0,
+        "munipio": "Allueva",
+        "total": 4.0
+    },
+    "Anadón": {
+        "cp": 44024.0,
+        "munipio": "Anadón",
+        "total": 0.0
+    },
+    "Andorra": {
+        "cp": 44025.0,
+        "munipio": "Andorra",
+        "total": 1307.0
+    },
+    "Arcos de las Salinas": {
+        "cp": 44026.0,
+        "munipio": "Arcos de las Salinas",
+        "total": 14.0
+    },
+    "Arens de Lledó": {
+        "cp": 44027.0,
+        "munipio": "Arens de Lledó",
+        "total": 19.0
+    },
+    "Argente": {
+        "cp": 44028.0,
+        "munipio": "Argente",
+        "total": 22.0
+    },
+    "Ariño": {
+        "cp": 44029.0,
+        "munipio": "Ariño",
+        "total": 101.0
+    },
+    "Azaila": {
+        "cp": 44031.0,
+        "munipio": "Azaila",
+        "total": 5.0
+    },
+    "Bádenas": {
+        "cp": 44032.0,
+        "munipio": "Bádenas",
+        "total": 2.0
+    },
+    "Báguena": {
+        "cp": 44033.0,
+        "munipio": "Báguena",
+        "total": 26.0
+    },
+    "Bañón": {
+        "cp": 44034.0,
+        "munipio": "Bañón",
+        "total": 15.0
+    },
+    "Barrachina": {
+        "cp": 44035.0,
+        "munipio": "Barrachina",
+        "total": 8.0
+    },
+    "Bea": {
+        "cp": 44036.0,
+        "munipio": "Bea",
+        "total": 4.0
+    },
+    "Beceite": {
+        "cp": 44037.0,
+        "munipio": "Beceite",
+        "total": 72.0
+    },
+    "Belmonte de San José": {
+        "cp": 44038.0,
+        "munipio": "Belmonte de San José",
+        "total": 11.0
+    },
+    "Bello": {
+        "cp": 44039.0,
+        "munipio": "Bello",
+        "total": 16.0
+    },
+    "Berge": {
+        "cp": 44040.0,
+        "munipio": "Berge",
+        "total": 42.0
+    },
+    "Bezas": {
+        "cp": 44041.0,
+        "munipio": "Bezas",
+        "total": 7.0
+    },
+    "Blancas": {
+        "cp": 44042.0,
+        "munipio": "Blancas",
+        "total": 11.0
+    },
+    "Blesa": {
+        "cp": 44043.0,
+        "munipio": "Blesa",
+        "total": 3.0
+    },
+    "Bordón": {
+        "cp": 44044.0,
+        "munipio": "Bordón",
+        "total": 19.0
+    },
+    "Bronchales": {
+        "cp": 44045.0,
+        "munipio": "Bronchales",
+        "total": 46.0
+    },
+    "Bueña": {
+        "cp": 44046.0,
+        "munipio": "Bueña",
+        "total": 8.0
+    },
+    "Burbáguena": {
+        "cp": 44047.0,
+        "munipio": "Burbáguena",
+        "total": 14.0
+    },
+    "Cabra de Mora": {
+        "cp": 44048.0,
+        "munipio": "Cabra de Mora",
+        "total": 1.0
+    },
+    "Calaceite": {
+        "cp": 44049.0,
+        "munipio": "Calaceite",
+        "total": 130.0
+    },
+    "Calamocha": {
+        "cp": 44050.0,
+        "munipio": "Calamocha",
+        "total": 821.0
+    },
+    "Calanda": {
+        "cp": 44051.0,
+        "munipio": "Calanda",
+        "total": 579.0
+    },
+    "Calomarde": {
+        "cp": 44052.0,
+        "munipio": "Calomarde",
+        "total": 0.0
+    },
+    "Camañas": {
+        "cp": 44053.0,
+        "munipio": "Camañas",
+        "total": 20.0
+    },
+    "Camarena de la Sierra": {
+        "cp": 44054.0,
+        "munipio": "Camarena de la Sierra",
+        "total": 10.0
+    },
+    "Camarillas": {
+        "cp": 44055.0,
+        "munipio": "Camarillas",
+        "total": 10.0
+    },
+    "Caminreal": {
+        "cp": 44056.0,
+        "munipio": "Caminreal",
+        "total": 76.0
+    },
+    "Cantavieja": {
+        "cp": 44059.0,
+        "munipio": "Cantavieja",
+        "total": 126.0
+    },
+    "Cañada de Benatanduz": {
+        "cp": 44060.0,
+        "munipio": "Cañada de Benatanduz",
+        "total": 0.0
+    },
+    "Cañada de Verich La": {
+        "cp": 44061.0,
+        "munipio": "Cañada de Verich La",
+        "total": 14.0
+    },
+    "Cañada Vellida": {
+        "cp": 44062.0,
+        "munipio": "Cañada Vellida",
+        "total": 0.0
+    },
+    "Cañizar del Olivar": {
+        "cp": 44063.0,
+        "munipio": "Cañizar del Olivar",
+        "total": 18.0
+    },
+    "Cascante del Río": {
+        "cp": 44064.0,
+        "munipio": "Cascante del Río",
+        "total": 3.0
+    },
+    "Castejón de Tornos": {
+        "cp": 44065.0,
+        "munipio": "Castejón de Tornos",
+        "total": 1.0
+    },
+    "Castel de Cabra": {
+        "cp": 44066.0,
+        "munipio": "Castel de Cabra",
+        "total": 11.0
+    },
+    "Castelnou": {
+        "cp": 44067.0,
+        "munipio": "Castelnou",
+        "total": 31.0
+    },
+    "Castelserás": {
+        "cp": 44068.0,
+        "munipio": "Castelserás",
+        "total": 154.0
+    },
+    "Castellar El": {
+        "cp": 44070.0,
+        "munipio": "Castellar El",
+        "total": 1.0
+    },
+    "Castellote": {
+        "cp": 44071.0,
+        "munipio": "Castellote",
+        "total": 60.0
+    },
+    "Cedrillas": {
+        "cp": 44074.0,
+        "munipio": "Cedrillas",
+        "total": 115.0
+    },
+    "Celadas": {
+        "cp": 44075.0,
+        "munipio": "Celadas",
+        "total": 53.0
+    },
+    "Cella": {
+        "cp": 44076.0,
+        "munipio": "Cella",
+        "total": 372.0
+    },
+    "Cerollera La": {
+        "cp": 44077.0,
+        "munipio": "Cerollera La",
+        "total": 14.0
+    },
+    "Codoñera La": {
+        "cp": 44080.0,
+        "munipio": "Codoñera La",
+        "total": 40.0
+    },
+    "Corbalán": {
+        "cp": 44082.0,
+        "munipio": "Corbalán",
+        "total": 18.0
+    },
+    "Cortes de Aragón": {
+        "cp": 44084.0,
+        "munipio": "Cortes de Aragón",
+        "total": 4.0
+    },
+    "Cosa": {
+        "cp": 44085.0,
+        "munipio": "Cosa",
+        "total": 1.0
+    },
+    "Cretas": {
+        "cp": 44086.0,
+        "munipio": "Cretas",
+        "total": 81.0
+    },
+    "Crivillén": {
+        "cp": 44087.0,
+        "munipio": "Crivillén",
+        "total": 0.0
+    },
+    "Cuba La": {
+        "cp": 44088.0,
+        "munipio": "Cuba La",
+        "total": 4.0
+    },
+    "Cubla": {
+        "cp": 44089.0,
+        "munipio": "Cubla",
+        "total": 5.0
+    },
+    "Cucalón": {
+        "cp": 44090.0,
+        "munipio": "Cucalón",
+        "total": 7.0
+    },
+    "Cuervo El": {
+        "cp": 44092.0,
+        "munipio": "Cuervo El",
+        "total": 8.0
+    },
+    "Cuevas de Almudén": {
+        "cp": 44093.0,
+        "munipio": "Cuevas de Almudén",
+        "total": 21.0
+    },
+    "Cuevas Labradas": {
+        "cp": 44094.0,
+        "munipio": "Cuevas Labradas",
+        "total": 10.0
+    },
+    "Ejulve": {
+        "cp": 44096.0,
+        "munipio": "Ejulve",
+        "total": 11.0
+    },
+    "Escorihuela": {
+        "cp": 44097.0,
+        "munipio": "Escorihuela",
+        "total": 2.0
+    },
+    "Escucha": {
+        "cp": 44099.0,
+        "munipio": "Escucha",
+        "total": 152.0
+    },
+    "Estercuel": {
+        "cp": 44100.0,
+        "munipio": "Estercuel",
+        "total": 18.0
+    },
+    "Ferreruela de Huerva": {
+        "cp": 44101.0,
+        "munipio": "Ferreruela de Huerva",
+        "total": 2.0
+    },
+    "Fonfría": {
+        "cp": 44102.0,
+        "munipio": "Fonfría",
+        "total": 0.0
+    },
+    "Formiche Alto": {
+        "cp": 44103.0,
+        "munipio": "Formiche Alto",
+        "total": 19.0
+    },
+    "Fórnoles": {
+        "cp": 44105.0,
+        "munipio": "Fórnoles",
+        "total": 3.0
+    },
+    "Fortanete": {
+        "cp": 44106.0,
+        "munipio": "Fortanete",
+        "total": 36.0
+    },
+    "Foz-Calanda": {
+        "cp": 44107.0,
+        "munipio": "Foz-Calanda",
+        "total": 33.0
+    },
+    "Fresneda La": {
+        "cp": 44108.0,
+        "munipio": "Fresneda La",
+        "total": 60.0
+    },
+    "Frías de Albarracín": {
+        "cp": 44109.0,
+        "munipio": "Frías de Albarracín",
+        "total": 8.0
+    },
+    "Fuenferrada": {
+        "cp": 44110.0,
+        "munipio": "Fuenferrada",
+        "total": 0.0
+    },
+    "Fuentes Calientes": {
+        "cp": 44111.0,
+        "munipio": "Fuentes Calientes",
+        "total": 6.0
+    },
+    "Fuentes Claras": {
+        "cp": 44112.0,
+        "munipio": "Fuentes Claras",
+        "total": 45.0
+    },
+    "Fuentes de Rubielos": {
+        "cp": 44113.0,
+        "munipio": "Fuentes de Rubielos",
+        "total": 26.0
+    },
+    "Fuentespalda": {
+        "cp": 44114.0,
+        "munipio": "Fuentespalda",
+        "total": 28.0
+    },
+    "Galve": {
+        "cp": 44115.0,
+        "munipio": "Galve",
+        "total": 34.0
+    },
+    "Gargallo": {
+        "cp": 44116.0,
+        "munipio": "Gargallo",
+        "total": 13.0
+    },
+    "Gea de Albarracín": {
+        "cp": 44117.0,
+        "munipio": "Gea de Albarracín",
+        "total": 37.0
+    },
+    "Ginebrosa La": {
+        "cp": 44118.0,
+        "munipio": "Ginebrosa La",
+        "total": 30.0
+    },
+    "Griegos": {
+        "cp": 44119.0,
+        "munipio": "Griegos",
+        "total": 12.0
+    },
+    "Guadalaviar": {
+        "cp": 44120.0,
+        "munipio": "Guadalaviar",
+        "total": 23.0
+    },
+    "Gúdar": {
+        "cp": 44121.0,
+        "munipio": "Gúdar",
+        "total": 13.0
+    },
+    "Híjar": {
+        "cp": 44122.0,
+        "munipio": "Híjar",
+        "total": 279.0
+    },
+    "Hinojosa de Jarque": {
+        "cp": 44123.0,
+        "munipio": "Hinojosa de Jarque",
+        "total": 6.0
+    },
+    "Hoz de la Vieja La": {
+        "cp": 44124.0,
+        "munipio": "Hoz de la Vieja La",
+        "total": 10.0
+    },
+    "Huesa del Común": {
+        "cp": 44125.0,
+        "munipio": "Huesa del Común",
+        "total": 2.0
+    },
+    "Iglesuela del Cid La": {
+        "cp": 44126.0,
+        "munipio": "Iglesuela del Cid La",
+        "total": 57.0
+    },
+    "Jabaloyas": {
+        "cp": 44127.0,
+        "munipio": "Jabaloyas",
+        "total": 1.0
+    },
+    "Jarque de la Val": {
+        "cp": 44128.0,
+        "munipio": "Jarque de la Val",
+        "total": 6.0
+    },
+    "Jatiel": {
+        "cp": 44129.0,
+        "munipio": "Jatiel",
+        "total": 1.0
+    },
+    "Jorcas": {
+        "cp": 44130.0,
+        "munipio": "Jorcas",
+        "total": 4.0
+    },
+    "Josa": {
+        "cp": 44131.0,
+        "munipio": "Josa",
+        "total": 1.0
+    },
+    "Lagueruela": {
+        "cp": 44132.0,
+        "munipio": "Lagueruela",
+        "total": 10.0
+    },
+    "Lanzuela": {
+        "cp": 44133.0,
+        "munipio": "Lanzuela",
+        "total": 3.0
+    },
+    "Libros": {
+        "cp": 44135.0,
+        "munipio": "Libros",
+        "total": 0.0
+    },
+    "Lidón": {
+        "cp": 44136.0,
+        "munipio": "Lidón",
+        "total": 4.0
+    },
+    "Linares de Mora": {
+        "cp": 44137.0,
+        "munipio": "Linares de Mora",
+        "total": 27.0
+    },
+    "Loscos": {
+        "cp": 44138.0,
+        "munipio": "Loscos",
+        "total": 6.0
+    },
+    "Lledó": {
+        "cp": 44141.0,
+        "munipio": "Lledó",
+        "total": 23.0
+    },
+    "Maicas": {
+        "cp": 44142.0,
+        "munipio": "Maicas",
+        "total": 0.0
+    },
+    "Manzanera": {
+        "cp": 44143.0,
+        "munipio": "Manzanera",
+        "total": 82.0
+    },
+    "Martín del Río": {
+        "cp": 44144.0,
+        "munipio": "Martín del Río",
+        "total": 66.0
+    },
+    "Mas de las Matas": {
+        "cp": 44145.0,
+        "munipio": "Mas de las Matas",
+        "total": 179.0
+    },
+    "Mata de los Olmos La": {
+        "cp": 44146.0,
+        "munipio": "Mata de los Olmos La",
+        "total": 50.0
+    },
+    "Mazaleón": {
+        "cp": 44147.0,
+        "munipio": "Mazaleón",
+        "total": 81.0
+    },
+    "Mezquita de Jarque": {
+        "cp": 44148.0,
+        "munipio": "Mezquita de Jarque",
+        "total": 10.0
+    },
+    "Mirambel": {
+        "cp": 44149.0,
+        "munipio": "Mirambel",
+        "total": 15.0
+    },
+    "Miravete de la Sierra": {
+        "cp": 44150.0,
+        "munipio": "Miravete de la Sierra",
+        "total": 3.0
+    },
+    "Molinos": {
+        "cp": 44151.0,
+        "munipio": "Molinos",
+        "total": 30.0
+    },
+    "Monforte de Moyuela": {
+        "cp": 44152.0,
+        "munipio": "Monforte de Moyuela",
+        "total": 1.0
+    },
+    "Monreal del Campo": {
+        "cp": 44153.0,
+        "munipio": "Monreal del Campo",
+        "total": 482.0
+    },
+    "Monroyo": {
+        "cp": 44154.0,
+        "munipio": "Monroyo",
+        "total": 57.0
+    },
+    "Montalbán": {
+        "cp": 44155.0,
+        "munipio": "Montalbán",
+        "total": 167.0
+    },
+    "Monteagudo del Castillo": {
+        "cp": 44156.0,
+        "munipio": "Monteagudo del Castillo",
+        "total": 4.0
+    },
+    "Monterde de Albarracín": {
+        "cp": 44157.0,
+        "munipio": "Monterde de Albarracín",
+        "total": 0.0
+    },
+    "Mora de Rubielos": {
+        "cp": 44158.0,
+        "munipio": "Mora de Rubielos",
+        "total": 272.0
+    },
+    "Moscardón": {
+        "cp": 44159.0,
+        "munipio": "Moscardón",
+        "total": 14.0
+    },
+    "Mosqueruela": {
+        "cp": 44160.0,
+        "munipio": "Mosqueruela",
+        "total": 83.0
+    },
+    "Muniesa": {
+        "cp": 44161.0,
+        "munipio": "Muniesa",
+        "total": 96.0
+    },
+    "Noguera de Albarracín": {
+        "cp": 44163.0,
+        "munipio": "Noguera de Albarracín",
+        "total": 14.0
+    },
+    "Nogueras": {
+        "cp": 44164.0,
+        "munipio": "Nogueras",
+        "total": 2.0
+    },
+    "Nogueruelas": {
+        "cp": 44165.0,
+        "munipio": "Nogueruelas",
+        "total": 29.0
+    },
+    "Obón": {
+        "cp": 44167.0,
+        "munipio": "Obón",
+        "total": 0.0
+    },
+    "Odón": {
+        "cp": 44168.0,
+        "munipio": "Odón",
+        "total": 17.0
+    },
+    "Ojos Negros": {
+        "cp": 44169.0,
+        "munipio": "Ojos Negros",
+        "total": 47.0
+    },
+    "Olba": {
+        "cp": 44171.0,
+        "munipio": "Olba",
+        "total": 38.0
+    },
+    "Oliete": {
+        "cp": 44172.0,
+        "munipio": "Oliete",
+        "total": 33.0
+    },
+    "Olmos Los": {
+        "cp": 44173.0,
+        "munipio": "Olmos Los",
+        "total": 17.0
+    },
+    "Orihuela del Tremedal": {
+        "cp": 44174.0,
+        "munipio": "Orihuela del Tremedal",
+        "total": 55.0
+    },
+    "Orrios": {
+        "cp": 44175.0,
+        "munipio": "Orrios",
+        "total": 4.0
+    },
+    "Palomar de Arroyos": {
+        "cp": 44176.0,
+        "munipio": "Palomar de Arroyos",
+        "total": 11.0
+    },
+    "Pancrudo": {
+        "cp": 44177.0,
+        "munipio": "Pancrudo",
+        "total": 10.0
+    },
+    "Parras de Castellote Las": {
+        "cp": 44178.0,
+        "munipio": "Parras de Castellote Las",
+        "total": 0.0
+    },
+    "Peñarroya de Tastavins": {
+        "cp": 44179.0,
+        "munipio": "Peñarroya de Tastavins",
+        "total": 69.0
+    },
+    "Peracense": {
+        "cp": 44180.0,
+        "munipio": "Peracense",
+        "total": 5.0
+    },
+    "Peralejos": {
+        "cp": 44181.0,
+        "munipio": "Peralejos",
+        "total": 14.0
+    },
+    "Perales del Alfambra": {
+        "cp": 44182.0,
+        "munipio": "Perales del Alfambra",
+        "total": 16.0
+    },
+    "Pitarque": {
+        "cp": 44183.0,
+        "munipio": "Pitarque",
+        "total": 7.0
+    },
+    "Plou": {
+        "cp": 44184.0,
+        "munipio": "Plou",
+        "total": 3.0
+    },
+    "Pobo El": {
+        "cp": 44185.0,
+        "munipio": "Pobo El",
+        "total": 14.0
+    },
+    "Portellada La": {
+        "cp": 44187.0,
+        "munipio": "Portellada La",
+        "total": 33.0
+    },
+    "Pozondón": {
+        "cp": 44189.0,
+        "munipio": "Pozondón",
+        "total": 1.0
+    },
+    "Pozuel del Campo": {
+        "cp": 44190.0,
+        "munipio": "Pozuel del Campo",
+        "total": 1.0
+    },
+    "Puebla de Híjar La": {
+        "cp": 44191.0,
+        "munipio": "Puebla de Híjar La",
+        "total": 131.0
+    },
+    "Puebla de Valverde La": {
+        "cp": 44192.0,
+        "munipio": "Puebla de Valverde La",
+        "total": 66.0
+    },
+    "Puertomingalvo": {
+        "cp": 44193.0,
+        "munipio": "Puertomingalvo",
+        "total": 22.0
+    },
+    "Ráfales": {
+        "cp": 44194.0,
+        "munipio": "Ráfales",
+        "total": 17.0
+    },
+    "Rillo": {
+        "cp": 44195.0,
+        "munipio": "Rillo",
+        "total": 3.0
+    },
+    "Riodeva": {
+        "cp": 44196.0,
+        "munipio": "Riodeva",
+        "total": 15.0
+    },
+    "Ródenas": {
+        "cp": 44197.0,
+        "munipio": "Ródenas",
+        "total": 3.0
+    },
+    "Royuela": {
+        "cp": 44198.0,
+        "munipio": "Royuela",
+        "total": 25.0
+    },
+    "Rubiales": {
+        "cp": 44199.0,
+        "munipio": "Rubiales",
+        "total": 5.0
+    },
+    "Rubielos de la Cérida": {
+        "cp": 44200.0,
+        "munipio": "Rubielos de la Cérida",
+        "total": 0.0
+    },
+    "Rubielos de Mora": {
+        "cp": 44201.0,
+        "munipio": "Rubielos de Mora",
+        "total": 99.0
+    },
+    "Salcedillo": {
+        "cp": 44203.0,
+        "munipio": "Salcedillo",
+        "total": 0.0
+    },
+    "Saldón": {
+        "cp": 44204.0,
+        "munipio": "Saldón",
+        "total": 1.0
+    },
+    "Samper de Calanda": {
+        "cp": 44205.0,
+        "munipio": "Samper de Calanda",
+        "total": 98.0
+    },
+    "San Agustín": {
+        "cp": 44206.0,
+        "munipio": "San Agustín",
+        "total": 9.0
+    },
+    "San Martín del Río": {
+        "cp": 44207.0,
+        "munipio": "San Martín del Río",
+        "total": 6.0
+    },
+    "Santa Cruz de Nogueras": {
+        "cp": 44208.0,
+        "munipio": "Santa Cruz de Nogueras",
+        "total": 2.0
+    },
+    "Santa Eulalia": {
+        "cp": 44209.0,
+        "munipio": "Santa Eulalia",
+        "total": 126.0
+    },
+    "Sarrión": {
+        "cp": 44210.0,
+        "munipio": "Sarrión",
+        "total": 223.0
+    },
+    "Segura de los Baños": {
+        "cp": 44211.0,
+        "munipio": "Segura de los Baños",
+        "total": 0.0
+    },
+    "Seno": {
+        "cp": 44212.0,
+        "munipio": "Seno",
+        "total": 1.0
+    },
+    "Singra": {
+        "cp": 44213.0,
+        "munipio": "Singra",
+        "total": 6.0
+    },
+    "Terriente": {
+        "cp": 44215.0,
+        "munipio": "Terriente",
+        "total": 9.0
+    },
+    "Teruel": {
+        "cp": 44216.0,
+        "munipio": "Teruel",
+        "total": 6903.0
+    },
+    "Toril y Masegoso": {
+        "cp": 44217.0,
+        "munipio": "Toril y Masegoso",
+        "total": 0.0
+    },
+    "Tormón": {
+        "cp": 44218.0,
+        "munipio": "Tormón",
+        "total": 0.0
+    },
+    "Tornos": {
+        "cp": 44219.0,
+        "munipio": "Tornos",
+        "total": 20.0
+    },
+    "Torralba de los Sisones": {
+        "cp": 44220.0,
+        "munipio": "Torralba de los Sisones",
+        "total": 23.0
+    },
+    "Torrecilla de Alcañiz": {
+        "cp": 44221.0,
+        "munipio": "Torrecilla de Alcañiz",
+        "total": 37.0
+    },
+    "Torrecilla del Rebollar": {
+        "cp": 44222.0,
+        "munipio": "Torrecilla del Rebollar",
+        "total": 2.0
+    },
+    "Torre de Arcas": {
+        "cp": 44223.0,
+        "munipio": "Torre de Arcas",
+        "total": 11.0
+    },
+    "Torre de las Arcas": {
+        "cp": 44224.0,
+        "munipio": "Torre de las Arcas",
+        "total": 3.0
+    },
+    "Torre del Compte": {
+        "cp": 44225.0,
+        "munipio": "Torre del Compte",
+        "total": 9.0
+    },
+    "Torrelacárcel": {
+        "cp": 44226.0,
+        "munipio": "Torrelacárcel",
+        "total": 12.0
+    },
+    "Torre los Negros": {
+        "cp": 44227.0,
+        "munipio": "Torre los Negros",
+        "total": 4.0
+    },
+    "Torremocha de Jiloca": {
+        "cp": 44228.0,
+        "munipio": "Torremocha de Jiloca",
+        "total": 7.0
+    },
+    "Torres de Albarracín": {
+        "cp": 44229.0,
+        "munipio": "Torres de Albarracín",
+        "total": 25.0
+    },
+    "Torrevelilla": {
+        "cp": 44230.0,
+        "munipio": "Torrevelilla",
+        "total": 28.0
+    },
+    "Torrijas": {
+        "cp": 44231.0,
+        "munipio": "Torrijas",
+        "total": 6.0
+    },
+    "Torrijo del Campo": {
+        "cp": 44232.0,
+        "munipio": "Torrijo del Campo",
+        "total": 36.0
+    },
+    "Tramacastiel": {
+        "cp": 44234.0,
+        "munipio": "Tramacastiel",
+        "total": 3.0
+    },
+    "Tramacastilla": {
+        "cp": 44235.0,
+        "munipio": "Tramacastilla",
+        "total": 12.0
+    },
+    "Tronchón": {
+        "cp": 44236.0,
+        "munipio": "Tronchón",
+        "total": 4.0
+    },
+    "Urrea de Gaén": {
+        "cp": 44237.0,
+        "munipio": "Urrea de Gaén",
+        "total": 39.0
+    },
+    "Utrillas": {
+        "cp": 44238.0,
+        "munipio": "Utrillas",
+        "total": 499.0
+    },
+    "Valacloche": {
+        "cp": 44239.0,
+        "munipio": "Valacloche",
+        "total": 0.0
+    },
+    "Valbona": {
+        "cp": 44240.0,
+        "munipio": "Valbona",
+        "total": 15.0
+    },
+    "Valdealgorfa": {
+        "cp": 44241.0,
+        "munipio": "Valdealgorfa",
+        "total": 80.0
+    },
+    "Valdecuenca": {
+        "cp": 44243.0,
+        "munipio": "Valdecuenca",
+        "total": 2.0
+    },
+    "Valdelinares": {
+        "cp": 44244.0,
+        "munipio": "Valdelinares",
+        "total": 15.0
+    },
+    "Valdeltormo": {
+        "cp": 44245.0,
+        "munipio": "Valdeltormo",
+        "total": 32.0
+    },
+    "Valderrobres": {
+        "cp": 44246.0,
+        "munipio": "Valderrobres",
+        "total": 466.0
+    },
+    "Valjunquera": {
+        "cp": 44247.0,
+        "munipio": "Valjunquera",
+        "total": 45.0
+    },
+    "Vallecillo El": {
+        "cp": 44249.0,
+        "munipio": "Vallecillo El",
+        "total": 1.0
+    },
+    "Veguillas de la Sierra": {
+        "cp": 44250.0,
+        "munipio": "Veguillas de la Sierra",
+        "total": 0.0
+    },
+    "Villafranca del Campo": {
+        "cp": 44251.0,
+        "munipio": "Villafranca del Campo",
+        "total": 37.0
+    },
+    "Villahermosa del Campo": {
+        "cp": 44252.0,
+        "munipio": "Villahermosa del Campo",
+        "total": 9.0
+    },
+    "Villanueva del Rebollar de la Sierra": {
+        "cp": 44256.0,
+        "munipio": "Villanueva del Rebollar de la Sierra",
+        "total": 7.0
+    },
+    "Villar del Cobo": {
+        "cp": 44257.0,
+        "munipio": "Villar del Cobo",
+        "total": 8.0
+    },
+    "Villar del Salz": {
+        "cp": 44258.0,
+        "munipio": "Villar del Salz",
+        "total": 2.0
+    },
+    "Villarluengo": {
+        "cp": 44260.0,
+        "munipio": "Villarluengo",
+        "total": 23.0
+    },
+    "Villarquemado": {
+        "cp": 44261.0,
+        "munipio": "Villarquemado",
+        "total": 114.0
+    },
+    "Villarroya de los Pinares": {
+        "cp": 44262.0,
+        "munipio": "Villarroya de los Pinares",
+        "total": 22.0
+    },
+    "Villastar": {
+        "cp": 44263.0,
+        "munipio": "Villastar",
+        "total": 92.0
+    },
+    "Villel": {
+        "cp": 44264.0,
+        "munipio": "Villel",
+        "total": 41.0
+    },
+    "Vinaceite": {
+        "cp": 44265.0,
+        "munipio": "Vinaceite",
+        "total": 33.0
+    },
+    "Visiedo": {
+        "cp": 44266.0,
+        "munipio": "Visiedo",
+        "total": 12.0
+    },
+    "Vivel del Río Martín": {
+        "cp": 44267.0,
+        "munipio": "Vivel del Río Martín",
+        "total": 2.0
+    },
+    "Zoma La": {
+        "cp": 44268.0,
+        "munipio": "Zoma La",
+        "total": 0.0
+    }
+}
