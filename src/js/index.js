@@ -25,7 +25,7 @@ animation();
 
 const line = () => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
-    const margin = { top: 24, right: 24, bottom: 24, left: 96 };
+    const margin = { top: 0, right: 24, bottom: 24, left: 72 };
     let width = 0;
     let height = 0;
     const chart = d3.select('.line-teruel');
@@ -51,7 +51,7 @@ const line = () => {
             ]);
 
         const countY = d3.scaleLinear()
-            .domain([d3.min(dataz, d => d.total / 1.5), d3.max(dataz, d => d.total * 1.5)]);
+            .domain([d3.min(dataz, d => d.total / 1.25), d3.max(dataz, d => d.total * 1.25)]);
 
         scales.count = { x: countX,  y: countY };
 
@@ -89,7 +89,7 @@ const line = () => {
 
         const axisY = d3.axisLeft(scales.count.y)
             .tickFormat(locale.format(",.0f"))
-            .ticks(5)
+            .ticks(6)
             .tickSizeInner(-width)
 
         g.select(".axis-y")
@@ -98,7 +98,7 @@ const line = () => {
 
     const updateChart = (dataz) => {
         const w = chart.node().offsetWidth;
-        const h = 600;
+        const h = 550;
 
         width = w - margin.left - margin.right;
         height = h - margin.top - margin.bottom;

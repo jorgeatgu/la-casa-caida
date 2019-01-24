@@ -515,10 +515,11 @@ body {
 }
 
 .section-text {
-    display: inline-block;
+    display: block;
     width: 30rem;
     vertical-align: middle;
-    padding-left: 2rem;
+    padding: 2rem 0 0;
+    margin: 0 auto;
 }
 
 .section-text .title {
@@ -527,6 +528,7 @@ body {
 
 .section-text .text {
         margin-top: .5rem;
+        margin-bottom: 0;
     }
 
 .title {
@@ -534,6 +536,14 @@ body {
     margin-top: 0;
     font-family: 'Playfair Display', serif;
     font-family: var(--title);
+}
+
+.subtittle {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+    font-family: var(--title);
+    margin-bottom: .5rem;
 }
 
 .text {
@@ -551,7 +561,7 @@ body {
 .line-chart .line {
         fill: none;
         stroke-width: 3;
-        stroke: #3A295C;
+        stroke: #b60b46;
     }
 
 .line-chart .axis-y .domain {

@@ -4,6 +4,13 @@
     font-family: var(--title);
 }
 
+.subtittle {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-family: var(--title);
+    margin-bottom: .5rem;
+}
+
 .text {
     font-size: 1rem;
     font-family: var(--text);
@@ -17,7 +24,7 @@
     .line {
         fill: none;
         stroke-width: 3;
-        stroke: #3A295C;
+        stroke: #b60b46;
     }
     .axis-y {
         .domain {
