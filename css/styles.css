@@ -1,1 +1,565 @@
-/*! normalize.css v9.0.1 | MIT License | github.com/csstools/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}main{display:block}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}img{border-style:none}svg:not(:root){overflow:hidden}button,input,select{margin:0}button{overflow:visible;text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}fieldset{padding:.35em .75em .625em}input{overflow:visible}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;white-space:normal}progress{display:inline-block;vertical-align:baseline}select{text-transform:none}textarea{margin:0;overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}::-moz-focus-inner{border-style:none;padding:0}:-moz-focusring{outline:1px dotted ButtonText}details,dialog{display:block}dialog{background-color:#fff;border:solid;color:#000;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;left:0;margin:auto;padding:1em;position:absolute;right:0;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content}dialog:not([open]){display:none}summary{display:list-item}[hidden],template{display:none}:root{--monospace:"SFMono-Regular",Consolas,Menlo,Courier,monospace;--title:"Playfair Display",serif;--text:"Adamina",serif;--black:#111;--white:#fff;--background:#fbded5}body{margin:0;background-color:#fbded5;background-color:var(--background);line-height:1.4;color:#111;color:var(--black);font-family:Adamina,serif;font-family:var(--text)}.container{background-color:#dde8e0;font-size:0}.container-chart{max-width:60rem;margin:0 auto;padding:3rem 0}.bold{font-weight:700}.header{max-width:50rem;margin:0 auto;padding:2rem 0}.header-title{font-size:4rem;font-family:Playfair Display,serif;font-family:var(--title);color:#111;color:var(--black);text-align:center;margin-bottom:1rem;position:relative}.header-title .letter{display:inline-block;line-height:1em}.header-text{font-size:1rem;color:#111;color:var(--black);font-family:Adamina,serif;font-family:var(--text)}.header-ronda,.header-text{max-width:30rem;margin:1rem auto}.header-ronda{width:max-content;position:relative;padding:1rem}.header-ronda:after,.header-ronda:before{content:"";display:inline-block;background-image:url(../img/music-light.svg);background-repeat:no-repeat;width:1rem;height:1rem;position:absolute;top:.5rem;left:-.5rem;font-size:6rem;font-family:Arial}.header-ronda:before{top:75%;left:97%}.header-ronda-text{font-size:14px;display:block;font-family:Adamina,serif;font-family:var(--text)}.text-wrapper{position:relative;display:inline-block;overflow:hidden}.section-image{height:50vh;margin-top:5rem}.section-image,.section-text{display:inline-block;vertical-align:middle}.section-text{width:30rem;padding-left:2rem}.section-text .title{margin-bottom:.25rem}.section-text .text{margin-top:.5rem}.title{font-size:2rem;margin-top:0;font-family:Playfair Display,serif;font-family:var(--title)}.text{font-size:1rem}.line-chart text,.text{font-family:Adamina,serif;font-family:var(--text)}.line-chart text{font-size:14px}.line-chart .line{fill:none;stroke-width:3;stroke:#3a295c}.line-chart .axis-y .domain{stroke:none}.line-chart .axis-y line{stroke-dasharray:3px}
+/*! normalize.css v9.0.1 | MIT License | github.com/csstools/normalize.css */
+
+/* Document
+ * ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+ * ========================================================================== */
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+ * ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * Add the correct display in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+ * ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Add the correct text decoration in Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/* Embedded content
+ * ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+ * ========================================================================== */
+
+/**
+ * Remove the margin in Safari.
+ */
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+/**
+ * 1. Show the overflow in IE.
+ * 2. Remove the inheritance of text transform in Edge, Firefox, and IE.
+ */
+
+button {
+  overflow: visible; /* 1 */
+  text-transform: none; /* 2 */
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * Show the overflow in Edge and IE.
+ */
+
+input {
+  overflow: visible;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * 1. Add the correct display in Edge and IE.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Remove the inheritance of text transform in Firefox.
+ */
+
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Remove the margin in Firefox and Safari.
+ * 2. Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+  margin: 0; /* 1 */
+  overflow: auto; /* 2 */
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Safari.
+ */
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding of focus outlines in Firefox.
+ */
+
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus outline styles unset by the previous rule in Firefox.
+ */
+
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/* Interactive
+ * ========================================================================== */
+
+/*
+ * Add the correct display in Edge and IE.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct styles in Edge, IE, and Safari.
+ */
+
+dialog {
+  background-color: white;
+  border: solid;
+  color: black;
+  display: block;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  left: 0;
+  margin: auto;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+
+dialog:not([open]) {
+  display: none;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Scripting
+ * ========================================================================== */
+
+/**
+ * Add the correct display in IE.
+ */
+
+template {
+  display: none;
+}
+
+/* User interaction
+ * ========================================================================== */
+
+/**
+ * Add the correct display in IE 10-.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/*
+  Base CSS por Jorge Aznar
+  http://jorgeatgu.com
+  Estructura básica para iniciar cualquier proyecto con postCSS
+*/
+
+:root {
+    --monospace: 'SFMono-Regular', Consolas, Menlo, Courier, monospace;
+    --title: 'Playfair Display', serif;
+    --text: 'Adamina', serif;
+    --black: #111;
+    --white: #fff;
+    --background: #FBDED5;
+}
+
+body {
+    margin: 0;
+    background-color: #FBDED5;
+    background-color: var(--background);
+    line-height: 1.4;
+    color: #111;
+    color: var(--black);
+    font-family: 'Adamina', serif;
+    font-family: var(--text);
+}
+
+.container {
+    background-color: #DDE8E0;
+    font-size: 0;
+}
+
+.container-chart {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.labordeta {
+    width: 100%;
+    background-color: #fff;
+    background-color: var(--white);
+    padding: 5rem 0;
+}
+
+.labordeta-song {
+    width: max-content;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+.labordeta-song:before {
+        content: '“';
+        font-family: 'Playfair Display', serif;
+        font-family: var(--title);
+        font-size: 3rem;
+        position: absolute;
+        top: -1.5rem;
+        left: -1.5rem;
+
+    }
+
+.map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.header {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.header-title {
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    font-family: var(--title);
+    color: #111;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.header-title .letter {
+      display: inline-block;
+      line-height: 1em;
+    }
+
+.header-text {
+    font-size: 1rem;
+    color: #111;
+    color: var(--black);
+    font-family: 'Adamina', serif;
+    font-family: var(--text);
+    max-width: 30rem;
+    margin: 1rem auto;
+}
+
+.header-ronda {
+    width: max-content;
+    margin: 1rem auto;
+    position: relative;
+    padding: 1rem;
+    max-width: 30rem;
+}
+
+.header-ronda:after,
+    .header-ronda:before {
+        content: '';
+        display: inline-block;
+        background-image: url('../img/music-light.svg');
+        background-repeat: no-repeat;
+        width: 1rem;
+        height: 1rem;
+        position: absolute;
+        top: .5rem;
+        left: -.5rem;
+        font-size: 6rem;
+        font-family: 'Arial';
+    }
+
+.header-ronda:before {
+        top: 75%;
+        left: 97%;
+    }
+
+.header-ronda-text {
+    font-size: 14px;
+    display: block;
+    font-family: 'Adamina', serif;
+    font-family: var(--text);
+}
+
+.text-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.section-image {
+    height: 50vh;
+    margin-top: 5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.section-text {
+    display: inline-block;
+    width: 30rem;
+    vertical-align: middle;
+    padding-left: 2rem;
+}
+
+.section-text .title {
+        margin-bottom: .25rem;
+    }
+
+.section-text .text {
+        margin-top: .5rem;
+    }
+
+.title {
+    font-size: 2rem;
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+    font-family: var(--title);
+}
+
+.text {
+    font-size: 1rem;
+    font-family: 'Adamina', serif;
+    font-family: var(--text);
+}
+
+.line-chart text {
+        font-family: 'Adamina', serif;
+        font-family: var(--text);
+        font-size: 14px;
+    }
+
+.line-chart .line {
+        fill: none;
+        stroke-width: 3;
+        stroke: #3A295C;
+    }
+
+.line-chart .axis-y .domain {
+            stroke: none;
+        }
+
+.line-chart .axis-y line {
+            stroke-dasharray: 3px;
+        }
+
+/*# sourceMappingURL=styles.css.map */

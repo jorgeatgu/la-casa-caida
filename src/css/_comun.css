@@ -20,3 +20,33 @@ body {
 .bold {
     font-weight: bold;
 }
+
+.labordeta {
+    width: 100%;
+    background-color: var(--white);
+    padding: 5rem 0;
+}
+
+.labordeta-song {
+    width: max-content;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    &:before {
+        content: '“';
+        font-family: var(--title);
+        font-size: 3rem;
+        position: absolute;
+        top: -1.5rem;
+        left: -1.5rem;
+
+    }
+}
+
+.map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 60vh;
+}
