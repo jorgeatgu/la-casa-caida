@@ -603,20 +603,20 @@ body {
     fill: transparent;
 }
 
-.scatter .tooltip {
-        padding: .5rem;
-        background-color: #fff;
-        background-color: var(--white);
-        border-radius: 4px;
-        position: absolute;
-        opacity: 1;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .31), 0 2px 4px 0 rgba(50, 50, 58, .2);
-        box-shadow: var(--shadow);
-    }
+.tooltip {
+    padding: .5rem;
+    background-color: #fff;
+    background-color: var(--white);
+    border-radius: 4px;
+    position: absolute;
+    opacity: 1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .31), 0 2px 4px 0 rgba(50, 50, 58, .2);
+    box-shadow: var(--shadow);
+}
 
-.scatter .tooltip-number {
-        font-weight: bold;
-    }
+.tooltip-number {
+    font-weight: bold;
+}
 
 .scatter .tooltip-citi,
     .scatter .tootlip-population,
@@ -650,6 +650,28 @@ body {
     stroke-width: 3;
     fill: none;
 }
+
+.bar-negative {
+    position: relative;
+}
+
+.bar-negative .tooltip-year,
+    .bar-negative .tooltip-born,
+    .bar-negative .tooltip-deceased {
+        font-size: 14px;
+        font-family: 'Adamina', serif;
+        font-family: var(--text);
+        margin: .25em;
+    }
+
+.bar-negative .tooltip-year + p, .bar-negative .tooltip-born + p, .bar-negative .tooltip-deceased + p {
+            display: none;
+
+        }
+
+.bar-negative .tooltip-year {
+        font-size: 1rem;
+    }
 
 .bar-negative-chart .negative {
         fill: #a01721;

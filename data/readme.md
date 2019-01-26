@@ -81,26 +81,26 @@ jq -s -r '(.[] | sort_by(.properties.c_muni_ine))' zaragoza.json > reorder-zarag
 ```
 
 ```
-csvgrep -c 1 -r "2017" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2016" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2015" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2014" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2013" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2012" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2011" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2010" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2009" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2008" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2007" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2006" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2005" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2004" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2003" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2002" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2001" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "2000" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "1999" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "1998" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "1997" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum &&
-csvgrep -c 1 -r "1996" nacidos-defunciones-saldo-huesca.csv | csvstat -c 7 --sum
+csvgrep -c 1 -r "2017" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2016" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2015" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2014" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2013" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2012" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2011" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2010" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2009" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2008" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2007" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2006" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2005" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2004" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2003" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2002" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2001" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "2000" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "1999" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "1998" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "1997" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
+csvgrep -c 1 -r "1996" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum
 ```

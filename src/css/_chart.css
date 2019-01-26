@@ -46,18 +46,19 @@
     fill: transparent;
 }
 
+.tooltip {
+    padding: .5rem;
+    background-color: var(--white);
+    border-radius: 4px;
+    position: absolute;
+    opacity: 1;
+    box-shadow: var(--shadow);
+}
+.tooltip-number {
+    font-weight: bold;
+}
+
 .scatter {
-    .tooltip {
-        padding: .5rem;
-        background-color: var(--white);
-        border-radius: 4px;
-        position: absolute;
-        opacity: 1;
-        box-shadow: var(--shadow);
-    }
-    .tooltip-number {
-        font-weight: bold;
-    }
     .tooltip-citi,
     .tootlip-population,
     .tootlip-under,
@@ -87,6 +88,24 @@
     fill: none;
 }
 
+.bar-negative {
+    position: relative;
+    .tooltip-year,
+    .tooltip-born,
+    .tooltip-deceased {
+        font-size: 14px;
+        font-family: var(--text);
+        margin: .25em;
+        + p {
+            display: none;
+
+        }
+    }
+    .tooltip-year {
+        font-size: 1rem;
+    }
+}
+
 .bar-negative-chart {
     .negative {
         fill: #a01721;
@@ -94,4 +113,5 @@
     .positive {
         fill: #090387;
     }
+
 }

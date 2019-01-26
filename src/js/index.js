@@ -198,11 +198,10 @@ const barscatter = (csvFile, cities) => {
     const scales = {};
     let dataz;
     let symbolP = "%";
-    const bisectDate = d3.bisector(d => d.mayor).left;
     const tooltip = chart.append("div")
         .attr("class", "tooltip tooltip-under-over")
+        .attr("id", "tooltip-scatter")
         .style("opacity", 0);
-
 
     //Escala para los ejes X e Y
     const setupScales = () => {
@@ -243,11 +242,6 @@ const barscatter = (csvFile, cities) => {
             .attr("transform", "rotate(-90)")
             .style("text-anchor", "start")
             .text("Menores de 18 años");
-
-        g.append('rect').attr('class', 'overlay');
-
-        g.append('g').attr('class', 'focus').style("display", "none");
-
     }
 
     //Actualizando escalas
@@ -310,6 +304,8 @@ const barscatter = (csvFile, cities) => {
 
         layer.merge(newLayer)
             .on("mouseover", function(d) {
+                const tooltipWidth = document.getElementById("tooltip-scatter").offsetWidth;
+                console.log(tooltipWidth)
                 tooltip.transition()
                 tooltip.style("opacity", 1)
                     .html(`<p class="tooltip-citi">${d.city}<p/>
@@ -317,8 +313,8 @@ const barscatter = (csvFile, cities) => {
                         <p class="tootlip-over">Mayores de 65: <span class="tooltip-number">${d.mayor}%</span><p/>
                         <p class="tootlip-under">Menores de 18: <span class="tooltip-number">${d.menor}%</span><p/>
                         `)
-                    .style("left", (d3.event.pageX) - 150 + "px")
-                    .style("top", scales.count.y(d.menor) + "px");
+                    .style("left", (w / 2) - 150 + "px")
+                    .style("top", 100 + "px");
             })
             .on("mouseout", function(d) {
                 tooltip.transition()
@@ -376,6 +372,9 @@ const barNegative = (csvFile, cities) => {
     const svg = chart.select('svg');
     const scales = {};
     let dataz;
+    const tooltip = chart.append("div")
+        .attr("class", "tooltip tooltip-negative")
+        .style("opacity", 0);
 
     //Escala para los ejes X e Y
     const setupScales = () => {
@@ -413,7 +412,6 @@ const barNegative = (csvFile, cities) => {
     const drawAxes = (g) => {
 
         const axisX = d3.axisBottom(scales.count.x)
-            .tickSize(-height)
             .tickPadding(8)
             .tickFormat(d3.format("d"))
 
@@ -468,6 +466,24 @@ const barNegative = (csvFile, cities) => {
 
 
         layer.merge(newLayer)
+            .on("mouseover", function(d) {
+                tooltip.transition()
+                tooltip.style("opacity", 1)
+                    .html(`
+                        <p class="tooltip-year"><span class="tooltip-number">${d.year}</span><p/>
+                        <p class="tooltip-born">Nacidos: <span class="tooltip-number">${d.nacidos}</span><p/>
+                        <p class="tooltip-deceased">Fallecidos: <span class="tooltip-number">${d.fallecidos}</span><p/>
+                        <p class="tooltip-deceased">Saldo: <span class="tooltip-number">${d.saldo}</span><p/>
+                        `)
+                    .style("left", (d3.event.pageX) - (w / 2) + "px")
+                    .style("top", h - scales.count.y(d.saldo) + "px");
+
+            })
+            .on("mouseout", function(d) {
+                tooltip.transition()
+                    .duration(200)
+                    .style("opacity", 0);
+            })
             .attr("width", scales.count.x.bandwidth())
             .attr("x", d => scales.count.x(d.year))
             .attr("y", d => {
@@ -498,6 +514,8 @@ const barNegative = (csvFile, cities) => {
                 dataz.forEach(d => {
                     d.year = d.year;
                     d.saldo = d.saldo;
+                    d.nacidos = d.nacidos;
+                    d.fallecidos = d.fallecidos;
                 });
                 setupElements()
                 setupScales()
@@ -524,6 +542,9 @@ const barNegativeZ = () => {
     const svg = chart.select('svg');
     const scales = {};
     let dataz;
+    const tooltip = chart.append("div")
+        .attr("class", "tooltip tooltip-negative")
+        .style("opacity", 0);
 
     //Escala para los ejes X e Y
     const setupScales = () => {
@@ -561,7 +582,6 @@ const barNegativeZ = () => {
     const drawAxes = (g) => {
 
         const axisX = d3.axisBottom(scales.count.x)
-            .tickSize(-height)
             .tickPadding(8)
             .tickFormat(d3.format("d"))
 
@@ -616,6 +636,24 @@ const barNegativeZ = () => {
 
 
         layer.merge(newLayer)
+            .on("mouseover", function(d) {
+                tooltip.transition()
+                tooltip.style("opacity", 1)
+                    .html(`
+                        <p class="tooltip-year"><span class="tooltip-number">${d.year}</span><p/>
+                        <p class="tooltip-born">Nacidos: <span class="tooltip-number">${d.nacidos}</span><p/>
+                        <p class="tooltip-deceased">Fallecidos: <span class="tooltip-number">${d.fallecidos}</span><p/>
+                        <p class="tooltip-deceased">Saldo: <span class="tooltip-number">${d.saldo}</span><p/>
+                        `)
+                    .style("left", (d3.event.pageX) - (w / 2) + "px")
+                    .style("top", h - scales.count.y(d.saldo) + "px");
+
+            })
+            .on("mouseout", function(d) {
+                tooltip.transition()
+                    .duration(200)
+                    .style("opacity", 0);
+            })
             .attr("width", scales.count.x.bandwidth())
             .attr("x", d => scales.count.x(d.year))
             .attr("y", d => {
