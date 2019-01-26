@@ -16,7 +16,10 @@
     font-family: var(--text);
 }
 
-.line-chart {
+.line-chart,
+.scatter,
+.bar-negative-chart {
+    position: relative;
     text {
         font-family: var(--text);
         font-size: 14px;
@@ -33,5 +36,62 @@
         line {
             stroke-dasharray: 3px;
         }
+    }
+    .legend {
+        font-weight: bold;
+    }
+}
+
+.overlay {
+    fill: transparent;
+}
+
+.scatter {
+    .tooltip {
+        padding: .5rem;
+        background-color: var(--white);
+        border-radius: 4px;
+        position: absolute;
+        opacity: 1;
+        box-shadow: var(--shadow);
+    }
+    .tooltip-number {
+        font-weight: bold;
+    }
+    .tooltip-citi,
+    .tootlip-population,
+    .tootlip-under,
+    .tootlip-over {
+        font-size: 14px;
+        font-family: var(--text);
+        margin: .25em;
+        + p {
+            display: none;
+
+        }
+    }
+    .tooltip-citi {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+
+.scatter-circles {
+    fill: var(--scatter);
+    fill-opacity: .6;
+}
+
+.line-negative {
+    stroke: var(--line-negative);
+    stroke-width: 3;
+    fill: none;
+}
+
+.bar-negative-chart {
+    .negative {
+        fill: #a01721;
+    }
+    .positive {
+        fill: #090387;
     }
 }

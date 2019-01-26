@@ -1,4 +1,9 @@
 .header {
+    width: 100%;
+    background-color: var(--background);
+}
+
+.header-container {
     max-width: 50rem;
     margin: 0 auto;
     padding: 2rem 0;

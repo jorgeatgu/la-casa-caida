@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: var(--background);
     line-height: 1.4;
     color: var(--black);
     font-family: var(--text);
@@ -9,6 +8,10 @@ body {
 .container {
     background-color: #DDE8E0;
     font-size: 0;
+}
+
+.container-bgc {
+    background-color: var(--bgc-teruel);
 }
 
 .container-chart {
@@ -31,6 +34,7 @@ body {
     width: max-content;
     position: relative;
     margin: 0 auto;
+    max-width: 15rem;
     display: block;
     &:before {
         content: '“';
@@ -39,7 +43,6 @@ body {
         position: absolute;
         top: -1.5rem;
         left: -1.5rem;
-
     }
 }
 
