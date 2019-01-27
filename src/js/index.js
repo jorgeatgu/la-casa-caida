@@ -709,7 +709,7 @@ barscatter(csvUnder[2], cities[2]);
 barNegative(csvBalance[0], cities[0]);
 barNegative(csvBalance[1], cities[1]);
 
-const vulturno = () => {
+const linePopulation = () => {
 
     const widthMobile = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
@@ -836,8 +836,9 @@ const vulturno = () => {
             datos = data;
 
             let valueCity = d3.select("#select-city").property("value");
+            let revalueCity = new RegExp("^" + valueCity + "$");
 
-            datos = datos.filter(d => String(d.name).match(valueCity));
+            datos = datos.filter(d => String(d.name).match(revalueCity));
 
             datos.forEach(d => {
                 d.population = +d.population;
@@ -937,7 +938,7 @@ const vulturno = () => {
                 setupElements()
                 setupScales()
                 updateChart(datos)
-                mes = 'Ababuj';
+                mes = datos[0].name;
                 update(mes)
             }
 
@@ -951,4 +952,4 @@ const vulturno = () => {
 
 }
 
-vulturno()
+linePopulation()
