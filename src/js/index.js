@@ -24,6 +24,8 @@ csvUnder = ['data/huesca/huesca-mayor-menor.csv', 'data/teruel/mayor-menor-terue
 
 csvBalance = ['data/huesca/saldo-vegetativo-total-huesca.csv', 'data/teruel/saldo-vegetativo-total-teruel.csv'];
 
+csvCities = ['data/huesca/huesca.csv', 'data/teruel/teruel.csv', 'data/zaragoza/zaragoza.csv']
+
 cities = ['huesca', 'teruel', 'zaragoza'];
 
 const line = (csvFile, cities) => {
@@ -484,7 +486,7 @@ const barNegative = (csvFile, cities) => {
             .attr("width", d => scales.count.x.bandwidth())
             .attr("x", d => scales.count.x(d.year))
             .attr("y", d => {
-                if (d.saldo > 0){
+                if (d.saldo > 0) {
                     return scales.count.y(d.saldo);
                 } else {
                     return scales.count.y(0);
@@ -654,7 +656,7 @@ const barNegativeZ = () => {
             .attr("width", scales.count.x.bandwidth())
             .attr("x", d => scales.count.x(d.year))
             .attr("y", d => {
-                if (d.saldo > 0){
+                if (d.saldo > 0) {
                     return scales.count.y(d.saldo);
                 } else {
                     return scales.count.y(0);
@@ -709,7 +711,7 @@ barscatter(csvUnder[2], cities[2]);
 barNegative(csvBalance[0], cities[0]);
 barNegative(csvBalance[1], cities[1]);
 
-const linePopulation = () => {
+const linePopulation = (csvFile, cities) => {
 
     const widthMobile = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
@@ -721,15 +723,17 @@ const linePopulation = () => {
 
     let width = 0;
     let height = 0;
-    const chart = d3.select('.line-population-teruel');
+    const chart = d3.select(`.line-population-${cities}`);
     const svg = chart.select('svg');
     let scales = {};
     let datos;
+    let tooltipUnder;
+    let tooltipOver;
 
     const setupScales = () => {
 
         const countX = d3.scaleTime()
-            .domain([d3.min(datos, d => d.year), d3.max(datos, d => d.year )]);
+            .domain([d3.min(datos, d => d.year), d3.max(datos, d => d.year)]);
 
         const countY = d3.scaleLinear()
             .domain([0, d3.max(datos, d => d.population) * 1.25]);
@@ -738,17 +742,27 @@ const linePopulation = () => {
 
     }
 
+    const tooltips = (data) => {
+
+        tooltipOver = chart.append("div")
+            .attr("class", "tooltip tooltip-over");
+
+        tooltipOver.data(datos)
+            .html(function(d) { return "<p class='tooltip-media-texto'>El porcentaje de población mayor de 65 años es de: <strong>" + d3.max(datos, d => d.population ) + "%</strong></p>" });
+
+    }
+
 
     //Seleccionamos el contenedor donde irán las escalas y en este caso el area donde se pirntara nuestra gráfica
     const setupElements = () => {
 
-        const g = svg.select('.line-population-teruel-container');
+        const g = svg.select(`.line-population-${cities}-container`);
 
         g.append('g').attr('class', 'axis axis-x');
 
         g.append('g').attr('class', 'axis axis-y');
 
-        g.append('g').attr('class', 'line-population-teruel-container-bis');
+        g.append('g').attr('class', `.line-population-${cities}-container-bis`);
     }
 
     //Actualizando escalas
@@ -800,7 +814,7 @@ const linePopulation = () => {
 
         const translate = "translate(" + margin.left + "," + margin.top + ")";
 
-        const g = svg.select('.line-population-teruel-container')
+        const g = svg.select(`.line-population-${cities}-container`);
 
         g.attr("transform", translate)
 
@@ -810,7 +824,7 @@ const linePopulation = () => {
 
         updateScales(width, height)
 
-        const container = chart.select('.line-population-teruel-container-bis')
+        const container = chart.select(`.line-population-${cities}-container-bis`)
 
         const lines = container.selectAll('.lines')
             .data([datos])
@@ -821,9 +835,13 @@ const linePopulation = () => {
 
         lines.merge(newLines)
             .transition()
-            .duration(600)
+            .duration(400)
             .ease(d3.easeLinear)
-            .attr('d', line);
+            .attrTween('d', function(d) {
+                var previous = d3.select(this).attr('d');
+                var current = line(d);
+                return d3.interpolatePath(previous, current);
+            });
 
         drawAxes(g)
 
@@ -831,11 +849,11 @@ const linePopulation = () => {
 
     function update(mes) {
 
-        d3.csv('data/teruel/teruel.csv', (error, data) => {
+        d3.csv(csvFile, (error, data) => {
 
             datos = data;
 
-            let valueCity = d3.select("#select-city").property("value");
+            let valueCity = d3.select(`#select-city-${cities}`).property("value");
             let revalueCity = new RegExp("^" + valueCity + "$");
 
             datos = datos.filter(d => String(d.name).match(revalueCity));
@@ -851,7 +869,7 @@ const linePopulation = () => {
             scales.count.y.range([height, 0]);
 
             const countX = d3.scaleTime()
-                .domain([d3.min(datos, d => d.year), d3.max(datos, d => d.year )]);
+                .domain([d3.min(datos, d => d.year), d3.max(datos, d => d.year)]);
 
             const countY = d3.scaleLinear()
                 .domain([0, d3.max(datos, d => d.population) * 1.25]);
@@ -870,7 +888,7 @@ const linePopulation = () => {
 
     const resize = () => {
 
-        const stationResize = d3.select("#select-city")
+        const stationResize = d3.select(`#select-city-${cities}`)
             .property("value")
 
         d3.csv("csv/" + stationResize + ".csv", (error, data) => {
@@ -883,7 +901,7 @@ const linePopulation = () => {
     }
 
     const menuMes = () => {
-        d3.csv('data/teruel/teruel.csv', (error, data) => {
+        d3.csv(csvFile, (error, data) => {
             if (error) {
                 console.log(error);
             } else {
@@ -894,7 +912,7 @@ const linePopulation = () => {
                     .key(d => d.select)
                     .entries(datos);
 
-                const selectCity = d3.select("#select-city");
+                const selectCity = d3.select(`#select-city-${cities}`);
 
                 selectCity
                     .selectAll("option")
@@ -924,7 +942,7 @@ const linePopulation = () => {
     // LOAD THE DATA
     const loadData = () => {
 
-        d3.csv('data/teruel/teruel.csv', (error, data) => {
+        d3.csv(csvFile, (error, data) => {
             if (error) {
                 console.log(error);
             } else {
@@ -938,6 +956,7 @@ const linePopulation = () => {
                 setupElements()
                 setupScales()
                 updateChart(datos)
+                tooltips(datos)
                 mes = datos[0].name;
                 update(mes)
             }
@@ -952,4 +971,21 @@ const linePopulation = () => {
 
 }
 
-linePopulation()
+linePopulation(csvCities[0], cities[0]);
+linePopulation(csvCities[1], cities[1]);
+linePopulation(csvCities[2], cities[2]);
+
+new SlimSelect({
+  select: '#select-city-teruel',
+  searchPlaceholder: 'Busca tu municipio'
+})
+
+new SlimSelect({
+  select: '#select-city-huesca',
+  searchPlaceholder: 'Busca tu municipio'
+})
+
+new SlimSelect({
+  select: '#select-city-zaragoza',
+  searchPlaceholder: 'Busca tu municipio'
+})

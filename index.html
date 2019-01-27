@@ -74,7 +74,7 @@
                 <p class="text">En la siguiente gráfica podemos ver como ha ido evolucionando la población de cada uno de los municipios de la provincia de Teruel desde 1900 hasta 2018.</p>
                 <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Y los del 2018 del INE.</span>
             </div>
-            <select id="select-city"></select>
+            <select id="select-city-teruel"></select>
             <article class="line-population-teruel">
                 <svg class="line-population">
                     <g class="line-population-teruel-container"></g>
@@ -134,6 +134,19 @@
             <article class="line-huesca">
                 <svg class="line-chart">
                     <g class="line-huesca-container"></g>
+                </svg>
+            </article>
+        </section>
+        <section class="container-chart">
+            <div class="section-text">
+                <h4 class="subtittle">Evolución de la población por municipio en Huesca.</h4>
+                <p class="text">En la siguiente gráfica podemos ver como ha ido evolucionando la población de cada uno de los municipios de la provincia de Huesca desde 1900 hasta 2018.</p>
+                <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Y los del 2018 del INE.</span>
+            </div>
+            <select id="select-city-huesca"></select>
+            <article class="line-population-huesca">
+                <svg class="line-population">
+                    <g class="line-population-huesca-container"></g>
                 </svg>
             </article>
         </section>
@@ -199,6 +212,19 @@
         </section>
         <section class="container-chart">
             <div class="section-text">
+                <h4 class="subtittle">Evolución de la población por municipio en Zaragoza.</h4>
+                <p class="text">En la siguiente gráfica podemos ver como ha ido evolucionando la población de cada uno de los municipios de la provincia de Zaragoza desde 1900 hasta 2018.</p>
+                <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Y los del 2018 del INE.</span>
+            </div>
+            <select id="select-city-zaragoza"></select>
+            <article class="line-population-huesca">
+                <svg class="line-population">
+                    <g class="line-population-huesca-container"></g>
+                </svg>
+            </article>
+        </section>
+        <section class="container-chart">
+            <div class="section-text">
                 <h4 class="subtittle">Edad de la población - Zaragoza</h4>
                 <p class="text">En la siguiente gráfica podemos ver el porcentaje de <span class="bold">menores de 18 años</span> y <span class="bold">mayores de 65 años</span> que vive en cada municipio. La excepción es que el porcentaje de menores sea superior al 20% de la población. Lo habitual es que el porcentaje de mayores de 65 años sea superior al 20%.</p>
                 <span class="data">Los datos provienen del INE a fecha 2018.</span>
@@ -226,7 +252,9 @@
     </section>
     <footer>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.18.7/slimselect.min.js"></script>
     <script src="js/d3.min.js"></script>
+    <script src="js/d3-interpolate-path.min.js"></script>
     <script src="js/anime.min.js"></script>
     <script src="js/index.js"></script>
 </body>

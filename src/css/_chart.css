@@ -122,3 +122,8 @@
     stroke: #0e2153;
     stroke-width: 2px;
 }
+
+.tooltip-media-texto {
+    font-family: var(--text);
+    font-size: 14px;
+}
