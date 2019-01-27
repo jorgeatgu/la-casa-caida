@@ -441,6 +441,14 @@ body {
     min-height: 60vh;
 }
 
+.data {
+    font-size: 12px;
+    font-family: 'Adamina', serif;
+    font-family: var(--text);
+    display: inline-block;
+    margin: 1rem 0 2rem;
+}
+
 .header {
     width: 100%;
     background-color: #FBDED5;
@@ -571,31 +579,32 @@ body {
 
 .line-chart,
 .scatter,
-.bar-negative-chart {
+.bar-negative-chart,
+.line-population {
     position: relative;
 }
 
-.line-chart text, .scatter text, .bar-negative-chart text {
+.line-chart text, .scatter text, .bar-negative-chart text, .line-population text {
         font-family: 'Adamina', serif;
         font-family: var(--text);
         font-size: 14px;
     }
 
-.line-chart .line, .scatter .line, .bar-negative-chart .line {
+.line-chart .line, .scatter .line, .bar-negative-chart .line, .line-population .line {
         fill: none;
         stroke-width: 3;
         stroke: #b60b46;
     }
 
-.line-chart .axis-y .domain, .scatter .axis-y .domain, .bar-negative-chart .axis-y .domain {
+.line-chart .axis-y .domain, .scatter .axis-y .domain, .bar-negative-chart .axis-y .domain, .line-population .axis-y .domain {
             stroke: none;
         }
 
-.line-chart .axis-y line, .scatter .axis-y line, .bar-negative-chart .axis-y line {
+.line-chart .axis-y line, .scatter .axis-y line, .bar-negative-chart .axis-y line, .line-population .axis-y line {
             stroke-dasharray: 3px;
         }
 
-.line-chart .legend, .scatter .legend, .bar-negative-chart .legend {
+.line-chart .legend, .scatter .legend, .bar-negative-chart .legend, .line-population .legend {
         font-weight: bold;
     }
 
@@ -680,5 +689,11 @@ body {
 .bar-negative-chart .positive {
         fill: #090387;
     }
+
+.lines {
+    fill: none;
+    stroke: #0e2153;
+    stroke-width: 2px;
+}
 
 /*# sourceMappingURL=styles.css.map */

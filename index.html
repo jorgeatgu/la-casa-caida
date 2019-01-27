@@ -57,9 +57,18 @@
             <p class="text">El futuro se marcha, obligado por aquellos que pudieron hacer algo y ni tan si quiera lo intentaron.</p>
         </div>
         <section class="container-chart">
+            <select id="select-city"></select>
+            <article class="line-population-teruel">
+                <svg class="line-population">
+                    <g class="line-population-teruel-container"></g>
+                </svg>
+            </article>
+        </section>
+        <section class="container-chart">
             <div class="section-text">
-                <h4 class="subtittle">Evolución de la población</h4>
+                <h4 class="subtittle">Evolución de la población - Teruel</h4>
                 <p class="text">En la siguiente gráfica podemos ver como ha ido evolucionando la población total de la provincia de Teruel desde 1900 hasta 2018.</p>
+                <span class="data">Datos: Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Y los del 2018 del INE.</span>
             </div>
             <article class="line-teruel">
                 <svg class="line-chart">
@@ -69,8 +78,9 @@
         </section>
         <section class="container-chart">
             <div class="section-text">
-                <h4 class="subtittle">Edad de la población</h4>
-                <p class="text">En la siguiente gráfica podemos ver el porcentaje de <span class="bold">menores de 18 años</span> y <span class="bold">mayores de 65 años</span> que vive en cada municipio. La excepción es que el porcentaje de menores sea superior al 20% de la población. Lo habitual es que el porcentaje de mayores de 65 años sea superior al 20%.</p>
+                <h4 class="subtittle">Edad de la población - Teruel</h4>
+                <p class="text">En la siguiente gráfica podemos ver el porcentaje de <span class="bold">menores de 18 años</span> y <span class="bold">mayores de 65 años</span> que vive en cada municipio, los datos son del INE a fecha de 2018. La excepción es que el porcentaje de menores sea superior al 20% de la población. Lo habitual es que el porcentaje de mayores de 65 años sea superior al 20%.</p>
+                <span class="data">Datos: Los datos provienen del INE a fecha 2018.</span>
             </div>
             <article class="scatter scatter-teruel">
                 <svg>
@@ -81,7 +91,8 @@
         <section class="container-chart">
             <div class="section-text">
                 <h4 class="subtittle">Saldo vegetativo en Teruel</h4>
-                <p class="text">El saldo vegetativo es el resultado del número de nacimientos menos el número de fallecimientos. En esta gráfica podemos ver el resultado total de todos los municipios de Huesca.</p>
+                <p class="text">El saldo vegetativo es el resultado del número de nacimientos menos el número de fallecimientos. En esta gráfica podemos ver el <span class="bold">resultado total de todos los municipios de Huesca</span>.</p>
+                <span class="data">Datos: Los datos provienen del IAEST a fecha 2017.</span>
             </div>
             <article class="bar-negative bar-negative-teruel">
                 <svg class="bar-negative-chart">
@@ -111,8 +122,9 @@
         </div>
         <section class="container-chart">
             <div class="section-text">
-                <h4 class="subtittle">Evolución de la población</h4>
+                <h4 class="subtittle">Evolución de la población - Huesca</h4>
                 <p class="text">En la siguiente gráfica podemos ver como ha ido evolucionando la población total de la provincia de Huesca desde 1900 hasta 2018.</p>
+                <span class="data">Datos: Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Y los del 2018 del INE.</span>
             </div>
             <article class="line-huesca">
                 <svg class="line-chart">
@@ -122,8 +134,9 @@
         </section>
         <section class="container-chart">
             <div class="section-text">
-                <h4 class="subtittle">Edad de la población</h4>
-                <p class="text">En la siguiente gráfica podemos ver el porcentaje de <span class="bold">menores de 18 años</span> y <span class="bold">mayores de 65 años</span> que vive en cada municipio. La excepción es que el porcentaje de menores sea superior al 20% de la población. Lo habitual es que el porcentaje de mayores de 65 años sea superior al 20%.</p>
+                <h4 class="subtittle">Edad de la población - Huesca</h4>
+                <p class="text">En la siguiente gráfica podemos ver el porcentaje de <span class="bold">menores de 18 años</span> y <span class="bold">mayores de 65 años</span> que vive en cada municipio, los datos son del INE a fecha de 2018. La excepción es que el porcentaje de menores sea superior al 20% de la población. Lo habitual es que el porcentaje de mayores de 65 años sea superior al 20%.</p>
+                <span class="data">Datos: Los datos provienen del INE a fecha 2018.</span>
             </div>
             <article class="scatter scatter-huesca">
                 <svg>
@@ -134,7 +147,8 @@
         <section class="container-chart">
             <div class="section-text">
                 <h4 class="subtittle">Saldo vegetativo en Huesca</h4>
-                <p class="text">El saldo vegetativo es el resultado del número de nacimientos menos el número de fallecimientos. En esta gráfica podemos ver el resultado total de todos los municipios de Huesca.</p>
+                <p class="text">El saldo vegetativo es el resultado del número de nacimientos menos el número de fallecimientos. En esta gráfica podemos ver el <span class="bold">resultado total de todos los municipios de Huesca</span>.</p>
+                <span class="data">Datos: Los datos provienen del IAEST a fecha 2017.</span>
             </div>
             <article class="bar-negative bar-negative-huesca">
                 <svg class="bar-negative-chart">
@@ -156,7 +170,7 @@
             <p class="header-ronda">
                 <span class="header-ronda-text">Siempre te recuerdo "Vieja"</span>
                 <span class="header-ronda-text">Sentada junto al portal</span>
-                <span class="header-ronda-text">Acaricienado la lumbre</span>
+                <span class="header-ronda-text">Acariciando la lumbre</span>
                 <span class="header-ronda-text">La cadiera y el pozal</span>
                 <span class="header-ronda-text">La tristeza de tus ojos de tanto mirar</span>
                 <span class="header-ronda-text">Hijos que van hacia Francia</span>
@@ -164,12 +178,13 @@
                 <span class="header-ronda-text">El Miguel dice que va bueno</span>
                 <span class="header-ronda-text">Y parió la del Julian</span>
             </p>
-            <p class="text">Zaragoza al contrario que sus hermanas ha doblado la población en menos de un siglo. Su privilegiada situación en el valle del Ebro y con menos de 300KM de distancia de Madrid, Barcelona, Valencia y Bilbao ha hecho que la provincia y sobre todo la ciudad crezca.</p>
+            <p class="text">Zaragoza al contrario que sus hermanas ha doblado la población en menos de un siglo. Su privilegiada situación en el valle del Ebro y con menos de 300KM de distancia de Madrid, Barcelona, Valencia y Bilbao ha hecho que algunos municipios de la provicina y sobre todo la propia capital crezcan.</p>
         </div>
         <section class="container-chart">
             <div class="section-text">
-                <h4 class="subtittle">Evolución de la población</h4>
+                <h4 class="subtittle">Evolución de la población - Zaragoza</h4>
                 <p class="text">En la siguiente gráfica podemos ver como ha ido evolucionando la población total de la provincia de Zaragoza desde 1900 hasta 2018.</p>
+                <span class="data">Datos: Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Y los del 2018 del INE.</span>
             </div>
             <article class="line-zaragoza">
                 <svg class="line-chart">
@@ -179,8 +194,9 @@
         </section>
         <section class="container-chart">
             <div class="section-text">
-                <h4 class="subtittle">Edad de la población</h4>
+                <h4 class="subtittle">Edad de la población - Zaragoza</h4>
                 <p class="text">En la siguiente gráfica podemos ver el porcentaje de <span class="bold">menores de 18 años</span> y <span class="bold">mayores de 65 años</span> que vive en cada municipio. La excepción es que el porcentaje de menores sea superior al 20% de la población. Lo habitual es que el porcentaje de mayores de 65 años sea superior al 20%.</p>
+                <span class="data">Datos: Los datos provienen del INE a fecha 2018.</span>
             </div>
             <article class="scatter scatter-zaragoza">
                 <svg>
@@ -191,7 +207,8 @@
         <section class="container-chart">
             <div class="section-text">
                 <h4 class="subtittle">Saldo vegetativo en Zaragoza</h4>
-                <p class="text">El saldo vegetativo es el resultado del número de nacimientos menos el número de fallecimientos. En esta gráfica podemos ver el resultado total de todos los municipios de Zaragoza.</p>
+                <p class="text">El saldo vegetativo es el resultado del número de nacimientos menos el número de fallecimientos. En esta gráfica podemos ver el <span class="bold">resultado total de todos los municipios de Zaragoza</span>.</p>
+                <span class="data">Datos: Los datos provienen del IAEST a fecha 2017.</span>
             </div>
             <article class="bar-negative bar-negative-zaragoza">
                 <svg class="bar-negative-chart">

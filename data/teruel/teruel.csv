@@ -1,240 +1,240 @@
-year,cp,name,population
-1900,44001,Ababuj,459
-1900,44002,Abejuela,698
-1900,44003,Aguatón,181
-1900,44004,Aguaviva,1781
-1900,44005,Aguilar del Alfambra,524
-1900,44006,Alacón,931
-1900,44007,Alba,634
-1900,44008,Albalate del Arzobispo,4291
-1900,44009,Albarracín,1932
-1900,44010,Albentosa,1003
-1900,44011,Alcaine,1103
-1900,44012,Alcalá de la Selva,1648
-1900,44013,Alcañiz,7699
-1900,44014,Alcorisa,3119
-1900,44016,Alfambra,1355
-1900,44017,Aliaga,1754
-1900,44018,Almohaja,243
-1900,44019,Alobras,546
-1900,44020,Alpeñés,224
-1900,44021,Allepuz,1040
-1900,44022,Alloza,1773
-1900,44023,Allueva,216
-1900,44024,Anadón,355
-1900,44025,Andorra,2704
-1900,44026,Arcos de las Salinas,1353
-1900,44027,Arens de Lledó,759
-1900,44028,Argente,716
-1900,44029,Ariño,1366
-1900,44031,Azaila,742
-1900,44032,Bádenas,454
-1900,44033,Báguena,1420
-1900,44034,Bañón,693
-1900,44035,Barrachina,697
-1900,44036,Bea,170
-1900,44037,Beceite,2252
-1900,44038,Belmonte de San José,817
-1900,44039,Bello,989
-1900,44040,Berge,816
-1900,44041,Bezas,357
-1900,44042,Blancas,859
-1900,44043,Blesa,1325
-1900,44044,Bordón,586
-1900,44045,Bronchales,950
-1900,44046,Bueña,352
-1900,44047,Burbáguena,1350
-1900,44048,Cabra de Mora,563
-1900,44049,Calaceite,2579
-1900,44050,Calamocha,6017
-1900,44051,Calanda,3924
-1900,44052,Calomarde,422
-1900,44053,Camañas,450
-1900,44054,Camarena de la Sierra,882
-1900,44055,Camarillas,816
-1900,44056,Caminreal,1349
-1900,44059,Cantavieja,1962
-1900,44060,Cañada de Benatanduz,642
-1900,44061,Cañada de Verich (La),287
-1900,44062,Cañada Vellida,201
-1900,44063,Cañizar del Olivar,507
-1900,44064,Cascante del Río,574
-1900,44065,Castejón de Tornos,475
-1900,44066,Castel de Cabra,623
-1900,44067,Castelnou,680
-1900,44068,Castelserás,2177
-1900,44070,Castellar (El),489
-1900,44071,Castellote,5122
-1900,44074,Cedrillas,957
-1900,44075,Celadas,876
-1900,44076,Cella,2567
-1900,44077,Cerollera (La),450
-1900,44080,Codoñera (La),1342
-1900,44082,Corbalán,484
-1900,44084,Cortes de Aragón,492
-1900,44085,Cosa,385
-1900,44086,Cretas,1562
-1900,44087,Crivillén,937
-1900,44088,Cuba (La),357
-1900,44089,Cubla,363
-1900,44090,Cucalón,525
-1900,44092,Cuervo (El),576
-1900,44093,Cuevas de Almudén,243
-1900,44094,Cuevas Labradas,401
-1900,44096,Ejulve,1291
-1900,44097,Escorihuela,493
-1900,44099,Escucha,707
-1900,44100,Estercuel,964
-1900,44101,Ferreruela de Huerva,262
-1900,44102,Fonfría,205
-1900,44103,Formiche Alto,1029
-1900,44105,Fórnoles,742
-1900,44106,Fortanete,1570
-1900,44107,Foz-Calanda,786
-1900,44108,Fresneda (La),1799
-1900,44109,Frías de Albarracín,665
-1900,44110,Fuenferrada,402
-1900,44111,Fuentes Calientes,243
-1900,44112,Fuentes Claras,1123
-1900,44113,Fuentes de Rubielos,895
-1900,44114,Fuentespalda,927
-1900,44115,Galve,468
-1900,44116,Gargallo,644
-1900,44117,Gea de Albarracín,1168
-1900,44118,Ginebrosa (La),1116
-1900,44119,Griegos,415
-1900,44120,Guadalaviar,492
-1900,44121,Gúdar,730
-1900,44122,Híjar,3330
-1900,44123,Hinojosa de Jarque,546
-1900,44124,Hoz de la Vieja (La),924
-1900,44125,Huesa del Común,1284
-1900,44126,Iglesuela del Cid (La),1485
-1900,44127,Jabaloyas,934
-1900,44128,Jarque de la Val,277
-1900,44129,Jatiel,255
-1900,44130,Jorcas,462
-1900,44131,Josa,615
-1900,44132,Lagueruela,252
-1900,44133,Lanzuela,243
-1900,44135,Libros,607
-1900,44136,Lidón,308
-1900,44137,Linares de Mora,1592
-1900,44138,Loscos,1507
-1900,44141,Lledó,580
-1900,44142,Maicas,391
-1900,44143,Manzanera,2750
-1900,44144,Martín del Río,729
-1900,44145,Mas de las Matas,1981
-1900,44146,Mata de los Olmos (La),458
-1900,44147,Mazaleón,1403
-1900,44148,Mezquita de Jarque,327
-1900,44149,Mirambel,835
-1900,44150,Miravete de la Sierra,486
-1900,44151,Molinos,1405
-1900,44152,Monforte de Moyuela,694
-1900,44153,Monreal del Campo,2330
-1900,44154,Monroyo,1284
-1900,44155,Montalbán,2020
-1900,44156,Monteagudo del Castillo,489
-1900,44157,Monterde de Albarracín,488
-1900,44158,Mora de Rubielos,3213
-1900,44159,Moscardón,494
-1900,44160,Mosqueruela,3103
-1900,44161,Muniesa,1860
-1900,44163,Noguera de Albarracín,489
-1900,44164,Nogueras,359
-1900,44165,Nogueruelas,1156
-1900,44167,Obón,1257
-1900,44168,Odón,974
-1900,44169,Ojos Negros,1436
-1900,44171,Olba,1802
-1900,44172,Oliete,2146
-1900,44173,Olmos (Los),600
-1900,44174,Orihuela del Tremedal,945
-1900,44175,Orrios,430
-1900,44176,Palomar de Arroyos,612
-1900,44177,Pancrudo,1000
-1900,44178,Parras de Castellote (Las),1107
-1900,44179,Peñarroya de Tastavins,1702
-1900,44180,Peracense,385
-1900,44181,Peralejos,286
-1900,44182,Perales del Alfambra,817
-1900,44183,Pitarque,938
-1900,44184,Plou,529
-1900,44185,Pobo (El),497
-1900,44187,Portellada (La),860
-1900,44189,Pozondón,539
-1900,44190,Pozuel del Campo,598
-1900,44191,Puebla de Híjar (La),1921
-1900,44192,Puebla de Valverde (La),1982
-1900,44193,Puertomingalvo,1271
-1900,44194,Ráfales,859
-1900,44195,Rillo,502
-1900,44196,Riodeva,716
-1900,44197,Ródenas,415
-1900,44198,Royuela,459
-1900,44199,Rubiales,290
-1900,44200,Rubielos de la Cérida,501
-1900,44201,Rubielos de Mora,2284
-1900,44203,Salcedillo,155
-1900,44204,Saldón,435
-1900,44205,Samper de Calanda,2647
-1900,44206,San Agustín,1204
-1900,44207,San Martín del Río,1330
-1900,44208,Santa Cruz de Nogueras,346
-1900,44209,Santa Eulalia,1164
-1900,44210,Sarrión,2233
-1900,44211,Segura de los Baños,795
-1900,44212,Seno,453
-1900,44213,Singra,399
-1900,44215,Terriente,1109
-1900,44216,Teruel,12745
-1900,44217,Toril y Masegoso,366
-1900,44218,Tormón,303
-1900,44219,Tornos,578
-1900,44220,Torralba de los Sisones,608
-1900,44221,Torrecilla de Alcañiz,1105
-1900,44222,Torrecilla del Rebollar,891
-1900,44223,Torre de Arcas,485
-1900,44224,Torre de las Arcas,545
-1900,44225,Torre del Compte,748
-1900,44226,Torrelacárcel,521
-1900,44227,Torre los Negros,456
-1900,44228,Torremocha de Jiloca,420
-1900,44229,Torres de Albarracín,591
-1900,44230,Torrevelilla,776
-1900,44231,Torrijas,689
-1900,44232,Torrijo del Campo,1308
-1900,44234,Tramacastiel,668
-1900,44235,Tramacastilla,455
-1900,44236,Tronchón,997
-1900,44237,Urrea de Gaén,1195
-1900,44238,Utrillas,712
-1900,44239,Valacloche,219
-1900,44240,Valbona,675
-1900,44241,Valdealgorfa,1665
-1900,44243,Valdecuenca,320
-1900,44244,Valdelinares,825
-1900,44245,Valdeltormo,699
-1900,44246,Valderrobres,3058
-1900,44247,Valjunquera,1225
-1900,44249,Vallecillo (El),467
-1900,44250,Veguillas de la Sierra,292
-1900,44251,Villafranca del Campo,988
-1900,44252,Villahermosa del Campo,236
-1900,44256,Villanueva del Rebollar de la Sierra,309
-1900,44257,Villar del Cobo,596
-1900,44258,Villar del Salz,412
-1900,44260,Villarluengo,2128
-1900,44261,Villarquemado,872
-1900,44262,Villarroya de los Pinares,1095
-1900,44263,Villastar,737
-1900,44264,Villel,1182
-1900,44265,Vinaceite,544
-1900,44266,Visiedo,656
-1900,44267,Vivel del Río Martín,946
-1900,44268,Zoma (La),181
+year,cp,name,population,select
+1900,44001,Ababuj,459,Ababuj
+1900,44002,Abejuela,698,Abejuela
+1900,44003,Aguatón,181,Aguatón
+1900,44004,Aguaviva,1781,Aguaviva
+1900,44005,Aguilar del Alfambra,524,Aguilar del Alfambra
+1900,44006,Alacón,931,Alacón
+1900,44007,Alba,634,Alba
+1900,44008,Albalate del Arzobispo,4291,Albalate del Arzobispo
+1900,44009,Albarracín,1932,Albarracín
+1900,44010,Albentosa,1003,Albentosa
+1900,44011,Alcaine,1103,Alcaine
+1900,44012,Alcalá de la Selva,1648,Alcalá de la Selva
+1900,44013,Alcañiz,7699,Alcañiz
+1900,44014,Alcorisa,3119,Alcorisa
+1900,44016,Alfambra,1355,Alfambra
+1900,44017,Aliaga,1754,Aliaga
+1900,44018,Almohaja,243,Almohaja
+1900,44019,Alobras,546,Alobras
+1900,44020,Alpeñés,224,Alpeñés
+1900,44021,Allepuz,1040,Allepuz
+1900,44022,Alloza,1773,Alloza
+1900,44023,Allueva,216,Allueva
+1900,44024,Anadón,355,Anadón
+1900,44025,Andorra,2704,Andorra
+1900,44026,Arcos de las Salinas,1353,Arcos de las Salinas
+1900,44027,Arens de Lledó,759,Arens de Lledó
+1900,44028,Argente,716,Argente
+1900,44029,Ariño,1366,Ariño
+1900,44031,Azaila,742,Azaila
+1900,44032,Bádenas,454,Bádenas
+1900,44033,Báguena,1420,Báguena
+1900,44034,Bañón,693,Bañón
+1900,44035,Barrachina,697,Barrachina
+1900,44036,Bea,170,Bea
+1900,44037,Beceite,2252,Beceite
+1900,44038,Belmonte de San José,817,Belmonte de San José
+1900,44039,Bello,989,Bello
+1900,44040,Berge,816,Berge
+1900,44041,Bezas,357,Bezas
+1900,44042,Blancas,859,Blancas
+1900,44043,Blesa,1325,Blesa
+1900,44044,Bordón,586,Bordón
+1900,44045,Bronchales,950,Bronchales
+1900,44046,Bueña,352,Bueña
+1900,44047,Burbáguena,1350,Burbáguena
+1900,44048,Cabra de Mora,563,Cabra de Mora
+1900,44049,Calaceite,2579,Calaceite
+1900,44050,Calamocha,6017,Calamocha
+1900,44051,Calanda,3924,Calanda
+1900,44052,Calomarde,422,Calomarde
+1900,44053,Camañas,450,Camañas
+1900,44054,Camarena de la Sierra,882,Camarena de la Sierra
+1900,44055,Camarillas,816,Camarillas
+1900,44056,Caminreal,1349,Caminreal
+1900,44059,Cantavieja,1962,Cantavieja
+1900,44060,Cañada de Benatanduz,642,Cañada de Benatanduz
+1900,44061,Cañada de Verich La,287,Cañada de Verich La
+1900,44062,Cañada Vellida,201,Cañada Vellida
+1900,44063,Cañizar del Olivar,507,Cañizar del Olivar
+1900,44064,Cascante del Río,574,Cascante del Río
+1900,44065,Castejón de Tornos,475,Castejón de Tornos
+1900,44066,Castel de Cabra,623,Castel de Cabra
+1900,44067,Castelnou,680,Castelnou
+1900,44068,Castelserás,2177,Castelserás
+1900,44070,Castellar El,489,Castellar El
+1900,44071,Castellote,5122,Castellote
+1900,44074,Cedrillas,957,Cedrillas
+1900,44075,Celadas,876,Celadas
+1900,44076,Cella,2567,Cella
+1900,44077,Cerollera La,450,Cerollera La
+1900,44080,Codoñera La,1342,Codoñera La
+1900,44082,Corbalán,484,Corbalán
+1900,44084,Cortes de Aragón,492,Cortes de Aragón
+1900,44085,Cosa,385,Cosa
+1900,44086,Cretas,1562,Cretas
+1900,44087,Crivillén,937,Crivillén
+1900,44088,Cuba La,357,Cuba La
+1900,44089,Cubla,363,Cubla
+1900,44090,Cucalón,525,Cucalón
+1900,44092,Cuervo El,576,Cuervo El
+1900,44093,Cuevas de Almudén,243,Cuevas de Almudén
+1900,44094,Cuevas Labradas,401,Cuevas Labradas
+1900,44096,Ejulve,1291,Ejulve
+1900,44097,Escorihuela,493,Escorihuela
+1900,44099,Escucha,707,Escucha
+1900,44100,Estercuel,964,Estercuel
+1900,44101,Ferreruela de Huerva,262,Ferreruela de Huerva
+1900,44102,Fonfría,205,Fonfría
+1900,44103,Formiche Alto,1029,Formiche Alto
+1900,44105,Fórnoles,742,Fórnoles
+1900,44106,Fortanete,1570,Fortanete
+1900,44107,Foz-Calanda,786,Foz-Calanda
+1900,44108,Fresneda La,1799,Fresneda La
+1900,44109,Frías de Albarracín,665,Frías de Albarracín
+1900,44110,Fuenferrada,402,Fuenferrada
+1900,44111,Fuentes Calientes,243,Fuentes Calientes
+1900,44112,Fuentes Claras,1123,Fuentes Claras
+1900,44113,Fuentes de Rubielos,895,Fuentes de Rubielos
+1900,44114,Fuentespalda,927,Fuentespalda
+1900,44115,Galve,468,Galve
+1900,44116,Gargallo,644,Gargallo
+1900,44117,Gea de Albarracín,1168,Gea de Albarracín
+1900,44118,Ginebrosa La,1116,Ginebrosa La
+1900,44119,Griegos,415,Griegos
+1900,44120,Guadalaviar,492,Guadalaviar
+1900,44121,Gúdar,730,Gúdar
+1900,44122,Híjar,3330,Híjar
+1900,44123,Hinojosa de Jarque,546,Hinojosa de Jarque
+1900,44124,Hoz de la Vieja La,924,Hoz de la Vieja La
+1900,44125,Huesa del Común,1284,Huesa del Común
+1900,44126,Iglesuela del Cid La,1485,Iglesuela del Cid La
+1900,44127,Jabaloyas,934,Jabaloyas
+1900,44128,Jarque de la Val,277,Jarque de la Val
+1900,44129,Jatiel,255,Jatiel
+1900,44130,Jorcas,462,Jorcas
+1900,44131,Josa,615,Josa
+1900,44132,Lagueruela,252,Lagueruela
+1900,44133,Lanzuela,243,Lanzuela
+1900,44135,Libros,607,Libros
+1900,44136,Lidón,308,Lidón
+1900,44137,Linares de Mora,1592,Linares de Mora
+1900,44138,Loscos,1507,Loscos
+1900,44141,Lledó,580,Lledó
+1900,44142,Maicas,391,Maicas
+1900,44143,Manzanera,2750,Manzanera
+1900,44144,Martín del Río,729,Martín del Río
+1900,44145,Mas de las Matas,1981,Mas de las Matas
+1900,44146,Mata de los Olmos La,458,Mata de los Olmos La
+1900,44147,Mazaleón,1403,Mazaleón
+1900,44148,Mezquita de Jarque,327,Mezquita de Jarque
+1900,44149,Mirambel,835,Mirambel
+1900,44150,Miravete de la Sierra,486,Miravete de la Sierra
+1900,44151,Molinos,1405,Molinos
+1900,44152,Monforte de Moyuela,694,Monforte de Moyuela
+1900,44153,Monreal del Campo,2330,Monreal del Campo
+1900,44154,Monroyo,1284,Monroyo
+1900,44155,Montalbán,2020,Montalbán
+1900,44156,Monteagudo del Castillo,489,Monteagudo del Castillo
+1900,44157,Monterde de Albarracín,488,Monterde de Albarracín
+1900,44158,Mora de Rubielos,3213,Mora de Rubielos
+1900,44159,Moscardón,494,Moscardón
+1900,44160,Mosqueruela,3103,Mosqueruela
+1900,44161,Muniesa,1860,Muniesa
+1900,44163,Noguera de Albarracín,489,Noguera de Albarracín
+1900,44164,Nogueras,359,Nogueras
+1900,44165,Nogueruelas,1156,Nogueruelas
+1900,44167,Obón,1257,Obón
+1900,44168,Odón,974,Odón
+1900,44169,Ojos Negros,1436,Ojos Negros
+1900,44171,Olba,1802,Olba
+1900,44172,Oliete,2146,Oliete
+1900,44173,Olmos Los,600,Olmos Los
+1900,44174,Orihuela del Tremedal,945,Orihuela del Tremedal
+1900,44175,Orrios,430,Orrios
+1900,44176,Palomar de Arroyos,612,Palomar de Arroyos
+1900,44177,Pancrudo,1000,Pancrudo
+1900,44178,Parras de Castellote Las,1107,Parras de Castellote Las
+1900,44179,Peñarroya de Tastavins,1702,Peñarroya de Tastavins
+1900,44180,Peracense,385,Peracense
+1900,44181,Peralejos,286,Peralejos
+1900,44182,Perales del Alfambra,817,Perales del Alfambra
+1900,44183,Pitarque,938,Pitarque
+1900,44184,Plou,529,Plou
+1900,44185,Pobo El,497,Pobo El
+1900,44187,Portellada La,860,Portellada La
+1900,44189,Pozondón,539,Pozondón
+1900,44190,Pozuel del Campo,598,Pozuel del Campo
+1900,44191,Puebla de Híjar La,1921,Puebla de Híjar La
+1900,44192,Puebla de Valverde La,1982,Puebla de Valverde La
+1900,44193,Puertomingalvo,1271,Puertomingalvo
+1900,44194,Ráfales,859,Ráfales
+1900,44195,Rillo,502,Rillo
+1900,44196,Riodeva,716,Riodeva
+1900,44197,Ródenas,415,Ródenas
+1900,44198,Royuela,459,Royuela
+1900,44199,Rubiales,290,Rubiales
+1900,44200,Rubielos de la Cérida,501,Rubielos de la Cérida
+1900,44201,Rubielos de Mora,2284,Rubielos de Mora
+1900,44203,Salcedillo,155,Salcedillo
+1900,44204,Saldón,435,Saldón
+1900,44205,Samper de Calanda,2647,Samper de Calanda
+1900,44206,San Agustín,1204,San Agustín
+1900,44207,San Martín del Río,1330,San Martín del Río
+1900,44208,Santa Cruz de Nogueras,346,Santa Cruz de Nogueras
+1900,44209,Santa Eulalia,1164,Santa Eulalia
+1900,44210,Sarrión,2233,Sarrión
+1900,44211,Segura de los Baños,795,Segura de los Baños
+1900,44212,Seno,453,Seno
+1900,44213,Singra,399,Singra
+1900,44215,Terriente,1109,Terriente
+1900,44216,Teruel,12745,Teruel
+1900,44217,Toril y Masegoso,366,Toril y Masegoso
+1900,44218,Tormón,303,Tormón
+1900,44219,Tornos,578,Tornos
+1900,44220,Torralba de los Sisones,608,Torralba de los Sisones
+1900,44221,Torrecilla de Alcañiz,1105,Torrecilla de Alcañiz
+1900,44222,Torrecilla del Rebollar,891,Torrecilla del Rebollar
+1900,44223,Torre de Arcas,485,Torre de Arcas
+1900,44224,Torre de las Arcas,545,Torre de las Arcas
+1900,44225,Torre del Compte,748,Torre del Compte
+1900,44226,Torrelacárcel,521,Torrelacárcel
+1900,44227,Torre los Negros,456,Torre los Negros
+1900,44228,Torremocha de Jiloca,420,Torremocha de Jiloca
+1900,44229,Torres de Albarracín,591,Torres de Albarracín
+1900,44230,Torrevelilla,776,Torrevelilla
+1900,44231,Torrijas,689,Torrijas
+1900,44232,Torrijo del Campo,1308,Torrijo del Campo
+1900,44234,Tramacastiel,668,Tramacastiel
+1900,44235,Tramacastilla,455,Tramacastilla
+1900,44236,Tronchón,997,Tronchón
+1900,44237,Urrea de Gaén,1195,Urrea de Gaén
+1900,44238,Utrillas,712,Utrillas
+1900,44239,Valacloche,219,Valacloche
+1900,44240,Valbona,675,Valbona
+1900,44241,Valdealgorfa,1665,Valdealgorfa
+1900,44243,Valdecuenca,320,Valdecuenca
+1900,44244,Valdelinares,825,Valdelinares
+1900,44245,Valdeltormo,699,Valdeltormo
+1900,44246,Valderrobres,3058,Valderrobres
+1900,44247,Valjunquera,1225,Valjunquera
+1900,44249,Vallecillo El,467,Vallecillo El
+1900,44250,Veguillas de la Sierra,292,Veguillas de la Sierra
+1900,44251,Villafranca del Campo,988,Villafranca del Campo
+1900,44252,Villahermosa del Campo,236,Villahermosa del Campo
+1900,44256,Villanueva del Rebollar de la Sierra,309,Villanueva del Rebollar de la Sierra
+1900,44257,Villar del Cobo,596,Villar del Cobo
+1900,44258,Villar del Salz,412,Villar del Salz
+1900,44260,Villarluengo,2128,Villarluengo
+1900,44261,Villarquemado,872,Villarquemado
+1900,44262,Villarroya de los Pinares,1095,Villarroya de los Pinares
+1900,44263,Villastar,737,Villastar
+1900,44264,Villel,1182,Villel
+1900,44265,Vinaceite,544,Vinaceite
+1900,44266,Visiedo,656,Visiedo
+1900,44267,Vivel del Río Martín,946,Vivel del Río Martín
+1900,44268,Zoma La,181,Zoma La
 1910,44001,Ababuj,458
 1910,44002,Abejuela,711
 1910,44003,Aguatón,185
@@ -291,7 +291,7 @@ year,cp,name,population
 1910,44056,Caminreal,1420
 1910,44059,Cantavieja,2049
 1910,44060,Cañada de Benatanduz,611
-1910,44061,Cañada de Verich (La),318
+1910,44061,Cañada de Verich La,318
 1910,44062,Cañada Vellida,192
 1910,44063,Cañizar del Olivar,579
 1910,44064,Cascante del Río,612
@@ -299,22 +299,22 @@ year,cp,name,population
 1910,44066,Castel de Cabra,603
 1910,44067,Castelnou,549
 1910,44068,Castelserás,2154
-1910,44070,Castellar (El),491
+1910,44070,Castellar El,491
 1910,44071,Castellote,5398
 1910,44074,Cedrillas,987
 1910,44075,Celadas,883
 1910,44076,Cella,2751
-1910,44077,Cerollera (La),465
-1910,44080,Codoñera (La),1099
+1910,44077,Cerollera La,465
+1910,44080,Codoñera La,1099
 1910,44082,Corbalán,480
 1910,44084,Cortes de Aragón,531
 1910,44085,Cosa,415
 1910,44086,Cretas,1698
 1910,44087,Crivillén,997
-1910,44088,Cuba (La),396
+1910,44088,Cuba La,396
 1910,44089,Cubla,309
 1910,44090,Cucalón,523
-1910,44092,Cuervo (El),481
+1910,44092,Cuervo El,481
 1910,44093,Cuevas de Almudén,233
 1910,44094,Cuevas Labradas,401
 1910,44096,Ejulve,1413
@@ -327,7 +327,7 @@ year,cp,name,population
 1910,44105,Fórnoles,753
 1910,44106,Fortanete,1406
 1910,44107,Foz-Calanda,764
-1910,44108,Fresneda (La),1915
+1910,44108,Fresneda La,1915
 1910,44109,Frías de Albarracín,696
 1910,44110,Fuenferrada,407
 1910,44111,Fuentes Calientes,253
@@ -337,15 +337,15 @@ year,cp,name,population
 1910,44115,Galve,450
 1910,44116,Gargallo,609
 1910,44117,Gea de Albarracín,1110
-1910,44118,Ginebrosa (La),1152
+1910,44118,Ginebrosa La,1152
 1910,44119,Griegos,429
 1910,44120,Guadalaviar,562
 1910,44121,Gúdar,689
 1910,44122,Híjar,3776
 1910,44123,Hinojosa de Jarque,521
-1910,44124,Hoz de la Vieja (La),975
+1910,44124,Hoz de la Vieja La,975
 1910,44125,Huesa del Común,1432
-1910,44126,Iglesuela del Cid (La),1486
+1910,44126,Iglesuela del Cid La,1486
 1910,44127,Jabaloyas,959
 1910,44128,Jarque de la Val,290
 1910,44129,Jatiel,252
@@ -362,7 +362,7 @@ year,cp,name,population
 1910,44143,Manzanera,2985
 1910,44144,Martín del Río,825
 1910,44145,Mas de las Matas,2223
-1910,44146,Mata de los Olmos (La),467
+1910,44146,Mata de los Olmos La,467
 1910,44147,Mazaleón,1443
 1910,44148,Mezquita de Jarque,319
 1910,44149,Mirambel,851
@@ -386,24 +386,24 @@ year,cp,name,population
 1910,44169,Ojos Negros,2573
 1910,44171,Olba,1743
 1910,44172,Oliete,2533
-1910,44173,Olmos (Los),586
+1910,44173,Olmos Los,586
 1910,44174,Orihuela del Tremedal,897
 1910,44175,Orrios,418
 1910,44176,Palomar de Arroyos,654
 1910,44177,Pancrudo,1013
-1910,44178,Parras de Castellote (Las),1201
+1910,44178,Parras de Castellote Las,1201
 1910,44179,Peñarroya de Tastavins,1608
 1910,44180,Peracense,419
 1910,44181,Peralejos,272
 1910,44182,Perales del Alfambra,778
 1910,44183,Pitarque,883
 1910,44184,Plou,574
-1910,44185,Pobo (El),556
-1910,44187,Portellada (La),815
+1910,44185,Pobo El,556
+1910,44187,Portellada La,815
 1910,44189,Pozondón,592
 1910,44190,Pozuel del Campo,603
-1910,44191,Puebla de Híjar (La),2360
-1910,44192,Puebla de Valverde (La),2193
+1910,44191,Puebla de Híjar La,2360
+1910,44192,Puebla de Valverde La,2193
 1910,44193,Puertomingalvo,1406
 1910,44194,Ráfales,900
 1910,44195,Rillo,447
@@ -455,7 +455,7 @@ year,cp,name,population
 1910,44245,Valdeltormo,774
 1910,44246,Valderrobres,3262
 1910,44247,Valjunquera,1297
-1910,44249,Vallecillo (El),510
+1910,44249,Vallecillo El,510
 1910,44250,Veguillas de la Sierra,272
 1910,44251,Villafranca del Campo,1027
 1910,44252,Villahermosa del Campo,248
@@ -470,7 +470,7 @@ year,cp,name,population
 1910,44265,Vinaceite,654
 1910,44266,Visiedo,593
 1910,44267,Vivel del Río Martín,981
-1910,44268,Zoma (La),167
+1910,44268,Zoma La,167
 1920,44001,Ababuj,409
 1920,44002,Abejuela,696
 1920,44003,Aguatón,179
@@ -527,7 +527,7 @@ year,cp,name,population
 1920,44056,Caminreal,1649
 1920,44059,Cantavieja,2005
 1920,44060,Cañada de Benatanduz,522
-1920,44061,Cañada de Verich (La),274
+1920,44061,Cañada de Verich La,274
 1920,44062,Cañada Vellida,211
 1920,44063,Cañizar del Olivar,503
 1920,44064,Cascante del Río,576
@@ -535,22 +535,22 @@ year,cp,name,population
 1920,44066,Castel de Cabra,530
 1920,44067,Castelnou,505
 1920,44068,Castelserás,2186
-1920,44070,Castellar (El),489
+1920,44070,Castellar El,489
 1920,44071,Castellote,4890
 1920,44074,Cedrillas,1029
 1920,44075,Celadas,907
 1920,44076,Cella,3197
-1920,44077,Cerollera (La),415
-1920,44080,Codoñera (La),1223
+1920,44077,Cerollera La,415
+1920,44080,Codoñera La,1223
 1920,44082,Corbalán,469
 1920,44084,Cortes de Aragón,519
 1920,44085,Cosa,419
 1920,44086,Cretas,1801
 1920,44087,Crivillén,845
-1920,44088,Cuba (La),376
+1920,44088,Cuba La,376
 1920,44089,Cubla,327
 1920,44090,Cucalón,515
-1920,44092,Cuervo (El),567
+1920,44092,Cuervo El,567
 1920,44093,Cuevas de Almudén,252
 1920,44094,Cuevas Labradas,393
 1920,44096,Ejulve,1352
@@ -563,7 +563,7 @@ year,cp,name,population
 1920,44105,Fórnoles,792
 1920,44106,Fortanete,1355
 1920,44107,Foz-Calanda,710
-1920,44108,Fresneda (La),2008
+1920,44108,Fresneda La,2008
 1920,44109,Frías de Albarracín,672
 1920,44110,Fuenferrada,339
 1920,44111,Fuentes Calientes,268
@@ -573,15 +573,15 @@ year,cp,name,population
 1920,44115,Galve,407
 1920,44116,Gargallo,614
 1920,44117,Gea de Albarracín,1076
-1920,44118,Ginebrosa (La),991
+1920,44118,Ginebrosa La,991
 1920,44119,Griegos,481
 1920,44120,Guadalaviar,631
 1920,44121,Gúdar,657
 1920,44122,Híjar,3850
 1920,44123,Hinojosa de Jarque,510
-1920,44124,Hoz de la Vieja (La),977
+1920,44124,Hoz de la Vieja La,977
 1920,44125,Huesa del Común,1223
-1920,44126,Iglesuela del Cid (La),1430
+1920,44126,Iglesuela del Cid La,1430
 1920,44127,Jabaloyas,708
 1920,44128,Jarque de la Val,338
 1920,44129,Jatiel,257
@@ -598,7 +598,7 @@ year,cp,name,population
 1920,44143,Manzanera,2368
 1920,44144,Martín del Río,882
 1920,44145,Mas de las Matas,2142
-1920,44146,Mata de los Olmos (La),445
+1920,44146,Mata de los Olmos La,445
 1920,44147,Mazaleón,1627
 1920,44148,Mezquita de Jarque,326
 1920,44149,Mirambel,791
@@ -622,24 +622,24 @@ year,cp,name,population
 1920,44169,Ojos Negros,2114
 1920,44171,Olba,1793
 1920,44172,Oliete,2327
-1920,44173,Olmos (Los),518
+1920,44173,Olmos Los,518
 1920,44174,Orihuela del Tremedal,1052
 1920,44175,Orrios,409
 1920,44176,Palomar de Arroyos,612
 1920,44177,Pancrudo,1097
-1920,44178,Parras de Castellote (Las),985
+1920,44178,Parras de Castellote Las,985
 1920,44179,Peñarroya de Tastavins,1600
 1920,44180,Peracense,431
 1920,44181,Peralejos,279
 1920,44182,Perales del Alfambra,848
 1920,44183,Pitarque,889
 1920,44184,Plou,493
-1920,44185,Pobo (El),553
-1920,44187,Portellada (La),823
+1920,44185,Pobo El,553
+1920,44187,Portellada La,823
 1920,44189,Pozondón,595
 1920,44190,Pozuel del Campo,602
-1920,44191,Puebla de Híjar (La),2724
-1920,44192,Puebla de Valverde (La),2242
+1920,44191,Puebla de Híjar La,2724
+1920,44192,Puebla de Valverde La,2242
 1920,44193,Puertomingalvo,1421
 1920,44194,Ráfales,907
 1920,44195,Rillo,527
@@ -691,7 +691,7 @@ year,cp,name,population
 1920,44245,Valdeltormo,831
 1920,44246,Valderrobres,3197
 1920,44247,Valjunquera,1322
-1920,44249,Vallecillo (El),442
+1920,44249,Vallecillo El,442
 1920,44250,Veguillas de la Sierra,211
 1920,44251,Villafranca del Campo,1098
 1920,44252,Villahermosa del Campo,274
@@ -706,7 +706,7 @@ year,cp,name,population
 1920,44265,Vinaceite,653
 1920,44266,Visiedo,620
 1920,44267,Vivel del Río Martín,956
-1920,44268,Zoma (La),160
+1920,44268,Zoma La,160
 1930,44001,Ababuj,373
 1930,44002,Abejuela,597
 1930,44003,Aguatón,194
@@ -763,7 +763,7 @@ year,cp,name,population
 1930,44056,Caminreal,1691
 1930,44059,Cantavieja,1866
 1930,44060,Cañada de Benatanduz,490
-1930,44061,Cañada de Verich (La),225
+1930,44061,Cañada de Verich La,225
 1930,44062,Cañada Vellida,201
 1930,44063,Cañizar del Olivar,385
 1930,44064,Cascante del Río,584
@@ -771,22 +771,22 @@ year,cp,name,population
 1930,44066,Castel de Cabra,548
 1930,44067,Castelnou,492
 1930,44068,Castelserás,2087
-1930,44070,Castellar (El),471
+1930,44070,Castellar El,471
 1930,44071,Castellote,4400
 1930,44074,Cedrillas,1034
 1930,44075,Celadas,962
 1930,44076,Cella,3685
-1930,44077,Cerollera (La),341
-1930,44080,Codoñera (La),982
+1930,44077,Cerollera La,341
+1930,44080,Codoñera La,982
 1930,44082,Corbalán,510
 1930,44084,Cortes de Aragón,537
 1930,44085,Cosa,490
 1930,44086,Cretas,1704
 1930,44087,Crivillén,762
-1930,44088,Cuba (La),339
+1930,44088,Cuba La,339
 1930,44089,Cubla,377
 1930,44090,Cucalón,567
-1930,44092,Cuervo (El),502
+1930,44092,Cuervo El,502
 1930,44093,Cuevas de Almudén,251
 1930,44094,Cuevas Labradas,394
 1930,44096,Ejulve,1139
@@ -799,7 +799,7 @@ year,cp,name,population
 1930,44105,Fórnoles,739
 1930,44106,Fortanete,1301
 1930,44107,Foz-Calanda,713
-1930,44108,Fresneda (La),1698
+1930,44108,Fresneda La,1698
 1930,44109,Frías de Albarracín,605
 1930,44110,Fuenferrada,374
 1930,44111,Fuentes Calientes,278
@@ -809,15 +809,15 @@ year,cp,name,population
 1930,44115,Galve,386
 1930,44116,Gargallo,503
 1930,44117,Gea de Albarracín,1151
-1930,44118,Ginebrosa (La),912
+1930,44118,Ginebrosa La,912
 1930,44119,Griegos,455
 1930,44120,Guadalaviar,591
 1930,44121,Gúdar,508
 1930,44122,Híjar,3807
 1930,44123,Hinojosa de Jarque,536
-1930,44124,Hoz de la Vieja (La),979
+1930,44124,Hoz de la Vieja La,979
 1930,44125,Huesa del Común,1194
-1930,44126,Iglesuela del Cid (La),1345
+1930,44126,Iglesuela del Cid La,1345
 1930,44127,Jabaloyas,783
 1930,44128,Jarque de la Val,318
 1930,44129,Jatiel,254
@@ -834,7 +834,7 @@ year,cp,name,population
 1930,44143,Manzanera,2387
 1930,44144,Martín del Río,895
 1930,44145,Mas de las Matas,2102
-1930,44146,Mata de los Olmos (La),455
+1930,44146,Mata de los Olmos La,455
 1930,44147,Mazaleón,1653
 1930,44148,Mezquita de Jarque,355
 1930,44149,Mirambel,810
@@ -858,24 +858,24 @@ year,cp,name,population
 1930,44169,Ojos Negros,2815
 1930,44171,Olba,1469
 1930,44172,Oliete,2258
-1930,44173,Olmos (Los),513
+1930,44173,Olmos Los,513
 1930,44174,Orihuela del Tremedal,1118
 1930,44175,Orrios,430
 1930,44176,Palomar de Arroyos,607
 1930,44177,Pancrudo,1012
-1930,44178,Parras de Castellote (Las),860
+1930,44178,Parras de Castellote Las,860
 1930,44179,Peñarroya de Tastavins,1507
 1930,44180,Peracense,455
 1930,44181,Peralejos,339
 1930,44182,Perales del Alfambra,832
 1930,44183,Pitarque,860
 1930,44184,Plou,433
-1930,44185,Pobo (El),512
-1930,44187,Portellada (La),765
+1930,44185,Pobo El,512
+1930,44187,Portellada La,765
 1930,44189,Pozondón,616
 1930,44190,Pozuel del Campo,634
-1930,44191,Puebla de Híjar (La),2849
-1930,44192,Puebla de Valverde (La),2133
+1930,44191,Puebla de Híjar La,2849
+1930,44192,Puebla de Valverde La,2133
 1930,44193,Puertomingalvo,1309
 1930,44194,Ráfales,809
 1930,44195,Rillo,520
@@ -927,7 +927,7 @@ year,cp,name,population
 1930,44245,Valdeltormo,774
 1930,44246,Valderrobres,3148
 1930,44247,Valjunquera,1213
-1930,44249,Vallecillo (El),409
+1930,44249,Vallecillo El,409
 1930,44250,Veguillas de la Sierra,217
 1930,44251,Villafranca del Campo,1085
 1930,44252,Villahermosa del Campo,287
@@ -942,7 +942,7 @@ year,cp,name,population
 1930,44265,Vinaceite,729
 1930,44266,Visiedo,629
 1930,44267,Vivel del Río Martín,913
-1930,44268,Zoma (La),143
+1930,44268,Zoma La,143
 1940,44001,Ababuj,409
 1940,44002,Abejuela,561
 1940,44003,Aguatón,139
@@ -999,7 +999,7 @@ year,cp,name,population
 1940,44056,Caminreal,1835
 1940,44059,Cantavieja,1674
 1940,44060,Cañada de Benatanduz,452
-1940,44061,Cañada de Verich (La),242
+1940,44061,Cañada de Verich La,242
 1940,44062,Cañada Vellida,191
 1940,44063,Cañizar del Olivar,483
 1940,44064,Cascante del Río,553
@@ -1007,22 +1007,22 @@ year,cp,name,population
 1940,44066,Castel de Cabra,518
 1940,44067,Castelnou,442
 1940,44068,Castelserás,1857
-1940,44070,Castellar (El),501
+1940,44070,Castellar El,501
 1940,44071,Castellote,3700
 1940,44074,Cedrillas,1012
 1940,44075,Celadas,777
 1940,44076,Cella,3834
-1940,44077,Cerollera (La),355
-1940,44080,Codoñera (La),878
+1940,44077,Cerollera La,355
+1940,44080,Codoñera La,878
 1940,44082,Corbalán,457
 1940,44084,Cortes de Aragón,465
 1940,44085,Cosa,483
 1940,44086,Cretas,1512
 1940,44087,Crivillén,795
-1940,44088,Cuba (La),336
+1940,44088,Cuba La,336
 1940,44089,Cubla,359
 1940,44090,Cucalón,545
-1940,44092,Cuervo (El),474
+1940,44092,Cuervo El,474
 1940,44093,Cuevas de Almudén,241
 1940,44094,Cuevas Labradas,391
 1940,44096,Ejulve,967
@@ -1035,7 +1035,7 @@ year,cp,name,population
 1940,44105,Fórnoles,677
 1940,44106,Fortanete,1095
 1940,44107,Foz-Calanda,722
-1940,44108,Fresneda (La),1591
+1940,44108,Fresneda La,1591
 1940,44109,Frías de Albarracín,536
 1940,44110,Fuenferrada,323
 1940,44111,Fuentes Calientes,279
@@ -1045,15 +1045,15 @@ year,cp,name,population
 1940,44115,Galve,405
 1940,44116,Gargallo,494
 1940,44117,Gea de Albarracín,1086
-1940,44118,Ginebrosa (La),957
+1940,44118,Ginebrosa La,957
 1940,44119,Griegos,294
 1940,44120,Guadalaviar,474
 1940,44121,Gúdar,437
 1940,44122,Híjar,3688
 1940,44123,Hinojosa de Jarque,512
-1940,44124,Hoz de la Vieja (La),967
+1940,44124,Hoz de la Vieja La,967
 1940,44125,Huesa del Común,915
-1940,44126,Iglesuela del Cid (La),1229
+1940,44126,Iglesuela del Cid La,1229
 1940,44127,Jabaloyas,590
 1940,44128,Jarque de la Val,294
 1940,44129,Jatiel,260
@@ -1070,7 +1070,7 @@ year,cp,name,population
 1940,44143,Manzanera,2083
 1940,44144,Martín del Río,771
 1940,44145,Mas de las Matas,2107
-1940,44146,Mata de los Olmos (La),499
+1940,44146,Mata de los Olmos La,499
 1940,44147,Mazaleón,1347
 1940,44148,Mezquita de Jarque,326
 1940,44149,Mirambel,732
@@ -1094,24 +1094,24 @@ year,cp,name,population
 1940,44169,Ojos Negros,1888
 1940,44171,Olba,1434
 1940,44172,Oliete,2044
-1940,44173,Olmos (Los),539
+1940,44173,Olmos Los,539
 1940,44174,Orihuela del Tremedal,1093
 1940,44175,Orrios,455
 1940,44176,Palomar de Arroyos,684
 1940,44177,Pancrudo,766
-1940,44178,Parras de Castellote (Las),778
+1940,44178,Parras de Castellote Las,778
 1940,44179,Peñarroya de Tastavins,1392
 1940,44180,Peracense,430
 1940,44181,Peralejos,282
 1940,44182,Perales del Alfambra,789
 1940,44183,Pitarque,746
 1940,44184,Plou,312
-1940,44185,Pobo (El),503
-1940,44187,Portellada (La),693
+1940,44185,Pobo El,503
+1940,44187,Portellada La,693
 1940,44189,Pozondón,576
 1940,44190,Pozuel del Campo,614
-1940,44191,Puebla de Híjar (La),2542
-1940,44192,Puebla de Valverde (La),1800
+1940,44191,Puebla de Híjar La,2542
+1940,44192,Puebla de Valverde La,1800
 1940,44193,Puertomingalvo,1181
 1940,44194,Ráfales,715
 1940,44195,Rillo,486
@@ -1163,7 +1163,7 @@ year,cp,name,population
 1940,44245,Valdeltormo,754
 1940,44246,Valderrobres,2929
 1940,44247,Valjunquera,1145
-1940,44249,Vallecillo (El),441
+1940,44249,Vallecillo El,441
 1940,44250,Veguillas de la Sierra,210
 1940,44251,Villafranca del Campo,1032
 1940,44252,Villahermosa del Campo,276
@@ -1178,7 +1178,7 @@ year,cp,name,population
 1940,44265,Vinaceite,655
 1940,44266,Visiedo,555
 1940,44267,Vivel del Río Martín,874
-1940,44268,Zoma (La),141
+1940,44268,Zoma La,141
 1950,44001,Ababuj,400
 1950,44002,Abejuela,503
 1950,44003,Aguatón,153
@@ -1235,7 +1235,7 @@ year,cp,name,population
 1950,44056,Caminreal,1840
 1950,44059,Cantavieja,1587
 1950,44060,Cañada de Benatanduz,405
-1950,44061,Cañada de Verich (La),261
+1950,44061,Cañada de Verich La,261
 1950,44062,Cañada Vellida,206
 1950,44063,Cañizar del Olivar,509
 1950,44064,Cascante del Río,496
@@ -1243,22 +1243,22 @@ year,cp,name,population
 1950,44066,Castel de Cabra,533
 1950,44067,Castelnou,352
 1950,44068,Castelserás,1513
-1950,44070,Castellar (El),396
+1950,44070,Castellar El,396
 1950,44071,Castellote,3312
 1950,44074,Cedrillas,1031
 1950,44075,Celadas,875
 1950,44076,Cella,3909
-1950,44077,Cerollera (La),301
-1950,44080,Codoñera (La),801
+1950,44077,Cerollera La,301
+1950,44080,Codoñera La,801
 1950,44082,Corbalán,405
 1950,44084,Cortes de Aragón,401
 1950,44085,Cosa,470
 1950,44086,Cretas,1390
 1950,44087,Crivillén,778
-1950,44088,Cuba (La),286
+1950,44088,Cuba La,286
 1950,44089,Cubla,344
 1950,44090,Cucalón,536
-1950,44092,Cuervo (El),401
+1950,44092,Cuervo El,401
 1950,44093,Cuevas de Almudén,244
 1950,44094,Cuevas Labradas,390
 1950,44096,Ejulve,923
@@ -1271,7 +1271,7 @@ year,cp,name,population
 1950,44105,Fórnoles,501
 1950,44106,Fortanete,944
 1950,44107,Foz-Calanda,585
-1950,44108,Fresneda (La),1171
+1950,44108,Fresneda La,1171
 1950,44109,Frías de Albarracín,506
 1950,44110,Fuenferrada,318
 1950,44111,Fuentes Calientes,340
@@ -1281,15 +1281,15 @@ year,cp,name,population
 1950,44115,Galve,376
 1950,44116,Gargallo,480
 1950,44117,Gea de Albarracín,1022
-1950,44118,Ginebrosa (La),867
+1950,44118,Ginebrosa La,867
 1950,44119,Griegos,396
 1950,44120,Guadalaviar,554
 1950,44121,Gúdar,308
 1950,44122,Híjar,3586
 1950,44123,Hinojosa de Jarque,549
-1950,44124,Hoz de la Vieja (La),816
+1950,44124,Hoz de la Vieja La,816
 1950,44125,Huesa del Común,824
-1950,44126,Iglesuela del Cid (La),1119
+1950,44126,Iglesuela del Cid La,1119
 1950,44127,Jabaloyas,549
 1950,44128,Jarque de la Val,263
 1950,44129,Jatiel,218
@@ -1306,7 +1306,7 @@ year,cp,name,population
 1950,44143,Manzanera,1722
 1950,44144,Martín del Río,1023
 1950,44145,Mas de las Matas,1985
-1950,44146,Mata de los Olmos (La),494
+1950,44146,Mata de los Olmos La,494
 1950,44147,Mazaleón,1258
 1950,44148,Mezquita de Jarque,345
 1950,44149,Mirambel,588
@@ -1330,24 +1330,24 @@ year,cp,name,population
 1950,44169,Ojos Negros,1853
 1950,44171,Olba,1261
 1950,44172,Oliete,1943
-1950,44173,Olmos (Los),493
+1950,44173,Olmos Los,493
 1950,44174,Orihuela del Tremedal,1079
 1950,44175,Orrios,496
 1950,44176,Palomar de Arroyos,791
 1950,44177,Pancrudo,1024
-1950,44178,Parras de Castellote (Las),752
+1950,44178,Parras de Castellote Las,752
 1950,44179,Peñarroya de Tastavins,1286
 1950,44180,Peracense,374
 1950,44181,Peralejos,273
 1950,44182,Perales del Alfambra,840
 1950,44183,Pitarque,657
 1950,44184,Plou,330
-1950,44185,Pobo (El),555
-1950,44187,Portellada (La),661
+1950,44185,Pobo El,555
+1950,44187,Portellada La,661
 1950,44189,Pozondón,544
 1950,44190,Pozuel del Campo,547
-1950,44191,Puebla de Híjar (La),2738
-1950,44192,Puebla de Valverde (La),1743
+1950,44191,Puebla de Híjar La,2738
+1950,44192,Puebla de Valverde La,1743
 1950,44193,Puertomingalvo,971
 1950,44194,Ráfales,644
 1950,44195,Rillo,542
@@ -1399,7 +1399,7 @@ year,cp,name,population
 1950,44245,Valdeltormo,693
 1950,44246,Valderrobres,2697
 1950,44247,Valjunquera,998
-1950,44249,Vallecillo (El),385
+1950,44249,Vallecillo El,385
 1950,44250,Veguillas de la Sierra,167
 1950,44251,Villafranca del Campo,934
 1950,44252,Villahermosa del Campo,318
@@ -1414,7 +1414,7 @@ year,cp,name,population
 1950,44265,Vinaceite,626
 1950,44266,Visiedo,589
 1950,44267,Vivel del Río Martín,819
-1950,44268,Zoma (La),133
+1950,44268,Zoma La,133
 1960,44001,Ababuj,362
 1960,44002,Abejuela,372
 1960,44003,Aguatón,129
@@ -1471,7 +1471,7 @@ year,cp,name,population
 1960,44056,Caminreal,1602
 1960,44059,Cantavieja,1338
 1960,44060,Cañada de Benatanduz,388
-1960,44061,Cañada de Verich (La),319
+1960,44061,Cañada de Verich La,319
 1960,44062,Cañada Vellida,208
 1960,44063,Cañizar del Olivar,398
 1960,44064,Cascante del Río,424
@@ -1479,22 +1479,22 @@ year,cp,name,population
 1960,44066,Castel de Cabra,534
 1960,44067,Castelnou,300
 1960,44068,Castelserás,1295
-1960,44070,Castellar (El),306
+1960,44070,Castellar El,306
 1960,44071,Castellote,2696
 1960,44074,Cedrillas,967
 1960,44075,Celadas,787
 1960,44076,Cella,3802
-1960,44077,Cerollera (La),287
-1960,44080,Codoñera (La),651
+1960,44077,Cerollera La,287
+1960,44080,Codoñera La,651
 1960,44082,Corbalán,379
 1960,44084,Cortes de Aragón,319
 1960,44085,Cosa,429
 1960,44086,Cretas,1121
 1960,44087,Crivillén,653
-1960,44088,Cuba (La),204
+1960,44088,Cuba La,204
 1960,44089,Cubla,298
 1960,44090,Cucalón,374
-1960,44092,Cuervo (El),333
+1960,44092,Cuervo El,333
 1960,44093,Cuevas de Almudén,232
 1960,44094,Cuevas Labradas,370
 1960,44096,Ejulve,791
@@ -1507,7 +1507,7 @@ year,cp,name,population
 1960,44105,Fórnoles,413
 1960,44106,Fortanete,756
 1960,44107,Foz-Calanda,452
-1960,44108,Fresneda (La),916
+1960,44108,Fresneda La,916
 1960,44109,Frías de Albarracín,542
 1960,44110,Fuenferrada,234
 1960,44111,Fuentes Calientes,381
@@ -1517,15 +1517,15 @@ year,cp,name,population
 1960,44115,Galve,325
 1960,44116,Gargallo,376
 1960,44117,Gea de Albarracín,913
-1960,44118,Ginebrosa (La),769
+1960,44118,Ginebrosa La,769
 1960,44119,Griegos,344
 1960,44120,Guadalaviar,575
 1960,44121,Gúdar,286
 1960,44122,Híjar,3128
 1960,44123,Hinojosa de Jarque,491
-1960,44124,Hoz de la Vieja (La),691
+1960,44124,Hoz de la Vieja La,691
 1960,44125,Huesa del Común,667
-1960,44126,Iglesuela del Cid (La),1000
+1960,44126,Iglesuela del Cid La,1000
 1960,44127,Jabaloyas,409
 1960,44128,Jarque de la Val,274
 1960,44129,Jatiel,186
@@ -1542,7 +1542,7 @@ year,cp,name,population
 1960,44143,Manzanera,1485
 1960,44144,Martín del Río,975
 1960,44145,Mas de las Matas,1854
-1960,44146,Mata de los Olmos (La),453
+1960,44146,Mata de los Olmos La,453
 1960,44147,Mazaleón,1030
 1960,44148,Mezquita de Jarque,314
 1960,44149,Mirambel,432
@@ -1566,24 +1566,24 @@ year,cp,name,population
 1960,44169,Ojos Negros,2033
 1960,44171,Olba,691
 1960,44172,Oliete,1711
-1960,44173,Olmos (Los),356
+1960,44173,Olmos Los,356
 1960,44174,Orihuela del Tremedal,1042
 1960,44175,Orrios,479
 1960,44176,Palomar de Arroyos,568
 1960,44177,Pancrudo,873
-1960,44178,Parras de Castellote (Las),540
+1960,44178,Parras de Castellote Las,540
 1960,44179,Peñarroya de Tastavins,996
 1960,44180,Peracense,311
 1960,44181,Peralejos,275
 1960,44182,Perales del Alfambra,814
 1960,44183,Pitarque,467
 1960,44184,Plou,243
-1960,44185,Pobo (El),478
-1960,44187,Portellada (La),545
+1960,44185,Pobo El,478
+1960,44187,Portellada La,545
 1960,44189,Pozondón,430
 1960,44190,Pozuel del Campo,486
-1960,44191,Puebla de Híjar (La),2559
-1960,44192,Puebla de Valverde (La),1378
+1960,44191,Puebla de Híjar La,2559
+1960,44192,Puebla de Valverde La,1378
 1960,44193,Puertomingalvo,793
 1960,44194,Ráfales,575
 1960,44195,Rillo,700
@@ -1635,7 +1635,7 @@ year,cp,name,population
 1960,44245,Valdeltormo,633
 1960,44246,Valderrobres,2339
 1960,44247,Valjunquera,811
-1960,44249,Vallecillo (El),283
+1960,44249,Vallecillo El,283
 1960,44250,Veguillas de la Sierra,129
 1960,44251,Villafranca del Campo,863
 1960,44252,Villahermosa del Campo,295
@@ -1650,7 +1650,7 @@ year,cp,name,population
 1960,44265,Vinaceite,535
 1960,44266,Visiedo,580
 1960,44267,Vivel del Río Martín,623
-1960,44268,Zoma (La),118
+1960,44268,Zoma La,118
 1970,44001,Ababuj,193
 1970,44002,Abejuela,178
 1970,44003,Aguatón,73
@@ -1707,7 +1707,7 @@ year,cp,name,population
 1970,44056,Caminreal,1373
 1970,44059,Cantavieja,1060
 1970,44060,Cañada de Benatanduz,253
-1970,44061,Cañada de Verich (La),238
+1970,44061,Cañada de Verich La,238
 1970,44062,Cañada Vellida,155
 1970,44063,Cañizar del Olivar,273
 1970,44064,Cascante del Río,261
@@ -1715,22 +1715,22 @@ year,cp,name,population
 1970,44066,Castel de Cabra,393
 1970,44067,Castelnou,216
 1970,44068,Castelserás,1099
-1970,44070,Castellar (El),175
+1970,44070,Castellar El,175
 1970,44071,Castellote,1493
 1970,44074,Cedrillas,785
 1970,44075,Celadas,660
 1970,44076,Cella,3340
-1970,44077,Cerollera (La),210
-1970,44080,Codoñera (La),524
+1970,44077,Cerollera La,210
+1970,44080,Codoñera La,524
 1970,44082,Corbalán,228
 1970,44084,Cortes de Aragón,239
 1970,44085,Cosa,239
 1970,44086,Cretas,913
 1970,44087,Crivillén,334
-1970,44088,Cuba (La),161
+1970,44088,Cuba La,161
 1970,44089,Cubla,199
 1970,44090,Cucalón,221
-1970,44092,Cuervo (El),248
+1970,44092,Cuervo El,248
 1970,44093,Cuevas de Almudén,168
 1970,44094,Cuevas Labradas,254
 1970,44096,Ejulve,431
@@ -1743,7 +1743,7 @@ year,cp,name,population
 1970,44105,Fórnoles,258
 1970,44106,Fortanete,506
 1970,44107,Foz-Calanda,342
-1970,44108,Fresneda (La),666
+1970,44108,Fresneda La,666
 1970,44109,Frías de Albarracín,403
 1970,44110,Fuenferrada,108
 1970,44111,Fuentes Calientes,264
@@ -1753,15 +1753,15 @@ year,cp,name,population
 1970,44115,Galve,214
 1970,44116,Gargallo,180
 1970,44117,Gea de Albarracín,722
-1970,44118,Ginebrosa (La),468
+1970,44118,Ginebrosa La,468
 1970,44119,Griegos,238
 1970,44120,Guadalaviar,437
 1970,44121,Gúdar,151
 1970,44122,Híjar,2501
 1970,44123,Hinojosa de Jarque,360
-1970,44124,Hoz de la Vieja (La),408
+1970,44124,Hoz de la Vieja La,408
 1970,44125,Huesa del Común,369
-1970,44126,Iglesuela del Cid (La),718
+1970,44126,Iglesuela del Cid La,718
 1970,44127,Jabaloyas,267
 1970,44128,Jarque de la Val,184
 1970,44129,Jatiel,104
@@ -1778,7 +1778,7 @@ year,cp,name,population
 1970,44143,Manzanera,1050
 1970,44144,Martín del Río,722
 1970,44145,Mas de las Matas,1573
-1970,44146,Mata de los Olmos (La),332
+1970,44146,Mata de los Olmos La,332
 1970,44147,Mazaleón,823
 1970,44148,Mezquita de Jarque,261
 1970,44149,Mirambel,273
@@ -1802,24 +1802,24 @@ year,cp,name,population
 1970,44169,Ojos Negros,1343
 1970,44171,Olba,364
 1970,44172,Oliete,1035
-1970,44173,Olmos (Los),259
+1970,44173,Olmos Los,259
 1970,44174,Orihuela del Tremedal,882
 1970,44175,Orrios,306
 1970,44176,Palomar de Arroyos,405
 1970,44177,Pancrudo,514
-1970,44178,Parras de Castellote (Las),240
+1970,44178,Parras de Castellote Las,240
 1970,44179,Peñarroya de Tastavins,794
 1970,44180,Peracense,191
 1970,44181,Peralejos,171
 1970,44182,Perales del Alfambra,514
 1970,44183,Pitarque,252
 1970,44184,Plou,122
-1970,44185,Pobo (El),346
-1970,44187,Portellada (La),430
+1970,44185,Pobo El,346
+1970,44187,Portellada La,430
 1970,44189,Pozondón,219
 1970,44190,Pozuel del Campo,318
-1970,44191,Puebla de Híjar (La),2118
-1970,44192,Puebla de Valverde (La),1003
+1970,44191,Puebla de Híjar La,2118
+1970,44192,Puebla de Valverde La,1003
 1970,44193,Puertomingalvo,413
 1970,44194,Ráfales,426
 1970,44195,Rillo,398
@@ -1871,7 +1871,7 @@ year,cp,name,population
 1970,44245,Valdeltormo,575
 1970,44246,Valderrobres,2006
 1970,44247,Valjunquera,683
-1970,44249,Vallecillo (El),127
+1970,44249,Vallecillo El,127
 1970,44250,Veguillas de la Sierra,66
 1970,44251,Villafranca del Campo,665
 1970,44252,Villahermosa del Campo,166
@@ -1886,7 +1886,7 @@ year,cp,name,population
 1970,44265,Vinaceite,473
 1970,44266,Visiedo,448
 1970,44267,Vivel del Río Martín,344
-1970,44268,Zoma (La),64
+1970,44268,Zoma La,64
 1981,44001,Ababuj,115
 1981,44002,Abejuela,63
 1981,44003,Aguatón,50
@@ -1943,7 +1943,7 @@ year,cp,name,population
 1981,44056,Caminreal,1075
 1981,44059,Cantavieja,877
 1981,44060,Cañada de Benatanduz,91
-1981,44061,Cañada de Verich (La),154
+1981,44061,Cañada de Verich La,154
 1981,44062,Cañada Vellida,101
 1981,44063,Cañizar del Olivar,163
 1981,44064,Cascante del Río,181
@@ -1951,22 +1951,22 @@ year,cp,name,population
 1981,44066,Castel de Cabra,286
 1981,44067,Castelnou,148
 1981,44068,Castelserás,1009
-1981,44070,Castellar (El),122
+1981,44070,Castellar El,122
 1981,44071,Castellote,1050
 1981,44074,Cedrillas,592
 1981,44075,Celadas,555
 1981,44076,Cella,3218
-1981,44077,Cerollera (La),127
-1981,44080,Codoñera (La),436
+1981,44077,Cerollera La,127
+1981,44080,Codoñera La,436
 1981,44082,Corbalán,129
 1981,44084,Cortes de Aragón,192
 1981,44085,Cosa,147
 1981,44086,Cretas,737
 1981,44087,Crivillén,161
-1981,44088,Cuba (La),121
+1981,44088,Cuba La,121
 1981,44089,Cubla,96
 1981,44090,Cucalón,136
-1981,44092,Cuervo (El),184
+1981,44092,Cuervo El,184
 1981,44093,Cuevas de Almudén,138
 1981,44094,Cuevas Labradas,248
 1981,44096,Ejulve,289
@@ -1979,7 +1979,7 @@ year,cp,name,population
 1981,44105,Fórnoles,166
 1981,44106,Fortanete,325
 1981,44107,Foz-Calanda,299
-1981,44108,Fresneda (La),581
+1981,44108,Fresneda La,581
 1981,44109,Frías de Albarracín,237
 1981,44110,Fuenferrada,59
 1981,44111,Fuentes Calientes,211
@@ -1989,15 +1989,15 @@ year,cp,name,population
 1981,44115,Galve,161
 1981,44116,Gargallo,151
 1981,44117,Gea de Albarracín,550
-1981,44118,Ginebrosa (La),354
+1981,44118,Ginebrosa La,354
 1981,44119,Griegos,180
 1981,44120,Guadalaviar,346
 1981,44121,Gúdar,98
 1981,44122,Híjar,2240
 1981,44123,Hinojosa de Jarque,308
-1981,44124,Hoz de la Vieja (La),239
+1981,44124,Hoz de la Vieja La,239
 1981,44125,Huesa del Común,230
-1981,44126,Iglesuela del Cid (La),606
+1981,44126,Iglesuela del Cid La,606
 1981,44127,Jabaloyas,157
 1981,44128,Jarque de la Val,139
 1981,44129,Jatiel,66
@@ -2014,7 +2014,7 @@ year,cp,name,population
 1981,44143,Manzanera,575
 1981,44144,Martín del Río,607
 1981,44145,Mas de las Matas,1557
-1981,44146,Mata de los Olmos (La),315
+1981,44146,Mata de los Olmos La,315
 1981,44147,Mazaleón,710
 1981,44148,Mezquita de Jarque,204
 1981,44149,Mirambel,159
@@ -2038,24 +2038,24 @@ year,cp,name,population
 1981,44169,Ojos Negros,1029
 1981,44171,Olba,252
 1981,44172,Oliete,711
-1981,44173,Olmos (Los),215
+1981,44173,Olmos Los,215
 1981,44174,Orihuela del Tremedal,738
 1981,44175,Orrios,236
 1981,44176,Palomar de Arroyos,341
 1981,44177,Pancrudo,305
-1981,44178,Parras de Castellote (Las),155
+1981,44178,Parras de Castellote Las,155
 1981,44179,Peñarroya de Tastavins,683
 1981,44180,Peracense,112
 1981,44181,Peralejos,134
 1981,44182,Perales del Alfambra,381
 1981,44183,Pitarque,159
 1981,44184,Plou,67
-1981,44185,Pobo (El),227
-1981,44187,Portellada (La),396
+1981,44185,Pobo El,227
+1981,44187,Portellada La,396
 1981,44189,Pozondón,132
 1981,44190,Pozuel del Campo,179
-1981,44191,Puebla de Híjar (La),1597
-1981,44192,Puebla de Valverde (La),579
+1981,44191,Puebla de Híjar La,1597
+1981,44192,Puebla de Valverde La,579
 1981,44193,Puertomingalvo,213
 1981,44194,Ráfales,328
 1981,44195,Rillo,263
@@ -2107,7 +2107,7 @@ year,cp,name,population
 1981,44245,Valdeltormo,500
 1981,44246,Valderrobres,1877
 1981,44247,Valjunquera,618
-1981,44249,Vallecillo (El),17
+1981,44249,Vallecillo El,17
 1981,44250,Veguillas de la Sierra,51
 1981,44251,Villafranca del Campo,553
 1981,44252,Villahermosa del Campo,114
@@ -2122,7 +2122,7 @@ year,cp,name,population
 1981,44265,Vinaceite,422
 1981,44266,Visiedo,328
 1981,44267,Vivel del Río Martín,191
-1981,44268,Zoma (La),49
+1981,44268,Zoma La,49
 1991,44001,Ababuj,83
 1991,44002,Abejuela,65
 1991,44003,Aguatón,32
@@ -2179,7 +2179,7 @@ year,cp,name,population
 1991,44056,Caminreal,913
 1991,44059,Cantavieja,750
 1991,44060,Cañada de Benatanduz,82
-1991,44061,Cañada de Verich (La),112
+1991,44061,Cañada de Verich La,112
 1991,44062,Cañada Vellida,74
 1991,44063,Cañizar del Olivar,156
 1991,44064,Cascante del Río,138
@@ -2187,22 +2187,22 @@ year,cp,name,population
 1991,44066,Castel de Cabra,229
 1991,44067,Castelnou,123
 1991,44068,Castelserás,938
-1991,44070,Castellar (El),103
+1991,44070,Castellar El,103
 1991,44071,Castellote,927
 1991,44074,Cedrillas,557
 1991,44075,Celadas,488
 1991,44076,Cella,3066
-1991,44077,Cerollera (La),98
-1991,44080,Codoñera (La),363
+1991,44077,Cerollera La,98
+1991,44080,Codoñera La,363
 1991,44082,Corbalán,80
 1991,44084,Cortes de Aragón,145
 1991,44085,Cosa,137
 1991,44086,Cretas,693
 1991,44087,Crivillén,157
-1991,44088,Cuba (La),84
+1991,44088,Cuba La,84
 1991,44089,Cubla,72
 1991,44090,Cucalón,102
-1991,44092,Cuervo (El),151
+1991,44092,Cuervo El,151
 1991,44093,Cuevas de Almudén,120
 1991,44094,Cuevas Labradas,216
 1991,44096,Ejulve,236
@@ -2215,7 +2215,7 @@ year,cp,name,population
 1991,44105,Fórnoles,130
 1991,44106,Fortanete,212
 1991,44107,Foz-Calanda,263
-1991,44108,Fresneda (La),480
+1991,44108,Fresneda La,480
 1991,44109,Frías de Albarracín,206
 1991,44110,Fuenferrada,53
 1991,44111,Fuentes Calientes,165
@@ -2225,15 +2225,15 @@ year,cp,name,population
 1991,44115,Galve,138
 1991,44116,Gargallo,140
 1991,44117,Gea de Albarracín,501
-1991,44118,Ginebrosa (La),287
+1991,44118,Ginebrosa La,287
 1991,44119,Griegos,142
 1991,44120,Guadalaviar,304
 1991,44121,Gúdar,89
 1991,44122,Híjar,2102
 1991,44123,Hinojosa de Jarque,221
-1991,44124,Hoz de la Vieja (La),171
+1991,44124,Hoz de la Vieja La,171
 1991,44125,Huesa del Común,155
-1991,44126,Iglesuela del Cid (La),519
+1991,44126,Iglesuela del Cid La,519
 1991,44127,Jabaloyas,121
 1991,44128,Jarque de la Val,116
 1991,44129,Jatiel,76
@@ -2250,7 +2250,7 @@ year,cp,name,population
 1991,44143,Manzanera,490
 1991,44144,Martín del Río,574
 1991,44145,Mas de las Matas,1512
-1991,44146,Mata de los Olmos (La),285
+1991,44146,Mata de los Olmos La,285
 1991,44147,Mazaleón,629
 1991,44148,Mezquita de Jarque,178
 1991,44149,Mirambel,160
@@ -2274,24 +2274,24 @@ year,cp,name,population
 1991,44169,Ojos Negros,780
 1991,44171,Olba,233
 1991,44172,Oliete,574
-1991,44173,Olmos (Los),174
+1991,44173,Olmos Los,174
 1991,44174,Orihuela del Tremedal,627
 1991,44175,Orrios,223
 1991,44176,Palomar de Arroyos,320
 1991,44177,Pancrudo,228
-1991,44178,Parras de Castellote (Las),104
+1991,44178,Parras de Castellote Las,104
 1991,44179,Peñarroya de Tastavins,591
 1991,44180,Peracense,103
 1991,44181,Peralejos,111
 1991,44182,Perales del Alfambra,297
 1991,44183,Pitarque,135
 1991,44184,Plou,55
-1991,44185,Pobo (El),170
-1991,44187,Portellada (La),352
+1991,44185,Pobo El,170
+1991,44187,Portellada La,352
 1991,44189,Pozondón,101
 1991,44190,Pozuel del Campo,148
-1991,44191,Puebla de Híjar (La),1247
-1991,44192,Puebla de Valverde (La),498
+1991,44191,Puebla de Híjar La,1247
+1991,44192,Puebla de Valverde La,498
 1991,44193,Puertomingalvo,164
 1991,44194,Ráfales,257
 1991,44195,Rillo,163
@@ -2343,7 +2343,7 @@ year,cp,name,population
 1991,44245,Valdeltormo,441
 1991,44246,Valderrobres,1903
 1991,44247,Valjunquera,474
-1991,44249,Vallecillo (El),25
+1991,44249,Vallecillo El,25
 1991,44250,Veguillas de la Sierra,33
 1991,44251,Villafranca del Campo,403
 1991,44252,Villahermosa del Campo,89
@@ -2358,7 +2358,7 @@ year,cp,name,population
 1991,44265,Vinaceite,359
 1991,44266,Visiedo,273
 1991,44267,Vivel del Río Martín,140
-1991,44268,Zoma (La),51
+1991,44268,Zoma La,51
 2001,44001,Ababuj,85
 2001,44002,Abejuela,56
 2001,44003,Aguatón,26
@@ -2415,7 +2415,7 @@ year,cp,name,population
 2001,44056,Caminreal,777
 2001,44059,Cantavieja,759
 2001,44060,Cañada de Benatanduz,58
-2001,44061,Cañada de Verich (La),104
+2001,44061,Cañada de Verich La,104
 2001,44062,Cañada Vellida,54
 2001,44063,Cañizar del Olivar,116
 2001,44064,Cascante del Río,107
@@ -2423,22 +2423,22 @@ year,cp,name,population
 2001,44066,Castel de Cabra,158
 2001,44067,Castelnou,109
 2001,44068,Castelserás,824
-2001,44070,Castellar (El),87
+2001,44070,Castellar El,87
 2001,44071,Castellote,802
 2001,44074,Cedrillas,538
 2001,44075,Celadas,398
 2001,44076,Cella,2825
-2001,44077,Cerollera (La),119
-2001,44080,Codoñera (La),329
+2001,44077,Cerollera La,119
+2001,44080,Codoñera La,329
 2001,44082,Corbalán,79
 2001,44084,Cortes de Aragón,118
 2001,44085,Cosa,93
 2001,44086,Cretas,632
 2001,44087,Crivillén,122
-2001,44088,Cuba (La),57
+2001,44088,Cuba La,57
 2001,44089,Cubla,44
 2001,44090,Cucalón,80
-2001,44092,Cuervo (El),115
+2001,44092,Cuervo El,115
 2001,44093,Cuevas de Almudén,104
 2001,44094,Cuevas Labradas,153
 2001,44096,Ejulve,220
@@ -2451,7 +2451,7 @@ year,cp,name,population
 2001,44105,Fórnoles,94
 2001,44106,Fortanete,180
 2001,44107,Foz-Calanda,257
-2001,44108,Fresneda (La),419
+2001,44108,Fresneda La,419
 2001,44109,Frías de Albarracín,154
 2001,44110,Fuenferrada,48
 2001,44111,Fuentes Calientes,125
@@ -2461,15 +2461,15 @@ year,cp,name,population
 2001,44115,Galve,141
 2001,44116,Gargallo,126
 2001,44117,Gea de Albarracín,431
-2001,44118,Ginebrosa (La),238
+2001,44118,Ginebrosa La,238
 2001,44119,Griegos,136
 2001,44120,Guadalaviar,275
 2001,44121,Gúdar,75
 2001,44122,Híjar,1928
 2001,44123,Hinojosa de Jarque,170
-2001,44124,Hoz de la Vieja (La),123
+2001,44124,Hoz de la Vieja La,123
 2001,44125,Huesa del Común,136
-2001,44126,Iglesuela del Cid (La),489
+2001,44126,Iglesuela del Cid La,489
 2001,44127,Jabaloyas,84
 2001,44128,Jarque de la Val,93
 2001,44129,Jatiel,54
@@ -2486,7 +2486,7 @@ year,cp,name,population
 2001,44143,Manzanera,464
 2001,44144,Martín del Río,476
 2001,44145,Mas de las Matas,1432
-2001,44146,Mata de los Olmos (La),273
+2001,44146,Mata de los Olmos La,273
 2001,44147,Mazaleón,604
 2001,44148,Mezquita de Jarque,135
 2001,44149,Mirambel,145
@@ -2510,24 +2510,24 @@ year,cp,name,population
 2001,44169,Ojos Negros,545
 2001,44171,Olba,210
 2001,44172,Oliete,454
-2001,44173,Olmos (Los),144
+2001,44173,Olmos Los,144
 2001,44174,Orihuela del Tremedal,604
 2001,44175,Orrios,186
 2001,44176,Palomar de Arroyos,246
 2001,44177,Pancrudo,157
-2001,44178,Parras de Castellote (Las),79
+2001,44178,Parras de Castellote Las,79
 2001,44179,Peñarroya de Tastavins,539
 2001,44180,Peracense,98
 2001,44181,Peralejos,81
 2001,44182,Perales del Alfambra,293
 2001,44183,Pitarque,104
 2001,44184,Plou,53
-2001,44185,Pobo (El),129
-2001,44187,Portellada (La),292
+2001,44185,Pobo El,129
+2001,44187,Portellada La,292
 2001,44189,Pozondón,80
 2001,44190,Pozuel del Campo,112
-2001,44191,Puebla de Híjar (La),1046
-2001,44192,Puebla de Valverde (La),485
+2001,44191,Puebla de Híjar La,1046
+2001,44192,Puebla de Valverde La,485
 2001,44193,Puertomingalvo,153
 2001,44194,Ráfales,199
 2001,44195,Rillo,137
@@ -2579,7 +2579,7 @@ year,cp,name,population
 2001,44245,Valdeltormo,363
 2001,44246,Valderrobres,1945
 2001,44247,Valjunquera,423
-2001,44249,Vallecillo (El),49
+2001,44249,Vallecillo El,49
 2001,44250,Veguillas de la Sierra,27
 2001,44251,Villafranca del Campo,378
 2001,44252,Villahermosa del Campo,75
@@ -2594,7 +2594,7 @@ year,cp,name,population
 2001,44265,Vinaceite,283
 2001,44266,Visiedo,195
 2001,44267,Vivel del Río Martín,84
-2001,44268,Zoma (La),29
+2001,44268,Zoma La,29
 2011,44001,Ababuj,71
 2011,44002,Abejuela,58
 2011,44003,Aguatón,20
@@ -2651,7 +2651,7 @@ year,cp,name,population
 2011,44056,Caminreal,714
 2011,44059,Cantavieja,740
 2011,44060,Cañada de Benatanduz,39
-2011,44061,Cañada de Verich (La),103
+2011,44061,Cañada de Verich La,103
 2011,44062,Cañada Vellida,38
 2011,44063,Cañizar del Olivar,105
 2011,44064,Cascante del Río,94
@@ -2659,22 +2659,22 @@ year,cp,name,population
 2011,44066,Castel de Cabra,140
 2011,44067,Castelnou,178
 2011,44068,Castelserás,835
-2011,44070,Castellar (El),66
+2011,44070,Castellar El,66
 2011,44071,Castellote,801
 2011,44074,Cedrillas,629
 2011,44075,Celadas,418
 2011,44076,Cella,2881
-2011,44077,Cerollera (La),112
-2011,44080,Codoñera (La),365
+2011,44077,Cerollera La,112
+2011,44080,Codoñera La,365
 2011,44082,Corbalán,107
 2011,44084,Cortes de Aragón,72
 2011,44085,Cosa,62
 2011,44086,Cretas,593
 2011,44087,Crivillén,89
-2011,44088,Cuba (La),49
+2011,44088,Cuba La,49
 2011,44089,Cubla,66
 2011,44090,Cucalón,107
-2011,44092,Cuervo (El),91
+2011,44092,Cuervo El,91
 2011,44093,Cuevas de Almudén,149
 2011,44094,Cuevas Labradas,126
 2011,44096,Ejulve,205
@@ -2687,7 +2687,7 @@ year,cp,name,population
 2011,44105,Fórnoles,101
 2011,44106,Fortanete,218
 2011,44107,Foz-Calanda,284
-2011,44108,Fresneda (La),487
+2011,44108,Fresneda La,487
 2011,44109,Frías de Albarracín,156
 2011,44110,Fuenferrada,61
 2011,44111,Fuentes Calientes,117
@@ -2697,15 +2697,15 @@ year,cp,name,population
 2011,44115,Galve,171
 2011,44116,Gargallo,124
 2011,44117,Gea de Albarracín,410
-2011,44118,Ginebrosa (La),218
+2011,44118,Ginebrosa La,218
 2011,44119,Griegos,140
 2011,44120,Guadalaviar,240
 2011,44121,Gúdar,79
 2011,44122,Híjar,1813
 2011,44123,Hinojosa de Jarque,153
-2011,44124,Hoz de la Vieja (La),80
+2011,44124,Hoz de la Vieja La,80
 2011,44125,Huesa del Común,86
-2011,44126,Iglesuela del Cid (La),484
+2011,44126,Iglesuela del Cid La,484
 2011,44127,Jabaloyas,87
 2011,44128,Jarque de la Val,91
 2011,44129,Jatiel,49
@@ -2722,7 +2722,7 @@ year,cp,name,population
 2011,44143,Manzanera,563
 2011,44144,Martín del Río,425
 2011,44145,Mas de las Matas,1360
-2011,44146,Mata de los Olmos (La),280
+2011,44146,Mata de los Olmos La,280
 2011,44147,Mazaleón,573
 2011,44148,Mezquita de Jarque,116
 2011,44149,Mirambel,127
@@ -2746,24 +2746,24 @@ year,cp,name,population
 2011,44169,Ojos Negros,444
 2011,44171,Olba,249
 2011,44172,Oliete,448
-2011,44173,Olmos (Los),121
+2011,44173,Olmos Los,121
 2011,44174,Orihuela del Tremedal,568
 2011,44175,Orrios,153
 2011,44176,Palomar de Arroyos,188
 2011,44177,Pancrudo,133
-2011,44178,Parras de Castellote (Las),69
+2011,44178,Parras de Castellote Las,69
 2011,44179,Peñarroya de Tastavins,495
 2011,44180,Peracense,80
 2011,44181,Peralejos,85
 2011,44182,Perales del Alfambra,267
 2011,44183,Pitarque,88
 2011,44184,Plou,46
-2011,44185,Pobo (El),140
-2011,44187,Portellada (La),254
+2011,44185,Pobo El,140
+2011,44187,Portellada La,254
 2011,44189,Pozondón,71
 2011,44190,Pozuel del Campo,89
-2011,44191,Puebla de Híjar (La),988
-2011,44192,Puebla de Valverde (La),547
+2011,44191,Puebla de Híjar La,988
+2011,44192,Puebla de Valverde La,547
 2011,44193,Puertomingalvo,137
 2011,44194,Ráfales,158
 2011,44195,Rillo,110
@@ -2815,7 +2815,7 @@ year,cp,name,population
 2011,44245,Valdeltormo,318
 2011,44246,Valderrobres,2318
 2011,44247,Valjunquera,386
-2011,44249,Vallecillo (El),55
+2011,44249,Vallecillo El,55
 2011,44250,Veguillas de la Sierra,20
 2011,44251,Villafranca del Campo,332
 2011,44252,Villahermosa del Campo,99
@@ -2830,240 +2830,240 @@ year,cp,name,population
 2011,44265,Vinaceite,298
 2011,44266,Visiedo,146
 2011,44267,Vivel del Río Martín,89
-2011,44268,Zoma (La),23
-2018,44001, Ababuj,76
-2018,44002, Abejuela,49
-2018,44003, Aguatón,18
-2018,44004, Aguaviva,522
-2018,44005, Aguilar del Alfambra,63
-2018,44006, Alacón,264
-2018,44007, Alba,178
-2018,44008, Albalate del Arzobispo,2004
-2018,44009, Albarracín,1016
-2018,44010, Albentosa,257
-2018,44011, Alcaine,63
-2018,44012, Alcalá de la Selva,347
-2018,44013, Alcañiz,15939
-2018,44014, Alcorisa,3276
-2018,44016, Alfambra,531
-2018,44017, Aliaga,358
-2018,44018, Almohaja,16
-2018,44019, Alobras,62
-2018,44020, Alpeñés,22
-2018,44021, Allepuz,126
-2018,44022, Alloza,582
-2018,44023, Allueva,29
-2018,44024, Anadón,27
-2018,44025, Andorra,7633
-2018,44026, Arcos de las Salinas,105
-2018,44027, Arens de Lledó,206
-2018,44028, Argente,198
-2018,44029, Ariño,708
-2018,44031, Azaila,94
-2018,44032, Bádenas,20
-2018,44033, Báguena,311
-2018,44034, Bañón,153
-2018,44035, Barrachina,118
-2018,44036, Bea,31
-2018,44037, Beceite,541
-2018,44038, Belmonte de San José,113
-2018,44039, Bello,225
-2018,44040, Berge,244
-2018,44041, Bezas,70
-2018,44042, Blancas,125
-2018,44043, Blesa,95
-2018,44044, Bordón,106
-2018,44045, Bronchales,443
-2018,44046, Bueña,63
-2018,44047, Burbáguena,243
-2018,44048, Cabra de Mora,55
-2018,44049, Calaceite,1011
-2018,44050, Calamocha,4319
-2018,44051, Calanda,3708
-2018,44052, Calomarde,74
-2018,44053, Camañas,124
-2018,44054, Camarena de la Sierra,113
-2018,44055, Camarillas,86
-2018,44056, Caminreal,619
-2018,44059, Cantavieja,714
-2018,44060, Cañada de Benatanduz,39
-2018,44061, La Cañada de Verich,87
-2018,44062, Cañada Vellida,35
-2018,44063, Cañizar del Olivar,98
-2018,44064, Cascante del Río,71
-2018,44065, Castejón de Tornos,62
-2018,44066, Castel de Cabra,104
-2018,44067, Castelnou,160
-2018,44068, Castelserás,831
-2018,44070, El Castellar,52
-2018,44071, Castellote,676
-2018,44074, Cedrillas,630
-2018,44075, Celadas,396
-2018,44076, Cella,2606
-2018,44077, La Cerollera,100
-2018,44080, La Codoñera,344
-2018,44082, Corbalán,109
-2018,44084, Cortes de Aragón,61
-2018,44085, Cosa,52
-2018,44086, Cretas,571
-2018,44087, Crivillén,68
-2018,44088, La Cuba,41
-2018,44089, Cubla,54
-2018,44090, Cucalón,80
-2018,44092, Cuervo El,86
-2018,44093, Cuevas de Almudén,122
-2018,44094, Cuevas Labradas,131
-2018,44096, Ejulve,180
-2018,44097, Escorihuela,139
-2018,44099, Escucha,885
-2018,44100, Estercuel,210
-2018,44101, Ferreruela de Huerva,63
-2018,44102, Fonfría,28
-2018,44103, Formiche Alto,151
-2018,44105, Fórnoles,75
-2018,44106, Fortanete,205
-2018,44107, Foz-Calanda,238
-2018,44108, La Fresneda,443
-2018,44109, Frías de Albarracín,116
-2018,44110, Fuenferrada,42
-2018,44111, Fuentes Calientes,101
-2018,44112, Fuentes Claras,461
-2018,44113, Fuentes de Rubielos,114
-2018,44114, Fuentespalda,286
-2018,44115, Galve,161
-2018,44116, Gargallo,89
-2018,44117, Gea de Albarracín,376
-2018,44118, Ginebrosa La,200
-2018,44119, Griegos,143
-2018,44120, Guadalaviar,242
-2018,44121, Gúdar,72
-2018,44122, Híjar,1709
-2018,44123, Hinojosa de Jarque,119
-2018,44124, La Hoz de la Vieja,85
-2018,44125, Huesa del Común,67
-2018,44126, La Iglesuela del Cid,414
-2018,44127, Jabaloyas,65
-2018,44128, Jarque de la Val,70
-2018,44129, Jatiel,40
-2018,44130, Jorcas,34
-2018,44131, Josa,34
-2018,44132, Lagueruela,78
-2018,44133, Lanzuela,24
-2018,44135, Libros,101
-2018,44136, Lidón,55
-2018,44137, Linares de Mora,249
-2018,44138, Loscos,129
-2018,44141, Lledó,172
-2018,44142, Maicas,27
-2018,44143, Manzanera,519
-2018,44144, Martín del Río,417
-2018,44145, Mas de las Matas,1272
-2018,44146, La Mata de los Olmos,265
-2018,44147, Mazaleón,539
-2018,44148, Mezquita de Jarque,98
-2018,44149, Mirambel,116
-2018,44150, Miravete de la Sierra,35
-2018,44151, Molinos,243
-2018,44152, Monforte de Moyuela,65
-2018,44153, Monreal del Campo,2433
-2018,44154, Monroyo,340
-2018,44155, Montalbán,1243
-2018,44156, Monteagudo del Castillo,50
-2018,44157, Monterde de Albarracín,63
-2018,44158, Mora de Rubielos,1541
-2018,44159, Moscardón,55
-2018,44160, Mosqueruela,551
-2018,44161, Muniesa,599
-2018,44163, Noguera de Albarracín,133
-2018,44164, Nogueras,25
-2018,44165, Nogueruelas,217
-2018,44167, Obón,45
-2018,44168, Odón,205
-2018,44169, Ojos Negros,377
-2018,44171, Olba,226
-2018,44172, Oliete,364
-2018,44173, Olmos Los,122
-2018,44174, Orihuela del Tremedal,487
-2018,44175, Orrios,126
-2018,44176, Palomar de Arroyos,169
-2018,44177, Pancrudo,110
-2018,44178, Las Parras de Castellote,53
-2018,44179, Peñarroya de Tastavins,439
-2018,44180, Peracense,76
-2018,44181, Peralejos,88
-2018,44182, Perales del Alfambra,221
-2018,44183, Pitarque,79
-2018,44184, Plou,43
-2018,44185, Pobo El,114
-2018,44187, La Portellada,243
-2018,44189, Pozondón,48
-2018,44190, Pozuel del Campo,68
-2018,44191, La Puebla de Híjar,908
-2018,44192, La Puebla de Valverde,453
-2018,44193, Puertomingalvo,112
-2018,44194, Ráfales,143
-2018,44195, Rillo,93
-2018,44196, Riodeva,144
-2018,44197, Ródenas,61
-2018,44198, Royuela,206
-2018,44199, Rubiales,50
-2018,44200, Rubielos de la Cérida,38
-2018,44201, Rubielos de Mora,627
-2018,44203, Salcedillo,17
-2018,44204, Saldón,26
-2018,44205, Samper de Calanda,783
-2018,44206, San Agustín,125
-2018,44207, San Martín del Río,148
-2018,44208, Santa Cruz de Nogueras,37
-2018,44209, Santa Eulalia,1037
-2018,44210, Sarrión,1133
-2018,44211, Segura de los Baños,39
-2018,44212, Seno,39
-2018,44213, Singra,80
-2018,44215, Terriente,183
-2018,44216, Teruel,35691
-2018,44217, Toril y Masegoso,30
-2018,44218, Tormón,31
-2018,44219, Tornos,213
-2018,44220, Torralba de los Sisones,156
-2018,44221, Torrecilla de Alcañiz,423
-2018,44222, Torrecilla del Rebollar,127
-2018,44223, Torre de Arcas,89
-2018,44224, Torre de las Arcas,28
-2018,44225, Torre del Compte,132
-2018,44226, Torrelacárcel,154
-2018,44227, Torre los Negros,88
-2018,44228, Torremocha de Jiloca,107
-2018,44229, Torres de Albarracín,183
-2018,44230, Torrevelilla,189
-2018,44231, Torrijas,38
-2018,44232, Torrijo del Campo,447
-2018,44234, Tramacastiel,64
-2018,44235, Tramacastilla,106
-2018,44236, Tronchón,65
-2018,44237, Urrea de Gaén,436
-2018,44238, Utrillas,2970
-2018,44239, Valacloche,21
-2018,44240, Valbona,174
-2018,44241, Valdealgorfa,622
-2018,44243, Valdecuenca,35
-2018,44244, Valdelinares,87
-2018,44245, Valdeltormo,279
-2018,44246, Valderrobres,2388
-2018,44247, Valjunquera,325
-2018,44249, El Vallecillo,48
-2018,44250, Veguillas de la Sierra,20
-2018,44251, Villafranca del Campo,297
-2018,44252, Villahermosa del Campo,94
-2018,44256, Villanueva del Rebollar de la Sierra,47
-2018,44257, Villar del Cobo,164
-2018,44258, Villar del Salz,60
-2018,44260, Villarluengo,177
-2018,44261, Villarquemado,862
-2018,44262, Villarroya de los Pinares,160
-2018,44263, Villastar,494
-2018,44264, Villel,327
-2018,44265, Vinaceite,249
-2018,44266, Visiedo,125
-2018,44267, Vivel del Río Martín,79
-2018,44268, La Zoma,16
+2011,44268,Zoma La,23
+2018,44001,Ababuj,76
+2018,44002,Abejuela,49
+2018,44003,Aguatón,18
+2018,44004,Aguaviva,522
+2018,44005,Aguilar del Alfambra,63
+2018,44006,Alacón,264
+2018,44007,Alba,178
+2018,44008,Albalate del Arzobispo,2004
+2018,44009,Albarracín,1016
+2018,44010,Albentosa,257
+2018,44011,Alcaine,63
+2018,44012,Alcalá de la Selva,347
+2018,44013,Alcañiz,15939
+2018,44014,Alcorisa,3276
+2018,44016,Alfambra,531
+2018,44017,Aliaga,358
+2018,44018,Almohaja,16
+2018,44019,Alobras,62
+2018,44020,Alpeñés,22
+2018,44021,Allepuz,126
+2018,44022,Alloza,582
+2018,44023,Allueva,29
+2018,44024,Anadón,27
+2018,44025,Andorra,7633
+2018,44026,Arcos de las Salinas,105
+2018,44027,Arens de Lledó,206
+2018,44028,Argente,198
+2018,44029,Ariño,708
+2018,44031,Azaila,94
+2018,44032,Bádenas,20
+2018,44033,Báguena,311
+2018,44034,Bañón,153
+2018,44035,Barrachina,118
+2018,44036,Bea,31
+2018,44037,Beceite,541
+2018,44038,Belmonte de San José,113
+2018,44039,Bello,225
+2018,44040,Berge,244
+2018,44041,Bezas,70
+2018,44042,Blancas,125
+2018,44043,Blesa,95
+2018,44044,Bordón,106
+2018,44045,Bronchales,443
+2018,44046,Bueña,63
+2018,44047,Burbáguena,243
+2018,44048,Cabra de Mora,55
+2018,44049,Calaceite,1011
+2018,44050,Calamocha,4319
+2018,44051,Calanda,3708
+2018,44052,Calomarde,74
+2018,44053,Camañas,124
+2018,44054,Camarena de la Sierra,113
+2018,44055,Camarillas,86
+2018,44056,Caminreal,619
+2018,44059,Cantavieja,714
+2018,44060,Cañada de Benatanduz,39
+2018,44061,La Cañada de Verich,87
+2018,44062,Cañada Vellida,35
+2018,44063,Cañizar del Olivar,98
+2018,44064,Cascante del Río,71
+2018,44065,Castejón de Tornos,62
+2018,44066,Castel de Cabra,104
+2018,44067,Castelnou,160
+2018,44068,Castelserás,831
+2018,44070,El Castellar,52
+2018,44071,Castellote,676
+2018,44074,Cedrillas,630
+2018,44075,Celadas,396
+2018,44076,Cella,2606
+2018,44077,La Cerollera,100
+2018,44080,La Codoñera,344
+2018,44082,Corbalán,109
+2018,44084,Cortes de Aragón,61
+2018,44085,Cosa,52
+2018,44086,Cretas,571
+2018,44087,Crivillén,68
+2018,44088,La Cuba,41
+2018,44089,Cubla,54
+2018,44090,Cucalón,80
+2018,44092,Cuervo El,86
+2018,44093,Cuevas de Almudén,122
+2018,44094,Cuevas Labradas,131
+2018,44096,Ejulve,180
+2018,44097,Escorihuela,139
+2018,44099,Escucha,885
+2018,44100,Estercuel,210
+2018,44101,Ferreruela de Huerva,63
+2018,44102,Fonfría,28
+2018,44103,Formiche Alto,151
+2018,44105,Fórnoles,75
+2018,44106,Fortanete,205
+2018,44107,Foz-Calanda,238
+2018,44108,La Fresneda,443
+2018,44109,Frías de Albarracín,116
+2018,44110,Fuenferrada,42
+2018,44111,Fuentes Calientes,101
+2018,44112,Fuentes Claras,461
+2018,44113,Fuentes de Rubielos,114
+2018,44114,Fuentespalda,286
+2018,44115,Galve,161
+2018,44116,Gargallo,89
+2018,44117,Gea de Albarracín,376
+2018,44118,Ginebrosa La,200
+2018,44119,Griegos,143
+2018,44120,Guadalaviar,242
+2018,44121,Gúdar,72
+2018,44122,Híjar,1709
+2018,44123,Hinojosa de Jarque,119
+2018,44124,La Hoz de la Vieja,85
+2018,44125,Huesa del Común,67
+2018,44126,La Iglesuela del Cid,414
+2018,44127,Jabaloyas,65
+2018,44128,Jarque de la Val,70
+2018,44129,Jatiel,40
+2018,44130,Jorcas,34
+2018,44131,Josa,34
+2018,44132,Lagueruela,78
+2018,44133,Lanzuela,24
+2018,44135,Libros,101
+2018,44136,Lidón,55
+2018,44137,Linares de Mora,249
+2018,44138,Loscos,129
+2018,44141,Lledó,172
+2018,44142,Maicas,27
+2018,44143,Manzanera,519
+2018,44144,Martín del Río,417
+2018,44145,Mas de las Matas,1272
+2018,44146,La Mata de los Olmos,265
+2018,44147,Mazaleón,539
+2018,44148,Mezquita de Jarque,98
+2018,44149,Mirambel,116
+2018,44150,Miravete de la Sierra,35
+2018,44151,Molinos,243
+2018,44152,Monforte de Moyuela,65
+2018,44153,Monreal del Campo,2433
+2018,44154,Monroyo,340
+2018,44155,Montalbán,1243
+2018,44156,Monteagudo del Castillo,50
+2018,44157,Monterde de Albarracín,63
+2018,44158,Mora de Rubielos,1541
+2018,44159,Moscardón,55
+2018,44160,Mosqueruela,551
+2018,44161,Muniesa,599
+2018,44163,Noguera de Albarracín,133
+2018,44164,Nogueras,25
+2018,44165,Nogueruelas,217
+2018,44167,Obón,45
+2018,44168,Odón,205
+2018,44169,Ojos Negros,377
+2018,44171,Olba,226
+2018,44172,Oliete,364
+2018,44173,Olmos Los,122
+2018,44174,Orihuela del Tremedal,487
+2018,44175,Orrios,126
+2018,44176,Palomar de Arroyos,169
+2018,44177,Pancrudo,110
+2018,44178,Las Parras de Castellote,53
+2018,44179,Peñarroya de Tastavins,439
+2018,44180,Peracense,76
+2018,44181,Peralejos,88
+2018,44182,Perales del Alfambra,221
+2018,44183,Pitarque,79
+2018,44184,Plou,43
+2018,44185,Pobo El,114
+2018,44187,La Portellada,243
+2018,44189,Pozondón,48
+2018,44190,Pozuel del Campo,68
+2018,44191,La Puebla de Híjar,908
+2018,44192,La Puebla de Valverde,453
+2018,44193,Puertomingalvo,112
+2018,44194,Ráfales,143
+2018,44195,Rillo,93
+2018,44196,Riodeva,144
+2018,44197,Ródenas,61
+2018,44198,Royuela,206
+2018,44199,Rubiales,50
+2018,44200,Rubielos de la Cérida,38
+2018,44201,Rubielos de Mora,627
+2018,44203,Salcedillo,17
+2018,44204,Saldón,26
+2018,44205,Samper de Calanda,783
+2018,44206,San Agustín,125
+2018,44207,San Martín del Río,148
+2018,44208,Santa Cruz de Nogueras,37
+2018,44209,Santa Eulalia,1037
+2018,44210,Sarrión,1133
+2018,44211,Segura de los Baños,39
+2018,44212,Seno,39
+2018,44213,Singra,80
+2018,44215,Terriente,183
+2018,44216,Teruel,35691
+2018,44217,Toril y Masegoso,30
+2018,44218,Tormón,31
+2018,44219,Tornos,213
+2018,44220,Torralba de los Sisones,156
+2018,44221,Torrecilla de Alcañiz,423
+2018,44222,Torrecilla del Rebollar,127
+2018,44223,Torre de Arcas,89
+2018,44224,Torre de las Arcas,28
+2018,44225,Torre del Compte,132
+2018,44226,Torrelacárcel,154
+2018,44227,Torre los Negros,88
+2018,44228,Torremocha de Jiloca,107
+2018,44229,Torres de Albarracín,183
+2018,44230,Torrevelilla,189
+2018,44231,Torrijas,38
+2018,44232,Torrijo del Campo,447
+2018,44234,Tramacastiel,64
+2018,44235,Tramacastilla,106
+2018,44236,Tronchón,65
+2018,44237,Urrea de Gaén,436
+2018,44238,Utrillas,2970
+2018,44239,Valacloche,21
+2018,44240,Valbona,174
+2018,44241,Valdealgorfa,622
+2018,44243,Valdecuenca,35
+2018,44244,Valdelinares,87
+2018,44245,Valdeltormo,279
+2018,44246,Valderrobres,2388
+2018,44247,Valjunquera,325
+2018,44249,El Vallecillo,48
+2018,44250,Veguillas de la Sierra,20
+2018,44251,Villafranca del Campo,297
+2018,44252,Villahermosa del Campo,94
+2018,44256,Villanueva del Rebollar de la Sierra,47
+2018,44257,Villar del Cobo,164
+2018,44258,Villar del Salz,60
+2018,44260,Villarluengo,177
+2018,44261,Villarquemado,862
+2018,44262,Villarroya de los Pinares,160
+2018,44263,Villastar,494
+2018,44264,Villel,327
+2018,44265,Vinaceite,249
+2018,44266,Visiedo,125
+2018,44267,Vivel del Río Martín,79
+2018,44268,La Zoma,16

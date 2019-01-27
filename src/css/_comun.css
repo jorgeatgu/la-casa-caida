@@ -53,3 +53,10 @@ body {
     width: 100%;
     min-height: 60vh;
 }
+
+.data {
+    font-size: 12px;
+    font-family: var(--text);
+    display: inline-block;
+    margin: 1rem 0 2rem;
+}

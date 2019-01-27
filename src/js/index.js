@@ -400,7 +400,7 @@ const barNegative = (csvFile, cities) => {
 
     //Actualizando escalas
     const updateScales = (width, height) => {
-        scales.count.x.rangeRound([0, width]).paddingInner(0.1);
+        scales.count.x.rangeRound([0, width]).paddingInner(0.2);
         scales.count.y.range([0, height]);
     }
 
@@ -408,6 +408,7 @@ const barNegative = (csvFile, cities) => {
     const drawAxes = (g) => {
 
         const axisX = d3.axisBottom(scales.count.x)
+            .ticks(3)
             .tickPadding(8)
             .tickFormat(d3.format("d"))
 
@@ -471,8 +472,8 @@ const barNegative = (csvFile, cities) => {
                         <p class="tooltip-deceased">Fallecidos: <span class="tooltip-number">${d.fallecidos}</span><p/>
                         <p class="tooltip-deceased">Saldo: <span class="tooltip-number">${d.saldo}</span><p/>
                         `)
-                    .style("left", (d3.event.pageX) - (w / 2) + "px")
-                    .style("top", h - scales.count.y(d.saldo) + "px");
+                    .style("left", (w / 2) - 100 + "px")
+                    .style("top", 50 + "px");
 
             })
             .on("mouseout", function(d) {
@@ -480,7 +481,7 @@ const barNegative = (csvFile, cities) => {
                     .duration(200)
                     .style("opacity", 0);
             })
-            .attr("width", scales.count.x.bandwidth())
+            .attr("width", d => scales.count.x.bandwidth())
             .attr("x", d => scales.count.x(d.year))
             .attr("y", d => {
                 if (d.saldo > 0){
@@ -707,3 +708,247 @@ barscatter(csvUnder[2], cities[2]);
 
 barNegative(csvBalance[0], cities[0]);
 barNegative(csvBalance[1], cities[1]);
+
+const vulturno = () => {
+
+    const widthMobile = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
+    if (widthMobile > 544) {
+        margin = { top: 16, right: 16, bottom: 24, left: 48 };
+    } else {
+        margin = { top: 16, right: 16, bottom: 24, left: 32 };
+    }
+
+    let width = 0;
+    let height = 0;
+    const chart = d3.select('.line-population-teruel');
+    const svg = chart.select('svg');
+    let scales = {};
+    let datos;
+
+    const setupScales = () => {
+
+        const countX = d3.scaleTime()
+            .domain([d3.min(datos, d => d.year), d3.max(datos, d => d.year )]);
+
+        const countY = d3.scaleLinear()
+            .domain([0, d3.max(datos, d => d.population) * 1.25]);
+
+        scales.count = { x: countX, y: countY };
+
+    }
+
+
+    //Seleccionamos el contenedor donde irán las escalas y en este caso el area donde se pirntara nuestra gráfica
+    const setupElements = () => {
+
+        const g = svg.select('.line-population-teruel-container');
+
+        g.append('g').attr('class', 'axis axis-x');
+
+        g.append('g').attr('class', 'axis axis-y');
+
+        g.append('g').attr('class', 'line-population-teruel-container-bis');
+    }
+
+    //Actualizando escalas
+    const updateScales = (width, height) => {
+        scales.count.x.range([0, width]);
+        scales.count.y.range([height, 0]);
+    }
+
+    //Dibujando ejes
+    const drawAxes = (g) => {
+
+        const axisX = d3.axisBottom(scales.count.x)
+            .tickPadding(5)
+            .tickFormat(d3.format("d"))
+            .ticks(13)
+
+        g.select(".axis-x")
+            .attr("transform", "translate(0," + height + ")")
+            .transition()
+            .duration(300)
+            .ease(d3.easeLinear)
+            .call(axisX);
+
+        const axisY = d3.axisLeft(scales.count.y)
+            .tickPadding(5)
+            .tickFormat(d3.format("d"))
+            .tickSize(-width)
+            .ticks(6);
+
+        g.select(".axis-y")
+            .transition()
+            .duration(300)
+            .ease(d3.easeLinear)
+            .call(axisY)
+
+    }
+
+    function updateChart(data) {
+        const w = chart.node().offsetWidth;
+        const h = 500;
+
+
+        width = w - margin.left - margin.right;
+        height = h - margin.top - margin.bottom;
+
+        svg
+            .attr('width', w)
+            .attr('height', h);
+
+        const translate = "translate(" + margin.left + "," + margin.top + ")";
+
+        const g = svg.select('.line-population-teruel-container')
+
+        g.attr("transform", translate)
+
+        const line = d3.line()
+            .x(d => scales.count.x(d.year))
+            .y(d => scales.count.y(d.population))
+
+        updateScales(width, height)
+
+        const container = chart.select('.line-population-teruel-container-bis')
+
+        const lines = container.selectAll('.lines')
+            .data([datos])
+
+        const newLines = lines.enter()
+            .append('path')
+            .attr('class', 'lines');
+
+        lines.merge(newLines)
+            .transition()
+            .duration(600)
+            .ease(d3.easeLinear)
+            .attr('d', line);
+
+        drawAxes(g)
+
+    }
+
+    function update(mes) {
+
+        d3.csv('data/teruel/teruel.csv', (error, data) => {
+
+            datos = data;
+
+            let valueCity = d3.select("#select-city").property("value");
+
+            datos = datos.filter(d => String(d.name).match(valueCity));
+
+            datos.forEach(d => {
+                d.population = +d.population;
+                d.year = +d.year;
+            });
+
+            console.log(datos)
+
+            scales.count.x.range([0, width]);
+            scales.count.y.range([height, 0]);
+
+            const countX = d3.scaleTime()
+                .domain([d3.min(datos, d => d.year), d3.max(datos, d => d.year )]);
+
+            const countY = d3.scaleLinear()
+                .domain([0, d3.max(datos, d => d.population) * 1.25]);
+
+            console.log(d3.min(datos, d => d.population))
+            console.log(d3.max(datos, d => d.population))
+
+            scales.count = { x: countX, y: countY };
+            updateChart(datos)
+
+
+        });
+
+
+    }
+
+    const resize = () => {
+
+        const stationResize = d3.select("#select-city")
+            .property("value")
+
+        d3.csv("csv/" + stationResize + ".csv", (error, data) => {
+
+            datos = data;
+            updateChart(datos)
+
+        });
+
+    }
+
+    const menuMes = () => {
+        d3.csv('data/teruel/teruel.csv', (error, data) => {
+            if (error) {
+                console.log(error);
+            } else {
+
+                datos = data;
+
+                const nest = d3.nest()
+                    .key(d => d.select)
+                    .entries(datos);
+
+                const selectCity = d3.select("#select-city");
+
+                selectCity
+                    .selectAll("option")
+                    .data(nest)
+                    .enter()
+                    .append("option")
+                    .attr("value", d => d.key)
+                    .text(d => d.key)
+
+                selectCity.on('change', function() {
+
+                    let mes = d3.select(this)
+                        .property("value")
+
+
+                    update(mes)
+
+                });
+
+
+            }
+
+        });
+
+    }
+
+    // LOAD THE DATA
+    const loadData = () => {
+
+        d3.csv('data/teruel/teruel.csv', (error, data) => {
+            if (error) {
+                console.log(error);
+            } else {
+
+                datos = data;
+                datos.forEach(d => {
+                    d.year = +d.year;
+                    d.name = d.name;
+                    d.population = +d.population;
+                });
+                setupElements()
+                setupScales()
+                updateChart(datos)
+                mes = 'Ababuj';
+                update(mes)
+            }
+
+        });
+    }
+
+    window.addEventListener('resize', resize)
+
+    loadData()
+    menuMes()
+
+}
+
+vulturno()

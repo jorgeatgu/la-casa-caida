@@ -18,7 +18,8 @@
 
 .line-chart,
 .scatter,
-.bar-negative-chart {
+.bar-negative-chart,
+.line-population {
     position: relative;
     text {
         font-family: var(--text);
@@ -114,4 +115,10 @@
         fill: #090387;
     }
 
+}
+
+.lines {
+    fill: none;
+    stroke: #0e2153;
+    stroke-width: 2px;
 }

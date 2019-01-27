@@ -1,0 +1,8 @@
+{
+    "name": "La casa caida",
+    "env":
+    {
+        "NODE_ENV": "production"
+    },
+    "version": 2
+}
