@@ -6,7 +6,10 @@
 
 @import '_variables';
 @import '_comun';
+@import '_menu';
 @import '_header';
 @import '_section';
 @import '_chart';
 @import '_slimselect';
+@import '_proyectos';
+@import '_footer';

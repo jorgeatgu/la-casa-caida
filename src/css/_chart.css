@@ -54,6 +54,14 @@
     position: absolute;
     opacity: 1;
     box-shadow: var(--shadow);
+    .tooltip-deceased {
+        font-size: 14px;
+        font-family: var(--text);
+        margin: .25rem;
+        + p {
+            display: none;
+        }
+    }
 }
 .tooltip-number {
     font-weight: bold;
@@ -120,10 +128,47 @@
 .lines {
     fill: none;
     stroke: #0e2153;
-    stroke-width: 2px;
+    stroke-width: 3px;
 }
 
 .tooltip-media-texto {
     font-family: var(--text);
     font-size: 14px;
+}
+
+select {
+    display: inline-block;
+    margin-right: .5rem;
+}
+
+.filter-button {
+    border-radius: 4px;
+    padding: 1rem;
+    border: 0;
+    font-size: 12px;
+    font-family: var(--fontSystem);
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 4rem;
+    box-shadow: var(--shadow);
+    &:hover {
+        background-color: #f1f1f1;
+        transition: background-color .3s ease-in;
+    }
+}
+
+.filters {
+    width: 100%;
+    margin-left: 3rem;
+}
+
+.filter-element {
+    display: inline-block;
+    margin-right: .5rem;
+}
+.filters-title {
+    font-size: 14px;
+    font-family: var(--text);
+    margin-bottom: .25rem;
 }
