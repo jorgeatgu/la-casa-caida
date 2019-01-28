@@ -1,3 +1,37 @@
+function menu() {
+    var overlay = document.querySelector('.overlay');
+    var navigation = document.querySelector('.navegacion');
+    var body = document.querySelector('body');
+    var elementBtn = document.querySelectorAll('.navegacion-btn');
+    var burger = document.querySelector('.burger');
+
+    function classToggle() {
+        burger.classList.toggle('clicked');
+        overlay.classList.toggle('show');
+        navigation.classList.toggle('show');
+        body.classList.toggle('overflow');
+    }
+
+    document.querySelector('.burger').addEventListener('click', classToggle);
+    document.querySelector('.overlay').addEventListener('click', classToggle);
+
+    for (i = 0; i < elementBtn.length; i++) {
+        elementBtn[i].addEventListener("click", function() {
+            removeClass();
+            console.log('click')
+        });
+    }
+
+    function removeClass() {
+        overlay.classList.remove("show");
+        navigation.classList.remove("show");
+        burger.classList.remove("clicked");
+
+    }
+}
+
+menu();
+
 function animation() {
     anime.timeline()
         .add({
@@ -302,8 +336,6 @@ const barscatter = (csvFile, cities) => {
 
         layer.merge(newLayer)
             .on("mouseover", function(d) {
-                const tooltipWidth = document.getElementById("tooltip-scatter").offsetWidth;
-                console.log(tooltipWidth)
                 tooltip.transition()
                 tooltip.style("opacity", 1)
                     .html(`<p class="tooltip-citi">${d.city}<p/>
@@ -321,11 +353,176 @@ const barscatter = (csvFile, cities) => {
             })
             .attr("cx", d => scales.count.x(d.mayor))
             .attr("cy", d => scales.count.y(d.menor))
+            .attr("r", 0)
+            .transition()
+            .duration(600)
+            .ease(d3.easeLinear)
+            .attr("cx", d => scales.count.x(d.mayor))
+            .attr("cy", d => scales.count.y(d.menor))
             .attr("r", 6);
 
         drawAxes(g)
 
     }
+
+    const clearFilter = () => {
+
+        const selectButton = d3.select(`#clear-filter-${cities}`);
+
+        selectButton.on('click', function() {
+
+            d3.csv(csvFile, (error, data) => {
+
+                dataz = data;
+                dataz.forEach(d => {
+                    d.mayor = +d.mayor;
+                    d.menor = +d.menor;
+                    d.city = d.name;
+                });
+                updateChart(dataz)
+            });
+
+        })
+
+    }
+
+    clearFilter()
+
+    const menuFilter = () => {
+        d3.csv(csvFile, (error, data) => {
+            if (error) {
+                console.log(error);
+            } else {
+
+                datos = data;
+
+                const nest = d3.nest()
+                    .key(d => d.name)
+                    .entries(datos);
+
+                const selectCity = d3.select(`#filter-city-${cities}`);
+
+                selectCity
+                    .selectAll("option")
+                    .data(nest)
+                    .enter()
+                    .append("option")
+                    .attr("value", d => d.key)
+                    .text(d => d.key)
+
+                selectCity.on('change', function() {
+
+                    let filterCity = d3.select(this)
+                        .property("value")
+
+
+                    update(filterCity)
+
+                });
+
+
+            }
+
+        });
+
+    }
+
+    const percentageOlder = () => {
+
+        const selectPercentage = d3.select(`#percentage-over-city-${cities}`);
+
+        selectPercentage.on('change', function() {
+
+            d3.csv(csvFile, (error, data) => {
+
+                dataz = data;
+
+                let percentageCity = d3.select(this)
+                    .property("value")
+
+                d3.selectAll('circle')
+                    .transition()
+                    .duration(400)
+                    .attr("r", 0)
+
+                dataz = dataz.filter(d => d.mayor > percentageCity);
+
+                dataz.forEach(d => {
+                    d.mayor = d.mayor;
+                    d.menor = d.menor;
+                    d.city = d.name;
+                });
+
+                updateChart(dataz)
+
+            });
+
+        });
+
+    }
+
+    const percentageUnder = () => {
+
+        const selectPercentage = d3.select(`#percentage-under-city-${cities}`);
+
+        selectPercentage.on('change', function() {
+
+            d3.csv(csvFile, (error, data) => {
+
+                dataz = data;
+
+                let percentageCity = d3.select(this)
+                    .property("value")
+
+
+                d3.selectAll(".scatter-circles").each(function() {
+                    d3.selectAll('circle')
+                        .remove();
+                });
+
+                dataz = dataz.filter(d => d.menor > percentageCity);
+
+                dataz.forEach(d => {
+                    d.mayor = d.mayor;
+                    d.menor = d.menor;
+                    d.city = d.name;
+                });
+
+                updateChart(dataz)
+
+            });
+
+        });
+
+    }
+
+    function update(filterCity) {
+
+        d3.csv(csvFile, (error, data) => {
+
+            dataz = data;
+
+            let valueCity = d3.select(`#filter-city-${cities}`).property("value");
+            let revalueCity = new RegExp("^" + valueCity + "$");
+
+            d3.selectAll(".scatter-circles").each(function() {
+                d3.selectAll('circle')
+                    .remove();
+            });
+
+            dataz = dataz.filter(d => String(d.name).match(revalueCity));
+
+            dataz.forEach(d => {
+                d.mayor = +d.mayor;
+                d.menor = +d.menor;
+                d.city = d.name;
+            });
+
+            updateChart(dataz)
+
+        });
+    }
+
 
     const resize = () => {
         updateChart(dataz)
@@ -344,10 +541,16 @@ const barscatter = (csvFile, cities) => {
                     d.menor = +d.menor;
                     d.population = +d.population;
                     d.city = d.name;
+                    d.over = d.percentagemayor;
+                    d.under = d.percentagemenor;
+
                 });
                 setupElements()
                 setupScales()
                 updateChart(dataz)
+                menuFilter()
+                percentageOlder()
+                percentageUnder()
             }
 
         });
@@ -644,8 +847,8 @@ const barNegativeZ = () => {
                         <p class="tooltip-deceased">Fallecidos: <span class="tooltip-number">${d.fallecidos}</span><p/>
                         <p class="tooltip-deceased">Saldo: <span class="tooltip-number">${d.saldo}</span><p/>
                         `)
-                    .style("left", (d3.event.pageX) - (w / 2) + "px")
-                    .style("top", h - scales.count.y(d.saldo) + "px");
+                    .style("left", (w / 2) - 100 + "px")
+                    .style("top", 50 + "px");
 
             })
             .on("mouseout", function(d) {
@@ -716,7 +919,7 @@ const linePopulation = (csvFile, cities) => {
     const widthMobile = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
     if (widthMobile > 544) {
-        margin = { top: 16, right: 16, bottom: 24, left: 48 };
+        margin = { top: 16, right: 16, bottom: 24, left: 62 };
     } else {
         margin = { top: 16, right: 16, bottom: 24, left: 32 };
     }
@@ -744,11 +947,40 @@ const linePopulation = (csvFile, cities) => {
 
     const tooltips = (data) => {
 
+        const w = chart.node().offsetWidth;
+
         tooltipOver = chart.append("div")
             .attr("class", "tooltip tooltip-over");
 
-        tooltipOver.data(datos)
-            .html(function(d) { return "<p class='tooltip-media-texto'>El porcentaje de población mayor de 65 años es de: <strong>" + d3.max(datos, d => d.population ) + "%</strong></p>" });
+        const totalLose = datos[0].population - datos.slice(-1)[0].population;
+        const totalWin = datos.slice(-1)[0].population - datos[0].population;
+        let percentageL = ((totalLose * 100) / datos[0].population).toFixed(2);
+        let percentageW = ((totalWin * 100) / datos[0].population).toFixed(2);
+        if (datos[0].population > datos.slice(-1)[0].population) {
+            tooltipOver.data(datos)
+                .html(d =>
+                    `
+                    <p class="tooltip-deceased">Desde 1900 su población ha disminuido en un <span class="tooltip-number">${percentageL}%.</span><p/>
+                    <p class="tooltip-deceased">Mayores de 65 años en 2018: <span class="tooltip-number">${d.mayor}%</span><p/>
+                    <p class="tooltip-deceased">Menores de 18 años en 2018: <span class="tooltip-number">${d.menor}%</span><p/>
+                    `)
+                .transition()
+                .duration(300)
+                .style("left", 55 + "%")
+                .style("top", 20 + "px");
+        } else {
+            tooltipOver.data(datos)
+                .html(d =>
+                    `
+                        <p class="tooltip-deceased">Desde 1900 su población ha aumentado en un <span class="tooltip-number">${percentageW}%.</span><p/>
+                        <p class="tooltip-deceased">Mayores de 65 años en 2018: <span class="tooltip-number">${d.mayor}%</span><p/>
+                        <p class="tooltip-deceased">Menores de 18 años en 2018: <span class="tooltip-number">${d.menor}%</span><p/>
+                        `)
+                .transition()
+                .duration(300)
+                .style("left", 55 + "%")
+                .style("top", 90 + "%");
+        }
 
     }
 
@@ -762,7 +994,7 @@ const linePopulation = (csvFile, cities) => {
 
         g.append('g').attr('class', 'axis axis-y');
 
-        g.append('g').attr('class', `.line-population-${cities}-container-bis`);
+        g.append('g').attr('class', `line-population-${cities}-container-bis`);
     }
 
     //Actualizando escalas
@@ -863,8 +1095,6 @@ const linePopulation = (csvFile, cities) => {
                 d.year = +d.year;
             });
 
-            console.log(datos)
-
             scales.count.x.range([0, width]);
             scales.count.y.range([height, 0]);
 
@@ -874,16 +1104,40 @@ const linePopulation = (csvFile, cities) => {
             const countY = d3.scaleLinear()
                 .domain([0, d3.max(datos, d => d.population) * 1.25]);
 
-            console.log(d3.min(datos, d => d.population))
-            console.log(d3.max(datos, d => d.population))
 
             scales.count = { x: countX, y: countY };
             updateChart(datos)
 
-
+            const totalLose = datos[0].population - datos.slice(-1)[0].population;
+            const totalWin = datos.slice(-1)[0].population - datos[0].population;
+            let percentageL = ((totalLose * 100) / datos[0].population).toFixed(2);
+            let percentageW = ((totalWin * 100) / datos[0].population).toFixed(2);
+            if (datos[0].population > datos.slice(-1)[0].population) {
+                tooltipOver.data(datos)
+                    .html(d =>
+                        `
+                                <p class="tooltip-deceased">Desde 1900 su población ha disminuido en un <span class="tooltip-number">${percentageL}%.</span><p/>
+                                <p class="tooltip-deceased">Mayores de 65 años en 2018: <span class="tooltip-number">${d.mayor}%</span><p/>
+                                <p class="tooltip-deceased">Menores de 18 años en 2018: <span class="tooltip-number">${d.menor}%</span><p/>
+                                `)
+                    .transition()
+                    .duration(300)
+                    .style("left", 55 + "%")
+                    .style("top", 20 + "px");
+            } else {
+                tooltipOver.data(datos)
+                    .html(d =>
+                        `
+                                    <p class="tooltip-deceased">Desde 1900 su población ha aumentado en un <span class="tooltip-number">${percentageW}%.</span><p/>
+                                    <p class="tooltip-deceased">Mayores de 65 años en 2018: <span class="tooltip-number">${d.mayor}%</span><p/>
+                                    <p class="tooltip-deceased">Menores de 18 años en 2018: <span class="tooltip-number">${d.menor}%</span><p/>
+                                    `)
+                    .transition()
+                    .duration(300)
+                    .style("left", 55 + "%")
+                    .style("top", 75 + "%");
+            }
         });
-
-
     }
 
     const resize = () => {
@@ -976,16 +1230,63 @@ linePopulation(csvCities[1], cities[1]);
 linePopulation(csvCities[2], cities[2]);
 
 new SlimSelect({
-  select: '#select-city-teruel',
-  searchPlaceholder: 'Busca tu municipio'
+    select: '#select-city-teruel',
+    searchPlaceholder: 'Busca tu municipio'
 })
 
 new SlimSelect({
-  select: '#select-city-huesca',
-  searchPlaceholder: 'Busca tu municipio'
+    select: '#filter-city-teruel',
+    searchPlaceholder: 'Filtra por municipio'
 })
 
 new SlimSelect({
-  select: '#select-city-zaragoza',
-  searchPlaceholder: 'Busca tu municipio'
+    select: '#percentage-over-city-teruel',
+    searchPlaceholder: 'Filtra tu municipio'
+})
+
+new SlimSelect({
+    select: '#percentage-under-city-teruel',
+    searchPlaceholder: 'Filtra tu municipio'
+})
+
+
+new SlimSelect({
+    select: '#select-city-huesca',
+    searchPlaceholder: 'Busca tu municipio'
+})
+
+new SlimSelect({
+    select: '#filter-city-huesca',
+    searchPlaceholder: 'Filtra tu municipio'
+})
+
+new SlimSelect({
+    select: '#percentage-over-city-huesca',
+    searchPlaceholder: 'Filtra tu municipio'
+})
+
+new SlimSelect({
+    select: '#percentage-under-city-huesca',
+    searchPlaceholder: 'Filtra tu municipio'
+})
+
+
+new SlimSelect({
+    select: '#select-city-zaragoza',
+    searchPlaceholder: 'Busca tu municipio'
+})
+
+new SlimSelect({
+    select: '#filter-city-zaragoza',
+    searchPlaceholder: 'Filtra tu municipio'
+})
+
+new SlimSelect({
+    select: '#percentage-over-city-zaragoza',
+    searchPlaceholder: 'Filtra tu municipio'
+})
+
+new SlimSelect({
+    select: '#percentage-under-city-zaragoza',
+    searchPlaceholder: 'Filtra tu municipio'
 })
