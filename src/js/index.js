@@ -331,7 +331,7 @@ const barscatter = (csvFile, cities) => {
 
         const newLayer = layer.enter()
             .append('circle')
-            .attr('class', 'scatter-circles')
+            .attr('class', `scatter-${cities}-circles scatter-circles`)
 
 
         layer.merge(newLayer)
@@ -371,9 +371,23 @@ const barscatter = (csvFile, cities) => {
 
         selectButton.on('click', function() {
 
+            d3.select(`#percentage-over-city-${cities} option`).property("selected", "0");
+            d3.select(`#percentage-under-city-${cities} option`).property("selected", "0");
+
+            new SlimSelect({
+                select: `#percentage-over-city-${cities}`,
+                searchPlaceholder: 'Filtra tu municipio'
+            })
+
+            new SlimSelect({
+                select: `#percentage-under-city-${cities}`,
+                searchPlaceholder: 'Filtra tu municipio'
+            })
+
+
             d3.csv(csvFile, (error, data) => {
 
-                dataz = data;
+                dataz = data
                 dataz.forEach(d => {
                     d.mayor = +d.mayor;
                     d.menor = +d.menor;
@@ -440,7 +454,7 @@ const barscatter = (csvFile, cities) => {
                 let percentageCity = d3.select(this)
                     .property("value")
 
-                d3.selectAll('circle')
+                d3.selectAll(`.scatter-${cities}-circles`)
                     .transition()
                     .duration(400)
                     .attr("r", 0)
@@ -475,10 +489,10 @@ const barscatter = (csvFile, cities) => {
                     .property("value")
 
 
-                d3.selectAll(".scatter-circles").each(function() {
-                    d3.selectAll('circle')
-                        .remove();
-                });
+                d3.selectAll(`.scatter-${cities}-circles`)
+                    .transition()
+                    .duration(400)
+                    .attr("r", 0)
 
                 dataz = dataz.filter(d => d.menor > percentageCity);
 
@@ -505,10 +519,10 @@ const barscatter = (csvFile, cities) => {
             let valueCity = d3.select(`#filter-city-${cities}`).property("value");
             let revalueCity = new RegExp("^" + valueCity + "$");
 
-            d3.selectAll(".scatter-circles").each(function() {
-                d3.selectAll('circle')
-                    .remove();
-            });
+            d3.selectAll(`.scatter-${cities}-circles`)
+                .transition()
+                .duration(400)
+                .attr("r", 0)
 
             dataz = dataz.filter(d => String(d.name).match(revalueCity));
 
