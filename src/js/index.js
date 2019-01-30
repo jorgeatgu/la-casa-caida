@@ -373,6 +373,7 @@ const barscatter = (csvFile, cities) => {
 
             d3.select(`#percentage-over-city-${cities} option`).property("selected", "0");
             d3.select(`#percentage-under-city-${cities} option`).property("selected", "0");
+            d3.selectAll('.tooltip-percentage').remove().exit();
 
             new SlimSelect({
                 select: `#percentage-over-city-${cities}`,
@@ -382,6 +383,11 @@ const barscatter = (csvFile, cities) => {
             new SlimSelect({
                 select: `#percentage-under-city-${cities}`,
                 searchPlaceholder: 'Filtra tu municipio'
+            })
+
+            new SlimSelect({
+                select: `#select-city-${cities}`,
+                searchPlaceholder: 'Busca tu municipio'
             })
 
 
@@ -429,6 +435,18 @@ const barscatter = (csvFile, cities) => {
                     let filterCity = d3.select(this)
                         .property("value")
 
+                    d3.select(`#percentage-over-city-${cities} option`).property("selected", "0");
+                    d3.select(`#percentage-under-city-${cities} option`).property("selected", "0");
+
+                    new SlimSelect({
+                        select: `#percentage-over-city-${cities}`,
+                        searchPlaceholder: 'Filtra tu municipio'
+                    })
+
+                    new SlimSelect({
+                        select: `#percentage-under-city-${cities}`,
+                        searchPlaceholder: 'Filtra tu municipio'
+                    })
 
                     update(filterCity)
 
@@ -447,6 +465,18 @@ const barscatter = (csvFile, cities) => {
 
         selectPercentage.on('change', function() {
 
+            d3.select(`#percentage-under-city-${cities} option`).property("selected", "0");
+
+            new SlimSelect({
+                select: `#percentage-under-city-${cities}`,
+                searchPlaceholder: 'Filtra tu municipio'
+            })
+
+            new SlimSelect({
+                select: `#select-city-${cities}`,
+                searchPlaceholder: 'Busca tu municipio'
+            })
+
             d3.csv(csvFile, (error, data) => {
 
                 dataz = data;
@@ -460,6 +490,18 @@ const barscatter = (csvFile, cities) => {
                     .attr("r", 0)
 
                 dataz = dataz.filter(d => d.mayor > percentageCity);
+
+                const container = chart.select(`.scatter-${cities}-container-bis`);
+
+                d3.selectAll('.tooltip-percentage').remove().exit()
+
+                chart.append("div")
+                    .attr("class", "tooltip tooltip-percentage")
+                    .html(`
+                        <p class="tootlip-population"><span class="tooltip-number">${dataz.length}</span> municipios superan el <span class="bold">${percentageCity}%</span> de habitantes <span class="bold">mayores de 65 años</span>. <p/>
+                        `)
+                    .style("right", margin.right + "px")
+                    .style("top", 50 + "px");
 
                 dataz.forEach(d => {
                     d.mayor = d.mayor;
@@ -481,6 +523,18 @@ const barscatter = (csvFile, cities) => {
 
         selectPercentage.on('change', function() {
 
+            d3.select(`#percentage-over-city-${cities} option`).property("selected", "0");
+
+            new SlimSelect({
+                select: `#percentage-over-city-${cities}`,
+                searchPlaceholder: 'Filtra tu municipio'
+            })
+
+            new SlimSelect({
+                select: `#select-city-${cities}`,
+                searchPlaceholder: 'Busca tu municipio'
+            })
+
             d3.csv(csvFile, (error, data) => {
 
                 dataz = data;
@@ -495,6 +549,19 @@ const barscatter = (csvFile, cities) => {
                     .attr("r", 0)
 
                 dataz = dataz.filter(d => d.menor > percentageCity);
+
+                const container = chart.select(`.scatter-${cities}-container-bis`);
+
+                d3.selectAll('.tooltip-percentage').remove().exit()
+
+                chart.append("div")
+                    .attr("class", "tooltip tooltip-percentage")
+                    .html(`
+                        <p class="tootlip-population"><span class="tooltip-number">${dataz.length}</span> municipios superan el <span class="bold">${percentageCity}%</span> de habitantes <span class="bold">menores de 18 años</span>.<p/>
+                        `)
+                    .style("right", margin.right + "px")
+                    .style("top", 50 + "px");
+
 
                 dataz.forEach(d => {
                     d.mayor = d.mayor;
