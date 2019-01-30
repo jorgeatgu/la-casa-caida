@@ -1,10 +1,10 @@
 # Datos
 
-Extrayendo datos 
+Todo esto no hubiera sido posible sin dos herramientas impresicindibles como [csvkit](https://csvkit.readthedocs.io/en/1.0.3/) y [jq](https://stedolan.github.io/jq/)
 
 Para discriminar por provincia he utilizado csvgrep de csvkit.
 
-Buscamos en toda la serie historica en la columna de código postal   
+Buscamos en toda la serie historica en la columna de código postal    
 Usamos una expresión regular:    
 ^(2) --> que el código postal comience por 2(referente a Huesca)    
 ([0-9] --> que solo busque números    
@@ -27,15 +27,20 @@ csvgrep -c 2 -r "^(5)([0-9]{4})" serie-historica-aragon.csv > zaragoza.csv
 ```
 
 
-Calcular porcentaje de mayores de 65 años
+## Calcular porcentaje de mayores de 65 años
 
+Para calcular el porcentaje de mayores y menores necesitamos tres arrays, uno de ellos con el número de la población, otro con el número de habitantes mayores de 65 años y otro con el número de habitantes menores de 18 años.
 
-Pueblos con menos de cinco menores de 18 años
+Ahora recorremos el array de población y ejecutamos una operación por cada elemento. Multiplicamos por 100 la población mayor de 65 años y el resultado lo dividimos entre el número total de la población. Lo mismo con la población menor de 18 años. Aquí esta el [script](porcentaje-zaragoza.sh)
+
 ```
-jq -r '(.[] | select(.total <= 0))'
+for (( i=0; i<${#poblacion[@]}; ++i )); do
+    echo "scale=2; ${mayor[$i]}*100/${poblacion[$i]}" | bc >> porcentaje-mayor65-zaragoza.csv
+    echo "scale=2; ${menor[$i]}*100/${poblacion[$i]}" | bc >> porcentaje-menor18-zaragoza.csv
+done
 ```
 
-# Densidad de población por municipio
+## Densidad de población por municipio
 
 Tenemos un geojson con el trazado de cada municipio. A partir de esto vamos a filtrar por provincia. Seleccionamos en properties la key provincia en la que su valor sea igual a Huesca(por ejemplo). Estos geojson nos servirán para mostrar varios mapas de cada provincia
 
@@ -80,27 +85,8 @@ jq -s -r '(.[] | sort_by(.properties.c_muni_ine))' teruel.json > reorder-teruel.
 jq -s -r '(.[] | sort_by(.properties.c_muni_ine))' zaragoza.json > reorder-zaragoza.json && rm zaragoza.json | mv reorder-zaragoza.json zaragoza.json
 ```
 
+
+Pueblos con menos de cinco menores de 18 años
 ```
-csvgrep -c 1 -r "2017" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2016" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2015" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2014" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2013" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2012" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2011" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2010" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2009" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2008" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2007" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2006" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2005" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2004" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2003" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2002" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2001" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "2000" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "1999" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "1998" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "1997" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum &&
-csvgrep -c 1 -r "1996" nacidos-defunciones-saldo-huesca.csv | csvstat -c 5 --sum
+jq -r '(.[] | select(.total <= 0))'
 ```
