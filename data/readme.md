@@ -4,11 +4,11 @@ Extrayendo datos
 
 Para discriminar por provincia he utilizado csvgrep de csvkit.
 
-Buscamos en toda la serie historica en la columna de código postal
-Usamos una expresión regular:
-^(2) --> que el código postal comience por 2(referente a Huesca)
-([0-9] --> que solo busque números
-{4}) --> que la longitud sea de 4, y ¿porque no 5? al decirle que empiece en ese número el mismo número ya no cuenta, así es la vida en REGEXP 🤷
+Buscamos en toda la serie historica en la columna de código postal   
+Usamos una expresión regular:    
+^(2) --> que el código postal comience por 2(referente a Huesca)    
+([0-9] --> que solo busque números    
+{4}) --> que la longitud sea de 4, y ¿porque no 5? al decirle que empiece en ese número el mismo número ya no cuenta, así es la vida en REGEXP 🤷    
 
 
 Huesca
