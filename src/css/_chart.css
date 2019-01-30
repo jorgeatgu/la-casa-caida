@@ -14,6 +14,7 @@
 .text {
     font-size: 1rem;
     font-family: var(--text);
+    width: 100%;
 }
 
 .line-chart,
@@ -40,6 +41,10 @@
     }
     .legend {
         font-weight: bold;
+    }
+    .legend-percentage {
+        font-size: 14px;
+        font-family: var(--text);
     }
 }
 
@@ -115,6 +120,12 @@
     }
 }
 
+.tooltip-percentage {
+    .tooltip-number {
+        font-size: 1rem;
+    }
+}
+
 .bar-negative-chart {
     .negative {
         fill: #a01721;
@@ -143,9 +154,11 @@ select {
 
 .filter-button {
     border-radius: 4px;
-    padding: 1rem;
+    background-color: var(--project1txt);
+    color: var(--white);
+    padding: .75rem;
     border: 0;
-    font-size: 12px;
+    font-size: 10px;
     font-family: var(--fontSystem);
     font-weight: bold;
     cursor: pointer;
@@ -153,14 +166,13 @@ select {
     margin-left: 4rem;
     box-shadow: var(--shadow);
     &:hover {
-        background-color: #f1f1f1;
+        background-color: rgba(149, 39, 71, .85);
         transition: background-color .3s ease-in;
     }
 }
 
 .filters {
     width: 100%;
-    margin-left: 3rem;
 }
 
 .filter-element {
@@ -170,5 +182,12 @@ select {
 .filters-title {
     font-size: 14px;
     font-family: var(--text);
-    margin-bottom: .25rem;
+    margin: .25rem;
+}
+
+@media only screen and (min-width: 48rem) {
+
+    .filters {
+        margin-left: 3rem;
+    }
 }

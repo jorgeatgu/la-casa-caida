@@ -386,6 +386,10 @@ template {
     --project4txt: #1a182a;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     line-height: 1.4;
@@ -406,9 +410,9 @@ body {
 }
 
 .container-chart {
-    max-width: 60rem;
+    width: 100%;
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 3rem .5rem;
 }
 
 .bold {
@@ -454,6 +458,14 @@ body {
     font-family: var(--text);
     display: inline-block;
     margin: 1rem 0 2rem;
+}
+
+@media only screen and (min-width: 48rem) {
+
+    .container-chart {
+        max-width: 60rem;
+    }
+
 }
 
 /* Menu inspired: https://codepen.io/BeanBaag/pen/XZRewP remove jQuery for JavaScript */
@@ -522,8 +534,8 @@ body {
 
 .burger.clicked span:before,
 .burger.clicked span:after {
-  background-color: #111;
-  background-color: var(--black);
+  background-color: #fff;
+  background-color: var(--white);
 }
 
 .burger:hover {
@@ -793,7 +805,7 @@ body {
 
 .section-text {
     display: block;
-    width: 30rem;
+    width: 100%;
     vertical-align: middle;
     padding: 2rem 0 0;
     margin: 0 auto;
@@ -811,6 +823,14 @@ body {
 .section-text .header-ronda {
         max-width: 20rem;
     }
+
+@media only screen and (min-width: 48rem) {
+
+    .section-text {
+        width: 30rem;
+    }
+
+}
 
 .title {
     font-size: 2rem;
@@ -831,6 +851,7 @@ body {
     font-size: 1rem;
     font-family: 'Adamina', serif;
     font-family: var(--text);
+    width: 100%;
 }
 
 .line-chart,
@@ -862,6 +883,12 @@ body {
 
 .line-chart .legend, .scatter .legend, .bar-negative-chart .legend, .line-population .legend {
         font-weight: bold;
+    }
+
+.line-chart .legend-percentage, .scatter .legend-percentage, .bar-negative-chart .legend-percentage, .line-population .legend-percentage {
+        font-size: 14px;
+        font-family: 'Adamina', serif;
+        font-family: var(--text);
     }
 
 .overlay {
@@ -949,6 +976,10 @@ body {
         font-size: 1rem;
     }
 
+.tooltip-percentage .tooltip-number {
+        font-size: 1rem;
+    }
+
 .bar-negative-chart .negative {
         fill: #a01721;
     }
@@ -976,9 +1007,13 @@ select {
 
 .filter-button {
     border-radius: 4px;
-    padding: 1rem;
+    background-color: #952747;
+    background-color: var(--project1txt);
+    color: #fff;
+    color: var(--white);
+    padding: .75rem;
     border: 0;
-    font-size: 12px;
+    font-size: 10px;
     font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, sans-serif;
     font-family: var(--fontSystem);
     font-weight: bold;
@@ -990,13 +1025,12 @@ select {
 }
 
 .filter-button:hover {
-        background-color: #f1f1f1;
+        background-color: rgba(149, 39, 71, .85);
         transition: background-color .3s ease-in;
     }
 
 .filters {
     width: 100%;
-    margin-left: 3rem;
 }
 
 .filter-element {
@@ -1008,7 +1042,14 @@ select {
     font-size: 14px;
     font-family: 'Adamina', serif;
     font-family: var(--text);
-    margin-bottom: .25rem;
+    margin: .25rem;
+}
+
+@media only screen and (min-width: 48rem) {
+
+    .filters {
+        margin-left: 3rem;
+    }
 }
 
 /* stylelint-disable */
@@ -1265,6 +1306,44 @@ select {
 
     .data-viz {
         padding: 3rem 0;
+    }
+
+}
+
+.metodology {
+    background-color: #fff;
+    background-color: var(--white);
+    padding: 1rem 0;
+}
+
+.metodology-container {
+    margin: 0 auto;
+}
+
+.metodology-title {
+    font-size: 1.25rem;
+    font-family: 'Playfair Display', serif;
+    font-family: var(--title);
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.metodology-text {
+    font-family: 'Adamina', serif;
+    font-family: var(--text);
+    max-width: 30rem;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 48rem) {
+
+    .metodology {
+        padding: 6rem 0;
+    }
+
+    .metodology-title {
+        font-size: 2rem;
     }
 
 }

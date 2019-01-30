@@ -63,7 +63,7 @@
 
 .burger.clicked span:before,
 .burger.clicked span:after {
-  background-color: var(--black);
+  background-color: var(--white);
 }
 
 .burger:hover {

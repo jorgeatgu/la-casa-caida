@@ -7,7 +7,7 @@
 
 .section-text {
     display: block;
-    width: 30rem;
+    width: 100%;
     vertical-align: middle;
     padding: 2rem 0 0;
     margin: 0 auto;
@@ -21,4 +21,12 @@
     .header-ronda {
         max-width: 20rem;
     }
+}
+
+@media only screen and (min-width: 48rem) {
+
+    .section-text {
+        width: 30rem;
+    }
+
 }
