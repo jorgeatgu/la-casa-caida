@@ -1,6 +1,9 @@
 .header {
     width: 100%;
     background-color: var(--background);
+    .container-chart {
+        padding-top: 0;
+    }
 }
 
 .header-container {
@@ -20,14 +23,6 @@
       display: inline-block;
       line-height: 1em;
     }
-}
-
-.header-text {
-    font-size: 1rem;
-    color: var(--black);
-    font-family: var(--text);
-    max-width: 30rem;
-    margin: 1rem auto;
 }
 
 .header-ronda {
@@ -58,7 +53,7 @@
 .header-ronda-text {
     font-size: 14px;
     display: block;
-    font-family: var(--text);
+    font-family: var(--title);
 }
 
 .text-wrapper {

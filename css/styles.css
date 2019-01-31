@@ -370,7 +370,7 @@ template {
     --fontSystem: BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, sans-serif;
     --monospace: 'SFMono-Regular', Consolas, Menlo, Courier, monospace;
     --title: 'Playfair Display', serif;
-    --text: 'Adamina', serif;
+    --text: 'Roboto Condensed', sans-serif;
     --black: #111;
     --white: #fff;
     --background: #FBDED5;
@@ -395,7 +395,7 @@ body {
     line-height: 1.4;
     color: #111;
     color: var(--black);
-    font-family: 'Adamina', serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-family: var(--text);
 }
 
@@ -426,6 +426,11 @@ body {
     padding: 5rem 0;
 }
 
+.labordeta .text {
+        font-family: 'Playfair Display', serif;
+        font-family: var(--title);
+    }
+
 .labordeta-song {
     width: max-content;
     position: relative;
@@ -454,7 +459,7 @@ body {
 
 .data {
     font-size: 12px;
-    font-family: 'Adamina', serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-family: var(--text);
     display: inline-block;
     margin: 1rem 0 2rem;
@@ -723,6 +728,10 @@ body {
     background-color: var(--background);
 }
 
+.header .container-chart {
+        padding-top: 0;
+    }
+
 .header-container {
     max-width: 50rem;
     margin: 0 auto;
@@ -744,16 +753,6 @@ body {
       display: inline-block;
       line-height: 1em;
     }
-
-.header-text {
-    font-size: 1rem;
-    color: #111;
-    color: var(--black);
-    font-family: 'Adamina', serif;
-    font-family: var(--text);
-    max-width: 30rem;
-    margin: 1rem auto;
-}
 
 .header-ronda {
     width: max-content;
@@ -786,8 +785,8 @@ body {
 .header-ronda-text {
     font-size: 14px;
     display: block;
-    font-family: 'Adamina', serif;
-    font-family: var(--text);
+    font-family: 'Playfair Display', serif;
+    font-family: var(--title);
 }
 
 .text-wrapper {
@@ -824,6 +823,11 @@ body {
         max-width: 20rem;
     }
 
+.section-text .container-chart {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
 @media only screen and (min-width: 48rem) {
 
     .section-text {
@@ -837,6 +841,7 @@ body {
     margin-top: 0;
     font-family: 'Playfair Display', serif;
     font-family: var(--title);
+    padding: 0 .5rem;
 }
 
 .subtittle {
@@ -849,7 +854,7 @@ body {
 
 .text {
     font-size: 1rem;
-    font-family: 'Adamina', serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-family: var(--text);
     width: 100%;
 }
@@ -862,9 +867,9 @@ body {
 }
 
 .line-chart text, .scatter text, .bar-negative-chart text, .line-population text {
-        font-family: 'Adamina', serif;
+        font-family: 'Roboto Condensed', sans-serif;
         font-family: var(--text);
-        font-size: 14px;
+        font-size: 12px;
     }
 
 .line-chart .line, .scatter .line, .bar-negative-chart .line, .line-population .line {
@@ -881,13 +886,9 @@ body {
             stroke-dasharray: 3px;
         }
 
-.line-chart .legend, .scatter .legend, .bar-negative-chart .legend, .line-population .legend {
-        font-weight: bold;
-    }
-
 .line-chart .legend-percentage, .scatter .legend-percentage, .bar-negative-chart .legend-percentage, .line-population .legend-percentage {
         font-size: 14px;
-        font-family: 'Adamina', serif;
+        font-family: 'Roboto Condensed', sans-serif;
         font-family: var(--text);
     }
 
@@ -899,7 +900,7 @@ body {
     padding: .5rem;
     background-color: #fff;
     background-color: var(--white);
-    border-radius: 4px;
+    border-radius: 2px;
     position: absolute;
     opacity: 1;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .31), 0 2px 4px 0 rgba(50, 50, 58, .2);
@@ -908,7 +909,7 @@ body {
 
 .tooltip .tooltip-deceased {
         font-size: 14px;
-        font-family: 'Adamina', serif;
+        font-family: 'Roboto Condensed', sans-serif;
         font-family: var(--text);
         margin: .25rem;
     }
@@ -916,6 +917,14 @@ body {
 .tooltip .tooltip-deceased + p {
             display: none;
         }
+
+.tooltip.tooltip-percentage {
+        background-color: #181e3e;
+        color: #fff;
+        color: var(--white);
+        border-radius: 0;
+        box-shadow: none;
+    }
 
 .tooltip-number {
     font-weight: bold;
@@ -926,7 +935,7 @@ body {
     .scatter .tootlip-under,
     .scatter .tootlip-over {
         font-size: 14px;
-        font-family: 'Adamina', serif;
+        font-family: 'Roboto Condensed', sans-serif;
         font-family: var(--text);
         margin: .25em;
     }
@@ -962,7 +971,7 @@ body {
     .bar-negative .tooltip-born,
     .bar-negative .tooltip-deceased {
         font-size: 14px;
-        font-family: 'Adamina', serif;
+        font-family: 'Roboto Condensed', sans-serif;
         font-family: var(--text);
         margin: .25em;
     }
@@ -988,6 +997,10 @@ body {
         fill: #090387;
     }
 
+.bar-negative-chart .axis-x text {
+            font-size: 6px;
+        }
+
 .lines {
     fill: none;
     stroke: #0e2153;
@@ -995,7 +1008,7 @@ body {
 }
 
 .tooltip-media-texto {
-    font-family: 'Adamina', serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-family: var(--text);
     font-size: 14px;
 }
@@ -1039,8 +1052,16 @@ select {
 }
 
 .filters-title {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: var(--text);
+    margin: .25rem;
+}
+
+.filters-subtitle {
     font-size: 14px;
-    font-family: 'Adamina', serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-family: var(--text);
     margin: .25rem;
 }
@@ -1050,6 +1071,12 @@ select {
     .filters {
         margin-left: 3rem;
     }
+            .bar-negative-chart .axis-x text {
+                font-size: 14px;
+            }
+        .line-chart text, .scatter text, .bar-negative-chart text, .line-population text {
+            font-size: 14px;
+        }
 }
 
 /* stylelint-disable */
@@ -1163,7 +1190,7 @@ select {
     border: 1px solid #f1f1f1 !important;
     background-color: #fff !important;
     background-color: var(--white) !important;
-    font-family: 'Adamina', serif !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
     font-family: var(--text) !important;
     color: #111 !important;
     color: var(--black) !important;
@@ -1173,12 +1200,12 @@ select {
 
 .ss-main .ss-content .ss-search input {
     font-size: 1rem;
-    font-family: 'Adamina', serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-family: var(--text);
 }
 
 .ss-option {
-    font-family: 'Adamina', serif !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
     font-family: var(--text) !important;
     color: #111 !important;
     color: var(--black) !important;
@@ -1208,7 +1235,7 @@ select {
 }
 
 .select-text {
-    font-family: 'Adamina', serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-family: var(--text);
     margin-left: 3rem;
     margin-top: 0;
@@ -1241,8 +1268,8 @@ select {
 
 .proyectos-element-title {
     font-size: 1.25rem;
-    font-family: 'Playfair Display', serif;
-    font-family: var(--title);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: var(--text);
     font-weight: bold;
     letter-spacing: 1px;
     display: block;
@@ -1252,8 +1279,8 @@ select {
 
 .proyectos-element-subtitle {
     font-size: .75rem;
-    font-family: 'Playfair Display', serif;
-    font-family: var(--title);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: var(--text);
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
@@ -1261,7 +1288,7 @@ select {
 
 .proyectos-element-text {
     font-size: 1rem;
-    font-family: 'Adamina', serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-family: var(--text);
     margin-top: .5rem;
     margin-bottom: 0;
@@ -1330,7 +1357,7 @@ select {
 }
 
 .metodology-text {
-    font-family: 'Adamina', serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-family: var(--text);
     max-width: 30rem;
     font-size: 1rem;

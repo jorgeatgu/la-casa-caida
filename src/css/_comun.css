@@ -32,6 +32,9 @@ body {
     width: 100%;
     background-color: var(--white);
     padding: 5rem 0;
+    .text {
+        font-family: var(--title);
+    }
 }
 
 .labordeta-song {

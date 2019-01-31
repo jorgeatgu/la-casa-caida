@@ -21,6 +21,10 @@
     .header-ronda {
         max-width: 20rem;
     }
+    .container-chart {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
 
 @media only screen and (min-width: 48rem) {
