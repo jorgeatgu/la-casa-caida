@@ -64,6 +64,159 @@ csvCities = ['data/huesca/huesca.csv', 'data/teruel/teruel.csv', 'data/zaragoza/
 
 cities = ['huesca', 'teruel', 'zaragoza'];
 
+const scatterDesert = () => {
+    //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
+    const margin = { top: 24, right: 24, bottom: 24, left: 24 };
+    let width = 0;
+    let height = 0;
+    let w = 0;
+    let h = 0;
+    const chart = d3.select('.scatter-desert');
+    const svg = chart.select('svg');
+    const scales = {};
+    const temp = "º";
+    let dataz;
+
+    //Escala para los ejes X e Y
+    const setupScales = () => {
+
+        const countX = d3.scaleLinear()
+            .domain([d3.min(dataz, d => d.densidad), d3.max(dataz, d => d.densidad)]);
+
+        const countY = d3.scaleLinear()
+            .domain([d3.min(dataz, d => d.densidad), d3.max(dataz, d => d.densidad)]);
+
+        scales.count = { x: countX, y: countY };
+
+    }
+
+    //Seleccionamos el contenedor donde irán las escalas y en este caso el area donde se pirntara nuestra gráfica
+    const setupElements = () => {
+
+        const g = svg.select('.scatter-desert-container');
+
+        g.append('g').attr('class', 'axis axis-x');
+
+        g.append('g').attr('class', 'axis axis-y');
+
+        g.append('g').attr('class', 'scatter-desert-container-bis');
+
+    }
+
+    //Actualizando escalas
+    const updateScales = (width, height) => {
+        scales.count.x.range([0, width]);
+        scales.count.y.range([height, 0]);
+    }
+
+    //Dibujando ejes
+    const drawAxes = (g) => {
+
+        const axisX = d3.axisBottom(scales.count.x)
+            .tickFormat(d3.format("d"))
+            .ticks(0);
+
+        g.select(".axis-x")
+            .attr("transform", "translate(0," + height + ")")
+            .call(axisX);
+
+        const axisY = d3.axisLeft(scales.count.y)
+            .tickFormat(d3.format("d"))
+            .tickSize(-width)
+            .ticks(10)
+
+        g.select(".axis-y")
+            .call(axisY)
+
+        g.append('rect')
+            .attr('width', w - (margin.left + margin.right) + "px")
+            .attr('height', (h - (margin.top + margin.bottom)) / 10)
+            .attr('y', height - (margin.bottom + margin.top + 7))
+            .style('fill', "#436b73")
+            .style('fill-opacity', 0.8);
+
+        chart.append("div")
+            .html(`
+                <p class="tootlip-population"><span class="tooltip-number">DESIERTO DEMÓGRAFICO<p/>
+                `)
+            .style("left", margin.left * 5)
+            .style("top", height - (margin.bottom + margin.top + 7));
+
+
+    }
+
+    const updateChart = (dataz) => {
+        w = chart.node().offsetWidth;
+        h = 600;
+
+        width = w - margin.left - margin.right;
+        height = h - margin.top - margin.bottom;
+
+        svg
+            .attr('width', w )
+            .attr('height', h);
+
+        const translate = "translate(" + margin.left + "," + margin.top + ")";
+
+        const g = svg.select('.scatter-desert-container')
+
+        g.attr("transform", translate)
+
+        updateScales(width, height)
+
+        const container = chart.select('.scatter-desert-container-bis')
+
+        const layer = container.selectAll('.circle-desert')
+            .data(dataz)
+
+        const newLayer = layer.enter()
+            .append('circle')
+            .attr('class', 'circle-desert')
+
+        layer.merge(newLayer)
+            .attr("cx", d => Math.random()* width)
+            .attr("cy", d => scales.count.y(d.densidad))
+            .attr("r", 3)
+            .attr('fill-opacity', 0.6);
+
+        drawAxes(g)
+
+    }
+
+    const resize = () => {
+        updateChart(dataz)
+    }
+
+    // LOAD THE DATA
+    const loadData = () => {
+
+        d3.csv('data/aragon-municipios.csv', (error, data) => {
+            if (error) {
+                console.log(error);
+            } else {
+                dataz = data
+                dataz.forEach(d => {
+                    d.densidad = d.densidad;
+                    d.municipio = d.municipio;
+                    d.posicion = d.posicion;
+                });
+                setupElements()
+                setupScales()
+                updateChart(dataz)
+            }
+
+        });
+    }
+
+    window.addEventListener('resize', resize)
+
+    loadData()
+
+}
+
+scatterDesert()
+
+
 const line = (csvFile, cities) => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
     const margin = { top: 0, right: 8, bottom: 24, left: 56 };

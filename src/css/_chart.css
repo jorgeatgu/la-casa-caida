@@ -20,6 +20,7 @@
 
 .line-chart,
 .scatter,
+.scatter-desert,
 .bar-negative-chart,
 .line-population {
     position: relative;
@@ -43,6 +44,12 @@
     .legend-percentage {
         font-size: 14px;
         font-family: var(--text);
+    }
+}
+
+.scatter-desert {
+    .circle-desert {
+        fill: #3b2462;
     }
 }
 

@@ -824,8 +824,7 @@ body {
     }
 
 .section-text .container-chart {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 0;
     }
 
 @media only screen and (min-width: 48rem) {
@@ -861,35 +860,40 @@ body {
 
 .line-chart,
 .scatter,
+.scatter-desert,
 .bar-negative-chart,
 .line-population {
     position: relative;
 }
 
-.line-chart text, .scatter text, .bar-negative-chart text, .line-population text {
+.line-chart text, .scatter text, .scatter-desert text, .bar-negative-chart text, .line-population text {
         font-family: 'Roboto Condensed', sans-serif;
         font-family: var(--text);
         font-size: 12px;
     }
 
-.line-chart .line, .scatter .line, .bar-negative-chart .line, .line-population .line {
+.line-chart .line, .scatter .line, .scatter-desert .line, .bar-negative-chart .line, .line-population .line {
         fill: none;
         stroke-width: 3;
         stroke: #b60b46;
     }
 
-.line-chart .axis-y .domain, .scatter .axis-y .domain, .bar-negative-chart .axis-y .domain, .line-population .axis-y .domain {
+.line-chart .axis-y .domain, .scatter .axis-y .domain, .scatter-desert .axis-y .domain, .bar-negative-chart .axis-y .domain, .line-population .axis-y .domain {
             stroke: none;
         }
 
-.line-chart .axis-y line, .scatter .axis-y line, .bar-negative-chart .axis-y line, .line-population .axis-y line {
+.line-chart .axis-y line, .scatter .axis-y line, .scatter-desert .axis-y line, .bar-negative-chart .axis-y line, .line-population .axis-y line {
             stroke-dasharray: 3px;
         }
 
-.line-chart .legend-percentage, .scatter .legend-percentage, .bar-negative-chart .legend-percentage, .line-population .legend-percentage {
+.line-chart .legend-percentage, .scatter .legend-percentage, .scatter-desert .legend-percentage, .bar-negative-chart .legend-percentage, .line-population .legend-percentage {
         font-size: 14px;
         font-family: 'Roboto Condensed', sans-serif;
         font-family: var(--text);
+    }
+
+.scatter-desert .circle-desert {
+        fill: #3b2462;
     }
 
 .overlay {
@@ -1351,7 +1355,6 @@ select {
     font-size: 1.25rem;
     font-family: 'Playfair Display', serif;
     font-family: var(--title);
-    letter-spacing: 1px;
     margin-bottom: 1rem;
     margin-top: 0;
 }

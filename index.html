@@ -63,6 +63,17 @@
                     </p>
                 </div>
             </div>
+            <section class="container-chart">
+                <div class="section-text">
+                    <h4 class="subtittle">Aragón un desierto demográfico</h4>
+                    <p class="text">En la siguiente gráfica podemos ver como ha ido evolucionando la población total de la provincia de Huesca desde 1900 hasta 2018.</p>
+                </div>
+                <article class="scatter-desert">
+                    <svg class="scatter-chart">
+                        <g class="scatter-desert-container"></g>
+                    </svg>
+                </article>
+            </section>
         </div>
     </section>
     <section class="labordeta">
@@ -405,57 +416,61 @@
         </section>
         <!--  <iframe width="100%" height="600" frameborder="0" src="https://jorgeatgu.carto.com/builder/69151566-6ec4-47cf-9f08-924be08f3f96/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> -->
         <section class="metodology">
-            <article class="container-chart">
-                <h3 class="metodology-title">Metodología</h3>
-                <p class="metodology-text">El dataset principal es la serie histórica de población por municipios de 1900 a 2011. Está disponible en <a href="https://opendata.aragon.es/datos/catalogo/dataset/serie-historica-de-poblacion-municipios">Aragón Open Data</a>. He actualizado este dataset con los datos oficiales del INE de 2018. A partir de este he ido generando más datasets gracias a la poderosa combinación de <a href="https://csvkit.readthedocs.io/en/1.0.3/">csvkit</a> + <a href="https://stedolan.github.io/jq/">jq</a> + Bash. He ido documentado todo el proceso, esta disponible <a href="https://github.com/jorgeatgu/la-casa-caida/blob/master/data/readme.md">aquí</a>.</p>
-                <p class="metodology-text">La horquilla de edad del porcentaje de mayores va desde los 65 años hasta 100 años o más. Lo horquilla para el de menores de 18 años va desde los 0 años hasta los 18 años inclusive. Estas dos series de datos provienen del INE a fecha de 2018.</p>
-                <p class="metodology-text">El saldo vegetativo entre 1996 y 2017 proviene del IAEST pero los datos están mal. Un ejemplo, en Ansó en el año 2011 no nacio nadie pero murieron 8 personas, el saldo vegetativo de ese año debería de ser -8, en lugar de esta cifra el IAEST da un saldo vegetativo de 0. Así que he tenido que rehacer este dataset volviendo a calcular el saldo vegetativo de todos los años en todos los municipios.</p>
-                <p class="metodology-text">La densidad de población es igual al número de habitantes dividido por la superficie en kilometros cuadrados del municipio. La superficie de cada municipio de Aragón esta en este <a href="https://gist.githubusercontent.com/jorgeatgu/40eaa471b02add6d9a7a9aca33fc8bd5/raw/ef7d384a0749df4f9b3594c76b432026344b0df9/aragon.json">dataset</a>. Los datos de población perfetenecen al INE del 2018.</p>
-                <p class="metodology-text">Todos los datos los he dividido por provincia. Y están disponibles <a href="https://github.com/jorgeatgu/la-casa-caida/tree/master/data">aquí</a>.</p>
-                <p class="metodology-text">Veracruz desde 2011 se llama Beranuy que es el nombre por el que siempre se ha conocido. <a href="https://www.elperiodicodearagon.com/noticias/aragon/el-municipio-de-veracruz-se-llama-desde-ayer-beranuy_679601.html">Noticia</a></p>
-            </article>
-            <article class="container-chart">
-                <h3 class="metodology-title">Créditos</h3>
-                <p class="metodology-text">Todos los datos provienen de <a href="https://opendata.aragon.es">Aragon Open Data</a>, <a href="https://www.ine.es/welcome.shtml">INE</a> y <a href="http://www.aragon.es/iaest">IAEST</a>.</p>
-                <p class="metodology-text">Para el dropdown he usado <a href="http://slimselectjs.com">SlimSelect</a>.</p>
-                <p class="metodology-text">Para las animaciones he usado <a href="https://animejs.com">animeJS</a>.</p>
-                <p class="metodology-text">Para las animaciones de los path en d3 he usado <a href="https://github.com/pbeshai/d3-interpolate-path">d3-interpolate-path</a>.</p>
-                <p class="metodology-text">Infinitas gracias a <a href="https://twitter.com/NTKOG">Jorge</a> que hace un tiempo me descubrió jq. Lo cual hace que ahorre días cuando tengo que procesar, analizar y generar datasets. <span class="bold">It's magic</span>.</p>
-            </article>
-            <article class="container-chart">
-                <h3 id="enlaces" class="metodology-title">Enlaces de interés</h3>
-                <p class="metodology-text">Ainielle tiene memoria <a href="http://www.rtve.es/alacarta/videos/cronicas/cronicas-ainielle-tiene-memoria/221225/?pais=ES">[documental]</a></p>
-                <p class="metodology-text">Sol a l'Estall <a href="https://www.ccma.cat/tv3/alacarta/programa/Sol-a-lEstall/video/1407949/">[documental]</a></p>
-                <p class="metodology-text">Mediano, la memoria ahogada <a href="https://www.youtube.com/watch?v=bKJ8U9vVo5k">[documental]</a></p>
-                <p class="metodology-text">RIAÑO VIVE. Un Val condenado a morte <a href="https://www.youtube.com/watch?v=gWEPFe_OqC0">[documental]</a></p>
-                <p class="metodology-text">Paisajes con memoria. Despoblados del Alto Aragón<a href="http://www.prames.com/libreria_individual_$.asp?publica=707">[libro]</a></p>
-                <p class="metodology-text">Despoblados en Huesca. Un impresionante trabajo de documentación de Cristian Laglera.<a href="http://www.editorialpirineo.com/239-pueblos-despoblados-de-huesca-tomo-1-ribagorza-litera.html">[libros]</a></p>
-                <p class="metodology-text">La soledad de Sobrepuerto <a href="https://www.altairmagazine.com/voces/la-soledad-de-sobrepuerto">[artículo]</a></p>
-                <p class="metodology-text">La despoblación en Aragón <a href="http://www.eljusticiadearagon.com/gestor/ficheros/_n000146_La%20despoblaci%F3n%20en%20Arag%F3n.PDF">[informe]</a></p>
-                <p class="metodology-text">El problema de la despoblación en Aragón <a href="https://dialnet.unirioja.es/servlet/articulo?codigo=104079">[informe]</a></p>
-                <p class="metodology-text">Serranía Celtiberica <a href="http://www.celtiberica.es">[web/asociación]</a></p>
-            </article>
+            <div class="section-text">
+                <article class="container-chart">
+                    <h3 class="metodology-title">Metodología</h3>
+                    <p class="metodology-text">El dataset principal es la serie histórica de población por municipios de 1900 a 2011. Está disponible en <a href="https://opendata.aragon.es/datos/catalogo/dataset/serie-historica-de-poblacion-municipios">Aragón Open Data</a>. He actualizado este dataset con los datos oficiales del INE de 2018. A partir de este he ido generando más datasets gracias a la poderosa combinación de <a href="https://csvkit.readthedocs.io/en/1.0.3/">csvkit</a> + <a href="https://stedolan.github.io/jq/">jq</a> + Bash. He ido documentado todo el proceso, esta disponible <a href="https://github.com/jorgeatgu/la-casa-caida/blob/master/data/readme.md">aquí</a>.</p>
+                    <p class="metodology-text">La horquilla de edad del porcentaje de mayores va desde los 65 años hasta 100 años o más. Lo horquilla para el de menores de 18 años va desde los 0 años hasta los 18 años inclusive. Estas dos series de datos provienen del INE a fecha de 2018.</p>
+                    <p class="metodology-text">El saldo vegetativo entre 1996 y 2017 proviene del IAEST pero los datos están mal. Un ejemplo, en Ansó en el año 2011 no nacio nadie pero murieron 8 personas, el saldo vegetativo de ese año debería de ser -8, en lugar de esta cifra el IAEST da un saldo vegetativo de 0. Así que he tenido que rehacer este dataset volviendo a calcular el saldo vegetativo de todos los años en todos los municipios.</p>
+                    <p class="metodology-text">La densidad de población es igual al número de habitantes dividido por la superficie en kilometros cuadrados del municipio. La superficie de cada municipio de Aragón esta en este <a href="https://gist.githubusercontent.com/jorgeatgu/40eaa471b02add6d9a7a9aca33fc8bd5/raw/ef7d384a0749df4f9b3594c76b432026344b0df9/aragon.json">dataset</a>. Los datos de población perfetenecen al INE del 2018.</p>
+                    <p class="metodology-text">Todos los datos los he dividido por provincia. Y están disponibles <a href="https://github.com/jorgeatgu/la-casa-caida/tree/master/data">aquí</a>.</p>
+                    <p class="metodology-text">Veracruz desde 2011 se llama Beranuy que es el nombre por el que siempre se ha conocido. <a href="https://www.elperiodicodearagon.com/noticias/aragon/el-municipio-de-veracruz-se-llama-desde-ayer-beranuy_679601.html">Noticia</a></p>
+                </article>
+                <article class="container-chart">
+                    <h3 class="metodology-title">Créditos</h3>
+                    <p class="metodology-text">Todos los datos provienen de <a href="https://opendata.aragon.es">Aragon Open Data</a>, <a href="https://www.ine.es/welcome.shtml">INE</a> y <a href="http://www.aragon.es/iaest">IAEST</a>.</p>
+                    <p class="metodology-text">Para el dropdown he usado <a href="http://slimselectjs.com">SlimSelect</a>.</p>
+                    <p class="metodology-text">Para las animaciones he usado <a href="https://animejs.com">animeJS</a>.</p>
+                    <p class="metodology-text">Para las animaciones en d3 he usado <a href="https://github.com/pbeshai/d3-interpolate-path">d3-interpolate-path</a>.</p>
+                    <p class="metodology-text">Infinitas gracias a <a href="https://twitter.com/NTKOG">Jorge</a> que hace un tiempo me descubrió jq. Lo cual hace que ahorre días cuando tengo que procesar, analizar y generar datasets. <span class="bold">It's magic</span>.</p>
+                </article>
+                <article class="container-chart">
+                    <h3 id="enlaces" class="metodology-title">Enlaces de interés</h3>
+                    <p class="metodology-text">Ainielle tiene memoria <a href="http://www.rtve.es/alacarta/videos/cronicas/cronicas-ainielle-tiene-memoria/221225/?pais=ES">[documental]</a></p>
+                    <p class="metodology-text">Sol a l'Estall <a href="https://www.ccma.cat/tv3/alacarta/programa/Sol-a-lEstall/video/1407949/">[documental]</a></p>
+                    <p class="metodology-text">Mediano, la memoria ahogada <a href="https://www.youtube.com/watch?v=bKJ8U9vVo5k">[documental]</a></p>
+                    <p class="metodology-text">RIAÑO VIVE. Un Val condenado a morte <a href="https://www.youtube.com/watch?v=gWEPFe_OqC0">[documental]</a></p>
+                    <p class="metodology-text">Paisajes con memoria. Despoblados del Alto Aragón<a href="http://www.prames.com/libreria_individual_$.asp?publica=707">[libro]</a></p>
+                    <p class="metodology-text">Despoblados en Huesca. Un impresionante trabajo de documentación de Cristian Laglera.<a href="http://www.editorialpirineo.com/239-pueblos-despoblados-de-huesca-tomo-1-ribagorza-litera.html">[libros]</a></p>
+                    <p class="metodology-text">La soledad de Sobrepuerto <a href="https://www.altairmagazine.com/voces/la-soledad-de-sobrepuerto">[artículo]</a></p>
+                    <p class="metodology-text">La despoblación en Aragón <a href="http://www.eljusticiadearagon.com/gestor/ficheros/_n000146_La%20despoblaci%F3n%20en%20Arag%F3n.PDF">[informe]</a></p>
+                    <p class="metodology-text">El problema de la despoblación en Aragón <a href="https://dialnet.unirioja.es/servlet/articulo?codigo=104079">[informe]</a></p>
+                    <p class="metodology-text">Serranía Celtiberica <a href="http://www.celtiberica.es">[web/asociación]</a></p>
+                </article>
+            </div>
         </section>
         <section class="container">
             <section class="data-viz">
-                <article class="container-chart">
-                    <h3 class="metodology-title">Otros proyectos</h3>
-                    <a href="http://bislai.co" class="proyectos-element proyecto-1">
-                    <h2 class="proyectos-element-title proyecto-1-text">BISLAI </h2>
-                    <span class="proyectos-element-subtitle proyecto-1-text">[ DATAVIZ - OPENDATA ]</span>
-                    <p class="proyectos-element-text proyecto-1-text">Fiscalización de las mociones que presentan los grupos politicos en el Ayuntamiento de Zaragoza.</p>
-                </a>
-                    <a href="https://vulturno.co" class="proyectos-element proyecto-2">
-                    <h2 class="proyectos-element-title proyecto-2-text">VULTURNO</h2>
-                    <span class="proyectos-element-subtitle proyecto-2-text">[ DATAVIZ ]</span>
-                    <p class="proyectos-element-text proyecto-2-text">Una visualización de datos sobre como el cambio climático esta aumentando las temperaturas en la ciudad de Zaragoza.</p>
-                </a>
-                    <a href="http://jorgeatgu.com/data-mestika" class="proyectos-element proyecto-4">
-                    <h2 class="proyectos-element-title proyecto-4-text">DATA-MESTIKA</h2>
-                    <span class="proyectos-element-subtitle proyecto-4-text">[ DATAVIZ ]</span>
-                    <p class="proyectos-element-text proyecto-4-text">Una visualización de datos sobre todas las ofertas de trabajo ofertadas en Domestika a lo largo de 10 años.</p>
-                </a>
-                </article>
+                <div class="section-text">
+                    <article class="container-chart">
+                        <h3 class="metodology-title">Otros proyectos</h3>
+                        <a href="http://bislai.co" class="proyectos-element proyecto-1">
+                        <h2 class="proyectos-element-title proyecto-1-text">BISLAI </h2>
+                        <span class="proyectos-element-subtitle proyecto-1-text">[ DATAVIZ - OPENDATA ]</span>
+                        <p class="proyectos-element-text proyecto-1-text">Fiscalización de las mociones que presentan los grupos politicos en el Ayuntamiento de Zaragoza.</p>
+                    </a>
+                        <a href="https://vulturno.co" class="proyectos-element proyecto-2">
+                        <h2 class="proyectos-element-title proyecto-2-text">VULTURNO</h2>
+                        <span class="proyectos-element-subtitle proyecto-2-text">[ DATAVIZ ]</span>
+                        <p class="proyectos-element-text proyecto-2-text">Una visualización de datos sobre como el cambio climático esta aumentando las temperaturas en la ciudad de Zaragoza.</p>
+                    </a>
+                        <a href="http://jorgeatgu.com/data-mestika" class="proyectos-element proyecto-4">
+                        <h2 class="proyectos-element-title proyecto-4-text">DATA-MESTIKA</h2>
+                        <span class="proyectos-element-subtitle proyecto-4-text">[ DATAVIZ ]</span>
+                        <p class="proyectos-element-text proyecto-4-text">Una visualización de datos sobre todas las ofertas de trabajo ofertadas en Domestika a lo largo de 10 años.</p>
+                    </a>
+                    </article>
+                </div>
             </section>
         </section>
         <footer class="footer">
