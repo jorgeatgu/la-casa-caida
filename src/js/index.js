@@ -1,3 +1,5 @@
+const widthMobile = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
 function menu() {
     var overlay = document.querySelector('.overlay');
     var navigation = document.querySelector('.navegacion');
@@ -64,7 +66,8 @@ cities = ['huesca', 'teruel', 'zaragoza'];
 
 const line = (csvFile, cities) => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
-    const margin = { top: 0, right: 24, bottom: 24, left: 72 };
+    const margin = { top: 0, right: 8, bottom: 24, left: 56 };
+
     let width = 0;
     let height = 0;
     const chart = d3.select(`.line-${cities}`);
@@ -77,8 +80,6 @@ const line = (csvFile, cities) => {
         thousands: ".",
         grouping: [3]
     });
-
-    var format = locale.format(",.3f");
 
     //Escala para los ejes X e Y
     const setupScales = () => {
@@ -119,7 +120,7 @@ const line = (csvFile, cities) => {
 
         const axisX = d3.axisBottom(scales.count.x)
             .tickFormat(d3.format("d"))
-            .ticks(13)
+            .ticks(9)
 
         g.select(".axis-x")
             .attr("transform", "translate(0," + height + ")")
@@ -154,7 +155,6 @@ const line = (csvFile, cities) => {
         const line = d3.line()
             .x(d => scales.count.x(d.year))
             .y(d => scales.count.y(d.total))
-            .curve(d3.curveBasis);
 
         updateScales(width, height)
 
@@ -220,7 +220,7 @@ const line = (csvFile, cities) => {
 
 const barscatter = (csvFile, cities) => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
-    const margin = { top: 24, right: 24, bottom: 62, left: 62 };
+    const margin = { top: 24, right: 8, bottom: 64, left: 40 };
     let width = 0;
     let height = 0;
     let w = 0;
@@ -239,7 +239,7 @@ const barscatter = (csvFile, cities) => {
     const setupScales = () => {
 
         const countX = d3.scaleLinear()
-            .domain([0, 70]);
+            .domain([0, 75]);
 
 
         const countY = d3.scaleLinear()
@@ -270,7 +270,7 @@ const barscatter = (csvFile, cities) => {
         g.append("text")
             .attr("class", "legend")
             .attr("x", "-350")
-            .attr("y", "-50")
+            .attr("y", "-30")
             .attr("transform", "rotate(-90)")
             .style("text-anchor", "start")
             .text("Menores de 18 años");
@@ -437,6 +437,7 @@ const barscatter = (csvFile, cities) => {
 
                     d3.select(`#percentage-over-city-${cities} option`).property("selected", "0");
                     d3.select(`#percentage-under-city-${cities} option`).property("selected", "0");
+                    d3.selectAll('.tooltip-percentage').remove().exit();
 
                     new SlimSelect({
                         select: `#percentage-over-city-${cities}`,
@@ -498,7 +499,7 @@ const barscatter = (csvFile, cities) => {
                 chart.append("div")
                     .attr("class", "tooltip tooltip-percentage")
                     .html(`
-                        <p class="tootlip-population"><span class="tooltip-number">${dataz.length}</span> municipios superan el <span class="bold">${percentageCity}%</span> de habitantes <span class="bold">mayores de 65 años</span>. <p/>
+                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios  el <span class="tooltip-number">${percentageCity}%</span> de habitantes <span class="bold">es mayor de 65 años</span>. <p/>
                         `)
                     .style("right", margin.right + "px")
                     .style("top", 50 + "px");
@@ -557,7 +558,7 @@ const barscatter = (csvFile, cities) => {
                 chart.append("div")
                     .attr("class", "tooltip tooltip-percentage")
                     .html(`
-                        <p class="tootlip-population"><span class="tooltip-number">${dataz.length}</span> municipios superan el <span class="bold">${percentageCity}%</span> de habitantes <span class="bold">menores de 18 años</span>.<p/>
+                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios  el <span class="bold">${percentageCity}%</span> de habitantes <span class="bold">es menor de 18 años</span>.<p/>
                         `)
                     .style("right", margin.right + "px")
                     .style("top", 50 + "px");
@@ -645,7 +646,7 @@ const barscatter = (csvFile, cities) => {
 
 const barNegative = (csvFile, cities) => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
-    const margin = { top: 24, right: 24, bottom: 24, left: 48 };
+    const margin = { top: 24, right: 8, bottom: 24, left: 32 };
     let width = 0;
     let height = 0;
     let w = 0;
@@ -695,7 +696,7 @@ const barNegative = (csvFile, cities) => {
 
         const axisX = d3.axisBottom(scales.count.x)
             .ticks(3)
-            .tickPadding(8)
+            .tickPadding(4)
             .tickFormat(d3.format("d"))
 
         g.select(".axis-x")
@@ -816,7 +817,7 @@ const barNegative = (csvFile, cities) => {
 
 const barNegativeZ = () => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
-    const margin = { top: 24, right: 24, bottom: 24, left: 48 };
+    const margin = { top: 24, right: 8, bottom: 24, left: 40 };
     let width = 0;
     let height = 0;
     let w = 0;
@@ -865,7 +866,7 @@ const barNegativeZ = () => {
     const drawAxes = (g) => {
 
         const axisX = d3.axisBottom(scales.count.x)
-            .tickPadding(8)
+            .tickPadding(4)
             .tickFormat(d3.format("d"))
 
         g.select(".axis-x")
@@ -997,12 +998,10 @@ barNegative(csvBalance[1], cities[1]);
 
 const linePopulation = (csvFile, cities) => {
 
-    const widthMobile = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-
     if (widthMobile > 544) {
-        margin = { top: 16, right: 16, bottom: 24, left: 62 };
+        margin = { top: 16, right: 8, bottom: 24, left: 62 };
     } else {
-        margin = { top: 16, right: 16, bottom: 24, left: 32 };
+        margin = { top: 16, right: 8, bottom: 24, left: 32 };
     }
 
     let width = 0;
@@ -1041,7 +1040,7 @@ const linePopulation = (csvFile, cities) => {
             tooltipOver.data(datos)
                 .html(d =>
                     `
-                    <p class="tooltip-deceased">Desde 1900 su población ha disminuido en un <span class="tooltip-number">${percentageL}%.</span><p/>
+                    <p class="tooltip-deceased">Desde 1900 su población ha disminuido en un <span class="tooltip-number">${percentageL}%</span><p/>
                     <p class="tooltip-deceased">Mayores de 65 años en 2018: <span class="tooltip-number">${d.mayor}%</span><p/>
                     <p class="tooltip-deceased">Menores de 18 años en 2018: <span class="tooltip-number">${d.menor}%</span><p/>
                     `)
@@ -1053,7 +1052,7 @@ const linePopulation = (csvFile, cities) => {
             tooltipOver.data(datos)
                 .html(d =>
                     `
-                        <p class="tooltip-deceased">Desde 1900 su población ha aumentado en un <span class="tooltip-number">${percentageW}%.</span><p/>
+                        <p class="tooltip-deceased">Desde 1900 su población ha aumentado en un <span class="tooltip-number">${percentageW}%</span><p/>
                         <p class="tooltip-deceased">Mayores de 65 años en 2018: <span class="tooltip-number">${d.mayor}%</span><p/>
                         <p class="tooltip-deceased">Menores de 18 años en 2018: <span class="tooltip-number">${d.menor}%</span><p/>
                         `)
@@ -1223,15 +1222,7 @@ const linePopulation = (csvFile, cities) => {
 
     const resize = () => {
 
-        const stationResize = d3.select(`#select-city-${cities}`)
-            .property("value")
-
-        d3.csv("csv/" + stationResize + ".csv", (error, data) => {
-
-            datos = data;
             updateChart(datos)
-
-        });
 
     }
 
