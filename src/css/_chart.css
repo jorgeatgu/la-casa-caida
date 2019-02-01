@@ -64,6 +64,11 @@
     position: absolute;
     opacity: 1;
     box-shadow: var(--shadow);
+    /* stylelint-disable */
+    width: max-content;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    /* stylelint-enable */
     .tooltip-deceased {
         font-size: 14px;
         font-family: var(--text);
@@ -137,6 +142,14 @@
     }
 }
 
+.tooltip-desert {
+    position: absolute;
+    .tootlip-population {
+        color: var(--white);
+        font-weight: normal;
+    }
+}
+
 .bar-negative-chart {
     .negative {
         fill: #a01721;
@@ -178,7 +191,7 @@ select {
     font-weight: bold;
     cursor: pointer;
     display: inline-block;
-    margin-left: 4rem;
+    margin-left: .5rem;
     box-shadow: var(--shadow);
     &:hover {
         background-color: rgba(149, 39, 71, .85);
@@ -188,6 +201,20 @@ select {
 
 .filters {
     width: 100%;
+    background-color: var(--white);
+    padding: .5rem 1rem;
+    border-radius: 2px;
+    box-shadow: var(--shadow);
+    .ss-main .ss-single-selected {
+        border: 0 !important;
+        border-bottom: 1px solid var(--black) !important;
+        border-radius: 0 !important;
+        background-color: #f1f1f1 !important;
+        margin-left: 0 !important;
+    }
+    .ss-main .ss-content {
+        margin-left: 0 !important;
+    }
 }
 
 .filter-element {
@@ -199,20 +226,23 @@ select {
     font-size: 1rem;
     font-weight: bold;
     font-family: var(--text);
-    margin: .25rem;
+    margin: 0;
 }
 
 .filters-subtitle {
     font-size: 14px;
+    font-weight: normal;
     font-family: var(--text);
     margin: .25rem;
+    margin-left: 0;
 }
 
 @media only screen and (min-width: 48rem) {
 
     .filters {
-        margin-left: 3rem;
+        padding: 1rem;
     }
+
     .bar-negative-chart {
         .axis-x {
             text {

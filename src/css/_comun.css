@@ -21,7 +21,7 @@ body {
 .container-chart {
     width: 100%;
     margin: 0 auto;
-    padding: 3rem .5rem;
+    padding: 1rem .5rem;
 }
 
 .bold {
@@ -31,7 +31,7 @@ body {
 .labordeta {
     width: 100%;
     background-color: var(--white);
-    padding: 5rem 0;
+    padding: 2rem 0;
     .text {
         font-family: var(--title);
     }
@@ -72,6 +72,11 @@ body {
 
     .container-chart {
         max-width: 60rem;
+        padding: 3rem 0;
+    }
+
+    .labordeta {
+        padding: 5rem 0;
     }
 
 }

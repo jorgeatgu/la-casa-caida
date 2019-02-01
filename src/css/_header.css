@@ -13,7 +13,7 @@
 }
 
 .header-title {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: var(--title);
     color: var(--black);
     text-align: center;
@@ -60,4 +60,12 @@
   position: relative;
   display: inline-block;
   overflow: hidden;
+}
+
+@media only screen and (min-width: 48rem) {
+
+    .header-title {
+        font-size: 4rem;
+    }
+
 }
