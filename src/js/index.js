@@ -66,7 +66,7 @@ cities = ['huesca', 'teruel', 'zaragoza'];
 
 const scatterDesert = () => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
-    const margin = { top: 24, right: 24, bottom: 24, left: 24 };
+    const margin = { top: 24, right: 24, bottom: 24, left: 64 };
     let width = 0;
     let height = 0;
     let w = 0;
@@ -74,8 +74,10 @@ const scatterDesert = () => {
     const chart = d3.select('.scatter-desert');
     const svg = chart.select('svg');
     const scales = {};
-    const temp = "º";
+    const habitantes = " hab/km2";
     let dataz;
+    const tooltipDesert = chart.append("div")
+        .attr('class', 'tooltip-desert');
 
     //Escala para los ejes X e Y
     const setupScales = () => {
@@ -101,6 +103,7 @@ const scatterDesert = () => {
 
         g.append('g').attr('class', 'scatter-desert-container-bis');
 
+        g.append('rect').attr('class', 'pantano')
     }
 
     //Actualizando escalas
@@ -121,27 +124,12 @@ const scatterDesert = () => {
             .call(axisX);
 
         const axisY = d3.axisLeft(scales.count.y)
-            .tickFormat(d3.format("d"))
+            .tickFormat(d => d + habitantes)
             .tickSize(-width)
             .ticks(10)
 
         g.select(".axis-y")
             .call(axisY)
-
-        g.append('rect')
-            .attr('width', w - (margin.left + margin.right) + "px")
-            .attr('height', (h - (margin.top + margin.bottom)) / 10)
-            .attr('y', height - (margin.bottom + margin.top + 7))
-            .style('fill', "#436b73")
-            .style('fill-opacity', 0.8);
-
-        chart.append("div")
-            .html(`
-                <p class="tootlip-population"><span class="tooltip-number">DESIERTO DEMÓGRAFICO<p/>
-                `)
-            .style("left", margin.left * 5)
-            .style("top", height - (margin.bottom + margin.top + 7));
-
 
     }
 
@@ -153,7 +141,7 @@ const scatterDesert = () => {
         height = h - margin.top - margin.bottom;
 
         svg
-            .attr('width', w )
+            .attr('width', w)
             .attr('height', h);
 
         const translate = "translate(" + margin.left + "," + margin.top + ")";
@@ -161,6 +149,13 @@ const scatterDesert = () => {
         const g = svg.select('.scatter-desert-container')
 
         g.attr("transform", translate)
+
+        g.select('.pantano')
+            .attr('width', w - (margin.left + margin.right) + "px")
+            .attr('height', (h - (margin.top + margin.bottom)) / 10)
+            .attr('y', height - (margin.bottom + margin.top + 7))
+            .style('fill', "#436b73")
+            .style('fill-opacity', 0.8);
 
         updateScales(width, height)
 
@@ -173,8 +168,14 @@ const scatterDesert = () => {
             .append('circle')
             .attr('class', 'circle-desert')
 
+        tooltipDesert.html(`
+                <p class="tootlip-population">DESIERTO DEMÓGRAFICO<p/>
+                `)
+            .style("left", (margin.left * 1.25) + "px")
+            .style("top", (h - (margin.top + margin.bottom * 2.25)) + "px");
+
         layer.merge(newLayer)
-            .attr("cx", d => Math.random()* width)
+            .attr("cx", d => Math.random() * width)
             .attr("cy", d => scales.count.y(d.densidad))
             .attr("r", 3)
             .attr('fill-opacity', 0.6);
@@ -321,21 +322,21 @@ const line = (csvFile, cities) => {
             .attr('class', 'line')
             .attr('stroke-width', '1.5')
 
-        /*const dots = container.selectAll('.circles')
+        const dots = container.selectAll('.circles')
             .data(dataz)
 
         const dotsLayer = dots.enter()
             .append("circle")
             .attr("class", "circles")
-            .attr("fill", "#921d5d")*/
+            .attr("fill", "#531f4e")
 
         layer.merge(newLayer)
             .attr('d', line)
 
-        /* dots.merge(dotsLayer)
+         dots.merge(dotsLayer)
              .attr("cx", d => scales.count.x(d.year))
              .attr("cy", d => scales.count.y(d.total))
-             .attr('r', 3)*/
+             .attr('r', 4)
 
         drawAxes(g)
 
@@ -373,7 +374,7 @@ const line = (csvFile, cities) => {
 
 const barscatter = (csvFile, cities) => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
-    const margin = { top: 24, right: 8, bottom: 64, left: 40 };
+    const margin = { top: 0, right: 8, bottom: 64, left: 40 };
     let width = 0;
     let height = 0;
     let w = 0;
@@ -415,7 +416,7 @@ const barscatter = (csvFile, cities) => {
 
         g.append("text")
             .attr("class", "legend")
-            .attr("y", "94%")
+            .attr("y", "97%")
             .attr("x", "35%")
             .style("text-anchor", "start")
             .text("Mayores de 65 años");
@@ -652,7 +653,7 @@ const barscatter = (csvFile, cities) => {
                 chart.append("div")
                     .attr("class", "tooltip tooltip-percentage")
                     .html(`
-                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios  el <span class="tooltip-number">${percentageCity}%</span> de habitantes <span class="bold">es mayor de 65 años</span>. <p/>
+                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios  al menos el <span class="tooltip-number">${percentageCity}%</span> de habitantes <span class="bold">es mayor de 65 años</span>. <p/>
                         `)
                     .style("right", margin.right + "px")
                     .style("top", 50 + "px");
@@ -711,7 +712,7 @@ const barscatter = (csvFile, cities) => {
                 chart.append("div")
                     .attr("class", "tooltip tooltip-percentage")
                     .html(`
-                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios  el <span class="bold">${percentageCity}%</span> de habitantes <span class="bold">es menor de 18 años</span>.<p/>
+                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios al menos el <span class="bold">${percentageCity}%</span> de habitantes <span class="bold">es menor de 18 años</span>.<p/>
                         `)
                     .style("right", margin.right + "px")
                     .style("top", 50 + "px");
@@ -799,7 +800,7 @@ const barscatter = (csvFile, cities) => {
 
 const barNegative = (csvFile, cities) => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
-    const margin = { top: 24, right: 8, bottom: 24, left: 32 };
+    const margin = { top: 24, right: 8, bottom: 24, left: 40 };
     let width = 0;
     let height = 0;
     let w = 0;
@@ -1199,7 +1200,7 @@ const linePopulation = (csvFile, cities) => {
                     `)
                 .transition()
                 .duration(300)
-                .style("left", 55 + "%")
+                .style("right", 0)
                 .style("top", 20 + "px");
         } else {
             tooltipOver.data(datos)
@@ -1211,7 +1212,7 @@ const linePopulation = (csvFile, cities) => {
                         `)
                 .transition()
                 .duration(300)
-                .style("left", 55 + "%")
+                .style("right", 0)
                 .style("top", 90 + "%");
         }
 
@@ -1349,25 +1350,25 @@ const linePopulation = (csvFile, cities) => {
                 tooltipOver.data(datos)
                     .html(d =>
                         `
-                                <p class="tooltip-deceased">Desde 1900 su población ha disminuido en un <span class="tooltip-number">${percentageL}%.</span><p/>
+                                <p class="tooltip-deceased">Desde 1900 su población ha disminuido en un <span class="tooltip-number">${percentageL}%</span><p/>
                                 <p class="tooltip-deceased">Mayores de 65 años en 2018: <span class="tooltip-number">${d.mayor}%</span><p/>
                                 <p class="tooltip-deceased">Menores de 18 años en 2018: <span class="tooltip-number">${d.menor}%</span><p/>
                                 `)
                     .transition()
                     .duration(300)
-                    .style("left", 55 + "%")
+                    .style("right", 0)
                     .style("top", 20 + "px");
             } else {
                 tooltipOver.data(datos)
                     .html(d =>
                         `
-                                    <p class="tooltip-deceased">Desde 1900 su población ha aumentado en un <span class="tooltip-number">${percentageW}%.</span><p/>
+                                    <p class="tooltip-deceased">Desde 1900 su población ha aumentado en un <span class="tooltip-number">${percentageW}%</span><p/>
                                     <p class="tooltip-deceased">Mayores de 65 años en 2018: <span class="tooltip-number">${d.mayor}%</span><p/>
                                     <p class="tooltip-deceased">Menores de 18 años en 2018: <span class="tooltip-number">${d.menor}%</span><p/>
                                     `)
                     .transition()
                     .duration(300)
-                    .style("left", 55 + "%")
+                    .style("right", 0)
                     .style("top", 75 + "%");
             }
         });
@@ -1375,7 +1376,7 @@ const linePopulation = (csvFile, cities) => {
 
     const resize = () => {
 
-            updateChart(datos)
+        updateChart(datos)
 
     }
 
