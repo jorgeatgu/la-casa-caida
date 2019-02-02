@@ -22,7 +22,8 @@
 .scatter,
 .scatter-desert,
 .bar-negative-chart,
-.line-population {
+.line-population,
+.aragon-stack {
     position: relative;
     text {
         font-family: var(--text);
@@ -47,6 +48,15 @@
     }
 }
 
+.aragon-stack {
+    .legend-aragon {
+        font-size: 1.25rem;
+        font-family: var(--title);
+        font-weight: bold;
+        color: var(--black);
+    }
+}
+
 .scatter-desert {
     .circle-desert {
         fill: #3b2462;
@@ -55,6 +65,10 @@
 
 .overlay {
     fill: transparent;
+}
+
+.area-stack {
+    fill-opacity: .6;
 }
 
 .tooltip {
