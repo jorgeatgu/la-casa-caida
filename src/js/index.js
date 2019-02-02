@@ -653,7 +653,7 @@ const barscatter = (csvFile, cities) => {
                 chart.append("div")
                     .attr("class", "tooltip tooltip-percentage")
                     .html(`
-                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios  al menos el <span class="tooltip-number">${percentageCity}%</span> de habitantes <span class="bold">es mayor de 65 años</span>. <p/>
+                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios más del <span class="tooltip-number">${percentageCity}%</span> de habitantes <span class="bold">es mayor de 65 años</span>. <p/>
                         `)
                     .style("right", margin.right + "px")
                     .style("top", 50 + "px");
@@ -712,7 +712,7 @@ const barscatter = (csvFile, cities) => {
                 chart.append("div")
                     .attr("class", "tooltip tooltip-percentage")
                     .html(`
-                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios al menos el <span class="bold">${percentageCity}%</span> de habitantes <span class="bold">es menor de 18 años</span>.<p/>
+                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios más del <span class="bold">${percentageCity}%</span> de habitantes <span class="bold">es menor de 18 años</span>.<p/>
                         `)
                     .style("right", margin.right + "px")
                     .style("top", 50 + "px");
@@ -1307,7 +1307,7 @@ const linePopulation = (csvFile, cities) => {
                 var previous = d3.select(this).attr('d');
                 var current = line(d);
                 return d3.interpolatePath(previous, current);
-            });
+            })
 
         drawAxes(g)
 
