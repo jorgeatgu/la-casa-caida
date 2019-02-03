@@ -200,6 +200,7 @@ const scatterDesert = () => {
                     d.densidad = d.densidad;
                     d.municipio = d.municipio;
                     d.posicion = d.posicion;
+                    d.year = d.year;
                 });
                 setupElements()
                 setupScales()
@@ -227,12 +228,16 @@ const aragonStack = () => {
     const svg = chart.select('svg');
     const scales = {};
     let dataz;
+    const bisectDate = d3.bisector(d =>  d.year).left;
+    const tooltipStack = chart.append("div")
+        .attr("class", "tooltip tooltip-stack")
+        .style("opacity", 0);
 
     //Escala para los ejes X e Y
     const setupScales = () => {
 
         const countX = d3.scaleTime()
-            .domain(d3.extent(dataz, d => d.year ))
+            .domain(d3.extent(dataz, d => d.year))
 
         const countY = d3.scaleLinear()
             .domain([0, 100]);
@@ -252,33 +257,6 @@ const aragonStack = () => {
 
         g.append('g').attr('class', 'aragon-stack-container-bis');
 
-    }
-
-    //Actualizando escalas
-    const updateScales = (width, height) => {
-        scales.count.x.range([0, width]);
-        scales.count.y.range([height, 0]);
-    }
-
-    //Dibujando ejes
-    const drawAxes = (g) => {
-
-        const axisX = d3.axisBottom(scales.count.x)
-            .tickFormat(d3.format("d"))
-            .ticks(9)
-
-        g.select(".axis-x")
-            .attr("transform", "translate(0," + height + ")")
-            .call(axisX)
-
-        const axisY = d3.axisLeft(scales.count.y)
-            .tickFormat(d3.format("d"))
-            .tickSizeInner(-width)
-            .ticks(5)
-
-        g.select(".axis-y")
-            .call(axisY)
-
         g.append("text")
             .attr("class", "legend-aragon")
             .attr("y", "70%")
@@ -296,6 +274,35 @@ const aragonStack = () => {
             .attr("y", "5%")
             .attr("x", "1%")
             .text("Teruel");
+
+
+    }
+
+    //Actualizando escalas
+    const updateScales = (width, height) => {
+        scales.count.x.range([0, width]);
+        scales.count.y.range([height, 0]);
+    }
+
+    //Dibujando ejes
+    const drawAxes = (g) => {
+
+        const axisX = d3.axisBottom(scales.count.x)
+            .tickFormat(d3.format("d"))
+            .tickPadding(7)
+            .ticks(9)
+
+        g.select(".axis-x")
+            .attr("transform", "translate(0," + height + ")")
+            .call(axisX)
+
+        const axisY = d3.axisLeft(scales.count.y)
+            .tickFormat(d => d + "%")
+            .tickSizeInner(-width)
+            .ticks(5)
+
+        g.select(".axis-y")
+            .call(axisY)
 
     }
 
@@ -316,7 +323,15 @@ const aragonStack = () => {
 
         g.attr("transform", translate)
 
-        const keys = dataz.columns.slice(1)
+        g.append('rect').attr('class', 'overlay-dos');
+
+        g.append('g').attr('class', 'focus')
+            .style("display", "none")
+            .append("line")
+            .attr("class", "x-hover-line hover-line")
+            .attr("y1", 0);
+
+        const keys = dataz.columns.slice(5)
 
         const area = d3.area()
             .x((d, i) => scales.count.x(d.data.year))
@@ -330,10 +345,11 @@ const aragonStack = () => {
 
         const stackedData = stack(dataz);
 
-        const color = d3.scaleOrdinal()
+        const colors = d3.scaleOrdinal()
             .domain(keys)
-            .range(["#484a86", "#70a5c1", "#10eddc"]);
+            .range(["#1e4942", "#3fa187", "#56ebd3"]);
 
+        const color = d3.scaleOrdinal(colors);
 
         updateScales(width, height)
 
@@ -350,10 +366,59 @@ const aragonStack = () => {
             .transition()
             .duration(600)
             .ease(d3.easeLinear)
-            .style("fill", d => color(d.key) )
-            .attr('d', area)
+            .style("fill", d => colors(d.key))
+            .attr('d', area);
+
+        const focus = g.select('.focus');
+
+        const overlay = g.select('.overlay-dos');
+
+        focus.select(".x-hover-line").attr("y2", height);
+
+        overlay.attr("width", width + margin.left + margin.right)
+            .attr("height", height)
+            .on("mouseover", function() {
+                focus.style("display", null);
+            })
+            .on("mouseout", function() {
+                focus.style("display", "none")
+                tooltipStack.style("opacity", 0)
+            })
+            .on("mousemove", mousemove);
+
+        function mousemove() {
+            const w = chart.node().offsetWidth;
+            var x0 = scales.count.x.invert(d3.mouse(this)[0]),
+                i = bisectDate(dataz, x0, 1),
+                d0 = dataz[i - 1],
+                d1 = dataz[i],
+                d = x0 - d0.year > d1.year - x0 ? d1 : d0;
+                //Calculamos la posicion del tooltip
+                const positionX = scales.count.x(d.year) + 50;
+                const postionWidthTooltip = positionX + 300;
+                const positionRightTooltip = w - positionX;
+
+                tooltipStack.style("opacity", 1)
+                    .html(`
+                          <span class="tooltip-number tooltip-stack-text">${d.year}</span>
+                          <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruel}%</span></span>
+                          <span class="tooltip-stack-text">Huesca: <span class="tooltip-number">${d.huesca}%</span></span>
+                          <span class="tooltip-stack-text">Zaragoza: <span class="tooltip-number">${d.zaragoza}%</span></span>
+                          `)
+                    .style('top', "35%")
+                    .style("left", postionWidthTooltip > w ? 'auto' : positionX + 'px')
+                    .style("right", postionWidthTooltip > w ? positionRightTooltip + 'px' : 'auto');
+
+                focus.select(".x-hover-line")
+                    .attr("transform",
+                        "translate(" + scales.count.x(d.year) + "," +
+                        0 + ")");
+
+        }
 
         drawAxes(g)
+
+
 
     }
 
@@ -507,10 +572,10 @@ const line = (csvFile, cities) => {
         layer.merge(newLayer)
             .attr('d', line)
 
-         dots.merge(dotsLayer)
-             .attr("cx", d => scales.count.x(d.year))
-             .attr("cy", d => scales.count.y(d.total))
-             .attr('r', 4)
+        dots.merge(dotsLayer)
+            .attr("cx", d => scales.count.x(d.year))
+            .attr("cy", d => scales.count.y(d.total))
+            .attr('r', 4)
 
         drawAxes(g)
 
