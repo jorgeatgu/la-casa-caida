@@ -282,10 +282,13 @@ select {
             }
         }
     }
+
     .line-chart,
     .scatter,
+    .scatter-desert,
     .bar-negative-chart,
-    .line-population {
+    .line-population,
+    .aragon-stack {
         text {
             font-size: 14px;
         }

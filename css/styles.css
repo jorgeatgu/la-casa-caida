@@ -1162,7 +1162,7 @@ select {
             .bar-negative-chart .axis-x text {
                 font-size: 14px;
             }
-        .line-chart text, .scatter text, .bar-negative-chart text, .line-population text {
+        .line-chart text, .scatter text, .scatter-desert text, .bar-negative-chart text, .line-population text, .aragon-stack text {
             font-size: 14px;
         }
 }

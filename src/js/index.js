@@ -66,7 +66,7 @@ cities = ['huesca', 'teruel', 'zaragoza'];
 
 const scatterDesert = () => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
-    const margin = { top: 24, right: 24, bottom: 24, left: 64 };
+    const margin = { top: 24, right: 24, bottom: 24, left: 72 };
     let width = 0;
     let height = 0;
     let w = 0;
@@ -395,15 +395,16 @@ const aragonStack = () => {
                 d = x0 - d0.year > d1.year - x0 ? d1 : d0;
                 //Calculamos la posicion del tooltip
                 const positionX = scales.count.x(d.year) + 50;
-                const postionWidthTooltip = positionX + 300;
+                const postionWidthTooltip = positionX + 150;
                 const positionRightTooltip = w - positionX;
 
                 tooltipStack.style("opacity", 1)
                     .html(`
                           <span class="tooltip-number tooltip-stack-text">${d.year}</span>
-                          <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruel}%</span></span>
-                          <span class="tooltip-stack-text">Huesca: <span class="tooltip-number">${d.huesca}%</span></span>
-                          <span class="tooltip-stack-text">Zaragoza: <span class="tooltip-number">${d.zaragoza}%</span></span>
+                          <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruelP}% - ${d.teruel} hab</span></span>
+                          <span class="tooltip-stack-text">Huesca: <span class="tooltip-number">${d.huescaP}% - ${d.huesca} hab</span></span>
+                          <span class="tooltip-stack-text">Zaragoza: <span class="tooltip-number">${d.zaragozaP}% - ${d.zaragoza} hab</span></span>
+                          <span class="tooltip-stack-text">Total: <span class="tooltip-number">${d.aragon} hab</span></span>
                           `)
                     .style('top', "35%")
                     .style("left", postionWidthTooltip > w ? 'auto' : positionX + 'px')
@@ -435,9 +436,9 @@ const aragonStack = () => {
             } else {
                 dataz = data;
                 dataz.forEach(d => {
-                    d.teruel = d.teruelP;
-                    d.huesca = d.huescaP;
-                    d.zaragoza = d.zaragozaP;
+                    d.teruelP = d.teruelP;
+                    d.huescaP = d.huescaP;
+                    d.zaragozaP = d.zaragozaP;
                 });
                 setupElements()
                 setupScales()
