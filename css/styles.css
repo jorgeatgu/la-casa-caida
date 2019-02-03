@@ -1136,6 +1136,19 @@ select {
     margin-left: 0;
 }
 
+.x-hover-line {
+    stroke: #111;
+    stroke: var(--black);
+}
+
+.tooltip-stack-text {
+    display: block;
+}
+
+.overlay-dos {
+    fill: transparent;
+}
+
 @media only screen and (min-width: 48rem) {
 
     .filters {
