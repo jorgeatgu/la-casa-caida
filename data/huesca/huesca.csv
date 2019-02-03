@@ -33,7 +33,7 @@ year,cp,name,population,select,menor,mayor
 1900,22040,Azanuy-Alins,1221,Azanuy-Alins,14.20,35.22
 1900,22041,Azara,513,Azara,11.49,32.75
 1900,22042,Azlor,537,Azlor,15.68,32.02
-1900,22043,Baells,737,Baélls,8.65,39.42
+1900,22043,Baélls,737,Baélls,8.65,39.42
 1900,22044,Bailo,1488,Bailo,7.88,30.82
 1900,22045,Baldellou,813,Baldellou,2.59,46.75
 1900,22046,Ballobar,2333,Ballobar,13.73,31.59
@@ -199,7 +199,7 @@ year,cp,name,population,select,menor,mayor
 1900,22905,Lupiñén-Ortilla,1138,Lupiñén-Ortilla,14.07,28.73
 1900,22906,Santa María de Dulcis,644,Santa María de Dulcis,11.05,30.76
 1900,22907,Aínsa-Sobrarbe,3680,Aínsa-Sobrarbe,18.78,17.20
-1900,22908,Hoz y Costeán,1390,Hoz y Costean,10.61,35.39
+1900,22908,Hoz y Costeán,1390,Hoz y Costeán,10.61,35.39
 1910,22001,Abiego,1440,,19.04,26.81
 1910,22002,Abizanda,472,,,
 1910,22003,Adahuesca,631,,,
@@ -234,7 +234,7 @@ year,cp,name,population,select,menor,mayor
 1910,22040,Azanuy-Alins,1243,,,
 1910,22041,Azara,490,,,
 1910,22042,Azlor,576,,,
-1910,22043,Baells,780,,,
+1910,22043,Baélls,780,,,
 1910,22044,Bailo,1533,,,
 1910,22045,Baldellou,807,,,
 1910,22046,Ballobar,2389,,,
@@ -435,7 +435,7 @@ year,cp,name,population,select,menor,mayor
 1920,22040,Azanuy-Alins,1203,,,
 1920,22041,Azara,458,,,
 1920,22042,Azlor,552,,,
-1920,22043,Baells,780,,,
+1920,22043,Baélls,780,,,
 1920,22044,Bailo,1427,,,
 1920,22045,Baldellou,644,,,
 1920,22046,Ballobar,2292,,,
@@ -636,7 +636,7 @@ year,cp,name,population,select,menor,mayor
 1930,22040,Azanuy-Alins,1034,,,
 1930,22041,Azara,487,,,
 1930,22042,Azlor,501,,,
-1930,22043,Baells,673,,,
+1930,22043,Baélls,673,,,
 1930,22044,Bailo,1451,,,
 1930,22045,Baldellou,588,,,
 1930,22046,Ballobar,2230,,,
@@ -837,7 +837,7 @@ year,cp,name,population,select,menor,mayor
 1940,22040,Azanuy-Alins,926,,,
 1940,22041,Azara,442,,,
 1940,22042,Azlor,483,,,
-1940,22043,Baells,583,,,
+1940,22043,Baélls,583,,,
 1940,22044,Bailo,1381,,,
 1940,22045,Baldellou,522,,,
 1940,22046,Ballobar,2117,,,
@@ -1039,7 +1039,7 @@ year,cp,name,population,select,menor,mayor
 1950,22040,Azanuy-Alins,770,,,
 1950,22041,Azara,371,,,
 1950,22042,Azlor,398,,,
-1950,22043,Baells,535,,,
+1950,22043,Baélls,535,,,
 1950,22044,Bailo,1200,,,
 1950,22045,Baldellou,402,,,
 1950,22046,Ballobar,1665,,,
@@ -1241,7 +1241,7 @@ year,cp,name,population,select,menor,mayor
 1960,22040,Azanuy-Alins,612,,,
 1960,22041,Azara,365,,,
 1960,22042,Azlor,352,,,
-1960,22043,Baells,444,,,
+1960,22043,Baélls,444,,,
 1960,22044,Bailo,966,,,
 1960,22045,Baldellou,330,,,
 1960,22046,Ballobar,1530,,,
@@ -1443,7 +1443,7 @@ year,cp,name,population,select,menor,mayor
 1970,22040,Azanuy-Alins,426,,,
 1970,22041,Azara,312,,,
 1970,22042,Azlor,291,,,
-1970,22043,Baells,315,,,
+1970,22043,Baélls,315,,,
 1970,22044,Bailo,571,,,
 1970,22045,Baldellou,277,,,
 1970,22046,Ballobar,1365,,,
@@ -1645,7 +1645,7 @@ year,cp,name,population,select,menor,mayor
 1981,22040,Azanuy-Alins,308,,,
 1981,22041,Azara,269,,,
 1981,22042,Azlor,229,,,
-1981,22043,Baells,226,,,
+1981,22043,Baélls,226,,,
 1981,22044,Bailo,404,,,
 1981,22045,Baldellou,206,,,
 1981,22046,Ballobar,1253,,,
@@ -1847,7 +1847,7 @@ year,cp,name,population,select,menor,mayor
 1991,22040,Azanuy-Alins,239,,,
 1991,22041,Azara,228,,,
 1991,22042,Azlor,189,,,
-1991,22043,Baells,171,,,
+1991,22043,Baélls,171,,,
 1991,22044,Bailo,336,,,
 1991,22045,Baldellou,170,,,
 1991,22046,Ballobar,1148,,,
@@ -2049,7 +2049,7 @@ year,cp,name,population,select,menor,mayor
 2001,22040,Azanuy-Alins,177,,,
 2001,22041,Azara,219,,,
 2001,22042,Azlor,164,,,
-2001,22043,Baells,144,,,
+2001,22043,Baélls,144,,,
 2001,22044,Bailo,315,,,
 2001,22045,Baldellou,133,,,
 2001,22046,Ballobar,1007,,,
@@ -2251,7 +2251,7 @@ year,cp,name,population,select,menor,mayor
 2011,22040,Azanuy-Alins,175,,,
 2011,22041,Azara,201,,,
 2011,22042,Azlor,132,,,
-2011,22043,Baells,117,,,
+2011,22043,Baélls,117,,,
 2011,22044,Bailo,317,,,
 2011,22045,Baldellou,112,,,
 2011,22046,Ballobar,945,,,
@@ -2619,5 +2619,5 @@ year,cp,name,population,select,menor,mayor
 2018,22905,Lupiñén-Ortilla,341,,,
 2018,22906,Santa María de Dulcis,208,,,
 2018,22907,Aínsa-Sobrarbe,2151,,,
-2018,22908,Hoz y Costean,226,,,
+2018,22908,Hoz y Costeán,226,,,
 2018,22909,Vencillón,399,,,
