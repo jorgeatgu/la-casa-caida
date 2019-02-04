@@ -18,7 +18,8 @@ body {
     background-color: var(--bgc-teruel);
 }
 
-.container-chart {
+.container-chart,
+.container-desert {
     width: 100%;
     margin: 0 auto;
     padding: 1rem .5rem;
@@ -72,6 +73,11 @@ body {
 
     .container-chart {
         max-width: 60rem;
+        padding: 3rem 0;
+    }
+
+    .container-desert {
+        max-width: 65rem;
         padding: 3rem 0;
     }
 

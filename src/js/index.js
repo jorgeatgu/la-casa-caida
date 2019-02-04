@@ -32,7 +32,7 @@ function menu() {
     }
 }
 
-menu();
+
 
 function animation() {
     anime.timeline()
@@ -51,18 +51,6 @@ function animation() {
             delay: anime.stagger(1000)
         });
 }
-
-animation();
-
-csvTotal = ['data/huesca/huesca-total.csv', 'data/teruel/teruel-total.csv', 'data/zaragoza/zaragoza-total.csv'];
-
-csvUnder = ['data/huesca/huesca-mayor-menor.csv', 'data/teruel/mayor-menor-teruel.csv', 'data/zaragoza/zaragoza-mayor-menor.csv'];
-
-csvBalance = ['data/huesca/saldo-vegetativo-total-huesca.csv', 'data/teruel/saldo-vegetativo-total-teruel.csv'];
-
-csvCities = ['data/huesca/huesca.csv', 'data/teruel/teruel.csv', 'data/zaragoza/zaragoza.csv']
-
-cities = ['huesca', 'teruel', 'zaragoza'];
 
 const scatterDesert = () => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
@@ -217,9 +205,6 @@ const scatterDesert = () => {
     loadData()
 
 }
-
-scatterDesert()
-
 
 const aragonStack = () => {
 
@@ -453,10 +438,6 @@ const aragonStack = () => {
     loadData()
 
 }
-
-aragonStack()
-
-
 
 const line = (csvFile, cities) => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
@@ -1377,19 +1358,6 @@ const barNegativeZ = () => {
 
 }
 
-barNegativeZ()
-
-line(csvTotal[0], cities[0]);
-line(csvTotal[1], cities[1]);
-line(csvTotal[2], cities[2]);
-
-barscatter(csvUnder[0], cities[0]);
-barscatter(csvUnder[1], cities[1]);
-barscatter(csvUnder[2], cities[2]);
-
-barNegative(csvBalance[0], cities[0]);
-barNegative(csvBalance[1], cities[1]);
-
 const linePopulation = (csvFile, cities) => {
 
     if (widthMobile > 544) {
@@ -1691,9 +1659,40 @@ const linePopulation = (csvFile, cities) => {
 
 }
 
+menu();
+
+animation();
+
+scatterDesert();
+
+aragonStack();
+
+csvTotal = ['data/huesca/huesca-total.csv', 'data/teruel/teruel-total.csv', 'data/zaragoza/zaragoza-total.csv'];
+
+csvUnder = ['data/huesca/huesca-mayor-menor.csv', 'data/teruel/mayor-menor-teruel.csv', 'data/zaragoza/zaragoza-mayor-menor.csv'];
+
+csvBalance = ['data/huesca/saldo-vegetativo-total-huesca.csv', 'data/teruel/saldo-vegetativo-total-teruel.csv'];
+
+csvCities = ['data/huesca/huesca.csv', 'data/teruel/teruel.csv', 'data/zaragoza/zaragoza.csv']
+
+cities = ['huesca', 'teruel', 'zaragoza'];
+
 linePopulation(csvCities[0], cities[0]);
 linePopulation(csvCities[1], cities[1]);
 linePopulation(csvCities[2], cities[2]);
+
+barNegativeZ();
+
+line(csvTotal[0], cities[0]);
+line(csvTotal[1], cities[1]);
+line(csvTotal[2], cities[2]);
+
+barscatter(csvUnder[0], cities[0]);
+barscatter(csvUnder[1], cities[1]);
+barscatter(csvUnder[2], cities[2]);
+
+barNegative(csvBalance[0], cities[0]);
+barNegative(csvBalance[1], cities[1]);
 
 new SlimSelect({
     select: '#select-city-teruel',
