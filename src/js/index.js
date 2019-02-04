@@ -76,8 +76,6 @@ const scatterDesert = () => {
     const scales = {};
     const habitantes = " hab/km2";
     let dataz;
-    const tooltipDesert = chart.append("div")
-        .attr('class', 'tooltip-desert');
 
     //Escala para los ejes X e Y
     const setupScales = () => {
@@ -103,7 +101,17 @@ const scatterDesert = () => {
 
         g.append('g').attr('class', 'scatter-desert-container-bis');
 
-        g.append('rect').attr('class', 'pantano')
+       g.append('circle')
+            .attr('r', 4)
+            .attr('fill', "#B41248")
+            .attr("cy", "94%")
+            .attr("cx", "19%")
+
+        g.append('text')
+            .text('Municipios con una densidad inferior a 10hab/km2')
+            .attr("y", "95%")
+            .attr("x", "20%")
+
     }
 
     //Actualizando escalas
@@ -120,7 +128,7 @@ const scatterDesert = () => {
             .ticks(0);
 
         g.select(".axis-x")
-            .attr("transform", "translate(0," + height + ")")
+            .attr("transform", `translate(0,${height})`)
             .call(axisX);
 
         const axisY = d3.axisLeft(scales.count.y)
@@ -144,18 +152,11 @@ const scatterDesert = () => {
             .attr('width', w)
             .attr('height', h);
 
-        const translate = "translate(" + margin.left + "," + margin.top + ")";
+        const translate = `translate(${margin.left},${margin.top})`;
 
         const g = svg.select('.scatter-desert-container')
 
         g.attr("transform", translate)
-
-        g.select('.pantano')
-            .attr('width', w - (margin.left + margin.right) + "px")
-            .attr('height', (h - (margin.top + margin.bottom)) / 10)
-            .attr('y', height - (margin.bottom + margin.top + 7))
-            .style('fill', "#436b73")
-            .style('fill-opacity', 0.8);
 
         updateScales(width, height)
 
@@ -168,17 +169,18 @@ const scatterDesert = () => {
             .append('circle')
             .attr('class', 'circle-desert')
 
-        tooltipDesert.html(`
-                <p class="tootlip-population">DESIERTO DEMÓGRAFICO<p/>
-                `)
-            .style("left", (margin.left * 1.25) + "px")
-            .style("top", (h - (margin.top + margin.bottom * 2.25)) + "px");
-
         layer.merge(newLayer)
             .attr("cx", d => Math.random() * width)
             .attr("cy", d => scales.count.y(d.densidad))
             .attr("r", 3)
-            .attr('fill-opacity', 0.6);
+            .attr("fill", d => {
+                if (d.densidad >= 10) {
+                    return "#3b2462"
+                } else {
+                    return "#B41248"
+                }
+            })
+            .attr('fill-opacity', 0.8);
 
         drawAxes(g)
 
@@ -228,7 +230,7 @@ const aragonStack = () => {
     const svg = chart.select('svg');
     const scales = {};
     let dataz;
-    const bisectDate = d3.bisector(d =>  d.year).left;
+    const bisectDate = d3.bisector(d => d.year).left;
     const tooltipStack = chart.append("div")
         .attr("class", "tooltip tooltip-stack")
         .style("opacity", 0);
@@ -293,7 +295,7 @@ const aragonStack = () => {
             .ticks(9)
 
         g.select(".axis-x")
-            .attr("transform", "translate(0," + height + ")")
+            .attr("transform", `translate(0,${height})`)
             .call(axisX)
 
         const axisY = d3.axisLeft(scales.count.y)
@@ -317,7 +319,7 @@ const aragonStack = () => {
             .attr('width', w)
             .attr('height', h);
 
-        const translate = "translate(" + margin.left + "," + margin.top + ")";
+        const translate = `translate(${margin.left},${margin.top})`;
 
         const g = svg.select('.aragon-stack-container')
 
@@ -347,7 +349,7 @@ const aragonStack = () => {
 
         const colors = d3.scaleOrdinal()
             .domain(keys)
-            .range(["#1e4942", "#3fa187", "#56ebd3"]);
+            .range(["#F67460", "#C54073", "#5A1C7C"]);
 
         const color = d3.scaleOrdinal(colors);
 
@@ -393,27 +395,25 @@ const aragonStack = () => {
                 d0 = dataz[i - 1],
                 d1 = dataz[i],
                 d = x0 - d0.year > d1.year - x0 ? d1 : d0;
-                //Calculamos la posicion del tooltip
-                const positionX = scales.count.x(d.year) + 50;
-                const postionWidthTooltip = positionX + 150;
-                const positionRightTooltip = w - positionX;
+            //Calculamos la posicion del tooltip
+            const positionX = scales.count.x(d.year) + 50;
+            const postionWidthTooltip = positionX + 150;
+            const positionRightTooltip = w - positionX;
 
-                tooltipStack.style("opacity", 1)
-                    .html(`
+            tooltipStack.style("opacity", 1)
+                .html(`
                           <span class="tooltip-number tooltip-stack-text">${d.year}</span>
                           <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruelP}% - ${d.teruel} hab</span></span>
                           <span class="tooltip-stack-text">Huesca: <span class="tooltip-number">${d.huescaP}% - ${d.huesca} hab</span></span>
                           <span class="tooltip-stack-text">Zaragoza: <span class="tooltip-number">${d.zaragozaP}% - ${d.zaragoza} hab</span></span>
                           <span class="tooltip-stack-text">Total: <span class="tooltip-number">${d.aragon} hab</span></span>
                           `)
-                    .style('top', "35%")
-                    .style("left", postionWidthTooltip > w ? 'auto' : positionX + 'px')
-                    .style("right", postionWidthTooltip > w ? positionRightTooltip + 'px' : 'auto');
+                .style('top', "35%")
+                .style("left", postionWidthTooltip > w ? 'auto' : positionX + 'px')
+                .style("right", postionWidthTooltip > w ? positionRightTooltip + 'px' : 'auto');
 
-                focus.select(".x-hover-line")
-                    .attr("transform",
-                        "translate(" + scales.count.x(d.year) + "," +
-                        0 + ")");
+            focus.select(".x-hover-line")
+                .attr("transform", `translate(${scales.count.x(d.year)},${0})`);
 
         }
 
@@ -517,7 +517,7 @@ const line = (csvFile, cities) => {
             .ticks(9)
 
         g.select(".axis-x")
-            .attr("transform", "translate(0," + height + ")")
+            .attr("transform", `translate(0,${height})`)
             .call(axisX)
 
         const axisY = d3.axisLeft(scales.count.y)
@@ -540,7 +540,7 @@ const line = (csvFile, cities) => {
             .attr('width', w)
             .attr('height', h);
 
-        const translate = "translate(" + margin.left + "," + margin.top + ")";
+        const translate = `translate(${margin.left},${margin.top})`;
 
         const g = svg.select(`.line-${cities}-container`);
 
@@ -685,7 +685,7 @@ const barscatter = (csvFile, cities) => {
             .ticks(10);
 
         g.select(".axis-x")
-            .attr("transform", "translate(0," + height + ")")
+            .attr("transform", `translate(0,${height})`)
             .call(axisX);
 
         const axisY = d3.axisLeft(scales.count.y)
@@ -709,7 +709,7 @@ const barscatter = (csvFile, cities) => {
             .attr('width', w)
             .attr('height', h);
 
-        const translate = "translate(" + margin.left + "," + margin.top + ")";
+        const translate = `translate(${margin.left},${margin.top})`;
 
 
         const g = svg.select(`.scatter-${cities}-container`);
@@ -893,7 +893,7 @@ const barscatter = (csvFile, cities) => {
                 chart.append("div")
                     .attr("class", "tooltip tooltip-percentage")
                     .html(`
-                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios más del <span class="tooltip-number">${percentageCity}%</span> de habitantes <span class="bold">es mayor de 65 años</span>. <p/>
+                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios el % de habitantes mayores de 65 años es superior al <span class="tooltip-number">${percentageCity}%</span>. <p/>
                         `)
                     .style("right", margin.right + "px")
                     .style("top", 50 + "px");
@@ -952,7 +952,7 @@ const barscatter = (csvFile, cities) => {
                 chart.append("div")
                     .attr("class", "tooltip tooltip-percentage")
                     .html(`
-                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios más del <span class="bold">${percentageCity}%</span> de habitantes <span class="bold">es menor de 18 años</span>.<p/>
+                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios el % de habitantes menores de 18 años es superior al <span class="tooltip-number">${percentageCity}%</span>. <p/>
                         `)
                     .style("right", margin.right + "px")
                     .style("top", 50 + "px");
@@ -1094,7 +1094,7 @@ const barNegative = (csvFile, cities) => {
             .tickFormat(d3.format("d"))
 
         g.select(".axis-x")
-            .attr("transform", "translate(0," + height + ")")
+            .attr("transform", `translate(0,${height})`)
             .call(axisX)
 
         const axisY = d3.axisLeft(scales.count.y)
@@ -1119,7 +1119,7 @@ const barNegative = (csvFile, cities) => {
             .attr('width', w)
             .attr('height', h);
 
-        const translate = "translate(" + margin.left + "," + margin.top + ")";
+        const translate = `translate(${margin.left},${margin.top})`;
 
         const g = svg.select(`.bar-negative-${cities}-container`)
 
@@ -1264,7 +1264,7 @@ const barNegativeZ = () => {
             .tickFormat(d3.format("d"))
 
         g.select(".axis-x")
-            .attr("transform", "translate(0," + height + ")")
+            .attr("transform", `translate(0,${height})`)
             .call(axisX)
 
         const axisY = d3.axisLeft(scales.count.y)
@@ -1289,7 +1289,7 @@ const barNegativeZ = () => {
             .attr('width', w)
             .attr('height', h);
 
-        const translate = "translate(" + margin.left + "," + margin.top + ")";
+        const translate = `translate(${margin.left},${margin.top})`;
 
         const g = svg.select('.bar-negative-zaragoza-container')
 
@@ -1486,7 +1486,7 @@ const linePopulation = (csvFile, cities) => {
             .ticks(13)
 
         g.select(".axis-x")
-            .attr("transform", "translate(0," + height + ")")
+            .attr("transform", `translate(0,${height})`)
             .transition()
             .duration(300)
             .ease(d3.easeLinear)
@@ -1518,7 +1518,7 @@ const linePopulation = (csvFile, cities) => {
             .attr('width', w)
             .attr('height', h);
 
-        const translate = "translate(" + margin.left + "," + margin.top + ")";
+        const translate = `translate(${margin.left},${margin.top})`;
 
         const g = svg.select(`.line-population-${cities}-container`);
 
