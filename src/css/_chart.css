@@ -57,18 +57,12 @@
     }
 }
 
-.scatter-desert {
-    .circle-desert {
-        fill: #3b2462;
-    }
-}
-
 .overlay {
     fill: transparent;
 }
 
 .area-stack {
-    fill-opacity: .6;
+    fill-opacity: .85;
 }
 
 .tooltip {
