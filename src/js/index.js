@@ -32,8 +32,6 @@ function menu() {
     }
 }
 
-
-
 function animation() {
     anime.timeline()
         .add({
@@ -54,7 +52,7 @@ function animation() {
 
 const scatterDesert = () => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
-    const margin = { top: 24, right: 24, bottom: 24, left: 72 };
+    const margin = { top: 24, right: 24, bottom: 48, left: 72 };
     let width = 0;
     let height = 0;
     let w = 0;
@@ -90,7 +88,7 @@ const scatterDesert = () => {
         g.append('g').attr('class', 'scatter-desert-container-bis');
 
        g.append('circle')
-            .attr('r', 4)
+            .attr('r', 3)
             .attr('fill', "#B41248")
             .attr("cy", "94%")
             .attr("cx", "19%")
@@ -387,11 +385,11 @@ const aragonStack = () => {
 
             tooltipStack.style("opacity", 1)
                 .html(`
-                          <span class="tooltip-number tooltip-stack-text">${d.year}</span>
-                          <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruelP}% - ${d.teruel} hab</span></span>
-                          <span class="tooltip-stack-text">Huesca: <span class="tooltip-number">${d.huescaP}% - ${d.huesca} hab</span></span>
-                          <span class="tooltip-stack-text">Zaragoza: <span class="tooltip-number">${d.zaragozaP}% - ${d.zaragoza} hab</span></span>
-                          <span class="tooltip-stack-text">Total: <span class="tooltip-number">${d.aragon} hab</span></span>
+                          <span class="tooltip-stack-number tooltip-stack-text">${d.year}</span>
+                          <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruelP}% - ${d.teruel} hab.</span></span>
+                          <span class="tooltip-stack-text">Huesca: <span class="tooltip-number">${d.huescaP}% - ${d.huesca} hab.</span></span>
+                          <span class="tooltip-stack-text">Zaragoza: <span class="tooltip-number">${d.zaragozaP}% - ${d.zaragoza} hab.</span></span>
+                          <span class="tooltip-stack-text">Total: <span class="tooltip-number">${d.aragon} hab.</span></span>
                           `)
                 .style('top', "35%")
                 .style("left", postionWidthTooltip > w ? 'auto' : positionX + 'px')
@@ -557,7 +555,7 @@ const line = (csvFile, cities) => {
         dots.merge(dotsLayer)
             .attr("cx", d => scales.count.x(d.year))
             .attr("cy", d => scales.count.y(d.total))
-            .attr('r', 4)
+            .attr('r', 4);
 
         drawAxes(g)
 
@@ -731,7 +729,7 @@ const barscatter = (csvFile, cities) => {
             .attr("r", 0)
             .transition()
             .duration(600)
-            .ease(d3.easeLinear)
+            .ease(d3.easeQuad)
             .attr("cx", d => scales.count.x(d.mayor))
             .attr("cy", d => scales.count.y(d.menor))
             .attr("r", 6);
@@ -1503,6 +1501,9 @@ const linePopulation = (csvFile, cities) => {
         const lines = container.selectAll('.lines')
             .data([datos])
 
+        const dots = container.selectAll('.circles-population').remove().exit()
+            .data(datos)
+
         const newLines = lines.enter()
             .append('path')
             .attr('class', 'lines');
@@ -1516,6 +1517,23 @@ const linePopulation = (csvFile, cities) => {
                 var current = line(d);
                 return d3.interpolatePath(previous, current);
             })
+
+        const dotsLayer = dots.enter()
+            .append("circle")
+            .attr("class", "circles-population")
+            .attr("fill", "#531f4e")
+
+        dots.merge(dotsLayer)
+            .attr("cx", d => scales.count.x(d.year))
+            .attr("cy", d => scales.count.y(d.population))
+            .attr('r', 0)
+            .transition()
+            .duration(400)
+            .ease(d3.easeLinear)
+            .attr("cx", d => scales.count.x(d.year))
+            .attr("cy", d => scales.count.y(d.population))
+            .attr('r', 4)
+
 
         drawAxes(g)
 

@@ -46,6 +46,7 @@
                     <span class="letter">c</span><span class="letter">a</span><span class="letter">í</span><span class="letter">d</span><span class="letter">a</span>
                 </div>
             </h3>
+            <span class="author">Por <a href="https://jorgeatgu.com">Jorge Aznar</a></span>
             <p class="header-ronda">
                 <span class="header-ronda-text">Delante de esta puerta cerrada</span>
                 <span class="header-ronda-text">la ronda lleva tanto sin parar.</span>
@@ -66,7 +67,7 @@
             <section class="container-chart">
                 <div class="section-text">
                     <h4 class="subtittle">Aragón, un desierto demográfico</h4>
-                    <p class="text">Las cifras son demoledoras, en Aragón <span class="bold">519 municipios están por debajo del umbral de desierto demógrafico</span>. El desglose por provincia es el siguiente: Teruel 197, Huesca 141 y Zaragoza 181.</p>
+                    <p class="text">Las cifras son demoledoras, en Aragón <span class="bold">519 municipios están por debajo del umbral de desierto demográfico</span>. El desglose por provincia es el siguiente: Teruel 197, Huesca 141 y Zaragoza 181.</p>
                 </div>
                 <article class="scatter-desert">
                     <svg class="scatter-chart">
@@ -77,8 +78,8 @@
         </div>
         <div class="container-desert">
             <div class="section-text">
-                <h4 class="subtittle">Distribución de la población </h4>
-                <p class="text">Una gráfica para ver como ha ido evolucionando la aportación de cada provincia al total de población en Aragón.</p>
+                <h4 class="subtittle">Distribución de la población en Aragón</h4>
+                <p class="text">Una gráfica para ver cómo ha ido evolucionando la aportación de cada provincia al total de población en Aragón.</p>
             </div>
             <article class="aragon-stack">
                 <svg>
@@ -112,7 +113,7 @@
             </div>
             <div class="section-text">
                 <h4 class="subtittle">Evolución de la población - Teruel</h4>
-                <p class="text">En la siguiente gráfica podemos ver como ha ido evolucionando la población total de la provincia de Teruel desde 1900 hasta 2018.</p>
+                <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Teruel desde 1900 hasta 2018.</p>
                 <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Y los del 2018 del INE.</span>
             </div>
             <article class="line-teruel">
@@ -124,7 +125,7 @@
         <section class="container-chart">
             <div class="section-text">
                 <h4 class="subtittle">Evolución de la población por municipio Teruel</h4>
-                <p class="text">En la siguiente gráfica podemos ver como ha ido evolucionando la población de cada uno de los municipios de la provincia de Teruel desde 1900 hasta 2018.</p>
+                <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población de cada uno de los municipios de la provincia de Teruel desde 1900 hasta 2018.</p>
                 <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Y los del 2018 del INE.</span>
             </div>
             <select id="select-city-teruel"></select>
@@ -221,7 +222,7 @@
         <section class="container-chart">
             <div class="section-text">
                 <h4 class="subtittle">Evolución de la población - Huesca</h4>
-                <p class="text">En la siguiente gráfica podemos ver como ha ido evolucionando la población total de la provincia de Huesca desde 1900 hasta 2018.</p>
+                <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Huesca desde 1900 hasta 2018.</p>
                 <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Y los del 2018 del INE.</span>
             </div>
             <article class="line-huesca">
@@ -333,7 +334,7 @@
         <section class="container-chart">
             <div class="section-text">
                 <h4 class="subtittle">Evolución de la población - Zaragoza</h4>
-                <p class="text">En la siguiente gráfica podemos ver como ha ido evolucionando la población total de la provincia de Zaragoza desde 1900 hasta 2018.</p>
+                <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Zaragoza desde 1900 hasta 2018.</p>
                 <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Y los del 2018 del INE.</span>
             </div>
             <article class="line-zaragoza">
@@ -345,7 +346,7 @@
         <section class="container-chart">
             <div class="section-text">
                 <h4 class="subtittle">Evolución de la población por municipio en Zaragoza.</h4>
-                <p class="text">En la siguiente gráfica podemos ver como ha ido evolucionando la población de cada uno de los municipios de la provincia de Zaragoza desde 1900 hasta 2018.</p>
+                <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población de cada uno de los municipios de la provincia de Zaragoza desde 1900 hasta 2018.</p>
                 <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Y los del 2018 del INE.</span>
             </div>
             <select id="select-city-zaragoza"></select>
@@ -424,8 +425,9 @@
                     <p class="metodology-text">La horquilla de edad del porcentaje de mayores va desde los 65 años hasta 100 años o más. Lo horquilla para el de menores de 18 años va desde los 0 años hasta los 18 años inclusive. Estas dos series de datos provienen del INE a fecha de 2018.</p>
                     <p class="metodology-text">El saldo vegetativo entre 1996 y 2017 proviene del IAEST pero los datos están mal. Un ejemplo, en Ansó en el año 2011 no nacio nadie pero murieron 8 personas, el saldo vegetativo de ese año debería de ser -8, en lugar de esta cifra el IAEST da un saldo vegetativo de 0. Así que he tenido que rehacer este dataset volviendo a calcular el saldo vegetativo de todos los años en todos los municipios.</p>
                     <p class="metodology-text">La densidad de población es igual al número de habitantes dividido por la superficie en kilometros cuadrados del municipio. La superficie de cada municipio de Aragón esta en este <a href="https://gist.githubusercontent.com/jorgeatgu/40eaa471b02add6d9a7a9aca33fc8bd5/raw/ef7d384a0749df4f9b3594c76b432026344b0df9/aragon.json">dataset</a>. Los datos de población perfetenecen al INE del 2018.</p>
+                    <p class="metodology-text">Los municipios no están ordenados alfabéticamente, están ordenados por Código Postal ya que así los distribuye el INE.</p>
                     <p class="metodology-text">Todos los datos los he dividido por provincia. Y están disponibles <a href="https://github.com/jorgeatgu/la-casa-caida/tree/master/data">aquí</a>.</p>
-                    <p class="metodology-text">Veracruz desde 2011 se llama Beranuy que es el nombre por el que siempre se ha conocido. <a href="https://www.elperiodicodearagon.com/noticias/aragon/el-municipio-de-veracruz-se-llama-desde-ayer-beranuy_679601.html">Noticia</a></p>
+                    <p class="metodology-text">Veracruz desde 2011 se llama oficialmente Beranuy. <a href="https://www.elperiodicodearagon.com/noticias/aragon/el-municipio-de-veracruz-se-llama-desde-ayer-beranuy_679601.html">Noticia</a></p>
                 </article>
                 <article class="container-chart">
                     <h3 id="enlaces" class="metodology-title">Enlaces de interés</h3>
@@ -440,6 +442,7 @@
                     <p class="metodology-text">El problema de la despoblación en Aragón <a href="https://dialnet.unirioja.es/servlet/articulo?codigo=104079">[informe]</a></p>
                     <p class="metodology-text">Casa Tía Julia en Ciria y Reznos <a href="https://www.youtube.com/watch?v=WFEBYQqFxB4&feature=youtu.be">[video]</a></p>
                     <p class="metodology-text">Serranía Celtiberica <a href="http://www.celtiberica.es">[web/asociación]</a></p>
+                    <p class="metodology-text">Evolución demográfica de España (2013-2018) <a href="https://geogeeks.maps.arcgis.com/apps/opsdashboard/index.html#/af7763f8ec6c42b5873b8ccc04dc46b2">[mapa interactivo]</a></p>
                 </article>
                 <article class="container-chart">
                     <h3 class="metodology-title">Créditos</h3>

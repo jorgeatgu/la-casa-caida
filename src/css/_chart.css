@@ -120,6 +120,10 @@
     fill-opacity: .6;
 }
 
+.circles-population {
+    fill: #1e2449;
+}
+
 .line-negative {
     stroke: var(--line-negative);
     stroke-width: 3;
@@ -248,6 +252,12 @@ select {
 
 .x-hover-line {
     stroke: var(--black);
+}
+
+.tooltip-stack-number {
+    font-size: 1.5rem;
+    font-family: var(--text);
+    font-weight: bold;
 }
 
 .tooltip-stack-text {
