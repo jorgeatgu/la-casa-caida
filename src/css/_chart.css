@@ -294,7 +294,7 @@ select {
         }
     }
 
-    .tootlip {
+    .tooltip {
         padding: .5rem;
         &.tooltip-over {
             .tooltip-deceased {
