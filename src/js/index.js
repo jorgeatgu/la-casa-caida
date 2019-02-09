@@ -91,12 +91,12 @@ const scatterDesert = () => {
             .attr('r', 3)
             .attr('fill', "#B41248")
             .attr("cy", "94%")
-            .attr("cx", "19%")
+            .attr("cx", "4%")
 
         g.append('text')
             .text('Municipios con una densidad inferior a 10hab/km2')
             .attr("y", "95%")
-            .attr("x", "20%")
+            .attr("x", "5%")
 
     }
 
@@ -206,7 +206,7 @@ const scatterDesert = () => {
 
 const aragonStack = () => {
 
-    const margin = { top: 24, right: 24, bottom: 24, left: 48 };
+    const margin = { top: 24, right: 0, bottom: 24, left: 32 };
     let width = 0;
     let height = 0;
     const chart = d3.select('.aragon-stack');
@@ -379,8 +379,8 @@ const aragonStack = () => {
                 d1 = dataz[i],
                 d = x0 - d0.year > d1.year - x0 ? d1 : d0;
             //Calculamos la posicion del tooltip
-            const positionX = scales.count.x(d.year) + 50;
-            const postionWidthTooltip = positionX + 150;
+            const positionX = scales.count.x(d.year) + 34;
+            const postionWidthTooltip = positionX + 200;
             const positionRightTooltip = w - positionX;
 
             tooltipStack.style("opacity", 1)
@@ -1406,7 +1406,6 @@ const linePopulation = (csvFile, cities) => {
                     `)
                 .transition()
                 .duration(300)
-                .style("right", 0)
                 .style("top", 20 + "px");
         } else {
             tooltipOver.data(datos)
@@ -1418,7 +1417,6 @@ const linePopulation = (csvFile, cities) => {
                         `)
                 .transition()
                 .duration(300)
-                .style("right", 0)
                 .style("top", 90 + "%");
         }
 
@@ -1582,7 +1580,6 @@ const linePopulation = (csvFile, cities) => {
                                 `)
                     .transition()
                     .duration(300)
-                    .style("right", 0)
                     .style("top", 20 + "px");
             } else {
                 tooltipOver.data(datos)
@@ -1594,7 +1591,6 @@ const linePopulation = (csvFile, cities) => {
                                     `)
                     .transition()
                     .duration(300)
-                    .style("right", 0)
                     .style("top", 75 + "%");
             }
         });
