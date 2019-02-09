@@ -206,7 +206,7 @@ const scatterDesert = () => {
 
 const aragonStack = () => {
 
-    const margin = { top: 24, right: 0, bottom: 24, left: 32 };
+    const margin = { top: 24, right: 8, bottom: 24, left: 40 };
     let width = 0;
     let height = 0;
     const chart = d3.select('.aragon-stack');
