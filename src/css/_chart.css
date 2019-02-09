@@ -66,16 +66,16 @@
 }
 
 .tooltip {
-    padding: .5rem;
+    padding: .25rem;
     background-color: var(--white);
     border-radius: 2px;
     position: absolute;
     opacity: 1;
     box-shadow: var(--shadow);
     /* stylelint-disable */
-    width: max-content;
-    width: -moz-max-content;
-    width: -webkit-max-content;
+    /*width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;*/
     /* stylelint-enable */
     .tooltip-deceased {
         font-size: 14px;
@@ -91,9 +91,16 @@
         border-radius: 0;
         box-shadow: none;
     }
+    &.tooltip-over {
+        right: 0;
+        .tooltip-deceased {
+            font-size: 12px;
+        }
+    }
 }
 .tooltip-number {
     font-weight: bold;
+    display: inline-block;
 }
 
 .scatter {
@@ -282,6 +289,15 @@ select {
     .bar-negative-chart {
         .axis-x {
             text {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .tootlip {
+        padding: .5rem;
+        &.tooltip-over {
+            .tooltip-deceased {
                 font-size: 14px;
             }
         }

@@ -80,7 +80,7 @@ body {
 
     .container-chart {
         max-width: 60rem;
-        padding: 3rem 0;
+        padding: 3rem .5rem;
     }
 
     .container-desert {
