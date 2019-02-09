@@ -12,7 +12,7 @@ El dataset principal es la serie histórica de población por municipios de 1900
 
 La horquilla de edad del porcentaje de mayores va desde los 65 años hasta 100 años o más. Lo horquilla para el de menores de 18 años va desde los 0 años hasta los 18 años inclusive. Estas dos series de datos provienen del INE a fecha de 2018.
 
-El saldo vegetativo entre 1996 y 2017 proviene del IAEST pero los datos están mal. Un ejemplo, en Ansó en el año 2011 no nacio nadie pero murieron 8 personas, el saldo vegetativo de ese año debería de ser -8, en lugar de esta cifra el IAEST da un saldo vegetativo de 0. Así que he tenido que rehacer este dataset volviendo a calcular el saldo vegetativo de todos los años en todos los municipios.
+El saldo vegetativo entre 1996 y 2017 proviene del IAEST pero los datos están mal(corregido en febrero de 2019). Un ejemplo, en Ansó en el año 2011 no nacio nadie pero murieron 8 personas, el saldo vegetativo de ese año debería de ser -8, en lugar de esta cifra el IAEST da un saldo vegetativo de 0. Así que he tenido que rehacer este dataset volviendo a calcular el saldo vegetativo de todos los años en todos los municipios.
 
 La densidad de población es igual al número de habitantes dividido por la superficie en kilometros cuadrados del municipio. La superficie de cada municipio de Aragón esta en este [dataset](https://gist.githubusercontent.com/jorgeatgu/40eaa471b02add6d9a7a9aca33fc8bd5/raw/ef7d384a0749df4f9b3594c76b432026344b0df9/aragon.json). Los datos de población perfetenecen al INE del 2018.
 
