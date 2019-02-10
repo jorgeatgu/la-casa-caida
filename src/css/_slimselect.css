@@ -432,7 +432,8 @@
 
 @media only screen and (min-width: 48rem) {
 
-    .ss-main .ss-single-selected {
+    .ss-main .ss-single-selected,
+    .ss-main .ss-content {
         margin-left: 3rem !important;
     }
 
