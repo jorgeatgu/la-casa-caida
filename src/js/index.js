@@ -206,7 +206,7 @@ const scatterDesert = () => {
 
 const aragonStack = () => {
 
-    const margin = { top: 24, right: 8, bottom: 24, left: 40 };
+    const margin = { top: 24, right: 8, bottom: 24, left: 32 };
     let width = 0;
     let height = 0;
     const chart = d3.select('.aragon-stack');
@@ -250,13 +250,13 @@ const aragonStack = () => {
 
         g.append("text")
             .attr("class", "legend-aragon")
-            .attr("y", "30%")
+            .attr("y", "5%")
             .attr("x", "1%")
             .text("Huesca");
 
         g.append("text")
             .attr("class", "legend-aragon")
-            .attr("y", "5%")
+            .attr("y", "30%")
             .attr("x", "1%")
             .text("Teruel");
 
@@ -284,7 +284,7 @@ const aragonStack = () => {
         const axisY = d3.axisLeft(scales.count.y)
             .tickFormat(d => d + "%")
             .tickSizeInner(-width)
-            .ticks(5)
+            .ticks(12)
 
         g.select(".axis-y")
             .call(axisY)
@@ -379,7 +379,7 @@ const aragonStack = () => {
                 d1 = dataz[i],
                 d = x0 - d0.year > d1.year - x0 ? d1 : d0;
             //Calculamos la posicion del tooltip
-            const positionX = scales.count.x(d.year) + 41;
+            const positionX = scales.count.x(d.year) + 33;
             const postionWidthTooltip = positionX + 200;
             const positionRightTooltip = w - positionX;
 

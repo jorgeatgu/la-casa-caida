@@ -22,7 +22,8 @@
         max-width: 20rem;
     }
     .container-chart {
-        padding: 0;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 }
 
@@ -30,6 +31,9 @@
 
     .section-text {
         width: 30rem;
+        .container-chart {
+            padding: 0;
+        }
     }
 
 }
