@@ -22,8 +22,7 @@
         max-width: 20rem;
     }
     .container-chart {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 0;
     }
 }
 
