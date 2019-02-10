@@ -379,7 +379,7 @@ const aragonStack = () => {
                 d1 = dataz[i],
                 d = x0 - d0.year > d1.year - x0 ? d1 : d0;
             //Calculamos la posicion del tooltip
-            const positionX = scales.count.x(d.year) + 34;
+            const positionX = scales.count.x(d.year) + 41;
             const postionWidthTooltip = positionX + 200;
             const positionRightTooltip = w - positionX;
 
