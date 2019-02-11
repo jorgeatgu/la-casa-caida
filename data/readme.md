@@ -31,7 +31,7 @@ csvgrep -c 2 -r "^(5)([0-9]{4})" serie-historica-aragon.csv > zaragoza.csv
 
 Para calcular el porcentaje de mayores y menores necesitamos tres arrays, uno de ellos con el número de la población, otro con el número de habitantes mayores de 65 años y otro con el número de habitantes menores de 18 años.
 
-Ahora recorremos el array de población y ejecutamos una operación por cada elemento. Multiplicamos por 100 la población mayor de 65 años y el resultado lo dividimos entre el número total de la población. Lo mismo con la población menor de 18 años. Aquí esta el [script](porcentaje-zaragoza.sh)
+Ahora recorremos el array de población y ejecutamos una operación por cada elemento. Multiplicamos por 100 la población mayor de 65 años y el resultado lo dividimos entre el número total de la población. Lo mismo con la población menor de 18 años. Aquí esta el [script](https://github.com/jorgeatgu/la-casa-caida/blob/master/data/zaragoza/porcentaje-zaragoza.sh)
 
 ```
 for (( i=0; i<${#poblacion[@]}; ++i )); do

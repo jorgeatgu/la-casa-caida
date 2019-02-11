@@ -32,7 +32,7 @@ function menu() {
     }
 }
 
-function animation() {
+setTimeout(function animation() {
     anime.timeline()
         .add({
             targets: '.header-title .letter',
@@ -48,7 +48,9 @@ function animation() {
             duration: 750,
             delay: anime.stagger(1000)
         });
-}
+}, 1000);
+
+
 
 const scatterDesert = () => {
     //Estructura similar a la que utilizan en algunos proyectos de pudding.cool
@@ -386,8 +388,8 @@ const aragonStack = () => {
             tooltipStack.style("opacity", 1)
                 .html(`
                           <span class="tooltip-stack-number tooltip-stack-text">${d.year}</span>
-                          <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruelP}% - ${d.teruel} hab.</span></span>
                           <span class="tooltip-stack-text">Huesca: <span class="tooltip-number">${d.huescaP}% - ${d.huesca} hab.</span></span>
+                          <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruelP}% - ${d.teruel} hab.</span></span>
                           <span class="tooltip-stack-text">Zaragoza: <span class="tooltip-number">${d.zaragozaP}% - ${d.zaragoza} hab.</span></span>
                           <span class="tooltip-stack-text">Total: <span class="tooltip-number">${d.aragon} hab.</span></span>
                           `)
@@ -1674,8 +1676,6 @@ const linePopulation = (csvFile, cities) => {
 }
 
 menu();
-
-animation();
 
 scatterDesert();
 
