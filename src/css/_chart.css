@@ -16,6 +16,11 @@
     font-size: 1rem;
     font-family: var(--text);
     width: 100%;
+    &.text-bot {
+        background-color: var(--white);
+        padding: 1rem;
+        border-left: 5px solid var(--project2bg);
+    }
 }
 
 .line-chart,
@@ -273,6 +278,57 @@ select {
 
 .overlay-dos {
     fill: transparent;
+}
+
+.aragones {
+    display: none;
+    &.active {
+        display: block;
+    }
+    &.hidden {
+        display: none;
+    }
+}
+
+#aragones {
+    &.hidden {
+        display: none;
+    }
+    &.active {
+        display: block;
+    }
+}
+
+#castellano {
+    display: none;
+    &.active {
+        display: block;
+    }
+}
+
+.castellano {
+    &.hidden {
+        display: none;
+    }
+    &.active {
+        display: block;
+    }
+}
+
+.btn-text {
+    display: inline-block;
+    background-color: transparent;
+    text-decoration: underline;
+    border: 0;
+    color: var(--scatter);
+    cursor: pointer;
+    padding: 0;
+    .hidden {
+        display: none;
+    }
+    .active {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 48rem) {

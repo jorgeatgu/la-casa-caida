@@ -1,5 +1,37 @@
 const widthMobile = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
+function text() {
+
+    const ara = document.querySelector('#aragones');
+    const cas = document.querySelector('#castellano');
+    const araDiv = document.querySelector('.aragones');
+    const casDiv = document.querySelector('.castellano');
+
+    ara.onclick = function() {
+        casDiv.classList.remove('active');
+        araDiv.classList.remove('hidden');
+        araDiv.classList.toggle('active');
+        casDiv.classList.toggle('hidden');
+        ara.classList.remove('active');
+        cas.classList.remove('hidden');
+        ara.classList.toggle('hidden');
+        cas.classList.toggle('active');
+    }
+
+    cas.onclick = function() {
+        araDiv.classList.remove('active');
+        casDiv.classList.remove('hidden');
+        casDiv.classList.toggle('active');
+        araDiv.classList.toggle('hidden');
+        cas.classList.remove('active');
+        ara.classList.remove('hidden');
+        cas.classList.toggle('hidden');
+        ara.classList.toggle('active');
+    }
+}
+
+text();
+
 function menu() {
     var overlay = document.querySelector('.overlay');
     var navigation = document.querySelector('.navegacion');
@@ -89,7 +121,7 @@ const scatterDesert = () => {
 
         g.append('g').attr('class', 'scatter-desert-container-bis');
 
-       g.append('circle')
+        g.append('circle')
             .attr('r', 3)
             .attr('fill', "#B41248")
             .attr("cy", "94%")

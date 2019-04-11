@@ -59,8 +59,8 @@ year,cp,name,population,select,mayor,menor
 1900,50059,Bujaraloz,1510,Bujaraloz,25.37,17.11
 1900,50060,Bulbuente,1052,Bulbuente,25.80,11.52
 1900,50061,Bureta,685,Bureta,38.70,5.99
-1900,50062,Burgo de Ebro El,903,El Burgo de Ebro,15.74,20.55
-1900,50063,Buste El,428,El Buste,51.38,5.55
+1900,50062,Burgo de Ebro El,903,Burgo de Ebro El,15.74,20.55
+1900,50063,Buste El,428,Buste El,51.38,5.55
 1900,50064,Cabañas de Ebro,493,Cabañas de Ebro,35.14,10.84
 1900,50065,Cabolafuente,474,Cabolafuente,50.00,0
 1900,50066,Cadrete,647,Cadrete,11.77,22.59
@@ -210,7 +210,7 @@ year,cp,name,population,select,mayor,menor
 1900,50216,Pozuelo de Aragón,710,Pozuelo de Aragón,29.92,12.32
 1900,50217,Pradilla de Ebro,688,Pradilla de Ebro,30.48,10.80
 1900,50218,Puebla de Albortón,631,Puebla de Albortón,37.50,5.83
-1900,50219,Puebla de Alfindén La,985,La Puebla de Alfindén,8.52,27.24
+1900,50219,Puebla de Alfindén La,985,Puebla de Alfindén La,8.52,27.24
 1900,50220,Puendeluna,228,Puendeluna,40.90,0
 1900,50221,Purujosa,463,Purujosa,36.11,2.77
 1900,50222,Quinto,2521,Quinto,23.40,16.22
@@ -272,7 +272,7 @@ year,cp,name,population,select,mayor,menor
 1900,50279,Velilla de Jiloca,486,Velilla de Jiloca,41.11,5.55
 1900,50280,Vera de Moncayo,1329,Vera de Moncayo,37.22,8.33
 1900,50281,Vierlas,230,Vierlas,36.48,9.45
-1900,50282,Vilueña La,401,La Vilueña,40.25,3.89
+1900,50282,Vilueña La,401,Vilueña La,40.25,3.89
 1900,50283,Villadoz,266,Villadoz,38.63,12.50
 1900,50284,Villafeliche,1374,Villafeliche,41.17,11.17
 1900,50285,Villafranca de Ebro,663,Villafranca de Ebro,21.44,17.71
