@@ -1,9 +1,5 @@
 {
     "name": "La casa caida",
-    "env":
-    {
-        "NODE_ENV": "production"
-    },
     "alias": [
         "casacaida.co"
     ],
