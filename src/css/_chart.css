@@ -28,7 +28,8 @@
 .scatter-desert,
 .bar-negative-chart,
 .line-population,
-.aragon-stack {
+.aragon-stack,
+.chart-lb {
     position: relative;
     text {
         font-family: var(--text);
