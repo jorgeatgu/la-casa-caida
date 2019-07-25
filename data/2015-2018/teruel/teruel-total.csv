@@ -1,0 +1,1889 @@
+year,cp,name,population
+2011,44001, Ababuj,78
+2011,44002, Abejuela,66
+2011,44003, Aguatón,20
+2011,44004, Aguaviva,693
+2011,44005, Aguilar del Alfambra,70
+2011,44006, Alacón,349
+2011,44007, Alba,230
+2011,44008, Albalate del Arzobispo,2115
+2011,44009, Albarracín,1096
+2011,44010, Albentosa,301
+2011,44011, Alcaine,67
+2011,44012, Alcalá de la Selva,516
+2011,44013, Alcañiz,16420
+2011,44014, Alcorisa,3622
+2011,44016, Alfambra,677
+2011,44017, Aliaga,382
+2011,44021, Allepuz,129
+2011,44022, Alloza,701
+2011,44023, Allueva,23
+2011,44018, Almohaja,29
+2011,44019, Alobras,75
+2011,44020, Alpeñés,26
+2011,44024, Anadón,24
+2011,44025, Andorra,8324
+2011,44026, Arcos de las Salinas,100
+2011,44027, Arens de Lledó,196
+2011,44028, Argente,223
+2011,44029, Ariño,914
+2011,44031, Azaila,148
+2011,44032, Bádenas,21
+2011,44033, Báguena,386
+2011,44034, Bañón,165
+2011,44035, Barrachina,145
+2011,44036, Bea,32
+2011,44037, Beceite,608
+2011,44039, Bello,274
+2011,44038, Belmonte de San José,129
+2011,44040, Berge,264
+2011,44041, Bezas,82
+2011,44042, Blancas,154
+2011,44043, Blesa,132
+2011,44044, Bordón,146
+2011,44045, Bronchales,469
+2011,44046, Bueña,65
+2011,44047, Burbáguena,300
+2011,44048, Cabra de Mora,87
+2011,44049, Calaceite,1143
+2011,44050, Calamocha,4628
+2011,44051, Calanda,4004
+2011,44052, Calomarde,103
+2011,44053, Camañas,125
+2011,44054, Camarena de la Sierra,159
+2011,44055, Camarillas,130
+2011,44056, Caminreal,718
+2011,44059, Cantavieja,757
+2011,44060, Cañada de Benatanduz,41
+2011,44061, Cañada de Verich,112
+2011,44062, Cañada Vellida,40
+2011,44063, Cañizar del Olivar,106
+2011,44064, Cascante del Río,102
+2011,44065, Castejón de Tornos,68
+2011,44066, Castel de Cabra,140
+2011,44070, Castellar El,69
+2011,44071, Castellote,805
+2011,44067, Castelnou,120
+2011,44068, Castelserás,832
+2011,44074, Cedrillas,620
+2011,44075, Celadas,434
+2011,44076, Cella,2905
+2011,44077, Cerollera La,103
+2011,44080, Codoñera La,387
+2011,44082, Corbalán,102
+2011,44084, Cortes de Aragón,76
+2011,44085, Cosa,60
+2011,44086, Cretas,607
+2011,44087, Crivillén,92
+2011,44088, Cuba La,52
+2011,44089, Cubla,68
+2011,44090, Cucalón,101
+2011,44092, Cuervo El,101
+2011,44093, Cuevas de Almudén,141
+2011,44094, Cuevas Labradas,135
+2011,44096, Ejulve,203
+2011,44097, Escorihuela,183
+2011,44099, Escucha,1019
+2011,44100, Estercuel,272
+2011,44101, Ferreruela de Huerva,68
+2011,44102, Fonfría,30
+2011,44103, Formiche Alto,181
+2011,44105, Fórnoles,102
+2011,44106, Fortanete,223
+2011,44107, Foz-Calanda,293
+2011,44108, Fresneda La,499
+2011,44109, Frías de Albarracín,152
+2011,44110, Fuenferrada,62
+2011,44111, Fuentes Calientes,119
+2011,44112, Fuentes Claras,582
+2011,44113, Fuentes de Rubielos,134
+2011,44114, Fuentespalda,326
+2011,44115, Galve,151
+2011,44116, Gargallo,125
+2011,44117, Gea de Albarracín,415
+2011,44118, Ginebrosa La,230
+2011,44119, Griegos,141
+2011,44120, Guadalaviar,247
+2011,44121, Gúdar,82
+2011,44122, Híjar,1872
+2011,44123, Hinojosa de Jarque,150
+2011,44124, Hoz de la Vieja La,89
+2011,44125, Huesa del Común,92
+2011,44126, Iglesuela del Cid La,501
+2011,44127, Jabaloyas,90
+2011,44128, Jarque de la Val,89
+2011,44129, Jatiel,52
+2011,44130, Jorcas,44
+2011,44131, Josa,38
+2011,44132, Lagueruela,68
+2011,44133, Lanzuela,27
+2011,44135, Libros,156
+2011,44136, Lidón,56
+2011,44137, Linares de Mora,300
+2011,44141, Lledó,168
+2011,44138, Loscos,179
+2011,44142, Maicas,39
+2011,44143, Manzanera,562
+2011,44144, Martín del Río,432
+2011,44145, Mas de las Matas,1387
+2011,44146, Mata de los Olmos La,283
+2011,44147, Mazaleón,564
+2011,44148, Mezquita de Jarque,117
+2011,44149, Mirambel,133
+2011,44150, Miravete de la Sierra,33
+2011,44151, Molinos,283
+2011,44152, Monforte de Moyuela,64
+2011,44153, Monreal del Campo,2768
+2011,44154, Monroyo,394
+2011,44155, Montalbán,1392
+2011,44156, Monteagudo del Castillo,66
+2011,44157, Monterde de Albarracín,64
+2011,44158, Mora de Rubielos,1666
+2011,44159, Moscardón,67
+2011,44160, Mosqueruela,625
+2011,44161, Muniesa,665
+2011,44163, Noguera de Albarracín,148
+2011,44164, Nogueras,36
+2011,44165, Nogueruelas,215
+2011,44167, Obón,38
+2011,44168, Odón,221
+2011,44169, Ojos Negros,473
+2011,44171, Olba,238
+2011,44172, Oliete,470
+2011,44173, Olmos Los,131
+2011,44174, Orihuela del Tremedal,580
+2011,44175, Orrios,153
+2011,44176, Palomar de Arroyos,191
+2011,44177, Pancrudo,139
+2011,44178, Parras de Castellote Las,77
+2011,44179, Peñarroya de Tastavins,509
+2011,44180, Peracense,88
+2011,44181, Peralejos,84
+2011,44182, Perales del Alfambra,268
+2011,44183, Pitarque,94
+2011,44184, Plou,45
+2011,44185, Pobo El,143
+2011,44187, Portellada La,259
+2011,44189, Pozondón,80
+2011,44190, Pozuel del Campo,98
+2011,44191, Puebla de Híjar,1013
+2011,44192, Puebla de Valverde La,552
+2011,44193, Puertomingalvo,157
+2011,44194, Ráfales,165
+2011,44195, Rillo,112
+2011,44196, Riodeva,176
+2011,44197, Ródenas,71
+2011,44198, Royuela,251
+2011,44199, Rubiales,58
+2011,44200, Rubielos de la Cérida,43
+2011,44201, Rubielos de Mora,751
+2011,44203, Salcedillo,8
+2011,44204, Saldón,29
+2011,44205, Samper de Calanda,909
+2011,44206, San Agustín,201
+2011,44207, San Martín del Río,193
+2011,44208, Santa Cruz de Nogueras,40
+2011,44209, Santa Eulalia,1147
+2011,44210, Sarrión,1135
+2011,44211, Segura de los Baños,39
+2011,44212, Seno,46
+2011,44213, Singra,92
+2011,44215, Terriente,197
+2011,44216, Teruel,35288
+2011,44217, Toril y Masegoso,37
+2011,44218, Tormón,36
+2011,44219, Tornos,230
+2011,44220, Torralba de los Sisones,209
+2011,44223, Torre de Arcas,95
+2011,44224, Torre de las Arcas,35
+2011,44225, Torre del Compte,156
+2011,44227, Torre los Negros,103
+2011,44221, Torrecilla de Alcañiz,437
+2011,44222, Torrecilla del Rebollar,146
+2011,44226, Torrelacárcel,213
+2011,44228, Torremocha de Jiloca,135
+2011,44229, Torres de Albarracín,167
+2011,44230, Torrevelilla,216
+2011,44231, Torrijas,63
+2011,44232, Torrijo del Campo,518
+2011,44234, Tramacastiel,89
+2011,44235, Tramacastilla,118
+2011,44236, Tronchón,107
+2011,44237, Urrea de Gaén,527
+2011,44238, Utrillas,3270
+2011,44239, Valacloche,31
+2011,44240, Valbona,202
+2011,44241, Valdealgorfa,675
+2011,44243, Valdecuenca,53
+2011,44244, Valdelinares,113
+2011,44245, Valdeltormo,324
+2011,44246, Valderrobres,2303
+2011,44247, Valjunquera,387
+2011,44249, Vallecillo El,61
+2011,44250, Veguillas de la Sierra,25
+2011,44251, Villafranca del Campo,339
+2011,44252, Villahermosa del Campo,102
+2011,44256, Villanueva del Rebollar de la Sierra,52
+2011,44257, Villar del Cobo,205
+2011,44258, Villar del Salz,80
+2011,44260, Villarluengo,194
+2011,44261, Villarquemado,906
+2011,44262, Villarroya de los Pinares,172
+2011,44263, Villastar,448
+2011,44264, Villel,342
+2011,44265, Vinaceite,301
+2011,44266, Visiedo,148
+2011,44267, Vivel del Río Martín,91
+2011,44268, Zoma La,22
+2012,44001, Ababuj,73
+2012,44002, Abejuela,55
+2012,44003, Aguatón,20
+2012,44004, Aguaviva,660
+2012,44005, Aguilar del Alfambra,73
+2012,44006, Alacón,331
+2012,44007, Alba,231
+2012,44008, Albalate del Arzobispo,2087
+2012,44009, Albarracín,1102
+2012,44010, Albentosa,290
+2012,44011, Alcaine,69
+2012,44012, Alcalá de la Selva,496
+2012,44013, Alcañiz,16424
+2012,44014, Alcorisa,3556
+2012,44016, Alfambra,622
+2012,44017, Aliaga,366
+2012,44021, Allepuz,121
+2012,44022, Alloza,673
+2012,44023, Allueva,21
+2012,44018, Almohaja,28
+2012,44019, Alobras,79
+2012,44020, Alpeñés,25
+2012,44024, Anadón,27
+2012,44025, Andorra,8266
+2012,44026, Arcos de las Salinas,105
+2012,44027, Arens de Lledó,205
+2012,44028, Argente,224
+2012,44029, Ariño,893
+2012,44031, Azaila,133
+2012,44032, Bádenas,21
+2012,44033, Báguena,370
+2012,44034, Bañón,162
+2012,44035, Barrachina,143
+2012,44036, Bea,30
+2012,44037, Beceite,607
+2012,44039, Bello,282
+2012,44038, Belmonte de San José,126
+2012,44040, Berge,254
+2012,44041, Bezas,78
+2012,44042, Blancas,158
+2012,44043, Blesa,125
+2012,44044, Bordón,131
+2012,44045, Bronchales,472
+2012,44046, Bueña,63
+2012,44047, Burbáguena,292
+2012,44048, Cabra de Mora,79
+2012,44049, Calaceite,1105
+2012,44050, Calamocha,4579
+2012,44051, Calanda,3956
+2012,44052, Calomarde,90
+2012,44053, Camañas,135
+2012,44054, Camarena de la Sierra,145
+2012,44055, Camarillas,117
+2012,44056, Caminreal,735
+2012,44059, Cantavieja,745
+2012,44060, Cañada de Benatanduz,39
+2012,44061, Cañada de Verich,106
+2012,44062, Cañada Vellida,38
+2012,44063, Cañizar del Olivar,110
+2012,44064, Cascante del Río,91
+2012,44065, Castejón de Tornos,64
+2012,44066, Castel de Cabra,138
+2012,44070, Castellar El,64
+2012,44071, Castellote,794
+2012,44067, Castelnou,177
+2012,44068, Castelserás,834
+2012,44074, Cedrillas,631
+2012,44075, Celadas,406
+2012,44076, Cella,2878
+2012,44077, Cerollera La,116
+2012,44080, Codoñera La,377
+2012,44082, Corbalán,107
+2012,44084, Cortes de Aragón,72
+2012,44085, Cosa,61
+2012,44086, Cretas,598
+2012,44087, Crivillén,88
+2012,44088, Cuba La,50
+2012,44089, Cubla,62
+2012,44090, Cucalón,108
+2012,44092, Cuervo El,91
+2012,44093, Cuevas de Almudén,148
+2012,44094, Cuevas Labradas,128
+2012,44096, Ejulve,208
+2012,44097, Escorihuela,177
+2012,44099, Escucha,995
+2012,44100, Estercuel,259
+2012,44101, Ferreruela de Huerva,70
+2012,44102, Fonfría,30
+2012,44103, Formiche Alto,175
+2012,44105, Fórnoles,105
+2012,44106, Fortanete,222
+2012,44107, Foz-Calanda,279
+2012,44108, Fresneda La,486
+2012,44109, Frías de Albarracín,151
+2012,44110, Fuenferrada,62
+2012,44111, Fuentes Calientes,116
+2012,44112, Fuentes Claras,576
+2012,44113, Fuentes de Rubielos,125
+2012,44114, Fuentespalda,317
+2012,44115, Galve,170
+2012,44116, Gargallo,122
+2012,44117, Gea de Albarracín,405
+2012,44118, Ginebrosa La,216
+2012,44119, Griegos,143
+2012,44120, Guadalaviar,236
+2012,44121, Gúdar,77
+2012,44122, Híjar,1806
+2012,44123, Hinojosa de Jarque,151
+2012,44124, Hoz de la Vieja La,79
+2012,44125, Huesa del Común,86
+2012,44126, Iglesuela del Cid La,496
+2012,44127, Jabaloyas,83
+2012,44128, Jarque de la Val,91
+2012,44129, Jatiel,49
+2012,44130, Jorcas,41
+2012,44131, Josa,38
+2012,44132, Lagueruela,69
+2012,44133, Lanzuela,28
+2012,44135, Libros,141
+2012,44136, Lidón,55
+2012,44137, Linares de Mora,296
+2012,44141, Lledó,169
+2012,44138, Loscos,175
+2012,44142, Maicas,38
+2012,44143, Manzanera,554
+2012,44144, Martín del Río,429
+2012,44145, Mas de las Matas,1360
+2012,44146, Mata de los Olmos La,281
+2012,44147, Mazaleón,567
+2012,44148, Mezquita de Jarque,118
+2012,44149, Mirambel,129
+2012,44150, Miravete de la Sierra,33
+2012,44151, Molinos,286
+2012,44152, Monforte de Moyuela,63
+2012,44153, Monreal del Campo,2709
+2012,44154, Monroyo,390
+2012,44155, Montalbán,1350
+2012,44156, Monteagudo del Castillo,67
+2012,44157, Monterde de Albarracín,66
+2012,44158, Mora de Rubielos,1649
+2012,44159, Moscardón,64
+2012,44160, Mosqueruela,621
+2012,44161, Muniesa,653
+2012,44163, Noguera de Albarracín,152
+2012,44164, Nogueras,31
+2012,44165, Nogueruelas,219
+2012,44167, Obón,39
+2012,44168, Odón,229
+2012,44169, Ojos Negros,445
+2012,44171, Olba,249
+2012,44172, Oliete,459
+2012,44173, Olmos Los,124
+2012,44174, Orihuela del Tremedal,572
+2012,44175, Orrios,152
+2012,44176, Palomar de Arroyos,189
+2012,44177, Pancrudo,133
+2012,44178, Parras de Castellote Las,69
+2012,44179, Peñarroya de Tastavins,497
+2012,44180, Peracense,77
+2012,44181, Peralejos,83
+2012,44182, Perales del Alfambra,269
+2012,44183, Pitarque,93
+2012,44184, Plou,48
+2012,44185, Pobo El,142
+2012,44187, Portellada La,254
+2012,44189, Pozondón,71
+2012,44190, Pozuel del Campo,90
+2012,44191, Puebla de Híjar,982
+2012,44192, Puebla de Valverde La,550
+2012,44193, Puertomingalvo,144
+2012,44194, Ráfales,159
+2012,44195, Rillo,111
+2012,44196, Riodeva,173
+2012,44197, Ródenas,79
+2012,44198, Royuela,247
+2012,44199, Rubiales,61
+2012,44200, Rubielos de la Cérida,43
+2012,44201, Rubielos de Mora,755
+2012,44203, Salcedillo,10
+2012,44204, Saldón,28
+2012,44205, Samper de Calanda,884
+2012,44206, San Agustín,177
+2012,44207, San Martín del Río,191
+2012,44208, Santa Cruz de Nogueras,39
+2012,44209, Santa Eulalia,1122
+2012,44210, Sarrión,1129
+2012,44211, Segura de los Baños,40
+2012,44212, Seno,45
+2012,44213, Singra,84
+2012,44215, Terriente,191
+2012,44216, Teruel,35841
+2012,44217, Toril y Masegoso,35
+2012,44218, Tormón,34
+2012,44219, Tornos,231
+2012,44220, Torralba de los Sisones,181
+2012,44223, Torre de Arcas,88
+2012,44224, Torre de las Arcas,30
+2012,44225, Torre del Compte,148
+2012,44227, Torre los Negros,98
+2012,44221, Torrecilla de Alcañiz,447
+2012,44222, Torrecilla del Rebollar,142
+2012,44226, Torrelacárcel,200
+2012,44228, Torremocha de Jiloca,128
+2012,44229, Torres de Albarracín,167
+2012,44230, Torrevelilla,199
+2012,44231, Torrijas,57
+2012,44232, Torrijo del Campo,506
+2012,44234, Tramacastiel,85
+2012,44235, Tramacastilla,125
+2012,44236, Tronchón,100
+2012,44237, Urrea de Gaén,516
+2012,44238, Utrillas,3238
+2012,44239, Valacloche,28
+2012,44240, Valbona,211
+2012,44241, Valdealgorfa,651
+2012,44243, Valdecuenca,56
+2012,44244, Valdelinares,106
+2012,44245, Valdeltormo,317
+2012,44246, Valderrobres,2335
+2012,44247, Valjunquera,386
+2012,44249, Vallecillo El,54
+2012,44250, Veguillas de la Sierra,20
+2012,44251, Villafranca del Campo,323
+2012,44252, Villahermosa del Campo,99
+2012,44256, Villanueva del Rebollar de la Sierra,47
+2012,44257, Villar del Cobo,202
+2012,44258, Villar del Salz,79
+2012,44260, Villarluengo,200
+2012,44261, Villarquemado,904
+2012,44262, Villarroya de los Pinares,163
+2012,44263, Villastar,480
+2012,44264, Villel,347
+2012,44265, Vinaceite,308
+2012,44266, Visiedo,145
+2012,44267, Vivel del Río Martín,86
+2012,44268, Zoma La,22
+2013,44001, Ababuj,65
+2013,44002, Abejuela,39
+2013,44003, Aguatón,19
+2013,44004, Aguaviva,654
+2013,44005, Aguilar del Alfambra,75
+2013,44006, Alacón,306
+2013,44007, Alba,215
+2013,44008, Albalate del Arzobispo,2049
+2013,44009, Albarracín,1093
+2013,44010, Albentosa,296
+2013,44011, Alcaine,69
+2013,44012, Alcalá de la Selva,457
+2013,44013, Alcañiz,16384
+2013,44014, Alcorisa,3501
+2013,44016, Alfambra,584
+2013,44017, Aliaga,361
+2013,44021, Allepuz,119
+2013,44022, Alloza,667
+2013,44023, Allueva,15
+2013,44018, Almohaja,21
+2013,44019, Alobras,79
+2013,44020, Alpeñés,19
+2013,44024, Anadón,23
+2013,44025, Andorra,8278
+2013,44026, Arcos de las Salinas,96
+2013,44027, Arens de Lledó,215
+2013,44028, Argente,225
+2013,44029, Ariño,769
+2013,44031, Azaila,124
+2013,44032, Bádenas,20
+2013,44033, Báguena,353
+2013,44034, Bañón,163
+2013,44035, Barrachina,148
+2013,44036, Bea,30
+2013,44037, Beceite,599
+2013,44039, Bello,250
+2013,44038, Belmonte de San José,117
+2013,44040, Berge,251
+2013,44041, Bezas,75
+2013,44042, Blancas,157
+2013,44043, Blesa,118
+2013,44044, Bordón,120
+2013,44045, Bronchales,461
+2013,44046, Bueña,62
+2013,44047, Burbáguena,294
+2013,44048, Cabra de Mora,66
+2013,44049, Calaceite,1106
+2013,44050, Calamocha,4515
+2013,44051, Calanda,3949
+2013,44052, Calomarde,84
+2013,44053, Camañas,127
+2013,44054, Camarena de la Sierra,138
+2013,44055, Camarillas,110
+2013,44056, Caminreal,724
+2013,44059, Cantavieja,724
+2013,44060, Cañada de Benatanduz,38
+2013,44061, Cañada de Verich,94
+2013,44062, Cañada Vellida,38
+2013,44063, Cañizar del Olivar,98
+2013,44064, Cascante del Río,80
+2013,44065, Castejón de Tornos,66
+2013,44066, Castel de Cabra,131
+2013,44070, Castellar El,62
+2013,44071, Castellote,782
+2013,44067, Castelnou,152
+2013,44068, Castelserás,833
+2013,44074, Cedrillas,630
+2013,44075, Celadas,404
+2013,44076, Cella,2886
+2013,44077, Cerollera La,104
+2013,44080, Codoñera La,368
+2013,44082, Corbalán,109
+2013,44084, Cortes de Aragón,57
+2013,44085, Cosa,60
+2013,44086, Cretas,597
+2013,44087, Crivillén,76
+2013,44088, Cuba La,47
+2013,44089, Cubla,61
+2013,44090, Cucalón,110
+2013,44092, Cuervo El,98
+2013,44093, Cuevas de Almudén,141
+2013,44094, Cuevas Labradas,135
+2013,44096, Ejulve,204
+2013,44097, Escorihuela,162
+2013,44099, Escucha,1003
+2013,44100, Estercuel,261
+2013,44101, Ferreruela de Huerva,67
+2013,44102, Fonfría,30
+2013,44103, Formiche Alto,170
+2013,44105, Fórnoles,93
+2013,44106, Fortanete,208
+2013,44107, Foz-Calanda,269
+2013,44108, Fresneda La,495
+2013,44109, Frías de Albarracín,143
+2013,44110, Fuenferrada,61
+2013,44111, Fuentes Calientes,113
+2013,44112, Fuentes Claras,553
+2013,44113, Fuentes de Rubielos,128
+2013,44114, Fuentespalda,308
+2013,44115, Galve,168
+2013,44116, Gargallo,122
+2013,44117, Gea de Albarracín,410
+2013,44118, Ginebrosa La,216
+2013,44119, Griegos,139
+2013,44120, Guadalaviar,245
+2013,44121, Gúdar,84
+2013,44122, Híjar,1774
+2013,44123, Hinojosa de Jarque,146
+2013,44124, Hoz de la Vieja La,83
+2013,44125, Huesa del Común,82
+2013,44126, Iglesuela del Cid La,469
+2013,44127, Jabaloyas,78
+2013,44128, Jarque de la Val,87
+2013,44129, Jatiel,50
+2013,44130, Jorcas,38
+2013,44131, Josa,36
+2013,44132, Lagueruela,72
+2013,44133, Lanzuela,27
+2013,44135, Libros,137
+2013,44136, Lidón,54
+2013,44137, Linares de Mora,276
+2013,44141, Lledó,172
+2013,44138, Loscos,156
+2013,44142, Maicas,36
+2013,44143, Manzanera,539
+2013,44144, Martín del Río,437
+2013,44145, Mas de las Matas,1349
+2013,44146, Mata de los Olmos La,280
+2013,44147, Mazaleón,558
+2013,44148, Mezquita de Jarque,121
+2013,44149, Mirambel,113
+2013,44150, Miravete de la Sierra,29
+2013,44151, Molinos,276
+2013,44152, Monforte de Moyuela,66
+2013,44153, Monreal del Campo,2680
+2013,44154, Monroyo,367
+2013,44155, Montalbán,1341
+2013,44156, Monteagudo del Castillo,59
+2013,44157, Monterde de Albarracín,62
+2013,44158, Mora de Rubielos,1632
+2013,44159, Moscardón,62
+2013,44160, Mosqueruela,607
+2013,44161, Muniesa,640
+2013,44163, Noguera de Albarracín,146
+2013,44164, Nogueras,30
+2013,44165, Nogueruelas,210
+2013,44167, Obón,38
+2013,44168, Odón,228
+2013,44169, Ojos Negros,435
+2013,44171, Olba,250
+2013,44172, Oliete,430
+2013,44173, Olmos Los,131
+2013,44174, Orihuela del Tremedal,552
+2013,44175, Orrios,145
+2013,44176, Palomar de Arroyos,186
+2013,44177, Pancrudo,123
+2013,44178, Parras de Castellote Las,63
+2013,44179, Peñarroya de Tastavins,480
+2013,44180, Peracense,73
+2013,44181, Peralejos,90
+2013,44182, Perales del Alfambra,265
+2013,44183, Pitarque,89
+2013,44184, Plou,45
+2013,44185, Pobo El,145
+2013,44187, Portellada La,245
+2013,44189, Pozondón,66
+2013,44190, Pozuel del Campo,80
+2013,44191, Puebla de Híjar,974
+2013,44192, Puebla de Valverde La,547
+2013,44193, Puertomingalvo,135
+2013,44194, Ráfales,138
+2013,44195, Rillo,109
+2013,44196, Riodeva,165
+2013,44197, Ródenas,78
+2013,44198, Royuela,230
+2013,44199, Rubiales,55
+2013,44200, Rubielos de la Cérida,43
+2013,44201, Rubielos de Mora,722
+2013,44203, Salcedillo,10
+2013,44204, Saldón,29
+2013,44205, Samper de Calanda,867
+2013,44206, San Agustín,151
+2013,44207, San Martín del Río,182
+2013,44208, Santa Cruz de Nogueras,38
+2013,44209, Santa Eulalia,1118
+2013,44210, Sarrión,1149
+2013,44211, Segura de los Baños,40
+2013,44212, Seno,43
+2013,44213, Singra,73
+2013,44215, Terriente,179
+2013,44216, Teruel,35961
+2013,44217, Toril y Masegoso,35
+2013,44218, Tormón,31
+2013,44219, Tornos,234
+2013,44220, Torralba de los Sisones,174
+2013,44223, Torre de Arcas,95
+2013,44224, Torre de las Arcas,31
+2013,44225, Torre del Compte,147
+2013,44227, Torre los Negros,91
+2013,44221, Torrecilla de Alcañiz,437
+2013,44222, Torrecilla del Rebollar,142
+2013,44226, Torrelacárcel,193
+2013,44228, Torremocha de Jiloca,125
+2013,44229, Torres de Albarracín,159
+2013,44230, Torrevelilla,211
+2013,44231, Torrijas,44
+2013,44232, Torrijo del Campo,496
+2013,44234, Tramacastiel,76
+2013,44235, Tramacastilla,114
+2013,44236, Tronchón,91
+2013,44237, Urrea de Gaén,491
+2013,44238, Utrillas,3268
+2013,44239, Valacloche,23
+2013,44240, Valbona,197
+2013,44241, Valdealgorfa,621
+2013,44243, Valdecuenca,44
+2013,44244, Valdelinares,100
+2013,44245, Valdeltormo,322
+2013,44246, Valderrobres,2310
+2013,44247, Valjunquera,383
+2013,44249, Vallecillo El,52
+2013,44250, Veguillas de la Sierra,22
+2013,44251, Villafranca del Campo,323
+2013,44252, Villahermosa del Campo,102
+2013,44256, Villanueva del Rebollar de la Sierra,46
+2013,44257, Villar del Cobo,192
+2013,44258, Villar del Salz,73
+2013,44260, Villarluengo,195
+2013,44261, Villarquemado,889
+2013,44262, Villarroya de los Pinares,164
+2013,44263, Villastar,498
+2013,44264, Villel,355
+2013,44265, Vinaceite,287
+2013,44266, Visiedo,141
+2013,44267, Vivel del Río Martín,81
+2013,44268, Zoma La,19
+2014,44001, Ababuj,65
+2014,44002, Abejuela,41
+2014,44003, Aguatón,18
+2014,44004, Aguaviva,605
+2014,44005, Aguilar del Alfambra,77
+2014,44006, Alacón,314
+2014,44007, Alba,212
+2014,44008, Albalate del Arzobispo,2025
+2014,44009, Albarracín,1059
+2014,44010, Albentosa,279
+2014,44011, Alcaine,72
+2014,44012, Alcalá de la Selva,424
+2014,44013, Alcañiz,16333
+2014,44014, Alcorisa,3433
+2014,44016, Alfambra,587
+2014,44017, Aliaga,358
+2014,44021, Allepuz,117
+2014,44022, Alloza,638
+2014,44023, Allueva,15
+2014,44018, Almohaja,21
+2014,44019, Alobras,75
+2014,44020, Alpeñés,19
+2014,44024, Anadón,24
+2014,44025, Andorra,8148
+2014,44026, Arcos de las Salinas,100
+2014,44027, Arens de Lledó,208
+2014,44028, Argente,217
+2014,44029, Ariño,775
+2014,44031, Azaila,119
+2014,44032, Bádenas,19
+2014,44033, Báguena,337
+2014,44034, Bañón,154
+2014,44035, Barrachina,137
+2014,44036, Bea,28
+2014,44037, Beceite,583
+2014,44039, Bello,244
+2014,44038, Belmonte de San José,120
+2014,44040, Berge,247
+2014,44041, Bezas,77
+2014,44042, Blancas,152
+2014,44043, Blesa,109
+2014,44044, Bordón,114
+2014,44045, Bronchales,427
+2014,44046, Bueña,62
+2014,44047, Burbáguena,281
+2014,44048, Cabra de Mora,70
+2014,44049, Calaceite,1076
+2014,44050, Calamocha,4469
+2014,44051, Calanda,3920
+2014,44052, Calomarde,88
+2014,44053, Camañas,128
+2014,44054, Camarena de la Sierra,137
+2014,44055, Camarillas,103
+2014,44056, Caminreal,684
+2014,44059, Cantavieja,724
+2014,44060, Cañada de Benatanduz,41
+2014,44061, Cañada de Verich,102
+2014,44062, Cañada Vellida,37
+2014,44063, Cañizar del Olivar,99
+2014,44064, Cascante del Río,82
+2014,44065, Castejón de Tornos,63
+2014,44066, Castel de Cabra,128
+2014,44070, Castellar El,60
+2014,44071, Castellote,754
+2014,44067, Castelnou,140
+2014,44068, Castelserás,830
+2014,44074, Cedrillas,619
+2014,44075, Celadas,399
+2014,44076, Cella,2818
+2014,44077, Cerollera La,106
+2014,44080, Codoñera La,374
+2014,44082, Corbalán,106
+2014,44084, Cortes de Aragón,61
+2014,44085, Cosa,56
+2014,44086, Cretas,601
+2014,44087, Crivillén,75
+2014,44088, Cuba La,45
+2014,44089, Cubla,55
+2014,44090, Cucalón,103
+2014,44092, Cuervo El,85
+2014,44093, Cuevas de Almudén,145
+2014,44094, Cuevas Labradas,127
+2014,44096, Ejulve,194
+2014,44097, Escorihuela,160
+2014,44099, Escucha,981
+2014,44100, Estercuel,230
+2014,44101, Ferreruela de Huerva,64
+2014,44102, Fonfría,30
+2014,44103, Formiche Alto,168
+2014,44105, Fórnoles,78
+2014,44106, Fortanete,201
+2014,44107, Foz-Calanda,269
+2014,44108, Fresneda La,468
+2014,44109, Frías de Albarracín,144
+2014,44110, Fuenferrada,62
+2014,44111, Fuentes Calientes,111
+2014,44112, Fuentes Claras,531
+2014,44113, Fuentes de Rubielos,121
+2014,44114, Fuentespalda,299
+2014,44115, Galve,164
+2014,44116, Gargallo,110
+2014,44117, Gea de Albarracín,397
+2014,44118, Ginebrosa La,206
+2014,44119, Griegos,142
+2014,44120, Guadalaviar,248
+2014,44121, Gúdar,76
+2014,44122, Híjar,1763
+2014,44123, Hinojosa de Jarque,136
+2014,44124, Hoz de la Vieja La,81
+2014,44125, Huesa del Común,73
+2014,44126, Iglesuela del Cid La,462
+2014,44127, Jabaloyas,73
+2014,44128, Jarque de la Val,82
+2014,44129, Jatiel,48
+2014,44130, Jorcas,37
+2014,44131, Josa,36
+2014,44132, Lagueruela,78
+2014,44133, Lanzuela,30
+2014,44135, Libros,129
+2014,44136, Lidón,54
+2014,44137, Linares de Mora,274
+2014,44141, Lledó,169
+2014,44138, Loscos,154
+2014,44142, Maicas,35
+2014,44143, Manzanera,526
+2014,44144, Martín del Río,437
+2014,44145, Mas de las Matas,1324
+2014,44146, Mata de los Olmos La,268
+2014,44147, Mazaleón,540
+2014,44148, Mezquita de Jarque,117
+2014,44149, Mirambel,117
+2014,44150, Miravete de la Sierra,34
+2014,44151, Molinos,264
+2014,44152, Monforte de Moyuela,63
+2014,44153, Monreal del Campo,2636
+2014,44154, Monroyo,364
+2014,44155, Montalbán,1335
+2014,44156, Monteagudo del Castillo,55
+2014,44157, Monterde de Albarracín,73
+2014,44158, Mora de Rubielos,1612
+2014,44159, Moscardón,60
+2014,44160, Mosqueruela,601
+2014,44161, Muniesa,638
+2014,44163, Noguera de Albarracín,137
+2014,44164, Nogueras,30
+2014,44165, Nogueruelas,214
+2014,44167, Obón,42
+2014,44168, Odón,237
+2014,44169, Ojos Negros,421
+2014,44171, Olba,263
+2014,44172, Oliete,422
+2014,44173, Olmos Los,130
+2014,44174, Orihuela del Tremedal,539
+2014,44175, Orrios,140
+2014,44176, Palomar de Arroyos,184
+2014,44177, Pancrudo,117
+2014,44178, Parras de Castellote Las,58
+2014,44179, Peñarroya de Tastavins,487
+2014,44180, Peracense,69
+2014,44181, Peralejos,85
+2014,44182, Perales del Alfambra,253
+2014,44183, Pitarque,93
+2014,44184, Plou,46
+2014,44185, Pobo El,148
+2014,44187, Portellada La,234
+2014,44189, Pozondón,63
+2014,44190, Pozuel del Campo,81
+2014,44191, Puebla de Híjar,965
+2014,44192, Puebla de Valverde La,521
+2014,44193, Puertomingalvo,117
+2014,44194, Ráfales,142
+2014,44195, Rillo,106
+2014,44196, Riodeva,165
+2014,44197, Ródenas,75
+2014,44198, Royuela,227
+2014,44199, Rubiales,51
+2014,44200, Rubielos de la Cérida,41
+2014,44201, Rubielos de Mora,687
+2014,44203, Salcedillo,10
+2014,44204, Saldón,27
+2014,44205, Samper de Calanda,861
+2014,44206, San Agustín,141
+2014,44207, San Martín del Río,179
+2014,44208, Santa Cruz de Nogueras,42
+2014,44209, Santa Eulalia,1111
+2014,44210, Sarrión,1152
+2014,44211, Segura de los Baños,39
+2014,44212, Seno,42
+2014,44213, Singra,76
+2014,44215, Terriente,177
+2014,44216, Teruel,35675
+2014,44217, Toril y Masegoso,32
+2014,44218, Tormón,28
+2014,44219, Tornos,231
+2014,44220, Torralba de los Sisones,170
+2014,44223, Torre de Arcas,83
+2014,44224, Torre de las Arcas,28
+2014,44225, Torre del Compte,142
+2014,44227, Torre los Negros,94
+2014,44221, Torrecilla de Alcañiz,415
+2014,44222, Torrecilla del Rebollar,142
+2014,44226, Torrelacárcel,197
+2014,44228, Torremocha de Jiloca,126
+2014,44229, Torres de Albarracín,174
+2014,44230, Torrevelilla,208
+2014,44231, Torrijas,45
+2014,44232, Torrijo del Campo,509
+2014,44234, Tramacastiel,74
+2014,44235, Tramacastilla,120
+2014,44236, Tronchón,82
+2014,44237, Urrea de Gaén,494
+2014,44238, Utrillas,3194
+2014,44239, Valacloche,23
+2014,44240, Valbona,198
+2014,44241, Valdealgorfa,650
+2014,44243, Valdecuenca,40
+2014,44244, Valdelinares,90
+2014,44245, Valdeltormo,315
+2014,44246, Valderrobres,2337
+2014,44247, Valjunquera,365
+2014,44249, Vallecillo El,50
+2014,44250, Veguillas de la Sierra,23
+2014,44251, Villafranca del Campo,314
+2014,44252, Villahermosa del Campo,104
+2014,44256, Villanueva del Rebollar de la Sierra,52
+2014,44257, Villar del Cobo,190
+2014,44258, Villar del Salz,75
+2014,44260, Villarluengo,194
+2014,44261, Villarquemado,886
+2014,44262, Villarroya de los Pinares,160
+2014,44263, Villastar,522
+2014,44264, Villel,348
+2014,44265, Vinaceite,274
+2014,44266, Visiedo,137
+2014,44267, Vivel del Río Martín,78
+2014,44268, Zoma La,19
+2015,44001, Ababuj,73
+2015,44002, Abejuela,54
+2015,44003, Aguatón,19
+2015,44004, Aguaviva,586
+2015,44005, Aguilar del Alfambra,66
+2015,44006, Alacón,293
+2015,44007, Alba,210
+2015,44008, Albalate del Arzobispo,2001
+2015,44009, Albarracín,1049
+2015,44010, Albentosa,270
+2015,44011, Alcaine,74
+2015,44012, Alcalá de la Selva,399
+2015,44013, Alcañiz,16230
+2015,44014, Alcorisa,3374
+2015,44016, Alfambra,571
+2015,44017, Aliaga,365
+2015,44021, Allepuz,118
+2015,44022, Alloza,604
+2015,44023, Allueva,27
+2015,44018, Almohaja,20
+2015,44019, Alobras,70
+2015,44020, Alpeñés,21
+2015,44024, Anadón,25
+2015,44025, Andorra,8065
+2015,44026, Arcos de las Salinas,105
+2015,44027, Arens de Lledó,206
+2015,44028, Argente,214
+2015,44029, Ariño,763
+2015,44031, Azaila,116
+2015,44032, Bádenas,19
+2015,44033, Báguena,327
+2015,44034, Bañón,150
+2015,44035, Barrachina,133
+2015,44036, Bea,26
+2015,44037, Beceite,566
+2015,44039, Bello,238
+2015,44038, Belmonte de San José,117
+2015,44040, Berge,246
+2015,44041, Bezas,67
+2015,44042, Blancas,149
+2015,44043, Blesa,109
+2015,44044, Bordón,117
+2015,44045, Bronchales,423
+2015,44046, Bueña,55
+2015,44047, Burbáguena,254
+2015,44048, Cabra de Mora,73
+2015,44049, Calaceite,1052
+2015,44050, Calamocha,4417
+2015,44051, Calanda,3893
+2015,44052, Calomarde,87
+2015,44053, Camañas,125
+2015,44054, Camarena de la Sierra,123
+2015,44055, Camarillas,99
+2015,44056, Caminreal,659
+2015,44059, Cantavieja,741
+2015,44060, Cañada de Benatanduz,41
+2015,44061, Cañada de Verich,102
+2015,44062, Cañada Vellida,36
+2015,44063, Cañizar del Olivar,103
+2015,44064, Cascante del Río,80
+2015,44065, Castejón de Tornos,60
+2015,44066, Castel de Cabra,122
+2015,44070, Castellar El,58
+2015,44071, Castellote,728
+2015,44067, Castelnou,142
+2015,44068, Castelserás,840
+2015,44074, Cedrillas,619
+2015,44075, Celadas,398
+2015,44076, Cella,2776
+2015,44077, Cerollera La,106
+2015,44080, Codoñera La,365
+2015,44082, Corbalán,110
+2015,44084, Cortes de Aragón,58
+2015,44085, Cosa,57
+2015,44086, Cretas,573
+2015,44087, Crivillén,74
+2015,44088, Cuba La,37
+2015,44089, Cubla,54
+2015,44090, Cucalón,104
+2015,44092, Cuervo El,87
+2015,44093, Cuevas de Almudén,140
+2015,44094, Cuevas Labradas,123
+2015,44096, Ejulve,200
+2015,44097, Escorihuela,158
+2015,44099, Escucha,953
+2015,44100, Estercuel,229
+2015,44101, Ferreruela de Huerva,69
+2015,44102, Fonfría,31
+2015,44103, Formiche Alto,180
+2015,44105, Fórnoles,86
+2015,44106, Fortanete,203
+2015,44107, Foz-Calanda,269
+2015,44108, Fresneda La,474
+2015,44109, Frías de Albarracín,131
+2015,44110, Fuenferrada,57
+2015,44111, Fuentes Calientes,93
+2015,44112, Fuentes Claras,528
+2015,44113, Fuentes de Rubielos,121
+2015,44114, Fuentespalda,285
+2015,44115, Galve,167
+2015,44116, Gargallo,103
+2015,44117, Gea de Albarracín,387
+2015,44118, Ginebrosa La,203
+2015,44119, Griegos,157
+2015,44120, Guadalaviar,247
+2015,44121, Gúdar,77
+2015,44122, Híjar,1761
+2015,44123, Hinojosa de Jarque,136
+2015,44124, Hoz de la Vieja La,82
+2015,44125, Huesa del Común,73
+2015,44126, Iglesuela del Cid La,432
+2015,44127, Jabaloyas,77
+2015,44128, Jarque de la Val,78
+2015,44129, Jatiel,48
+2015,44130, Jorcas,41
+2015,44131, Josa,36
+2015,44132, Lagueruela,81
+2015,44133, Lanzuela,29
+2015,44135, Libros,124
+2015,44136, Lidón,52
+2015,44137, Linares de Mora,287
+2015,44141, Lledó,169
+2015,44138, Loscos,151
+2015,44142, Maicas,36
+2015,44143, Manzanera,510
+2015,44144, Martín del Río,441
+2015,44145, Mas de las Matas,1318
+2015,44146, Mata de los Olmos La,261
+2015,44147, Mazaleón,534
+2015,44148, Mezquita de Jarque,115
+2015,44149, Mirambel,119
+2015,44150, Miravete de la Sierra,29
+2015,44151, Molinos,258
+2015,44152, Monforte de Moyuela,66
+2015,44153, Monreal del Campo,2611
+2015,44154, Monroyo,360
+2015,44155, Montalbán,1327
+2015,44156, Monteagudo del Castillo,52
+2015,44157, Monterde de Albarracín,69
+2015,44158, Mora de Rubielos,1585
+2015,44159, Moscardón,58
+2015,44160, Mosqueruela,593
+2015,44161, Muniesa,635
+2015,44163, Noguera de Albarracín,151
+2015,44164, Nogueras,29
+2015,44165, Nogueruelas,207
+2015,44167, Obón,48
+2015,44168, Odón,226
+2015,44169, Ojos Negros,413
+2015,44171, Olba,240
+2015,44172, Oliete,412
+2015,44173, Olmos Los,127
+2015,44174, Orihuela del Tremedal,535
+2015,44175, Orrios,137
+2015,44176, Palomar de Arroyos,182
+2015,44177, Pancrudo,112
+2015,44178, Parras de Castellote Las,59
+2015,44179, Peñarroya de Tastavins,477
+2015,44180, Peracense,72
+2015,44181, Peralejos,86
+2015,44182, Perales del Alfambra,238
+2015,44183, Pitarque,90
+2015,44184, Plou,52
+2015,44185, Pobo El,142
+2015,44187, Portellada La,240
+2015,44189, Pozondón,62
+2015,44190, Pozuel del Campo,74
+2015,44191, Puebla de Híjar,947
+2015,44192, Puebla de Valverde La,500
+2015,44193, Puertomingalvo,119
+2015,44194, Ráfales,133
+2015,44195, Rillo,97
+2015,44196, Riodeva,163
+2015,44197, Ródenas,66
+2015,44198, Royuela,221
+2015,44199, Rubiales,53
+2015,44200, Rubielos de la Cérida,41
+2015,44201, Rubielos de Mora,661
+2015,44203, Salcedillo,13
+2015,44204, Saldón,27
+2015,44205, Samper de Calanda,854
+2015,44206, San Agustín,141
+2015,44207, San Martín del Río,174
+2015,44208, Santa Cruz de Nogueras,39
+2015,44209, Santa Eulalia,1081
+2015,44210, Sarrión,1167
+2015,44211, Segura de los Baños,40
+2015,44212, Seno,43
+2015,44213, Singra,80
+2015,44215, Terriente,178
+2015,44216, Teruel,35590
+2015,44217, Toril y Masegoso,30
+2015,44218, Tormón,34
+2015,44219, Tornos,235
+2015,44220, Torralba de los Sisones,157
+2015,44223, Torre de Arcas,81
+2015,44224, Torre de las Arcas,29
+2015,44225, Torre del Compte,137
+2015,44227, Torre los Negros,90
+2015,44221, Torrecilla de Alcañiz,407
+2015,44222, Torrecilla del Rebollar,144
+2015,44226, Torrelacárcel,184
+2015,44228, Torremocha de Jiloca,110
+2015,44229, Torres de Albarracín,181
+2015,44230, Torrevelilla,200
+2015,44231, Torrijas,45
+2015,44232, Torrijo del Campo,489
+2015,44234, Tramacastiel,75
+2015,44235, Tramacastilla,107
+2015,44236, Tronchón,68
+2015,44237, Urrea de Gaén,488
+2015,44238, Utrillas,3110
+2015,44239, Valacloche,27
+2015,44240, Valbona,193
+2015,44241, Valdealgorfa,664
+2015,44243, Valdecuenca,40
+2015,44244, Valdelinares,85
+2015,44245, Valdeltormo,312
+2015,44246, Valderrobres,2342
+2015,44247, Valjunquera,358
+2015,44249, Vallecillo El,60
+2015,44250, Veguillas de la Sierra,22
+2015,44251, Villafranca del Campo,299
+2015,44252, Villahermosa del Campo,103
+2015,44256, Villanueva del Rebollar de la Sierra,51
+2015,44257, Villar del Cobo,189
+2015,44258, Villar del Salz,74
+2015,44260, Villarluengo,189
+2015,44261, Villarquemado,869
+2015,44262, Villarroya de los Pinares,163
+2015,44263, Villastar,526
+2015,44264, Villel,342
+2015,44265, Vinaceite,262
+2015,44266, Visiedo,133
+2015,44267, Vivel del Río Martín,83
+2015,44268, Zoma La,18
+2016,44001, Ababuj,76
+2016,44002, Abejuela,56
+2016,44003, Aguatón,19
+2016,44004, Aguaviva,550
+2016,44005, Aguilar del Alfambra,64
+2016,44006, Alacón,279
+2016,44007, Alba,196
+2016,44008, Albalate del Arzobispo,2003
+2016,44009, Albarracín,1054
+2016,44010, Albentosa,267
+2016,44011, Alcaine,70
+2016,44012, Alcalá de la Selva,398
+2016,44013, Alcañiz,16043
+2016,44014, Alcorisa,3326
+2016,44016, Alfambra,568
+2016,44017, Aliaga,348
+2016,44021, Allepuz,128
+2016,44022, Alloza,602
+2016,44023, Allueva,29
+2016,44018, Almohaja,19
+2016,44019, Alobras,63
+2016,44020, Alpeñés,23
+2016,44024, Anadón,27
+2016,44025, Andorra,7875
+2016,44026, Arcos de las Salinas,106
+2016,44027, Arens de Lledó,212
+2016,44028, Argente,207
+2016,44029, Ariño,738
+2016,44031, Azaila,106
+2016,44032, Bádenas,19
+2016,44033, Báguena,316
+2016,44034, Bañón,158
+2016,44035, Barrachina,129
+2016,44036, Bea,35
+2016,44037, Beceite,561
+2016,44039, Bello,245
+2016,44038, Belmonte de San José,119
+2016,44040, Berge,248
+2016,44041, Bezas,65
+2016,44042, Blancas,147
+2016,44043, Blesa,101
+2016,44044, Bordón,114
+2016,44045, Bronchales,417
+2016,44046, Bueña,53
+2016,44047, Burbáguena,254
+2016,44048, Cabra de Mora,68
+2016,44049, Calaceite,1039
+2016,44050, Calamocha,4368
+2016,44051, Calanda,3846
+2016,44052, Calomarde,80
+2016,44053, Camañas,130
+2016,44054, Camarena de la Sierra,127
+2016,44055, Camarillas,94
+2016,44056, Caminreal,637
+2016,44059, Cantavieja,712
+2016,44060, Cañada de Benatanduz,41
+2016,44061, Cañada de Verich,94
+2016,44062, Cañada Vellida,35
+2016,44063, Cañizar del Olivar,94
+2016,44064, Cascante del Río,74
+2016,44065, Castejón de Tornos,62
+2016,44066, Castel de Cabra,120
+2016,44070, Castellar El,56
+2016,44071, Castellote,706
+2016,44067, Castelnou,137
+2016,44068, Castelserás,827
+2016,44074, Cedrillas,619
+2016,44075, Celadas,403
+2016,44076, Cella,2673
+2016,44077, Cerollera La,96
+2016,44080, Codoñera La,368
+2016,44082, Corbalán,109
+2016,44084, Cortes de Aragón,63
+2016,44085, Cosa,55
+2016,44086, Cretas,554
+2016,44087, Crivillén,71
+2016,44088, Cuba La,38
+2016,44089, Cubla,52
+2016,44090, Cucalón,96
+2016,44092, Cuervo El,89
+2016,44093, Cuevas de Almudén,141
+2016,44094, Cuevas Labradas,127
+2016,44096, Ejulve,189
+2016,44097, Escorihuela,152
+2016,44099, Escucha,954
+2016,44100, Estercuel,237
+2016,44101, Ferreruela de Huerva,67
+2016,44102, Fonfría,31
+2016,44103, Formiche Alto,164
+2016,44105, Fórnoles,86
+2016,44106, Fortanete,204
+2016,44107, Foz-Calanda,264
+2016,44108, Fresneda La,470
+2016,44109, Frías de Albarracín,130
+2016,44110, Fuenferrada,56
+2016,44111, Fuentes Calientes,105
+2016,44112, Fuentes Claras,494
+2016,44113, Fuentes de Rubielos,114
+2016,44114, Fuentespalda,291
+2016,44115, Galve,159
+2016,44116, Gargallo,102
+2016,44117, Gea de Albarracín,374
+2016,44118, Ginebrosa La,199
+2016,44119, Griegos,160
+2016,44120, Guadalaviar,245
+2016,44121, Gúdar,73
+2016,44122, Híjar,1724
+2016,44123, Hinojosa de Jarque,131
+2016,44124, Hoz de la Vieja La,79
+2016,44125, Huesa del Común,69
+2016,44126, Iglesuela del Cid La,424
+2016,44127, Jabaloyas,77
+2016,44128, Jarque de la Val,74
+2016,44129, Jatiel,42
+2016,44130, Jorcas,38
+2016,44131, Josa,34
+2016,44132, Lagueruela,79
+2016,44133, Lanzuela,27
+2016,44135, Libros,113
+2016,44136, Lidón,55
+2016,44137, Linares de Mora,267
+2016,44141, Lledó,163
+2016,44138, Loscos,138
+2016,44142, Maicas,35
+2016,44143, Manzanera,502
+2016,44144, Martín del Río,429
+2016,44145, Mas de las Matas,1302
+2016,44146, Mata de los Olmos La,263
+2016,44147, Mazaleón,540
+2016,44148, Mezquita de Jarque,109
+2016,44149, Mirambel,122
+2016,44150, Miravete de la Sierra,28
+2016,44151, Molinos,251
+2016,44152, Monforte de Moyuela,66
+2016,44153, Monreal del Campo,2526
+2016,44154, Monroyo,338
+2016,44155, Montalbán,1281
+2016,44156, Monteagudo del Castillo,52
+2016,44157, Monterde de Albarracín,66
+2016,44158, Mora de Rubielos,1574
+2016,44159, Moscardón,56
+2016,44160, Mosqueruela,581
+2016,44161, Muniesa,629
+2016,44163, Noguera de Albarracín,146
+2016,44164, Nogueras,29
+2016,44165, Nogueruelas,214
+2016,44167, Obón,44
+2016,44168, Odón,225
+2016,44169, Ojos Negros,405
+2016,44171, Olba,230
+2016,44172, Oliete,365
+2016,44173, Olmos Los,127
+2016,44174, Orihuela del Tremedal,504
+2016,44175, Orrios,133
+2016,44176, Palomar de Arroyos,174
+2016,44177, Pancrudo,116
+2016,44178, Parras de Castellote Las,57
+2016,44179, Peñarroya de Tastavins,465
+2016,44180, Peracense,75
+2016,44181, Peralejos,86
+2016,44182, Perales del Alfambra,227
+2016,44183, Pitarque,91
+2016,44184, Plou,49
+2016,44185, Pobo El,132
+2016,44187, Portellada La,240
+2016,44189, Pozondón,60
+2016,44190, Pozuel del Campo,72
+2016,44191, Puebla de Híjar,930
+2016,44192, Puebla de Valverde La,460
+2016,44193, Puertomingalvo,112
+2016,44194, Ráfales,138
+2016,44195, Rillo,92
+2016,44196, Riodeva,151
+2016,44197, Ródenas,64
+2016,44198, Royuela,215
+2016,44199, Rubiales,50
+2016,44200, Rubielos de la Cérida,39
+2016,44201, Rubielos de Mora,658
+2016,44203, Salcedillo,17
+2016,44204, Saldón,26
+2016,44205, Samper de Calanda,845
+2016,44206, San Agustín,132
+2016,44207, San Martín del Río,163
+2016,44208, Santa Cruz de Nogueras,40
+2016,44209, Santa Eulalia,1059
+2016,44210, Sarrión,1125
+2016,44211, Segura de los Baños,44
+2016,44212, Seno,41
+2016,44213, Singra,80
+2016,44215, Terriente,173
+2016,44216, Teruel,35564
+2016,44217, Toril y Masegoso,30
+2016,44218, Tormón,34
+2016,44219, Tornos,228
+2016,44220, Torralba de los Sisones,163
+2016,44223, Torre de Arcas,81
+2016,44224, Torre de las Arcas,29
+2016,44225, Torre del Compte,129
+2016,44227, Torre los Negros,87
+2016,44221, Torrecilla de Alcañiz,424
+2016,44222, Torrecilla del Rebollar,137
+2016,44226, Torrelacárcel,176
+2016,44228, Torremocha de Jiloca,110
+2016,44229, Torres de Albarracín,179
+2016,44230, Torrevelilla,203
+2016,44231, Torrijas,45
+2016,44232, Torrijo del Campo,462
+2016,44234, Tramacastiel,66
+2016,44235, Tramacastilla,108
+2016,44236, Tronchón,67
+2016,44237, Urrea de Gaén,475
+2016,44238, Utrillas,3056
+2016,44239, Valacloche,23
+2016,44240, Valbona,186
+2016,44241, Valdealgorfa,645
+2016,44243, Valdecuenca,34
+2016,44244, Valdelinares,90
+2016,44245, Valdeltormo,296
+2016,44246, Valderrobres,2311
+2016,44247, Valjunquera,363
+2016,44249, Vallecillo El,59
+2016,44250, Veguillas de la Sierra,19
+2016,44251, Villafranca del Campo,300
+2016,44252, Villahermosa del Campo,99
+2016,44256, Villanueva del Rebollar de la Sierra,49
+2016,44257, Villar del Cobo,188
+2016,44258, Villar del Salz,70
+2016,44260, Villarluengo,176
+2016,44261, Villarquemado,863
+2016,44262, Villarroya de los Pinares,160
+2016,44263, Villastar,503
+2016,44264, Villel,338
+2016,44265, Vinaceite,262
+2016,44266, Visiedo,138
+2016,44267, Vivel del Río Martín,78
+2016,44268, Zoma La,16
+2017,44001, Ababuj,73
+2017,44002, Abejuela,50
+2017,44003, Aguatón,19
+2017,44004, Aguaviva,531
+2017,44005, Aguilar del Alfambra,65
+2017,44006, Alacón,274
+2017,44007, Alba,185
+2017,44008, Albalate del Arzobispo,1978
+2017,44009, Albarracín,1044
+2017,44010, Albentosa,255
+2017,44011, Alcaine,62
+2017,44012, Alcalá de la Selva,369
+2017,44013, Alcañiz,15937
+2017,44014, Alcorisa,3313
+2017,44016, Alfambra,554
+2017,44017, Aliaga,348
+2017,44021, Allepuz,129
+2017,44022, Alloza,594
+2017,44023, Allueva,31
+2017,44018, Almohaja,18
+2017,44019, Alobras,65
+2017,44020, Alpeñés,23
+2017,44024, Anadón,27
+2017,44025, Andorra,7799
+2017,44026, Arcos de las Salinas,106
+2017,44027, Arens de Lledó,199
+2017,44028, Argente,207
+2017,44029, Ariño,733
+2017,44031, Azaila,97
+2017,44032, Bádenas,18
+2017,44033, Báguena,318
+2017,44034, Bañón,149
+2017,44035, Barrachina,121
+2017,44036, Bea,30
+2017,44037, Beceite,551
+2017,44039, Bello,244
+2017,44038, Belmonte de San José,113
+2017,44040, Berge,245
+2017,44041, Bezas,62
+2017,44042, Blancas,134
+2017,44043, Blesa,97
+2017,44044, Bordón,108
+2017,44045, Bronchales,440
+2017,44046, Bueña,57
+2017,44047, Burbáguena,254
+2017,44048, Cabra de Mora,64
+2017,44049, Calaceite,1038
+2017,44050, Calamocha,4353
+2017,44051, Calanda,3729
+2017,44052, Calomarde,78
+2017,44053, Camañas,129
+2017,44054, Camarena de la Sierra,116
+2017,44055, Camarillas,89
+2017,44056, Caminreal,616
+2017,44059, Cantavieja,717
+2017,44060, Cañada de Benatanduz,42
+2017,44061, Cañada de Verich,85
+2017,44062, Cañada Vellida,35
+2017,44063, Cañizar del Olivar,93
+2017,44064, Cascante del Río,73
+2017,44065, Castejón de Tornos,62
+2017,44066, Castel de Cabra,112
+2017,44070, Castellar El,54
+2017,44071, Castellote,688
+2017,44067, Castelnou,146
+2017,44068, Castelserás,823
+2017,44074, Cedrillas,611
+2017,44075, Celadas,408
+2017,44076, Cella,2640
+2017,44077, Cerollera La,98
+2017,44080, Codoñera La,362
+2017,44082, Corbalán,109
+2017,44084, Cortes de Aragón,57
+2017,44085, Cosa,55
+2017,44086, Cretas,572
+2017,44087, Crivillén,71
+2017,44088, Cuba La,36
+2017,44089, Cubla,55
+2017,44090, Cucalón,91
+2017,44092, Cuervo El,93
+2017,44093, Cuevas de Almudén,138
+2017,44094, Cuevas Labradas,126
+2017,44096, Ejulve,187
+2017,44097, Escorihuela,147
+2017,44099, Escucha,913
+2017,44100, Estercuel,223
+2017,44101, Ferreruela de Huerva,65
+2017,44102, Fonfría,30
+2017,44103, Formiche Alto,155
+2017,44105, Fórnoles,78
+2017,44106, Fortanete,203
+2017,44107, Foz-Calanda,260
+2017,44108, Fresneda La,436
+2017,44109, Frías de Albarracín,125
+2017,44110, Fuenferrada,51
+2017,44111, Fuentes Calientes,111
+2017,44112, Fuentes Claras,482
+2017,44113, Fuentes de Rubielos,112
+2017,44114, Fuentespalda,298
+2017,44115, Galve,162
+2017,44116, Gargallo,101
+2017,44117, Gea de Albarracín,372
+2017,44118, Ginebrosa La,197
+2017,44119, Griegos,151
+2017,44120, Guadalaviar,241
+2017,44121, Gúdar,81
+2017,44122, Híjar,1697
+2017,44123, Hinojosa de Jarque,132
+2017,44124, Hoz de la Vieja La,86
+2017,44125, Huesa del Común,67
+2017,44126, Iglesuela del Cid La,414
+2017,44127, Jabaloyas,68
+2017,44128, Jarque de la Val,72
+2017,44129, Jatiel,41
+2017,44130, Jorcas,32
+2017,44131, Josa,32
+2017,44132, Lagueruela,84
+2017,44133, Lanzuela,27
+2017,44135, Libros,103
+2017,44136, Lidón,53
+2017,44137, Linares de Mora,260
+2017,44141, Lledó,166
+2017,44138, Loscos,139
+2017,44142, Maicas,31
+2017,44143, Manzanera,512
+2017,44144, Martín del Río,432
+2017,44145, Mas de las Matas,1270
+2017,44146, Mata de los Olmos La,272
+2017,44147, Mazaleón,543
+2017,44148, Mezquita de Jarque,102
+2017,44149, Mirambel,119
+2017,44150, Miravete de la Sierra,31
+2017,44151, Molinos,245
+2017,44152, Monforte de Moyuela,64
+2017,44153, Monreal del Campo,2478
+2017,44154, Monroyo,335
+2017,44155, Montalbán,1256
+2017,44156, Monteagudo del Castillo,51
+2017,44157, Monterde de Albarracín,62
+2017,44158, Mora de Rubielos,1565
+2017,44159, Moscardón,57
+2017,44160, Mosqueruela,558
+2017,44161, Muniesa,630
+2017,44163, Noguera de Albarracín,134
+2017,44164, Nogueras,28
+2017,44165, Nogueruelas,211
+2017,44167, Obón,44
+2017,44168, Odón,217
+2017,44169, Ojos Negros,393
+2017,44171, Olba,227
+2017,44172, Oliete,357
+2017,44173, Olmos Los,122
+2017,44174, Orihuela del Tremedal,493
+2017,44175, Orrios,127
+2017,44176, Palomar de Arroyos,169
+2017,44177, Pancrudo,119
+2017,44178, Parras de Castellote Las,61
+2017,44179, Peñarroya de Tastavins,461
+2017,44180, Peracense,75
+2017,44181, Peralejos,87
+2017,44182, Perales del Alfambra,221
+2017,44183, Pitarque,84
+2017,44184, Plou,45
+2017,44185, Pobo El,129
+2017,44187, Portellada La,246
+2017,44189, Pozondón,54
+2017,44190, Pozuel del Campo,70
+2017,44191, Puebla de Híjar,944
+2017,44192, Puebla de Valverde La,457
+2017,44193, Puertomingalvo,117
+2017,44194, Ráfales,146
+2017,44195, Rillo,92
+2017,44196, Riodeva,149
+2017,44197, Ródenas,62
+2017,44198, Royuela,209
+2017,44199, Rubiales,52
+2017,44200, Rubielos de la Cérida,38
+2017,44201, Rubielos de Mora,626
+2017,44203, Salcedillo,17
+2017,44204, Saldón,26
+2017,44205, Samper de Calanda,821
+2017,44206, San Agustín,131
+2017,44207, San Martín del Río,155
+2017,44208, Santa Cruz de Nogueras,38
+2017,44209, Santa Eulalia,1033
+2017,44210, Sarrión,1125
+2017,44211, Segura de los Baños,43
+2017,44212, Seno,40
+2017,44213, Singra,79
+2017,44215, Terriente,178
+2017,44216, Teruel,35484
+2017,44217, Toril y Masegoso,29
+2017,44218, Tormón,34
+2017,44219, Tornos,222
+2017,44220, Torralba de los Sisones,162
+2017,44223, Torre de Arcas,83
+2017,44224, Torre de las Arcas,28
+2017,44225, Torre del Compte,130
+2017,44227, Torre los Negros,86
+2017,44221, Torrecilla de Alcañiz,426
+2017,44222, Torrecilla del Rebollar,136
+2017,44226, Torrelacárcel,169
+2017,44228, Torremocha de Jiloca,107
+2017,44229, Torres de Albarracín,178
+2017,44230, Torrevelilla,192
+2017,44231, Torrijas,39
+2017,44232, Torrijo del Campo,447
+2017,44234, Tramacastiel,67
+2017,44235, Tramacastilla,107
+2017,44236, Tronchón,69
+2017,44237, Urrea de Gaén,461
+2017,44238, Utrillas,3014
+2017,44239, Valacloche,23
+2017,44240, Valbona,181
+2017,44241, Valdealgorfa,632
+2017,44243, Valdecuenca,37
+2017,44244, Valdelinares,89
+2017,44245, Valdeltormo,298
+2017,44246, Valderrobres,2338
+2017,44247, Valjunquera,341
+2017,44249, Vallecillo El,49
+2017,44250, Veguillas de la Sierra,19
+2017,44251, Villafranca del Campo,289
+2017,44252, Villahermosa del Campo,94
+2017,44256, Villanueva del Rebollar de la Sierra,43
+2017,44257, Villar del Cobo,175
+2017,44258, Villar del Salz,59
+2017,44260, Villarluengo,169
+2017,44261, Villarquemado,875
+2017,44262, Villarroya de los Pinares,155
+2017,44263, Villastar,501
+2017,44264, Villel,330
+2017,44265, Vinaceite,262
+2017,44266, Visiedo,135
+2017,44267, Vivel del Río Martín,71
+2017,44268, Zoma La,18
+2018,44001, Ababuj,76
+2018,44002, Abejuela,49
+2018,44003, Aguatón,18
+2018,44004, Aguaviva,522
+2018,44005, Aguilar del Alfambra,63
+2018,44006, Alacón,264
+2018,44007, Alba,178
+2018,44008, Albalate del Arzobispo,2004
+2018,44009, Albarracín,1016
+2018,44010, Albentosa,257
+2018,44011, Alcaine,63
+2018,44012, Alcalá de la Selva,347
+2018,44013, Alcañiz,15939
+2018,44014, Alcorisa,3276
+2018,44016, Alfambra,531
+2018,44017, Aliaga,358
+2018,44021, Allepuz,126
+2018,44022, Alloza,582
+2018,44023, Allueva,29
+2018,44018, Almohaja,16
+2018,44019, Alobras,62
+2018,44020, Alpeñés,22
+2018,44024, Anadón,27
+2018,44025, Andorra,7633
+2018,44026, Arcos de las Salinas,105
+2018,44027, Arens de Lledó,206
+2018,44028, Argente,198
+2018,44029, Ariño,708
+2018,44031, Azaila,94
+2018,44032, Bádenas,20
+2018,44033, Báguena,311
+2018,44034, Bañón,153
+2018,44035, Barrachina,118
+2018,44036, Bea,31
+2018,44037, Beceite,541
+2018,44039, Bello,225
+2018,44038, Belmonte de San José,113
+2018,44040, Berge,244
+2018,44041, Bezas,70
+2018,44042, Blancas,125
+2018,44043, Blesa,95
+2018,44044, Bordón,106
+2018,44045, Bronchales,443
+2018,44046, Bueña,63
+2018,44047, Burbáguena,243
+2018,44048, Cabra de Mora,55
+2018,44049, Calaceite,1011
+2018,44050, Calamocha,4319
+2018,44051, Calanda,3708
+2018,44052, Calomarde,74
+2018,44053, Camañas,124
+2018,44054, Camarena de la Sierra,113
+2018,44055, Camarillas,86
+2018,44056, Caminreal,619
+2018,44059, Cantavieja,714
+2018,44060, Cañada de Benatanduz,39
+2018,44061, Cañada de Verich,87
+2018,44062, Cañada Vellida,35
+2018,44063, Cañizar del Olivar,98
+2018,44064, Cascante del Río,71
+2018,44065, Castejón de Tornos,62
+2018,44066, Castel de Cabra,104
+2018,44070, Castellar El,52
+2018,44071, Castellote,676
+2018,44067, Castelnou,160
+2018,44068, Castelserás,831
+2018,44074, Cedrillas,630
+2018,44075, Celadas,396
+2018,44076, Cella,2606
+2018,44077, Cerollera La,100
+2018,44080, Codoñera La,344
+2018,44082, Corbalán,109
+2018,44084, Cortes de Aragón,61
+2018,44085, Cosa,52
+2018,44086, Cretas,571
+2018,44087, Crivillén,68
+2018,44088, Cuba La,41
+2018,44089, Cubla,54
+2018,44090, Cucalón,80
+2018,44092, Cuervo El,86
+2018,44093, Cuevas de Almudén,122
+2018,44094, Cuevas Labradas,131
+2018,44096, Ejulve,180
+2018,44097, Escorihuela,139
+2018,44099, Escucha,885
+2018,44100, Estercuel,210
+2018,44101, Ferreruela de Huerva,63
+2018,44102, Fonfría,28
+2018,44103, Formiche Alto,151
+2018,44105, Fórnoles,75
+2018,44106, Fortanete,205
+2018,44107, Foz-Calanda,238
+2018,44108, Fresneda La,443
+2018,44109, Frías de Albarracín,116
+2018,44110, Fuenferrada,42
+2018,44111, Fuentes Calientes,101
+2018,44112, Fuentes Claras,461
+2018,44113, Fuentes de Rubielos,114
+2018,44114, Fuentespalda,286
+2018,44115, Galve,161
+2018,44116, Gargallo,89
+2018,44117, Gea de Albarracín,376
+2018,44118, Ginebrosa La,200
+2018,44119, Griegos,143
+2018,44120, Guadalaviar,242
+2018,44121, Gúdar,72
+2018,44122, Híjar,1709
+2018,44123, Hinojosa de Jarque,119
+2018,44124, Hoz de la Vieja La,85
+2018,44125, Huesa del Común,67
+2018,44126, Iglesuela del Cid La,414
+2018,44127, Jabaloyas,65
+2018,44128, Jarque de la Val,70
+2018,44129, Jatiel,40
+2018,44130, Jorcas,34
+2018,44131, Josa,34
+2018,44132, Lagueruela,78
+2018,44133, Lanzuela,24
+2018,44135, Libros,101
+2018,44136, Lidón,55
+2018,44137, Linares de Mora,249
+2018,44141, Lledó,172
+2018,44138, Loscos,129
+2018,44142, Maicas,27
+2018,44143, Manzanera,519
+2018,44144, Martín del Río,417
+2018,44145, Mas de las Matas,1272
+2018,44146, Mata de los Olmos La,265
+2018,44147, Mazaleón,539
+2018,44148, Mezquita de Jarque,98
+2018,44149, Mirambel,116
+2018,44150, Miravete de la Sierra,35
+2018,44151, Molinos,243
+2018,44152, Monforte de Moyuela,65
+2018,44153, Monreal del Campo,2433
+2018,44154, Monroyo,340
+2018,44155, Montalbán,1243
+2018,44156, Monteagudo del Castillo,50
+2018,44157, Monterde de Albarracín,63
+2018,44158, Mora de Rubielos,1541
+2018,44159, Moscardón,55
+2018,44160, Mosqueruela,551
+2018,44161, Muniesa,599
+2018,44163, Noguera de Albarracín,133
+2018,44164, Nogueras,25
+2018,44165, Nogueruelas,217
+2018,44167, Obón,45
+2018,44168, Odón,205
+2018,44169, Ojos Negros,377
+2018,44171, Olba,226
+2018,44172, Oliete,364
+2018,44173, Olmos Los,122
+2018,44174, Orihuela del Tremedal,487
+2018,44175, Orrios,126
+2018,44176, Palomar de Arroyos,169
+2018,44177, Pancrudo,110
+2018,44178, Parras de Castellote Las,53
+2018,44179, Peñarroya de Tastavins,439
+2018,44180, Peracense,76
+2018,44181, Peralejos,88
+2018,44182, Perales del Alfambra,221
+2018,44183, Pitarque,79
+2018,44184, Plou,43
+2018,44185, Pobo El,114
+2018,44187, Portellada La,243
+2018,44189, Pozondón,48
+2018,44190, Pozuel del Campo,68
+2018,44191, Puebla de Híjar,908
+2018,44192, Puebla de Valverde La,453
+2018,44193, Puertomingalvo,112
+2018,44194, Ráfales,143
+2018,44195, Rillo,93
+2018,44196, Riodeva,144
+2018,44197, Ródenas,61
+2018,44198, Royuela,206
+2018,44199, Rubiales,50
+2018,44200, Rubielos de la Cérida,38
+2018,44201, Rubielos de Mora,627
+2018,44203, Salcedillo,17
+2018,44204, Saldón,26
+2018,44205, Samper de Calanda,783
+2018,44206, San Agustín,125
+2018,44207, San Martín del Río,148
+2018,44208, Santa Cruz de Nogueras,37
+2018,44209, Santa Eulalia,1037
+2018,44210, Sarrión,1133
+2018,44211, Segura de los Baños,39
+2018,44212, Seno,39
+2018,44213, Singra,80
+2018,44215, Terriente,183
+2018,44216, Teruel,35691
+2018,44217, Toril y Masegoso,30
+2018,44218, Tormón,31
+2018,44219, Tornos,213
+2018,44220, Torralba de los Sisones,156
+2018,44223, Torre de Arcas,89
+2018,44224, Torre de las Arcas,28
+2018,44225, Torre del Compte,132
+2018,44227, Torre los Negros,88
+2018,44221, Torrecilla de Alcañiz,423
+2018,44222, Torrecilla del Rebollar,127
+2018,44226, Torrelacárcel,154
+2018,44228, Torremocha de Jiloca,107
+2018,44229, Torres de Albarracín,183
+2018,44230, Torrevelilla,189
+2018,44231, Torrijas,38
+2018,44232, Torrijo del Campo,447
+2018,44234, Tramacastiel,64
+2018,44235, Tramacastilla,106
+2018,44236, Tronchón,65
+2018,44237, Urrea de Gaén,436
+2018,44238, Utrillas,2970
+2018,44239, Valacloche,21
+2018,44240, Valbona,174
+2018,44241, Valdealgorfa,622
+2018,44243, Valdecuenca,35
+2018,44244, Valdelinares,87
+2018,44245, Valdeltormo,279
+2018,44246, Valderrobres,2388
+2018,44247, Valjunquera,325
+2018,44249, Vallecillo El,48
+2018,44250, Veguillas de la Sierra,20
+2018,44251, Villafranca del Campo,297
+2018,44252, Villahermosa del Campo,94
+2018,44256, Villanueva del Rebollar de la Sierra,47
+2018,44257, Villar del Cobo,164
+2018,44258, Villar del Salz,60
+2018,44260, Villarluengo,177
+2018,44261, Villarquemado,862
+2018,44262, Villarroya de los Pinares,160
+2018,44263, Villastar,494
+2018,44264, Villel,327
+2018,44265, Vinaceite,249
+2018,44266, Visiedo,125
+2018,44267, Vivel del Río Martín,79
+2018,44268, Zoma La,16
