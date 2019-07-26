@@ -685,7 +685,7 @@ var selection_datum = function(value) {
 
 var filterEvents = {};
 
-var event = null;
+exports.event = null;
 
 if (typeof document !== "undefined") {
   var element = document.documentElement;
@@ -706,12 +706,12 @@ function filterContextListener(listener, index, group) {
 
 function contextListener(listener, index, group) {
   return function(event1) {
-    var event0 = event; // Events can be reentrant (e.g., focus).
-    event = event1;
+    var event0 = exports.event; // Events can be reentrant (e.g., focus).
+    exports.event = event1;
     try {
       listener.call(this, this.__data__, index, group);
     } finally {
-      event = event0;
+      exports.event = event0;
     }
   };
 }
@@ -781,13 +781,13 @@ var selection_on = function(typename, value, capture) {
 };
 
 function customEvent(event1, listener, that, args) {
-  var event0 = event;
-  event1.sourceEvent = event;
-  event = event1;
+  var event0 = exports.event;
+  event1.sourceEvent = exports.event;
+  exports.event = event1;
   try {
     return listener.apply(that, args);
   } finally {
-    event = event0;
+    exports.event = event0;
   }
 }
 
@@ -879,7 +879,7 @@ var select = function(selector) {
 var nextId = 0;
 
 var sourceEvent = function() {
-  var current = event, source;
+  var current = exports.event, source;
   while (source = current.sourceEvent) current = source;
   return current;
 };
@@ -8002,12 +8002,12 @@ selection.prototype.transition = selection_transition;
 var root$1 = [null];
 
 function nopropagation() {
-  event.stopImmediatePropagation();
+  exports.event.stopImmediatePropagation();
 }
 
 var noevent = function() {
-  event.preventDefault();
-  event.stopImmediatePropagation();
+  exports.event.preventDefault();
+  exports.event.stopImmediatePropagation();
 };
 
 var nodrag = function(view) {
@@ -8062,7 +8062,7 @@ DragEvent.prototype.on = function() {
 
 // Ignore right-click, since that should open the context menu.
 function defaultFilter() {
-  return !event.button;
+  return !exports.event.button;
 }
 
 function defaultContainer() {
@@ -8070,7 +8070,7 @@ function defaultContainer() {
 }
 
 function defaultSubject(d) {
-  return d == null ? {x: event.x, y: event.y} : d;
+  return d == null ? {x: exports.event.x, y: exports.event.y} : d;
 }
 
 function defaultTouchable() {

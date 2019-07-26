@@ -1,5 +1,5 @@
 export {
-    select, selectAll, mouse
+    select, selectAll, mouse, event
 } from "d3-selection";
 
 export {
