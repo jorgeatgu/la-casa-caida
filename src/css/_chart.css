@@ -109,6 +109,10 @@
     display: inline-block;
 }
 
+.tooltip-population {
+    z-index: 2;
+}
+
 .scatter {
     .tooltip-citi,
     .tootlip-population,
@@ -134,7 +138,7 @@
 }
 
 .circles-population {
-    fill: #1e2449;
+    fill: #b60b46;
 }
 
 .line-negative {
@@ -184,7 +188,7 @@
     }
     .axis-x {
         text {
-            font-size: 6px;
+            font-size: 14px;
         }
     }
 }
@@ -341,14 +345,6 @@ select {
     .filter-element {
         width: initial;
         margin-right: .5rem;
-    }
-
-    .bar-negative-chart {
-        .axis-x {
-            text {
-                font-size: 14px;
-            }
-        }
     }
 
     .tooltip {

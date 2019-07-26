@@ -70,7 +70,7 @@ setTimeout(function animation() {
             translateY: [0, '1.5rem'],
             translateZ: 0,
             duration: 750,
-            delay: anime.stagger(500),
+            delay: anime.stagger(500)
         })
         .add({
             targets: '.letter',
@@ -78,7 +78,7 @@ setTimeout(function animation() {
             translateZ: 0,
             rotate: 45,
             duration: 750,
-            delay: anime.stagger(1000),
+            delay: anime.stagger(1000)
         });
 }, 1000);
 
@@ -99,14 +99,14 @@ const scatterDesert = () => {
             .scaleLinear()
             .domain([
                 d3.min(dataz, (d) => d.densidad),
-                d3.max(dataz, (d) => d.densidad),
+                d3.max(dataz, (d) => d.densidad)
             ]);
 
         const countY = d3
             .scaleLinear()
             .domain([
                 d3.min(dataz, (d) => d.densidad),
-                d3.max(dataz, (d) => d.densidad),
+                d3.max(dataz, (d) => d.densidad)
             ]);
 
         scales.count = { x: countX, y: countY };
@@ -466,6 +466,11 @@ const line = (csvFile, cities) => {
     const scales = {};
     let dataz;
     const habitantes = 'hab';
+    const containerTooltip = d3.select(`.line-province-${cities}`);
+    const tooltipPopulation = containerTooltip
+        .append('div')
+        .attr('class', 'tooltip tooltip-population')
+        .style('opacity', 0);
 
     var locale = d3.formatDefaultLocale({
         decimal: ',',
@@ -478,14 +483,14 @@ const line = (csvFile, cities) => {
             .scaleTime()
             .domain([
                 d3.min(dataz, (d) => d.year),
-                d3.max(dataz, (d) => d.year),
+                d3.max(dataz, (d) => d.year)
             ]);
 
         const countY = d3
             .scaleLinear()
             .domain([
                 d3.min(dataz, (d) => d.total / 1.25),
-                d3.max(dataz, (d) => d.total * 1.25),
+                d3.max(dataz, (d) => d.total * 1.25)
             ]);
 
         scales.count = { x: countX, y: countY };
@@ -502,7 +507,7 @@ const line = (csvFile, cities) => {
     };
 
     const updateScales = (width, height) => {
-        scales.count.x.range([0, width]);
+        scales.count.x.range([60, width]);
         scales.count.y.range([height, 0]);
     };
 
@@ -524,7 +529,7 @@ const line = (csvFile, cities) => {
 
         g.select('.axis-y').call(axisY);
         g.selectAll('.axis-y .tick text')
-            .attr('x', 52)
+            .attr('x', 48)
             .attr('dy', -5);
     };
 
@@ -571,6 +576,30 @@ const line = (csvFile, cities) => {
         layer.merge(newLayer).attr('d', line);
 
         dots.merge(dotsLayer)
+            .on('mouseover', (d) => {
+                const positionX = scales.count.x(d.year);
+                const postionWidthTooltip = positionX + 270;
+                const tooltipWidth = 210;
+                const positionleft = `${d3.event.pageX}px`;
+                const positionright = `${d3.event.pageX - tooltipWidth}px`;
+                tooltipPopulation.transition();
+                tooltipPopulation
+                    .style('opacity', 1)
+                    .html(
+                        `<p class="tooltip-deceased">La población en <span class="tooltip-number">${d.year}</span> era de <span class="tooltip-number">${d.total}</span> habitantes<p/>`
+                    )
+                    .style(
+                        'left',
+                        postionWidthTooltip > w ? positionright : positionleft
+                    )
+                    .style('top', `${d3.event.pageY - 48}px`);
+            })
+            .on('mouseout', () => {
+                tooltipPopulation
+                    .transition()
+                    .duration(200)
+                    .style('opacity', 0);
+            })
             .attr('cx', (d) => scales.count.x(d.year))
             .attr('cy', (d) => scales.count.y(d.total))
             .attr('r', 4);
@@ -760,17 +789,17 @@ const barscatter = (csvFile, cities) => {
 
             new SlimSelect({
                 select: `#percentage-over-city-${cities}`,
-                searchPlaceholder: 'Filtra tu municipio',
+                searchPlaceholder: 'Filtra tu municipio'
             });
 
             new SlimSelect({
                 select: `#percentage-under-city-${cities}`,
-                searchPlaceholder: 'Filtra tu municipio',
+                searchPlaceholder: 'Filtra tu municipio'
             });
 
             new SlimSelect({
                 select: `#select-city-${cities}`,
-                searchPlaceholder: 'Busca tu municipio',
+                searchPlaceholder: 'Busca tu municipio'
             });
 
             d3.csv(csvFile, (error, data) => {
@@ -824,12 +853,12 @@ const barscatter = (csvFile, cities) => {
 
                     new SlimSelect({
                         select: `#percentage-over-city-${cities}`,
-                        searchPlaceholder: 'Filtra tu municipio',
+                        searchPlaceholder: 'Filtra tu municipio'
                     });
 
                     new SlimSelect({
                         select: `#percentage-under-city-${cities}`,
-                        searchPlaceholder: 'Filtra tu municipio',
+                        searchPlaceholder: 'Filtra tu municipio'
                     });
 
                     update(filterCity);
@@ -849,12 +878,12 @@ const barscatter = (csvFile, cities) => {
 
             new SlimSelect({
                 select: `#percentage-under-city-${cities}`,
-                searchPlaceholder: 'Filtra tu municipio',
+                searchPlaceholder: 'Filtra tu municipio'
             });
 
             new SlimSelect({
                 select: `#select-city-${cities}`,
-                searchPlaceholder: 'Busca tu municipio',
+                searchPlaceholder: 'Busca tu municipio'
             });
 
             d3.csv(csvFile, (error, data) => {
@@ -910,12 +939,12 @@ const barscatter = (csvFile, cities) => {
 
             new SlimSelect({
                 select: `#percentage-over-city-${cities}`,
-                searchPlaceholder: 'Filtra tu municipio',
+                searchPlaceholder: 'Filtra tu municipio'
             });
 
             new SlimSelect({
                 select: `#select-city-${cities}`,
-                searchPlaceholder: 'Busca tu municipio',
+                searchPlaceholder: 'Busca tu municipio'
             });
 
             d3.csv(csvFile, (error, data) => {
@@ -1035,11 +1064,30 @@ const barNegative = (csvFile, cities) => {
         .style('opacity', 0);
 
     const setupScales = () => {
+
+        const saldoMin = d3.min(dataz, (d) => d.saldo);
+        const saldoMax = d3.max(dataz, (d) => d.saldo);
+
+        const saldoMaxMin = -500;
+        const saldoMaxMax = 300;
+
+        console.log(saldoMax)
+        console.log(saldoMin)
+
         const countX = d3.scaleBand().domain(dataz.map((d) => d.year));
 
         const countY = d3
             .scaleLinear()
-            .domain([500, d3.max(dataz, (d) => d.saldo) * 1.25]);
+            .domain([
+                d3.min(dataz, (d) => d.saldo * 2),
+                d3.max(dataz, (d) => {
+                    if (saldoMax < saldoMaxMax) {
+                        return d3.max(dataz, (d) => d.saldo * 6)
+                    } else {
+                        return d3.max(dataz, (d) => d.saldo * 2.5)
+                    }
+                }),
+            ]);
 
         scales.count = { x: countX, y: countY };
     };
@@ -1056,15 +1104,15 @@ const barNegative = (csvFile, cities) => {
 
     const updateScales = (width, height) => {
         scales.count.x.rangeRound([0, width]).paddingInner(0.2);
-        scales.count.y.range([0, height]);
+        scales.count.y.range([height, 0]);
     };
 
     const drawAxes = (g) => {
-        const axisX = d3
-            .axisBottom(scales.count.x)
-            .ticks(3)
-            .tickPadding(4)
-            .tickFormat(d3.format('d'));
+        const axisX = d3.axisBottom(scales.count.x).tickValues(
+            scales.count.x.domain().filter(function(d, i) {
+                return !(i % 6);
+            })
+        );
 
         g.select('.axis-x')
             .attr('transform', `translate(0,${height})`)
@@ -1135,7 +1183,7 @@ const barNegative = (csvFile, cities) => {
                     .duration(200)
                     .style('opacity', 0);
             })
-            .attr('width', (d) => scales.count.x.bandwidth())
+            .attr('width', scales.count.x.bandwidth())
             .attr('x', (d) => scales.count.x(d.year))
             .attr('y', (d) => {
                 if (d.saldo > 0) {
@@ -1179,169 +1227,6 @@ const barNegative = (csvFile, cities) => {
     loadData();
 };
 
-const barNegativeZ = () => {
-    const margin = { top: 24, right: 8, bottom: 24, left: 40 };
-    let width = 0;
-    let height = 0;
-    let w = 0;
-    let h = 0;
-    const chart = d3.select('.bar-negative-zaragoza');
-    const svg = chart.select('svg');
-    const scales = {};
-    let dataz;
-    const tooltip = chart
-        .append('div')
-        .attr('class', 'tooltip tooltip-negative')
-        .style('opacity', 0);
-
-    const setupScales = () => {
-        const countX = d3.scaleBand().domain(dataz.map((d) => d.year));
-
-        const countY = d3
-            .scaleLinear()
-            .domain([
-                d3.min(dataz, (d) => d.saldo * 1.25),
-                d3.max(dataz, (d) => d.saldo * 2.5),
-            ]);
-
-        scales.count = { x: countX, y: countY };
-    };
-
-    const setupElements = () => {
-        const g = svg.select('.bar-negative-zaragoza-container');
-
-        g.append('g').attr('class', 'axis axis-x');
-
-        g.append('g').attr('class', 'axis axis-y');
-
-        g.append('g').attr('class', 'bar-negative-zaragoza-container-bis');
-    };
-
-    const updateScales = (width, height) => {
-        scales.count.x.rangeRound([0, width]).paddingInner(0.1);
-        scales.count.y.range([height, 0]);
-    };
-
-    const drawAxes = (g) => {
-        const axisX = d3
-            .axisBottom(scales.count.x)
-            .tickPadding(4)
-            .tickFormat(d3.format('d'));
-
-        g.select('.axis-x')
-            .attr('transform', `translate(0,${height})`)
-            .call(axisX);
-
-        const axisY = d3
-            .axisLeft(scales.count.y)
-            .tickFormat(d3.format('d'))
-            .ticks(5)
-            .tickSize(-width)
-            .tickPadding(8);
-
-        g.select('.axis-y').call(axisY);
-    };
-
-    const updateChart = (dataz) => {
-        w = chart.node().offsetWidth;
-        h = 600;
-
-        width = w - margin.left - margin.right;
-        height = h - margin.top - margin.bottom;
-
-        svg.attr('width', w).attr('height', h);
-
-        const translate = `translate(${margin.left},${margin.top})`;
-
-        const g = svg.select('.bar-negative-zaragoza-container');
-
-        g.attr('transform', translate);
-
-        updateScales(width, height);
-
-        const container = chart.select('.bar-negative-zaragoza-container-bis');
-
-        const layer = container.selectAll('.bar-vertical').data(dataz);
-
-        const newLayer = layer
-            .enter()
-            .append('rect')
-            .attr('class', (d) => {
-                if (d.saldo < 0) {
-                    return 'negative';
-                } else {
-                    return 'positive';
-                }
-            });
-
-        layer
-            .merge(newLayer)
-            .on('mouseover', function(d) {
-                tooltip.transition();
-                tooltip
-                    .style('opacity', 1)
-                    .html(
-                        `
-                        <p class="tooltip-year"><span class="tooltip-number">${d.year}</span><p/>
-                        <p class="tooltip-born">Nacidos: <span class="tooltip-number">${d.nacidos}</span><p/>
-                        <p class="tooltip-deceased">Fallecidos: <span class="tooltip-number">${d.fallecidos}</span><p/>
-                        <p class="tooltip-deceased">Saldo: <span class="tooltip-number">${d.saldo}</span><p/>
-                        `
-                    )
-                    .style('left', w / 2 - 100 + 'px')
-                    .style('top', 50 + 'px');
-            })
-            .on('mouseout', function(d) {
-                tooltip
-                    .transition()
-                    .duration(200)
-                    .style('opacity', 0);
-            })
-            .attr('width', scales.count.x.bandwidth())
-            .attr('x', (d) => scales.count.x(d.year))
-            .attr('y', (d) => {
-                if (d.saldo > 0) {
-                    return scales.count.y(d.saldo);
-                } else {
-                    return scales.count.y(0);
-                }
-            })
-            .attr('height', (d) =>
-                Math.abs(scales.count.y(d.saldo) - scales.count.y(0))
-            );
-
-        drawAxes(g);
-    };
-
-    const resize = () => {
-        updateChart(dataz);
-    };
-
-    const loadData = () => {
-        d3.csv(
-            'data/zaragoza/saldo-vegetativo-total-zaragoza.csv',
-            (error, data) => {
-                if (error) {
-                    console.log(error);
-                } else {
-                    dataz = data;
-                    dataz.forEach((d) => {
-                        d.year = d.year;
-                        d.saldo = d.saldo;
-                    });
-                    setupElements();
-                    setupScales();
-                    updateChart(dataz);
-                }
-            }
-        );
-    };
-
-    window.addEventListener('resize', resize);
-
-    loadData();
-};
-
 const linePopulation = (csvFile, cities) => {
     if (widthMobile > 544) {
         margin = { top: 16, right: 8, bottom: 24, left: 62 };
@@ -1357,13 +1242,18 @@ const linePopulation = (csvFile, cities) => {
     let datos;
     let tooltipUnder;
     let tooltipOver;
+    const containerTooltip = d3.select(`.${cities}-line`);
+    const tooltipPopulation = containerTooltip
+        .append('div')
+        .attr('class', 'tooltip tooltip-population')
+        .style('opacity', 0);
 
     const setupScales = () => {
         const countX = d3
             .scaleTime()
             .domain([
                 d3.min(datos, (d) => d.year),
-                d3.max(datos, (d) => d.year),
+                d3.max(datos, (d) => d.year)
             ]);
 
         const countY = d3
@@ -1513,6 +1403,30 @@ const linePopulation = (csvFile, cities) => {
             .attr('fill', '#531f4e');
 
         dots.merge(dotsLayer)
+            .on('mouseover', (d) => {
+                const positionX = scales.count.x(d.year);
+                const postionWidthTooltip = positionX + 270;
+                const tooltipWidth = 210;
+                const positionleft = `${d3.event.pageX}px`;
+                const positionright = `${d3.event.pageX - tooltipWidth}px`;
+                tooltipPopulation.transition();
+                tooltipPopulation
+                    .style('opacity', 1)
+                    .html(
+                        `<p class="tooltip-deceased">La población en <span class="tooltip-number">${d.year}</span> era de <span class="tooltip-number">${d.population}</span> habitantes<p/>`
+                    )
+                    .style(
+                        'left',
+                        postionWidthTooltip > w ? positionright : positionleft
+                    )
+                    .style('top', `${d3.event.pageY - 48}px`);
+            })
+            .on('mouseout', () => {
+                tooltipPopulation
+                    .transition()
+                    .duration(200)
+                    .style('opacity', 0);
+            })
             .attr('cx', (d) => scales.count.x(d.year))
             .attr('cy', (d) => scales.count.y(d.population))
             .attr('r', 0)
@@ -1549,7 +1463,7 @@ const linePopulation = (csvFile, cities) => {
                 .scaleTime()
                 .domain([
                     d3.min(datos, (d) => d.year),
-                    d3.max(datos, (d) => d.year),
+                    d3.max(datos, (d) => d.year)
                 ]);
 
             const countY = d3
@@ -1672,39 +1586,38 @@ aragonStack();
 csvTotal = [
     'data/huesca/huesca-total.csv',
     'data/teruel/teruel-total.csv',
-    'data/zaragoza/zaragoza-total.csv',
+    'data/zaragoza/zaragoza-total.csv'
 ];
 
 csvUnder = [
     'data/huesca/huesca-mayor-menor.csv',
     'data/teruel/mayor-menor-teruel.csv',
-    'data/zaragoza/zaragoza-mayor-menor.csv',
+    'data/zaragoza/zaragoza-mayor-menor.csv'
 ];
 
 csvBalance = [
     'data/huesca/saldo-vegetativo-total-huesca.csv',
     'data/teruel/saldo-vegetativo-total-teruel.csv',
+    'data/zaragoza/saldo-vegetativo-total-zaragoza.csv'
 ];
 
 csvCities = [
     'data/huesca/huesca.csv',
     'data/teruel/teruel.csv',
-    'data/zaragoza/zaragoza.csv',
+    'data/zaragoza/zaragoza.csv'
 ];
 
 csvLB = [
     'data/2015-2018/huesca/huesca-total.csv',
     'data/2015-2018/teruel/teruel-total.csv',
     'data/2015-2018/zaragoza/zaragoza-total.csv'
-]
+];
 
 cities = ['huesca', 'teruel', 'zaragoza'];
 
 linePopulation(csvCities[0], cities[0]);
 linePopulation(csvCities[1], cities[1]);
 linePopulation(csvCities[2], cities[2]);
-
-barNegativeZ();
 
 line(csvTotal[0], cities[0]);
 line(csvTotal[1], cities[1]);
@@ -1716,63 +1629,64 @@ barscatter(csvUnder[2], cities[2]);
 
 barNegative(csvBalance[0], cities[0]);
 barNegative(csvBalance[1], cities[1]);
+barNegative(csvBalance[2], cities[2]);
 
 new SlimSelect({
     select: '#select-city-teruel',
-    searchPlaceholder: 'Busca tu municipio',
+    searchPlaceholder: 'Busca tu municipio'
 });
 
 new SlimSelect({
     select: '#filter-city-teruel',
-    searchPlaceholder: 'Filtra por municipio',
+    searchPlaceholder: 'Filtra por municipio'
 });
 
 new SlimSelect({
     select: '#percentage-over-city-teruel',
-    searchPlaceholder: 'Filtra tu municipio',
+    searchPlaceholder: 'Filtra tu municipio'
 });
 
 new SlimSelect({
     select: '#percentage-under-city-teruel',
-    searchPlaceholder: 'Filtra tu municipio',
+    searchPlaceholder: 'Filtra tu municipio'
 });
 
 new SlimSelect({
     select: '#select-city-huesca',
-    searchPlaceholder: 'Busca tu municipio',
+    searchPlaceholder: 'Busca tu municipio'
 });
 
 new SlimSelect({
     select: '#filter-city-huesca',
-    searchPlaceholder: 'Filtra tu municipio',
+    searchPlaceholder: 'Filtra tu municipio'
 });
 
 new SlimSelect({
     select: '#percentage-over-city-huesca',
-    searchPlaceholder: 'Filtra tu municipio',
+    searchPlaceholder: 'Filtra tu municipio'
 });
 
 new SlimSelect({
     select: '#percentage-under-city-huesca',
-    searchPlaceholder: 'Filtra tu municipio',
+    searchPlaceholder: 'Filtra tu municipio'
 });
 
 new SlimSelect({
     select: '#select-city-zaragoza',
-    searchPlaceholder: 'Busca tu municipio',
+    searchPlaceholder: 'Busca tu municipio'
 });
 
 new SlimSelect({
     select: '#filter-city-zaragoza',
-    searchPlaceholder: 'Filtra tu municipio',
+    searchPlaceholder: 'Filtra tu municipio'
 });
 
 new SlimSelect({
     select: '#percentage-over-city-zaragoza',
-    searchPlaceholder: 'Filtra tu municipio',
+    searchPlaceholder: 'Filtra tu municipio'
 });
 
 new SlimSelect({
     select: '#percentage-under-city-zaragoza',
-    searchPlaceholder: 'Filtra tu municipio',
+    searchPlaceholder: 'Filtra tu municipio'
 });
