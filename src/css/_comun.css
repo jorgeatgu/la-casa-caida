@@ -17,6 +17,10 @@ body {
     background-color: var(--bgc-teruel);
 }
 
+.container-bgc-lb {
+    background-color: var(--bgc-lb);
+}
+
 .container-chart,
 .container-desert {
     width: 100%;

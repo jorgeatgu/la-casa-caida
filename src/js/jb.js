@@ -20,7 +20,6 @@ function menu() {
     for (i = 0; i < elementBtn.length; i++) {
         elementBtn[i].addEventListener('click', function() {
             removeClass();
-            console.log('click');
         });
     }
 
@@ -32,9 +31,9 @@ function menu() {
 }
 
 const csvLB = [
-    'data/2015-2018/huesca/huesca-total.csv',
-    'data/2015-2018/teruel/teruel-total.csv',
-    'data/2015-2018/zaragoza/zaragoza-total.csv'
+    'data/evolucion/huesca/huesca-total.csv',
+    'data/evolucion/teruel/teruel-total.csv',
+    'data/evolucion/zaragoza/zaragoza-total.csv'
 ]
 
 const cities = ['huesca', 'teruel', 'zaragoza'];
@@ -54,12 +53,12 @@ const lineLB = (csvFile, cities) => {
             .scaleTime()
             .domain([
                 2011,
-                2018,
+                2019,
             ]);
 
         const countY = d3
             .scaleLinear()
-            .domain([d3.min(datos, (d) => (d.population * 1.5) - d.population), d3.max(datos, (d) => d.population) * 1.25]);
+            .domain([d3.min(datos, (d) => (d.population * 1.75) - d.population), d3.max(datos, (d) => d.population) * 1.25]);
 
         scales.count = { x: countX, y: countY };
     };
@@ -126,7 +125,8 @@ const lineLB = (csvFile, cities) => {
         const line = d3
             .line()
             .x((d) => scales.count.x(d.year))
-            .y((d) => scales.count.y(d.population));
+            .y((d) => scales.count.y(d.population))
+            .curve(d3.curveCardinal.tension(0.6));
 
         updateScales(width, height);
 
@@ -135,6 +135,7 @@ const lineLB = (csvFile, cities) => {
         );
 
         const lines = container.selectAll('.lines').data([datos]);
+
 
         const dots = container
             .selectAll('.circles-population')
@@ -201,12 +202,12 @@ const lineLB = (csvFile, cities) => {
                 .scaleTime()
                 .domain([
                     2011,
-                    2018,
+                    2019,
                 ]);
 
             const countY = d3
                 .scaleLinear()
-                .domain([d3.min(datos, (d) => (d.population * 1.1) - d.population), d3.max(datos, (d) => d.population) * 1.25]);
+                .domain([d3.min(datos, (d) => (d.population * 1.75) - d.population), d3.max(datos, (d) => d.population) * 1.25]);
 
             scales.count = { x: countX, y: countY };
             updateChart(datos);
@@ -276,150 +277,9 @@ const lineLB = (csvFile, cities) => {
     menuMes();
 };
 
-lineLB();
-
 lineLB(csvLB[0], cities[0]);
 lineLB(csvLB[1], cities[1]);
 lineLB(csvLB[2], cities[2]);
-
-
-const scatterLB = () => {
-    const margin = { top: 24, right: 24, bottom: 24, left: 32 };
-    let width = 0;
-    let height = 0;
-    let w = 0;
-    let h = 0;
-    const chart = d3.select('.chart-lluvia-scatter');
-    const svg = chart.select('svg');
-    const scales = {};
-    const temp = '%';
-    let dataz;
-
-    const setupScales = () => {
-        const countX = d3.scaleLinear().domain(d3.extent(dataz, (d) => d.cp));
-
-        const countY = d3.scaleLinear().domain([
-            d3.min(dataz, function(d) {
-                return d.diferencia;
-            }),
-            d3.max(dataz, function(d) {
-                return d.diferencia;
-            })
-        ]);
-
-        scales.count = { x: countX, y: countY };
-    };
-
-    const setupElements = () => {
-        const g = svg.select('.chart-lluvia-scatter-container');
-
-        g.append('g').attr('class', 'axis axis-x');
-
-        g.append('g').attr('class', 'axis axis-y');
-
-        g.append('g').attr('class', 'area-container-chart-scatter');
-    };
-
-    const updateScales = (width, height) => {
-        scales.count.x.range([0, width]);
-        scales.count.y.range([height, 20]);
-    };
-
-    const drawAxes = (g) => {
-        const axisX = d3
-            .axisBottom(scales.count.x)
-            .tickFormat(d3.format('d'))
-            .ticks(20);
-
-        g.select('.axis-x')
-    .attr('transform', `translate(0,${height})`)
-    .call(axisX);
-
-        const axisY = d3
-            .axisLeft(scales.count.y)
-            .tickFormat(function(d) {
-                return d + temp;
-            })
-            .tickSize(-width)
-            .ticks(5);
-
-        g.select('.axis-y').call(axisY);
-    };
-
-    const updateChart = (dataz) => {
-        w = chart.node().offsetWidth;
-        h = 600;
-
-        width = w - margin.left - margin.right;
-        height = h - margin.top - margin.bottom;
-
-        svg.attr('width', w).attr('height', h);
-
-        const translate = `translate(${margin.left},${margin.top})`;
-
-        const g = svg.select('.chart-lluvia-scatter-container');
-
-        g.attr('transform', translate);
-
-        updateScales(width, height);
-
-        const container = chart.select('.area-container-chart-scatter');
-
-        const layer = container.selectAll('.scatter-circles').data(dataz);
-
-        const newLayer = layer
-            .enter()
-            .append('circle')
-            .attr('class', 'scatter-circles');
-
-        layer
-            .merge(newLayer)
-            .attr('cx', (d) => scales.count.x(d.cp))
-            .attr('cy', (d) => scales.count.y(d.diferencia))
-            .attr('r', 6)
-            .attr('fill-opacity', 0.6)
-            .attr('fill', (d) => {
-                if (d.diferencia > 0) {
-                    return '#000';
-                } else if (d.diferencia === 0) {
-                    return '#ccc';
-                } else {
-
-                    return '#9A312F';
-                }
-            });
-
-
-        drawAxes(g);
-    };
-
-    const resize = () => {
-        updateChart(dataz);
-    };
-
-    const loadData = () => {
-        d3.csv('csv/teruel2015-2018.csv', (error, data) => {
-            if (error) {
-                console.log(error);
-            } else {
-                dataz = data;
-                dataz.forEach((d) => {
-                    d.diferencia = +d.diferencia;
-                    d.year15 = +d.year15;
-                    d.year18 = +d.year18;
-                });
-                setupElements();
-                setupScales();
-                updateChart(dataz);
-            }
-        });
-    };
-
-    window.addEventListener('resize', resize);
-
-    loadData();
-};
-
 
 new SlimSelect({
     select: '#select-lb-huesca',
@@ -437,4 +297,241 @@ new SlimSelect({
 });
 
 menu();
-scatterLB();
+
+const scatterLB = (csvFile, cities) => {
+    const margin = { top: 24, right: 24, bottom: 48, left: 72 };
+    let width = 0;
+    let height = 0;
+    let w = 0;
+    let h = 0;
+    const chart = d3.select(`.scatter-lb-${cities}`);
+    const svg = chart.select('svg');
+    const scales = {};
+    const habitantes = '%';
+    let dataz;
+    let lossP;
+    let winP;
+    const tooltip = d3
+      .select(`.scatter-lb-${cities}`)
+      .append('div')
+      .attr('class', 'tooltip tooltip-scatter-lb')
+      .style('opacity', 0);
+
+    const setupScales = () => {
+        const countX = d3
+            .scaleLinear()
+            .domain([
+                d3.min(dataz, (d) => d.percentage),
+                d3.max(dataz, (d) => d.percentage)
+            ]);
+
+        const countY = d3
+            .scaleLinear()
+            .domain([
+                d3.min(dataz, (d) => d.percentage * 1.25),
+                d3.max(dataz, (d) => d.percentage)
+            ]);
+
+        scales.count = { x: countX, y: countY };
+    };
+
+    const setupElements = () => {
+        const g = svg.select(`.scatter-lb-${cities}-container`);
+
+        g.append('g').attr('class', 'axis axis-x');
+
+        g.append('g').attr('class', 'axis axis-y');
+
+        g.append('g').attr('class', `scatter-lb-${cities}-container-bis`);
+
+        g.append('circle')
+            .attr('r', 3)
+            .attr('fill', '#B41248')
+            .attr('cy', '94%')
+            .attr('cx', '4%');
+
+        g.append('circle')
+            .attr('r', 3)
+            .attr('fill', '#3b2462')
+            .attr('cy', '90%')
+            .attr('cx', '4%');
+
+        g.append('text')
+            .text(`Municipios que han perdido población. Total: ${lossP.length}`)
+            .attr('y', '95%')
+            .attr('x', '5%');
+
+        g.append('text')
+            .text(`Municipios que han ganado población. Total: ${winP.length}`)
+            .attr('y', '91%')
+            .attr('x', '5%');
+    };
+
+    const updateScales = (width, height) => {
+        scales.count.x.range([0, width]);
+        scales.count.y.range([height, 0]);
+    };
+
+    const drawAxes = (g) => {
+        const axisX = d3
+            .axisBottom(scales.count.x)
+            .tickFormat(d3.format('d'))
+            .ticks(0);
+
+        g.select('.axis-x')
+            .attr('transform', `translate(0,${height})`)
+            .call(axisX);
+
+        const axisY = d3
+            .axisLeft(scales.count.y)
+            .tickFormat((d) => d + habitantes)
+            .tickSize(-width)
+            .ticks(10);
+
+        g.select('.axis-y').call(axisY);
+    };
+
+    const updateChart = (dataz) => {
+        w = chart.node().offsetWidth;
+        h = 600;
+
+        width = w - margin.left - margin.right;
+        height = h - margin.top - margin.bottom;
+
+        svg.attr('width', w).attr('height', h);
+
+        const translate = `translate(${margin.left},${margin.top})`;
+
+        const g = svg.select(`.scatter-lb-${cities}-container`);
+
+        g.attr('transform', translate);
+
+        updateScales(width, height);
+
+        const container = chart.select(`.scatter-lb-${cities}-container-bis`);
+
+        const layer = container.selectAll('.circle-desert').data(dataz);
+
+        const newLayer = layer
+            .enter()
+            .append('circle')
+            .attr('class', 'circle-desert');
+
+        layer
+            .merge(newLayer)
+            .attr('cx', (d) => Math.random() * width)
+            .attr('cy', (d) => scales.count.y(d.percentage))
+            .attr('r', 4)
+            .on('mouseover', (d) => {
+              const positionX = scales.count.x(d.cp);
+              const postionWidthTooltip = positionX + 270;
+              const tooltipWidth = 210;
+              const positionleft = `${d3.event.pageX}px`;
+              const positionright = `${d3.event.pageX - tooltipWidth}px`;
+              tooltip.transition()
+              if (d.percentage > 0) {
+                tooltip
+                  .style('opacity', 1)
+                  .html(
+                      `<p class="tooltip-scatter-text"><strong>${d.name}</strong> ha aumentado su población un <strong>${d.percentage}%</strong>.<p/>
+                      <p class="tooltip-scatter-text">Población en 2018: <strong>${d.dosmildieciocho}</strong><p/>
+                      <p class="tooltip-scatter-text">Población en 2019: <strong>${d.dosmildiecinueve}</strong><p/>
+                      `
+                  )
+                  .style(
+                    'left',
+                    postionWidthTooltip > w ? positionright : positionleft
+                  )
+                  .style('top', `${d3.event.pageY - 100}px`);
+              } else if(d.percentage === 0) {
+                tooltip
+                  .style('opacity', 1)
+                  .html(
+                      `<p class="tooltip-scatter-text"><strong>${d.name}</strong> no ha aumentado ni disminuido su población.<p/>
+                      <p class="tooltip-scatter-text">Población en 2018: <strong>${d.dosmildieciocho}</strong><p/>
+                      <p class="tooltip-scatter-text">Población en 2019: <strong>${d.dosmildiecinueve}</strong><p/>
+                      `
+                  )
+                  .style(
+                    'left',
+                    postionWidthTooltip > w ? positionright : positionleft
+                  )
+                  .style('top', `${d3.event.pageY - 100}px`);
+              } else {
+                tooltip
+                  .style('opacity', 1)
+                  .html(
+                      `<p class="tooltip-scatter-text"><strong>${d.name}</strong> ha disminuido su población un <strong>${d.percentage}%</strong>.<p/>
+                      <p class="tooltip-scatter-text">Población en 2018: <strong>${d.dosmildieciocho}</strong><p/>
+                      <p class="tooltip-scatter-text">Población en 2019: <strong>${d.dosmildiecinueve}</strong><p/>
+                      `
+                  )
+                  .style(
+                    'left',
+                    postionWidthTooltip > w ? positionright : positionleft
+                  )
+                  .style('top', `${d3.event.pageY - 100}px`);
+              }
+
+            })
+            .on('mouseout', () => {
+              tooltip
+                .transition()
+                .duration(200)
+                .style('opacity', 0);
+            })
+            .attr('fill', (d) => {
+                if (d.percentage >= 0) {
+                    return '#3b2462';
+                } else if (d.percentage === 0) {
+                    return '#111';
+                } else {
+                    return '#B41248';
+                }
+            })
+            .attr('fill-opacity', 0.8);
+
+        drawAxes(g);
+    };
+
+    const resize = () => {
+        updateChart(dataz);
+    };
+
+    const loadData = () => {
+        d3.csv(csvFile, (error, data) => {
+            if (error) {
+                console.log(error);
+            } else {
+                dataz = data;
+                dataz.forEach((d) => {
+                    d.cp = d.cp;
+                    d.percentage = +d.percentage;
+                    d.dosmildieciocho = +d.dosmildieciocho;
+                    d.dosmildiecinueve = +d.dosmildiecinueve;
+                });
+
+                lossP = dataz.filter((d) => d.percentage < 0);
+                winP = dataz.filter((d) => d.percentage > 0);
+
+                setupElements();
+                setupScales();
+                updateChart(dataz);
+            }
+        });
+    };
+
+    window.addEventListener('resize', resize);
+
+    loadData();
+};
+
+const csvBalance = [
+    'data/huesca/2018-2019-huesca.csv',
+    'data/teruel/2018-2019-teruel.csv',
+    'data/zaragoza/2018-2019-zaragoza.csv'
+]
+
+scatterLB(csvBalance[0], cities[0]);
+scatterLB(csvBalance[1], cities[1]);
+scatterLB(csvBalance[2], cities[2]);

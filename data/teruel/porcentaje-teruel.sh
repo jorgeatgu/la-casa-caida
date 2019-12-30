@@ -8,6 +8,7 @@ menor=('7' '2' '0' '81' '8' '17' '14' '293' '157' '54' '5' '31' '3347' '618' '49
 
 # Recorremos el array de poblacion
 for (( i=0; i<${#poblacion[@]}; ++i )); do
-    echo "scale=2; ${mayor[$i]}*100/${poblacion[$i]}" | bc >> porcentaje-mayor65-teruel.csv
+    echo "scale=2; ${mayor[$i]}*100/${poblacion[$i]}" | bc >> pf-1-idc-1-vdc-1.csv
+
     echo "scale=2; ${menor[$i]}*100/${poblacion[$i]}" | bc >> porcentaje-menor18-teruel.csv
 done

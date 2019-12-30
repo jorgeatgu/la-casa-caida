@@ -15,7 +15,7 @@ export {
 } from "d3-array";
 
 export {
-    line, curveCardinal, arc, curveLinear, area, stack, stackOrderInsideOut
+    line, curveCardinal, curveStep, arc, curveLinear, area, stack, stackOrderInsideOut
 } from "d3-shape";
 
 export {

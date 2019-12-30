@@ -336,6 +336,30 @@ select {
     }
 }
 
+.chart-lb {
+  .area {
+    fill: rgba(193, 78, 57, .5);
+  }
+  .lines {
+    stroke: rgba(193, 78, 57);
+    stroke-width: 2px;
+  }
+  .circles-population {
+    fill: #351D1D;
+    r: 3px;
+  }
+}
+
+.tooltip-scatter-lb {
+  .tooltip-scatter-text {
+    font-size: 14px;
+    margin: 0;
+    strong {
+      font-size: 1rem;
+    }
+  }
+}
+
 @media only screen and (min-width: 48rem) {
 
     .filters {
