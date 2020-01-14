@@ -1,5 +1,3 @@
-const widthMobile = window.innerWidth > 0 ? window.innerWidth : screen.width;
-
 function menu() {
     var overlay = document.querySelector('.overlay');
     var navigation = document.querySelector('.navegacion');

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>La casa caída | La despoblación de Aragón</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Playfair+Display:400,700" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.0.3/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body class="comparador">
+    <header>
+        <div class="burger">
+            <span></span>
+        </div>
+        <nav class="navegacion menu--inola">
+            <a href="https://casacaida.co" class="navegacion-btn menu__item">
+                <span class="menu__item-name">Portada</span>
+            </a>
+            <a href="https://casacaida.co/evolucion.html#zaragoza" class="navegacion-btn menu__item">
+                <span class="menu__item-name">Evolución Zaragoza</span>
+            </a>
+            <a href="https://casacaida.co/evolucion.html#huesca" class="navegacion-btn menu__item">
+                <span class="menu__item-name">Evolución Huesca</span>
+            </a>
+            <a href="https://casacaida.co/evolucion.html#teruel" class="navegacion-btn menu__item">
+                <span class="menu__item-name">Evolución Teruel</span>
+            </a>
+            <a href="#enlaces" class="navegacion-btn menu__item">
+                <span class="menu__item-name">Enlaces de interés</span>
+            </a>
+            <a href="https://github.com/jorgeatgu/la-casa-caida" class="navegacion-btn menu__item">
+                <span class="menu__item-name">GitHub</span>
+            </a>
+            <a href="https://twitter.com/intent/tweet?text=La casa caída - La evolución de la población en Aragón&url=https://casacaida.co&via=jorgeatgu&related=jorgeatgu&hashtags=Aragón,despoblación" rel="nofollow" target="_blank" title="Comparte en Twitter" class="navegacion-btn menu__item">
+                <span class="menu__item-name">Compartir en Twitter</span>
+            </a>
+        </nav>
+        <div class="overlay"></div>
+    </header>
+    <section class="container container-comparador">
+        <section class="container-chart">
+            <div class="section-text">
+                <h4 class="subtittle">Compara el número de manifestantes de Vox en Teruel con la población de los diferentes municipios de Teruel.</h4>
+                <p class="text">Alrededor de 100 personas se congregaron el domingo 12 de Enero se congregaron en la concentración de España Existe en Teruel. </p><p class="text">Vamos a compararlos con los habitantes de los diferentes municipios de Teruel.</p>
+                <span class="data">Los datos de asistentes a la manifestación de Vox provienen de la delegación del Gobierno de Aragón. Los datos de población de municipios del INE a fecha de 2019.</span>
+
+            </div>
+            <select id="municipios-teruel"></select>
+            <div class="grid-chart-container">
+              <div class="grid-chart-diferencia">
+
+              </div>
+              <article class="grid-chart grid-chart-element-vox">
+              </article>
+              <article class="grid-chart grid-chart-element">
+              </article>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container-chart">
+                <p class="footer-texto">Hecho en Zaragoza con mucha maña por un <a class="footer-links" href="http://jorgeatgu.com" target="_blank">maño</a> - MMXIX</p>
+                <p class="footer-texto">Cualquier consulta escribid a: data@jorgeatgu.com</p>
+                <a class="footer-links" href="https://github.com/jorgeatgu/la-casa-caida">Todo el código y datos está disponible en GitHub</a>
+            </div>
+        </footer>
+        <script src="js/d3.layout.js"></script>
+        <script src="js/d3-iconarray.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.18.7/slimselect.min.js"></script>
+        <script src="js/comparador.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>La casa caída | La despoblación de Aragón</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Playfair+Display:400,700" rel="stylesheet">
+</head>
+
+<body class="comarcas">
+    <header>
+        <div class="burger">
+            <span></span>
+        </div>
+        <nav class="navegacion menu--inola">
+            <a href="https://casacaida.co" class="navegacion-btn menu__item">
+                <span class="menu__item-name">Portada</span>
+            </a>
+            <a href="https://casacaida.co/evolucion.html#zaragoza" class="navegacion-btn menu__item">
+                <span class="menu__item-name">Evolución Zaragoza</span>
+            </a>
+            <a href="https://casacaida.co/evolucion.html#huesca" class="navegacion-btn menu__item">
+                <span class="menu__item-name">Evolución Huesca</span>
+            </a>
+            <a href="https://casacaida.co/evolucion.html#teruel" class="navegacion-btn menu__item">
+                <span class="menu__item-name">Evolución Teruel</span>
+            </a>
+            <a href="#enlaces" class="navegacion-btn menu__item">
+                <span class="menu__item-name">Enlaces de interés</span>
+            </a>
+            <a href="https://github.com/jorgeatgu/la-casa-caida" class="navegacion-btn menu__item">
+                <span class="menu__item-name">GitHub</span>
+            </a>
+            <a href="https://twitter.com/intent/tweet?text=La casa caída - La evolución de la población en Aragón&url=https://casacaida.co&via=jorgeatgu&related=jorgeatgu&hashtags=Aragón,despoblación" rel="nofollow" target="_blank" title="Comparte en Twitter" class="navegacion-btn menu__item">
+                <span class="menu__item-name">Compartir en Twitter</span>
+            </a>
+        </nav>
+        <div class="overlay"></div>
+    </header>
+    <section class="container container-comarcas">
+        <section class="container-chart">
+            <div class="section-text">
+                <h4 class="subtittle">Comarca Andorra-Sierra de Arcos</h4>
+                <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Y los del 2019 del INE.</span>
+            </div>
+            <article class="area-comarcas">
+                <svg>
+                    <g class="area-comarcas-container"></g>
+                </svg>
+            </article>
+
+        </section>
+        <footer class="footer">
+            <div class="container-chart">
+                <p class="footer-texto">Hecho en Zaragoza con mucha maña por un <a class="footer-links" href="http://jorgeatgu.com" target="_blank">maño</a> - MMXIX</p>
+                <p class="footer-texto">Cualquier consulta escribid a: data@jorgeatgu.com</p>
+                <a class="footer-links" href="https://github.com/jorgeatgu/la-casa-caida">Todo el código y datos está disponible en GitHub</a>
+            </div>
+        </footer>
+        <script src="js/d3.min.js"></script>
+        <script src="js/d3-interpolate-path.min.js"></script>
+        <script src="js/comarcas.js"></script>
+</body>
+
+</html>

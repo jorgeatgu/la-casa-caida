@@ -10,6 +10,8 @@
     margin-top: 0;
     font-family: var(--title);
     margin-bottom: .5rem;
+    text-align: left;
+    width: 100%;
 }
 
 .text {
