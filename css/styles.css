@@ -2087,6 +2087,11 @@ select {
     margin-left: 0 !important;
   }
 
+.comparador header {
+    position: relative;
+    z-index: 100;
+  }
+
 .container-comparador {
   color: #381652;
 }

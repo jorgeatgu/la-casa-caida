@@ -44,6 +44,10 @@
   .ss-main .ss-content {
     margin-left: 0 !important;
   }
+  header {
+    position: relative;
+    z-index: 100;
+  }
 }
 
 .container-comparador {

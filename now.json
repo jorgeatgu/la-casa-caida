@@ -1,7 +1,20 @@
 {
-    "name": "La casa caida",
-    "version": 2,
-    "alias": [
-        "casacaida.co"
-    ]
+  "name": "La casa caida",
+  "version": 2,
+  "alias": [
+    "casacaida.co"
+  ],
+  "routes": [
+  {
+    "src": "^/",
+    "dest": "/index.html"
+  },
+  {
+    "src": "^/comparador",
+    "dest": "/comparador.html"
+  },
+  {
+    "src": "^/evolucion",
+    "dest": "/evolucion.html"
+  }]
 }

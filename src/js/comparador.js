@@ -1,5 +1,37 @@
 const widthMobile = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
+function menu() {
+    var overlay = document.querySelector('.overlay');
+    var navigation = document.querySelector('.navegacion');
+    var body = document.querySelector('body');
+    var elementBtn = document.querySelectorAll('.navegacion-btn');
+    var burger = document.querySelector('.burger');
+
+    function classToggle() {
+        burger.classList.toggle('clicked');
+        overlay.classList.toggle('show');
+        navigation.classList.toggle('show');
+        body.classList.toggle('overflow');
+    }
+
+    document.querySelector('.burger').addEventListener('click', classToggle);
+    document.querySelector('.overlay').addEventListener('click', classToggle);
+
+    for (i = 0; i < elementBtn.length; i++) {
+        elementBtn[i].addEventListener('click', function() {
+            removeClass();
+        });
+    }
+
+    function removeClass() {
+        overlay.classList.remove('show');
+        navigation.classList.remove('show');
+        burger.classList.remove('clicked');
+    }
+}
+
+menu()
+
 function grid() {
     let ciudad;
     const chart = d3.select('.grid-chart-element');
@@ -143,9 +175,15 @@ function grid() {
 
               diferencia = dataz[0].population - 100
 
-              d3.select('.grid-chart-diferencia')
-                .html((d) =>
-                      `<p class="diferencia-habitantes"><span class="numero-diferencia">${dataz[0].name}</span> tiene <span class="numero-diferencia">${diferencia}</span> habitantes más que la manifestación de Vox. `);
+              if (diferencia > 0) {
+                d3.select('.grid-chart-diferencia')
+                  .html((d) =>
+                        `<p class="diferencia-habitantes"><span class="numero-diferencia">${dataz[0].name}</span> tiene <span class="numero-diferencia">${diferencia}</span> habitantes más que la manifestación de Vox. `);
+              } else {
+                d3.select('.grid-chart-diferencia')
+                  .html((d) =>
+                        `<p class="diferencia-habitantes"><span class="numero-diferencia">${dataz[0].name}</span> tiene menos habitantes más que la manifestación de Vox. `);
+              }
 
               updateChart(dataz);
 

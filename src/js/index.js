@@ -51,7 +51,6 @@ function menu() {
     for (i = 0; i < elementBtn.length; i++) {
         elementBtn[i].addEventListener('click', function() {
             removeClass();
-            console.log('click');
         });
     }
 
@@ -1070,9 +1069,6 @@ const barNegative = (csvFile, cities) => {
 
         const saldoMaxMin = -500;
         const saldoMaxMax = 300;
-
-        console.log(saldoMax)
-        console.log(saldoMin)
 
         const countX = d3.scaleBand().domain(dataz.map((d) => d.year));
 
