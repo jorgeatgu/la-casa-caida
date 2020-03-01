@@ -1,534 +1,531 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>La casa caída | La despoblación de Aragón</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Playfair+Display:400,700" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>La casa caída | La despoblación de Aragón</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Playfair+Display:400,700" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div class="burger">
-            <span></span>
+  <header>
+    <div class="burger">
+      <span></span>
+    </div>
+    <nav class="navegacion menu--inola">
+      <a href="#teruel" class="navegacion-btn menu__item">
+        <span class="menu__item-name">Teruel</span>
+      </a>
+      <a href="#huesca" class="navegacion-btn menu__item">
+        <span class="menu__item-name">Huesca</span>
+      </a>
+      <a href="#zaragoza" class="navegacion-btn menu__item">
+        <span class="menu__item-name">Zaragoza</span>
+      </a>
+      <a href="#testimonios" class="navegacion-btn menu__item">
+        <span class="menu__item-name">¿Qué podemos hacer?</span>
+      </a>
+      <a href="https://casacaida.co/evolucion.html" class="navegacion-btn menu__item">
+        <span class="menu__item-name">Evolución 2011-2019</span>
+      </a>
+      <a href="https://casacaida.co/comparador" class="navegacion-btn menu__item">
+        <span class="menu__item-name">Comparador</span>
+      </a>
+      <a href="#enlaces" class="navegacion-btn menu__item">
+        <span class="menu__item-name">Enlaces de interés</span>
+      </a>
+      <a href="https://github.com/jorgeatgu/la-casa-caida" class="navegacion-btn menu__item">
+        <span class="menu__item-name">GitHub</span>
+      </a>
+      <a href="https://twitter.com/intent/tweet?text=La casa caída - La evolución de la población en Aragón&url=https://casacaida.co&via=jorgeatgu&related=jorgeatgu&hashtags=Aragón,despoblación" rel="nofollow" target="_blank" title="Comparte en Twitter" class="navegacion-btn menu__item">
+        <span class="menu__item-name">Compartir en Twitter</span>
+      </a>
+    </nav>
+    <div class="overlay"></div>
+  </header>
+  <section class="header">
+    <div class="header-container">
+      <h3 class="header-title">
+        <div class="text-wrapper">
+          La casa
+          <span class="letter">c</span><span class="letter">a</span><span class="letter">í</span><span class="letter">d</span><span class="letter">a</span>
         </div>
-        <nav class="navegacion menu--inola">
-            <a href="#teruel" class="navegacion-btn menu__item">
-                <span class="menu__item-name">Teruel</span>
-            </a>
-            <a href="#huesca" class="navegacion-btn menu__item">
-                <span class="menu__item-name">Huesca</span>
-            </a>
-            <a href="#zaragoza" class="navegacion-btn menu__item">
-                <span class="menu__item-name">Zaragoza</span>
-            </a>
-            <a href="#testimonios" class="navegacion-btn menu__item">
-                <span class="menu__item-name">¿Qué podemos hacer?</span>
-            </a>
-            <a href="https://casacaida.co/evolucion.html" class="navegacion-btn menu__item">
-                <span class="menu__item-name">Evolución 2011-2019</span>
-            </a>
-            <a href="https://casacaida.co/comparador" class="navegacion-btn menu__item">
-                <span class="menu__item-name">Comparador</span>
-            </a>
-            <a href="#enlaces" class="navegacion-btn menu__item">
-                <span class="menu__item-name">Enlaces de interés</span>
-            </a>
-            <a href="https://github.com/jorgeatgu/la-casa-caida" class="navegacion-btn menu__item">
-                <span class="menu__item-name">GitHub</span>
-            </a>
-            <a href="https://twitter.com/intent/tweet?text=La casa caída - La evolución de la población en Aragón&url=https://casacaida.co&via=jorgeatgu&related=jorgeatgu&hashtags=Aragón,despoblación" rel="nofollow" target="_blank" title="Comparte en Twitter" class="navegacion-btn menu__item">
-                <span class="menu__item-name">Compartir en Twitter</span>
-            </a>
-        </nav>
-        <div class="overlay"></div>
-    </header>
-    <section class="header">
-        <div class="header-container">
-            <h3 class="header-title">
-                <div class="text-wrapper">
-                La casa
-                    <span class="letter">c</span><span class="letter">a</span><span class="letter">í</span><span class="letter">d</span><span class="letter">a</span>
-                </div>
-            </h3>
-            <span class="author">Por <a href="https://jorgeatgu.com">Jorge Aznar</a></span>
-            <p class="header-ronda">
-                <span class="header-ronda-text">Delante de esta puerta cerrada</span>
-                <span class="header-ronda-text">la ronda lleva tanto sin parar.</span>
-                <span class="header-ronda-text">Por esa ventaneta hoy tan sombría,</span>
-                <span class="header-ronda-text">en otro tiempo nanas se escuchaba cantar.</span>
-                <span class="header-ronda-text">Febrero tras febrero, eterno invierno,</span>
-                <span class="header-ronda-text">a esta puerta la vida ya no ha vuelto a llamar.</span>
-                <a href="https://www.youtube.com/watch?v=DbanIqZdbzo" class="header-ronda-text">La Ronda de Boltaña - La casa caída</a>
-            </p>
-            <div class="section-text">
-                <div class="container-chart">
-                    <p class="text text-bot">He creado un bot de twitter para que twittee aquellos municipios con una densidad inferior a 10hab/km2: <a href="https://twitter.com/casacaida
+      </h3>
+      <span class="author">Por <a href="https://jorgeatgu.com">Jorge Aznar</a></span>
+      <p class="header-ronda">
+        <span class="header-ronda-text">Delante de esta puerta cerrada</span>
+        <span class="header-ronda-text">la ronda lleva tanto sin parar.</span>
+        <span class="header-ronda-text">Por esa ventaneta hoy tan sombría,</span>
+        <span class="header-ronda-text">en otro tiempo nanas se escuchaba cantar.</span>
+        <span class="header-ronda-text">Febrero tras febrero, eterno invierno,</span>
+        <span class="header-ronda-text">a esta puerta la vida ya no ha vuelto a llamar.</span>
+        <a href="https://www.youtube.com/watch?v=DbanIqZdbzo" class="header-ronda-text">La Ronda de Boltaña - La casa caída</a>
+      </p>
+      <div class="section-text">
+        <div class="container-chart">
+          <p class="text text-bot">He creado un bot de twitter para que twittee aquellos municipios con una densidad inferior a 10hab/km2: <a href="https://twitter.com/casacaida
                         ">🤖 Casa Caída Bot</a> </p>
-                </div>
-            </div>
-            <div class="section-text">
-                <div class="container-chart">
-                    <p class="text">La casa caída es una bonita y triste canción de la <a href="http://www.rondadors.com/d2/18/d2_18.php">Ronda de Boltaña</a>, trata sobre la despoblación del Alto Aragón. <span class="bold">Si se nos cae la casa se vuelve a levantar,</span> canta la Ronda. El problema al que nos enfrentamos en Aragón(y en otras partes de España) es que cada día esta más cerca el momento donde no haya nadie para levantar la casa.</p>
-                    <p class="text">Según el INE el número total de habitantes en Aragón es de 1.308.728. <span class="bold">El 50.95% de ellos reside en la ciudad de Zaragoza</span>. Estas cifras dejan la densidad de población de Aragón en 27,42 hab/km2, solo por delante de Castilla y León, Castilla-La Mancha y Extremadura.</p>
-                    </p>
-                    <p class="text">Actualizado con los datos del padrón del INE a fecha de 2019.</p>
-                </div>
-            </div>
-            <section class="container-chart">
-                <div class="section-text">
-                    <h4 class="subtittle">Aragón, un desierto demográfico</h4>
-                    <p class="text">Una <span class="bold">densidad inferior a 10 hab/km2</span> se considera <span class="bold">desierto demográfico</span>.Las cifras son demoledoras, en Aragón <span class="bold">519 municipios están por debajo del umbral de desierto demográfico</span>. El desglose por provincia es el siguiente: Teruel 197, Huesca 141 y Zaragoza 181.</p>
-                </div>
-                <article class="scatter-desert">
-                    <svg class="scatter-chart">
-                        <g class="scatter-desert-container"></g>
-                    </svg>
-                </article>
-            </section>
         </div>
-        <div class="container-desert">
-            <div class="section-text">
-                <h4 class="subtittle">Distribución de la población en Aragón</h4>
-                <p class="text">Una gráfica para ver cómo ha ido evolucionando la aportación de cada provincia al total de población en Aragón.</p>
-            </div>
-            <article class="aragon-stack">
-                <svg>
-                    <g class="aragon-stack-container"></g>
-                </svg>
-            </article>
+      </div>
+      <div class="section-text">
+        <div class="container-chart">
+          <p class="text">La casa caída es una bonita y triste canción de la <a href="http://www.rondadors.com/d2/18/d2_18.php">Ronda de Boltaña</a>, trata sobre la despoblación del Alto Aragón. <span class="bold">Si se nos cae la casa se vuelve a levantar,</span> canta la Ronda. El problema al que nos enfrentamos en Aragón(y en otras partes de España) es que cada día esta más cerca el momento donde no haya nadie para levantar la casa.</p>
+          <p class="text">Según el INE el número total de habitantes en Aragón es de 1.308.728. <span class="bold">El 50.95% de ellos reside en la ciudad de Zaragoza</span>. Estas cifras dejan la densidad de población de Aragón en 27,42 hab/km2, solo por delante de Castilla y León, Castilla-La Mancha y Extremadura.</p>
+          </p>
+          <p class="text">Actualizado con los datos del padrón del INE a fecha de 2019.</p>
         </div>
-    </section>
-    <section class="labordeta">
-        <p class="text labordeta-song">Polvo, niebla, viento y <span class="bold">despoblación.</span></p>
-    </section>
-    <section class="container container-bgc">
-        <section class="container-chart ">
-            <div class="section-text">
-                <h3 id="teruel" class="title">Teruel ¿existe?</h3>
-                <p class="header-ronda">
-                    <span class="header-ronda-text">Lagrimas caídas, siglos de exclusión,</span>
-                    <span class="header-ronda-text">dádivas perdidas en el fondo de un cajón.</span>
-                    <span class="header-ronda-text">Tierra abandonada para el buitre carroñero,</span>
-                    <span class="header-ronda-text">promesas olvidadas en el vertedero.</span>
-                    <span class="header-ronda-text">Somos made in Teruel, made in Teruel,</span>
-                    <span class="header-ronda-text">estamos que no estamos para mal o para bien.</span>
-                    <span class="header-ronda-text">Jóvenes parados tienen que partir.</span>
-                    <span class="header-ronda-text">Viejos resignados sólo les queda vivir viendo como mueren sus raíces</span>
-                    <a href="https://www.youtube.com/watch?v=Ur3-qy4bd-s" class="header-ronda-text">Azero - Made In Teruel</a>
-                </p>
-                <div class="container-chart">
-                    <p class="text">Teruel existe para aquellos que tuvieron que marchar en busca de un futuro mejor, en aquellos que se quedaron y en aquellos que darían todo por quedarse cuando se acaba el verano. No existe para aquellos que gobernaron, gobiernan y gobernarán. Las cifras son claras en 50 años ha perdido casi el 50% de su población. En 24 municipios no hay un solo habitante que sea menor de 18 años. En 73 municipios hay menos de 5 habitantes menores de 18 años.</p>
-                    <p class="text">El futuro se marcha, obligado por aquellos que pudieron hacer algo y ni tan si quiera lo intentaron.</p>
-                </div>
-            </div>
-            <div class="section-text">
-                <h4 class="subtittle">Evolución de la población - Teruel</h4>
-                <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Teruel desde 1900 hasta 2019.</p>
-                <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Los datos de 2018 y 2019 son del INE.</span>
-            </div>
-            <article class="line-teruel">
-                <svg class="line-chart">
-                    <g class="line-teruel-container"></g>
-                </svg>
-            </article>
-        </section>
-        <section class="container-chart teruel-line">
-            <div class="section-text">
-                <h4 class="subtittle">Evolución de la población por municipio Teruel</h4>
-                <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población de cada uno de los municipios de la provincia de Teruel desde 1900 hasta 2019.</p>
-                <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Los datos de 2018 y 2019 son del INE.</span>
-            </div>
-            <select id="select-city-teruel"></select>
-            <article class="line-population-teruel line-population">
-                <svg>
-                    <g class="line-population-teruel-container"></g>
-                </svg>
-            </article>
-        </section>
-        <section class="container-chart">
-            <div class="section-text">
-                <h4 class="subtittle">Edad de la población - Teruel</h4>
-                <p class="text">En la siguiente gráfica podemos ver el porcentaje de <span class="bold">menores de 18 años</span> y <span class="bold">mayores de 65 años</span> que vive en cada municipio, los datos son del INE a fecha de 2018. La excepción es que el porcentaje de menores sea superior al 20% de la población. Lo habitual es que el porcentaje de mayores de 65 años sea superior al 20%.</p>
-                <span class="data">Los datos provienen del INE a fecha 2018.</span>
-            </div>
-            <div class="filters">
-                <p class="filters-title">FILTROS</p>
-                <div class="filter-element">
-                    <h6 class="filters-subtitle">Municipio</h6>
-                    <select id="filter-city-teruel"></select>
-                </div>
-                <div class="filter-element">
-                    <h6 class="filters-subtitle">% de mayores</h6>
-                    <select id="percentage-over-city-teruel">
-                        <option value="0">0%</option>
-                        <option value="10">10%</option>
-                        <option value="20">20%</option>
-                        <option value="30">30%</option>
-                        <option value="40">40%</option>
-                        <option value="50">50%</option>
-                        <option value="60">60%</option>
-                    </select>
-                </div>
-                <div class="filter-element">
-                    <h6 class="filters-subtitle">% de menores</h6>
-                    <select id="percentage-under-city-teruel">
-                        <option value="0">0%</option>
-                        <option value="10">10%</option>
-                        <option value="20">20%</option>
-                        <option value="30">30%</option>
-                    </select>
-                </div>
-                <div class="filter-element">
-                    <button class="filter-button" id="clear-filter-teruel">BORRAR FILTROS</button>
-                </div>
-            </div>
-            <article class="scatter scatter-teruel">
-                <svg>
-                    <g class="scatter-teruel-container"></g>
-                </svg>
-            </article>
-        </section>
-        <section class="container-chart">
-            <div class="section-text">
-                <h4 class="subtittle">Saldo vegetativo en Teruel</h4>
-                <p class="text">El saldo vegetativo es el resultado del número de nacimientos menos el número de fallecimientos. En esta gráfica podemos ver el <span class="bold">resultado total de todos los municipios de Teruel</span>.</p>
-                <span class="data">Los datos provienen de <a href="https://populate.tools/data/">Populate Data</a> a fecha 2018.</span>
-            </div>
-            <article class="bar-negative bar-negative-teruel">
-                <svg class="bar-negative-chart">
-                    <g class="bar-negative-teruel-container"></g>
-                </svg>
-            </article>
-        </section>
-    </section>
-    <section class="labordeta">
-        <p class="text labordeta-song">Tierra abandonada por el buitre carroñero, promesas olvidadas...</p>
-    </section>
-    <section class="container container-bgc">
+      </div>
+      <section class="container-chart">
         <div class="section-text">
-            <h3 id="huesca" class="title">Huesca</h3>
-            <p class="header-ronda">
-                <span class="header-ronda-text">Hay una cruz en El Saso</span>
-                <span class="header-ronda-text">donde los mastines aúllan soledad,</span>
-                <span class="header-ronda-text">donde cada noche enciendo el fuego pa' cenar</span>
-                <span class="header-ronda-text">migas, uva y vino por los que se han ido.</span>
-                <span class="header-ronda-text">Yo maldigo la ciudad.</span>
-                <span class="header-ronda-text">"Padre, que el pueblo ya no es pa' vivir,</span>
-                <span class="header-ronda-text">venga con nosotros a Madrid..."</span>
-                <span class="header-ronda-text">Así me hablan mis hijos pero yo me quedo,</span>
-                <span class="header-ronda-text">y aquí he de morir.</span>
-                <a href="https://www.youtube.com/watch?v=i_r15tHZX_Y" class="header-ronda-text">Más birras - Hay una cruz en el Saso</a>
-            </p>
-            <div class="container-chart">
-                <p class="text">La provincia de Huesca ha seguido un camino parecido a la de Teruel, pero al contrario de esta Huesca comenzo una ligera recuperación de población a partir del año 2000. Por desgracia la recuperación no es igual para todos los municipios, y 141 de estos tienen una densidad inferior a 10hab/km2.</p>
-            </div>
+          <h4 class="subtittle">Aragón, un desierto demográfico</h4>
+          <p class="text">Una <span class="bold">densidad inferior a 10 hab/km2</span> se considera <span class="bold">desierto demográfico</span>.Las cifras son demoledoras, en Aragón <span class="bold">519 municipios están por debajo del umbral de desierto demográfico</span>. El desglose por provincia es el siguiente: Teruel 197, Huesca 141 y Zaragoza 181.</p>
         </div>
-        <section class="container-chart line-province-huesca">
-            <div class="section-text">
-                <h4 class="subtittle">Evolución de la población - Huesca</h4>
-                <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Huesca desde 1900 hasta 2019.</p>
-                <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Los datos de 2018 y 2019 son del INE.</span>
-            </div>
-            <article class="line-huesca">
-                <svg class="line-chart">
-                    <g class="line-huesca-container"></g>
-                </svg>
-            </article>
-        </section>
-        <section class="container-chart huesca-line">
-            <div class="section-text">
-                <h4 class="subtittle">Evolución de la población por municipio en Huesca.</h4>
-                <p class="text">En la siguiente gráfica podemos ver como ha ido evolucionando la población de cada uno de los municipios de la provincia de Huesca desde 1900 hasta 2019.</p>
-                <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Los datos de 2018 y 2019 son del INE.</span>
-            </div>
-            <select id="select-city-huesca"></select>
-            <article class="line-population line-population-huesca">
-                <svg>
-                    <g class="line-population-huesca-container"></g>
-                </svg>
-            </article>
-        </section>
-        <section class="container-chart">
-            <div class="section-text">
-                <h4 class="subtittle">Edad de la población - Huesca</h4>
-                <p class="text">En la siguiente gráfica podemos ver el porcentaje de <span class="bold">menores de 18 años</span> y <span class="bold">mayores de 65 años</span> que vive en cada municipio, los datos son del INE a fecha de 2018. La excepción es que el porcentaje de menores sea superior al 20% de la población. Lo habitual es que el porcentaje de mayores de 65 años sea superior al 20%.</p>
-                <span class="data">Los datos provienen del INE a fecha 2018.</span>
-            </div>
-            <div class="filters">
-                <p class="filters-title">FILTROS</p>
-                <div class="filter-element">
-                    <h6 class="filters-subtitle">Municipio</h6>
-                    <select id="filter-city-huesca"></select>
-                </div>
-                <div class="filter-element">
-                    <h6 class="filters-subtitle">% de mayores</h6>
-                    <select id="percentage-over-city-huesca">
-                        <option value="0">0%</option>
-                        <option value="10">10%</option>
-                        <option value="20">20%</option>
-                        <option value="30">30%</option>
-                        <option value="40">40%</option>
-                        <option value="50">50%</option>
-                        <option value="60">60%</option>
-                    </select>
-                </div>
-                <div class="filter-element">
-                    <h6 class="filters-subtitle">% de menores</h6>
-                    <select id="percentage-under-city-huesca">
-                        <option value="0">0%</option>
-                        <option value="10">10%</option>
-                        <option value="20">20%</option>
-                        <option value="30">30%</option>
-                    </select>
-                </div>
-                <div class="filter-element">
-                    <button class="filter-button" id="clear-filter-huesca">BORRAR FILTROS</button>
-                </div>
-            </div>
-            <article class="scatter scatter-huesca">
-                <svg>
-                    <g class="scatter-huesca-container"></g>
-                </svg>
-            </article>
-        </section>
-        <section class="container-chart">
-            <div class="section-text">
-                <h4 class="subtittle">Saldo vegetativo en Huesca</h4>
-                <p class="text">El saldo vegetativo es el resultado del número de nacimientos menos el número de fallecimientos. En esta gráfica podemos ver el <span class="bold">resultado total de todos los municipios de Huesca</span>.</p>
-                <span class="data">Los datos provienen de <a href="https://populate.tools/data/">Populate Data</a> a fecha 2018.</span>
-            </div>
-            <article class="bar-negative bar-negative-huesca">
-                <svg class="bar-negative-chart">
-                    <g class="bar-negative-huesca-container"></g>
-                </svg>
-            </article>
-        </section>
-    </section>
-    <section class="labordeta">
-        <p class="text labordeta-song">Lejos del valle y de la capital,
-            donde la cordillera se hace azul,
-            donde la distancia es el monte
-            y al cielo se le trata de tu a tu.</p>
-    </section>
-    <section class="container container-bgc">
-        <div class="section-text">
-            <h3 id="zaragoza" class="title">Zaragoza</h3>
-            <p class="header-ronda">
-                <span class="header-ronda-text">Siempre te recuerdo "Vieja"</span>
-                <span class="header-ronda-text">Sentada junto al portal</span>
-                <span class="header-ronda-text">Acariciando la lumbre</span>
-                <span class="header-ronda-text">La cadiera y el pozal</span>
-                <span class="header-ronda-text">La tristeza de tus ojos de tanto mirar</span>
-                <span class="header-ronda-text">Hijos que van hacia Francia</span>
-                <span class="header-ronda-text">Y otros hacia la ciudad</span>
-                <span class="header-ronda-text">El Miguel dice que va bueno</span>
-                <span class="header-ronda-text">Y parió la del Julian</span>
-                <a href="https://www.youtube.com/watch?v=jtEKnb4B2_M" class="header-ronda-text">Labordeta - La Vieja</a>
-            </p>
-            <div class="container-chart">
-                <p class="text">Zaragoza al contrario que sus hermanas ha doblado la población en menos de un siglo. Su privilegiada situación en el valle del Ebro y con menos de 300KM de distancia de Madrid, Barcelona, Valencia y Bilbao ha hecho que algunos municipios de la provincia y sobre todo la propia capital aumenten su población. Es la única de las tres pronvicias que entre 2006 y 2011 tuvo un saldo vegetativo positivo. En 2017 el número de fallecidos fue el más alto de la serie(1996-2017), y el de nacidos fue el más bajo desde 2003.</p>
-            </div>
-        </div>
-        <section class="container-chart line-province-zaragoza">
-            <div class="section-text">
-                <h4 class="subtittle">Evolución de la población - Zaragoza</h4>
-                <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Zaragoza desde 1900 hasta 2019.</p>
-                <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Los datos de 2018 y 2019 son del INE.</span>
-            </div>
-            <article class="line-zaragoza">
-                <svg class="line-chart">
-                    <g class="line-zaragoza-container"></g>
-                </svg>
-            </article>
-        </section>
-        <section class="container-chart zaragoza-line">
-            <div class="section-text">
-                <h4 class="subtittle">Evolución de la población por municipio en Zaragoza.</h4>
-                <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población de cada uno de los municipios de la provincia de Zaragoza desde 1900 hasta 2019.</p>
-                <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Los datos de 2018 y 2019 son del INE.</span>
-            </div>
-            <select id="select-city-zaragoza"></select>
-            <article class="line-population line-population-zaragoza">
-                <svg>
-                    <g class="line-population-zaragoza-container"></g>
-                </svg>
-            </article>
-        </section>
-        <section class="container-chart">
-            <div class="section-text">
-                <h4 class="subtittle">Edad de la población - Zaragoza</h4>
-                <p class="text">En la siguiente gráfica podemos ver el porcentaje de <span class="bold">menores de 18 años</span> y <span class="bold">mayores de 65 años</span> que vive en cada municipio. La excepción es que el porcentaje de menores sea superior al 20% de la población. Lo habitual es que el porcentaje de mayores de 65 años sea superior al 20%.</p>
-                <span class="data">Los datos provienen del INE a fecha 2018.</span>
-            </div>
-            <div class="filters">
-                <p class="filters-title">FILTROS</p>
-                <div class="filter-element">
-                    <h6 class="filters-subtitle">Municipio</h6>
-                    <select id="filter-city-zaragoza"></select>
-                </div>
-                <div class="filter-element">
-                    <h6 class="filters-subtitle">% de mayores</h6>
-                    <select id="percentage-over-city-zaragoza">
-                        <option value="0">0%</option>
-                        <option value="10">10%</option>
-                        <option value="20">20%</option>
-                        <option value="30">30%</option>
-                        <option value="40">40%</option>
-                        <option value="50">50%</option>
-                        <option value="60">60%</option>
-                    </select>
-                </div>
-                <div class="filter-element">
-                    <h6 class="filters-subtitle">% de menores</h6>
-                    <select id="percentage-under-city-zaragoza">
-                        <option value="0">0%</option>
-                        <option value="10">10%</option>
-                        <option value="20">20%</option>
-                        <option value="30">30%</option>
-                    </select>
-                </div>
-                <div class="filter-element">
-                    <button class="filter-button" id="clear-filter-zaragoza">BORRAR FILTROS</button>
-                </div>
-            </div>
-            <article class="scatter scatter-zaragoza">
-                <svg>
-                    <g class="scatter-zaragoza-container"></g>
-                </svg>
-            </article>
-        </section>
-        <section class="container-chart">
-            <div class="section-text">
-                <h4 class="subtittle">Saldo vegetativo en Zaragoza</h4>
-                <p class="text">El saldo vegetativo es el resultado del número de nacimientos menos el número de fallecimientos. En esta gráfica podemos ver el <span class="bold">resultado total de todos los municipios de Zaragoza</span>.</p>
-                <span class="data">Los datos provienen de <a href="https://populate.tools/data/">Populate Data</a> a fecha 2018.</span>
-            </div>
-            <article class="bar-negative bar-negative-zaragoza">
-                <svg class="bar-negative-chart">
-                    <g class="bar-negative-zaragoza-container"></g>
-                </svg>
-            </article>
-        </section>
-        <section class="container-chart">
-            <div class="section-text">
-                <h4 id="testimonios" class="subtittle">¿Qué podemos hacer?</h4>
-                <span class="author-text">Por <a href="https://twitter.com/Eslampa">Anchel Reyes</a>, Sociólogo.</span>
-                <button id="aragones" class="btn-text">Leer en Aragonés</button>
-                <button id="castellano" class="btn-text">Leer en Castellano</button>
-                <div class="castellano">
-                    <p class="text">En el siglo XXI, por primera vez en la historia de la humanidad, más de la mitad de la población mundial vive en las ciudades, mientras que el resto del territorio tiende a perder peso poblacional, pero también político y económico (ONU, 2004). Este proceso responde a la lógica de la acumulación de “capital” humano en poco espacio.</p>
-                    <p class="text">En Aragón esta realidad también se ha dado desde principios del siglo pasado, observando de una forma muy gráfica como la mayoría de nuestra población emigraba a las ciudades, especialmente a nuestra capital, sumiendo a la mayoría de las comarcas en una dinámica negativa.</p>
-                    <p class="text">Para trabajar a favor de la revitalización de nuestros pueblos y comarcas es esencial entender que toda solución ha de partir del motor de las personas, empresas, colectivos y asociaciones del territorio, y han de contar con la complicidad y el apoyo de las diferentes instituciones públicas. Es necesario organizar y coordinar los esfuerzos en una dinámica positiva, buscando estrategias a medio y a largo plazo.</p>
-                    <p class="text">Además, se ha de fomentar unos pueblos atractivos para la juventud y especialmente para las mujeres jóvenes. Traspasar el liderazgo de los proyectos a la gente joven y generar arraigo nos permite hacer atractivas las comarcas. La lucha por la repoblación ha de tener un enfoque integral, generando las condiciones propicias para un buen vivir en nuestros pueblos, fomentando el acceso a un empleo y una vivienda digna, el acceso a una socialización y unos servicios de calidad y el reparto equitativo de los cuidados que todas las personas necesitamos a lo largo de nuestra vida. En definitiva, es necesaria la redistribución de la riqueza y de las decisiones en el territorio y el fomento del buen vivir.</p>
-                </div>
-                <div class="aragones">
-                    <p class="text">En o sieglo XXI, por primera vegada en a historia d'a humanidat, mas d'a metat d'a población mundial vive en as ciudatz, mientres que la resta d'o territorio tiende a perder peso poblacional, pero tamién politico y economico. Este proceso responde a la lochica de l'acumulación de “capital” humano en poco espacio.</p>
-                    <p class="text">En Aragón esta realidat tamién s'ha dau dende prencipios d'o sieglo pasau, observando-se d'una forma muit grafica como la mayoría d'a nuestra población se’n iba enta las ciudatz, mas que mas enta la nuestra capital, sumiendo a la mayoría d'as comarcas en una dinamica negativa.</p>
-                    <p class="text">Pa treballar a favor d'a revitalización d'os nuestros lugars y comarcas ye esencial entender que toda solución ha de naixer d'o motor d'as personas, empresas, colectivos y asociacions d'o territorio, y ha de contar con a complicidat y l'emparo d'as diferents institucions publicas. Ye menister organizar y coordinar los esfuerzos en una dinamica positiva, mirando estratechias a meyo y a largo plazo.</p>
-                    <p class="text"> Amás, s'ha de fomentar unos lugars atractivos pa la chovenalla y especialment pa las mullers chovens. Traspasar lo liderazgo d'os prochectos a la chent choven y chenerar enradigamiento nos permite fer atractivas las comarcas. La luita por la repoblación ha de tener un enfoque integral, chenerando las condicions propicias pa un buen vivir en os nuestros lugars, fomentando l'acceso a un triballo y una vivienda dignas, l'acceso a una socialización y unos servicios de calidat y lo reparto equitativo d'os cudiaus que nos fan falta a todas las personas a lo largo d'a nuestra vida. En definitiva, ye necesaria la redistribución d'a riqueza y d'as decisions en o territorio y lo fomento d'o buen vivir.</p>
-                </div>
-            </div>
-        </section>
-        </section>
-    <section class="container">
-        <section class="metodology">
-            <div class="section-text">
-                <article class="container-chart">
-                    <h3 class="metodology-title">Metodología</h3>
-                    <p class="metodology-text">El dataset principal es la serie histórica de población por municipios de 1900 a 2011. Está disponible en <a href="https://opendata.aragon.es/datos/catalogo/dataset/serie-historica-de-poblacion-municipios">Aragón Open Data</a>. He actualizado este dataset con los datos oficiales del censo en 2018 del INE, revisados y actualizados en enero de 2019. A partir de este he ido generando más datasets gracias a la poderosa combinación de <a href="https://csvkit.readthedocs.io/en/1.0.3/">csvkit</a> + <a href="https://stedolan.github.io/jq/">jq</a> + Bash. He ido documentado todo el proceso, esta disponible <a href="https://github.com/jorgeatgu/la-casa-caida/blob/master/data/readme.md">aquí</a>.</p>
-                    <p class="metodology-text">La horquilla de edad del porcentaje de mayores va desde los 65 años hasta 100 años o más. Lo horquilla para el de menores de 18 años va desde los 0 años hasta los 18 años inclusive. Estas dos series de datos provienen del INE a fecha de 2018.</p>
-                    <p class="metodology-text">El saldo vegetativo entre 1975 y 2017 proviene de <a href="https://populate.tools/data/">Populate Data</a>.</p>
-                    <p class="metodology-text">La densidad de población es igual al número de habitantes dividido por la superficie en kilometros cuadrados del municipio. La superficie de cada municipio de Aragón esta en este <a href="https://gist.githubusercontent.com/jorgeatgu/40eaa471b02add6d9a7a9aca33fc8bd5/raw/ef7d384a0749df4f9b3594c76b432026344b0df9/aragon.json">dataset</a>. Los datos de población perfetenecen al INE del 2018.</p>
-                    <p class="metodology-text">Los municipios no están ordenados alfabéticamente, están ordenados por Código Postal ya que así los distribuye el INE.</p>
-                    <p class="metodology-text">Todos los datos los he dividido por provincia. Y están disponibles <a href="https://github.com/jorgeatgu/la-casa-caida/tree/master/data">aquí</a>.</p>
-                    <p class="metodology-text">Veracruz desde 2011 se llama oficialmente Beranuy. <a href="https://www.elperiodicodearagon.com/noticias/aragon/el-municipio-de-veracruz-se-llama-desde-ayer-beranuy_679601.html">Noticia</a></p>
-                </article>
-                <article class="container-chart">
-                    <h3 id="enlaces" class="metodology-title">Enlaces de interés</h3>
-                    <p class="metodology-text">Angelines Villacampa de Casa Mallau <a href="https://www.youtube.com/watch?v=qUcBVpynYpE">[video]</a> <a href="http://www.diariodelaltoaragon.es/NoticiasDetalle.aspx?Id=793390">[articulo]</a></p>
-                    <p class="metodology-text">Ainielle tiene memoria <a href="http://www.rtve.es/alacarta/videos/cronicas/cronicas-ainielle-tiene-memoria/221225/?pais=ES">[documental]</a></p>
-                    <p class="metodology-text">Sol a l'Estall <a href="https://www.ccma.cat/tv3/alacarta/programa/Sol-a-lEstall/video/1407949/">[documental]</a></p>
-                    <p class="metodology-text">Mediano, la memoria ahogada <a href="https://www.youtube.com/watch?v=bKJ8U9vVo5k">[documental]</a></p>
-                    <p class="metodology-text">Paisajes con memoria. Despoblados del Alto Aragón<a href="http://www.prames.com/libreria_individual_$.asp?publica=707">[libro]</a></p>
-                    <p class="metodology-text">Despoblados en Huesca. Un impresionante trabajo de documentación de Cristian Laglera.<a href="http://www.editorialpirineo.com/239-pueblos-despoblados-de-huesca-tomo-1-ribagorza-litera.html">[libros]</a></p>
-                    <p class="metodology-text">La soledad de Sobrepuerto <a href="https://www.altairmagazine.com/voces/la-soledad-de-sobrepuerto">[artículo]</a></p>
-                    <p class="metodology-text">La despoblación en Aragón <a href="http://www.eljusticiadearagon.com/gestor/ficheros/_n000146_La%20despoblaci%F3n%20en%20Arag%F3n.PDF">[informe]</a></p>
-                    <p class="metodology-text">El problema de la despoblación en Aragón <a href="https://dialnet.unirioja.es/servlet/articulo?codigo=104079">[informe]</a></p>
-                    <p class="metodology-text">Casa Tía Julia en Ciria y Reznos <a href="https://www.youtube.com/watch?v=WFEBYQqFxB4&feature=youtu.be">[video]</a></p>
-                    <p class="metodology-text">Serranía Celtiberica <a href="http://www.celtiberica.es">[web/asociación]</a></p>
-                    <p class="metodology-text">Densidad de población en la provincia de Teruel <a href="https://jorgeatgu.carto.com/builder/06aff34f-01ff-4f46-a8db-cfc481928e90/embed">[mapa]</a></p>
-                    <p class="metodology-text">Densidad de población en la provincia de Huesca <a href="https://jorgeatgu.carto.com/builder/c822b27a-c323-41c7-8b97-7fdbc7f14938/embed">[mapa]</a></p>
-                    <p class="metodology-text">Densidad de población en la provincia de Zaragoza <a href="https://jorgeatgu.carto.com/builder/69151566-6ec4-47cf-9f08-924be08f3f96/embed">[mapa]</a></p>
-                    <p class="metodology-text">Evolución demográfica de España (2013-2018) <a href="https://geogeeks.maps.arcgis.com/apps/opsdashboard/index.html#/af7763f8ec6c42b5873b8ccc04dc46b2">[mapa interactivo]</a></p>
-                    <p class="metodology-text">Más de la mitad de la población vive en áreas urbanas y seguirá creciendo <a href="http://www.un.org/es/development/desa/news/population/world-urbanization-prospects-2014.html">[artículo]</a></p>
-                    <p class="metodology-text">Múltiples mapas sobre La España Vacía <a href="https://geogeeks.maps.arcgis.com/apps/MinimalGallery/index.html?appid=d857f9639e664fffa9d17ce0f732490c#">[web]</a></p>
-                </article>
-                <article class="container-chart">
-                    <h3 class="metodology-title">Créditos</h3>
-                    <p class="metodology-text">Todos los datos provienen de <a href="https://opendata.aragon.es">Aragon Open Data</a>, <a href="https://www.ine.es/welcome.shtml">INE</a> y <a href="http://www.aragon.es/iaest">IAEST</a>.</p>
-                    <p class="metodology-text">Para el dropdown he usado <a href="http://slimselectjs.com">SlimSelect</a>.</p>
-                    <p class="metodology-text">Para las animaciones he usado <a href="https://animejs.com">animeJS</a>.</p>
-                    <p class="metodology-text">Para las animaciones en d3 he usado <a href="https://github.com/pbeshai/d3-interpolate-path">d3-interpolate-path</a>.</p>
-                    <p class="metodology-text">Infinitas gracias a <a href="https://twitter.com/NTKOG">Jorge</a> que hace un tiempo me descubrió jq. Lo cual hace que ahorre días cuando tengo que procesar, analizar y generar datasets. <span class="bold">It's magic</span>.</p>
-                </article>
-            </div>
-        </section>
-        <h3 class="proyectos-title">Otros proyectos</h3>
-        <article class="proyectos">
-
-            <a href="https://vulturno.co" class="proyectos-element proyecto-8">
-                <h2 class="proyectos-element-title proyecto-8-text">VULTURNO</h2>
-                <span class="proyectos-element-subtitle proyecto-8-text">[ DATAVIZ ]</span>
-                <p class="proyectos-element-text proyecto-8-text">Una visualización de datos sobre la evolución de las temperatuas en 47 estaciones de la AEMET.</p>
-            </a>
-            <a href="https://demasiadas.now.sh" class="proyectos-element proyecto-10">
-                <h2 class="proyectos-element-title proyecto-10-text">DEMASIADAS</h2>
-                <span class="proyectos-element-subtitle proyecto-10-text">[ DATAVIZ ]</span>
-                <p class="proyectos-element-text proyecto-10-text">Una visualización de datos sobre la violencia de género. Desde el año 2000 más de 1000 mujeres han sido asesinadas.</p>
-            </a>
-            <a href="https://bislai.co" class="proyectos-element proyecto-1">
-                <h2 class="proyectos-element-title proyecto-1-text">BISLAI </h2>
-                <span class="proyectos-element-subtitle proyecto-1-text">[ DATAVIZ - OPENDATA ]</span>
-                <p class="proyectos-element-text proyecto-1-text">Fiscalización de las mociones que presentan los grupos politicos en el Ayuntamiento de Zaragoza.</p>
-            </a>
-            <a href="https://28a-zaragoza.now.sh" class="proyectos-element proyecto-12">
-                <h2 class="proyectos-element-title proyecto-12-text">ELECCIONES 28A - 2019</h2>
-                <span class="proyectos-element-subtitle proyecto-12-text">[ DATAVIZ ]</span>
-                <p class="proyectos-element-text proyecto-12-text">Una visualización de datos con los votos a cada una de las secciones censales de la ciudad de Zaragoza.</p>
-            </a>
-            <a href="https://wiki-cachitos.now.sh" class="proyectos-element proyecto-2">
-                <h2 class="proyectos-element-title proyecto-2-text">WIKI CACHITOS</h2>
-                <span class="proyectos-element-subtitle proyecto-2-text">[ DATAVIZ ]</span>
-                <p class="proyectos-element-text proyecto-2-text">¿Cuánto aumentan las visitas a la Wikipedia cuando un artista sale en Cachitos? </p>
-            </a>
-            <a href="https://jorgeatgu.com/data-mestika" class="proyectos-element proyecto-4">
-                <h2 class="proyectos-element-title proyecto-4-text">DATA-MESTIKA</h2>
-                <span class="proyectos-element-subtitle proyecto-4-text">[ DATAVIZ ]</span>
-                <p class="proyectos-element-text proyecto-4-text">Una visualización de datos sobre todas las ofertas de trabajo ofertadas en Domestika a lo largo de 10 años.</p>
-            </a>
+        <article class="scatter-desert">
+          <svg class="scatter-chart">
+            <g class="scatter-desert-container"></g>
+          </svg>
         </article>
+      </section>
+    </div>
+    <div class="container-desert">
+      <div class="section-text">
+        <h4 class="subtittle">Distribución de la población en Aragón</h4>
+        <p class="text">Una gráfica para ver cómo ha ido evolucionando la aportación de cada provincia al total de población en Aragón.</p>
+      </div>
+      <article class="aragon-stack">
+        <svg>
+          <g class="aragon-stack-container"></g>
+        </svg>
+      </article>
+    </div>
+  </section>
+  <section class="labordeta">
+    <p class="text labordeta-song">Polvo, niebla, viento y <span class="bold">despoblación.</span></p>
+  </section>
+  <section class="container container-bgc">
+    <section class="container-chart ">
+      <div class="section-text">
+        <h3 id="teruel" class="title">Teruel ¿existe?</h3>
+        <p class="header-ronda">
+          <span class="header-ronda-text">Lagrimas caídas, siglos de exclusión,</span>
+          <span class="header-ronda-text">dádivas perdidas en el fondo de un cajón.</span>
+          <span class="header-ronda-text">Tierra abandonada para el buitre carroñero,</span>
+          <span class="header-ronda-text">promesas olvidadas en el vertedero.</span>
+          <span class="header-ronda-text">Somos made in Teruel, made in Teruel,</span>
+          <span class="header-ronda-text">estamos que no estamos para mal o para bien.</span>
+          <span class="header-ronda-text">Jóvenes parados tienen que partir.</span>
+          <span class="header-ronda-text">Viejos resignados sólo les queda vivir viendo como mueren sus raíces</span>
+          <a href="https://www.youtube.com/watch?v=Ur3-qy4bd-s" class="header-ronda-text">Azero - Made In Teruel</a>
+        </p>
+        <div class="container-chart">
+          <p class="text">Teruel existe para aquellos que tuvieron que marchar en busca de un futuro mejor, en aquellos que se quedaron y en aquellos que darían todo por quedarse cuando se acaba el verano. No existe para aquellos que gobernaron, gobiernan y gobernarán. Las cifras son claras en 50 años ha perdido casi el 50% de su población. En 24 municipios no hay un solo habitante que sea menor de 18 años. En 73 municipios hay menos de 5 habitantes menores de 18 años.</p>
+          <p class="text">El futuro se marcha, obligado por aquellos que pudieron hacer algo y ni tan si quiera lo intentaron.</p>
+        </div>
+      </div>
+      <div class="section-text">
+        <h4 class="subtittle">Evolución de la población - Teruel</h4>
+        <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Teruel desde 1900 hasta 2019.</p>
+        <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Los datos de 2018 y 2019 son del INE.</span>
+      </div>
+      <article class="line-teruel">
+        <svg class="line-chart">
+          <g class="line-teruel-container"></g>
+        </svg>
+      </article>
     </section>
-
-        <footer class="footer">
-            <div class="container-chart">
-                <p class="footer-texto">Hecho en Zaragoza con mucha maña por un <a class="footer-links" href="http://jorgeatgu.com" target="_blank">maño</a> - MMXIX</p>
-                <p class="footer-texto">Cualquier consulta escribid a: data@jorgeatgu.com</p>
-                <a class="footer-links" href="https://github.com/jorgeatgu/la-casa-caida">Todo el código y datos está disponible en GitHub</a>
-            </div>
-        </footer>
-        <script src="js/anime.min.js"></script>
-        <script src="js/d3.min.js"></script>
-        <script src="js/d3-interpolate-path.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.18.7/slimselect.min.js"></script>
-        <script src="js/index.js"></script>
+    <section class="container-chart teruel-line">
+      <div class="section-text">
+        <h4 class="subtittle">Evolución de la población por municipio Teruel</h4>
+        <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población de cada uno de los municipios de la provincia de Teruel desde 1900 hasta 2019.</p>
+        <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Los datos de 2018 y 2019 son del INE.</span>
+      </div>
+      <select id="select-city-teruel"></select>
+      <article class="line-population-teruel line-population">
+        <svg>
+          <g class="line-population-teruel-container"></g>
+        </svg>
+      </article>
+    </section>
+    <section class="container-chart">
+      <div class="section-text">
+        <h4 class="subtittle">Edad de la población - Teruel</h4>
+        <p class="text">En la siguiente gráfica podemos ver el porcentaje de <span class="bold">menores de 18 años</span> y <span class="bold">mayores de 65 años</span> que vive en cada municipio, los datos son del INE a fecha de 2018. La excepción es que el porcentaje de menores sea superior al 20% de la población. Lo habitual es que el porcentaje de mayores de 65 años sea superior al 20%.</p>
+        <span class="data">Los datos provienen del INE a fecha 2018.</span>
+      </div>
+      <div class="filters">
+        <p class="filters-title">FILTROS</p>
+        <div class="filter-element">
+          <h6 class="filters-subtitle">Municipio</h6>
+          <select id="filter-city-teruel"></select>
+        </div>
+        <div class="filter-element">
+          <h6 class="filters-subtitle">% de mayores</h6>
+          <select id="percentage-over-city-teruel">
+            <option value="0">0%</option>
+            <option value="10">10%</option>
+            <option value="20">20%</option>
+            <option value="30">30%</option>
+            <option value="40">40%</option>
+            <option value="50">50%</option>
+            <option value="60">60%</option>
+          </select>
+        </div>
+        <div class="filter-element">
+          <h6 class="filters-subtitle">% de menores</h6>
+          <select id="percentage-under-city-teruel">
+            <option value="0">0%</option>
+            <option value="10">10%</option>
+            <option value="20">20%</option>
+            <option value="30">30%</option>
+          </select>
+        </div>
+        <div class="filter-element">
+          <button class="filter-button" id="clear-filter-teruel">BORRAR FILTROS</button>
+        </div>
+      </div>
+      <article class="scatter scatter-teruel">
+        <svg>
+          <g class="scatter-teruel-container"></g>
+        </svg>
+      </article>
+    </section>
+    <section class="container-chart">
+      <div class="section-text">
+        <h4 class="subtittle">Saldo vegetativo en Teruel</h4>
+        <p class="text">El saldo vegetativo es el resultado del número de nacimientos menos el número de fallecimientos. En esta gráfica podemos ver el <span class="bold">resultado total de todos los municipios de Teruel</span>.</p>
+        <span class="data">Los datos provienen de <a href="https://populate.tools/data/">Populate Data</a> a fecha 2018.</span>
+      </div>
+      <article class="bar-negative bar-negative-teruel">
+        <svg class="bar-negative-chart">
+          <g class="bar-negative-teruel-container"></g>
+        </svg>
+      </article>
+    </section>
+  </section>
+  <section class="labordeta">
+    <p class="text labordeta-song">Tierra abandonada por el buitre carroñero, promesas olvidadas...</p>
+  </section>
+  <section class="container container-bgc">
+    <div class="section-text">
+      <h3 id="huesca" class="title">Huesca</h3>
+      <p class="header-ronda">
+        <span class="header-ronda-text">Hay una cruz en El Saso</span>
+        <span class="header-ronda-text">donde los mastines aúllan soledad,</span>
+        <span class="header-ronda-text">donde cada noche enciendo el fuego pa' cenar</span>
+        <span class="header-ronda-text">migas, uva y vino por los que se han ido.</span>
+        <span class="header-ronda-text">Yo maldigo la ciudad.</span>
+        <span class="header-ronda-text">"Padre, que el pueblo ya no es pa' vivir,</span>
+        <span class="header-ronda-text">venga con nosotros a Madrid..."</span>
+        <span class="header-ronda-text">Así me hablan mis hijos pero yo me quedo,</span>
+        <span class="header-ronda-text">y aquí he de morir.</span>
+        <a href="https://www.youtube.com/watch?v=i_r15tHZX_Y" class="header-ronda-text">Más birras - Hay una cruz en el Saso</a>
+      </p>
+      <div class="container-chart">
+        <p class="text">La provincia de Huesca ha seguido un camino parecido a la de Teruel, pero al contrario de esta Huesca comenzo una ligera recuperación de población a partir del año 2000. Por desgracia la recuperación no es igual para todos los municipios, y 141 de estos tienen una densidad inferior a 10hab/km2.</p>
+      </div>
+    </div>
+    <section class="container-chart line-province-huesca">
+      <div class="section-text">
+        <h4 class="subtittle">Evolución de la población - Huesca</h4>
+        <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Huesca desde 1900 hasta 2019.</p>
+        <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Los datos de 2018 y 2019 son del INE.</span>
+      </div>
+      <article class="line-huesca">
+        <svg class="line-chart">
+          <g class="line-huesca-container"></g>
+        </svg>
+      </article>
+    </section>
+    <section class="container-chart huesca-line">
+      <div class="section-text">
+        <h4 class="subtittle">Evolución de la población por municipio en Huesca.</h4>
+        <p class="text">En la siguiente gráfica podemos ver como ha ido evolucionando la población de cada uno de los municipios de la provincia de Huesca desde 1900 hasta 2019.</p>
+        <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Los datos de 2018 y 2019 son del INE.</span>
+      </div>
+      <select id="select-city-huesca"></select>
+      <article class="line-population line-population-huesca">
+        <svg>
+          <g class="line-population-huesca-container"></g>
+        </svg>
+      </article>
+    </section>
+    <section class="container-chart">
+      <div class="section-text">
+        <h4 class="subtittle">Edad de la población - Huesca</h4>
+        <p class="text">En la siguiente gráfica podemos ver el porcentaje de <span class="bold">menores de 18 años</span> y <span class="bold">mayores de 65 años</span> que vive en cada municipio, los datos son del INE a fecha de 2018. La excepción es que el porcentaje de menores sea superior al 20% de la población. Lo habitual es que el porcentaje de mayores de 65 años sea superior al 20%.</p>
+        <span class="data">Los datos provienen del INE a fecha 2018.</span>
+      </div>
+      <div class="filters">
+        <p class="filters-title">FILTROS</p>
+        <div class="filter-element">
+          <h6 class="filters-subtitle">Municipio</h6>
+          <select id="filter-city-huesca"></select>
+        </div>
+        <div class="filter-element">
+          <h6 class="filters-subtitle">% de mayores</h6>
+          <select id="percentage-over-city-huesca">
+            <option value="0">0%</option>
+            <option value="10">10%</option>
+            <option value="20">20%</option>
+            <option value="30">30%</option>
+            <option value="40">40%</option>
+            <option value="50">50%</option>
+            <option value="60">60%</option>
+          </select>
+        </div>
+        <div class="filter-element">
+          <h6 class="filters-subtitle">% de menores</h6>
+          <select id="percentage-under-city-huesca">
+            <option value="0">0%</option>
+            <option value="10">10%</option>
+            <option value="20">20%</option>
+            <option value="30">30%</option>
+          </select>
+        </div>
+        <div class="filter-element">
+          <button class="filter-button" id="clear-filter-huesca">BORRAR FILTROS</button>
+        </div>
+      </div>
+      <article class="scatter scatter-huesca">
+        <svg>
+          <g class="scatter-huesca-container"></g>
+        </svg>
+      </article>
+    </section>
+    <section class="container-chart">
+      <div class="section-text">
+        <h4 class="subtittle">Saldo vegetativo en Huesca</h4>
+        <p class="text">El saldo vegetativo es el resultado del número de nacimientos menos el número de fallecimientos. En esta gráfica podemos ver el <span class="bold">resultado total de todos los municipios de Huesca</span>.</p>
+        <span class="data">Los datos provienen de <a href="https://populate.tools/data/">Populate Data</a> a fecha 2018.</span>
+      </div>
+      <article class="bar-negative bar-negative-huesca">
+        <svg class="bar-negative-chart">
+          <g class="bar-negative-huesca-container"></g>
+        </svg>
+      </article>
+    </section>
+  </section>
+  <section class="labordeta">
+    <p class="text labordeta-song">Lejos del valle y de la capital,
+      donde la cordillera se hace azul,
+      donde la distancia es el monte
+      y al cielo se le trata de tu a tu.</p>
+  </section>
+  <section class="container container-bgc">
+    <div class="section-text">
+      <h3 id="zaragoza" class="title">Zaragoza</h3>
+      <p class="header-ronda">
+        <span class="header-ronda-text">Siempre te recuerdo "Vieja"</span>
+        <span class="header-ronda-text">Sentada junto al portal</span>
+        <span class="header-ronda-text">Acariciando la lumbre</span>
+        <span class="header-ronda-text">La cadiera y el pozal</span>
+        <span class="header-ronda-text">La tristeza de tus ojos de tanto mirar</span>
+        <span class="header-ronda-text">Hijos que van hacia Francia</span>
+        <span class="header-ronda-text">Y otros hacia la ciudad</span>
+        <span class="header-ronda-text">El Miguel dice que va bueno</span>
+        <span class="header-ronda-text">Y parió la del Julian</span>
+        <a href="https://www.youtube.com/watch?v=jtEKnb4B2_M" class="header-ronda-text">Labordeta - La Vieja</a>
+      </p>
+      <div class="container-chart">
+        <p class="text">Zaragoza al contrario que sus hermanas ha doblado la población en menos de un siglo. Su privilegiada situación en el valle del Ebro y con menos de 300KM de distancia de Madrid, Barcelona, Valencia y Bilbao ha hecho que algunos municipios de la provincia y sobre todo la propia capital aumenten su población. Es la única de las tres pronvicias que entre 2006 y 2011 tuvo un saldo vegetativo positivo. En 2017 el número de fallecidos fue el más alto de la serie(1996-2017), y el de nacidos fue el más bajo desde 2003.</p>
+      </div>
+    </div>
+    <section class="container-chart line-province-zaragoza">
+      <div class="section-text">
+        <h4 class="subtittle">Evolución de la población - Zaragoza</h4>
+        <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Zaragoza desde 1900 hasta 2019.</p>
+        <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Los datos de 2018 y 2019 son del INE.</span>
+      </div>
+      <article class="line-zaragoza">
+        <svg class="line-chart">
+          <g class="line-zaragoza-container"></g>
+        </svg>
+      </article>
+    </section>
+    <section class="container-chart zaragoza-line">
+      <div class="section-text">
+        <h4 class="subtittle">Evolución de la población por municipio en Zaragoza.</h4>
+        <p class="text">En la siguiente gráfica podemos ver cómo ha ido evolucionando la población de cada uno de los municipios de la provincia de Zaragoza desde 1900 hasta 2019.</p>
+        <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Los datos de 2018 y 2019 son del INE.</span>
+      </div>
+      <select id="select-city-zaragoza"></select>
+      <article class="line-population line-population-zaragoza">
+        <svg>
+          <g class="line-population-zaragoza-container"></g>
+        </svg>
+      </article>
+    </section>
+    <section class="container-chart">
+      <div class="section-text">
+        <h4 class="subtittle">Edad de la población - Zaragoza</h4>
+        <p class="text">En la siguiente gráfica podemos ver el porcentaje de <span class="bold">menores de 18 años</span> y <span class="bold">mayores de 65 años</span> que vive en cada municipio. La excepción es que el porcentaje de menores sea superior al 20% de la población. Lo habitual es que el porcentaje de mayores de 65 años sea superior al 20%.</p>
+        <span class="data">Los datos provienen del INE a fecha 2018.</span>
+      </div>
+      <div class="filters">
+        <p class="filters-title">FILTROS</p>
+        <div class="filter-element">
+          <h6 class="filters-subtitle">Municipio</h6>
+          <select id="filter-city-zaragoza"></select>
+        </div>
+        <div class="filter-element">
+          <h6 class="filters-subtitle">% de mayores</h6>
+          <select id="percentage-over-city-zaragoza">
+            <option value="0">0%</option>
+            <option value="10">10%</option>
+            <option value="20">20%</option>
+            <option value="30">30%</option>
+            <option value="40">40%</option>
+            <option value="50">50%</option>
+            <option value="60">60%</option>
+          </select>
+        </div>
+        <div class="filter-element">
+          <h6 class="filters-subtitle">% de menores</h6>
+          <select id="percentage-under-city-zaragoza">
+            <option value="0">0%</option>
+            <option value="10">10%</option>
+            <option value="20">20%</option>
+            <option value="30">30%</option>
+          </select>
+        </div>
+        <div class="filter-element">
+          <button class="filter-button" id="clear-filter-zaragoza">BORRAR FILTROS</button>
+        </div>
+      </div>
+      <article class="scatter scatter-zaragoza">
+        <svg>
+          <g class="scatter-zaragoza-container"></g>
+        </svg>
+      </article>
+    </section>
+    <section class="container-chart">
+      <div class="section-text">
+        <h4 class="subtittle">Saldo vegetativo en Zaragoza</h4>
+        <p class="text">El saldo vegetativo es el resultado del número de nacimientos menos el número de fallecimientos. En esta gráfica podemos ver el <span class="bold">resultado total de todos los municipios de Zaragoza</span>.</p>
+        <span class="data">Los datos provienen de <a href="https://populate.tools/data/">Populate Data</a> a fecha 2018.</span>
+      </div>
+      <article class="bar-negative bar-negative-zaragoza">
+        <svg class="bar-negative-chart">
+          <g class="bar-negative-zaragoza-container"></g>
+        </svg>
+      </article>
+    </section>
+    <section class="container-chart">
+      <div class="section-text">
+        <h4 id="testimonios" class="subtittle">¿Qué podemos hacer?</h4>
+        <span class="author-text">Por <a href="https://twitter.com/Eslampa">Anchel Reyes</a>, Sociólogo.</span>
+        <button id="aragones" class="btn-text">Leer en Aragonés</button>
+        <button id="castellano" class="btn-text">Leer en Castellano</button>
+        <div class="castellano">
+          <p class="text">En el siglo XXI, por primera vez en la historia de la humanidad, más de la mitad de la población mundial vive en las ciudades, mientras que el resto del territorio tiende a perder peso poblacional, pero también político y económico (ONU, 2004). Este proceso responde a la lógica de la acumulación de “capital” humano en poco espacio.</p>
+          <p class="text">En Aragón esta realidad también se ha dado desde principios del siglo pasado, observando de una forma muy gráfica como la mayoría de nuestra población emigraba a las ciudades, especialmente a nuestra capital, sumiendo a la mayoría de las comarcas en una dinámica negativa.</p>
+          <p class="text">Para trabajar a favor de la revitalización de nuestros pueblos y comarcas es esencial entender que toda solución ha de partir del motor de las personas, empresas, colectivos y asociaciones del territorio, y han de contar con la complicidad y el apoyo de las diferentes instituciones públicas. Es necesario organizar y coordinar los esfuerzos en una dinámica positiva, buscando estrategias a medio y a largo plazo.</p>
+          <p class="text">Además, se ha de fomentar unos pueblos atractivos para la juventud y especialmente para las mujeres jóvenes. Traspasar el liderazgo de los proyectos a la gente joven y generar arraigo nos permite hacer atractivas las comarcas. La lucha por la repoblación ha de tener un enfoque integral, generando las condiciones propicias para un buen vivir en nuestros pueblos, fomentando el acceso a un empleo y una vivienda digna, el acceso a una socialización y unos servicios de calidad y el reparto equitativo de los cuidados que todas las personas necesitamos a lo largo de nuestra vida. En definitiva, es necesaria la redistribución de la riqueza y de las decisiones en el territorio y el fomento del buen vivir.</p>
+        </div>
+        <div class="aragones">
+          <p class="text">En o sieglo XXI, por primera vegada en a historia d'a humanidat, mas d'a metat d'a población mundial vive en as ciudatz, mientres que la resta d'o territorio tiende a perder peso poblacional, pero tamién politico y economico. Este proceso responde a la lochica de l'acumulación de “capital” humano en poco espacio.</p>
+          <p class="text">En Aragón esta realidat tamién s'ha dau dende prencipios d'o sieglo pasau, observando-se d'una forma muit grafica como la mayoría d'a nuestra población se’n iba enta las ciudatz, mas que mas enta la nuestra capital, sumiendo a la mayoría d'as comarcas en una dinamica negativa.</p>
+          <p class="text">Pa treballar a favor d'a revitalización d'os nuestros lugars y comarcas ye esencial entender que toda solución ha de naixer d'o motor d'as personas, empresas, colectivos y asociacions d'o territorio, y ha de contar con a complicidat y l'emparo d'as diferents institucions publicas. Ye menister organizar y coordinar los esfuerzos en una dinamica positiva, mirando estratechias a meyo y a largo plazo.</p>
+          <p class="text"> Amás, s'ha de fomentar unos lugars atractivos pa la chovenalla y especialment pa las mullers chovens. Traspasar lo liderazgo d'os prochectos a la chent choven y chenerar enradigamiento nos permite fer atractivas las comarcas. La luita por la repoblación ha de tener un enfoque integral, chenerando las condicions propicias pa un buen vivir en os nuestros lugars, fomentando l'acceso a un triballo y una vivienda dignas, l'acceso a una socialización y unos servicios de calidat y lo reparto equitativo d'os cudiaus que nos fan falta a todas las personas a lo largo d'a nuestra vida. En definitiva, ye necesaria la redistribución d'a riqueza y d'as decisions en o territorio y lo fomento d'o buen vivir.</p>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section class="container">
+    <section class="metodology">
+      <div class="section-text">
+        <article class="container-chart">
+          <h3 class="metodology-title">Metodología</h3>
+          <p class="metodology-text">El dataset principal es la serie histórica de población por municipios de 1900 a 2011. Está disponible en <a href="https://opendata.aragon.es/datos/catalogo/dataset/serie-historica-de-poblacion-municipios">Aragón Open Data</a>. He actualizado este dataset con los datos oficiales del censo en 2018 del INE, revisados y actualizados en enero de 2019. A partir de este he ido generando más datasets gracias a la poderosa combinación de <a href="https://csvkit.readthedocs.io/en/1.0.3/">csvkit</a> + <a href="https://stedolan.github.io/jq/">jq</a> + Bash. He ido documentado todo el proceso, esta disponible <a href="https://github.com/jorgeatgu/la-casa-caida/blob/master/data/readme.md">aquí</a>.</p>
+          <p class="metodology-text">La horquilla de edad del porcentaje de mayores va desde los 65 años hasta 100 años o más. Lo horquilla para el de menores de 18 años va desde los 0 años hasta los 18 años inclusive. Estas dos series de datos provienen del INE a fecha de 2018.</p>
+          <p class="metodology-text">El saldo vegetativo entre 1975 y 2017 proviene de <a href="https://populate.tools/data/">Populate Data</a>.</p>
+          <p class="metodology-text">La densidad de población es igual al número de habitantes dividido por la superficie en kilometros cuadrados del municipio. La superficie de cada municipio de Aragón esta en este <a href="https://gist.githubusercontent.com/jorgeatgu/40eaa471b02add6d9a7a9aca33fc8bd5/raw/ef7d384a0749df4f9b3594c76b432026344b0df9/aragon.json">dataset</a>. Los datos de población perfetenecen al INE del 2018.</p>
+          <p class="metodology-text">Los municipios no están ordenados alfabéticamente, están ordenados por Código Postal ya que así los distribuye el INE.</p>
+          <p class="metodology-text">Todos los datos los he dividido por provincia. Y están disponibles <a href="https://github.com/jorgeatgu/la-casa-caida/tree/master/data">aquí</a>.</p>
+          <p class="metodology-text">Veracruz desde 2011 se llama oficialmente Beranuy. <a href="https://www.elperiodicodearagon.com/noticias/aragon/el-municipio-de-veracruz-se-llama-desde-ayer-beranuy_679601.html">Noticia</a></p>
+        </article>
+        <article class="container-chart">
+          <h3 id="enlaces" class="metodology-title">Enlaces de interés</h3>
+          <p class="metodology-text">Angelines Villacampa de Casa Mallau <a href="https://www.youtube.com/watch?v=qUcBVpynYpE">[video]</a> <a href="http://www.diariodelaltoaragon.es/NoticiasDetalle.aspx?Id=793390">[articulo]</a></p>
+          <p class="metodology-text">Ainielle tiene memoria <a href="http://www.rtve.es/alacarta/videos/cronicas/cronicas-ainielle-tiene-memoria/221225/?pais=ES">[documental]</a></p>
+          <p class="metodology-text">Sol a l'Estall <a href="https://www.ccma.cat/tv3/alacarta/programa/Sol-a-lEstall/video/1407949/">[documental]</a></p>
+          <p class="metodology-text">Mediano, la memoria ahogada <a href="https://www.youtube.com/watch?v=bKJ8U9vVo5k">[documental]</a></p>
+          <p class="metodology-text">Paisajes con memoria. Despoblados del Alto Aragón<a href="http://www.prames.com/libreria_individual_$.asp?publica=707">[libro]</a></p>
+          <p class="metodology-text">Despoblados en Huesca. Un impresionante trabajo de documentación de Cristian Laglera.<a href="http://www.editorialpirineo.com/239-pueblos-despoblados-de-huesca-tomo-1-ribagorza-litera.html">[libros]</a></p>
+          <p class="metodology-text">La soledad de Sobrepuerto <a href="https://www.altairmagazine.com/voces/la-soledad-de-sobrepuerto">[artículo]</a></p>
+          <p class="metodology-text">La despoblación en Aragón <a href="http://www.eljusticiadearagon.com/gestor/ficheros/_n000146_La%20despoblaci%F3n%20en%20Arag%F3n.PDF">[informe]</a></p>
+          <p class="metodology-text">El problema de la despoblación en Aragón <a href="https://dialnet.unirioja.es/servlet/articulo?codigo=104079">[informe]</a></p>
+          <p class="metodology-text">Casa Tía Julia en Ciria y Reznos <a href="https://www.youtube.com/watch?v=WFEBYQqFxB4&feature=youtu.be">[video]</a></p>
+          <p class="metodology-text">Serranía Celtiberica <a href="http://www.celtiberica.es">[web/asociación]</a></p>
+          <p class="metodology-text">Densidad de población en la provincia de Teruel <a href="https://jorgeatgu.carto.com/builder/06aff34f-01ff-4f46-a8db-cfc481928e90/embed">[mapa]</a></p>
+          <p class="metodology-text">Densidad de población en la provincia de Huesca <a href="https://jorgeatgu.carto.com/builder/c822b27a-c323-41c7-8b97-7fdbc7f14938/embed">[mapa]</a></p>
+          <p class="metodology-text">Densidad de población en la provincia de Zaragoza <a href="https://jorgeatgu.carto.com/builder/69151566-6ec4-47cf-9f08-924be08f3f96/embed">[mapa]</a></p>
+          <p class="metodology-text">Evolución demográfica de España (2013-2018) <a href="https://geogeeks.maps.arcgis.com/apps/opsdashboard/index.html#/af7763f8ec6c42b5873b8ccc04dc46b2">[mapa interactivo]</a></p>
+          <p class="metodology-text">Más de la mitad de la población vive en áreas urbanas y seguirá creciendo <a href="http://www.un.org/es/development/desa/news/population/world-urbanization-prospects-2014.html">[artículo]</a></p>
+          <p class="metodology-text">Múltiples mapas sobre La España Vacía <a href="https://geogeeks.maps.arcgis.com/apps/MinimalGallery/index.html?appid=d857f9639e664fffa9d17ce0f732490c#">[web]</a></p>
+        </article>
+        <article class="container-chart">
+          <h3 class="metodology-title">Créditos</h3>
+          <p class="metodology-text">Todos los datos provienen de <a href="https://opendata.aragon.es">Aragon Open Data</a>, <a href="https://www.ine.es/welcome.shtml">INE</a> y <a href="http://www.aragon.es/iaest">IAEST</a>.</p>
+          <p class="metodology-text">Para el dropdown he usado <a href="http://slimselectjs.com">SlimSelect</a>.</p>
+          <p class="metodology-text">Para las animaciones he usado <a href="https://animejs.com">animeJS</a>.</p>
+          <p class="metodology-text">Para las animaciones en d3 he usado <a href="https://github.com/pbeshai/d3-interpolate-path">d3-interpolate-path</a>.</p>
+          <p class="metodology-text">Infinitas gracias a <a href="https://twitter.com/NTKOG">Jorge</a> que hace un tiempo me descubrió jq. Lo cual hace que ahorre días cuando tengo que procesar, analizar y generar datasets. <span class="bold">It's magic</span>.</p>
+        </article>
+      </div>
+    </section>
+    <h3 class="proyectos-title">Otros proyectos</h3>
+    <article class="proyectos">
+      <a href="https://vulturno.co" class="proyectos-element proyecto-8">
+        <h2 class="proyectos-element-title proyecto-8-text">VULTURNO</h2>
+        <span class="proyectos-element-subtitle proyecto-8-text">[ DATAVIZ ]</span>
+        <p class="proyectos-element-text proyecto-8-text">Una visualización de datos sobre la evolución de las temperatuas en 47 estaciones de la AEMET.</p>
+      </a>
+      <a href="https://demasiadas.now.sh" class="proyectos-element proyecto-10">
+        <h2 class="proyectos-element-title proyecto-10-text">DEMASIADAS</h2>
+        <span class="proyectos-element-subtitle proyecto-10-text">[ DATAVIZ ]</span>
+        <p class="proyectos-element-text proyecto-10-text">Una visualización de datos sobre la violencia de género. Desde el año 2000 más de 1000 mujeres han sido asesinadas.</p>
+      </a>
+      <a href="https://bislai.co" class="proyectos-element proyecto-1">
+        <h2 class="proyectos-element-title proyecto-1-text">BISLAI </h2>
+        <span class="proyectos-element-subtitle proyecto-1-text">[ DATAVIZ - OPENDATA ]</span>
+        <p class="proyectos-element-text proyecto-1-text">Fiscalización de las mociones que presentan los grupos politicos en el Ayuntamiento de Zaragoza.</p>
+      </a>
+      <a href="https://28a-zaragoza.now.sh" class="proyectos-element proyecto-12">
+        <h2 class="proyectos-element-title proyecto-12-text">ELECCIONES 28A - 2019</h2>
+        <span class="proyectos-element-subtitle proyecto-12-text">[ DATAVIZ ]</span>
+        <p class="proyectos-element-text proyecto-12-text">Una visualización de datos con los votos a cada una de las secciones censales de la ciudad de Zaragoza.</p>
+      </a>
+      <a href="https://wiki-cachitos.now.sh" class="proyectos-element proyecto-2">
+        <h2 class="proyectos-element-title proyecto-2-text">WIKI CACHITOS</h2>
+        <span class="proyectos-element-subtitle proyecto-2-text">[ DATAVIZ ]</span>
+        <p class="proyectos-element-text proyecto-2-text">¿Cuánto aumentan las visitas a la Wikipedia cuando un artista sale en Cachitos? </p>
+      </a>
+      <a href="https://jorgeatgu.com/data-mestika" class="proyectos-element proyecto-4">
+        <h2 class="proyectos-element-title proyecto-4-text">DATA-MESTIKA</h2>
+        <span class="proyectos-element-subtitle proyecto-4-text">[ DATAVIZ ]</span>
+        <p class="proyectos-element-text proyecto-4-text">Una visualización de datos sobre todas las ofertas de trabajo ofertadas en Domestika a lo largo de 10 años.</p>
+      </a>
+    </article>
+  </section>
+  <footer class="footer">
+    <div class="container-chart">
+      <p class="footer-texto">Hecho en Zaragoza con mucha maña por un <a class="footer-links" href="http://jorgeatgu.com" target="_blank">maño</a> - MMXX</p>
+      <p class="footer-texto">Cualquier consulta escribid a: data@jorgeatgu.com</p>
+      <a class="footer-links" href="https://github.com/jorgeatgu/la-casa-caida">Todo el código y datos está disponible en GitHub</a>
+    </div>
+  </footer>
+  <script src="js/anime.min.js"></script>
+  <script src="js/d3.min.js"></script>
+  <script src="js/d3-interpolate-path.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.18.7/slimselect.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
