@@ -37,7 +37,6 @@ const plugins = [
     include: paths.js + '/**',
     presets: ['@babel/preset-env']
   }),
-  terser(),
   browsersync({
     host: 'localhost',
     port: 3000,

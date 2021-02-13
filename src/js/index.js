@@ -320,7 +320,7 @@ const aragonStack = () => {
 
     const area = d3
       .area()
-      .x((d, i) => scales.count.x(d.data.year))
+      .x((d) => scales.count.x(d.data.year))
       .y0(d => scales.count.y(d[0]))
       .y1(d => scales.count.y(d[1]))
       .curve(d3.curveCardinal.tension(0.6));
@@ -336,8 +336,6 @@ const aragonStack = () => {
       .scaleOrdinal()
       .domain(keys)
       .range(['#F67460', '#C54073', '#5A1C7C']);
-
-    const color = d3.scaleOrdinal(colors);
 
     updateScales(width, height);
 
@@ -355,7 +353,7 @@ const aragonStack = () => {
       .transition()
       .duration(600)
       .ease(d3.easeLinear)
-      .style('fill', d => colors(d.key))
+      .attr('fill', d => colors(d.key))
       .attr('d', area);
 
     const focus = g.select('.focus');
@@ -407,7 +405,7 @@ const aragonStack = () => {
 
       focus
         .select('.x-hover-line')
-        .attr('transform', `translate(${scales.count.x(d.year)},${0})`);
+        .attr('transform', `translate(${scales.count.x(d.year)},0)`);
     }
 
     drawAxes(g);
@@ -420,11 +418,6 @@ const aragonStack = () => {
   const loadData = () => {
     d3.csv('data/aragon-total.csv').then(function(data) {
       dataz = data;
-      dataz.forEach(d => {
-        d.teruelP = d.teruelP;
-        d.huescaP = d.huescaP;
-        d.zaragozaP = d.zaragozaP;
-      });
       setupElements();
       setupScales();
       updateChart(dataz);
@@ -484,7 +477,7 @@ const line = (csvFile, cities) => {
   };
 
   const updateScales = (width, height) => {
-    scales.count.x.range([60, width]);
+    scales.count.x.range([90, width]);
     scales.count.y.range([height, 0]);
   };
 
@@ -498,15 +491,16 @@ const line = (csvFile, cities) => {
       .attr('transform', `translate(0,${height})`)
       .call(axisX);
 
+    const localeFormat = locale.format(',.0f')
     const axisY = d3
       .axisLeft(scales.count.y)
-      .tickFormat(locale.format(',.0f'))
+      .tickFormat(d => `${localeFormat(d)} ${habitantes}`)
       .ticks(6)
       .tickSizeInner(-width);
 
     g.select('.axis-y').call(axisY);
     g.selectAll('.axis-y .tick text')
-      .attr('x', 48)
+      .attr('x', 80)
       .attr('dy', -5);
   };
 
@@ -855,10 +849,10 @@ const barscatter = (csvFile, cities) => {
         searchPlaceholder: 'Busca tu municipio'
       });
 
+      let percentageCity = d3.select(this).property('value');
+
       d3.csv(csvFile).then(function(data) {
         dataz = data;
-
-        let percentageCity = d3.select(this).property('value');
 
         d3.selectAll(`.scatter-${cities}-circles`)
           .transition()
@@ -914,10 +908,10 @@ const barscatter = (csvFile, cities) => {
         searchPlaceholder: 'Busca tu municipio'
       });
 
+      let percentageCity = d3.select(this).property('value');
+
       d3.csv(csvFile).then(function(data) {
         dataz = data;
-
-        let percentageCity = d3.select(this).property('value');
 
         d3.selectAll(`.scatter-${cities}-circles`)
           .transition()
