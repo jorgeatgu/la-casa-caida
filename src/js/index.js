@@ -320,7 +320,7 @@ const aragonStack = () => {
 
     const area = d3
       .area()
-      .x((d) => scales.count.x(d.data.year))
+      .x(d => scales.count.x(d.data.year))
       .y0(d => scales.count.y(d[0]))
       .y1(d => scales.count.y(d[1]))
       .curve(d3.curveCardinal.tension(0.6));
@@ -491,7 +491,7 @@ const line = (csvFile, cities) => {
       .attr('transform', `translate(0,${height})`)
       .call(axisX);
 
-    const localeFormat = locale.format(',.0f')
+    const localeFormat = locale.format(',.0f');
     const axisY = d3
       .axisLeft(scales.count.y)
       .tickFormat(d => `${localeFormat(d)} ${habitantes}`)
