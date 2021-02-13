@@ -581,12 +581,8 @@ const line = (csvFile, cities) => {
   };
 
   const loadData = () => {
-    d3.csv(csvFile).then(function(data) {
+    d3.csv(csvFile).then(data => {
       dataz = data;
-      dataz.forEach(d => {
-        d.year = d.year;
-        d.total = d.total;
-      });
       setupElements();
       setupScales();
       updateChart(dataz);

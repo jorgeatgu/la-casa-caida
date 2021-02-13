@@ -419,10 +419,6 @@ var line = function line(csvFile, cities) {
   var loadData = function loadData() {
     d3.csv(csvFile).then(function (data) {
       dataz = data;
-      dataz.forEach(function (d) {
-        d.year = d.year;
-        d.total = d.total;
-      });
       setupElements();
       setupScales();
       updateChart(dataz);
