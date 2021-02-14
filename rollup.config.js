@@ -70,6 +70,34 @@ export default [{
     plugins
   },
   {
+    input: paths.js + '/comparador.js',
+    output: [{
+        file: paths.distJs + '/comparador.js',
+        format: 'esm'
+      },
+      {
+        file: paths.distJs + '/comparador.min.js',
+        format: 'iife',
+        name: 'version'
+      }
+    ],
+    plugins
+  },
+  {
+    input: paths.js + '/jb.js',
+    output: [{
+        file: paths.distJs + '/jb.js',
+        format: 'esm'
+      },
+      {
+        file: paths.distJs + '/jb.min.js',
+        format: 'iife',
+        name: 'version'
+      }
+    ],
+    plugins
+  },
+  {
     input: paths.js + '/d3.js',
     output: {
       file: paths.distJs + '/d3.min.js',

@@ -1,87 +1,10 @@
-const widthMobile = window.innerWidth > 0 ? window.innerWidth : screen.width;
+import { menu, widthMobile, changeLanguage, animation } from "./shared/index.js";
 
-function text() {
-  const ara = document.querySelector('#aragones');
-  const cas = document.querySelector('#castellano');
-  const araDiv = document.querySelector('.aragones');
-  const casDiv = document.querySelector('.castellano');
+changeLanguage();
 
-  ara.onclick = function() {
-    casDiv.classList.remove('active');
-    araDiv.classList.remove('hidden');
-    araDiv.classList.toggle('active');
-    casDiv.classList.toggle('hidden');
-    ara.classList.remove('active');
-    cas.classList.remove('hidden');
-    ara.classList.toggle('hidden');
-    cas.classList.toggle('active');
-  };
+setTimeout(animation(), 1000);
 
-  cas.onclick = function() {
-    araDiv.classList.remove('active');
-    casDiv.classList.remove('hidden');
-    casDiv.classList.toggle('active');
-    araDiv.classList.toggle('hidden');
-    cas.classList.remove('active');
-    ara.classList.remove('hidden');
-    cas.classList.toggle('hidden');
-    ara.classList.toggle('active');
-  };
-}
-
-text();
-
-function menu() {
-  const overlay = document.querySelector('.overlay');
-  const navigation = document.querySelector('.navegacion');
-  const body = document.querySelector('body');
-  const elementBtn = document.querySelectorAll('.navegacion-btn');
-  const burger = document.querySelector('.burger');
-
-  function classToggle() {
-    burger.classList.toggle('clicked');
-    overlay.classList.toggle('show');
-    navigation.classList.toggle('show');
-    body.classList.toggle('overflow');
-  }
-
-  document.querySelector('.burger').addEventListener('click', classToggle);
-  document.querySelector('.overlay').addEventListener('click', classToggle);
-
-  for (i = 0; i < elementBtn.length; i++) {
-    elementBtn[i].addEventListener('click', function() {
-      removeClass();
-    });
-  }
-
-  function removeClass() {
-    overlay.classList.remove('show');
-    navigation.classList.remove('show');
-    burger.classList.remove('clicked');
-  }
-}
-
-setTimeout(function animation() {
-  anime
-    .timeline()
-    .add({
-      targets: '.header-title .letter',
-      translateY: [0, '1.5rem'],
-      translateZ: 0,
-      duration: 750,
-      delay: anime.stagger(500)
-    })
-    .add({
-      targets: '.letter',
-      translateY: ['1.5rem', '2rem'],
-      translateZ: 0,
-      rotate: 45,
-      duration: 750,
-      delay: anime.stagger(1000)
-    });
-}, 1000);
-
-const scatterDesert = () => {
+function scatterDesert(){
   const margin = { top: 24, right: 24, bottom: 48, left: 72 };
   let width = 0;
   let height = 0;
@@ -93,7 +16,7 @@ const scatterDesert = () => {
   const habitantes = ' hab/km2';
   let dataz;
 
-  const setupScales = () => {
+  function setupScales(){
     const countX = d3
       .scaleLinear()
       .domain([d3.min(dataz, d => d.densidad), d3.max(dataz, d => d.densidad)]);
@@ -105,7 +28,7 @@ const scatterDesert = () => {
     scales.count = { x: countX, y: countY };
   };
 
-  const setupElements = () => {
+  function setupElements(){
     const g = svg.select('.scatter-desert-container');
 
     g.append('g').attr('class', 'axis axis-x');
@@ -126,12 +49,12 @@ const scatterDesert = () => {
       .attr('x', '5%');
   };
 
-  const updateScales = (width, height) => {
+  function updateScales(width, height) {
     scales.count.x.range([0, width]);
     scales.count.y.range([height, 0]);
   };
 
-  const drawAxes = g => {
+  function drawAxes(g) {
     const axisX = d3
       .axisBottom(scales.count.x)
       .tickFormat(d3.format('d'))
@@ -150,7 +73,7 @@ const scatterDesert = () => {
     g.select('.axis-y').call(axisY);
   };
 
-  const updateChart = dataz => {
+  function updateChart(dataz) {
     w = chart.node().offsetWidth;
     h = 600;
 
@@ -181,31 +104,18 @@ const scatterDesert = () => {
       .attr('cx', d => Math.random() * width)
       .attr('cy', d => scales.count.y(d.densidad))
       .attr('r', 3)
-      .attr('fill', d => {
-        if (d.densidad >= 10) {
-          return '#3b2462';
-        } else {
-          return '#B41248';
-        }
-      })
+      .attr('fill', d => d.densidad >= 10 ? '#3b2462' : '#B41248')
       .attr('fill-opacity', 0.8);
 
     drawAxes(g);
   };
-
-  const resize = () => {
+  function resize(){
     updateChart(dataz);
   };
 
-  const loadData = () => {
-    d3.csv('data/aragon-municipios.csv').then(function(data) {
+  function loadData() {
+    d3.csv('data/aragon-municipios.csv').then(data => {
       dataz = data;
-      dataz.forEach(d => {
-        d.densidad = d.densidad;
-        d.municipio = d.municipio;
-        d.posicion = d.posicion;
-        d.year = d.year;
-      });
       setupElements();
       setupScales();
       updateChart(dataz);
@@ -217,7 +127,7 @@ const scatterDesert = () => {
   loadData();
 };
 
-const aragonStack = () => {
+function aragonStack(){
   const margin = { top: 24, right: 8, bottom: 24, left: 32 };
   let width = 0;
   let height = 0;
@@ -231,7 +141,7 @@ const aragonStack = () => {
     .attr('class', 'tooltip tooltip-stack')
     .style('opacity', 0);
 
-  const setupScales = () => {
+  function setupScales(){
     const countX = d3.scaleTime().domain(d3.extent(dataz, d => d.year));
 
     const countY = d3.scaleLinear().domain([0, 100]);
@@ -239,7 +149,7 @@ const aragonStack = () => {
     scales.count = { x: countX, y: countY };
   };
 
-  const setupElements = () => {
+  function setupElements(){
     const g = svg.select('.aragon-stack-container');
 
     g.append('g').attr('class', 'axis axis-x');
@@ -267,12 +177,12 @@ const aragonStack = () => {
       .text('Teruel');
   };
 
-  const updateScales = (width, height) => {
+  function updateScales(width, height) {
     scales.count.x.range([0, width]);
     scales.count.y.range([height, 0]);
   };
 
-  const drawAxes = g => {
+  function drawAxes(g) {
     const axisX = d3
       .axisBottom(scales.count.x)
       .tickFormat(d3.format('d'))
@@ -292,7 +202,7 @@ const aragonStack = () => {
     g.select('.axis-y').call(axisY);
   };
 
-  const updateChart = dataz => {
+  function updateChart(dataz) {
     const w = chart.node().offsetWidth;
     const h = 600;
 
@@ -389,12 +299,12 @@ const aragonStack = () => {
         .style('opacity', 1)
         .html(
           `
-                          <span class="tooltip-stack-number tooltip-stack-text">${d.year}</span>
-                          <span class="tooltip-stack-text">Huesca: <span class="tooltip-number">${d.huescaP}% - ${d.huesca} hab.</span></span>
-                          <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruelP}% - ${d.teruel} hab.</span></span>
-                          <span class="tooltip-stack-text">Zaragoza: <span class="tooltip-number">${d.zaragozaP}% - ${d.zaragoza} hab.</span></span>
-                          <span class="tooltip-stack-text">Total: <span class="tooltip-number">${d.aragon} hab.</span></span>
-                          `
+          <span class="tooltip-stack-number tooltip-stack-text">${d.year}</span>
+          <span class="tooltip-stack-text">Huesca: <span class="tooltip-number">${d.huescaP}% - ${d.huesca} hab.</span></span>
+          <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruelP}% - ${d.teruel} hab.</span></span>
+          <span class="tooltip-stack-text">Zaragoza: <span class="tooltip-number">${d.zaragozaP}% - ${d.zaragoza} hab.</span></span>
+          <span class="tooltip-stack-text">Total: <span class="tooltip-number">${d.aragon} hab.</span></span>
+          `
         )
         .style('top', '35%')
         .style('left', postionWidthTooltip > w ? 'auto' : positionX + 'px')
@@ -411,12 +321,12 @@ const aragonStack = () => {
     drawAxes(g);
   };
 
-  const resize = () => {
-    updateChart(dataz);
-  };
+  function resize() {
+    updateChart(dataz)
+  }
 
-  const loadData = () => {
-    d3.csv('data/aragon-total.csv').then(function(data) {
+  function loadData() {
+    d3.csv('data/aragon-total.csv').then(data => {
       dataz = data;
       setupElements();
       setupScales();
@@ -429,7 +339,7 @@ const aragonStack = () => {
   loadData();
 };
 
-const line = (csvFile, cities) => {
+function line(csvFile, cities){
   const margin = { top: 8, right: 8, bottom: 24, left: 8 };
 
   let width = 0;
@@ -451,7 +361,7 @@ const line = (csvFile, cities) => {
     grouping: [3]
   });
 
-  const setupScales = () => {
+  function setupScales(){
     const countX = d3
       .scaleTime()
       .domain([d3.min(dataz, d => d.year), d3.max(dataz, d => d.year)]);
@@ -466,7 +376,7 @@ const line = (csvFile, cities) => {
     scales.count = { x: countX, y: countY };
   };
 
-  const setupElements = () => {
+  function setupElements(){
     const g = svg.select(`.line-${cities}-container`);
 
     g.append('g').attr('class', 'axis axis-x');
@@ -476,12 +386,12 @@ const line = (csvFile, cities) => {
     g.append('g').attr('class', `line-${cities}-container-bis`);
   };
 
-  const updateScales = (width, height) => {
+  function updateScales(width, height) {
     scales.count.x.range([90, width]);
     scales.count.y.range([height, 0]);
   };
 
-  const drawAxes = g => {
+  function drawAxes(g) {
     const axisX = d3
       .axisBottom(scales.count.x)
       .tickFormat(d3.format('d'))
@@ -504,7 +414,7 @@ const line = (csvFile, cities) => {
       .attr('dy', -5);
   };
 
-  const updateChart = dataz => {
+  function updateChart(dataz) {
     const w = chart.node().offsetWidth;
     const h = 550;
 
@@ -576,11 +486,11 @@ const line = (csvFile, cities) => {
     drawAxes(g);
   };
 
-  const resize = () => {
-    updateChart(dataz);
-  };
+  function resize() {
+    updateChart(dataz)
+  }
 
-  const loadData = () => {
+  function loadData() {
     d3.csv(csvFile).then(data => {
       dataz = data;
       setupElements();
@@ -594,7 +504,7 @@ const line = (csvFile, cities) => {
   loadData();
 };
 
-const barscatter = (csvFile, cities) => {
+function barScatter(csvFile, cities){
   const margin = { top: 0, right: 8, bottom: 64, left: 40 };
   let width = 0;
   let height = 0;
@@ -611,7 +521,7 @@ const barscatter = (csvFile, cities) => {
     .attr('id', 'tooltip-scatter')
     .style('opacity', 0);
 
-  const setupScales = () => {
+  function setupScales(){
     const countX = d3.scaleLinear().domain([0, 75]);
 
     const countY = d3
@@ -621,7 +531,7 @@ const barscatter = (csvFile, cities) => {
     scales.count = { x: countX, y: countY };
   };
 
-  const setupElements = () => {
+  function setupElements(){
     const g = svg.select(`.scatter-${cities}-container`);
 
     g.append('g').attr('class', 'axis axis-x');
@@ -646,12 +556,12 @@ const barscatter = (csvFile, cities) => {
       .text('Menores de 18 años');
   };
 
-  const updateScales = (width, height) => {
+  function updateScales(width, height) {
     scales.count.x.range([0, width]);
     scales.count.y.range([height, 20]);
   };
 
-  const drawAxes = g => {
+  function drawAxes(g) {
     const axisX = d3
       .axisBottom(scales.count.x)
       .tickFormat(d => d + symbolP)
@@ -671,7 +581,7 @@ const barscatter = (csvFile, cities) => {
     g.select('.axis-y').call(axisY);
   };
 
-  const updateChart = dataz => {
+  function updateChart(dataz) {
     w = chart.node().offsetWidth;
     h = 600;
 
@@ -705,10 +615,10 @@ const barscatter = (csvFile, cities) => {
           .style('opacity', 1)
           .html(
             `<p class="tooltip-citi">${d.city}<p/>
-                        <p class="tootlip-population">Habitantes: <span class="tooltip-number">${d.population}</span><p/>
-                        <p class="tootlip-over">Mayores de 65: <span class="tooltip-number">${d.mayor}%</span><p/>
-                        <p class="tootlip-under">Menores de 18: <span class="tooltip-number">${d.menor}%</span><p/>
-                        `
+            <p class="tooltip-population">Habitantes: <span class="tooltip-number">${d.population}</span><p/>
+            <p class="tooltip-over">Mayores de 65: <span class="tooltip-number">${d.mayor}%</span><p/>
+            <p class="tooltip-under">Menores de 18: <span class="tooltip-number">${d.menor}%</span><p/>
+            `
           )
           .style('left', w / 2 - 150 + 'px')
           .style('top', 100 + 'px');
@@ -732,7 +642,7 @@ const barscatter = (csvFile, cities) => {
     drawAxes(g);
   };
 
-  const clearFilter = () => {
+  function clearFilter(){
     const selectButton = d3.select(`#clear-filter-${cities}`);
 
     selectButton.on('click', function() {
@@ -763,7 +673,7 @@ const barscatter = (csvFile, cities) => {
         searchPlaceholder: 'Busca tu municipio'
       });
 
-      d3.csv(csvFile).then(function(data) {
+      d3.csv(csvFile).then(data => {
         dataz = data;
         dataz.forEach(d => {
           d.mayor = +d.mayor;
@@ -777,8 +687,8 @@ const barscatter = (csvFile, cities) => {
 
   clearFilter();
 
-  const menuFilter = () => {
-    d3.csv(csvFile).then(function(data) {
+  function menuFilter(){
+    d3.csv(csvFile).then(data => {
       datos = data;
 
       const nest = d3
@@ -826,7 +736,7 @@ const barscatter = (csvFile, cities) => {
     });
   };
 
-  const percentageOlder = () => {
+  function percentageOlder(){
     const selectPercentage = d3.select(`#percentage-over-city-${cities}`);
 
     selectPercentage.on('change', function() {
@@ -847,7 +757,7 @@ const barscatter = (csvFile, cities) => {
 
       let percentageCity = d3.select(this).property('value');
 
-      d3.csv(csvFile).then(function(data) {
+      d3.csv(csvFile).then(data => {
         dataz = data;
 
         d3.selectAll(`.scatter-${cities}-circles`)
@@ -868,15 +778,13 @@ const barscatter = (csvFile, cities) => {
           .attr('class', 'tooltip tooltip-percentage')
           .html(
             `
-                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios el % de habitantes mayores de 65 años es superior al <span class="tooltip-number">${percentageCity}%</span>. <p/>
-                        `
+            <p class="tooltip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios el % de habitantes mayores de 65 años es superior al <span class="tooltip-number">${percentageCity}%</span>. <p/>
+            `
           )
           .style('right', margin.right + 'px')
           .style('top', 50 + 'px');
 
         dataz.forEach(d => {
-          d.mayor = d.mayor;
-          d.menor = d.menor;
           d.city = d.name;
         });
 
@@ -885,7 +793,7 @@ const barscatter = (csvFile, cities) => {
     });
   };
 
-  const percentageUnder = () => {
+  function percentageUnder(){
     const selectPercentage = d3.select(`#percentage-under-city-${cities}`);
 
     selectPercentage.on('change', function() {
@@ -906,7 +814,7 @@ const barscatter = (csvFile, cities) => {
 
       let percentageCity = d3.select(this).property('value');
 
-      d3.csv(csvFile).then(function(data) {
+      d3.csv(csvFile).then(data => {
         dataz = data;
 
         d3.selectAll(`.scatter-${cities}-circles`)
@@ -927,15 +835,13 @@ const barscatter = (csvFile, cities) => {
           .attr('class', 'tooltip tooltip-percentage')
           .html(
             `
-                        <p class="tootlip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios el % de habitantes menores de 18 años es superior al <span class="tooltip-number">${percentageCity}%</span>. <p/>
-                        `
+            <p class="tooltip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios el % de habitantes menores de 18 años es superior al <span class="tooltip-number">${percentageCity}%</span>. <p/>
+            `
           )
           .style('right', margin.right + 'px')
           .style('top', 50 + 'px');
 
         dataz.forEach(d => {
-          d.mayor = d.mayor;
-          d.menor = d.menor;
           d.city = d.name;
         });
 
@@ -945,7 +851,7 @@ const barscatter = (csvFile, cities) => {
   };
 
   function update(filterCity) {
-    d3.csv(csvFile).then(function(data) {
+    d3.csv(csvFile).then(data => {
       dataz = data;
 
       let valueCity = d3.select(`#filter-city-${cities}`).property('value');
@@ -968,12 +874,12 @@ const barscatter = (csvFile, cities) => {
     });
   }
 
-  const resize = () => {
-    updateChart(dataz);
-  };
+  function resize() {
+    updateChart(dataz)
+  }
 
-  const loadData = () => {
-    d3.csv(csvFile).then(function(data) {
+  function loadData() {
+    d3.csv(csvFile).then(data => {
       dataz = data;
       dataz.forEach(d => {
         d.mayor = +d.mayor;
@@ -997,7 +903,7 @@ const barscatter = (csvFile, cities) => {
   loadData();
 };
 
-const barNegative = (csvFile, cities) => {
+function barNegative(csvFile, cities){
   const margin = { top: 24, right: 8, bottom: 24, left: 40 };
   let width = 0;
   let height = 0;
@@ -1012,7 +918,7 @@ const barNegative = (csvFile, cities) => {
     .attr('class', 'tooltip tooltip-negative')
     .style('opacity', 0);
 
-  const setupScales = () => {
+  function setupScales(){
     const saldoMin = d3.min(dataz, d => d.saldo);
     const saldoMax = d3.max(dataz, d => d.saldo);
 
@@ -1023,19 +929,13 @@ const barNegative = (csvFile, cities) => {
 
     const countY = d3.scaleLinear().domain([
       d3.min(dataz, d => d.saldo * 2),
-      d3.max(dataz, d => {
-        if (saldoMax < saldoMaxMax) {
-          return d3.max(dataz, d => d.saldo * 6);
-        } else {
-          return d3.max(dataz, d => d.saldo * 2.5);
-        }
-      })
+      d3.max(dataz, d => saldoMax < saldoMaxMax ? d3.max(dataz, d => d.saldo * 6) : d3.max(dataz, d => d.saldo * 2.5))
     ]);
 
     scales.count = { x: countX, y: countY };
   };
 
-  const setupElements = () => {
+  function setupElements(){
     const g = svg.select(`.bar-negative-${cities}-container`);
 
     g.append('g').attr('class', 'axis axis-x');
@@ -1045,16 +945,14 @@ const barNegative = (csvFile, cities) => {
     g.append('g').attr('class', `bar-negative-${cities}-container-bis`);
   };
 
-  const updateScales = (width, height) => {
+  function updateScales(width, height){
     scales.count.x.rangeRound([0, width]).paddingInner(0.2);
     scales.count.y.range([height, 0]);
   };
 
-  const drawAxes = g => {
+  function drawAxes(g) {
     const axisX = d3.axisBottom(scales.count.x).tickValues(
-      scales.count.x.domain().filter(function(d, i) {
-        return !(i % 6);
-      })
+      scales.count.x.domain().filter((d, i) => { return !(i % 6)})
     );
 
     g.select('.axis-x')
@@ -1071,7 +969,7 @@ const barNegative = (csvFile, cities) => {
     g.select('.axis-y').call(axisY);
   };
 
-  const updateChart = dataz => {
+  function updateChart(dataz){
     w = chart.node().offsetWidth;
     h = 600;
 
@@ -1095,13 +993,7 @@ const barNegative = (csvFile, cities) => {
     const newLayer = layer
       .enter()
       .append('rect')
-      .attr('class', d => {
-        if (d.saldo < 0) {
-          return 'negative';
-        } else {
-          return 'positive';
-        }
-      });
+      .attr('class', d => d.saldo < 0 ? 'negative' : 'positive');
 
     layer
       .merge(newLayer)
@@ -1111,11 +1003,11 @@ const barNegative = (csvFile, cities) => {
           .style('opacity', 1)
           .html(
             `
-                        <p class="tooltip-year"><span class="tooltip-number">${d.year}</span><p/>
-                        <p class="tooltip-born">Nacidos: <span class="tooltip-number">${d.nacidos}</span><p/>
-                        <p class="tooltip-deceased">Fallecidos: <span class="tooltip-number">${d.fallecidos}</span><p/>
-                        <p class="tooltip-deceased">Saldo: <span class="tooltip-number">${d.saldo}</span><p/>
-                        `
+            <p class="tooltip-year"><span class="tooltip-number">${d.year}</span><p/>
+            <p class="tooltip-born">Nacidos: <span class="tooltip-number">${d.nacidos}</span><p/>
+            <p class="tooltip-deceased">Fallecidos: <span class="tooltip-number">${d.fallecidos}</span><p/>
+            <p class="tooltip-deceased">Saldo: <span class="tooltip-number">${d.saldo}</span><p/>
+            `
           )
           .style('left', w / 2 - 100 + 'px')
           .style('top', 50 + 'px');
@@ -1128,13 +1020,7 @@ const barNegative = (csvFile, cities) => {
       })
       .attr('width', scales.count.x.bandwidth())
       .attr('x', d => scales.count.x(d.year))
-      .attr('y', d => {
-        if (d.saldo > 0) {
-          return scales.count.y(d.saldo);
-        } else {
-          return scales.count.y(0);
-        }
-      })
+      .attr('y', d => d.saldo > 0 ? scales.count.y(d.saldo) : scales.count.y(0))
       .attr('height', d =>
         Math.abs(scales.count.y(d.saldo) - scales.count.y(0))
       );
@@ -1142,19 +1028,13 @@ const barNegative = (csvFile, cities) => {
     drawAxes(g);
   };
 
-  const resize = () => {
-    updateChart(dataz);
-  };
+  function resize() {
+    updateChart(dataz)
+  }
 
-  const loadData = () => {
-    d3.csv(csvFile).then(function(data) {
+  function loadData() {
+    d3.csv(csvFile).then(data => {
       dataz = data;
-      dataz.forEach(d => {
-        d.year = d.year;
-        d.saldo = d.saldo;
-        d.nacidos = d.nacidos;
-        d.fallecidos = d.fallecidos;
-      });
       setupElements();
       setupScales();
       updateChart(dataz);
@@ -1166,12 +1046,9 @@ const barNegative = (csvFile, cities) => {
   loadData();
 };
 
-const linePopulation = (csvFile, cities) => {
-  if (widthMobile > 544) {
-    margin = { top: 16, right: 8, bottom: 24, left: 62 };
-  } else {
-    margin = { top: 16, right: 8, bottom: 24, left: 32 };
-  }
+function linePopulation(csvFile, cities){
+  margin = { top: 16, right: 8, bottom: 24, left: 62 };
+  margin.left = widthMobile > 544 ? 62 : 32
 
   let width = 0;
   let height = 0;
@@ -1187,7 +1064,7 @@ const linePopulation = (csvFile, cities) => {
     .attr('class', 'tooltip tooltip-population')
     .style('opacity', 0);
 
-  const setupScales = () => {
+  function setupScales(){
     const countX = d3
       .scaleTime()
       .domain([d3.min(datos, d => d.year), d3.max(datos, d => d.year)]);
@@ -1199,7 +1076,8 @@ const linePopulation = (csvFile, cities) => {
     scales.count = { x: countX, y: countY };
   };
 
-  const tooltips = data => {
+  function tooltips(data){
+    datos = data
     const w = chart.node().offsetWidth;
 
     tooltipOver = chart.append('div').attr('class', 'tooltip tooltip-over');
@@ -1208,38 +1086,24 @@ const linePopulation = (csvFile, cities) => {
     const totalWin = datos.slice(-1)[0].population - datos[0].population;
     let percentageL = ((totalLose * 100) / datos[0].population).toFixed(2);
     let percentageW = ((totalWin * 100) / datos[0].population).toFixed(2);
-    if (datos[0].population > datos.slice(-1)[0].population) {
-      tooltipOver
-        .data(datos)
-        .html(
-          d =>
-            `
-                    <p class="tooltip-deceased">Desde 1900 su población ha disminuido en un <span class="tooltip-number">${percentageL}%</span><p/>
-                    <p class="tooltip-deceased">Mayores de 65 años en 2018: <span class="tooltip-number">${d.mayor}%</span><p/>
-                    <p class="tooltip-deceased">Menores de 18 años en 2018: <span class="tooltip-number">${d.menor}%</span><p/>
-                    `
-        )
-        .transition()
-        .duration(300)
-        .style('top', 20 + 'px');
-    } else {
-      tooltipOver
-        .data(datos)
-        .html(
-          d =>
-            `
-                        <p class="tooltip-deceased">Desde 1900 su población ha aumentado en un <span class="tooltip-number">${percentageW}%</span><p/>
-                        <p class="tooltip-deceased">Mayores de 65 años en 2018: <span class="tooltip-number">${d.mayor}%</span><p/>
-                        <p class="tooltip-deceased">Menores de 18 años en 2018: <span class="tooltip-number">${d.menor}%</span><p/>
-                        `
-        )
-        .transition()
-        .duration(300)
-        .style('top', 90 + '%');
-    }
+    const tooltipHeader = datos[0].population > datos.slice(-1)[0].population ? `<p class="tooltip-deceased">Desde 1900 su población ha disminuido en un <span class="tooltip-number">${percentageL}%</span><p/>`
+      : `<p class="tooltip-deceased">Desde 1900 su población ha aumentado en un <span class="tooltip-number">${percentageW}%</span><p/>`
+    const topPosition = datos[0].population > datos.slice(-1)[0].population? '20px' : '90%'
+    tooltipOver
+      .data(datos)
+      .html(
+        d => `
+        ${tooltipHeader}
+        <p class="tooltip-deceased">Mayores de 65 años en 2018: <span class="tooltip-number">${d.mayor}%</span><p/>
+        <p class="tooltip-deceased">Menores de 18 años en 2018: <span class="tooltip-number">${d.menor}%</span><p/>
+        `
+      )
+      .transition()
+      .duration(300)
+      .style('top', `${topPosition}`);
   };
 
-  const setupElements = () => {
+  function setupElements(){
     const g = svg.select(`.line-population-${cities}-container`);
 
     g.append('g').attr('class', 'axis axis-x');
@@ -1249,15 +1113,15 @@ const linePopulation = (csvFile, cities) => {
     g.append('g').attr('class', `line-population-${cities}-container-bis`);
   };
 
-  const updateScales = (width, height) => {
-    scales.count.x.range([0, width]);
+  function updateScales(width, height){
+    scales.count.x.range([0, width - margin.right]);
     scales.count.y.range([height, 0]);
   };
 
-  const drawAxes = g => {
+  function drawAxes(g){
     const axisX = d3
       .axisBottom(scales.count.x)
-      .tickPadding(5)
+      .tickPadding(4)
       .tickFormat(d3.format('d'))
       .ticks(13);
 
@@ -1282,7 +1146,7 @@ const linePopulation = (csvFile, cities) => {
       .call(axisY);
   };
 
-  function updateChart(data) {
+  function updateChart(data){
     const w = chart.node().offsetWidth;
     const h = 500;
 
@@ -1372,8 +1236,8 @@ const linePopulation = (csvFile, cities) => {
     drawAxes(g);
   }
 
-  function update(mes) {
-    d3.csv(csvFile).then(function(data) {
+  function update(mes){
+    d3.csv(csvFile).then(data => {
       datos = data;
 
       let valueCity = d3.select(`#select-city-${cities}`).property('value');
@@ -1399,49 +1263,12 @@ const linePopulation = (csvFile, cities) => {
 
       scales.count = { x: countX, y: countY };
       updateChart(datos);
-
-      const totalLose = datos[0].population - datos.slice(-1)[0].population;
-      const totalWin = datos.slice(-1)[0].population - datos[0].population;
-      let percentageL = ((totalLose * 100) / datos[0].population).toFixed(2);
-      let percentageW = ((totalWin * 100) / datos[0].population).toFixed(2);
-      if (datos[0].population > datos.slice(-1)[0].population) {
-        tooltipOver
-          .data(datos)
-          .html(
-            d =>
-              `
-                                  <p class="tooltip-deceased">Desde 1900 su población ha disminuido en un <span class="tooltip-number">${percentageL}%</span><p/>
-                                  <p class="tooltip-deceased">Mayores de 65 años en 2018: <span class="tooltip-number">${d.mayor}%</span><p/>
-                                  <p class="tooltip-deceased">Menores de 18 años en 2018: <span class="tooltip-number">${d.menor}%</span><p/>
-                                  `
-          )
-          .transition()
-          .duration(300)
-          .style('top', 20 + 'px');
-      } else {
-        tooltipOver
-          .data(datos)
-          .html(
-            d =>
-              `
-                                      <p class="tooltip-deceased">Desde 1900 su población ha aumentado en un <span class="tooltip-number">${percentageW}%</span><p/>
-                                      <p class="tooltip-deceased">Mayores de 65 años en 2018: <span class="tooltip-number">${d.mayor}%</span><p/>
-                                      <p class="tooltip-deceased">Menores de 18 años en 2018: <span class="tooltip-number">${d.menor}%</span><p/>
-                                      `
-          )
-          .transition()
-          .duration(300)
-          .style('top', 75 + '%');
-      }
+      tooltips(datos)
     });
   }
 
-  const resize = () => {
-    updateChart(datos);
-  };
-
-  const menuMes = () => {
-    d3.csv(csvFile).then(function(data) {
+  function menuMes() {
+    d3.csv(csvFile).then(data => {
       datos = data;
 
       const nest = d3
@@ -1467,18 +1294,20 @@ const linePopulation = (csvFile, cities) => {
     });
   };
 
-  const loadData = () => {
-    d3.csv(csvFile).then(function(data) {
+  function resize() {
+    updateChart(datos)
+  }
+
+  function loadData() {
+    d3.csv(csvFile).then(data => {
       datos = data;
       datos.forEach(d => {
         d.year = +d.year;
-        d.name = d.name;
         d.population = +d.population;
       });
       setupElements();
       setupScales();
       updateChart(datos);
-      tooltips(datos);
       mes = datos[0].name;
       update(mes);
     });
@@ -1496,53 +1325,37 @@ scatterDesert();
 
 aragonStack();
 
-csvTotal = [
-  'data/huesca/huesca-total.csv',
-  'data/teruel/teruel-total.csv',
-  'data/zaragoza/zaragoza-total.csv'
-];
+const cities = [
+  {
+    city: 'huesca',
+    linePopulationCSV: 'data/huesca/huesca.csv',
+    lineTotalCSV: 'data/huesca/huesca-total.csv',
+    scatterUnderCSV: 'data/huesca/huesca-mayor-menor.csv',
+    vegetativeCSV: 'data/huesca/saldo-vegetativo-total-huesca.csv'
+  },
+  {
+    city: 'teruel',
+    linePopulationCSV: 'data/teruel/teruel.csv',
+    lineTotalCSV: 'data/teruel/teruel-total.csv',
+    scatterUnderCSV: 'data/teruel/teruel-mayor-menor.csv',
+    vegetativeCSV: 'data/teruel/saldo-vegetativo-total-teruel.csv'
+  },
+  {
+    city: 'zaragoza',
+    linePopulationCSV: 'data/zaragoza/zaragoza.csv',
+    lineTotalCSV: 'data/zaragoza/zaragoza-total.csv',
+    scatterUnderCSV: 'data/zaragoza/zaragoza-mayor-menor.csv',
+    vegetativeCSV: 'data/zaragoza/saldo-vegetativo-total-zaragoza.csv'
+  }
+]
 
-csvUnder = [
-  'data/huesca/huesca-mayor-menor.csv',
-  'data/teruel/mayor-menor-teruel.csv',
-  'data/zaragoza/zaragoza-mayor-menor.csv'
-];
-
-csvBalance = [
-  'data/huesca/saldo-vegetativo-total-huesca.csv',
-  'data/teruel/saldo-vegetativo-total-teruel.csv',
-  'data/zaragoza/saldo-vegetativo-total-zaragoza.csv'
-];
-
-csvCities = [
-  'data/huesca/huesca.csv',
-  'data/teruel/teruel.csv',
-  'data/zaragoza/zaragoza.csv'
-];
-
-csvLB = [
-  'data/2015-2018/huesca/huesca-total.csv',
-  'data/2015-2018/teruel/teruel-total.csv',
-  'data/2015-2018/zaragoza/zaragoza-total.csv'
-];
-
-cities = ['huesca', 'teruel', 'zaragoza'];
-
-linePopulation(csvCities[0], cities[0]);
-linePopulation(csvCities[1], cities[1]);
-linePopulation(csvCities[2], cities[2]);
-
-line(csvTotal[0], cities[0]);
-line(csvTotal[1], cities[1]);
-line(csvTotal[2], cities[2]);
-
-barscatter(csvUnder[0], cities[0]);
-barscatter(csvUnder[1], cities[1]);
-barscatter(csvUnder[2], cities[2]);
-
-barNegative(csvBalance[0], cities[0]);
-barNegative(csvBalance[1], cities[1]);
-barNegative(csvBalance[2], cities[2]);
+cities.map(element => {
+  const { city, linePopulationCSV, lineTotalCSV, scatterUnderCSV, vegetativeCSV } = element
+  linePopulation(linePopulationCSV, city);
+  line(lineTotalCSV, city);
+  barScatter(scatterUnderCSV, city);
+  barNegative(vegetativeCSV, city);
+})
 
 new SlimSelect({
   select: '#select-city-teruel',
