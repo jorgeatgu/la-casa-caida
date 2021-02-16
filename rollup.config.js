@@ -17,6 +17,8 @@ import stylelint from 'rollup-plugin-stylelint';
 import resolve from 'rollup-plugin-node-resolve';
 import browsersync from 'rollup-plugin-browsersync';
 
+const production = !process.env.ROLLUP_WATCH;
+
 const paths = {
   js: 'src/js',
   css: 'src/css',
@@ -52,49 +54,35 @@ const plugins = [
     open: true
   }),
   resolve(),
-  commonjs()
+  commonjs(),
+  production && terser()
 ];
 
 export default [{
     input: paths.js + '/index.js',
     output: [{
-        file: paths.distJs + '/index.js',
-        format: 'esm'
-      },
-      {
-        file: paths.distJs + '/index.min.js',
-        format: 'iife',
-        name: 'version'
-      }
-    ],
+      file: paths.distJs + '/index.js',
+      format: 'iife',
+      sourcemap: true
+    }],
     plugins
   },
   {
     input: paths.js + '/comparador.js',
     output: [{
-        file: paths.distJs + '/comparador.js',
-        format: 'esm'
-      },
-      {
-        file: paths.distJs + '/comparador.min.js',
-        format: 'iife',
-        name: 'version'
-      }
-    ],
+      file: paths.distJs + '/comparador.js',
+      format: 'iife',
+      sourcemap: true
+    }],
     plugins
   },
   {
     input: paths.js + '/jb.js',
     output: [{
-        file: paths.distJs + '/jb.js',
-        format: 'esm'
-      },
-      {
-        file: paths.distJs + '/jb.min.js',
-        format: 'iife',
-        name: 'version'
-      }
-    ],
+      file: paths.distJs + '/jb.js',
+      format: 'iife',
+      sourcemap: true
+    }],
     plugins
   },
   {

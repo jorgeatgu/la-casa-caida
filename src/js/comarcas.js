@@ -1,4 +1,4 @@
-import { menu, widthMobile } from "./shared/index.js";
+import { menu, widthMobile } from './shared/index.js';
 
 const area = () => {
   const margin = { top: 24, right: 16, bottom: 24, left: 64 };
@@ -8,19 +8,16 @@ const area = () => {
   const svg = chart.select('svg');
   const scales = {};
   let dataz;
-  let hab = " hab"
+  let hab = ' hab';
 
   const setupScales = () => {
     const countX = d3
       .scaleLinear()
-      .domain([
-        d3.min(dataz, (d) => d.year),
-        d3.max(dataz, (d) => d.year)
-      ]);
+      .domain([d3.min(dataz, d => d.year), d3.max(dataz, d => d.year)]);
 
     const countY = d3
       .scaleLinear()
-      .domain([0, d3.max(dataz, (d) => d.population * 1.25)]);
+      .domain([0, d3.max(dataz, d => d.population * 1.25)]);
 
     scales.count = { x: countX, y: countY };
   };
@@ -40,7 +37,7 @@ const area = () => {
     scales.count.y.range([height, 0]);
   };
 
-  const drawAxes = (g) => {
+  const drawAxes = g => {
     const axisX = d3
       .axisBottom(scales.count.x)
       .tickFormat(d3.format('d'))
@@ -52,14 +49,14 @@ const area = () => {
 
     const axisY = d3
       .axisLeft(scales.count.y)
-      .tickFormat((d) => d + hab)
+      .tickFormat(d => d + hab)
       .ticks(5)
       .tickSizeInner(-width);
 
     g.select('.axis-y').call(axisY);
   };
 
-  const updateChart = (dataz) => {
+  const updateChart = dataz => {
     const w = chart.node().offsetWidth;
     const h = 600;
 
@@ -76,9 +73,9 @@ const area = () => {
 
     const area = d3
       .area()
-      .x((d) => scales.count.x(d.year))
+      .x(d => scales.count.x(d.year))
       .y0(height)
-      .y1((d) => scales.count.y(d.population))
+      .y1(d => scales.count.y(d.population))
       .curve(d3.curveCardinal.tension(0.6));
 
     updateScales(width, height);
@@ -112,7 +109,7 @@ const area = () => {
         console.log(error);
       } else {
         dataz = data;
-        dataz.forEach((d) => {
+        dataz.forEach(d => {
           d.population = d.population;
         });
         setupElements();
