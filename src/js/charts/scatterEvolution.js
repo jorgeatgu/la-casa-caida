@@ -17,7 +17,7 @@ const d3 = {
   csv,
   format,
   easeLinear
-}
+};
 
 export const scatterEvolution = (csvFile, cities) => {
   const margin = { top: 24, right: 24, bottom: 48, left: 72 };
@@ -93,9 +93,7 @@ export const scatterEvolution = (csvFile, cities) => {
       .tickFormat(d3.format('d'))
       .ticks(0);
 
-    g.select('.axis-x')
-      .attr('transform', `translate(0,${height})`)
-      .call(axisX);
+    g.select('.axis-x').attr('transform', `translate(0,${height})`).call(axisX);
 
     const axisY = d3
       .axisLeft(scales.count.y)
@@ -156,8 +154,8 @@ export const scatterEvolution = (csvFile, cities) => {
           d.percentage > 0
             ? `<p class="tooltip-scatter-text"><strong>${d.name}</strong> ha aumentado su población un <strong>${d.percentage}%</strong>.<p/>`
             : d.percentage === 0
-            ? `<p class="tooltip-scatter-text"><strong>${d.name}</strong> no ha aumentado ni disminuido su población.<p/>`
-            : `<p class="tooltip-scatter-text"><strong>${d.name}</strong> ha disminuido su población un <strong>${d.percentage}%</strong>.<p/>`;
+              ? `<p class="tooltip-scatter-text"><strong>${d.name}</strong> no ha aumentado ni disminuido su población.<p/>`
+              : `<p class="tooltip-scatter-text"><strong>${d.name}</strong> ha disminuido su población un <strong>${d.percentage}%</strong>.<p/>`;
         tooltip
           .style('opacity', 1)
           .html(
@@ -169,10 +167,7 @@ export const scatterEvolution = (csvFile, cities) => {
           .style('top', `${d3.event.pageY - 100}px`);
       })
       .on('mouseout', () => {
-        tooltip
-          .transition()
-          .duration(200)
-          .style('opacity', 0);
+        tooltip.transition().duration(200).style('opacity', 0);
       })
       .attr('fill-opacity', 0.8)
       .transition()
@@ -305,7 +300,9 @@ export const scatterEvolution = (csvFile, cities) => {
   }
 
   function filterDataByYear(yearFilter, position) {
-    let dataYearsFiltered = dataScatterEvolution.filter(({ year }) => year === yearFilter);
+    let dataYearsFiltered = dataScatterEvolution.filter(
+      ({ year }) => year === yearFilter
+    );
     return dataYearsFiltered.map(({ population, municipio, cp }) => {
       return {
         [position]: population,

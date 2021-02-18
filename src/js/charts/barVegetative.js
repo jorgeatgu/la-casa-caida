@@ -19,7 +19,7 @@ const d3 = {
   axisLeft,
   csv,
   format
-}
+};
 
 export function barVegetative(csvFile, cities) {
   const margin = { top: 24, right: 8, bottom: 24, left: 40 };
@@ -81,9 +81,7 @@ export function barVegetative(csvFile, cities) {
       })
     );
 
-    g.select('.axis-x')
-      .attr('transform', `translate(0,${height})`)
-      .call(axisX);
+    g.select('.axis-x').attr('transform', `translate(0,${height})`).call(axisX);
 
     const axisY = d3
       .axisLeft(scales.count.y)
@@ -139,10 +137,7 @@ export function barVegetative(csvFile, cities) {
           .style('top', 50 + 'px');
       })
       .on('mouseout', function(d) {
-        tooltip
-          .transition()
-          .duration(200)
-          .style('opacity', 0);
+        tooltip.transition().duration(200).style('opacity', 0);
       })
       .attr('width', scales.count.x.bandwidth())
       .attr('x', d => scales.count.x(d.year))

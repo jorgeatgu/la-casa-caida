@@ -26,7 +26,7 @@ const d3 = {
   easeLinear,
   format,
   interpolatePath
-}
+};
 
 export function linePopulation(csvFile, cities) {
   const margin = { top: 16, right: 8, bottom: 24, left: 62 };
@@ -39,9 +39,7 @@ export function linePopulation(csvFile, cities) {
   let scales = {};
   let dataLinePopulation;
   const containerTooltip = d3.select(`.${cities}-line`);
-  const tooltipOver = chart
-    .append('div')
-    .attr('class', 'tooltip tooltip-over');
+  const tooltipOver = chart.append('div').attr('class', 'tooltip tooltip-over');
   const tooltipPopulation = containerTooltip
     .append('div')
     .attr('class', 'tooltip tooltip-population')
@@ -50,7 +48,10 @@ export function linePopulation(csvFile, cities) {
   function setupScales() {
     const countX = d3
       .scaleTime()
-      .domain([d3.min(dataLinePopulation, d => d.year), d3.max(dataLinePopulation, d => d.year)]);
+      .domain([
+        d3.min(dataLinePopulation, d => d.year),
+        d3.max(dataLinePopulation, d => d.year)
+      ]);
 
     const countY = d3
       .scaleLinear()
@@ -63,16 +64,30 @@ export function linePopulation(csvFile, cities) {
     dataLinePopulation = data;
     const w = chart.node().offsetWidth;
 
-    const totalLose = dataLinePopulation[0].population - dataLinePopulation.slice(-1)[0].population;
-    const totalWin = dataLinePopulation.slice(-1)[0].population - dataLinePopulation[0].population;
-    let percentageL = ((totalLose * 100) / dataLinePopulation[0].population).toFixed(2);
-    let percentageW = ((totalWin * 100) / dataLinePopulation[0].population).toFixed(2);
+    const totalLose =
+      dataLinePopulation[0].population -
+      dataLinePopulation.slice(-1)[0].population;
+    const totalWin =
+      dataLinePopulation.slice(-1)[0].population -
+      dataLinePopulation[0].population;
+    let percentageL = (
+      (totalLose * 100) /
+      dataLinePopulation[0].population
+    ).toFixed(2);
+    let percentageW = (
+      (totalWin * 100) /
+      dataLinePopulation[0].population
+    ).toFixed(2);
     const tooltipHeader =
-      dataLinePopulation[0].population > dataLinePopulation.slice(-1)[0].population
+      dataLinePopulation[0].population >
+      dataLinePopulation.slice(-1)[0].population
         ? `<p class="tooltip-deceased">Desde 1900 su población ha disminuido en un <span class="tooltip-number">${percentageL}%</span><p/>`
         : `<p class="tooltip-deceased">Desde 1900 su población ha aumentado en un <span class="tooltip-number">${percentageW}%</span><p/>`;
     const topPosition =
-      dataLinePopulation[0].population > dataLinePopulation.slice(-1)[0].population ? '20px' : '90%';
+      dataLinePopulation[0].population >
+      dataLinePopulation.slice(-1)[0].population
+        ? '20px'
+        : '90%';
     tooltipOver
       .data(dataLinePopulation)
       .html(
@@ -162,10 +177,7 @@ export function linePopulation(csvFile, cities) {
       .exit()
       .data(dataLinePopulation);
 
-    const newLines = lines
-      .enter()
-      .append('path')
-      .attr('class', 'lines');
+    const newLines = lines.enter().append('path').attr('class', 'lines');
 
     lines
       .merge(newLines)
@@ -187,7 +199,7 @@ export function linePopulation(csvFile, cities) {
     dots
       .merge(dotsLayer)
       .on('mouseover', (event, d) => {
-        const { pageX, pageY } = event
+        const { pageX, pageY } = event;
         const positionX = scales.count.x(d.year);
         const postionWidthTooltip = positionX + 270;
         const tooltipWidth = 210;
@@ -203,10 +215,7 @@ export function linePopulation(csvFile, cities) {
           .style('top', `${pageY - 48}px`);
       })
       .on('mouseout', () => {
-        tooltipPopulation
-          .transition()
-          .duration(200)
-          .style('opacity', 0);
+        tooltipPopulation.transition().duration(200).style('opacity', 0);
       })
       .attr('cx', d => scales.count.x(d.year))
       .attr('cy', d => scales.count.y(d.population))
@@ -228,7 +237,9 @@ export function linePopulation(csvFile, cities) {
       let valueCity = d3.select(`#select-city-${cities}`).property('value');
       let revalueCity = new RegExp('^' + valueCity + '$');
 
-      dataLinePopulation = dataLinePopulation.filter(d => String(d.name).match(revalueCity));
+      dataLinePopulation = dataLinePopulation.filter(d =>
+        String(d.name).match(revalueCity)
+      );
 
       dataLinePopulation.forEach(d => {
         d.population = +d.population;
@@ -240,7 +251,10 @@ export function linePopulation(csvFile, cities) {
 
       const countX = d3
         .scaleTime()
-        .domain([d3.min(dataLinePopulation, d => d.year), d3.max(dataLinePopulation, d => d.year)]);
+        .domain([
+          d3.min(dataLinePopulation, d => d.year),
+          d3.max(dataLinePopulation, d => d.year)
+        ]);
 
       const countY = d3
         .scaleLinear()

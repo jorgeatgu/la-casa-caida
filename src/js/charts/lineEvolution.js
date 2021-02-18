@@ -26,7 +26,7 @@ const d3 = {
   easeLinear,
   format,
   interpolatePath
-}
+};
 
 export function lineEvolution(csvFile, cities) {
   const margin = { top: 16, right: 16, bottom: 24, left: 62 };
@@ -125,10 +125,7 @@ export function lineEvolution(csvFile, cities) {
       .exit()
       .data(dataLineEvolution);
 
-    const newLines = lines
-      .enter()
-      .append('path')
-      .attr('class', 'lines');
+    const newLines = lines.enter().append('path').attr('class', 'lines');
 
     lines
       .merge(newLines)
@@ -169,7 +166,9 @@ export function lineEvolution(csvFile, cities) {
       let valueCity = d3.select(`#select-lb-${cities}`).property('value');
       let revalueCity = new RegExp('^' + valueCity + '$');
 
-      dataLineEvolution = dataLineEvolution.filter(d => String(d.name).match(revalueCity));
+      dataLineEvolution = dataLineEvolution.filter(d =>
+        String(d.name).match(revalueCity)
+      );
 
       dataLineEvolution.forEach(d => {
         d.population = +d.population;
@@ -239,4 +238,4 @@ export function lineEvolution(csvFile, cities) {
 
   loadData();
   menuSelectCity();
-};
+}

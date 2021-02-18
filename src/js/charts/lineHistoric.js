@@ -20,8 +20,7 @@ const d3 = {
   csv,
   format,
   formatDefaultLocale
-}
-
+};
 
 export function lineHistoric(csvFile, cities) {
   const margin = { top: 8, right: 8, bottom: 24, left: 8 };
@@ -48,7 +47,10 @@ export function lineHistoric(csvFile, cities) {
   function setupScales() {
     const countX = d3
       .scaleTime()
-      .domain([d3.min(dataLineHistoric, d => d.year), d3.max(dataLineHistoric, d => d.year)]);
+      .domain([
+        d3.min(dataLineHistoric, d => d.year),
+        d3.max(dataLineHistoric, d => d.year)
+      ]);
 
     const countY = d3
       .scaleLinear()
@@ -81,9 +83,7 @@ export function lineHistoric(csvFile, cities) {
       .tickFormat(d3.format('d'))
       .ticks(9);
 
-    g.select('.axis-x')
-      .attr('transform', `translate(0,${height})`)
-      .call(axisX);
+    g.select('.axis-x').attr('transform', `translate(0,${height})`).call(axisX);
 
     const localeFormat = locale.format(',.0f');
     const axisY = d3
@@ -93,9 +93,7 @@ export function lineHistoric(csvFile, cities) {
       .tickSizeInner(-width);
 
     g.select('.axis-y').call(axisY);
-    g.selectAll('.axis-y .tick text')
-      .attr('x', 80)
-      .attr('dy', -5);
+    g.selectAll('.axis-y .tick text').attr('x', 80).attr('dy', -5);
   }
 
   function updateChart(dataLineHistoric) {
@@ -143,7 +141,7 @@ export function lineHistoric(csvFile, cities) {
     dots
       .merge(dotsLayer)
       .on('mouseover', (event, d) => {
-        const { pageX, pageY } = event
+        const { pageX, pageY } = event;
         const postionWidthTooltip = scales.count.x(d.year) + 270;
         const tooltipWidth = 210;
         const positionleft = `${pageX}px`;
@@ -158,10 +156,7 @@ export function lineHistoric(csvFile, cities) {
           .style('top', `${pageY - 48}px`);
       })
       .on('mouseout', () => {
-        tooltipPopulation
-          .transition()
-          .duration(200)
-          .style('opacity', 0);
+        tooltipPopulation.transition().duration(200).style('opacity', 0);
       })
       .attr('cx', d => scales.count.x(d.year))
       .attr('cy', d => scales.count.y(d.total))

@@ -14,8 +14,8 @@ const d3 = {
   axisBottom,
   axisLeft,
   csv,
-  format,
-}
+  format
+};
 
 export function scatterDesert() {
   const margin = { top: 24, right: 24, bottom: 48, left: 72 };
@@ -32,11 +32,17 @@ export function scatterDesert() {
   function setupScales() {
     const countX = d3
       .scaleLinear()
-      .domain([d3.min(dataMunicipalities, d => d.densidad), d3.max(dataMunicipalities, d => d.densidad)]);
+      .domain([
+        d3.min(dataMunicipalities, d => d.densidad),
+        d3.max(dataMunicipalities, d => d.densidad)
+      ]);
 
     const countY = d3
       .scaleLinear()
-      .domain([d3.min(dataMunicipalities, d => d.densidad), d3.max(dataMunicipalities, d => d.densidad)]);
+      .domain([
+        d3.min(dataMunicipalities, d => d.densidad),
+        d3.max(dataMunicipalities, d => d.densidad)
+      ]);
 
     scales.count = { x: countX, y: countY };
   }
@@ -63,21 +69,20 @@ export function scatterDesert() {
   }
 
   function updateScales(width, height) {
-    const { count: { x, y } } = scales
+    const {
+      count: { x, y }
+    } = scales;
     x.range([0, width]);
     y.range([height, 0]);
   }
 
   function drawAxes(g) {
-    const { count: { x, y } } = scales
-    const axisX = d3
-      .axisBottom(x)
-      .tickFormat(d3.format('d'))
-      .ticks(0);
+    const {
+      count: { x, y }
+    } = scales;
+    const axisX = d3.axisBottom(x).tickFormat(d3.format('d')).ticks(0);
 
-    g.select('.axis-x')
-      .attr('transform', `translate(0,${height})`)
-      .call(axisX);
+    g.select('.axis-x').attr('transform', `translate(0,${height})`).call(axisX);
 
     const axisY = d3
       .axisLeft(y)
@@ -92,7 +97,7 @@ export function scatterDesert() {
     w = chart.node().offsetWidth;
     h = 600;
 
-    const { left, right, top, bottom } = margin
+    const { left, right, top, bottom } = margin;
 
     width = w - left - right;
     height = h - top - bottom;
@@ -109,7 +114,9 @@ export function scatterDesert() {
 
     const container = chart.select('.scatter-desert-container-bis');
 
-    const layer = container.selectAll('.circle-desert').data(dataMunicipalities);
+    const layer = container
+      .selectAll('.circle-desert')
+      .data(dataMunicipalities);
 
     const newLayer = layer
       .enter()

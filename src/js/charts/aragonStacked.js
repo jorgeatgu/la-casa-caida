@@ -1,11 +1,6 @@
 import { select, selectAll } from 'd3-selection';
 import { min, max, bisector, extent } from 'd3-array';
-import {
-  curveCardinal,
-  area,
-  stack,
-  stackOrderInsideOut
-} from 'd3-shape';
+import { curveCardinal, area, stack, stackOrderInsideOut } from 'd3-shape';
 import { scaleTime, scaleLinear, scaleOrdinal } from 'd3-scale';
 import { axisBottom, axisLeft } from 'd3-axis';
 import { csv } from 'd3-fetch';
@@ -29,7 +24,7 @@ const d3 = {
   axisLeft,
   csv,
   format
-}
+};
 
 export function aragonStacked() {
   const margin = { top: 24, right: 8, bottom: 24, left: 32 };
@@ -46,7 +41,9 @@ export function aragonStacked() {
     .style('opacity', 0);
 
   function setupScales() {
-    const countX = d3.scaleTime().domain(d3.extent(dataAragonStacked, d => d.year));
+    const countX = d3
+      .scaleTime()
+      .domain(d3.extent(dataAragonStacked, d => d.year));
 
     const countY = d3.scaleLinear().domain([0, 100]);
 
@@ -93,9 +90,7 @@ export function aragonStacked() {
       .tickPadding(7)
       .ticks(9);
 
-    g.select('.axis-x')
-      .attr('transform', `translate(0,${height})`)
-      .call(axisX);
+    g.select('.axis-x').attr('transform', `translate(0,${height})`).call(axisX);
 
     const axisY = d3
       .axisLeft(scales.count.y)
@@ -139,10 +134,7 @@ export function aragonStacked() {
       .y1(d => scales.count.y(d[1]))
       .curve(d3.curveCardinal.tension(0.6));
 
-    const stack = d3
-      .stack()
-      .keys(keys)
-      .order(d3.stackOrderInsideOut);
+    const stack = d3.stack().keys(keys).order(d3.stackOrderInsideOut);
 
     const stackedData = stack(dataAragonStacked);
 
@@ -157,10 +149,7 @@ export function aragonStacked() {
 
     const layer = container.selectAll('.area-stack').data(stackedData);
 
-    const newLayer = layer
-      .enter()
-      .append('path')
-      .attr('class', 'area-stack');
+    const newLayer = layer.enter().append('path').attr('class', 'area-stack');
 
     layer
       .merge(newLayer)
@@ -186,7 +175,7 @@ export function aragonStacked() {
       .on('mousemove', mousemove);
 
     function mousemove(event) {
-      const { layerX } = event
+      const { layerX } = event;
       const w = chart.node().offsetWidth;
       var x0 = scales.count.x.invert(layerX),
         i = bisectDate(dataAragonStacked, x0, 1),
