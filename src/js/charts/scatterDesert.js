@@ -1,3 +1,22 @@
+import { select, selectAll } from 'd3-selection';
+import { min, max } from 'd3-array';
+import { scaleLinear } from 'd3-scale';
+import { axisBottom, axisLeft } from 'd3-axis';
+import { csv } from 'd3-fetch';
+import { format } from 'd3-format';
+
+const d3 = {
+  select,
+  selectAll,
+  min,
+  max,
+  scaleLinear,
+  axisBottom,
+  axisLeft,
+  csv,
+  format,
+}
+
 export function scatterDesert() {
   const margin = { top: 24, right: 24, bottom: 48, left: 72 };
   let width = 0;
@@ -44,13 +63,15 @@ export function scatterDesert() {
   }
 
   function updateScales(width, height) {
-    scales.count.x.range([0, width]);
-    scales.count.y.range([height, 0]);
+    const { count: { x, y } } = scales
+    x.range([0, width]);
+    y.range([height, 0]);
   }
 
   function drawAxes(g) {
+    const { count: { x, y } } = scales
     const axisX = d3
-      .axisBottom(scales.count.x)
+      .axisBottom(x)
       .tickFormat(d3.format('d'))
       .ticks(0);
 
@@ -59,7 +80,7 @@ export function scatterDesert() {
       .call(axisX);
 
     const axisY = d3
-      .axisLeft(scales.count.y)
+      .axisLeft(y)
       .tickFormat(d => d + habitantes)
       .tickSize(-width)
       .ticks(10);
@@ -71,12 +92,14 @@ export function scatterDesert() {
     w = chart.node().offsetWidth;
     h = 600;
 
-    width = w - margin.left - margin.right;
-    height = h - margin.top - margin.bottom;
+    const { left, right, top, bottom } = margin
+
+    width = w - left - right;
+    height = h - top - bottom;
 
     svg.attr('width', w).attr('height', h);
 
-    const translate = `translate(${margin.left},${margin.top})`;
+    const translate = `translate(${left},${top})`;
 
     const g = svg.select('.scatter-desert-container');
 
@@ -103,6 +126,7 @@ export function scatterDesert() {
 
     drawAxes(g);
   }
+
   function resize() {
     updateChart(dataz);
   }

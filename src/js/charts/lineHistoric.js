@@ -1,3 +1,28 @@
+import { select, selectAll } from 'd3-selection';
+import { min, max } from 'd3-array';
+import { line } from 'd3-shape';
+import { scaleTime, scaleLinear } from 'd3-scale';
+import { axisBottom, axisLeft } from 'd3-axis';
+import { csv } from 'd3-fetch';
+import { format, formatDefaultLocale } from 'd3-format';
+import 'd3-transition';
+
+const d3 = {
+  select,
+  selectAll,
+  min,
+  max,
+  line,
+  scaleTime,
+  scaleLinear,
+  axisBottom,
+  axisLeft,
+  csv,
+  format,
+  formatDefaultLocale
+}
+
+
 export function lineHistoric(csvFile, cities) {
   const margin = { top: 8, right: 8, bottom: 24, left: 8 };
 
@@ -6,7 +31,7 @@ export function lineHistoric(csvFile, cities) {
   const chart = d3.select(`.line-${cities}`);
   const svg = chart.select('svg');
   const scales = {};
-  let dataz;
+  let dataLineHistoric;
   const habitantes = 'hab';
   const containerTooltip = d3.select(`.line-province-${cities}`);
   const tooltipPopulation = containerTooltip
@@ -23,13 +48,13 @@ export function lineHistoric(csvFile, cities) {
   function setupScales() {
     const countX = d3
       .scaleTime()
-      .domain([d3.min(dataz, d => d.year), d3.max(dataz, d => d.year)]);
+      .domain([d3.min(dataLineHistoric, d => d.year), d3.max(dataLineHistoric, d => d.year)]);
 
     const countY = d3
       .scaleLinear()
       .domain([
-        d3.min(dataz, d => d.total / 1.25),
-        d3.max(dataz, d => d.total * 1.25)
+        d3.min(dataLineHistoric, d => d.total / 1.25),
+        d3.max(dataLineHistoric, d => d.total * 1.25)
       ]);
 
     scales.count = { x: countX, y: countY };
@@ -73,7 +98,7 @@ export function lineHistoric(csvFile, cities) {
       .attr('dy', -5);
   }
 
-  function updateChart(dataz) {
+  function updateChart(dataLineHistoric) {
     const w = chart.node().offsetWidth;
     const h = 550;
 
@@ -97,7 +122,7 @@ export function lineHistoric(csvFile, cities) {
 
     const container = chart.select(`.line-${cities}-container-bis`);
 
-    const layer = container.selectAll('.line').data([dataz]);
+    const layer = container.selectAll('.line').data([dataLineHistoric]);
 
     const newLayer = layer
       .enter()
@@ -105,7 +130,7 @@ export function lineHistoric(csvFile, cities) {
       .attr('class', 'line')
       .attr('stroke-width', '1.5');
 
-    const dots = container.selectAll('.circles').data(dataz);
+    const dots = container.selectAll('.circles').data(dataLineHistoric);
 
     const dotsLayer = dots
       .enter()
@@ -117,9 +142,9 @@ export function lineHistoric(csvFile, cities) {
 
     dots
       .merge(dotsLayer)
-      .on('mouseover', d => {
-        const positionX = scales.count.x(d.year);
-        const postionWidthTooltip = positionX + 270;
+      .on('mouseover', (event, d) => {
+        console.log("event", event);
+        const postionWidthTooltip = scales.count.x(d.year) + 270;
         const tooltipWidth = 210;
         const positionleft = `${d3.event.pageX}px`;
         const positionright = `${d3.event.pageX - tooltipWidth}px`;
@@ -146,15 +171,15 @@ export function lineHistoric(csvFile, cities) {
   }
 
   function resize() {
-    updateChart(dataz);
+    updateChart(dataLineHistoric);
   }
 
   function loadData() {
     d3.csv(csvFile).then(data => {
-      dataz = data;
+      dataLineHistoric = data;
       setupElements();
       setupScales();
-      updateChart(dataz);
+      updateChart(dataLineHistoric);
     });
   }
 

@@ -1,3 +1,39 @@
+import { select, selectAll } from 'd3-selection';
+import { min, max, bisector, extent } from 'd3-array';
+import {
+  curveCardinal,
+  area,
+  stack,
+  stackOrderInsideOut
+} from 'd3-shape';
+import { scaleTime, scaleLinear, scaleOrdinal } from 'd3-scale';
+import { axisBottom, axisLeft } from 'd3-axis';
+import { csv } from 'd3-fetch';
+import { easeLinear } from 'd3-ease';
+import { format } from 'd3-format';
+import 'd3-transition';
+
+const d3 = {
+  select,
+  selectAll,
+  min,
+  max,
+  bisector,
+  extent,
+  curveCardinal,
+  area,
+  stack,
+  stackOrderInsideOut,
+  scaleTime,
+  scaleLinear,
+  scaleOrdinal,
+  axisBottom,
+  axisLeft,
+  csv,
+  easeLinear,
+  format
+}
+
 export function aragonStacked() {
   const margin = { top: 24, right: 8, bottom: 24, left: 32 };
   let width = 0;
@@ -155,14 +191,15 @@ export function aragonStacked() {
       })
       .on('mousemove', mousemove);
 
-    function mousemove() {
+    function mousemove(event) {
+      const { layerX } = event
       const w = chart.node().offsetWidth;
-      var x0 = scales.count.x.invert(d3.mouse(this)[0]),
-        i = bisectDate(dataz, x0, 1),
-        d0 = dataz[i - 1],
-        d1 = dataz[i],
-        d = x0 - d0.year > d1.year - x0 ? d1 : d0;
-      const positionX = scales.count.x(d.year) + 33;
+      var x0 = scales.count.x.invert(layerX),
+      i = bisectDate(dataz, x0, 1),
+      d0 = dataz[i - 1],
+      d1 = dataz[i],
+      d = x0 - d0.year > d1.year - x0 ? d1 : d0;
+      const positionX = scales.count.x(d.year) + margin.left;
       const postionWidthTooltip = positionX + 200;
       const positionRightTooltip = w - positionX;
 

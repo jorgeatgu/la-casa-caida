@@ -1,3 +1,26 @@
+import { select, selectAll } from 'd3-selection';
+import { nest } from 'd3-collection';
+import { min, max, extent } from 'd3-array';
+import { scaleLinear } from 'd3-scale';
+import { axisBottom, axisLeft } from 'd3-axis';
+import { csv } from 'd3-fetch';
+import { easeQuad } from 'd3-ease';
+import 'd3-transition';
+
+const d3 = {
+  select,
+  selectAll,
+  nest,
+  min,
+  max,
+  extent,
+  scaleLinear,
+  axisBottom,
+  axisLeft,
+  csv,
+  easeQuad
+}
+
 export function barScatter(csvFile, cities) {
   const margin = { top: 0, right: 8, bottom: 64, left: 40 };
   let width = 0;
@@ -183,7 +206,7 @@ export function barScatter(csvFile, cities) {
 
   function menuFilter() {
     d3.csv(csvFile).then(data => {
-      datos = data;
+      const datos = data;
 
       const nest = d3
         .nest()

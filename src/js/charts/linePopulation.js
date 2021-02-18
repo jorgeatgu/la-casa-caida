@@ -1,5 +1,35 @@
+import { widthMobile } from './../shared/index.js';
+import { select, selectAll } from 'd3-selection';
+import { nest } from 'd3-collection';
+import { min, max } from 'd3-array';
+import { line } from 'd3-shape';
+import { scaleTime, scaleLinear } from 'd3-scale';
+import { axisBottom, axisLeft } from 'd3-axis';
+import { csv } from 'd3-fetch';
+import { easeLinear } from 'd3-ease';
+import { format } from 'd3-format';
+import { interpolatePath } from 'd3-interpolate-path';
+import 'd3-transition';
+
+const d3 = {
+  select,
+  selectAll,
+  nest,
+  min,
+  max,
+  line,
+  scaleTime,
+  scaleLinear,
+  axisBottom,
+  axisLeft,
+  csv,
+  easeLinear,
+  format,
+  interpolatePath
+}
+
 export function linePopulation(csvFile, cities) {
-  margin = { top: 16, right: 8, bottom: 24, left: 62 };
+  const margin = { top: 16, right: 8, bottom: 24, left: 62 };
   margin.left = widthMobile > 544 ? 62 : 32;
 
   let width = 0;
@@ -156,7 +186,8 @@ export function linePopulation(csvFile, cities) {
 
     dots
       .merge(dotsLayer)
-      .on('mouseover', d => {
+      .on('mouseover', (event, d) => {
+        console.log("event", event);
         const positionX = scales.count.x(d.year);
         const postionWidthTooltip = positionX + 270;
         const tooltipWidth = 210;
@@ -262,8 +293,8 @@ export function linePopulation(csvFile, cities) {
       setupElements();
       setupScales();
       updateChart(datos);
-      mes = datos[0].name;
-      update(mes);
+      const [{ name }] = datos
+      update(name);
     });
   }
 

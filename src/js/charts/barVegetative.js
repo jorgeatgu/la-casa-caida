@@ -1,3 +1,26 @@
+import { select, selectAll } from 'd3-selection';
+import { nest } from 'd3-collection';
+import { min, max } from 'd3-array';
+import { scaleLinear, scaleBand } from 'd3-scale';
+import { axisBottom, axisLeft } from 'd3-axis';
+import { csv } from 'd3-fetch';
+import { format } from 'd3-format';
+import 'd3-transition';
+
+const d3 = {
+  select,
+  selectAll,
+  nest,
+  min,
+  max,
+  scaleLinear,
+  scaleBand,
+  axisBottom,
+  axisLeft,
+  csv,
+  format
+}
+
 export function barVegetative(csvFile, cities) {
   const margin = { top: 24, right: 8, bottom: 24, left: 40 };
   let width = 0;
