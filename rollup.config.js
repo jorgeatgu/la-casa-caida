@@ -1,8 +1,9 @@
 // ------ JavaScript
-import babel from 'rollup-plugin-babel';
-import { eslint } from 'rollup-plugin-eslint';
+import { babel } from '@rollup/plugin-babel';
+import eslint from '@rollup/plugin-eslint';
 import { terser } from 'rollup-plugin-terser';
-import commonjs from 'rollup-plugin-commonjs';
+import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
 
 // ------ postCSS
 import postcss from 'rollup-plugin-postcss';
@@ -14,7 +15,6 @@ import nested from 'postcss-nested';
 import stylelint from 'rollup-plugin-stylelint';
 
 // ------ global
-import resolve from 'rollup-plugin-node-resolve';
 import browsersync from 'rollup-plugin-browsersync';
 
 const production = !process.env.ROLLUP_WATCH;
@@ -34,11 +34,6 @@ const plugins = [
       paths.css + '/**'
     ]
   }),
-  babel({
-    exclude: 'node_modules/**',
-    include: paths.js + '/**',
-    presets: ['@babel/preset-env']
-  }),
   browsersync({
     host: 'localhost',
     port: 3000,
@@ -55,10 +50,38 @@ const plugins = [
   }),
   resolve(),
   commonjs(),
+  babel({
+    exclude: 'node_modules/**',
+    include: paths.js + '/**',
+    presets: ['@babel/preset-env'],
+    babelHelpers: 'bundled'
+  }),
   production && terser()
 ];
 
 export default [{
+    input: paths.css + '/styles.css',
+    output: {
+      file: paths.distCss + '/styles.css',
+      format: 'es'
+    },
+    plugins: [
+      stylelint(),
+      postcss({
+        extract: true,
+        sourceMap: true,
+        plugins: [
+          atImport(),
+          selector(),
+          customProperties(),
+          sorting(),
+          nested()
+        ],
+        extensions: ['.css'],
+        minimize: true
+      })
+    ]
+  },{
     input: paths.js + '/index.js',
     output: [{
       file: paths.distJs + '/index.js',
@@ -95,29 +118,6 @@ export default [{
       external: ['d3']
     },
     plugins
-  },
-  {
-    input: paths.css + '/styles.css',
-    output: {
-      file: paths.distCss + '/styles.css',
-      format: 'es'
-    },
-    plugins: [
-      stylelint(),
-      postcss({
-        extract: true,
-        sourceMap: true,
-        plugins: [
-          atImport(),
-          selector(),
-          customProperties(),
-          sorting(),
-          nested()
-        ],
-        extensions: ['.css'],
-        minimize: true
-      })
-    ]
   },
   {
     watch: {
