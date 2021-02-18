@@ -1,104 +1,106 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    line-height: 1.4;
-    color: var(--black);
-    font-family: var(--text);
+  margin: 0;
+  line-height: 1.4;
+  color: var(--black);
+  font-family: var(--text);
 }
 
 .container {
-    font-size: 0;
+  font-size: 0;
 }
 
 .container-bgc {
-    background-color: var(--bgc-teruel);
+  background-color: var(--bgc-teruel);
 }
 
 .container-bgc-lb {
-    background-color: var(--bgc-lb);
+  background-color: var(--bgc-lb);
 }
 
 .container-chart,
 .container-desert {
-    width: 100%;
-    margin: 0 auto;
-    padding: 1rem .5rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem .5rem;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .labordeta {
-    width: 100%;
-    background-color: var(--white);
-    padding: 2rem 0;
-    .text {
-        font-family: var(--title);
-    }
+  width: 100%;
+  background-color: var(--white);
+  padding: 2rem 0;
+
+  .text {
+    font-family: var(--title);
+  }
 }
 
 .labordeta-song {
-    width: max-content;
-    position: relative;
-    margin: 0 auto;
-    max-width: 15rem;
-    display: block;
-    &:before {
-        content: '“';
-        font-family: var(--title);
-        font-size: 3rem;
-        position: absolute;
-        top: -1.5rem;
-        left: -1.5rem;
-    }
+  width: max-content;
+  position: relative;
+  margin: 0 auto;
+  max-width: 15rem;
+  display: block;
+
+  &:before {
+    content: '“';
+    font-family: var(--title);
+    font-size: 3rem;
+    position: absolute;
+    top: -1.5rem;
+    left: -1.5rem;
+  }
 }
 
 .map {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    min-height: 60vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 60vh;
 }
 
 .data {
-    font-size: 12px;
-    font-family: var(--text);
-    display: inline-block;
-    margin: 1rem 0 2rem;
+  font-size: 12px;
+  font-family: var(--text);
+  display: inline-block;
+  margin: 1rem 0 2rem;
 }
 
 .author,
 .author-text {
-    font-size: 12px;
-    font-family: var(--title);
-    display: block;
-    text-align: center;
+  font-size: 12px;
+  font-family: var(--title);
+  display: block;
+  text-align: center;
 }
 
 .author-text {
-    text-align: left;
-    margin-bottom: .75rem;
+  text-align: left;
+  margin-bottom: .75rem;
 }
 
 @media only screen and (min-width: 48rem) {
 
-    .container-chart {
-        max-width: 60rem;
-        padding: 3rem .5rem;
-    }
+  .container-chart {
+    max-width: 60rem;
+    padding: 3rem .5rem;
+  }
 
-    .container-desert {
-        max-width: 65rem;
-        padding: 3rem 0;
-    }
+  .container-desert {
+    max-width: 65rem;
+    padding: 3rem 0;
+  }
 
-    .labordeta {
-        padding: 5rem 0;
-    }
+  .labordeta {
+    padding: 5rem 0;
+  }
 
 }

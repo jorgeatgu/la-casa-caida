@@ -9,9 +9,7 @@ import {
 import { scaleTime, scaleLinear, scaleOrdinal } from 'd3-scale';
 import { axisBottom, axisLeft } from 'd3-axis';
 import { csv } from 'd3-fetch';
-import { easeLinear } from 'd3-ease';
 import { format } from 'd3-format';
-import 'd3-transition';
 
 const d3 = {
   select,
@@ -30,7 +28,6 @@ const d3 = {
   axisBottom,
   axisLeft,
   csv,
-  easeLinear,
   format
 }
 
@@ -41,7 +38,7 @@ export function aragonStacked() {
   const chart = d3.select('.aragon-stack');
   const svg = chart.select('svg');
   const scales = {};
-  let dataz;
+  let dataAragonStacked;
   const bisectDate = d3.bisector(d => d.year).left;
   const tooltipStack = chart
     .append('div')
@@ -49,7 +46,7 @@ export function aragonStacked() {
     .style('opacity', 0);
 
   function setupScales() {
-    const countX = d3.scaleTime().domain(d3.extent(dataz, d => d.year));
+    const countX = d3.scaleTime().domain(d3.extent(dataAragonStacked, d => d.year));
 
     const countY = d3.scaleLinear().domain([0, 100]);
 
@@ -109,7 +106,7 @@ export function aragonStacked() {
     g.select('.axis-y').call(axisY);
   }
 
-  function updateChart(dataz) {
+  function updateChart(dataAragonStacked) {
     const w = chart.node().offsetWidth;
     const h = 600;
 
@@ -133,7 +130,7 @@ export function aragonStacked() {
       .attr('class', 'x-hover-line hover-line')
       .attr('y1', 0);
 
-    const keys = dataz.columns.slice(5);
+    const keys = dataAragonStacked.columns.slice(5);
 
     const area = d3
       .area()
@@ -147,7 +144,7 @@ export function aragonStacked() {
       .keys(keys)
       .order(d3.stackOrderInsideOut);
 
-    const stackedData = stack(dataz);
+    const stackedData = stack(dataAragonStacked);
 
     const colors = d3
       .scaleOrdinal()
@@ -167,9 +164,6 @@ export function aragonStacked() {
 
     layer
       .merge(newLayer)
-      .transition()
-      .duration(600)
-      .ease(d3.easeLinear)
       .attr('fill', d => colors(d.key))
       .attr('d', area);
 
@@ -195,10 +189,10 @@ export function aragonStacked() {
       const { layerX } = event
       const w = chart.node().offsetWidth;
       var x0 = scales.count.x.invert(layerX),
-      i = bisectDate(dataz, x0, 1),
-      d0 = dataz[i - 1],
-      d1 = dataz[i],
-      d = x0 - d0.year > d1.year - x0 ? d1 : d0;
+        i = bisectDate(dataAragonStacked, x0, 1),
+        d0 = dataAragonStacked[i - 1],
+        d1 = dataAragonStacked[i],
+        d = x0 - d0.year > d1.year - x0 ? d1 : d0;
       const positionX = scales.count.x(d.year) + margin.left;
       const postionWidthTooltip = positionX + 200;
       const positionRightTooltip = w - positionX;
@@ -230,15 +224,15 @@ export function aragonStacked() {
   }
 
   function resize() {
-    updateChart(dataz);
+    updateChart(dataAragonStacked);
   }
 
   function loadData() {
     d3.csv('data/aragon-total.csv').then(data => {
-      dataz = data;
+      dataAragonStacked = data;
       setupElements();
       setupScales();
-      updateChart(dataz);
+      updateChart(dataAragonStacked);
     });
   }
 

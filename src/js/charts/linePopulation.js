@@ -37,7 +37,7 @@ export function linePopulation(csvFile, cities) {
   const chart = d3.select(`.line-population-${cities}`);
   const svg = chart.select('svg');
   let scales = {};
-  let datos;
+  let dataLinePopulation;
   const containerTooltip = d3.select(`.${cities}-line`);
   const tooltipOver = chart
     .append('div')
@@ -50,31 +50,31 @@ export function linePopulation(csvFile, cities) {
   function setupScales() {
     const countX = d3
       .scaleTime()
-      .domain([d3.min(datos, d => d.year), d3.max(datos, d => d.year)]);
+      .domain([d3.min(dataLinePopulation, d => d.year), d3.max(dataLinePopulation, d => d.year)]);
 
     const countY = d3
       .scaleLinear()
-      .domain([0, d3.max(datos, d => d.population) * 1.25]);
+      .domain([0, d3.max(dataLinePopulation, d => d.population) * 1.25]);
 
     scales.count = { x: countX, y: countY };
   }
 
   function tooltips(data) {
-    datos = data;
+    dataLinePopulation = data;
     const w = chart.node().offsetWidth;
 
-    const totalLose = datos[0].population - datos.slice(-1)[0].population;
-    const totalWin = datos.slice(-1)[0].population - datos[0].population;
-    let percentageL = ((totalLose * 100) / datos[0].population).toFixed(2);
-    let percentageW = ((totalWin * 100) / datos[0].population).toFixed(2);
+    const totalLose = dataLinePopulation[0].population - dataLinePopulation.slice(-1)[0].population;
+    const totalWin = dataLinePopulation.slice(-1)[0].population - dataLinePopulation[0].population;
+    let percentageL = ((totalLose * 100) / dataLinePopulation[0].population).toFixed(2);
+    let percentageW = ((totalWin * 100) / dataLinePopulation[0].population).toFixed(2);
     const tooltipHeader =
-      datos[0].population > datos.slice(-1)[0].population
+      dataLinePopulation[0].population > dataLinePopulation.slice(-1)[0].population
         ? `<p class="tooltip-deceased">Desde 1900 su población ha disminuido en un <span class="tooltip-number">${percentageL}%</span><p/>`
         : `<p class="tooltip-deceased">Desde 1900 su población ha aumentado en un <span class="tooltip-number">${percentageW}%</span><p/>`;
     const topPosition =
-      datos[0].population > datos.slice(-1)[0].population ? '20px' : '90%';
+      dataLinePopulation[0].population > dataLinePopulation.slice(-1)[0].population ? '20px' : '90%';
     tooltipOver
-      .data(datos)
+      .data(dataLinePopulation)
       .html(
         d => `
         ${tooltipHeader}
@@ -154,13 +154,13 @@ export function linePopulation(csvFile, cities) {
 
     const container = chart.select(`.line-population-${cities}-container-bis`);
 
-    const lines = container.selectAll('.lines').data([datos]);
+    const lines = container.selectAll('.lines').data([dataLinePopulation]);
 
     const dots = container
       .selectAll('.circles-population')
       .remove()
       .exit()
-      .data(datos);
+      .data(dataLinePopulation);
 
     const newLines = lines
       .enter()
@@ -187,12 +187,12 @@ export function linePopulation(csvFile, cities) {
     dots
       .merge(dotsLayer)
       .on('mouseover', (event, d) => {
-        console.log("event", event);
+        const { pageX, pageY } = event
         const positionX = scales.count.x(d.year);
         const postionWidthTooltip = positionX + 270;
         const tooltipWidth = 210;
-        const positionleft = `${d3.event.pageX}px`;
-        const positionright = `${d3.event.pageX - tooltipWidth}px`;
+        const positionleft = `${pageX}px`;
+        const positionright = `${pageX - tooltipWidth}px`;
         tooltipPopulation.transition();
         tooltipPopulation
           .style('opacity', 1)
@@ -200,7 +200,7 @@ export function linePopulation(csvFile, cities) {
             `<p class="tooltip-deceased">La población en <span class="tooltip-number">${d.year}</span> era de <span class="tooltip-number">${d.population}</span> habitantes<p/>`
           )
           .style('left', postionWidthTooltip > w ? positionright : positionleft)
-          .style('top', `${d3.event.pageY - 48}px`);
+          .style('top', `${pageY - 48}px`);
       })
       .on('mouseout', () => {
         tooltipPopulation
@@ -221,16 +221,16 @@ export function linePopulation(csvFile, cities) {
     drawAxes(g);
   }
 
-  function update(mes) {
+  function updateSelectCity() {
     d3.csv(csvFile).then(data => {
-      datos = data;
+      dataLinePopulation = data;
 
       let valueCity = d3.select(`#select-city-${cities}`).property('value');
       let revalueCity = new RegExp('^' + valueCity + '$');
 
-      datos = datos.filter(d => String(d.name).match(revalueCity));
+      dataLinePopulation = dataLinePopulation.filter(d => String(d.name).match(revalueCity));
 
-      datos.forEach(d => {
+      dataLinePopulation.forEach(d => {
         d.population = +d.population;
         d.year = +d.year;
       });
@@ -240,26 +240,26 @@ export function linePopulation(csvFile, cities) {
 
       const countX = d3
         .scaleTime()
-        .domain([d3.min(datos, d => d.year), d3.max(datos, d => d.year)]);
+        .domain([d3.min(dataLinePopulation, d => d.year), d3.max(dataLinePopulation, d => d.year)]);
 
       const countY = d3
         .scaleLinear()
-        .domain([0, d3.max(datos, d => d.population) * 1.25]);
+        .domain([0, d3.max(dataLinePopulation, d => d.population) * 1.25]);
 
       scales.count = { x: countX, y: countY };
-      updateChart(datos);
-      tooltips(datos);
+      updateChart(dataLinePopulation);
+      tooltips(dataLinePopulation);
     });
   }
 
-  function menuMes() {
+  function menuSelectCity() {
     d3.csv(csvFile).then(data => {
-      datos = data;
+      dataLinePopulation = data;
 
       const nest = d3
         .nest()
         .key(d => d.select)
-        .entries(datos);
+        .entries(dataLinePopulation);
 
       const selectCity = d3.select(`#select-city-${cities}`);
 
@@ -272,34 +272,31 @@ export function linePopulation(csvFile, cities) {
         .text(d => d.key);
 
       selectCity.on('change', function() {
-        let mes = d3.select(this).property('value');
-
-        update(mes);
+        updateSelectCity();
       });
     });
   }
 
   function resize() {
-    updateChart(datos);
+    updateChart(dataLinePopulation);
   }
 
   function loadData() {
     d3.csv(csvFile).then(data => {
-      datos = data;
-      datos.forEach(d => {
+      dataLinePopulation = data;
+      dataLinePopulation.forEach(d => {
         d.year = +d.year;
         d.population = +d.population;
       });
       setupElements();
       setupScales();
-      updateChart(datos);
-      const [{ name }] = datos
-      update(name);
+      updateChart(dataLinePopulation);
+      updateSelectCity();
     });
   }
 
   window.addEventListener('resize', resize);
 
   loadData();
-  menuMes();
+  menuSelectCity();
 }

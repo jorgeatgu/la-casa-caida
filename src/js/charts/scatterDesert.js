@@ -27,16 +27,16 @@ export function scatterDesert() {
   const svg = chart.select('svg');
   const scales = {};
   const habitantes = ' hab/km2';
-  let dataz;
+  let dataMunicipalities;
 
   function setupScales() {
     const countX = d3
       .scaleLinear()
-      .domain([d3.min(dataz, d => d.densidad), d3.max(dataz, d => d.densidad)]);
+      .domain([d3.min(dataMunicipalities, d => d.densidad), d3.max(dataMunicipalities, d => d.densidad)]);
 
     const countY = d3
       .scaleLinear()
-      .domain([d3.min(dataz, d => d.densidad), d3.max(dataz, d => d.densidad)]);
+      .domain([d3.min(dataMunicipalities, d => d.densidad), d3.max(dataMunicipalities, d => d.densidad)]);
 
     scales.count = { x: countX, y: countY };
   }
@@ -88,7 +88,7 @@ export function scatterDesert() {
     g.select('.axis-y').call(axisY);
   }
 
-  function updateChart(dataz) {
+  function updateChart(dataMunicipalities) {
     w = chart.node().offsetWidth;
     h = 600;
 
@@ -109,7 +109,7 @@ export function scatterDesert() {
 
     const container = chart.select('.scatter-desert-container-bis');
 
-    const layer = container.selectAll('.circle-desert').data(dataz);
+    const layer = container.selectAll('.circle-desert').data(dataMunicipalities);
 
     const newLayer = layer
       .enter()
@@ -128,15 +128,15 @@ export function scatterDesert() {
   }
 
   function resize() {
-    updateChart(dataz);
+    updateChart(dataMunicipalities);
   }
 
   function loadData() {
     d3.csv('data/aragon-municipios.csv').then(data => {
-      dataz = data;
+      dataMunicipalities = data;
       setupElements();
       setupScales();
-      updateChart(dataz);
+      updateChart(dataMunicipalities);
     });
   }
 

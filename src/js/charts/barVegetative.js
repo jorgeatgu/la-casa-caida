@@ -30,29 +30,29 @@ export function barVegetative(csvFile, cities) {
   const chart = d3.select(`.bar-negative-${cities}`);
   const svg = chart.select('svg');
   const scales = {};
-  let dataz;
+  let dataVegetative;
   const tooltip = chart
     .append('div')
     .attr('class', 'tooltip tooltip-negative')
     .style('opacity', 0);
 
   function setupScales() {
-    const saldoMin = d3.min(dataz, d => d.saldo);
-    const saldoMax = d3.max(dataz, d => d.saldo);
+    const saldoMin = d3.min(dataVegetative, d => d.saldo);
+    const saldoMax = d3.max(dataVegetative, d => d.saldo);
 
     const saldoMaxMin = -500;
     const saldoMaxMax = 300;
 
-    const countX = d3.scaleBand().domain(dataz.map(d => d.year));
+    const countX = d3.scaleBand().domain(dataVegetative.map(d => d.year));
 
     const countY = d3
       .scaleLinear()
       .domain([
-        d3.min(dataz, d => d.saldo * 2),
-        d3.max(dataz, d =>
+        d3.min(dataVegetative, d => d.saldo * 2),
+        d3.max(dataVegetative, d =>
           saldoMax < saldoMaxMax
-            ? d3.max(dataz, d => d.saldo * 6)
-            : d3.max(dataz, d => d.saldo * 2.5)
+            ? d3.max(dataVegetative, d => d.saldo * 6)
+            : d3.max(dataVegetative, d => d.saldo * 2.5)
         )
       ]);
 
@@ -95,7 +95,7 @@ export function barVegetative(csvFile, cities) {
     g.select('.axis-y').call(axisY);
   }
 
-  function updateChart(dataz) {
+  function updateChart(dataVegetative) {
     w = chart.node().offsetWidth;
     h = 600;
 
@@ -114,7 +114,7 @@ export function barVegetative(csvFile, cities) {
 
     const container = chart.select(`.bar-negative-${cities}-container-bis`);
 
-    const layer = container.selectAll('.bar-vertical').data(dataz);
+    const layer = container.selectAll('.bar-vertical').data(dataVegetative);
 
     const newLayer = layer
       .enter()
@@ -157,15 +157,15 @@ export function barVegetative(csvFile, cities) {
   }
 
   function resize() {
-    updateChart(dataz);
+    updateChart(dataVegetative);
   }
 
   function loadData() {
     d3.csv(csvFile).then(data => {
-      dataz = data;
+      dataVegetative = data;
       setupElements();
       setupScales();
-      updateChart(dataz);
+      updateChart(dataVegetative);
     });
   }
 

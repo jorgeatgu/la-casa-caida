@@ -30,7 +30,7 @@ export function barScatter(csvFile, cities) {
   const chart = d3.select(`.scatter-${cities}`);
   const svg = chart.select('svg');
   const scales = {};
-  let dataz;
+  let dataScatterPeople;
   let symbolP = '%';
   const tooltip = chart
     .append('div')
@@ -43,7 +43,7 @@ export function barScatter(csvFile, cities) {
 
     const countY = d3
       .scaleLinear()
-      .domain([0, d3.max(dataz, d => d.menor * 1.75)]);
+      .domain([0, d3.max(dataScatterPeople, d => d.menor * 1.75)]);
 
     scales.count = { x: countX, y: countY };
   }
@@ -98,7 +98,7 @@ export function barScatter(csvFile, cities) {
     g.select('.axis-y').call(axisY);
   }
 
-  function updateChart(dataz) {
+  function updateChart(dataScatterPeople) {
     w = chart.node().offsetWidth;
     h = 600;
 
@@ -117,7 +117,7 @@ export function barScatter(csvFile, cities) {
 
     const container = chart.select(`.scatter-${cities}-container-bis`);
 
-    const layer = container.selectAll('.scatter-circles').data(dataz);
+    const layer = container.selectAll('.scatter-circles').data(dataScatterPeople);
 
     const newLayer = layer
       .enter()
@@ -126,7 +126,7 @@ export function barScatter(csvFile, cities) {
 
     layer
       .merge(newLayer)
-      .on('mouseover', function(d) {
+      .on('mouseover', function(_, d) {
         tooltip.transition();
         tooltip
           .style('opacity', 1)
@@ -191,13 +191,13 @@ export function barScatter(csvFile, cities) {
       });
 
       d3.csv(csvFile).then(data => {
-        dataz = data;
-        dataz.forEach(d => {
+        dataScatterPeople = data;
+        dataScatterPeople.forEach(d => {
           d.mayor = +d.mayor;
           d.menor = +d.menor;
           d.city = d.name;
         });
-        updateChart(dataz);
+        updateChart(dataScatterPeople);
       });
     });
   }
@@ -224,7 +224,6 @@ export function barScatter(csvFile, cities) {
         .text(d => d.key);
 
       selectCity.on('change', function() {
-        let filterCity = d3.select(this).property('value');
 
         d3.select(`#percentage-over-city-${cities} option`).property(
           'selected',
@@ -248,7 +247,7 @@ export function barScatter(csvFile, cities) {
           searchPlaceholder: 'Filtra tu municipio'
         });
 
-        update(filterCity);
+        updateSelectCity();
       });
     });
   }
@@ -275,14 +274,14 @@ export function barScatter(csvFile, cities) {
       let percentageCity = d3.select(this).property('value');
 
       d3.csv(csvFile).then(data => {
-        dataz = data;
+        dataScatterPeople = data;
 
         d3.selectAll(`.scatter-${cities}-circles`)
           .transition()
           .duration(400)
           .attr('r', 0);
 
-        dataz = dataz.filter(d => d.mayor > percentageCity);
+        dataScatterPeople = dataScatterPeople.filter(d => d.mayor > percentageCity);
 
         const container = chart.select(`.scatter-${cities}-container-bis`);
 
@@ -295,17 +294,17 @@ export function barScatter(csvFile, cities) {
           .attr('class', 'tooltip tooltip-percentage')
           .html(
             `
-            <p class="tooltip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios el % de habitantes mayores de 65 años es superior al <span class="tooltip-number">${percentageCity}%</span>. <p/>
+            <p class="tooltip-population"><span class="tooltip-number">En ${dataScatterPeople.length}</span> municipios el % de habitantes mayores de 65 años es superior al <span class="tooltip-number">${percentageCity}%</span>. <p/>
             `
           )
           .style('right', margin.right + 'px')
           .style('top', 50 + 'px');
 
-        dataz.forEach(d => {
+        dataScatterPeople.forEach(d => {
           d.city = d.name;
         });
 
-        updateChart(dataz);
+        updateChart(dataScatterPeople);
       });
     });
   }
@@ -332,14 +331,14 @@ export function barScatter(csvFile, cities) {
       let percentageCity = d3.select(this).property('value');
 
       d3.csv(csvFile).then(data => {
-        dataz = data;
+        dataScatterPeople = data;
 
         d3.selectAll(`.scatter-${cities}-circles`)
           .transition()
           .duration(400)
           .attr('r', 0);
 
-        dataz = dataz.filter(d => d.menor > percentageCity);
+        dataScatterPeople = dataScatterPeople.filter(d => d.menor > percentageCity);
 
         const container = chart.select(`.scatter-${cities}-container-bis`);
 
@@ -352,24 +351,24 @@ export function barScatter(csvFile, cities) {
           .attr('class', 'tooltip tooltip-percentage')
           .html(
             `
-            <p class="tooltip-population"><span class="tooltip-number">En ${dataz.length}</span> municipios el % de habitantes menores de 18 años es superior al <span class="tooltip-number">${percentageCity}%</span>. <p/>
+            <p class="tooltip-population"><span class="tooltip-number">En ${dataScatterPeople.length}</span> municipios el % de habitantes menores de 18 años es superior al <span class="tooltip-number">${percentageCity}%</span>. <p/>
             `
           )
           .style('right', margin.right + 'px')
           .style('top', 50 + 'px');
 
-        dataz.forEach(d => {
+        dataScatterPeople.forEach(d => {
           d.city = d.name;
         });
 
-        updateChart(dataz);
+        updateChart(dataScatterPeople);
       });
     });
   }
 
-  function update(filterCity) {
+  function updateSelectCity() {
     d3.csv(csvFile).then(data => {
-      dataz = data;
+      dataScatterPeople = data;
 
       let valueCity = d3.select(`#filter-city-${cities}`).property('value');
       let revalueCity = new RegExp('^' + valueCity + '$');
@@ -379,26 +378,26 @@ export function barScatter(csvFile, cities) {
         .duration(400)
         .attr('r', 0);
 
-      dataz = dataz.filter(d => String(d.name).match(revalueCity));
+      dataScatterPeople = dataScatterPeople.filter(d => String(d.name).match(revalueCity));
 
-      dataz.forEach(d => {
+      dataScatterPeople.forEach(d => {
         d.mayor = +d.mayor;
         d.menor = +d.menor;
         d.city = d.name;
       });
 
-      updateChart(dataz);
+      updateChart(dataScatterPeople);
     });
   }
 
   function resize() {
-    updateChart(dataz);
+    updateChart(dataScatterPeople);
   }
 
   function loadData() {
     d3.csv(csvFile).then(data => {
-      dataz = data;
-      dataz.forEach(d => {
+      dataScatterPeople = data;
+      dataScatterPeople.forEach(d => {
         d.mayor = +d.mayor;
         d.menor = +d.menor;
         d.population = +d.population;
@@ -408,7 +407,7 @@ export function barScatter(csvFile, cities) {
       });
       setupElements();
       setupScales();
-      updateChart(dataz);
+      updateChart(dataScatterPeople);
       menuFilter();
       percentageOlder();
       percentageUnder();

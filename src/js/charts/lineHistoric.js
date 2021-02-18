@@ -143,11 +143,11 @@ export function lineHistoric(csvFile, cities) {
     dots
       .merge(dotsLayer)
       .on('mouseover', (event, d) => {
-        console.log("event", event);
+        const { pageX, pageY } = event
         const postionWidthTooltip = scales.count.x(d.year) + 270;
         const tooltipWidth = 210;
-        const positionleft = `${d3.event.pageX}px`;
-        const positionright = `${d3.event.pageX - tooltipWidth}px`;
+        const positionleft = `${pageX}px`;
+        const positionright = `${pageX - tooltipWidth}px`;
         tooltipPopulation.transition();
         tooltipPopulation
           .style('opacity', 1)
@@ -155,7 +155,7 @@ export function lineHistoric(csvFile, cities) {
             `<p class="tooltip-deceased">La población en <span class="tooltip-number">${d.year}</span> era de <span class="tooltip-number">${d.total}</span> habitantes<p/>`
           )
           .style('left', postionWidthTooltip > w ? positionright : positionleft)
-          .style('top', `${d3.event.pageY - 48}px`);
+          .style('top', `${pageY - 48}px`);
       })
       .on('mouseout', () => {
         tooltipPopulation

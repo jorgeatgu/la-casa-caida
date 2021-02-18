@@ -87,14 +87,18 @@
   opacity: 1;
   box-shadow: var(--shadow);
 
+  &.tooltip-under-over {
+    font-size: 1rem;
+  }
+
+  p:empty {
+    display: none;
+  }
+
   .tooltip-deceased {
     font-size: 14px;
     font-family: var(--text);
     margin: .25rem;
-
-    + p {
-      display: none;
-    }
   }
 
   &.tooltip-percentage {
