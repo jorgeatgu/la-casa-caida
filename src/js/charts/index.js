@@ -4,6 +4,8 @@ import { barVegetative } from './barVegetative.js';
 import { lineHistoric } from './lineHistoric.js';
 import { linePopulation } from './linePopulation.js';
 import { scatterDesert } from './scatterDesert.js';
+import { lineEvolution } from './lineEvolution.js';
+import { scatterEvolution } from './scatterEvolution.js';
 
 export {
   aragonStacked,
@@ -11,5 +13,7 @@ export {
   barVegetative,
   lineHistoric,
   linePopulation,
-  scatterDesert
+  scatterDesert,
+  lineEvolution,
+  scatterEvolution
 }

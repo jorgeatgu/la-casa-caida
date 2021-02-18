@@ -1,238 +1,25 @@
-import { menu, widthMobile } from './shared/index.js';
+import { select, selectAll } from 'd3-selection';
+import { min, max } from 'd3-array';
+import { scaleLinear } from 'd3-scale';
+import { axisBottom, axisLeft } from 'd3-axis';
+import { csv } from 'd3-fetch';
+import { easeLinear } from 'd3-ease';
+import { format } from 'd3-format';
 
-const lineLB = (csvFile, cities) => {
-  const margin = { top: 16, right: 16, bottom: 24, left: 62 };
-  let width = 0;
-  let height = 0;
-  const chart = d3.select(`.line-lb-${cities}`);
-  const svg = chart.select('svg');
-  let scales = {};
-  let datos;
+const d3 = {
+  select,
+  selectAll,
+  min,
+  max,
+  scaleLinear,
+  axisBottom,
+  axisLeft,
+  csv,
+  format,
+  easeLinear
+}
 
-  function setupScales() {
-    const countX = d3.scaleTime().domain([2010, 2020]);
-
-    const countY = d3
-      .scaleLinear()
-      .domain([
-        d3.min(datos, d => d.population * 1.75 - d.population),
-        d3.max(datos, d => d.population) * 1.25
-      ]);
-
-    scales.count = { x: countX, y: countY };
-  }
-
-  function setupElements() {
-    const g = svg.select(`.line-lb-${cities}-container`);
-
-    g.append('g').attr('class', 'axis axis-x');
-
-    g.append('g').attr('class', 'axis axis-y');
-
-    g.append('g').attr('class', `line-lb-${cities}-container-bis`);
-  }
-
-  function updateScales(width, height) {
-    scales.count.x.range([0, width]);
-    scales.count.y.range([height, 0]);
-  }
-
-  function drawAxes(g) {
-    const axisX = d3
-      .axisBottom(scales.count.x)
-      .tickPadding(5)
-      .tickFormat(d3.format('d'))
-      .ticks(13);
-
-    g.select('.axis-x')
-      .attr('transform', `translate(0,${height})`)
-      .transition()
-      .duration(450)
-      .ease(d3.easeLinear)
-      .call(axisX);
-
-    const axisY = d3
-      .axisLeft(scales.count.y)
-      .tickPadding(5)
-      .tickFormat(d3.format('d'))
-      .tickSize(-width)
-      .ticks(6);
-
-    g.select('.axis-y')
-      .transition()
-      .duration(450)
-      .ease(d3.easeLinear)
-      .call(axisY);
-  }
-
-  function updateChart(data) {
-    const w = chart.node().offsetWidth;
-    const h = 500;
-
-    width = w - margin.left - margin.right;
-    height = h - margin.top - margin.bottom;
-
-    svg.attr('width', w).attr('height', h);
-
-    const translate = `translate(${margin.left},${margin.top})`;
-
-    const g = svg.select(`.line-lb-${cities}-container`);
-
-    g.attr('transform', translate);
-
-    const line = d3
-      .line()
-      .x(d => scales.count.x(d.year))
-      .y(d => scales.count.y(d.population));
-
-    updateScales(width, height);
-
-    const container = chart.select(`.line-lb-${cities}-container-bis`);
-
-    const lines = container.selectAll('.lines').data([datos]);
-
-    const dots = container
-      .selectAll('.circles-population')
-      .remove()
-      .exit()
-      .data(datos);
-
-    const newLines = lines
-      .enter()
-      .append('path')
-      .attr('class', 'lines');
-
-    lines
-      .merge(newLines)
-      .transition()
-      .duration(400)
-      .ease(d3.easeLinear)
-      .attrTween('d', function(d) {
-        let previous = d3.select(this).attr('d');
-        let current = line(d);
-        return d3.interpolatePath(previous, current);
-      });
-
-    const dotsLayer = dots
-      .enter()
-      .append('circle')
-      .attr('class', 'circles-population')
-      .attr('fill', '#531f4e');
-
-    dots
-      .merge(dotsLayer)
-      .attr('cx', d => scales.count.x(d.year))
-      .attr('cy', d => scales.count.y(d.population))
-      .attr('r', 0)
-      .transition()
-      .duration(400)
-      .ease(d3.easeLinear)
-      .attr('cx', d => scales.count.x(d.year))
-      .attr('cy', d => scales.count.y(d.population))
-      .attr('r', 4);
-
-    drawAxes(g);
-  }
-
-  function update(mes) {
-    d3.csv(csvFile).then(data => {
-      datos = data;
-
-      let valueCity = d3.select(`#select-lb-${cities}`).property('value');
-      let revalueCity = new RegExp('^' + valueCity + '$');
-
-      datos = datos.filter(d => String(d.name).match(revalueCity));
-
-      datos.forEach(d => {
-        d.population = +d.population;
-        d.year = +d.year;
-      });
-
-      scales.count.x.range([0, width]);
-      scales.count.y.range([height, 0]);
-
-      const countX = d3.scaleTime().domain([2011, 2019]);
-
-      const countY = d3
-        .scaleLinear()
-        .domain([
-          d3.min(datos, d => d.population * 1.75 - d.population),
-          d3.max(datos, d => d.population) * 1.25
-        ]);
-
-      scales.count = { x: countX, y: countY };
-      updateChart(datos);
-    });
-  }
-
-  function resize() {
-    updateChart(datos);
-  }
-
-  function menuMes() {
-    d3.csv(csvFile).then(data => {
-      const nest = d3
-        .nest()
-        .key(d => d.name)
-        .entries(data);
-
-      const selectCity = d3.select(`#select-lb-${cities}`);
-
-      selectCity
-        .selectAll('option')
-        .data(nest)
-        .enter()
-        .append('option')
-        .attr('value', d => d.key)
-        .text(d => d.key);
-
-      selectCity.on('change', function() {
-        let mes = d3.select(this).property('value');
-        update(mes);
-      });
-    });
-  }
-
-  function loadData() {
-    d3.csv(csvFile).then(data => {
-      datos = data;
-      datos.forEach(d => {
-        d.year = +d.year;
-        d.population = +d.population;
-        d.cp = +d.cp;
-      });
-      setupElements();
-      setupScales();
-      updateChart(datos);
-      const mes = datos[0].name;
-      update(mes);
-    });
-  }
-
-  window.addEventListener('resize', resize);
-
-  loadData();
-  menuMes();
-};
-
-new SlimSelect({
-  select: '#select-lb-huesca',
-  searchPlaceholder: 'Busca tu municipio'
-});
-
-new SlimSelect({
-  select: '#select-lb-zaragoza',
-  searchPlaceholder: 'Busca tu municipio'
-});
-
-new SlimSelect({
-  select: '#select-lb-teruel',
-  searchPlaceholder: 'Busca tu municipio'
-});
-
-menu();
-
-const scatterLB = (csvFile, cities) => {
+export const scatterEvolution = (csvFile, cities) => {
   const margin = { top: 24, right: 24, bottom: 48, left: 72 };
   let width = 0;
   let height = 0;
@@ -242,7 +29,7 @@ const scatterLB = (csvFile, cities) => {
   const svg = chart.select('svg');
   const scales = {};
   const habitantes = '%';
-  let dataz;
+  let dataScatterEvolution;
   let secondYear = 2020;
   let firstYear = 2010;
   let lossPopulation;
@@ -323,7 +110,7 @@ const scatterLB = (csvFile, cities) => {
       .call(axisY);
   }
 
-  function updateChart(dataz) {
+  function updateChart(dataScatterEvolution) {
     w = chart.node().offsetWidth;
     h = 600;
 
@@ -346,7 +133,7 @@ const scatterLB = (csvFile, cities) => {
       .selectAll('.circle-desert')
       .remove()
       .exit()
-      .data(dataz);
+      .data(dataScatterEvolution);
 
     const newLayer = layer
       .enter()
@@ -450,9 +237,9 @@ const scatterLB = (csvFile, cities) => {
 
   function loadData() {
     d3.csv(csvFile).then(data => {
-      dataz = data;
+      dataScatterEvolution = data;
 
-      dataz.forEach(d => {
+      dataScatterEvolution.forEach(d => {
         d.year = +d.year;
         d.population = +d.population;
       });
@@ -518,7 +305,7 @@ const scatterLB = (csvFile, cities) => {
   }
 
   function filterDataByYear(yearFilter, position) {
-    let dataYearsFiltered = dataz.filter(({ year }) => year === yearFilter);
+    let dataYearsFiltered = dataScatterEvolution.filter(({ year }) => year === yearFilter);
     return dataYearsFiltered.map(({ population, municipio, cp }) => {
       return {
         [position]: population,
@@ -528,7 +315,7 @@ const scatterLB = (csvFile, cities) => {
     });
   }
 
-  d3.select(`#select-compare-${cities}`).on('click', dataz => {
+  d3.select(`#select-compare-${cities}`).on('click', dataScatterEvolution => {
     updateYearData();
   });
 
@@ -536,57 +323,3 @@ const scatterLB = (csvFile, cities) => {
 
   loadData();
 };
-
-new SlimSelect({
-  select: '#select-first-year-zaragoza',
-  searchPlaceholder: 'Selecciona el primer año'
-});
-
-new SlimSelect({
-  select: '#select-second-year-zaragoza',
-  searchPlaceholder: 'Selecciona el segundo año'
-});
-
-new SlimSelect({
-  select: '#select-first-year-teruel',
-  searchPlaceholder: 'Selecciona el primer año'
-});
-
-new SlimSelect({
-  select: '#select-second-year-teruel',
-  searchPlaceholder: 'Selecciona el segundo año'
-});
-
-new SlimSelect({
-  select: '#select-first-year-huesca',
-  searchPlaceholder: 'Selecciona el primer año'
-});
-
-new SlimSelect({
-  select: '#select-second-year-huesca',
-  searchPlaceholder: 'Selecciona el segundo año'
-});
-
-const cities = [
-  {
-    city: 'zaragoza',
-    comparatorCSV: 'data/evolucion/zaragoza/zaragoza-total.csv',
-    evolutionCSV: 'data/zaragoza/zaragoza-2010-2020.csv'
-  },
-  {
-    city: 'huesca',
-    comparatorCSV: 'data/evolucion/huesca/huesca-total.csv',
-    evolutionCSV: 'data/huesca/huesca-2010-2020.csv'
-  },
-  {
-    city: 'teruel',
-    comparatorCSV: 'data/evolucion/teruel/teruel-total.csv',
-    evolutionCSV: 'data/teruel/teruel-2010-2020.csv'
-  }
-];
-
-cities.map(element => {
-  const { comparatorCSV, city, evolutionCSV } = element;
-  lineLB(comparatorCSV, city);
-  scatterLB(evolutionCSV, city);
-});
