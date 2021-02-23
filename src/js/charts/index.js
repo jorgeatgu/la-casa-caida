@@ -6,6 +6,7 @@ import { linePopulation } from './linePopulation.js';
 import { scatterDesert } from './scatterDesert.js';
 import { lineEvolution } from './lineEvolution.js';
 import { scatterEvolution } from './scatterEvolution.js';
+import { municipalitiesStacked } from './municipalitiesStacked.js';
 
 export {
   aragonStacked,
@@ -15,5 +16,6 @@ export {
   linePopulation,
   scatterDesert,
   lineEvolution,
-  scatterEvolution
+  scatterEvolution,
+  municipalitiesStacked
 };

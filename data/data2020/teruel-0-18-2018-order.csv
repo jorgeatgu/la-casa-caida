@@ -1,0 +1,4485 @@
+cp,city,age,year,total
+44001,Ababuj,0 años,2018,0.0
+44001,Ababuj,1 año,2018,0.0
+44001,Ababuj,2 años,2018,0.0
+44001,Ababuj,3 años,2018,1
+44001,Ababuj,4 años,2018,1
+44001,Ababuj,5 años,2018,2
+44001,Ababuj,6 años,2018,0.0
+44001,Ababuj,7 años,2018,1
+44001,Ababuj,8 años,2018,0.0
+44001,Ababuj,9 años,2018,0.0
+44001,Ababuj,10 años,2018,0.0
+44001,Ababuj,11 años,2018,0.0
+44001,Ababuj,12 años,2018,1
+44001,Ababuj,13 años,2018,0.0
+44001,Ababuj,14 años,2018,0.0
+44001,Ababuj,15 años,2018,0.0
+44001,Ababuj,16 años,2018,1
+44001,Ababuj,17 años,2018,0.0
+44001,Ababuj,18 años,2018,0.0
+44002,Abejuela,0 años,2018,0.0
+44002,Abejuela,1 año,2018,0.0
+44002,Abejuela,2 años,2018,0.0
+44002,Abejuela,3 años,2018,0.0
+44002,Abejuela,4 años,2018,0.0
+44002,Abejuela,5 años,2018,0.0
+44002,Abejuela,6 años,2018,0.0
+44002,Abejuela,7 años,2018,0.0
+44002,Abejuela,8 años,2018,0.0
+44002,Abejuela,9 años,2018,1
+44002,Abejuela,10 años,2018,0.0
+44002,Abejuela,11 años,2018,0.0
+44002,Abejuela,12 años,2018,0.0
+44002,Abejuela,13 años,2018,0.0
+44002,Abejuela,14 años,2018,1
+44002,Abejuela,15 años,2018,0.0
+44002,Abejuela,16 años,2018,0.0
+44002,Abejuela,17 años,2018,0.0
+44002,Abejuela,18 años,2018,0.0
+44003,Aguatón,0 años,2018,0.0
+44003,Aguatón,1 año,2018,0.0
+44003,Aguatón,2 años,2018,0.0
+44003,Aguatón,3 años,2018,0.0
+44003,Aguatón,4 años,2018,0.0
+44003,Aguatón,5 años,2018,0.0
+44003,Aguatón,6 años,2018,0.0
+44003,Aguatón,7 años,2018,0.0
+44003,Aguatón,8 años,2018,0.0
+44003,Aguatón,9 años,2018,0.0
+44003,Aguatón,10 años,2018,0.0
+44003,Aguatón,11 años,2018,0.0
+44003,Aguatón,12 años,2018,0.0
+44003,Aguatón,13 años,2018,0.0
+44003,Aguatón,14 años,2018,0.0
+44003,Aguatón,15 años,2018,0.0
+44003,Aguatón,16 años,2018,0.0
+44003,Aguatón,17 años,2018,0.0
+44003,Aguatón,18 años,2018,0.0
+44004,Aguaviva,0 años,2018,3
+44004,Aguaviva,1 año,2018,2
+44004,Aguaviva,2 años,2018,5
+44004,Aguaviva,3 años,2018,5
+44004,Aguaviva,4 años,2018,3
+44004,Aguaviva,5 años,2018,5
+44004,Aguaviva,6 años,2018,6
+44004,Aguaviva,7 años,2018,2
+44004,Aguaviva,8 años,2018,3
+44004,Aguaviva,9 años,2018,5
+44004,Aguaviva,10 años,2018,7
+44004,Aguaviva,11 años,2018,4
+44004,Aguaviva,12 años,2018,7
+44004,Aguaviva,13 años,2018,1
+44004,Aguaviva,14 años,2018,8
+44004,Aguaviva,15 años,2018,6
+44004,Aguaviva,16 años,2018,2
+44004,Aguaviva,17 años,2018,4
+44004,Aguaviva,18 años,2018,3
+44005,Aguilar del Alfambra,0 años,2018,1
+44005,Aguilar del Alfambra,1 año,2018,1
+44005,Aguilar del Alfambra,2 años,2018,2
+44005,Aguilar del Alfambra,3 años,2018,0.0
+44005,Aguilar del Alfambra,4 años,2018,0.0
+44005,Aguilar del Alfambra,5 años,2018,0.0
+44005,Aguilar del Alfambra,6 años,2018,1
+44005,Aguilar del Alfambra,7 años,2018,0.0
+44005,Aguilar del Alfambra,8 años,2018,0.0
+44005,Aguilar del Alfambra,9 años,2018,0.0
+44005,Aguilar del Alfambra,10 años,2018,1
+44005,Aguilar del Alfambra,11 años,2018,0.0
+44005,Aguilar del Alfambra,12 años,2018,0.0
+44005,Aguilar del Alfambra,13 años,2018,1
+44005,Aguilar del Alfambra,14 años,2018,1
+44005,Aguilar del Alfambra,15 años,2018,0.0
+44005,Aguilar del Alfambra,16 años,2018,0.0
+44005,Aguilar del Alfambra,17 años,2018,0.0
+44005,Aguilar del Alfambra,18 años,2018,0.0
+44006,Alacón,0 años,2018,2
+44006,Alacón,1 año,2018,0.0
+44006,Alacón,2 años,2018,0.0
+44006,Alacón,3 años,2018,0.0
+44006,Alacón,4 años,2018,0.0
+44006,Alacón,5 años,2018,1
+44006,Alacón,6 años,2018,1
+44006,Alacón,7 años,2018,1
+44006,Alacón,8 años,2018,0.0
+44006,Alacón,9 años,2018,2
+44006,Alacón,10 años,2018,2
+44006,Alacón,11 años,2018,1
+44006,Alacón,12 años,2018,1
+44006,Alacón,13 años,2018,1
+44006,Alacón,14 años,2018,1
+44006,Alacón,15 años,2018,0.0
+44006,Alacón,16 años,2018,2
+44006,Alacón,17 años,2018,1
+44006,Alacón,18 años,2018,1
+44007,Alba,0 años,2018,0.0
+44007,Alba,1 año,2018,1
+44007,Alba,2 años,2018,1
+44007,Alba,3 años,2018,1
+44007,Alba,4 años,2018,0.0
+44007,Alba,5 años,2018,1
+44007,Alba,6 años,2018,0.0
+44007,Alba,7 años,2018,0.0
+44007,Alba,8 años,2018,1
+44007,Alba,9 años,2018,0.0
+44007,Alba,10 años,2018,4
+44007,Alba,11 años,2018,0.0
+44007,Alba,12 años,2018,0.0
+44007,Alba,13 años,2018,1
+44007,Alba,14 años,2018,0.0
+44007,Alba,15 años,2018,0.0
+44007,Alba,16 años,2018,2
+44007,Alba,17 años,2018,1
+44007,Alba,18 años,2018,1
+44008,Albalate del Arzobispo,0 años,2018,18
+44008,Albalate del Arzobispo,1 año,2018,12
+44008,Albalate del Arzobispo,2 años,2018,18
+44008,Albalate del Arzobispo,3 años,2018,10
+44008,Albalate del Arzobispo,4 años,2018,16
+44008,Albalate del Arzobispo,5 años,2018,18
+44008,Albalate del Arzobispo,6 años,2018,13
+44008,Albalate del Arzobispo,7 años,2018,20
+44008,Albalate del Arzobispo,8 años,2018,16
+44008,Albalate del Arzobispo,9 años,2018,17
+44008,Albalate del Arzobispo,10 años,2018,20
+44008,Albalate del Arzobispo,11 años,2018,11
+44008,Albalate del Arzobispo,12 años,2018,15
+44008,Albalate del Arzobispo,13 años,2018,17
+44008,Albalate del Arzobispo,14 años,2018,11
+44008,Albalate del Arzobispo,15 años,2018,18
+44008,Albalate del Arzobispo,16 años,2018,16
+44008,Albalate del Arzobispo,17 años,2018,13
+44008,Albalate del Arzobispo,18 años,2018,14
+44009,Albarracín,0 años,2018,6
+44009,Albarracín,1 año,2018,7
+44009,Albarracín,2 años,2018,7
+44009,Albarracín,3 años,2018,8
+44009,Albarracín,4 años,2018,7
+44009,Albarracín,5 años,2018,8
+44009,Albarracín,6 años,2018,9
+44009,Albarracín,7 años,2018,14
+44009,Albarracín,8 años,2018,7
+44009,Albarracín,9 años,2018,13
+44009,Albarracín,10 años,2018,6
+44009,Albarracín,11 años,2018,6
+44009,Albarracín,12 años,2018,9
+44009,Albarracín,13 años,2018,8
+44009,Albarracín,14 años,2018,6
+44009,Albarracín,15 años,2018,4
+44009,Albarracín,16 años,2018,11
+44009,Albarracín,17 años,2018,12
+44009,Albarracín,18 años,2018,9
+44010,Albentosa,0 años,2018,3
+44010,Albentosa,1 año,2018,0.0
+44010,Albentosa,2 años,2018,1
+44010,Albentosa,3 años,2018,4
+44010,Albentosa,4 años,2018,1
+44010,Albentosa,5 años,2018,5
+44010,Albentosa,6 años,2018,2
+44010,Albentosa,7 años,2018,4
+44010,Albentosa,8 años,2018,4
+44010,Albentosa,9 años,2018,6
+44010,Albentosa,10 años,2018,2
+44010,Albentosa,11 años,2018,3
+44010,Albentosa,12 años,2018,2
+44010,Albentosa,13 años,2018,5
+44010,Albentosa,14 años,2018,1
+44010,Albentosa,15 años,2018,2
+44010,Albentosa,16 años,2018,0.0
+44010,Albentosa,17 años,2018,7
+44010,Albentosa,18 años,2018,2
+44011,Alcaine,0 años,2018,0.0
+44011,Alcaine,1 año,2018,0.0
+44011,Alcaine,2 años,2018,1
+44011,Alcaine,3 años,2018,0.0
+44011,Alcaine,4 años,2018,1
+44011,Alcaine,5 años,2018,0.0
+44011,Alcaine,6 años,2018,0.0
+44011,Alcaine,7 años,2018,0.0
+44011,Alcaine,8 años,2018,1
+44011,Alcaine,9 años,2018,0.0
+44011,Alcaine,10 años,2018,2
+44011,Alcaine,11 años,2018,0.0
+44011,Alcaine,12 años,2018,0.0
+44011,Alcaine,13 años,2018,0.0
+44011,Alcaine,14 años,2018,0.0
+44011,Alcaine,15 años,2018,0.0
+44011,Alcaine,16 años,2018,0.0
+44011,Alcaine,17 años,2018,0.0
+44011,Alcaine,18 años,2018,0.0
+44012,Alcalá de la Selva,0 años,2018,1
+44012,Alcalá de la Selva,1 año,2018,0.0
+44012,Alcalá de la Selva,2 años,2018,0.0
+44012,Alcalá de la Selva,3 años,2018,0.0
+44012,Alcalá de la Selva,4 años,2018,1
+44012,Alcalá de la Selva,5 años,2018,1
+44012,Alcalá de la Selva,6 años,2018,0.0
+44012,Alcalá de la Selva,7 años,2018,4
+44012,Alcalá de la Selva,8 años,2018,1
+44012,Alcalá de la Selva,9 años,2018,1
+44012,Alcalá de la Selva,10 años,2018,0.0
+44012,Alcalá de la Selva,11 años,2018,3
+44012,Alcalá de la Selva,12 años,2018,4
+44012,Alcalá de la Selva,13 años,2018,2
+44012,Alcalá de la Selva,14 años,2018,6
+44012,Alcalá de la Selva,15 años,2018,0.0
+44012,Alcalá de la Selva,16 años,2018,2
+44012,Alcalá de la Selva,17 años,2018,1
+44012,Alcalá de la Selva,18 años,2018,4
+44013,Alcañiz,0 años,2018,142
+44013,Alcañiz,1 año,2018,151
+44013,Alcañiz,2 años,2018,156
+44013,Alcañiz,3 años,2018,171
+44013,Alcañiz,4 años,2018,168
+44013,Alcañiz,5 años,2018,191
+44013,Alcañiz,6 años,2018,189
+44013,Alcañiz,7 años,2018,208
+44013,Alcañiz,8 años,2018,180
+44013,Alcañiz,9 años,2018,184
+44013,Alcañiz,10 años,2018,204
+44013,Alcañiz,11 años,2018,210
+44013,Alcañiz,12 años,2018,191
+44013,Alcañiz,13 años,2018,169
+44013,Alcañiz,14 años,2018,172
+44013,Alcañiz,15 años,2018,173
+44013,Alcañiz,16 años,2018,169
+44013,Alcañiz,17 años,2018,165
+44013,Alcañiz,18 años,2018,154
+44014,Alcorisa,0 años,2018,25
+44014,Alcorisa,1 año,2018,28
+44014,Alcorisa,2 años,2018,32
+44014,Alcorisa,3 años,2018,30
+44014,Alcorisa,4 años,2018,26
+44014,Alcorisa,5 años,2018,25
+44014,Alcorisa,6 años,2018,34
+44014,Alcorisa,7 años,2018,36
+44014,Alcorisa,8 años,2018,37
+44014,Alcorisa,9 años,2018,46
+44014,Alcorisa,10 años,2018,32
+44014,Alcorisa,11 años,2018,31
+44014,Alcorisa,12 años,2018,30
+44014,Alcorisa,13 años,2018,37
+44014,Alcorisa,14 años,2018,33
+44014,Alcorisa,15 años,2018,31
+44014,Alcorisa,16 años,2018,39
+44014,Alcorisa,17 años,2018,29
+44014,Alcorisa,18 años,2018,37
+44016,Alfambra,0 años,2018,0.0
+44016,Alfambra,1 año,2018,5
+44016,Alfambra,2 años,2018,2
+44016,Alfambra,3 años,2018,3
+44016,Alfambra,4 años,2018,1
+44016,Alfambra,5 años,2018,6
+44016,Alfambra,6 años,2018,0.0
+44016,Alfambra,7 años,2018,3
+44016,Alfambra,8 años,2018,2
+44016,Alfambra,9 años,2018,6
+44016,Alfambra,10 años,2018,2
+44016,Alfambra,11 años,2018,2
+44016,Alfambra,12 años,2018,2
+44016,Alfambra,13 años,2018,3
+44016,Alfambra,14 años,2018,5
+44016,Alfambra,15 años,2018,0.0
+44016,Alfambra,16 años,2018,0.0
+44016,Alfambra,17 años,2018,4
+44016,Alfambra,18 años,2018,3
+44017,Aliaga,0 años,2018,2
+44017,Aliaga,1 año,2018,6
+44017,Aliaga,2 años,2018,1
+44017,Aliaga,3 años,2018,2
+44017,Aliaga,4 años,2018,3
+44017,Aliaga,5 años,2018,2
+44017,Aliaga,6 años,2018,3
+44017,Aliaga,7 años,2018,6
+44017,Aliaga,8 años,2018,3
+44017,Aliaga,9 años,2018,4
+44017,Aliaga,10 años,2018,3
+44017,Aliaga,11 años,2018,3
+44017,Aliaga,12 años,2018,4
+44017,Aliaga,13 años,2018,0.0
+44017,Aliaga,14 años,2018,2
+44017,Aliaga,15 años,2018,3
+44017,Aliaga,16 años,2018,4
+44017,Aliaga,17 años,2018,2
+44017,Aliaga,18 años,2018,3
+44018,Almohaja,0 años,2018,0.0
+44018,Almohaja,1 año,2018,0.0
+44018,Almohaja,2 años,2018,0.0
+44018,Almohaja,3 años,2018,0.0
+44018,Almohaja,4 años,2018,0.0
+44018,Almohaja,5 años,2018,0.0
+44018,Almohaja,6 años,2018,0.0
+44018,Almohaja,7 años,2018,0.0
+44018,Almohaja,8 años,2018,0.0
+44018,Almohaja,9 años,2018,0.0
+44018,Almohaja,10 años,2018,0.0
+44018,Almohaja,11 años,2018,0.0
+44018,Almohaja,12 años,2018,0.0
+44018,Almohaja,13 años,2018,0.0
+44018,Almohaja,14 años,2018,0.0
+44018,Almohaja,15 años,2018,0.0
+44018,Almohaja,16 años,2018,0.0
+44018,Almohaja,17 años,2018,0.0
+44018,Almohaja,18 años,2018,0.0
+44019,Alobras,0 años,2018,0.0
+44019,Alobras,1 año,2018,0.0
+44019,Alobras,2 años,2018,0.0
+44019,Alobras,3 años,2018,0.0
+44019,Alobras,4 años,2018,0.0
+44019,Alobras,5 años,2018,0.0
+44019,Alobras,6 años,2018,0.0
+44019,Alobras,7 años,2018,0.0
+44019,Alobras,8 años,2018,0.0
+44019,Alobras,9 años,2018,0.0
+44019,Alobras,10 años,2018,0.0
+44019,Alobras,11 años,2018,0.0
+44019,Alobras,12 años,2018,0.0
+44019,Alobras,13 años,2018,0.0
+44019,Alobras,14 años,2018,0.0
+44019,Alobras,15 años,2018,0.0
+44019,Alobras,16 años,2018,0.0
+44019,Alobras,17 años,2018,0.0
+44019,Alobras,18 años,2018,0.0
+44020,Alpeñés,0 años,2018,0.0
+44020,Alpeñés,1 año,2018,0.0
+44020,Alpeñés,2 años,2018,0.0
+44020,Alpeñés,3 años,2018,0.0
+44020,Alpeñés,4 años,2018,0.0
+44020,Alpeñés,5 años,2018,0.0
+44020,Alpeñés,6 años,2018,0.0
+44020,Alpeñés,7 años,2018,0.0
+44020,Alpeñés,8 años,2018,0.0
+44020,Alpeñés,9 años,2018,0.0
+44020,Alpeñés,10 años,2018,0.0
+44020,Alpeñés,11 años,2018,0.0
+44020,Alpeñés,12 años,2018,0.0
+44020,Alpeñés,13 años,2018,0.0
+44020,Alpeñés,14 años,2018,0.0
+44020,Alpeñés,15 años,2018,0.0
+44020,Alpeñés,16 años,2018,0.0
+44020,Alpeñés,17 años,2018,0.0
+44020,Alpeñés,18 años,2018,0.0
+44021,Allepuz,0 años,2018,0.0
+44021,Allepuz,1 año,2018,3
+44021,Allepuz,2 años,2018,0.0
+44021,Allepuz,3 años,2018,1
+44021,Allepuz,4 años,2018,0.0
+44021,Allepuz,5 años,2018,2
+44021,Allepuz,6 años,2018,1
+44021,Allepuz,7 años,2018,0.0
+44021,Allepuz,8 años,2018,0.0
+44021,Allepuz,9 años,2018,2
+44021,Allepuz,10 años,2018,1
+44021,Allepuz,11 años,2018,1
+44021,Allepuz,12 años,2018,1
+44021,Allepuz,13 años,2018,0.0
+44021,Allepuz,14 años,2018,1
+44021,Allepuz,15 años,2018,1
+44021,Allepuz,16 años,2018,1
+44021,Allepuz,17 años,2018,1
+44021,Allepuz,18 años,2018,2
+44022,Alloza,0 años,2018,3
+44022,Alloza,1 año,2018,4
+44022,Alloza,2 años,2018,2
+44022,Alloza,3 años,2018,5
+44022,Alloza,4 años,2018,3
+44022,Alloza,5 años,2018,4
+44022,Alloza,6 años,2018,2
+44022,Alloza,7 años,2018,5
+44022,Alloza,8 años,2018,5
+44022,Alloza,9 años,2018,5
+44022,Alloza,10 años,2018,3
+44022,Alloza,11 años,2018,6
+44022,Alloza,12 años,2018,6
+44022,Alloza,13 años,2018,1
+44022,Alloza,14 años,2018,4
+44022,Alloza,15 años,2018,2
+44022,Alloza,16 años,2018,3
+44022,Alloza,17 años,2018,4
+44022,Alloza,18 años,2018,3
+44023,Allueva,0 años,2018,1
+44023,Allueva,1 año,2018,0.0
+44023,Allueva,2 años,2018,0.0
+44023,Allueva,3 años,2018,0.0
+44023,Allueva,4 años,2018,0.0
+44023,Allueva,5 años,2018,0.0
+44023,Allueva,6 años,2018,0.0
+44023,Allueva,7 años,2018,0.0
+44023,Allueva,8 años,2018,0.0
+44023,Allueva,9 años,2018,1
+44023,Allueva,10 años,2018,0.0
+44023,Allueva,11 años,2018,0.0
+44023,Allueva,12 años,2018,0.0
+44023,Allueva,13 años,2018,1
+44023,Allueva,14 años,2018,0.0
+44023,Allueva,15 años,2018,0.0
+44023,Allueva,16 años,2018,0.0
+44023,Allueva,17 años,2018,1
+44023,Allueva,18 años,2018,0.0
+44024,Anadón,0 años,2018,0.0
+44024,Anadón,1 año,2018,0.0
+44024,Anadón,2 años,2018,0.0
+44024,Anadón,3 años,2018,0.0
+44024,Anadón,4 años,2018,0.0
+44024,Anadón,5 años,2018,0.0
+44024,Anadón,6 años,2018,0.0
+44024,Anadón,7 años,2018,0.0
+44024,Anadón,8 años,2018,0.0
+44024,Anadón,9 años,2018,0.0
+44024,Anadón,10 años,2018,0.0
+44024,Anadón,11 años,2018,0.0
+44024,Anadón,12 años,2018,0.0
+44024,Anadón,13 años,2018,0.0
+44024,Anadón,14 años,2018,0.0
+44024,Anadón,15 años,2018,0.0
+44024,Anadón,16 años,2018,0.0
+44024,Anadón,17 años,2018,0.0
+44024,Anadón,18 años,2018,0.0
+44025,Andorra,0 años,2018,55
+44025,Andorra,1 año,2018,77
+44025,Andorra,2 años,2018,45
+44025,Andorra,3 años,2018,70
+44025,Andorra,4 años,2018,80
+44025,Andorra,5 años,2018,78
+44025,Andorra,6 años,2018,59
+44025,Andorra,7 años,2018,61
+44025,Andorra,8 años,2018,71
+44025,Andorra,9 años,2018,78
+44025,Andorra,10 años,2018,61
+44025,Andorra,11 años,2018,71
+44025,Andorra,12 años,2018,63
+44025,Andorra,13 años,2018,73
+44025,Andorra,14 años,2018,57
+44025,Andorra,15 años,2018,73
+44025,Andorra,16 años,2018,81
+44025,Andorra,17 años,2018,80
+44025,Andorra,18 años,2018,74
+44026,Arcos de las Salinas,0 años,2018,0.0
+44026,Arcos de las Salinas,1 año,2018,3
+44026,Arcos de las Salinas,2 años,2018,0.0
+44026,Arcos de las Salinas,3 años,2018,1
+44026,Arcos de las Salinas,4 años,2018,1
+44026,Arcos de las Salinas,5 años,2018,1
+44026,Arcos de las Salinas,6 años,2018,0.0
+44026,Arcos de las Salinas,7 años,2018,0.0
+44026,Arcos de las Salinas,8 años,2018,1
+44026,Arcos de las Salinas,9 años,2018,1
+44026,Arcos de las Salinas,10 años,2018,2
+44026,Arcos de las Salinas,11 años,2018,0.0
+44026,Arcos de las Salinas,12 años,2018,1
+44026,Arcos de las Salinas,13 años,2018,1
+44026,Arcos de las Salinas,14 años,2018,1
+44026,Arcos de las Salinas,15 años,2018,0.0
+44026,Arcos de las Salinas,16 años,2018,1
+44026,Arcos de las Salinas,17 años,2018,0.0
+44026,Arcos de las Salinas,18 años,2018,0.0
+44027,Arens de Lledó,0 años,2018,2
+44027,Arens de Lledó,1 año,2018,1
+44027,Arens de Lledó,2 años,2018,2
+44027,Arens de Lledó,3 años,2018,0.0
+44027,Arens de Lledó,4 años,2018,0.0
+44027,Arens de Lledó,5 años,2018,0.0
+44027,Arens de Lledó,6 años,2018,0.0
+44027,Arens de Lledó,7 años,2018,1
+44027,Arens de Lledó,8 años,2018,0.0
+44027,Arens de Lledó,9 años,2018,2
+44027,Arens de Lledó,10 años,2018,1
+44027,Arens de Lledó,11 años,2018,1
+44027,Arens de Lledó,12 años,2018,2
+44027,Arens de Lledó,13 años,2018,0.0
+44027,Arens de Lledó,14 años,2018,2
+44027,Arens de Lledó,15 años,2018,3
+44027,Arens de Lledó,16 años,2018,1
+44027,Arens de Lledó,17 años,2018,1
+44027,Arens de Lledó,18 años,2018,0.0
+44028,Argente,0 años,2018,1
+44028,Argente,1 año,2018,1
+44028,Argente,2 años,2018,0.0
+44028,Argente,3 años,2018,2
+44028,Argente,4 años,2018,0.0
+44028,Argente,5 años,2018,1
+44028,Argente,6 años,2018,1
+44028,Argente,7 años,2018,3
+44028,Argente,8 años,2018,0.0
+44028,Argente,9 años,2018,1
+44028,Argente,10 años,2018,2
+44028,Argente,11 años,2018,0.0
+44028,Argente,12 años,2018,1
+44028,Argente,13 años,2018,2
+44028,Argente,14 años,2018,3
+44028,Argente,15 años,2018,1
+44028,Argente,16 años,2018,1
+44028,Argente,17 años,2018,2
+44028,Argente,18 años,2018,0.0
+44029,Ariño,0 años,2018,3
+44029,Ariño,1 año,2018,3
+44029,Ariño,2 años,2018,5
+44029,Ariño,3 años,2018,7
+44029,Ariño,4 años,2018,4
+44029,Ariño,5 años,2018,5
+44029,Ariño,6 años,2018,5
+44029,Ariño,7 años,2018,6
+44029,Ariño,8 años,2018,3
+44029,Ariño,9 años,2018,6
+44029,Ariño,10 años,2018,7
+44029,Ariño,11 años,2018,6
+44029,Ariño,12 años,2018,5
+44029,Ariño,13 años,2018,7
+44029,Ariño,14 años,2018,6
+44029,Ariño,15 años,2018,5
+44029,Ariño,16 años,2018,8
+44029,Ariño,17 años,2018,6
+44029,Ariño,18 años,2018,4
+44031,Azaila,0 años,2018,1
+44031,Azaila,1 año,2018,0.0
+44031,Azaila,2 años,2018,0.0
+44031,Azaila,3 años,2018,0.0
+44031,Azaila,4 años,2018,0.0
+44031,Azaila,5 años,2018,0.0
+44031,Azaila,6 años,2018,0.0
+44031,Azaila,7 años,2018,1
+44031,Azaila,8 años,2018,0.0
+44031,Azaila,9 años,2018,1
+44031,Azaila,10 años,2018,0.0
+44031,Azaila,11 años,2018,0.0
+44031,Azaila,12 años,2018,0.0
+44031,Azaila,13 años,2018,0.0
+44031,Azaila,14 años,2018,1
+44031,Azaila,15 años,2018,0.0
+44031,Azaila,16 años,2018,0.0
+44031,Azaila,17 años,2018,0.0
+44031,Azaila,18 años,2018,1
+44032,Bádenas,0 años,2018,0.0
+44032,Bádenas,1 año,2018,0.0
+44032,Bádenas,2 años,2018,0.0
+44032,Bádenas,3 años,2018,0.0
+44032,Bádenas,4 años,2018,1
+44032,Bádenas,5 años,2018,0.0
+44032,Bádenas,6 años,2018,1
+44032,Bádenas,7 años,2018,0.0
+44032,Bádenas,8 años,2018,0.0
+44032,Bádenas,9 años,2018,0.0
+44032,Bádenas,10 años,2018,0.0
+44032,Bádenas,11 años,2018,0.0
+44032,Bádenas,12 años,2018,0.0
+44032,Bádenas,13 años,2018,0.0
+44032,Bádenas,14 años,2018,0.0
+44032,Bádenas,15 años,2018,0.0
+44032,Bádenas,16 años,2018,0.0
+44032,Bádenas,17 años,2018,0.0
+44032,Bádenas,18 años,2018,0.0
+44033,Báguena,0 años,2018,2
+44033,Báguena,1 año,2018,1
+44033,Báguena,2 años,2018,0.0
+44033,Báguena,3 años,2018,0.0
+44033,Báguena,4 años,2018,1
+44033,Báguena,5 años,2018,3
+44033,Báguena,6 años,2018,1
+44033,Báguena,7 años,2018,1
+44033,Báguena,8 años,2018,2
+44033,Báguena,9 años,2018,0.0
+44033,Báguena,10 años,2018,1
+44033,Báguena,11 años,2018,2
+44033,Báguena,12 años,2018,1
+44033,Báguena,13 años,2018,1
+44033,Báguena,14 años,2018,3
+44033,Báguena,15 años,2018,1
+44033,Báguena,16 años,2018,6
+44033,Báguena,17 años,2018,0.0
+44033,Báguena,18 años,2018,0.0
+44034,Bañón,0 años,2018,0.0
+44034,Bañón,1 año,2018,2
+44034,Bañón,2 años,2018,1
+44034,Bañón,3 años,2018,1
+44034,Bañón,4 años,2018,1
+44034,Bañón,5 años,2018,3
+44034,Bañón,6 años,2018,0.0
+44034,Bañón,7 años,2018,0.0
+44034,Bañón,8 años,2018,1
+44034,Bañón,9 años,2018,0.0
+44034,Bañón,10 años,2018,0.0
+44034,Bañón,11 años,2018,1
+44034,Bañón,12 años,2018,0.0
+44034,Bañón,13 años,2018,2
+44034,Bañón,14 años,2018,1
+44034,Bañón,15 años,2018,0.0
+44034,Bañón,16 años,2018,1
+44034,Bañón,17 años,2018,1
+44034,Bañón,18 años,2018,0.0
+44035,Barrachina,0 años,2018,0.0
+44035,Barrachina,1 año,2018,0.0
+44035,Barrachina,2 años,2018,0.0
+44035,Barrachina,3 años,2018,0.0
+44035,Barrachina,4 años,2018,0.0
+44035,Barrachina,5 años,2018,0.0
+44035,Barrachina,6 años,2018,1
+44035,Barrachina,7 años,2018,1
+44035,Barrachina,8 años,2018,0.0
+44035,Barrachina,9 años,2018,0.0
+44035,Barrachina,10 años,2018,3
+44035,Barrachina,11 años,2018,0.0
+44035,Barrachina,12 años,2018,1
+44035,Barrachina,13 años,2018,0.0
+44035,Barrachina,14 años,2018,0.0
+44035,Barrachina,15 años,2018,0.0
+44035,Barrachina,16 años,2018,0.0
+44035,Barrachina,17 años,2018,2
+44035,Barrachina,18 años,2018,0.0
+44036,Bea,0 años,2018,0.0
+44036,Bea,1 año,2018,0.0
+44036,Bea,2 años,2018,0.0
+44036,Bea,3 años,2018,0.0
+44036,Bea,4 años,2018,0.0
+44036,Bea,5 años,2018,0.0
+44036,Bea,6 años,2018,0.0
+44036,Bea,7 años,2018,0.0
+44036,Bea,8 años,2018,1
+44036,Bea,9 años,2018,0.0
+44036,Bea,10 años,2018,1
+44036,Bea,11 años,2018,0.0
+44036,Bea,12 años,2018,0.0
+44036,Bea,13 años,2018,1
+44036,Bea,14 años,2018,1
+44036,Bea,15 años,2018,0.0
+44036,Bea,16 años,2018,0.0
+44036,Bea,17 años,2018,0.0
+44036,Bea,18 años,2018,0.0
+44037,Beceite,0 años,2018,0.0
+44037,Beceite,1 año,2018,2
+44037,Beceite,2 años,2018,6
+44037,Beceite,3 años,2018,5
+44037,Beceite,4 años,2018,6
+44037,Beceite,5 años,2018,1
+44037,Beceite,6 años,2018,4
+44037,Beceite,7 años,2018,4
+44037,Beceite,8 años,2018,5
+44037,Beceite,9 años,2018,8
+44037,Beceite,10 años,2018,4
+44037,Beceite,11 años,2018,2
+44037,Beceite,12 años,2018,3
+44037,Beceite,13 años,2018,3
+44037,Beceite,14 años,2018,2
+44037,Beceite,15 años,2018,4
+44037,Beceite,16 años,2018,6
+44037,Beceite,17 años,2018,2
+44037,Beceite,18 años,2018,5
+44038,Belmonte de San José,0 años,2018,1
+44038,Belmonte de San José,1 año,2018,2
+44038,Belmonte de San José,2 años,2018,0.0
+44038,Belmonte de San José,3 años,2018,0.0
+44038,Belmonte de San José,4 años,2018,0.0
+44038,Belmonte de San José,5 años,2018,0.0
+44038,Belmonte de San José,6 años,2018,0.0
+44038,Belmonte de San José,7 años,2018,0.0
+44038,Belmonte de San José,8 años,2018,0.0
+44038,Belmonte de San José,9 años,2018,2
+44038,Belmonte de San José,10 años,2018,0.0
+44038,Belmonte de San José,11 años,2018,0.0
+44038,Belmonte de San José,12 años,2018,0.0
+44038,Belmonte de San José,13 años,2018,1
+44038,Belmonte de San José,14 años,2018,2
+44038,Belmonte de San José,15 años,2018,1
+44038,Belmonte de San José,16 años,2018,1
+44038,Belmonte de San José,17 años,2018,1
+44038,Belmonte de San José,18 años,2018,0.0
+44039,Bello,0 años,2018,1
+44039,Bello,1 año,2018,0.0
+44039,Bello,2 años,2018,0.0
+44039,Bello,3 años,2018,0.0
+44039,Bello,4 años,2018,0.0
+44039,Bello,5 años,2018,2
+44039,Bello,6 años,2018,0.0
+44039,Bello,7 años,2018,0.0
+44039,Bello,8 años,2018,1
+44039,Bello,9 años,2018,1
+44039,Bello,10 años,2018,0.0
+44039,Bello,11 años,2018,0.0
+44039,Bello,12 años,2018,2
+44039,Bello,13 años,2018,2
+44039,Bello,14 años,2018,3
+44039,Bello,15 años,2018,0.0
+44039,Bello,16 años,2018,3
+44039,Bello,17 años,2018,0.0
+44039,Bello,18 años,2018,1
+44040,Berge,0 años,2018,1
+44040,Berge,1 año,2018,2
+44040,Berge,2 años,2018,7
+44040,Berge,3 años,2018,0.0
+44040,Berge,4 años,2018,0.0
+44040,Berge,5 años,2018,4
+44040,Berge,6 años,2018,1
+44040,Berge,7 años,2018,1
+44040,Berge,8 años,2018,2
+44040,Berge,9 años,2018,1
+44040,Berge,10 años,2018,3
+44040,Berge,11 años,2018,1
+44040,Berge,12 años,2018,2
+44040,Berge,13 años,2018,3
+44040,Berge,14 años,2018,5
+44040,Berge,15 años,2018,1
+44040,Berge,16 años,2018,2
+44040,Berge,17 años,2018,2
+44040,Berge,18 años,2018,4
+44041,Bezas,0 años,2018,0.0
+44041,Bezas,1 año,2018,0.0
+44041,Bezas,2 años,2018,0.0
+44041,Bezas,3 años,2018,0.0
+44041,Bezas,4 años,2018,0.0
+44041,Bezas,5 años,2018,0.0
+44041,Bezas,6 años,2018,0.0
+44041,Bezas,7 años,2018,0.0
+44041,Bezas,8 años,2018,0.0
+44041,Bezas,9 años,2018,0.0
+44041,Bezas,10 años,2018,1
+44041,Bezas,11 años,2018,0.0
+44041,Bezas,12 años,2018,2
+44041,Bezas,13 años,2018,1
+44041,Bezas,14 años,2018,1
+44041,Bezas,15 años,2018,0.0
+44041,Bezas,16 años,2018,1
+44041,Bezas,17 años,2018,0.0
+44041,Bezas,18 años,2018,1
+44042,Blancas,0 años,2018,0.0
+44042,Blancas,1 año,2018,0.0
+44042,Blancas,2 años,2018,0.0
+44042,Blancas,3 años,2018,1
+44042,Blancas,4 años,2018,0.0
+44042,Blancas,5 años,2018,0.0
+44042,Blancas,6 años,2018,2
+44042,Blancas,7 años,2018,1
+44042,Blancas,8 años,2018,1
+44042,Blancas,9 años,2018,0.0
+44042,Blancas,10 años,2018,0.0
+44042,Blancas,11 años,2018,1
+44042,Blancas,12 años,2018,0.0
+44042,Blancas,13 años,2018,0.0
+44042,Blancas,14 años,2018,1
+44042,Blancas,15 años,2018,1
+44042,Blancas,16 años,2018,1
+44042,Blancas,17 años,2018,1
+44042,Blancas,18 años,2018,1
+44043,Blesa,0 años,2018,0.0
+44043,Blesa,1 año,2018,1
+44043,Blesa,2 años,2018,0.0
+44043,Blesa,3 años,2018,0.0
+44043,Blesa,4 años,2018,0.0
+44043,Blesa,5 años,2018,0.0
+44043,Blesa,6 años,2018,0.0
+44043,Blesa,7 años,2018,0.0
+44043,Blesa,8 años,2018,0.0
+44043,Blesa,9 años,2018,0.0
+44043,Blesa,10 años,2018,1
+44043,Blesa,11 años,2018,0.0
+44043,Blesa,12 años,2018,1
+44043,Blesa,13 años,2018,0.0
+44043,Blesa,14 años,2018,0.0
+44043,Blesa,15 años,2018,0.0
+44043,Blesa,16 años,2018,0.0
+44043,Blesa,17 años,2018,0.0
+44043,Blesa,18 años,2018,0.0
+44044,Bordón,0 años,2018,0.0
+44044,Bordón,1 año,2018,0.0
+44044,Bordón,2 años,2018,2
+44044,Bordón,3 años,2018,2
+44044,Bordón,4 años,2018,0.0
+44044,Bordón,5 años,2018,2
+44044,Bordón,6 años,2018,3
+44044,Bordón,7 años,2018,0.0
+44044,Bordón,8 años,2018,1
+44044,Bordón,9 años,2018,1
+44044,Bordón,10 años,2018,1
+44044,Bordón,11 años,2018,0.0
+44044,Bordón,12 años,2018,1
+44044,Bordón,13 años,2018,0.0
+44044,Bordón,14 años,2018,1
+44044,Bordón,15 años,2018,2
+44044,Bordón,16 años,2018,1
+44044,Bordón,17 años,2018,1
+44044,Bordón,18 años,2018,1
+44045,Bronchales,0 años,2018,3
+44045,Bronchales,1 año,2018,3
+44045,Bronchales,2 años,2018,1
+44045,Bronchales,3 años,2018,3
+44045,Bronchales,4 años,2018,2
+44045,Bronchales,5 años,2018,2
+44045,Bronchales,6 años,2018,3
+44045,Bronchales,7 años,2018,3
+44045,Bronchales,8 años,2018,1
+44045,Bronchales,9 años,2018,5
+44045,Bronchales,10 años,2018,3
+44045,Bronchales,11 años,2018,2
+44045,Bronchales,12 años,2018,3
+44045,Bronchales,13 años,2018,2
+44045,Bronchales,14 años,2018,3
+44045,Bronchales,15 años,2018,3
+44045,Bronchales,16 años,2018,3
+44045,Bronchales,17 años,2018,0.0
+44045,Bronchales,18 años,2018,1
+44046,Bueña,0 años,2018,0.0
+44046,Bueña,1 año,2018,0.0
+44046,Bueña,2 años,2018,0.0
+44046,Bueña,3 años,2018,1
+44046,Bueña,4 años,2018,1
+44046,Bueña,5 años,2018,1
+44046,Bueña,6 años,2018,1
+44046,Bueña,7 años,2018,0.0
+44046,Bueña,8 años,2018,1
+44046,Bueña,9 años,2018,0.0
+44046,Bueña,10 años,2018,1
+44046,Bueña,11 años,2018,0.0
+44046,Bueña,12 años,2018,0.0
+44046,Bueña,13 años,2018,0.0
+44046,Bueña,14 años,2018,1
+44046,Bueña,15 años,2018,0.0
+44046,Bueña,16 años,2018,0.0
+44046,Bueña,17 años,2018,1
+44046,Bueña,18 años,2018,0.0
+44047,Burbáguena,0 años,2018,1
+44047,Burbáguena,1 año,2018,1
+44047,Burbáguena,2 años,2018,1
+44047,Burbáguena,3 años,2018,0.0
+44047,Burbáguena,4 años,2018,0.0
+44047,Burbáguena,5 años,2018,1
+44047,Burbáguena,6 años,2018,0.0
+44047,Burbáguena,7 años,2018,0.0
+44047,Burbáguena,8 años,2018,0.0
+44047,Burbáguena,9 años,2018,1
+44047,Burbáguena,10 años,2018,0.0
+44047,Burbáguena,11 años,2018,0.0
+44047,Burbáguena,12 años,2018,1
+44047,Burbáguena,13 años,2018,0.0
+44047,Burbáguena,14 años,2018,1
+44047,Burbáguena,15 años,2018,2
+44047,Burbáguena,16 años,2018,1
+44047,Burbáguena,17 años,2018,2
+44047,Burbáguena,18 años,2018,2
+44048,Cabra de Mora,0 años,2018,0.0
+44048,Cabra de Mora,1 año,2018,0.0
+44048,Cabra de Mora,2 años,2018,0.0
+44048,Cabra de Mora,3 años,2018,0.0
+44048,Cabra de Mora,4 años,2018,0.0
+44048,Cabra de Mora,5 años,2018,0.0
+44048,Cabra de Mora,6 años,2018,0.0
+44048,Cabra de Mora,7 años,2018,0.0
+44048,Cabra de Mora,8 años,2018,0.0
+44048,Cabra de Mora,9 años,2018,0.0
+44048,Cabra de Mora,10 años,2018,0.0
+44048,Cabra de Mora,11 años,2018,0.0
+44048,Cabra de Mora,12 años,2018,0.0
+44048,Cabra de Mora,13 años,2018,0.0
+44048,Cabra de Mora,14 años,2018,0.0
+44048,Cabra de Mora,15 años,2018,0.0
+44048,Cabra de Mora,16 años,2018,0.0
+44048,Cabra de Mora,17 años,2018,0.0
+44048,Cabra de Mora,18 años,2018,1
+44049,Calaceite,0 años,2018,6
+44049,Calaceite,1 año,2018,8
+44049,Calaceite,2 años,2018,9
+44049,Calaceite,3 años,2018,9
+44049,Calaceite,4 años,2018,4
+44049,Calaceite,5 años,2018,13
+44049,Calaceite,6 años,2018,6
+44049,Calaceite,7 años,2018,5
+44049,Calaceite,8 años,2018,12
+44049,Calaceite,9 años,2018,3
+44049,Calaceite,10 años,2018,6
+44049,Calaceite,11 años,2018,4
+44049,Calaceite,12 años,2018,4
+44049,Calaceite,13 años,2018,5
+44049,Calaceite,14 años,2018,8
+44049,Calaceite,15 años,2018,9
+44049,Calaceite,16 años,2018,7
+44049,Calaceite,17 años,2018,5
+44049,Calaceite,18 años,2018,7
+44050,Calamocha,0 años,2018,31
+44050,Calamocha,1 año,2018,47
+44050,Calamocha,2 años,2018,32
+44050,Calamocha,3 años,2018,40
+44050,Calamocha,4 años,2018,40
+44050,Calamocha,5 años,2018,42
+44050,Calamocha,6 años,2018,43
+44050,Calamocha,7 años,2018,47
+44050,Calamocha,8 años,2018,48
+44050,Calamocha,9 años,2018,52
+44050,Calamocha,10 años,2018,44
+44050,Calamocha,11 años,2018,48
+44050,Calamocha,12 años,2018,47
+44050,Calamocha,13 años,2018,40
+44050,Calamocha,14 años,2018,47
+44050,Calamocha,15 años,2018,38
+44050,Calamocha,16 años,2018,47
+44050,Calamocha,17 años,2018,37
+44050,Calamocha,18 años,2018,51
+44051,Calanda,0 años,2018,24
+44051,Calanda,1 año,2018,19
+44051,Calanda,2 años,2018,28
+44051,Calanda,3 años,2018,33
+44051,Calanda,4 años,2018,32
+44051,Calanda,5 años,2018,27
+44051,Calanda,6 años,2018,37
+44051,Calanda,7 años,2018,27
+44051,Calanda,8 años,2018,31
+44051,Calanda,9 años,2018,35
+44051,Calanda,10 años,2018,31
+44051,Calanda,11 años,2018,27
+44051,Calanda,12 años,2018,26
+44051,Calanda,13 años,2018,30
+44051,Calanda,14 años,2018,32
+44051,Calanda,15 años,2018,40
+44051,Calanda,16 años,2018,41
+44051,Calanda,17 años,2018,36
+44051,Calanda,18 años,2018,23
+44052,Calomarde,0 años,2018,0.0
+44052,Calomarde,1 año,2018,0.0
+44052,Calomarde,2 años,2018,0.0
+44052,Calomarde,3 años,2018,0.0
+44052,Calomarde,4 años,2018,0.0
+44052,Calomarde,5 años,2018,0.0
+44052,Calomarde,6 años,2018,0.0
+44052,Calomarde,7 años,2018,0.0
+44052,Calomarde,8 años,2018,0.0
+44052,Calomarde,9 años,2018,0.0
+44052,Calomarde,10 años,2018,0.0
+44052,Calomarde,11 años,2018,0.0
+44052,Calomarde,12 años,2018,0.0
+44052,Calomarde,13 años,2018,0.0
+44052,Calomarde,14 años,2018,0.0
+44052,Calomarde,15 años,2018,0.0
+44052,Calomarde,16 años,2018,0.0
+44052,Calomarde,17 años,2018,0.0
+44052,Calomarde,18 años,2018,0.0
+44053,Camañas,0 años,2018,0.0
+44053,Camañas,1 año,2018,0.0
+44053,Camañas,2 años,2018,1
+44053,Camañas,3 años,2018,0.0
+44053,Camañas,4 años,2018,0.0
+44053,Camañas,5 años,2018,1
+44053,Camañas,6 años,2018,1
+44053,Camañas,7 años,2018,0.0
+44053,Camañas,8 años,2018,1
+44053,Camañas,9 años,2018,0.0
+44053,Camañas,10 años,2018,4
+44053,Camañas,11 años,2018,1
+44053,Camañas,12 años,2018,2
+44053,Camañas,13 años,2018,1
+44053,Camañas,14 años,2018,4
+44053,Camañas,15 años,2018,1
+44053,Camañas,16 años,2018,2
+44053,Camañas,17 años,2018,0.0
+44053,Camañas,18 años,2018,1
+44054,Camarena de la Sierra,0 años,2018,1
+44054,Camarena de la Sierra,1 año,2018,0.0
+44054,Camarena de la Sierra,2 años,2018,2
+44054,Camarena de la Sierra,3 años,2018,0.0
+44054,Camarena de la Sierra,4 años,2018,3
+44054,Camarena de la Sierra,5 años,2018,1
+44054,Camarena de la Sierra,6 años,2018,0.0
+44054,Camarena de la Sierra,7 años,2018,0.0
+44054,Camarena de la Sierra,8 años,2018,1
+44054,Camarena de la Sierra,9 años,2018,0.0
+44054,Camarena de la Sierra,10 años,2018,1
+44054,Camarena de la Sierra,11 años,2018,1
+44054,Camarena de la Sierra,12 años,2018,0.0
+44054,Camarena de la Sierra,13 años,2018,0.0
+44054,Camarena de la Sierra,14 años,2018,0.0
+44054,Camarena de la Sierra,15 años,2018,0.0
+44054,Camarena de la Sierra,16 años,2018,0.0
+44054,Camarena de la Sierra,17 años,2018,0.0
+44054,Camarena de la Sierra,18 años,2018,0.0
+44055,Camarillas,0 años,2018,2
+44055,Camarillas,1 año,2018,1
+44055,Camarillas,2 años,2018,0.0
+44055,Camarillas,3 años,2018,0.0
+44055,Camarillas,4 años,2018,0.0
+44055,Camarillas,5 años,2018,0.0
+44055,Camarillas,6 años,2018,0.0
+44055,Camarillas,7 años,2018,1
+44055,Camarillas,8 años,2018,1
+44055,Camarillas,9 años,2018,0.0
+44055,Camarillas,10 años,2018,1
+44055,Camarillas,11 años,2018,1
+44055,Camarillas,12 años,2018,1
+44055,Camarillas,13 años,2018,0.0
+44055,Camarillas,14 años,2018,0.0
+44055,Camarillas,15 años,2018,0.0
+44055,Camarillas,16 años,2018,0.0
+44055,Camarillas,17 años,2018,2
+44055,Camarillas,18 años,2018,0.0
+44056,Caminreal,0 años,2018,5
+44056,Caminreal,1 año,2018,3
+44056,Caminreal,2 años,2018,1
+44056,Caminreal,3 años,2018,3
+44056,Caminreal,4 años,2018,3
+44056,Caminreal,5 años,2018,1
+44056,Caminreal,6 años,2018,7
+44056,Caminreal,7 años,2018,9
+44056,Caminreal,8 años,2018,2
+44056,Caminreal,9 años,2018,5
+44056,Caminreal,10 años,2018,3
+44056,Caminreal,11 años,2018,3
+44056,Caminreal,12 años,2018,6
+44056,Caminreal,13 años,2018,7
+44056,Caminreal,14 años,2018,3
+44056,Caminreal,15 años,2018,5
+44056,Caminreal,16 años,2018,1
+44056,Caminreal,17 años,2018,6
+44056,Caminreal,18 años,2018,3
+44059,Cantavieja,0 años,2018,5
+44059,Cantavieja,1 año,2018,2
+44059,Cantavieja,2 años,2018,5
+44059,Cantavieja,3 años,2018,13
+44059,Cantavieja,4 años,2018,6
+44059,Cantavieja,5 años,2018,8
+44059,Cantavieja,6 años,2018,5
+44059,Cantavieja,7 años,2018,11
+44059,Cantavieja,8 años,2018,9
+44059,Cantavieja,9 años,2018,7
+44059,Cantavieja,10 años,2018,5
+44059,Cantavieja,11 años,2018,5
+44059,Cantavieja,12 años,2018,5
+44059,Cantavieja,13 años,2018,8
+44059,Cantavieja,14 años,2018,6
+44059,Cantavieja,15 años,2018,6
+44059,Cantavieja,16 años,2018,5
+44059,Cantavieja,17 años,2018,10
+44059,Cantavieja,18 años,2018,5
+44060,Cañada de Benatanduz,0 años,2018,0.0
+44060,Cañada de Benatanduz,1 año,2018,0.0
+44060,Cañada de Benatanduz,2 años,2018,0.0
+44060,Cañada de Benatanduz,3 años,2018,0.0
+44060,Cañada de Benatanduz,4 años,2018,0.0
+44060,Cañada de Benatanduz,5 años,2018,0.0
+44060,Cañada de Benatanduz,6 años,2018,0.0
+44060,Cañada de Benatanduz,7 años,2018,0.0
+44060,Cañada de Benatanduz,8 años,2018,0.0
+44060,Cañada de Benatanduz,9 años,2018,0.0
+44060,Cañada de Benatanduz,10 años,2018,0.0
+44060,Cañada de Benatanduz,11 años,2018,0.0
+44060,Cañada de Benatanduz,12 años,2018,0.0
+44060,Cañada de Benatanduz,13 años,2018,0.0
+44060,Cañada de Benatanduz,14 años,2018,0.0
+44060,Cañada de Benatanduz,15 años,2018,0.0
+44060,Cañada de Benatanduz,16 años,2018,0.0
+44060,Cañada de Benatanduz,17 años,2018,0.0
+44060,Cañada de Benatanduz,18 años,2018,0.0
+44061,Cañada de Verich La,0 años,2018,0.0
+44061,Cañada de Verich La,1 año,2018,0.0
+44061,Cañada de Verich La,2 años,2018,0.0
+44061,Cañada de Verich La,3 años,2018,0.0
+44061,Cañada de Verich La,4 años,2018,0.0
+44061,Cañada de Verich La,5 años,2018,0.0
+44061,Cañada de Verich La,6 años,2018,0.0
+44061,Cañada de Verich La,7 años,2018,0.0
+44061,Cañada de Verich La,8 años,2018,0.0
+44061,Cañada de Verich La,9 años,2018,1
+44061,Cañada de Verich La,10 años,2018,0.0
+44061,Cañada de Verich La,11 años,2018,0.0
+44061,Cañada de Verich La,12 años,2018,1
+44061,Cañada de Verich La,13 años,2018,3
+44061,Cañada de Verich La,14 años,2018,1
+44061,Cañada de Verich La,15 años,2018,1
+44061,Cañada de Verich La,16 años,2018,3
+44061,Cañada de Verich La,17 años,2018,3
+44061,Cañada de Verich La,18 años,2018,1
+44062,Cañada Vellida,0 años,2018,0.0
+44062,Cañada Vellida,1 año,2018,0.0
+44062,Cañada Vellida,2 años,2018,0.0
+44062,Cañada Vellida,3 años,2018,0.0
+44062,Cañada Vellida,4 años,2018,0.0
+44062,Cañada Vellida,5 años,2018,0.0
+44062,Cañada Vellida,6 años,2018,0.0
+44062,Cañada Vellida,7 años,2018,0.0
+44062,Cañada Vellida,8 años,2018,0.0
+44062,Cañada Vellida,9 años,2018,0.0
+44062,Cañada Vellida,10 años,2018,0.0
+44062,Cañada Vellida,11 años,2018,0.0
+44062,Cañada Vellida,12 años,2018,0.0
+44062,Cañada Vellida,13 años,2018,0.0
+44062,Cañada Vellida,14 años,2018,0.0
+44062,Cañada Vellida,15 años,2018,0.0
+44062,Cañada Vellida,16 años,2018,0.0
+44062,Cañada Vellida,17 años,2018,0.0
+44062,Cañada Vellida,18 años,2018,0.0
+44063,Cañizar del Olivar,0 años,2018,0.0
+44063,Cañizar del Olivar,1 año,2018,3
+44063,Cañizar del Olivar,2 años,2018,2
+44063,Cañizar del Olivar,3 años,2018,1
+44063,Cañizar del Olivar,4 años,2018,1
+44063,Cañizar del Olivar,5 años,2018,1
+44063,Cañizar del Olivar,6 años,2018,1
+44063,Cañizar del Olivar,7 años,2018,3
+44063,Cañizar del Olivar,8 años,2018,1
+44063,Cañizar del Olivar,9 años,2018,0.0
+44063,Cañizar del Olivar,10 años,2018,0.0
+44063,Cañizar del Olivar,11 años,2018,0.0
+44063,Cañizar del Olivar,12 años,2018,2
+44063,Cañizar del Olivar,13 años,2018,0.0
+44063,Cañizar del Olivar,14 años,2018,1
+44063,Cañizar del Olivar,15 años,2018,1
+44063,Cañizar del Olivar,16 años,2018,1
+44063,Cañizar del Olivar,17 años,2018,0.0
+44063,Cañizar del Olivar,18 años,2018,0.0
+44064,Cascante del Río,0 años,2018,0.0
+44064,Cascante del Río,1 año,2018,0.0
+44064,Cascante del Río,2 años,2018,0.0
+44064,Cascante del Río,3 años,2018,0.0
+44064,Cascante del Río,4 años,2018,0.0
+44064,Cascante del Río,5 años,2018,0.0
+44064,Cascante del Río,6 años,2018,0.0
+44064,Cascante del Río,7 años,2018,0.0
+44064,Cascante del Río,8 años,2018,0.0
+44064,Cascante del Río,9 años,2018,1
+44064,Cascante del Río,10 años,2018,0.0
+44064,Cascante del Río,11 años,2018,0.0
+44064,Cascante del Río,12 años,2018,0.0
+44064,Cascante del Río,13 años,2018,1
+44064,Cascante del Río,14 años,2018,0.0
+44064,Cascante del Río,15 años,2018,1
+44064,Cascante del Río,16 años,2018,0.0
+44064,Cascante del Río,17 años,2018,0.0
+44064,Cascante del Río,18 años,2018,0.0
+44065,Castejón de Tornos,0 años,2018,0.0
+44065,Castejón de Tornos,1 año,2018,1
+44065,Castejón de Tornos,2 años,2018,0.0
+44065,Castejón de Tornos,3 años,2018,0.0
+44065,Castejón de Tornos,4 años,2018,0.0
+44065,Castejón de Tornos,5 años,2018,0.0
+44065,Castejón de Tornos,6 años,2018,0.0
+44065,Castejón de Tornos,7 años,2018,0.0
+44065,Castejón de Tornos,8 años,2018,0.0
+44065,Castejón de Tornos,9 años,2018,0.0
+44065,Castejón de Tornos,10 años,2018,0.0
+44065,Castejón de Tornos,11 años,2018,0.0
+44065,Castejón de Tornos,12 años,2018,0.0
+44065,Castejón de Tornos,13 años,2018,0.0
+44065,Castejón de Tornos,14 años,2018,0.0
+44065,Castejón de Tornos,15 años,2018,0.0
+44065,Castejón de Tornos,16 años,2018,0.0
+44065,Castejón de Tornos,17 años,2018,0.0
+44065,Castejón de Tornos,18 años,2018,0.0
+44066,Castel de Cabra,0 años,2018,0.0
+44066,Castel de Cabra,1 año,2018,1
+44066,Castel de Cabra,2 años,2018,1
+44066,Castel de Cabra,3 años,2018,1
+44066,Castel de Cabra,4 años,2018,0.0
+44066,Castel de Cabra,5 años,2018,1
+44066,Castel de Cabra,6 años,2018,1
+44066,Castel de Cabra,7 años,2018,0.0
+44066,Castel de Cabra,8 años,2018,0.0
+44066,Castel de Cabra,9 años,2018,1
+44066,Castel de Cabra,10 años,2018,1
+44066,Castel de Cabra,11 años,2018,0.0
+44066,Castel de Cabra,12 años,2018,1
+44066,Castel de Cabra,13 años,2018,0.0
+44066,Castel de Cabra,14 años,2018,1
+44066,Castel de Cabra,15 años,2018,0.0
+44066,Castel de Cabra,16 años,2018,0.0
+44066,Castel de Cabra,17 años,2018,1
+44066,Castel de Cabra,18 años,2018,1
+44067,Castelnou,0 años,2018,1
+44067,Castelnou,1 año,2018,6
+44067,Castelnou,2 años,2018,2
+44067,Castelnou,3 años,2018,3
+44067,Castelnou,4 años,2018,0.0
+44067,Castelnou,5 años,2018,4
+44067,Castelnou,6 años,2018,2
+44067,Castelnou,7 años,2018,0.0
+44067,Castelnou,8 años,2018,3
+44067,Castelnou,9 años,2018,2
+44067,Castelnou,10 años,2018,3
+44067,Castelnou,11 años,2018,0.0
+44067,Castelnou,12 años,2018,0.0
+44067,Castelnou,13 años,2018,1
+44067,Castelnou,14 años,2018,1
+44067,Castelnou,15 años,2018,1
+44067,Castelnou,16 años,2018,0.0
+44067,Castelnou,17 años,2018,1
+44067,Castelnou,18 años,2018,1
+44068,Castelserás,0 años,2018,12
+44068,Castelserás,1 año,2018,3
+44068,Castelserás,2 años,2018,3
+44068,Castelserás,3 años,2018,12
+44068,Castelserás,4 años,2018,9
+44068,Castelserás,5 años,2018,7
+44068,Castelserás,6 años,2018,11
+44068,Castelserás,7 años,2018,5
+44068,Castelserás,8 años,2018,9
+44068,Castelserás,9 años,2018,9
+44068,Castelserás,10 años,2018,6
+44068,Castelserás,11 años,2018,12
+44068,Castelserás,12 años,2018,9
+44068,Castelserás,13 años,2018,10
+44068,Castelserás,14 años,2018,6
+44068,Castelserás,15 años,2018,9
+44068,Castelserás,16 años,2018,4
+44068,Castelserás,17 años,2018,9
+44068,Castelserás,18 años,2018,9
+44070,Castellar El,0 años,2018,0.0
+44070,Castellar El,1 año,2018,0.0
+44070,Castellar El,2 años,2018,0.0
+44070,Castellar El,3 años,2018,0.0
+44070,Castellar El,4 años,2018,0.0
+44070,Castellar El,5 años,2018,0.0
+44070,Castellar El,6 años,2018,0.0
+44070,Castellar El,7 años,2018,0.0
+44070,Castellar El,8 años,2018,0.0
+44070,Castellar El,9 años,2018,0.0
+44070,Castellar El,10 años,2018,0.0
+44070,Castellar El,11 años,2018,0.0
+44070,Castellar El,12 años,2018,0.0
+44070,Castellar El,13 años,2018,0.0
+44070,Castellar El,14 años,2018,0.0
+44070,Castellar El,15 años,2018,0.0
+44070,Castellar El,16 años,2018,0.0
+44070,Castellar El,17 años,2018,1
+44070,Castellar El,18 años,2018,0.0
+44071,Castellote,0 años,2018,0.0
+44071,Castellote,1 año,2018,3
+44071,Castellote,2 años,2018,2
+44071,Castellote,3 años,2018,2
+44071,Castellote,4 años,2018,4
+44071,Castellote,5 años,2018,1
+44071,Castellote,6 años,2018,6
+44071,Castellote,7 años,2018,1
+44071,Castellote,8 años,2018,4
+44071,Castellote,9 años,2018,5
+44071,Castellote,10 años,2018,6
+44071,Castellote,11 años,2018,4
+44071,Castellote,12 años,2018,5
+44071,Castellote,13 años,2018,4
+44071,Castellote,14 años,2018,2
+44071,Castellote,15 años,2018,1
+44071,Castellote,16 años,2018,2
+44071,Castellote,17 años,2018,2
+44071,Castellote,18 años,2018,6
+44074,Cedrillas,0 años,2018,7
+44074,Cedrillas,1 año,2018,6
+44074,Cedrillas,2 años,2018,8
+44074,Cedrillas,3 años,2018,3
+44074,Cedrillas,4 años,2018,7
+44074,Cedrillas,5 años,2018,2
+44074,Cedrillas,6 años,2018,6
+44074,Cedrillas,7 años,2018,2
+44074,Cedrillas,8 años,2018,4
+44074,Cedrillas,9 años,2018,6
+44074,Cedrillas,10 años,2018,10
+44074,Cedrillas,11 años,2018,4
+44074,Cedrillas,12 años,2018,10
+44074,Cedrillas,13 años,2018,7
+44074,Cedrillas,14 años,2018,7
+44074,Cedrillas,15 años,2018,7
+44074,Cedrillas,16 años,2018,7
+44074,Cedrillas,17 años,2018,9
+44074,Cedrillas,18 años,2018,3
+44075,Celadas,0 años,2018,0.0
+44075,Celadas,1 año,2018,4
+44075,Celadas,2 años,2018,3
+44075,Celadas,3 años,2018,2
+44075,Celadas,4 años,2018,2
+44075,Celadas,5 años,2018,2
+44075,Celadas,6 años,2018,1
+44075,Celadas,7 años,2018,1
+44075,Celadas,8 años,2018,1
+44075,Celadas,9 años,2018,4
+44075,Celadas,10 años,2018,1
+44075,Celadas,11 años,2018,3
+44075,Celadas,12 años,2018,2
+44075,Celadas,13 años,2018,6
+44075,Celadas,14 años,2018,5
+44075,Celadas,15 años,2018,1
+44075,Celadas,16 años,2018,4
+44075,Celadas,17 años,2018,3
+44075,Celadas,18 años,2018,8
+44076,Cella,0 años,2018,19
+44076,Cella,1 año,2018,22
+44076,Cella,2 años,2018,17
+44076,Cella,3 años,2018,15
+44076,Cella,4 años,2018,16
+44076,Cella,5 años,2018,21
+44076,Cella,6 años,2018,27
+44076,Cella,7 años,2018,14
+44076,Cella,8 años,2018,19
+44076,Cella,9 años,2018,19
+44076,Cella,10 años,2018,23
+44076,Cella,11 años,2018,25
+44076,Cella,12 años,2018,29
+44076,Cella,13 años,2018,15
+44076,Cella,14 años,2018,21
+44076,Cella,15 años,2018,14
+44076,Cella,16 años,2018,16
+44076,Cella,17 años,2018,28
+44076,Cella,18 años,2018,12
+44077,Cerollera La,0 años,2018,0.0
+44077,Cerollera La,1 año,2018,2
+44077,Cerollera La,2 años,2018,0.0
+44077,Cerollera La,3 años,2018,1
+44077,Cerollera La,4 años,2018,0.0
+44077,Cerollera La,5 años,2018,0.0
+44077,Cerollera La,6 años,2018,1
+44077,Cerollera La,7 años,2018,1
+44077,Cerollera La,8 años,2018,1
+44077,Cerollera La,9 años,2018,2
+44077,Cerollera La,10 años,2018,1
+44077,Cerollera La,11 años,2018,1
+44077,Cerollera La,12 años,2018,0.0
+44077,Cerollera La,13 años,2018,1
+44077,Cerollera La,14 años,2018,1
+44077,Cerollera La,15 años,2018,0.0
+44077,Cerollera La,16 años,2018,1
+44077,Cerollera La,17 años,2018,1
+44077,Cerollera La,18 años,2018,0.0
+44080,Codoñera La,0 años,2018,1
+44080,Codoñera La,1 año,2018,2
+44080,Codoñera La,2 años,2018,0.0
+44080,Codoñera La,3 años,2018,2
+44080,Codoñera La,4 años,2018,1
+44080,Codoñera La,5 años,2018,2
+44080,Codoñera La,6 años,2018,2
+44080,Codoñera La,7 años,2018,1
+44080,Codoñera La,8 años,2018,3
+44080,Codoñera La,9 años,2018,7
+44080,Codoñera La,10 años,2018,5
+44080,Codoñera La,11 años,2018,2
+44080,Codoñera La,12 años,2018,3
+44080,Codoñera La,13 años,2018,2
+44080,Codoñera La,14 años,2018,0.0
+44080,Codoñera La,15 años,2018,0.0
+44080,Codoñera La,16 años,2018,1
+44080,Codoñera La,17 años,2018,3
+44080,Codoñera La,18 años,2018,3
+44082,Corbalán,0 años,2018,1
+44082,Corbalán,1 año,2018,2
+44082,Corbalán,2 años,2018,1
+44082,Corbalán,3 años,2018,0.0
+44082,Corbalán,4 años,2018,1
+44082,Corbalán,5 años,2018,1
+44082,Corbalán,6 años,2018,2
+44082,Corbalán,7 años,2018,0.0
+44082,Corbalán,8 años,2018,0.0
+44082,Corbalán,9 años,2018,2
+44082,Corbalán,10 años,2018,1
+44082,Corbalán,11 años,2018,0.0
+44082,Corbalán,12 años,2018,1
+44082,Corbalán,13 años,2018,0.0
+44082,Corbalán,14 años,2018,1
+44082,Corbalán,15 años,2018,0.0
+44082,Corbalán,16 años,2018,0.0
+44082,Corbalán,17 años,2018,2
+44082,Corbalán,18 años,2018,3
+44084,Cortes de Aragón,0 años,2018,0.0
+44084,Cortes de Aragón,1 año,2018,1
+44084,Cortes de Aragón,2 años,2018,0.0
+44084,Cortes de Aragón,3 años,2018,0.0
+44084,Cortes de Aragón,4 años,2018,0.0
+44084,Cortes de Aragón,5 años,2018,0.0
+44084,Cortes de Aragón,6 años,2018,1
+44084,Cortes de Aragón,7 años,2018,0.0
+44084,Cortes de Aragón,8 años,2018,0.0
+44084,Cortes de Aragón,9 años,2018,0.0
+44084,Cortes de Aragón,10 años,2018,1
+44084,Cortes de Aragón,11 años,2018,0.0
+44084,Cortes de Aragón,12 años,2018,0.0
+44084,Cortes de Aragón,13 años,2018,0.0
+44084,Cortes de Aragón,14 años,2018,0.0
+44084,Cortes de Aragón,15 años,2018,0.0
+44084,Cortes de Aragón,16 años,2018,0.0
+44084,Cortes de Aragón,17 años,2018,1
+44084,Cortes de Aragón,18 años,2018,0.0
+44085,Cosa,0 años,2018,0.0
+44085,Cosa,1 año,2018,0.0
+44085,Cosa,2 años,2018,0.0
+44085,Cosa,3 años,2018,0.0
+44085,Cosa,4 años,2018,0.0
+44085,Cosa,5 años,2018,0.0
+44085,Cosa,6 años,2018,0.0
+44085,Cosa,7 años,2018,0.0
+44085,Cosa,8 años,2018,1
+44085,Cosa,9 años,2018,0.0
+44085,Cosa,10 años,2018,0.0
+44085,Cosa,11 años,2018,0.0
+44085,Cosa,12 años,2018,0.0
+44085,Cosa,13 años,2018,0.0
+44085,Cosa,14 años,2018,0.0
+44085,Cosa,15 años,2018,0.0
+44085,Cosa,16 años,2018,0.0
+44085,Cosa,17 años,2018,0.0
+44085,Cosa,18 años,2018,0.0
+44086,Cretas,0 años,2018,3
+44086,Cretas,1 año,2018,3
+44086,Cretas,2 años,2018,4
+44086,Cretas,3 años,2018,3
+44086,Cretas,4 años,2018,4
+44086,Cretas,5 años,2018,6
+44086,Cretas,6 años,2018,8
+44086,Cretas,7 años,2018,5
+44086,Cretas,8 años,2018,5
+44086,Cretas,9 años,2018,3
+44086,Cretas,10 años,2018,8
+44086,Cretas,11 años,2018,5
+44086,Cretas,12 años,2018,5
+44086,Cretas,13 años,2018,7
+44086,Cretas,14 años,2018,5
+44086,Cretas,15 años,2018,1
+44086,Cretas,16 años,2018,2
+44086,Cretas,17 años,2018,4
+44086,Cretas,18 años,2018,0.0
+44087,Crivillén,0 años,2018,0.0
+44087,Crivillén,1 año,2018,0.0
+44087,Crivillén,2 años,2018,0.0
+44087,Crivillén,3 años,2018,0.0
+44087,Crivillén,4 años,2018,0.0
+44087,Crivillén,5 años,2018,0.0
+44087,Crivillén,6 años,2018,0.0
+44087,Crivillén,7 años,2018,0.0
+44087,Crivillén,8 años,2018,0.0
+44087,Crivillén,9 años,2018,0.0
+44087,Crivillén,10 años,2018,0.0
+44087,Crivillén,11 años,2018,0.0
+44087,Crivillén,12 años,2018,0.0
+44087,Crivillén,13 años,2018,0.0
+44087,Crivillén,14 años,2018,0.0
+44087,Crivillén,15 años,2018,0.0
+44087,Crivillén,16 años,2018,0.0
+44087,Crivillén,17 años,2018,0.0
+44087,Crivillén,18 años,2018,0.0
+44088,Cuba La,0 años,2018,0.0
+44088,Cuba La,1 año,2018,0.0
+44088,Cuba La,2 años,2018,1
+44088,Cuba La,3 años,2018,1
+44088,Cuba La,4 años,2018,0.0
+44088,Cuba La,5 años,2018,0.0
+44088,Cuba La,6 años,2018,0.0
+44088,Cuba La,7 años,2018,0.0
+44088,Cuba La,8 años,2018,0.0
+44088,Cuba La,9 años,2018,1
+44088,Cuba La,10 años,2018,1
+44088,Cuba La,11 años,2018,0.0
+44088,Cuba La,12 años,2018,0.0
+44088,Cuba La,13 años,2018,0.0
+44088,Cuba La,14 años,2018,0.0
+44088,Cuba La,15 años,2018,0.0
+44088,Cuba La,16 años,2018,0.0
+44088,Cuba La,17 años,2018,0.0
+44088,Cuba La,18 años,2018,0.0
+44089,Cubla,0 años,2018,0.0
+44089,Cubla,1 año,2018,0.0
+44089,Cubla,2 años,2018,0.0
+44089,Cubla,3 años,2018,1
+44089,Cubla,4 años,2018,0.0
+44089,Cubla,5 años,2018,0.0
+44089,Cubla,6 años,2018,0.0
+44089,Cubla,7 años,2018,0.0
+44089,Cubla,8 años,2018,1
+44089,Cubla,9 años,2018,0.0
+44089,Cubla,10 años,2018,0.0
+44089,Cubla,11 años,2018,0.0
+44089,Cubla,12 años,2018,0.0
+44089,Cubla,13 años,2018,0.0
+44089,Cubla,14 años,2018,1
+44089,Cubla,15 años,2018,1
+44089,Cubla,16 años,2018,0.0
+44089,Cubla,17 años,2018,1
+44089,Cubla,18 años,2018,0.0
+44090,Cucalón,0 años,2018,0.0
+44090,Cucalón,1 año,2018,0.0
+44090,Cucalón,2 años,2018,0.0
+44090,Cucalón,3 años,2018,0.0
+44090,Cucalón,4 años,2018,0.0
+44090,Cucalón,5 años,2018,0.0
+44090,Cucalón,6 años,2018,0.0
+44090,Cucalón,7 años,2018,1
+44090,Cucalón,8 años,2018,1
+44090,Cucalón,9 años,2018,1
+44090,Cucalón,10 años,2018,0.0
+44090,Cucalón,11 años,2018,2
+44090,Cucalón,12 años,2018,1
+44090,Cucalón,13 años,2018,0.0
+44090,Cucalón,14 años,2018,1
+44090,Cucalón,15 años,2018,0.0
+44090,Cucalón,16 años,2018,0.0
+44090,Cucalón,17 años,2018,0.0
+44090,Cucalón,18 años,2018,0.0
+44092,Cuervo El,0 años,2018,0.0
+44092,Cuervo El,1 año,2018,1
+44092,Cuervo El,2 años,2018,0.0
+44092,Cuervo El,3 años,2018,0.0
+44092,Cuervo El,4 años,2018,0.0
+44092,Cuervo El,5 años,2018,0.0
+44092,Cuervo El,6 años,2018,0.0
+44092,Cuervo El,7 años,2018,0.0
+44092,Cuervo El,8 años,2018,0.0
+44092,Cuervo El,9 años,2018,0.0
+44092,Cuervo El,10 años,2018,1
+44092,Cuervo El,11 años,2018,2
+44092,Cuervo El,12 años,2018,0.0
+44092,Cuervo El,13 años,2018,1
+44092,Cuervo El,14 años,2018,0.0
+44092,Cuervo El,15 años,2018,2
+44092,Cuervo El,16 años,2018,0.0
+44092,Cuervo El,17 años,2018,0.0
+44092,Cuervo El,18 años,2018,1
+44093,Cuevas de Almudén,0 años,2018,2
+44093,Cuevas de Almudén,1 año,2018,1
+44093,Cuevas de Almudén,2 años,2018,0.0
+44093,Cuevas de Almudén,3 años,2018,1
+44093,Cuevas de Almudén,4 años,2018,3
+44093,Cuevas de Almudén,5 años,2018,0.0
+44093,Cuevas de Almudén,6 años,2018,1
+44093,Cuevas de Almudén,7 años,2018,2
+44093,Cuevas de Almudén,8 años,2018,1
+44093,Cuevas de Almudén,9 años,2018,1
+44093,Cuevas de Almudén,10 años,2018,0.0
+44093,Cuevas de Almudén,11 años,2018,2
+44093,Cuevas de Almudén,12 años,2018,0.0
+44093,Cuevas de Almudén,13 años,2018,1
+44093,Cuevas de Almudén,14 años,2018,2
+44093,Cuevas de Almudén,15 años,2018,0.0
+44093,Cuevas de Almudén,16 años,2018,1
+44093,Cuevas de Almudén,17 años,2018,1
+44093,Cuevas de Almudén,18 años,2018,2
+44094,Cuevas Labradas,0 años,2018,0.0
+44094,Cuevas Labradas,1 año,2018,0.0
+44094,Cuevas Labradas,2 años,2018,3
+44094,Cuevas Labradas,3 años,2018,1
+44094,Cuevas Labradas,4 años,2018,0.0
+44094,Cuevas Labradas,5 años,2018,1
+44094,Cuevas Labradas,6 años,2018,1
+44094,Cuevas Labradas,7 años,2018,0.0
+44094,Cuevas Labradas,8 años,2018,1
+44094,Cuevas Labradas,9 años,2018,1
+44094,Cuevas Labradas,10 años,2018,1
+44094,Cuevas Labradas,11 años,2018,1
+44094,Cuevas Labradas,12 años,2018,0.0
+44094,Cuevas Labradas,13 años,2018,0.0
+44094,Cuevas Labradas,14 años,2018,0.0
+44094,Cuevas Labradas,15 años,2018,0.0
+44094,Cuevas Labradas,16 años,2018,0.0
+44094,Cuevas Labradas,17 años,2018,0.0
+44094,Cuevas Labradas,18 años,2018,0.0
+44096,Ejulve,0 años,2018,1
+44096,Ejulve,1 año,2018,0.0
+44096,Ejulve,2 años,2018,0.0
+44096,Ejulve,3 años,2018,2
+44096,Ejulve,4 años,2018,0.0
+44096,Ejulve,5 años,2018,0.0
+44096,Ejulve,6 años,2018,0.0
+44096,Ejulve,7 años,2018,0.0
+44096,Ejulve,8 años,2018,0.0
+44096,Ejulve,9 años,2018,1
+44096,Ejulve,10 años,2018,1
+44096,Ejulve,11 años,2018,0.0
+44096,Ejulve,12 años,2018,1
+44096,Ejulve,13 años,2018,2
+44096,Ejulve,14 años,2018,0.0
+44096,Ejulve,15 años,2018,1
+44096,Ejulve,16 años,2018,1
+44096,Ejulve,17 años,2018,0.0
+44096,Ejulve,18 años,2018,1
+44097,Escorihuela,0 años,2018,0.0
+44097,Escorihuela,1 año,2018,1
+44097,Escorihuela,2 años,2018,0.0
+44097,Escorihuela,3 años,2018,0.0
+44097,Escorihuela,4 años,2018,0.0
+44097,Escorihuela,5 años,2018,0.0
+44097,Escorihuela,6 años,2018,0.0
+44097,Escorihuela,7 años,2018,0.0
+44097,Escorihuela,8 años,2018,0.0
+44097,Escorihuela,9 años,2018,0.0
+44097,Escorihuela,10 años,2018,0.0
+44097,Escorihuela,11 años,2018,0.0
+44097,Escorihuela,12 años,2018,0.0
+44097,Escorihuela,13 años,2018,0.0
+44097,Escorihuela,14 años,2018,0.0
+44097,Escorihuela,15 años,2018,0.0
+44097,Escorihuela,16 años,2018,0.0
+44097,Escorihuela,17 años,2018,1
+44097,Escorihuela,18 años,2018,0.0
+44099,Escucha,0 años,2018,9
+44099,Escucha,1 año,2018,8
+44099,Escucha,2 años,2018,14
+44099,Escucha,3 años,2018,6
+44099,Escucha,4 años,2018,7
+44099,Escucha,5 años,2018,6
+44099,Escucha,6 años,2018,9
+44099,Escucha,7 años,2018,9
+44099,Escucha,8 años,2018,6
+44099,Escucha,9 años,2018,7
+44099,Escucha,10 años,2018,6
+44099,Escucha,11 años,2018,9
+44099,Escucha,12 años,2018,7
+44099,Escucha,13 años,2018,8
+44099,Escucha,14 años,2018,9
+44099,Escucha,15 años,2018,4
+44099,Escucha,16 años,2018,13
+44099,Escucha,17 años,2018,5
+44099,Escucha,18 años,2018,10
+44100,Estercuel,0 años,2018,0.0
+44100,Estercuel,1 año,2018,0.0
+44100,Estercuel,2 años,2018,1
+44100,Estercuel,3 años,2018,0.0
+44100,Estercuel,4 años,2018,2
+44100,Estercuel,5 años,2018,1
+44100,Estercuel,6 años,2018,0.0
+44100,Estercuel,7 años,2018,2
+44100,Estercuel,8 años,2018,4
+44100,Estercuel,9 años,2018,1
+44100,Estercuel,10 años,2018,1
+44100,Estercuel,11 años,2018,0.0
+44100,Estercuel,12 años,2018,0.0
+44100,Estercuel,13 años,2018,2
+44100,Estercuel,14 años,2018,1
+44100,Estercuel,15 años,2018,1
+44100,Estercuel,16 años,2018,1
+44100,Estercuel,17 años,2018,1
+44100,Estercuel,18 años,2018,0.0
+44101,Ferreruela de Huerva,0 años,2018,0.0
+44101,Ferreruela de Huerva,1 año,2018,0.0
+44101,Ferreruela de Huerva,2 años,2018,0.0
+44101,Ferreruela de Huerva,3 años,2018,0.0
+44101,Ferreruela de Huerva,4 años,2018,0.0
+44101,Ferreruela de Huerva,5 años,2018,0.0
+44101,Ferreruela de Huerva,6 años,2018,0.0
+44101,Ferreruela de Huerva,7 años,2018,1
+44101,Ferreruela de Huerva,8 años,2018,0.0
+44101,Ferreruela de Huerva,9 años,2018,0.0
+44101,Ferreruela de Huerva,10 años,2018,0.0
+44101,Ferreruela de Huerva,11 años,2018,0.0
+44101,Ferreruela de Huerva,12 años,2018,1
+44101,Ferreruela de Huerva,13 años,2018,0.0
+44101,Ferreruela de Huerva,14 años,2018,0.0
+44101,Ferreruela de Huerva,15 años,2018,0.0
+44101,Ferreruela de Huerva,16 años,2018,0.0
+44101,Ferreruela de Huerva,17 años,2018,0.0
+44101,Ferreruela de Huerva,18 años,2018,0.0
+44102,Fonfría,0 años,2018,0.0
+44102,Fonfría,1 año,2018,0.0
+44102,Fonfría,2 años,2018,0.0
+44102,Fonfría,3 años,2018,0.0
+44102,Fonfría,4 años,2018,0.0
+44102,Fonfría,5 años,2018,0.0
+44102,Fonfría,6 años,2018,0.0
+44102,Fonfría,7 años,2018,0.0
+44102,Fonfría,8 años,2018,0.0
+44102,Fonfría,9 años,2018,0.0
+44102,Fonfría,10 años,2018,0.0
+44102,Fonfría,11 años,2018,0.0
+44102,Fonfría,12 años,2018,0.0
+44102,Fonfría,13 años,2018,0.0
+44102,Fonfría,14 años,2018,0.0
+44102,Fonfría,15 años,2018,0.0
+44102,Fonfría,16 años,2018,0.0
+44102,Fonfría,17 años,2018,0.0
+44102,Fonfría,18 años,2018,0.0
+44103,Formiche Alto,0 años,2018,0.0
+44103,Formiche Alto,1 año,2018,1
+44103,Formiche Alto,2 años,2018,1
+44103,Formiche Alto,3 años,2018,0.0
+44103,Formiche Alto,4 años,2018,0.0
+44103,Formiche Alto,5 años,2018,0.0
+44103,Formiche Alto,6 años,2018,1
+44103,Formiche Alto,7 años,2018,0.0
+44103,Formiche Alto,8 años,2018,0.0
+44103,Formiche Alto,9 años,2018,1
+44103,Formiche Alto,10 años,2018,1
+44103,Formiche Alto,11 años,2018,0.0
+44103,Formiche Alto,12 años,2018,0.0
+44103,Formiche Alto,13 años,2018,2
+44103,Formiche Alto,14 años,2018,2
+44103,Formiche Alto,15 años,2018,1
+44103,Formiche Alto,16 años,2018,1
+44103,Formiche Alto,17 años,2018,4
+44103,Formiche Alto,18 años,2018,4
+44105,Fórnoles,0 años,2018,1
+44105,Fórnoles,1 año,2018,0.0
+44105,Fórnoles,2 años,2018,0.0
+44105,Fórnoles,3 años,2018,0.0
+44105,Fórnoles,4 años,2018,1
+44105,Fórnoles,5 años,2018,0.0
+44105,Fórnoles,6 años,2018,0.0
+44105,Fórnoles,7 años,2018,0.0
+44105,Fórnoles,8 años,2018,0.0
+44105,Fórnoles,9 años,2018,0.0
+44105,Fórnoles,10 años,2018,0.0
+44105,Fórnoles,11 años,2018,0.0
+44105,Fórnoles,12 años,2018,0.0
+44105,Fórnoles,13 años,2018,0.0
+44105,Fórnoles,14 años,2018,0.0
+44105,Fórnoles,15 años,2018,1
+44105,Fórnoles,16 años,2018,0.0
+44105,Fórnoles,17 años,2018,0.0
+44105,Fórnoles,18 años,2018,0.0
+44106,Fortanete,0 años,2018,2
+44106,Fortanete,1 año,2018,1
+44106,Fortanete,2 años,2018,2
+44106,Fortanete,3 años,2018,4
+44106,Fortanete,4 años,2018,2
+44106,Fortanete,5 años,2018,1
+44106,Fortanete,6 años,2018,2
+44106,Fortanete,7 años,2018,3
+44106,Fortanete,8 años,2018,2
+44106,Fortanete,9 años,2018,2
+44106,Fortanete,10 años,2018,5
+44106,Fortanete,11 años,2018,0.0
+44106,Fortanete,12 años,2018,1
+44106,Fortanete,13 años,2018,1
+44106,Fortanete,14 años,2018,0.0
+44106,Fortanete,15 años,2018,1
+44106,Fortanete,16 años,2018,2
+44106,Fortanete,17 años,2018,1
+44106,Fortanete,18 años,2018,4
+44107,Foz-Calanda,0 años,2018,1
+44107,Foz-Calanda,1 año,2018,0.0
+44107,Foz-Calanda,2 años,2018,1
+44107,Foz-Calanda,3 años,2018,2
+44107,Foz-Calanda,4 años,2018,1
+44107,Foz-Calanda,5 años,2018,1
+44107,Foz-Calanda,6 años,2018,2
+44107,Foz-Calanda,7 años,2018,2
+44107,Foz-Calanda,8 años,2018,1
+44107,Foz-Calanda,9 años,2018,2
+44107,Foz-Calanda,10 años,2018,1
+44107,Foz-Calanda,11 años,2018,3
+44107,Foz-Calanda,12 años,2018,3
+44107,Foz-Calanda,13 años,2018,1
+44107,Foz-Calanda,14 años,2018,1
+44107,Foz-Calanda,15 años,2018,2
+44107,Foz-Calanda,16 años,2018,2
+44107,Foz-Calanda,17 años,2018,3
+44107,Foz-Calanda,18 años,2018,4
+44108,Fresneda La,0 años,2018,1
+44108,Fresneda La,1 año,2018,1
+44108,Fresneda La,2 años,2018,5
+44108,Fresneda La,3 años,2018,3
+44108,Fresneda La,4 años,2018,5
+44108,Fresneda La,5 años,2018,1
+44108,Fresneda La,6 años,2018,3
+44108,Fresneda La,7 años,2018,2
+44108,Fresneda La,8 años,2018,4
+44108,Fresneda La,9 años,2018,3
+44108,Fresneda La,10 años,2018,3
+44108,Fresneda La,11 años,2018,1
+44108,Fresneda La,12 años,2018,5
+44108,Fresneda La,13 años,2018,5
+44108,Fresneda La,14 años,2018,4
+44108,Fresneda La,15 años,2018,2
+44108,Fresneda La,16 años,2018,4
+44108,Fresneda La,17 años,2018,6
+44108,Fresneda La,18 años,2018,2
+44109,Frías de Albarracín,0 años,2018,0.0
+44109,Frías de Albarracín,1 año,2018,1
+44109,Frías de Albarracín,2 años,2018,0.0
+44109,Frías de Albarracín,3 años,2018,1
+44109,Frías de Albarracín,4 años,2018,1
+44109,Frías de Albarracín,5 años,2018,1
+44109,Frías de Albarracín,6 años,2018,0.0
+44109,Frías de Albarracín,7 años,2018,0.0
+44109,Frías de Albarracín,8 años,2018,0.0
+44109,Frías de Albarracín,9 años,2018,0.0
+44109,Frías de Albarracín,10 años,2018,1
+44109,Frías de Albarracín,11 años,2018,0.0
+44109,Frías de Albarracín,12 años,2018,0.0
+44109,Frías de Albarracín,13 años,2018,1
+44109,Frías de Albarracín,14 años,2018,1
+44109,Frías de Albarracín,15 años,2018,0.0
+44109,Frías de Albarracín,16 años,2018,1
+44109,Frías de Albarracín,17 años,2018,0.0
+44109,Frías de Albarracín,18 años,2018,0.0
+44110,Fuenferrada,0 años,2018,0.0
+44110,Fuenferrada,1 año,2018,0.0
+44110,Fuenferrada,2 años,2018,0.0
+44110,Fuenferrada,3 años,2018,0.0
+44110,Fuenferrada,4 años,2018,0.0
+44110,Fuenferrada,5 años,2018,0.0
+44110,Fuenferrada,6 años,2018,0.0
+44110,Fuenferrada,7 años,2018,0.0
+44110,Fuenferrada,8 años,2018,0.0
+44110,Fuenferrada,9 años,2018,0.0
+44110,Fuenferrada,10 años,2018,0.0
+44110,Fuenferrada,11 años,2018,0.0
+44110,Fuenferrada,12 años,2018,0.0
+44110,Fuenferrada,13 años,2018,0.0
+44110,Fuenferrada,14 años,2018,0.0
+44110,Fuenferrada,15 años,2018,0.0
+44110,Fuenferrada,16 años,2018,0.0
+44110,Fuenferrada,17 años,2018,0.0
+44110,Fuenferrada,18 años,2018,0.0
+44111,Fuentes Calientes,0 años,2018,0.0
+44111,Fuentes Calientes,1 año,2018,0.0
+44111,Fuentes Calientes,2 años,2018,1
+44111,Fuentes Calientes,3 años,2018,0.0
+44111,Fuentes Calientes,4 años,2018,1
+44111,Fuentes Calientes,5 años,2018,1
+44111,Fuentes Calientes,6 años,2018,0.0
+44111,Fuentes Calientes,7 años,2018,0.0
+44111,Fuentes Calientes,8 años,2018,0.0
+44111,Fuentes Calientes,9 años,2018,1
+44111,Fuentes Calientes,10 años,2018,0.0
+44111,Fuentes Calientes,11 años,2018,0.0
+44111,Fuentes Calientes,12 años,2018,1
+44111,Fuentes Calientes,13 años,2018,0.0
+44111,Fuentes Calientes,14 años,2018,0.0
+44111,Fuentes Calientes,15 años,2018,0.0
+44111,Fuentes Calientes,16 años,2018,0.0
+44111,Fuentes Calientes,17 años,2018,0.0
+44111,Fuentes Calientes,18 años,2018,1
+44112,Fuentes Claras,0 años,2018,3
+44112,Fuentes Claras,1 año,2018,1
+44112,Fuentes Claras,2 años,2018,4
+44112,Fuentes Claras,3 años,2018,0.0
+44112,Fuentes Claras,4 años,2018,2
+44112,Fuentes Claras,5 años,2018,6
+44112,Fuentes Claras,6 años,2018,1
+44112,Fuentes Claras,7 años,2018,1
+44112,Fuentes Claras,8 años,2018,2
+44112,Fuentes Claras,9 años,2018,2
+44112,Fuentes Claras,10 años,2018,2
+44112,Fuentes Claras,11 años,2018,4
+44112,Fuentes Claras,12 años,2018,0.0
+44112,Fuentes Claras,13 años,2018,1
+44112,Fuentes Claras,14 años,2018,4
+44112,Fuentes Claras,15 años,2018,0.0
+44112,Fuentes Claras,16 años,2018,3
+44112,Fuentes Claras,17 años,2018,3
+44112,Fuentes Claras,18 años,2018,6
+44113,Fuentes de Rubielos,0 años,2018,3
+44113,Fuentes de Rubielos,1 año,2018,1
+44113,Fuentes de Rubielos,2 años,2018,0.0
+44113,Fuentes de Rubielos,3 años,2018,0.0
+44113,Fuentes de Rubielos,4 años,2018,1
+44113,Fuentes de Rubielos,5 años,2018,1
+44113,Fuentes de Rubielos,6 años,2018,2
+44113,Fuentes de Rubielos,7 años,2018,0.0
+44113,Fuentes de Rubielos,8 años,2018,3
+44113,Fuentes de Rubielos,9 años,2018,1
+44113,Fuentes de Rubielos,10 años,2018,1
+44113,Fuentes de Rubielos,11 años,2018,3
+44113,Fuentes de Rubielos,12 años,2018,1
+44113,Fuentes de Rubielos,13 años,2018,2
+44113,Fuentes de Rubielos,14 años,2018,2
+44113,Fuentes de Rubielos,15 años,2018,2
+44113,Fuentes de Rubielos,16 años,2018,1
+44113,Fuentes de Rubielos,17 años,2018,1
+44113,Fuentes de Rubielos,18 años,2018,1
+44114,Fuentespalda,0 años,2018,1
+44114,Fuentespalda,1 año,2018,1
+44114,Fuentespalda,2 años,2018,3
+44114,Fuentespalda,3 años,2018,0.0
+44114,Fuentespalda,4 años,2018,1
+44114,Fuentespalda,5 años,2018,2
+44114,Fuentespalda,6 años,2018,0.0
+44114,Fuentespalda,7 años,2018,1
+44114,Fuentespalda,8 años,2018,1
+44114,Fuentespalda,9 años,2018,0.0
+44114,Fuentespalda,10 años,2018,3
+44114,Fuentespalda,11 años,2018,3
+44114,Fuentespalda,12 años,2018,0.0
+44114,Fuentespalda,13 años,2018,3
+44114,Fuentespalda,14 años,2018,3
+44114,Fuentespalda,15 años,2018,1
+44114,Fuentespalda,16 años,2018,2
+44114,Fuentespalda,17 años,2018,1
+44114,Fuentespalda,18 años,2018,2
+44115,Galve,0 años,2018,1
+44115,Galve,1 año,2018,0.0
+44115,Galve,2 años,2018,0.0
+44115,Galve,3 años,2018,0.0
+44115,Galve,4 años,2018,2
+44115,Galve,5 años,2018,2
+44115,Galve,6 años,2018,3
+44115,Galve,7 años,2018,1
+44115,Galve,8 años,2018,2
+44115,Galve,9 años,2018,4
+44115,Galve,10 años,2018,2
+44115,Galve,11 años,2018,2
+44115,Galve,12 años,2018,1
+44115,Galve,13 años,2018,4
+44115,Galve,14 años,2018,1
+44115,Galve,15 años,2018,1
+44115,Galve,16 años,2018,7
+44115,Galve,17 años,2018,0.0
+44115,Galve,18 años,2018,1
+44116,Gargallo,0 años,2018,0.0
+44116,Gargallo,1 año,2018,1
+44116,Gargallo,2 años,2018,0.0
+44116,Gargallo,3 años,2018,1
+44116,Gargallo,4 años,2018,2
+44116,Gargallo,5 años,2018,0.0
+44116,Gargallo,6 años,2018,0.0
+44116,Gargallo,7 años,2018,1
+44116,Gargallo,8 años,2018,0.0
+44116,Gargallo,9 años,2018,0.0
+44116,Gargallo,10 años,2018,1
+44116,Gargallo,11 años,2018,0.0
+44116,Gargallo,12 años,2018,1
+44116,Gargallo,13 años,2018,0.0
+44116,Gargallo,14 años,2018,1
+44116,Gargallo,15 años,2018,1
+44116,Gargallo,16 años,2018,1
+44116,Gargallo,17 años,2018,1
+44116,Gargallo,18 años,2018,2
+44117,Gea de Albarracín,0 años,2018,2
+44117,Gea de Albarracín,1 año,2018,3
+44117,Gea de Albarracín,2 años,2018,2
+44117,Gea de Albarracín,3 años,2018,2
+44117,Gea de Albarracín,4 años,2018,2
+44117,Gea de Albarracín,5 años,2018,2
+44117,Gea de Albarracín,6 años,2018,1
+44117,Gea de Albarracín,7 años,2018,1
+44117,Gea de Albarracín,8 años,2018,1
+44117,Gea de Albarracín,9 años,2018,3
+44117,Gea de Albarracín,10 años,2018,2
+44117,Gea de Albarracín,11 años,2018,1
+44117,Gea de Albarracín,12 años,2018,0.0
+44117,Gea de Albarracín,13 años,2018,5
+44117,Gea de Albarracín,14 años,2018,3
+44117,Gea de Albarracín,15 años,2018,0.0
+44117,Gea de Albarracín,16 años,2018,2
+44117,Gea de Albarracín,17 años,2018,5
+44117,Gea de Albarracín,18 años,2018,0.0
+44118,Ginebrosa La,0 años,2018,0.0
+44118,Ginebrosa La,1 año,2018,3
+44118,Ginebrosa La,2 años,2018,1
+44118,Ginebrosa La,3 años,2018,1
+44118,Ginebrosa La,4 años,2018,1
+44118,Ginebrosa La,5 años,2018,0.0
+44118,Ginebrosa La,6 años,2018,4
+44118,Ginebrosa La,7 años,2018,1
+44118,Ginebrosa La,8 años,2018,4
+44118,Ginebrosa La,9 años,2018,2
+44118,Ginebrosa La,10 años,2018,2
+44118,Ginebrosa La,11 años,2018,3
+44118,Ginebrosa La,12 años,2018,1
+44118,Ginebrosa La,13 años,2018,1
+44118,Ginebrosa La,14 años,2018,0.0
+44118,Ginebrosa La,15 años,2018,2
+44118,Ginebrosa La,16 años,2018,2
+44118,Ginebrosa La,17 años,2018,2
+44118,Ginebrosa La,18 años,2018,0.0
+44119,Griegos,0 años,2018,0.0
+44119,Griegos,1 año,2018,0.0
+44119,Griegos,2 años,2018,0.0
+44119,Griegos,3 años,2018,2
+44119,Griegos,4 años,2018,0.0
+44119,Griegos,5 años,2018,4
+44119,Griegos,6 años,2018,0.0
+44119,Griegos,7 años,2018,2
+44119,Griegos,8 años,2018,1
+44119,Griegos,9 años,2018,0.0
+44119,Griegos,10 años,2018,1
+44119,Griegos,11 años,2018,0.0
+44119,Griegos,12 años,2018,1
+44119,Griegos,13 años,2018,0.0
+44119,Griegos,14 años,2018,0.0
+44119,Griegos,15 años,2018,0.0
+44119,Griegos,16 años,2018,1
+44119,Griegos,17 años,2018,0.0
+44119,Griegos,18 años,2018,0.0
+44120,Guadalaviar,0 años,2018,0.0
+44120,Guadalaviar,1 año,2018,3
+44120,Guadalaviar,2 años,2018,1
+44120,Guadalaviar,3 años,2018,2
+44120,Guadalaviar,4 años,2018,1
+44120,Guadalaviar,5 años,2018,3
+44120,Guadalaviar,6 años,2018,0.0
+44120,Guadalaviar,7 años,2018,1
+44120,Guadalaviar,8 años,2018,0.0
+44120,Guadalaviar,9 años,2018,0.0
+44120,Guadalaviar,10 años,2018,2
+44120,Guadalaviar,11 años,2018,0.0
+44120,Guadalaviar,12 años,2018,0.0
+44120,Guadalaviar,13 años,2018,2
+44120,Guadalaviar,14 años,2018,1
+44120,Guadalaviar,15 años,2018,0.0
+44120,Guadalaviar,16 años,2018,1
+44120,Guadalaviar,17 años,2018,3
+44120,Guadalaviar,18 años,2018,3
+44121,Gúdar,0 años,2018,0.0
+44121,Gúdar,1 año,2018,1
+44121,Gúdar,2 años,2018,1
+44121,Gúdar,3 años,2018,0.0
+44121,Gúdar,4 años,2018,1
+44121,Gúdar,5 años,2018,1
+44121,Gúdar,6 años,2018,1
+44121,Gúdar,7 años,2018,2
+44121,Gúdar,8 años,2018,1
+44121,Gúdar,9 años,2018,1
+44121,Gúdar,10 años,2018,0.0
+44121,Gúdar,11 años,2018,0.0
+44121,Gúdar,12 años,2018,0.0
+44121,Gúdar,13 años,2018,2
+44121,Gúdar,14 años,2018,0.0
+44121,Gúdar,15 años,2018,1
+44121,Gúdar,16 años,2018,0.0
+44121,Gúdar,17 años,2018,1
+44121,Gúdar,18 años,2018,0.0
+44122,Híjar,0 años,2018,18
+44122,Híjar,1 año,2018,10
+44122,Híjar,2 años,2018,9
+44122,Híjar,3 años,2018,16
+44122,Híjar,4 años,2018,14
+44122,Híjar,5 años,2018,14
+44122,Híjar,6 años,2018,11
+44122,Híjar,7 años,2018,13
+44122,Híjar,8 años,2018,19
+44122,Híjar,9 años,2018,17
+44122,Híjar,10 años,2018,11
+44122,Híjar,11 años,2018,17
+44122,Híjar,12 años,2018,15
+44122,Híjar,13 años,2018,12
+44122,Híjar,14 años,2018,25
+44122,Híjar,15 años,2018,10
+44122,Híjar,16 años,2018,16
+44122,Híjar,17 años,2018,19
+44122,Híjar,18 años,2018,13
+44123,Hinojosa de Jarque,0 años,2018,0.0
+44123,Hinojosa de Jarque,1 año,2018,1
+44123,Hinojosa de Jarque,2 años,2018,0.0
+44123,Hinojosa de Jarque,3 años,2018,1
+44123,Hinojosa de Jarque,4 años,2018,0.0
+44123,Hinojosa de Jarque,5 años,2018,0.0
+44123,Hinojosa de Jarque,6 años,2018,0.0
+44123,Hinojosa de Jarque,7 años,2018,0.0
+44123,Hinojosa de Jarque,8 años,2018,1
+44123,Hinojosa de Jarque,9 años,2018,0.0
+44123,Hinojosa de Jarque,10 años,2018,1
+44123,Hinojosa de Jarque,11 años,2018,0.0
+44123,Hinojosa de Jarque,12 años,2018,1
+44123,Hinojosa de Jarque,13 años,2018,0.0
+44123,Hinojosa de Jarque,14 años,2018,1
+44123,Hinojosa de Jarque,15 años,2018,0.0
+44123,Hinojosa de Jarque,16 años,2018,0.0
+44123,Hinojosa de Jarque,17 años,2018,0.0
+44123,Hinojosa de Jarque,18 años,2018,0.0
+44124,Hoz de la Vieja La,0 años,2018,0.0
+44124,Hoz de la Vieja La,1 año,2018,0.0
+44124,Hoz de la Vieja La,2 años,2018,1
+44124,Hoz de la Vieja La,3 años,2018,2
+44124,Hoz de la Vieja La,4 años,2018,0.0
+44124,Hoz de la Vieja La,5 años,2018,0.0
+44124,Hoz de la Vieja La,6 años,2018,1
+44124,Hoz de la Vieja La,7 años,2018,1
+44124,Hoz de la Vieja La,8 años,2018,0.0
+44124,Hoz de la Vieja La,9 años,2018,0.0
+44124,Hoz de la Vieja La,10 años,2018,1
+44124,Hoz de la Vieja La,11 años,2018,0.0
+44124,Hoz de la Vieja La,12 años,2018,0.0
+44124,Hoz de la Vieja La,13 años,2018,1
+44124,Hoz de la Vieja La,14 años,2018,1
+44124,Hoz de la Vieja La,15 años,2018,1
+44124,Hoz de la Vieja La,16 años,2018,0.0
+44124,Hoz de la Vieja La,17 años,2018,1
+44124,Hoz de la Vieja La,18 años,2018,0.0
+44125,Huesa del Común,0 años,2018,0.0
+44125,Huesa del Común,1 año,2018,0.0
+44125,Huesa del Común,2 años,2018,0.0
+44125,Huesa del Común,3 años,2018,0.0
+44125,Huesa del Común,4 años,2018,0.0
+44125,Huesa del Común,5 años,2018,0.0
+44125,Huesa del Común,6 años,2018,0.0
+44125,Huesa del Común,7 años,2018,0.0
+44125,Huesa del Común,8 años,2018,0.0
+44125,Huesa del Común,9 años,2018,0.0
+44125,Huesa del Común,10 años,2018,1
+44125,Huesa del Común,11 años,2018,0.0
+44125,Huesa del Común,12 años,2018,1
+44125,Huesa del Común,13 años,2018,0.0
+44125,Huesa del Común,14 años,2018,0.0
+44125,Huesa del Común,15 años,2018,0.0
+44125,Huesa del Común,16 años,2018,0.0
+44125,Huesa del Común,17 años,2018,0.0
+44125,Huesa del Común,18 años,2018,0.0
+44126,Iglesuela del Cid La,0 años,2018,1
+44126,Iglesuela del Cid La,1 año,2018,2
+44126,Iglesuela del Cid La,2 años,2018,2
+44126,Iglesuela del Cid La,3 años,2018,4
+44126,Iglesuela del Cid La,4 años,2018,0.0
+44126,Iglesuela del Cid La,5 años,2018,1
+44126,Iglesuela del Cid La,6 años,2018,4
+44126,Iglesuela del Cid La,7 años,2018,1
+44126,Iglesuela del Cid La,8 años,2018,2
+44126,Iglesuela del Cid La,9 años,2018,3
+44126,Iglesuela del Cid La,10 años,2018,5
+44126,Iglesuela del Cid La,11 años,2018,3
+44126,Iglesuela del Cid La,12 años,2018,3
+44126,Iglesuela del Cid La,13 años,2018,4
+44126,Iglesuela del Cid La,14 años,2018,6
+44126,Iglesuela del Cid La,15 años,2018,3
+44126,Iglesuela del Cid La,16 años,2018,6
+44126,Iglesuela del Cid La,17 años,2018,3
+44126,Iglesuela del Cid La,18 años,2018,4
+44127,Jabaloyas,0 años,2018,0.0
+44127,Jabaloyas,1 año,2018,0.0
+44127,Jabaloyas,2 años,2018,0.0
+44127,Jabaloyas,3 años,2018,0.0
+44127,Jabaloyas,4 años,2018,0.0
+44127,Jabaloyas,5 años,2018,0.0
+44127,Jabaloyas,6 años,2018,0.0
+44127,Jabaloyas,7 años,2018,0.0
+44127,Jabaloyas,8 años,2018,0.0
+44127,Jabaloyas,9 años,2018,0.0
+44127,Jabaloyas,10 años,2018,0.0
+44127,Jabaloyas,11 años,2018,0.0
+44127,Jabaloyas,12 años,2018,0.0
+44127,Jabaloyas,13 años,2018,1
+44127,Jabaloyas,14 años,2018,0.0
+44127,Jabaloyas,15 años,2018,0.0
+44127,Jabaloyas,16 años,2018,0.0
+44127,Jabaloyas,17 años,2018,0.0
+44127,Jabaloyas,18 años,2018,0.0
+44128,Jarque de la Val,0 años,2018,0.0
+44128,Jarque de la Val,1 año,2018,0.0
+44128,Jarque de la Val,2 años,2018,0.0
+44128,Jarque de la Val,3 años,2018,1
+44128,Jarque de la Val,4 años,2018,0.0
+44128,Jarque de la Val,5 años,2018,0.0
+44128,Jarque de la Val,6 años,2018,0.0
+44128,Jarque de la Val,7 años,2018,0.0
+44128,Jarque de la Val,8 años,2018,1
+44128,Jarque de la Val,9 años,2018,0.0
+44128,Jarque de la Val,10 años,2018,2
+44128,Jarque de la Val,11 años,2018,0.0
+44128,Jarque de la Val,12 años,2018,1
+44128,Jarque de la Val,13 años,2018,0.0
+44128,Jarque de la Val,14 años,2018,0.0
+44128,Jarque de la Val,15 años,2018,0.0
+44128,Jarque de la Val,16 años,2018,0.0
+44128,Jarque de la Val,17 años,2018,1
+44128,Jarque de la Val,18 años,2018,0.0
+44129,Jatiel,0 años,2018,0.0
+44129,Jatiel,1 año,2018,0.0
+44129,Jatiel,2 años,2018,0.0
+44129,Jatiel,3 años,2018,0.0
+44129,Jatiel,4 años,2018,0.0
+44129,Jatiel,5 años,2018,0.0
+44129,Jatiel,6 años,2018,0.0
+44129,Jatiel,7 años,2018,0.0
+44129,Jatiel,8 años,2018,0.0
+44129,Jatiel,9 años,2018,0.0
+44129,Jatiel,10 años,2018,0.0
+44129,Jatiel,11 años,2018,0.0
+44129,Jatiel,12 años,2018,0.0
+44129,Jatiel,13 años,2018,0.0
+44129,Jatiel,14 años,2018,1
+44129,Jatiel,15 años,2018,0.0
+44129,Jatiel,16 años,2018,0.0
+44129,Jatiel,17 años,2018,0.0
+44129,Jatiel,18 años,2018,0.0
+44130,Jorcas,0 años,2018,0.0
+44130,Jorcas,1 año,2018,0.0
+44130,Jorcas,2 años,2018,0.0
+44130,Jorcas,3 años,2018,0.0
+44130,Jorcas,4 años,2018,0.0
+44130,Jorcas,5 años,2018,0.0
+44130,Jorcas,6 años,2018,0.0
+44130,Jorcas,7 años,2018,1
+44130,Jorcas,8 años,2018,0.0
+44130,Jorcas,9 años,2018,0.0
+44130,Jorcas,10 años,2018,1
+44130,Jorcas,11 años,2018,0.0
+44130,Jorcas,12 años,2018,0.0
+44130,Jorcas,13 años,2018,0.0
+44130,Jorcas,14 años,2018,0.0
+44130,Jorcas,15 años,2018,0.0
+44130,Jorcas,16 años,2018,1
+44130,Jorcas,17 años,2018,0.0
+44130,Jorcas,18 años,2018,1
+44131,Josa,0 años,2018,0.0
+44131,Josa,1 año,2018,1
+44131,Josa,2 años,2018,0.0
+44131,Josa,3 años,2018,0.0
+44131,Josa,4 años,2018,0.0
+44131,Josa,5 años,2018,0.0
+44131,Josa,6 años,2018,0.0
+44131,Josa,7 años,2018,0.0
+44131,Josa,8 años,2018,0.0
+44131,Josa,9 años,2018,0.0
+44131,Josa,10 años,2018,0.0
+44131,Josa,11 años,2018,0.0
+44131,Josa,12 años,2018,0.0
+44131,Josa,13 años,2018,0.0
+44131,Josa,14 años,2018,0.0
+44131,Josa,15 años,2018,0.0
+44131,Josa,16 años,2018,0.0
+44131,Josa,17 años,2018,0.0
+44131,Josa,18 años,2018,0.0
+44132,Lagueruela,0 años,2018,0.0
+44132,Lagueruela,1 año,2018,1
+44132,Lagueruela,2 años,2018,2
+44132,Lagueruela,3 años,2018,0.0
+44132,Lagueruela,4 años,2018,0.0
+44132,Lagueruela,5 años,2018,0.0
+44132,Lagueruela,6 años,2018,1
+44132,Lagueruela,7 años,2018,0.0
+44132,Lagueruela,8 años,2018,2
+44132,Lagueruela,9 años,2018,1
+44132,Lagueruela,10 años,2018,1
+44132,Lagueruela,11 años,2018,0.0
+44132,Lagueruela,12 años,2018,0.0
+44132,Lagueruela,13 años,2018,1
+44132,Lagueruela,14 años,2018,1
+44132,Lagueruela,15 años,2018,0.0
+44132,Lagueruela,16 años,2018,0.0
+44132,Lagueruela,17 años,2018,0.0
+44132,Lagueruela,18 años,2018,0.0
+44133,Lanzuela,0 años,2018,1
+44133,Lanzuela,1 año,2018,0.0
+44133,Lanzuela,2 años,2018,0.0
+44133,Lanzuela,3 años,2018,0.0
+44133,Lanzuela,4 años,2018,0.0
+44133,Lanzuela,5 años,2018,1
+44133,Lanzuela,6 años,2018,0.0
+44133,Lanzuela,7 años,2018,1
+44133,Lanzuela,8 años,2018,0.0
+44133,Lanzuela,9 años,2018,0.0
+44133,Lanzuela,10 años,2018,0.0
+44133,Lanzuela,11 años,2018,0.0
+44133,Lanzuela,12 años,2018,0.0
+44133,Lanzuela,13 años,2018,0.0
+44133,Lanzuela,14 años,2018,0.0
+44133,Lanzuela,15 años,2018,0.0
+44133,Lanzuela,16 años,2018,0.0
+44133,Lanzuela,17 años,2018,0.0
+44133,Lanzuela,18 años,2018,0.0
+44135,Libros,0 años,2018,0.0
+44135,Libros,1 año,2018,0.0
+44135,Libros,2 años,2018,0.0
+44135,Libros,3 años,2018,0.0
+44135,Libros,4 años,2018,0.0
+44135,Libros,5 años,2018,0.0
+44135,Libros,6 años,2018,0.0
+44135,Libros,7 años,2018,0.0
+44135,Libros,8 años,2018,0.0
+44135,Libros,9 años,2018,0.0
+44135,Libros,10 años,2018,0.0
+44135,Libros,11 años,2018,0.0
+44135,Libros,12 años,2018,0.0
+44135,Libros,13 años,2018,0.0
+44135,Libros,14 años,2018,0.0
+44135,Libros,15 años,2018,0.0
+44135,Libros,16 años,2018,0.0
+44135,Libros,17 años,2018,0.0
+44135,Libros,18 años,2018,0.0
+44136,Lidón,0 años,2018,0.0
+44136,Lidón,1 año,2018,1
+44136,Lidón,2 años,2018,0.0
+44136,Lidón,3 años,2018,0.0
+44136,Lidón,4 años,2018,0.0
+44136,Lidón,5 años,2018,0.0
+44136,Lidón,6 años,2018,0.0
+44136,Lidón,7 años,2018,0.0
+44136,Lidón,8 años,2018,1
+44136,Lidón,9 años,2018,0.0
+44136,Lidón,10 años,2018,0.0
+44136,Lidón,11 años,2018,0.0
+44136,Lidón,12 años,2018,0.0
+44136,Lidón,13 años,2018,1
+44136,Lidón,14 años,2018,0.0
+44136,Lidón,15 años,2018,0.0
+44136,Lidón,16 años,2018,0.0
+44136,Lidón,17 años,2018,0.0
+44136,Lidón,18 años,2018,1
+44137,Linares de Mora,0 años,2018,3
+44137,Linares de Mora,1 año,2018,3
+44137,Linares de Mora,2 años,2018,0.0
+44137,Linares de Mora,3 años,2018,2
+44137,Linares de Mora,4 años,2018,1
+44137,Linares de Mora,5 años,2018,2
+44137,Linares de Mora,6 años,2018,2
+44137,Linares de Mora,7 años,2018,0.0
+44137,Linares de Mora,8 años,2018,1
+44137,Linares de Mora,9 años,2018,0.0
+44137,Linares de Mora,10 años,2018,0.0
+44137,Linares de Mora,11 años,2018,5
+44137,Linares de Mora,12 años,2018,0.0
+44137,Linares de Mora,13 años,2018,0.0
+44137,Linares de Mora,14 años,2018,3
+44137,Linares de Mora,15 años,2018,1
+44137,Linares de Mora,16 años,2018,2
+44137,Linares de Mora,17 años,2018,1
+44137,Linares de Mora,18 años,2018,1
+44138,Loscos,0 años,2018,0.0
+44138,Loscos,1 año,2018,0.0
+44138,Loscos,2 años,2018,0.0
+44138,Loscos,3 años,2018,0.0
+44138,Loscos,4 años,2018,0.0
+44138,Loscos,5 años,2018,0.0
+44138,Loscos,6 años,2018,0.0
+44138,Loscos,7 años,2018,1
+44138,Loscos,8 años,2018,0.0
+44138,Loscos,9 años,2018,0.0
+44138,Loscos,10 años,2018,0.0
+44138,Loscos,11 años,2018,0.0
+44138,Loscos,12 años,2018,0.0
+44138,Loscos,13 años,2018,0.0
+44138,Loscos,14 años,2018,0.0
+44138,Loscos,15 años,2018,0.0
+44138,Loscos,16 años,2018,2
+44138,Loscos,17 años,2018,1
+44138,Loscos,18 años,2018,2
+44141,Lledó,0 años,2018,0.0
+44141,Lledó,1 año,2018,2
+44141,Lledó,2 años,2018,0.0
+44141,Lledó,3 años,2018,2
+44141,Lledó,4 años,2018,4
+44141,Lledó,5 años,2018,1
+44141,Lledó,6 años,2018,3
+44141,Lledó,7 años,2018,1
+44141,Lledó,8 años,2018,2
+44141,Lledó,9 años,2018,4
+44141,Lledó,10 años,2018,1
+44141,Lledó,11 años,2018,0.0
+44141,Lledó,12 años,2018,0.0
+44141,Lledó,13 años,2018,0.0
+44141,Lledó,14 años,2018,1
+44141,Lledó,15 años,2018,0.0
+44141,Lledó,16 años,2018,1
+44141,Lledó,17 años,2018,0.0
+44141,Lledó,18 años,2018,1
+44142,Maicas,0 años,2018,0.0
+44142,Maicas,1 año,2018,0.0
+44142,Maicas,2 años,2018,0.0
+44142,Maicas,3 años,2018,0.0
+44142,Maicas,4 años,2018,0.0
+44142,Maicas,5 años,2018,0.0
+44142,Maicas,6 años,2018,0.0
+44142,Maicas,7 años,2018,0.0
+44142,Maicas,8 años,2018,0.0
+44142,Maicas,9 años,2018,0.0
+44142,Maicas,10 años,2018,0.0
+44142,Maicas,11 años,2018,0.0
+44142,Maicas,12 años,2018,0.0
+44142,Maicas,13 años,2018,0.0
+44142,Maicas,14 años,2018,0.0
+44142,Maicas,15 años,2018,0.0
+44142,Maicas,16 años,2018,0.0
+44142,Maicas,17 años,2018,0.0
+44142,Maicas,18 años,2018,0.0
+44143,Manzanera,0 años,2018,1
+44143,Manzanera,1 año,2018,6
+44143,Manzanera,2 años,2018,5
+44143,Manzanera,3 años,2018,1
+44143,Manzanera,4 años,2018,5
+44143,Manzanera,5 años,2018,3
+44143,Manzanera,6 años,2018,1
+44143,Manzanera,7 años,2018,4
+44143,Manzanera,8 años,2018,5
+44143,Manzanera,9 años,2018,3
+44143,Manzanera,10 años,2018,4
+44143,Manzanera,11 años,2018,5
+44143,Manzanera,12 años,2018,4
+44143,Manzanera,13 años,2018,6
+44143,Manzanera,14 años,2018,1
+44143,Manzanera,15 años,2018,6
+44143,Manzanera,16 años,2018,5
+44143,Manzanera,17 años,2018,7
+44143,Manzanera,18 años,2018,10
+44144,Martín del Río,0 años,2018,1
+44144,Martín del Río,1 año,2018,5
+44144,Martín del Río,2 años,2018,2
+44144,Martín del Río,3 años,2018,2
+44144,Martín del Río,4 años,2018,3
+44144,Martín del Río,5 años,2018,0.0
+44144,Martín del Río,6 años,2018,2
+44144,Martín del Río,7 años,2018,3
+44144,Martín del Río,8 años,2018,5
+44144,Martín del Río,9 años,2018,2
+44144,Martín del Río,10 años,2018,5
+44144,Martín del Río,11 años,2018,2
+44144,Martín del Río,12 años,2018,6
+44144,Martín del Río,13 años,2018,4
+44144,Martín del Río,14 años,2018,4
+44144,Martín del Río,15 años,2018,9
+44144,Martín del Río,16 años,2018,4
+44144,Martín del Río,17 años,2018,2
+44144,Martín del Río,18 años,2018,5
+44145,Mas de las Matas,0 años,2018,7
+44145,Mas de las Matas,1 año,2018,7
+44145,Mas de las Matas,2 años,2018,8
+44145,Mas de las Matas,3 años,2018,15
+44145,Mas de las Matas,4 años,2018,13
+44145,Mas de las Matas,5 años,2018,12
+44145,Mas de las Matas,6 años,2018,6
+44145,Mas de las Matas,7 años,2018,10
+44145,Mas de las Matas,8 años,2018,10
+44145,Mas de las Matas,9 años,2018,8
+44145,Mas de las Matas,10 años,2018,8
+44145,Mas de las Matas,11 años,2018,9
+44145,Mas de las Matas,12 años,2018,15
+44145,Mas de las Matas,13 años,2018,7
+44145,Mas de las Matas,14 años,2018,8
+44145,Mas de las Matas,15 años,2018,11
+44145,Mas de las Matas,16 años,2018,6
+44145,Mas de las Matas,17 años,2018,9
+44145,Mas de las Matas,18 años,2018,10
+44146,Mata de los Olmos La,0 años,2018,0.0
+44146,Mata de los Olmos La,1 año,2018,3
+44146,Mata de los Olmos La,2 años,2018,4
+44146,Mata de los Olmos La,3 años,2018,2
+44146,Mata de los Olmos La,4 años,2018,4
+44146,Mata de los Olmos La,5 años,2018,3
+44146,Mata de los Olmos La,6 años,2018,2
+44146,Mata de los Olmos La,7 años,2018,1
+44146,Mata de los Olmos La,8 años,2018,2
+44146,Mata de los Olmos La,9 años,2018,4
+44146,Mata de los Olmos La,10 años,2018,3
+44146,Mata de los Olmos La,11 años,2018,2
+44146,Mata de los Olmos La,12 años,2018,3
+44146,Mata de los Olmos La,13 años,2018,2
+44146,Mata de los Olmos La,14 años,2018,4
+44146,Mata de los Olmos La,15 años,2018,4
+44146,Mata de los Olmos La,16 años,2018,1
+44146,Mata de los Olmos La,17 años,2018,4
+44146,Mata de los Olmos La,18 años,2018,2
+44147,Mazaleón,0 años,2018,5
+44147,Mazaleón,1 año,2018,5
+44147,Mazaleón,2 años,2018,1
+44147,Mazaleón,3 años,2018,6
+44147,Mazaleón,4 años,2018,2
+44147,Mazaleón,5 años,2018,5
+44147,Mazaleón,6 años,2018,3
+44147,Mazaleón,7 años,2018,2
+44147,Mazaleón,8 años,2018,4
+44147,Mazaleón,9 años,2018,7
+44147,Mazaleón,10 años,2018,4
+44147,Mazaleón,11 años,2018,0.0
+44147,Mazaleón,12 años,2018,7
+44147,Mazaleón,13 años,2018,4
+44147,Mazaleón,14 años,2018,3
+44147,Mazaleón,15 años,2018,4
+44147,Mazaleón,16 años,2018,7
+44147,Mazaleón,17 años,2018,3
+44147,Mazaleón,18 años,2018,9
+44148,Mezquita de Jarque,0 años,2018,2
+44148,Mezquita de Jarque,1 año,2018,0.0
+44148,Mezquita de Jarque,2 años,2018,0.0
+44148,Mezquita de Jarque,3 años,2018,0.0
+44148,Mezquita de Jarque,4 años,2018,2
+44148,Mezquita de Jarque,5 años,2018,1
+44148,Mezquita de Jarque,6 años,2018,1
+44148,Mezquita de Jarque,7 años,2018,0.0
+44148,Mezquita de Jarque,8 años,2018,2
+44148,Mezquita de Jarque,9 años,2018,0.0
+44148,Mezquita de Jarque,10 años,2018,0.0
+44148,Mezquita de Jarque,11 años,2018,0.0
+44148,Mezquita de Jarque,12 años,2018,0.0
+44148,Mezquita de Jarque,13 años,2018,0.0
+44148,Mezquita de Jarque,14 años,2018,0.0
+44148,Mezquita de Jarque,15 años,2018,1
+44148,Mezquita de Jarque,16 años,2018,1
+44148,Mezquita de Jarque,17 años,2018,0.0
+44148,Mezquita de Jarque,18 años,2018,0.0
+44149,Mirambel,0 años,2018,2
+44149,Mirambel,1 año,2018,0.0
+44149,Mirambel,2 años,2018,0.0
+44149,Mirambel,3 años,2018,1
+44149,Mirambel,4 años,2018,1
+44149,Mirambel,5 años,2018,1
+44149,Mirambel,6 años,2018,1
+44149,Mirambel,7 años,2018,2
+44149,Mirambel,8 años,2018,0.0
+44149,Mirambel,9 años,2018,3
+44149,Mirambel,10 años,2018,1
+44149,Mirambel,11 años,2018,1
+44149,Mirambel,12 años,2018,0.0
+44149,Mirambel,13 años,2018,0.0
+44149,Mirambel,14 años,2018,1
+44149,Mirambel,15 años,2018,0.0
+44149,Mirambel,16 años,2018,0.0
+44149,Mirambel,17 años,2018,0.0
+44149,Mirambel,18 años,2018,1
+44150,Miravete de la Sierra,0 años,2018,0.0
+44150,Miravete de la Sierra,1 año,2018,1
+44150,Miravete de la Sierra,2 años,2018,0.0
+44150,Miravete de la Sierra,3 años,2018,0.0
+44150,Miravete de la Sierra,4 años,2018,0.0
+44150,Miravete de la Sierra,5 años,2018,0.0
+44150,Miravete de la Sierra,6 años,2018,0.0
+44150,Miravete de la Sierra,7 años,2018,0.0
+44150,Miravete de la Sierra,8 años,2018,0.0
+44150,Miravete de la Sierra,9 años,2018,0.0
+44150,Miravete de la Sierra,10 años,2018,0.0
+44150,Miravete de la Sierra,11 años,2018,0.0
+44150,Miravete de la Sierra,12 años,2018,0.0
+44150,Miravete de la Sierra,13 años,2018,0.0
+44150,Miravete de la Sierra,14 años,2018,0.0
+44150,Miravete de la Sierra,15 años,2018,0.0
+44150,Miravete de la Sierra,16 años,2018,1
+44150,Miravete de la Sierra,17 años,2018,1
+44150,Miravete de la Sierra,18 años,2018,0.0
+44151,Molinos,0 años,2018,2
+44151,Molinos,1 año,2018,2
+44151,Molinos,2 años,2018,1
+44151,Molinos,3 años,2018,1
+44151,Molinos,4 años,2018,3
+44151,Molinos,5 años,2018,2
+44151,Molinos,6 años,2018,0.0
+44151,Molinos,7 años,2018,1
+44151,Molinos,8 años,2018,2
+44151,Molinos,9 años,2018,1
+44151,Molinos,10 años,2018,2
+44151,Molinos,11 años,2018,2
+44151,Molinos,12 años,2018,1
+44151,Molinos,13 años,2018,0.0
+44151,Molinos,14 años,2018,3
+44151,Molinos,15 años,2018,2
+44151,Molinos,16 años,2018,0.0
+44151,Molinos,17 años,2018,5
+44151,Molinos,18 años,2018,0.0
+44152,Monforte de Moyuela,0 años,2018,0.0
+44152,Monforte de Moyuela,1 año,2018,0.0
+44152,Monforte de Moyuela,2 años,2018,0.0
+44152,Monforte de Moyuela,3 años,2018,0.0
+44152,Monforte de Moyuela,4 años,2018,0.0
+44152,Monforte de Moyuela,5 años,2018,0.0
+44152,Monforte de Moyuela,6 años,2018,0.0
+44152,Monforte de Moyuela,7 años,2018,0.0
+44152,Monforte de Moyuela,8 años,2018,0.0
+44152,Monforte de Moyuela,9 años,2018,0.0
+44152,Monforte de Moyuela,10 años,2018,0.0
+44152,Monforte de Moyuela,11 años,2018,0.0
+44152,Monforte de Moyuela,12 años,2018,0.0
+44152,Monforte de Moyuela,13 años,2018,0.0
+44152,Monforte de Moyuela,14 años,2018,0.0
+44152,Monforte de Moyuela,15 años,2018,0.0
+44152,Monforte de Moyuela,16 años,2018,0.0
+44152,Monforte de Moyuela,17 años,2018,1
+44152,Monforte de Moyuela,18 años,2018,0.0
+44153,Monreal del Campo,0 años,2018,25
+44153,Monreal del Campo,1 año,2018,15
+44153,Monreal del Campo,2 años,2018,37
+44153,Monreal del Campo,3 años,2018,29
+44153,Monreal del Campo,4 años,2018,27
+44153,Monreal del Campo,5 años,2018,25
+44153,Monreal del Campo,6 años,2018,35
+44153,Monreal del Campo,7 años,2018,27
+44153,Monreal del Campo,8 años,2018,28
+44153,Monreal del Campo,9 años,2018,26
+44153,Monreal del Campo,10 años,2018,26
+44153,Monreal del Campo,11 años,2018,20
+44153,Monreal del Campo,12 años,2018,16
+44153,Monreal del Campo,13 años,2018,21
+44153,Monreal del Campo,14 años,2018,20
+44153,Monreal del Campo,15 años,2018,21
+44153,Monreal del Campo,16 años,2018,35
+44153,Monreal del Campo,17 años,2018,29
+44153,Monreal del Campo,18 años,2018,20
+44154,Monroyo,0 años,2018,5
+44154,Monroyo,1 año,2018,3
+44154,Monroyo,2 años,2018,3
+44154,Monroyo,3 años,2018,2
+44154,Monroyo,4 años,2018,4
+44154,Monroyo,5 años,2018,5
+44154,Monroyo,6 años,2018,3
+44154,Monroyo,7 años,2018,3
+44154,Monroyo,8 años,2018,3
+44154,Monroyo,9 años,2018,7
+44154,Monroyo,10 años,2018,2
+44154,Monroyo,11 años,2018,4
+44154,Monroyo,12 años,2018,3
+44154,Monroyo,13 años,2018,1
+44154,Monroyo,14 años,2018,2
+44154,Monroyo,15 años,2018,2
+44154,Monroyo,16 años,2018,0.0
+44154,Monroyo,17 años,2018,1
+44154,Monroyo,18 años,2018,4
+44155,Montalbán,0 años,2018,7
+44155,Montalbán,1 año,2018,6
+44155,Montalbán,2 años,2018,8
+44155,Montalbán,3 años,2018,10
+44155,Montalbán,4 años,2018,9
+44155,Montalbán,5 años,2018,5
+44155,Montalbán,6 años,2018,8
+44155,Montalbán,7 años,2018,8
+44155,Montalbán,8 años,2018,7
+44155,Montalbán,9 años,2018,18
+44155,Montalbán,10 años,2018,4
+44155,Montalbán,11 años,2018,9
+44155,Montalbán,12 años,2018,8
+44155,Montalbán,13 años,2018,7
+44155,Montalbán,14 años,2018,14
+44155,Montalbán,15 años,2018,9
+44155,Montalbán,16 años,2018,11
+44155,Montalbán,17 años,2018,9
+44155,Montalbán,18 años,2018,10
+44156,Monteagudo del Castillo,0 años,2018,0.0
+44156,Monteagudo del Castillo,1 año,2018,0.0
+44156,Monteagudo del Castillo,2 años,2018,0.0
+44156,Monteagudo del Castillo,3 años,2018,0.0
+44156,Monteagudo del Castillo,4 años,2018,0.0
+44156,Monteagudo del Castillo,5 años,2018,0.0
+44156,Monteagudo del Castillo,6 años,2018,0.0
+44156,Monteagudo del Castillo,7 años,2018,0.0
+44156,Monteagudo del Castillo,8 años,2018,0.0
+44156,Monteagudo del Castillo,9 años,2018,1
+44156,Monteagudo del Castillo,10 años,2018,0.0
+44156,Monteagudo del Castillo,11 años,2018,0.0
+44156,Monteagudo del Castillo,12 años,2018,1
+44156,Monteagudo del Castillo,13 años,2018,0.0
+44156,Monteagudo del Castillo,14 años,2018,0.0
+44156,Monteagudo del Castillo,15 años,2018,0.0
+44156,Monteagudo del Castillo,16 años,2018,1
+44156,Monteagudo del Castillo,17 años,2018,1
+44156,Monteagudo del Castillo,18 años,2018,0.0
+44157,Monterde de Albarracín,0 años,2018,0.0
+44157,Monterde de Albarracín,1 año,2018,0.0
+44157,Monterde de Albarracín,2 años,2018,0.0
+44157,Monterde de Albarracín,3 años,2018,0.0
+44157,Monterde de Albarracín,4 años,2018,0.0
+44157,Monterde de Albarracín,5 años,2018,0.0
+44157,Monterde de Albarracín,6 años,2018,0.0
+44157,Monterde de Albarracín,7 años,2018,0.0
+44157,Monterde de Albarracín,8 años,2018,0.0
+44157,Monterde de Albarracín,9 años,2018,0.0
+44157,Monterde de Albarracín,10 años,2018,0.0
+44157,Monterde de Albarracín,11 años,2018,0.0
+44157,Monterde de Albarracín,12 años,2018,0.0
+44157,Monterde de Albarracín,13 años,2018,0.0
+44157,Monterde de Albarracín,14 años,2018,0.0
+44157,Monterde de Albarracín,15 años,2018,0.0
+44157,Monterde de Albarracín,16 años,2018,0.0
+44157,Monterde de Albarracín,17 años,2018,0.0
+44157,Monterde de Albarracín,18 años,2018,0.0
+44158,Mora de Rubielos,0 años,2018,5
+44158,Mora de Rubielos,1 año,2018,17
+44158,Mora de Rubielos,2 años,2018,9
+44158,Mora de Rubielos,3 años,2018,20
+44158,Mora de Rubielos,4 años,2018,14
+44158,Mora de Rubielos,5 años,2018,12
+44158,Mora de Rubielos,6 años,2018,20
+44158,Mora de Rubielos,7 años,2018,14
+44158,Mora de Rubielos,8 años,2018,16
+44158,Mora de Rubielos,9 años,2018,20
+44158,Mora de Rubielos,10 años,2018,11
+44158,Mora de Rubielos,11 años,2018,19
+44158,Mora de Rubielos,12 años,2018,15
+44158,Mora de Rubielos,13 años,2018,10
+44158,Mora de Rubielos,14 años,2018,13
+44158,Mora de Rubielos,15 años,2018,10
+44158,Mora de Rubielos,16 años,2018,15
+44158,Mora de Rubielos,17 años,2018,18
+44158,Mora de Rubielos,18 años,2018,14
+44159,Moscardón,0 años,2018,0.0
+44159,Moscardón,1 año,2018,0.0
+44159,Moscardón,2 años,2018,0.0
+44159,Moscardón,3 años,2018,0.0
+44159,Moscardón,4 años,2018,0.0
+44159,Moscardón,5 años,2018,1
+44159,Moscardón,6 años,2018,0.0
+44159,Moscardón,7 años,2018,1
+44159,Moscardón,8 años,2018,1
+44159,Moscardón,9 años,2018,5
+44159,Moscardón,10 años,2018,0.0
+44159,Moscardón,11 años,2018,1
+44159,Moscardón,12 años,2018,3
+44159,Moscardón,13 años,2018,0.0
+44159,Moscardón,14 años,2018,1
+44159,Moscardón,15 años,2018,0.0
+44159,Moscardón,16 años,2018,0.0
+44159,Moscardón,17 años,2018,1
+44159,Moscardón,18 años,2018,0.0
+44160,Mosqueruela,0 años,2018,3
+44160,Mosqueruela,1 año,2018,6
+44160,Mosqueruela,2 años,2018,5
+44160,Mosqueruela,3 años,2018,4
+44160,Mosqueruela,4 años,2018,7
+44160,Mosqueruela,5 años,2018,2
+44160,Mosqueruela,6 años,2018,1
+44160,Mosqueruela,7 años,2018,7
+44160,Mosqueruela,8 años,2018,4
+44160,Mosqueruela,9 años,2018,2
+44160,Mosqueruela,10 años,2018,3
+44160,Mosqueruela,11 años,2018,7
+44160,Mosqueruela,12 años,2018,5
+44160,Mosqueruela,13 años,2018,9
+44160,Mosqueruela,14 años,2018,3
+44160,Mosqueruela,15 años,2018,4
+44160,Mosqueruela,16 años,2018,2
+44160,Mosqueruela,17 años,2018,5
+44160,Mosqueruela,18 años,2018,4
+44161,Muniesa,0 años,2018,7
+44161,Muniesa,1 año,2018,3
+44161,Muniesa,2 años,2018,4
+44161,Muniesa,3 años,2018,7
+44161,Muniesa,4 años,2018,7
+44161,Muniesa,5 años,2018,4
+44161,Muniesa,6 años,2018,4
+44161,Muniesa,7 años,2018,3
+44161,Muniesa,8 años,2018,5
+44161,Muniesa,9 años,2018,5
+44161,Muniesa,10 años,2018,5
+44161,Muniesa,11 años,2018,5
+44161,Muniesa,12 años,2018,3
+44161,Muniesa,13 años,2018,2
+44161,Muniesa,14 años,2018,7
+44161,Muniesa,15 años,2018,7
+44161,Muniesa,16 años,2018,4
+44161,Muniesa,17 años,2018,8
+44161,Muniesa,18 años,2018,6
+44163,Noguera de Albarracín,0 años,2018,0.0
+44163,Noguera de Albarracín,1 año,2018,0.0
+44163,Noguera de Albarracín,2 años,2018,0.0
+44163,Noguera de Albarracín,3 años,2018,0.0
+44163,Noguera de Albarracín,4 años,2018,2
+44163,Noguera de Albarracín,5 años,2018,0.0
+44163,Noguera de Albarracín,6 años,2018,0.0
+44163,Noguera de Albarracín,7 años,2018,2
+44163,Noguera de Albarracín,8 años,2018,0.0
+44163,Noguera de Albarracín,9 años,2018,2
+44163,Noguera de Albarracín,10 años,2018,3
+44163,Noguera de Albarracín,11 años,2018,1
+44163,Noguera de Albarracín,12 años,2018,3
+44163,Noguera de Albarracín,13 años,2018,0.0
+44163,Noguera de Albarracín,14 años,2018,1
+44163,Noguera de Albarracín,15 años,2018,0.0
+44163,Noguera de Albarracín,16 años,2018,0.0
+44163,Noguera de Albarracín,17 años,2018,0.0
+44163,Noguera de Albarracín,18 años,2018,0.0
+44164,Nogueras,0 años,2018,0.0
+44164,Nogueras,1 año,2018,0.0
+44164,Nogueras,2 años,2018,0.0
+44164,Nogueras,3 años,2018,0.0
+44164,Nogueras,4 años,2018,0.0
+44164,Nogueras,5 años,2018,0.0
+44164,Nogueras,6 años,2018,0.0
+44164,Nogueras,7 años,2018,0.0
+44164,Nogueras,8 años,2018,0.0
+44164,Nogueras,9 años,2018,0.0
+44164,Nogueras,10 años,2018,0.0
+44164,Nogueras,11 años,2018,0.0
+44164,Nogueras,12 años,2018,0.0
+44164,Nogueras,13 años,2018,0.0
+44164,Nogueras,14 años,2018,2
+44164,Nogueras,15 años,2018,0.0
+44164,Nogueras,16 años,2018,0.0
+44164,Nogueras,17 años,2018,0.0
+44164,Nogueras,18 años,2018,0.0
+44165,Nogueruelas,0 años,2018,0.0
+44165,Nogueruelas,1 año,2018,2
+44165,Nogueruelas,2 años,2018,3
+44165,Nogueruelas,3 años,2018,0.0
+44165,Nogueruelas,4 años,2018,3
+44165,Nogueruelas,5 años,2018,0.0
+44165,Nogueruelas,6 años,2018,3
+44165,Nogueruelas,7 años,2018,4
+44165,Nogueruelas,8 años,2018,1
+44165,Nogueruelas,9 años,2018,2
+44165,Nogueruelas,10 años,2018,2
+44165,Nogueruelas,11 años,2018,2
+44165,Nogueruelas,12 años,2018,1
+44165,Nogueruelas,13 años,2018,0.0
+44165,Nogueruelas,14 años,2018,2
+44165,Nogueruelas,15 años,2018,0.0
+44165,Nogueruelas,16 años,2018,0.0
+44165,Nogueruelas,17 años,2018,2
+44165,Nogueruelas,18 años,2018,2
+44167,Obón,0 años,2018,0.0
+44167,Obón,1 año,2018,0.0
+44167,Obón,2 años,2018,0.0
+44167,Obón,3 años,2018,0.0
+44167,Obón,4 años,2018,0.0
+44167,Obón,5 años,2018,0.0
+44167,Obón,6 años,2018,0.0
+44167,Obón,7 años,2018,0.0
+44167,Obón,8 años,2018,0.0
+44167,Obón,9 años,2018,0.0
+44167,Obón,10 años,2018,0.0
+44167,Obón,11 años,2018,0.0
+44167,Obón,12 años,2018,0.0
+44167,Obón,13 años,2018,0.0
+44167,Obón,14 años,2018,0.0
+44167,Obón,15 años,2018,0.0
+44167,Obón,16 años,2018,0.0
+44167,Obón,17 años,2018,0.0
+44167,Obón,18 años,2018,0.0
+44168,Odón,0 años,2018,0.0
+44168,Odón,1 año,2018,1
+44168,Odón,2 años,2018,0.0
+44168,Odón,3 años,2018,2
+44168,Odón,4 años,2018,1
+44168,Odón,5 años,2018,0.0
+44168,Odón,6 años,2018,1
+44168,Odón,7 años,2018,1
+44168,Odón,8 años,2018,0.0
+44168,Odón,9 años,2018,1
+44168,Odón,10 años,2018,0.0
+44168,Odón,11 años,2018,3
+44168,Odón,12 años,2018,0.0
+44168,Odón,13 años,2018,1
+44168,Odón,14 años,2018,1
+44168,Odón,15 años,2018,2
+44168,Odón,16 años,2018,0.0
+44168,Odón,17 años,2018,3
+44168,Odón,18 años,2018,0.0
+44169,Ojos Negros,0 años,2018,1
+44169,Ojos Negros,1 año,2018,0.0
+44169,Ojos Negros,2 años,2018,2
+44169,Ojos Negros,3 años,2018,2
+44169,Ojos Negros,4 años,2018,0.0
+44169,Ojos Negros,5 años,2018,2
+44169,Ojos Negros,6 años,2018,3
+44169,Ojos Negros,7 años,2018,3
+44169,Ojos Negros,8 años,2018,5
+44169,Ojos Negros,9 años,2018,2
+44169,Ojos Negros,10 años,2018,4
+44169,Ojos Negros,11 años,2018,8
+44169,Ojos Negros,12 años,2018,3
+44169,Ojos Negros,13 años,2018,3
+44169,Ojos Negros,14 años,2018,2
+44169,Ojos Negros,15 años,2018,2
+44169,Ojos Negros,16 años,2018,1
+44169,Ojos Negros,17 años,2018,3
+44169,Ojos Negros,18 años,2018,1
+44171,Olba,0 años,2018,0.0
+44171,Olba,1 año,2018,2
+44171,Olba,2 años,2018,1
+44171,Olba,3 años,2018,1
+44171,Olba,4 años,2018,2
+44171,Olba,5 años,2018,2
+44171,Olba,6 años,2018,8
+44171,Olba,7 años,2018,2
+44171,Olba,8 años,2018,3
+44171,Olba,9 años,2018,4
+44171,Olba,10 años,2018,3
+44171,Olba,11 años,2018,1
+44171,Olba,12 años,2018,1
+44171,Olba,13 años,2018,1
+44171,Olba,14 años,2018,2
+44171,Olba,15 años,2018,2
+44171,Olba,16 años,2018,0.0
+44171,Olba,17 años,2018,2
+44171,Olba,18 años,2018,1
+44172,Oliete,0 años,2018,6
+44172,Oliete,1 año,2018,0.0
+44172,Oliete,2 años,2018,2
+44172,Oliete,3 años,2018,0.0
+44172,Oliete,4 años,2018,0.0
+44172,Oliete,5 años,2018,1
+44172,Oliete,6 años,2018,1
+44172,Oliete,7 años,2018,0.0
+44172,Oliete,8 años,2018,2
+44172,Oliete,9 años,2018,1
+44172,Oliete,10 años,2018,2
+44172,Oliete,11 años,2018,1
+44172,Oliete,12 años,2018,1
+44172,Oliete,13 años,2018,3
+44172,Oliete,14 años,2018,5
+44172,Oliete,15 años,2018,0.0
+44172,Oliete,16 años,2018,3
+44172,Oliete,17 años,2018,4
+44172,Oliete,18 años,2018,1
+44173,Olmos Los,0 años,2018,0.0
+44173,Olmos Los,1 año,2018,1
+44173,Olmos Los,2 años,2018,0.0
+44173,Olmos Los,3 años,2018,2
+44173,Olmos Los,4 años,2018,0.0
+44173,Olmos Los,5 años,2018,1
+44173,Olmos Los,6 años,2018,2
+44173,Olmos Los,7 años,2018,0.0
+44173,Olmos Los,8 años,2018,1
+44173,Olmos Los,9 años,2018,0.0
+44173,Olmos Los,10 años,2018,1
+44173,Olmos Los,11 años,2018,0.0
+44173,Olmos Los,12 años,2018,1
+44173,Olmos Los,13 años,2018,1
+44173,Olmos Los,14 años,2018,1
+44173,Olmos Los,15 años,2018,1
+44173,Olmos Los,16 años,2018,2
+44173,Olmos Los,17 años,2018,3
+44173,Olmos Los,18 años,2018,0.0
+44174,Orihuela del Tremedal,0 años,2018,3
+44174,Orihuela del Tremedal,1 año,2018,2
+44174,Orihuela del Tremedal,2 años,2018,2
+44174,Orihuela del Tremedal,3 años,2018,3
+44174,Orihuela del Tremedal,4 años,2018,1
+44174,Orihuela del Tremedal,5 años,2018,2
+44174,Orihuela del Tremedal,6 años,2018,7
+44174,Orihuela del Tremedal,7 años,2018,3
+44174,Orihuela del Tremedal,8 años,2018,2
+44174,Orihuela del Tremedal,9 años,2018,0.0
+44174,Orihuela del Tremedal,10 años,2018,3
+44174,Orihuela del Tremedal,11 años,2018,4
+44174,Orihuela del Tremedal,12 años,2018,1
+44174,Orihuela del Tremedal,13 años,2018,3
+44174,Orihuela del Tremedal,14 años,2018,4
+44174,Orihuela del Tremedal,15 años,2018,5
+44174,Orihuela del Tremedal,16 años,2018,5
+44174,Orihuela del Tremedal,17 años,2018,3
+44174,Orihuela del Tremedal,18 años,2018,2
+44175,Orrios,0 años,2018,0.0
+44175,Orrios,1 año,2018,0.0
+44175,Orrios,2 años,2018,0.0
+44175,Orrios,3 años,2018,0.0
+44175,Orrios,4 años,2018,0.0
+44175,Orrios,5 años,2018,0.0
+44175,Orrios,6 años,2018,0.0
+44175,Orrios,7 años,2018,0.0
+44175,Orrios,8 años,2018,1
+44175,Orrios,9 años,2018,0.0
+44175,Orrios,10 años,2018,0.0
+44175,Orrios,11 años,2018,0.0
+44175,Orrios,12 años,2018,1
+44175,Orrios,13 años,2018,0.0
+44175,Orrios,14 años,2018,0.0
+44175,Orrios,15 años,2018,0.0
+44175,Orrios,16 años,2018,0.0
+44175,Orrios,17 años,2018,0.0
+44175,Orrios,18 años,2018,2
+44176,Palomar de Arroyos,0 años,2018,2
+44176,Palomar de Arroyos,1 año,2018,0.0
+44176,Palomar de Arroyos,2 años,2018,3
+44176,Palomar de Arroyos,3 años,2018,0.0
+44176,Palomar de Arroyos,4 años,2018,0.0
+44176,Palomar de Arroyos,5 años,2018,0.0
+44176,Palomar de Arroyos,6 años,2018,1
+44176,Palomar de Arroyos,7 años,2018,0.0
+44176,Palomar de Arroyos,8 años,2018,0.0
+44176,Palomar de Arroyos,9 años,2018,0.0
+44176,Palomar de Arroyos,10 años,2018,0.0
+44176,Palomar de Arroyos,11 años,2018,1
+44176,Palomar de Arroyos,12 años,2018,0.0
+44176,Palomar de Arroyos,13 años,2018,0.0
+44176,Palomar de Arroyos,14 años,2018,0.0
+44176,Palomar de Arroyos,15 años,2018,0.0
+44176,Palomar de Arroyos,16 años,2018,2
+44176,Palomar de Arroyos,17 años,2018,1
+44176,Palomar de Arroyos,18 años,2018,1
+44177,Pancrudo,0 años,2018,0.0
+44177,Pancrudo,1 año,2018,1
+44177,Pancrudo,2 años,2018,1
+44177,Pancrudo,3 años,2018,0.0
+44177,Pancrudo,4 años,2018,0.0
+44177,Pancrudo,5 años,2018,0.0
+44177,Pancrudo,6 años,2018,1
+44177,Pancrudo,7 años,2018,1
+44177,Pancrudo,8 años,2018,0.0
+44177,Pancrudo,9 años,2018,2
+44177,Pancrudo,10 años,2018,0.0
+44177,Pancrudo,11 años,2018,1
+44177,Pancrudo,12 años,2018,0.0
+44177,Pancrudo,13 años,2018,0.0
+44177,Pancrudo,14 años,2018,0.0
+44177,Pancrudo,15 años,2018,1
+44177,Pancrudo,16 años,2018,1
+44177,Pancrudo,17 años,2018,0.0
+44177,Pancrudo,18 años,2018,1
+44178,Parras de Castellote Las,0 años,2018,0.0
+44178,Parras de Castellote Las,1 año,2018,0.0
+44178,Parras de Castellote Las,2 años,2018,0.0
+44178,Parras de Castellote Las,3 años,2018,0.0
+44178,Parras de Castellote Las,4 años,2018,0.0
+44178,Parras de Castellote Las,5 años,2018,0.0
+44178,Parras de Castellote Las,6 años,2018,0.0
+44178,Parras de Castellote Las,7 años,2018,0.0
+44178,Parras de Castellote Las,8 años,2018,0.0
+44178,Parras de Castellote Las,9 años,2018,0.0
+44178,Parras de Castellote Las,10 años,2018,0.0
+44178,Parras de Castellote Las,11 años,2018,0.0
+44178,Parras de Castellote Las,12 años,2018,0.0
+44178,Parras de Castellote Las,13 años,2018,0.0
+44178,Parras de Castellote Las,14 años,2018,0.0
+44178,Parras de Castellote Las,15 años,2018,0.0
+44178,Parras de Castellote Las,16 años,2018,0.0
+44178,Parras de Castellote Las,17 años,2018,0.0
+44178,Parras de Castellote Las,18 años,2018,0.0
+44179,Peñarroya de Tastavins,0 años,2018,2
+44179,Peñarroya de Tastavins,1 año,2018,2
+44179,Peñarroya de Tastavins,2 años,2018,2
+44179,Peñarroya de Tastavins,3 años,2018,2
+44179,Peñarroya de Tastavins,4 años,2018,6
+44179,Peñarroya de Tastavins,5 años,2018,6
+44179,Peñarroya de Tastavins,6 años,2018,3
+44179,Peñarroya de Tastavins,7 años,2018,3
+44179,Peñarroya de Tastavins,8 años,2018,4
+44179,Peñarroya de Tastavins,9 años,2018,5
+44179,Peñarroya de Tastavins,10 años,2018,4
+44179,Peñarroya de Tastavins,11 años,2018,3
+44179,Peñarroya de Tastavins,12 años,2018,6
+44179,Peñarroya de Tastavins,13 años,2018,1
+44179,Peñarroya de Tastavins,14 años,2018,2
+44179,Peñarroya de Tastavins,15 años,2018,4
+44179,Peñarroya de Tastavins,16 años,2018,6
+44179,Peñarroya de Tastavins,17 años,2018,3
+44179,Peñarroya de Tastavins,18 años,2018,5
+44180,Peracense,0 años,2018,0.0
+44180,Peracense,1 año,2018,0.0
+44180,Peracense,2 años,2018,0.0
+44180,Peracense,3 años,2018,0.0
+44180,Peracense,4 años,2018,0.0
+44180,Peracense,5 años,2018,0.0
+44180,Peracense,6 años,2018,0.0
+44180,Peracense,7 años,2018,0.0
+44180,Peracense,8 años,2018,0.0
+44180,Peracense,9 años,2018,0.0
+44180,Peracense,10 años,2018,1
+44180,Peracense,11 años,2018,0.0
+44180,Peracense,12 años,2018,1
+44180,Peracense,13 años,2018,0.0
+44180,Peracense,14 años,2018,1
+44180,Peracense,15 años,2018,1
+44180,Peracense,16 años,2018,1
+44180,Peracense,17 años,2018,0.0
+44180,Peracense,18 años,2018,0.0
+44181,Peralejos,0 años,2018,0.0
+44181,Peralejos,1 año,2018,1
+44181,Peralejos,2 años,2018,1
+44181,Peralejos,3 años,2018,0.0
+44181,Peralejos,4 años,2018,0.0
+44181,Peralejos,5 años,2018,0.0
+44181,Peralejos,6 años,2018,0.0
+44181,Peralejos,7 años,2018,1
+44181,Peralejos,8 años,2018,1
+44181,Peralejos,9 años,2018,2
+44181,Peralejos,10 años,2018,0.0
+44181,Peralejos,11 años,2018,1
+44181,Peralejos,12 años,2018,1
+44181,Peralejos,13 años,2018,3
+44181,Peralejos,14 años,2018,1
+44181,Peralejos,15 años,2018,0.0
+44181,Peralejos,16 años,2018,0.0
+44181,Peralejos,17 años,2018,0.0
+44181,Peralejos,18 años,2018,2
+44182,Perales del Alfambra,0 años,2018,0.0
+44182,Perales del Alfambra,1 año,2018,0.0
+44182,Perales del Alfambra,2 años,2018,1
+44182,Perales del Alfambra,3 años,2018,0.0
+44182,Perales del Alfambra,4 años,2018,0.0
+44182,Perales del Alfambra,5 años,2018,1
+44182,Perales del Alfambra,6 años,2018,1
+44182,Perales del Alfambra,7 años,2018,0.0
+44182,Perales del Alfambra,8 años,2018,1
+44182,Perales del Alfambra,9 años,2018,1
+44182,Perales del Alfambra,10 años,2018,0.0
+44182,Perales del Alfambra,11 años,2018,2
+44182,Perales del Alfambra,12 años,2018,0.0
+44182,Perales del Alfambra,13 años,2018,1
+44182,Perales del Alfambra,14 años,2018,1
+44182,Perales del Alfambra,15 años,2018,2
+44182,Perales del Alfambra,16 años,2018,1
+44182,Perales del Alfambra,17 años,2018,2
+44182,Perales del Alfambra,18 años,2018,2
+44183,Pitarque,0 años,2018,0.0
+44183,Pitarque,1 año,2018,0.0
+44183,Pitarque,2 años,2018,0.0
+44183,Pitarque,3 años,2018,0.0
+44183,Pitarque,4 años,2018,0.0
+44183,Pitarque,5 años,2018,1
+44183,Pitarque,6 años,2018,0.0
+44183,Pitarque,7 años,2018,2
+44183,Pitarque,8 años,2018,0.0
+44183,Pitarque,9 años,2018,0.0
+44183,Pitarque,10 años,2018,0.0
+44183,Pitarque,11 años,2018,0.0
+44183,Pitarque,12 años,2018,1
+44183,Pitarque,13 años,2018,0.0
+44183,Pitarque,14 años,2018,1
+44183,Pitarque,15 años,2018,0.0
+44183,Pitarque,16 años,2018,2
+44183,Pitarque,17 años,2018,0.0
+44183,Pitarque,18 años,2018,0.0
+44184,Plou,0 años,2018,0.0
+44184,Plou,1 año,2018,1
+44184,Plou,2 años,2018,0.0
+44184,Plou,3 años,2018,0.0
+44184,Plou,4 años,2018,0.0
+44184,Plou,5 años,2018,1
+44184,Plou,6 años,2018,0.0
+44184,Plou,7 años,2018,0.0
+44184,Plou,8 años,2018,0.0
+44184,Plou,9 años,2018,0.0
+44184,Plou,10 años,2018,0.0
+44184,Plou,11 años,2018,0.0
+44184,Plou,12 años,2018,0.0
+44184,Plou,13 años,2018,0.0
+44184,Plou,14 años,2018,1
+44184,Plou,15 años,2018,0.0
+44184,Plou,16 años,2018,0.0
+44184,Plou,17 años,2018,0.0
+44184,Plou,18 años,2018,0.0
+44185,Pobo El,0 años,2018,0.0
+44185,Pobo El,1 año,2018,2
+44185,Pobo El,2 años,2018,0.0
+44185,Pobo El,3 años,2018,0.0
+44185,Pobo El,4 años,2018,0.0
+44185,Pobo El,5 años,2018,0.0
+44185,Pobo El,6 años,2018,0.0
+44185,Pobo El,7 años,2018,3
+44185,Pobo El,8 años,2018,1
+44185,Pobo El,9 años,2018,2
+44185,Pobo El,10 años,2018,0.0
+44185,Pobo El,11 años,2018,2
+44185,Pobo El,12 años,2018,1
+44185,Pobo El,13 años,2018,1
+44185,Pobo El,14 años,2018,0.0
+44185,Pobo El,15 años,2018,2
+44185,Pobo El,16 años,2018,0.0
+44185,Pobo El,17 años,2018,0.0
+44185,Pobo El,18 años,2018,0.0
+44187,Portellada La,0 años,2018,1
+44187,Portellada La,1 año,2018,1
+44187,Portellada La,2 años,2018,2
+44187,Portellada La,3 años,2018,3
+44187,Portellada La,4 años,2018,6
+44187,Portellada La,5 años,2018,0.0
+44187,Portellada La,6 años,2018,5
+44187,Portellada La,7 años,2018,0.0
+44187,Portellada La,8 años,2018,3
+44187,Portellada La,9 años,2018,3
+44187,Portellada La,10 años,2018,4
+44187,Portellada La,11 años,2018,3
+44187,Portellada La,12 años,2018,0.0
+44187,Portellada La,13 años,2018,1
+44187,Portellada La,14 años,2018,0.0
+44187,Portellada La,15 años,2018,0.0
+44187,Portellada La,16 años,2018,1
+44187,Portellada La,17 años,2018,0.0
+44187,Portellada La,18 años,2018,0.0
+44189,Pozondón,0 años,2018,0.0
+44189,Pozondón,1 año,2018,0.0
+44189,Pozondón,2 años,2018,0.0
+44189,Pozondón,3 años,2018,0.0
+44189,Pozondón,4 años,2018,0.0
+44189,Pozondón,5 años,2018,0.0
+44189,Pozondón,6 años,2018,0.0
+44189,Pozondón,7 años,2018,1
+44189,Pozondón,8 años,2018,0.0
+44189,Pozondón,9 años,2018,0.0
+44189,Pozondón,10 años,2018,0.0
+44189,Pozondón,11 años,2018,0.0
+44189,Pozondón,12 años,2018,0.0
+44189,Pozondón,13 años,2018,0.0
+44189,Pozondón,14 años,2018,0.0
+44189,Pozondón,15 años,2018,0.0
+44189,Pozondón,16 años,2018,0.0
+44189,Pozondón,17 años,2018,0.0
+44189,Pozondón,18 años,2018,0.0
+44190,Pozuel del Campo,0 años,2018,1
+44190,Pozuel del Campo,1 año,2018,0.0
+44190,Pozuel del Campo,2 años,2018,0.0
+44190,Pozuel del Campo,3 años,2018,0.0
+44190,Pozuel del Campo,4 años,2018,0.0
+44190,Pozuel del Campo,5 años,2018,0.0
+44190,Pozuel del Campo,6 años,2018,0.0
+44190,Pozuel del Campo,7 años,2018,0.0
+44190,Pozuel del Campo,8 años,2018,0.0
+44190,Pozuel del Campo,9 años,2018,0.0
+44190,Pozuel del Campo,10 años,2018,0.0
+44190,Pozuel del Campo,11 años,2018,0.0
+44190,Pozuel del Campo,12 años,2018,0.0
+44190,Pozuel del Campo,13 años,2018,0.0
+44190,Pozuel del Campo,14 años,2018,0.0
+44190,Pozuel del Campo,15 años,2018,0.0
+44190,Pozuel del Campo,16 años,2018,0.0
+44190,Pozuel del Campo,17 años,2018,0.0
+44190,Pozuel del Campo,18 años,2018,0.0
+44191,Puebla de Híjar La,0 años,2018,1
+44191,Puebla de Híjar La,1 año,2018,12
+44191,Puebla de Híjar La,2 años,2018,6
+44191,Puebla de Híjar La,3 años,2018,2
+44191,Puebla de Híjar La,4 años,2018,9
+44191,Puebla de Híjar La,5 años,2018,8
+44191,Puebla de Híjar La,6 años,2018,7
+44191,Puebla de Híjar La,7 años,2018,5
+44191,Puebla de Híjar La,8 años,2018,12
+44191,Puebla de Híjar La,9 años,2018,10
+44191,Puebla de Híjar La,10 años,2018,6
+44191,Puebla de Híjar La,11 años,2018,7
+44191,Puebla de Híjar La,12 años,2018,10
+44191,Puebla de Híjar La,13 años,2018,7
+44191,Puebla de Híjar La,14 años,2018,5
+44191,Puebla de Híjar La,15 años,2018,12
+44191,Puebla de Híjar La,16 años,2018,2
+44191,Puebla de Híjar La,17 años,2018,5
+44191,Puebla de Híjar La,18 años,2018,5
+44192,Puebla de Valverde La,0 años,2018,2
+44192,Puebla de Valverde La,1 año,2018,5
+44192,Puebla de Valverde La,2 años,2018,2
+44192,Puebla de Valverde La,3 años,2018,2
+44192,Puebla de Valverde La,4 años,2018,3
+44192,Puebla de Valverde La,5 años,2018,4
+44192,Puebla de Valverde La,6 años,2018,4
+44192,Puebla de Valverde La,7 años,2018,4
+44192,Puebla de Valverde La,8 años,2018,4
+44192,Puebla de Valverde La,9 años,2018,3
+44192,Puebla de Valverde La,10 años,2018,3
+44192,Puebla de Valverde La,11 años,2018,5
+44192,Puebla de Valverde La,12 años,2018,3
+44192,Puebla de Valverde La,13 años,2018,7
+44192,Puebla de Valverde La,14 años,2018,1
+44192,Puebla de Valverde La,15 años,2018,4
+44192,Puebla de Valverde La,16 años,2018,3
+44192,Puebla de Valverde La,17 años,2018,2
+44192,Puebla de Valverde La,18 años,2018,5
+44193,Puertomingalvo,0 años,2018,2
+44193,Puertomingalvo,1 año,2018,1
+44193,Puertomingalvo,2 años,2018,0.0
+44193,Puertomingalvo,3 años,2018,2
+44193,Puertomingalvo,4 años,2018,1
+44193,Puertomingalvo,5 años,2018,1
+44193,Puertomingalvo,6 años,2018,1
+44193,Puertomingalvo,7 años,2018,0.0
+44193,Puertomingalvo,8 años,2018,2
+44193,Puertomingalvo,9 años,2018,2
+44193,Puertomingalvo,10 años,2018,1
+44193,Puertomingalvo,11 años,2018,2
+44193,Puertomingalvo,12 años,2018,1
+44193,Puertomingalvo,13 años,2018,0.0
+44193,Puertomingalvo,14 años,2018,1
+44193,Puertomingalvo,15 años,2018,2
+44193,Puertomingalvo,16 años,2018,0.0
+44193,Puertomingalvo,17 años,2018,1
+44193,Puertomingalvo,18 años,2018,2
+44194,Ráfales,0 años,2018,0.0
+44194,Ráfales,1 año,2018,2
+44194,Ráfales,2 años,2018,2
+44194,Ráfales,3 años,2018,0.0
+44194,Ráfales,4 años,2018,0.0
+44194,Ráfales,5 años,2018,3
+44194,Ráfales,6 años,2018,0.0
+44194,Ráfales,7 años,2018,2
+44194,Ráfales,8 años,2018,0.0
+44194,Ráfales,9 años,2018,3
+44194,Ráfales,10 años,2018,1
+44194,Ráfales,11 años,2018,0.0
+44194,Ráfales,12 años,2018,2
+44194,Ráfales,13 años,2018,1
+44194,Ráfales,14 años,2018,0.0
+44194,Ráfales,15 años,2018,1
+44194,Ráfales,16 años,2018,0.0
+44194,Ráfales,17 años,2018,0.0
+44194,Ráfales,18 años,2018,0.0
+44195,Rillo,0 años,2018,0.0
+44195,Rillo,1 año,2018,0.0
+44195,Rillo,2 años,2018,0.0
+44195,Rillo,3 años,2018,0.0
+44195,Rillo,4 años,2018,0.0
+44195,Rillo,5 años,2018,1
+44195,Rillo,6 años,2018,0.0
+44195,Rillo,7 años,2018,0.0
+44195,Rillo,8 años,2018,1
+44195,Rillo,9 años,2018,0.0
+44195,Rillo,10 años,2018,0.0
+44195,Rillo,11 años,2018,0.0
+44195,Rillo,12 años,2018,0.0
+44195,Rillo,13 años,2018,0.0
+44195,Rillo,14 años,2018,0.0
+44195,Rillo,15 años,2018,0.0
+44195,Rillo,16 años,2018,0.0
+44195,Rillo,17 años,2018,0.0
+44195,Rillo,18 años,2018,1
+44196,Riodeva,0 años,2018,2
+44196,Riodeva,1 año,2018,0.0
+44196,Riodeva,2 años,2018,0.0
+44196,Riodeva,3 años,2018,3
+44196,Riodeva,4 años,2018,0.0
+44196,Riodeva,5 años,2018,0.0
+44196,Riodeva,6 años,2018,1
+44196,Riodeva,7 años,2018,0.0
+44196,Riodeva,8 años,2018,1
+44196,Riodeva,9 años,2018,0.0
+44196,Riodeva,10 años,2018,1
+44196,Riodeva,11 años,2018,2
+44196,Riodeva,12 años,2018,1
+44196,Riodeva,13 años,2018,0.0
+44196,Riodeva,14 años,2018,0.0
+44196,Riodeva,15 años,2018,0.0
+44196,Riodeva,16 años,2018,1
+44196,Riodeva,17 años,2018,2
+44196,Riodeva,18 años,2018,1
+44197,Ródenas,0 años,2018,0.0
+44197,Ródenas,1 año,2018,0.0
+44197,Ródenas,2 años,2018,1
+44197,Ródenas,3 años,2018,0.0
+44197,Ródenas,4 años,2018,1
+44197,Ródenas,5 años,2018,0.0
+44197,Ródenas,6 años,2018,0.0
+44197,Ródenas,7 años,2018,1
+44197,Ródenas,8 años,2018,0.0
+44197,Ródenas,9 años,2018,0.0
+44197,Ródenas,10 años,2018,0.0
+44197,Ródenas,11 años,2018,0.0
+44197,Ródenas,12 años,2018,0.0
+44197,Ródenas,13 años,2018,0.0
+44197,Ródenas,14 años,2018,0.0
+44197,Ródenas,15 años,2018,0.0
+44197,Ródenas,16 años,2018,0.0
+44197,Ródenas,17 años,2018,0.0
+44197,Ródenas,18 años,2018,0.0
+44198,Royuela,0 años,2018,0.0
+44198,Royuela,1 año,2018,0.0
+44198,Royuela,2 años,2018,0.0
+44198,Royuela,3 años,2018,1
+44198,Royuela,4 años,2018,2
+44198,Royuela,5 años,2018,0.0
+44198,Royuela,6 años,2018,2
+44198,Royuela,7 años,2018,2
+44198,Royuela,8 años,2018,3
+44198,Royuela,9 años,2018,2
+44198,Royuela,10 años,2018,1
+44198,Royuela,11 años,2018,1
+44198,Royuela,12 años,2018,1
+44198,Royuela,13 años,2018,1
+44198,Royuela,14 años,2018,0.0
+44198,Royuela,15 años,2018,4
+44198,Royuela,16 años,2018,3
+44198,Royuela,17 años,2018,0.0
+44198,Royuela,18 años,2018,2
+44199,Rubiales,0 años,2018,1
+44199,Rubiales,1 año,2018,0.0
+44199,Rubiales,2 años,2018,0.0
+44199,Rubiales,3 años,2018,0.0
+44199,Rubiales,4 años,2018,0.0
+44199,Rubiales,5 años,2018,0.0
+44199,Rubiales,6 años,2018,0.0
+44199,Rubiales,7 años,2018,0.0
+44199,Rubiales,8 años,2018,0.0
+44199,Rubiales,9 años,2018,0.0
+44199,Rubiales,10 años,2018,0.0
+44199,Rubiales,11 años,2018,0.0
+44199,Rubiales,12 años,2018,0.0
+44199,Rubiales,13 años,2018,0.0
+44199,Rubiales,14 años,2018,1
+44199,Rubiales,15 años,2018,2
+44199,Rubiales,16 años,2018,0.0
+44199,Rubiales,17 años,2018,0.0
+44199,Rubiales,18 años,2018,1
+44200,Rubielos de la Cérida,0 años,2018,0.0
+44200,Rubielos de la Cérida,1 año,2018,0.0
+44200,Rubielos de la Cérida,2 años,2018,0.0
+44200,Rubielos de la Cérida,3 años,2018,0.0
+44200,Rubielos de la Cérida,4 años,2018,0.0
+44200,Rubielos de la Cérida,5 años,2018,0.0
+44200,Rubielos de la Cérida,6 años,2018,0.0
+44200,Rubielos de la Cérida,7 años,2018,0.0
+44200,Rubielos de la Cérida,8 años,2018,0.0
+44200,Rubielos de la Cérida,9 años,2018,0.0
+44200,Rubielos de la Cérida,10 años,2018,0.0
+44200,Rubielos de la Cérida,11 años,2018,0.0
+44200,Rubielos de la Cérida,12 años,2018,0.0
+44200,Rubielos de la Cérida,13 años,2018,0.0
+44200,Rubielos de la Cérida,14 años,2018,0.0
+44200,Rubielos de la Cérida,15 años,2018,0.0
+44200,Rubielos de la Cérida,16 años,2018,0.0
+44200,Rubielos de la Cérida,17 años,2018,0.0
+44200,Rubielos de la Cérida,18 años,2018,0.0
+44201,Rubielos de Mora,0 años,2018,6
+44201,Rubielos de Mora,1 año,2018,4
+44201,Rubielos de Mora,2 años,2018,4
+44201,Rubielos de Mora,3 años,2018,7
+44201,Rubielos de Mora,4 años,2018,7
+44201,Rubielos de Mora,5 años,2018,3
+44201,Rubielos de Mora,6 años,2018,9
+44201,Rubielos de Mora,7 años,2018,2
+44201,Rubielos de Mora,8 años,2018,6
+44201,Rubielos de Mora,9 años,2018,2
+44201,Rubielos de Mora,10 años,2018,3
+44201,Rubielos de Mora,11 años,2018,6
+44201,Rubielos de Mora,12 años,2018,5
+44201,Rubielos de Mora,13 años,2018,6
+44201,Rubielos de Mora,14 años,2018,5
+44201,Rubielos de Mora,15 años,2018,3
+44201,Rubielos de Mora,16 años,2018,6
+44201,Rubielos de Mora,17 años,2018,10
+44201,Rubielos de Mora,18 años,2018,5
+44203,Salcedillo,0 años,2018,0.0
+44203,Salcedillo,1 año,2018,0.0
+44203,Salcedillo,2 años,2018,0.0
+44203,Salcedillo,3 años,2018,0.0
+44203,Salcedillo,4 años,2018,0.0
+44203,Salcedillo,5 años,2018,0.0
+44203,Salcedillo,6 años,2018,0.0
+44203,Salcedillo,7 años,2018,0.0
+44203,Salcedillo,8 años,2018,0.0
+44203,Salcedillo,9 años,2018,0.0
+44203,Salcedillo,10 años,2018,0.0
+44203,Salcedillo,11 años,2018,0.0
+44203,Salcedillo,12 años,2018,0.0
+44203,Salcedillo,13 años,2018,0.0
+44203,Salcedillo,14 años,2018,0.0
+44203,Salcedillo,15 años,2018,0.0
+44203,Salcedillo,16 años,2018,0.0
+44203,Salcedillo,17 años,2018,0.0
+44203,Salcedillo,18 años,2018,0.0
+44204,Saldón,0 años,2018,0.0
+44204,Saldón,1 año,2018,0.0
+44204,Saldón,2 años,2018,0.0
+44204,Saldón,3 años,2018,0.0
+44204,Saldón,4 años,2018,0.0
+44204,Saldón,5 años,2018,0.0
+44204,Saldón,6 años,2018,0.0
+44204,Saldón,7 años,2018,0.0
+44204,Saldón,8 años,2018,0.0
+44204,Saldón,9 años,2018,0.0
+44204,Saldón,10 años,2018,0.0
+44204,Saldón,11 años,2018,0.0
+44204,Saldón,12 años,2018,0.0
+44204,Saldón,13 años,2018,0.0
+44204,Saldón,14 años,2018,0.0
+44204,Saldón,15 años,2018,0.0
+44204,Saldón,16 años,2018,0.0
+44204,Saldón,17 años,2018,0.0
+44204,Saldón,18 años,2018,1
+44205,Samper de Calanda,0 años,2018,5
+44205,Samper de Calanda,1 año,2018,1
+44205,Samper de Calanda,2 años,2018,5
+44205,Samper de Calanda,3 años,2018,2
+44205,Samper de Calanda,4 años,2018,6
+44205,Samper de Calanda,5 años,2018,1
+44205,Samper de Calanda,6 años,2018,5
+44205,Samper de Calanda,7 años,2018,2
+44205,Samper de Calanda,8 años,2018,7
+44205,Samper de Calanda,9 años,2018,6
+44205,Samper de Calanda,10 años,2018,2
+44205,Samper de Calanda,11 años,2018,6
+44205,Samper de Calanda,12 años,2018,8
+44205,Samper de Calanda,13 años,2018,7
+44205,Samper de Calanda,14 años,2018,7
+44205,Samper de Calanda,15 años,2018,5
+44205,Samper de Calanda,16 años,2018,9
+44205,Samper de Calanda,17 años,2018,7
+44205,Samper de Calanda,18 años,2018,7
+44206,San Agustín,0 años,2018,0.0
+44206,San Agustín,1 año,2018,1
+44206,San Agustín,2 años,2018,0.0
+44206,San Agustín,3 años,2018,0.0
+44206,San Agustín,4 años,2018,0.0
+44206,San Agustín,5 años,2018,0.0
+44206,San Agustín,6 años,2018,1
+44206,San Agustín,7 años,2018,2
+44206,San Agustín,8 años,2018,0.0
+44206,San Agustín,9 años,2018,0.0
+44206,San Agustín,10 años,2018,1
+44206,San Agustín,11 años,2018,0.0
+44206,San Agustín,12 años,2018,0.0
+44206,San Agustín,13 años,2018,2
+44206,San Agustín,14 años,2018,0.0
+44206,San Agustín,15 años,2018,0.0
+44206,San Agustín,16 años,2018,0.0
+44206,San Agustín,17 años,2018,2
+44206,San Agustín,18 años,2018,0.0
+44207,San Martín del Río,0 años,2018,0.0
+44207,San Martín del Río,1 año,2018,0.0
+44207,San Martín del Río,2 años,2018,0.0
+44207,San Martín del Río,3 años,2018,0.0
+44207,San Martín del Río,4 años,2018,0.0
+44207,San Martín del Río,5 años,2018,1
+44207,San Martín del Río,6 años,2018,0.0
+44207,San Martín del Río,7 años,2018,0.0
+44207,San Martín del Río,8 años,2018,1
+44207,San Martín del Río,9 años,2018,0.0
+44207,San Martín del Río,10 años,2018,0.0
+44207,San Martín del Río,11 años,2018,0.0
+44207,San Martín del Río,12 años,2018,2
+44207,San Martín del Río,13 años,2018,0.0
+44207,San Martín del Río,14 años,2018,1
+44207,San Martín del Río,15 años,2018,1
+44207,San Martín del Río,16 años,2018,0.0
+44207,San Martín del Río,17 años,2018,0.0
+44207,San Martín del Río,18 años,2018,0.0
+44208,Santa Cruz de Nogueras,0 años,2018,0.0
+44208,Santa Cruz de Nogueras,1 año,2018,0.0
+44208,Santa Cruz de Nogueras,2 años,2018,0.0
+44208,Santa Cruz de Nogueras,3 años,2018,1
+44208,Santa Cruz de Nogueras,4 años,2018,0.0
+44208,Santa Cruz de Nogueras,5 años,2018,0.0
+44208,Santa Cruz de Nogueras,6 años,2018,0.0
+44208,Santa Cruz de Nogueras,7 años,2018,0.0
+44208,Santa Cruz de Nogueras,8 años,2018,0.0
+44208,Santa Cruz de Nogueras,9 años,2018,0.0
+44208,Santa Cruz de Nogueras,10 años,2018,0.0
+44208,Santa Cruz de Nogueras,11 años,2018,1
+44208,Santa Cruz de Nogueras,12 años,2018,0.0
+44208,Santa Cruz de Nogueras,13 años,2018,0.0
+44208,Santa Cruz de Nogueras,14 años,2018,0.0
+44208,Santa Cruz de Nogueras,15 años,2018,0.0
+44208,Santa Cruz de Nogueras,16 años,2018,0.0
+44208,Santa Cruz de Nogueras,17 años,2018,0.0
+44208,Santa Cruz de Nogueras,18 años,2018,0.0
+44209,Santa Eulalia,0 años,2018,5
+44209,Santa Eulalia,1 año,2018,9
+44209,Santa Eulalia,2 años,2018,3
+44209,Santa Eulalia,3 años,2018,7
+44209,Santa Eulalia,4 años,2018,8
+44209,Santa Eulalia,5 años,2018,3
+44209,Santa Eulalia,6 años,2018,10
+44209,Santa Eulalia,7 años,2018,10
+44209,Santa Eulalia,8 años,2018,5
+44209,Santa Eulalia,9 años,2018,4
+44209,Santa Eulalia,10 años,2018,11
+44209,Santa Eulalia,11 años,2018,1
+44209,Santa Eulalia,12 años,2018,4
+44209,Santa Eulalia,13 años,2018,7
+44209,Santa Eulalia,14 años,2018,10
+44209,Santa Eulalia,15 años,2018,6
+44209,Santa Eulalia,16 años,2018,6
+44209,Santa Eulalia,17 años,2018,9
+44209,Santa Eulalia,18 años,2018,8
+44210,Sarrión,0 años,2018,12
+44210,Sarrión,1 año,2018,17
+44210,Sarrión,2 años,2018,17
+44210,Sarrión,3 años,2018,14
+44210,Sarrión,4 años,2018,18
+44210,Sarrión,5 años,2018,17
+44210,Sarrión,6 años,2018,13
+44210,Sarrión,7 años,2018,10
+44210,Sarrión,8 años,2018,16
+44210,Sarrión,9 años,2018,12
+44210,Sarrión,10 años,2018,8
+44210,Sarrión,11 años,2018,10
+44210,Sarrión,12 años,2018,9
+44210,Sarrión,13 años,2018,7
+44210,Sarrión,14 años,2018,11
+44210,Sarrión,15 años,2018,8
+44210,Sarrión,16 años,2018,7
+44210,Sarrión,17 años,2018,12
+44210,Sarrión,18 años,2018,5
+44211,Segura de los Baños,0 años,2018,0.0
+44211,Segura de los Baños,1 año,2018,0.0
+44211,Segura de los Baños,2 años,2018,0.0
+44211,Segura de los Baños,3 años,2018,0.0
+44211,Segura de los Baños,4 años,2018,0.0
+44211,Segura de los Baños,5 años,2018,0.0
+44211,Segura de los Baños,6 años,2018,0.0
+44211,Segura de los Baños,7 años,2018,0.0
+44211,Segura de los Baños,8 años,2018,0.0
+44211,Segura de los Baños,9 años,2018,0.0
+44211,Segura de los Baños,10 años,2018,0.0
+44211,Segura de los Baños,11 años,2018,0.0
+44211,Segura de los Baños,12 años,2018,0.0
+44211,Segura de los Baños,13 años,2018,0.0
+44211,Segura de los Baños,14 años,2018,0.0
+44211,Segura de los Baños,15 años,2018,0.0
+44211,Segura de los Baños,16 años,2018,0.0
+44211,Segura de los Baños,17 años,2018,0.0
+44211,Segura de los Baños,18 años,2018,0.0
+44212,Seno,0 años,2018,0.0
+44212,Seno,1 año,2018,0.0
+44212,Seno,2 años,2018,0.0
+44212,Seno,3 años,2018,0.0
+44212,Seno,4 años,2018,0.0
+44212,Seno,5 años,2018,1
+44212,Seno,6 años,2018,0.0
+44212,Seno,7 años,2018,0.0
+44212,Seno,8 años,2018,0.0
+44212,Seno,9 años,2018,0.0
+44212,Seno,10 años,2018,0.0
+44212,Seno,11 años,2018,0.0
+44212,Seno,12 años,2018,0.0
+44212,Seno,13 años,2018,0.0
+44212,Seno,14 años,2018,0.0
+44212,Seno,15 años,2018,0.0
+44212,Seno,16 años,2018,0.0
+44212,Seno,17 años,2018,0.0
+44212,Seno,18 años,2018,0.0
+44213,Singra,0 años,2018,0.0
+44213,Singra,1 año,2018,0.0
+44213,Singra,2 años,2018,0.0
+44213,Singra,3 años,2018,0.0
+44213,Singra,4 años,2018,0.0
+44213,Singra,5 años,2018,0.0
+44213,Singra,6 años,2018,0.0
+44213,Singra,7 años,2018,0.0
+44213,Singra,8 años,2018,1
+44213,Singra,9 años,2018,0.0
+44213,Singra,10 años,2018,0.0
+44213,Singra,11 años,2018,0.0
+44213,Singra,12 años,2018,0.0
+44213,Singra,13 años,2018,0.0
+44213,Singra,14 años,2018,1
+44213,Singra,15 años,2018,0.0
+44213,Singra,16 años,2018,2
+44213,Singra,17 años,2018,2
+44213,Singra,18 años,2018,0.0
+44215,Terriente,0 años,2018,0.0
+44215,Terriente,1 año,2018,1
+44215,Terriente,2 años,2018,0.0
+44215,Terriente,3 años,2018,0.0
+44215,Terriente,4 años,2018,1
+44215,Terriente,5 años,2018,0.0
+44215,Terriente,6 años,2018,1
+44215,Terriente,7 años,2018,0.0
+44215,Terriente,8 años,2018,1
+44215,Terriente,9 años,2018,1
+44215,Terriente,10 años,2018,2
+44215,Terriente,11 años,2018,1
+44215,Terriente,12 años,2018,0.0
+44215,Terriente,13 años,2018,0.0
+44215,Terriente,14 años,2018,0.0
+44215,Terriente,15 años,2018,0.0
+44215,Terriente,16 años,2018,0.0
+44215,Terriente,17 años,2018,1
+44215,Terriente,18 años,2018,0.0
+44216,Teruel,0 años,2018,287
+44216,Teruel,1 año,2018,327
+44216,Teruel,2 años,2018,328
+44216,Teruel,3 años,2018,369
+44216,Teruel,4 años,2018,359
+44216,Teruel,5 años,2018,335
+44216,Teruel,6 años,2018,386
+44216,Teruel,7 años,2018,376
+44216,Teruel,8 años,2018,385
+44216,Teruel,9 años,2018,355
+44216,Teruel,10 años,2018,393
+44216,Teruel,11 años,2018,389
+44216,Teruel,12 años,2018,363
+44216,Teruel,13 años,2018,397
+44216,Teruel,14 años,2018,361
+44216,Teruel,15 años,2018,361
+44216,Teruel,16 años,2018,367
+44216,Teruel,17 años,2018,414
+44216,Teruel,18 años,2018,351
+44217,Toril y Masegoso,0 años,2018,0.0
+44217,Toril y Masegoso,1 año,2018,0.0
+44217,Toril y Masegoso,2 años,2018,0.0
+44217,Toril y Masegoso,3 años,2018,0.0
+44217,Toril y Masegoso,4 años,2018,0.0
+44217,Toril y Masegoso,5 años,2018,0.0
+44217,Toril y Masegoso,6 años,2018,0.0
+44217,Toril y Masegoso,7 años,2018,0.0
+44217,Toril y Masegoso,8 años,2018,0.0
+44217,Toril y Masegoso,9 años,2018,0.0
+44217,Toril y Masegoso,10 años,2018,0.0
+44217,Toril y Masegoso,11 años,2018,0.0
+44217,Toril y Masegoso,12 años,2018,0.0
+44217,Toril y Masegoso,13 años,2018,0.0
+44217,Toril y Masegoso,14 años,2018,0.0
+44217,Toril y Masegoso,15 años,2018,0.0
+44217,Toril y Masegoso,16 años,2018,0.0
+44217,Toril y Masegoso,17 años,2018,0.0
+44217,Toril y Masegoso,18 años,2018,0.0
+44218,Tormón,0 años,2018,0.0
+44218,Tormón,1 año,2018,0.0
+44218,Tormón,2 años,2018,0.0
+44218,Tormón,3 años,2018,0.0
+44218,Tormón,4 años,2018,0.0
+44218,Tormón,5 años,2018,0.0
+44218,Tormón,6 años,2018,0.0
+44218,Tormón,7 años,2018,0.0
+44218,Tormón,8 años,2018,0.0
+44218,Tormón,9 años,2018,0.0
+44218,Tormón,10 años,2018,0.0
+44218,Tormón,11 años,2018,0.0
+44218,Tormón,12 años,2018,0.0
+44218,Tormón,13 años,2018,0.0
+44218,Tormón,14 años,2018,0.0
+44218,Tormón,15 años,2018,0.0
+44218,Tormón,16 años,2018,0.0
+44218,Tormón,17 años,2018,0.0
+44218,Tormón,18 años,2018,0.0
+44219,Tornos,0 años,2018,2
+44219,Tornos,1 año,2018,1
+44219,Tornos,2 años,2018,1
+44219,Tornos,3 años,2018,3
+44219,Tornos,4 años,2018,0.0
+44219,Tornos,5 años,2018,0.0
+44219,Tornos,6 años,2018,1
+44219,Tornos,7 años,2018,1
+44219,Tornos,8 años,2018,1
+44219,Tornos,9 años,2018,1
+44219,Tornos,10 años,2018,1
+44219,Tornos,11 años,2018,2
+44219,Tornos,12 años,2018,2
+44219,Tornos,13 años,2018,2
+44219,Tornos,14 años,2018,0.0
+44219,Tornos,15 años,2018,1
+44219,Tornos,16 años,2018,1
+44219,Tornos,17 años,2018,0.0
+44219,Tornos,18 años,2018,0.0
+44220,Torralba de los Sisones,0 años,2018,0.0
+44220,Torralba de los Sisones,1 año,2018,0.0
+44220,Torralba de los Sisones,2 años,2018,1
+44220,Torralba de los Sisones,3 años,2018,0.0
+44220,Torralba de los Sisones,4 años,2018,1
+44220,Torralba de los Sisones,5 años,2018,1
+44220,Torralba de los Sisones,6 años,2018,0.0
+44220,Torralba de los Sisones,7 años,2018,0.0
+44220,Torralba de los Sisones,8 años,2018,0.0
+44220,Torralba de los Sisones,9 años,2018,2
+44220,Torralba de los Sisones,10 años,2018,2
+44220,Torralba de los Sisones,11 años,2018,3
+44220,Torralba de los Sisones,12 años,2018,1
+44220,Torralba de los Sisones,13 años,2018,1
+44220,Torralba de los Sisones,14 años,2018,4
+44220,Torralba de los Sisones,15 años,2018,1
+44220,Torralba de los Sisones,16 años,2018,0.0
+44220,Torralba de los Sisones,17 años,2018,2
+44220,Torralba de los Sisones,18 años,2018,4
+44221,Torrecilla de Alcañiz,0 años,2018,2
+44221,Torrecilla de Alcañiz,1 año,2018,3
+44221,Torrecilla de Alcañiz,2 años,2018,4
+44221,Torrecilla de Alcañiz,3 años,2018,2
+44221,Torrecilla de Alcañiz,4 años,2018,2
+44221,Torrecilla de Alcañiz,5 años,2018,0.0
+44221,Torrecilla de Alcañiz,6 años,2018,0.0
+44221,Torrecilla de Alcañiz,7 años,2018,0.0
+44221,Torrecilla de Alcañiz,8 años,2018,1
+44221,Torrecilla de Alcañiz,9 años,2018,4
+44221,Torrecilla de Alcañiz,10 años,2018,1
+44221,Torrecilla de Alcañiz,11 años,2018,1
+44221,Torrecilla de Alcañiz,12 años,2018,1
+44221,Torrecilla de Alcañiz,13 años,2018,2
+44221,Torrecilla de Alcañiz,14 años,2018,3
+44221,Torrecilla de Alcañiz,15 años,2018,2
+44221,Torrecilla de Alcañiz,16 años,2018,1
+44221,Torrecilla de Alcañiz,17 años,2018,4
+44221,Torrecilla de Alcañiz,18 años,2018,4
+44222,Torrecilla del Rebollar,0 años,2018,0.0
+44222,Torrecilla del Rebollar,1 año,2018,0.0
+44222,Torrecilla del Rebollar,2 años,2018,0.0
+44222,Torrecilla del Rebollar,3 años,2018,0.0
+44222,Torrecilla del Rebollar,4 años,2018,0.0
+44222,Torrecilla del Rebollar,5 años,2018,0.0
+44222,Torrecilla del Rebollar,6 años,2018,0.0
+44222,Torrecilla del Rebollar,7 años,2018,0.0
+44222,Torrecilla del Rebollar,8 años,2018,1
+44222,Torrecilla del Rebollar,9 años,2018,0.0
+44222,Torrecilla del Rebollar,10 años,2018,0.0
+44222,Torrecilla del Rebollar,11 años,2018,0.0
+44222,Torrecilla del Rebollar,12 años,2018,0.0
+44222,Torrecilla del Rebollar,13 años,2018,0.0
+44222,Torrecilla del Rebollar,14 años,2018,0.0
+44222,Torrecilla del Rebollar,15 años,2018,0.0
+44222,Torrecilla del Rebollar,16 años,2018,1
+44222,Torrecilla del Rebollar,17 años,2018,0.0
+44222,Torrecilla del Rebollar,18 años,2018,0.0
+44223,Torre de Arcas,0 años,2018,1
+44223,Torre de Arcas,1 año,2018,0.0
+44223,Torre de Arcas,2 años,2018,0.0
+44223,Torre de Arcas,3 años,2018,0.0
+44223,Torre de Arcas,4 años,2018,0.0
+44223,Torre de Arcas,5 años,2018,0.0
+44223,Torre de Arcas,6 años,2018,1
+44223,Torre de Arcas,7 años,2018,0.0
+44223,Torre de Arcas,8 años,2018,1
+44223,Torre de Arcas,9 años,2018,0.0
+44223,Torre de Arcas,10 años,2018,3
+44223,Torre de Arcas,11 años,2018,0.0
+44223,Torre de Arcas,12 años,2018,1
+44223,Torre de Arcas,13 años,2018,0.0
+44223,Torre de Arcas,14 años,2018,0.0
+44223,Torre de Arcas,15 años,2018,3
+44223,Torre de Arcas,16 años,2018,0.0
+44223,Torre de Arcas,17 años,2018,1
+44223,Torre de Arcas,18 años,2018,0.0
+44224,Torre de las Arcas,0 años,2018,0.0
+44224,Torre de las Arcas,1 año,2018,0.0
+44224,Torre de las Arcas,2 años,2018,0.0
+44224,Torre de las Arcas,3 años,2018,0.0
+44224,Torre de las Arcas,4 años,2018,0.0
+44224,Torre de las Arcas,5 años,2018,1
+44224,Torre de las Arcas,6 años,2018,0.0
+44224,Torre de las Arcas,7 años,2018,0.0
+44224,Torre de las Arcas,8 años,2018,0.0
+44224,Torre de las Arcas,9 años,2018,0.0
+44224,Torre de las Arcas,10 años,2018,0.0
+44224,Torre de las Arcas,11 años,2018,0.0
+44224,Torre de las Arcas,12 años,2018,1
+44224,Torre de las Arcas,13 años,2018,0.0
+44224,Torre de las Arcas,14 años,2018,0.0
+44224,Torre de las Arcas,15 años,2018,0.0
+44224,Torre de las Arcas,16 años,2018,0.0
+44224,Torre de las Arcas,17 años,2018,1
+44224,Torre de las Arcas,18 años,2018,0.0
+44225,Torre del Compte,0 años,2018,1
+44225,Torre del Compte,1 año,2018,0.0
+44225,Torre del Compte,2 años,2018,2
+44225,Torre del Compte,3 años,2018,0.0
+44225,Torre del Compte,4 años,2018,1
+44225,Torre del Compte,5 años,2018,0.0
+44225,Torre del Compte,6 años,2018,0.0
+44225,Torre del Compte,7 años,2018,1
+44225,Torre del Compte,8 años,2018,1
+44225,Torre del Compte,9 años,2018,0.0
+44225,Torre del Compte,10 años,2018,0.0
+44225,Torre del Compte,11 años,2018,0.0
+44225,Torre del Compte,12 años,2018,1
+44225,Torre del Compte,13 años,2018,0.0
+44225,Torre del Compte,14 años,2018,1
+44225,Torre del Compte,15 años,2018,0.0
+44225,Torre del Compte,16 años,2018,0.0
+44225,Torre del Compte,17 años,2018,1
+44225,Torre del Compte,18 años,2018,0.0
+44226,Torrelacárcel,0 años,2018,0.0
+44226,Torrelacárcel,1 año,2018,1
+44226,Torrelacárcel,2 años,2018,1
+44226,Torrelacárcel,3 años,2018,2
+44226,Torrelacárcel,4 años,2018,1
+44226,Torrelacárcel,5 años,2018,1
+44226,Torrelacárcel,6 años,2018,1
+44226,Torrelacárcel,7 años,2018,0.0
+44226,Torrelacárcel,8 años,2018,0.0
+44226,Torrelacárcel,9 años,2018,0.0
+44226,Torrelacárcel,10 años,2018,1
+44226,Torrelacárcel,11 años,2018,0.0
+44226,Torrelacárcel,12 años,2018,0.0
+44226,Torrelacárcel,13 años,2018,1
+44226,Torrelacárcel,14 años,2018,0.0
+44226,Torrelacárcel,15 años,2018,1
+44226,Torrelacárcel,16 años,2018,0.0
+44226,Torrelacárcel,17 años,2018,1
+44226,Torrelacárcel,18 años,2018,1
+44227,Torre los Negros,0 años,2018,0.0
+44227,Torre los Negros,1 año,2018,0.0
+44227,Torre los Negros,2 años,2018,0.0
+44227,Torre los Negros,3 años,2018,0.0
+44227,Torre los Negros,4 años,2018,0.0
+44227,Torre los Negros,5 años,2018,1
+44227,Torre los Negros,6 años,2018,0.0
+44227,Torre los Negros,7 años,2018,0.0
+44227,Torre los Negros,8 años,2018,0.0
+44227,Torre los Negros,9 años,2018,0.0
+44227,Torre los Negros,10 años,2018,0.0
+44227,Torre los Negros,11 años,2018,0.0
+44227,Torre los Negros,12 años,2018,1
+44227,Torre los Negros,13 años,2018,0.0
+44227,Torre los Negros,14 años,2018,1
+44227,Torre los Negros,15 años,2018,0.0
+44227,Torre los Negros,16 años,2018,1
+44227,Torre los Negros,17 años,2018,0.0
+44227,Torre los Negros,18 años,2018,0.0
+44228,Torremocha de Jiloca,0 años,2018,1
+44228,Torremocha de Jiloca,1 año,2018,0.0
+44228,Torremocha de Jiloca,2 años,2018,0.0
+44228,Torremocha de Jiloca,3 años,2018,1
+44228,Torremocha de Jiloca,4 años,2018,0.0
+44228,Torremocha de Jiloca,5 años,2018,0.0
+44228,Torremocha de Jiloca,6 años,2018,0.0
+44228,Torremocha de Jiloca,7 años,2018,0.0
+44228,Torremocha de Jiloca,8 años,2018,0.0
+44228,Torremocha de Jiloca,9 años,2018,1
+44228,Torremocha de Jiloca,10 años,2018,0.0
+44228,Torremocha de Jiloca,11 años,2018,0.0
+44228,Torremocha de Jiloca,12 años,2018,0.0
+44228,Torremocha de Jiloca,13 años,2018,2
+44228,Torremocha de Jiloca,14 años,2018,0.0
+44228,Torremocha de Jiloca,15 años,2018,0.0
+44228,Torremocha de Jiloca,16 años,2018,2
+44228,Torremocha de Jiloca,17 años,2018,0.0
+44228,Torremocha de Jiloca,18 años,2018,0.0
+44229,Torres de Albarracín,0 años,2018,3
+44229,Torres de Albarracín,1 año,2018,1
+44229,Torres de Albarracín,2 años,2018,0.0
+44229,Torres de Albarracín,3 años,2018,0.0
+44229,Torres de Albarracín,4 años,2018,2
+44229,Torres de Albarracín,5 años,2018,2
+44229,Torres de Albarracín,6 años,2018,1
+44229,Torres de Albarracín,7 años,2018,1
+44229,Torres de Albarracín,8 años,2018,0.0
+44229,Torres de Albarracín,9 años,2018,1
+44229,Torres de Albarracín,10 años,2018,3
+44229,Torres de Albarracín,11 años,2018,1
+44229,Torres de Albarracín,12 años,2018,2
+44229,Torres de Albarracín,13 años,2018,1
+44229,Torres de Albarracín,14 años,2018,2
+44229,Torres de Albarracín,15 años,2018,2
+44229,Torres de Albarracín,16 años,2018,2
+44229,Torres de Albarracín,17 años,2018,0.0
+44229,Torres de Albarracín,18 años,2018,1
+44230,Torrevelilla,0 años,2018,1
+44230,Torrevelilla,1 año,2018,2
+44230,Torrevelilla,2 años,2018,0.0
+44230,Torrevelilla,3 años,2018,3
+44230,Torrevelilla,4 años,2018,1
+44230,Torrevelilla,5 años,2018,3
+44230,Torrevelilla,6 años,2018,2
+44230,Torrevelilla,7 años,2018,2
+44230,Torrevelilla,8 años,2018,1
+44230,Torrevelilla,9 años,2018,1
+44230,Torrevelilla,10 años,2018,0.0
+44230,Torrevelilla,11 años,2018,0.0
+44230,Torrevelilla,12 años,2018,0.0
+44230,Torrevelilla,13 años,2018,1
+44230,Torrevelilla,14 años,2018,3
+44230,Torrevelilla,15 años,2018,1
+44230,Torrevelilla,16 años,2018,1
+44230,Torrevelilla,17 años,2018,3
+44230,Torrevelilla,18 años,2018,3
+44231,Torrijas,0 años,2018,1
+44231,Torrijas,1 año,2018,0.0
+44231,Torrijas,2 años,2018,0.0
+44231,Torrijas,3 años,2018,0.0
+44231,Torrijas,4 años,2018,0.0
+44231,Torrijas,5 años,2018,0.0
+44231,Torrijas,6 años,2018,0.0
+44231,Torrijas,7 años,2018,0.0
+44231,Torrijas,8 años,2018,1
+44231,Torrijas,9 años,2018,0.0
+44231,Torrijas,10 años,2018,0.0
+44231,Torrijas,11 años,2018,1
+44231,Torrijas,12 años,2018,0.0
+44231,Torrijas,13 años,2018,1
+44231,Torrijas,14 años,2018,0.0
+44231,Torrijas,15 años,2018,0.0
+44231,Torrijas,16 años,2018,1
+44231,Torrijas,17 años,2018,1
+44231,Torrijas,18 años,2018,0.0
+44232,Torrijo del Campo,0 años,2018,3
+44232,Torrijo del Campo,1 año,2018,1
+44232,Torrijo del Campo,2 años,2018,0.0
+44232,Torrijo del Campo,3 años,2018,1
+44232,Torrijo del Campo,4 años,2018,4
+44232,Torrijo del Campo,5 años,2018,3
+44232,Torrijo del Campo,6 años,2018,0.0
+44232,Torrijo del Campo,7 años,2018,2
+44232,Torrijo del Campo,8 años,2018,3
+44232,Torrijo del Campo,9 años,2018,2
+44232,Torrijo del Campo,10 años,2018,2
+44232,Torrijo del Campo,11 años,2018,1
+44232,Torrijo del Campo,12 años,2018,1
+44232,Torrijo del Campo,13 años,2018,1
+44232,Torrijo del Campo,14 años,2018,2
+44232,Torrijo del Campo,15 años,2018,3
+44232,Torrijo del Campo,16 años,2018,2
+44232,Torrijo del Campo,17 años,2018,3
+44232,Torrijo del Campo,18 años,2018,2
+44234,Tramacastiel,0 años,2018,0.0
+44234,Tramacastiel,1 año,2018,0.0
+44234,Tramacastiel,2 años,2018,0.0
+44234,Tramacastiel,3 años,2018,0.0
+44234,Tramacastiel,4 años,2018,0.0
+44234,Tramacastiel,5 años,2018,0.0
+44234,Tramacastiel,6 años,2018,0.0
+44234,Tramacastiel,7 años,2018,0.0
+44234,Tramacastiel,8 años,2018,0.0
+44234,Tramacastiel,9 años,2018,0.0
+44234,Tramacastiel,10 años,2018,0.0
+44234,Tramacastiel,11 años,2018,0.0
+44234,Tramacastiel,12 años,2018,0.0
+44234,Tramacastiel,13 años,2018,0.0
+44234,Tramacastiel,14 años,2018,0.0
+44234,Tramacastiel,15 años,2018,0.0
+44234,Tramacastiel,16 años,2018,1
+44234,Tramacastiel,17 años,2018,0.0
+44234,Tramacastiel,18 años,2018,2
+44235,Tramacastilla,0 años,2018,0.0
+44235,Tramacastilla,1 año,2018,0.0
+44235,Tramacastilla,2 años,2018,0.0
+44235,Tramacastilla,3 años,2018,0.0
+44235,Tramacastilla,4 años,2018,0.0
+44235,Tramacastilla,5 años,2018,0.0
+44235,Tramacastilla,6 años,2018,2
+44235,Tramacastilla,7 años,2018,0.0
+44235,Tramacastilla,8 años,2018,1
+44235,Tramacastilla,9 años,2018,0.0
+44235,Tramacastilla,10 años,2018,2
+44235,Tramacastilla,11 años,2018,2
+44235,Tramacastilla,12 años,2018,0.0
+44235,Tramacastilla,13 años,2018,0.0
+44235,Tramacastilla,14 años,2018,0.0
+44235,Tramacastilla,15 años,2018,0.0
+44235,Tramacastilla,16 años,2018,1
+44235,Tramacastilla,17 años,2018,2
+44235,Tramacastilla,18 años,2018,2
+44236,Tronchón,0 años,2018,0.0
+44236,Tronchón,1 año,2018,0.0
+44236,Tronchón,2 años,2018,0.0
+44236,Tronchón,3 años,2018,0.0
+44236,Tronchón,4 años,2018,0.0
+44236,Tronchón,5 años,2018,0.0
+44236,Tronchón,6 años,2018,0.0
+44236,Tronchón,7 años,2018,0.0
+44236,Tronchón,8 años,2018,1
+44236,Tronchón,9 años,2018,0.0
+44236,Tronchón,10 años,2018,1
+44236,Tronchón,11 años,2018,0.0
+44236,Tronchón,12 años,2018,0.0
+44236,Tronchón,13 años,2018,0.0
+44236,Tronchón,14 años,2018,0.0
+44236,Tronchón,15 años,2018,0.0
+44236,Tronchón,16 años,2018,1
+44236,Tronchón,17 años,2018,1
+44236,Tronchón,18 años,2018,0.0
+44237,Urrea de Gaén,0 años,2018,0.0
+44237,Urrea de Gaén,1 año,2018,2
+44237,Urrea de Gaén,2 años,2018,1
+44237,Urrea de Gaén,3 años,2018,0.0
+44237,Urrea de Gaén,4 años,2018,1
+44237,Urrea de Gaén,5 años,2018,2
+44237,Urrea de Gaén,6 años,2018,3
+44237,Urrea de Gaén,7 años,2018,2
+44237,Urrea de Gaén,8 años,2018,2
+44237,Urrea de Gaén,9 años,2018,3
+44237,Urrea de Gaén,10 años,2018,3
+44237,Urrea de Gaén,11 años,2018,4
+44237,Urrea de Gaén,12 años,2018,0.0
+44237,Urrea de Gaén,13 años,2018,1
+44237,Urrea de Gaén,14 años,2018,1
+44237,Urrea de Gaén,15 años,2018,3
+44237,Urrea de Gaén,16 años,2018,7
+44237,Urrea de Gaén,17 años,2018,1
+44237,Urrea de Gaén,18 años,2018,3
+44238,Utrillas,0 años,2018,23
+44238,Utrillas,1 año,2018,17
+44238,Utrillas,2 años,2018,16
+44238,Utrillas,3 años,2018,28
+44238,Utrillas,4 años,2018,18
+44238,Utrillas,5 años,2018,33
+44238,Utrillas,6 años,2018,31
+44238,Utrillas,7 años,2018,25
+44238,Utrillas,8 años,2018,35
+44238,Utrillas,9 años,2018,36
+44238,Utrillas,10 años,2018,25
+44238,Utrillas,11 años,2018,21
+44238,Utrillas,12 años,2018,14
+44238,Utrillas,13 años,2018,45
+44238,Utrillas,14 años,2018,27
+44238,Utrillas,15 años,2018,28
+44238,Utrillas,16 años,2018,23
+44238,Utrillas,17 años,2018,31
+44238,Utrillas,18 años,2018,23
+44239,Valacloche,0 años,2018,0.0
+44239,Valacloche,1 año,2018,0.0
+44239,Valacloche,2 años,2018,0.0
+44239,Valacloche,3 años,2018,0.0
+44239,Valacloche,4 años,2018,0.0
+44239,Valacloche,5 años,2018,0.0
+44239,Valacloche,6 años,2018,0.0
+44239,Valacloche,7 años,2018,0.0
+44239,Valacloche,8 años,2018,0.0
+44239,Valacloche,9 años,2018,0.0
+44239,Valacloche,10 años,2018,0.0
+44239,Valacloche,11 años,2018,0.0
+44239,Valacloche,12 años,2018,0.0
+44239,Valacloche,13 años,2018,0.0
+44239,Valacloche,14 años,2018,0.0
+44239,Valacloche,15 años,2018,0.0
+44239,Valacloche,16 años,2018,0.0
+44239,Valacloche,17 años,2018,0.0
+44239,Valacloche,18 años,2018,0.0
+44240,Valbona,0 años,2018,0.0
+44240,Valbona,1 año,2018,2
+44240,Valbona,2 años,2018,1
+44240,Valbona,3 años,2018,0.0
+44240,Valbona,4 años,2018,1
+44240,Valbona,5 años,2018,1
+44240,Valbona,6 años,2018,0.0
+44240,Valbona,7 años,2018,1
+44240,Valbona,8 años,2018,0.0
+44240,Valbona,9 años,2018,0.0
+44240,Valbona,10 años,2018,2
+44240,Valbona,11 años,2018,1
+44240,Valbona,12 años,2018,1
+44240,Valbona,13 años,2018,1
+44240,Valbona,14 años,2018,1
+44240,Valbona,15 años,2018,0.0
+44240,Valbona,16 años,2018,1
+44240,Valbona,17 años,2018,1
+44240,Valbona,18 años,2018,1
+44241,Valdealgorfa,0 años,2018,4
+44241,Valdealgorfa,1 año,2018,3
+44241,Valdealgorfa,2 años,2018,2
+44241,Valdealgorfa,3 años,2018,6
+44241,Valdealgorfa,4 años,2018,4
+44241,Valdealgorfa,5 años,2018,3
+44241,Valdealgorfa,6 años,2018,6
+44241,Valdealgorfa,7 años,2018,8
+44241,Valdealgorfa,8 años,2018,4
+44241,Valdealgorfa,9 años,2018,7
+44241,Valdealgorfa,10 años,2018,4
+44241,Valdealgorfa,11 años,2018,2
+44241,Valdealgorfa,12 años,2018,2
+44241,Valdealgorfa,13 años,2018,5
+44241,Valdealgorfa,14 años,2018,2
+44241,Valdealgorfa,15 años,2018,3
+44241,Valdealgorfa,16 años,2018,3
+44241,Valdealgorfa,17 años,2018,8
+44241,Valdealgorfa,18 años,2018,4
+44243,Valdecuenca,0 años,2018,1
+44243,Valdecuenca,1 año,2018,0.0
+44243,Valdecuenca,2 años,2018,0.0
+44243,Valdecuenca,3 años,2018,0.0
+44243,Valdecuenca,4 años,2018,0.0
+44243,Valdecuenca,5 años,2018,0.0
+44243,Valdecuenca,6 años,2018,0.0
+44243,Valdecuenca,7 años,2018,0.0
+44243,Valdecuenca,8 años,2018,0.0
+44243,Valdecuenca,9 años,2018,0.0
+44243,Valdecuenca,10 años,2018,0.0
+44243,Valdecuenca,11 años,2018,1
+44243,Valdecuenca,12 años,2018,0.0
+44243,Valdecuenca,13 años,2018,0.0
+44243,Valdecuenca,14 años,2018,0.0
+44243,Valdecuenca,15 años,2018,0.0
+44243,Valdecuenca,16 años,2018,0.0
+44243,Valdecuenca,17 años,2018,0.0
+44243,Valdecuenca,18 años,2018,0.0
+44244,Valdelinares,0 años,2018,1
+44244,Valdelinares,1 año,2018,0.0
+44244,Valdelinares,2 años,2018,1
+44244,Valdelinares,3 años,2018,0.0
+44244,Valdelinares,4 años,2018,1
+44244,Valdelinares,5 años,2018,0.0
+44244,Valdelinares,6 años,2018,0.0
+44244,Valdelinares,7 años,2018,2
+44244,Valdelinares,8 años,2018,1
+44244,Valdelinares,9 años,2018,1
+44244,Valdelinares,10 años,2018,1
+44244,Valdelinares,11 años,2018,0.0
+44244,Valdelinares,12 años,2018,0.0
+44244,Valdelinares,13 años,2018,0.0
+44244,Valdelinares,14 años,2018,2
+44244,Valdelinares,15 años,2018,0.0
+44244,Valdelinares,16 años,2018,3
+44244,Valdelinares,17 años,2018,2
+44244,Valdelinares,18 años,2018,0.0
+44245,Valdeltormo,0 años,2018,1
+44245,Valdeltormo,1 año,2018,3
+44245,Valdeltormo,2 años,2018,1
+44245,Valdeltormo,3 años,2018,3
+44245,Valdeltormo,4 años,2018,0.0
+44245,Valdeltormo,5 años,2018,3
+44245,Valdeltormo,6 años,2018,2
+44245,Valdeltormo,7 años,2018,0.0
+44245,Valdeltormo,8 años,2018,2
+44245,Valdeltormo,9 años,2018,1
+44245,Valdeltormo,10 años,2018,3
+44245,Valdeltormo,11 años,2018,1
+44245,Valdeltormo,12 años,2018,3
+44245,Valdeltormo,13 años,2018,0.0
+44245,Valdeltormo,14 años,2018,1
+44245,Valdeltormo,15 años,2018,1
+44245,Valdeltormo,16 años,2018,3
+44245,Valdeltormo,17 años,2018,3
+44245,Valdeltormo,18 años,2018,1
+44246,Valderrobres,0 años,2018,23
+44246,Valderrobres,1 año,2018,23
+44246,Valderrobres,2 años,2018,24
+44246,Valderrobres,3 años,2018,31
+44246,Valderrobres,4 años,2018,25
+44246,Valderrobres,5 años,2018,21
+44246,Valderrobres,6 años,2018,30
+44246,Valderrobres,7 años,2018,24
+44246,Valderrobres,8 años,2018,27
+44246,Valderrobres,9 años,2018,23
+44246,Valderrobres,10 años,2018,31
+44246,Valderrobres,11 años,2018,16
+44246,Valderrobres,12 años,2018,31
+44246,Valderrobres,13 años,2018,27
+44246,Valderrobres,14 años,2018,23
+44246,Valderrobres,15 años,2018,20
+44246,Valderrobres,16 años,2018,18
+44246,Valderrobres,17 años,2018,29
+44246,Valderrobres,18 años,2018,20
+44247,Valjunquera,0 años,2018,2
+44247,Valjunquera,1 año,2018,3
+44247,Valjunquera,2 años,2018,2
+44247,Valjunquera,3 años,2018,3
+44247,Valjunquera,4 años,2018,0.0
+44247,Valjunquera,5 años,2018,4
+44247,Valjunquera,6 años,2018,1
+44247,Valjunquera,7 años,2018,3
+44247,Valjunquera,8 años,2018,3
+44247,Valjunquera,9 años,2018,1
+44247,Valjunquera,10 años,2018,3
+44247,Valjunquera,11 años,2018,2
+44247,Valjunquera,12 años,2018,2
+44247,Valjunquera,13 años,2018,1
+44247,Valjunquera,14 años,2018,2
+44247,Valjunquera,15 años,2018,0.0
+44247,Valjunquera,16 años,2018,3
+44247,Valjunquera,17 años,2018,3
+44247,Valjunquera,18 años,2018,7
+44249,Vallecillo El,0 años,2018,0.0
+44249,Vallecillo El,1 año,2018,0.0
+44249,Vallecillo El,2 años,2018,0.0
+44249,Vallecillo El,3 años,2018,0.0
+44249,Vallecillo El,4 años,2018,0.0
+44249,Vallecillo El,5 años,2018,0.0
+44249,Vallecillo El,6 años,2018,0.0
+44249,Vallecillo El,7 años,2018,0.0
+44249,Vallecillo El,8 años,2018,0.0
+44249,Vallecillo El,9 años,2018,0.0
+44249,Vallecillo El,10 años,2018,0.0
+44249,Vallecillo El,11 años,2018,0.0
+44249,Vallecillo El,12 años,2018,0.0
+44249,Vallecillo El,13 años,2018,0.0
+44249,Vallecillo El,14 años,2018,1
+44249,Vallecillo El,15 años,2018,0.0
+44249,Vallecillo El,16 años,2018,0.0
+44249,Vallecillo El,17 años,2018,0.0
+44249,Vallecillo El,18 años,2018,0.0
+44250,Veguillas de la Sierra,0 años,2018,0.0
+44250,Veguillas de la Sierra,1 año,2018,0.0
+44250,Veguillas de la Sierra,2 años,2018,0.0
+44250,Veguillas de la Sierra,3 años,2018,0.0
+44250,Veguillas de la Sierra,4 años,2018,0.0
+44250,Veguillas de la Sierra,5 años,2018,0.0
+44250,Veguillas de la Sierra,6 años,2018,0.0
+44250,Veguillas de la Sierra,7 años,2018,0.0
+44250,Veguillas de la Sierra,8 años,2018,0.0
+44250,Veguillas de la Sierra,9 años,2018,0.0
+44250,Veguillas de la Sierra,10 años,2018,0.0
+44250,Veguillas de la Sierra,11 años,2018,0.0
+44250,Veguillas de la Sierra,12 años,2018,0.0
+44250,Veguillas de la Sierra,13 años,2018,0.0
+44250,Veguillas de la Sierra,14 años,2018,0.0
+44250,Veguillas de la Sierra,15 años,2018,0.0
+44250,Veguillas de la Sierra,16 años,2018,0.0
+44250,Veguillas de la Sierra,17 años,2018,0.0
+44250,Veguillas de la Sierra,18 años,2018,0.0
+44251,Villafranca del Campo,0 años,2018,0.0
+44251,Villafranca del Campo,1 año,2018,1
+44251,Villafranca del Campo,2 años,2018,2
+44251,Villafranca del Campo,3 años,2018,1
+44251,Villafranca del Campo,4 años,2018,2
+44251,Villafranca del Campo,5 años,2018,1
+44251,Villafranca del Campo,6 años,2018,2
+44251,Villafranca del Campo,7 años,2018,0.0
+44251,Villafranca del Campo,8 años,2018,2
+44251,Villafranca del Campo,9 años,2018,3
+44251,Villafranca del Campo,10 años,2018,5
+44251,Villafranca del Campo,11 años,2018,1
+44251,Villafranca del Campo,12 años,2018,2
+44251,Villafranca del Campo,13 años,2018,3
+44251,Villafranca del Campo,14 años,2018,2
+44251,Villafranca del Campo,15 años,2018,0.0
+44251,Villafranca del Campo,16 años,2018,4
+44251,Villafranca del Campo,17 años,2018,2
+44251,Villafranca del Campo,18 años,2018,4
+44252,Villahermosa del Campo,0 años,2018,1
+44252,Villahermosa del Campo,1 año,2018,0.0
+44252,Villahermosa del Campo,2 años,2018,0.0
+44252,Villahermosa del Campo,3 años,2018,1
+44252,Villahermosa del Campo,4 años,2018,1
+44252,Villahermosa del Campo,5 años,2018,0.0
+44252,Villahermosa del Campo,6 años,2018,1
+44252,Villahermosa del Campo,7 años,2018,0.0
+44252,Villahermosa del Campo,8 años,2018,0.0
+44252,Villahermosa del Campo,9 años,2018,0.0
+44252,Villahermosa del Campo,10 años,2018,2
+44252,Villahermosa del Campo,11 años,2018,0.0
+44252,Villahermosa del Campo,12 años,2018,0.0
+44252,Villahermosa del Campo,13 años,2018,0.0
+44252,Villahermosa del Campo,14 años,2018,0.0
+44252,Villahermosa del Campo,15 años,2018,2
+44252,Villahermosa del Campo,16 años,2018,0.0
+44252,Villahermosa del Campo,17 años,2018,0.0
+44252,Villahermosa del Campo,18 años,2018,1
+44256,Villanueva del Rebollar de la Sierra,0 años,2018,1
+44256,Villanueva del Rebollar de la Sierra,1 año,2018,0.0
+44256,Villanueva del Rebollar de la Sierra,2 años,2018,0.0
+44256,Villanueva del Rebollar de la Sierra,3 años,2018,0.0
+44256,Villanueva del Rebollar de la Sierra,4 años,2018,0.0
+44256,Villanueva del Rebollar de la Sierra,5 años,2018,0.0
+44256,Villanueva del Rebollar de la Sierra,6 años,2018,0.0
+44256,Villanueva del Rebollar de la Sierra,7 años,2018,0.0
+44256,Villanueva del Rebollar de la Sierra,8 años,2018,0.0
+44256,Villanueva del Rebollar de la Sierra,9 años,2018,1
+44256,Villanueva del Rebollar de la Sierra,10 años,2018,1
+44256,Villanueva del Rebollar de la Sierra,11 años,2018,0.0
+44256,Villanueva del Rebollar de la Sierra,12 años,2018,0.0
+44256,Villanueva del Rebollar de la Sierra,13 años,2018,1
+44256,Villanueva del Rebollar de la Sierra,14 años,2018,1
+44256,Villanueva del Rebollar de la Sierra,15 años,2018,0.0
+44256,Villanueva del Rebollar de la Sierra,16 años,2018,2
+44256,Villanueva del Rebollar de la Sierra,17 años,2018,0.0
+44256,Villanueva del Rebollar de la Sierra,18 años,2018,0.0
+44257,Villar del Cobo,0 años,2018,0.0
+44257,Villar del Cobo,1 año,2018,0.0
+44257,Villar del Cobo,2 años,2018,0.0
+44257,Villar del Cobo,3 años,2018,0.0
+44257,Villar del Cobo,4 años,2018,0.0
+44257,Villar del Cobo,5 años,2018,0.0
+44257,Villar del Cobo,6 años,2018,0.0
+44257,Villar del Cobo,7 años,2018,1
+44257,Villar del Cobo,8 años,2018,0.0
+44257,Villar del Cobo,9 años,2018,0.0
+44257,Villar del Cobo,10 años,2018,1
+44257,Villar del Cobo,11 años,2018,0.0
+44257,Villar del Cobo,12 años,2018,1
+44257,Villar del Cobo,13 años,2018,0.0
+44257,Villar del Cobo,14 años,2018,0.0
+44257,Villar del Cobo,15 años,2018,1
+44257,Villar del Cobo,16 años,2018,1
+44257,Villar del Cobo,17 años,2018,2
+44257,Villar del Cobo,18 años,2018,1
+44258,Villar del Salz,0 años,2018,0.0
+44258,Villar del Salz,1 año,2018,0.0
+44258,Villar del Salz,2 años,2018,0.0
+44258,Villar del Salz,3 años,2018,0.0
+44258,Villar del Salz,4 años,2018,0.0
+44258,Villar del Salz,5 años,2018,0.0
+44258,Villar del Salz,6 años,2018,0.0
+44258,Villar del Salz,7 años,2018,0.0
+44258,Villar del Salz,8 años,2018,0.0
+44258,Villar del Salz,9 años,2018,0.0
+44258,Villar del Salz,10 años,2018,0.0
+44258,Villar del Salz,11 años,2018,0.0
+44258,Villar del Salz,12 años,2018,0.0
+44258,Villar del Salz,13 años,2018,0.0
+44258,Villar del Salz,14 años,2018,0.0
+44258,Villar del Salz,15 años,2018,1
+44258,Villar del Salz,16 años,2018,0.0
+44258,Villar del Salz,17 años,2018,0.0
+44258,Villar del Salz,18 años,2018,1
+44260,Villarluengo,0 años,2018,3
+44260,Villarluengo,1 año,2018,0.0
+44260,Villarluengo,2 años,2018,2
+44260,Villarluengo,3 años,2018,0.0
+44260,Villarluengo,4 años,2018,4
+44260,Villarluengo,5 años,2018,3
+44260,Villarluengo,6 años,2018,3
+44260,Villarluengo,7 años,2018,0.0
+44260,Villarluengo,8 años,2018,0.0
+44260,Villarluengo,9 años,2018,0.0
+44260,Villarluengo,10 años,2018,0.0
+44260,Villarluengo,11 años,2018,2
+44260,Villarluengo,12 años,2018,0.0
+44260,Villarluengo,13 años,2018,1
+44260,Villarluengo,14 años,2018,0.0
+44260,Villarluengo,15 años,2018,3
+44260,Villarluengo,16 años,2018,1
+44260,Villarluengo,17 años,2018,1
+44260,Villarluengo,18 años,2018,0.0
+44261,Villarquemado,0 años,2018,6
+44261,Villarquemado,1 año,2018,8
+44261,Villarquemado,2 años,2018,6
+44261,Villarquemado,3 años,2018,4
+44261,Villarquemado,4 años,2018,4
+44261,Villarquemado,5 años,2018,7
+44261,Villarquemado,6 años,2018,6
+44261,Villarquemado,7 años,2018,3
+44261,Villarquemado,8 años,2018,5
+44261,Villarquemado,9 años,2018,8
+44261,Villarquemado,10 años,2018,7
+44261,Villarquemado,11 años,2018,3
+44261,Villarquemado,12 años,2018,5
+44261,Villarquemado,13 años,2018,10
+44261,Villarquemado,14 años,2018,4
+44261,Villarquemado,15 años,2018,5
+44261,Villarquemado,16 años,2018,10
+44261,Villarquemado,17 años,2018,8
+44261,Villarquemado,18 años,2018,5
+44262,Villarroya de los Pinares,0 años,2018,1
+44262,Villarroya de los Pinares,1 año,2018,1
+44262,Villarroya de los Pinares,2 años,2018,0.0
+44262,Villarroya de los Pinares,3 años,2018,1
+44262,Villarroya de los Pinares,4 años,2018,2
+44262,Villarroya de los Pinares,5 años,2018,0.0
+44262,Villarroya de los Pinares,6 años,2018,2
+44262,Villarroya de los Pinares,7 años,2018,1
+44262,Villarroya de los Pinares,8 años,2018,0.0
+44262,Villarroya de los Pinares,9 años,2018,1
+44262,Villarroya de los Pinares,10 años,2018,1
+44262,Villarroya de los Pinares,11 años,2018,3
+44262,Villarroya de los Pinares,12 años,2018,1
+44262,Villarroya de los Pinares,13 años,2018,1
+44262,Villarroya de los Pinares,14 años,2018,2
+44262,Villarroya de los Pinares,15 años,2018,1
+44262,Villarroya de los Pinares,16 años,2018,2
+44262,Villarroya de los Pinares,17 años,2018,1
+44262,Villarroya de los Pinares,18 años,2018,1
+44263,Villastar,0 años,2018,4
+44263,Villastar,1 año,2018,8
+44263,Villastar,2 años,2018,6
+44263,Villastar,3 años,2018,6
+44263,Villastar,4 años,2018,9
+44263,Villastar,5 años,2018,7
+44263,Villastar,6 años,2018,5
+44263,Villastar,7 años,2018,4
+44263,Villastar,8 años,2018,8
+44263,Villastar,9 años,2018,4
+44263,Villastar,10 años,2018,5
+44263,Villastar,11 años,2018,1
+44263,Villastar,12 años,2018,4
+44263,Villastar,13 años,2018,2
+44263,Villastar,14 años,2018,2
+44263,Villastar,15 años,2018,6
+44263,Villastar,16 años,2018,3
+44263,Villastar,17 años,2018,6
+44263,Villastar,18 años,2018,2
+44264,Villel,0 años,2018,1
+44264,Villel,1 año,2018,1
+44264,Villel,2 años,2018,4
+44264,Villel,3 años,2018,2
+44264,Villel,4 años,2018,4
+44264,Villel,5 años,2018,3
+44264,Villel,6 años,2018,4
+44264,Villel,7 años,2018,1
+44264,Villel,8 años,2018,3
+44264,Villel,9 años,2018,2
+44264,Villel,10 años,2018,2
+44264,Villel,11 años,2018,3
+44264,Villel,12 años,2018,2
+44264,Villel,13 años,2018,2
+44264,Villel,14 años,2018,3
+44264,Villel,15 años,2018,0.0
+44264,Villel,16 años,2018,1
+44264,Villel,17 años,2018,1
+44264,Villel,18 años,2018,2
+44265,Vinaceite,0 años,2018,0.0
+44265,Vinaceite,1 año,2018,2
+44265,Vinaceite,2 años,2018,1
+44265,Vinaceite,3 años,2018,2
+44265,Vinaceite,4 años,2018,2
+44265,Vinaceite,5 años,2018,1
+44265,Vinaceite,6 años,2018,1
+44265,Vinaceite,7 años,2018,2
+44265,Vinaceite,8 años,2018,2
+44265,Vinaceite,9 años,2018,2
+44265,Vinaceite,10 años,2018,1
+44265,Vinaceite,11 años,2018,3
+44265,Vinaceite,12 años,2018,2
+44265,Vinaceite,13 años,2018,2
+44265,Vinaceite,14 años,2018,2
+44265,Vinaceite,15 años,2018,1
+44265,Vinaceite,16 años,2018,3
+44265,Vinaceite,17 años,2018,2
+44265,Vinaceite,18 años,2018,2
+44266,Visiedo,0 años,2018,2
+44266,Visiedo,1 año,2018,1
+44266,Visiedo,2 años,2018,1
+44266,Visiedo,3 años,2018,0.0
+44266,Visiedo,4 años,2018,2
+44266,Visiedo,5 años,2018,1
+44266,Visiedo,6 años,2018,0.0
+44266,Visiedo,7 años,2018,1
+44266,Visiedo,8 años,2018,0.0
+44266,Visiedo,9 años,2018,1
+44266,Visiedo,10 años,2018,0.0
+44266,Visiedo,11 años,2018,0.0
+44266,Visiedo,12 años,2018,1
+44266,Visiedo,13 años,2018,0.0
+44266,Visiedo,14 años,2018,1
+44266,Visiedo,15 años,2018,0.0
+44266,Visiedo,16 años,2018,0.0
+44266,Visiedo,17 años,2018,0.0
+44266,Visiedo,18 años,2018,1
+44267,Vivel del Río Martín,0 años,2018,0.0
+44267,Vivel del Río Martín,1 año,2018,0.0
+44267,Vivel del Río Martín,2 años,2018,0.0
+44267,Vivel del Río Martín,3 años,2018,0.0
+44267,Vivel del Río Martín,4 años,2018,0.0
+44267,Vivel del Río Martín,5 años,2018,1
+44267,Vivel del Río Martín,6 años,2018,0.0
+44267,Vivel del Río Martín,7 años,2018,0.0
+44267,Vivel del Río Martín,8 años,2018,1
+44267,Vivel del Río Martín,9 años,2018,0.0
+44267,Vivel del Río Martín,10 años,2018,0.0
+44267,Vivel del Río Martín,11 años,2018,0.0
+44267,Vivel del Río Martín,12 años,2018,0.0
+44267,Vivel del Río Martín,13 años,2018,0.0
+44267,Vivel del Río Martín,14 años,2018,0.0
+44267,Vivel del Río Martín,15 años,2018,0.0
+44267,Vivel del Río Martín,16 años,2018,0.0
+44267,Vivel del Río Martín,17 años,2018,0.0
+44267,Vivel del Río Martín,18 años,2018,0.0
+44268,Zoma La,0 años,2018,0.0
+44268,Zoma La,1 año,2018,0.0
+44268,Zoma La,2 años,2018,0.0
+44268,Zoma La,3 años,2018,0.0
+44268,Zoma La,4 años,2018,0.0
+44268,Zoma La,5 años,2018,0.0
+44268,Zoma La,6 años,2018,0.0
+44268,Zoma La,7 años,2018,0.0
+44268,Zoma La,8 años,2018,0.0
+44268,Zoma La,9 años,2018,0.0
+44268,Zoma La,10 años,2018,0.0
+44268,Zoma La,11 años,2018,0.0
+44268,Zoma La,12 años,2018,0.0
+44268,Zoma La,13 años,2018,0.0
+44268,Zoma La,14 años,2018,0.0
+44268,Zoma La,15 años,2018,0.0
+44268,Zoma La,16 años,2018,0.0
+44268,Zoma La,17 años,2018,0.0
+44268,Zoma La,18 años,2018,0.0

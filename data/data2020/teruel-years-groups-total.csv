@@ -1,0 +1,5665 @@
+name,age,year,total
+Ababuj,0-18,2015,7
+Ababuj,18-40,2015,18
+Ababuj,40-65,2015,22
+Ababuj,65-100,2015,26
+Ababuj,0-18,2016,7
+Ababuj,18-40,2016,18
+Ababuj,40-65,2016,24
+Ababuj,65-100,2016,27
+Ababuj,0-18,2017,6
+Ababuj,18-40,2017,15
+Ababuj,40-65,2017,27
+Ababuj,65-100,2017,25
+Ababuj,0-18,2018,7
+Ababuj,18-40,2018,15
+Ababuj,40-65,2018,27
+Ababuj,65-100,2018,27
+Ababuj,0-18,2019,8
+Ababuj,18-40,2019,11
+Ababuj,40-65,2019,28
+Ababuj,65-100,2019,26
+Ababuj,0-18,2020,9
+Ababuj,18-40,2020,13
+Ababuj,40-65,2020,31
+Ababuj,65-100,2020,24
+Abejuela,0-18,2015,1
+Abejuela,18-40,2015,13
+Abejuela,40-65,2015,22
+Abejuela,65-100,2015,18
+Abejuela,0-18,2016,3
+Abejuela,18-40,2016,11
+Abejuela,40-65,2016,23
+Abejuela,65-100,2016,19
+Abejuela,0-18,2017,2
+Abejuela,18-40,2017,6
+Abejuela,40-65,2017,23
+Abejuela,65-100,2017,19
+Abejuela,0-18,2018,2
+Abejuela,18-40,2018,4
+Abejuela,40-65,2018,26
+Abejuela,65-100,2018,17
+Abejuela,0-18,2019,2
+Abejuela,18-40,2019,6
+Abejuela,40-65,2019,23
+Abejuela,65-100,2019,17
+Abejuela,0-18,2020,2
+Abejuela,18-40,2020,6
+Abejuela,40-65,2020,25
+Abejuela,65-100,2020,17
+Aguatón,0-18,2015,0
+Aguatón,18-40,2015,5
+Aguatón,40-65,2015,6
+Aguatón,65-100,2015,8
+Aguatón,0-18,2016,0
+Aguatón,18-40,2016,5
+Aguatón,40-65,2016,6
+Aguatón,65-100,2016,8
+Aguatón,0-18,2017,0
+Aguatón,18-40,2017,4
+Aguatón,40-65,2017,7
+Aguatón,65-100,2017,8
+Aguatón,0-18,2018,0
+Aguatón,18-40,2018,4
+Aguatón,40-65,2018,6
+Aguatón,65-100,2018,8
+Aguatón,0-18,2019,1
+Aguatón,18-40,2019,3
+Aguatón,40-65,2019,7
+Aguatón,65-100,2019,7
+Aguatón,0-18,2020,1
+Aguatón,18-40,2020,2
+Aguatón,40-65,2020,9
+Aguatón,65-100,2020,7
+Aguaviva,0-18,2015,99
+Aguaviva,18-40,2015,144
+Aguaviva,40-65,2015,202
+Aguaviva,65-100,2015,141
+Aguaviva,0-18,2016,90
+Aguaviva,18-40,2016,134
+Aguaviva,40-65,2016,191
+Aguaviva,65-100,2016,135
+Aguaviva,0-18,2017,82
+Aguaviva,18-40,2017,130
+Aguaviva,40-65,2017,195
+Aguaviva,65-100,2017,124
+Aguaviva,0-18,2018,81
+Aguaviva,18-40,2018,134
+Aguaviva,40-65,2018,190
+Aguaviva,65-100,2018,117
+Aguaviva,0-18,2019,84
+Aguaviva,18-40,2019,129
+Aguaviva,40-65,2019,194
+Aguaviva,65-100,2019,107
+Aguaviva,0-18,2020,87
+Aguaviva,18-40,2020,124
+Aguaviva,40-65,2020,198
+Aguaviva,65-100,2020,107
+Aguilar del Alfambra,0-18,2015,4
+Aguilar del Alfambra,18-40,2015,14
+Aguilar del Alfambra,40-65,2015,19
+Aguilar del Alfambra,65-100,2015,29
+Aguilar del Alfambra,0-18,2016,6
+Aguilar del Alfambra,18-40,2016,13
+Aguilar del Alfambra,40-65,2016,18
+Aguilar del Alfambra,65-100,2016,27
+Aguilar del Alfambra,0-18,2017,7
+Aguilar del Alfambra,18-40,2017,16
+Aguilar del Alfambra,40-65,2017,17
+Aguilar del Alfambra,65-100,2017,25
+Aguilar del Alfambra,0-18,2018,8
+Aguilar del Alfambra,18-40,2018,16
+Aguilar del Alfambra,40-65,2018,17
+Aguilar del Alfambra,65-100,2018,22
+Aguilar del Alfambra,0-18,2019,9
+Aguilar del Alfambra,18-40,2019,15
+Aguilar del Alfambra,40-65,2019,19
+Aguilar del Alfambra,65-100,2019,20
+Aguilar del Alfambra,0-18,2020,8
+Aguilar del Alfambra,18-40,2020,16
+Aguilar del Alfambra,40-65,2020,25
+Aguilar del Alfambra,65-100,2020,20
+Alacón,0-18,2015,24
+Alacón,18-40,2015,53
+Alacón,40-65,2015,92
+Alacón,65-100,2015,124
+Alacón,0-18,2016,19
+Alacón,18-40,2016,53
+Alacón,40-65,2016,84
+Alacón,65-100,2016,123
+Alacón,0-18,2017,18
+Alacón,18-40,2017,49
+Alacón,40-65,2017,85
+Alacón,65-100,2017,122
+Alacón,0-18,2018,17
+Alacón,18-40,2018,49
+Alacón,40-65,2018,83
+Alacón,65-100,2018,115
+Alacón,0-18,2019,14
+Alacón,18-40,2019,46
+Alacón,40-65,2019,81
+Alacón,65-100,2019,111
+Alacón,0-18,2020,13
+Alacón,18-40,2020,36
+Alacón,40-65,2020,83
+Alacón,65-100,2020,106
+Alba,0-18,2015,567
+Alba,18-40,2015,1003
+Alba,40-65,2015,1441
+Alba,65-100,2015,1168
+Alba,0-18,2016,554
+Alba,18-40,2016,988
+Alba,40-65,2016,1448
+Alba,65-100,2016,1158
+Alba,0-18,2017,538
+Alba,18-40,2017,966
+Alba,40-65,2017,1449
+Alba,65-100,2017,1125
+Alba,0-18,2018,548
+Alba,18-40,2018,953
+Alba,40-65,2018,1471
+Alba,65-100,2018,1097
+Alba,0-18,2019,544
+Alba,18-40,2019,949
+Alba,40-65,2019,1463
+Alba,65-100,2019,1078
+Alba,0-18,2020,534
+Alba,18-40,2020,937
+Alba,40-65,2020,1463
+Alba,65-100,2020,1063
+Albalate del Arzobispo,0-18,2015,286
+Albalate del Arzobispo,18-40,2015,480
+Albalate del Arzobispo,40-65,2015,711
+Albalate del Arzobispo,65-100,2015,524
+Albalate del Arzobispo,0-18,2016,288
+Albalate del Arzobispo,18-40,2016,473
+Albalate del Arzobispo,40-65,2016,712
+Albalate del Arzobispo,65-100,2016,530
+Albalate del Arzobispo,0-18,2017,273
+Albalate del Arzobispo,18-40,2017,469
+Albalate del Arzobispo,40-65,2017,708
+Albalate del Arzobispo,65-100,2017,528
+Albalate del Arzobispo,0-18,2018,293
+Albalate del Arzobispo,18-40,2018,465
+Albalate del Arzobispo,40-65,2018,737
+Albalate del Arzobispo,65-100,2018,509
+Albalate del Arzobispo,0-18,2019,287
+Albalate del Arzobispo,18-40,2019,464
+Albalate del Arzobispo,40-65,2019,724
+Albalate del Arzobispo,65-100,2019,505
+Albalate del Arzobispo,0-18,2020,287
+Albalate del Arzobispo,18-40,2020,451
+Albalate del Arzobispo,40-65,2020,735
+Albalate del Arzobispo,65-100,2020,499
+Albarracín,0-18,2015,263
+Albarracín,18-40,2015,477
+Albarracín,40-65,2015,658
+Albarracín,65-100,2015,570
+Albarracín,0-18,2016,251
+Albarracín,18-40,2016,477
+Albarracín,40-65,2016,662
+Albarracín,65-100,2016,559
+Albarracín,0-18,2017,249
+Albarracín,18-40,2017,465
+Albarracín,40-65,2017,667
+Albarracín,65-100,2017,534
+Albarracín,0-18,2018,241
+Albarracín,18-40,2018,458
+Albarracín,40-65,2018,666
+Albarracín,65-100,2018,522
+Albarracín,0-18,2019,247
+Albarracín,18-40,2019,454
+Albarracín,40-65,2019,676
+Albarracín,65-100,2019,507
+Albarracín,0-18,2020,237
+Albarracín,18-40,2020,453
+Albarracín,40-65,2020,667
+Albarracín,65-100,2020,503
+Albentosa,0-18,2015,53
+Albentosa,18-40,2015,60
+Albentosa,40-65,2015,97
+Albentosa,65-100,2015,60
+Albentosa,0-18,2016,50
+Albentosa,18-40,2016,62
+Albentosa,40-65,2016,100
+Albentosa,65-100,2016,55
+Albentosa,0-18,2017,49
+Albentosa,18-40,2017,58
+Albentosa,40-65,2017,96
+Albentosa,65-100,2017,52
+Albentosa,0-18,2018,54
+Albentosa,18-40,2018,58
+Albentosa,40-65,2018,94
+Albentosa,65-100,2018,51
+Albentosa,0-18,2019,61
+Albentosa,18-40,2019,62
+Albentosa,40-65,2019,102
+Albentosa,65-100,2019,51
+Albentosa,0-18,2020,58
+Albentosa,18-40,2020,73
+Albentosa,40-65,2020,107
+Albentosa,65-100,2020,51
+Alcaine,0-18,2015,4
+Alcaine,18-40,2015,17
+Alcaine,40-65,2015,30
+Alcaine,65-100,2015,23
+Alcaine,0-18,2016,5
+Alcaine,18-40,2016,16
+Alcaine,40-65,2016,29
+Alcaine,65-100,2016,20
+Alcaine,0-18,2017,4
+Alcaine,18-40,2017,13
+Alcaine,40-65,2017,22
+Alcaine,65-100,2017,23
+Alcaine,0-18,2018,5
+Alcaine,18-40,2018,11
+Alcaine,40-65,2018,21
+Alcaine,65-100,2018,26
+Alcaine,0-18,2019,5
+Alcaine,18-40,2019,8
+Alcaine,40-65,2019,19
+Alcaine,65-100,2019,27
+Alcaine,0-18,2020,2
+Alcaine,18-40,2020,5
+Alcaine,40-65,2020,19
+Alcaine,65-100,2020,27
+Alcalá de la Selva,0-18,2015,46
+Alcalá de la Selva,18-40,2015,85
+Alcalá de la Selva,40-65,2015,175
+Alcalá de la Selva,65-100,2015,93
+Alcalá de la Selva,0-18,2016,42
+Alcalá de la Selva,18-40,2016,86
+Alcalá de la Selva,40-65,2016,174
+Alcalá de la Selva,65-100,2016,96
+Alcalá de la Selva,0-18,2017,37
+Alcalá de la Selva,18-40,2017,77
+Alcalá de la Selva,40-65,2017,158
+Alcalá de la Selva,65-100,2017,97
+Alcalá de la Selva,0-18,2018,31
+Alcalá de la Selva,18-40,2018,72
+Alcalá de la Selva,40-65,2018,147
+Alcalá de la Selva,65-100,2018,97
+Alcalá de la Selva,0-18,2019,28
+Alcalá de la Selva,18-40,2019,73
+Alcalá de la Selva,40-65,2019,146
+Alcalá de la Selva,65-100,2019,96
+Alcalá de la Selva,0-18,2020,27
+Alcalá de la Selva,18-40,2020,74
+Alcalá de la Selva,40-65,2020,141
+Alcalá de la Selva,65-100,2020,89
+Alcañiz,0-18,2015,3466
+Alcañiz,18-40,2015,4787
+Alcañiz,40-65,2015,5548
+Alcañiz,65-100,2015,2836
+Alcañiz,0-18,2016,3436
+Alcañiz,18-40,2016,4487
+Alcañiz,40-65,2016,5669
+Alcañiz,65-100,2016,2875
+Alcañiz,0-18,2017,3404
+Alcañiz,18-40,2017,4323
+Alcañiz,40-65,2017,5693
+Alcañiz,65-100,2017,2943
+Alcañiz,0-18,2018,3384
+Alcañiz,18-40,2018,4174
+Alcañiz,40-65,2018,5817
+Alcañiz,65-100,2018,2987
+Alcañiz,0-18,2019,3418
+Alcañiz,18-40,2019,4056
+Alcañiz,40-65,2019,5914
+Alcañiz,65-100,2019,2992
+Alcañiz,0-18,2020,3398
+Alcañiz,18-40,2020,4022
+Alcañiz,40-65,2020,5979
+Alcañiz,65-100,2020,3046
+Alcorisa,0-18,2015,633
+Alcorisa,18-40,2015,931
+Alcorisa,40-65,2015,1182
+Alcorisa,65-100,2015,628
+Alcorisa,0-18,2016,624
+Alcorisa,18-40,2016,895
+Alcorisa,40-65,2016,1172
+Alcorisa,65-100,2016,635
+Alcorisa,0-18,2017,616
+Alcorisa,18-40,2017,865
+Alcorisa,40-65,2017,1183
+Alcorisa,65-100,2017,649
+Alcorisa,0-18,2018,618
+Alcorisa,18-40,2018,836
+Alcorisa,40-65,2018,1187
+Alcorisa,65-100,2018,635
+Alcorisa,0-18,2019,617
+Alcorisa,18-40,2019,802
+Alcorisa,40-65,2019,1184
+Alcorisa,65-100,2019,663
+Alcorisa,0-18,2020,632
+Alcorisa,18-40,2020,797
+Alcorisa,40-65,2020,1205
+Alcorisa,65-100,2020,664
+Alfambra,0-18,2015,79
+Alfambra,18-40,2015,190
+Alfambra,40-65,2015,278
+Alfambra,65-100,2015,328
+Alfambra,0-18,2016,76
+Alfambra,18-40,2016,185
+Alfambra,40-65,2016,277
+Alfambra,65-100,2016,321
+Alfambra,0-18,2017,75
+Alfambra,18-40,2017,181
+Alfambra,40-65,2017,268
+Alfambra,65-100,2017,316
+Alfambra,0-18,2018,73
+Alfambra,18-40,2018,181
+Alfambra,40-65,2018,261
+Alfambra,65-100,2018,300
+Alfambra,0-18,2019,69
+Alfambra,18-40,2019,173
+Alfambra,40-65,2019,266
+Alfambra,65-100,2019,292
+Alfambra,0-18,2020,66
+Alfambra,18-40,2020,169
+Alfambra,40-65,2020,271
+Alfambra,65-100,2020,281
+Aliaga,0-18,2015,52
+Aliaga,18-40,2015,101
+Aliaga,40-65,2015,127
+Aliaga,65-100,2015,85
+Aliaga,0-18,2016,45
+Aliaga,18-40,2016,95
+Aliaga,40-65,2016,120
+Aliaga,65-100,2016,88
+Aliaga,0-18,2017,49
+Aliaga,18-40,2017,89
+Aliaga,40-65,2017,117
+Aliaga,65-100,2017,93
+Aliaga,0-18,2018,56
+Aliaga,18-40,2018,87
+Aliaga,40-65,2018,122
+Aliaga,65-100,2018,93
+Aliaga,0-18,2019,49
+Aliaga,18-40,2019,70
+Aliaga,40-65,2019,131
+Aliaga,65-100,2019,91
+Aliaga,0-18,2020,42
+Aliaga,18-40,2020,62
+Aliaga,40-65,2020,129
+Aliaga,65-100,2020,93
+Almohaja,0-18,2015,0
+Almohaja,18-40,2015,5
+Almohaja,40-65,2015,7
+Almohaja,65-100,2015,8
+Almohaja,0-18,2016,0
+Almohaja,18-40,2016,3
+Almohaja,40-65,2016,8
+Almohaja,65-100,2016,8
+Almohaja,0-18,2017,0
+Almohaja,18-40,2017,3
+Almohaja,40-65,2017,7
+Almohaja,65-100,2017,8
+Almohaja,0-18,2018,0
+Almohaja,18-40,2018,1
+Almohaja,40-65,2018,7
+Almohaja,65-100,2018,8
+Almohaja,0-18,2019,0
+Almohaja,18-40,2019,1
+Almohaja,40-65,2019,5
+Almohaja,65-100,2019,10
+Almohaja,0-18,2020,0
+Almohaja,18-40,2020,1
+Almohaja,40-65,2020,5
+Almohaja,65-100,2020,8
+Alobras,0-18,2015,1
+Alobras,18-40,2015,12
+Alobras,40-65,2015,31
+Alobras,65-100,2015,26
+Alobras,0-18,2016,1
+Alobras,18-40,2016,8
+Alobras,40-65,2016,30
+Alobras,65-100,2016,24
+Alobras,0-18,2017,1
+Alobras,18-40,2017,10
+Alobras,40-65,2017,28
+Alobras,65-100,2017,26
+Alobras,0-18,2018,0
+Alobras,18-40,2018,12
+Alobras,40-65,2018,26
+Alobras,65-100,2018,24
+Alobras,0-18,2019,0
+Alobras,18-40,2019,13
+Alobras,40-65,2019,27
+Alobras,65-100,2019,24
+Alobras,0-18,2020,0
+Alobras,18-40,2020,14
+Alobras,40-65,2020,31
+Alobras,65-100,2020,19
+Alpeñés,0-18,2015,0
+Alpeñés,18-40,2015,2
+Alpeñés,40-65,2015,10
+Alpeñés,65-100,2015,9
+Alpeñés,0-18,2016,0
+Alpeñés,18-40,2016,4
+Alpeñés,40-65,2016,10
+Alpeñés,65-100,2016,9
+Alpeñés,0-18,2017,0
+Alpeñés,18-40,2017,5
+Alpeñés,40-65,2017,10
+Alpeñés,65-100,2017,8
+Alpeñés,0-18,2018,0
+Alpeñés,18-40,2018,4
+Alpeñés,40-65,2018,10
+Alpeñés,65-100,2018,8
+Alpeñés,0-18,2019,0
+Alpeñés,18-40,2019,4
+Alpeñés,40-65,2019,10
+Alpeñés,65-100,2019,8
+Alpeñés,0-18,2020,0
+Alpeñés,18-40,2020,4
+Alpeñés,40-65,2020,10
+Alpeñés,65-100,2020,7
+Allepuz,0-18,2015,9
+Allepuz,18-40,2015,20
+Allepuz,40-65,2015,45
+Allepuz,65-100,2015,44
+Allepuz,0-18,2016,15
+Allepuz,18-40,2016,22
+Allepuz,40-65,2016,46
+Allepuz,65-100,2016,45
+Allepuz,0-18,2017,18
+Allepuz,18-40,2017,24
+Allepuz,40-65,2017,41
+Allepuz,65-100,2017,46
+Allepuz,0-18,2018,18
+Allepuz,18-40,2018,22
+Allepuz,40-65,2018,40
+Allepuz,65-100,2018,46
+Allepuz,0-18,2019,17
+Allepuz,18-40,2019,21
+Allepuz,40-65,2019,42
+Allepuz,65-100,2019,45
+Allepuz,0-18,2020,17
+Allepuz,18-40,2020,22
+Allepuz,40-65,2020,39
+Allepuz,65-100,2020,46
+Alloza,0-18,2015,68
+Alloza,18-40,2015,144
+Alloza,40-65,2015,204
+Alloza,65-100,2015,188
+Alloza,0-18,2016,67
+Alloza,18-40,2016,136
+Alloza,40-65,2016,207
+Alloza,65-100,2016,192
+Alloza,0-18,2017,68
+Alloza,18-40,2017,130
+Alloza,40-65,2017,210
+Alloza,65-100,2017,186
+Alloza,0-18,2018,70
+Alloza,18-40,2018,123
+Alloza,40-65,2018,204
+Alloza,65-100,2018,185
+Alloza,0-18,2019,69
+Alloza,18-40,2019,108
+Alloza,40-65,2019,193
+Alloza,65-100,2019,188
+Alloza,0-18,2020,76
+Alloza,18-40,2020,113
+Alloza,40-65,2020,196
+Alloza,65-100,2020,187
+Allueva,0-18,2015,5
+Allueva,18-40,2015,3
+Allueva,40-65,2015,11
+Allueva,65-100,2015,8
+Allueva,0-18,2016,3
+Allueva,18-40,2016,6
+Allueva,40-65,2016,11
+Allueva,65-100,2016,9
+Allueva,0-18,2017,4
+Allueva,18-40,2017,4
+Allueva,40-65,2017,13
+Allueva,65-100,2017,10
+Allueva,0-18,2018,4
+Allueva,18-40,2018,5
+Allueva,40-65,2018,10
+Allueva,65-100,2018,10
+Allueva,0-18,2019,2
+Allueva,18-40,2019,3
+Allueva,40-65,2019,13
+Allueva,65-100,2019,8
+Allueva,0-18,2020,2
+Allueva,18-40,2020,4
+Allueva,40-65,2020,9
+Allueva,65-100,2020,9
+Anadón,0-18,2015,0
+Anadón,18-40,2015,9
+Anadón,40-65,2015,11
+Anadón,65-100,2015,5
+Anadón,0-18,2016,0
+Anadón,18-40,2016,10
+Anadón,40-65,2016,11
+Anadón,65-100,2016,6
+Anadón,0-18,2017,0
+Anadón,18-40,2017,10
+Anadón,40-65,2017,11
+Anadón,65-100,2017,6
+Anadón,0-18,2018,0
+Anadón,18-40,2018,8
+Anadón,40-65,2018,13
+Anadón,65-100,2018,6
+Anadón,0-18,2019,0
+Anadón,18-40,2019,8
+Anadón,40-65,2019,14
+Anadón,65-100,2019,6
+Anadón,0-18,2020,0
+Anadón,18-40,2020,8
+Anadón,40-65,2020,15
+Anadón,65-100,2020,9
+Andorra,0-18,2015,1385
+Andorra,18-40,2015,2363
+Andorra,40-65,2015,2979
+Andorra,65-100,2015,1338
+Andorra,0-18,2016,1351
+Andorra,18-40,2016,2196
+Andorra,40-65,2016,2988
+Andorra,65-100,2016,1340
+Andorra,0-18,2017,1340
+Andorra,18-40,2017,2141
+Andorra,40-65,2017,2987
+Andorra,65-100,2017,1331
+Andorra,0-18,2018,1307
+Andorra,18-40,2018,2020
+Andorra,40-65,2018,2946
+Andorra,65-100,2018,1360
+Andorra,0-18,2019,1267
+Andorra,18-40,2019,1922
+Andorra,40-65,2019,2925
+Andorra,65-100,2019,1358
+Andorra,0-18,2020,1213
+Andorra,18-40,2020,1820
+Andorra,40-65,2020,2923
+Andorra,65-100,2020,1389
+Arcos de las Salinas,0-18,2015,13
+Arcos de las Salinas,18-40,2015,27
+Arcos de las Salinas,40-65,2015,39
+Arcos de las Salinas,65-100,2015,26
+Arcos de las Salinas,0-18,2016,14
+Arcos de las Salinas,18-40,2016,27
+Arcos de las Salinas,40-65,2016,40
+Arcos de las Salinas,65-100,2016,25
+Arcos de las Salinas,0-18,2017,16
+Arcos de las Salinas,18-40,2017,26
+Arcos de las Salinas,40-65,2017,38
+Arcos de las Salinas,65-100,2017,26
+Arcos de las Salinas,0-18,2018,14
+Arcos de las Salinas,18-40,2018,22
+Arcos de las Salinas,40-65,2018,39
+Arcos de las Salinas,65-100,2018,30
+Arcos de las Salinas,0-18,2019,20
+Arcos de las Salinas,18-40,2019,28
+Arcos de las Salinas,40-65,2019,42
+Arcos de las Salinas,65-100,2019,29
+Arcos de las Salinas,0-18,2020,19
+Arcos de las Salinas,18-40,2020,29
+Arcos de las Salinas,40-65,2020,43
+Arcos de las Salinas,65-100,2020,27
+Arens de Lledó,0-18,2015,27
+Arens de Lledó,18-40,2015,25
+Arens de Lledó,40-65,2015,78
+Arens de Lledó,65-100,2015,76
+Arens de Lledó,0-18,2016,28
+Arens de Lledó,18-40,2016,29
+Arens de Lledó,40-65,2016,79
+Arens de Lledó,65-100,2016,76
+Arens de Lledó,0-18,2017,22
+Arens de Lledó,18-40,2017,26
+Arens de Lledó,40-65,2017,79
+Arens de Lledó,65-100,2017,72
+Arens de Lledó,0-18,2018,19
+Arens de Lledó,18-40,2018,28
+Arens de Lledó,40-65,2018,86
+Arens de Lledó,65-100,2018,73
+Arens de Lledó,0-18,2019,23
+Arens de Lledó,18-40,2019,29
+Arens de Lledó,40-65,2019,84
+Arens de Lledó,65-100,2019,75
+Arens de Lledó,0-18,2020,20
+Arens de Lledó,18-40,2020,28
+Arens de Lledó,40-65,2020,82
+Arens de Lledó,65-100,2020,75
+Argente,0-18,2015,22
+Argente,18-40,2015,33
+Argente,40-65,2015,71
+Argente,65-100,2015,88
+Argente,0-18,2016,22
+Argente,18-40,2016,30
+Argente,40-65,2016,70
+Argente,65-100,2016,85
+Argente,0-18,2017,21
+Argente,18-40,2017,33
+Argente,40-65,2017,66
+Argente,65-100,2017,87
+Argente,0-18,2018,22
+Argente,18-40,2018,32
+Argente,40-65,2018,67
+Argente,65-100,2018,77
+Argente,0-18,2019,22
+Argente,18-40,2019,29
+Argente,40-65,2019,67
+Argente,65-100,2019,77
+Argente,0-18,2020,20
+Argente,18-40,2020,32
+Argente,40-65,2020,66
+Argente,65-100,2020,75
+Ariño,0-18,2015,115
+Ariño,18-40,2015,196
+Ariño,40-65,2015,285
+Ariño,65-100,2015,167
+Ariño,0-18,2016,108
+Ariño,18-40,2016,187
+Ariño,40-65,2016,282
+Ariño,65-100,2016,161
+Ariño,0-18,2017,106
+Ariño,18-40,2017,181
+Ariño,40-65,2017,281
+Ariño,65-100,2017,165
+Ariño,0-18,2018,101
+Ariño,18-40,2018,171
+Ariño,40-65,2018,276
+Ariño,65-100,2018,160
+Ariño,0-18,2019,101
+Ariño,18-40,2019,170
+Ariño,40-65,2019,291
+Ariño,65-100,2019,162
+Ariño,0-18,2020,93
+Ariño,18-40,2020,163
+Ariño,40-65,2020,292
+Ariño,65-100,2020,166
+Azaila,0-18,2015,7
+Azaila,18-40,2015,12
+Azaila,40-65,2015,46
+Azaila,65-100,2015,51
+Azaila,0-18,2016,4
+Azaila,18-40,2016,12
+Azaila,40-65,2016,43
+Azaila,65-100,2016,47
+Azaila,0-18,2017,3
+Azaila,18-40,2017,9
+Azaila,40-65,2017,41
+Azaila,65-100,2017,44
+Azaila,0-18,2018,5
+Azaila,18-40,2018,10
+Azaila,40-65,2018,38
+Azaila,65-100,2018,41
+Azaila,0-18,2019,2
+Azaila,18-40,2019,13
+Azaila,40-65,2019,38
+Azaila,65-100,2019,37
+Azaila,0-18,2020,3
+Azaila,18-40,2020,14
+Azaila,40-65,2020,37
+Azaila,65-100,2020,39
+Bádenas,0-18,2015,2
+Bádenas,18-40,2015,2
+Bádenas,40-65,2015,8
+Bádenas,65-100,2015,7
+Bádenas,0-18,2016,2
+Bádenas,18-40,2016,2
+Bádenas,40-65,2016,9
+Bádenas,65-100,2016,6
+Bádenas,0-18,2017,2
+Bádenas,18-40,2017,2
+Bádenas,40-65,2017,8
+Bádenas,65-100,2017,6
+Bádenas,0-18,2018,2
+Bádenas,18-40,2018,2
+Bádenas,40-65,2018,10
+Bádenas,65-100,2018,6
+Bádenas,0-18,2019,2
+Bádenas,18-40,2019,2
+Bádenas,40-65,2019,10
+Bádenas,65-100,2019,5
+Bádenas,0-18,2020,2
+Bádenas,18-40,2020,2
+Bádenas,40-65,2020,10
+Bádenas,65-100,2020,5
+Báguena,0-18,2015,20
+Báguena,18-40,2015,58
+Báguena,40-65,2015,108
+Báguena,65-100,2015,141
+Báguena,0-18,2016,21
+Báguena,18-40,2016,54
+Báguena,40-65,2016,112
+Báguena,65-100,2016,129
+Báguena,0-18,2017,27
+Báguena,18-40,2017,52
+Báguena,40-65,2017,110
+Báguena,65-100,2017,129
+Báguena,0-18,2018,26
+Báguena,18-40,2018,50
+Báguena,40-65,2018,109
+Báguena,65-100,2018,126
+Báguena,0-18,2019,21
+Báguena,18-40,2019,45
+Báguena,40-65,2019,103
+Báguena,65-100,2019,118
+Báguena,0-18,2020,19
+Báguena,18-40,2020,45
+Báguena,40-65,2020,104
+Báguena,65-100,2020,117
+Bañón,0-18,2015,15
+Bañón,18-40,2015,17
+Bañón,40-65,2015,49
+Bañón,65-100,2015,69
+Bañón,0-18,2016,13
+Bañón,18-40,2016,18
+Bañón,40-65,2016,57
+Bañón,65-100,2016,70
+Bañón,0-18,2017,14
+Bañón,18-40,2017,16
+Bañón,40-65,2017,55
+Bañón,65-100,2017,64
+Bañón,0-18,2018,15
+Bañón,18-40,2018,18
+Bañón,40-65,2018,59
+Bañón,65-100,2018,61
+Bañón,0-18,2019,15
+Bañón,18-40,2019,15
+Bañón,40-65,2019,55
+Bañón,65-100,2019,59
+Bañón,0-18,2020,15
+Bañón,18-40,2020,15
+Bañón,40-65,2020,57
+Bañón,65-100,2020,59
+Barrachina,0-18,2015,15
+Barrachina,18-40,2015,25
+Barrachina,40-65,2015,44
+Barrachina,65-100,2015,49
+Barrachina,0-18,2016,10
+Barrachina,18-40,2016,28
+Barrachina,40-65,2016,44
+Barrachina,65-100,2016,47
+Barrachina,0-18,2017,10
+Barrachina,18-40,2017,25
+Barrachina,40-65,2017,44
+Barrachina,65-100,2017,42
+Barrachina,0-18,2018,8
+Barrachina,18-40,2018,26
+Barrachina,40-65,2018,44
+Barrachina,65-100,2018,40
+Barrachina,0-18,2019,8
+Barrachina,18-40,2019,25
+Barrachina,40-65,2019,42
+Barrachina,65-100,2019,37
+Barrachina,0-18,2020,8
+Barrachina,18-40,2020,24
+Barrachina,40-65,2020,41
+Barrachina,65-100,2020,36
+Bea,0-18,2015,1
+Bea,18-40,2015,1
+Bea,40-65,2015,13
+Bea,65-100,2015,11
+Bea,0-18,2016,5
+Bea,18-40,2016,1
+Bea,40-65,2016,18
+Bea,65-100,2016,11
+Bea,0-18,2017,4
+Bea,18-40,2017,3
+Bea,40-65,2017,16
+Bea,65-100,2017,7
+Bea,0-18,2018,4
+Bea,18-40,2018,3
+Bea,40-65,2018,17
+Bea,65-100,2018,7
+Bea,0-18,2019,4
+Bea,18-40,2019,4
+Bea,40-65,2019,17
+Bea,65-100,2019,6
+Bea,0-18,2020,4
+Bea,18-40,2020,3
+Bea,40-65,2020,17
+Bea,65-100,2020,5
+Beceite,0-18,2015,80
+Beceite,18-40,2015,122
+Beceite,40-65,2015,221
+Beceite,65-100,2015,143
+Beceite,0-18,2016,79
+Beceite,18-40,2016,118
+Beceite,40-65,2016,219
+Beceite,65-100,2016,145
+Beceite,0-18,2017,76
+Beceite,18-40,2017,115
+Beceite,40-65,2017,214
+Beceite,65-100,2017,146
+Beceite,0-18,2018,72
+Beceite,18-40,2018,105
+Beceite,40-65,2018,215
+Beceite,65-100,2018,149
+Beceite,0-18,2019,69
+Beceite,18-40,2019,105
+Beceite,40-65,2019,216
+Beceite,65-100,2019,151
+Beceite,0-18,2020,71
+Beceite,18-40,2020,95
+Beceite,40-65,2020,216
+Beceite,65-100,2020,149
+Belmonte de San José,0-18,2015,9
+Belmonte de San José,18-40,2015,17
+Belmonte de San José,40-65,2015,40
+Belmonte de San José,65-100,2015,51
+Belmonte de San José,0-18,2016,9
+Belmonte de San José,18-40,2016,21
+Belmonte de San José,40-65,2016,38
+Belmonte de San José,65-100,2016,51
+Belmonte de San José,0-18,2017,10
+Belmonte de San José,18-40,2017,19
+Belmonte de San José,40-65,2017,39
+Belmonte de San José,65-100,2017,45
+Belmonte de San José,0-18,2018,11
+Belmonte de San José,18-40,2018,16
+Belmonte de San José,40-65,2018,39
+Belmonte de San José,65-100,2018,47
+Belmonte de San José,0-18,2019,14
+Belmonte de San José,18-40,2019,17
+Belmonte de San José,40-65,2019,34
+Belmonte de San José,65-100,2019,48
+Belmonte de San José,0-18,2020,17
+Belmonte de San José,18-40,2020,16
+Belmonte de San José,40-65,2020,39
+Belmonte de San José,65-100,2020,51
+Bello,0-18,2015,16
+Bello,18-40,2015,28
+Bello,40-65,2015,87
+Bello,65-100,2015,107
+Bello,0-18,2016,21
+Bello,18-40,2016,29
+Bello,40-65,2016,83
+Bello,65-100,2016,112
+Bello,0-18,2017,19
+Bello,18-40,2017,31
+Bello,40-65,2017,78
+Bello,65-100,2017,116
+Bello,0-18,2018,16
+Bello,18-40,2018,28
+Bello,40-65,2018,77
+Bello,65-100,2018,104
+Bello,0-18,2019,17
+Bello,18-40,2019,29
+Bello,40-65,2019,76
+Bello,65-100,2019,102
+Bello,0-18,2020,17
+Bello,18-40,2020,30
+Bello,40-65,2020,76
+Bello,65-100,2020,96
+Berge,0-18,2015,42
+Berge,18-40,2015,65
+Berge,40-65,2015,75
+Berge,65-100,2015,64
+Berge,0-18,2016,46
+Berge,18-40,2016,63
+Berge,40-65,2016,76
+Berge,65-100,2016,63
+Berge,0-18,2017,46
+Berge,18-40,2017,61
+Berge,40-65,2017,79
+Berge,65-100,2017,59
+Berge,0-18,2018,42
+Berge,18-40,2018,67
+Berge,40-65,2018,74
+Berge,65-100,2018,61
+Berge,0-18,2019,37
+Berge,18-40,2019,61
+Berge,40-65,2019,80
+Berge,65-100,2019,57
+Berge,0-18,2020,40
+Berge,18-40,2020,56
+Berge,40-65,2020,87
+Berge,65-100,2020,58
+Bezas,0-18,2015,7
+Bezas,18-40,2015,18
+Bezas,40-65,2015,24
+Bezas,65-100,2015,18
+Bezas,0-18,2016,7
+Bezas,18-40,2016,17
+Bezas,40-65,2016,26
+Bezas,65-100,2016,15
+Bezas,0-18,2017,7
+Bezas,18-40,2017,14
+Bezas,40-65,2017,28
+Bezas,65-100,2017,13
+Bezas,0-18,2018,7
+Bezas,18-40,2018,19
+Bezas,40-65,2018,31
+Bezas,65-100,2018,13
+Bezas,0-18,2019,6
+Bezas,18-40,2019,22
+Bezas,40-65,2019,29
+Bezas,65-100,2019,13
+Bezas,0-18,2020,6
+Bezas,18-40,2020,19
+Bezas,40-65,2020,32
+Bezas,65-100,2020,10
+Blancas,0-18,2015,19
+Blancas,18-40,2015,24
+Blancas,40-65,2015,53
+Blancas,65-100,2015,53
+Blancas,0-18,2016,18
+Blancas,18-40,2016,23
+Blancas,40-65,2016,52
+Blancas,65-100,2016,54
+Blancas,0-18,2017,13
+Blancas,18-40,2017,24
+Blancas,40-65,2017,45
+Blancas,65-100,2017,52
+Blancas,0-18,2018,11
+Blancas,18-40,2018,21
+Blancas,40-65,2018,45
+Blancas,65-100,2018,48
+Blancas,0-18,2019,11
+Blancas,18-40,2019,22
+Blancas,40-65,2019,45
+Blancas,65-100,2019,48
+Blancas,0-18,2020,11
+Blancas,18-40,2020,23
+Blancas,40-65,2020,48
+Blancas,65-100,2020,43
+Blesa,0-18,2015,0
+Blesa,18-40,2015,16
+Blesa,40-65,2015,47
+Blesa,65-100,2015,46
+Blesa,0-18,2016,0
+Blesa,18-40,2016,14
+Blesa,40-65,2016,45
+Blesa,65-100,2016,42
+Blesa,0-18,2017,3
+Blesa,18-40,2017,15
+Blesa,40-65,2017,43
+Blesa,65-100,2017,36
+Blesa,0-18,2018,3
+Blesa,18-40,2018,15
+Blesa,40-65,2018,44
+Blesa,65-100,2018,33
+Blesa,0-18,2019,3
+Blesa,18-40,2019,10
+Blesa,40-65,2019,45
+Blesa,65-100,2019,36
+Blesa,0-18,2020,3
+Blesa,18-40,2020,11
+Blesa,40-65,2020,41
+Blesa,65-100,2020,37
+Bordón,0-18,2015,19
+Bordón,18-40,2015,28
+Bordón,40-65,2015,33
+Bordón,65-100,2015,37
+Bordón,0-18,2016,20
+Bordón,18-40,2016,25
+Bordón,40-65,2016,31
+Bordón,65-100,2016,38
+Bordón,0-18,2017,17
+Bordón,18-40,2017,24
+Bordón,40-65,2017,30
+Bordón,65-100,2017,37
+Bordón,0-18,2018,19
+Bordón,18-40,2018,23
+Bordón,40-65,2018,29
+Bordón,65-100,2018,35
+Bordón,0-18,2019,14
+Bordón,18-40,2019,21
+Bordón,40-65,2019,31
+Bordón,65-100,2019,34
+Bordón,0-18,2020,17
+Bordón,18-40,2020,24
+Bordón,40-65,2020,31
+Bordón,65-100,2020,33
+Bronchales,0-18,2015,46
+Bronchales,18-40,2015,125
+Bronchales,40-65,2015,156
+Bronchales,65-100,2015,96
+Bronchales,0-18,2016,42
+Bronchales,18-40,2016,120
+Bronchales,40-65,2016,161
+Bronchales,65-100,2016,94
+Bronchales,0-18,2017,49
+Bronchales,18-40,2017,127
+Bronchales,40-65,2017,167
+Bronchales,65-100,2017,97
+Bronchales,0-18,2018,46
+Bronchales,18-40,2018,127
+Bronchales,40-65,2018,178
+Bronchales,65-100,2018,92
+Bronchales,0-18,2019,47
+Bronchales,18-40,2019,125
+Bronchales,40-65,2019,169
+Bronchales,65-100,2019,91
+Bronchales,0-18,2020,49
+Bronchales,18-40,2020,117
+Bronchales,40-65,2020,164
+Bronchales,65-100,2020,87
+Bueña,0-18,2015,1
+Bueña,18-40,2015,5
+Bueña,40-65,2015,18
+Bueña,65-100,2015,31
+Bueña,0-18,2016,1
+Bueña,18-40,2016,6
+Bueña,40-65,2016,17
+Bueña,65-100,2016,29
+Bueña,0-18,2017,5
+Bueña,18-40,2017,6
+Bueña,40-65,2017,20
+Bueña,65-100,2017,26
+Bueña,0-18,2018,8
+Bueña,18-40,2018,9
+Bueña,40-65,2018,19
+Bueña,65-100,2018,27
+Bueña,0-18,2019,2
+Bueña,18-40,2019,5
+Bueña,40-65,2019,17
+Bueña,65-100,2019,26
+Bueña,0-18,2020,2
+Bueña,18-40,2020,6
+Bueña,40-65,2020,15
+Bueña,65-100,2020,26
+Burbáguena,0-18,2015,12
+Burbáguena,18-40,2015,35
+Burbáguena,40-65,2015,65
+Burbáguena,65-100,2015,142
+Burbáguena,0-18,2016,14
+Burbáguena,18-40,2016,34
+Burbáguena,40-65,2016,65
+Burbáguena,65-100,2016,141
+Burbáguena,0-18,2017,15
+Burbáguena,18-40,2017,32
+Burbáguena,40-65,2017,67
+Burbáguena,65-100,2017,140
+Burbáguena,0-18,2018,14
+Burbáguena,18-40,2018,35
+Burbáguena,40-65,2018,61
+Burbáguena,65-100,2018,133
+Burbáguena,0-18,2019,13
+Burbáguena,18-40,2019,35
+Burbáguena,40-65,2019,64
+Burbáguena,65-100,2019,137
+Burbáguena,0-18,2020,12
+Burbáguena,18-40,2020,33
+Burbáguena,40-65,2020,67
+Burbáguena,65-100,2020,99
+Cabra de Mora,0-18,2015,3
+Cabra de Mora,18-40,2015,16
+Cabra de Mora,40-65,2015,28
+Cabra de Mora,65-100,2015,26
+Cabra de Mora,0-18,2016,2
+Cabra de Mora,18-40,2016,16
+Cabra de Mora,40-65,2016,26
+Cabra de Mora,65-100,2016,24
+Cabra de Mora,0-18,2017,2
+Cabra de Mora,18-40,2017,14
+Cabra de Mora,40-65,2017,28
+Cabra de Mora,65-100,2017,20
+Cabra de Mora,0-18,2018,1
+Cabra de Mora,18-40,2018,11
+Cabra de Mora,40-65,2018,27
+Cabra de Mora,65-100,2018,16
+Cabra de Mora,0-18,2019,1
+Cabra de Mora,18-40,2019,12
+Cabra de Mora,40-65,2019,27
+Cabra de Mora,65-100,2019,14
+Cabra de Mora,0-18,2020,1
+Cabra de Mora,18-40,2020,12
+Cabra de Mora,40-65,2020,24
+Cabra de Mora,65-100,2020,14
+Calaceite,0-18,2015,132
+Calaceite,18-40,2015,241
+Calaceite,40-65,2015,355
+Calaceite,65-100,2015,324
+Calaceite,0-18,2016,135
+Calaceite,18-40,2016,226
+Calaceite,40-65,2016,353
+Calaceite,65-100,2016,325
+Calaceite,0-18,2017,133
+Calaceite,18-40,2017,226
+Calaceite,40-65,2017,346
+Calaceite,65-100,2017,333
+Calaceite,0-18,2018,130
+Calaceite,18-40,2018,218
+Calaceite,40-65,2018,340
+Calaceite,65-100,2018,323
+Calaceite,0-18,2019,129
+Calaceite,18-40,2019,208
+Calaceite,40-65,2019,330
+Calaceite,65-100,2019,327
+Calaceite,0-18,2020,133
+Calaceite,18-40,2020,200
+Calaceite,40-65,2020,323
+Calaceite,65-100,2020,322
+Calamocha,0-18,2015,828
+Calamocha,18-40,2015,1231
+Calamocha,40-65,2015,1473
+Calamocha,65-100,2015,885
+Calamocha,0-18,2016,820
+Calamocha,18-40,2016,1185
+Calamocha,40-65,2016,1497
+Calamocha,65-100,2016,866
+Calamocha,0-18,2017,825
+Calamocha,18-40,2017,1148
+Calamocha,40-65,2017,1518
+Calamocha,65-100,2017,862
+Calamocha,0-18,2018,821
+Calamocha,18-40,2018,1114
+Calamocha,40-65,2018,1523
+Calamocha,65-100,2018,861
+Calamocha,0-18,2019,809
+Calamocha,18-40,2019,1116
+Calamocha,40-65,2019,1550
+Calamocha,65-100,2019,864
+Calamocha,0-18,2020,841
+Calamocha,18-40,2020,1138
+Calamocha,40-65,2020,1577
+Calamocha,65-100,2020,873
+Calanda,0-18,2015,779
+Calanda,18-40,2015,1371
+Calanda,40-65,2015,1714
+Calanda,65-100,2015,1152
+Calanda,0-18,2016,772
+Calanda,18-40,2016,1315
+Calanda,40-65,2016,1730
+Calanda,65-100,2016,1138
+Calanda,0-18,2017,736
+Calanda,18-40,2017,1239
+Calanda,40-65,2017,1724
+Calanda,65-100,2017,1111
+Calanda,0-18,2018,710
+Calanda,18-40,2018,1202
+Calanda,40-65,2018,1724
+Calanda,65-100,2018,1093
+Calanda,0-18,2019,723
+Calanda,18-40,2019,1228
+Calanda,40-65,2019,1724
+Calanda,65-100,2019,1073
+Calanda,0-18,2020,750
+Calanda,18-40,2020,1240
+Calanda,40-65,2020,1729
+Calanda,65-100,2020,1082
+Calomarde,0-18,2015,1
+Calomarde,18-40,2015,14
+Calomarde,40-65,2015,36
+Calomarde,65-100,2015,36
+Calomarde,0-18,2016,0
+Calomarde,18-40,2016,11
+Calomarde,40-65,2016,33
+Calomarde,65-100,2016,36
+Calomarde,0-18,2017,0
+Calomarde,18-40,2017,12
+Calomarde,40-65,2017,33
+Calomarde,65-100,2017,33
+Calomarde,0-18,2018,0
+Calomarde,18-40,2018,11
+Calomarde,40-65,2018,33
+Calomarde,65-100,2018,30
+Calomarde,0-18,2019,1
+Calomarde,18-40,2019,13
+Calomarde,40-65,2019,31
+Calomarde,65-100,2019,30
+Calomarde,0-18,2020,1
+Calomarde,18-40,2020,14
+Calomarde,40-65,2020,29
+Calomarde,65-100,2020,30
+Camañas,0-18,2015,18
+Camañas,18-40,2015,30
+Camañas,40-65,2015,35
+Camañas,65-100,2015,42
+Camañas,0-18,2016,21
+Camañas,18-40,2016,31
+Camañas,40-65,2016,38
+Camañas,65-100,2016,40
+Camañas,0-18,2017,22
+Camañas,18-40,2017,29
+Camañas,40-65,2017,36
+Camañas,65-100,2017,42
+Camañas,0-18,2018,20
+Camañas,18-40,2018,30
+Camañas,40-65,2018,36
+Camañas,65-100,2018,38
+Camañas,0-18,2019,21
+Camañas,18-40,2019,28
+Camañas,40-65,2019,47
+Camañas,65-100,2019,38
+Camañas,0-18,2020,24
+Camañas,18-40,2020,28
+Camañas,40-65,2020,44
+Camañas,65-100,2020,37
+Camarena de la Sierra,0-18,2015,12
+Camarena de la Sierra,18-40,2015,37
+Camarena de la Sierra,40-65,2015,47
+Camarena de la Sierra,65-100,2015,27
+Camarena de la Sierra,0-18,2016,14
+Camarena de la Sierra,18-40,2016,35
+Camarena de la Sierra,40-65,2016,50
+Camarena de la Sierra,65-100,2016,28
+Camarena de la Sierra,0-18,2017,12
+Camarena de la Sierra,18-40,2017,31
+Camarena de la Sierra,40-65,2017,45
+Camarena de la Sierra,65-100,2017,28
+Camarena de la Sierra,0-18,2018,10
+Camarena de la Sierra,18-40,2018,32
+Camarena de la Sierra,40-65,2018,43
+Camarena de la Sierra,65-100,2018,28
+Camarena de la Sierra,0-18,2019,8
+Camarena de la Sierra,18-40,2019,27
+Camarena de la Sierra,40-65,2019,43
+Camarena de la Sierra,65-100,2019,27
+Camarena de la Sierra,0-18,2020,12
+Camarena de la Sierra,18-40,2020,27
+Camarena de la Sierra,40-65,2020,41
+Camarena de la Sierra,65-100,2020,27
+Camarillas,0-18,2015,15
+Camarillas,18-40,2015,28
+Camarillas,40-65,2015,32
+Camarillas,65-100,2015,24
+Camarillas,0-18,2016,12
+Camarillas,18-40,2016,26
+Camarillas,40-65,2016,29
+Camarillas,65-100,2016,27
+Camarillas,0-18,2017,11
+Camarillas,18-40,2017,23
+Camarillas,40-65,2017,27
+Camarillas,65-100,2017,28
+Camarillas,0-18,2018,10
+Camarillas,18-40,2018,21
+Camarillas,40-65,2018,27
+Camarillas,65-100,2018,28
+Camarillas,0-18,2019,12
+Camarillas,18-40,2019,24
+Camarillas,40-65,2019,41
+Camarillas,65-100,2019,23
+Camarillas,0-18,2020,11
+Camarillas,18-40,2020,21
+Camarillas,40-65,2020,38
+Camarillas,65-100,2020,22
+Caminreal,0-18,2015,82
+Caminreal,18-40,2015,159
+Caminreal,40-65,2015,206
+Caminreal,65-100,2015,212
+Caminreal,0-18,2016,76
+Caminreal,18-40,2016,154
+Caminreal,40-65,2016,206
+Caminreal,65-100,2016,201
+Caminreal,0-18,2017,73
+Caminreal,18-40,2017,154
+Caminreal,40-65,2017,193
+Caminreal,65-100,2017,196
+Caminreal,0-18,2018,76
+Caminreal,18-40,2018,155
+Caminreal,40-65,2018,198
+Caminreal,65-100,2018,190
+Caminreal,0-18,2019,82
+Caminreal,18-40,2019,151
+Caminreal,40-65,2019,199
+Caminreal,65-100,2019,188
+Caminreal,0-18,2020,87
+Caminreal,18-40,2020,146
+Caminreal,40-65,2020,203
+Caminreal,65-100,2020,179
+Cantavieja,0-18,2015,140
+Cantavieja,18-40,2015,218
+Cantavieja,40-65,2015,238
+Cantavieja,65-100,2015,145
+Cantavieja,0-18,2016,124
+Cantavieja,18-40,2016,204
+Cantavieja,40-65,2016,238
+Cantavieja,65-100,2016,146
+Cantavieja,0-18,2017,129
+Cantavieja,18-40,2017,201
+Cantavieja,40-65,2017,241
+Cantavieja,65-100,2017,146
+Cantavieja,0-18,2018,126
+Cantavieja,18-40,2018,193
+Cantavieja,40-65,2018,235
+Cantavieja,65-100,2018,160
+Cantavieja,0-18,2019,126
+Cantavieja,18-40,2019,184
+Cantavieja,40-65,2019,234
+Cantavieja,65-100,2019,165
+Cantavieja,0-18,2020,123
+Cantavieja,18-40,2020,187
+Cantavieja,40-65,2020,245
+Cantavieja,65-100,2020,174
+Cañada de Benatanduz,0-18,2015,1
+Cañada de Benatanduz,18-40,2015,11
+Cañada de Benatanduz,40-65,2015,14
+Cañada de Benatanduz,65-100,2015,15
+Cañada de Benatanduz,0-18,2016,1
+Cañada de Benatanduz,18-40,2016,10
+Cañada de Benatanduz,40-65,2016,15
+Cañada de Benatanduz,65-100,2016,15
+Cañada de Benatanduz,0-18,2017,1
+Cañada de Benatanduz,18-40,2017,10
+Cañada de Benatanduz,40-65,2017,16
+Cañada de Benatanduz,65-100,2017,15
+Cañada de Benatanduz,0-18,2018,0
+Cañada de Benatanduz,18-40,2018,9
+Cañada de Benatanduz,40-65,2018,15
+Cañada de Benatanduz,65-100,2018,15
+Cañada de Benatanduz,0-18,2019,0
+Cañada de Benatanduz,18-40,2019,8
+Cañada de Benatanduz,40-65,2019,14
+Cañada de Benatanduz,65-100,2019,14
+Cañada de Benatanduz,0-18,2020,1
+Cañada de Benatanduz,18-40,2020,7
+Cañada de Benatanduz,40-65,2020,12
+Cañada de Benatanduz,65-100,2020,13
+Cañada de Verich La,0-18,2015,19
+Cañada de Verich La,18-40,2015,17
+Cañada de Verich La,40-65,2015,33
+Cañada de Verich La,65-100,2015,33
+Cañada de Verich La,0-18,2016,18
+Cañada de Verich La,18-40,2016,14
+Cañada de Verich La,40-65,2016,32
+Cañada de Verich La,65-100,2016,30
+Cañada de Verich La,0-18,2017,13
+Cañada de Verich La,18-40,2017,14
+Cañada de Verich La,40-65,2017,31
+Cañada de Verich La,65-100,2017,27
+Cañada de Verich La,0-18,2018,14
+Cañada de Verich La,18-40,2018,14
+Cañada de Verich La,40-65,2018,33
+Cañada de Verich La,65-100,2018,26
+Cañada de Verich La,0-18,2019,13
+Cañada de Verich La,18-40,2019,11
+Cañada de Verich La,40-65,2019,37
+Cañada de Verich La,65-100,2019,28
+Cañada de Verich La,0-18,2020,11
+Cañada de Verich La,18-40,2020,18
+Cañada de Verich La,40-65,2020,34
+Cañada de Verich La,65-100,2020,29
+Cañada Vellida,0-18,2015,0
+Cañada Vellida,18-40,2015,2
+Cañada Vellida,40-65,2015,16
+Cañada Vellida,65-100,2015,18
+Cañada Vellida,0-18,2016,0
+Cañada Vellida,18-40,2016,2
+Cañada Vellida,40-65,2016,15
+Cañada Vellida,65-100,2016,18
+Cañada Vellida,0-18,2017,0
+Cañada Vellida,18-40,2017,3
+Cañada Vellida,40-65,2017,15
+Cañada Vellida,65-100,2017,17
+Cañada Vellida,0-18,2018,0
+Cañada Vellida,18-40,2018,3
+Cañada Vellida,40-65,2018,14
+Cañada Vellida,65-100,2018,18
+Cañada Vellida,0-18,2019,0
+Cañada Vellida,18-40,2019,2
+Cañada Vellida,40-65,2019,13
+Cañada Vellida,65-100,2019,16
+Cañada Vellida,0-18,2020,0
+Cañada Vellida,18-40,2020,6
+Cañada Vellida,40-65,2020,13
+Cañada Vellida,65-100,2020,17
+Cañizar del Olivar,0-18,2015,15
+Cañizar del Olivar,18-40,2015,37
+Cañizar del Olivar,40-65,2015,33
+Cañizar del Olivar,65-100,2015,18
+Cañizar del Olivar,0-18,2016,14
+Cañizar del Olivar,18-40,2016,30
+Cañizar del Olivar,40-65,2016,30
+Cañizar del Olivar,65-100,2016,20
+Cañizar del Olivar,0-18,2017,15
+Cañizar del Olivar,18-40,2017,28
+Cañizar del Olivar,40-65,2017,31
+Cañizar del Olivar,65-100,2017,19
+Cañizar del Olivar,0-18,2018,18
+Cañizar del Olivar,18-40,2018,27
+Cañizar del Olivar,40-65,2018,32
+Cañizar del Olivar,65-100,2018,21
+Cañizar del Olivar,0-18,2019,20
+Cañizar del Olivar,18-40,2019,25
+Cañizar del Olivar,40-65,2019,34
+Cañizar del Olivar,65-100,2019,21
+Cañizar del Olivar,0-18,2020,19
+Cañizar del Olivar,18-40,2020,25
+Cañizar del Olivar,40-65,2020,34
+Cañizar del Olivar,65-100,2020,22
+Cascante del Río,0-18,2015,3
+Cascante del Río,18-40,2015,14
+Cascante del Río,40-65,2015,28
+Cascante del Río,65-100,2015,35
+Cascante del Río,0-18,2016,2
+Cascante del Río,18-40,2016,11
+Cascante del Río,40-65,2016,21
+Cascante del Río,65-100,2016,40
+Cascante del Río,0-18,2017,3
+Cascante del Río,18-40,2017,11
+Cascante del Río,40-65,2017,25
+Cascante del Río,65-100,2017,34
+Cascante del Río,0-18,2018,3
+Cascante del Río,18-40,2018,8
+Cascante del Río,40-65,2018,27
+Cascante del Río,65-100,2018,33
+Cascante del Río,0-18,2019,3
+Cascante del Río,18-40,2019,4
+Cascante del Río,40-65,2019,29
+Cascante del Río,65-100,2019,31
+Cascante del Río,0-18,2020,4
+Cascante del Río,18-40,2020,4
+Cascante del Río,40-65,2020,25
+Cascante del Río,65-100,2020,34
+Castejón de Tornos,0-18,2015,1
+Castejón de Tornos,18-40,2015,7
+Castejón de Tornos,40-65,2015,21
+Castejón de Tornos,65-100,2015,31
+Castejón de Tornos,0-18,2016,2
+Castejón de Tornos,18-40,2016,7
+Castejón de Tornos,40-65,2016,21
+Castejón de Tornos,65-100,2016,32
+Castejón de Tornos,0-18,2017,1
+Castejón de Tornos,18-40,2017,7
+Castejón de Tornos,40-65,2017,19
+Castejón de Tornos,65-100,2017,35
+Castejón de Tornos,0-18,2018,1
+Castejón de Tornos,18-40,2018,8
+Castejón de Tornos,40-65,2018,17
+Castejón de Tornos,65-100,2018,36
+Castejón de Tornos,0-18,2019,2
+Castejón de Tornos,18-40,2019,6
+Castejón de Tornos,40-65,2019,18
+Castejón de Tornos,65-100,2019,34
+Castejón de Tornos,0-18,2020,2
+Castejón de Tornos,18-40,2020,4
+Castejón de Tornos,40-65,2020,19
+Castejón de Tornos,65-100,2020,30
+Castel de Cabra,0-18,2015,12
+Castel de Cabra,18-40,2015,21
+Castel de Cabra,40-65,2015,38
+Castel de Cabra,65-100,2015,51
+Castel de Cabra,0-18,2016,12
+Castel de Cabra,18-40,2016,25
+Castel de Cabra,40-65,2016,35
+Castel de Cabra,65-100,2016,48
+Castel de Cabra,0-18,2017,12
+Castel de Cabra,18-40,2017,23
+Castel de Cabra,40-65,2017,34
+Castel de Cabra,65-100,2017,43
+Castel de Cabra,0-18,2018,11
+Castel de Cabra,18-40,2018,20
+Castel de Cabra,40-65,2018,36
+Castel de Cabra,65-100,2018,37
+Castel de Cabra,0-18,2019,9
+Castel de Cabra,18-40,2019,19
+Castel de Cabra,40-65,2019,36
+Castel de Cabra,65-100,2019,32
+Castel de Cabra,0-18,2020,9
+Castel de Cabra,18-40,2020,18
+Castel de Cabra,40-65,2020,35
+Castel de Cabra,65-100,2020,31
+Castelnou,0-18,2015,20
+Castelnou,18-40,2015,38
+Castelnou,40-65,2015,48
+Castelnou,65-100,2015,36
+Castelnou,0-18,2016,21
+Castelnou,18-40,2016,36
+Castelnou,40-65,2016,48
+Castelnou,65-100,2016,32
+Castelnou,0-18,2017,26
+Castelnou,18-40,2017,39
+Castelnou,40-65,2017,50
+Castelnou,65-100,2017,31
+Castelnou,0-18,2018,31
+Castelnou,18-40,2018,41
+Castelnou,40-65,2018,55
+Castelnou,65-100,2018,33
+Castelnou,0-18,2019,21
+Castelnou,18-40,2019,35
+Castelnou,40-65,2019,50
+Castelnou,65-100,2019,35
+Castelnou,0-18,2020,21
+Castelnou,18-40,2020,29
+Castelnou,40-65,2020,51
+Castelnou,65-100,2020,33
+Castelserás,0-18,2015,147
+Castelserás,18-40,2015,199
+Castelserás,40-65,2015,258
+Castelserás,65-100,2015,236
+Castelserás,0-18,2016,144
+Castelserás,18-40,2016,190
+Castelserás,40-65,2016,260
+Castelserás,65-100,2016,233
+Castelserás,0-18,2017,142
+Castelserás,18-40,2017,179
+Castelserás,40-65,2017,272
+Castelserás,65-100,2017,230
+Castelserás,0-18,2018,154
+Castelserás,18-40,2018,170
+Castelserás,40-65,2018,288
+Castelserás,65-100,2018,219
+Castelserás,0-18,2019,150
+Castelserás,18-40,2019,165
+Castelserás,40-65,2019,275
+Castelserás,65-100,2019,225
+Castelserás,0-18,2020,145
+Castelserás,18-40,2020,155
+Castelserás,40-65,2020,281
+Castelserás,65-100,2020,219
+Castellar El,0-18,2015,2
+Castellar El,18-40,2015,7
+Castellar El,40-65,2015,25
+Castellar El,65-100,2015,24
+Castellar El,0-18,2016,3
+Castellar El,18-40,2016,6
+Castellar El,40-65,2016,24
+Castellar El,65-100,2016,23
+Castellar El,0-18,2017,2
+Castellar El,18-40,2017,7
+Castellar El,40-65,2017,22
+Castellar El,65-100,2017,23
+Castellar El,0-18,2018,1
+Castellar El,18-40,2018,7
+Castellar El,40-65,2018,21
+Castellar El,65-100,2018,23
+Castellar El,0-18,2019,2
+Castellar El,18-40,2019,10
+Castellar El,40-65,2019,23
+Castellar El,65-100,2019,23
+Castellar El,0-18,2020,0
+Castellar El,18-40,2020,11
+Castellar El,40-65,2020,23
+Castellar El,65-100,2020,21
+Castellote,0-18,2015,79
+Castellote,18-40,2015,178
+Castellote,40-65,2015,278
+Castellote,65-100,2015,252
+Castellote,0-18,2016,72
+Castellote,18-40,2016,174
+Castellote,40-65,2016,276
+Castellote,65-100,2016,241
+Castellote,0-18,2017,69
+Castellote,18-40,2017,170
+Castellote,40-65,2017,272
+Castellote,65-100,2017,238
+Castellote,0-18,2018,60
+Castellote,18-40,2018,160
+Castellote,40-65,2018,275
+Castellote,65-100,2018,234
+Castellote,0-18,2019,59
+Castellote,18-40,2019,159
+Castellote,40-65,2019,285
+Castellote,65-100,2019,233
+Castellote,0-18,2020,58
+Castellote,18-40,2020,148
+Castellote,40-65,2020,299
+Castellote,65-100,2020,226
+Cedrillas,0-18,2015,104
+Cedrillas,18-40,2015,177
+Cedrillas,40-65,2015,207
+Cedrillas,65-100,2015,131
+Cedrillas,0-18,2016,108
+Cedrillas,18-40,2016,167
+Cedrillas,40-65,2016,214
+Cedrillas,65-100,2016,130
+Cedrillas,0-18,2017,109
+Cedrillas,18-40,2017,157
+Cedrillas,40-65,2017,213
+Cedrillas,65-100,2017,132
+Cedrillas,0-18,2018,115
+Cedrillas,18-40,2018,158
+Cedrillas,40-65,2018,221
+Cedrillas,65-100,2018,136
+Cedrillas,0-18,2019,132
+Cedrillas,18-40,2019,167
+Cedrillas,40-65,2019,226
+Cedrillas,65-100,2019,139
+Cedrillas,0-18,2020,121
+Cedrillas,18-40,2020,165
+Cedrillas,40-65,2020,213
+Cedrillas,65-100,2020,140
+Celadas,0-18,2015,59
+Celadas,18-40,2015,74
+Celadas,40-65,2015,144
+Celadas,65-100,2015,121
+Celadas,0-18,2016,58
+Celadas,18-40,2016,77
+Celadas,40-65,2016,148
+Celadas,65-100,2016,120
+Celadas,0-18,2017,60
+Celadas,18-40,2017,75
+Celadas,40-65,2017,154
+Celadas,65-100,2017,119
+Celadas,0-18,2018,53
+Celadas,18-40,2018,79
+Celadas,40-65,2018,152
+Celadas,65-100,2018,112
+Celadas,0-18,2019,42
+Celadas,18-40,2019,85
+Celadas,40-65,2019,151
+Celadas,65-100,2019,110
+Celadas,0-18,2020,38
+Celadas,18-40,2020,81
+Celadas,40-65,2020,145
+Celadas,65-100,2020,103
+Cella,0-18,2015,397
+Cella,18-40,2015,756
+Cella,40-65,2015,917
+Cella,65-100,2015,706
+Cella,0-18,2016,381
+Cella,18-40,2016,705
+Cella,40-65,2016,894
+Cella,65-100,2016,693
+Cella,0-18,2017,371
+Cella,18-40,2017,686
+Cella,40-65,2017,886
+Cella,65-100,2017,697
+Cella,0-18,2018,372
+Cella,18-40,2018,649
+Cella,40-65,2018,888
+Cella,65-100,2018,697
+Cella,0-18,2019,386
+Cella,18-40,2019,617
+Cella,40-65,2019,875
+Cella,65-100,2019,696
+Cella,0-18,2020,379
+Cella,18-40,2020,630
+Cella,40-65,2020,862
+Cella,65-100,2020,700
+Cerollera La,0-18,2015,15
+Cerollera La,18-40,2015,25
+Cerollera La,40-65,2015,34
+Cerollera La,65-100,2015,32
+Cerollera La,0-18,2016,12
+Cerollera La,18-40,2016,25
+Cerollera La,40-65,2016,33
+Cerollera La,65-100,2016,26
+Cerollera La,0-18,2017,16
+Cerollera La,18-40,2017,23
+Cerollera La,40-65,2017,34
+Cerollera La,65-100,2017,25
+Cerollera La,0-18,2018,14
+Cerollera La,18-40,2018,24
+Cerollera La,40-65,2018,41
+Cerollera La,65-100,2018,21
+Cerollera La,0-18,2019,13
+Cerollera La,18-40,2019,25
+Cerollera La,40-65,2019,34
+Cerollera La,65-100,2019,21
+Cerollera La,0-18,2020,13
+Cerollera La,18-40,2020,22
+Cerollera La,40-65,2020,30
+Cerollera La,65-100,2020,23
+Codoñera La,0-18,2015,46
+Codoñera La,18-40,2015,88
+Codoñera La,40-65,2015,116
+Codoñera La,65-100,2015,115
+Codoñera La,0-18,2016,42
+Codoñera La,18-40,2016,87
+Codoñera La,40-65,2016,121
+Codoñera La,65-100,2016,118
+Codoñera La,0-18,2017,44
+Codoñera La,18-40,2017,82
+Codoñera La,40-65,2017,121
+Codoñera La,65-100,2017,115
+Codoñera La,0-18,2018,40
+Codoñera La,18-40,2018,71
+Codoñera La,40-65,2018,123
+Codoñera La,65-100,2018,110
+Codoñera La,0-18,2019,39
+Codoñera La,18-40,2019,69
+Codoñera La,40-65,2019,123
+Codoñera La,65-100,2019,105
+Codoñera La,0-18,2020,38
+Codoñera La,18-40,2020,65
+Codoñera La,40-65,2020,125
+Codoñera La,65-100,2020,91
+Corbalán,0-18,2015,15
+Corbalán,18-40,2015,31
+Corbalán,40-65,2015,40
+Corbalán,65-100,2015,24
+Corbalán,0-18,2016,16
+Corbalán,18-40,2016,26
+Corbalán,40-65,2016,44
+Corbalán,65-100,2016,23
+Corbalán,0-18,2017,17
+Corbalán,18-40,2017,25
+Corbalán,40-65,2017,44
+Corbalán,65-100,2017,23
+Corbalán,0-18,2018,18
+Corbalán,18-40,2018,24
+Corbalán,40-65,2018,45
+Corbalán,65-100,2018,22
+Corbalán,0-18,2019,15
+Corbalán,18-40,2019,26
+Corbalán,40-65,2019,47
+Corbalán,65-100,2019,19
+Corbalán,0-18,2020,16
+Corbalán,18-40,2020,26
+Corbalán,40-65,2020,49
+Corbalán,65-100,2020,18
+Cortes de Aragón,0-18,2015,2
+Cortes de Aragón,18-40,2015,14
+Cortes de Aragón,40-65,2015,26
+Cortes de Aragón,65-100,2015,16
+Cortes de Aragón,0-18,2016,5
+Cortes de Aragón,18-40,2016,16
+Cortes de Aragón,40-65,2016,26
+Cortes de Aragón,65-100,2016,16
+Cortes de Aragón,0-18,2017,3
+Cortes de Aragón,18-40,2017,13
+Cortes de Aragón,40-65,2017,26
+Cortes de Aragón,65-100,2017,15
+Cortes de Aragón,0-18,2018,4
+Cortes de Aragón,18-40,2018,13
+Cortes de Aragón,40-65,2018,27
+Cortes de Aragón,65-100,2018,17
+Cortes de Aragón,0-18,2019,5
+Cortes de Aragón,18-40,2019,12
+Cortes de Aragón,40-65,2019,26
+Cortes de Aragón,65-100,2019,18
+Cortes de Aragón,0-18,2020,4
+Cortes de Aragón,18-40,2020,12
+Cortes de Aragón,40-65,2020,26
+Cortes de Aragón,65-100,2020,18
+Cosa,0-18,2015,2
+Cosa,18-40,2015,7
+Cosa,40-65,2015,20
+Cosa,65-100,2015,28
+Cosa,0-18,2016,1
+Cosa,18-40,2016,7
+Cosa,40-65,2016,19
+Cosa,65-100,2016,28
+Cosa,0-18,2017,1
+Cosa,18-40,2017,6
+Cosa,40-65,2017,21
+Cosa,65-100,2017,27
+Cosa,0-18,2018,1
+Cosa,18-40,2018,4
+Cosa,40-65,2018,23
+Cosa,65-100,2018,24
+Cosa,0-18,2019,1
+Cosa,18-40,2019,3
+Cosa,40-65,2019,23
+Cosa,65-100,2019,23
+Cosa,0-18,2020,1
+Cosa,18-40,2020,3
+Cosa,40-65,2020,25
+Cosa,65-100,2020,22
+Cretas,0-18,2015,84
+Cretas,18-40,2015,139
+Cretas,40-65,2015,180
+Cretas,65-100,2015,170
+Cretas,0-18,2016,83
+Cretas,18-40,2016,123
+Cretas,40-65,2016,180
+Cretas,65-100,2016,168
+Cretas,0-18,2017,82
+Cretas,18-40,2017,126
+Cretas,40-65,2017,195
+Cretas,65-100,2017,169
+Cretas,0-18,2018,81
+Cretas,18-40,2018,120
+Cretas,40-65,2018,193
+Cretas,65-100,2018,177
+Cretas,0-18,2019,91
+Cretas,18-40,2019,106
+Cretas,40-65,2019,201
+Cretas,65-100,2019,169
+Cretas,0-18,2020,86
+Cretas,18-40,2020,102
+Cretas,40-65,2020,198
+Cretas,65-100,2020,168
+Crivillén,0-18,2015,0
+Crivillén,18-40,2015,7
+Crivillén,40-65,2015,22
+Crivillén,65-100,2015,45
+Crivillén,0-18,2016,0
+Crivillén,18-40,2016,6
+Crivillén,40-65,2016,20
+Crivillén,65-100,2016,45
+Crivillén,0-18,2017,0
+Crivillén,18-40,2017,7
+Crivillén,40-65,2017,21
+Crivillén,65-100,2017,43
+Crivillén,0-18,2018,0
+Crivillén,18-40,2018,5
+Crivillén,40-65,2018,20
+Crivillén,65-100,2018,43
+Crivillén,0-18,2019,0
+Crivillén,18-40,2019,2
+Crivillén,40-65,2019,20
+Crivillén,65-100,2019,40
+Crivillén,0-18,2020,9
+Crivillén,18-40,2020,18
+Crivillén,40-65,2020,29
+Crivillén,65-100,2020,30
+Cuba La,0-18,2015,1
+Cuba La,18-40,2015,8
+Cuba La,40-65,2015,19
+Cuba La,65-100,2015,9
+Cuba La,0-18,2016,2
+Cuba La,18-40,2016,9
+Cuba La,40-65,2016,19
+Cuba La,65-100,2016,8
+Cuba La,0-18,2017,2
+Cuba La,18-40,2017,7
+Cuba La,40-65,2017,18
+Cuba La,65-100,2017,9
+Cuba La,0-18,2018,4
+Cuba La,18-40,2018,9
+Cuba La,40-65,2018,19
+Cuba La,65-100,2018,9
+Cuba La,0-18,2019,5
+Cuba La,18-40,2019,10
+Cuba La,40-65,2019,18
+Cuba La,65-100,2019,10
+Cuba La,0-18,2020,5
+Cuba La,18-40,2020,10
+Cuba La,40-65,2020,17
+Cuba La,65-100,2020,11
+Cubla,0-18,2015,8
+Cubla,18-40,2015,13
+Cubla,40-65,2015,17
+Cubla,65-100,2015,16
+Cubla,0-18,2016,6
+Cubla,18-40,2016,14
+Cubla,40-65,2016,19
+Cubla,65-100,2016,13
+Cubla,0-18,2017,6
+Cubla,18-40,2017,16
+Cubla,40-65,2017,21
+Cubla,65-100,2017,12
+Cubla,0-18,2018,5
+Cubla,18-40,2018,15
+Cubla,40-65,2018,23
+Cubla,65-100,2018,11
+Cubla,0-18,2019,5
+Cubla,18-40,2019,17
+Cubla,40-65,2019,24
+Cubla,65-100,2019,12
+Cubla,0-18,2020,4
+Cubla,18-40,2020,19
+Cubla,40-65,2020,21
+Cubla,65-100,2020,11
+Cucalón,0-18,2015,7
+Cucalón,18-40,2015,26
+Cucalón,40-65,2015,31
+Cucalón,65-100,2015,40
+Cucalón,0-18,2016,7
+Cucalón,18-40,2016,24
+Cucalón,40-65,2016,26
+Cucalón,65-100,2016,39
+Cucalón,0-18,2017,9
+Cucalón,18-40,2017,20
+Cucalón,40-65,2017,28
+Cucalón,65-100,2017,34
+Cucalón,0-18,2018,7
+Cucalón,18-40,2018,13
+Cucalón,40-65,2018,28
+Cucalón,65-100,2018,32
+Cucalón,0-18,2019,6
+Cucalón,18-40,2019,15
+Cucalón,40-65,2019,28
+Cucalón,65-100,2019,29
+Cucalón,0-18,2020,6
+Cucalón,18-40,2020,12
+Cucalón,40-65,2020,30
+Cucalón,65-100,2020,30
+Cuervo El,0-18,2015,5
+Cuervo El,18-40,2015,14
+Cuervo El,40-65,2015,22
+Cuervo El,65-100,2015,46
+Cuervo El,0-18,2016,6
+Cuervo El,18-40,2016,14
+Cuervo El,40-65,2016,22
+Cuervo El,65-100,2016,47
+Cuervo El,0-18,2017,8
+Cuervo El,18-40,2017,17
+Cuervo El,40-65,2017,21
+Cuervo El,65-100,2017,47
+Cuervo El,0-18,2018,8
+Cuervo El,18-40,2018,15
+Cuervo El,40-65,2018,22
+Cuervo El,65-100,2018,41
+Cuervo El,0-18,2019,5
+Cuervo El,18-40,2019,13
+Cuervo El,40-65,2019,23
+Cuervo El,65-100,2019,37
+Cuervo El,0-18,2020,5
+Cuervo El,18-40,2020,15
+Cuervo El,40-65,2020,25
+Cuervo El,65-100,2020,35
+Cuevas de Almudén,0-18,2015,29
+Cuevas de Almudén,18-40,2015,39
+Cuevas de Almudén,40-65,2015,46
+Cuevas de Almudén,65-100,2015,26
+Cuevas de Almudén,0-18,2016,27
+Cuevas de Almudén,18-40,2016,46
+Cuevas de Almudén,40-65,2016,44
+Cuevas de Almudén,65-100,2016,24
+Cuevas de Almudén,0-18,2017,25
+Cuevas de Almudén,18-40,2017,42
+Cuevas de Almudén,40-65,2017,45
+Cuevas de Almudén,65-100,2017,26
+Cuevas de Almudén,0-18,2018,21
+Cuevas de Almudén,18-40,2018,33
+Cuevas de Almudén,40-65,2018,42
+Cuevas de Almudén,65-100,2018,26
+Cuevas de Almudén,0-18,2019,20
+Cuevas de Almudén,18-40,2019,38
+Cuevas de Almudén,40-65,2019,42
+Cuevas de Almudén,65-100,2019,26
+Cuevas de Almudén,0-18,2020,20
+Cuevas de Almudén,18-40,2020,31
+Cuevas de Almudén,40-65,2020,41
+Cuevas de Almudén,65-100,2020,26
+Cuevas Labradas,0-18,2015,9
+Cuevas Labradas,18-40,2015,25
+Cuevas Labradas,40-65,2015,37
+Cuevas Labradas,65-100,2015,52
+Cuevas Labradas,0-18,2016,12
+Cuevas Labradas,18-40,2016,28
+Cuevas Labradas,40-65,2016,37
+Cuevas Labradas,65-100,2016,50
+Cuevas Labradas,0-18,2017,10
+Cuevas Labradas,18-40,2017,29
+Cuevas Labradas,40-65,2017,37
+Cuevas Labradas,65-100,2017,50
+Cuevas Labradas,0-18,2018,10
+Cuevas Labradas,18-40,2018,30
+Cuevas Labradas,40-65,2018,39
+Cuevas Labradas,65-100,2018,52
+Cuevas Labradas,0-18,2019,8
+Cuevas Labradas,18-40,2019,26
+Cuevas Labradas,40-65,2019,44
+Cuevas Labradas,65-100,2019,54
+Cuevas Labradas,0-18,2020,11
+Cuevas Labradas,18-40,2020,27
+Cuevas Labradas,40-65,2020,46
+Cuevas Labradas,65-100,2020,53
+Ejulve,0-18,2015,18
+Ejulve,18-40,2015,50
+Ejulve,40-65,2015,64
+Ejulve,65-100,2015,68
+Ejulve,0-18,2016,17
+Ejulve,18-40,2016,47
+Ejulve,40-65,2016,62
+Ejulve,65-100,2016,63
+Ejulve,0-18,2017,16
+Ejulve,18-40,2017,49
+Ejulve,40-65,2017,61
+Ejulve,65-100,2017,61
+Ejulve,0-18,2018,11
+Ejulve,18-40,2018,47
+Ejulve,40-65,2018,59
+Ejulve,65-100,2018,63
+Ejulve,0-18,2019,11
+Ejulve,18-40,2019,48
+Ejulve,40-65,2019,56
+Ejulve,65-100,2019,60
+Ejulve,0-18,2020,14
+Ejulve,18-40,2020,48
+Ejulve,40-65,2020,56
+Ejulve,65-100,2020,59
+Escorihuela,0-18,2015,4
+Escorihuela,18-40,2015,25
+Escorihuela,40-65,2015,50
+Escorihuela,65-100,2015,79
+Escorihuela,0-18,2016,1
+Escorihuela,18-40,2016,26
+Escorihuela,40-65,2016,46
+Escorihuela,65-100,2016,79
+Escorihuela,0-18,2017,2
+Escorihuela,18-40,2017,29
+Escorihuela,40-65,2017,44
+Escorihuela,65-100,2017,72
+Escorihuela,0-18,2018,2
+Escorihuela,18-40,2018,30
+Escorihuela,40-65,2018,41
+Escorihuela,65-100,2018,66
+Escorihuela,0-18,2019,4
+Escorihuela,18-40,2019,26
+Escorihuela,40-65,2019,47
+Escorihuela,65-100,2019,59
+Escorihuela,0-18,2020,5
+Escorihuela,18-40,2020,30
+Escorihuela,40-65,2020,47
+Escorihuela,65-100,2020,54
+Escucha,0-18,2015,167
+Escucha,18-40,2015,287
+Escucha,40-65,2015,350
+Escucha,65-100,2015,149
+Escucha,0-18,2016,168
+Escucha,18-40,2016,284
+Escucha,40-65,2016,346
+Escucha,65-100,2016,156
+Escucha,0-18,2017,161
+Escucha,18-40,2017,261
+Escucha,40-65,2017,338
+Escucha,65-100,2017,153
+Escucha,0-18,2018,152
+Escucha,18-40,2018,248
+Escucha,40-65,2018,335
+Escucha,65-100,2018,150
+Escucha,0-18,2019,149
+Escucha,18-40,2019,232
+Escucha,40-65,2019,328
+Escucha,65-100,2019,143
+Escucha,0-18,2020,132
+Escucha,18-40,2020,222
+Escucha,40-65,2020,315
+Escucha,65-100,2020,132
+Estercuel,0-18,2015,22
+Estercuel,18-40,2015,81
+Estercuel,40-65,2015,77
+Estercuel,65-100,2015,49
+Estercuel,0-18,2016,28
+Estercuel,18-40,2016,77
+Estercuel,40-65,2016,85
+Estercuel,65-100,2016,47
+Estercuel,0-18,2017,25
+Estercuel,18-40,2017,68
+Estercuel,40-65,2017,82
+Estercuel,65-100,2017,48
+Estercuel,0-18,2018,18
+Estercuel,18-40,2018,64
+Estercuel,40-65,2018,81
+Estercuel,65-100,2018,47
+Estercuel,0-18,2019,17
+Estercuel,18-40,2019,56
+Estercuel,40-65,2019,78
+Estercuel,65-100,2019,52
+Estercuel,0-18,2020,21
+Estercuel,18-40,2020,54
+Estercuel,40-65,2020,77
+Estercuel,65-100,2020,53
+Ferreruela de Huerva,0-18,2015,4
+Ferreruela de Huerva,18-40,2015,14
+Ferreruela de Huerva,40-65,2015,27
+Ferreruela de Huerva,65-100,2015,24
+Ferreruela de Huerva,0-18,2016,3
+Ferreruela de Huerva,18-40,2016,15
+Ferreruela de Huerva,40-65,2016,24
+Ferreruela de Huerva,65-100,2016,25
+Ferreruela de Huerva,0-18,2017,3
+Ferreruela de Huerva,18-40,2017,14
+Ferreruela de Huerva,40-65,2017,24
+Ferreruela de Huerva,65-100,2017,24
+Ferreruela de Huerva,0-18,2018,2
+Ferreruela de Huerva,18-40,2018,13
+Ferreruela de Huerva,40-65,2018,22
+Ferreruela de Huerva,65-100,2018,26
+Ferreruela de Huerva,0-18,2019,2
+Ferreruela de Huerva,18-40,2019,13
+Ferreruela de Huerva,40-65,2019,18
+Ferreruela de Huerva,65-100,2019,23
+Ferreruela de Huerva,0-18,2020,6
+Ferreruela de Huerva,18-40,2020,16
+Ferreruela de Huerva,40-65,2020,16
+Ferreruela de Huerva,65-100,2020,26
+Fonfría,0-18,2015,0
+Fonfría,18-40,2015,5
+Fonfría,40-65,2015,7
+Fonfría,65-100,2015,19
+Fonfría,0-18,2016,0
+Fonfría,18-40,2016,5
+Fonfría,40-65,2016,7
+Fonfría,65-100,2016,19
+Fonfría,0-18,2017,0
+Fonfría,18-40,2017,4
+Fonfría,40-65,2017,8
+Fonfría,65-100,2017,18
+Fonfría,0-18,2018,0
+Fonfría,18-40,2018,4
+Fonfría,40-65,2018,8
+Fonfría,65-100,2018,16
+Fonfría,0-18,2019,0
+Fonfría,18-40,2019,4
+Fonfría,40-65,2019,8
+Fonfría,65-100,2019,15
+Fonfría,0-18,2020,0
+Fonfría,18-40,2020,3
+Fonfría,40-65,2020,8
+Fonfría,65-100,2020,15
+Formiche Alto,0-18,2015,29
+Formiche Alto,18-40,2015,44
+Formiche Alto,40-65,2015,50
+Formiche Alto,65-100,2015,57
+Formiche Alto,0-18,2016,21
+Formiche Alto,18-40,2016,38
+Formiche Alto,40-65,2016,45
+Formiche Alto,65-100,2016,60
+Formiche Alto,0-18,2017,21
+Formiche Alto,18-40,2017,39
+Formiche Alto,40-65,2017,43
+Formiche Alto,65-100,2017,52
+Formiche Alto,0-18,2018,19
+Formiche Alto,18-40,2018,35
+Formiche Alto,40-65,2018,46
+Formiche Alto,65-100,2018,51
+Formiche Alto,0-18,2019,12
+Formiche Alto,18-40,2019,37
+Formiche Alto,40-65,2019,43
+Formiche Alto,65-100,2019,49
+Formiche Alto,0-18,2020,13
+Formiche Alto,18-40,2020,39
+Formiche Alto,40-65,2020,46
+Formiche Alto,65-100,2020,50
+Fórnoles,0-18,2015,2
+Fórnoles,18-40,2015,18
+Fórnoles,40-65,2015,37
+Fórnoles,65-100,2015,29
+Fórnoles,0-18,2016,2
+Fórnoles,18-40,2016,19
+Fórnoles,40-65,2016,37
+Fórnoles,65-100,2016,28
+Fórnoles,0-18,2017,3
+Fórnoles,18-40,2017,16
+Fórnoles,40-65,2017,32
+Fórnoles,65-100,2017,27
+Fórnoles,0-18,2018,3
+Fórnoles,18-40,2018,17
+Fórnoles,40-65,2018,28
+Fórnoles,65-100,2018,27
+Fórnoles,0-18,2019,6
+Fórnoles,18-40,2019,17
+Fórnoles,40-65,2019,27
+Fórnoles,65-100,2019,30
+Fórnoles,0-18,2020,4
+Fórnoles,18-40,2020,18
+Fórnoles,40-65,2020,22
+Fórnoles,65-100,2020,30
+Fortanete,0-18,2015,28
+Fortanete,18-40,2015,54
+Fortanete,40-65,2015,66
+Fortanete,65-100,2015,55
+Fortanete,0-18,2016,33
+Fortanete,18-40,2016,52
+Fortanete,40-65,2016,68
+Fortanete,65-100,2016,51
+Fortanete,0-18,2017,32
+Fortanete,18-40,2017,48
+Fortanete,40-65,2017,69
+Fortanete,65-100,2017,54
+Fortanete,0-18,2018,36
+Fortanete,18-40,2018,50
+Fortanete,40-65,2018,70
+Fortanete,65-100,2018,49
+Fortanete,0-18,2019,33
+Fortanete,18-40,2019,49
+Fortanete,40-65,2019,73
+Fortanete,65-100,2019,50
+Fortanete,0-18,2020,37
+Fortanete,18-40,2020,45
+Fortanete,40-65,2020,74
+Fortanete,65-100,2020,46
+Foz-Calanda,0-18,2015,41
+Foz-Calanda,18-40,2015,63
+Foz-Calanda,40-65,2015,94
+Foz-Calanda,65-100,2015,71
+Foz-Calanda,0-18,2016,43
+Foz-Calanda,18-40,2016,62
+Foz-Calanda,40-65,2016,88
+Foz-Calanda,65-100,2016,71
+Foz-Calanda,0-18,2017,42
+Foz-Calanda,18-40,2017,60
+Foz-Calanda,40-65,2017,91
+Foz-Calanda,65-100,2017,67
+Foz-Calanda,0-18,2018,33
+Foz-Calanda,18-40,2018,54
+Foz-Calanda,40-65,2018,86
+Foz-Calanda,65-100,2018,65
+Foz-Calanda,0-18,2019,32
+Foz-Calanda,18-40,2019,60
+Foz-Calanda,40-65,2019,91
+Foz-Calanda,65-100,2019,62
+Foz-Calanda,0-18,2020,38
+Foz-Calanda,18-40,2020,69
+Foz-Calanda,40-65,2020,91
+Foz-Calanda,65-100,2020,60
+Fresneda La,0-18,2015,65
+Fresneda La,18-40,2015,127
+Fresneda La,40-65,2015,157
+Fresneda La,65-100,2015,125
+Fresneda La,0-18,2016,70
+Fresneda La,18-40,2016,124
+Fresneda La,40-65,2016,153
+Fresneda La,65-100,2016,123
+Fresneda La,0-18,2017,62
+Fresneda La,18-40,2017,108
+Fresneda La,40-65,2017,147
+Fresneda La,65-100,2017,119
+Fresneda La,0-18,2018,60
+Fresneda La,18-40,2018,112
+Fresneda La,40-65,2018,153
+Fresneda La,65-100,2018,118
+Fresneda La,0-18,2019,61
+Fresneda La,18-40,2019,107
+Fresneda La,40-65,2019,154
+Fresneda La,65-100,2019,116
+Fresneda La,0-18,2020,59
+Fresneda La,18-40,2020,102
+Fresneda La,40-65,2020,166
+Fresneda La,65-100,2020,116
+Frías de Albarracín,0-18,2015,16
+Frías de Albarracín,18-40,2015,35
+Frías de Albarracín,40-65,2015,45
+Frías de Albarracín,65-100,2015,35
+Frías de Albarracín,0-18,2016,13
+Frías de Albarracín,18-40,2016,34
+Frías de Albarracín,40-65,2016,46
+Frías de Albarracín,65-100,2016,37
+Frías de Albarracín,0-18,2017,11
+Frías de Albarracín,18-40,2017,33
+Frías de Albarracín,40-65,2017,44
+Frías de Albarracín,65-100,2017,37
+Frías de Albarracín,0-18,2018,8
+Frías de Albarracín,18-40,2018,28
+Frías de Albarracín,40-65,2018,45
+Frías de Albarracín,65-100,2018,35
+Frías de Albarracín,0-18,2019,8
+Frías de Albarracín,18-40,2019,26
+Frías de Albarracín,40-65,2019,45
+Frías de Albarracín,65-100,2019,36
+Frías de Albarracín,0-18,2020,7
+Frías de Albarracín,18-40,2020,20
+Frías de Albarracín,40-65,2020,45
+Frías de Albarracín,65-100,2020,32
+Fuenferrada,0-18,2015,4
+Fuenferrada,18-40,2015,7
+Fuenferrada,40-65,2015,18
+Fuenferrada,65-100,2015,28
+Fuenferrada,0-18,2016,4
+Fuenferrada,18-40,2016,7
+Fuenferrada,40-65,2016,15
+Fuenferrada,65-100,2016,30
+Fuenferrada,0-18,2017,4
+Fuenferrada,18-40,2017,7
+Fuenferrada,40-65,2017,12
+Fuenferrada,65-100,2017,28
+Fuenferrada,0-18,2018,0
+Fuenferrada,18-40,2018,7
+Fuenferrada,40-65,2018,9
+Fuenferrada,65-100,2018,26
+Fuenferrada,0-18,2019,0
+Fuenferrada,18-40,2019,5
+Fuenferrada,40-65,2019,7
+Fuenferrada,65-100,2019,25
+Fuenferrada,0-18,2020,0
+Fuenferrada,18-40,2020,4
+Fuenferrada,40-65,2020,6
+Fuenferrada,65-100,2020,26
+Fuentes Calientes,0-18,2015,5
+Fuentes Calientes,18-40,2015,20
+Fuentes Calientes,40-65,2015,35
+Fuentes Calientes,65-100,2015,33
+Fuentes Calientes,0-18,2016,8
+Fuentes Calientes,18-40,2016,26
+Fuentes Calientes,40-65,2016,36
+Fuentes Calientes,65-100,2016,35
+Fuentes Calientes,0-18,2017,8
+Fuentes Calientes,18-40,2017,29
+Fuentes Calientes,40-65,2017,36
+Fuentes Calientes,65-100,2017,38
+Fuentes Calientes,0-18,2018,6
+Fuentes Calientes,18-40,2018,27
+Fuentes Calientes,40-65,2018,37
+Fuentes Calientes,65-100,2018,31
+Fuentes Calientes,0-18,2019,5
+Fuentes Calientes,18-40,2019,23
+Fuentes Calientes,40-65,2019,33
+Fuentes Calientes,65-100,2019,31
+Fuentes Calientes,0-18,2020,5
+Fuentes Calientes,18-40,2020,22
+Fuentes Calientes,40-65,2020,33
+Fuentes Calientes,65-100,2020,31
+Fuentes Claras,0-18,2015,60
+Fuentes Claras,18-40,2015,110
+Fuentes Claras,40-65,2015,150
+Fuentes Claras,65-100,2015,208
+Fuentes Claras,0-18,2016,53
+Fuentes Claras,18-40,2016,103
+Fuentes Claras,40-65,2016,141
+Fuentes Claras,65-100,2016,197
+Fuentes Claras,0-18,2017,50
+Fuentes Claras,18-40,2017,101
+Fuentes Claras,40-65,2017,139
+Fuentes Claras,65-100,2017,192
+Fuentes Claras,0-18,2018,45
+Fuentes Claras,18-40,2018,97
+Fuentes Claras,40-65,2018,136
+Fuentes Claras,65-100,2018,183
+Fuentes Claras,0-18,2019,43
+Fuentes Claras,18-40,2019,97
+Fuentes Claras,40-65,2019,138
+Fuentes Claras,65-100,2019,183
+Fuentes Claras,0-18,2020,43
+Fuentes Claras,18-40,2020,89
+Fuentes Claras,40-65,2020,141
+Fuentes Claras,65-100,2020,172
+Fuentes de Rubielos,0-18,2015,30
+Fuentes de Rubielos,18-40,2015,28
+Fuentes de Rubielos,40-65,2015,49
+Fuentes de Rubielos,65-100,2015,14
+Fuentes de Rubielos,0-18,2016,24
+Fuentes de Rubielos,18-40,2016,30
+Fuentes de Rubielos,40-65,2016,47
+Fuentes de Rubielos,65-100,2016,13
+Fuentes de Rubielos,0-18,2017,26
+Fuentes de Rubielos,18-40,2017,29
+Fuentes de Rubielos,40-65,2017,46
+Fuentes de Rubielos,65-100,2017,11
+Fuentes de Rubielos,0-18,2018,26
+Fuentes de Rubielos,18-40,2018,29
+Fuentes de Rubielos,40-65,2018,47
+Fuentes de Rubielos,65-100,2018,12
+Fuentes de Rubielos,0-18,2019,30
+Fuentes de Rubielos,18-40,2019,33
+Fuentes de Rubielos,40-65,2019,43
+Fuentes de Rubielos,65-100,2019,12
+Fuentes de Rubielos,0-18,2020,31
+Fuentes de Rubielos,18-40,2020,33
+Fuentes de Rubielos,40-65,2020,49
+Fuentes de Rubielos,65-100,2020,11
+Fuentespalda,0-18,2015,30
+Fuentespalda,18-40,2015,62
+Fuentespalda,40-65,2015,101
+Fuentespalda,65-100,2015,92
+Fuentespalda,0-18,2016,26
+Fuentespalda,18-40,2016,66
+Fuentespalda,40-65,2016,105
+Fuentespalda,65-100,2016,94
+Fuentespalda,0-18,2017,31
+Fuentespalda,18-40,2017,67
+Fuentespalda,40-65,2017,102
+Fuentespalda,65-100,2017,98
+Fuentespalda,0-18,2018,28
+Fuentespalda,18-40,2018,60
+Fuentespalda,40-65,2018,101
+Fuentespalda,65-100,2018,97
+Fuentespalda,0-18,2019,29
+Fuentespalda,18-40,2019,60
+Fuentespalda,40-65,2019,97
+Fuentespalda,65-100,2019,98
+Fuentespalda,0-18,2020,29
+Fuentespalda,18-40,2020,62
+Fuentespalda,40-65,2020,90
+Fuentespalda,65-100,2020,101
+Galve,0-18,2015,36
+Galve,18-40,2015,35
+Galve,40-65,2015,54
+Galve,65-100,2015,42
+Galve,0-18,2016,36
+Galve,18-40,2016,31
+Galve,40-65,2016,54
+Galve,65-100,2016,38
+Galve,0-18,2017,35
+Galve,18-40,2017,33
+Galve,40-65,2017,58
+Galve,65-100,2017,36
+Galve,0-18,2018,34
+Galve,18-40,2018,33
+Galve,40-65,2018,60
+Galve,65-100,2018,34
+Galve,0-18,2019,37
+Galve,18-40,2019,27
+Galve,40-65,2019,66
+Galve,65-100,2019,32
+Galve,0-18,2020,35
+Galve,18-40,2020,27
+Galve,40-65,2020,66
+Galve,65-100,2020,32
+Gargallo,0-18,2015,18
+Gargallo,18-40,2015,17
+Gargallo,40-65,2015,38
+Gargallo,65-100,2015,30
+Gargallo,0-18,2016,17
+Gargallo,18-40,2016,16
+Gargallo,40-65,2016,40
+Gargallo,65-100,2016,29
+Gargallo,0-18,2017,18
+Gargallo,18-40,2017,19
+Gargallo,40-65,2017,37
+Gargallo,65-100,2017,27
+Gargallo,0-18,2018,13
+Gargallo,18-40,2018,15
+Gargallo,40-65,2018,36
+Gargallo,65-100,2018,25
+Gargallo,0-18,2019,12
+Gargallo,18-40,2019,18
+Gargallo,40-65,2019,36
+Gargallo,65-100,2019,27
+Gargallo,0-18,2020,14
+Gargallo,18-40,2020,19
+Gargallo,40-65,2020,37
+Gargallo,65-100,2020,27
+Gea de Albarracín,0-18,2015,35
+Gea de Albarracín,18-40,2015,82
+Gea de Albarracín,40-65,2015,136
+Gea de Albarracín,65-100,2015,134
+Gea de Albarracín,0-18,2016,35
+Gea de Albarracín,18-40,2016,75
+Gea de Albarracín,40-65,2016,127
+Gea de Albarracín,65-100,2016,137
+Gea de Albarracín,0-18,2017,36
+Gea de Albarracín,18-40,2017,81
+Gea de Albarracín,40-65,2017,129
+Gea de Albarracín,65-100,2017,126
+Gea de Albarracín,0-18,2018,37
+Gea de Albarracín,18-40,2018,80
+Gea de Albarracín,40-65,2018,132
+Gea de Albarracín,65-100,2018,127
+Gea de Albarracín,0-18,2019,35
+Gea de Albarracín,18-40,2019,79
+Gea de Albarracín,40-65,2019,127
+Gea de Albarracín,65-100,2019,119
+Gea de Albarracín,0-18,2020,34
+Gea de Albarracín,18-40,2020,84
+Gea de Albarracín,40-65,2020,131
+Gea de Albarracín,65-100,2020,121
+Ginebrosa La,0-18,2015,28
+Ginebrosa La,18-40,2015,44
+Ginebrosa La,40-65,2015,66
+Ginebrosa La,65-100,2015,65
+Ginebrosa La,0-18,2016,29
+Ginebrosa La,18-40,2016,37
+Ginebrosa La,40-65,2016,70
+Ginebrosa La,65-100,2016,63
+Ginebrosa La,0-18,2017,31
+Ginebrosa La,18-40,2017,36
+Ginebrosa La,40-65,2017,69
+Ginebrosa La,65-100,2017,61
+Ginebrosa La,0-18,2018,30
+Ginebrosa La,18-40,2018,39
+Ginebrosa La,40-65,2018,70
+Ginebrosa La,65-100,2018,61
+Ginebrosa La,0-18,2019,30
+Ginebrosa La,18-40,2019,36
+Ginebrosa La,40-65,2019,68
+Ginebrosa La,65-100,2019,60
+Ginebrosa La,0-18,2020,29
+Ginebrosa La,18-40,2020,45
+Ginebrosa La,40-65,2020,68
+Ginebrosa La,65-100,2020,55
+Griegos,0-18,2015,17
+Griegos,18-40,2015,41
+Griegos,40-65,2015,51
+Griegos,65-100,2015,48
+Griegos,0-18,2016,19
+Griegos,18-40,2016,41
+Griegos,40-65,2016,53
+Griegos,65-100,2016,47
+Griegos,0-18,2017,17
+Griegos,18-40,2017,37
+Griegos,40-65,2017,53
+Griegos,65-100,2017,44
+Griegos,0-18,2018,12
+Griegos,18-40,2018,33
+Griegos,40-65,2018,58
+Griegos,65-100,2018,40
+Griegos,0-18,2019,11
+Griegos,18-40,2019,33
+Griegos,40-65,2019,52
+Griegos,65-100,2019,40
+Griegos,0-18,2020,10
+Griegos,18-40,2020,37
+Griegos,40-65,2020,46
+Griegos,65-100,2020,45
+Guadalaviar,0-18,2015,33
+Guadalaviar,18-40,2015,60
+Guadalaviar,40-65,2015,96
+Guadalaviar,65-100,2015,58
+Guadalaviar,0-18,2016,28
+Guadalaviar,18-40,2016,60
+Guadalaviar,40-65,2016,101
+Guadalaviar,65-100,2016,56
+Guadalaviar,0-18,2017,28
+Guadalaviar,18-40,2017,62
+Guadalaviar,40-65,2017,99
+Guadalaviar,65-100,2017,52
+Guadalaviar,0-18,2018,23
+Guadalaviar,18-40,2018,64
+Guadalaviar,40-65,2018,105
+Guadalaviar,65-100,2018,50
+Guadalaviar,0-18,2019,24
+Guadalaviar,18-40,2019,64
+Guadalaviar,40-65,2019,103
+Guadalaviar,65-100,2019,50
+Guadalaviar,0-18,2020,23
+Guadalaviar,18-40,2020,68
+Guadalaviar,40-65,2020,99
+Guadalaviar,65-100,2020,54
+Gúdar,0-18,2015,14
+Gúdar,18-40,2015,24
+Gúdar,40-65,2015,19
+Gúdar,65-100,2015,20
+Gúdar,0-18,2016,12
+Gúdar,18-40,2016,21
+Gúdar,40-65,2016,20
+Gúdar,65-100,2016,20
+Gúdar,0-18,2017,17
+Gúdar,18-40,2017,22
+Gúdar,40-65,2017,23
+Gúdar,65-100,2017,19
+Gúdar,0-18,2018,13
+Gúdar,18-40,2018,20
+Gúdar,40-65,2018,21
+Gúdar,65-100,2018,18
+Gúdar,0-18,2019,14
+Gúdar,18-40,2019,25
+Gúdar,40-65,2019,24
+Gúdar,65-100,2019,13
+Gúdar,0-18,2020,13
+Gúdar,18-40,2020,25
+Gúdar,40-65,2020,25
+Gúdar,65-100,2020,14
+Híjar,0-18,2015,428
+Híjar,18-40,2015,640
+Híjar,40-65,2015,920
+Híjar,65-100,2015,720
+Híjar,0-18,2016,407
+Híjar,18-40,2016,625
+Híjar,40-65,2016,916
+Híjar,65-100,2016,706
+Híjar,0-18,2017,407
+Híjar,18-40,2017,604
+Híjar,40-65,2017,933
+Híjar,65-100,2017,697
+Híjar,0-18,2018,410
+Híjar,18-40,2018,580
+Híjar,40-65,2018,942
+Híjar,65-100,2018,685
+Híjar,0-18,2019,431
+Híjar,18-40,2019,576
+Híjar,40-65,2019,930
+Híjar,65-100,2019,681
+Híjar,0-18,2020,440
+Híjar,18-40,2020,607
+Híjar,40-65,2020,933
+Híjar,65-100,2020,673
+Hinojosa de Jarque,0-18,2015,14
+Hinojosa de Jarque,18-40,2015,28
+Hinojosa de Jarque,40-65,2015,48
+Hinojosa de Jarque,65-100,2015,46
+Hinojosa de Jarque,0-18,2016,12
+Hinojosa de Jarque,18-40,2016,25
+Hinojosa de Jarque,40-65,2016,48
+Hinojosa de Jarque,65-100,2016,46
+Hinojosa de Jarque,0-18,2017,13
+Hinojosa de Jarque,18-40,2017,25
+Hinojosa de Jarque,40-65,2017,47
+Hinojosa de Jarque,65-100,2017,47
+Hinojosa de Jarque,0-18,2018,6
+Hinojosa de Jarque,18-40,2018,25
+Hinojosa de Jarque,40-65,2018,43
+Hinojosa de Jarque,65-100,2018,45
+Hinojosa de Jarque,0-18,2019,4
+Hinojosa de Jarque,18-40,2019,22
+Hinojosa de Jarque,40-65,2019,38
+Hinojosa de Jarque,65-100,2019,47
+Hinojosa de Jarque,0-18,2020,6
+Hinojosa de Jarque,18-40,2020,21
+Hinojosa de Jarque,40-65,2020,39
+Hinojosa de Jarque,65-100,2020,46
+Hoz de la Vieja La,0-18,2015,2
+Hoz de la Vieja La,18-40,2015,14
+Hoz de la Vieja La,40-65,2015,35
+Hoz de la Vieja La,65-100,2015,31
+Hoz de la Vieja La,0-18,2016,4
+Hoz de la Vieja La,18-40,2016,13
+Hoz de la Vieja La,40-65,2016,32
+Hoz de la Vieja La,65-100,2016,30
+Hoz de la Vieja La,0-18,2017,9
+Hoz de la Vieja La,18-40,2017,13
+Hoz de la Vieja La,40-65,2017,33
+Hoz de la Vieja La,65-100,2017,31
+Hoz de la Vieja La,0-18,2018,10
+Hoz de la Vieja La,18-40,2018,14
+Hoz de la Vieja La,40-65,2018,31
+Hoz de la Vieja La,65-100,2018,30
+Hoz de la Vieja La,0-18,2019,11
+Hoz de la Vieja La,18-40,2019,13
+Hoz de la Vieja La,40-65,2019,32
+Hoz de la Vieja La,65-100,2019,27
+Hoz de la Vieja La,0-18,2020,10
+Hoz de la Vieja La,18-40,2020,12
+Hoz de la Vieja La,40-65,2020,32
+Hoz de la Vieja La,65-100,2020,27
+Huesa del Común,0-18,2015,3
+Huesa del Común,18-40,2015,5
+Huesa del Común,40-65,2015,26
+Huesa del Común,65-100,2015,39
+Huesa del Común,0-18,2016,3
+Huesa del Común,18-40,2016,6
+Huesa del Común,40-65,2016,24
+Huesa del Común,65-100,2016,36
+Huesa del Común,0-18,2017,3
+Huesa del Común,18-40,2017,7
+Huesa del Común,40-65,2017,27
+Huesa del Común,65-100,2017,30
+Huesa del Común,0-18,2018,2
+Huesa del Común,18-40,2018,4
+Huesa del Común,40-65,2018,31
+Huesa del Común,65-100,2018,30
+Huesa del Común,0-18,2019,4
+Huesa del Común,18-40,2019,8
+Huesa del Común,40-65,2019,33
+Huesa del Común,65-100,2019,28
+Huesa del Común,0-18,2020,0
+Huesa del Común,18-40,2020,8
+Huesa del Común,40-65,2020,31
+Huesa del Común,65-100,2020,30
+Iglesuela del Cid La,0-18,2015,64
+Iglesuela del Cid La,18-40,2015,98
+Iglesuela del Cid La,40-65,2015,156
+Iglesuela del Cid La,65-100,2015,114
+Iglesuela del Cid La,0-18,2016,59
+Iglesuela del Cid La,18-40,2016,103
+Iglesuela del Cid La,40-65,2016,154
+Iglesuela del Cid La,65-100,2016,108
+Iglesuela del Cid La,0-18,2017,55
+Iglesuela del Cid La,18-40,2017,100
+Iglesuela del Cid La,40-65,2017,152
+Iglesuela del Cid La,65-100,2017,107
+Iglesuela del Cid La,0-18,2018,57
+Iglesuela del Cid La,18-40,2018,101
+Iglesuela del Cid La,40-65,2018,163
+Iglesuela del Cid La,65-100,2018,93
+Iglesuela del Cid La,0-18,2019,60
+Iglesuela del Cid La,18-40,2019,98
+Iglesuela del Cid La,40-65,2019,153
+Iglesuela del Cid La,65-100,2019,99
+Iglesuela del Cid La,0-18,2020,63
+Iglesuela del Cid La,18-40,2020,82
+Iglesuela del Cid La,40-65,2020,162
+Iglesuela del Cid La,65-100,2020,95
+Jabaloyas,0-18,2015,0
+Jabaloyas,18-40,2015,15
+Jabaloyas,40-65,2015,29
+Jabaloyas,65-100,2015,33
+Jabaloyas,0-18,2016,1
+Jabaloyas,18-40,2016,14
+Jabaloyas,40-65,2016,34
+Jabaloyas,65-100,2016,28
+Jabaloyas,0-18,2017,1
+Jabaloyas,18-40,2017,14
+Jabaloyas,40-65,2017,31
+Jabaloyas,65-100,2017,22
+Jabaloyas,0-18,2018,1
+Jabaloyas,18-40,2018,14
+Jabaloyas,40-65,2018,31
+Jabaloyas,65-100,2018,19
+Jabaloyas,0-18,2019,0
+Jabaloyas,18-40,2019,15
+Jabaloyas,40-65,2019,29
+Jabaloyas,65-100,2019,19
+Jabaloyas,0-18,2020,0
+Jabaloyas,18-40,2020,14
+Jabaloyas,40-65,2020,27
+Jabaloyas,65-100,2020,18
+Jarque de la Val,0-18,2015,5
+Jarque de la Val,18-40,2015,12
+Jarque de la Val,40-65,2015,25
+Jarque de la Val,65-100,2015,36
+Jarque de la Val,0-18,2016,5
+Jarque de la Val,18-40,2016,13
+Jarque de la Val,40-65,2016,25
+Jarque de la Val,65-100,2016,31
+Jarque de la Val,0-18,2017,6
+Jarque de la Val,18-40,2017,13
+Jarque de la Val,40-65,2017,24
+Jarque de la Val,65-100,2017,29
+Jarque de la Val,0-18,2018,6
+Jarque de la Val,18-40,2018,12
+Jarque de la Val,40-65,2018,23
+Jarque de la Val,65-100,2018,29
+Jarque de la Val,0-18,2019,6
+Jarque de la Val,18-40,2019,9
+Jarque de la Val,40-65,2019,22
+Jarque de la Val,65-100,2019,29
+Jarque de la Val,0-18,2020,5
+Jarque de la Val,18-40,2020,8
+Jarque de la Val,40-65,2020,23
+Jarque de la Val,65-100,2020,26
+Jatiel,0-18,2015,4
+Jatiel,18-40,2015,11
+Jatiel,40-65,2015,18
+Jatiel,65-100,2015,15
+Jatiel,0-18,2016,3
+Jatiel,18-40,2016,10
+Jatiel,40-65,2016,15
+Jatiel,65-100,2016,14
+Jatiel,0-18,2017,2
+Jatiel,18-40,2017,11
+Jatiel,40-65,2017,15
+Jatiel,65-100,2017,13
+Jatiel,0-18,2018,1
+Jatiel,18-40,2018,9
+Jatiel,40-65,2018,18
+Jatiel,65-100,2018,12
+Jatiel,0-18,2019,1
+Jatiel,18-40,2019,8
+Jatiel,40-65,2019,18
+Jatiel,65-100,2019,10
+Jatiel,0-18,2020,0
+Jatiel,18-40,2020,11
+Jatiel,40-65,2020,20
+Jatiel,65-100,2020,8
+Jorcas,0-18,2015,4
+Jorcas,18-40,2015,9
+Jorcas,40-65,2015,12
+Jorcas,65-100,2015,16
+Jorcas,0-18,2016,2
+Jorcas,18-40,2016,9
+Jorcas,40-65,2016,12
+Jorcas,65-100,2016,15
+Jorcas,0-18,2017,2
+Jorcas,18-40,2017,6
+Jorcas,40-65,2017,9
+Jorcas,65-100,2017,15
+Jorcas,0-18,2018,4
+Jorcas,18-40,2018,3
+Jorcas,40-65,2018,11
+Jorcas,65-100,2018,16
+Jorcas,0-18,2019,3
+Jorcas,18-40,2019,2
+Jorcas,40-65,2019,11
+Jorcas,65-100,2019,14
+Jorcas,0-18,2020,3
+Jorcas,18-40,2020,2
+Jorcas,40-65,2020,11
+Jorcas,65-100,2020,13
+Josa,0-18,2015,1
+Josa,18-40,2015,9
+Josa,40-65,2015,14
+Josa,65-100,2015,12
+Josa,0-18,2016,1
+Josa,18-40,2016,7
+Josa,40-65,2016,12
+Josa,65-100,2016,14
+Josa,0-18,2017,0
+Josa,18-40,2017,7
+Josa,40-65,2017,10
+Josa,65-100,2017,15
+Josa,0-18,2018,1
+Josa,18-40,2018,8
+Josa,40-65,2018,11
+Josa,65-100,2018,14
+Josa,0-18,2019,1
+Josa,18-40,2019,9
+Josa,40-65,2019,10
+Josa,65-100,2019,14
+Josa,0-18,2020,1
+Josa,18-40,2020,10
+Josa,40-65,2020,10
+Josa,65-100,2020,13
+Lagueruela,0-18,2015,9
+Lagueruela,18-40,2015,19
+Lagueruela,40-65,2015,18
+Lagueruela,65-100,2015,35
+Lagueruela,0-18,2016,9
+Lagueruela,18-40,2016,18
+Lagueruela,40-65,2016,18
+Lagueruela,65-100,2016,34
+Lagueruela,0-18,2017,13
+Lagueruela,18-40,2017,17
+Lagueruela,40-65,2017,21
+Lagueruela,65-100,2017,33
+Lagueruela,0-18,2018,10
+Lagueruela,18-40,2018,13
+Lagueruela,40-65,2018,21
+Lagueruela,65-100,2018,34
+Lagueruela,0-18,2019,10
+Lagueruela,18-40,2019,10
+Lagueruela,40-65,2019,19
+Lagueruela,65-100,2019,34
+Lagueruela,0-18,2020,10
+Lagueruela,18-40,2020,8
+Lagueruela,40-65,2020,21
+Lagueruela,65-100,2020,30
+Lanzuela,0-18,2015,2
+Lanzuela,18-40,2015,6
+Lanzuela,40-65,2015,14
+Lanzuela,65-100,2015,7
+Lanzuela,0-18,2016,3
+Lanzuela,18-40,2016,6
+Lanzuela,40-65,2016,11
+Lanzuela,65-100,2016,7
+Lanzuela,0-18,2017,2
+Lanzuela,18-40,2017,6
+Lanzuela,40-65,2017,12
+Lanzuela,65-100,2017,7
+Lanzuela,0-18,2018,3
+Lanzuela,18-40,2018,6
+Lanzuela,40-65,2018,10
+Lanzuela,65-100,2018,5
+Lanzuela,0-18,2019,3
+Lanzuela,18-40,2019,6
+Lanzuela,40-65,2019,9
+Lanzuela,65-100,2019,4
+Lanzuela,0-18,2020,3
+Lanzuela,18-40,2020,6
+Lanzuela,40-65,2020,7
+Lanzuela,65-100,2020,6
+Libros,0-18,2015,1
+Libros,18-40,2015,18
+Libros,40-65,2015,40
+Libros,65-100,2015,65
+Libros,0-18,2016,1
+Libros,18-40,2016,17
+Libros,40-65,2016,37
+Libros,65-100,2016,58
+Libros,0-18,2017,0
+Libros,18-40,2017,14
+Libros,40-65,2017,36
+Libros,65-100,2017,53
+Libros,0-18,2018,0
+Libros,18-40,2018,15
+Libros,40-65,2018,35
+Libros,65-100,2018,51
+Libros,0-18,2019,1
+Libros,18-40,2019,19
+Libros,40-65,2019,37
+Libros,65-100,2019,45
+Libros,0-18,2020,0
+Libros,18-40,2020,17
+Libros,40-65,2020,42
+Libros,65-100,2020,41
+Lidón,0-18,2015,4
+Lidón,18-40,2015,9
+Lidón,40-65,2015,12
+Lidón,65-100,2015,27
+Lidón,0-18,2016,3
+Lidón,18-40,2016,12
+Lidón,40-65,2016,13
+Lidón,65-100,2016,27
+Lidón,0-18,2017,3
+Lidón,18-40,2017,7
+Lidón,40-65,2017,16
+Lidón,65-100,2017,27
+Lidón,0-18,2018,4
+Lidón,18-40,2018,7
+Lidón,40-65,2018,17
+Lidón,65-100,2018,27
+Lidón,0-18,2019,2
+Lidón,18-40,2019,7
+Lidón,40-65,2019,21
+Lidón,65-100,2019,27
+Lidón,0-18,2020,2
+Lidón,18-40,2020,7
+Lidón,40-65,2020,19
+Lidón,65-100,2020,26
+Linares de Mora,0-18,2015,31
+Linares de Mora,18-40,2015,85
+Linares de Mora,40-65,2015,100
+Linares de Mora,65-100,2015,71
+Linares de Mora,0-18,2016,24
+Linares de Mora,18-40,2016,80
+Linares de Mora,40-65,2016,94
+Linares de Mora,65-100,2016,69
+Linares de Mora,0-18,2017,25
+Linares de Mora,18-40,2017,72
+Linares de Mora,40-65,2017,99
+Linares de Mora,65-100,2017,64
+Linares de Mora,0-18,2018,27
+Linares de Mora,18-40,2018,66
+Linares de Mora,40-65,2018,94
+Linares de Mora,65-100,2018,62
+Linares de Mora,0-18,2019,23
+Linares de Mora,18-40,2019,58
+Linares de Mora,40-65,2019,86
+Linares de Mora,65-100,2019,67
+Linares de Mora,0-18,2020,21
+Linares de Mora,18-40,2020,54
+Linares de Mora,40-65,2020,85
+Linares de Mora,65-100,2020,65
+Loscos,0-18,2015,3
+Loscos,18-40,2015,20
+Loscos,40-65,2015,52
+Loscos,65-100,2015,76
+Loscos,0-18,2016,4
+Loscos,18-40,2016,18
+Loscos,40-65,2016,49
+Loscos,65-100,2016,67
+Loscos,0-18,2017,6
+Loscos,18-40,2017,22
+Loscos,40-65,2017,45
+Loscos,65-100,2017,66
+Loscos,0-18,2018,6
+Loscos,18-40,2018,22
+Loscos,40-65,2018,45
+Loscos,65-100,2018,56
+Loscos,0-18,2019,4
+Loscos,18-40,2019,21
+Loscos,40-65,2019,50
+Loscos,65-100,2019,47
+Loscos,0-18,2020,4
+Loscos,18-40,2020,26
+Loscos,40-65,2020,50
+Loscos,65-100,2020,45
+Lledó,0-18,2015,48
+Lledó,18-40,2015,65
+Lledó,40-65,2015,144
+Lledó,65-100,2015,118
+Lledó,0-18,2016,47
+Lledó,18-40,2016,66
+Lledó,40-65,2016,142
+Lledó,65-100,2016,120
+Lledó,0-18,2017,45
+Lledó,18-40,2017,63
+Lledó,40-65,2017,145
+Lledó,65-100,2017,112
+Lledó,0-18,2018,42
+Lledó,18-40,2018,69
+Lledó,40-65,2018,149
+Lledó,65-100,2018,118
+Lledó,0-18,2019,45
+Lledó,18-40,2019,64
+Lledó,40-65,2019,137
+Lledó,65-100,2019,124
+Lledó,0-18,2020,41
+Lledó,18-40,2020,55
+Lledó,40-65,2020,141
+Lledó,65-100,2020,123
+Maicas,0-18,2015,0
+Maicas,18-40,2015,2
+Maicas,40-65,2015,21
+Maicas,65-100,2015,13
+Maicas,0-18,2016,0
+Maicas,18-40,2016,2
+Maicas,40-65,2016,19
+Maicas,65-100,2016,14
+Maicas,0-18,2017,0
+Maicas,18-40,2017,1
+Maicas,40-65,2017,17
+Maicas,65-100,2017,13
+Maicas,0-18,2018,0
+Maicas,18-40,2018,1
+Maicas,40-65,2018,14
+Maicas,65-100,2018,12
+Maicas,0-18,2019,0
+Maicas,18-40,2019,2
+Maicas,40-65,2019,13
+Maicas,65-100,2019,13
+Maicas,0-18,2020,0
+Maicas,18-40,2020,3
+Maicas,40-65,2020,15
+Maicas,65-100,2020,13
+Manzanera,0-18,2015,84
+Manzanera,18-40,2015,136
+Manzanera,40-65,2015,168
+Manzanera,65-100,2015,122
+Manzanera,0-18,2016,80
+Manzanera,18-40,2016,130
+Manzanera,40-65,2016,176
+Manzanera,65-100,2016,116
+Manzanera,0-18,2017,83
+Manzanera,18-40,2017,131
+Manzanera,40-65,2017,186
+Manzanera,65-100,2017,112
+Manzanera,0-18,2018,82
+Manzanera,18-40,2018,139
+Manzanera,40-65,2018,185
+Manzanera,65-100,2018,113
+Manzanera,0-18,2019,83
+Manzanera,18-40,2019,148
+Manzanera,40-65,2019,190
+Manzanera,65-100,2019,110
+Manzanera,0-18,2020,77
+Manzanera,18-40,2020,146
+Manzanera,40-65,2020,186
+Manzanera,65-100,2020,107
+Martín del Río,0-18,2015,84
+Martín del Río,18-40,2015,115
+Martín del Río,40-65,2015,199
+Martín del Río,65-100,2015,217
+Martín del Río,0-18,2016,77
+Martín del Río,18-40,2016,110
+Martín del Río,40-65,2016,190
+Martín del Río,65-100,2016,215
+Martín del Río,0-18,2017,79
+Martín del Río,18-40,2017,114
+Martín del Río,40-65,2017,188
+Martín del Río,65-100,2017,206
+Martín del Río,0-18,2018,72
+Martín del Río,18-40,2018,113
+Martín del Río,40-65,2018,182
+Martín del Río,65-100,2018,198
+Martín del Río,0-18,2019,69
+Martín del Río,18-40,2019,109
+Martín del Río,40-65,2019,176
+Martín del Río,65-100,2019,184
+Martín del Río,0-18,2020,64
+Martín del Río,18-40,2020,102
+Martín del Río,40-65,2020,174
+Martín del Río,65-100,2020,179
+Mas de las Matas,0-18,2015,191
+Mas de las Matas,18-40,2015,321
+Mas de las Matas,40-65,2015,435
+Mas de las Matas,65-100,2015,371
+Mas de las Matas,0-18,2016,186
+Mas de las Matas,18-40,2016,312
+Mas de las Matas,40-65,2016,441
+Mas de las Matas,65-100,2016,363
+Mas de las Matas,0-18,2017,174
+Mas de las Matas,18-40,2017,286
+Mas de las Matas,40-65,2017,452
+Mas de las Matas,65-100,2017,358
+Mas de las Matas,0-18,2018,179
+Mas de las Matas,18-40,2018,286
+Mas de las Matas,40-65,2018,444
+Mas de las Matas,65-100,2018,363
+Mas de las Matas,0-18,2019,181
+Mas de las Matas,18-40,2019,280
+Mas de las Matas,40-65,2019,433
+Mas de las Matas,65-100,2019,368
+Mas de las Matas,0-18,2020,177
+Mas de las Matas,18-40,2020,269
+Mas de las Matas,40-65,2020,449
+Mas de las Matas,65-100,2020,363
+Mata de los Olmos La,0-18,2015,49
+Mata de los Olmos La,18-40,2015,77
+Mata de los Olmos La,40-65,2015,79
+Mata de los Olmos La,65-100,2015,56
+Mata de los Olmos La,0-18,2016,51
+Mata de los Olmos La,18-40,2016,78
+Mata de los Olmos La,40-65,2016,76
+Mata de los Olmos La,65-100,2016,58
+Mata de los Olmos La,0-18,2017,52
+Mata de los Olmos La,18-40,2017,80
+Mata de los Olmos La,40-65,2017,78
+Mata de los Olmos La,65-100,2017,62
+Mata de los Olmos La,0-18,2018,50
+Mata de los Olmos La,18-40,2018,76
+Mata de los Olmos La,40-65,2018,81
+Mata de los Olmos La,65-100,2018,58
+Mata de los Olmos La,0-18,2019,46
+Mata de los Olmos La,18-40,2019,70
+Mata de los Olmos La,40-65,2019,82
+Mata de los Olmos La,65-100,2019,59
+Mata de los Olmos La,0-18,2020,46
+Mata de los Olmos La,18-40,2020,74
+Mata de los Olmos La,40-65,2020,82
+Mata de los Olmos La,65-100,2020,59
+Mazaleón,0-18,2015,75
+Mazaleón,18-40,2015,126
+Mazaleón,40-65,2015,180
+Mazaleón,65-100,2015,153
+Mazaleón,0-18,2016,75
+Mazaleón,18-40,2016,127
+Mazaleón,40-65,2016,186
+Mazaleón,65-100,2016,152
+Mazaleón,0-18,2017,80
+Mazaleón,18-40,2017,128
+Mazaleón,40-65,2017,186
+Mazaleón,65-100,2017,149
+Mazaleón,0-18,2018,81
+Mazaleón,18-40,2018,130
+Mazaleón,40-65,2018,184
+Mazaleón,65-100,2018,144
+Mazaleón,0-18,2019,73
+Mazaleón,18-40,2019,129
+Mazaleón,40-65,2019,188
+Mazaleón,65-100,2019,132
+Mazaleón,0-18,2020,72
+Mazaleón,18-40,2020,128
+Mazaleón,40-65,2020,186
+Mazaleón,65-100,2020,125
+Mezquita de Jarque,0-18,2015,10
+Mezquita de Jarque,18-40,2015,34
+Mezquita de Jarque,40-65,2015,31
+Mezquita de Jarque,65-100,2015,40
+Mezquita de Jarque,0-18,2016,10
+Mezquita de Jarque,18-40,2016,32
+Mezquita de Jarque,40-65,2016,30
+Mezquita de Jarque,65-100,2016,37
+Mezquita de Jarque,0-18,2017,9
+Mezquita de Jarque,18-40,2017,28
+Mezquita de Jarque,40-65,2017,28
+Mezquita de Jarque,65-100,2017,37
+Mezquita de Jarque,0-18,2018,10
+Mezquita de Jarque,18-40,2018,25
+Mezquita de Jarque,40-65,2018,26
+Mezquita de Jarque,65-100,2018,37
+Mezquita de Jarque,0-18,2019,12
+Mezquita de Jarque,18-40,2019,26
+Mezquita de Jarque,40-65,2019,23
+Mezquita de Jarque,65-100,2019,35
+Mezquita de Jarque,0-18,2020,10
+Mezquita de Jarque,18-40,2020,24
+Mezquita de Jarque,40-65,2020,21
+Mezquita de Jarque,65-100,2020,34
+Mirambel,0-18,2015,12
+Mirambel,18-40,2015,44
+Mirambel,40-65,2015,38
+Mirambel,65-100,2015,25
+Mirambel,0-18,2016,13
+Mirambel,18-40,2016,43
+Mirambel,40-65,2016,42
+Mirambel,65-100,2016,24
+Mirambel,0-18,2017,12
+Mirambel,18-40,2017,38
+Mirambel,40-65,2017,42
+Mirambel,65-100,2017,27
+Mirambel,0-18,2018,15
+Mirambel,18-40,2018,35
+Mirambel,40-65,2018,41
+Mirambel,65-100,2018,25
+Mirambel,0-18,2019,15
+Mirambel,18-40,2019,33
+Mirambel,40-65,2019,43
+Mirambel,65-100,2019,25
+Mirambel,0-18,2020,15
+Mirambel,18-40,2020,30
+Mirambel,40-65,2020,44
+Mirambel,65-100,2020,27
+Miravete de la Sierra,0-18,2015,0
+Miravete de la Sierra,18-40,2015,4
+Miravete de la Sierra,40-65,2015,14
+Miravete de la Sierra,65-100,2015,11
+Miravete de la Sierra,0-18,2016,0
+Miravete de la Sierra,18-40,2016,4
+Miravete de la Sierra,40-65,2016,14
+Miravete de la Sierra,65-100,2016,10
+Miravete de la Sierra,0-18,2017,1
+Miravete de la Sierra,18-40,2017,6
+Miravete de la Sierra,40-65,2017,14
+Miravete de la Sierra,65-100,2017,10
+Miravete de la Sierra,0-18,2018,3
+Miravete de la Sierra,18-40,2018,6
+Miravete de la Sierra,40-65,2018,15
+Miravete de la Sierra,65-100,2018,11
+Miravete de la Sierra,0-18,2019,4
+Miravete de la Sierra,18-40,2019,4
+Miravete de la Sierra,40-65,2019,13
+Miravete de la Sierra,65-100,2019,10
+Miravete de la Sierra,0-18,2020,1
+Miravete de la Sierra,18-40,2020,15
+Miravete de la Sierra,40-65,2020,14
+Miravete de la Sierra,65-100,2020,8
+Molinos,0-18,2015,30
+Molinos,18-40,2015,52
+Molinos,40-65,2015,97
+Molinos,65-100,2015,79
+Molinos,0-18,2016,27
+Molinos,18-40,2016,54
+Molinos,40-65,2016,98
+Molinos,65-100,2016,72
+Molinos,0-18,2017,29
+Molinos,18-40,2017,48
+Molinos,40-65,2017,96
+Molinos,65-100,2017,72
+Molinos,0-18,2018,30
+Molinos,18-40,2018,45
+Molinos,40-65,2018,96
+Molinos,65-100,2018,72
+Molinos,0-18,2019,30
+Molinos,18-40,2019,40
+Molinos,40-65,2019,98
+Molinos,65-100,2019,71
+Molinos,0-18,2020,19
+Molinos,18-40,2020,41
+Molinos,40-65,2020,84
+Molinos,65-100,2020,78
+Monforte de Moyuela,0-18,2015,1
+Monforte de Moyuela,18-40,2015,17
+Monforte de Moyuela,40-65,2015,23
+Monforte de Moyuela,65-100,2015,25
+Monforte de Moyuela,0-18,2016,1
+Monforte de Moyuela,18-40,2016,17
+Monforte de Moyuela,40-65,2016,22
+Monforte de Moyuela,65-100,2016,26
+Monforte de Moyuela,0-18,2017,1
+Monforte de Moyuela,18-40,2017,16
+Monforte de Moyuela,40-65,2017,21
+Monforte de Moyuela,65-100,2017,26
+Monforte de Moyuela,0-18,2018,1
+Monforte de Moyuela,18-40,2018,15
+Monforte de Moyuela,40-65,2018,22
+Monforte de Moyuela,65-100,2018,27
+Monforte de Moyuela,0-18,2019,1
+Monforte de Moyuela,18-40,2019,11
+Monforte de Moyuela,40-65,2019,26
+Monforte de Moyuela,65-100,2019,29
+Monforte de Moyuela,0-18,2020,0
+Monforte de Moyuela,18-40,2020,12
+Monforte de Moyuela,40-65,2020,30
+Monforte de Moyuela,65-100,2020,29
+Monreal del Campo,0-18,2015,510
+Monreal del Campo,18-40,2015,756
+Monreal del Campo,40-65,2015,850
+Monreal del Campo,65-100,2015,495
+Monreal del Campo,0-18,2016,500
+Monreal del Campo,18-40,2016,706
+Monreal del Campo,40-65,2016,847
+Monreal del Campo,65-100,2016,473
+Monreal del Campo,0-18,2017,473
+Monreal del Campo,18-40,2017,684
+Monreal del Campo,40-65,2017,859
+Monreal del Campo,65-100,2017,462
+Monreal del Campo,0-18,2018,482
+Monreal del Campo,18-40,2018,654
+Monreal del Campo,40-65,2018,841
+Monreal del Campo,65-100,2018,456
+Monreal del Campo,0-18,2019,496
+Monreal del Campo,18-40,2019,640
+Monreal del Campo,40-65,2019,856
+Monreal del Campo,65-100,2019,442
+Monreal del Campo,0-18,2020,512
+Monreal del Campo,18-40,2020,663
+Monreal del Campo,40-65,2020,859
+Monreal del Campo,65-100,2020,453
+Monroyo,0-18,2015,45
+Monroyo,18-40,2015,116
+Monroyo,40-65,2015,117
+Monroyo,65-100,2015,82
+Monroyo,0-18,2016,43
+Monroyo,18-40,2016,99
+Monroyo,40-65,2016,116
+Monroyo,65-100,2016,80
+Monroyo,0-18,2017,48
+Monroyo,18-40,2017,93
+Monroyo,40-65,2017,121
+Monroyo,65-100,2017,73
+Monroyo,0-18,2018,57
+Monroyo,18-40,2018,89
+Monroyo,40-65,2018,123
+Monroyo,65-100,2018,71
+Monroyo,0-18,2019,55
+Monroyo,18-40,2019,90
+Monroyo,40-65,2019,122
+Monroyo,65-100,2019,73
+Monroyo,0-18,2020,55
+Monroyo,18-40,2020,90
+Monroyo,40-65,2020,113
+Monroyo,65-100,2020,74
+Montalbán,0-18,2015,192
+Montalbán,18-40,2015,351
+Montalbán,40-65,2015,473
+Montalbán,65-100,2015,311
+Montalbán,0-18,2016,183
+Montalbán,18-40,2016,327
+Montalbán,40-65,2016,466
+Montalbán,65-100,2016,305
+Montalbán,0-18,2017,168
+Montalbán,18-40,2017,316
+Montalbán,40-65,2017,460
+Montalbán,65-100,2017,312
+Montalbán,0-18,2018,167
+Montalbán,18-40,2018,313
+Montalbán,40-65,2018,449
+Montalbán,65-100,2018,314
+Montalbán,0-18,2019,167
+Montalbán,18-40,2019,311
+Montalbán,40-65,2019,444
+Montalbán,65-100,2019,311
+Montalbán,0-18,2020,166
+Montalbán,18-40,2020,310
+Montalbán,40-65,2020,460
+Montalbán,65-100,2020,309
+Monteagudo del Castillo,0-18,2015,5
+Monteagudo del Castillo,18-40,2015,12
+Monteagudo del Castillo,40-65,2015,20
+Monteagudo del Castillo,65-100,2015,15
+Monteagudo del Castillo,0-18,2016,5
+Monteagudo del Castillo,18-40,2016,15
+Monteagudo del Castillo,40-65,2016,18
+Monteagudo del Castillo,65-100,2016,14
+Monteagudo del Castillo,0-18,2017,5
+Monteagudo del Castillo,18-40,2017,14
+Monteagudo del Castillo,40-65,2017,18
+Monteagudo del Castillo,65-100,2017,14
+Monteagudo del Castillo,0-18,2018,4
+Monteagudo del Castillo,18-40,2018,13
+Monteagudo del Castillo,40-65,2018,17
+Monteagudo del Castillo,65-100,2018,16
+Monteagudo del Castillo,0-18,2019,4
+Monteagudo del Castillo,18-40,2019,13
+Monteagudo del Castillo,40-65,2019,21
+Monteagudo del Castillo,65-100,2019,16
+Monteagudo del Castillo,0-18,2020,3
+Monteagudo del Castillo,18-40,2020,12
+Monteagudo del Castillo,40-65,2020,21
+Monteagudo del Castillo,65-100,2020,13
+Monterde de Albarracín,0-18,2015,1
+Monterde de Albarracín,18-40,2015,13
+Monterde de Albarracín,40-65,2015,19
+Monterde de Albarracín,65-100,2015,36
+Monterde de Albarracín,0-18,2016,1
+Monterde de Albarracín,18-40,2016,14
+Monterde de Albarracín,40-65,2016,19
+Monterde de Albarracín,65-100,2016,32
+Monterde de Albarracín,0-18,2017,0
+Monterde de Albarracín,18-40,2017,11
+Monterde de Albarracín,40-65,2017,21
+Monterde de Albarracín,65-100,2017,30
+Monterde de Albarracín,0-18,2018,0
+Monterde de Albarracín,18-40,2018,13
+Monterde de Albarracín,40-65,2018,20
+Monterde de Albarracín,65-100,2018,30
+Monterde de Albarracín,0-18,2019,0
+Monterde de Albarracín,18-40,2019,11
+Monterde de Albarracín,40-65,2019,22
+Monterde de Albarracín,65-100,2019,31
+Monterde de Albarracín,0-18,2020,0
+Monterde de Albarracín,18-40,2020,9
+Monterde de Albarracín,40-65,2020,20
+Monterde de Albarracín,65-100,2020,27
+Mora de Rubielos,0-18,2015,300
+Mora de Rubielos,18-40,2015,452
+Mora de Rubielos,40-65,2015,544
+Mora de Rubielos,65-100,2015,289
+Mora de Rubielos,0-18,2016,286
+Mora de Rubielos,18-40,2016,460
+Mora de Rubielos,40-65,2016,553
+Mora de Rubielos,65-100,2016,275
+Mora de Rubielos,0-18,2017,277
+Mora de Rubielos,18-40,2017,466
+Mora de Rubielos,40-65,2017,542
+Mora de Rubielos,65-100,2017,280
+Mora de Rubielos,0-18,2018,272
+Mora de Rubielos,18-40,2018,447
+Mora de Rubielos,40-65,2018,541
+Mora de Rubielos,65-100,2018,281
+Mora de Rubielos,0-18,2019,270
+Mora de Rubielos,18-40,2019,434
+Mora de Rubielos,40-65,2019,568
+Mora de Rubielos,65-100,2019,276
+Mora de Rubielos,0-18,2020,271
+Mora de Rubielos,18-40,2020,420
+Mora de Rubielos,40-65,2020,557
+Mora de Rubielos,65-100,2020,264
+Moscardón,0-18,2015,14
+Moscardón,18-40,2015,9
+Moscardón,40-65,2015,19
+Moscardón,65-100,2015,16
+Moscardón,0-18,2016,14
+Moscardón,18-40,2016,7
+Moscardón,40-65,2016,21
+Moscardón,65-100,2016,14
+Moscardón,0-18,2017,14
+Moscardón,18-40,2017,5
+Moscardón,40-65,2017,24
+Moscardón,65-100,2017,14
+Moscardón,0-18,2018,14
+Moscardón,18-40,2018,5
+Moscardón,40-65,2018,25
+Moscardón,65-100,2018,11
+Moscardón,0-18,2019,14
+Moscardón,18-40,2019,5
+Moscardón,40-65,2019,24
+Moscardón,65-100,2019,11
+Moscardón,0-18,2020,13
+Moscardón,18-40,2020,7
+Moscardón,40-65,2020,23
+Moscardón,65-100,2020,12
+Mosqueruela,0-18,2015,87
+Mosqueruela,18-40,2015,143
+Mosqueruela,40-65,2015,177
+Mosqueruela,65-100,2015,186
+Mosqueruela,0-18,2016,84
+Mosqueruela,18-40,2016,133
+Mosqueruela,40-65,2016,182
+Mosqueruela,65-100,2016,182
+Mosqueruela,0-18,2017,81
+Mosqueruela,18-40,2017,125
+Mosqueruela,40-65,2017,174
+Mosqueruela,65-100,2017,178
+Mosqueruela,0-18,2018,83
+Mosqueruela,18-40,2018,122
+Mosqueruela,40-65,2018,181
+Mosqueruela,65-100,2018,165
+Mosqueruela,0-18,2019,80
+Mosqueruela,18-40,2019,116
+Mosqueruela,40-65,2019,176
+Mosqueruela,65-100,2019,165
+Mosqueruela,0-18,2020,80
+Mosqueruela,18-40,2020,117
+Mosqueruela,40-65,2020,176
+Mosqueruela,65-100,2020,159
+Muniesa,0-18,2015,98
+Muniesa,18-40,2015,126
+Muniesa,40-65,2015,190
+Muniesa,65-100,2015,221
+Muniesa,0-18,2016,98
+Muniesa,18-40,2016,126
+Muniesa,40-65,2016,189
+Muniesa,65-100,2016,216
+Muniesa,0-18,2017,101
+Muniesa,18-40,2017,127
+Muniesa,40-65,2017,186
+Muniesa,65-100,2017,216
+Muniesa,0-18,2018,96
+Muniesa,18-40,2018,119
+Muniesa,40-65,2018,182
+Muniesa,65-100,2018,202
+Muniesa,0-18,2019,96
+Muniesa,18-40,2019,121
+Muniesa,40-65,2019,174
+Muniesa,65-100,2019,192
+Muniesa,0-18,2020,95
+Muniesa,18-40,2020,128
+Muniesa,40-65,2020,173
+Muniesa,65-100,2020,187
+Noguera de Albarracín,0-18,2015,23
+Noguera de Albarracín,18-40,2015,28
+Noguera de Albarracín,40-65,2015,55
+Noguera de Albarracín,65-100,2015,45
+Noguera de Albarracín,0-18,2016,22
+Noguera de Albarracín,18-40,2016,28
+Noguera de Albarracín,40-65,2016,55
+Noguera de Albarracín,65-100,2016,41
+Noguera de Albarracín,0-18,2017,16
+Noguera de Albarracín,18-40,2017,29
+Noguera de Albarracín,40-65,2017,53
+Noguera de Albarracín,65-100,2017,36
+Noguera de Albarracín,0-18,2018,14
+Noguera de Albarracín,18-40,2018,32
+Noguera de Albarracín,40-65,2018,51
+Noguera de Albarracín,65-100,2018,36
+Noguera de Albarracín,0-18,2019,20
+Noguera de Albarracín,18-40,2019,31
+Noguera de Albarracín,40-65,2019,57
+Noguera de Albarracín,65-100,2019,32
+Noguera de Albarracín,0-18,2020,19
+Noguera de Albarracín,18-40,2020,30
+Noguera de Albarracín,40-65,2020,55
+Noguera de Albarracín,65-100,2020,35
+Nogueras,0-18,2015,3
+Nogueras,18-40,2015,9
+Nogueras,40-65,2015,31
+Nogueras,65-100,2015,25
+Nogueras,0-18,2016,3
+Nogueras,18-40,2016,12
+Nogueras,40-65,2016,28
+Nogueras,65-100,2016,26
+Nogueras,0-18,2017,3
+Nogueras,18-40,2017,8
+Nogueras,40-65,2017,28
+Nogueras,65-100,2017,27
+Nogueras,0-18,2018,4
+Nogueras,18-40,2018,10
+Nogueras,40-65,2018,22
+Nogueras,65-100,2018,26
+Nogueras,0-18,2019,3
+Nogueras,18-40,2019,8
+Nogueras,40-65,2019,18
+Nogueras,65-100,2019,22
+Nogueras,0-18,2020,4
+Nogueras,18-40,2020,6
+Nogueras,40-65,2020,18
+Nogueras,65-100,2020,23
+Nogueruelas,0-18,2015,22
+Nogueruelas,18-40,2015,50
+Nogueruelas,40-65,2015,64
+Nogueruelas,65-100,2015,71
+Nogueruelas,0-18,2016,26
+Nogueruelas,18-40,2016,50
+Nogueruelas,40-65,2016,65
+Nogueruelas,65-100,2016,73
+Nogueruelas,0-18,2017,27
+Nogueruelas,18-40,2017,44
+Nogueruelas,40-65,2017,69
+Nogueruelas,65-100,2017,71
+Nogueruelas,0-18,2018,29
+Nogueruelas,18-40,2018,43
+Nogueruelas,40-65,2018,69
+Nogueruelas,65-100,2018,76
+Nogueruelas,0-18,2019,29
+Nogueruelas,18-40,2019,43
+Nogueruelas,40-65,2019,68
+Nogueruelas,65-100,2019,77
+Nogueruelas,0-18,2020,28
+Nogueruelas,18-40,2020,41
+Nogueruelas,40-65,2020,67
+Nogueruelas,65-100,2020,74
+Obón,0-18,2015,0
+Obón,18-40,2015,12
+Obón,40-65,2015,15
+Obón,65-100,2015,21
+Obón,0-18,2016,1
+Obón,18-40,2016,9
+Obón,40-65,2016,15
+Obón,65-100,2016,19
+Obón,0-18,2017,1
+Obón,18-40,2017,7
+Obón,40-65,2017,15
+Obón,65-100,2017,21
+Obón,0-18,2018,0
+Obón,18-40,2018,6
+Obón,40-65,2018,17
+Obón,65-100,2018,22
+Obón,0-18,2019,0
+Obón,18-40,2019,5
+Obón,40-65,2019,20
+Obón,65-100,2019,19
+Obón,0-18,2020,0
+Obón,18-40,2020,1
+Obón,40-65,2020,17
+Obón,65-100,2020,16
+Odón,0-18,2015,26
+Odón,18-40,2015,49
+Odón,40-65,2015,66
+Odón,65-100,2015,85
+Odón,0-18,2016,25
+Odón,18-40,2016,48
+Odón,40-65,2016,62
+Odón,65-100,2016,90
+Odón,0-18,2017,22
+Odón,18-40,2017,43
+Odón,40-65,2017,62
+Odón,65-100,2017,90
+Odón,0-18,2018,17
+Odón,18-40,2018,35
+Odón,40-65,2018,63
+Odón,65-100,2018,90
+Odón,0-18,2019,21
+Odón,18-40,2019,35
+Odón,40-65,2019,63
+Odón,65-100,2019,87
+Odón,0-18,2020,19
+Odón,18-40,2020,33
+Odón,40-65,2020,65
+Odón,65-100,2020,86
+Ojos Negros,0-18,2015,51
+Ojos Negros,18-40,2015,87
+Ojos Negros,40-65,2015,128
+Ojos Negros,65-100,2015,147
+Ojos Negros,0-18,2016,51
+Ojos Negros,18-40,2016,78
+Ojos Negros,40-65,2016,129
+Ojos Negros,65-100,2016,147
+Ojos Negros,0-18,2017,48
+Ojos Negros,18-40,2017,74
+Ojos Negros,40-65,2017,127
+Ojos Negros,65-100,2017,144
+Ojos Negros,0-18,2018,47
+Ojos Negros,18-40,2018,68
+Ojos Negros,40-65,2018,126
+Ojos Negros,65-100,2018,136
+Ojos Negros,0-18,2019,46
+Ojos Negros,18-40,2019,62
+Ojos Negros,40-65,2019,127
+Ojos Negros,65-100,2019,125
+Ojos Negros,0-18,2020,47
+Ojos Negros,18-40,2020,51
+Ojos Negros,40-65,2020,123
+Ojos Negros,65-100,2020,120
+Olba,0-18,2015,39
+Olba,18-40,2015,60
+Olba,40-65,2015,87
+Olba,65-100,2015,54
+Olba,0-18,2016,38
+Olba,18-40,2016,53
+Olba,40-65,2016,91
+Olba,65-100,2016,48
+Olba,0-18,2017,38
+Olba,18-40,2017,50
+Olba,40-65,2017,95
+Olba,65-100,2017,44
+Olba,0-18,2018,38
+Olba,18-40,2018,49
+Olba,40-65,2018,96
+Olba,65-100,2018,43
+Olba,0-18,2019,40
+Olba,18-40,2019,41
+Olba,40-65,2019,100
+Olba,65-100,2019,47
+Olba,0-18,2020,43
+Olba,18-40,2020,45
+Olba,40-65,2020,100
+Olba,65-100,2020,45
+Oliete,0-18,2015,37
+Oliete,18-40,2015,75
+Oliete,40-65,2015,135
+Oliete,65-100,2015,165
+Oliete,0-18,2016,31
+Oliete,18-40,2016,72
+Oliete,40-65,2016,113
+Oliete,65-100,2016,149
+Oliete,0-18,2017,29
+Oliete,18-40,2017,72
+Oliete,40-65,2017,112
+Oliete,65-100,2017,144
+Oliete,0-18,2018,33
+Oliete,18-40,2018,73
+Oliete,40-65,2018,112
+Oliete,65-100,2018,146
+Oliete,0-18,2019,30
+Oliete,18-40,2019,67
+Oliete,40-65,2019,111
+Oliete,65-100,2019,143
+Oliete,0-18,2020,28
+Oliete,18-40,2020,65
+Oliete,40-65,2020,113
+Oliete,65-100,2020,137
+Olmos Los,0-18,2015,20
+Olmos Los,18-40,2015,26
+Olmos Los,40-65,2015,44
+Olmos Los,65-100,2015,37
+Olmos Los,0-18,2016,20
+Olmos Los,18-40,2016,27
+Olmos Los,40-65,2016,44
+Olmos Los,65-100,2016,36
+Olmos Los,0-18,2017,20
+Olmos Los,18-40,2017,22
+Olmos Los,40-65,2017,41
+Olmos Los,65-100,2017,39
+Olmos Los,0-18,2018,17
+Olmos Los,18-40,2018,20
+Olmos Los,40-65,2018,47
+Olmos Los,65-100,2018,38
+Olmos Los,0-18,2019,17
+Olmos Los,18-40,2019,21
+Olmos Los,40-65,2019,46
+Olmos Los,65-100,2019,36
+Olmos Los,0-18,2020,15
+Olmos Los,18-40,2020,22
+Olmos Los,40-65,2020,43
+Olmos Los,65-100,2020,38
+Orihuela del Tremedal,0-18,2015,67
+Orihuela del Tremedal,18-40,2015,141
+Orihuela del Tremedal,40-65,2015,199
+Orihuela del Tremedal,65-100,2015,128
+Orihuela del Tremedal,0-18,2016,59
+Orihuela del Tremedal,18-40,2016,137
+Orihuela del Tremedal,40-65,2016,184
+Orihuela del Tremedal,65-100,2016,124
+Orihuela del Tremedal,0-18,2017,54
+Orihuela del Tremedal,18-40,2017,132
+Orihuela del Tremedal,40-65,2017,186
+Orihuela del Tremedal,65-100,2017,121
+Orihuela del Tremedal,0-18,2018,55
+Orihuela del Tremedal,18-40,2018,123
+Orihuela del Tremedal,40-65,2018,190
+Orihuela del Tremedal,65-100,2018,119
+Orihuela del Tremedal,0-18,2019,43
+Orihuela del Tremedal,18-40,2019,110
+Orihuela del Tremedal,40-65,2019,192
+Orihuela del Tremedal,65-100,2019,118
+Orihuela del Tremedal,0-18,2020,37
+Orihuela del Tremedal,18-40,2020,106
+Orihuela del Tremedal,40-65,2020,186
+Orihuela del Tremedal,65-100,2020,121
+Orrios,0-18,2015,8
+Orrios,18-40,2015,35
+Orrios,40-65,2015,49
+Orrios,65-100,2015,45
+Orrios,0-18,2016,4
+Orrios,18-40,2016,36
+Orrios,40-65,2016,47
+Orrios,65-100,2016,46
+Orrios,0-18,2017,4
+Orrios,18-40,2017,31
+Orrios,40-65,2017,45
+Orrios,65-100,2017,47
+Orrios,0-18,2018,4
+Orrios,18-40,2018,31
+Orrios,40-65,2018,45
+Orrios,65-100,2018,46
+Orrios,0-18,2019,2
+Orrios,18-40,2019,31
+Orrios,40-65,2019,46
+Orrios,65-100,2019,46
+Orrios,0-18,2020,3
+Orrios,18-40,2020,35
+Orrios,40-65,2020,41
+Orrios,65-100,2020,49
+Palomar de Arroyos,0-18,2015,14
+Palomar de Arroyos,18-40,2015,55
+Palomar de Arroyos,40-65,2015,53
+Palomar de Arroyos,65-100,2015,60
+Palomar de Arroyos,0-18,2016,14
+Palomar de Arroyos,18-40,2016,50
+Palomar de Arroyos,40-65,2016,53
+Palomar de Arroyos,65-100,2016,57
+Palomar de Arroyos,0-18,2017,11
+Palomar de Arroyos,18-40,2017,53
+Palomar de Arroyos,40-65,2017,51
+Palomar de Arroyos,65-100,2017,54
+Palomar de Arroyos,0-18,2018,11
+Palomar de Arroyos,18-40,2018,48
+Palomar de Arroyos,40-65,2018,57
+Palomar de Arroyos,65-100,2018,53
+Palomar de Arroyos,0-18,2019,11
+Palomar de Arroyos,18-40,2019,46
+Palomar de Arroyos,40-65,2019,56
+Palomar de Arroyos,65-100,2019,55
+Palomar de Arroyos,0-18,2020,11
+Palomar de Arroyos,18-40,2020,48
+Palomar de Arroyos,40-65,2020,57
+Palomar de Arroyos,65-100,2020,54
+Pancrudo,0-18,2015,8
+Pancrudo,18-40,2015,15
+Pancrudo,40-65,2015,42
+Pancrudo,65-100,2015,47
+Pancrudo,0-18,2016,11
+Pancrudo,18-40,2016,21
+Pancrudo,40-65,2016,45
+Pancrudo,65-100,2016,39
+Pancrudo,0-18,2017,12
+Pancrudo,18-40,2017,18
+Pancrudo,40-65,2017,48
+Pancrudo,65-100,2017,41
+Pancrudo,0-18,2018,10
+Pancrudo,18-40,2018,12
+Pancrudo,40-65,2018,47
+Pancrudo,65-100,2018,41
+Pancrudo,0-18,2019,13
+Pancrudo,18-40,2019,12
+Pancrudo,40-65,2019,49
+Pancrudo,65-100,2019,39
+Pancrudo,0-18,2020,20
+Pancrudo,18-40,2020,12
+Pancrudo,40-65,2020,51
+Pancrudo,65-100,2020,36
+Parras de Castellote Las,0-18,2015,0
+Parras de Castellote Las,18-40,2015,9
+Parras de Castellote Las,40-65,2015,22
+Parras de Castellote Las,65-100,2015,28
+Parras de Castellote Las,0-18,2016,0
+Parras de Castellote Las,18-40,2016,8
+Parras de Castellote Las,40-65,2016,22
+Parras de Castellote Las,65-100,2016,27
+Parras de Castellote Las,0-18,2017,0
+Parras de Castellote Las,18-40,2017,12
+Parras de Castellote Las,40-65,2017,22
+Parras de Castellote Las,65-100,2017,27
+Parras de Castellote Las,0-18,2018,0
+Parras de Castellote Las,18-40,2018,7
+Parras de Castellote Las,40-65,2018,23
+Parras de Castellote Las,65-100,2018,23
+Parras de Castellote Las,0-18,2019,0
+Parras de Castellote Las,18-40,2019,7
+Parras de Castellote Las,40-65,2019,28
+Parras de Castellote Las,65-100,2019,20
+Parras de Castellote Las,0-18,2020,0
+Parras de Castellote Las,18-40,2020,4
+Parras de Castellote Las,40-65,2020,33
+Parras de Castellote Las,65-100,2020,18
+Peñarroya de Tastavins,0-18,2015,86
+Peñarroya de Tastavins,18-40,2015,113
+Peñarroya de Tastavins,40-65,2015,163
+Peñarroya de Tastavins,65-100,2015,115
+Peñarroya de Tastavins,0-18,2016,81
+Peñarroya de Tastavins,18-40,2016,112
+Peñarroya de Tastavins,40-65,2016,163
+Peñarroya de Tastavins,65-100,2016,109
+Peñarroya de Tastavins,0-18,2017,81
+Peñarroya de Tastavins,18-40,2017,115
+Peñarroya de Tastavins,40-65,2017,154
+Peñarroya de Tastavins,65-100,2017,111
+Peñarroya de Tastavins,0-18,2018,69
+Peñarroya de Tastavins,18-40,2018,108
+Peñarroya de Tastavins,40-65,2018,158
+Peñarroya de Tastavins,65-100,2018,104
+Peñarroya de Tastavins,0-18,2019,67
+Peñarroya de Tastavins,18-40,2019,116
+Peñarroya de Tastavins,40-65,2019,155
+Peñarroya de Tastavins,65-100,2019,101
+Peñarroya de Tastavins,0-18,2020,76
+Peñarroya de Tastavins,18-40,2020,114
+Peñarroya de Tastavins,40-65,2020,150
+Peñarroya de Tastavins,65-100,2020,106
+Peracense,0-18,2015,6
+Peracense,18-40,2015,9
+Peracense,40-65,2015,27
+Peracense,65-100,2015,30
+Peracense,0-18,2016,6
+Peracense,18-40,2016,12
+Peracense,40-65,2016,26
+Peracense,65-100,2016,31
+Peracense,0-18,2017,6
+Peracense,18-40,2017,11
+Peracense,40-65,2017,27
+Peracense,65-100,2017,31
+Peracense,0-18,2018,5
+Peracense,18-40,2018,10
+Peracense,40-65,2018,32
+Peracense,65-100,2018,29
+Peracense,0-18,2019,5
+Peracense,18-40,2019,10
+Peracense,40-65,2019,35
+Peracense,65-100,2019,27
+Peracense,0-18,2020,6
+Peracense,18-40,2020,8
+Peracense,40-65,2020,35
+Peracense,65-100,2020,28
+Peralejos,0-18,2015,8
+Peralejos,18-40,2015,19
+Peralejos,40-65,2015,28
+Peralejos,65-100,2015,31
+Peralejos,0-18,2016,11
+Peralejos,18-40,2016,18
+Peralejos,40-65,2016,27
+Peralejos,65-100,2016,30
+Peralejos,0-18,2017,13
+Peralejos,18-40,2017,21
+Peralejos,40-65,2017,28
+Peralejos,65-100,2017,25
+Peralejos,0-18,2018,14
+Peralejos,18-40,2018,19
+Peralejos,40-65,2018,27
+Peralejos,65-100,2018,28
+Peralejos,0-18,2019,8
+Peralejos,18-40,2019,21
+Peralejos,40-65,2019,25
+Peralejos,65-100,2019,25
+Peralejos,0-18,2020,9
+Peralejos,18-40,2020,22
+Peralejos,40-65,2020,27
+Peralejos,65-100,2020,25
+Perales del Alfambra,0-18,2015,26
+Perales del Alfambra,18-40,2015,55
+Perales del Alfambra,40-65,2015,90
+Perales del Alfambra,65-100,2015,67
+Perales del Alfambra,0-18,2016,24
+Perales del Alfambra,18-40,2016,53
+Perales del Alfambra,40-65,2016,84
+Perales del Alfambra,65-100,2016,66
+Perales del Alfambra,0-18,2017,20
+Perales del Alfambra,18-40,2017,54
+Perales del Alfambra,40-65,2017,82
+Perales del Alfambra,65-100,2017,65
+Perales del Alfambra,0-18,2018,16
+Perales del Alfambra,18-40,2018,59
+Perales del Alfambra,40-65,2018,80
+Perales del Alfambra,65-100,2018,66
+Perales del Alfambra,0-18,2019,18
+Perales del Alfambra,18-40,2019,62
+Perales del Alfambra,40-65,2019,83
+Perales del Alfambra,65-100,2019,66
+Perales del Alfambra,0-18,2020,15
+Perales del Alfambra,18-40,2020,65
+Perales del Alfambra,40-65,2020,89
+Perales del Alfambra,65-100,2020,67
+Pitarque,0-18,2015,12
+Pitarque,18-40,2015,20
+Pitarque,40-65,2015,35
+Pitarque,65-100,2015,23
+Pitarque,0-18,2016,11
+Pitarque,18-40,2016,19
+Pitarque,40-65,2016,36
+Pitarque,65-100,2016,25
+Pitarque,0-18,2017,9
+Pitarque,18-40,2017,16
+Pitarque,40-65,2017,33
+Pitarque,65-100,2017,26
+Pitarque,0-18,2018,7
+Pitarque,18-40,2018,16
+Pitarque,40-65,2018,33
+Pitarque,65-100,2018,23
+Pitarque,0-18,2019,7
+Pitarque,18-40,2019,14
+Pitarque,40-65,2019,30
+Pitarque,65-100,2019,22
+Pitarque,0-18,2020,8
+Pitarque,18-40,2020,13
+Pitarque,40-65,2020,30
+Pitarque,65-100,2020,17
+Plou,0-18,2015,2
+Plou,18-40,2015,11
+Plou,40-65,2015,18
+Plou,65-100,2015,21
+Plou,0-18,2016,2
+Plou,18-40,2016,11
+Plou,40-65,2016,17
+Plou,65-100,2016,19
+Plou,0-18,2017,3
+Plou,18-40,2017,10
+Plou,40-65,2017,15
+Plou,65-100,2017,17
+Plou,0-18,2018,3
+Plou,18-40,2018,6
+Plou,40-65,2018,17
+Plou,65-100,2018,17
+Plou,0-18,2019,3
+Plou,18-40,2019,8
+Plou,40-65,2019,16
+Plou,65-100,2019,16
+Plou,0-18,2020,3
+Plou,18-40,2020,8
+Plou,40-65,2020,21
+Plou,65-100,2020,18
+Pobo El,0-18,2015,17
+Pobo El,18-40,2015,34
+Pobo El,40-65,2015,49
+Pobo El,65-100,2015,42
+Pobo El,0-18,2016,14
+Pobo El,18-40,2016,27
+Pobo El,40-65,2016,46
+Pobo El,65-100,2016,45
+Pobo El,0-18,2017,19
+Pobo El,18-40,2017,24
+Pobo El,40-65,2017,46
+Pobo El,65-100,2017,40
+Pobo El,0-18,2018,14
+Pobo El,18-40,2018,19
+Pobo El,40-65,2018,43
+Pobo El,65-100,2018,38
+Pobo El,0-18,2019,13
+Pobo El,18-40,2019,19
+Pobo El,40-65,2019,40
+Pobo El,65-100,2019,38
+Pobo El,0-18,2020,15
+Pobo El,18-40,2020,15
+Pobo El,40-65,2020,43
+Pobo El,65-100,2020,35
+Portellada La,0-18,2015,28
+Portellada La,18-40,2015,49
+Portellada La,40-65,2015,78
+Portellada La,65-100,2015,85
+Portellada La,0-18,2016,26
+Portellada La,18-40,2016,54
+Portellada La,40-65,2016,74
+Portellada La,65-100,2016,86
+Portellada La,0-18,2017,34
+Portellada La,18-40,2017,53
+Portellada La,40-65,2017,76
+Portellada La,65-100,2017,83
+Portellada La,0-18,2018,33
+Portellada La,18-40,2018,54
+Portellada La,40-65,2018,73
+Portellada La,65-100,2018,83
+Portellada La,0-18,2019,31
+Portellada La,18-40,2019,49
+Portellada La,40-65,2019,69
+Portellada La,65-100,2019,86
+Portellada La,0-18,2020,35
+Portellada La,18-40,2020,47
+Portellada La,40-65,2020,67
+Portellada La,65-100,2020,87
+Pozondón,0-18,2015,1
+Pozondón,18-40,2015,12
+Pozondón,40-65,2015,20
+Pozondón,65-100,2015,29
+Pozondón,0-18,2016,1
+Pozondón,18-40,2016,12
+Pozondón,40-65,2016,19
+Pozondón,65-100,2016,28
+Pozondón,0-18,2017,1
+Pozondón,18-40,2017,7
+Pozondón,40-65,2017,21
+Pozondón,65-100,2017,25
+Pozondón,0-18,2018,1
+Pozondón,18-40,2018,5
+Pozondón,40-65,2018,21
+Pozondón,65-100,2018,21
+Pozondón,0-18,2019,1
+Pozondón,18-40,2019,4
+Pozondón,40-65,2019,27
+Pozondón,65-100,2019,18
+Pozondón,0-18,2020,1
+Pozondón,18-40,2020,4
+Pozondón,40-65,2020,24
+Pozondón,65-100,2020,14
+Pozuel del Campo,0-18,2015,1
+Pozuel del Campo,18-40,2015,16
+Pozuel del Campo,40-65,2015,19
+Pozuel del Campo,65-100,2015,38
+Pozuel del Campo,0-18,2016,0
+Pozuel del Campo,18-40,2016,17
+Pozuel del Campo,40-65,2016,18
+Pozuel del Campo,65-100,2016,37
+Pozuel del Campo,0-18,2017,0
+Pozuel del Campo,18-40,2017,15
+Pozuel del Campo,40-65,2017,16
+Pozuel del Campo,65-100,2017,39
+Pozuel del Campo,0-18,2018,1
+Pozuel del Campo,18-40,2018,15
+Pozuel del Campo,40-65,2018,14
+Pozuel del Campo,65-100,2018,38
+Pozuel del Campo,0-18,2019,1
+Pozuel del Campo,18-40,2019,15
+Pozuel del Campo,40-65,2019,13
+Pozuel del Campo,65-100,2019,36
+Pozuel del Campo,0-18,2020,1
+Pozuel del Campo,18-40,2020,15
+Pozuel del Campo,40-65,2020,13
+Pozuel del Campo,65-100,2020,34
+Puebla de Híjar La,0-18,2015,133
+Puebla de Híjar La,18-40,2015,234
+Puebla de Híjar La,40-65,2015,329
+Puebla de Híjar La,65-100,2015,251
+Puebla de Híjar La,0-18,2016,129
+Puebla de Híjar La,18-40,2016,214
+Puebla de Híjar La,40-65,2016,328
+Puebla de Híjar La,65-100,2016,259
+Puebla de Híjar La,0-18,2017,139
+Puebla de Híjar La,18-40,2017,216
+Puebla de Híjar La,40-65,2017,332
+Puebla de Híjar La,65-100,2017,257
+Puebla de Híjar La,0-18,2018,131
+Puebla de Híjar La,18-40,2018,200
+Puebla de Híjar La,40-65,2018,328
+Puebla de Híjar La,65-100,2018,249
+Puebla de Híjar La,0-18,2019,139
+Puebla de Híjar La,18-40,2019,193
+Puebla de Híjar La,40-65,2019,322
+Puebla de Híjar La,65-100,2019,243
+Puebla de Híjar La,0-18,2020,144
+Puebla de Híjar La,18-40,2020,194
+Puebla de Híjar La,40-65,2020,320
+Puebla de Híjar La,65-100,2020,241
+Puebla de Valverde La,0-18,2015,78
+Puebla de Valverde La,18-40,2015,131
+Puebla de Valverde La,40-65,2015,172
+Puebla de Valverde La,65-100,2015,119
+Puebla de Valverde La,0-18,2016,71
+Puebla de Valverde La,18-40,2016,114
+Puebla de Valverde La,40-65,2016,161
+Puebla de Valverde La,65-100,2016,114
+Puebla de Valverde La,0-18,2017,65
+Puebla de Valverde La,18-40,2017,120
+Puebla de Valverde La,40-65,2017,160
+Puebla de Valverde La,65-100,2017,112
+Puebla de Valverde La,0-18,2018,66
+Puebla de Valverde La,18-40,2018,121
+Puebla de Valverde La,40-65,2018,159
+Puebla de Valverde La,65-100,2018,107
+Puebla de Valverde La,0-18,2019,67
+Puebla de Valverde La,18-40,2019,129
+Puebla de Valverde La,40-65,2019,164
+Puebla de Valverde La,65-100,2019,97
+Puebla de Valverde La,0-18,2020,67
+Puebla de Valverde La,18-40,2020,125
+Puebla de Valverde La,40-65,2020,165
+Puebla de Valverde La,65-100,2020,94
+Puertomingalvo,0-18,2015,18
+Puertomingalvo,18-40,2015,24
+Puertomingalvo,40-65,2015,42
+Puertomingalvo,65-100,2015,35
+Puertomingalvo,0-18,2016,16
+Puertomingalvo,18-40,2016,26
+Puertomingalvo,40-65,2016,39
+Puertomingalvo,65-100,2016,31
+Puertomingalvo,0-18,2017,20
+Puertomingalvo,18-40,2017,32
+Puertomingalvo,40-65,2017,37
+Puertomingalvo,65-100,2017,28
+Puertomingalvo,0-18,2018,22
+Puertomingalvo,18-40,2018,27
+Puertomingalvo,40-65,2018,37
+Puertomingalvo,65-100,2018,26
+Puertomingalvo,0-18,2019,21
+Puertomingalvo,18-40,2019,26
+Puertomingalvo,40-65,2019,41
+Puertomingalvo,65-100,2019,21
+Puertomingalvo,0-18,2020,24
+Puertomingalvo,18-40,2020,29
+Puertomingalvo,40-65,2020,41
+Puertomingalvo,65-100,2020,23
+Ráfales,0-18,2015,14
+Ráfales,18-40,2015,24
+Ráfales,40-65,2015,51
+Ráfales,65-100,2015,44
+Ráfales,0-18,2016,17
+Ráfales,18-40,2016,28
+Ráfales,40-65,2016,49
+Ráfales,65-100,2016,44
+Ráfales,0-18,2017,18
+Ráfales,18-40,2017,26
+Ráfales,40-65,2017,55
+Ráfales,65-100,2017,47
+Ráfales,0-18,2018,17
+Ráfales,18-40,2018,28
+Ráfales,40-65,2018,52
+Ráfales,65-100,2018,46
+Ráfales,0-18,2019,18
+Ráfales,18-40,2019,19
+Ráfales,40-65,2019,55
+Ráfales,65-100,2019,46
+Ráfales,0-18,2020,20
+Ráfales,18-40,2020,20
+Ráfales,40-65,2020,51
+Ráfales,65-100,2020,48
+Rillo,0-18,2015,6
+Rillo,18-40,2015,16
+Rillo,40-65,2015,41
+Rillo,65-100,2015,34
+Rillo,0-18,2016,5
+Rillo,18-40,2016,18
+Rillo,40-65,2016,39
+Rillo,65-100,2016,30
+Rillo,0-18,2017,4
+Rillo,18-40,2017,19
+Rillo,40-65,2017,38
+Rillo,65-100,2017,31
+Rillo,0-18,2018,3
+Rillo,18-40,2018,18
+Rillo,40-65,2018,44
+Rillo,65-100,2018,28
+Rillo,0-18,2019,4
+Rillo,18-40,2019,15
+Rillo,40-65,2019,44
+Rillo,65-100,2019,25
+Rillo,0-18,2020,4
+Rillo,18-40,2020,13
+Rillo,40-65,2020,44
+Rillo,65-100,2020,24
+Riodeva,0-18,2015,15
+Riodeva,18-40,2015,37
+Riodeva,40-65,2015,44
+Riodeva,65-100,2015,67
+Riodeva,0-18,2016,14
+Riodeva,18-40,2016,30
+Riodeva,40-65,2016,46
+Riodeva,65-100,2016,61
+Riodeva,0-18,2017,13
+Riodeva,18-40,2017,34
+Riodeva,40-65,2017,45
+Riodeva,65-100,2017,57
+Riodeva,0-18,2018,15
+Riodeva,18-40,2018,31
+Riodeva,40-65,2018,39
+Riodeva,65-100,2018,59
+Riodeva,0-18,2019,14
+Riodeva,18-40,2019,28
+Riodeva,40-65,2019,40
+Riodeva,65-100,2019,60
+Riodeva,0-18,2020,14
+Riodeva,18-40,2020,25
+Riodeva,40-65,2020,37
+Riodeva,65-100,2020,58
+Ródenas,0-18,2015,1
+Ródenas,18-40,2015,10
+Ródenas,40-65,2015,27
+Ródenas,65-100,2015,28
+Ródenas,0-18,2016,2
+Ródenas,18-40,2016,10
+Ródenas,40-65,2016,27
+Ródenas,65-100,2016,25
+Ródenas,0-18,2017,2
+Ródenas,18-40,2017,10
+Ródenas,40-65,2017,25
+Ródenas,65-100,2017,25
+Ródenas,0-18,2018,3
+Ródenas,18-40,2018,13
+Ródenas,40-65,2018,22
+Ródenas,65-100,2018,23
+Ródenas,0-18,2019,4
+Ródenas,18-40,2019,14
+Ródenas,40-65,2019,22
+Ródenas,65-100,2019,23
+Ródenas,0-18,2020,4
+Ródenas,18-40,2020,16
+Ródenas,40-65,2020,20
+Ródenas,65-100,2020,22
+Royuela,0-18,2015,28
+Royuela,18-40,2015,40
+Royuela,40-65,2015,75
+Royuela,65-100,2015,78
+Royuela,0-18,2016,31
+Royuela,18-40,2016,37
+Royuela,40-65,2016,75
+Royuela,65-100,2016,72
+Royuela,0-18,2017,28
+Royuela,18-40,2017,37
+Royuela,40-65,2017,73
+Royuela,65-100,2017,71
+Royuela,0-18,2018,25
+Royuela,18-40,2018,34
+Royuela,40-65,2018,76
+Royuela,65-100,2018,71
+Royuela,0-18,2019,24
+Royuela,18-40,2019,40
+Royuela,40-65,2019,75
+Royuela,65-100,2019,65
+Royuela,0-18,2020,27
+Royuela,18-40,2020,40
+Royuela,40-65,2020,78
+Royuela,65-100,2020,65
+Rubiales,0-18,2015,5
+Rubiales,18-40,2015,13
+Rubiales,40-65,2015,27
+Rubiales,65-100,2015,8
+Rubiales,0-18,2016,4
+Rubiales,18-40,2016,10
+Rubiales,40-65,2016,26
+Rubiales,65-100,2016,10
+Rubiales,0-18,2017,5
+Rubiales,18-40,2017,11
+Rubiales,40-65,2017,24
+Rubiales,65-100,2017,12
+Rubiales,0-18,2018,5
+Rubiales,18-40,2018,10
+Rubiales,40-65,2018,22
+Rubiales,65-100,2018,13
+Rubiales,0-18,2019,7
+Rubiales,18-40,2019,13
+Rubiales,40-65,2019,23
+Rubiales,65-100,2019,9
+Rubiales,0-18,2020,7
+Rubiales,18-40,2020,11
+Rubiales,40-65,2020,23
+Rubiales,65-100,2020,8
+Rubielos de la Cérida,0-18,2015,0
+Rubielos de la Cérida,18-40,2015,5
+Rubielos de la Cérida,40-65,2015,15
+Rubielos de la Cérida,65-100,2015,21
+Rubielos de la Cérida,0-18,2016,0
+Rubielos de la Cérida,18-40,2016,3
+Rubielos de la Cérida,40-65,2016,15
+Rubielos de la Cérida,65-100,2016,21
+Rubielos de la Cérida,0-18,2017,0
+Rubielos de la Cérida,18-40,2017,5
+Rubielos de la Cérida,40-65,2017,14
+Rubielos de la Cérida,65-100,2017,19
+Rubielos de la Cérida,0-18,2018,0
+Rubielos de la Cérida,18-40,2018,5
+Rubielos de la Cérida,40-65,2018,12
+Rubielos de la Cérida,65-100,2018,21
+Rubielos de la Cérida,0-18,2019,0
+Rubielos de la Cérida,18-40,2019,4
+Rubielos de la Cérida,40-65,2019,12
+Rubielos de la Cérida,65-100,2019,23
+Rubielos de la Cérida,0-18,2020,0
+Rubielos de la Cérida,18-40,2020,5
+Rubielos de la Cérida,40-65,2020,12
+Rubielos de la Cérida,65-100,2020,22
+Rubielos de Mora,0-18,2015,111
+Rubielos de Mora,18-40,2015,172
+Rubielos de Mora,40-65,2015,229
+Rubielos de Mora,65-100,2015,149
+Rubielos de Mora,0-18,2016,103
+Rubielos de Mora,18-40,2016,169
+Rubielos de Mora,40-65,2016,234
+Rubielos de Mora,65-100,2016,152
+Rubielos de Mora,0-18,2017,99
+Rubielos de Mora,18-40,2017,156
+Rubielos de Mora,40-65,2017,228
+Rubielos de Mora,65-100,2017,143
+Rubielos de Mora,0-18,2018,99
+Rubielos de Mora,18-40,2018,158
+Rubielos de Mora,40-65,2018,232
+Rubielos de Mora,65-100,2018,138
+Rubielos de Mora,0-18,2019,98
+Rubielos de Mora,18-40,2019,158
+Rubielos de Mora,40-65,2019,238
+Rubielos de Mora,65-100,2019,127
+Rubielos de Mora,0-18,2020,100
+Rubielos de Mora,18-40,2020,171
+Rubielos de Mora,40-65,2020,240
+Rubielos de Mora,65-100,2020,124
+Salcedillo,0-18,2015,0
+Salcedillo,18-40,2015,1
+Salcedillo,40-65,2015,9
+Salcedillo,65-100,2015,3
+Salcedillo,0-18,2016,0
+Salcedillo,18-40,2016,3
+Salcedillo,40-65,2016,11
+Salcedillo,65-100,2016,3
+Salcedillo,0-18,2017,0
+Salcedillo,18-40,2017,5
+Salcedillo,40-65,2017,11
+Salcedillo,65-100,2017,1
+Salcedillo,0-18,2018,0
+Salcedillo,18-40,2018,6
+Salcedillo,40-65,2018,10
+Salcedillo,65-100,2018,1
+Salcedillo,0-18,2019,0
+Salcedillo,18-40,2019,5
+Salcedillo,40-65,2019,9
+Salcedillo,65-100,2019,0
+Salcedillo,0-18,2020,0
+Salcedillo,18-40,2020,4
+Salcedillo,40-65,2020,7
+Salcedillo,65-100,2020,0
+Saldón,0-18,2015,1
+Saldón,18-40,2015,3
+Saldón,40-65,2015,10
+Saldón,65-100,2015,13
+Saldón,0-18,2016,1
+Saldón,18-40,2016,1
+Saldón,40-65,2016,11
+Saldón,65-100,2016,13
+Saldón,0-18,2017,1
+Saldón,18-40,2017,1
+Saldón,40-65,2017,12
+Saldón,65-100,2017,12
+Saldón,0-18,2018,1
+Saldón,18-40,2018,1
+Saldón,40-65,2018,11
+Saldón,65-100,2018,13
+Saldón,0-18,2019,0
+Saldón,18-40,2019,3
+Saldón,40-65,2019,11
+Saldón,65-100,2019,13
+Saldón,0-18,2020,0
+Saldón,18-40,2020,2
+Saldón,40-65,2020,12
+Saldón,65-100,2020,10
+Samper de Calanda,0-18,2015,102
+Samper de Calanda,18-40,2015,190
+Samper de Calanda,40-65,2015,256
+Samper de Calanda,65-100,2015,306
+Samper de Calanda,0-18,2016,102
+Samper de Calanda,18-40,2016,177
+Samper de Calanda,40-65,2016,266
+Samper de Calanda,65-100,2016,300
+Samper de Calanda,0-18,2017,103
+Samper de Calanda,18-40,2017,169
+Samper de Calanda,40-65,2017,263
+Samper de Calanda,65-100,2017,286
+Samper de Calanda,0-18,2018,98
+Samper de Calanda,18-40,2018,144
+Samper de Calanda,40-65,2018,268
+Samper de Calanda,65-100,2018,273
+Samper de Calanda,0-18,2019,92
+Samper de Calanda,18-40,2019,144
+Samper de Calanda,40-65,2019,265
+Samper de Calanda,65-100,2019,254
+Samper de Calanda,0-18,2020,84
+Samper de Calanda,18-40,2020,131
+Samper de Calanda,40-65,2020,262
+Samper de Calanda,65-100,2020,244
+San Agustín,0-18,2015,11
+San Agustín,18-40,2015,37
+San Agustín,40-65,2015,53
+San Agustín,65-100,2015,40
+San Agustín,0-18,2016,8
+San Agustín,18-40,2016,34
+San Agustín,40-65,2016,54
+San Agustín,65-100,2016,36
+San Agustín,0-18,2017,10
+San Agustín,18-40,2017,32
+San Agustín,40-65,2017,53
+San Agustín,65-100,2017,36
+San Agustín,0-18,2018,9
+San Agustín,18-40,2018,29
+San Agustín,40-65,2018,53
+San Agustín,65-100,2018,34
+San Agustín,0-18,2019,9
+San Agustín,18-40,2019,27
+San Agustín,40-65,2019,50
+San Agustín,65-100,2019,33
+San Agustín,0-18,2020,7
+San Agustín,18-40,2020,28
+San Agustín,40-65,2020,56
+San Agustín,65-100,2020,32
+San Martín del Río,0-18,2015,8
+San Martín del Río,18-40,2015,14
+San Martín del Río,40-65,2015,56
+San Martín del Río,65-100,2015,96
+San Martín del Río,0-18,2016,7
+San Martín del Río,18-40,2016,12
+San Martín del Río,40-65,2016,54
+San Martín del Río,65-100,2016,90
+San Martín del Río,0-18,2017,7
+San Martín del Río,18-40,2017,12
+San Martín del Río,40-65,2017,53
+San Martín del Río,65-100,2017,83
+San Martín del Río,0-18,2018,6
+San Martín del Río,18-40,2018,12
+San Martín del Río,40-65,2018,53
+San Martín del Río,65-100,2018,77
+San Martín del Río,0-18,2019,6
+San Martín del Río,18-40,2019,9
+San Martín del Río,40-65,2019,50
+San Martín del Río,65-100,2019,72
+San Martín del Río,0-18,2020,7
+San Martín del Río,18-40,2020,12
+San Martín del Río,40-65,2020,45
+San Martín del Río,65-100,2020,68
+Santa Cruz de Nogueras,0-18,2015,1
+Santa Cruz de Nogueras,18-40,2015,6
+Santa Cruz de Nogueras,40-65,2015,14
+Santa Cruz de Nogueras,65-100,2015,18
+Santa Cruz de Nogueras,0-18,2016,1
+Santa Cruz de Nogueras,18-40,2016,8
+Santa Cruz de Nogueras,40-65,2016,14
+Santa Cruz de Nogueras,65-100,2016,17
+Santa Cruz de Nogueras,0-18,2017,1
+Santa Cruz de Nogueras,18-40,2017,6
+Santa Cruz de Nogueras,40-65,2017,14
+Santa Cruz de Nogueras,65-100,2017,17
+Santa Cruz de Nogueras,0-18,2018,2
+Santa Cruz de Nogueras,18-40,2018,8
+Santa Cruz de Nogueras,40-65,2018,13
+Santa Cruz de Nogueras,65-100,2018,14
+Santa Cruz de Nogueras,0-18,2019,1
+Santa Cruz de Nogueras,18-40,2019,6
+Santa Cruz de Nogueras,40-65,2019,10
+Santa Cruz de Nogueras,65-100,2019,12
+Santa Cruz de Nogueras,0-18,2020,2
+Santa Cruz de Nogueras,18-40,2020,6
+Santa Cruz de Nogueras,40-65,2020,10
+Santa Cruz de Nogueras,65-100,2020,12
+Santa Eulalia,0-18,2015,134
+Santa Eulalia,18-40,2015,262
+Santa Eulalia,40-65,2015,336
+Santa Eulalia,65-100,2015,349
+Santa Eulalia,0-18,2016,127
+Santa Eulalia,18-40,2016,251
+Santa Eulalia,40-65,2016,341
+Santa Eulalia,65-100,2016,340
+Santa Eulalia,0-18,2017,126
+Santa Eulalia,18-40,2017,235
+Santa Eulalia,40-65,2017,338
+Santa Eulalia,65-100,2017,334
+Santa Eulalia,0-18,2018,126
+Santa Eulalia,18-40,2018,228
+Santa Eulalia,40-65,2018,353
+Santa Eulalia,65-100,2018,330
+Santa Eulalia,0-18,2019,138
+Santa Eulalia,18-40,2019,240
+Santa Eulalia,40-65,2019,355
+Santa Eulalia,65-100,2019,328
+Santa Eulalia,0-18,2020,133
+Santa Eulalia,18-40,2020,246
+Santa Eulalia,40-65,2020,357
+Santa Eulalia,65-100,2020,314
+Sarrión,0-18,2015,223
+Sarrión,18-40,2015,374
+Sarrión,40-65,2015,352
+Sarrión,65-100,2015,218
+Sarrión,0-18,2016,212
+Sarrión,18-40,2016,347
+Sarrión,40-65,2016,353
+Sarrión,65-100,2016,213
+Sarrión,0-18,2017,219
+Sarrión,18-40,2017,345
+Sarrión,40-65,2017,353
+Sarrión,65-100,2017,208
+Sarrión,0-18,2018,223
+Sarrión,18-40,2018,334
+Sarrión,40-65,2018,364
+Sarrión,65-100,2018,212
+Sarrión,0-18,2019,225
+Sarrión,18-40,2019,325
+Sarrión,40-65,2019,365
+Sarrión,65-100,2019,213
+Sarrión,0-18,2020,229
+Sarrión,18-40,2020,333
+Sarrión,40-65,2020,355
+Sarrión,65-100,2020,231
+Segura de los Baños,0-18,2015,0
+Segura de los Baños,18-40,2015,3
+Segura de los Baños,40-65,2015,16
+Segura de los Baños,65-100,2015,21
+Segura de los Baños,0-18,2016,0
+Segura de los Baños,18-40,2016,5
+Segura de los Baños,40-65,2016,18
+Segura de los Baños,65-100,2016,21
+Segura de los Baños,0-18,2017,0
+Segura de los Baños,18-40,2017,3
+Segura de los Baños,40-65,2017,19
+Segura de los Baños,65-100,2017,21
+Segura de los Baños,0-18,2018,0
+Segura de los Baños,18-40,2018,2
+Segura de los Baños,40-65,2018,17
+Segura de los Baños,65-100,2018,20
+Segura de los Baños,0-18,2019,2
+Segura de los Baños,18-40,2019,1
+Segura de los Baños,40-65,2019,18
+Segura de los Baños,65-100,2019,17
+Segura de los Baños,0-18,2020,2
+Segura de los Baños,18-40,2020,3
+Segura de los Baños,40-65,2020,21
+Segura de los Baños,65-100,2020,15
+Seno,0-18,2015,1
+Seno,18-40,2015,7
+Seno,40-65,2015,14
+Seno,65-100,2015,21
+Seno,0-18,2016,1
+Seno,18-40,2016,6
+Seno,40-65,2016,15
+Seno,65-100,2016,19
+Seno,0-18,2017,1
+Seno,18-40,2017,7
+Seno,40-65,2017,16
+Seno,65-100,2017,16
+Seno,0-18,2018,1
+Seno,18-40,2018,6
+Seno,40-65,2018,16
+Seno,65-100,2018,16
+Seno,0-18,2019,1
+Seno,18-40,2019,7
+Seno,40-65,2019,18
+Seno,65-100,2019,17
+Seno,0-18,2020,1
+Seno,18-40,2020,7
+Seno,40-65,2020,18
+Seno,65-100,2020,13
+Singra,0-18,2015,8
+Singra,18-40,2015,14
+Singra,40-65,2015,30
+Singra,65-100,2015,28
+Singra,0-18,2016,7
+Singra,18-40,2016,15
+Singra,40-65,2016,31
+Singra,65-100,2016,27
+Singra,0-18,2017,5
+Singra,18-40,2017,16
+Singra,40-65,2017,32
+Singra,65-100,2017,26
+Singra,0-18,2018,6
+Singra,18-40,2018,17
+Singra,40-65,2018,31
+Singra,65-100,2018,26
+Singra,0-18,2019,3
+Singra,18-40,2019,15
+Singra,40-65,2019,30
+Singra,65-100,2019,27
+Singra,0-18,2020,5
+Singra,18-40,2020,16
+Singra,40-65,2020,35
+Singra,65-100,2020,27
+Terriente,0-18,2015,14
+Terriente,18-40,2015,45
+Terriente,40-65,2015,62
+Terriente,65-100,2015,57
+Terriente,0-18,2016,12
+Terriente,18-40,2016,42
+Terriente,40-65,2016,63
+Terriente,65-100,2016,56
+Terriente,0-18,2017,10
+Terriente,18-40,2017,44
+Terriente,40-65,2017,61
+Terriente,65-100,2017,63
+Terriente,0-18,2018,9
+Terriente,18-40,2018,39
+Terriente,40-65,2018,67
+Terriente,65-100,2018,68
+Terriente,0-18,2019,9
+Terriente,18-40,2019,30
+Terriente,40-65,2019,73
+Terriente,65-100,2019,71
+Terriente,0-18,2020,9
+Terriente,18-40,2020,33
+Terriente,40-65,2020,71
+Terriente,65-100,2020,67
+Teruel,0-18,2015,6919
+Teruel,18-40,2015,9950
+Teruel,40-65,2015,12549
+Teruel,65-100,2015,6172
+Teruel,0-18,2016,6896
+Teruel,18-40,2016,9730
+Teruel,40-65,2016,12652
+Teruel,65-100,2016,6286
+Teruel,0-18,2017,6894
+Teruel,18-40,2017,9468
+Teruel,40-65,2017,12802
+Teruel,65-100,2017,6320
+Teruel,0-18,2018,6903
+Teruel,18-40,2018,9366
+Teruel,40-65,2018,13005
+Teruel,65-100,2018,6417
+Teruel,0-18,2019,6921
+Teruel,18-40,2019,9218
+Teruel,40-65,2019,13239
+Teruel,65-100,2019,6512
+Teruel,0-18,2020,6860
+Teruel,18-40,2020,9307
+Teruel,40-65,2020,13343
+Teruel,65-100,2020,6730
+Toril y Masegoso,0-18,2015,0
+Toril y Masegoso,18-40,2015,2
+Toril y Masegoso,40-65,2015,20
+Toril y Masegoso,65-100,2015,8
+Toril y Masegoso,0-18,2016,0
+Toril y Masegoso,18-40,2016,2
+Toril y Masegoso,40-65,2016,20
+Toril y Masegoso,65-100,2016,8
+Toril y Masegoso,0-18,2017,0
+Toril y Masegoso,18-40,2017,2
+Toril y Masegoso,40-65,2017,19
+Toril y Masegoso,65-100,2017,8
+Toril y Masegoso,0-18,2018,0
+Toril y Masegoso,18-40,2018,3
+Toril y Masegoso,40-65,2018,19
+Toril y Masegoso,65-100,2018,8
+Toril y Masegoso,0-18,2019,0
+Toril y Masegoso,18-40,2019,4
+Toril y Masegoso,40-65,2019,20
+Toril y Masegoso,65-100,2019,8
+Toril y Masegoso,0-18,2020,1
+Toril y Masegoso,18-40,2020,4
+Toril y Masegoso,40-65,2020,19
+Toril y Masegoso,65-100,2020,9
+Tormón,0-18,2015,0
+Tormón,18-40,2015,5
+Tormón,40-65,2015,12
+Tormón,65-100,2015,17
+Tormón,0-18,2016,0
+Tormón,18-40,2016,4
+Tormón,40-65,2016,11
+Tormón,65-100,2016,19
+Tormón,0-18,2017,0
+Tormón,18-40,2017,5
+Tormón,40-65,2017,10
+Tormón,65-100,2017,19
+Tormón,0-18,2018,0
+Tormón,18-40,2018,5
+Tormón,40-65,2018,10
+Tormón,65-100,2018,16
+Tormón,0-18,2019,0
+Tormón,18-40,2019,4
+Tormón,40-65,2019,13
+Tormón,65-100,2019,13
+Tormón,0-18,2020,0
+Tormón,18-40,2020,3
+Tormón,40-65,2020,11
+Tormón,65-100,2020,11
+Tornos,0-18,2015,20
+Tornos,18-40,2015,43
+Tornos,40-65,2015,106
+Tornos,65-100,2015,126
+Tornos,0-18,2016,22
+Tornos,18-40,2016,41
+Tornos,40-65,2016,108
+Tornos,65-100,2016,119
+Tornos,0-18,2017,24
+Tornos,18-40,2017,37
+Tornos,40-65,2017,104
+Tornos,65-100,2017,119
+Tornos,0-18,2018,21
+Tornos,18-40,2018,38
+Tornos,40-65,2018,97
+Tornos,65-100,2018,119
+Tornos,0-18,2019,23
+Tornos,18-40,2019,35
+Tornos,40-65,2019,95
+Tornos,65-100,2019,113
+Tornos,0-18,2020,21
+Tornos,18-40,2020,32
+Tornos,40-65,2020,92
+Tornos,65-100,2020,112
+Torralba de los Sisones,0-18,2015,25
+Torralba de los Sisones,18-40,2015,25
+Torralba de los Sisones,40-65,2015,52
+Torralba de los Sisones,65-100,2015,55
+Torralba de los Sisones,0-18,2016,33
+Torralba de los Sisones,18-40,2016,24
+Torralba de los Sisones,40-65,2016,55
+Torralba de los Sisones,65-100,2016,51
+Torralba de los Sisones,0-18,2017,27
+Torralba de los Sisones,18-40,2017,30
+Torralba de los Sisones,40-65,2017,54
+Torralba de los Sisones,65-100,2017,51
+Torralba de los Sisones,0-18,2018,23
+Torralba de los Sisones,18-40,2018,33
+Torralba de los Sisones,40-65,2018,54
+Torralba de los Sisones,65-100,2018,46
+Torralba de los Sisones,0-18,2019,20
+Torralba de los Sisones,18-40,2019,37
+Torralba de los Sisones,40-65,2019,52
+Torralba de los Sisones,65-100,2019,46
+Torralba de los Sisones,0-18,2020,22
+Torralba de los Sisones,18-40,2020,39
+Torralba de los Sisones,40-65,2020,57
+Torralba de los Sisones,65-100,2020,39
+Torrecilla de Alcañiz,0-18,2015,41
+Torrecilla de Alcañiz,18-40,2015,80
+Torrecilla de Alcañiz,40-65,2015,155
+Torrecilla de Alcañiz,65-100,2015,131
+Torrecilla de Alcañiz,0-18,2016,45
+Torrecilla de Alcañiz,18-40,2016,81
+Torrecilla de Alcañiz,40-65,2016,162
+Torrecilla de Alcañiz,65-100,2016,136
+Torrecilla de Alcañiz,0-18,2017,49
+Torrecilla de Alcañiz,18-40,2017,79
+Torrecilla de Alcañiz,40-65,2017,159
+Torrecilla de Alcañiz,65-100,2017,139
+Torrecilla de Alcañiz,0-18,2018,37
+Torrecilla de Alcañiz,18-40,2018,86
+Torrecilla de Alcañiz,40-65,2018,156
+Torrecilla de Alcañiz,65-100,2018,144
+Torrecilla de Alcañiz,0-18,2019,40
+Torrecilla de Alcañiz,18-40,2019,92
+Torrecilla de Alcañiz,40-65,2019,162
+Torrecilla de Alcañiz,65-100,2019,139
+Torrecilla de Alcañiz,0-18,2020,35
+Torrecilla de Alcañiz,18-40,2020,96
+Torrecilla de Alcañiz,40-65,2020,165
+Torrecilla de Alcañiz,65-100,2020,143
+Torrecilla del Rebollar,0-18,2015,6
+Torrecilla del Rebollar,18-40,2015,22
+Torrecilla del Rebollar,40-65,2015,55
+Torrecilla del Rebollar,65-100,2015,61
+Torrecilla del Rebollar,0-18,2016,3
+Torrecilla del Rebollar,18-40,2016,25
+Torrecilla del Rebollar,40-65,2016,49
+Torrecilla del Rebollar,65-100,2016,60
+Torrecilla del Rebollar,0-18,2017,4
+Torrecilla del Rebollar,18-40,2017,19
+Torrecilla del Rebollar,40-65,2017,53
+Torrecilla del Rebollar,65-100,2017,60
+Torrecilla del Rebollar,0-18,2018,2
+Torrecilla del Rebollar,18-40,2018,15
+Torrecilla del Rebollar,40-65,2018,52
+Torrecilla del Rebollar,65-100,2018,58
+Torrecilla del Rebollar,0-18,2019,2
+Torrecilla del Rebollar,18-40,2019,14
+Torrecilla del Rebollar,40-65,2019,51
+Torrecilla del Rebollar,65-100,2019,57
+Torrecilla del Rebollar,0-18,2020,3
+Torrecilla del Rebollar,18-40,2020,13
+Torrecilla del Rebollar,40-65,2020,51
+Torrecilla del Rebollar,65-100,2020,56
+Torre de Arcas,0-18,2015,9
+Torre de Arcas,18-40,2015,14
+Torre de Arcas,40-65,2015,35
+Torre de Arcas,65-100,2015,23
+Torre de Arcas,0-18,2016,9
+Torre de Arcas,18-40,2016,15
+Torre de Arcas,40-65,2016,33
+Torre de Arcas,65-100,2016,24
+Torre de Arcas,0-18,2017,10
+Torre de Arcas,18-40,2017,16
+Torre de Arcas,40-65,2017,33
+Torre de Arcas,65-100,2017,24
+Torre de Arcas,0-18,2018,11
+Torre de Arcas,18-40,2018,18
+Torre de Arcas,40-65,2018,35
+Torre de Arcas,65-100,2018,25
+Torre de Arcas,0-18,2019,9
+Torre de Arcas,18-40,2019,19
+Torre de Arcas,40-65,2019,34
+Torre de Arcas,65-100,2019,28
+Torre de Arcas,0-18,2020,9
+Torre de Arcas,18-40,2020,22
+Torre de Arcas,40-65,2020,36
+Torre de Arcas,65-100,2020,27
+Torre de las Arcas,0-18,2015,5
+Torre de las Arcas,18-40,2015,4
+Torre de las Arcas,40-65,2015,12
+Torre de las Arcas,65-100,2015,8
+Torre de las Arcas,0-18,2016,5
+Torre de las Arcas,18-40,2016,3
+Torre de las Arcas,40-65,2016,13
+Torre de las Arcas,65-100,2016,8
+Torre de las Arcas,0-18,2017,3
+Torre de las Arcas,18-40,2017,5
+Torre de las Arcas,40-65,2017,13
+Torre de las Arcas,65-100,2017,7
+Torre de las Arcas,0-18,2018,3
+Torre de las Arcas,18-40,2018,6
+Torre de las Arcas,40-65,2018,13
+Torre de las Arcas,65-100,2018,6
+Torre de las Arcas,0-18,2019,3
+Torre de las Arcas,18-40,2019,5
+Torre de las Arcas,40-65,2019,14
+Torre de las Arcas,65-100,2019,6
+Torre de las Arcas,0-18,2020,2
+Torre de las Arcas,18-40,2020,6
+Torre de las Arcas,40-65,2020,15
+Torre de las Arcas,65-100,2020,6
+Torre del Compte,0-18,2015,8
+Torre del Compte,18-40,2015,29
+Torre del Compte,40-65,2015,55
+Torre del Compte,65-100,2015,45
+Torre del Compte,0-18,2016,8
+Torre del Compte,18-40,2016,26
+Torre del Compte,40-65,2016,47
+Torre del Compte,65-100,2016,48
+Torre del Compte,0-18,2017,9
+Torre del Compte,18-40,2017,28
+Torre del Compte,40-65,2017,44
+Torre del Compte,65-100,2017,49
+Torre del Compte,0-18,2018,9
+Torre del Compte,18-40,2018,25
+Torre del Compte,40-65,2018,48
+Torre del Compte,65-100,2018,50
+Torre del Compte,0-18,2019,6
+Torre del Compte,18-40,2019,22
+Torre del Compte,40-65,2019,42
+Torre del Compte,65-100,2019,50
+Torre del Compte,0-18,2020,5
+Torre del Compte,18-40,2020,21
+Torre del Compte,40-65,2020,39
+Torre del Compte,65-100,2020,52
+Torrelacárcel,0-18,2015,19
+Torrelacárcel,18-40,2015,34
+Torrelacárcel,40-65,2015,46
+Torrelacárcel,65-100,2015,85
+Torrelacárcel,0-18,2016,16
+Torrelacárcel,18-40,2016,30
+Torrelacárcel,40-65,2016,45
+Torrelacárcel,65-100,2016,85
+Torrelacárcel,0-18,2017,18
+Torrelacárcel,18-40,2017,27
+Torrelacárcel,40-65,2017,43
+Torrelacárcel,65-100,2017,81
+Torrelacárcel,0-18,2018,12
+Torrelacárcel,18-40,2018,21
+Torrelacárcel,40-65,2018,47
+Torrelacárcel,65-100,2018,74
+Torrelacárcel,0-18,2019,11
+Torrelacárcel,18-40,2019,23
+Torrelacárcel,40-65,2019,48
+Torrelacárcel,65-100,2019,69
+Torrelacárcel,0-18,2020,11
+Torrelacárcel,18-40,2020,20
+Torrelacárcel,40-65,2020,48
+Torrelacárcel,65-100,2020,64
+Torre los Negros,0-18,2015,8
+Torre los Negros,18-40,2015,12
+Torre los Negros,40-65,2015,33
+Torre los Negros,65-100,2015,37
+Torre los Negros,0-18,2016,8
+Torre los Negros,18-40,2016,9
+Torre los Negros,40-65,2016,33
+Torre los Negros,65-100,2016,37
+Torre los Negros,0-18,2017,6
+Torre los Negros,18-40,2017,11
+Torre los Negros,40-65,2017,34
+Torre los Negros,65-100,2017,35
+Torre los Negros,0-18,2018,4
+Torre los Negros,18-40,2018,16
+Torre los Negros,40-65,2018,30
+Torre los Negros,65-100,2018,38
+Torre los Negros,0-18,2019,5
+Torre los Negros,18-40,2019,12
+Torre los Negros,40-65,2019,29
+Torre los Negros,65-100,2019,38
+Torre los Negros,0-18,2020,4
+Torre los Negros,18-40,2020,13
+Torre los Negros,40-65,2020,29
+Torre los Negros,65-100,2020,37
+Torremocha de Jiloca,0-18,2015,2
+Torremocha de Jiloca,18-40,2015,24
+Torremocha de Jiloca,40-65,2015,34
+Torremocha de Jiloca,65-100,2015,50
+Torremocha de Jiloca,0-18,2016,6
+Torremocha de Jiloca,18-40,2016,24
+Torremocha de Jiloca,40-65,2016,35
+Torremocha de Jiloca,65-100,2016,45
+Torremocha de Jiloca,0-18,2017,7
+Torremocha de Jiloca,18-40,2017,24
+Torremocha de Jiloca,40-65,2017,35
+Torremocha de Jiloca,65-100,2017,41
+Torremocha de Jiloca,0-18,2018,7
+Torremocha de Jiloca,18-40,2018,26
+Torremocha de Jiloca,40-65,2018,34
+Torremocha de Jiloca,65-100,2018,40
+Torremocha de Jiloca,0-18,2019,8
+Torremocha de Jiloca,18-40,2019,25
+Torremocha de Jiloca,40-65,2019,37
+Torremocha de Jiloca,65-100,2019,39
+Torremocha de Jiloca,0-18,2020,8
+Torremocha de Jiloca,18-40,2020,22
+Torremocha de Jiloca,40-65,2020,37
+Torremocha de Jiloca,65-100,2020,40
+Torres de Albarracín,0-18,2015,24
+Torres de Albarracín,18-40,2015,47
+Torres de Albarracín,40-65,2015,55
+Torres de Albarracín,65-100,2015,55
+Torres de Albarracín,0-18,2016,21
+Torres de Albarracín,18-40,2016,47
+Torres de Albarracín,40-65,2016,58
+Torres de Albarracín,65-100,2016,53
+Torres de Albarracín,0-18,2017,23
+Torres de Albarracín,18-40,2017,45
+Torres de Albarracín,40-65,2017,58
+Torres de Albarracín,65-100,2017,52
+Torres de Albarracín,0-18,2018,25
+Torres de Albarracín,18-40,2018,47
+Torres de Albarracín,40-65,2018,60
+Torres de Albarracín,65-100,2018,51
+Torres de Albarracín,0-18,2019,24
+Torres de Albarracín,18-40,2019,45
+Torres de Albarracín,40-65,2019,58
+Torres de Albarracín,65-100,2019,53
+Torres de Albarracín,0-18,2020,26
+Torres de Albarracín,18-40,2020,50
+Torres de Albarracín,40-65,2020,56
+Torres de Albarracín,65-100,2020,53
+Torrevelilla,0-18,2015,30
+Torrevelilla,18-40,2015,42
+Torrevelilla,40-65,2015,63
+Torrevelilla,65-100,2015,65
+Torrevelilla,0-18,2016,33
+Torrevelilla,18-40,2016,44
+Torrevelilla,40-65,2016,61
+Torrevelilla,65-100,2016,65
+Torrevelilla,0-18,2017,33
+Torrevelilla,18-40,2017,37
+Torrevelilla,40-65,2017,59
+Torrevelilla,65-100,2017,63
+Torrevelilla,0-18,2018,28
+Torrevelilla,18-40,2018,42
+Torrevelilla,40-65,2018,59
+Torrevelilla,65-100,2018,60
+Torrevelilla,0-18,2019,26
+Torrevelilla,18-40,2019,43
+Torrevelilla,40-65,2019,57
+Torrevelilla,65-100,2019,60
+Torrevelilla,0-18,2020,21
+Torrevelilla,18-40,2020,39
+Torrevelilla,40-65,2020,57
+Torrevelilla,65-100,2020,53
+Torrijas,0-18,2015,5
+Torrijas,18-40,2015,14
+Torrijas,40-65,2015,8
+Torrijas,65-100,2015,18
+Torrijas,0-18,2016,4
+Torrijas,18-40,2016,14
+Torrijas,40-65,2016,9
+Torrijas,65-100,2016,18
+Torrijas,0-18,2017,4
+Torrijas,18-40,2017,11
+Torrijas,40-65,2017,7
+Torrijas,65-100,2017,17
+Torrijas,0-18,2018,6
+Torrijas,18-40,2018,10
+Torrijas,40-65,2018,8
+Torrijas,65-100,2018,14
+Torrijas,0-18,2019,5
+Torrijas,18-40,2019,10
+Torrijas,40-65,2019,11
+Torrijas,65-100,2019,15
+Torrijas,0-18,2020,8
+Torrijas,18-40,2020,10
+Torrijas,40-65,2020,12
+Torrijas,65-100,2020,13
+Torrijo del Campo,0-18,2015,42
+Torrijo del Campo,18-40,2015,115
+Torrijo del Campo,40-65,2015,162
+Torrijo del Campo,65-100,2015,170
+Torrijo del Campo,0-18,2016,38
+Torrijo del Campo,18-40,2016,105
+Torrijo del Campo,40-65,2016,155
+Torrijo del Campo,65-100,2016,164
+Torrijo del Campo,0-18,2017,34
+Torrijo del Campo,18-40,2017,101
+Torrijo del Campo,40-65,2017,149
+Torrijo del Campo,65-100,2017,163
+Torrijo del Campo,0-18,2018,36
+Torrijo del Campo,18-40,2018,104
+Torrijo del Campo,40-65,2018,149
+Torrijo del Campo,65-100,2018,158
+Torrijo del Campo,0-18,2019,44
+Torrijo del Campo,18-40,2019,106
+Torrijo del Campo,40-65,2019,148
+Torrijo del Campo,65-100,2019,157
+Torrijo del Campo,0-18,2020,37
+Torrijo del Campo,18-40,2020,105
+Torrijo del Campo,40-65,2020,154
+Torrijo del Campo,65-100,2020,151
+Tramacastiel,0-18,2015,8
+Tramacastiel,18-40,2015,16
+Tramacastiel,40-65,2015,30
+Tramacastiel,65-100,2015,21
+Tramacastiel,0-18,2016,3
+Tramacastiel,18-40,2016,17
+Tramacastiel,40-65,2016,26
+Tramacastiel,65-100,2016,20
+Tramacastiel,0-18,2017,3
+Tramacastiel,18-40,2017,16
+Tramacastiel,40-65,2017,26
+Tramacastiel,65-100,2017,22
+Tramacastiel,0-18,2018,3
+Tramacastiel,18-40,2018,15
+Tramacastiel,40-65,2018,25
+Tramacastiel,65-100,2018,21
+Tramacastiel,0-18,2019,1
+Tramacastiel,18-40,2019,18
+Tramacastiel,40-65,2019,28
+Tramacastiel,65-100,2019,25
+Tramacastiel,0-18,2020,1
+Tramacastiel,18-40,2020,17
+Tramacastiel,40-65,2020,24
+Tramacastiel,65-100,2020,25
+Tramacastilla,0-18,2015,14
+Tramacastilla,18-40,2015,23
+Tramacastilla,40-65,2015,30
+Tramacastilla,65-100,2015,40
+Tramacastilla,0-18,2016,14
+Tramacastilla,18-40,2016,20
+Tramacastilla,40-65,2016,33
+Tramacastilla,65-100,2016,41
+Tramacastilla,0-18,2017,12
+Tramacastilla,18-40,2017,17
+Tramacastilla,40-65,2017,36
+Tramacastilla,65-100,2017,42
+Tramacastilla,0-18,2018,12
+Tramacastilla,18-40,2018,17
+Tramacastilla,40-65,2018,36
+Tramacastilla,65-100,2018,41
+Tramacastilla,0-18,2019,10
+Tramacastilla,18-40,2019,17
+Tramacastilla,40-65,2019,38
+Tramacastilla,65-100,2019,38
+Tramacastilla,0-18,2020,10
+Tramacastilla,18-40,2020,15
+Tramacastilla,40-65,2020,39
+Tramacastilla,65-100,2020,40
+Tronchón,0-18,2015,5
+Tronchón,18-40,2015,12
+Tronchón,40-65,2015,24
+Tronchón,65-100,2015,27
+Tronchón,0-18,2016,5
+Tronchón,18-40,2016,13
+Tronchón,40-65,2016,23
+Tronchón,65-100,2016,26
+Tronchón,0-18,2017,5
+Tronchón,18-40,2017,9
+Tronchón,40-65,2017,27
+Tronchón,65-100,2017,28
+Tronchón,0-18,2018,4
+Tronchón,18-40,2018,9
+Tronchón,40-65,2018,25
+Tronchón,65-100,2018,27
+Tronchón,0-18,2019,6
+Tronchón,18-40,2019,9
+Tronchón,40-65,2019,26
+Tronchón,65-100,2019,26
+Tronchón,0-18,2020,6
+Tronchón,18-40,2020,8
+Tronchón,40-65,2020,28
+Tronchón,65-100,2020,26
+Urrea de Gaén,0-18,2015,45
+Urrea de Gaén,18-40,2015,118
+Urrea de Gaén,40-65,2015,158
+Urrea de Gaén,65-100,2015,167
+Urrea de Gaén,0-18,2016,45
+Urrea de Gaén,18-40,2016,108
+Urrea de Gaén,40-65,2016,153
+Urrea de Gaén,65-100,2016,169
+Urrea de Gaén,0-18,2017,42
+Urrea de Gaén,18-40,2017,95
+Urrea de Gaén,40-65,2017,153
+Urrea de Gaén,65-100,2017,171
+Urrea de Gaén,0-18,2018,39
+Urrea de Gaén,18-40,2018,88
+Urrea de Gaén,40-65,2018,146
+Urrea de Gaén,65-100,2018,163
+Urrea de Gaén,0-18,2019,38
+Urrea de Gaén,18-40,2019,87
+Urrea de Gaén,40-65,2019,145
+Urrea de Gaén,65-100,2019,165
+Urrea de Gaén,0-18,2020,39
+Urrea de Gaén,18-40,2020,82
+Urrea de Gaén,40-65,2020,142
+Urrea de Gaén,65-100,2020,164
+Utrillas,0-18,2015,527
+Utrillas,18-40,2015,941
+Utrillas,40-65,2015,1152
+Utrillas,65-100,2015,490
+Utrillas,0-18,2016,510
+Utrillas,18-40,2016,902
+Utrillas,40-65,2016,1159
+Utrillas,65-100,2016,485
+Utrillas,0-18,2017,506
+Utrillas,18-40,2017,848
+Utrillas,40-65,2017,1174
+Utrillas,65-100,2017,486
+Utrillas,0-18,2018,499
+Utrillas,18-40,2018,814
+Utrillas,40-65,2018,1175
+Utrillas,65-100,2018,482
+Utrillas,0-18,2019,504
+Utrillas,18-40,2019,795
+Utrillas,40-65,2019,1192
+Utrillas,65-100,2019,487
+Utrillas,0-18,2020,513
+Utrillas,18-40,2020,807
+Utrillas,40-65,2020,1171
+Utrillas,65-100,2020,515
+Valacloche,0-18,2015,0
+Valacloche,18-40,2015,6
+Valacloche,40-65,2015,8
+Valacloche,65-100,2015,13
+Valacloche,0-18,2016,0
+Valacloche,18-40,2016,6
+Valacloche,40-65,2016,6
+Valacloche,65-100,2016,11
+Valacloche,0-18,2017,0
+Valacloche,18-40,2017,6
+Valacloche,40-65,2017,6
+Valacloche,65-100,2017,11
+Valacloche,0-18,2018,0
+Valacloche,18-40,2018,6
+Valacloche,40-65,2018,4
+Valacloche,65-100,2018,11
+Valacloche,0-18,2019,0
+Valacloche,18-40,2019,5
+Valacloche,40-65,2019,6
+Valacloche,65-100,2019,11
+Valacloche,0-18,2020,0
+Valacloche,18-40,2020,5
+Valacloche,40-65,2020,6
+Valacloche,65-100,2020,9
+Valbona,0-18,2015,15
+Valbona,18-40,2015,45
+Valbona,40-65,2015,69
+Valbona,65-100,2015,64
+Valbona,0-18,2016,15
+Valbona,18-40,2016,36
+Valbona,40-65,2016,73
+Valbona,65-100,2016,62
+Valbona,0-18,2017,16
+Valbona,18-40,2017,30
+Valbona,40-65,2017,74
+Valbona,65-100,2017,61
+Valbona,0-18,2018,15
+Valbona,18-40,2018,28
+Valbona,40-65,2018,68
+Valbona,65-100,2018,63
+Valbona,0-18,2019,14
+Valbona,18-40,2019,25
+Valbona,40-65,2019,65
+Valbona,65-100,2019,63
+Valbona,0-18,2020,14
+Valbona,18-40,2020,26
+Valbona,40-65,2020,68
+Valbona,65-100,2020,64
+Valdealgorfa,0-18,2015,91
+Valdealgorfa,18-40,2015,151
+Valdealgorfa,40-65,2015,213
+Valdealgorfa,65-100,2015,209
+Valdealgorfa,0-18,2016,88
+Valdealgorfa,18-40,2016,140
+Valdealgorfa,40-65,2016,214
+Valdealgorfa,65-100,2016,203
+Valdealgorfa,0-18,2017,83
+Valdealgorfa,18-40,2017,130
+Valdealgorfa,40-65,2017,208
+Valdealgorfa,65-100,2017,211
+Valdealgorfa,0-18,2018,80
+Valdealgorfa,18-40,2018,125
+Valdealgorfa,40-65,2018,211
+Valdealgorfa,65-100,2018,206
+Valdealgorfa,0-18,2019,85
+Valdealgorfa,18-40,2019,117
+Valdealgorfa,40-65,2019,203
+Valdealgorfa,65-100,2019,207
+Valdealgorfa,0-18,2020,78
+Valdealgorfa,18-40,2020,115
+Valdealgorfa,40-65,2020,200
+Valdealgorfa,65-100,2020,202
+Valdecuenca,0-18,2015,1
+Valdecuenca,18-40,2015,11
+Valdecuenca,40-65,2015,19
+Valdecuenca,65-100,2015,9
+Valdecuenca,0-18,2016,1
+Valdecuenca,18-40,2016,10
+Valdecuenca,40-65,2016,14
+Valdecuenca,65-100,2016,9
+Valdecuenca,0-18,2017,1
+Valdecuenca,18-40,2017,10
+Valdecuenca,40-65,2017,17
+Valdecuenca,65-100,2017,9
+Valdecuenca,0-18,2018,2
+Valdecuenca,18-40,2018,8
+Valdecuenca,40-65,2018,17
+Valdecuenca,65-100,2018,8
+Valdecuenca,0-18,2019,2
+Valdecuenca,18-40,2019,9
+Valdecuenca,40-65,2019,12
+Valdecuenca,65-100,2019,11
+Valdecuenca,0-18,2020,3
+Valdecuenca,18-40,2020,7
+Valdecuenca,40-65,2020,11
+Valdecuenca,65-100,2020,11
+Valdelinares,0-18,2015,10
+Valdelinares,18-40,2015,21
+Valdelinares,40-65,2015,28
+Valdelinares,65-100,2015,26
+Valdelinares,0-18,2016,14
+Valdelinares,18-40,2016,21
+Valdelinares,40-65,2016,30
+Valdelinares,65-100,2016,25
+Valdelinares,0-18,2017,11
+Valdelinares,18-40,2017,21
+Valdelinares,40-65,2017,31
+Valdelinares,65-100,2017,26
+Valdelinares,0-18,2018,15
+Valdelinares,18-40,2018,19
+Valdelinares,40-65,2018,30
+Valdelinares,65-100,2018,23
+Valdelinares,0-18,2019,14
+Valdelinares,18-40,2019,24
+Valdelinares,40-65,2019,30
+Valdelinares,65-100,2019,20
+Valdelinares,0-18,2020,14
+Valdelinares,18-40,2020,27
+Valdelinares,40-65,2020,34
+Valdelinares,65-100,2020,17
+Valdeltormo,0-18,2015,44
+Valdeltormo,18-40,2015,62
+Valdeltormo,40-65,2015,102
+Valdeltormo,65-100,2015,104
+Valdeltormo,0-18,2016,38
+Valdeltormo,18-40,2016,59
+Valdeltormo,40-65,2016,97
+Valdeltormo,65-100,2016,102
+Valdeltormo,0-18,2017,41
+Valdeltormo,18-40,2017,64
+Valdeltormo,40-65,2017,92
+Valdeltormo,65-100,2017,101
+Valdeltormo,0-18,2018,32
+Valdeltormo,18-40,2018,57
+Valdeltormo,40-65,2018,89
+Valdeltormo,65-100,2018,101
+Valdeltormo,0-18,2019,34
+Valdeltormo,18-40,2019,59
+Valdeltormo,40-65,2019,85
+Valdeltormo,65-100,2019,105
+Valdeltormo,0-18,2020,35
+Valdeltormo,18-40,2020,58
+Valdeltormo,40-65,2020,85
+Valdeltormo,65-100,2020,103
+Valderrobres,0-18,2015,442
+Valderrobres,18-40,2015,669
+Valderrobres,40-65,2015,783
+Valderrobres,65-100,2015,448
+Valderrobres,0-18,2016,438
+Valderrobres,18-40,2016,648
+Valderrobres,40-65,2016,791
+Valderrobres,65-100,2016,434
+Valderrobres,0-18,2017,447
+Valderrobres,18-40,2017,637
+Valderrobres,40-65,2017,802
+Valderrobres,65-100,2017,452
+Valderrobres,0-18,2018,466
+Valderrobres,18-40,2018,640
+Valderrobres,40-65,2018,821
+Valderrobres,65-100,2018,461
+Valderrobres,0-18,2019,474
+Valderrobres,18-40,2019,634
+Valderrobres,40-65,2019,860
+Valderrobres,65-100,2019,457
+Valderrobres,0-18,2020,471
+Valderrobres,18-40,2020,634
+Valderrobres,40-65,2020,872
+Valderrobres,65-100,2020,458
+Valjunquera,0-18,2015,47
+Valjunquera,18-40,2015,64
+Valjunquera,40-65,2015,117
+Valjunquera,65-100,2015,130
+Valjunquera,0-18,2016,50
+Valjunquera,18-40,2016,68
+Valjunquera,40-65,2016,115
+Valjunquera,65-100,2016,130
+Valjunquera,0-18,2017,49
+Valjunquera,18-40,2017,61
+Valjunquera,40-65,2017,106
+Valjunquera,65-100,2017,125
+Valjunquera,0-18,2018,45
+Valjunquera,18-40,2018,56
+Valjunquera,40-65,2018,102
+Valjunquera,65-100,2018,122
+Valjunquera,0-18,2019,40
+Valjunquera,18-40,2019,62
+Valjunquera,40-65,2019,106
+Valjunquera,65-100,2019,122
+Valjunquera,0-18,2020,41
+Valjunquera,18-40,2020,65
+Valjunquera,40-65,2020,108
+Valjunquera,65-100,2020,124
+Vallecillo El,0-18,2015,1
+Vallecillo El,18-40,2015,10
+Vallecillo El,40-65,2015,29
+Vallecillo El,65-100,2015,20
+Vallecillo El,0-18,2016,1
+Vallecillo El,18-40,2016,9
+Vallecillo El,40-65,2016,27
+Vallecillo El,65-100,2016,22
+Vallecillo El,0-18,2017,1
+Vallecillo El,18-40,2017,6
+Vallecillo El,40-65,2017,20
+Vallecillo El,65-100,2017,22
+Vallecillo El,0-18,2018,1
+Vallecillo El,18-40,2018,6
+Vallecillo El,40-65,2018,18
+Vallecillo El,65-100,2018,23
+Vallecillo El,0-18,2019,1
+Vallecillo El,18-40,2019,4
+Vallecillo El,40-65,2019,18
+Vallecillo El,65-100,2019,24
+Vallecillo El,0-18,2020,1
+Vallecillo El,18-40,2020,6
+Vallecillo El,40-65,2020,16
+Vallecillo El,65-100,2020,21
+Veguillas de la Sierra,0-18,2015,0
+Veguillas de la Sierra,18-40,2015,3
+Veguillas de la Sierra,40-65,2015,8
+Veguillas de la Sierra,65-100,2015,11
+Veguillas de la Sierra,0-18,2016,0
+Veguillas de la Sierra,18-40,2016,1
+Veguillas de la Sierra,40-65,2016,8
+Veguillas de la Sierra,65-100,2016,10
+Veguillas de la Sierra,0-18,2017,0
+Veguillas de la Sierra,18-40,2017,1
+Veguillas de la Sierra,40-65,2017,8
+Veguillas de la Sierra,65-100,2017,10
+Veguillas de la Sierra,0-18,2018,0
+Veguillas de la Sierra,18-40,2018,1
+Veguillas de la Sierra,40-65,2018,9
+Veguillas de la Sierra,65-100,2018,10
+Veguillas de la Sierra,0-18,2019,0
+Veguillas de la Sierra,18-40,2019,1
+Veguillas de la Sierra,40-65,2019,10
+Veguillas de la Sierra,65-100,2019,8
+Veguillas de la Sierra,0-18,2020,0
+Veguillas de la Sierra,18-40,2020,1
+Veguillas de la Sierra,40-65,2020,12
+Veguillas de la Sierra,65-100,2020,8
+Villafranca del Campo,0-18,2015,35
+Villafranca del Campo,18-40,2015,65
+Villafranca del Campo,40-65,2015,91
+Villafranca del Campo,65-100,2015,108
+Villafranca del Campo,0-18,2016,34
+Villafranca del Campo,18-40,2016,69
+Villafranca del Campo,40-65,2016,87
+Villafranca del Campo,65-100,2016,110
+Villafranca del Campo,0-18,2017,33
+Villafranca del Campo,18-40,2017,60
+Villafranca del Campo,40-65,2017,90
+Villafranca del Campo,65-100,2017,106
+Villafranca del Campo,0-18,2018,37
+Villafranca del Campo,18-40,2018,64
+Villafranca del Campo,40-65,2018,91
+Villafranca del Campo,65-100,2018,105
+Villafranca del Campo,0-18,2019,38
+Villafranca del Campo,18-40,2019,66
+Villafranca del Campo,40-65,2019,92
+Villafranca del Campo,65-100,2019,102
+Villafranca del Campo,0-18,2020,34
+Villafranca del Campo,18-40,2020,59
+Villafranca del Campo,40-65,2020,91
+Villafranca del Campo,65-100,2020,101
+Villahermosa del Campo,0-18,2015,8
+Villahermosa del Campo,18-40,2015,27
+Villahermosa del Campo,40-65,2015,40
+Villahermosa del Campo,65-100,2015,28
+Villahermosa del Campo,0-18,2016,7
+Villahermosa del Campo,18-40,2016,22
+Villahermosa del Campo,40-65,2016,42
+Villahermosa del Campo,65-100,2016,28
+Villahermosa del Campo,0-18,2017,6
+Villahermosa del Campo,18-40,2017,22
+Villahermosa del Campo,40-65,2017,39
+Villahermosa del Campo,65-100,2017,27
+Villahermosa del Campo,0-18,2018,9
+Villahermosa del Campo,18-40,2018,18
+Villahermosa del Campo,40-65,2018,40
+Villahermosa del Campo,65-100,2018,27
+Villahermosa del Campo,0-18,2019,7
+Villahermosa del Campo,18-40,2019,18
+Villahermosa del Campo,40-65,2019,40
+Villahermosa del Campo,65-100,2019,24
+Villahermosa del Campo,0-18,2020,6
+Villahermosa del Campo,18-40,2020,17
+Villahermosa del Campo,40-65,2020,36
+Villahermosa del Campo,65-100,2020,24
+Villanueva del Rebollar de la Sierra,0-18,2015,11
+Villanueva del Rebollar de la Sierra,18-40,2015,7
+Villanueva del Rebollar de la Sierra,40-65,2015,16
+Villanueva del Rebollar de la Sierra,65-100,2015,17
+Villanueva del Rebollar de la Sierra,0-18,2016,10
+Villanueva del Rebollar de la Sierra,18-40,2016,7
+Villanueva del Rebollar de la Sierra,40-65,2016,15
+Villanueva del Rebollar de la Sierra,65-100,2016,17
+Villanueva del Rebollar de la Sierra,0-18,2017,6
+Villanueva del Rebollar de la Sierra,18-40,2017,5
+Villanueva del Rebollar de la Sierra,40-65,2017,15
+Villanueva del Rebollar de la Sierra,65-100,2017,17
+Villanueva del Rebollar de la Sierra,0-18,2018,7
+Villanueva del Rebollar de la Sierra,18-40,2018,7
+Villanueva del Rebollar de la Sierra,40-65,2018,15
+Villanueva del Rebollar de la Sierra,65-100,2018,18
+Villanueva del Rebollar de la Sierra,0-18,2019,6
+Villanueva del Rebollar de la Sierra,18-40,2019,2
+Villanueva del Rebollar de la Sierra,40-65,2019,15
+Villanueva del Rebollar de la Sierra,65-100,2019,16
+Villanueva del Rebollar de la Sierra,0-18,2020,6
+Villanueva del Rebollar de la Sierra,18-40,2020,3
+Villanueva del Rebollar de la Sierra,40-65,2020,14
+Villanueva del Rebollar de la Sierra,65-100,2020,19
+Villar del Cobo,0-18,2015,20
+Villar del Cobo,18-40,2015,32
+Villar del Cobo,40-65,2015,74
+Villar del Cobo,65-100,2015,63
+Villar del Cobo,0-18,2016,21
+Villar del Cobo,18-40,2016,33
+Villar del Cobo,40-65,2016,73
+Villar del Cobo,65-100,2016,61
+Villar del Cobo,0-18,2017,13
+Villar del Cobo,18-40,2017,33
+Villar del Cobo,40-65,2017,64
+Villar del Cobo,65-100,2017,65
+Villar del Cobo,0-18,2018,8
+Villar del Cobo,18-40,2018,30
+Villar del Cobo,40-65,2018,62
+Villar del Cobo,65-100,2018,64
+Villar del Cobo,0-18,2019,9
+Villar del Cobo,18-40,2019,29
+Villar del Cobo,40-65,2019,62
+Villar del Cobo,65-100,2019,64
+Villar del Cobo,0-18,2020,9
+Villar del Cobo,18-40,2020,29
+Villar del Cobo,40-65,2020,62
+Villar del Cobo,65-100,2020,60
+Villar del Salz,0-18,2015,2
+Villar del Salz,18-40,2015,13
+Villar del Salz,40-65,2015,26
+Villar del Salz,65-100,2015,33
+Villar del Salz,0-18,2016,3
+Villar del Salz,18-40,2016,12
+Villar del Salz,40-65,2016,25
+Villar del Salz,65-100,2016,30
+Villar del Salz,0-18,2017,2
+Villar del Salz,18-40,2017,10
+Villar del Salz,40-65,2017,20
+Villar del Salz,65-100,2017,27
+Villar del Salz,0-18,2018,2
+Villar del Salz,18-40,2018,11
+Villar del Salz,40-65,2018,20
+Villar del Salz,65-100,2018,27
+Villar del Salz,0-18,2019,2
+Villar del Salz,18-40,2019,12
+Villar del Salz,40-65,2019,18
+Villar del Salz,65-100,2019,23
+Villar del Salz,0-18,2020,4
+Villar del Salz,18-40,2020,15
+Villar del Salz,40-65,2020,20
+Villar del Salz,65-100,2020,22
+Villarluengo,0-18,2015,23
+Villarluengo,18-40,2015,50
+Villarluengo,40-65,2015,77
+Villarluengo,65-100,2015,39
+Villarluengo,0-18,2016,20
+Villarluengo,18-40,2016,47
+Villarluengo,40-65,2016,71
+Villarluengo,65-100,2016,38
+Villarluengo,0-18,2017,17
+Villarluengo,18-40,2017,46
+Villarluengo,40-65,2017,68
+Villarluengo,65-100,2017,38
+Villarluengo,0-18,2018,23
+Villarluengo,18-40,2018,46
+Villarluengo,40-65,2018,69
+Villarluengo,65-100,2018,39
+Villarluengo,0-18,2019,20
+Villarluengo,18-40,2019,42
+Villarluengo,40-65,2019,68
+Villarluengo,65-100,2019,40
+Villarluengo,0-18,2020,20
+Villarluengo,18-40,2020,40
+Villarluengo,40-65,2020,72
+Villarluengo,65-100,2020,39
+Villarquemado,0-18,2015,102
+Villarquemado,18-40,2015,227
+Villarquemado,40-65,2015,290
+Villarquemado,65-100,2015,250
+Villarquemado,0-18,2016,109
+Villarquemado,18-40,2016,218
+Villarquemado,40-65,2016,297
+Villarquemado,65-100,2016,239
+Villarquemado,0-18,2017,113
+Villarquemado,18-40,2017,220
+Villarquemado,40-65,2017,302
+Villarquemado,65-100,2017,240
+Villarquemado,0-18,2018,114
+Villarquemado,18-40,2018,214
+Villarquemado,40-65,2018,300
+Villarquemado,65-100,2018,234
+Villarquemado,0-18,2019,115
+Villarquemado,18-40,2019,206
+Villarquemado,40-65,2019,309
+Villarquemado,65-100,2019,233
+Villarquemado,0-18,2020,106
+Villarquemado,18-40,2020,194
+Villarquemado,40-65,2020,304
+Villarquemado,65-100,2020,237
+Villarroya de los Pinares,0-18,2015,26
+Villarroya de los Pinares,18-40,2015,29
+Villarroya de los Pinares,40-65,2015,60
+Villarroya de los Pinares,65-100,2015,48
+Villarroya de los Pinares,0-18,2016,24
+Villarroya de los Pinares,18-40,2016,30
+Villarroya de los Pinares,40-65,2016,60
+Villarroya de los Pinares,65-100,2016,46
+Villarroya de los Pinares,0-18,2017,22
+Villarroya de los Pinares,18-40,2017,29
+Villarroya de los Pinares,40-65,2017,60
+Villarroya de los Pinares,65-100,2017,44
+Villarroya de los Pinares,0-18,2018,22
+Villarroya de los Pinares,18-40,2018,34
+Villarroya de los Pinares,40-65,2018,59
+Villarroya de los Pinares,65-100,2018,45
+Villarroya de los Pinares,0-18,2019,23
+Villarroya de los Pinares,18-40,2019,39
+Villarroya de los Pinares,40-65,2019,66
+Villarroya de los Pinares,65-100,2019,44
+Villarroya de los Pinares,0-18,2020,25
+Villarroya de los Pinares,18-40,2020,39
+Villarroya de los Pinares,40-65,2020,60
+Villarroya de los Pinares,65-100,2020,37
+Villastar,0-18,2015,121
+Villastar,18-40,2015,156
+Villastar,40-65,2015,163
+Villastar,65-100,2015,86
+Villastar,0-18,2016,105
+Villastar,18-40,2016,149
+Villastar,40-65,2016,162
+Villastar,65-100,2016,87
+Villastar,0-18,2017,101
+Villastar,18-40,2017,151
+Villastar,40-65,2017,161
+Villastar,65-100,2017,88
+Villastar,0-18,2018,92
+Villastar,18-40,2018,155
+Villastar,40-65,2018,163
+Villastar,65-100,2018,84
+Villastar,0-18,2019,104
+Villastar,18-40,2019,147
+Villastar,40-65,2019,165
+Villastar,65-100,2019,89
+Villastar,0-18,2020,103
+Villastar,18-40,2020,147
+Villastar,40-65,2020,175
+Villastar,65-100,2020,82
+Villel,0-18,2015,43
+Villel,18-40,2015,104
+Villel,40-65,2015,106
+Villel,65-100,2015,89
+Villel,0-18,2016,45
+Villel,18-40,2016,104
+Villel,40-65,2016,105
+Villel,65-100,2016,84
+Villel,0-18,2017,42
+Villel,18-40,2017,96
+Villel,40-65,2017,105
+Villel,65-100,2017,87
+Villel,0-18,2018,41
+Villel,18-40,2018,97
+Villel,40-65,2018,105
+Villel,65-100,2018,84
+Villel,0-18,2019,45
+Villel,18-40,2019,89
+Villel,40-65,2019,106
+Villel,65-100,2019,89
+Villel,0-18,2020,46
+Villel,18-40,2020,84
+Villel,40-65,2020,119
+Villel,65-100,2020,84
+Vinaceite,0-18,2015,34
+Vinaceite,18-40,2015,65
+Vinaceite,40-65,2015,79
+Vinaceite,65-100,2015,84
+Vinaceite,0-18,2016,30
+Vinaceite,18-40,2016,69
+Vinaceite,40-65,2016,76
+Vinaceite,65-100,2016,87
+Vinaceite,0-18,2017,34
+Vinaceite,18-40,2017,69
+Vinaceite,40-65,2017,74
+Vinaceite,65-100,2017,85
+Vinaceite,0-18,2018,33
+Vinaceite,18-40,2018,62
+Vinaceite,40-65,2018,74
+Vinaceite,65-100,2018,80
+Vinaceite,0-18,2019,35
+Vinaceite,18-40,2019,59
+Vinaceite,40-65,2019,78
+Vinaceite,65-100,2019,79
+Vinaceite,0-18,2020,26
+Vinaceite,18-40,2020,51
+Vinaceite,40-65,2020,72
+Vinaceite,65-100,2020,82
+Visiedo,0-18,2015,7
+Visiedo,18-40,2015,18
+Visiedo,40-65,2015,39
+Visiedo,65-100,2015,69
+Visiedo,0-18,2016,12
+Visiedo,18-40,2016,19
+Visiedo,40-65,2016,35
+Visiedo,65-100,2016,72
+Visiedo,0-18,2017,16
+Visiedo,18-40,2017,15
+Visiedo,40-65,2017,37
+Visiedo,65-100,2017,67
+Visiedo,0-18,2018,12
+Visiedo,18-40,2018,13
+Visiedo,40-65,2018,34
+Visiedo,65-100,2018,66
+Visiedo,0-18,2019,10
+Visiedo,18-40,2019,15
+Visiedo,40-65,2019,34
+Visiedo,65-100,2019,60
+Visiedo,0-18,2020,15
+Visiedo,18-40,2020,18
+Visiedo,40-65,2020,35
+Visiedo,65-100,2020,63
+Vivel del Río Martín,0-18,2015,4
+Vivel del Río Martín,18-40,2015,15
+Vivel del Río Martín,40-65,2015,20
+Vivel del Río Martín,65-100,2015,44
+Vivel del Río Martín,0-18,2016,3
+Vivel del Río Martín,18-40,2016,15
+Vivel del Río Martín,40-65,2016,20
+Vivel del Río Martín,65-100,2016,40
+Vivel del Río Martín,0-18,2017,1
+Vivel del Río Martín,18-40,2017,12
+Vivel del Río Martín,40-65,2017,19
+Vivel del Río Martín,65-100,2017,39
+Vivel del Río Martín,0-18,2018,2
+Vivel del Río Martín,18-40,2018,22
+Vivel del Río Martín,40-65,2018,18
+Vivel del Río Martín,65-100,2018,37
+Vivel del Río Martín,0-18,2019,1
+Vivel del Río Martín,18-40,2019,16
+Vivel del Río Martín,40-65,2019,17
+Vivel del Río Martín,65-100,2019,39
+Vivel del Río Martín,0-18,2020,0
+Vivel del Río Martín,18-40,2020,14
+Vivel del Río Martín,40-65,2020,17
+Vivel del Río Martín,65-100,2020,41
+Zoma La,0-18,2015,0
+Zoma La,18-40,2015,1
+Zoma La,40-65,2015,8
+Zoma La,65-100,2015,9
+Zoma La,0-18,2016,0
+Zoma La,18-40,2016,0
+Zoma La,40-65,2016,7
+Zoma La,65-100,2016,9
+Zoma La,0-18,2017,0
+Zoma La,18-40,2017,2
+Zoma La,40-65,2017,7
+Zoma La,65-100,2017,9
+Zoma La,0-18,2018,0
+Zoma La,18-40,2018,0
+Zoma La,40-65,2018,8
+Zoma La,65-100,2018,8
+Zoma La,0-18,2019,0
+Zoma La,18-40,2019,8
+Zoma La,40-65,2019,15
+Zoma La,65-100,2019,10
+Zoma La,0-18,2020,0
+Zoma La,18-40,2020,7
+Zoma La,40-65,2020,15
+Zoma La,65-100,2020,10

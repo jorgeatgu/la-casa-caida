@@ -1,0 +1,5193 @@
+cp,city,age,year,total
+44001,Ababuj,19 años,2020,1
+44001,Ababuj,20 años,2020,0.0
+44001,Ababuj,21 años,2020,2
+44001,Ababuj,22 años,2020,1
+44001,Ababuj,23 años,2020,1
+44001,Ababuj,24 años,2020,1
+44001,Ababuj,25 años,2020,1
+44001,Ababuj,26 años,2020,0.0
+44001,Ababuj,27 años,2020,0.0
+44001,Ababuj,28 años,2020,0.0
+44001,Ababuj,29 años,2020,0.0
+44001,Ababuj,30 años,2020,0.0
+44001,Ababuj,31 años,2020,0.0
+44001,Ababuj,32 años,2020,0.0
+44001,Ababuj,33 años,2020,0.0
+44001,Ababuj,34 años,2020,2
+44001,Ababuj,35 años,2020,0.0
+44001,Ababuj,36 años,2020,0.0
+44001,Ababuj,37 años,2020,1
+44001,Ababuj,38 años,2020,1
+44001,Ababuj,39 años,2020,0.0
+44001,Ababuj,40 años,2020,2
+44002,Abejuela,19 años,2020,0.0
+44002,Abejuela,20 años,2020,0.0
+44002,Abejuela,21 años,2020,0.0
+44002,Abejuela,22 años,2020,0.0
+44002,Abejuela,23 años,2020,0.0
+44002,Abejuela,24 años,2020,0.0
+44002,Abejuela,25 años,2020,1
+44002,Abejuela,26 años,2020,0.0
+44002,Abejuela,27 años,2020,0.0
+44002,Abejuela,28 años,2020,0.0
+44002,Abejuela,29 años,2020,0.0
+44002,Abejuela,30 años,2020,0.0
+44002,Abejuela,31 años,2020,0.0
+44002,Abejuela,32 años,2020,0.0
+44002,Abejuela,33 años,2020,2
+44002,Abejuela,34 años,2020,0.0
+44002,Abejuela,35 años,2020,1
+44002,Abejuela,36 años,2020,0.0
+44002,Abejuela,37 años,2020,1
+44002,Abejuela,38 años,2020,0.0
+44002,Abejuela,39 años,2020,0.0
+44002,Abejuela,40 años,2020,1
+44003,Aguatón,19 años,2020,0.0
+44003,Aguatón,20 años,2020,0.0
+44003,Aguatón,21 años,2020,0.0
+44003,Aguatón,22 años,2020,0.0
+44003,Aguatón,23 años,2020,0.0
+44003,Aguatón,24 años,2020,0.0
+44003,Aguatón,25 años,2020,0.0
+44003,Aguatón,26 años,2020,0.0
+44003,Aguatón,27 años,2020,0.0
+44003,Aguatón,28 años,2020,0.0
+44003,Aguatón,29 años,2020,0.0
+44003,Aguatón,30 años,2020,0.0
+44003,Aguatón,31 años,2020,0.0
+44003,Aguatón,32 años,2020,0.0
+44003,Aguatón,33 años,2020,0.0
+44003,Aguatón,34 años,2020,0.0
+44003,Aguatón,35 años,2020,0.0
+44003,Aguatón,36 años,2020,1
+44003,Aguatón,37 años,2020,0.0
+44003,Aguatón,38 años,2020,0.0
+44003,Aguatón,39 años,2020,0.0
+44003,Aguatón,40 años,2020,1
+44004,Aguaviva,19 años,2020,5
+44004,Aguaviva,20 años,2020,4
+44004,Aguaviva,21 años,2020,6
+44004,Aguaviva,22 años,2020,6
+44004,Aguaviva,23 años,2020,7
+44004,Aguaviva,24 años,2020,4
+44004,Aguaviva,25 años,2020,2
+44004,Aguaviva,26 años,2020,5
+44004,Aguaviva,27 años,2020,6
+44004,Aguaviva,28 años,2020,4
+44004,Aguaviva,29 años,2020,6
+44004,Aguaviva,30 años,2020,8
+44004,Aguaviva,31 años,2020,6
+44004,Aguaviva,32 años,2020,10
+44004,Aguaviva,33 años,2020,4
+44004,Aguaviva,34 años,2020,5
+44004,Aguaviva,35 años,2020,3
+44004,Aguaviva,36 años,2020,6
+44004,Aguaviva,37 años,2020,6
+44004,Aguaviva,38 años,2020,6
+44004,Aguaviva,39 años,2020,10
+44004,Aguaviva,40 años,2020,5
+44005,Aguilar del Alfambra,19 años,2020,1
+44005,Aguilar del Alfambra,20 años,2020,1
+44005,Aguilar del Alfambra,21 años,2020,1
+44005,Aguilar del Alfambra,22 años,2020,1
+44005,Aguilar del Alfambra,23 años,2020,2
+44005,Aguilar del Alfambra,24 años,2020,0.0
+44005,Aguilar del Alfambra,25 años,2020,3
+44005,Aguilar del Alfambra,26 años,2020,1
+44005,Aguilar del Alfambra,27 años,2020,0.0
+44005,Aguilar del Alfambra,28 años,2020,2
+44005,Aguilar del Alfambra,29 años,2020,0.0
+44005,Aguilar del Alfambra,30 años,2020,0.0
+44005,Aguilar del Alfambra,31 años,2020,0.0
+44005,Aguilar del Alfambra,32 años,2020,0.0
+44005,Aguilar del Alfambra,33 años,2020,1
+44005,Aguilar del Alfambra,34 años,2020,0.0
+44005,Aguilar del Alfambra,35 años,2020,0.0
+44005,Aguilar del Alfambra,36 años,2020,0.0
+44005,Aguilar del Alfambra,37 años,2020,1
+44005,Aguilar del Alfambra,38 años,2020,1
+44005,Aguilar del Alfambra,39 años,2020,0.0
+44005,Aguilar del Alfambra,40 años,2020,1
+44006,Alacón,19 años,2020,1
+44006,Alacón,20 años,2020,1
+44006,Alacón,21 años,2020,2
+44006,Alacón,22 años,2020,0.0
+44006,Alacón,23 años,2020,2
+44006,Alacón,24 años,2020,4
+44006,Alacón,25 años,2020,1
+44006,Alacón,26 años,2020,2
+44006,Alacón,27 años,2020,1
+44006,Alacón,28 años,2020,1
+44006,Alacón,29 años,2020,4
+44006,Alacón,30 años,2020,1
+44006,Alacón,31 años,2020,3
+44006,Alacón,32 años,2020,2
+44006,Alacón,33 años,2020,2
+44006,Alacón,34 años,2020,1
+44006,Alacón,35 años,2020,1
+44006,Alacón,36 años,2020,4
+44006,Alacón,37 años,2020,0.0
+44006,Alacón,38 años,2020,2
+44006,Alacón,39 años,2020,1
+44006,Alacón,40 años,2020,0.0
+44007,Alba,19 años,2020,1
+44007,Alba,20 años,2020,1
+44007,Alba,21 años,2020,0.0
+44007,Alba,22 años,2020,2
+44007,Alba,23 años,2020,0.0
+44007,Alba,24 años,2020,3
+44007,Alba,25 años,2020,0.0
+44007,Alba,26 años,2020,0.0
+44007,Alba,27 años,2020,1
+44007,Alba,28 años,2020,0.0
+44007,Alba,29 años,2020,0.0
+44007,Alba,30 años,2020,0.0
+44007,Alba,31 años,2020,4
+44007,Alba,32 años,2020,1
+44007,Alba,33 años,2020,1
+44007,Alba,34 años,2020,4
+44007,Alba,35 años,2020,1
+44007,Alba,36 años,2020,1
+44007,Alba,37 años,2020,5
+44007,Alba,38 años,2020,1
+44007,Alba,39 años,2020,5
+44007,Alba,40 años,2020,2
+44008,Albalate del Arzobispo,19 años,2020,14
+44008,Albalate del Arzobispo,20 años,2020,16
+44008,Albalate del Arzobispo,21 años,2020,13
+44008,Albalate del Arzobispo,22 años,2020,24
+44008,Albalate del Arzobispo,23 años,2020,21
+44008,Albalate del Arzobispo,24 años,2020,16
+44008,Albalate del Arzobispo,25 años,2020,18
+44008,Albalate del Arzobispo,26 años,2020,24
+44008,Albalate del Arzobispo,27 años,2020,35
+44008,Albalate del Arzobispo,28 años,2020,19
+44008,Albalate del Arzobispo,29 años,2020,14
+44008,Albalate del Arzobispo,30 años,2020,25
+44008,Albalate del Arzobispo,31 años,2020,18
+44008,Albalate del Arzobispo,32 años,2020,24
+44008,Albalate del Arzobispo,33 años,2020,16
+44008,Albalate del Arzobispo,34 años,2020,20
+44008,Albalate del Arzobispo,35 años,2020,24
+44008,Albalate del Arzobispo,36 años,2020,21
+44008,Albalate del Arzobispo,37 años,2020,22
+44008,Albalate del Arzobispo,38 años,2020,24
+44008,Albalate del Arzobispo,39 años,2020,25
+44008,Albalate del Arzobispo,40 años,2020,18
+44009,Albarracín,19 años,2020,12
+44009,Albarracín,20 años,2020,10
+44009,Albarracín,21 años,2020,8
+44009,Albarracín,22 años,2020,7
+44009,Albarracín,23 años,2020,9
+44009,Albarracín,24 años,2020,10
+44009,Albarracín,25 años,2020,16
+44009,Albarracín,26 años,2020,8
+44009,Albarracín,27 años,2020,6
+44009,Albarracín,28 años,2020,14
+44009,Albarracín,29 años,2020,14
+44009,Albarracín,30 años,2020,18
+44009,Albarracín,31 años,2020,12
+44009,Albarracín,32 años,2020,9
+44009,Albarracín,33 años,2020,14
+44009,Albarracín,34 años,2020,15
+44009,Albarracín,35 años,2020,11
+44009,Albarracín,36 años,2020,13
+44009,Albarracín,37 años,2020,7
+44009,Albarracín,38 años,2020,21
+44009,Albarracín,39 años,2020,13
+44009,Albarracín,40 años,2020,13
+44010,Albentosa,19 años,2020,8
+44010,Albentosa,20 años,2020,3
+44010,Albentosa,21 años,2020,1
+44010,Albentosa,22 años,2020,2
+44010,Albentosa,23 años,2020,5
+44010,Albentosa,24 años,2020,2
+44010,Albentosa,25 años,2020,1
+44010,Albentosa,26 años,2020,3
+44010,Albentosa,27 años,2020,6
+44010,Albentosa,28 años,2020,4
+44010,Albentosa,29 años,2020,4
+44010,Albentosa,30 años,2020,2
+44010,Albentosa,31 años,2020,4
+44010,Albentosa,32 años,2020,1
+44010,Albentosa,33 años,2020,3
+44010,Albentosa,34 años,2020,4
+44010,Albentosa,35 años,2020,3
+44010,Albentosa,36 años,2020,4
+44010,Albentosa,37 años,2020,2
+44010,Albentosa,38 años,2020,4
+44010,Albentosa,39 años,2020,3
+44010,Albentosa,40 años,2020,4
+44011,Alcaine,19 años,2020,0.0
+44011,Alcaine,20 años,2020,0.0
+44011,Alcaine,21 años,2020,0.0
+44011,Alcaine,22 años,2020,0.0
+44011,Alcaine,23 años,2020,1
+44011,Alcaine,24 años,2020,0.0
+44011,Alcaine,25 años,2020,0.0
+44011,Alcaine,26 años,2020,0.0
+44011,Alcaine,27 años,2020,0.0
+44011,Alcaine,28 años,2020,0.0
+44011,Alcaine,29 años,2020,0.0
+44011,Alcaine,30 años,2020,0.0
+44011,Alcaine,31 años,2020,0.0
+44011,Alcaine,32 años,2020,1
+44011,Alcaine,33 años,2020,1
+44011,Alcaine,34 años,2020,1
+44011,Alcaine,35 años,2020,0.0
+44011,Alcaine,36 años,2020,1
+44011,Alcaine,37 años,2020,0.0
+44011,Alcaine,38 años,2020,0.0
+44011,Alcaine,39 años,2020,0.0
+44011,Alcaine,40 años,2020,0.0
+44012,Alcalá de la Selva,19 años,2020,1
+44012,Alcalá de la Selva,20 años,2020,4
+44012,Alcalá de la Selva,21 años,2020,0.0
+44012,Alcalá de la Selva,22 años,2020,1
+44012,Alcalá de la Selva,23 años,2020,3
+44012,Alcalá de la Selva,24 años,2020,4
+44012,Alcalá de la Selva,25 años,2020,6
+44012,Alcalá de la Selva,26 años,2020,1
+44012,Alcalá de la Selva,27 años,2020,2
+44012,Alcalá de la Selva,28 años,2020,3
+44012,Alcalá de la Selva,29 años,2020,8
+44012,Alcalá de la Selva,30 años,2020,7
+44012,Alcalá de la Selva,31 años,2020,5
+44012,Alcalá de la Selva,32 años,2020,0.0
+44012,Alcalá de la Selva,33 años,2020,5
+44012,Alcalá de la Selva,34 años,2020,1
+44012,Alcalá de la Selva,35 años,2020,2
+44012,Alcalá de la Selva,36 años,2020,8
+44012,Alcalá de la Selva,37 años,2020,2
+44012,Alcalá de la Selva,38 años,2020,3
+44012,Alcalá de la Selva,39 años,2020,3
+44012,Alcalá de la Selva,40 años,2020,5
+44013,Alcañiz,19 años,2020,169
+44013,Alcañiz,20 años,2020,160
+44013,Alcañiz,21 años,2020,179
+44013,Alcañiz,22 años,2020,170
+44013,Alcañiz,23 años,2020,148
+44013,Alcañiz,24 años,2020,126
+44013,Alcañiz,25 años,2020,156
+44013,Alcañiz,26 años,2020,151
+44013,Alcañiz,27 años,2020,156
+44013,Alcañiz,28 años,2020,150
+44013,Alcañiz,29 años,2020,165
+44013,Alcañiz,30 años,2020,152
+44013,Alcañiz,31 años,2020,176
+44013,Alcañiz,32 años,2020,171
+44013,Alcañiz,33 años,2020,199
+44013,Alcañiz,34 años,2020,175
+44013,Alcañiz,35 años,2020,185
+44013,Alcañiz,36 años,2020,170
+44013,Alcañiz,37 años,2020,194
+44013,Alcañiz,38 años,2020,246
+44013,Alcañiz,39 años,2020,259
+44013,Alcañiz,40 años,2020,269
+44014,Alcorisa,19 años,2020,28
+44014,Alcorisa,20 años,2020,39
+44014,Alcorisa,21 años,2020,30
+44014,Alcorisa,22 años,2020,32
+44014,Alcorisa,23 años,2020,38
+44014,Alcorisa,24 años,2020,28
+44014,Alcorisa,25 años,2020,35
+44014,Alcorisa,26 años,2020,35
+44014,Alcorisa,27 años,2020,32
+44014,Alcorisa,28 años,2020,28
+44014,Alcorisa,29 años,2020,31
+44014,Alcorisa,30 años,2020,38
+44014,Alcorisa,31 años,2020,48
+44014,Alcorisa,32 años,2020,35
+44014,Alcorisa,33 años,2020,39
+44014,Alcorisa,34 años,2020,45
+44014,Alcorisa,35 años,2020,35
+44014,Alcorisa,36 años,2020,44
+44014,Alcorisa,37 años,2020,38
+44014,Alcorisa,38 años,2020,44
+44014,Alcorisa,39 años,2020,42
+44014,Alcorisa,40 años,2020,33
+44016,Alfambra,19 años,2020,6
+44016,Alfambra,20 años,2020,3
+44016,Alfambra,21 años,2020,2
+44016,Alfambra,22 años,2020,5
+44016,Alfambra,23 años,2020,5
+44016,Alfambra,24 años,2020,5
+44016,Alfambra,25 años,2020,6
+44016,Alfambra,26 años,2020,4
+44016,Alfambra,27 años,2020,3
+44016,Alfambra,28 años,2020,7
+44016,Alfambra,29 años,2020,5
+44016,Alfambra,30 años,2020,2
+44016,Alfambra,31 años,2020,2
+44016,Alfambra,32 años,2020,2
+44016,Alfambra,33 años,2020,3
+44016,Alfambra,34 años,2020,3
+44016,Alfambra,35 años,2020,8
+44016,Alfambra,36 años,2020,1
+44016,Alfambra,37 años,2020,4
+44016,Alfambra,38 años,2020,4
+44016,Alfambra,39 años,2020,4
+44016,Alfambra,40 años,2020,4
+44017,Aliaga,19 años,2020,2
+44017,Aliaga,20 años,2020,2
+44017,Aliaga,21 años,2020,1
+44017,Aliaga,22 años,2020,0.0
+44017,Aliaga,23 años,2020,1
+44017,Aliaga,24 años,2020,6
+44017,Aliaga,25 años,2020,2
+44017,Aliaga,26 años,2020,0.0
+44017,Aliaga,27 años,2020,1
+44017,Aliaga,28 años,2020,3
+44017,Aliaga,29 años,2020,6
+44017,Aliaga,30 años,2020,2
+44017,Aliaga,31 años,2020,2
+44017,Aliaga,32 años,2020,4
+44017,Aliaga,33 años,2020,6
+44017,Aliaga,34 años,2020,0.0
+44017,Aliaga,35 años,2020,4
+44017,Aliaga,36 años,2020,3
+44017,Aliaga,37 años,2020,6
+44017,Aliaga,38 años,2020,2
+44017,Aliaga,39 años,2020,6
+44017,Aliaga,40 años,2020,3
+44018,Almohaja,19 años,2020,0.0
+44018,Almohaja,20 años,2020,0.0
+44018,Almohaja,21 años,2020,0.0
+44018,Almohaja,22 años,2020,0.0
+44018,Almohaja,23 años,2020,0.0
+44018,Almohaja,24 años,2020,0.0
+44018,Almohaja,25 años,2020,0.0
+44018,Almohaja,26 años,2020,0.0
+44018,Almohaja,27 años,2020,0.0
+44018,Almohaja,28 años,2020,0.0
+44018,Almohaja,29 años,2020,0.0
+44018,Almohaja,30 años,2020,0.0
+44018,Almohaja,31 años,2020,0.0
+44018,Almohaja,32 años,2020,0.0
+44018,Almohaja,33 años,2020,0.0
+44018,Almohaja,34 años,2020,0.0
+44018,Almohaja,35 años,2020,0.0
+44018,Almohaja,36 años,2020,1
+44018,Almohaja,37 años,2020,0.0
+44018,Almohaja,38 años,2020,0.0
+44018,Almohaja,39 años,2020,0.0
+44018,Almohaja,40 años,2020,0.0
+44019,Alobras,19 años,2020,1
+44019,Alobras,20 años,2020,0.0
+44019,Alobras,21 años,2020,1
+44019,Alobras,22 años,2020,0.0
+44019,Alobras,23 años,2020,0.0
+44019,Alobras,24 años,2020,1
+44019,Alobras,25 años,2020,0.0
+44019,Alobras,26 años,2020,1
+44019,Alobras,27 años,2020,1
+44019,Alobras,28 años,2020,1
+44019,Alobras,29 años,2020,2
+44019,Alobras,30 años,2020,0.0
+44019,Alobras,31 años,2020,1
+44019,Alobras,32 años,2020,0.0
+44019,Alobras,33 años,2020,1
+44019,Alobras,34 años,2020,1
+44019,Alobras,35 años,2020,1
+44019,Alobras,36 años,2020,1
+44019,Alobras,37 años,2020,0.0
+44019,Alobras,38 años,2020,0.0
+44019,Alobras,39 años,2020,0.0
+44019,Alobras,40 años,2020,1
+44020,Alpeñés,19 años,2020,0.0
+44020,Alpeñés,20 años,2020,0.0
+44020,Alpeñés,21 años,2020,0.0
+44020,Alpeñés,22 años,2020,0.0
+44020,Alpeñés,23 años,2020,0.0
+44020,Alpeñés,24 años,2020,0.0
+44020,Alpeñés,25 años,2020,1
+44020,Alpeñés,26 años,2020,0.0
+44020,Alpeñés,27 años,2020,0.0
+44020,Alpeñés,28 años,2020,1
+44020,Alpeñés,29 años,2020,0.0
+44020,Alpeñés,30 años,2020,1
+44020,Alpeñés,31 años,2020,0.0
+44020,Alpeñés,32 años,2020,0.0
+44020,Alpeñés,33 años,2020,0.0
+44020,Alpeñés,34 años,2020,0.0
+44020,Alpeñés,35 años,2020,0.0
+44020,Alpeñés,36 años,2020,0.0
+44020,Alpeñés,37 años,2020,0.0
+44020,Alpeñés,38 años,2020,1
+44020,Alpeñés,39 años,2020,0.0
+44020,Alpeñés,40 años,2020,0.0
+44021,Allepuz,19 años,2020,1
+44021,Allepuz,20 años,2020,2
+44021,Allepuz,21 años,2020,0.0
+44021,Allepuz,22 años,2020,0.0
+44021,Allepuz,23 años,2020,1
+44021,Allepuz,24 años,2020,0.0
+44021,Allepuz,25 años,2020,0.0
+44021,Allepuz,26 años,2020,1
+44021,Allepuz,27 años,2020,1
+44021,Allepuz,28 años,2020,1
+44021,Allepuz,29 años,2020,2
+44021,Allepuz,30 años,2020,2
+44021,Allepuz,31 años,2020,1
+44021,Allepuz,32 años,2020,0.0
+44021,Allepuz,33 años,2020,1
+44021,Allepuz,34 años,2020,1
+44021,Allepuz,35 años,2020,1
+44021,Allepuz,36 años,2020,0.0
+44021,Allepuz,37 años,2020,4
+44021,Allepuz,38 años,2020,0.0
+44021,Allepuz,39 años,2020,1
+44021,Allepuz,40 años,2020,2
+44022,Alloza,19 años,2020,4
+44022,Alloza,20 años,2020,4
+44022,Alloza,21 años,2020,1
+44022,Alloza,22 años,2020,0.0
+44022,Alloza,23 años,2020,6
+44022,Alloza,24 años,2020,2
+44022,Alloza,25 años,2020,3
+44022,Alloza,26 años,2020,7
+44022,Alloza,27 años,2020,4
+44022,Alloza,28 años,2020,5
+44022,Alloza,29 años,2020,7
+44022,Alloza,30 años,2020,6
+44022,Alloza,31 años,2020,5
+44022,Alloza,32 años,2020,8
+44022,Alloza,33 años,2020,5
+44022,Alloza,34 años,2020,9
+44022,Alloza,35 años,2020,8
+44022,Alloza,36 años,2020,5
+44022,Alloza,37 años,2020,5
+44022,Alloza,38 años,2020,5
+44022,Alloza,39 años,2020,6
+44022,Alloza,40 años,2020,8
+44023,Allueva,19 años,2020,0.0
+44023,Allueva,20 años,2020,0.0
+44023,Allueva,21 años,2020,0.0
+44023,Allueva,22 años,2020,0.0
+44023,Allueva,23 años,2020,0.0
+44023,Allueva,24 años,2020,1
+44023,Allueva,25 años,2020,0.0
+44023,Allueva,26 años,2020,0.0
+44023,Allueva,27 años,2020,0.0
+44023,Allueva,28 años,2020,0.0
+44023,Allueva,29 años,2020,0.0
+44023,Allueva,30 años,2020,0.0
+44023,Allueva,31 años,2020,0.0
+44023,Allueva,32 años,2020,1
+44023,Allueva,33 años,2020,0.0
+44023,Allueva,34 años,2020,0.0
+44023,Allueva,35 años,2020,0.0
+44023,Allueva,36 años,2020,0.0
+44023,Allueva,37 años,2020,0.0
+44023,Allueva,38 años,2020,0.0
+44023,Allueva,39 años,2020,1
+44023,Allueva,40 años,2020,1
+44024,Anadón,19 años,2020,1
+44024,Anadón,20 años,2020,0.0
+44024,Anadón,21 años,2020,0.0
+44024,Anadón,22 años,2020,0.0
+44024,Anadón,23 años,2020,0.0
+44024,Anadón,24 años,2020,1
+44024,Anadón,25 años,2020,0.0
+44024,Anadón,26 años,2020,1
+44024,Anadón,27 años,2020,0.0
+44024,Anadón,28 años,2020,0.0
+44024,Anadón,29 años,2020,1
+44024,Anadón,30 años,2020,0.0
+44024,Anadón,31 años,2020,0.0
+44024,Anadón,32 años,2020,1
+44024,Anadón,33 años,2020,1
+44024,Anadón,34 años,2020,0.0
+44024,Anadón,35 años,2020,0.0
+44024,Anadón,36 años,2020,0.0
+44024,Anadón,37 años,2020,1
+44024,Anadón,38 años,2020,0.0
+44024,Anadón,39 años,2020,0.0
+44024,Anadón,40 años,2020,1
+44025,Andorra,19 años,2020,79
+44025,Andorra,20 años,2020,67
+44025,Andorra,21 años,2020,68
+44025,Andorra,22 años,2020,86
+44025,Andorra,23 años,2020,73
+44025,Andorra,24 años,2020,64
+44025,Andorra,25 años,2020,72
+44025,Andorra,26 años,2020,83
+44025,Andorra,27 años,2020,55
+44025,Andorra,28 años,2020,81
+44025,Andorra,29 años,2020,77
+44025,Andorra,30 años,2020,64
+44025,Andorra,31 años,2020,93
+44025,Andorra,32 años,2020,84
+44025,Andorra,33 años,2020,81
+44025,Andorra,34 años,2020,81
+44025,Andorra,35 años,2020,91
+44025,Andorra,36 años,2020,100
+44025,Andorra,37 años,2020,105
+44025,Andorra,38 años,2020,91
+44025,Andorra,39 años,2020,117
+44025,Andorra,40 años,2020,108
+44026,Arcos de las Salinas,19 años,2020,1
+44026,Arcos de las Salinas,20 años,2020,0.0
+44026,Arcos de las Salinas,21 años,2020,2
+44026,Arcos de las Salinas,22 años,2020,0.0
+44026,Arcos de las Salinas,23 años,2020,0.0
+44026,Arcos de las Salinas,24 años,2020,2
+44026,Arcos de las Salinas,25 años,2020,3
+44026,Arcos de las Salinas,26 años,2020,0.0
+44026,Arcos de las Salinas,27 años,2020,0.0
+44026,Arcos de las Salinas,28 años,2020,1
+44026,Arcos de las Salinas,29 años,2020,2
+44026,Arcos de las Salinas,30 años,2020,2
+44026,Arcos de las Salinas,31 años,2020,4
+44026,Arcos de las Salinas,32 años,2020,1
+44026,Arcos de las Salinas,33 años,2020,0.0
+44026,Arcos de las Salinas,34 años,2020,2
+44026,Arcos de las Salinas,35 años,2020,1
+44026,Arcos de las Salinas,36 años,2020,2
+44026,Arcos de las Salinas,37 años,2020,1
+44026,Arcos de las Salinas,38 años,2020,2
+44026,Arcos de las Salinas,39 años,2020,2
+44026,Arcos de las Salinas,40 años,2020,1
+44027,Arens de Lledó,19 años,2020,1
+44027,Arens de Lledó,20 años,2020,0.0
+44027,Arens de Lledó,21 años,2020,4
+44027,Arens de Lledó,22 años,2020,2
+44027,Arens de Lledó,23 años,2020,2
+44027,Arens de Lledó,24 años,2020,0.0
+44027,Arens de Lledó,25 años,2020,2
+44027,Arens de Lledó,26 años,2020,1
+44027,Arens de Lledó,27 años,2020,2
+44027,Arens de Lledó,28 años,2020,1
+44027,Arens de Lledó,29 años,2020,2
+44027,Arens de Lledó,30 años,2020,1
+44027,Arens de Lledó,31 años,2020,0.0
+44027,Arens de Lledó,32 años,2020,0.0
+44027,Arens de Lledó,33 años,2020,0.0
+44027,Arens de Lledó,34 años,2020,3
+44027,Arens de Lledó,35 años,2020,0.0
+44027,Arens de Lledó,36 años,2020,2
+44027,Arens de Lledó,37 años,2020,1
+44027,Arens de Lledó,38 años,2020,2
+44027,Arens de Lledó,39 años,2020,0.0
+44027,Arens de Lledó,40 años,2020,2
+44028,Argente,19 años,2020,2
+44028,Argente,20 años,2020,0.0
+44028,Argente,21 años,2020,1
+44028,Argente,22 años,2020,3
+44028,Argente,23 años,2020,0.0
+44028,Argente,24 años,2020,2
+44028,Argente,25 años,2020,0.0
+44028,Argente,26 años,2020,1
+44028,Argente,27 años,2020,2
+44028,Argente,28 años,2020,1
+44028,Argente,29 años,2020,0.0
+44028,Argente,30 años,2020,1
+44028,Argente,31 años,2020,3
+44028,Argente,32 años,2020,1
+44028,Argente,33 años,2020,1
+44028,Argente,34 años,2020,3
+44028,Argente,35 años,2020,1
+44028,Argente,36 años,2020,3
+44028,Argente,37 años,2020,1
+44028,Argente,38 años,2020,2
+44028,Argente,39 años,2020,0.0
+44028,Argente,40 años,2020,4
+44029,Ariño,19 años,2020,6
+44029,Ariño,20 años,2020,4
+44029,Ariño,21 años,2020,8
+44029,Ariño,22 años,2020,8
+44029,Ariño,23 años,2020,8
+44029,Ariño,24 años,2020,4
+44029,Ariño,25 años,2020,8
+44029,Ariño,26 años,2020,13
+44029,Ariño,27 años,2020,4
+44029,Ariño,28 años,2020,6
+44029,Ariño,29 años,2020,8
+44029,Ariño,30 años,2020,8
+44029,Ariño,31 años,2020,8
+44029,Ariño,32 años,2020,6
+44029,Ariño,33 años,2020,7
+44029,Ariño,34 años,2020,12
+44029,Ariño,35 años,2020,5
+44029,Ariño,36 años,2020,5
+44029,Ariño,37 años,2020,9
+44029,Ariño,38 años,2020,6
+44029,Ariño,39 años,2020,10
+44029,Ariño,40 años,2020,10
+44031,Azaila,19 años,2020,0.0
+44031,Azaila,20 años,2020,1
+44031,Azaila,21 años,2020,1
+44031,Azaila,22 años,2020,0.0
+44031,Azaila,23 años,2020,1
+44031,Azaila,24 años,2020,1
+44031,Azaila,25 años,2020,1
+44031,Azaila,26 años,2020,2
+44031,Azaila,27 años,2020,1
+44031,Azaila,28 años,2020,1
+44031,Azaila,29 años,2020,0.0
+44031,Azaila,30 años,2020,2
+44031,Azaila,31 años,2020,0.0
+44031,Azaila,32 años,2020,0.0
+44031,Azaila,33 años,2020,1
+44031,Azaila,34 años,2020,0.0
+44031,Azaila,35 años,2020,0.0
+44031,Azaila,36 años,2020,1
+44031,Azaila,37 años,2020,0.0
+44031,Azaila,38 años,2020,0.0
+44031,Azaila,39 años,2020,1
+44031,Azaila,40 años,2020,0.0
+44032,Bádenas,19 años,2020,0.0
+44032,Bádenas,20 años,2020,0.0
+44032,Bádenas,21 años,2020,0.0
+44032,Bádenas,22 años,2020,0.0
+44032,Bádenas,23 años,2020,0.0
+44032,Bádenas,24 años,2020,0.0
+44032,Bádenas,25 años,2020,0.0
+44032,Bádenas,26 años,2020,0.0
+44032,Bádenas,27 años,2020,1
+44032,Bádenas,28 años,2020,0.0
+44032,Bádenas,29 años,2020,0.0
+44032,Bádenas,30 años,2020,0.0
+44032,Bádenas,31 años,2020,0.0
+44032,Bádenas,32 años,2020,0.0
+44032,Bádenas,33 años,2020,0.0
+44032,Bádenas,34 años,2020,0.0
+44032,Bádenas,35 años,2020,0.0
+44032,Bádenas,36 años,2020,0.0
+44032,Bádenas,37 años,2020,1
+44032,Bádenas,38 años,2020,0.0
+44032,Bádenas,39 años,2020,0.0
+44032,Bádenas,40 años,2020,0.0
+44033,Báguena,19 años,2020,0.0
+44033,Báguena,20 años,2020,0.0
+44033,Báguena,21 años,2020,1
+44033,Báguena,22 años,2020,1
+44033,Báguena,23 años,2020,3
+44033,Báguena,24 años,2020,2
+44033,Báguena,25 años,2020,1
+44033,Báguena,26 años,2020,2
+44033,Báguena,27 años,2020,1
+44033,Báguena,28 años,2020,0.0
+44033,Báguena,29 años,2020,2
+44033,Báguena,30 años,2020,5
+44033,Báguena,31 años,2020,2
+44033,Báguena,32 años,2020,3
+44033,Báguena,33 años,2020,2
+44033,Báguena,34 años,2020,6
+44033,Báguena,35 años,2020,3
+44033,Báguena,36 años,2020,0.0
+44033,Báguena,37 años,2020,1
+44033,Báguena,38 años,2020,2
+44033,Báguena,39 años,2020,3
+44033,Báguena,40 años,2020,5
+44034,Bañón,19 años,2020,1
+44034,Bañón,20 años,2020,0.0
+44034,Bañón,21 años,2020,1
+44034,Bañón,22 años,2020,0.0
+44034,Bañón,23 años,2020,2
+44034,Bañón,24 años,2020,0.0
+44034,Bañón,25 años,2020,1
+44034,Bañón,26 años,2020,0.0
+44034,Bañón,27 años,2020,0.0
+44034,Bañón,28 años,2020,0.0
+44034,Bañón,29 años,2020,0.0
+44034,Bañón,30 años,2020,2
+44034,Bañón,31 años,2020,1
+44034,Bañón,32 años,2020,0.0
+44034,Bañón,33 años,2020,1
+44034,Bañón,34 años,2020,0.0
+44034,Bañón,35 años,2020,1
+44034,Bañón,36 años,2020,0.0
+44034,Bañón,37 años,2020,1
+44034,Bañón,38 años,2020,2
+44034,Bañón,39 años,2020,1
+44034,Bañón,40 años,2020,1
+44035,Barrachina,19 años,2020,1
+44035,Barrachina,20 años,2020,0.0
+44035,Barrachina,21 años,2020,1
+44035,Barrachina,22 años,2020,0.0
+44035,Barrachina,23 años,2020,4
+44035,Barrachina,24 años,2020,0.0
+44035,Barrachina,25 años,2020,0.0
+44035,Barrachina,26 años,2020,4
+44035,Barrachina,27 años,2020,2
+44035,Barrachina,28 años,2020,1
+44035,Barrachina,29 años,2020,0.0
+44035,Barrachina,30 años,2020,1
+44035,Barrachina,31 años,2020,0.0
+44035,Barrachina,32 años,2020,3
+44035,Barrachina,33 años,2020,1
+44035,Barrachina,34 años,2020,0.0
+44035,Barrachina,35 años,2020,1
+44035,Barrachina,36 años,2020,2
+44035,Barrachina,37 años,2020,1
+44035,Barrachina,38 años,2020,1
+44035,Barrachina,39 años,2020,0.0
+44035,Barrachina,40 años,2020,1
+44036,Bea,19 años,2020,0.0
+44036,Bea,20 años,2020,0.0
+44036,Bea,21 años,2020,0.0
+44036,Bea,22 años,2020,1
+44036,Bea,23 años,2020,0.0
+44036,Bea,24 años,2020,0.0
+44036,Bea,25 años,2020,0.0
+44036,Bea,26 años,2020,0.0
+44036,Bea,27 años,2020,0.0
+44036,Bea,28 años,2020,0.0
+44036,Bea,29 años,2020,0.0
+44036,Bea,30 años,2020,0.0
+44036,Bea,31 años,2020,0.0
+44036,Bea,32 años,2020,1
+44036,Bea,33 años,2020,0.0
+44036,Bea,34 años,2020,0.0
+44036,Bea,35 años,2020,0.0
+44036,Bea,36 años,2020,0.0
+44036,Bea,37 años,2020,0.0
+44036,Bea,38 años,2020,0.0
+44036,Bea,39 años,2020,0.0
+44036,Bea,40 años,2020,1
+44037,Beceite,19 años,2020,2
+44037,Beceite,20 años,2020,5
+44037,Beceite,21 años,2020,3
+44037,Beceite,22 años,2020,1
+44037,Beceite,23 años,2020,9
+44037,Beceite,24 años,2020,7
+44037,Beceite,25 años,2020,5
+44037,Beceite,26 años,2020,7
+44037,Beceite,27 años,2020,5
+44037,Beceite,28 años,2020,4
+44037,Beceite,29 años,2020,4
+44037,Beceite,30 años,2020,3
+44037,Beceite,31 años,2020,3
+44037,Beceite,32 años,2020,3
+44037,Beceite,33 años,2020,1
+44037,Beceite,34 años,2020,5
+44037,Beceite,35 años,2020,3
+44037,Beceite,36 años,2020,4
+44037,Beceite,37 años,2020,4
+44037,Beceite,38 años,2020,3
+44037,Beceite,39 años,2020,8
+44037,Beceite,40 años,2020,6
+44038,Belmonte de San José,19 años,2020,1
+44038,Belmonte de San José,20 años,2020,1
+44038,Belmonte de San José,21 años,2020,1
+44038,Belmonte de San José,22 años,2020,1
+44038,Belmonte de San José,23 años,2020,1
+44038,Belmonte de San José,24 años,2020,1
+44038,Belmonte de San José,25 años,2020,1
+44038,Belmonte de San José,26 años,2020,0.0
+44038,Belmonte de San José,27 años,2020,0.0
+44038,Belmonte de San José,28 años,2020,2
+44038,Belmonte de San José,29 años,2020,0.0
+44038,Belmonte de San José,30 años,2020,1
+44038,Belmonte de San José,31 años,2020,0.0
+44038,Belmonte de San José,32 años,2020,0.0
+44038,Belmonte de San José,33 años,2020,1
+44038,Belmonte de San José,34 años,2020,1
+44038,Belmonte de San José,35 años,2020,0.0
+44038,Belmonte de San José,36 años,2020,1
+44038,Belmonte de San José,37 años,2020,0.0
+44038,Belmonte de San José,38 años,2020,0.0
+44038,Belmonte de San José,39 años,2020,1
+44038,Belmonte de San José,40 años,2020,2
+44039,Bello,19 años,2020,0.0
+44039,Bello,20 años,2020,1
+44039,Bello,21 años,2020,1
+44039,Bello,22 años,2020,2
+44039,Bello,23 años,2020,0.0
+44039,Bello,24 años,2020,1
+44039,Bello,25 años,2020,0.0
+44039,Bello,26 años,2020,1
+44039,Bello,27 años,2020,0.0
+44039,Bello,28 años,2020,3
+44039,Bello,29 años,2020,1
+44039,Bello,30 años,2020,3
+44039,Bello,31 años,2020,1
+44039,Bello,32 años,2020,2
+44039,Bello,33 años,2020,1
+44039,Bello,34 años,2020,0.0
+44039,Bello,35 años,2020,2
+44039,Bello,36 años,2020,1
+44039,Bello,37 años,2020,3
+44039,Bello,38 años,2020,3
+44039,Bello,39 años,2020,2
+44039,Bello,40 años,2020,2
+44040,Berge,19 años,2020,2
+44040,Berge,20 años,2020,4
+44040,Berge,21 años,2020,2
+44040,Berge,22 años,2020,3
+44040,Berge,23 años,2020,0.0
+44040,Berge,24 años,2020,3
+44040,Berge,25 años,2020,2
+44040,Berge,26 años,2020,3
+44040,Berge,27 años,2020,1
+44040,Berge,28 años,2020,0.0
+44040,Berge,29 años,2020,4
+44040,Berge,30 años,2020,2
+44040,Berge,31 años,2020,2
+44040,Berge,32 años,2020,4
+44040,Berge,33 años,2020,1
+44040,Berge,34 años,2020,1
+44040,Berge,35 años,2020,2
+44040,Berge,36 años,2020,4
+44040,Berge,37 años,2020,2
+44040,Berge,38 años,2020,4
+44040,Berge,39 años,2020,5
+44040,Berge,40 años,2020,5
+44041,Bezas,19 años,2020,0.0
+44041,Bezas,20 años,2020,1
+44041,Bezas,21 años,2020,0.0
+44041,Bezas,22 años,2020,0.0
+44041,Bezas,23 años,2020,1
+44041,Bezas,24 años,2020,0.0
+44041,Bezas,25 años,2020,0.0
+44041,Bezas,26 años,2020,0.0
+44041,Bezas,27 años,2020,0.0
+44041,Bezas,28 años,2020,0.0
+44041,Bezas,29 años,2020,3
+44041,Bezas,30 años,2020,2
+44041,Bezas,31 años,2020,2
+44041,Bezas,32 años,2020,0.0
+44041,Bezas,33 años,2020,0.0
+44041,Bezas,34 años,2020,5
+44041,Bezas,35 años,2020,0.0
+44041,Bezas,36 años,2020,0.0
+44041,Bezas,37 años,2020,1
+44041,Bezas,38 años,2020,1
+44041,Bezas,39 años,2020,2
+44041,Bezas,40 años,2020,1
+44042,Blancas,19 años,2020,1
+44042,Blancas,20 años,2020,1
+44042,Blancas,21 años,2020,0.0
+44042,Blancas,22 años,2020,2
+44042,Blancas,23 años,2020,0.0
+44042,Blancas,24 años,2020,3
+44042,Blancas,25 años,2020,1
+44042,Blancas,26 años,2020,1
+44042,Blancas,27 años,2020,2
+44042,Blancas,28 años,2020,1
+44042,Blancas,29 años,2020,2
+44042,Blancas,30 años,2020,1
+44042,Blancas,31 años,2020,1
+44042,Blancas,32 años,2020,1
+44042,Blancas,33 años,2020,1
+44042,Blancas,34 años,2020,1
+44042,Blancas,35 años,2020,1
+44042,Blancas,36 años,2020,0.0
+44042,Blancas,37 años,2020,1
+44042,Blancas,38 años,2020,1
+44042,Blancas,39 años,2020,0.0
+44042,Blancas,40 años,2020,1
+44043,Blesa,19 años,2020,0.0
+44043,Blesa,20 años,2020,0.0
+44043,Blesa,21 años,2020,0.0
+44043,Blesa,22 años,2020,0.0
+44043,Blesa,23 años,2020,0.0
+44043,Blesa,24 años,2020,0.0
+44043,Blesa,25 años,2020,1
+44043,Blesa,26 años,2020,0.0
+44043,Blesa,27 años,2020,0.0
+44043,Blesa,28 años,2020,0.0
+44043,Blesa,29 años,2020,4
+44043,Blesa,30 años,2020,0.0
+44043,Blesa,31 años,2020,0.0
+44043,Blesa,32 años,2020,1
+44043,Blesa,33 años,2020,0.0
+44043,Blesa,34 años,2020,1
+44043,Blesa,35 años,2020,1
+44043,Blesa,36 años,2020,1
+44043,Blesa,37 años,2020,0.0
+44043,Blesa,38 años,2020,0.0
+44043,Blesa,39 años,2020,0.0
+44043,Blesa,40 años,2020,2
+44044,Bordón,19 años,2020,1
+44044,Bordón,20 años,2020,1
+44044,Bordón,21 años,2020,1
+44044,Bordón,22 años,2020,1
+44044,Bordón,23 años,2020,0.0
+44044,Bordón,24 años,2020,0.0
+44044,Bordón,25 años,2020,0.0
+44044,Bordón,26 años,2020,1
+44044,Bordón,27 años,2020,1
+44044,Bordón,28 años,2020,1
+44044,Bordón,29 años,2020,1
+44044,Bordón,30 años,2020,1
+44044,Bordón,31 años,2020,2
+44044,Bordón,32 años,2020,3
+44044,Bordón,33 años,2020,1
+44044,Bordón,34 años,2020,1
+44044,Bordón,35 años,2020,1
+44044,Bordón,36 años,2020,1
+44044,Bordón,37 años,2020,0.0
+44044,Bordón,38 años,2020,3
+44044,Bordón,39 años,2020,1
+44044,Bordón,40 años,2020,2
+44045,Bronchales,19 años,2020,1
+44045,Bronchales,20 años,2020,1
+44045,Bronchales,21 años,2020,7
+44045,Bronchales,22 años,2020,2
+44045,Bronchales,23 años,2020,4
+44045,Bronchales,24 años,2020,2
+44045,Bronchales,25 años,2020,12
+44045,Bronchales,26 años,2020,3
+44045,Bronchales,27 años,2020,6
+44045,Bronchales,28 años,2020,5
+44045,Bronchales,29 años,2020,5
+44045,Bronchales,30 años,2020,4
+44045,Bronchales,31 años,2020,6
+44045,Bronchales,32 años,2020,9
+44045,Bronchales,33 años,2020,8
+44045,Bronchales,34 años,2020,5
+44045,Bronchales,35 años,2020,8
+44045,Bronchales,36 años,2020,6
+44045,Bronchales,37 años,2020,11
+44045,Bronchales,38 años,2020,6
+44045,Bronchales,39 años,2020,2
+44045,Bronchales,40 años,2020,4
+44046,Bueña,19 años,2020,1
+44046,Bueña,20 años,2020,0.0
+44046,Bueña,21 años,2020,0.0
+44046,Bueña,22 años,2020,0.0
+44046,Bueña,23 años,2020,0.0
+44046,Bueña,24 años,2020,0.0
+44046,Bueña,25 años,2020,0.0
+44046,Bueña,26 años,2020,0.0
+44046,Bueña,27 años,2020,0.0
+44046,Bueña,28 años,2020,0.0
+44046,Bueña,29 años,2020,0.0
+44046,Bueña,30 años,2020,0.0
+44046,Bueña,31 años,2020,0.0
+44046,Bueña,32 años,2020,0.0
+44046,Bueña,33 años,2020,1
+44046,Bueña,34 años,2020,0.0
+44046,Bueña,35 años,2020,1
+44046,Bueña,36 años,2020,0.0
+44046,Bueña,37 años,2020,0.0
+44046,Bueña,38 años,2020,2
+44046,Bueña,39 años,2020,0.0
+44046,Bueña,40 años,2020,1
+44047,Burbáguena,19 años,2020,2
+44047,Burbáguena,20 años,2020,2
+44047,Burbáguena,21 años,2020,0.0
+44047,Burbáguena,22 años,2020,1
+44047,Burbáguena,23 años,2020,0.0
+44047,Burbáguena,24 años,2020,0.0
+44047,Burbáguena,25 años,2020,2
+44047,Burbáguena,26 años,2020,0.0
+44047,Burbáguena,27 años,2020,0.0
+44047,Burbáguena,28 años,2020,1
+44047,Burbáguena,29 años,2020,2
+44047,Burbáguena,30 años,2020,2
+44047,Burbáguena,31 años,2020,5
+44047,Burbáguena,32 años,2020,2
+44047,Burbáguena,33 años,2020,3
+44047,Burbáguena,34 años,2020,1
+44047,Burbáguena,35 años,2020,1
+44047,Burbáguena,36 años,2020,0.0
+44047,Burbáguena,37 años,2020,2
+44047,Burbáguena,38 años,2020,1
+44047,Burbáguena,39 años,2020,3
+44047,Burbáguena,40 años,2020,3
+44048,Cabra de Mora,19 años,2020,0.0
+44048,Cabra de Mora,20 años,2020,1
+44048,Cabra de Mora,21 años,2020,0.0
+44048,Cabra de Mora,22 años,2020,0.0
+44048,Cabra de Mora,23 años,2020,1
+44048,Cabra de Mora,24 años,2020,1
+44048,Cabra de Mora,25 años,2020,0.0
+44048,Cabra de Mora,26 años,2020,3
+44048,Cabra de Mora,27 años,2020,0.0
+44048,Cabra de Mora,28 años,2020,1
+44048,Cabra de Mora,29 años,2020,2
+44048,Cabra de Mora,30 años,2020,0.0
+44048,Cabra de Mora,31 años,2020,1
+44048,Cabra de Mora,32 años,2020,0.0
+44048,Cabra de Mora,33 años,2020,0.0
+44048,Cabra de Mora,34 años,2020,0.0
+44048,Cabra de Mora,35 años,2020,0.0
+44048,Cabra de Mora,36 años,2020,0.0
+44048,Cabra de Mora,37 años,2020,1
+44048,Cabra de Mora,38 años,2020,0.0
+44048,Cabra de Mora,39 años,2020,1
+44048,Cabra de Mora,40 años,2020,0.0
+44049,Calaceite,19 años,2020,5
+44049,Calaceite,20 años,2020,5
+44049,Calaceite,21 años,2020,8
+44049,Calaceite,22 años,2020,14
+44049,Calaceite,23 años,2020,7
+44049,Calaceite,24 años,2020,5
+44049,Calaceite,25 años,2020,10
+44049,Calaceite,26 años,2020,5
+44049,Calaceite,27 años,2020,13
+44049,Calaceite,28 años,2020,7
+44049,Calaceite,29 años,2020,6
+44049,Calaceite,30 años,2020,12
+44049,Calaceite,31 años,2020,12
+44049,Calaceite,32 años,2020,12
+44049,Calaceite,33 años,2020,10
+44049,Calaceite,34 años,2020,12
+44049,Calaceite,35 años,2020,8
+44049,Calaceite,36 años,2020,10
+44049,Calaceite,37 años,2020,7
+44049,Calaceite,38 años,2020,9
+44049,Calaceite,39 años,2020,12
+44049,Calaceite,40 años,2020,11
+44050,Calamocha,19 años,2020,47
+44050,Calamocha,20 años,2020,54
+44050,Calamocha,21 años,2020,45
+44050,Calamocha,22 años,2020,45
+44050,Calamocha,23 años,2020,45
+44050,Calamocha,24 años,2020,53
+44050,Calamocha,25 años,2020,53
+44050,Calamocha,26 años,2020,42
+44050,Calamocha,27 años,2020,43
+44050,Calamocha,28 años,2020,48
+44050,Calamocha,29 años,2020,46
+44050,Calamocha,30 años,2020,53
+44050,Calamocha,31 años,2020,45
+44050,Calamocha,32 años,2020,51
+44050,Calamocha,33 años,2020,53
+44050,Calamocha,34 años,2020,56
+44050,Calamocha,35 años,2020,49
+44050,Calamocha,36 años,2020,49
+44050,Calamocha,37 años,2020,59
+44050,Calamocha,38 años,2020,70
+44050,Calamocha,39 años,2020,60
+44050,Calamocha,40 años,2020,72
+44051,Calanda,19 años,2020,40
+44051,Calanda,20 años,2020,33
+44051,Calanda,21 años,2020,49
+44051,Calanda,22 años,2020,42
+44051,Calanda,23 años,2020,37
+44051,Calanda,24 años,2020,46
+44051,Calanda,25 años,2020,27
+44051,Calanda,26 años,2020,39
+44051,Calanda,27 años,2020,54
+44051,Calanda,28 años,2020,48
+44051,Calanda,29 años,2020,44
+44051,Calanda,30 años,2020,46
+44051,Calanda,31 años,2020,41
+44051,Calanda,32 años,2020,59
+44051,Calanda,33 años,2020,52
+44051,Calanda,34 años,2020,36
+44051,Calanda,35 años,2020,58
+44051,Calanda,36 años,2020,45
+44051,Calanda,37 años,2020,49
+44051,Calanda,38 años,2020,69
+44051,Calanda,39 años,2020,69
+44051,Calanda,40 años,2020,57
+44052,Calomarde,19 años,2020,0.0
+44052,Calomarde,20 años,2020,1
+44052,Calomarde,21 años,2020,0.0
+44052,Calomarde,22 años,2020,0.0
+44052,Calomarde,23 años,2020,0.0
+44052,Calomarde,24 años,2020,0.0
+44052,Calomarde,25 años,2020,1
+44052,Calomarde,26 años,2020,1
+44052,Calomarde,27 años,2020,1
+44052,Calomarde,28 años,2020,0.0
+44052,Calomarde,29 años,2020,1
+44052,Calomarde,30 años,2020,0.0
+44052,Calomarde,31 años,2020,3
+44052,Calomarde,32 años,2020,1
+44052,Calomarde,33 años,2020,1
+44052,Calomarde,34 años,2020,0.0
+44052,Calomarde,35 años,2020,0.0
+44052,Calomarde,36 años,2020,0.0
+44052,Calomarde,37 años,2020,1
+44052,Calomarde,38 años,2020,1
+44052,Calomarde,39 años,2020,0.0
+44052,Calomarde,40 años,2020,2
+44053,Camañas,19 años,2020,0.0
+44053,Camañas,20 años,2020,1
+44053,Camañas,21 años,2020,0.0
+44053,Camañas,22 años,2020,0.0
+44053,Camañas,23 años,2020,2
+44053,Camañas,24 años,2020,0.0
+44053,Camañas,25 años,2020,2
+44053,Camañas,26 años,2020,1
+44053,Camañas,27 años,2020,1
+44053,Camañas,28 años,2020,0.0
+44053,Camañas,29 años,2020,0.0
+44053,Camañas,30 años,2020,1
+44053,Camañas,31 años,2020,2
+44053,Camañas,32 años,2020,2
+44053,Camañas,33 años,2020,1
+44053,Camañas,34 años,2020,3
+44053,Camañas,35 años,2020,1
+44053,Camañas,36 años,2020,3
+44053,Camañas,37 años,2020,2
+44053,Camañas,38 años,2020,1
+44053,Camañas,39 años,2020,2
+44053,Camañas,40 años,2020,3
+44054,Camarena de la Sierra,19 años,2020,0.0
+44054,Camarena de la Sierra,20 años,2020,0.0
+44054,Camarena de la Sierra,21 años,2020,0.0
+44054,Camarena de la Sierra,22 años,2020,0.0
+44054,Camarena de la Sierra,23 años,2020,2
+44054,Camarena de la Sierra,24 años,2020,0.0
+44054,Camarena de la Sierra,25 años,2020,0.0
+44054,Camarena de la Sierra,26 años,2020,1
+44054,Camarena de la Sierra,27 años,2020,2
+44054,Camarena de la Sierra,28 años,2020,3
+44054,Camarena de la Sierra,29 años,2020,2
+44054,Camarena de la Sierra,30 años,2020,2
+44054,Camarena de la Sierra,31 años,2020,2
+44054,Camarena de la Sierra,32 años,2020,1
+44054,Camarena de la Sierra,33 años,2020,2
+44054,Camarena de la Sierra,34 años,2020,0.0
+44054,Camarena de la Sierra,35 años,2020,0.0
+44054,Camarena de la Sierra,36 años,2020,1
+44054,Camarena de la Sierra,37 años,2020,3
+44054,Camarena de la Sierra,38 años,2020,2
+44054,Camarena de la Sierra,39 años,2020,1
+44054,Camarena de la Sierra,40 años,2020,3
+44055,Camarillas,19 años,2020,2
+44055,Camarillas,20 años,2020,1
+44055,Camarillas,21 años,2020,0.0
+44055,Camarillas,22 años,2020,1
+44055,Camarillas,23 años,2020,3
+44055,Camarillas,24 años,2020,0.0
+44055,Camarillas,25 años,2020,1
+44055,Camarillas,26 años,2020,1
+44055,Camarillas,27 años,2020,1
+44055,Camarillas,28 años,2020,1
+44055,Camarillas,29 años,2020,0.0
+44055,Camarillas,30 años,2020,0.0
+44055,Camarillas,31 años,2020,0.0
+44055,Camarillas,32 años,2020,0.0
+44055,Camarillas,33 años,2020,1
+44055,Camarillas,34 años,2020,0.0
+44055,Camarillas,35 años,2020,1
+44055,Camarillas,36 años,2020,2
+44055,Camarillas,37 años,2020,1
+44055,Camarillas,38 años,2020,1
+44055,Camarillas,39 años,2020,2
+44055,Camarillas,40 años,2020,2
+44056,Caminreal,19 años,2020,6
+44056,Caminreal,20 años,2020,4
+44056,Caminreal,21 años,2020,5
+44056,Caminreal,22 años,2020,9
+44056,Caminreal,23 años,2020,5
+44056,Caminreal,24 años,2020,3
+44056,Caminreal,25 años,2020,7
+44056,Caminreal,26 años,2020,2
+44056,Caminreal,27 años,2020,6
+44056,Caminreal,28 años,2020,4
+44056,Caminreal,29 años,2020,7
+44056,Caminreal,30 años,2020,5
+44056,Caminreal,31 años,2020,8
+44056,Caminreal,32 años,2020,10
+44056,Caminreal,33 años,2020,7
+44056,Caminreal,34 años,2020,8
+44056,Caminreal,35 años,2020,7
+44056,Caminreal,36 años,2020,8
+44056,Caminreal,37 años,2020,8
+44056,Caminreal,38 años,2020,3
+44056,Caminreal,39 años,2020,14
+44056,Caminreal,40 años,2020,10
+44059,Cantavieja,19 años,2020,10
+44059,Cantavieja,20 años,2020,5
+44059,Cantavieja,21 años,2020,6
+44059,Cantavieja,22 años,2020,4
+44059,Cantavieja,23 años,2020,3
+44059,Cantavieja,24 años,2020,4
+44059,Cantavieja,25 años,2020,9
+44059,Cantavieja,26 años,2020,16
+44059,Cantavieja,27 años,2020,6
+44059,Cantavieja,28 años,2020,7
+44059,Cantavieja,29 años,2020,13
+44059,Cantavieja,30 años,2020,6
+44059,Cantavieja,31 años,2020,10
+44059,Cantavieja,32 años,2020,8
+44059,Cantavieja,33 años,2020,10
+44059,Cantavieja,34 años,2020,4
+44059,Cantavieja,35 años,2020,8
+44059,Cantavieja,36 años,2020,9
+44059,Cantavieja,37 años,2020,16
+44059,Cantavieja,38 años,2020,6
+44059,Cantavieja,39 años,2020,12
+44059,Cantavieja,40 años,2020,15
+44060,Cañada de Benatanduz,19 años,2020,0.0
+44060,Cañada de Benatanduz,20 años,2020,0.0
+44060,Cañada de Benatanduz,21 años,2020,1
+44060,Cañada de Benatanduz,22 años,2020,0.0
+44060,Cañada de Benatanduz,23 años,2020,0.0
+44060,Cañada de Benatanduz,24 años,2020,0.0
+44060,Cañada de Benatanduz,25 años,2020,0.0
+44060,Cañada de Benatanduz,26 años,2020,0.0
+44060,Cañada de Benatanduz,27 años,2020,1
+44060,Cañada de Benatanduz,28 años,2020,1
+44060,Cañada de Benatanduz,29 años,2020,0.0
+44060,Cañada de Benatanduz,30 años,2020,1
+44060,Cañada de Benatanduz,31 años,2020,1
+44060,Cañada de Benatanduz,32 años,2020,0.0
+44060,Cañada de Benatanduz,33 años,2020,0.0
+44060,Cañada de Benatanduz,34 años,2020,0.0
+44060,Cañada de Benatanduz,35 años,2020,1
+44060,Cañada de Benatanduz,36 años,2020,0.0
+44060,Cañada de Benatanduz,37 años,2020,0.0
+44060,Cañada de Benatanduz,38 años,2020,1
+44060,Cañada de Benatanduz,39 años,2020,0.0
+44060,Cañada de Benatanduz,40 años,2020,0.0
+44061,Cañada de Verich La,19 años,2020,3
+44061,Cañada de Verich La,20 años,2020,1
+44061,Cañada de Verich La,21 años,2020,0.0
+44061,Cañada de Verich La,22 años,2020,1
+44061,Cañada de Verich La,23 años,2020,0.0
+44061,Cañada de Verich La,24 años,2020,0.0
+44061,Cañada de Verich La,25 años,2020,1
+44061,Cañada de Verich La,26 años,2020,0.0
+44061,Cañada de Verich La,27 años,2020,1
+44061,Cañada de Verich La,28 años,2020,2
+44061,Cañada de Verich La,29 años,2020,0.0
+44061,Cañada de Verich La,30 años,2020,0.0
+44061,Cañada de Verich La,31 años,2020,2
+44061,Cañada de Verich La,32 años,2020,2
+44061,Cañada de Verich La,33 años,2020,0.0
+44061,Cañada de Verich La,34 años,2020,0.0
+44061,Cañada de Verich La,35 años,2020,1
+44061,Cañada de Verich La,36 años,2020,0.0
+44061,Cañada de Verich La,37 años,2020,1
+44061,Cañada de Verich La,38 años,2020,2
+44061,Cañada de Verich La,39 años,2020,0.0
+44061,Cañada de Verich La,40 años,2020,1
+44062,Cañada Vellida,19 años,2020,0.0
+44062,Cañada Vellida,20 años,2020,0.0
+44062,Cañada Vellida,21 años,2020,0.0
+44062,Cañada Vellida,22 años,2020,0.0
+44062,Cañada Vellida,23 años,2020,1
+44062,Cañada Vellida,24 años,2020,0.0
+44062,Cañada Vellida,25 años,2020,0.0
+44062,Cañada Vellida,26 años,2020,0.0
+44062,Cañada Vellida,27 años,2020,0.0
+44062,Cañada Vellida,28 años,2020,1
+44062,Cañada Vellida,29 años,2020,0.0
+44062,Cañada Vellida,30 años,2020,1
+44062,Cañada Vellida,31 años,2020,2
+44062,Cañada Vellida,32 años,2020,1
+44062,Cañada Vellida,33 años,2020,0.0
+44062,Cañada Vellida,34 años,2020,0.0
+44062,Cañada Vellida,35 años,2020,0.0
+44062,Cañada Vellida,36 años,2020,0.0
+44062,Cañada Vellida,37 años,2020,0.0
+44062,Cañada Vellida,38 años,2020,0.0
+44062,Cañada Vellida,39 años,2020,0.0
+44062,Cañada Vellida,40 años,2020,0.0
+44063,Cañizar del Olivar,19 años,2020,0.0
+44063,Cañizar del Olivar,20 años,2020,0.0
+44063,Cañizar del Olivar,21 años,2020,0.0
+44063,Cañizar del Olivar,22 años,2020,3
+44063,Cañizar del Olivar,23 años,2020,0.0
+44063,Cañizar del Olivar,24 años,2020,1
+44063,Cañizar del Olivar,25 años,2020,0.0
+44063,Cañizar del Olivar,26 años,2020,3
+44063,Cañizar del Olivar,27 años,2020,0.0
+44063,Cañizar del Olivar,28 años,2020,1
+44063,Cañizar del Olivar,29 años,2020,2
+44063,Cañizar del Olivar,30 años,2020,1
+44063,Cañizar del Olivar,31 años,2020,1
+44063,Cañizar del Olivar,32 años,2020,2
+44063,Cañizar del Olivar,33 años,2020,3
+44063,Cañizar del Olivar,34 años,2020,1
+44063,Cañizar del Olivar,35 años,2020,2
+44063,Cañizar del Olivar,36 años,2020,2
+44063,Cañizar del Olivar,37 años,2020,1
+44063,Cañizar del Olivar,38 años,2020,0.0
+44063,Cañizar del Olivar,39 años,2020,1
+44063,Cañizar del Olivar,40 años,2020,1
+44064,Cascante del Río,19 años,2020,0.0
+44064,Cascante del Río,20 años,2020,0.0
+44064,Cascante del Río,21 años,2020,0.0
+44064,Cascante del Río,22 años,2020,0.0
+44064,Cascante del Río,23 años,2020,0.0
+44064,Cascante del Río,24 años,2020,0.0
+44064,Cascante del Río,25 años,2020,0.0
+44064,Cascante del Río,26 años,2020,0.0
+44064,Cascante del Río,27 años,2020,0.0
+44064,Cascante del Río,28 años,2020,0.0
+44064,Cascante del Río,29 años,2020,0.0
+44064,Cascante del Río,30 años,2020,0.0
+44064,Cascante del Río,31 años,2020,0.0
+44064,Cascante del Río,32 años,2020,2
+44064,Cascante del Río,33 años,2020,1
+44064,Cascante del Río,34 años,2020,0.0
+44064,Cascante del Río,35 años,2020,0.0
+44064,Cascante del Río,36 años,2020,1
+44064,Cascante del Río,37 años,2020,0.0
+44064,Cascante del Río,38 años,2020,0.0
+44064,Cascante del Río,39 años,2020,0.0
+44064,Cascante del Río,40 años,2020,0.0
+44065,Castejón de Tornos,19 años,2020,0.0
+44065,Castejón de Tornos,20 años,2020,0.0
+44065,Castejón de Tornos,21 años,2020,0.0
+44065,Castejón de Tornos,22 años,2020,1
+44065,Castejón de Tornos,23 años,2020,0.0
+44065,Castejón de Tornos,24 años,2020,1
+44065,Castejón de Tornos,25 años,2020,0.0
+44065,Castejón de Tornos,26 años,2020,0.0
+44065,Castejón de Tornos,27 años,2020,0.0
+44065,Castejón de Tornos,28 años,2020,0.0
+44065,Castejón de Tornos,29 años,2020,1
+44065,Castejón de Tornos,30 años,2020,0.0
+44065,Castejón de Tornos,31 años,2020,0.0
+44065,Castejón de Tornos,32 años,2020,0.0
+44065,Castejón de Tornos,33 años,2020,0.0
+44065,Castejón de Tornos,34 años,2020,0.0
+44065,Castejón de Tornos,35 años,2020,0.0
+44065,Castejón de Tornos,36 años,2020,0.0
+44065,Castejón de Tornos,37 años,2020,0.0
+44065,Castejón de Tornos,38 años,2020,1
+44065,Castejón de Tornos,39 años,2020,0.0
+44065,Castejón de Tornos,40 años,2020,0.0
+44066,Castel de Cabra,19 años,2020,1
+44066,Castel de Cabra,20 años,2020,1
+44066,Castel de Cabra,21 años,2020,1
+44066,Castel de Cabra,22 años,2020,1
+44066,Castel de Cabra,23 años,2020,1
+44066,Castel de Cabra,24 años,2020,1
+44066,Castel de Cabra,25 años,2020,0.0
+44066,Castel de Cabra,26 años,2020,1
+44066,Castel de Cabra,27 años,2020,0.0
+44066,Castel de Cabra,28 años,2020,1
+44066,Castel de Cabra,29 años,2020,1
+44066,Castel de Cabra,30 años,2020,0.0
+44066,Castel de Cabra,31 años,2020,0.0
+44066,Castel de Cabra,32 años,2020,1
+44066,Castel de Cabra,33 años,2020,0.0
+44066,Castel de Cabra,34 años,2020,2
+44066,Castel de Cabra,35 años,2020,2
+44066,Castel de Cabra,36 años,2020,1
+44066,Castel de Cabra,37 años,2020,0.0
+44066,Castel de Cabra,38 años,2020,0.0
+44066,Castel de Cabra,39 años,2020,3
+44066,Castel de Cabra,40 años,2020,0.0
+44067,Castelnou,19 años,2020,1
+44067,Castelnou,20 años,2020,0.0
+44067,Castelnou,21 años,2020,1
+44067,Castelnou,22 años,2020,2
+44067,Castelnou,23 años,2020,2
+44067,Castelnou,24 años,2020,0.0
+44067,Castelnou,25 años,2020,0.0
+44067,Castelnou,26 años,2020,3
+44067,Castelnou,27 años,2020,2
+44067,Castelnou,28 años,2020,1
+44067,Castelnou,29 años,2020,1
+44067,Castelnou,30 años,2020,3
+44067,Castelnou,31 años,2020,1
+44067,Castelnou,32 años,2020,0.0
+44067,Castelnou,33 años,2020,0.0
+44067,Castelnou,34 años,2020,4
+44067,Castelnou,35 años,2020,0.0
+44067,Castelnou,36 años,2020,3
+44067,Castelnou,37 años,2020,1
+44067,Castelnou,38 años,2020,1
+44067,Castelnou,39 años,2020,2
+44067,Castelnou,40 años,2020,1
+44068,Castelserás,19 años,2020,8
+44068,Castelserás,20 años,2020,9
+44068,Castelserás,21 años,2020,5
+44068,Castelserás,22 años,2020,5
+44068,Castelserás,23 años,2020,7
+44068,Castelserás,24 años,2020,2
+44068,Castelserás,25 años,2020,5
+44068,Castelserás,26 años,2020,6
+44068,Castelserás,27 años,2020,7
+44068,Castelserás,28 años,2020,9
+44068,Castelserás,29 años,2020,4
+44068,Castelserás,30 años,2020,7
+44068,Castelserás,31 años,2020,12
+44068,Castelserás,32 años,2020,3
+44068,Castelserás,33 años,2020,10
+44068,Castelserás,34 años,2020,8
+44068,Castelserás,35 años,2020,4
+44068,Castelserás,36 años,2020,7
+44068,Castelserás,37 años,2020,6
+44068,Castelserás,38 años,2020,6
+44068,Castelserás,39 años,2020,10
+44068,Castelserás,40 años,2020,15
+44070,Castellar El,19 años,2020,2
+44070,Castellar El,20 años,2020,0.0
+44070,Castellar El,21 años,2020,0.0
+44070,Castellar El,22 años,2020,1
+44070,Castellar El,23 años,2020,0.0
+44070,Castellar El,24 años,2020,2
+44070,Castellar El,25 años,2020,0.0
+44070,Castellar El,26 años,2020,0.0
+44070,Castellar El,27 años,2020,1
+44070,Castellar El,28 años,2020,1
+44070,Castellar El,29 años,2020,1
+44070,Castellar El,30 años,2020,0.0
+44070,Castellar El,31 años,2020,1
+44070,Castellar El,32 años,2020,0.0
+44070,Castellar El,33 años,2020,0.0
+44070,Castellar El,34 años,2020,0.0
+44070,Castellar El,35 años,2020,0.0
+44070,Castellar El,36 años,2020,0.0
+44070,Castellar El,37 años,2020,1
+44070,Castellar El,38 años,2020,1
+44070,Castellar El,39 años,2020,0.0
+44070,Castellar El,40 años,2020,0.0
+44071,Castellote,19 años,2020,3
+44071,Castellote,20 años,2020,6
+44071,Castellote,21 años,2020,7
+44071,Castellote,22 años,2020,7
+44071,Castellote,23 años,2020,6
+44071,Castellote,24 años,2020,3
+44071,Castellote,25 años,2020,8
+44071,Castellote,26 años,2020,9
+44071,Castellote,27 años,2020,9
+44071,Castellote,28 años,2020,8
+44071,Castellote,29 años,2020,7
+44071,Castellote,30 años,2020,5
+44071,Castellote,31 años,2020,3
+44071,Castellote,32 años,2020,8
+44071,Castellote,33 años,2020,6
+44071,Castellote,34 años,2020,7
+44071,Castellote,35 años,2020,11
+44071,Castellote,36 años,2020,4
+44071,Castellote,37 años,2020,10
+44071,Castellote,38 años,2020,7
+44071,Castellote,39 años,2020,5
+44071,Castellote,40 años,2020,5
+44074,Cedrillas,19 años,2020,9
+44074,Cedrillas,20 años,2020,5
+44074,Cedrillas,21 años,2020,5
+44074,Cedrillas,22 años,2020,7
+44074,Cedrillas,23 años,2020,3
+44074,Cedrillas,24 años,2020,9
+44074,Cedrillas,25 años,2020,2
+44074,Cedrillas,26 años,2020,15
+44074,Cedrillas,27 años,2020,6
+44074,Cedrillas,28 años,2020,3
+44074,Cedrillas,29 años,2020,4
+44074,Cedrillas,30 años,2020,7
+44074,Cedrillas,31 años,2020,15
+44074,Cedrillas,32 años,2020,8
+44074,Cedrillas,33 años,2020,6
+44074,Cedrillas,34 años,2020,12
+44074,Cedrillas,35 años,2020,11
+44074,Cedrillas,36 años,2020,8
+44074,Cedrillas,37 años,2020,7
+44074,Cedrillas,38 años,2020,7
+44074,Cedrillas,39 años,2020,8
+44074,Cedrillas,40 años,2020,8
+44075,Celadas,19 años,2020,3
+44075,Celadas,20 años,2020,9
+44075,Celadas,21 años,2020,7
+44075,Celadas,22 años,2020,3
+44075,Celadas,23 años,2020,4
+44075,Celadas,24 años,2020,2
+44075,Celadas,25 años,2020,8
+44075,Celadas,26 años,2020,0.0
+44075,Celadas,27 años,2020,2
+44075,Celadas,28 años,2020,4
+44075,Celadas,29 años,2020,5
+44075,Celadas,30 años,2020,7
+44075,Celadas,31 años,2020,1
+44075,Celadas,32 años,2020,2
+44075,Celadas,33 años,2020,4
+44075,Celadas,34 años,2020,3
+44075,Celadas,35 años,2020,3
+44075,Celadas,36 años,2020,4
+44075,Celadas,37 años,2020,3
+44075,Celadas,38 años,2020,4
+44075,Celadas,39 años,2020,1
+44075,Celadas,40 años,2020,2
+44076,Cella,19 años,2020,31
+44076,Cella,20 años,2020,12
+44076,Cella,21 años,2020,18
+44076,Cella,22 años,2020,26
+44076,Cella,23 años,2020,20
+44076,Cella,24 años,2020,23
+44076,Cella,25 años,2020,18
+44076,Cella,26 años,2020,28
+44076,Cella,27 años,2020,20
+44076,Cella,28 años,2020,22
+44076,Cella,29 años,2020,28
+44076,Cella,30 años,2020,37
+44076,Cella,31 años,2020,31
+44076,Cella,32 años,2020,24
+44076,Cella,33 años,2020,35
+44076,Cella,34 años,2020,31
+44076,Cella,35 años,2020,34
+44076,Cella,36 años,2020,30
+44076,Cella,37 años,2020,24
+44076,Cella,38 años,2020,42
+44076,Cella,39 años,2020,50
+44076,Cella,40 años,2020,46
+44077,Cerollera La,19 años,2020,1
+44077,Cerollera La,20 años,2020,0.0
+44077,Cerollera La,21 años,2020,2
+44077,Cerollera La,22 años,2020,0.0
+44077,Cerollera La,23 años,2020,1
+44077,Cerollera La,24 años,2020,0.0
+44077,Cerollera La,25 años,2020,0.0
+44077,Cerollera La,26 años,2020,2
+44077,Cerollera La,27 años,2020,0.0
+44077,Cerollera La,28 años,2020,2
+44077,Cerollera La,29 años,2020,0.0
+44077,Cerollera La,30 años,2020,0.0
+44077,Cerollera La,31 años,2020,1
+44077,Cerollera La,32 años,2020,0.0
+44077,Cerollera La,33 años,2020,1
+44077,Cerollera La,34 años,2020,3
+44077,Cerollera La,35 años,2020,3
+44077,Cerollera La,36 años,2020,3
+44077,Cerollera La,37 años,2020,0.0
+44077,Cerollera La,38 años,2020,1
+44077,Cerollera La,39 años,2020,2
+44077,Cerollera La,40 años,2020,0.0
+44080,Codoñera La,19 años,2020,3
+44080,Codoñera La,20 años,2020,2
+44080,Codoñera La,21 años,2020,3
+44080,Codoñera La,22 años,2020,0.0
+44080,Codoñera La,23 años,2020,1
+44080,Codoñera La,24 años,2020,6
+44080,Codoñera La,25 años,2020,5
+44080,Codoñera La,26 años,2020,2
+44080,Codoñera La,27 años,2020,3
+44080,Codoñera La,28 años,2020,4
+44080,Codoñera La,29 años,2020,6
+44080,Codoñera La,30 años,2020,4
+44080,Codoñera La,31 años,2020,6
+44080,Codoñera La,32 años,2020,2
+44080,Codoñera La,33 años,2020,3
+44080,Codoñera La,34 años,2020,2
+44080,Codoñera La,35 años,2020,1
+44080,Codoñera La,36 años,2020,2
+44080,Codoñera La,37 años,2020,0.0
+44080,Codoñera La,38 años,2020,6
+44080,Codoñera La,39 años,2020,2
+44080,Codoñera La,40 años,2020,2
+44082,Corbalán,19 años,2020,2
+44082,Corbalán,20 años,2020,3
+44082,Corbalán,21 años,2020,1
+44082,Corbalán,22 años,2020,1
+44082,Corbalán,23 años,2020,0.0
+44082,Corbalán,24 años,2020,1
+44082,Corbalán,25 años,2020,1
+44082,Corbalán,26 años,2020,0.0
+44082,Corbalán,27 años,2020,0.0
+44082,Corbalán,28 años,2020,3
+44082,Corbalán,29 años,2020,2
+44082,Corbalán,30 años,2020,0.0
+44082,Corbalán,31 años,2020,0.0
+44082,Corbalán,32 años,2020,2
+44082,Corbalán,33 años,2020,1
+44082,Corbalán,34 años,2020,1
+44082,Corbalán,35 años,2020,1
+44082,Corbalán,36 años,2020,1
+44082,Corbalán,37 años,2020,1
+44082,Corbalán,38 años,2020,3
+44082,Corbalán,39 años,2020,0.0
+44082,Corbalán,40 años,2020,2
+44084,Cortes de Aragón,19 años,2020,1
+44084,Cortes de Aragón,20 años,2020,0.0
+44084,Cortes de Aragón,21 años,2020,0.0
+44084,Cortes de Aragón,22 años,2020,0.0
+44084,Cortes de Aragón,23 años,2020,0.0
+44084,Cortes de Aragón,24 años,2020,2
+44084,Cortes de Aragón,25 años,2020,0.0
+44084,Cortes de Aragón,26 años,2020,1
+44084,Cortes de Aragón,27 años,2020,1
+44084,Cortes de Aragón,28 años,2020,2
+44084,Cortes de Aragón,29 años,2020,2
+44084,Cortes de Aragón,30 años,2020,0.0
+44084,Cortes de Aragón,31 años,2020,0.0
+44084,Cortes de Aragón,32 años,2020,0.0
+44084,Cortes de Aragón,33 años,2020,2
+44084,Cortes de Aragón,34 años,2020,0.0
+44084,Cortes de Aragón,35 años,2020,0.0
+44084,Cortes de Aragón,36 años,2020,0.0
+44084,Cortes de Aragón,37 años,2020,1
+44084,Cortes de Aragón,38 años,2020,0.0
+44084,Cortes de Aragón,39 años,2020,0.0
+44084,Cortes de Aragón,40 años,2020,0.0
+44085,Cosa,19 años,2020,0.0
+44085,Cosa,20 años,2020,0.0
+44085,Cosa,21 años,2020,0.0
+44085,Cosa,22 años,2020,0.0
+44085,Cosa,23 años,2020,1
+44085,Cosa,24 años,2020,0.0
+44085,Cosa,25 años,2020,0.0
+44085,Cosa,26 años,2020,0.0
+44085,Cosa,27 años,2020,0.0
+44085,Cosa,28 años,2020,0.0
+44085,Cosa,29 años,2020,0.0
+44085,Cosa,30 años,2020,0.0
+44085,Cosa,31 años,2020,0.0
+44085,Cosa,32 años,2020,1
+44085,Cosa,33 años,2020,0.0
+44085,Cosa,34 años,2020,0.0
+44085,Cosa,35 años,2020,0.0
+44085,Cosa,36 años,2020,0.0
+44085,Cosa,37 años,2020,0.0
+44085,Cosa,38 años,2020,0.0
+44085,Cosa,39 años,2020,0.0
+44085,Cosa,40 años,2020,1
+44086,Cretas,19 años,2020,6
+44086,Cretas,20 años,2020,0.0
+44086,Cretas,21 años,2020,4
+44086,Cretas,22 años,2020,4
+44086,Cretas,23 años,2020,2
+44086,Cretas,24 años,2020,1
+44086,Cretas,25 años,2020,12
+44086,Cretas,26 años,2020,8
+44086,Cretas,27 años,2020,8
+44086,Cretas,28 años,2020,4
+44086,Cretas,29 años,2020,5
+44086,Cretas,30 años,2020,4
+44086,Cretas,31 años,2020,5
+44086,Cretas,32 años,2020,6
+44086,Cretas,33 años,2020,3
+44086,Cretas,34 años,2020,4
+44086,Cretas,35 años,2020,2
+44086,Cretas,36 años,2020,11
+44086,Cretas,37 años,2020,1
+44086,Cretas,38 años,2020,4
+44086,Cretas,39 años,2020,2
+44086,Cretas,40 años,2020,6
+44087,Crivillén,19 años,2020,1
+44087,Crivillén,20 años,2020,1
+44087,Crivillén,21 años,2020,1
+44087,Crivillén,22 años,2020,0.0
+44087,Crivillén,23 años,2020,1
+44087,Crivillén,24 años,2020,2
+44087,Crivillén,25 años,2020,0.0
+44087,Crivillén,26 años,2020,1
+44087,Crivillén,27 años,2020,2
+44087,Crivillén,28 años,2020,0.0
+44087,Crivillén,29 años,2020,0.0
+44087,Crivillén,30 años,2020,0.0
+44087,Crivillén,31 años,2020,1
+44087,Crivillén,32 años,2020,3
+44087,Crivillén,33 años,2020,0.0
+44087,Crivillén,34 años,2020,1
+44087,Crivillén,35 años,2020,0.0
+44087,Crivillén,36 años,2020,0.0
+44087,Crivillén,37 años,2020,2
+44087,Crivillén,38 años,2020,1
+44087,Crivillén,39 años,2020,0.0
+44087,Crivillén,40 años,2020,1
+44088,Cuba La,19 años,2020,0.0
+44088,Cuba La,20 años,2020,0.0
+44088,Cuba La,21 años,2020,0.0
+44088,Cuba La,22 años,2020,0.0
+44088,Cuba La,23 años,2020,0.0
+44088,Cuba La,24 años,2020,0.0
+44088,Cuba La,25 años,2020,1
+44088,Cuba La,26 años,2020,0.0
+44088,Cuba La,27 años,2020,1
+44088,Cuba La,28 años,2020,0.0
+44088,Cuba La,29 años,2020,1
+44088,Cuba La,30 años,2020,0.0
+44088,Cuba La,31 años,2020,0.0
+44088,Cuba La,32 años,2020,0.0
+44088,Cuba La,33 años,2020,1
+44088,Cuba La,34 años,2020,2
+44088,Cuba La,35 años,2020,0.0
+44088,Cuba La,36 años,2020,3
+44088,Cuba La,37 años,2020,0.0
+44088,Cuba La,38 años,2020,1
+44088,Cuba La,39 años,2020,0.0
+44088,Cuba La,40 años,2020,0.0
+44089,Cubla,19 años,2020,1
+44089,Cubla,20 años,2020,0.0
+44089,Cubla,21 años,2020,1
+44089,Cubla,22 años,2020,1
+44089,Cubla,23 años,2020,2
+44089,Cubla,24 años,2020,0.0
+44089,Cubla,25 años,2020,1
+44089,Cubla,26 años,2020,0.0
+44089,Cubla,27 años,2020,1
+44089,Cubla,28 años,2020,3
+44089,Cubla,29 años,2020,0.0
+44089,Cubla,30 años,2020,1
+44089,Cubla,31 años,2020,1
+44089,Cubla,32 años,2020,0.0
+44089,Cubla,33 años,2020,0.0
+44089,Cubla,34 años,2020,0.0
+44089,Cubla,35 años,2020,2
+44089,Cubla,36 años,2020,0.0
+44089,Cubla,37 años,2020,0.0
+44089,Cubla,38 años,2020,1
+44089,Cubla,39 años,2020,2
+44089,Cubla,40 años,2020,2
+44090,Cucalón,19 años,2020,0.0
+44090,Cucalón,20 años,2020,1
+44090,Cucalón,21 años,2020,0.0
+44090,Cucalón,22 años,2020,0.0
+44090,Cucalón,23 años,2020,1
+44090,Cucalón,24 años,2020,0.0
+44090,Cucalón,25 años,2020,1
+44090,Cucalón,26 años,2020,1
+44090,Cucalón,27 años,2020,0.0
+44090,Cucalón,28 años,2020,1
+44090,Cucalón,29 años,2020,0.0
+44090,Cucalón,30 años,2020,0.0
+44090,Cucalón,31 años,2020,0.0
+44090,Cucalón,32 años,2020,1
+44090,Cucalón,33 años,2020,2
+44090,Cucalón,34 años,2020,0.0
+44090,Cucalón,35 años,2020,0.0
+44090,Cucalón,36 años,2020,0.0
+44090,Cucalón,37 años,2020,0.0
+44090,Cucalón,38 años,2020,0.0
+44090,Cucalón,39 años,2020,1
+44090,Cucalón,40 años,2020,3
+44092,Cuervo El,19 años,2020,0.0
+44092,Cuervo El,20 años,2020,1
+44092,Cuervo El,21 años,2020,0.0
+44092,Cuervo El,22 años,2020,0.0
+44092,Cuervo El,23 años,2020,1
+44092,Cuervo El,24 años,2020,0.0
+44092,Cuervo El,25 años,2020,2
+44092,Cuervo El,26 años,2020,2
+44092,Cuervo El,27 años,2020,1
+44092,Cuervo El,28 años,2020,0.0
+44092,Cuervo El,29 años,2020,1
+44092,Cuervo El,30 años,2020,0.0
+44092,Cuervo El,31 años,2020,1
+44092,Cuervo El,32 años,2020,1
+44092,Cuervo El,33 años,2020,0.0
+44092,Cuervo El,34 años,2020,1
+44092,Cuervo El,35 años,2020,2
+44092,Cuervo El,36 años,2020,0.0
+44092,Cuervo El,37 años,2020,0.0
+44092,Cuervo El,38 años,2020,0.0
+44092,Cuervo El,39 años,2020,2
+44092,Cuervo El,40 años,2020,0.0
+44093,Cuevas de Almudén,19 años,2020,1
+44093,Cuevas de Almudén,20 años,2020,3
+44093,Cuevas de Almudén,21 años,2020,2
+44093,Cuevas de Almudén,22 años,2020,1
+44093,Cuevas de Almudén,23 años,2020,1
+44093,Cuevas de Almudén,24 años,2020,0.0
+44093,Cuevas de Almudén,25 años,2020,0.0
+44093,Cuevas de Almudén,26 años,2020,0.0
+44093,Cuevas de Almudén,27 años,2020,0.0
+44093,Cuevas de Almudén,28 años,2020,4
+44093,Cuevas de Almudén,29 años,2020,1
+44093,Cuevas de Almudén,30 años,2020,3
+44093,Cuevas de Almudén,31 años,2020,1
+44093,Cuevas de Almudén,32 años,2020,0.0
+44093,Cuevas de Almudén,33 años,2020,3
+44093,Cuevas de Almudén,34 años,2020,2
+44093,Cuevas de Almudén,35 años,2020,2
+44093,Cuevas de Almudén,36 años,2020,3
+44093,Cuevas de Almudén,37 años,2020,0.0
+44093,Cuevas de Almudén,38 años,2020,1
+44093,Cuevas de Almudén,39 años,2020,2
+44093,Cuevas de Almudén,40 años,2020,1
+44094,Cuevas Labradas,19 años,2020,0.0
+44094,Cuevas Labradas,20 años,2020,0.0
+44094,Cuevas Labradas,21 años,2020,0.0
+44094,Cuevas Labradas,22 años,2020,0.0
+44094,Cuevas Labradas,23 años,2020,2
+44094,Cuevas Labradas,24 años,2020,0.0
+44094,Cuevas Labradas,25 años,2020,1
+44094,Cuevas Labradas,26 años,2020,0.0
+44094,Cuevas Labradas,27 años,2020,0.0
+44094,Cuevas Labradas,28 años,2020,1
+44094,Cuevas Labradas,29 años,2020,1
+44094,Cuevas Labradas,30 años,2020,0.0
+44094,Cuevas Labradas,31 años,2020,2
+44094,Cuevas Labradas,32 años,2020,3
+44094,Cuevas Labradas,33 años,2020,1
+44094,Cuevas Labradas,34 años,2020,4
+44094,Cuevas Labradas,35 años,2020,1
+44094,Cuevas Labradas,36 años,2020,2
+44094,Cuevas Labradas,37 años,2020,2
+44094,Cuevas Labradas,38 años,2020,2
+44094,Cuevas Labradas,39 años,2020,3
+44094,Cuevas Labradas,40 años,2020,2
+44096,Ejulve,19 años,2020,0.0
+44096,Ejulve,20 años,2020,1
+44096,Ejulve,21 años,2020,3
+44096,Ejulve,22 años,2020,3
+44096,Ejulve,23 años,2020,4
+44096,Ejulve,24 años,2020,1
+44096,Ejulve,25 años,2020,4
+44096,Ejulve,26 años,2020,4
+44096,Ejulve,27 años,2020,3
+44096,Ejulve,28 años,2020,5
+44096,Ejulve,29 años,2020,4
+44096,Ejulve,30 años,2020,4
+44096,Ejulve,31 años,2020,2
+44096,Ejulve,32 años,2020,3
+44096,Ejulve,33 años,2020,1
+44096,Ejulve,34 años,2020,0.0
+44096,Ejulve,35 años,2020,1
+44096,Ejulve,36 años,2020,1
+44096,Ejulve,37 años,2020,1
+44096,Ejulve,38 años,2020,1
+44096,Ejulve,39 años,2020,1
+44096,Ejulve,40 años,2020,1
+44097,Escorihuela,19 años,2020,1
+44097,Escorihuela,20 años,2020,0.0
+44097,Escorihuela,21 años,2020,0.0
+44097,Escorihuela,22 años,2020,1
+44097,Escorihuela,23 años,2020,3
+44097,Escorihuela,24 años,2020,0.0
+44097,Escorihuela,25 años,2020,3
+44097,Escorihuela,26 años,2020,2
+44097,Escorihuela,27 años,2020,3
+44097,Escorihuela,28 años,2020,0.0
+44097,Escorihuela,29 años,2020,2
+44097,Escorihuela,30 años,2020,2
+44097,Escorihuela,31 años,2020,2
+44097,Escorihuela,32 años,2020,0.0
+44097,Escorihuela,33 años,2020,2
+44097,Escorihuela,34 años,2020,2
+44097,Escorihuela,35 años,2020,1
+44097,Escorihuela,36 años,2020,5
+44097,Escorihuela,37 años,2020,1
+44097,Escorihuela,38 años,2020,0.0
+44097,Escorihuela,39 años,2020,0.0
+44097,Escorihuela,40 años,2020,0.0
+44099,Escucha,19 años,2020,4
+44099,Escucha,20 años,2020,10
+44099,Escucha,21 años,2020,12
+44099,Escucha,22 años,2020,10
+44099,Escucha,23 años,2020,11
+44099,Escucha,24 años,2020,10
+44099,Escucha,25 años,2020,12
+44099,Escucha,26 años,2020,8
+44099,Escucha,27 años,2020,12
+44099,Escucha,28 años,2020,8
+44099,Escucha,29 años,2020,10
+44099,Escucha,30 años,2020,8
+44099,Escucha,31 años,2020,14
+44099,Escucha,32 años,2020,10
+44099,Escucha,33 años,2020,10
+44099,Escucha,34 años,2020,16
+44099,Escucha,35 años,2020,7
+44099,Escucha,36 años,2020,7
+44099,Escucha,37 años,2020,10
+44099,Escucha,38 años,2020,6
+44099,Escucha,39 años,2020,18
+44099,Escucha,40 años,2020,9
+44100,Estercuel,19 años,2020,1
+44100,Estercuel,20 años,2020,0.0
+44100,Estercuel,21 años,2020,2
+44100,Estercuel,22 años,2020,2
+44100,Estercuel,23 años,2020,1
+44100,Estercuel,24 años,2020,1
+44100,Estercuel,25 años,2020,6
+44100,Estercuel,26 años,2020,1
+44100,Estercuel,27 años,2020,5
+44100,Estercuel,28 años,2020,7
+44100,Estercuel,29 años,2020,4
+44100,Estercuel,30 años,2020,2
+44100,Estercuel,31 años,2020,4
+44100,Estercuel,32 años,2020,3
+44100,Estercuel,33 años,2020,2
+44100,Estercuel,34 años,2020,3
+44100,Estercuel,35 años,2020,4
+44100,Estercuel,36 años,2020,2
+44100,Estercuel,37 años,2020,1
+44100,Estercuel,38 años,2020,0.0
+44100,Estercuel,39 años,2020,2
+44100,Estercuel,40 años,2020,1
+44101,Ferreruela de Huerva,19 años,2020,0.0
+44101,Ferreruela de Huerva,20 años,2020,1
+44101,Ferreruela de Huerva,21 años,2020,0.0
+44101,Ferreruela de Huerva,22 años,2020,0.0
+44101,Ferreruela de Huerva,23 años,2020,1
+44101,Ferreruela de Huerva,24 años,2020,0.0
+44101,Ferreruela de Huerva,25 años,2020,0.0
+44101,Ferreruela de Huerva,26 años,2020,0.0
+44101,Ferreruela de Huerva,27 años,2020,0.0
+44101,Ferreruela de Huerva,28 años,2020,0.0
+44101,Ferreruela de Huerva,29 años,2020,0.0
+44101,Ferreruela de Huerva,30 años,2020,0.0
+44101,Ferreruela de Huerva,31 años,2020,1
+44101,Ferreruela de Huerva,32 años,2020,2
+44101,Ferreruela de Huerva,33 años,2020,0.0
+44101,Ferreruela de Huerva,34 años,2020,2
+44101,Ferreruela de Huerva,35 años,2020,1
+44101,Ferreruela de Huerva,36 años,2020,2
+44101,Ferreruela de Huerva,37 años,2020,2
+44101,Ferreruela de Huerva,38 años,2020,1
+44101,Ferreruela de Huerva,39 años,2020,2
+44101,Ferreruela de Huerva,40 años,2020,1
+44102,Fonfría,19 años,2020,0.0
+44102,Fonfría,20 años,2020,0.0
+44102,Fonfría,21 años,2020,0.0
+44102,Fonfría,22 años,2020,0.0
+44102,Fonfría,23 años,2020,0.0
+44102,Fonfría,24 años,2020,0.0
+44102,Fonfría,25 años,2020,0.0
+44102,Fonfría,26 años,2020,0.0
+44102,Fonfría,27 años,2020,1
+44102,Fonfría,28 años,2020,0.0
+44102,Fonfría,29 años,2020,1
+44102,Fonfría,30 años,2020,0.0
+44102,Fonfría,31 años,2020,0.0
+44102,Fonfría,32 años,2020,0.0
+44102,Fonfría,33 años,2020,0.0
+44102,Fonfría,34 años,2020,1
+44102,Fonfría,35 años,2020,0.0
+44102,Fonfría,36 años,2020,0.0
+44102,Fonfría,37 años,2020,0.0
+44102,Fonfría,38 años,2020,0.0
+44102,Fonfría,39 años,2020,0.0
+44102,Fonfría,40 años,2020,0.0
+44103,Formiche Alto,19 años,2020,3
+44103,Formiche Alto,20 años,2020,4
+44103,Formiche Alto,21 años,2020,1
+44103,Formiche Alto,22 años,2020,2
+44103,Formiche Alto,23 años,2020,5
+44103,Formiche Alto,24 años,2020,1
+44103,Formiche Alto,25 años,2020,2
+44103,Formiche Alto,26 años,2020,0.0
+44103,Formiche Alto,27 años,2020,3
+44103,Formiche Alto,28 años,2020,2
+44103,Formiche Alto,29 años,2020,2
+44103,Formiche Alto,30 años,2020,0.0
+44103,Formiche Alto,31 años,2020,0.0
+44103,Formiche Alto,32 años,2020,1
+44103,Formiche Alto,33 años,2020,2
+44103,Formiche Alto,34 años,2020,1
+44103,Formiche Alto,35 años,2020,1
+44103,Formiche Alto,36 años,2020,2
+44103,Formiche Alto,37 años,2020,1
+44103,Formiche Alto,38 años,2020,3
+44103,Formiche Alto,39 años,2020,1
+44103,Formiche Alto,40 años,2020,2
+44105,Fórnoles,19 años,2020,0.0
+44105,Fórnoles,20 años,2020,0.0
+44105,Fórnoles,21 años,2020,1
+44105,Fórnoles,22 años,2020,1
+44105,Fórnoles,23 años,2020,0.0
+44105,Fórnoles,24 años,2020,1
+44105,Fórnoles,25 años,2020,1
+44105,Fórnoles,26 años,2020,0.0
+44105,Fórnoles,27 años,2020,1
+44105,Fórnoles,28 años,2020,1
+44105,Fórnoles,29 años,2020,3
+44105,Fórnoles,30 años,2020,1
+44105,Fórnoles,31 años,2020,1
+44105,Fórnoles,32 años,2020,2
+44105,Fórnoles,33 años,2020,1
+44105,Fórnoles,34 años,2020,1
+44105,Fórnoles,35 años,2020,0.0
+44105,Fórnoles,36 años,2020,0.0
+44105,Fórnoles,37 años,2020,1
+44105,Fórnoles,38 años,2020,0.0
+44105,Fórnoles,39 años,2020,0.0
+44105,Fórnoles,40 años,2020,2
+44106,Fortanete,19 años,2020,1
+44106,Fortanete,20 años,2020,4
+44106,Fortanete,21 años,2020,0.0
+44106,Fortanete,22 años,2020,2
+44106,Fortanete,23 años,2020,3
+44106,Fortanete,24 años,2020,1
+44106,Fortanete,25 años,2020,4
+44106,Fortanete,26 años,2020,2
+44106,Fortanete,27 años,2020,4
+44106,Fortanete,28 años,2020,2
+44106,Fortanete,29 años,2020,0.0
+44106,Fortanete,30 años,2020,4
+44106,Fortanete,31 años,2020,2
+44106,Fortanete,32 años,2020,0.0
+44106,Fortanete,33 años,2020,4
+44106,Fortanete,34 años,2020,0.0
+44106,Fortanete,35 años,2020,2
+44106,Fortanete,36 años,2020,4
+44106,Fortanete,37 años,2020,2
+44106,Fortanete,38 años,2020,3
+44106,Fortanete,39 años,2020,0.0
+44106,Fortanete,40 años,2020,1
+44107,Foz-Calanda,19 años,2020,3
+44107,Foz-Calanda,20 años,2020,5
+44107,Foz-Calanda,21 años,2020,4
+44107,Foz-Calanda,22 años,2020,0.0
+44107,Foz-Calanda,23 años,2020,2
+44107,Foz-Calanda,24 años,2020,5
+44107,Foz-Calanda,25 años,2020,3
+44107,Foz-Calanda,26 años,2020,0.0
+44107,Foz-Calanda,27 años,2020,3
+44107,Foz-Calanda,28 años,2020,1
+44107,Foz-Calanda,29 años,2020,7
+44107,Foz-Calanda,30 años,2020,5
+44107,Foz-Calanda,31 años,2020,4
+44107,Foz-Calanda,32 años,2020,4
+44107,Foz-Calanda,33 años,2020,3
+44107,Foz-Calanda,34 años,2020,4
+44107,Foz-Calanda,35 años,2020,7
+44107,Foz-Calanda,36 años,2020,3
+44107,Foz-Calanda,37 años,2020,2
+44107,Foz-Calanda,38 años,2020,0.0
+44107,Foz-Calanda,39 años,2020,2
+44107,Foz-Calanda,40 años,2020,2
+44108,Fresneda La,19 años,2020,4
+44108,Fresneda La,20 años,2020,3
+44108,Fresneda La,21 años,2020,2
+44108,Fresneda La,22 años,2020,7
+44108,Fresneda La,23 años,2020,2
+44108,Fresneda La,24 años,2020,3
+44108,Fresneda La,25 años,2020,3
+44108,Fresneda La,26 años,2020,2
+44108,Fresneda La,27 años,2020,5
+44108,Fresneda La,28 años,2020,8
+44108,Fresneda La,29 años,2020,6
+44108,Fresneda La,30 años,2020,4
+44108,Fresneda La,31 años,2020,3
+44108,Fresneda La,32 años,2020,2
+44108,Fresneda La,33 años,2020,5
+44108,Fresneda La,34 años,2020,5
+44108,Fresneda La,35 años,2020,4
+44108,Fresneda La,36 años,2020,7
+44108,Fresneda La,37 años,2020,6
+44108,Fresneda La,38 años,2020,12
+44108,Fresneda La,39 años,2020,6
+44108,Fresneda La,40 años,2020,3
+44109,Frías de Albarracín,19 años,2020,0.0
+44109,Frías de Albarracín,20 años,2020,0.0
+44109,Frías de Albarracín,21 años,2020,0.0
+44109,Frías de Albarracín,22 años,2020,1
+44109,Frías de Albarracín,23 años,2020,1
+44109,Frías de Albarracín,24 años,2020,1
+44109,Frías de Albarracín,25 años,2020,0.0
+44109,Frías de Albarracín,26 años,2020,0.0
+44109,Frías de Albarracín,27 años,2020,1
+44109,Frías de Albarracín,28 años,2020,0.0
+44109,Frías de Albarracín,29 años,2020,1
+44109,Frías de Albarracín,30 años,2020,2
+44109,Frías de Albarracín,31 años,2020,1
+44109,Frías de Albarracín,32 años,2020,0.0
+44109,Frías de Albarracín,33 años,2020,2
+44109,Frías de Albarracín,34 años,2020,3
+44109,Frías de Albarracín,35 años,2020,1
+44109,Frías de Albarracín,36 años,2020,0.0
+44109,Frías de Albarracín,37 años,2020,3
+44109,Frías de Albarracín,38 años,2020,1
+44109,Frías de Albarracín,39 años,2020,1
+44109,Frías de Albarracín,40 años,2020,1
+44110,Fuenferrada,19 años,2020,0.0
+44110,Fuenferrada,20 años,2020,0.0
+44110,Fuenferrada,21 años,2020,0.0
+44110,Fuenferrada,22 años,2020,0.0
+44110,Fuenferrada,23 años,2020,0.0
+44110,Fuenferrada,24 años,2020,0.0
+44110,Fuenferrada,25 años,2020,0.0
+44110,Fuenferrada,26 años,2020,0.0
+44110,Fuenferrada,27 años,2020,0.0
+44110,Fuenferrada,28 años,2020,1
+44110,Fuenferrada,29 años,2020,0.0
+44110,Fuenferrada,30 años,2020,0.0
+44110,Fuenferrada,31 años,2020,0.0
+44110,Fuenferrada,32 años,2020,0.0
+44110,Fuenferrada,33 años,2020,0.0
+44110,Fuenferrada,34 años,2020,0.0
+44110,Fuenferrada,35 años,2020,0.0
+44110,Fuenferrada,36 años,2020,2
+44110,Fuenferrada,37 años,2020,1
+44110,Fuenferrada,38 años,2020,0.0
+44110,Fuenferrada,39 años,2020,0.0
+44110,Fuenferrada,40 años,2020,0.0
+44111,Fuentes Calientes,19 años,2020,0.0
+44111,Fuentes Calientes,20 años,2020,0.0
+44111,Fuentes Calientes,21 años,2020,1
+44111,Fuentes Calientes,22 años,2020,2
+44111,Fuentes Calientes,23 años,2020,1
+44111,Fuentes Calientes,24 años,2020,2
+44111,Fuentes Calientes,25 años,2020,2
+44111,Fuentes Calientes,26 años,2020,2
+44111,Fuentes Calientes,27 años,2020,3
+44111,Fuentes Calientes,28 años,2020,1
+44111,Fuentes Calientes,29 años,2020,1
+44111,Fuentes Calientes,30 años,2020,0.0
+44111,Fuentes Calientes,31 años,2020,0.0
+44111,Fuentes Calientes,32 años,2020,1
+44111,Fuentes Calientes,33 años,2020,0.0
+44111,Fuentes Calientes,34 años,2020,1
+44111,Fuentes Calientes,35 años,2020,0.0
+44111,Fuentes Calientes,36 años,2020,0.0
+44111,Fuentes Calientes,37 años,2020,1
+44111,Fuentes Calientes,38 años,2020,1
+44111,Fuentes Calientes,39 años,2020,3
+44111,Fuentes Calientes,40 años,2020,0.0
+44112,Fuentes Claras,19 años,2020,3
+44112,Fuentes Claras,20 años,2020,6
+44112,Fuentes Claras,21 años,2020,5
+44112,Fuentes Claras,22 años,2020,5
+44112,Fuentes Claras,23 años,2020,2
+44112,Fuentes Claras,24 años,2020,3
+44112,Fuentes Claras,25 años,2020,7
+44112,Fuentes Claras,26 años,2020,1
+44112,Fuentes Claras,27 años,2020,5
+44112,Fuentes Claras,28 años,2020,3
+44112,Fuentes Claras,29 años,2020,1
+44112,Fuentes Claras,30 años,2020,4
+44112,Fuentes Claras,31 años,2020,3
+44112,Fuentes Claras,32 años,2020,3
+44112,Fuentes Claras,33 años,2020,5
+44112,Fuentes Claras,34 años,2020,3
+44112,Fuentes Claras,35 años,2020,4
+44112,Fuentes Claras,36 años,2020,5
+44112,Fuentes Claras,37 años,2020,6
+44112,Fuentes Claras,38 años,2020,3
+44112,Fuentes Claras,39 años,2020,7
+44112,Fuentes Claras,40 años,2020,5
+44113,Fuentes de Rubielos,19 años,2020,0.0
+44113,Fuentes de Rubielos,20 años,2020,1
+44113,Fuentes de Rubielos,21 años,2020,0.0
+44113,Fuentes de Rubielos,22 años,2020,1
+44113,Fuentes de Rubielos,23 años,2020,2
+44113,Fuentes de Rubielos,24 años,2020,1
+44113,Fuentes de Rubielos,25 años,2020,3
+44113,Fuentes de Rubielos,26 años,2020,1
+44113,Fuentes de Rubielos,27 años,2020,0.0
+44113,Fuentes de Rubielos,28 años,2020,0.0
+44113,Fuentes de Rubielos,29 años,2020,1
+44113,Fuentes de Rubielos,30 años,2020,1
+44113,Fuentes de Rubielos,31 años,2020,2
+44113,Fuentes de Rubielos,32 años,2020,1
+44113,Fuentes de Rubielos,33 años,2020,3
+44113,Fuentes de Rubielos,34 años,2020,3
+44113,Fuentes de Rubielos,35 años,2020,2
+44113,Fuentes de Rubielos,36 años,2020,3
+44113,Fuentes de Rubielos,37 años,2020,2
+44113,Fuentes de Rubielos,38 años,2020,2
+44113,Fuentes de Rubielos,39 años,2020,1
+44113,Fuentes de Rubielos,40 años,2020,3
+44114,Fuentespalda,19 años,2020,1
+44114,Fuentespalda,20 años,2020,3
+44114,Fuentespalda,21 años,2020,1
+44114,Fuentespalda,22 años,2020,1
+44114,Fuentespalda,23 años,2020,4
+44114,Fuentespalda,24 años,2020,2
+44114,Fuentespalda,25 años,2020,1
+44114,Fuentespalda,26 años,2020,2
+44114,Fuentespalda,27 años,2020,5
+44114,Fuentespalda,28 años,2020,2
+44114,Fuentespalda,29 años,2020,1
+44114,Fuentespalda,30 años,2020,2
+44114,Fuentespalda,31 años,2020,2
+44114,Fuentespalda,32 años,2020,4
+44114,Fuentespalda,33 años,2020,4
+44114,Fuentespalda,34 años,2020,4
+44114,Fuentespalda,35 años,2020,4
+44114,Fuentespalda,36 años,2020,7
+44114,Fuentespalda,37 años,2020,3
+44114,Fuentespalda,38 años,2020,2
+44114,Fuentespalda,39 años,2020,3
+44114,Fuentespalda,40 años,2020,4
+44115,Galve,19 años,2020,0.0
+44115,Galve,20 años,2020,1
+44115,Galve,21 años,2020,3
+44115,Galve,22 años,2020,1
+44115,Galve,23 años,2020,1
+44115,Galve,24 años,2020,2
+44115,Galve,25 años,2020,2
+44115,Galve,26 años,2020,1
+44115,Galve,27 años,2020,2
+44115,Galve,28 años,2020,2
+44115,Galve,29 años,2020,3
+44115,Galve,30 años,2020,0.0
+44115,Galve,31 años,2020,3
+44115,Galve,32 años,2020,2
+44115,Galve,33 años,2020,0.0
+44115,Galve,34 años,2020,1
+44115,Galve,35 años,2020,0.0
+44115,Galve,36 años,2020,0.0
+44115,Galve,37 años,2020,0.0
+44115,Galve,38 años,2020,1
+44115,Galve,39 años,2020,1
+44115,Galve,40 años,2020,1
+44116,Gargallo,19 años,2020,1
+44116,Gargallo,20 años,2020,2
+44116,Gargallo,21 años,2020,0.0
+44116,Gargallo,22 años,2020,1
+44116,Gargallo,23 años,2020,0.0
+44116,Gargallo,24 años,2020,2
+44116,Gargallo,25 años,2020,1
+44116,Gargallo,26 años,2020,1
+44116,Gargallo,27 años,2020,1
+44116,Gargallo,28 años,2020,0.0
+44116,Gargallo,29 años,2020,2
+44116,Gargallo,30 años,2020,1
+44116,Gargallo,31 años,2020,0.0
+44116,Gargallo,32 años,2020,0.0
+44116,Gargallo,33 años,2020,0.0
+44116,Gargallo,34 años,2020,1
+44116,Gargallo,35 años,2020,0.0
+44116,Gargallo,36 años,2020,0.0
+44116,Gargallo,37 años,2020,1
+44116,Gargallo,38 años,2020,2
+44116,Gargallo,39 años,2020,2
+44116,Gargallo,40 años,2020,1
+44117,Gea de Albarracín,19 años,2020,4
+44117,Gea de Albarracín,20 años,2020,0.0
+44117,Gea de Albarracín,21 años,2020,1
+44117,Gea de Albarracín,22 años,2020,5
+44117,Gea de Albarracín,23 años,2020,3
+44117,Gea de Albarracín,24 años,2020,1
+44117,Gea de Albarracín,25 años,2020,5
+44117,Gea de Albarracín,26 años,2020,2
+44117,Gea de Albarracín,27 años,2020,4
+44117,Gea de Albarracín,28 años,2020,2
+44117,Gea de Albarracín,29 años,2020,3
+44117,Gea de Albarracín,30 años,2020,9
+44117,Gea de Albarracín,31 años,2020,3
+44117,Gea de Albarracín,32 años,2020,2
+44117,Gea de Albarracín,33 años,2020,2
+44117,Gea de Albarracín,34 años,2020,3
+44117,Gea de Albarracín,35 años,2020,4
+44117,Gea de Albarracín,36 años,2020,3
+44117,Gea de Albarracín,37 años,2020,6
+44117,Gea de Albarracín,38 años,2020,5
+44117,Gea de Albarracín,39 años,2020,7
+44117,Gea de Albarracín,40 años,2020,10
+44118,Ginebrosa La,19 años,2020,3
+44118,Ginebrosa La,20 años,2020,1
+44118,Ginebrosa La,21 años,2020,2
+44118,Ginebrosa La,22 años,2020,1
+44118,Ginebrosa La,23 años,2020,1
+44118,Ginebrosa La,24 años,2020,1
+44118,Ginebrosa La,25 años,2020,0.0
+44118,Ginebrosa La,26 años,2020,1
+44118,Ginebrosa La,27 años,2020,2
+44118,Ginebrosa La,28 años,2020,4
+44118,Ginebrosa La,29 años,2020,2
+44118,Ginebrosa La,30 años,2020,2
+44118,Ginebrosa La,31 años,2020,2
+44118,Ginebrosa La,32 años,2020,3
+44118,Ginebrosa La,33 años,2020,1
+44118,Ginebrosa La,34 años,2020,5
+44118,Ginebrosa La,35 años,2020,2
+44118,Ginebrosa La,36 años,2020,3
+44118,Ginebrosa La,37 años,2020,2
+44118,Ginebrosa La,38 años,2020,5
+44118,Ginebrosa La,39 años,2020,1
+44118,Ginebrosa La,40 años,2020,1
+44119,Griegos,19 años,2020,2
+44119,Griegos,20 años,2020,1
+44119,Griegos,21 años,2020,2
+44119,Griegos,22 años,2020,1
+44119,Griegos,23 años,2020,0.0
+44119,Griegos,24 años,2020,2
+44119,Griegos,25 años,2020,2
+44119,Griegos,26 años,2020,2
+44119,Griegos,27 años,2020,0.0
+44119,Griegos,28 años,2020,4
+44119,Griegos,29 años,2020,1
+44119,Griegos,30 años,2020,2
+44119,Griegos,31 años,2020,1
+44119,Griegos,32 años,2020,2
+44119,Griegos,33 años,2020,1
+44119,Griegos,34 años,2020,4
+44119,Griegos,35 años,2020,1
+44119,Griegos,36 años,2020,1
+44119,Griegos,37 años,2020,0.0
+44119,Griegos,38 años,2020,3
+44119,Griegos,39 años,2020,3
+44119,Griegos,40 años,2020,2
+44120,Guadalaviar,19 años,2020,5
+44120,Guadalaviar,20 años,2020,4
+44120,Guadalaviar,21 años,2020,7
+44120,Guadalaviar,22 años,2020,4
+44120,Guadalaviar,23 años,2020,5
+44120,Guadalaviar,24 años,2020,5
+44120,Guadalaviar,25 años,2020,0.0
+44120,Guadalaviar,26 años,2020,1
+44120,Guadalaviar,27 años,2020,2
+44120,Guadalaviar,28 años,2020,6
+44120,Guadalaviar,29 años,2020,1
+44120,Guadalaviar,30 años,2020,3
+44120,Guadalaviar,31 años,2020,2
+44120,Guadalaviar,32 años,2020,3
+44120,Guadalaviar,33 años,2020,3
+44120,Guadalaviar,34 años,2020,2
+44120,Guadalaviar,35 años,2020,2
+44120,Guadalaviar,36 años,2020,2
+44120,Guadalaviar,37 años,2020,3
+44120,Guadalaviar,38 años,2020,0.0
+44120,Guadalaviar,39 años,2020,5
+44120,Guadalaviar,40 años,2020,3
+44121,Gúdar,19 años,2020,1
+44121,Gúdar,20 años,2020,0.0
+44121,Gúdar,21 años,2020,1
+44121,Gúdar,22 años,2020,2
+44121,Gúdar,23 años,2020,2
+44121,Gúdar,24 años,2020,0.0
+44121,Gúdar,25 años,2020,1
+44121,Gúdar,26 años,2020,0.0
+44121,Gúdar,27 años,2020,1
+44121,Gúdar,28 años,2020,1
+44121,Gúdar,29 años,2020,1
+44121,Gúdar,30 años,2020,1
+44121,Gúdar,31 años,2020,1
+44121,Gúdar,32 años,2020,1
+44121,Gúdar,33 años,2020,1
+44121,Gúdar,34 años,2020,1
+44121,Gúdar,35 años,2020,2
+44121,Gúdar,36 años,2020,2
+44121,Gúdar,37 años,2020,2
+44121,Gúdar,38 años,2020,3
+44121,Gúdar,39 años,2020,1
+44121,Gúdar,40 años,2020,0.0
+44122,Híjar,19 años,2020,26
+44122,Híjar,20 años,2020,17
+44122,Híjar,21 años,2020,21
+44122,Híjar,22 años,2020,15
+44122,Híjar,23 años,2020,19
+44122,Híjar,24 años,2020,17
+44122,Híjar,25 años,2020,20
+44122,Híjar,26 años,2020,23
+44122,Híjar,27 años,2020,19
+44122,Híjar,28 años,2020,16
+44122,Híjar,29 años,2020,24
+44122,Híjar,30 años,2020,11
+44122,Híjar,31 años,2020,17
+44122,Híjar,32 años,2020,24
+44122,Híjar,33 años,2020,20
+44122,Híjar,34 años,2020,19
+44122,Híjar,35 años,2020,13
+44122,Híjar,36 años,2020,20
+44122,Híjar,37 años,2020,12
+44122,Híjar,38 años,2020,13
+44122,Híjar,39 años,2020,29
+44122,Híjar,40 años,2020,18
+44123,Hinojosa de Jarque,19 años,2020,0.0
+44123,Hinojosa de Jarque,20 años,2020,1
+44123,Hinojosa de Jarque,21 años,2020,0.0
+44123,Hinojosa de Jarque,22 años,2020,1
+44123,Hinojosa de Jarque,23 años,2020,0.0
+44123,Hinojosa de Jarque,24 años,2020,0.0
+44123,Hinojosa de Jarque,25 años,2020,1
+44123,Hinojosa de Jarque,26 años,2020,2
+44123,Hinojosa de Jarque,27 años,2020,0.0
+44123,Hinojosa de Jarque,28 años,2020,0.0
+44123,Hinojosa de Jarque,29 años,2020,2
+44123,Hinojosa de Jarque,30 años,2020,1
+44123,Hinojosa de Jarque,31 años,2020,2
+44123,Hinojosa de Jarque,32 años,2020,2
+44123,Hinojosa de Jarque,33 años,2020,0.0
+44123,Hinojosa de Jarque,34 años,2020,1
+44123,Hinojosa de Jarque,35 años,2020,1
+44123,Hinojosa de Jarque,36 años,2020,1
+44123,Hinojosa de Jarque,37 años,2020,2
+44123,Hinojosa de Jarque,38 años,2020,0.0
+44123,Hinojosa de Jarque,39 años,2020,2
+44123,Hinojosa de Jarque,40 años,2020,2
+44124,Hoz de la Vieja La,19 años,2020,1
+44124,Hoz de la Vieja La,20 años,2020,0.0
+44124,Hoz de la Vieja La,21 años,2020,0.0
+44124,Hoz de la Vieja La,22 años,2020,0.0
+44124,Hoz de la Vieja La,23 años,2020,0.0
+44124,Hoz de la Vieja La,24 años,2020,0.0
+44124,Hoz de la Vieja La,25 años,2020,0.0
+44124,Hoz de la Vieja La,26 años,2020,1
+44124,Hoz de la Vieja La,27 años,2020,0.0
+44124,Hoz de la Vieja La,28 años,2020,0.0
+44124,Hoz de la Vieja La,29 años,2020,1
+44124,Hoz de la Vieja La,30 años,2020,1
+44124,Hoz de la Vieja La,31 años,2020,1
+44124,Hoz de la Vieja La,32 años,2020,0.0
+44124,Hoz de la Vieja La,33 años,2020,0.0
+44124,Hoz de la Vieja La,34 años,2020,0.0
+44124,Hoz de la Vieja La,35 años,2020,1
+44124,Hoz de la Vieja La,36 años,2020,1
+44124,Hoz de la Vieja La,37 años,2020,1
+44124,Hoz de la Vieja La,38 años,2020,0.0
+44124,Hoz de la Vieja La,39 años,2020,1
+44124,Hoz de la Vieja La,40 años,2020,3
+44125,Huesa del Común,19 años,2020,1
+44125,Huesa del Común,20 años,2020,0.0
+44125,Huesa del Común,21 años,2020,0.0
+44125,Huesa del Común,22 años,2020,1
+44125,Huesa del Común,23 años,2020,1
+44125,Huesa del Común,24 años,2020,0.0
+44125,Huesa del Común,25 años,2020,0.0
+44125,Huesa del Común,26 años,2020,0.0
+44125,Huesa del Común,27 años,2020,0.0
+44125,Huesa del Común,28 años,2020,0.0
+44125,Huesa del Común,29 años,2020,0.0
+44125,Huesa del Común,30 años,2020,0.0
+44125,Huesa del Común,31 años,2020,0.0
+44125,Huesa del Común,32 años,2020,0.0
+44125,Huesa del Común,33 años,2020,1
+44125,Huesa del Común,34 años,2020,1
+44125,Huesa del Común,35 años,2020,0.0
+44125,Huesa del Común,36 años,2020,0.0
+44125,Huesa del Común,37 años,2020,0.0
+44125,Huesa del Común,38 años,2020,0.0
+44125,Huesa del Común,39 años,2020,1
+44125,Huesa del Común,40 años,2020,2
+44126,Iglesuela del Cid La,19 años,2020,3
+44126,Iglesuela del Cid La,20 años,2020,4
+44126,Iglesuela del Cid La,21 años,2020,3
+44126,Iglesuela del Cid La,22 años,2020,2
+44126,Iglesuela del Cid La,23 años,2020,3
+44126,Iglesuela del Cid La,24 años,2020,6
+44126,Iglesuela del Cid La,25 años,2020,4
+44126,Iglesuela del Cid La,26 años,2020,1
+44126,Iglesuela del Cid La,27 años,2020,5
+44126,Iglesuela del Cid La,28 años,2020,2
+44126,Iglesuela del Cid La,29 años,2020,6
+44126,Iglesuela del Cid La,30 años,2020,5
+44126,Iglesuela del Cid La,31 años,2020,2
+44126,Iglesuela del Cid La,32 años,2020,9
+44126,Iglesuela del Cid La,33 años,2020,1
+44126,Iglesuela del Cid La,34 años,2020,2
+44126,Iglesuela del Cid La,35 años,2020,3
+44126,Iglesuela del Cid La,36 años,2020,4
+44126,Iglesuela del Cid La,37 años,2020,4
+44126,Iglesuela del Cid La,38 años,2020,4
+44126,Iglesuela del Cid La,39 años,2020,5
+44126,Iglesuela del Cid La,40 años,2020,4
+44127,Jabaloyas,19 años,2020,0.0
+44127,Jabaloyas,20 años,2020,0.0
+44127,Jabaloyas,21 años,2020,0.0
+44127,Jabaloyas,22 años,2020,0.0
+44127,Jabaloyas,23 años,2020,0.0
+44127,Jabaloyas,24 años,2020,1
+44127,Jabaloyas,25 años,2020,0.0
+44127,Jabaloyas,26 años,2020,1
+44127,Jabaloyas,27 años,2020,0.0
+44127,Jabaloyas,28 años,2020,0.0
+44127,Jabaloyas,29 años,2020,0.0
+44127,Jabaloyas,30 años,2020,1
+44127,Jabaloyas,31 años,2020,1
+44127,Jabaloyas,32 años,2020,0.0
+44127,Jabaloyas,33 años,2020,1
+44127,Jabaloyas,34 años,2020,1
+44127,Jabaloyas,35 años,2020,3
+44127,Jabaloyas,36 años,2020,0.0
+44127,Jabaloyas,37 años,2020,2
+44127,Jabaloyas,38 años,2020,0.0
+44127,Jabaloyas,39 años,2020,2
+44127,Jabaloyas,40 años,2020,1
+44128,Jarque de la Val,19 años,2020,1
+44128,Jarque de la Val,20 años,2020,0.0
+44128,Jarque de la Val,21 años,2020,0.0
+44128,Jarque de la Val,22 años,2020,0.0
+44128,Jarque de la Val,23 años,2020,0.0
+44128,Jarque de la Val,24 años,2020,0.0
+44128,Jarque de la Val,25 años,2020,1
+44128,Jarque de la Val,26 años,2020,1
+44128,Jarque de la Val,27 años,2020,0.0
+44128,Jarque de la Val,28 años,2020,0.0
+44128,Jarque de la Val,29 años,2020,0.0
+44128,Jarque de la Val,30 años,2020,0.0
+44128,Jarque de la Val,31 años,2020,1
+44128,Jarque de la Val,32 años,2020,0.0
+44128,Jarque de la Val,33 años,2020,0.0
+44128,Jarque de la Val,34 años,2020,0.0
+44128,Jarque de la Val,35 años,2020,1
+44128,Jarque de la Val,36 años,2020,1
+44128,Jarque de la Val,37 años,2020,0.0
+44128,Jarque de la Val,38 años,2020,0.0
+44128,Jarque de la Val,39 años,2020,1
+44128,Jarque de la Val,40 años,2020,1
+44129,Jatiel,19 años,2020,0.0
+44129,Jatiel,20 años,2020,0.0
+44129,Jatiel,21 años,2020,0.0
+44129,Jatiel,22 años,2020,1
+44129,Jatiel,23 años,2020,0.0
+44129,Jatiel,24 años,2020,1
+44129,Jatiel,25 años,2020,1
+44129,Jatiel,26 años,2020,1
+44129,Jatiel,27 años,2020,0.0
+44129,Jatiel,28 años,2020,3
+44129,Jatiel,29 años,2020,0.0
+44129,Jatiel,30 años,2020,0.0
+44129,Jatiel,31 años,2020,2
+44129,Jatiel,32 años,2020,0.0
+44129,Jatiel,33 años,2020,0.0
+44129,Jatiel,34 años,2020,1
+44129,Jatiel,35 años,2020,1
+44129,Jatiel,36 años,2020,0.0
+44129,Jatiel,37 años,2020,0.0
+44129,Jatiel,38 años,2020,0.0
+44129,Jatiel,39 años,2020,0.0
+44129,Jatiel,40 años,2020,0.0
+44130,Jorcas,19 años,2020,0.0
+44130,Jorcas,20 años,2020,1
+44130,Jorcas,21 años,2020,0.0
+44130,Jorcas,22 años,2020,0.0
+44130,Jorcas,23 años,2020,0.0
+44130,Jorcas,24 años,2020,0.0
+44130,Jorcas,25 años,2020,0.0
+44130,Jorcas,26 años,2020,0.0
+44130,Jorcas,27 años,2020,0.0
+44130,Jorcas,28 años,2020,0.0
+44130,Jorcas,29 años,2020,0.0
+44130,Jorcas,30 años,2020,0.0
+44130,Jorcas,31 años,2020,0.0
+44130,Jorcas,32 años,2020,0.0
+44130,Jorcas,33 años,2020,0.0
+44130,Jorcas,34 años,2020,0.0
+44130,Jorcas,35 años,2020,0.0
+44130,Jorcas,36 años,2020,1
+44130,Jorcas,37 años,2020,0.0
+44130,Jorcas,38 años,2020,0.0
+44130,Jorcas,39 años,2020,0.0
+44130,Jorcas,40 años,2020,0.0
+44131,Josa,19 años,2020,0.0
+44131,Josa,20 años,2020,0.0
+44131,Josa,21 años,2020,0.0
+44131,Josa,22 años,2020,0.0
+44131,Josa,23 años,2020,0.0
+44131,Josa,24 años,2020,2
+44131,Josa,25 años,2020,0.0
+44131,Josa,26 años,2020,1
+44131,Josa,27 años,2020,0.0
+44131,Josa,28 años,2020,0.0
+44131,Josa,29 años,2020,1
+44131,Josa,30 años,2020,1
+44131,Josa,31 años,2020,1
+44131,Josa,32 años,2020,1
+44131,Josa,33 años,2020,1
+44131,Josa,34 años,2020,0.0
+44131,Josa,35 años,2020,1
+44131,Josa,36 años,2020,0.0
+44131,Josa,37 años,2020,0.0
+44131,Josa,38 años,2020,0.0
+44131,Josa,39 años,2020,0.0
+44131,Josa,40 años,2020,1
+44132,Lagueruela,19 años,2020,1
+44132,Lagueruela,20 años,2020,0.0
+44132,Lagueruela,21 años,2020,0.0
+44132,Lagueruela,22 años,2020,0.0
+44132,Lagueruela,23 años,2020,1
+44132,Lagueruela,24 años,2020,0.0
+44132,Lagueruela,25 años,2020,1
+44132,Lagueruela,26 años,2020,0.0
+44132,Lagueruela,27 años,2020,0.0
+44132,Lagueruela,28 años,2020,0.0
+44132,Lagueruela,29 años,2020,1
+44132,Lagueruela,30 años,2020,1
+44132,Lagueruela,31 años,2020,0.0
+44132,Lagueruela,32 años,2020,1
+44132,Lagueruela,33 años,2020,2
+44132,Lagueruela,34 años,2020,0.0
+44132,Lagueruela,35 años,2020,0.0
+44132,Lagueruela,36 años,2020,0.0
+44132,Lagueruela,37 años,2020,0.0
+44132,Lagueruela,38 años,2020,0.0
+44132,Lagueruela,39 años,2020,0.0
+44132,Lagueruela,40 años,2020,0.0
+44133,Lanzuela,19 años,2020,0.0
+44133,Lanzuela,20 años,2020,0.0
+44133,Lanzuela,21 años,2020,0.0
+44133,Lanzuela,22 años,2020,1
+44133,Lanzuela,23 años,2020,0.0
+44133,Lanzuela,24 años,2020,0.0
+44133,Lanzuela,25 años,2020,0.0
+44133,Lanzuela,26 años,2020,0.0
+44133,Lanzuela,27 años,2020,0.0
+44133,Lanzuela,28 años,2020,1
+44133,Lanzuela,29 años,2020,1
+44133,Lanzuela,30 años,2020,1
+44133,Lanzuela,31 años,2020,0.0
+44133,Lanzuela,32 años,2020,0.0
+44133,Lanzuela,33 años,2020,1
+44133,Lanzuela,34 años,2020,0.0
+44133,Lanzuela,35 años,2020,1
+44133,Lanzuela,36 años,2020,0.0
+44133,Lanzuela,37 años,2020,0.0
+44133,Lanzuela,38 años,2020,0.0
+44133,Lanzuela,39 años,2020,0.0
+44133,Lanzuela,40 años,2020,0.0
+44135,Libros,19 años,2020,1
+44135,Libros,20 años,2020,0.0
+44135,Libros,21 años,2020,0.0
+44135,Libros,22 años,2020,1
+44135,Libros,23 años,2020,1
+44135,Libros,24 años,2020,0.0
+44135,Libros,25 años,2020,1
+44135,Libros,26 años,2020,2
+44135,Libros,27 años,2020,1
+44135,Libros,28 años,2020,0.0
+44135,Libros,29 años,2020,0.0
+44135,Libros,30 años,2020,1
+44135,Libros,31 años,2020,1
+44135,Libros,32 años,2020,3
+44135,Libros,33 años,2020,1
+44135,Libros,34 años,2020,1
+44135,Libros,35 años,2020,0.0
+44135,Libros,36 años,2020,0.0
+44135,Libros,37 años,2020,2
+44135,Libros,38 años,2020,1
+44135,Libros,39 años,2020,0.0
+44135,Libros,40 años,2020,0.0
+44136,Lidón,19 años,2020,0.0
+44136,Lidón,20 años,2020,1
+44136,Lidón,21 años,2020,1
+44136,Lidón,22 años,2020,0.0
+44136,Lidón,23 años,2020,1
+44136,Lidón,24 años,2020,0.0
+44136,Lidón,25 años,2020,0.0
+44136,Lidón,26 años,2020,0.0
+44136,Lidón,27 años,2020,0.0
+44136,Lidón,28 años,2020,1
+44136,Lidón,29 años,2020,0.0
+44136,Lidón,30 años,2020,0.0
+44136,Lidón,31 años,2020,0.0
+44136,Lidón,32 años,2020,1
+44136,Lidón,33 años,2020,1
+44136,Lidón,34 años,2020,0.0
+44136,Lidón,35 años,2020,0.0
+44136,Lidón,36 años,2020,0.0
+44136,Lidón,37 años,2020,0.0
+44136,Lidón,38 años,2020,1
+44136,Lidón,39 años,2020,0.0
+44136,Lidón,40 años,2020,0.0
+44137,Linares de Mora,19 años,2020,1
+44137,Linares de Mora,20 años,2020,1
+44137,Linares de Mora,21 años,2020,1
+44137,Linares de Mora,22 años,2020,1
+44137,Linares de Mora,23 años,2020,3
+44137,Linares de Mora,24 años,2020,3
+44137,Linares de Mora,25 años,2020,0.0
+44137,Linares de Mora,26 años,2020,3
+44137,Linares de Mora,27 años,2020,1
+44137,Linares de Mora,28 años,2020,2
+44137,Linares de Mora,29 años,2020,2
+44137,Linares de Mora,30 años,2020,3
+44137,Linares de Mora,31 años,2020,1
+44137,Linares de Mora,32 años,2020,5
+44137,Linares de Mora,33 años,2020,1
+44137,Linares de Mora,34 años,2020,3
+44137,Linares de Mora,35 años,2020,4
+44137,Linares de Mora,36 años,2020,4
+44137,Linares de Mora,37 años,2020,2
+44137,Linares de Mora,38 años,2020,5
+44137,Linares de Mora,39 años,2020,3
+44137,Linares de Mora,40 años,2020,5
+44138,Loscos,19 años,2020,1
+44138,Loscos,20 años,2020,2
+44138,Loscos,21 años,2020,0.0
+44138,Loscos,22 años,2020,2
+44138,Loscos,23 años,2020,0.0
+44138,Loscos,24 años,2020,2
+44138,Loscos,25 años,2020,1
+44138,Loscos,26 años,2020,1
+44138,Loscos,27 años,2020,1
+44138,Loscos,28 años,2020,0.0
+44138,Loscos,29 años,2020,0.0
+44138,Loscos,30 años,2020,0.0
+44138,Loscos,31 años,2020,1
+44138,Loscos,32 años,2020,2
+44138,Loscos,33 años,2020,3
+44138,Loscos,34 años,2020,1
+44138,Loscos,35 años,2020,1
+44138,Loscos,36 años,2020,2
+44138,Loscos,37 años,2020,0.0
+44138,Loscos,38 años,2020,3
+44138,Loscos,39 años,2020,1
+44138,Loscos,40 años,2020,2
+44141,Lledó,19 años,2020,0.0
+44141,Lledó,20 años,2020,1
+44141,Lledó,21 años,2020,1
+44141,Lledó,22 años,2020,0.0
+44141,Lledó,23 años,2020,0.0
+44141,Lledó,24 años,2020,2
+44141,Lledó,25 años,2020,0.0
+44141,Lledó,26 años,2020,3
+44141,Lledó,27 años,2020,0.0
+44141,Lledó,28 años,2020,0.0
+44141,Lledó,29 años,2020,1
+44141,Lledó,30 años,2020,3
+44141,Lledó,31 años,2020,2
+44141,Lledó,32 años,2020,1
+44141,Lledó,33 años,2020,1
+44141,Lledó,34 años,2020,2
+44141,Lledó,35 años,2020,0.0
+44141,Lledó,36 años,2020,3
+44141,Lledó,37 años,2020,2
+44141,Lledó,38 años,2020,1
+44141,Lledó,39 años,2020,1
+44141,Lledó,40 años,2020,3
+44142,Maicas,19 años,2020,0.0
+44142,Maicas,20 años,2020,0.0
+44142,Maicas,21 años,2020,0.0
+44142,Maicas,22 años,2020,0.0
+44142,Maicas,23 años,2020,0.0
+44142,Maicas,24 años,2020,0.0
+44142,Maicas,25 años,2020,0.0
+44142,Maicas,26 años,2020,1
+44142,Maicas,27 años,2020,0.0
+44142,Maicas,28 años,2020,0.0
+44142,Maicas,29 años,2020,0.0
+44142,Maicas,30 años,2020,2
+44142,Maicas,31 años,2020,0.0
+44142,Maicas,32 años,2020,0.0
+44142,Maicas,33 años,2020,0.0
+44142,Maicas,34 años,2020,0.0
+44142,Maicas,35 años,2020,0.0
+44142,Maicas,36 años,2020,0.0
+44142,Maicas,37 años,2020,0.0
+44142,Maicas,38 años,2020,0.0
+44142,Maicas,39 años,2020,0.0
+44142,Maicas,40 años,2020,0.0
+44143,Manzanera,19 años,2020,8
+44143,Manzanera,20 años,2020,11
+44143,Manzanera,21 años,2020,5
+44143,Manzanera,22 años,2020,8
+44143,Manzanera,23 años,2020,5
+44143,Manzanera,24 años,2020,4
+44143,Manzanera,25 años,2020,8
+44143,Manzanera,26 años,2020,7
+44143,Manzanera,27 años,2020,3
+44143,Manzanera,28 años,2020,7
+44143,Manzanera,29 años,2020,9
+44143,Manzanera,30 años,2020,8
+44143,Manzanera,31 años,2020,9
+44143,Manzanera,32 años,2020,7
+44143,Manzanera,33 años,2020,5
+44143,Manzanera,34 años,2020,5
+44143,Manzanera,35 años,2020,8
+44143,Manzanera,36 años,2020,7
+44143,Manzanera,37 años,2020,4
+44143,Manzanera,38 años,2020,6
+44143,Manzanera,39 años,2020,10
+44143,Manzanera,40 años,2020,2
+44144,Martín del Río,19 años,2020,2
+44144,Martín del Río,20 años,2020,5
+44144,Martín del Río,21 años,2020,3
+44144,Martín del Río,22 años,2020,5
+44144,Martín del Río,23 años,2020,3
+44144,Martín del Río,24 años,2020,5
+44144,Martín del Río,25 años,2020,3
+44144,Martín del Río,26 años,2020,6
+44144,Martín del Río,27 años,2020,4
+44144,Martín del Río,28 años,2020,1
+44144,Martín del Río,29 años,2020,3
+44144,Martín del Río,30 años,2020,2
+44144,Martín del Río,31 años,2020,3
+44144,Martín del Río,32 años,2020,7
+44144,Martín del Río,33 años,2020,6
+44144,Martín del Río,34 años,2020,3
+44144,Martín del Río,35 años,2020,2
+44144,Martín del Río,36 años,2020,5
+44144,Martín del Río,37 años,2020,5
+44144,Martín del Río,38 años,2020,4
+44144,Martín del Río,39 años,2020,6
+44144,Martín del Río,40 años,2020,7
+44145,Mas de las Matas,19 años,2020,8
+44145,Mas de las Matas,20 años,2020,11
+44145,Mas de las Matas,21 años,2020,6
+44145,Mas de las Matas,22 años,2020,15
+44145,Mas de las Matas,23 años,2020,12
+44145,Mas de las Matas,24 años,2020,12
+44145,Mas de las Matas,25 años,2020,10
+44145,Mas de las Matas,26 años,2020,15
+44145,Mas de las Matas,27 años,2020,7
+44145,Mas de las Matas,28 años,2020,4
+44145,Mas de las Matas,29 años,2020,14
+44145,Mas de las Matas,30 años,2020,11
+44145,Mas de las Matas,31 años,2020,17
+44145,Mas de las Matas,32 años,2020,11
+44145,Mas de las Matas,33 años,2020,20
+44145,Mas de las Matas,34 años,2020,12
+44145,Mas de las Matas,35 años,2020,11
+44145,Mas de las Matas,36 años,2020,16
+44145,Mas de las Matas,37 años,2020,18
+44145,Mas de las Matas,38 años,2020,18
+44145,Mas de las Matas,39 años,2020,10
+44145,Mas de las Matas,40 años,2020,11
+44146,Mata de los Olmos La,19 años,2020,4
+44146,Mata de los Olmos La,20 años,2020,1
+44146,Mata de los Olmos La,21 años,2020,7
+44146,Mata de los Olmos La,22 años,2020,3
+44146,Mata de los Olmos La,23 años,2020,2
+44146,Mata de los Olmos La,24 años,2020,4
+44146,Mata de los Olmos La,25 años,2020,3
+44146,Mata de los Olmos La,26 años,2020,3
+44146,Mata de los Olmos La,27 años,2020,6
+44146,Mata de los Olmos La,28 años,2020,2
+44146,Mata de los Olmos La,29 años,2020,2
+44146,Mata de los Olmos La,30 años,2020,2
+44146,Mata de los Olmos La,31 años,2020,2
+44146,Mata de los Olmos La,32 años,2020,1
+44146,Mata de los Olmos La,33 años,2020,7
+44146,Mata de los Olmos La,34 años,2020,6
+44146,Mata de los Olmos La,35 años,2020,7
+44146,Mata de los Olmos La,36 años,2020,3
+44146,Mata de los Olmos La,37 años,2020,3
+44146,Mata de los Olmos La,38 años,2020,2
+44146,Mata de los Olmos La,39 años,2020,2
+44146,Mata de los Olmos La,40 años,2020,2
+44147,Mazaleón,19 años,2020,3
+44147,Mazaleón,20 años,2020,9
+44147,Mazaleón,21 años,2020,8
+44147,Mazaleón,22 años,2020,4
+44147,Mazaleón,23 años,2020,5
+44147,Mazaleón,24 años,2020,7
+44147,Mazaleón,25 años,2020,10
+44147,Mazaleón,26 años,2020,8
+44147,Mazaleón,27 años,2020,8
+44147,Mazaleón,28 años,2020,5
+44147,Mazaleón,29 años,2020,3
+44147,Mazaleón,30 años,2020,6
+44147,Mazaleón,31 años,2020,7
+44147,Mazaleón,32 años,2020,7
+44147,Mazaleón,33 años,2020,4
+44147,Mazaleón,34 años,2020,9
+44147,Mazaleón,35 años,2020,3
+44147,Mazaleón,36 años,2020,2
+44147,Mazaleón,37 años,2020,3
+44147,Mazaleón,38 años,2020,8
+44147,Mazaleón,39 años,2020,1
+44147,Mazaleón,40 años,2020,8
+44148,Mezquita de Jarque,19 años,2020,0.0
+44148,Mezquita de Jarque,20 años,2020,0.0
+44148,Mezquita de Jarque,21 años,2020,0.0
+44148,Mezquita de Jarque,22 años,2020,2
+44148,Mezquita de Jarque,23 años,2020,0.0
+44148,Mezquita de Jarque,24 años,2020,2
+44148,Mezquita de Jarque,25 años,2020,1
+44148,Mezquita de Jarque,26 años,2020,0.0
+44148,Mezquita de Jarque,27 años,2020,3
+44148,Mezquita de Jarque,28 años,2020,1
+44148,Mezquita de Jarque,29 años,2020,1
+44148,Mezquita de Jarque,30 años,2020,1
+44148,Mezquita de Jarque,31 años,2020,2
+44148,Mezquita de Jarque,32 años,2020,0.0
+44148,Mezquita de Jarque,33 años,2020,0.0
+44148,Mezquita de Jarque,34 años,2020,2
+44148,Mezquita de Jarque,35 años,2020,1
+44148,Mezquita de Jarque,36 años,2020,2
+44148,Mezquita de Jarque,37 años,2020,0.0
+44148,Mezquita de Jarque,38 años,2020,2
+44148,Mezquita de Jarque,39 años,2020,2
+44148,Mezquita de Jarque,40 años,2020,2
+44149,Mirambel,19 años,2020,0.0
+44149,Mirambel,20 años,2020,1
+44149,Mirambel,21 años,2020,0.0
+44149,Mirambel,22 años,2020,1
+44149,Mirambel,23 años,2020,0.0
+44149,Mirambel,24 años,2020,1
+44149,Mirambel,25 años,2020,0.0
+44149,Mirambel,26 años,2020,0.0
+44149,Mirambel,27 años,2020,0.0
+44149,Mirambel,28 años,2020,0.0
+44149,Mirambel,29 años,2020,5
+44149,Mirambel,30 años,2020,2
+44149,Mirambel,31 años,2020,3
+44149,Mirambel,32 años,2020,2
+44149,Mirambel,33 años,2020,3
+44149,Mirambel,34 años,2020,0.0
+44149,Mirambel,35 años,2020,1
+44149,Mirambel,36 años,2020,4
+44149,Mirambel,37 años,2020,1
+44149,Mirambel,38 años,2020,4
+44149,Mirambel,39 años,2020,1
+44149,Mirambel,40 años,2020,1
+44150,Miravete de la Sierra,19 años,2020,3
+44150,Miravete de la Sierra,20 años,2020,2
+44150,Miravete de la Sierra,21 años,2020,2
+44150,Miravete de la Sierra,22 años,2020,0.0
+44150,Miravete de la Sierra,23 años,2020,0.0
+44150,Miravete de la Sierra,24 años,2020,1
+44150,Miravete de la Sierra,25 años,2020,0.0
+44150,Miravete de la Sierra,26 años,2020,1
+44150,Miravete de la Sierra,27 años,2020,1
+44150,Miravete de la Sierra,28 años,2020,1
+44150,Miravete de la Sierra,29 años,2020,0.0
+44150,Miravete de la Sierra,30 años,2020,0.0
+44150,Miravete de la Sierra,31 años,2020,0.0
+44150,Miravete de la Sierra,32 años,2020,0.0
+44150,Miravete de la Sierra,33 años,2020,0.0
+44150,Miravete de la Sierra,34 años,2020,1
+44150,Miravete de la Sierra,35 años,2020,1
+44150,Miravete de la Sierra,36 años,2020,0.0
+44150,Miravete de la Sierra,37 años,2020,0.0
+44150,Miravete de la Sierra,38 años,2020,0.0
+44150,Miravete de la Sierra,39 años,2020,2
+44150,Miravete de la Sierra,40 años,2020,0.0
+44151,Molinos,19 años,2020,5
+44151,Molinos,20 años,2020,0.0
+44151,Molinos,21 años,2020,2
+44151,Molinos,22 años,2020,0.0
+44151,Molinos,23 años,2020,1
+44151,Molinos,24 años,2020,2
+44151,Molinos,25 años,2020,4
+44151,Molinos,26 años,2020,1
+44151,Molinos,27 años,2020,1
+44151,Molinos,28 años,2020,2
+44151,Molinos,29 años,2020,2
+44151,Molinos,30 años,2020,0.0
+44151,Molinos,31 años,2020,3
+44151,Molinos,32 años,2020,1
+44151,Molinos,33 años,2020,4
+44151,Molinos,34 años,2020,3
+44151,Molinos,35 años,2020,1
+44151,Molinos,36 años,2020,1
+44151,Molinos,37 años,2020,3
+44151,Molinos,38 años,2020,1
+44151,Molinos,39 años,2020,2
+44151,Molinos,40 años,2020,2
+44152,Monforte de Moyuela,19 años,2020,1
+44152,Monforte de Moyuela,20 años,2020,0.0
+44152,Monforte de Moyuela,21 años,2020,0.0
+44152,Monforte de Moyuela,22 años,2020,0.0
+44152,Monforte de Moyuela,23 años,2020,0.0
+44152,Monforte de Moyuela,24 años,2020,1
+44152,Monforte de Moyuela,25 años,2020,0.0
+44152,Monforte de Moyuela,26 años,2020,0.0
+44152,Monforte de Moyuela,27 años,2020,0.0
+44152,Monforte de Moyuela,28 años,2020,1
+44152,Monforte de Moyuela,29 años,2020,1
+44152,Monforte de Moyuela,30 años,2020,3
+44152,Monforte de Moyuela,31 años,2020,1
+44152,Monforte de Moyuela,32 años,2020,0.0
+44152,Monforte de Moyuela,33 años,2020,1
+44152,Monforte de Moyuela,34 años,2020,1
+44152,Monforte de Moyuela,35 años,2020,0.0
+44152,Monforte de Moyuela,36 años,2020,0.0
+44152,Monforte de Moyuela,37 años,2020,0.0
+44152,Monforte de Moyuela,38 años,2020,1
+44152,Monforte de Moyuela,39 años,2020,1
+44152,Monforte de Moyuela,40 años,2020,0.0
+44153,Monreal del Campo,19 años,2020,26
+44153,Monreal del Campo,20 años,2020,21
+44153,Monreal del Campo,21 años,2020,23
+44153,Monreal del Campo,22 años,2020,26
+44153,Monreal del Campo,23 años,2020,22
+44153,Monreal del Campo,24 años,2020,25
+44153,Monreal del Campo,25 años,2020,28
+44153,Monreal del Campo,26 años,2020,32
+44153,Monreal del Campo,27 años,2020,25
+44153,Monreal del Campo,28 años,2020,28
+44153,Monreal del Campo,29 años,2020,41
+44153,Monreal del Campo,30 años,2020,44
+44153,Monreal del Campo,31 años,2020,21
+44153,Monreal del Campo,32 años,2020,32
+44153,Monreal del Campo,33 años,2020,29
+44153,Monreal del Campo,34 años,2020,29
+44153,Monreal del Campo,35 años,2020,30
+44153,Monreal del Campo,36 años,2020,33
+44153,Monreal del Campo,37 años,2020,36
+44153,Monreal del Campo,38 años,2020,46
+44153,Monreal del Campo,39 años,2020,34
+44153,Monreal del Campo,40 años,2020,32
+44154,Monroyo,19 años,2020,1
+44154,Monroyo,20 años,2020,4
+44154,Monroyo,21 años,2020,4
+44154,Monroyo,22 años,2020,1
+44154,Monroyo,23 años,2020,5
+44154,Monroyo,24 años,2020,2
+44154,Monroyo,25 años,2020,6
+44154,Monroyo,26 años,2020,4
+44154,Monroyo,27 años,2020,5
+44154,Monroyo,28 años,2020,4
+44154,Monroyo,29 años,2020,5
+44154,Monroyo,30 años,2020,2
+44154,Monroyo,31 años,2020,3
+44154,Monroyo,32 años,2020,4
+44154,Monroyo,33 años,2020,4
+44154,Monroyo,34 años,2020,5
+44154,Monroyo,35 años,2020,7
+44154,Monroyo,36 años,2020,6
+44154,Monroyo,37 años,2020,5
+44154,Monroyo,38 años,2020,3
+44154,Monroyo,39 años,2020,4
+44154,Monroyo,40 años,2020,6
+44155,Montalbán,19 años,2020,9
+44155,Montalbán,20 años,2020,10
+44155,Montalbán,21 años,2020,13
+44155,Montalbán,22 años,2020,12
+44155,Montalbán,23 años,2020,7
+44155,Montalbán,24 años,2020,14
+44155,Montalbán,25 años,2020,17
+44155,Montalbán,26 años,2020,15
+44155,Montalbán,27 años,2020,14
+44155,Montalbán,28 años,2020,14
+44155,Montalbán,29 años,2020,14
+44155,Montalbán,30 años,2020,16
+44155,Montalbán,31 años,2020,12
+44155,Montalbán,32 años,2020,15
+44155,Montalbán,33 años,2020,21
+44155,Montalbán,34 años,2020,14
+44155,Montalbán,35 años,2020,16
+44155,Montalbán,36 años,2020,17
+44155,Montalbán,37 años,2020,12
+44155,Montalbán,38 años,2020,22
+44155,Montalbán,39 años,2020,12
+44155,Montalbán,40 años,2020,14
+44156,Monteagudo del Castillo,19 años,2020,1
+44156,Monteagudo del Castillo,20 años,2020,0.0
+44156,Monteagudo del Castillo,21 años,2020,0.0
+44156,Monteagudo del Castillo,22 años,2020,0.0
+44156,Monteagudo del Castillo,23 años,2020,1
+44156,Monteagudo del Castillo,24 años,2020,0.0
+44156,Monteagudo del Castillo,25 años,2020,1
+44156,Monteagudo del Castillo,26 años,2020,0.0
+44156,Monteagudo del Castillo,27 años,2020,0.0
+44156,Monteagudo del Castillo,28 años,2020,0.0
+44156,Monteagudo del Castillo,29 años,2020,1
+44156,Monteagudo del Castillo,30 años,2020,1
+44156,Monteagudo del Castillo,31 años,2020,1
+44156,Monteagudo del Castillo,32 años,2020,0.0
+44156,Monteagudo del Castillo,33 años,2020,2
+44156,Monteagudo del Castillo,34 años,2020,0.0
+44156,Monteagudo del Castillo,35 años,2020,0.0
+44156,Monteagudo del Castillo,36 años,2020,0.0
+44156,Monteagudo del Castillo,37 años,2020,1
+44156,Monteagudo del Castillo,38 años,2020,1
+44156,Monteagudo del Castillo,39 años,2020,1
+44156,Monteagudo del Castillo,40 años,2020,1
+44157,Monterde de Albarracín,19 años,2020,0.0
+44157,Monterde de Albarracín,20 años,2020,0.0
+44157,Monterde de Albarracín,21 años,2020,0.0
+44157,Monterde de Albarracín,22 años,2020,0.0
+44157,Monterde de Albarracín,23 años,2020,0.0
+44157,Monterde de Albarracín,24 años,2020,0.0
+44157,Monterde de Albarracín,25 años,2020,2
+44157,Monterde de Albarracín,26 años,2020,0.0
+44157,Monterde de Albarracín,27 años,2020,1
+44157,Monterde de Albarracín,28 años,2020,2
+44157,Monterde de Albarracín,29 años,2020,0.0
+44157,Monterde de Albarracín,30 años,2020,0.0
+44157,Monterde de Albarracín,31 años,2020,0.0
+44157,Monterde de Albarracín,32 años,2020,1
+44157,Monterde de Albarracín,33 años,2020,1
+44157,Monterde de Albarracín,34 años,2020,0.0
+44157,Monterde de Albarracín,35 años,2020,1
+44157,Monterde de Albarracín,36 años,2020,0.0
+44157,Monterde de Albarracín,37 años,2020,0.0
+44157,Monterde de Albarracín,38 años,2020,0.0
+44157,Monterde de Albarracín,39 años,2020,0.0
+44157,Monterde de Albarracín,40 años,2020,1
+44158,Mora de Rubielos,19 años,2020,18
+44158,Mora de Rubielos,20 años,2020,14
+44158,Mora de Rubielos,21 años,2020,11
+44158,Mora de Rubielos,22 años,2020,22
+44158,Mora de Rubielos,23 años,2020,16
+44158,Mora de Rubielos,24 años,2020,18
+44158,Mora de Rubielos,25 años,2020,18
+44158,Mora de Rubielos,26 años,2020,28
+44158,Mora de Rubielos,27 años,2020,22
+44158,Mora de Rubielos,28 años,2020,26
+44158,Mora de Rubielos,29 años,2020,16
+44158,Mora de Rubielos,30 años,2020,18
+44158,Mora de Rubielos,31 años,2020,16
+44158,Mora de Rubielos,32 años,2020,11
+44158,Mora de Rubielos,33 años,2020,15
+44158,Mora de Rubielos,34 años,2020,16
+44158,Mora de Rubielos,35 años,2020,18
+44158,Mora de Rubielos,36 años,2020,18
+44158,Mora de Rubielos,37 años,2020,16
+44158,Mora de Rubielos,38 años,2020,25
+44158,Mora de Rubielos,39 años,2020,28
+44158,Mora de Rubielos,40 años,2020,30
+44159,Moscardón,19 años,2020,1
+44159,Moscardón,20 años,2020,0.0
+44159,Moscardón,21 años,2020,0.0
+44159,Moscardón,22 años,2020,0.0
+44159,Moscardón,23 años,2020,0.0
+44159,Moscardón,24 años,2020,0.0
+44159,Moscardón,25 años,2020,0.0
+44159,Moscardón,26 años,2020,0.0
+44159,Moscardón,27 años,2020,0.0
+44159,Moscardón,28 años,2020,0.0
+44159,Moscardón,29 años,2020,0.0
+44159,Moscardón,30 años,2020,0.0
+44159,Moscardón,31 años,2020,0.0
+44159,Moscardón,32 años,2020,0.0
+44159,Moscardón,33 años,2020,1
+44159,Moscardón,34 años,2020,1
+44159,Moscardón,35 años,2020,0.0
+44159,Moscardón,36 años,2020,0.0
+44159,Moscardón,37 años,2020,3
+44159,Moscardón,38 años,2020,1
+44159,Moscardón,39 años,2020,0.0
+44159,Moscardón,40 años,2020,0.0
+44160,Mosqueruela,19 años,2020,4
+44160,Mosqueruela,20 años,2020,4
+44160,Mosqueruela,21 años,2020,5
+44160,Mosqueruela,22 años,2020,3
+44160,Mosqueruela,23 años,2020,8
+44160,Mosqueruela,24 años,2020,5
+44160,Mosqueruela,25 años,2020,6
+44160,Mosqueruela,26 años,2020,4
+44160,Mosqueruela,27 años,2020,6
+44160,Mosqueruela,28 años,2020,0.0
+44160,Mosqueruela,29 años,2020,4
+44160,Mosqueruela,30 años,2020,6
+44160,Mosqueruela,31 años,2020,3
+44160,Mosqueruela,32 años,2020,4
+44160,Mosqueruela,33 años,2020,9
+44160,Mosqueruela,34 años,2020,7
+44160,Mosqueruela,35 años,2020,9
+44160,Mosqueruela,36 años,2020,8
+44160,Mosqueruela,37 años,2020,7
+44160,Mosqueruela,38 años,2020,7
+44160,Mosqueruela,39 años,2020,5
+44160,Mosqueruela,40 años,2020,3
+44161,Muniesa,19 años,2020,9
+44161,Muniesa,20 años,2020,6
+44161,Muniesa,21 años,2020,5
+44161,Muniesa,22 años,2020,2
+44161,Muniesa,23 años,2020,7
+44161,Muniesa,24 años,2020,0.0
+44161,Muniesa,25 años,2020,12
+44161,Muniesa,26 años,2020,7
+44161,Muniesa,27 años,2020,7
+44161,Muniesa,28 años,2020,5
+44161,Muniesa,29 años,2020,4
+44161,Muniesa,30 años,2020,8
+44161,Muniesa,31 años,2020,5
+44161,Muniesa,32 años,2020,11
+44161,Muniesa,33 años,2020,9
+44161,Muniesa,34 años,2020,0.0
+44161,Muniesa,35 años,2020,5
+44161,Muniesa,36 años,2020,5
+44161,Muniesa,37 años,2020,4
+44161,Muniesa,38 años,2020,7
+44161,Muniesa,39 años,2020,6
+44161,Muniesa,40 años,2020,4
+44163,Noguera de Albarracín,19 años,2020,0.0
+44163,Noguera de Albarracín,20 años,2020,0.0
+44163,Noguera de Albarracín,21 años,2020,3
+44163,Noguera de Albarracín,22 años,2020,1
+44163,Noguera de Albarracín,23 años,2020,1
+44163,Noguera de Albarracín,24 años,2020,1
+44163,Noguera de Albarracín,25 años,2020,2
+44163,Noguera de Albarracín,26 años,2020,2
+44163,Noguera de Albarracín,27 años,2020,1
+44163,Noguera de Albarracín,28 años,2020,1
+44163,Noguera de Albarracín,29 años,2020,2
+44163,Noguera de Albarracín,30 años,2020,1
+44163,Noguera de Albarracín,31 años,2020,4
+44163,Noguera de Albarracín,32 años,2020,2
+44163,Noguera de Albarracín,33 años,2020,1
+44163,Noguera de Albarracín,34 años,2020,3
+44163,Noguera de Albarracín,35 años,2020,2
+44163,Noguera de Albarracín,36 años,2020,0.0
+44163,Noguera de Albarracín,37 años,2020,1
+44163,Noguera de Albarracín,38 años,2020,1
+44163,Noguera de Albarracín,39 años,2020,1
+44163,Noguera de Albarracín,40 años,2020,0.0
+44164,Nogueras,19 años,2020,0.0
+44164,Nogueras,20 años,2020,0.0
+44164,Nogueras,21 años,2020,0.0
+44164,Nogueras,22 años,2020,0.0
+44164,Nogueras,23 años,2020,0.0
+44164,Nogueras,24 años,2020,0.0
+44164,Nogueras,25 años,2020,0.0
+44164,Nogueras,26 años,2020,0.0
+44164,Nogueras,27 años,2020,0.0
+44164,Nogueras,28 años,2020,0.0
+44164,Nogueras,29 años,2020,0.0
+44164,Nogueras,30 años,2020,0.0
+44164,Nogueras,31 años,2020,0.0
+44164,Nogueras,32 años,2020,0.0
+44164,Nogueras,33 años,2020,0.0
+44164,Nogueras,34 años,2020,0.0
+44164,Nogueras,35 años,2020,0.0
+44164,Nogueras,36 años,2020,0.0
+44164,Nogueras,37 años,2020,0.0
+44164,Nogueras,38 años,2020,0.0
+44164,Nogueras,39 años,2020,0.0
+44164,Nogueras,40 años,2020,0.0
+44165,Nogueruelas,19 años,2020,2
+44165,Nogueruelas,20 años,2020,2
+44165,Nogueruelas,21 años,2020,0.0
+44165,Nogueruelas,22 años,2020,1
+44165,Nogueruelas,23 años,2020,2
+44165,Nogueruelas,24 años,2020,3
+44165,Nogueruelas,25 años,2020,1
+44165,Nogueruelas,26 años,2020,1
+44165,Nogueruelas,27 años,2020,2
+44165,Nogueruelas,28 años,2020,4
+44165,Nogueruelas,29 años,2020,2
+44165,Nogueruelas,30 años,2020,2
+44165,Nogueruelas,31 años,2020,0.0
+44165,Nogueruelas,32 años,2020,1
+44165,Nogueruelas,33 años,2020,0.0
+44165,Nogueruelas,34 años,2020,3
+44165,Nogueruelas,35 años,2020,2
+44165,Nogueruelas,36 años,2020,2
+44165,Nogueruelas,37 años,2020,3
+44165,Nogueruelas,38 años,2020,2
+44165,Nogueruelas,39 años,2020,4
+44165,Nogueruelas,40 años,2020,2
+44167,Obón,19 años,2020,0.0
+44167,Obón,20 años,2020,0.0
+44167,Obón,21 años,2020,0.0
+44167,Obón,22 años,2020,0.0
+44167,Obón,23 años,2020,0.0
+44167,Obón,24 años,2020,0.0
+44167,Obón,25 años,2020,0.0
+44167,Obón,26 años,2020,0.0
+44167,Obón,27 años,2020,0.0
+44167,Obón,28 años,2020,0.0
+44167,Obón,29 años,2020,1
+44167,Obón,30 años,2020,0.0
+44167,Obón,31 años,2020,0.0
+44167,Obón,32 años,2020,0.0
+44167,Obón,33 años,2020,0.0
+44167,Obón,34 años,2020,0.0
+44167,Obón,35 años,2020,0.0
+44167,Obón,36 años,2020,0.0
+44167,Obón,37 años,2020,0.0
+44167,Obón,38 años,2020,0.0
+44167,Obón,39 años,2020,0.0
+44167,Obón,40 años,2020,0.0
+44168,Odón,19 años,2020,3
+44168,Odón,20 años,2020,0.0
+44168,Odón,21 años,2020,1
+44168,Odón,22 años,2020,2
+44168,Odón,23 años,2020,1
+44168,Odón,24 años,2020,2
+44168,Odón,25 años,2020,0.0
+44168,Odón,26 años,2020,0.0
+44168,Odón,27 años,2020,4
+44168,Odón,28 años,2020,2
+44168,Odón,29 años,2020,5
+44168,Odón,30 años,2020,1
+44168,Odón,31 años,2020,0.0
+44168,Odón,32 años,2020,2
+44168,Odón,33 años,2020,1
+44168,Odón,34 años,2020,4
+44168,Odón,35 años,2020,0.0
+44168,Odón,36 años,2020,0.0
+44168,Odón,37 años,2020,1
+44168,Odón,38 años,2020,2
+44168,Odón,39 años,2020,1
+44168,Odón,40 años,2020,1
+44169,Ojos Negros,19 años,2020,1
+44169,Ojos Negros,20 años,2020,2
+44169,Ojos Negros,21 años,2020,0.0
+44169,Ojos Negros,22 años,2020,4
+44169,Ojos Negros,23 años,2020,2
+44169,Ojos Negros,24 años,2020,2
+44169,Ojos Negros,25 años,2020,1
+44169,Ojos Negros,26 años,2020,2
+44169,Ojos Negros,27 años,2020,5
+44169,Ojos Negros,28 años,2020,3
+44169,Ojos Negros,29 años,2020,4
+44169,Ojos Negros,30 años,2020,1
+44169,Ojos Negros,31 años,2020,1
+44169,Ojos Negros,32 años,2020,2
+44169,Ojos Negros,33 años,2020,3
+44169,Ojos Negros,34 años,2020,3
+44169,Ojos Negros,35 años,2020,3
+44169,Ojos Negros,36 años,2020,1
+44169,Ojos Negros,37 años,2020,2
+44169,Ojos Negros,38 años,2020,3
+44169,Ojos Negros,39 años,2020,4
+44169,Ojos Negros,40 años,2020,2
+44171,Olba,19 años,2020,2
+44171,Olba,20 años,2020,1
+44171,Olba,21 años,2020,1
+44171,Olba,22 años,2020,2
+44171,Olba,23 años,2020,0.0
+44171,Olba,24 años,2020,0.0
+44171,Olba,25 años,2020,1
+44171,Olba,26 años,2020,1
+44171,Olba,27 años,2020,0.0
+44171,Olba,28 años,2020,2
+44171,Olba,29 años,2020,1
+44171,Olba,30 años,2020,1
+44171,Olba,31 años,2020,3
+44171,Olba,32 años,2020,0.0
+44171,Olba,33 años,2020,2
+44171,Olba,34 años,2020,3
+44171,Olba,35 años,2020,2
+44171,Olba,36 años,2020,6
+44171,Olba,37 años,2020,2
+44171,Olba,38 años,2020,6
+44171,Olba,39 años,2020,4
+44171,Olba,40 años,2020,5
+44172,Oliete,19 años,2020,4
+44172,Oliete,20 años,2020,1
+44172,Oliete,21 años,2020,4
+44172,Oliete,22 años,2020,1
+44172,Oliete,23 años,2020,2
+44172,Oliete,24 años,2020,3
+44172,Oliete,25 años,2020,4
+44172,Oliete,26 años,2020,3
+44172,Oliete,27 años,2020,3
+44172,Oliete,28 años,2020,2
+44172,Oliete,29 años,2020,0.0
+44172,Oliete,30 años,2020,3
+44172,Oliete,31 años,2020,3
+44172,Oliete,32 años,2020,3
+44172,Oliete,33 años,2020,5
+44172,Oliete,34 años,2020,4
+44172,Oliete,35 años,2020,2
+44172,Oliete,36 años,2020,6
+44172,Oliete,37 años,2020,5
+44172,Oliete,38 años,2020,2
+44172,Oliete,39 años,2020,3
+44172,Oliete,40 años,2020,2
+44173,Olmos Los,19 años,2020,3
+44173,Olmos Los,20 años,2020,0.0
+44173,Olmos Los,21 años,2020,4
+44173,Olmos Los,22 años,2020,0.0
+44173,Olmos Los,23 años,2020,1
+44173,Olmos Los,24 años,2020,0.0
+44173,Olmos Los,25 años,2020,0.0
+44173,Olmos Los,26 años,2020,1
+44173,Olmos Los,27 años,2020,0.0
+44173,Olmos Los,28 años,2020,0.0
+44173,Olmos Los,29 años,2020,1
+44173,Olmos Los,30 años,2020,0.0
+44173,Olmos Los,31 años,2020,2
+44173,Olmos Los,32 años,2020,0.0
+44173,Olmos Los,33 años,2020,0.0
+44173,Olmos Los,34 años,2020,0.0
+44173,Olmos Los,35 años,2020,1
+44173,Olmos Los,36 años,2020,3
+44173,Olmos Los,37 años,2020,2
+44173,Olmos Los,38 años,2020,3
+44173,Olmos Los,39 años,2020,1
+44173,Olmos Los,40 años,2020,0.0
+44174,Orihuela del Tremedal,19 años,2020,3
+44174,Orihuela del Tremedal,20 años,2020,2
+44174,Orihuela del Tremedal,21 años,2020,2
+44174,Orihuela del Tremedal,22 años,2020,5
+44174,Orihuela del Tremedal,23 años,2020,4
+44174,Orihuela del Tremedal,24 años,2020,7
+44174,Orihuela del Tremedal,25 años,2020,11
+44174,Orihuela del Tremedal,26 años,2020,5
+44174,Orihuela del Tremedal,27 años,2020,4
+44174,Orihuela del Tremedal,28 años,2020,8
+44174,Orihuela del Tremedal,29 años,2020,8
+44174,Orihuela del Tremedal,30 años,2020,5
+44174,Orihuela del Tremedal,31 años,2020,6
+44174,Orihuela del Tremedal,32 años,2020,2
+44174,Orihuela del Tremedal,33 años,2020,4
+44174,Orihuela del Tremedal,34 años,2020,2
+44174,Orihuela del Tremedal,35 años,2020,3
+44174,Orihuela del Tremedal,36 años,2020,4
+44174,Orihuela del Tremedal,37 años,2020,3
+44174,Orihuela del Tremedal,38 años,2020,5
+44174,Orihuela del Tremedal,39 años,2020,6
+44174,Orihuela del Tremedal,40 años,2020,7
+44175,Orrios,19 años,2020,0.0
+44175,Orrios,20 años,2020,2
+44175,Orrios,21 años,2020,1
+44175,Orrios,22 años,2020,0.0
+44175,Orrios,23 años,2020,3
+44175,Orrios,24 años,2020,0.0
+44175,Orrios,25 años,2020,0.0
+44175,Orrios,26 años,2020,3
+44175,Orrios,27 años,2020,2
+44175,Orrios,28 años,2020,1
+44175,Orrios,29 años,2020,4
+44175,Orrios,30 años,2020,2
+44175,Orrios,31 años,2020,2
+44175,Orrios,32 años,2020,1
+44175,Orrios,33 años,2020,3
+44175,Orrios,34 años,2020,1
+44175,Orrios,35 años,2020,2
+44175,Orrios,36 años,2020,1
+44175,Orrios,37 años,2020,3
+44175,Orrios,38 años,2020,0.0
+44175,Orrios,39 años,2020,2
+44175,Orrios,40 años,2020,2
+44176,Palomar de Arroyos,19 años,2020,1
+44176,Palomar de Arroyos,20 años,2020,1
+44176,Palomar de Arroyos,21 años,2020,1
+44176,Palomar de Arroyos,22 años,2020,3
+44176,Palomar de Arroyos,23 años,2020,2
+44176,Palomar de Arroyos,24 años,2020,1
+44176,Palomar de Arroyos,25 años,2020,3
+44176,Palomar de Arroyos,26 años,2020,1
+44176,Palomar de Arroyos,27 años,2020,2
+44176,Palomar de Arroyos,28 años,2020,1
+44176,Palomar de Arroyos,29 años,2020,3
+44176,Palomar de Arroyos,30 años,2020,3
+44176,Palomar de Arroyos,31 años,2020,3
+44176,Palomar de Arroyos,32 años,2020,2
+44176,Palomar de Arroyos,33 años,2020,4
+44176,Palomar de Arroyos,34 años,2020,3
+44176,Palomar de Arroyos,35 años,2020,1
+44176,Palomar de Arroyos,36 años,2020,1
+44176,Palomar de Arroyos,37 años,2020,4
+44176,Palomar de Arroyos,38 años,2020,4
+44176,Palomar de Arroyos,39 años,2020,4
+44176,Palomar de Arroyos,40 años,2020,0.0
+44177,Pancrudo,19 años,2020,0.0
+44177,Pancrudo,20 años,2020,1
+44177,Pancrudo,21 años,2020,1
+44177,Pancrudo,22 años,2020,0.0
+44177,Pancrudo,23 años,2020,0.0
+44177,Pancrudo,24 años,2020,0.0
+44177,Pancrudo,25 años,2020,0.0
+44177,Pancrudo,26 años,2020,0.0
+44177,Pancrudo,27 años,2020,2
+44177,Pancrudo,28 años,2020,2
+44177,Pancrudo,29 años,2020,0.0
+44177,Pancrudo,30 años,2020,0.0
+44177,Pancrudo,31 años,2020,2
+44177,Pancrudo,32 años,2020,0.0
+44177,Pancrudo,33 años,2020,0.0
+44177,Pancrudo,34 años,2020,0.0
+44177,Pancrudo,35 años,2020,2
+44177,Pancrudo,36 años,2020,0.0
+44177,Pancrudo,37 años,2020,2
+44177,Pancrudo,38 años,2020,0.0
+44177,Pancrudo,39 años,2020,0.0
+44177,Pancrudo,40 años,2020,0.0
+44178,Parras de Castellote Las,19 años,2020,0.0
+44178,Parras de Castellote Las,20 años,2020,0.0
+44178,Parras de Castellote Las,21 años,2020,0.0
+44178,Parras de Castellote Las,22 años,2020,0.0
+44178,Parras de Castellote Las,23 años,2020,0.0
+44178,Parras de Castellote Las,24 años,2020,0.0
+44178,Parras de Castellote Las,25 años,2020,1
+44178,Parras de Castellote Las,26 años,2020,0.0
+44178,Parras de Castellote Las,27 años,2020,0.0
+44178,Parras de Castellote Las,28 años,2020,0.0
+44178,Parras de Castellote Las,29 años,2020,0.0
+44178,Parras de Castellote Las,30 años,2020,0.0
+44178,Parras de Castellote Las,31 años,2020,1
+44178,Parras de Castellote Las,32 años,2020,0.0
+44178,Parras de Castellote Las,33 años,2020,0.0
+44178,Parras de Castellote Las,34 años,2020,0.0
+44178,Parras de Castellote Las,35 años,2020,1
+44178,Parras de Castellote Las,36 años,2020,1
+44178,Parras de Castellote Las,37 años,2020,0.0
+44178,Parras de Castellote Las,38 años,2020,0.0
+44178,Parras de Castellote Las,39 años,2020,0.0
+44178,Parras de Castellote Las,40 años,2020,0.0
+44179,Peñarroya de Tastavins,19 años,2020,2
+44179,Peñarroya de Tastavins,20 años,2020,5
+44179,Peñarroya de Tastavins,21 años,2020,7
+44179,Peñarroya de Tastavins,22 años,2020,4
+44179,Peñarroya de Tastavins,23 años,2020,6
+44179,Peñarroya de Tastavins,24 años,2020,3
+44179,Peñarroya de Tastavins,25 años,2020,7
+44179,Peñarroya de Tastavins,26 años,2020,6
+44179,Peñarroya de Tastavins,27 años,2020,9
+44179,Peñarroya de Tastavins,28 años,2020,4
+44179,Peñarroya de Tastavins,29 años,2020,2
+44179,Peñarroya de Tastavins,30 años,2020,4
+44179,Peñarroya de Tastavins,31 años,2020,3
+44179,Peñarroya de Tastavins,32 años,2020,5
+44179,Peñarroya de Tastavins,33 años,2020,6
+44179,Peñarroya de Tastavins,34 años,2020,6
+44179,Peñarroya de Tastavins,35 años,2020,7
+44179,Peñarroya de Tastavins,36 años,2020,3
+44179,Peñarroya de Tastavins,37 años,2020,6
+44179,Peñarroya de Tastavins,38 años,2020,6
+44179,Peñarroya de Tastavins,39 años,2020,7
+44179,Peñarroya de Tastavins,40 años,2020,6
+44180,Peracense,19 años,2020,0.0
+44180,Peracense,20 años,2020,0.0
+44180,Peracense,21 años,2020,1
+44180,Peracense,22 años,2020,0.0
+44180,Peracense,23 años,2020,2
+44180,Peracense,24 años,2020,1
+44180,Peracense,25 años,2020,0.0
+44180,Peracense,26 años,2020,0.0
+44180,Peracense,27 años,2020,0.0
+44180,Peracense,28 años,2020,1
+44180,Peracense,29 años,2020,1
+44180,Peracense,30 años,2020,1
+44180,Peracense,31 años,2020,1
+44180,Peracense,32 años,2020,0.0
+44180,Peracense,33 años,2020,0.0
+44180,Peracense,34 años,2020,0.0
+44180,Peracense,35 años,2020,0.0
+44180,Peracense,36 años,2020,0.0
+44180,Peracense,37 años,2020,0.0
+44180,Peracense,38 años,2020,0.0
+44180,Peracense,39 años,2020,0.0
+44180,Peracense,40 años,2020,0.0
+44181,Peralejos,19 años,2020,0.0
+44181,Peralejos,20 años,2020,2
+44181,Peralejos,21 años,2020,0.0
+44181,Peralejos,22 años,2020,3
+44181,Peralejos,23 años,2020,0.0
+44181,Peralejos,24 años,2020,1
+44181,Peralejos,25 años,2020,1
+44181,Peralejos,26 años,2020,0.0
+44181,Peralejos,27 años,2020,0.0
+44181,Peralejos,28 años,2020,1
+44181,Peralejos,29 años,2020,0.0
+44181,Peralejos,30 años,2020,1
+44181,Peralejos,31 años,2020,1
+44181,Peralejos,32 años,2020,3
+44181,Peralejos,33 años,2020,1
+44181,Peralejos,34 años,2020,0.0
+44181,Peralejos,35 años,2020,1
+44181,Peralejos,36 años,2020,0.0
+44181,Peralejos,37 años,2020,2
+44181,Peralejos,38 años,2020,2
+44181,Peralejos,39 años,2020,2
+44181,Peralejos,40 años,2020,1
+44182,Perales del Alfambra,19 años,2020,3
+44182,Perales del Alfambra,20 años,2020,2
+44182,Perales del Alfambra,21 años,2020,4
+44182,Perales del Alfambra,22 años,2020,4
+44182,Perales del Alfambra,23 años,2020,4
+44182,Perales del Alfambra,24 años,2020,4
+44182,Perales del Alfambra,25 años,2020,4
+44182,Perales del Alfambra,26 años,2020,6
+44182,Perales del Alfambra,27 años,2020,3
+44182,Perales del Alfambra,28 años,2020,6
+44182,Perales del Alfambra,29 años,2020,4
+44182,Perales del Alfambra,30 años,2020,3
+44182,Perales del Alfambra,31 años,2020,4
+44182,Perales del Alfambra,32 años,2020,4
+44182,Perales del Alfambra,33 años,2020,3
+44182,Perales del Alfambra,34 años,2020,1
+44182,Perales del Alfambra,35 años,2020,1
+44182,Perales del Alfambra,36 años,2020,2
+44182,Perales del Alfambra,37 años,2020,1
+44182,Perales del Alfambra,38 años,2020,2
+44182,Perales del Alfambra,39 años,2020,0.0
+44182,Perales del Alfambra,40 años,2020,0.0
+44183,Pitarque,19 años,2020,0.0
+44183,Pitarque,20 años,2020,1
+44183,Pitarque,21 años,2020,0.0
+44183,Pitarque,22 años,2020,1
+44183,Pitarque,23 años,2020,0.0
+44183,Pitarque,24 años,2020,1
+44183,Pitarque,25 años,2020,0.0
+44183,Pitarque,26 años,2020,1
+44183,Pitarque,27 años,2020,0.0
+44183,Pitarque,28 años,2020,1
+44183,Pitarque,29 años,2020,1
+44183,Pitarque,30 años,2020,1
+44183,Pitarque,31 años,2020,1
+44183,Pitarque,32 años,2020,0.0
+44183,Pitarque,33 años,2020,1
+44183,Pitarque,34 años,2020,0.0
+44183,Pitarque,35 años,2020,1
+44183,Pitarque,36 años,2020,1
+44183,Pitarque,37 años,2020,1
+44183,Pitarque,38 años,2020,0.0
+44183,Pitarque,39 años,2020,1
+44183,Pitarque,40 años,2020,0.0
+44184,Plou,19 años,2020,0.0
+44184,Plou,20 años,2020,0.0
+44184,Plou,21 años,2020,0.0
+44184,Plou,22 años,2020,0.0
+44184,Plou,23 años,2020,0.0
+44184,Plou,24 años,2020,0.0
+44184,Plou,25 años,2020,1
+44184,Plou,26 años,2020,0.0
+44184,Plou,27 años,2020,1
+44184,Plou,28 años,2020,0.0
+44184,Plou,29 años,2020,0.0
+44184,Plou,30 años,2020,0.0
+44184,Plou,31 años,2020,0.0
+44184,Plou,32 años,2020,0.0
+44184,Plou,33 años,2020,0.0
+44184,Plou,34 años,2020,1
+44184,Plou,35 años,2020,1
+44184,Plou,36 años,2020,1
+44184,Plou,37 años,2020,1
+44184,Plou,38 años,2020,0.0
+44184,Plou,39 años,2020,1
+44184,Plou,40 años,2020,1
+44185,Pobo El,19 años,2020,0.0
+44185,Pobo El,20 años,2020,0.0
+44185,Pobo El,21 años,2020,1
+44185,Pobo El,22 años,2020,1
+44185,Pobo El,23 años,2020,0.0
+44185,Pobo El,24 años,2020,0.0
+44185,Pobo El,25 años,2020,0.0
+44185,Pobo El,26 años,2020,0.0
+44185,Pobo El,27 años,2020,2
+44185,Pobo El,28 años,2020,0.0
+44185,Pobo El,29 años,2020,1
+44185,Pobo El,30 años,2020,0.0
+44185,Pobo El,31 años,2020,1
+44185,Pobo El,32 años,2020,1
+44185,Pobo El,33 años,2020,0.0
+44185,Pobo El,34 años,2020,1
+44185,Pobo El,35 años,2020,3
+44185,Pobo El,36 años,2020,1
+44185,Pobo El,37 años,2020,0.0
+44185,Pobo El,38 años,2020,0.0
+44185,Pobo El,39 años,2020,3
+44185,Pobo El,40 años,2020,0.0
+44187,Portellada La,19 años,2020,0.0
+44187,Portellada La,20 años,2020,0.0
+44187,Portellada La,21 años,2020,0.0
+44187,Portellada La,22 años,2020,1
+44187,Portellada La,23 años,2020,1
+44187,Portellada La,24 años,2020,1
+44187,Portellada La,25 años,2020,1
+44187,Portellada La,26 años,2020,1
+44187,Portellada La,27 años,2020,0.0
+44187,Portellada La,28 años,2020,1
+44187,Portellada La,29 años,2020,4
+44187,Portellada La,30 años,2020,3
+44187,Portellada La,31 años,2020,3
+44187,Portellada La,32 años,2020,3
+44187,Portellada La,33 años,2020,2
+44187,Portellada La,34 años,2020,1
+44187,Portellada La,35 años,2020,1
+44187,Portellada La,36 años,2020,3
+44187,Portellada La,37 años,2020,6
+44187,Portellada La,38 años,2020,4
+44187,Portellada La,39 años,2020,4
+44187,Portellada La,40 años,2020,7
+44189,Pozondón,19 años,2020,0.0
+44189,Pozondón,20 años,2020,0.0
+44189,Pozondón,21 años,2020,0.0
+44189,Pozondón,22 años,2020,0.0
+44189,Pozondón,23 años,2020,0.0
+44189,Pozondón,24 años,2020,0.0
+44189,Pozondón,25 años,2020,0.0
+44189,Pozondón,26 años,2020,1
+44189,Pozondón,27 años,2020,0.0
+44189,Pozondón,28 años,2020,0.0
+44189,Pozondón,29 años,2020,0.0
+44189,Pozondón,30 años,2020,2
+44189,Pozondón,31 años,2020,0.0
+44189,Pozondón,32 años,2020,1
+44189,Pozondón,33 años,2020,0.0
+44189,Pozondón,34 años,2020,0.0
+44189,Pozondón,35 años,2020,0.0
+44189,Pozondón,36 años,2020,0.0
+44189,Pozondón,37 años,2020,0.0
+44189,Pozondón,38 años,2020,0.0
+44189,Pozondón,39 años,2020,0.0
+44189,Pozondón,40 años,2020,0.0
+44190,Pozuel del Campo,19 años,2020,0.0
+44190,Pozuel del Campo,20 años,2020,0.0
+44190,Pozuel del Campo,21 años,2020,0.0
+44190,Pozuel del Campo,22 años,2020,0.0
+44190,Pozuel del Campo,23 años,2020,1
+44190,Pozuel del Campo,24 años,2020,1
+44190,Pozuel del Campo,25 años,2020,1
+44190,Pozuel del Campo,26 años,2020,0.0
+44190,Pozuel del Campo,27 años,2020,3
+44190,Pozuel del Campo,28 años,2020,0.0
+44190,Pozuel del Campo,29 años,2020,1
+44190,Pozuel del Campo,30 años,2020,1
+44190,Pozuel del Campo,31 años,2020,2
+44190,Pozuel del Campo,32 años,2020,2
+44190,Pozuel del Campo,33 años,2020,1
+44190,Pozuel del Campo,34 años,2020,0.0
+44190,Pozuel del Campo,35 años,2020,1
+44190,Pozuel del Campo,36 años,2020,0.0
+44190,Pozuel del Campo,37 años,2020,0.0
+44190,Pozuel del Campo,38 años,2020,0.0
+44190,Pozuel del Campo,39 años,2020,1
+44190,Pozuel del Campo,40 años,2020,0.0
+44191,Puebla de Híjar La,19 años,2020,7
+44191,Puebla de Híjar La,20 años,2020,5
+44191,Puebla de Híjar La,21 años,2020,3
+44191,Puebla de Híjar La,22 años,2020,9
+44191,Puebla de Híjar La,23 años,2020,8
+44191,Puebla de Híjar La,24 años,2020,8
+44191,Puebla de Híjar La,25 años,2020,7
+44191,Puebla de Híjar La,26 años,2020,15
+44191,Puebla de Híjar La,27 años,2020,8
+44191,Puebla de Híjar La,28 años,2020,13
+44191,Puebla de Híjar La,29 años,2020,10
+44191,Puebla de Híjar La,30 años,2020,9
+44191,Puebla de Híjar La,31 años,2020,7
+44191,Puebla de Híjar La,32 años,2020,8
+44191,Puebla de Híjar La,33 años,2020,10
+44191,Puebla de Híjar La,34 años,2020,7
+44191,Puebla de Híjar La,35 años,2020,7
+44191,Puebla de Híjar La,36 años,2020,7
+44191,Puebla de Híjar La,37 años,2020,7
+44191,Puebla de Híjar La,38 años,2020,13
+44191,Puebla de Híjar La,39 años,2020,12
+44191,Puebla de Híjar La,40 años,2020,14
+44192,Puebla de Valverde La,19 años,2020,2
+44192,Puebla de Valverde La,20 años,2020,5
+44192,Puebla de Valverde La,21 años,2020,4
+44192,Puebla de Valverde La,22 años,2020,3
+44192,Puebla de Valverde La,23 años,2020,7
+44192,Puebla de Valverde La,24 años,2020,3
+44192,Puebla de Valverde La,25 años,2020,3
+44192,Puebla de Valverde La,26 años,2020,5
+44192,Puebla de Valverde La,27 años,2020,4
+44192,Puebla de Valverde La,28 años,2020,4
+44192,Puebla de Valverde La,29 años,2020,5
+44192,Puebla de Valverde La,30 años,2020,4
+44192,Puebla de Valverde La,31 años,2020,5
+44192,Puebla de Valverde La,32 años,2020,9
+44192,Puebla de Valverde La,33 años,2020,9
+44192,Puebla de Valverde La,34 años,2020,6
+44192,Puebla de Valverde La,35 años,2020,10
+44192,Puebla de Valverde La,36 años,2020,4
+44192,Puebla de Valverde La,37 años,2020,8
+44192,Puebla de Valverde La,38 años,2020,12
+44192,Puebla de Valverde La,39 años,2020,6
+44192,Puebla de Valverde La,40 años,2020,7
+44193,Puertomingalvo,19 años,2020,1
+44193,Puertomingalvo,20 años,2020,1
+44193,Puertomingalvo,21 años,2020,0.0
+44193,Puertomingalvo,22 años,2020,0.0
+44193,Puertomingalvo,23 años,2020,0.0
+44193,Puertomingalvo,24 años,2020,0.0
+44193,Puertomingalvo,25 años,2020,1
+44193,Puertomingalvo,26 años,2020,1
+44193,Puertomingalvo,27 años,2020,0.0
+44193,Puertomingalvo,28 años,2020,2
+44193,Puertomingalvo,29 años,2020,1
+44193,Puertomingalvo,30 años,2020,5
+44193,Puertomingalvo,31 años,2020,2
+44193,Puertomingalvo,32 años,2020,1
+44193,Puertomingalvo,33 años,2020,2
+44193,Puertomingalvo,34 años,2020,0.0
+44193,Puertomingalvo,35 años,2020,1
+44193,Puertomingalvo,36 años,2020,4
+44193,Puertomingalvo,37 años,2020,1
+44193,Puertomingalvo,38 años,2020,1
+44193,Puertomingalvo,39 años,2020,1
+44193,Puertomingalvo,40 años,2020,4
+44194,Ráfales,19 años,2020,0.0
+44194,Ráfales,20 años,2020,0.0
+44194,Ráfales,21 años,2020,3
+44194,Ráfales,22 años,2020,0.0
+44194,Ráfales,23 años,2020,1
+44194,Ráfales,24 años,2020,1
+44194,Ráfales,25 años,2020,0.0
+44194,Ráfales,26 años,2020,0.0
+44194,Ráfales,27 años,2020,1
+44194,Ráfales,28 años,2020,0.0
+44194,Ráfales,29 años,2020,0.0
+44194,Ráfales,30 años,2020,0.0
+44194,Ráfales,31 años,2020,1
+44194,Ráfales,32 años,2020,0.0
+44194,Ráfales,33 años,2020,1
+44194,Ráfales,34 años,2020,1
+44194,Ráfales,35 años,2020,2
+44194,Ráfales,36 años,2020,2
+44194,Ráfales,37 años,2020,1
+44194,Ráfales,38 años,2020,2
+44194,Ráfales,39 años,2020,4
+44194,Ráfales,40 años,2020,0.0
+44195,Rillo,19 años,2020,0.0
+44195,Rillo,20 años,2020,1
+44195,Rillo,21 años,2020,0.0
+44195,Rillo,22 años,2020,0.0
+44195,Rillo,23 años,2020,1
+44195,Rillo,24 años,2020,1
+44195,Rillo,25 años,2020,0.0
+44195,Rillo,26 años,2020,0.0
+44195,Rillo,27 años,2020,2
+44195,Rillo,28 años,2020,2
+44195,Rillo,29 años,2020,2
+44195,Rillo,30 años,2020,0.0
+44195,Rillo,31 años,2020,0.0
+44195,Rillo,32 años,2020,0.0
+44195,Rillo,33 años,2020,1
+44195,Rillo,34 años,2020,1
+44195,Rillo,35 años,2020,0.0
+44195,Rillo,36 años,2020,0.0
+44195,Rillo,37 años,2020,0.0
+44195,Rillo,38 años,2020,0.0
+44195,Rillo,39 años,2020,0.0
+44195,Rillo,40 años,2020,2
+44196,Riodeva,19 años,2020,2
+44196,Riodeva,20 años,2020,1
+44196,Riodeva,21 años,2020,0.0
+44196,Riodeva,22 años,2020,1
+44196,Riodeva,23 años,2020,0.0
+44196,Riodeva,24 años,2020,1
+44196,Riodeva,25 años,2020,1
+44196,Riodeva,26 años,2020,3
+44196,Riodeva,27 años,2020,1
+44196,Riodeva,28 años,2020,0.0
+44196,Riodeva,29 años,2020,2
+44196,Riodeva,30 años,2020,1
+44196,Riodeva,31 años,2020,2
+44196,Riodeva,32 años,2020,2
+44196,Riodeva,33 años,2020,0.0
+44196,Riodeva,34 años,2020,0.0
+44196,Riodeva,35 años,2020,2
+44196,Riodeva,36 años,2020,0.0
+44196,Riodeva,37 años,2020,1
+44196,Riodeva,38 años,2020,2
+44196,Riodeva,39 años,2020,2
+44196,Riodeva,40 años,2020,1
+44197,Ródenas,19 años,2020,1
+44197,Ródenas,20 años,2020,1
+44197,Ródenas,21 años,2020,0.0
+44197,Ródenas,22 años,2020,0.0
+44197,Ródenas,23 años,2020,1
+44197,Ródenas,24 años,2020,2
+44197,Ródenas,25 años,2020,0.0
+44197,Ródenas,26 años,2020,2
+44197,Ródenas,27 años,2020,0.0
+44197,Ródenas,28 años,2020,1
+44197,Ródenas,29 años,2020,0.0
+44197,Ródenas,30 años,2020,1
+44197,Ródenas,31 años,2020,1
+44197,Ródenas,32 años,2020,0.0
+44197,Ródenas,33 años,2020,0.0
+44197,Ródenas,34 años,2020,0.0
+44197,Ródenas,35 años,2020,0.0
+44197,Ródenas,36 años,2020,0.0
+44197,Ródenas,37 años,2020,3
+44197,Ródenas,38 años,2020,1
+44197,Ródenas,39 años,2020,1
+44197,Ródenas,40 años,2020,1
+44198,Royuela,19 años,2020,1
+44198,Royuela,20 años,2020,3
+44198,Royuela,21 años,2020,2
+44198,Royuela,22 años,2020,3
+44198,Royuela,23 años,2020,1
+44198,Royuela,24 años,2020,1
+44198,Royuela,25 años,2020,1
+44198,Royuela,26 años,2020,1
+44198,Royuela,27 años,2020,1
+44198,Royuela,28 años,2020,3
+44198,Royuela,29 años,2020,2
+44198,Royuela,30 años,2020,1
+44198,Royuela,31 años,2020,2
+44198,Royuela,32 años,2020,1
+44198,Royuela,33 años,2020,3
+44198,Royuela,34 años,2020,1
+44198,Royuela,35 años,2020,6
+44198,Royuela,36 años,2020,1
+44198,Royuela,37 años,2020,1
+44198,Royuela,38 años,2020,0.0
+44198,Royuela,39 años,2020,3
+44198,Royuela,40 años,2020,2
+44199,Rubiales,19 años,2020,0.0
+44199,Rubiales,20 años,2020,1
+44199,Rubiales,21 años,2020,1
+44199,Rubiales,22 años,2020,1
+44199,Rubiales,23 años,2020,0.0
+44199,Rubiales,24 años,2020,0.0
+44199,Rubiales,25 años,2020,1
+44199,Rubiales,26 años,2020,0.0
+44199,Rubiales,27 años,2020,0.0
+44199,Rubiales,28 años,2020,0.0
+44199,Rubiales,29 años,2020,0.0
+44199,Rubiales,30 años,2020,0.0
+44199,Rubiales,31 años,2020,0.0
+44199,Rubiales,32 años,2020,1
+44199,Rubiales,33 años,2020,0.0
+44199,Rubiales,34 años,2020,3
+44199,Rubiales,35 años,2020,1
+44199,Rubiales,36 años,2020,1
+44199,Rubiales,37 años,2020,1
+44199,Rubiales,38 años,2020,0.0
+44199,Rubiales,39 años,2020,0.0
+44199,Rubiales,40 años,2020,0.0
+44200,Rubielos de la Cérida,19 años,2020,0.0
+44200,Rubielos de la Cérida,20 años,2020,0.0
+44200,Rubielos de la Cérida,21 años,2020,0.0
+44200,Rubielos de la Cérida,22 años,2020,0.0
+44200,Rubielos de la Cérida,23 años,2020,0.0
+44200,Rubielos de la Cérida,24 años,2020,0.0
+44200,Rubielos de la Cérida,25 años,2020,1
+44200,Rubielos de la Cérida,26 años,2020,0.0
+44200,Rubielos de la Cérida,27 años,2020,0.0
+44200,Rubielos de la Cérida,28 años,2020,0.0
+44200,Rubielos de la Cérida,29 años,2020,0.0
+44200,Rubielos de la Cérida,30 años,2020,0.0
+44200,Rubielos de la Cérida,31 años,2020,0.0
+44200,Rubielos de la Cérida,32 años,2020,0.0
+44200,Rubielos de la Cérida,33 años,2020,0.0
+44200,Rubielos de la Cérida,34 años,2020,0.0
+44200,Rubielos de la Cérida,35 años,2020,1
+44200,Rubielos de la Cérida,36 años,2020,1
+44200,Rubielos de la Cérida,37 años,2020,0.0
+44200,Rubielos de la Cérida,38 años,2020,0.0
+44200,Rubielos de la Cérida,39 años,2020,2
+44200,Rubielos de la Cérida,40 años,2020,0.0
+44201,Rubielos de Mora,19 años,2020,9
+44201,Rubielos de Mora,20 años,2020,5
+44201,Rubielos de Mora,21 años,2020,4
+44201,Rubielos de Mora,22 años,2020,5
+44201,Rubielos de Mora,23 años,2020,11
+44201,Rubielos de Mora,24 años,2020,7
+44201,Rubielos de Mora,25 años,2020,8
+44201,Rubielos de Mora,26 años,2020,12
+44201,Rubielos de Mora,27 años,2020,11
+44201,Rubielos de Mora,28 años,2020,7
+44201,Rubielos de Mora,29 años,2020,10
+44201,Rubielos de Mora,30 años,2020,7
+44201,Rubielos de Mora,31 años,2020,6
+44201,Rubielos de Mora,32 años,2020,7
+44201,Rubielos de Mora,33 años,2020,7
+44201,Rubielos de Mora,34 años,2020,7
+44201,Rubielos de Mora,35 años,2020,5
+44201,Rubielos de Mora,36 años,2020,9
+44201,Rubielos de Mora,37 años,2020,9
+44201,Rubielos de Mora,38 años,2020,11
+44201,Rubielos de Mora,39 años,2020,11
+44201,Rubielos de Mora,40 años,2020,3
+44203,Salcedillo,19 años,2020,0.0
+44203,Salcedillo,20 años,2020,0.0
+44203,Salcedillo,21 años,2020,0.0
+44203,Salcedillo,22 años,2020,0.0
+44203,Salcedillo,23 años,2020,0.0
+44203,Salcedillo,24 años,2020,0.0
+44203,Salcedillo,25 años,2020,0.0
+44203,Salcedillo,26 años,2020,0.0
+44203,Salcedillo,27 años,2020,0.0
+44203,Salcedillo,28 años,2020,0.0
+44203,Salcedillo,29 años,2020,0.0
+44203,Salcedillo,30 años,2020,1
+44203,Salcedillo,31 años,2020,2
+44203,Salcedillo,32 años,2020,0.0
+44203,Salcedillo,33 años,2020,0.0
+44203,Salcedillo,34 años,2020,0.0
+44203,Salcedillo,35 años,2020,0.0
+44203,Salcedillo,36 años,2020,0.0
+44203,Salcedillo,37 años,2020,1
+44203,Salcedillo,38 años,2020,0.0
+44203,Salcedillo,39 años,2020,0.0
+44203,Salcedillo,40 años,2020,0.0
+44204,Saldón,19 años,2020,0.0
+44204,Saldón,20 años,2020,1
+44204,Saldón,21 años,2020,0.0
+44204,Saldón,22 años,2020,0.0
+44204,Saldón,23 años,2020,0.0
+44204,Saldón,24 años,2020,0.0
+44204,Saldón,25 años,2020,1
+44204,Saldón,26 años,2020,0.0
+44204,Saldón,27 años,2020,0.0
+44204,Saldón,28 años,2020,0.0
+44204,Saldón,29 años,2020,0.0
+44204,Saldón,30 años,2020,0.0
+44204,Saldón,31 años,2020,0.0
+44204,Saldón,32 años,2020,0.0
+44204,Saldón,33 años,2020,0.0
+44204,Saldón,34 años,2020,0.0
+44204,Saldón,35 años,2020,0.0
+44204,Saldón,36 años,2020,0.0
+44204,Saldón,37 años,2020,0.0
+44204,Saldón,38 años,2020,0.0
+44204,Saldón,39 años,2020,0.0
+44204,Saldón,40 años,2020,0.0
+44205,Samper de Calanda,19 años,2020,6
+44205,Samper de Calanda,20 años,2020,8
+44205,Samper de Calanda,21 años,2020,4
+44205,Samper de Calanda,22 años,2020,5
+44205,Samper de Calanda,23 años,2020,8
+44205,Samper de Calanda,24 años,2020,2
+44205,Samper de Calanda,25 años,2020,10
+44205,Samper de Calanda,26 años,2020,4
+44205,Samper de Calanda,27 años,2020,8
+44205,Samper de Calanda,28 años,2020,7
+44205,Samper de Calanda,29 años,2020,3
+44205,Samper de Calanda,30 años,2020,7
+44205,Samper de Calanda,31 años,2020,6
+44205,Samper de Calanda,32 años,2020,4
+44205,Samper de Calanda,33 años,2020,3
+44205,Samper de Calanda,34 años,2020,5
+44205,Samper de Calanda,35 años,2020,4
+44205,Samper de Calanda,36 años,2020,6
+44205,Samper de Calanda,37 años,2020,4
+44205,Samper de Calanda,38 años,2020,12
+44205,Samper de Calanda,39 años,2020,8
+44205,Samper de Calanda,40 años,2020,7
+44206,San Agustín,19 años,2020,2
+44206,San Agustín,20 años,2020,0.0
+44206,San Agustín,21 años,2020,1
+44206,San Agustín,22 años,2020,1
+44206,San Agustín,23 años,2020,1
+44206,San Agustín,24 años,2020,1
+44206,San Agustín,25 años,2020,0.0
+44206,San Agustín,26 años,2020,0.0
+44206,San Agustín,27 años,2020,1
+44206,San Agustín,28 años,2020,1
+44206,San Agustín,29 años,2020,1
+44206,San Agustín,30 años,2020,1
+44206,San Agustín,31 años,2020,2
+44206,San Agustín,32 años,2020,4
+44206,San Agustín,33 años,2020,3
+44206,San Agustín,34 años,2020,3
+44206,San Agustín,35 años,2020,0.0
+44206,San Agustín,36 años,2020,1
+44206,San Agustín,37 años,2020,2
+44206,San Agustín,38 años,2020,0.0
+44206,San Agustín,39 años,2020,1
+44206,San Agustín,40 años,2020,2
+44207,San Martín del Río,19 años,2020,0.0
+44207,San Martín del Río,20 años,2020,0.0
+44207,San Martín del Río,21 años,2020,1
+44207,San Martín del Río,22 años,2020,1
+44207,San Martín del Río,23 años,2020,1
+44207,San Martín del Río,24 años,2020,0.0
+44207,San Martín del Río,25 años,2020,0.0
+44207,San Martín del Río,26 años,2020,1
+44207,San Martín del Río,27 años,2020,0.0
+44207,San Martín del Río,28 años,2020,1
+44207,San Martín del Río,29 años,2020,1
+44207,San Martín del Río,30 años,2020,1
+44207,San Martín del Río,31 años,2020,1
+44207,San Martín del Río,32 años,2020,0.0
+44207,San Martín del Río,33 años,2020,1
+44207,San Martín del Río,34 años,2020,0.0
+44207,San Martín del Río,35 años,2020,1
+44207,San Martín del Río,36 años,2020,1
+44207,San Martín del Río,37 años,2020,0.0
+44207,San Martín del Río,38 años,2020,1
+44207,San Martín del Río,39 años,2020,0.0
+44207,San Martín del Río,40 años,2020,0.0
+44208,Santa Cruz de Nogueras,19 años,2020,0.0
+44208,Santa Cruz de Nogueras,20 años,2020,0.0
+44208,Santa Cruz de Nogueras,21 años,2020,1
+44208,Santa Cruz de Nogueras,22 años,2020,0.0
+44208,Santa Cruz de Nogueras,23 años,2020,0.0
+44208,Santa Cruz de Nogueras,24 años,2020,0.0
+44208,Santa Cruz de Nogueras,25 años,2020,0.0
+44208,Santa Cruz de Nogueras,26 años,2020,0.0
+44208,Santa Cruz de Nogueras,27 años,2020,0.0
+44208,Santa Cruz de Nogueras,28 años,2020,0.0
+44208,Santa Cruz de Nogueras,29 años,2020,0.0
+44208,Santa Cruz de Nogueras,30 años,2020,1
+44208,Santa Cruz de Nogueras,31 años,2020,0.0
+44208,Santa Cruz de Nogueras,32 años,2020,1
+44208,Santa Cruz de Nogueras,33 años,2020,1
+44208,Santa Cruz de Nogueras,34 años,2020,0.0
+44208,Santa Cruz de Nogueras,35 años,2020,1
+44208,Santa Cruz de Nogueras,36 años,2020,0.0
+44208,Santa Cruz de Nogueras,37 años,2020,0.0
+44208,Santa Cruz de Nogueras,38 años,2020,1
+44208,Santa Cruz de Nogueras,39 años,2020,0.0
+44208,Santa Cruz de Nogueras,40 años,2020,0.0
+44209,Santa Eulalia,19 años,2020,9
+44209,Santa Eulalia,20 años,2020,8
+44209,Santa Eulalia,21 años,2020,12
+44209,Santa Eulalia,22 años,2020,10
+44209,Santa Eulalia,23 años,2020,8
+44209,Santa Eulalia,24 años,2020,9
+44209,Santa Eulalia,25 años,2020,9
+44209,Santa Eulalia,26 años,2020,8
+44209,Santa Eulalia,27 años,2020,20
+44209,Santa Eulalia,28 años,2020,21
+44209,Santa Eulalia,29 años,2020,12
+44209,Santa Eulalia,30 años,2020,9
+44209,Santa Eulalia,31 años,2020,16
+44209,Santa Eulalia,32 años,2020,16
+44209,Santa Eulalia,33 años,2020,8
+44209,Santa Eulalia,34 años,2020,9
+44209,Santa Eulalia,35 años,2020,8
+44209,Santa Eulalia,36 años,2020,12
+44209,Santa Eulalia,37 años,2020,8
+44209,Santa Eulalia,38 años,2020,8
+44209,Santa Eulalia,39 años,2020,12
+44209,Santa Eulalia,40 años,2020,14
+44210,Sarrión,19 años,2020,12
+44210,Sarrión,20 años,2020,6
+44210,Sarrión,21 años,2020,12
+44210,Sarrión,22 años,2020,11
+44210,Sarrión,23 años,2020,12
+44210,Sarrión,24 años,2020,15
+44210,Sarrión,25 años,2020,14
+44210,Sarrión,26 años,2020,10
+44210,Sarrión,27 años,2020,19
+44210,Sarrión,28 años,2020,12
+44210,Sarrión,29 años,2020,15
+44210,Sarrión,30 años,2020,16
+44210,Sarrión,31 años,2020,14
+44210,Sarrión,32 años,2020,14
+44210,Sarrión,33 años,2020,20
+44210,Sarrión,34 años,2020,23
+44210,Sarrión,35 años,2020,10
+44210,Sarrión,36 años,2020,16
+44210,Sarrión,37 años,2020,21
+44210,Sarrión,38 años,2020,25
+44210,Sarrión,39 años,2020,18
+44210,Sarrión,40 años,2020,18
+44211,Segura de los Baños,19 años,2020,0.0
+44211,Segura de los Baños,20 años,2020,0.0
+44211,Segura de los Baños,21 años,2020,0.0
+44211,Segura de los Baños,22 años,2020,0.0
+44211,Segura de los Baños,23 años,2020,1
+44211,Segura de los Baños,24 años,2020,0.0
+44211,Segura de los Baños,25 años,2020,0.0
+44211,Segura de los Baños,26 años,2020,0.0
+44211,Segura de los Baños,27 años,2020,0.0
+44211,Segura de los Baños,28 años,2020,0.0
+44211,Segura de los Baños,29 años,2020,0.0
+44211,Segura de los Baños,30 años,2020,0.0
+44211,Segura de los Baños,31 años,2020,0.0
+44211,Segura de los Baños,32 años,2020,0.0
+44211,Segura de los Baños,33 años,2020,1
+44211,Segura de los Baños,34 años,2020,0.0
+44211,Segura de los Baños,35 años,2020,0.0
+44211,Segura de los Baños,36 años,2020,0.0
+44211,Segura de los Baños,37 años,2020,1
+44211,Segura de los Baños,38 años,2020,0.0
+44211,Segura de los Baños,39 años,2020,0.0
+44211,Segura de los Baños,40 años,2020,0.0
+44212,Seno,19 años,2020,0.0
+44212,Seno,20 años,2020,1
+44212,Seno,21 años,2020,0.0
+44212,Seno,22 años,2020,2
+44212,Seno,23 años,2020,0.0
+44212,Seno,24 años,2020,1
+44212,Seno,25 años,2020,0.0
+44212,Seno,26 años,2020,0.0
+44212,Seno,27 años,2020,0.0
+44212,Seno,28 años,2020,0.0
+44212,Seno,29 años,2020,0.0
+44212,Seno,30 años,2020,0.0
+44212,Seno,31 años,2020,1
+44212,Seno,32 años,2020,0.0
+44212,Seno,33 años,2020,0.0
+44212,Seno,34 años,2020,0.0
+44212,Seno,35 años,2020,1
+44212,Seno,36 años,2020,0.0
+44212,Seno,37 años,2020,0.0
+44212,Seno,38 años,2020,0.0
+44212,Seno,39 años,2020,1
+44212,Seno,40 años,2020,0.0
+44213,Singra,19 años,2020,2
+44213,Singra,20 años,2020,0.0
+44213,Singra,21 años,2020,1
+44213,Singra,22 años,2020,3
+44213,Singra,23 años,2020,1
+44213,Singra,24 años,2020,2
+44213,Singra,25 años,2020,1
+44213,Singra,26 años,2020,0.0
+44213,Singra,27 años,2020,1
+44213,Singra,28 años,2020,0.0
+44213,Singra,29 años,2020,1
+44213,Singra,30 años,2020,1
+44213,Singra,31 años,2020,0.0
+44213,Singra,32 años,2020,0.0
+44213,Singra,33 años,2020,0.0
+44213,Singra,34 años,2020,0.0
+44213,Singra,35 años,2020,0.0
+44213,Singra,36 años,2020,3
+44213,Singra,37 años,2020,0.0
+44213,Singra,38 años,2020,0.0
+44213,Singra,39 años,2020,0.0
+44213,Singra,40 años,2020,0.0
+44215,Terriente,19 años,2020,1
+44215,Terriente,20 años,2020,0.0
+44215,Terriente,21 años,2020,1
+44215,Terriente,22 años,2020,2
+44215,Terriente,23 años,2020,1
+44215,Terriente,24 años,2020,2
+44215,Terriente,25 años,2020,3
+44215,Terriente,26 años,2020,2
+44215,Terriente,27 años,2020,0.0
+44215,Terriente,28 años,2020,3
+44215,Terriente,29 años,2020,3
+44215,Terriente,30 años,2020,3
+44215,Terriente,31 años,2020,2
+44215,Terriente,32 años,2020,3
+44215,Terriente,33 años,2020,0.0
+44215,Terriente,34 años,2020,0.0
+44215,Terriente,35 años,2020,1
+44215,Terriente,36 años,2020,1
+44215,Terriente,37 años,2020,0.0
+44215,Terriente,38 años,2020,3
+44215,Terriente,39 años,2020,1
+44215,Terriente,40 años,2020,1
+44216,Teruel,19 años,2020,425
+44216,Teruel,20 años,2020,361
+44216,Teruel,21 años,2020,388
+44216,Teruel,22 años,2020,384
+44216,Teruel,23 años,2020,383
+44216,Teruel,24 años,2020,420
+44216,Teruel,25 años,2020,369
+44216,Teruel,26 años,2020,382
+44216,Teruel,27 años,2020,389
+44216,Teruel,28 años,2020,373
+44216,Teruel,29 años,2020,401
+44216,Teruel,30 años,2020,363
+44216,Teruel,31 años,2020,385
+44216,Teruel,32 años,2020,416
+44216,Teruel,33 años,2020,444
+44216,Teruel,34 años,2020,426
+44216,Teruel,35 años,2020,460
+44216,Teruel,36 años,2020,469
+44216,Teruel,37 años,2020,491
+44216,Teruel,38 años,2020,497
+44216,Teruel,39 años,2020,516
+44216,Teruel,40 años,2020,565
+44217,Toril y Masegoso,19 años,2020,0.0
+44217,Toril y Masegoso,20 años,2020,0.0
+44217,Toril y Masegoso,21 años,2020,0.0
+44217,Toril y Masegoso,22 años,2020,0.0
+44217,Toril y Masegoso,23 años,2020,0.0
+44217,Toril y Masegoso,24 años,2020,0.0
+44217,Toril y Masegoso,25 años,2020,1
+44217,Toril y Masegoso,26 años,2020,0.0
+44217,Toril y Masegoso,27 años,2020,0.0
+44217,Toril y Masegoso,28 años,2020,1
+44217,Toril y Masegoso,29 años,2020,1
+44217,Toril y Masegoso,30 años,2020,0.0
+44217,Toril y Masegoso,31 años,2020,1
+44217,Toril y Masegoso,32 años,2020,0.0
+44217,Toril y Masegoso,33 años,2020,0.0
+44217,Toril y Masegoso,34 años,2020,0.0
+44217,Toril y Masegoso,35 años,2020,0.0
+44217,Toril y Masegoso,36 años,2020,0.0
+44217,Toril y Masegoso,37 años,2020,0.0
+44217,Toril y Masegoso,38 años,2020,0.0
+44217,Toril y Masegoso,39 años,2020,0.0
+44217,Toril y Masegoso,40 años,2020,0.0
+44218,Tormón,19 años,2020,0.0
+44218,Tormón,20 años,2020,0.0
+44218,Tormón,21 años,2020,0.0
+44218,Tormón,22 años,2020,0.0
+44218,Tormón,23 años,2020,0.0
+44218,Tormón,24 años,2020,0.0
+44218,Tormón,25 años,2020,0.0
+44218,Tormón,26 años,2020,0.0
+44218,Tormón,27 años,2020,0.0
+44218,Tormón,28 años,2020,0.0
+44218,Tormón,29 años,2020,0.0
+44218,Tormón,30 años,2020,0.0
+44218,Tormón,31 años,2020,0.0
+44218,Tormón,32 años,2020,0.0
+44218,Tormón,33 años,2020,0.0
+44218,Tormón,34 años,2020,0.0
+44218,Tormón,35 años,2020,0.0
+44218,Tormón,36 años,2020,1
+44218,Tormón,37 años,2020,1
+44218,Tormón,38 años,2020,0.0
+44218,Tormón,39 años,2020,0.0
+44218,Tormón,40 años,2020,1
+44219,Tornos,19 años,2020,0.0
+44219,Tornos,20 años,2020,0.0
+44219,Tornos,21 años,2020,3
+44219,Tornos,22 años,2020,2
+44219,Tornos,23 años,2020,0.0
+44219,Tornos,24 años,2020,1
+44219,Tornos,25 años,2020,2
+44219,Tornos,26 años,2020,1
+44219,Tornos,27 años,2020,2
+44219,Tornos,28 años,2020,2
+44219,Tornos,29 años,2020,0.0
+44219,Tornos,30 años,2020,0.0
+44219,Tornos,31 años,2020,2
+44219,Tornos,32 años,2020,2
+44219,Tornos,33 años,2020,0.0
+44219,Tornos,34 años,2020,1
+44219,Tornos,35 años,2020,1
+44219,Tornos,36 años,2020,3
+44219,Tornos,37 años,2020,1
+44219,Tornos,38 años,2020,0.0
+44219,Tornos,39 años,2020,2
+44219,Tornos,40 años,2020,3
+44220,Torralba de los Sisones,19 años,2020,3
+44220,Torralba de los Sisones,20 años,2020,4
+44220,Torralba de los Sisones,21 años,2020,6
+44220,Torralba de los Sisones,22 años,2020,7
+44220,Torralba de los Sisones,23 años,2020,2
+44220,Torralba de los Sisones,24 años,2020,3
+44220,Torralba de los Sisones,25 años,2020,2
+44220,Torralba de los Sisones,26 años,2020,0.0
+44220,Torralba de los Sisones,27 años,2020,0.0
+44220,Torralba de los Sisones,28 años,2020,0.0
+44220,Torralba de los Sisones,29 años,2020,0.0
+44220,Torralba de los Sisones,30 años,2020,0.0
+44220,Torralba de los Sisones,31 años,2020,1
+44220,Torralba de los Sisones,32 años,2020,1
+44220,Torralba de los Sisones,33 años,2020,1
+44220,Torralba de los Sisones,34 años,2020,0.0
+44220,Torralba de los Sisones,35 años,2020,1
+44220,Torralba de los Sisones,36 años,2020,1
+44220,Torralba de los Sisones,37 años,2020,1
+44220,Torralba de los Sisones,38 años,2020,2
+44220,Torralba de los Sisones,39 años,2020,2
+44220,Torralba de los Sisones,40 años,2020,2
+44221,Torrecilla de Alcañiz,19 años,2020,4
+44221,Torrecilla de Alcañiz,20 años,2020,5
+44221,Torrecilla de Alcañiz,21 años,2020,9
+44221,Torrecilla de Alcañiz,22 años,2020,2
+44221,Torrecilla de Alcañiz,23 años,2020,5
+44221,Torrecilla de Alcañiz,24 años,2020,4
+44221,Torrecilla de Alcañiz,25 años,2020,7
+44221,Torrecilla de Alcañiz,26 años,2020,4
+44221,Torrecilla de Alcañiz,27 años,2020,2
+44221,Torrecilla de Alcañiz,28 años,2020,5
+44221,Torrecilla de Alcañiz,29 años,2020,3
+44221,Torrecilla de Alcañiz,30 años,2020,8
+44221,Torrecilla de Alcañiz,31 años,2020,3
+44221,Torrecilla de Alcañiz,32 años,2020,2
+44221,Torrecilla de Alcañiz,33 años,2020,8
+44221,Torrecilla de Alcañiz,34 años,2020,6
+44221,Torrecilla de Alcañiz,35 años,2020,1
+44221,Torrecilla de Alcañiz,36 años,2020,3
+44221,Torrecilla de Alcañiz,37 años,2020,2
+44221,Torrecilla de Alcañiz,38 años,2020,6
+44221,Torrecilla de Alcañiz,39 años,2020,5
+44221,Torrecilla de Alcañiz,40 años,2020,2
+44222,Torrecilla del Rebollar,19 años,2020,0.0
+44222,Torrecilla del Rebollar,20 años,2020,0.0
+44222,Torrecilla del Rebollar,21 años,2020,0.0
+44222,Torrecilla del Rebollar,22 años,2020,0.0
+44222,Torrecilla del Rebollar,23 años,2020,1
+44222,Torrecilla del Rebollar,24 años,2020,0.0
+44222,Torrecilla del Rebollar,25 años,2020,2
+44222,Torrecilla del Rebollar,26 años,2020,0.0
+44222,Torrecilla del Rebollar,27 años,2020,3
+44222,Torrecilla del Rebollar,28 años,2020,0.0
+44222,Torrecilla del Rebollar,29 años,2020,0.0
+44222,Torrecilla del Rebollar,30 años,2020,0.0
+44222,Torrecilla del Rebollar,31 años,2020,1
+44222,Torrecilla del Rebollar,32 años,2020,0.0
+44222,Torrecilla del Rebollar,33 años,2020,0.0
+44222,Torrecilla del Rebollar,34 años,2020,0.0
+44222,Torrecilla del Rebollar,35 años,2020,1
+44222,Torrecilla del Rebollar,36 años,2020,2
+44222,Torrecilla del Rebollar,37 años,2020,0.0
+44222,Torrecilla del Rebollar,38 años,2020,2
+44222,Torrecilla del Rebollar,39 años,2020,0.0
+44222,Torrecilla del Rebollar,40 años,2020,1
+44223,Torre de Arcas,19 años,2020,1
+44223,Torre de Arcas,20 años,2020,0.0
+44223,Torre de Arcas,21 años,2020,0.0
+44223,Torre de Arcas,22 años,2020,0.0
+44223,Torre de Arcas,23 años,2020,2
+44223,Torre de Arcas,24 años,2020,2
+44223,Torre de Arcas,25 años,2020,0.0
+44223,Torre de Arcas,26 años,2020,2
+44223,Torre de Arcas,27 años,2020,0.0
+44223,Torre de Arcas,28 años,2020,0.0
+44223,Torre de Arcas,29 años,2020,2
+44223,Torre de Arcas,30 años,2020,0.0
+44223,Torre de Arcas,31 años,2020,2
+44223,Torre de Arcas,32 años,2020,1
+44223,Torre de Arcas,33 años,2020,1
+44223,Torre de Arcas,34 años,2020,0.0
+44223,Torre de Arcas,35 años,2020,1
+44223,Torre de Arcas,36 años,2020,3
+44223,Torre de Arcas,37 años,2020,2
+44223,Torre de Arcas,38 años,2020,1
+44223,Torre de Arcas,39 años,2020,1
+44223,Torre de Arcas,40 años,2020,1
+44224,Torre de las Arcas,19 años,2020,1
+44224,Torre de las Arcas,20 años,2020,0.0
+44224,Torre de las Arcas,21 años,2020,0.0
+44224,Torre de las Arcas,22 años,2020,2
+44224,Torre de las Arcas,23 años,2020,1
+44224,Torre de las Arcas,24 años,2020,1
+44224,Torre de las Arcas,25 años,2020,0.0
+44224,Torre de las Arcas,26 años,2020,0.0
+44224,Torre de las Arcas,27 años,2020,1
+44224,Torre de las Arcas,28 años,2020,0.0
+44224,Torre de las Arcas,29 años,2020,0.0
+44224,Torre de las Arcas,30 años,2020,0.0
+44224,Torre de las Arcas,31 años,2020,0.0
+44224,Torre de las Arcas,32 años,2020,0.0
+44224,Torre de las Arcas,33 años,2020,0.0
+44224,Torre de las Arcas,34 años,2020,0.0
+44224,Torre de las Arcas,35 años,2020,0.0
+44224,Torre de las Arcas,36 años,2020,0.0
+44224,Torre de las Arcas,37 años,2020,0.0
+44224,Torre de las Arcas,38 años,2020,0.0
+44224,Torre de las Arcas,39 años,2020,0.0
+44224,Torre de las Arcas,40 años,2020,0.0
+44225,Torre del Compte,19 años,2020,1
+44225,Torre del Compte,20 años,2020,0.0
+44225,Torre del Compte,21 años,2020,1
+44225,Torre del Compte,22 años,2020,0.0
+44225,Torre del Compte,23 años,2020,1
+44225,Torre del Compte,24 años,2020,0.0
+44225,Torre del Compte,25 años,2020,1
+44225,Torre del Compte,26 años,2020,1
+44225,Torre del Compte,27 años,2020,0.0
+44225,Torre del Compte,28 años,2020,2
+44225,Torre del Compte,29 años,2020,2
+44225,Torre del Compte,30 años,2020,2
+44225,Torre del Compte,31 años,2020,1
+44225,Torre del Compte,32 años,2020,0.0
+44225,Torre del Compte,33 años,2020,0.0
+44225,Torre del Compte,34 años,2020,1
+44225,Torre del Compte,35 años,2020,1
+44225,Torre del Compte,36 años,2020,3
+44225,Torre del Compte,37 años,2020,2
+44225,Torre del Compte,38 años,2020,0.0
+44225,Torre del Compte,39 años,2020,1
+44225,Torre del Compte,40 años,2020,1
+44226,Torrelacárcel,19 años,2020,0.0
+44226,Torrelacárcel,20 años,2020,1
+44226,Torrelacárcel,21 años,2020,0.0
+44226,Torrelacárcel,22 años,2020,0.0
+44226,Torrelacárcel,23 años,2020,1
+44226,Torrelacárcel,24 años,2020,0.0
+44226,Torrelacárcel,25 años,2020,1
+44226,Torrelacárcel,26 años,2020,2
+44226,Torrelacárcel,27 años,2020,0.0
+44226,Torrelacárcel,28 años,2020,0.0
+44226,Torrelacárcel,29 años,2020,1
+44226,Torrelacárcel,30 años,2020,1
+44226,Torrelacárcel,31 años,2020,1
+44226,Torrelacárcel,32 años,2020,0.0
+44226,Torrelacárcel,33 años,2020,1
+44226,Torrelacárcel,34 años,2020,1
+44226,Torrelacárcel,35 años,2020,3
+44226,Torrelacárcel,36 años,2020,0.0
+44226,Torrelacárcel,37 años,2020,1
+44226,Torrelacárcel,38 años,2020,1
+44226,Torrelacárcel,39 años,2020,4
+44226,Torrelacárcel,40 años,2020,1
+44227,Torre los Negros,19 años,2020,1
+44227,Torre los Negros,20 años,2020,0.0
+44227,Torre los Negros,21 años,2020,2
+44227,Torre los Negros,22 años,2020,2
+44227,Torre los Negros,23 años,2020,0.0
+44227,Torre los Negros,24 años,2020,0.0
+44227,Torre los Negros,25 años,2020,2
+44227,Torre los Negros,26 años,2020,1
+44227,Torre los Negros,27 años,2020,1
+44227,Torre los Negros,28 años,2020,1
+44227,Torre los Negros,29 años,2020,0.0
+44227,Torre los Negros,30 años,2020,0.0
+44227,Torre los Negros,31 años,2020,1
+44227,Torre los Negros,32 años,2020,1
+44227,Torre los Negros,33 años,2020,0.0
+44227,Torre los Negros,34 años,2020,0.0
+44227,Torre los Negros,35 años,2020,0.0
+44227,Torre los Negros,36 años,2020,0.0
+44227,Torre los Negros,37 años,2020,0.0
+44227,Torre los Negros,38 años,2020,0.0
+44227,Torre los Negros,39 años,2020,0.0
+44227,Torre los Negros,40 años,2020,1
+44228,Torremocha de Jiloca,19 años,2020,1
+44228,Torremocha de Jiloca,20 años,2020,0.0
+44228,Torremocha de Jiloca,21 años,2020,0.0
+44228,Torremocha de Jiloca,22 años,2020,0.0
+44228,Torremocha de Jiloca,23 años,2020,1
+44228,Torremocha de Jiloca,24 años,2020,1
+44228,Torremocha de Jiloca,25 años,2020,2
+44228,Torremocha de Jiloca,26 años,2020,1
+44228,Torremocha de Jiloca,27 años,2020,2
+44228,Torremocha de Jiloca,28 años,2020,4
+44228,Torremocha de Jiloca,29 años,2020,0.0
+44228,Torremocha de Jiloca,30 años,2020,0.0
+44228,Torremocha de Jiloca,31 años,2020,1
+44228,Torremocha de Jiloca,32 años,2020,0.0
+44228,Torremocha de Jiloca,33 años,2020,1
+44228,Torremocha de Jiloca,34 años,2020,0.0
+44228,Torremocha de Jiloca,35 años,2020,0.0
+44228,Torremocha de Jiloca,36 años,2020,2
+44228,Torremocha de Jiloca,37 años,2020,2
+44228,Torremocha de Jiloca,38 años,2020,0.0
+44228,Torremocha de Jiloca,39 años,2020,2
+44228,Torremocha de Jiloca,40 años,2020,2
+44229,Torres de Albarracín,19 años,2020,0.0
+44229,Torres de Albarracín,20 años,2020,1
+44229,Torres de Albarracín,21 años,2020,2
+44229,Torres de Albarracín,22 años,2020,3
+44229,Torres de Albarracín,23 años,2020,2
+44229,Torres de Albarracín,24 años,2020,1
+44229,Torres de Albarracín,25 años,2020,1
+44229,Torres de Albarracín,26 años,2020,2
+44229,Torres de Albarracín,27 años,2020,3
+44229,Torres de Albarracín,28 años,2020,1
+44229,Torres de Albarracín,29 años,2020,4
+44229,Torres de Albarracín,30 años,2020,2
+44229,Torres de Albarracín,31 años,2020,1
+44229,Torres de Albarracín,32 años,2020,7
+44229,Torres de Albarracín,33 años,2020,3
+44229,Torres de Albarracín,34 años,2020,5
+44229,Torres de Albarracín,35 años,2020,1
+44229,Torres de Albarracín,36 años,2020,6
+44229,Torres de Albarracín,37 años,2020,2
+44229,Torres de Albarracín,38 años,2020,1
+44229,Torres de Albarracín,39 años,2020,2
+44229,Torres de Albarracín,40 años,2020,0.0
+44230,Torrevelilla,19 años,2020,3
+44230,Torrevelilla,20 años,2020,3
+44230,Torrevelilla,21 años,2020,0.0
+44230,Torrevelilla,22 años,2020,3
+44230,Torrevelilla,23 años,2020,1
+44230,Torrevelilla,24 años,2020,2
+44230,Torrevelilla,25 años,2020,2
+44230,Torrevelilla,26 años,2020,0.0
+44230,Torrevelilla,27 años,2020,4
+44230,Torrevelilla,28 años,2020,2
+44230,Torrevelilla,29 años,2020,1
+44230,Torrevelilla,30 años,2020,1
+44230,Torrevelilla,31 años,2020,1
+44230,Torrevelilla,32 años,2020,3
+44230,Torrevelilla,33 años,2020,4
+44230,Torrevelilla,34 años,2020,1
+44230,Torrevelilla,35 años,2020,0.0
+44230,Torrevelilla,36 años,2020,4
+44230,Torrevelilla,37 años,2020,1
+44230,Torrevelilla,38 años,2020,1
+44230,Torrevelilla,39 años,2020,1
+44230,Torrevelilla,40 años,2020,1
+44231,Torrijas,19 años,2020,1
+44231,Torrijas,20 años,2020,0.0
+44231,Torrijas,21 años,2020,0.0
+44231,Torrijas,22 años,2020,0.0
+44231,Torrijas,23 años,2020,0.0
+44231,Torrijas,24 años,2020,0.0
+44231,Torrijas,25 años,2020,1
+44231,Torrijas,26 años,2020,1
+44231,Torrijas,27 años,2020,0.0
+44231,Torrijas,28 años,2020,0.0
+44231,Torrijas,29 años,2020,0.0
+44231,Torrijas,30 años,2020,0.0
+44231,Torrijas,31 años,2020,1
+44231,Torrijas,32 años,2020,0.0
+44231,Torrijas,33 años,2020,1
+44231,Torrijas,34 años,2020,0.0
+44231,Torrijas,35 años,2020,0.0
+44231,Torrijas,36 años,2020,0.0
+44231,Torrijas,37 años,2020,0.0
+44231,Torrijas,38 años,2020,2
+44231,Torrijas,39 años,2020,2
+44231,Torrijas,40 años,2020,1
+44232,Torrijo del Campo,19 años,2020,3
+44232,Torrijo del Campo,20 años,2020,3
+44232,Torrijo del Campo,21 años,2020,3
+44232,Torrijo del Campo,22 años,2020,2
+44232,Torrijo del Campo,23 años,2020,4
+44232,Torrijo del Campo,24 años,2020,3
+44232,Torrijo del Campo,25 años,2020,1
+44232,Torrijo del Campo,26 años,2020,5
+44232,Torrijo del Campo,27 años,2020,1
+44232,Torrijo del Campo,28 años,2020,8
+44232,Torrijo del Campo,29 años,2020,6
+44232,Torrijo del Campo,30 años,2020,6
+44232,Torrijo del Campo,31 años,2020,5
+44232,Torrijo del Campo,32 años,2020,3
+44232,Torrijo del Campo,33 años,2020,7
+44232,Torrijo del Campo,34 años,2020,6
+44232,Torrijo del Campo,35 años,2020,3
+44232,Torrijo del Campo,36 años,2020,8
+44232,Torrijo del Campo,37 años,2020,5
+44232,Torrijo del Campo,38 años,2020,4
+44232,Torrijo del Campo,39 años,2020,8
+44232,Torrijo del Campo,40 años,2020,11
+44234,Tramacastiel,19 años,2020,0.0
+44234,Tramacastiel,20 años,2020,2
+44234,Tramacastiel,21 años,2020,0.0
+44234,Tramacastiel,22 años,2020,0.0
+44234,Tramacastiel,23 años,2020,0.0
+44234,Tramacastiel,24 años,2020,0.0
+44234,Tramacastiel,25 años,2020,0.0
+44234,Tramacastiel,26 años,2020,1
+44234,Tramacastiel,27 años,2020,0.0
+44234,Tramacastiel,28 años,2020,3
+44234,Tramacastiel,29 años,2020,0.0
+44234,Tramacastiel,30 años,2020,0.0
+44234,Tramacastiel,31 años,2020,2
+44234,Tramacastiel,32 años,2020,1
+44234,Tramacastiel,33 años,2020,2
+44234,Tramacastiel,34 años,2020,1
+44234,Tramacastiel,35 años,2020,1
+44234,Tramacastiel,36 años,2020,1
+44234,Tramacastiel,37 años,2020,0.0
+44234,Tramacastiel,38 años,2020,2
+44234,Tramacastiel,39 años,2020,0.0
+44234,Tramacastiel,40 años,2020,1
+44235,Tramacastilla,19 años,2020,2
+44235,Tramacastilla,20 años,2020,2
+44235,Tramacastilla,21 años,2020,0.0
+44235,Tramacastilla,22 años,2020,1
+44235,Tramacastilla,23 años,2020,0.0
+44235,Tramacastilla,24 años,2020,0.0
+44235,Tramacastilla,25 años,2020,0.0
+44235,Tramacastilla,26 años,2020,2
+44235,Tramacastilla,27 años,2020,0.0
+44235,Tramacastilla,28 años,2020,0.0
+44235,Tramacastilla,29 años,2020,1
+44235,Tramacastilla,30 años,2020,0.0
+44235,Tramacastilla,31 años,2020,1
+44235,Tramacastilla,32 años,2020,1
+44235,Tramacastilla,33 años,2020,2
+44235,Tramacastilla,34 años,2020,0.0
+44235,Tramacastilla,35 años,2020,0.0
+44235,Tramacastilla,36 años,2020,1
+44235,Tramacastilla,37 años,2020,0.0
+44235,Tramacastilla,38 años,2020,0.0
+44235,Tramacastilla,39 años,2020,0.0
+44235,Tramacastilla,40 años,2020,2
+44236,Tronchón,19 años,2020,1
+44236,Tronchón,20 años,2020,0.0
+44236,Tronchón,21 años,2020,0.0
+44236,Tronchón,22 años,2020,0.0
+44236,Tronchón,23 años,2020,0.0
+44236,Tronchón,24 años,2020,0.0
+44236,Tronchón,25 años,2020,1
+44236,Tronchón,26 años,2020,0.0
+44236,Tronchón,27 años,2020,0.0
+44236,Tronchón,28 años,2020,0.0
+44236,Tronchón,29 años,2020,2
+44236,Tronchón,30 años,2020,0.0
+44236,Tronchón,31 años,2020,1
+44236,Tronchón,32 años,2020,0.0
+44236,Tronchón,33 años,2020,0.0
+44236,Tronchón,34 años,2020,0.0
+44236,Tronchón,35 años,2020,1
+44236,Tronchón,36 años,2020,0.0
+44236,Tronchón,37 años,2020,1
+44236,Tronchón,38 años,2020,0.0
+44236,Tronchón,39 años,2020,0.0
+44236,Tronchón,40 años,2020,1
+44237,Urrea de Gaén,19 años,2020,0.0
+44237,Urrea de Gaén,20 años,2020,2
+44237,Urrea de Gaén,21 años,2020,3
+44237,Urrea de Gaén,22 años,2020,1
+44237,Urrea de Gaén,23 años,2020,3
+44237,Urrea de Gaén,24 años,2020,5
+44237,Urrea de Gaén,25 años,2020,0.0
+44237,Urrea de Gaén,26 años,2020,4
+44237,Urrea de Gaén,27 años,2020,3
+44237,Urrea de Gaén,28 años,2020,6
+44237,Urrea de Gaén,29 años,2020,4
+44237,Urrea de Gaén,30 años,2020,3
+44237,Urrea de Gaén,31 años,2020,5
+44237,Urrea de Gaén,32 años,2020,2
+44237,Urrea de Gaén,33 años,2020,5
+44237,Urrea de Gaén,34 años,2020,5
+44237,Urrea de Gaén,35 años,2020,8
+44237,Urrea de Gaén,36 años,2020,2
+44237,Urrea de Gaén,37 años,2020,2
+44237,Urrea de Gaén,38 años,2020,7
+44237,Urrea de Gaén,39 años,2020,7
+44237,Urrea de Gaén,40 años,2020,5
+44238,Utrillas,19 años,2020,32
+44238,Utrillas,20 años,2020,25
+44238,Utrillas,21 años,2020,27
+44238,Utrillas,22 años,2020,26
+44238,Utrillas,23 años,2020,26
+44238,Utrillas,24 años,2020,28
+44238,Utrillas,25 años,2020,29
+44238,Utrillas,26 años,2020,37
+44238,Utrillas,27 años,2020,38
+44238,Utrillas,28 años,2020,30
+44238,Utrillas,29 años,2020,32
+44238,Utrillas,30 años,2020,40
+44238,Utrillas,31 años,2020,37
+44238,Utrillas,32 años,2020,51
+44238,Utrillas,33 años,2020,38
+44238,Utrillas,34 años,2020,45
+44238,Utrillas,35 años,2020,29
+44238,Utrillas,36 años,2020,54
+44238,Utrillas,37 años,2020,57
+44238,Utrillas,38 años,2020,36
+44238,Utrillas,39 años,2020,46
+44238,Utrillas,40 años,2020,44
+44239,Valacloche,19 años,2020,0.0
+44239,Valacloche,20 años,2020,0.0
+44239,Valacloche,21 años,2020,0.0
+44239,Valacloche,22 años,2020,0.0
+44239,Valacloche,23 años,2020,0.0
+44239,Valacloche,24 años,2020,2
+44239,Valacloche,25 años,2020,0.0
+44239,Valacloche,26 años,2020,1
+44239,Valacloche,27 años,2020,0.0
+44239,Valacloche,28 años,2020,0.0
+44239,Valacloche,29 años,2020,0.0
+44239,Valacloche,30 años,2020,0.0
+44239,Valacloche,31 años,2020,0.0
+44239,Valacloche,32 años,2020,0.0
+44239,Valacloche,33 años,2020,0.0
+44239,Valacloche,34 años,2020,1
+44239,Valacloche,35 años,2020,0.0
+44239,Valacloche,36 años,2020,0.0
+44239,Valacloche,37 años,2020,0.0
+44239,Valacloche,38 años,2020,0.0
+44239,Valacloche,39 años,2020,0.0
+44239,Valacloche,40 años,2020,1
+44240,Valbona,19 años,2020,1
+44240,Valbona,20 años,2020,1
+44240,Valbona,21 años,2020,1
+44240,Valbona,22 años,2020,0.0
+44240,Valbona,23 años,2020,0.0
+44240,Valbona,24 años,2020,1
+44240,Valbona,25 años,2020,1
+44240,Valbona,26 años,2020,0.0
+44240,Valbona,27 años,2020,3
+44240,Valbona,28 años,2020,1
+44240,Valbona,29 años,2020,0.0
+44240,Valbona,30 años,2020,2
+44240,Valbona,31 años,2020,1
+44240,Valbona,32 años,2020,1
+44240,Valbona,33 años,2020,2
+44240,Valbona,34 años,2020,1
+44240,Valbona,35 años,2020,3
+44240,Valbona,36 años,2020,2
+44240,Valbona,37 años,2020,0.0
+44240,Valbona,38 años,2020,4
+44240,Valbona,39 años,2020,1
+44240,Valbona,40 años,2020,0.0
+44241,Valdealgorfa,19 años,2020,8
+44241,Valdealgorfa,20 años,2020,3
+44241,Valdealgorfa,21 años,2020,4
+44241,Valdealgorfa,22 años,2020,5
+44241,Valdealgorfa,23 años,2020,6
+44241,Valdealgorfa,24 años,2020,1
+44241,Valdealgorfa,25 años,2020,3
+44241,Valdealgorfa,26 años,2020,8
+44241,Valdealgorfa,27 años,2020,4
+44241,Valdealgorfa,28 años,2020,3
+44241,Valdealgorfa,29 años,2020,2
+44241,Valdealgorfa,30 años,2020,9
+44241,Valdealgorfa,31 años,2020,6
+44241,Valdealgorfa,32 años,2020,5
+44241,Valdealgorfa,33 años,2020,4
+44241,Valdealgorfa,34 años,2020,6
+44241,Valdealgorfa,35 años,2020,3
+44241,Valdealgorfa,36 años,2020,7
+44241,Valdealgorfa,37 años,2020,6
+44241,Valdealgorfa,38 años,2020,7
+44241,Valdealgorfa,39 años,2020,6
+44241,Valdealgorfa,40 años,2020,9
+44243,Valdecuenca,19 años,2020,0.0
+44243,Valdecuenca,20 años,2020,0.0
+44243,Valdecuenca,21 años,2020,0.0
+44243,Valdecuenca,22 años,2020,0.0
+44243,Valdecuenca,23 años,2020,0.0
+44243,Valdecuenca,24 años,2020,0.0
+44243,Valdecuenca,25 años,2020,0.0
+44243,Valdecuenca,26 años,2020,1
+44243,Valdecuenca,27 años,2020,0.0
+44243,Valdecuenca,28 años,2020,0.0
+44243,Valdecuenca,29 años,2020,0.0
+44243,Valdecuenca,30 años,2020,0.0
+44243,Valdecuenca,31 años,2020,1
+44243,Valdecuenca,32 años,2020,2
+44243,Valdecuenca,33 años,2020,0.0
+44243,Valdecuenca,34 años,2020,0.0
+44243,Valdecuenca,35 años,2020,0.0
+44243,Valdecuenca,36 años,2020,0.0
+44243,Valdecuenca,37 años,2020,0.0
+44243,Valdecuenca,38 años,2020,0.0
+44243,Valdecuenca,39 años,2020,2
+44243,Valdecuenca,40 años,2020,1
+44244,Valdelinares,19 años,2020,2
+44244,Valdelinares,20 años,2020,0.0
+44244,Valdelinares,21 años,2020,1
+44244,Valdelinares,22 años,2020,3
+44244,Valdelinares,23 años,2020,1
+44244,Valdelinares,24 años,2020,2
+44244,Valdelinares,25 años,2020,3
+44244,Valdelinares,26 años,2020,1
+44244,Valdelinares,27 años,2020,1
+44244,Valdelinares,28 años,2020,1
+44244,Valdelinares,29 años,2020,1
+44244,Valdelinares,30 años,2020,0.0
+44244,Valdelinares,31 años,2020,2
+44244,Valdelinares,32 años,2020,1
+44244,Valdelinares,33 años,2020,3
+44244,Valdelinares,34 años,2020,0.0
+44244,Valdelinares,35 años,2020,1
+44244,Valdelinares,36 años,2020,0.0
+44244,Valdelinares,37 años,2020,1
+44244,Valdelinares,38 años,2020,3
+44244,Valdelinares,39 años,2020,0.0
+44244,Valdelinares,40 años,2020,0.0
+44245,Valdeltormo,19 años,2020,3
+44245,Valdeltormo,20 años,2020,1
+44245,Valdeltormo,21 años,2020,3
+44245,Valdeltormo,22 años,2020,1
+44245,Valdeltormo,23 años,2020,2
+44245,Valdeltormo,24 años,2020,1
+44245,Valdeltormo,25 años,2020,4
+44245,Valdeltormo,26 años,2020,1
+44245,Valdeltormo,27 años,2020,0.0
+44245,Valdeltormo,28 años,2020,0.0
+44245,Valdeltormo,29 años,2020,3
+44245,Valdeltormo,30 años,2020,2
+44245,Valdeltormo,31 años,2020,5
+44245,Valdeltormo,32 años,2020,5
+44245,Valdeltormo,33 años,2020,4
+44245,Valdeltormo,34 años,2020,1
+44245,Valdeltormo,35 años,2020,2
+44245,Valdeltormo,36 años,2020,6
+44245,Valdeltormo,37 años,2020,6
+44245,Valdeltormo,38 años,2020,4
+44245,Valdeltormo,39 años,2020,2
+44245,Valdeltormo,40 años,2020,2
+44246,Valderrobres,19 años,2020,28
+44246,Valderrobres,20 años,2020,19
+44246,Valderrobres,21 años,2020,24
+44246,Valderrobres,22 años,2020,16
+44246,Valderrobres,23 años,2020,26
+44246,Valderrobres,24 años,2020,17
+44246,Valderrobres,25 años,2020,25
+44246,Valderrobres,26 años,2020,18
+44246,Valderrobres,27 años,2020,26
+44246,Valderrobres,28 años,2020,32
+44246,Valderrobres,29 años,2020,23
+44246,Valderrobres,30 años,2020,45
+44246,Valderrobres,31 años,2020,20
+44246,Valderrobres,32 años,2020,39
+44246,Valderrobres,33 años,2020,24
+44246,Valderrobres,34 años,2020,29
+44246,Valderrobres,35 años,2020,25
+44246,Valderrobres,36 años,2020,32
+44246,Valderrobres,37 años,2020,46
+44246,Valderrobres,38 años,2020,41
+44246,Valderrobres,39 años,2020,32
+44246,Valderrobres,40 años,2020,47
+44247,Valjunquera,19 años,2020,4
+44247,Valjunquera,20 años,2020,8
+44247,Valjunquera,21 años,2020,2
+44247,Valjunquera,22 años,2020,4
+44247,Valjunquera,23 años,2020,2
+44247,Valjunquera,24 años,2020,8
+44247,Valjunquera,25 años,2020,3
+44247,Valjunquera,26 años,2020,4
+44247,Valjunquera,27 años,2020,1
+44247,Valjunquera,28 años,2020,2
+44247,Valjunquera,29 años,2020,4
+44247,Valjunquera,30 años,2020,1
+44247,Valjunquera,31 años,2020,4
+44247,Valjunquera,32 años,2020,1
+44247,Valjunquera,33 años,2020,4
+44247,Valjunquera,34 años,2020,4
+44247,Valjunquera,35 años,2020,0.0
+44247,Valjunquera,36 años,2020,2
+44247,Valjunquera,37 años,2020,0.0
+44247,Valjunquera,38 años,2020,1
+44247,Valjunquera,39 años,2020,1
+44247,Valjunquera,40 años,2020,5
+44249,Vallecillo El,19 años,2020,1
+44249,Vallecillo El,20 años,2020,0.0
+44249,Vallecillo El,21 años,2020,0.0
+44249,Vallecillo El,22 años,2020,0.0
+44249,Vallecillo El,23 años,2020,0.0
+44249,Vallecillo El,24 años,2020,0.0
+44249,Vallecillo El,25 años,2020,0.0
+44249,Vallecillo El,26 años,2020,1
+44249,Vallecillo El,27 años,2020,0.0
+44249,Vallecillo El,28 años,2020,0.0
+44249,Vallecillo El,29 años,2020,0.0
+44249,Vallecillo El,30 años,2020,1
+44249,Vallecillo El,31 años,2020,1
+44249,Vallecillo El,32 años,2020,1
+44249,Vallecillo El,33 años,2020,1
+44249,Vallecillo El,34 años,2020,0.0
+44249,Vallecillo El,35 años,2020,0.0
+44249,Vallecillo El,36 años,2020,0.0
+44249,Vallecillo El,37 años,2020,0.0
+44249,Vallecillo El,38 años,2020,0.0
+44249,Vallecillo El,39 años,2020,0.0
+44249,Vallecillo El,40 años,2020,0.0
+44250,Veguillas de la Sierra,19 años,2020,0.0
+44250,Veguillas de la Sierra,20 años,2020,0.0
+44250,Veguillas de la Sierra,21 años,2020,0.0
+44250,Veguillas de la Sierra,22 años,2020,0.0
+44250,Veguillas de la Sierra,23 años,2020,0.0
+44250,Veguillas de la Sierra,24 años,2020,0.0
+44250,Veguillas de la Sierra,25 años,2020,0.0
+44250,Veguillas de la Sierra,26 años,2020,0.0
+44250,Veguillas de la Sierra,27 años,2020,0.0
+44250,Veguillas de la Sierra,28 años,2020,0.0
+44250,Veguillas de la Sierra,29 años,2020,0.0
+44250,Veguillas de la Sierra,30 años,2020,0.0
+44250,Veguillas de la Sierra,31 años,2020,0.0
+44250,Veguillas de la Sierra,32 años,2020,0.0
+44250,Veguillas de la Sierra,33 años,2020,0.0
+44250,Veguillas de la Sierra,34 años,2020,0.0
+44250,Veguillas de la Sierra,35 años,2020,0.0
+44250,Veguillas de la Sierra,36 años,2020,1
+44250,Veguillas de la Sierra,37 años,2020,0.0
+44250,Veguillas de la Sierra,38 años,2020,0.0
+44250,Veguillas de la Sierra,39 años,2020,0.0
+44250,Veguillas de la Sierra,40 años,2020,0.0
+44251,Villafranca del Campo,19 años,2020,2
+44251,Villafranca del Campo,20 años,2020,4
+44251,Villafranca del Campo,21 años,2020,2
+44251,Villafranca del Campo,22 años,2020,1
+44251,Villafranca del Campo,23 años,2020,2
+44251,Villafranca del Campo,24 años,2020,0.0
+44251,Villafranca del Campo,25 años,2020,5
+44251,Villafranca del Campo,26 años,2020,3
+44251,Villafranca del Campo,27 años,2020,3
+44251,Villafranca del Campo,28 años,2020,3
+44251,Villafranca del Campo,29 años,2020,2
+44251,Villafranca del Campo,30 años,2020,4
+44251,Villafranca del Campo,31 años,2020,0.0
+44251,Villafranca del Campo,32 años,2020,5
+44251,Villafranca del Campo,33 años,2020,3
+44251,Villafranca del Campo,34 años,2020,3
+44251,Villafranca del Campo,35 años,2020,4
+44251,Villafranca del Campo,36 años,2020,4
+44251,Villafranca del Campo,37 años,2020,4
+44251,Villafranca del Campo,38 años,2020,2
+44251,Villafranca del Campo,39 años,2020,2
+44251,Villafranca del Campo,40 años,2020,1
+44252,Villahermosa del Campo,19 años,2020,0.0
+44252,Villahermosa del Campo,20 años,2020,1
+44252,Villahermosa del Campo,21 años,2020,0.0
+44252,Villahermosa del Campo,22 años,2020,0.0
+44252,Villahermosa del Campo,23 años,2020,0.0
+44252,Villahermosa del Campo,24 años,2020,1
+44252,Villahermosa del Campo,25 años,2020,0.0
+44252,Villahermosa del Campo,26 años,2020,2
+44252,Villahermosa del Campo,27 años,2020,1
+44252,Villahermosa del Campo,28 años,2020,2
+44252,Villahermosa del Campo,29 años,2020,0.0
+44252,Villahermosa del Campo,30 años,2020,0.0
+44252,Villahermosa del Campo,31 años,2020,1
+44252,Villahermosa del Campo,32 años,2020,0.0
+44252,Villahermosa del Campo,33 años,2020,0.0
+44252,Villahermosa del Campo,34 años,2020,2
+44252,Villahermosa del Campo,35 años,2020,1
+44252,Villahermosa del Campo,36 años,2020,1
+44252,Villahermosa del Campo,37 años,2020,2
+44252,Villahermosa del Campo,38 años,2020,1
+44252,Villahermosa del Campo,39 años,2020,0.0
+44252,Villahermosa del Campo,40 años,2020,2
+44256,Villanueva del Rebollar de la Sierra,19 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,20 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,21 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,22 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,23 años,2020,1
+44256,Villanueva del Rebollar de la Sierra,24 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,25 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,26 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,27 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,28 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,29 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,30 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,31 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,32 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,33 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,34 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,35 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,36 años,2020,1
+44256,Villanueva del Rebollar de la Sierra,37 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,38 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,39 años,2020,0.0
+44256,Villanueva del Rebollar de la Sierra,40 años,2020,1
+44257,Villar del Cobo,19 años,2020,2
+44257,Villar del Cobo,20 años,2020,1
+44257,Villar del Cobo,21 años,2020,2
+44257,Villar del Cobo,22 años,2020,2
+44257,Villar del Cobo,23 años,2020,2
+44257,Villar del Cobo,24 años,2020,1
+44257,Villar del Cobo,25 años,2020,3
+44257,Villar del Cobo,26 años,2020,1
+44257,Villar del Cobo,27 años,2020,0.0
+44257,Villar del Cobo,28 años,2020,0.0
+44257,Villar del Cobo,29 años,2020,1
+44257,Villar del Cobo,30 años,2020,1
+44257,Villar del Cobo,31 años,2020,1
+44257,Villar del Cobo,32 años,2020,0.0
+44257,Villar del Cobo,33 años,2020,0.0
+44257,Villar del Cobo,34 años,2020,1
+44257,Villar del Cobo,35 años,2020,1
+44257,Villar del Cobo,36 años,2020,2
+44257,Villar del Cobo,37 años,2020,4
+44257,Villar del Cobo,38 años,2020,3
+44257,Villar del Cobo,39 años,2020,0.0
+44257,Villar del Cobo,40 años,2020,1
+44258,Villar del Salz,19 años,2020,1
+44258,Villar del Salz,20 años,2020,1
+44258,Villar del Salz,21 años,2020,0.0
+44258,Villar del Salz,22 años,2020,0.0
+44258,Villar del Salz,23 años,2020,0.0
+44258,Villar del Salz,24 años,2020,0.0
+44258,Villar del Salz,25 años,2020,0.0
+44258,Villar del Salz,26 años,2020,0.0
+44258,Villar del Salz,27 años,2020,2
+44258,Villar del Salz,28 años,2020,0.0
+44258,Villar del Salz,29 años,2020,0.0
+44258,Villar del Salz,30 años,2020,0.0
+44258,Villar del Salz,31 años,2020,1
+44258,Villar del Salz,32 años,2020,1
+44258,Villar del Salz,33 años,2020,0.0
+44258,Villar del Salz,34 años,2020,0.0
+44258,Villar del Salz,35 años,2020,1
+44258,Villar del Salz,36 años,2020,3
+44258,Villar del Salz,37 años,2020,1
+44258,Villar del Salz,38 años,2020,0.0
+44258,Villar del Salz,39 años,2020,3
+44258,Villar del Salz,40 años,2020,1
+44260,Villarluengo,19 años,2020,1
+44260,Villarluengo,20 años,2020,0.0
+44260,Villarluengo,21 años,2020,0.0
+44260,Villarluengo,22 años,2020,1
+44260,Villarluengo,23 años,2020,2
+44260,Villarluengo,24 años,2020,0.0
+44260,Villarluengo,25 años,2020,1
+44260,Villarluengo,26 años,2020,1
+44260,Villarluengo,27 años,2020,5
+44260,Villarluengo,28 años,2020,0.0
+44260,Villarluengo,29 años,2020,1
+44260,Villarluengo,30 años,2020,2
+44260,Villarluengo,31 años,2020,2
+44260,Villarluengo,32 años,2020,2
+44260,Villarluengo,33 años,2020,4
+44260,Villarluengo,34 años,2020,3
+44260,Villarluengo,35 años,2020,0.0
+44260,Villarluengo,36 años,2020,3
+44260,Villarluengo,37 años,2020,2
+44260,Villarluengo,38 años,2020,1
+44260,Villarluengo,39 años,2020,4
+44260,Villarluengo,40 años,2020,5
+44261,Villarquemado,19 años,2020,5
+44261,Villarquemado,20 años,2020,5
+44261,Villarquemado,21 años,2020,6
+44261,Villarquemado,22 años,2020,9
+44261,Villarquemado,23 años,2020,6
+44261,Villarquemado,24 años,2020,9
+44261,Villarquemado,25 años,2020,9
+44261,Villarquemado,26 años,2020,7
+44261,Villarquemado,27 años,2020,8
+44261,Villarquemado,28 años,2020,10
+44261,Villarquemado,29 años,2020,7
+44261,Villarquemado,30 años,2020,7
+44261,Villarquemado,31 años,2020,11
+44261,Villarquemado,32 años,2020,8
+44261,Villarquemado,33 años,2020,9
+44261,Villarquemado,34 años,2020,12
+44261,Villarquemado,35 años,2020,15
+44261,Villarquemado,36 años,2020,11
+44261,Villarquemado,37 años,2020,17
+44261,Villarquemado,38 años,2020,11
+44261,Villarquemado,39 años,2020,11
+44261,Villarquemado,40 años,2020,1
+44262,Villarroya de los Pinares,19 años,2020,1
+44262,Villarroya de los Pinares,20 años,2020,2
+44262,Villarroya de los Pinares,21 años,2020,3
+44262,Villarroya de los Pinares,22 años,2020,1
+44262,Villarroya de los Pinares,23 años,2020,3
+44262,Villarroya de los Pinares,24 años,2020,2
+44262,Villarroya de los Pinares,25 años,2020,1
+44262,Villarroya de los Pinares,26 años,2020,0.0
+44262,Villarroya de los Pinares,27 años,2020,0.0
+44262,Villarroya de los Pinares,28 años,2020,0.0
+44262,Villarroya de los Pinares,29 años,2020,1
+44262,Villarroya de los Pinares,30 años,2020,2
+44262,Villarroya de los Pinares,31 años,2020,0.0
+44262,Villarroya de los Pinares,32 años,2020,2
+44262,Villarroya de los Pinares,33 años,2020,5
+44262,Villarroya de los Pinares,34 años,2020,2
+44262,Villarroya de los Pinares,35 años,2020,4
+44262,Villarroya de los Pinares,36 años,2020,1
+44262,Villarroya de los Pinares,37 años,2020,2
+44262,Villarroya de los Pinares,38 años,2020,3
+44262,Villarroya de los Pinares,39 años,2020,0.0
+44262,Villarroya de los Pinares,40 años,2020,4
+44263,Villastar,19 años,2020,6
+44263,Villastar,20 años,2020,2
+44263,Villastar,21 años,2020,5
+44263,Villastar,22 años,2020,10
+44263,Villastar,23 años,2020,3
+44263,Villastar,24 años,2020,5
+44263,Villastar,25 años,2020,0.0
+44263,Villastar,26 años,2020,4
+44263,Villastar,27 años,2020,7
+44263,Villastar,28 años,2020,5
+44263,Villastar,29 años,2020,4
+44263,Villastar,30 años,2020,8
+44263,Villastar,31 años,2020,5
+44263,Villastar,32 años,2020,6
+44263,Villastar,33 años,2020,8
+44263,Villastar,34 años,2020,5
+44263,Villastar,35 años,2020,10
+44263,Villastar,36 años,2020,10
+44263,Villastar,37 años,2020,13
+44263,Villastar,38 años,2020,9
+44263,Villastar,39 años,2020,7
+44263,Villastar,40 años,2020,15
+44264,Villel,19 años,2020,1
+44264,Villel,20 años,2020,2
+44264,Villel,21 años,2020,2
+44264,Villel,22 años,2020,4
+44264,Villel,23 años,2020,2
+44264,Villel,24 años,2020,3
+44264,Villel,25 años,2020,3
+44264,Villel,26 años,2020,3
+44264,Villel,27 años,2020,1
+44264,Villel,28 años,2020,9
+44264,Villel,29 años,2020,3
+44264,Villel,30 años,2020,7
+44264,Villel,31 años,2020,2
+44264,Villel,32 años,2020,8
+44264,Villel,33 años,2020,2
+44264,Villel,34 años,2020,3
+44264,Villel,35 años,2020,6
+44264,Villel,36 años,2020,4
+44264,Villel,37 años,2020,5
+44264,Villel,38 años,2020,2
+44264,Villel,39 años,2020,7
+44264,Villel,40 años,2020,5
+44265,Vinaceite,19 años,2020,3
+44265,Vinaceite,20 años,2020,2
+44265,Vinaceite,21 años,2020,1
+44265,Vinaceite,22 años,2020,1
+44265,Vinaceite,23 años,2020,6
+44265,Vinaceite,24 años,2020,0.0
+44265,Vinaceite,25 años,2020,1
+44265,Vinaceite,26 años,2020,3
+44265,Vinaceite,27 años,2020,2
+44265,Vinaceite,28 años,2020,4
+44265,Vinaceite,29 años,2020,2
+44265,Vinaceite,30 años,2020,4
+44265,Vinaceite,31 años,2020,1
+44265,Vinaceite,32 años,2020,1
+44265,Vinaceite,33 años,2020,1
+44265,Vinaceite,34 años,2020,2
+44265,Vinaceite,35 años,2020,3
+44265,Vinaceite,36 años,2020,2
+44265,Vinaceite,37 años,2020,3
+44265,Vinaceite,38 años,2020,3
+44265,Vinaceite,39 años,2020,3
+44265,Vinaceite,40 años,2020,3
+44266,Visiedo,19 años,2020,0.0
+44266,Visiedo,20 años,2020,1
+44266,Visiedo,21 años,2020,0.0
+44266,Visiedo,22 años,2020,1
+44266,Visiedo,23 años,2020,0.0
+44266,Visiedo,24 años,2020,2
+44266,Visiedo,25 años,2020,2
+44266,Visiedo,26 años,2020,2
+44266,Visiedo,27 años,2020,0.0
+44266,Visiedo,28 años,2020,2
+44266,Visiedo,29 años,2020,3
+44266,Visiedo,30 años,2020,1
+44266,Visiedo,31 años,2020,0.0
+44266,Visiedo,32 años,2020,0.0
+44266,Visiedo,33 años,2020,0.0
+44266,Visiedo,34 años,2020,1
+44266,Visiedo,35 años,2020,1
+44266,Visiedo,36 años,2020,0.0
+44266,Visiedo,37 años,2020,0.0
+44266,Visiedo,38 años,2020,0.0
+44266,Visiedo,39 años,2020,1
+44266,Visiedo,40 años,2020,1
+44267,Vivel del Río Martín,19 años,2020,1
+44267,Vivel del Río Martín,20 años,2020,0.0
+44267,Vivel del Río Martín,21 años,2020,0.0
+44267,Vivel del Río Martín,22 años,2020,1
+44267,Vivel del Río Martín,23 años,2020,0.0
+44267,Vivel del Río Martín,24 años,2020,0.0
+44267,Vivel del Río Martín,25 años,2020,0.0
+44267,Vivel del Río Martín,26 años,2020,2
+44267,Vivel del Río Martín,27 años,2020,0.0
+44267,Vivel del Río Martín,28 años,2020,0.0
+44267,Vivel del Río Martín,29 años,2020,4
+44267,Vivel del Río Martín,30 años,2020,0.0
+44267,Vivel del Río Martín,31 años,2020,1
+44267,Vivel del Río Martín,32 años,2020,2
+44267,Vivel del Río Martín,33 años,2020,0.0
+44267,Vivel del Río Martín,34 años,2020,0.0
+44267,Vivel del Río Martín,35 años,2020,0.0
+44267,Vivel del Río Martín,36 años,2020,0.0
+44267,Vivel del Río Martín,37 años,2020,1
+44267,Vivel del Río Martín,38 años,2020,0.0
+44267,Vivel del Río Martín,39 años,2020,1
+44267,Vivel del Río Martín,40 años,2020,1
+44268,Zoma La,19 años,2020,0.0
+44268,Zoma La,20 años,2020,1
+44268,Zoma La,21 años,2020,0.0
+44268,Zoma La,22 años,2020,2
+44268,Zoma La,23 años,2020,0.0
+44268,Zoma La,24 años,2020,0.0
+44268,Zoma La,25 años,2020,0.0
+44268,Zoma La,26 años,2020,0.0
+44268,Zoma La,27 años,2020,1
+44268,Zoma La,28 años,2020,0.0
+44268,Zoma La,29 años,2020,1
+44268,Zoma La,30 años,2020,1
+44268,Zoma La,31 años,2020,1
+44268,Zoma La,32 años,2020,0.0
+44268,Zoma La,33 años,2020,0.0
+44268,Zoma La,34 años,2020,0.0
+44268,Zoma La,35 años,2020,0.0
+44268,Zoma La,36 años,2020,0.0
+44268,Zoma La,37 años,2020,0.0
+44268,Zoma La,38 años,2020,0.0
+44268,Zoma La,39 años,2020,0.0
+44268,Zoma La,40 años,2020,0.0
