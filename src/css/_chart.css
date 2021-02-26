@@ -32,7 +32,8 @@
 .bar-negative-chart,
 .line-population,
 .aragon-stack,
-.chart-lb {
+.chart-lb,
+.municipalities-stack {
   position: relative;
 
   text {
@@ -439,4 +440,8 @@ select {
   border: 1px solid #f1f1f1;
   padding: 1rem;
   font-size: 1rem;
+}
+
+.municipilaties-stacked {
+  position: relative;
 }

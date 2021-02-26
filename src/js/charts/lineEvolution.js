@@ -1,6 +1,5 @@
 import { widthMobile } from './../shared/index.js';
 import { select, selectAll } from 'd3-selection';
-import { nest } from 'd3-collection';
 import { min, max } from 'd3-array';
 import { line } from 'd3-shape';
 import { scaleTime, scaleLinear } from 'd3-scale';
@@ -14,7 +13,6 @@ import 'd3-transition';
 const d3 = {
   select,
   selectAll,
-  nest,
   min,
   max,
   line,
@@ -61,8 +59,9 @@ export function lineEvolution(csvFile, cities) {
   }
 
   function updateScales(width, height) {
-    scales.count.x.range([0, width]);
-    scales.count.y.range([height, 0]);
+    const { count: { x, y } } = scales
+    x.range([0, width]);
+    y.range([height, 0]);
   }
 
   function drawAxes(g) {
@@ -97,12 +96,14 @@ export function lineEvolution(csvFile, cities) {
     const w = chart.node().offsetWidth;
     const h = 500;
 
-    width = w - margin.left - margin.right;
-    height = h - margin.top - margin.bottom;
+    const { left, right, top, bottom } = margin
+
+    width = w - left - right;
+    height = h - top - bottom;
 
     svg.attr('width', w).attr('height', h);
 
-    const translate = `translate(${margin.left},${margin.top})`;
+    const translate = `translate(${left},${top})`;
 
     const g = svg.select(`.line-lb-${cities}-container`);
 
@@ -161,33 +162,17 @@ export function lineEvolution(csvFile, cities) {
 
   function updateSelectCity() {
     d3.csv(csvFile).then(data => {
-      dataLineEvolution = data;
+      const valueCity = d3.select(`#select-lb-${cities}`).property('value');
+      console.log("valueCity", valueCity);
 
-      let valueCity = d3.select(`#select-lb-${cities}`).property('value');
-      let revalueCity = new RegExp('^' + valueCity + '$');
-
-      dataLineEvolution = dataLineEvolution.filter(d =>
-        String(d.name).match(revalueCity)
-      );
+      dataLineEvolution = data.filter(({ municipio }) => municipio === valueCity);
 
       dataLineEvolution.forEach(d => {
         d.population = +d.population;
         d.year = +d.year;
       });
 
-      scales.count.x.range([0, width]);
-      scales.count.y.range([height, 0]);
-
-      const countX = d3.scaleTime().domain([2011, 2019]);
-
-      const countY = d3
-        .scaleLinear()
-        .domain([
-          d3.min(dataLineEvolution, d => d.population * 1.75 - d.population),
-          d3.max(dataLineEvolution, d => d.population) * 1.25
-        ]);
-
-      scales.count = { x: countX, y: countY };
+      setupScales();
       updateChart(dataLineEvolution);
     });
   }
@@ -198,20 +183,16 @@ export function lineEvolution(csvFile, cities) {
 
   function menuSelectCity() {
     d3.csv(csvFile).then(data => {
-      const nest = d3
-        .nest()
-        .key(d => d.name)
-        .entries(data);
-
+      const citiesName = [...new Set(data.map(({ municipio }) => municipio))];
       const selectCity = d3.select(`#select-lb-${cities}`);
 
       selectCity
         .selectAll('option')
-        .data(nest)
+        .data(citiesName)
         .enter()
         .append('option')
-        .attr('value', d => d.key)
-        .text(d => d.key);
+        .attr('value', d => d)
+        .text(d => d);
 
       selectCity.on('change', function() {
         updateSelectCity();
@@ -221,11 +202,11 @@ export function lineEvolution(csvFile, cities) {
 
   function loadData() {
     d3.csv(csvFile).then(data => {
-      dataLineEvolution = data;
+      const [{ name: municipality }] = data
+      dataLineEvolution = data.filter(({ municipio }) => municipio === municipality)
       dataLineEvolution.forEach(d => {
         d.year = +d.year;
         d.population = +d.population;
-        d.cp = +d.cp;
       });
       setupElements();
       setupScales();

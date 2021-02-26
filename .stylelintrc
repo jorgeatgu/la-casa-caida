@@ -74,7 +74,7 @@
             message: "quita ese important"
         }],
         "max-empty-lines": 1,
-        "max-nesting-depth": [1, {
+        "max-nesting-depth": [2, {
             message: "No, no y no. Deja de abusar del nesting"
         }],
         "media-feature-colon-space-after": "always",

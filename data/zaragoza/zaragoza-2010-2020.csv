@@ -230,17 +230,17 @@ cp,municipio,year,population
 50021,Almochuel,2012,42
 50021,Almochuel,2011,37
 50021,Almochuel,2010,26
-50022,Almolda,La,2020,554
-50022,Almolda,La,2019,553
-50022,Almolda,La,2018,567
-50022,Almolda,La,2017,562
-50022,Almolda,La,2016,581
-50022,Almolda,La,2015,593
-50022,Almolda,La,2014,602
-50022,Almolda,La,2013,608
-50022,Almolda,La,2012,611
-50022,Almolda,La,2011,615
-50022,Almolda,La,2010,619
+50022,Almolda La,2020,554
+50022,Almolda La,2019,553
+50022,Almolda La,2018,567
+50022,Almolda La,2017,562
+50022,Almolda La,2016,581
+50022,Almolda La,2015,593
+50022,Almolda La,2014,602
+50022,Almolda La,2013,608
+50022,Almolda La,2012,611
+50022,Almolda La,2011,615
+50022,Almolda La,2010,619
 50023,Almonacid de la Cuba,2020,230
 50023,Almonacid de la Cuba,2019,243
 50023,Almonacid de la Cuba,2018,252
@@ -263,17 +263,17 @@ cp,municipio,year,population
 50024,Almonacid de la Sierra,2012,781
 50024,Almonacid de la Sierra,2011,824
 50024,Almonacid de la Sierra,2010,790
-50025,Almunia de Doña Godina,La,2020,8091
-50025,Almunia de Doña Godina,La,2019,7951
-50025,Almunia de Doña Godina,La,2018,7819
-50025,Almunia de Doña Godina,La,2017,7660
-50025,Almunia de Doña Godina,La,2016,7692
-50025,Almunia de Doña Godina,La,2015,7680
-50025,Almunia de Doña Godina,La,2014,7836
-50025,Almunia de Doña Godina,La,2013,7766
-50025,Almunia de Doña Godina,La,2012,7792
-50025,Almunia de Doña Godina,La,2011,7851
-50025,Almunia de Doña Godina,La,2010,7802
+50025,Almunia de Doña Godina La,2020,8091
+50025,Almunia de Doña Godina La,2019,7951
+50025,Almunia de Doña Godina La,2018,7819
+50025,Almunia de Doña Godina La,2017,7660
+50025,Almunia de Doña Godina La,2016,7692
+50025,Almunia de Doña Godina La,2015,7680
+50025,Almunia de Doña Godina La,2014,7836
+50025,Almunia de Doña Godina La,2013,7766
+50025,Almunia de Doña Godina La,2012,7792
+50025,Almunia de Doña Godina La,2011,7851
+50025,Almunia de Doña Godina La,2010,7802
 50026,Alpartir,2020,568
 50026,Alpartir,2019,555
 50026,Alpartir,2018,579
@@ -670,28 +670,28 @@ cp,municipio,year,population
 50061,Bureta,2012,268
 50061,Bureta,2011,272
 50061,Bureta,2010,269
-50062,Burgo de Ebro,El,2020,2486
-50062,Burgo de Ebro,El,2019,2436
-50062,Burgo de Ebro,El,2018,2432
-50062,Burgo de Ebro,El,2017,2431
-50062,Burgo de Ebro,El,2016,2383
-50062,Burgo de Ebro,El,2015,2348
-50062,Burgo de Ebro,El,2014,2381
-50062,Burgo de Ebro,El,2013,2366
-50062,Burgo de Ebro,El,2012,2363
-50062,Burgo de Ebro,El,2011,2341
-50062,Burgo de Ebro,El,2010,2321
-50063,Buste,El,2020,71
-50063,Buste,El,2019,66
-50063,Buste,El,2018,72
-50063,Buste,El,2017,68
-50063,Buste,El,2016,64
-50063,Buste,El,2015,66
-50063,Buste,El,2014,68
-50063,Buste,El,2013,76
-50063,Buste,El,2012,82
-50063,Buste,El,2011,83
-50063,Buste,El,2010,88
+50062,Burgo de Ebro El,2020,2486
+50062,Burgo de Ebro El,2019,2436
+50062,Burgo de Ebro El,2018,2432
+50062,Burgo de Ebro El,2017,2431
+50062,Burgo de Ebro El,2016,2383
+50062,Burgo de Ebro El,2015,2348
+50062,Burgo de Ebro El,2014,2381
+50062,Burgo de Ebro El,2013,2366
+50062,Burgo de Ebro El,2012,2363
+50062,Burgo de Ebro El,2011,2341
+50062,Burgo de Ebro El,2010,2321
+50063,Buste El,2020,71
+50063,Buste El,2019,66
+50063,Buste El,2018,72
+50063,Buste El,2017,68
+50063,Buste El,2016,64
+50063,Buste El,2015,66
+50063,Buste El,2014,68
+50063,Buste El,2013,76
+50063,Buste El,2012,82
+50063,Buste El,2011,83
+50063,Buste El,2010,88
 50064,Cabañas de Ebro,2020,496
 50064,Cabañas de Ebro,2019,505
 50064,Cabañas de Ebro,2018,498
@@ -1011,17 +1011,17 @@ cp,municipio,year,population
 50090,Cubel,2012,187
 50090,Cubel,2011,194
 50090,Cubel,2010,192
-50091,Cuerlas,Las,2020,41
-50091,Cuerlas,Las,2019,41
-50091,Cuerlas,Las,2018,39
-50091,Cuerlas,Las,2017,44
-50091,Cuerlas,Las,2016,44
-50091,Cuerlas,Las,2015,50
-50091,Cuerlas,Las,2014,51
-50091,Cuerlas,Las,2013,52
-50091,Cuerlas,Las,2012,55
-50091,Cuerlas,Las,2011,62
-50091,Cuerlas,Las,2010,66
+50091,Cuerlas Las,2020,41
+50091,Cuerlas Las,2019,41
+50091,Cuerlas Las,2018,39
+50091,Cuerlas Las,2017,44
+50091,Cuerlas Las,2016,44
+50091,Cuerlas Las,2015,50
+50091,Cuerlas Las,2014,51
+50091,Cuerlas Las,2013,52
+50091,Cuerlas Las,2012,55
+50091,Cuerlas Las,2011,62
+50091,Cuerlas Las,2010,66
 50094,Daroca,2020,1965
 50094,Daroca,2019,1983
 50094,Daroca,2018,1996
@@ -1132,17 +1132,17 @@ cp,municipio,year,population
 50105,Fayón,2012,384
 50105,Fayón,2011,406
 50105,Fayón,2010,407
-50106,Fayos,Los,2020,131
-50106,Fayos,Los,2019,139
-50106,Fayos,Los,2018,141
-50106,Fayos,Los,2017,136
-50106,Fayos,Los,2016,147
-50106,Fayos,Los,2015,151
-50106,Fayos,Los,2014,153
-50106,Fayos,Los,2013,151
-50106,Fayos,Los,2012,152
-50106,Fayos,Los,2011,153
-50106,Fayos,Los,2010,153
+50106,Fayos Los,2020,131
+50106,Fayos Los,2019,139
+50106,Fayos Los,2018,141
+50106,Fayos Los,2017,136
+50106,Fayos Los,2016,147
+50106,Fayos Los,2015,151
+50106,Fayos Los,2014,153
+50106,Fayos Los,2013,151
+50106,Fayos Los,2012,152
+50106,Fayos Los,2011,153
+50106,Fayos Los,2010,153
 50107,Figueruelas,2020,1262
 50107,Figueruelas,2019,1259
 50107,Figueruelas,2018,1240
@@ -1165,28 +1165,28 @@ cp,municipio,year,population
 50108,Fombuena,2012,52
 50108,Fombuena,2011,50
 50108,Fombuena,2010,52
-50109,Frago,El,2020,97
-50109,Frago,El,2019,99
-50109,Frago,El,2018,99
-50109,Frago,El,2017,107
-50109,Frago,El,2016,101
-50109,Frago,El,2015,104
-50109,Frago,El,2014,104
-50109,Frago,El,2013,105
-50109,Frago,El,2012,109
-50109,Frago,El,2011,107
-50109,Frago,El,2010,106
-50110,Frasno,El,2020,379
-50110,Frasno,El,2019,380
-50110,Frasno,El,2018,384
-50110,Frasno,El,2017,386
-50110,Frasno,El,2016,399
-50110,Frasno,El,2015,415
-50110,Frasno,El,2014,439
-50110,Frasno,El,2013,441
-50110,Frasno,El,2012,452
-50110,Frasno,El,2011,477
-50110,Frasno,El,2010,476
+50109,Frago El,2020,97
+50109,Frago El,2019,99
+50109,Frago El,2018,99
+50109,Frago El,2017,107
+50109,Frago El,2016,101
+50109,Frago El,2015,104
+50109,Frago El,2014,104
+50109,Frago El,2013,105
+50109,Frago El,2012,109
+50109,Frago El,2011,107
+50109,Frago El,2010,106
+50110,Frasno El,2020,379
+50110,Frasno El,2019,380
+50110,Frasno El,2018,384
+50110,Frasno El,2017,386
+50110,Frasno El,2016,399
+50110,Frasno El,2015,415
+50110,Frasno El,2014,439
+50110,Frasno El,2013,441
+50110,Frasno El,2012,452
+50110,Frasno El,2011,477
+50110,Frasno El,2010,476
 50111,Fréscano,2020,199
 50111,Fréscano,2019,204
 50111,Fréscano,2018,202
@@ -1396,50 +1396,50 @@ cp,municipio,year,population
 50131,Jaulín,2012,279
 50131,Jaulín,2011,302
 50131,Jaulín,2010,323
-50132,Joyosa,La,2020,1101
-50132,Joyosa,La,2019,1073
-50132,Joyosa,La,2018,1072
-50132,Joyosa,La,2017,1058
-50132,Joyosa,La,2016,1032
-50132,Joyosa,La,2015,1042
-50132,Joyosa,La,2014,1007
-50132,Joyosa,La,2013,983
-50132,Joyosa,La,2012,936
-50132,Joyosa,La,2011,941
-50132,Joyosa,La,2010,936
-50133,Lagata,2020,109
-50133,Lagata,2019,111
-50133,Lagata,2018,111
-50133,Lagata,2017,119
-50133,Lagata,2016,126
-50133,Lagata,2015,124
-50133,Lagata,2014,133
-50133,Lagata,2013,142
-50133,Lagata,2012,135
-50133,Lagata,2011,145
-50133,Lagata,2010,134
-50134,Langa del Castillo,2020,122
-50134,Langa del Castillo,2019,121
-50134,Langa del Castillo,2018,132
-50134,Langa del Castillo,2017,133
-50134,Langa del Castillo,2016,134
-50134,Langa del Castillo,2015,137
-50134,Langa del Castillo,2014,136
-50134,Langa del Castillo,2013,134
-50134,Langa del Castillo,2012,141
-50134,Langa del Castillo,2011,145
-50134,Langa del Castillo,2010,151
-50135,Layana,2020,94
-50135,Layana,2019,97
-50135,Layana,2018,100
-50135,Layana,2017,105
-50135,Layana,2016,101
-50135,Layana,2015,114
-50135,Layana,2014,119
-50135,Layana,2013,108
-50135,Layana,2012,127
-50135,Layana,2011,123
-50135,Layana,2010,124
+50132,Joyosa La,2020,1101
+50132,Joyosa La,2019,1073
+50132,Joyosa La,2018,1072
+50132,Joyosa La,2017,1058
+50132,Joyosa La,2016,1032
+50132,Joyosa La,2015,1042
+50132,Joyosa La,2014,1007
+50132,Joyosa La,2013,983
+50132,Joyosa La,2012,936
+50132,Joyosa La,2011,941
+50132,Joyosa La,2010,936
+50133, Lagata,2020,109
+50133, Lagata,2019,111
+50133, Lagata,2018,111
+50133, Lagata,2017,119
+50133, Lagata,2016,126
+50133, Lagata,2015,124
+50133, Lagata,2014,133
+50133, Lagata,2013,142
+50133, Lagata,2012,135
+50133, Lagata,2011,145
+50133, Lagata,2010,134
+50134, Langa del Castillo,2020,122
+50134, Langa del Castillo,2019,121
+50134, Langa del Castillo,2018,132
+50134, Langa del Castillo,2017,133
+50134, Langa del Castillo,2016,134
+50134, Langa del Castillo,2015,137
+50134, Langa del Castillo,2014,136
+50134, Langa del Castillo,2013,134
+50134, Langa del Castillo,2012,141
+50134, Langa del Castillo,2011,145
+50134, Langa del Castillo,2010,151
+50135, Layana,2020,94
+50135, Layana,2019,97
+50135, Layana,2018,100
+50135, Layana,2017,105
+50135, Layana,2016,101
+50135, Layana,2015,114
+50135, Layana,2014,119
+50135, Layana,2013,108
+50135, Layana,2012,127
+50135, Layana,2011,123
+50135, Layana,2010,124
 50136,Lécera,2020,631
 50136,Lécera,2019,633
 50136,Lécera,2018,661
@@ -1935,17 +1935,17 @@ cp,municipio,year,population
 50181,Muel,2012,1379
 50181,Muel,2011,1434
 50181,Muel,2010,1385
-50182,Muela,La,2020,5894
-50182,Muela,La,2019,5784
-50182,Muela,La,2018,5479
-50182,Muela,La,2017,5238
-50182,Muela,La,2016,5090
-50182,Muela,La,2015,4980
-50182,Muela,La,2014,4948
-50182,Muela,La,2013,5015
-50182,Muela,La,2012,5062
-50182,Muela,La,2011,5213
-50182,Muela,La,2010,5166
+50182,Muela La,2020,5894
+50182,Muela La,2019,5784
+50182,Muela La,2018,5479
+50182,Muela La,2017,5238
+50182,Muela La,2016,5090
+50182,Muela La,2015,4980
+50182,Muela La,2014,4948
+50182,Muela La,2013,5015
+50182,Muela La,2012,5062
+50182,Muela La,2011,5213
+50182,Muela La,2010,5166
 50183,Munébrega,2020,363
 50183,Munébrega,2019,371
 50183,Munébrega,2018,385
@@ -2188,17 +2188,17 @@ cp,municipio,year,population
 50204,Pedrola,2012,3780
 50204,Pedrola,2011,3769
 50204,Pedrola,2010,3721
-50205,Pedrosas,Las,2020,86
-50205,Pedrosas,Las,2019,87
-50205,Pedrosas,Las,2018,90
-50205,Pedrosas,Las,2017,106
-50205,Pedrosas,Las,2016,107
-50205,Pedrosas,Las,2015,107
-50205,Pedrosas,Las,2014,110
-50205,Pedrosas,Las,2013,111
-50205,Pedrosas,Las,2012,116
-50205,Pedrosas,Las,2011,117
-50205,Pedrosas,Las,2010,121
+50205,Pedrosas Las,2020,86
+50205,Pedrosas Las,2019,87
+50205,Pedrosas Las,2018,90
+50205,Pedrosas Las,2017,106
+50205,Pedrosas Las,2016,107
+50205,Pedrosas Las,2015,107
+50205,Pedrosas Las,2014,110
+50205,Pedrosas Las,2013,111
+50205,Pedrosas Las,2012,116
+50205,Pedrosas Las,2011,117
+50205,Pedrosas Las,2010,121
 50206,Perdiguera,2020,572
 50206,Perdiguera,2019,572
 50206,Perdiguera,2018,577
@@ -2243,17 +2243,17 @@ cp,municipio,year,population
 50209,Pinseque,2012,3676
 50209,Pinseque,2011,3579
 50209,Pinseque,2010,3481
-50210,Pintanos,Los,2020,39
-50210,Pintanos,Los,2019,37
-50210,Pintanos,Los,2018,37
-50210,Pintanos,Los,2017,37
-50210,Pintanos,Los,2016,43
-50210,Pintanos,Los,2015,44
-50210,Pintanos,Los,2014,44
-50210,Pintanos,Los,2013,48
-50210,Pintanos,Los,2012,45
-50210,Pintanos,Los,2011,45
-50210,Pintanos,Los,2010,38
+50210,Pintanos Los,2020,39
+50210,Pintanos Los,2019,37
+50210,Pintanos Los,2018,37
+50210,Pintanos Los,2017,37
+50210,Pintanos Los,2016,43
+50210,Pintanos Los,2015,44
+50210,Pintanos Los,2014,44
+50210,Pintanos Los,2013,48
+50210,Pintanos Los,2012,45
+50210,Pintanos Los,2011,45
+50210,Pintanos Los,2010,38
 50211,Plasencia de Jalón,2020,308
 50211,Plasencia de Jalón,2019,306
 50211,Plasencia de Jalón,2018,303
@@ -2342,17 +2342,17 @@ cp,municipio,year,population
 50218,Puebla de Albortón,2012,128
 50218,Puebla de Albortón,2011,120
 50218,Puebla de Albortón,2010,125
-50219,Puebla de Alfindén,La,2020,6358
-50219,Puebla de Alfindén,La,2019,6303
-50219,Puebla de Alfindén,La,2018,6173
-50219,Puebla de Alfindén,La,2017,6109
-50219,Puebla de Alfindén,La,2016,6028
-50219,Puebla de Alfindén,La,2015,5948
-50219,Puebla de Alfindén,La,2014,5864
-50219,Puebla de Alfindén,La,2013,5784
-50219,Puebla de Alfindén,La,2012,5603
-50219,Puebla de Alfindén,La,2011,5433
-50219,Puebla de Alfindén,La,2010,5250
+50219,Puebla de Alfindén La,2020,6358
+50219,Puebla de Alfindén La,2019,6303
+50219,Puebla de Alfindén La,2018,6173
+50219,Puebla de Alfindén La,2017,6109
+50219,Puebla de Alfindén La,2016,6028
+50219,Puebla de Alfindén La,2015,5948
+50219,Puebla de Alfindén La,2014,5864
+50219,Puebla de Alfindén La,2013,5784
+50219,Puebla de Alfindén La,2012,5603
+50219,Puebla de Alfindén La,2011,5433
+50219,Puebla de Alfindén La,2010,5250
 50220,Puendeluna,2020,48
 50220,Puendeluna,2019,44
 50220,Puendeluna,2018,44
@@ -3167,17 +3167,17 @@ cp,municipio,year,population
 50294,Villarroya del Campo,2012,78
 50294,Villarroya del Campo,2011,81
 50294,Villarroya del Campo,2010,75
-50282,Vilueña,La,2020,62
-50282,Vilueña,La,2019,72
-50282,Vilueña,La,2018,77
-50282,Vilueña,La,2017,88
-50282,Vilueña,La,2016,100
-50282,Vilueña,La,2015,111
-50282,Vilueña,La,2014,106
-50282,Vilueña,La,2013,109
-50282,Vilueña,La,2012,111
-50282,Vilueña,La,2011,119
-50282,Vilueña,La,2010,114
+50282,Vilueña La,2020,62
+50282,Vilueña La,2019,72
+50282,Vilueña La,2018,77
+50282,Vilueña La,2017,88
+50282,Vilueña La,2016,100
+50282,Vilueña La,2015,111
+50282,Vilueña La,2014,106
+50282,Vilueña La,2013,109
+50282,Vilueña La,2012,111
+50282,Vilueña La,2011,119
+50282,Vilueña La,2010,114
 50295,Vistabella,2020,48
 50295,Vistabella,2019,49
 50295,Vistabella,2018,49
@@ -3189,17 +3189,17 @@ cp,municipio,year,population
 50295,Vistabella,2012,52
 50295,Vistabella,2011,50
 50295,Vistabella,2010,50
-50296,Zaida,La,2020,447
-50296,Zaida,La,2019,435
-50296,Zaida,La,2018,455
-50296,Zaida,La,2017,463
-50296,Zaida,La,2016,461
-50296,Zaida,La,2015,473
-50296,Zaida,La,2014,481
-50296,Zaida,La,2013,486
-50296,Zaida,La,2012,499
-50296,Zaida,La,2011,514
-50296,Zaida,La,2010,509
+50296,Zaida La,2020,447
+50296,Zaida La,2019,435
+50296,Zaida La,2018,455
+50296,Zaida La,2017,463
+50296,Zaida La,2016,461
+50296,Zaida La,2015,473
+50296,Zaida La,2014,481
+50296,Zaida La,2013,486
+50296,Zaida La,2012,499
+50296,Zaida La,2011,514
+50296,Zaida La,2010,509
 50297,Zaragoza,2020,681877
 50297,Zaragoza,2019,674997
 50297,Zaragoza,2018,666880

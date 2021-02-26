@@ -615,17 +615,17 @@ cp,municipio,year,population
 44060,Cañada de Benatanduz,2012,39
 44060,Cañada de Benatanduz,2011,41
 44060,Cañada de Benatanduz,2010,42
-44061,Cañada de Verich,La,2020,92
-44061,Cañada de Verich,La,2019,89
-44061,Cañada de Verich,La,2018,87
-44061,Cañada de Verich,La,2017,85
-44061,Cañada de Verich,La,2016,94
-44061,Cañada de Verich,La,2015,102
-44061,Cañada de Verich,La,2014,102
-44061,Cañada de Verich,La,2013,94
-44061,Cañada de Verich,La,2012,106
-44061,Cañada de Verich,La,2011,112
-44061,Cañada de Verich,La,2010,111
+44061,Cañada de Verich La,2020,92
+44061,Cañada de Verich La,2019,89
+44061,Cañada de Verich La,2018,87
+44061,Cañada de Verich La,2017,85
+44061,Cañada de Verich La,2016,94
+44061,Cañada de Verich La,2015,102
+44061,Cañada de Verich La,2014,102
+44061,Cañada de Verich La,2013,94
+44061,Cañada de Verich La,2012,106
+44061,Cañada de Verich La,2011,112
+44061,Cañada de Verich La,2010,111
 44062,Cañada Vellida,2020,36
 44062,Cañada Vellida,2019,31
 44062,Cañada Vellida,2018,35
@@ -681,17 +681,17 @@ cp,municipio,year,population
 44066,Castel de Cabra,2012,138
 44066,Castel de Cabra,2011,140
 44066,Castel de Cabra,2010,140
-44070,Castellar,El,2020,55
-44070,Castellar,El,2019,58
-44070,Castellar,El,2018,52
-44070,Castellar,El,2017,54
-44070,Castellar,El,2016,56
-44070,Castellar,El,2015,58
-44070,Castellar,El,2014,60
-44070,Castellar,El,2013,62
-44070,Castellar,El,2012,64
-44070,Castellar,El,2011,69
-44070,Castellar,El,2010,68
+44070,Castellar El,2020,55
+44070,Castellar El,2019,58
+44070,Castellar El,2018,52
+44070,Castellar El,2017,54
+44070,Castellar El,2016,56
+44070,Castellar El,2015,58
+44070,Castellar El,2014,60
+44070,Castellar El,2013,62
+44070,Castellar El,2012,64
+44070,Castellar El,2011,69
+44070,Castellar El,2010,68
 44071,Castellote,2020,676
 44071,Castellote,2019,681
 44071,Castellote,2018,676
@@ -758,28 +758,28 @@ cp,municipio,year,population
 44076,Cella,2012,2878
 44076,Cella,2011,2905
 44076,Cella,2010,2951
-44077,Cerollera,La,2020,88
-44077,Cerollera,La,2019,93
-44077,Cerollera,La,2018,100
-44077,Cerollera,La,2017,98
-44077,Cerollera,La,2016,96
-44077,Cerollera,La,2015,106
-44077,Cerollera,La,2014,106
-44077,Cerollera,La,2013,104
-44077,Cerollera,La,2012,116
-44077,Cerollera,La,2011,103
-44077,Cerollera,La,2010,113
-44080,Codoñera,La,2020,319
-44080,Codoñera,La,2019,336
-44080,Codoñera,La,2018,344
-44080,Codoñera,La,2017,362
-44080,Codoñera,La,2016,368
-44080,Codoñera,La,2015,365
-44080,Codoñera,La,2014,374
-44080,Codoñera,La,2013,368
-44080,Codoñera,La,2012,377
-44080,Codoñera,La,2011,387
-44080,Codoñera,La,2010,397
+44077,Cerollera La,2020,88
+44077,Cerollera La,2019,93
+44077,Cerollera La,2018,100
+44077,Cerollera La,2017,98
+44077,Cerollera La,2016,96
+44077,Cerollera La,2015,106
+44077,Cerollera La,2014,106
+44077,Cerollera La,2013,104
+44077,Cerollera La,2012,116
+44077,Cerollera La,2011,103
+44077,Cerollera La,2010,113
+44080,Codoñera La,2020,319
+44080,Codoñera La,2019,336
+44080,Codoñera La,2018,344
+44080,Codoñera La,2017,362
+44080,Codoñera La,2016,368
+44080,Codoñera La,2015,365
+44080,Codoñera La,2014,374
+44080,Codoñera La,2013,368
+44080,Codoñera La,2012,377
+44080,Codoñera La,2011,387
+44080,Codoñera La,2010,397
 44082,Corbalán,2020,109
 44082,Corbalán,2019,107
 44082,Corbalán,2018,109
@@ -835,17 +835,17 @@ cp,municipio,year,population
 44087,Crivillén,2012,88
 44087,Crivillén,2011,92
 44087,Crivillén,2010,93
-44088,Cuba,La,2020,43
-44088,Cuba,La,2019,43
-44088,Cuba,La,2018,41
-44088,Cuba,La,2017,36
-44088,Cuba,La,2016,38
-44088,Cuba,La,2015,37
-44088,Cuba,La,2014,45
-44088,Cuba,La,2013,47
-44088,Cuba,La,2012,50
-44088,Cuba,La,2011,52
-44088,Cuba,La,2010,52
+44088,Cuba La,2020,43
+44088,Cuba La,2019,43
+44088,Cuba La,2018,41
+44088,Cuba La,2017,36
+44088,Cuba La,2016,38
+44088,Cuba La,2015,37
+44088,Cuba La,2014,45
+44088,Cuba La,2013,47
+44088,Cuba La,2012,50
+44088,Cuba La,2011,52
+44088,Cuba La,2010,52
 44089,Cubla,2020,55
 44089,Cubla,2019,58
 44089,Cubla,2018,54
@@ -868,17 +868,17 @@ cp,municipio,year,population
 44090,Cucalón,2012,108
 44090,Cucalón,2011,101
 44090,Cucalón,2010,102
-44092,Cuervo,El,2020,80
-44092,Cuervo,El,2019,78
-44092,Cuervo,El,2018,86
-44092,Cuervo,El,2017,93
-44092,Cuervo,El,2016,89
-44092,Cuervo,El,2015,87
-44092,Cuervo,El,2014,85
-44092,Cuervo,El,2013,98
-44092,Cuervo,El,2012,91
-44092,Cuervo,El,2011,101
-44092,Cuervo,El,2010,107
+44092,Cuervo El,2020,80
+44092,Cuervo El,2019,78
+44092,Cuervo El,2018,86
+44092,Cuervo El,2017,93
+44092,Cuervo El,2016,89
+44092,Cuervo El,2015,87
+44092,Cuervo El,2014,85
+44092,Cuervo El,2013,98
+44092,Cuervo El,2012,91
+44092,Cuervo El,2011,101
+44092,Cuervo El,2010,107
 44093,Cuevas de Almudén,2020,118
 44093,Cuevas de Almudén,2019,126
 44093,Cuevas de Almudén,2018,122
@@ -1011,17 +1011,17 @@ cp,municipio,year,population
 44107,Foz-Calanda,2012,279
 44107,Foz-Calanda,2011,293
 44107,Foz-Calanda,2010,296
-44108,Fresneda,La,2020,443
-44108,Fresneda,La,2019,438
-44108,Fresneda,La,2018,443
-44108,Fresneda,La,2017,436
-44108,Fresneda,La,2016,470
-44108,Fresneda,La,2015,474
-44108,Fresneda,La,2014,468
-44108,Fresneda,La,2013,495
-44108,Fresneda,La,2012,486
-44108,Fresneda,La,2011,499
-44108,Fresneda,La,2010,511
+44108,Fresneda La,2020,443
+44108,Fresneda La,2019,438
+44108,Fresneda La,2018,443
+44108,Fresneda La,2017,436
+44108,Fresneda La,2016,470
+44108,Fresneda La,2015,474
+44108,Fresneda La,2014,468
+44108,Fresneda La,2013,495
+44108,Fresneda La,2012,486
+44108,Fresneda La,2011,499
+44108,Fresneda La,2010,511
 44109,Frías de Albarracín,2020,104
 44109,Frías de Albarracín,2019,115
 44109,Frías de Albarracín,2018,116
@@ -1121,17 +1121,17 @@ cp,municipio,year,population
 44117,Gea de Albarracín,2012,405
 44117,Gea de Albarracín,2011,415
 44117,Gea de Albarracín,2010,430
-44118,Ginebrosa,La,2020,197
-44118,Ginebrosa,La,2019,194
-44118,Ginebrosa,La,2018,200
-44118,Ginebrosa,La,2017,197
-44118,Ginebrosa,La,2016,199
-44118,Ginebrosa,La,2015,203
-44118,Ginebrosa,La,2014,206
-44118,Ginebrosa,La,2013,216
-44118,Ginebrosa,La,2012,216
-44118,Ginebrosa,La,2011,230
-44118,Ginebrosa,La,2010,229
+44118,Ginebrosa La,2020,197
+44118,Ginebrosa La,2019,194
+44118,Ginebrosa La,2018,200
+44118,Ginebrosa La,2017,197
+44118,Ginebrosa La,2016,199
+44118,Ginebrosa La,2015,203
+44118,Ginebrosa La,2014,206
+44118,Ginebrosa La,2013,216
+44118,Ginebrosa La,2012,216
+44118,Ginebrosa La,2011,230
+44118,Ginebrosa La,2010,229
 44119,Griegos,2020,138
 44119,Griegos,2019,136
 44119,Griegos,2018,143
@@ -1187,17 +1187,17 @@ cp,municipio,year,population
 44123,Hinojosa de Jarque,2012,151
 44123,Hinojosa de Jarque,2011,150
 44123,Hinojosa de Jarque,2010,151
-44124,Hoz de la Vieja,La,2020,81
-44124,Hoz de la Vieja,La,2019,83
-44124,Hoz de la Vieja,La,2018,85
-44124,Hoz de la Vieja,La,2017,86
-44124,Hoz de la Vieja,La,2016,79
-44124,Hoz de la Vieja,La,2015,82
-44124,Hoz de la Vieja,La,2014,81
-44124,Hoz de la Vieja,La,2013,83
-44124,Hoz de la Vieja,La,2012,79
-44124,Hoz de la Vieja,La,2011,89
-44124,Hoz de la Vieja,La,2010,88
+44124,Hoz de la Vieja La,2020,81
+44124,Hoz de la Vieja La,2019,83
+44124,Hoz de la Vieja La,2018,85
+44124,Hoz de la Vieja La,2017,86
+44124,Hoz de la Vieja La,2016,79
+44124,Hoz de la Vieja La,2015,82
+44124,Hoz de la Vieja La,2014,81
+44124,Hoz de la Vieja La,2013,83
+44124,Hoz de la Vieja La,2012,79
+44124,Hoz de la Vieja La,2011,89
+44124,Hoz de la Vieja La,2010,88
 44125,Huesa del Común,2020,69
 44125,Huesa del Común,2019,73
 44125,Huesa del Común,2018,67
@@ -1209,17 +1209,17 @@ cp,municipio,year,population
 44125,Huesa del Común,2012,86
 44125,Huesa del Común,2011,92
 44125,Huesa del Común,2010,90
-44126,Iglesuela del Cid,La,2020,402
-44126,Iglesuela del Cid,La,2019,410
-44126,Iglesuela del Cid,La,2018,414
-44126,Iglesuela del Cid,La,2017,414
-44126,Iglesuela del Cid,La,2016,424
-44126,Iglesuela del Cid,La,2015,432
-44126,Iglesuela del Cid,La,2014,462
-44126,Iglesuela del Cid,La,2013,469
-44126,Iglesuela del Cid,La,2012,496
-44126,Iglesuela del Cid,La,2011,501
-44126,Iglesuela del Cid,La,2010,505
+44126,Iglesuela del Cid La,2020,402
+44126,Iglesuela del Cid La,2019,410
+44126,Iglesuela del Cid La,2018,414
+44126,Iglesuela del Cid La,2017,414
+44126,Iglesuela del Cid La,2016,424
+44126,Iglesuela del Cid La,2015,432
+44126,Iglesuela del Cid La,2014,462
+44126,Iglesuela del Cid La,2013,469
+44126,Iglesuela del Cid La,2012,496
+44126,Iglesuela del Cid La,2011,501
+44126,Iglesuela del Cid La,2010,505
 44127,Jabaloyas,2020,59
 44127,Jabaloyas,2019,63
 44127,Jabaloyas,2018,65
@@ -1275,28 +1275,28 @@ cp,municipio,year,population
 44131,Josa,2012,38
 44131,Josa,2011,38
 44131,Josa,2010,34
-44132,Lagueruela,2020,69
-44132,Lagueruela,2019,73
-44132,Lagueruela,2018,78
-44132,Lagueruela,2017,84
-44132,Lagueruela,2016,79
-44132,Lagueruela,2015,81
-44132,Lagueruela,2014,78
-44132,Lagueruela,2013,72
-44132,Lagueruela,2012,69
-44132,Lagueruela,2011,68
-44132,Lagueruela,2010,62
-44133,Lanzuela,2020,22
-44133,Lanzuela,2019,22
-44133,Lanzuela,2018,24
-44133,Lanzuela,2017,27
-44133,Lanzuela,2016,27
-44133,Lanzuela,2015,29
-44133,Lanzuela,2014,30
-44133,Lanzuela,2013,27
-44133,Lanzuela,2012,28
-44133,Lanzuela,2011,27
-44133,Lanzuela,2010,25
+44132 Lagueruela,2020,69
+44132 Lagueruela,2019,73
+44132 Lagueruela,2018,78
+44132 Lagueruela,2017,84
+44132 Lagueruela,2016,79
+44132 Lagueruela,2015,81
+44132 Lagueruela,2014,78
+44132 Lagueruela,2013,72
+44132 Lagueruela,2012,69
+44132 Lagueruela,2011,68
+44132 Lagueruela,2010,62
+44133 Lanzuela,2020,22
+44133 Lanzuela,2019,22
+44133 Lanzuela,2018,24
+44133 Lanzuela,2017,27
+44133 Lanzuela,2016,27
+44133 Lanzuela,2015,29
+44133 Lanzuela,2014,30
+44133 Lanzuela,2013,27
+44133 Lanzuela,2012,28
+44133 Lanzuela,2011,27
+44133 Lanzuela,2010,25
 44135,Libros,2020,100
 44135,Libros,2019,102
 44135,Libros,2018,101
@@ -1396,17 +1396,17 @@ cp,municipio,year,population
 44145,Mas de las Matas,2012,1360
 44145,Mas de las Matas,2011,1387
 44145,Mas de las Matas,2010,1415
-44146,Mata de los Olmos,La,2020,261
-44146,Mata de los Olmos,La,2019,257
-44146,Mata de los Olmos,La,2018,265
-44146,Mata de los Olmos,La,2017,272
-44146,Mata de los Olmos,La,2016,263
-44146,Mata de los Olmos,La,2015,261
-44146,Mata de los Olmos,La,2014,268
-44146,Mata de los Olmos,La,2013,280
-44146,Mata de los Olmos,La,2012,281
-44146,Mata de los Olmos,La,2011,283
-44146,Mata de los Olmos,La,2010,289
+44146,Mata de los Olmos La,2020,261
+44146,Mata de los Olmos La,2019,257
+44146,Mata de los Olmos La,2018,265
+44146,Mata de los Olmos La,2017,272
+44146,Mata de los Olmos La,2016,263
+44146,Mata de los Olmos La,2015,261
+44146,Mata de los Olmos La,2014,268
+44146,Mata de los Olmos La,2013,280
+44146,Mata de los Olmos La,2012,281
+44146,Mata de los Olmos La,2011,283
+44146,Mata de los Olmos La,2010,289
 44147,Mazaleón,2020,511
 44147,Mazaleón,2019,522
 44147,Mazaleón,2018,539
@@ -1660,17 +1660,17 @@ cp,municipio,year,population
 44172,Oliete,2012,459
 44172,Oliete,2011,470
 44172,Oliete,2010,479
-44173,Olmos,Los,2020,118
-44173,Olmos,Los,2019,120
-44173,Olmos,Los,2018,122
-44173,Olmos,Los,2017,122
-44173,Olmos,Los,2016,127
-44173,Olmos,Los,2015,127
-44173,Olmos,Los,2014,130
-44173,Olmos,Los,2013,131
-44173,Olmos,Los,2012,124
-44173,Olmos,Los,2011,131
-44173,Olmos,Los,2010,128
+44173,Olmos Los,2020,118
+44173,Olmos Los,2019,120
+44173,Olmos Los,2018,122
+44173,Olmos Los,2017,122
+44173,Olmos Los,2016,127
+44173,Olmos Los,2015,127
+44173,Olmos Los,2014,130
+44173,Olmos Los,2013,131
+44173,Olmos Los,2012,124
+44173,Olmos Los,2011,131
+44173,Olmos Los,2010,128
 44174,Orihuela del Tremedal,2020,450
 44174,Orihuela del Tremedal,2019,463
 44174,Orihuela del Tremedal,2018,487
@@ -1715,17 +1715,17 @@ cp,municipio,year,population
 44177,Pancrudo,2012,133
 44177,Pancrudo,2011,139
 44177,Pancrudo,2010,136
-44178,Parras de Castellote,Las,2020,55
-44178,Parras de Castellote,Las,2019,55
-44178,Parras de Castellote,Las,2018,53
-44178,Parras de Castellote,Las,2017,61
-44178,Parras de Castellote,Las,2016,57
-44178,Parras de Castellote,Las,2015,59
-44178,Parras de Castellote,Las,2014,58
-44178,Parras de Castellote,Las,2013,63
-44178,Parras de Castellote,Las,2012,69
-44178,Parras de Castellote,Las,2011,77
-44178,Parras de Castellote,Las,2010,73
+44178,Parras de Castellote Las,2020,55
+44178,Parras de Castellote Las,2019,55
+44178,Parras de Castellote Las,2018,53
+44178,Parras de Castellote Las,2017,61
+44178,Parras de Castellote Las,2016,57
+44178,Parras de Castellote Las,2015,59
+44178,Parras de Castellote Las,2014,58
+44178,Parras de Castellote Las,2013,63
+44178,Parras de Castellote Las,2012,69
+44178,Parras de Castellote Las,2011,77
+44178,Parras de Castellote Las,2010,73
 44179,Peñarroya de Tastavins,2020,446
 44179,Peñarroya de Tastavins,2019,439
 44179,Peñarroya de Tastavins,2018,439
@@ -1792,28 +1792,28 @@ cp,municipio,year,population
 44184,Plou,2012,48
 44184,Plou,2011,45
 44184,Plou,2010,43
-44185,Pobo,El,2020,108
-44185,Pobo,El,2019,110
-44185,Pobo,El,2018,114
-44185,Pobo,El,2017,129
-44185,Pobo,El,2016,132
-44185,Pobo,El,2015,142
-44185,Pobo,El,2014,148
-44185,Pobo,El,2013,145
-44185,Pobo,El,2012,142
-44185,Pobo,El,2011,143
-44185,Pobo,El,2010,139
-44187,Portellada,La,2020,236
-44187,Portellada,La,2019,235
-44187,Portellada,La,2018,243
-44187,Portellada,La,2017,246
-44187,Portellada,La,2016,240
-44187,Portellada,La,2015,240
-44187,Portellada,La,2014,234
-44187,Portellada,La,2013,245
-44187,Portellada,La,2012,254
-44187,Portellada,La,2011,259
-44187,Portellada,La,2010,262
+44185,Pobo El,2020,108
+44185,Pobo El,2019,110
+44185,Pobo El,2018,114
+44185,Pobo El,2017,129
+44185,Pobo El,2016,132
+44185,Pobo El,2015,142
+44185,Pobo El,2014,148
+44185,Pobo El,2013,145
+44185,Pobo El,2012,142
+44185,Pobo El,2011,143
+44185,Pobo El,2010,139
+44187,Portellada La,2020,236
+44187,Portellada La,2019,235
+44187,Portellada La,2018,243
+44187,Portellada La,2017,246
+44187,Portellada La,2016,240
+44187,Portellada La,2015,240
+44187,Portellada La,2014,234
+44187,Portellada La,2013,245
+44187,Portellada La,2012,254
+44187,Portellada La,2011,259
+44187,Portellada La,2010,262
 44189,Pozondón,2020,43
 44189,Pozondón,2019,50
 44189,Pozondón,2018,48
@@ -1836,28 +1836,28 @@ cp,municipio,year,population
 44190,Pozuel del Campo,2012,90
 44190,Pozuel del Campo,2011,98
 44190,Pozuel del Campo,2010,100
-44191,Puebla de Híjar,La,2020,899
-44191,Puebla de Híjar,La,2019,897
-44191,Puebla de Híjar,La,2018,908
-44191,Puebla de Híjar,La,2017,944
-44191,Puebla de Híjar,La,2016,930
-44191,Puebla de Híjar,La,2015,947
-44191,Puebla de Híjar,La,2014,965
-44191,Puebla de Híjar,La,2013,974
-44191,Puebla de Híjar,La,2012,982
-44191,Puebla de Híjar,La,2011,1013
-44191,Puebla de Híjar,La,2010,1006
-44192,Puebla de Valverde,La,2020,451
-44192,Puebla de Valverde,La,2019,457
-44192,Puebla de Valverde,La,2018,453
-44192,Puebla de Valverde,La,2017,457
-44192,Puebla de Valverde,La,2016,460
-44192,Puebla de Valverde,La,2015,500
-44192,Puebla de Valverde,La,2014,521
-44192,Puebla de Valverde,La,2013,547
-44192,Puebla de Valverde,La,2012,550
-44192,Puebla de Valverde,La,2011,552
-44192,Puebla de Valverde,La,2010,571
+44191,Puebla de Híjar La,2020,899
+44191,Puebla de Híjar La,2019,897
+44191,Puebla de Híjar La,2018,908
+44191,Puebla de Híjar La,2017,944
+44191,Puebla de Híjar La,2016,930
+44191,Puebla de Híjar La,2015,947
+44191,Puebla de Híjar La,2014,965
+44191,Puebla de Híjar La,2013,974
+44191,Puebla de Híjar La,2012,982
+44191,Puebla de Híjar La,2011,1013
+44191,Puebla de Híjar La,2010,1006
+44192,Puebla de Valverde La,2020,451
+44192,Puebla de Valverde La,2019,457
+44192,Puebla de Valverde La,2018,453
+44192,Puebla de Valverde La,2017,457
+44192,Puebla de Valverde La,2016,460
+44192,Puebla de Valverde La,2015,500
+44192,Puebla de Valverde La,2014,521
+44192,Puebla de Valverde La,2013,547
+44192,Puebla de Valverde La,2012,550
+44192,Puebla de Valverde La,2011,552
+44192,Puebla de Valverde La,2010,571
 44193,Puertomingalvo,2020,117
 44193,Puertomingalvo,2019,109
 44193,Puertomingalvo,2018,112
@@ -2419,17 +2419,17 @@ cp,municipio,year,population
 44247,Valjunquera,2012,386
 44247,Valjunquera,2011,387
 44247,Valjunquera,2010,403
-44249,Vallecillo,El,2020,44
-44249,Vallecillo,El,2019,47
-44249,Vallecillo,El,2018,48
-44249,Vallecillo,El,2017,49
-44249,Vallecillo,El,2016,59
-44249,Vallecillo,El,2015,60
-44249,Vallecillo,El,2014,50
-44249,Vallecillo,El,2013,52
-44249,Vallecillo,El,2012,54
-44249,Vallecillo,El,2011,61
-44249,Vallecillo,El,2010,47
+44249,Vallecillo El,2020,44
+44249,Vallecillo El,2019,47
+44249,Vallecillo El,2018,48
+44249,Vallecillo El,2017,49
+44249,Vallecillo El,2016,59
+44249,Vallecillo El,2015,60
+44249,Vallecillo El,2014,50
+44249,Vallecillo El,2013,52
+44249,Vallecillo El,2012,54
+44249,Vallecillo El,2011,61
+44249,Vallecillo El,2010,47
 44250,Veguillas de la Sierra,2020,21
 44250,Veguillas de la Sierra,2019,19
 44250,Veguillas de la Sierra,2018,20
@@ -2584,14 +2584,14 @@ cp,municipio,year,population
 44267,Vivel del Río Martín,2012,86
 44267,Vivel del Río Martín,2011,91
 44267,Vivel del Río Martín,2010,86
-44268,Zoma,La,2020,32
-44268,Zoma,La,2019,33
-44268,Zoma,La,2018,16
-44268,Zoma,La,2017,18
-44268,Zoma,La,2016,16
-44268,Zoma,La,2015,18
-44268,Zoma,La,2014,19
-44268,Zoma,La,2013,19
-44268,Zoma,La,2012,22
-44268,Zoma,La,2011,22
-44268,Zoma,La,2010,22
+44268,Zoma La,2020,32
+44268,Zoma La,2019,33
+44268,Zoma La,2018,16
+44268,Zoma La,2017,18
+44268,Zoma La,2016,16
+44268,Zoma La,2015,18
+44268,Zoma La,2014,19
+44268,Zoma La,2013,19
+44268,Zoma La,2012,22
+44268,Zoma La,2011,22
+44268,Zoma La,2010,22

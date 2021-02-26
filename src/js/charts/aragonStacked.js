@@ -79,8 +79,9 @@ export function aragonStacked() {
   }
 
   function updateScales(width, height) {
-    scales.count.x.range([0, width]);
-    scales.count.y.range([height, 0]);
+    const { count: { x, y } } = scales
+    x.range([0, width]);
+    y.range([height, 0]);
   }
 
   function drawAxes(g) {
@@ -105,12 +106,14 @@ export function aragonStacked() {
     const w = chart.node().offsetWidth;
     const h = 600;
 
-    width = w - margin.left - margin.right;
-    height = h - margin.top - margin.bottom;
+    const { left, right, top, bottom } = margin
+
+    width = w - left - right;
+    height = h - top - bottom;
 
     svg.attr('width', w).attr('height', h);
 
-    const translate = `translate(${margin.left},${margin.top})`;
+    const translate = `translate(${left},${top})`;
 
     const g = svg.select('.aragon-stack-container');
 
@@ -163,7 +166,7 @@ export function aragonStacked() {
     focus.select('.x-hover-line').attr('y2', height);
 
     overlay
-      .attr('width', width + margin.left + margin.right)
+      .attr('width', width + left + right)
       .attr('height', height)
       .on('mouseover', function() {
         focus.style('display', null);

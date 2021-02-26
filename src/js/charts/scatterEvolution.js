@@ -83,8 +83,9 @@ export const scatterEvolution = (csvFile, cities) => {
   }
 
   function updateScales(width, height) {
-    scales.count.x.range([0, width]);
-    scales.count.y.range([height, 0]);
+    const { count: { x, y } } = scales
+    x.range([0, width]);
+    y.range([height, 0]);
   }
 
   function drawAxes(g) {
@@ -112,12 +113,14 @@ export const scatterEvolution = (csvFile, cities) => {
     w = chart.node().offsetWidth;
     h = 600;
 
-    width = w - margin.left - margin.right;
-    height = h - margin.top - margin.bottom;
+    const { left, right, top, bottom } = margin
+
+    width = w - left - right;
+    height = h - top - bottom;
 
     svg.attr('width', w).attr('height', h);
 
-    const translate = `translate(${margin.left},${margin.top})`;
+    const translate = `translate(${left},${top})`;
 
     const g = svg.select(`.scatter-lb-${cities}-container`);
 
@@ -143,19 +146,19 @@ export const scatterEvolution = (csvFile, cities) => {
       .attr('cx', d => Math.random() * width)
       .attr('cy', d => scales.count.y(d.percentage / 2))
       .attr('r', 2)
-      .on('mouseover', d => {
-        const positionX = scales.count.x(d.cp);
-        const postionWidthTooltip = positionX + 270;
+      .on('mouseover', (event, d) => {
+        const { pageX, pageY} = event
+        const postionWidthTooltip = scales.count.x(d.cp) + 270;
         const tooltipWidth = 210;
-        const positionleft = `${d3.event.pageX}px`;
-        const positionright = `${d3.event.pageX - tooltipWidth}px`;
+        const positionleft = `${pageX}px`;
+        const positionright = `${pageX - tooltipWidth}px`;
         tooltip.transition();
         const tooltipHeader =
           d.percentage > 0
-            ? `<p class="tooltip-scatter-text"><strong>${d.name}</strong> ha aumentado su población un <strong>${d.percentage}%</strong>.<p/>`
+            ? `<p class="tooltip-scatter-text"><strong>${d.name}</strong> aumento su población en un <strong>${d.percentage}%</strong>.<p/>`
             : d.percentage === 0
-              ? `<p class="tooltip-scatter-text"><strong>${d.name}</strong> no ha aumentado ni disminuido su población.<p/>`
-              : `<p class="tooltip-scatter-text"><strong>${d.name}</strong> ha disminuido su población un <strong>${d.percentage}%</strong>.<p/>`;
+              ? `<p class="tooltip-scatter-text"><strong>${d.name}</strong> ni aumentado ni disminuyo su población.<p/>`
+              : `<p class="tooltip-scatter-text"><strong>${d.name}</strong> disminuyo su población en un <strong>${d.percentage}%</strong>.<p/>`;
         tooltip
           .style('opacity', 1)
           .html(
@@ -164,7 +167,7 @@ export const scatterEvolution = (csvFile, cities) => {
             <p class="tooltip-scatter-text">Población en ${secondYear}: <strong>${d.populationSecondYear}</strong><p/>`
           )
           .style('left', postionWidthTooltip > w ? positionright : positionleft)
-          .style('top', `${d3.event.pageY - 100}px`);
+          .style('top', `${pageY - 100}px`);
       })
       .on('mouseout', () => {
         tooltip.transition().duration(200).style('opacity', 0);
@@ -199,12 +202,14 @@ export const scatterEvolution = (csvFile, cities) => {
     '2019',
     '2020'
   ];
-  function menuFirstYear() {
+  function menuFirstYear(yearsFirst) {
     const selectFirstYear = d3.select(`#select-first-year-${cities}`);
 
     selectFirstYear
       .selectAll('option')
-      .data(years)
+      .remove()
+      .exit()
+      .data(yearsFirst)
       .enter()
       .append('option')
       .attr('value', d => d)
@@ -212,14 +217,18 @@ export const scatterEvolution = (csvFile, cities) => {
 
     selectFirstYear.on('change', function() {
       firstYear = d3.select(this).property('value');
+      const yearsFiltered = years.filter(d => d !== firstYear)
+      menuSecondYear(yearsFiltered)
     });
   }
 
-  function menuSecondYear() {
+  function menuSecondYear(yearsSecond) {
     const selectSecondYear = d3.select(`#select-second-year-${cities}`);
     selectSecondYear
       .selectAll('option')
-      .data(years)
+      .remove()
+      .exit()
+      .data(yearsSecond)
       .enter()
       .append('option')
       .attr('value', d => d)
@@ -227,6 +236,8 @@ export const scatterEvolution = (csvFile, cities) => {
 
     selectSecondYear.on('change', function() {
       secondYear = d3.select(this).property('value');
+      const yearsFiltered = years.filter(d => d !== secondYear)
+      menuFirstYear(yearsFiltered)
     });
   }
 
@@ -240,8 +251,8 @@ export const scatterEvolution = (csvFile, cities) => {
       });
 
       setupElements();
-      menuFirstYear();
-      menuSecondYear();
+      menuFirstYear(years);
+      menuSecondYear(years);
       d3.select(`#select-second-year-${cities}`).property('value', secondYear);
       updateYearData();
     });
@@ -283,7 +294,7 @@ export const scatterEvolution = (csvFile, cities) => {
       .attr('class', `municipios-lost-${cities}`)
       .attr('y', '95%')
       .attr('x', '5%')
-      .text(`Un total de ${lossPopulation} municipios han perdido población.`);
+      .text(`${lossPopulation} municipios han perdido población.`);
 
     svg
       .select(`.scatter-lb-${cities}-container`)
@@ -291,7 +302,7 @@ export const scatterEvolution = (csvFile, cities) => {
       .attr('class', `municipios-wins-${cities}`)
       .attr('y', '91%')
       .attr('x', '5%')
-      .text(`Un total de ${winPopulation} municipios han ganado población.`);
+      .text(`${winPopulation} municipios han ganado población.`);
 
     if (!initChart) {
       setupScales();

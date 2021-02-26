@@ -41,7 +41,7 @@ cities.map(element => {
   lineHistoric(lineTotalCSV, city);
   barScatter(scatterUnderCSV, city);
   barVegetative(vegetativeCSV, city);
-  lineEvolution(comparatorCSV, city);
+  lineEvolution(evolutionCSV, city);
   scatterEvolution(evolutionCSV, city);
   municipalitiesStacked(groupByAgeCSV, city);
 });

@@ -38,11 +38,6 @@ export function municipalitiesStacked(csvFile, cities) {
   const scales = {};
   let dataMunicipalitiesStacked;
   let dataTable;
-  const bisectDate = d3.bisector(d => d.year).left;
-  const tooltipStack = chart
-    .append('div')
-    .attr('class', 'tooltip tooltip-stack')
-    .style('opacity', 0);
 
   function setupScales(dataTable) {
     const countX = d3
@@ -59,7 +54,7 @@ export function municipalitiesStacked(csvFile, cities) {
   }
 
   function setupElements() {
-    const g = svg.select(`.municipalities-stack-container-${cities}`);
+    const g = svg.select(`.municipalities-stack-${cities}-container`);
 
     g.append('g').attr('class', 'axis axis-x');
 
@@ -70,13 +65,15 @@ export function municipalitiesStacked(csvFile, cities) {
   }
 
   function updateScales(width, height) {
-    scales.count.x.range([0, width]);
-    scales.count.y.range([height, 0]);
+    const { count: { x, y } } = scales
+    x.range([0, width]);
+    y.range([height, 0]);
   }
 
   function drawAxes(g) {
+    const { count: { x, y } } = scales
     const axisX = d3
-      .axisBottom(scales.count.x)
+      .axisBottom(x)
       .tickFormat(d3.format('d'))
       .tickPadding(7)
       .ticks(9);
@@ -84,7 +81,7 @@ export function municipalitiesStacked(csvFile, cities) {
     g.select('.axis-x').attr('transform', `translate(0,${height})`).call(axisX);
 
     const axisY = d3
-      .axisLeft(scales.count.y)
+      .axisLeft(y)
       .tickFormat(d => d)
       .tickSizeInner(-width)
       .ticks(12);
@@ -95,26 +92,18 @@ export function municipalitiesStacked(csvFile, cities) {
   function updateChart(dataTable) {
     const w = chart.node().offsetWidth;
     const h = 600;
+    const { left, right, top, bottom } = margin
 
-    width = w - margin.left - margin.right;
-    height = h - margin.top - margin.bottom;
+    width = w - left - right;
+    height = h - top - bottom;
 
     svg.attr('width', w).attr('height', h);
 
-    const translate = `translate(${margin.left},${margin.top})`;
+    const translate = `translate(${left},${top})`;
 
-    const g = svg.select(`.municipalities-stack-container-${cities}`);
+    const g = svg.select(`.municipalities-stack-${cities}-container`);
 
     g.attr('transform', translate);
-
-    g.append('rect').attr('class', 'overlay-dos');
-
-    g.append('g')
-      .attr('class', 'focus')
-      .style('display', 'none')
-      .append('line')
-      .attr('class', 'x-hover-line hover-line')
-      .attr('y1', 0);
 
     let stackKeys = Array.from(new Set(dataMunicipalitiesStacked.map(d => d.age)).values())
     const stackedData = d3.stack().keys(stackKeys)(dataTable)
@@ -129,7 +118,7 @@ export function municipalitiesStacked(csvFile, cities) {
     const colors = d3
       .scaleOrdinal()
       .domain(keys)
-      .range(["#ffb14e", "#fa8775", "#ea5f94", "#cd34b5"]);
+      .range(["#9db7c5", "#18857f", "#05cfc0", "#1f4196"]);
 
     updateScales(width, height);
 
@@ -146,59 +135,6 @@ export function municipalitiesStacked(csvFile, cities) {
       .attr('fill', d => colors(d.key))
       .attr('d', area);
 
-    const focus = g.select('.focus');
-
-    const overlay = g.select('.overlay-dos');
-
-    focus.select('.x-hover-line').attr('y2', height);
-
-    overlay
-      .attr('width', width + margin.left + margin.right)
-      .attr('height', height)
-      /*.on('mouseover', function() {
-        focus.style('display', null);
-      })
-      .on('mouseout', function() {
-        focus.style('display', 'none');
-        tooltipStack.style('opacity', 0);
-      })*/
-      /*.on('mousemove', mousemove);*/
-
-    /*function mousemove(event) {
-      const { layerX } = event;
-      const w = chart.node().offsetWidth;
-      var x0 = scales.count.x.invert(layerX),
-        i = bisectDate(dataMunicipalitiesStacked, x0, 1),
-        d0 = dataMunicipalitiesStacked[i - 1],
-        d1 = dataMunicipalitiesStacked[i],
-        d = x0 - d0.year > d1.year - x0 ? d1 : d0;
-      const positionX = scales.count.x(d.year) + margin.left;
-      const postionWidthTooltip = positionX + 200;
-      const positionRightTooltip = w - positionX;
-
-      tooltipStack
-        .style('opacity', 1)
-        .html(
-          `
-          <span class="tooltip-stack-number tooltip-stack-text">${d.year}</span>
-          <span class="tooltip-stack-text">Huesca: <span class="tooltip-number">${d.huescaP}% - ${d.huesca} hab.</span></span>
-          <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruelP}% - ${d.teruel} hab.</span></span>
-          <span class="tooltip-stack-text">Zaragoza: <span class="tooltip-number">${d.zaragozaP}% - ${d.zaragoza} hab.</span></span>
-          <span class="tooltip-stack-text">Total: <span class="tooltip-number">${d.aragon} hab.</span></span>
-          `
-        )
-        .style('top', '35%')
-        .style('left', postionWidthTooltip > w ? 'auto' : positionX + 'px')
-        .style(
-          'right',
-          postionWidthTooltip > w ? positionRightTooltip + 'px' : 'auto'
-        );
-
-      focus
-        .select('.x-hover-line')
-        .attr('transform', `translate(${scales.count.x(d.year)},0)`);
-    }*/
-
     drawAxes(g);
   }
 
@@ -209,7 +145,8 @@ export function municipalitiesStacked(csvFile, cities) {
 
   function loadData() {
     d3.csv(csvFile).then(data => {
-      dataMunicipalitiesStacked = data.filter(({ name }) => name === 'Biel')
+      const [{ name: municipality }] = data
+      dataMunicipalitiesStacked = data.filter(({ name }) => name === municipality)
       dataTable = createStackedData()
       setupElements();
       setupScales(dataTable);
@@ -241,7 +178,6 @@ export function municipalitiesStacked(csvFile, cities) {
       })
       .sort((a, b) => a.year - b.year);
   }
-
 
   window.addEventListener('resize', resize);
 

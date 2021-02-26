@@ -1,5 +1,5 @@
+import SlimSelect from 'slim-select';
 import { select, selectAll } from 'd3-selection';
-import { nest } from 'd3-collection';
 import { min, max, extent } from 'd3-array';
 import { scaleLinear } from 'd3-scale';
 import { axisBottom, axisLeft } from 'd3-axis';
@@ -10,7 +10,6 @@ import 'd3-transition';
 const d3 = {
   select,
   selectAll,
-  nest,
   min,
   max,
   extent,
@@ -22,16 +21,17 @@ const d3 = {
 };
 
 export function barScatter(csvFile, cities) {
-  const margin = { top: 0, right: 8, bottom: 64, left: 40 };
   let width = 0;
   let height = 0;
   let w = 0;
   let h = 0;
+  let dataScatterPeople;
+  const margin = { top: 0, right: 8, bottom: 64, left: 40 };
   const chart = d3.select(`.scatter-${cities}`);
   const svg = chart.select('svg');
   const scales = {};
-  let dataScatterPeople;
-  let symbolP = '%';
+  const symbolP = '%';
+
   const tooltip = chart
     .append('div')
     .attr('class', 'tooltip tooltip-under-over')
@@ -74,8 +74,9 @@ export function barScatter(csvFile, cities) {
   }
 
   function updateScales(width, height) {
-    scales.count.x.range([0, width]);
-    scales.count.y.range([height, 20]);
+    const { count: { x, y } } = scales
+    x.range([0, width]);
+    y.range([height, 20]);
   }
 
   function drawAxes(g) {
@@ -100,12 +101,14 @@ export function barScatter(csvFile, cities) {
     w = chart.node().offsetWidth;
     h = 600;
 
-    width = w - margin.left - margin.right;
-    height = h - margin.top - margin.bottom;
+    const { left, right, top, bottom } = margin
+
+    width = w - left - right;
+    height = h - top - bottom;
 
     svg.attr('width', w).attr('height', h);
 
-    const translate = `translate(${margin.left},${margin.top})`;
+    const translate = `translate(${left},${top})`;
 
     const g = svg.select(`.scatter-${cities}-container`);
 
@@ -170,21 +173,6 @@ export function barScatter(csvFile, cities) {
       );
       d3.selectAll('.tooltip-percentage').remove().exit();
 
-      new SlimSelect({
-        select: `#percentage-over-city-${cities}`,
-        searchPlaceholder: 'Filtra tu municipio'
-      });
-
-      new SlimSelect({
-        select: `#percentage-under-city-${cities}`,
-        searchPlaceholder: 'Filtra tu municipio'
-      });
-
-      new SlimSelect({
-        select: `#select-city-${cities}`,
-        searchPlaceholder: 'Busca tu municipio'
-      });
-
       d3.csv(csvFile).then(data => {
         dataScatterPeople = data;
         dataScatterPeople.forEach(d => {
@@ -201,22 +189,17 @@ export function barScatter(csvFile, cities) {
 
   function menuFilter() {
     d3.csv(csvFile).then(data => {
-      const datos = data;
-
-      const nest = d3
-        .nest()
-        .key(d => d.name)
-        .entries(datos);
+      const nameSelect = data.map(({ name }) => name)
 
       const selectCity = d3.select(`#filter-city-${cities}`);
 
       selectCity
         .selectAll('option')
-        .data(nest)
+        .data(nameSelect)
         .enter()
         .append('option')
-        .attr('value', d => d.key)
-        .text(d => d.key);
+        .attr('value', d => d)
+        .text(d => d);
 
       selectCity.on('change', function() {
         d3.select(`#percentage-over-city-${cities} option`).property(
@@ -228,16 +211,6 @@ export function barScatter(csvFile, cities) {
           '0'
         );
         d3.selectAll('.tooltip-percentage').remove().exit();
-
-        new SlimSelect({
-          select: `#percentage-over-city-${cities}`,
-          searchPlaceholder: 'Filtra tu municipio'
-        });
-
-        new SlimSelect({
-          select: `#percentage-under-city-${cities}`,
-          searchPlaceholder: 'Filtra tu municipio'
-        });
 
         updateSelectCity();
       });
@@ -253,29 +226,16 @@ export function barScatter(csvFile, cities) {
         '0'
       );
 
-      new SlimSelect({
-        select: `#percentage-under-city-${cities}`,
-        searchPlaceholder: 'Filtra tu municipio'
-      });
-
-      new SlimSelect({
-        select: `#select-city-${cities}`,
-        searchPlaceholder: 'Busca tu municipio'
-      });
-
-      let percentageCity = d3.select(this).property('value');
+      const percentageCity = d3.select(this).property('value');
 
       d3.csv(csvFile).then(data => {
-        dataScatterPeople = data;
 
         d3.selectAll(`.scatter-${cities}-circles`)
           .transition()
           .duration(400)
           .attr('r', 0);
 
-        dataScatterPeople = dataScatterPeople.filter(
-          d => d.mayor > percentageCity
-        );
+        dataScatterPeople = data.filter(({ mayor }) => mayor > percentageCity);
 
         const container = chart.select(`.scatter-${cities}-container-bis`);
 
@@ -310,17 +270,7 @@ export function barScatter(csvFile, cities) {
         '0'
       );
 
-      new SlimSelect({
-        select: `#percentage-over-city-${cities}`,
-        searchPlaceholder: 'Filtra tu municipio'
-      });
-
-      new SlimSelect({
-        select: `#select-city-${cities}`,
-        searchPlaceholder: 'Busca tu municipio'
-      });
-
-      let percentageCity = d3.select(this).property('value');
+      const percentageCity = d3.select(this).property('value');
 
       d3.csv(csvFile).then(data => {
         dataScatterPeople = data;
@@ -330,9 +280,7 @@ export function barScatter(csvFile, cities) {
           .duration(400)
           .attr('r', 0);
 
-        dataScatterPeople = dataScatterPeople.filter(
-          d => d.menor > percentageCity
-        );
+        dataScatterPeople = dataScatterPeople.filter(({ menor }) => menor > percentageCity);
 
         const container = chart.select(`.scatter-${cities}-container-bis`);
 
@@ -360,19 +308,14 @@ export function barScatter(csvFile, cities) {
 
   function updateSelectCity() {
     d3.csv(csvFile).then(data => {
-      dataScatterPeople = data;
-
-      let valueCity = d3.select(`#filter-city-${cities}`).property('value');
-      let revalueCity = new RegExp('^' + valueCity + '$');
+      const valueCity = d3.select(`#filter-city-${cities}`).property('value');
 
       d3.selectAll(`.scatter-${cities}-circles`)
         .transition()
         .duration(400)
         .attr('r', 0);
 
-      dataScatterPeople = dataScatterPeople.filter(d =>
-        String(d.name).match(revalueCity)
-      );
+      dataScatterPeople = data.filter(({ name }) => name === valueCity);
 
       dataScatterPeople.forEach(d => {
         d.mayor = +d.mayor;
@@ -399,6 +342,7 @@ export function barScatter(csvFile, cities) {
         d.over = d.percentagemayor;
         d.under = d.percentagemenor;
       });
+
       setupElements();
       setupScales();
       updateChart(dataScatterPeople);

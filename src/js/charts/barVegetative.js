@@ -70,8 +70,9 @@ export function barVegetative(csvFile, cities) {
   }
 
   function updateScales(width, height) {
-    scales.count.x.rangeRound([0, width]).paddingInner(0.2);
-    scales.count.y.range([height, 0]);
+    const { count: { x, y } } = scales
+    x.rangeRound([0, width]).paddingInner(0.2);
+    y.range([height, 0]);
   }
 
   function drawAxes(g) {
@@ -97,12 +98,14 @@ export function barVegetative(csvFile, cities) {
     w = chart.node().offsetWidth;
     h = 600;
 
-    width = w - margin.left - margin.right;
-    height = h - margin.top - margin.bottom;
+    const { left, right, top, bottom } = margin
+
+    width = w - left - right;
+    height = h - top - bottom;
 
     svg.attr('width', w).attr('height', h);
 
-    const translate = `translate(${margin.left},${margin.top})`;
+    const translate = `translate(${left},${top})`;
 
     const g = svg.select(`.bar-negative-${cities}-container`);
 
@@ -121,7 +124,7 @@ export function barVegetative(csvFile, cities) {
 
     layer
       .merge(newLayer)
-      .on('mouseover', function(d) {
+      .on('mouseover', function(_, d) {
         tooltip.transition();
         tooltip
           .style('opacity', 1)
