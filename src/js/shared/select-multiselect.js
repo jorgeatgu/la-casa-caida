@@ -104,3 +104,33 @@ new SlimSelect({
   select: '#select-second-year-huesca',
   searchPlaceholder: 'Selecciona el segundo año',
 });
+
+new SlimSelect({
+  select: '#select-municipalities-stack-huesca',
+  searchPlaceholder: 'Busca tu municipio',
+});
+
+new SlimSelect({
+  select: '#select-municipalities-stack-zaragoza',
+  searchPlaceholder: 'Busca tu municipio',
+});
+
+new SlimSelect({
+  select: '#select-municipalities-stack-teruel',
+  searchPlaceholder: 'Busca tu municipio',
+});
+
+new SlimSelect({
+  select: '#select-densidad-huesca',
+  searchPlaceholder: 'Busca tu municipio',
+});
+
+new SlimSelect({
+  select: '#select-densidad-zaragoza',
+  searchPlaceholder: 'Busca tu municipio',
+});
+
+new SlimSelect({
+  select: '#select-densidad-teruel',
+  searchPlaceholder: 'Busca tu municipio',
+});

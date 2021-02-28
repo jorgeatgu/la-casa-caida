@@ -113,9 +113,6 @@ export function linePopulation(csvFile, cities) {
 
     g.select('.axis-x')
       .attr('transform', `translate(0,${height})`)
-      .transition()
-      .duration(300)
-      .ease(d3.easeLinear)
       .call(axisX);
 
     const axisY = d3
@@ -127,7 +124,7 @@ export function linePopulation(csvFile, cities) {
 
     g.select('.axis-y')
       .transition()
-      .duration(300)
+      .duration(450)
       .ease(d3.easeLinear)
       .call(axisY);
   }
@@ -261,10 +258,11 @@ export function linePopulation(csvFile, cities) {
 
   function loadData() {
     d3.csv(csvFile).then(data => {
-      dataLinePopulation = data;
-      dataLinePopulation.forEach(d => {
-        d.year = +d.year;
-        d.population = +d.population;
+      dataLinePopulation = data.map(d => {
+        return {
+          year: (+d.year),
+          population: (+d.population)
+        }
       });
       setupElements();
       setupScales();

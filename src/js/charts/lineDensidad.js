@@ -1,4 +1,3 @@
-import { widthMobile } from './../shared/index.js';
 import { select, selectAll } from 'd3-selection';
 import { min, max } from 'd3-array';
 import { line } from 'd3-shape';
@@ -26,36 +25,42 @@ const d3 = {
   interpolatePath
 };
 
-export function lineEvolution(csvFile, cities) {
-  const margin = { top: 16, right: 16, bottom: 24, left: 62 };
+export function lineDensidad(csvFile, cities) {
   let width = 0;
   let height = 0;
-  const chart = d3.select(`.line-lb-${cities}`);
-  const svg = chart.select('svg');
   let scales = {};
-  let dataLineEvolution;
+  let dataLineDensidad;
+  const margin = { top: 16, right: 16, bottom: 24, left: 96 };
+  const chart = d3.select(`.line-densidad-${cities}`);
+  const svg = chart.select('svg');
+  const labelDesert = ' hab/km2';
 
   function setupScales() {
-    const countX = d3.scaleTime().domain([2010, 2020]);
+    const countX = d3
+      .scaleTime()
+      .domain([
+        d3.min(dataLineDensidad, d => d.year),
+        d3.max(dataLineDensidad, d => d.year)
+      ]);
 
     const countY = d3
       .scaleLinear()
       .domain([
-        d3.min(dataLineEvolution, d => d.population * 1.75 - d.population),
-        d3.max(dataLineEvolution, d => d.population) * 1.25
+        0,
+        d3.max(dataLineDensidad, d => d.densidad * 1.5)
       ]);
 
     scales.count = { x: countX, y: countY };
   }
 
   function setupElements() {
-    const g = svg.select(`.line-lb-${cities}-container`);
+    const g = svg.select(`.line-densidad-${cities}-container`);
 
     g.append('g').attr('class', 'axis axis-x');
 
     g.append('g').attr('class', 'axis axis-y');
 
-    g.append('g').attr('class', `line-lb-${cities}-container-bis`);
+    g.append('g').attr('class', `line-densidad-${cities}-container-bis`);
   }
 
   function updateScales(width, height) {
@@ -78,7 +83,7 @@ export function lineEvolution(csvFile, cities) {
     const axisY = d3
       .axisLeft(scales.count.y)
       .tickPadding(5)
-      .tickFormat(d3.format('d'))
+      .tickFormat(d => d + labelDesert)
       .tickSize(-width)
       .ticks(6);
 
@@ -102,26 +107,26 @@ export function lineEvolution(csvFile, cities) {
 
     const translate = `translate(${left},${top})`;
 
-    const g = svg.select(`.line-lb-${cities}-container`);
+    const g = svg.select(`.line-densidad-${cities}-container`);
 
     g.attr('transform', translate);
 
     const line = d3
       .line()
       .x(d => scales.count.x(d.year))
-      .y(d => scales.count.y(d.population));
+      .y(d => scales.count.y(d.densidad));
 
     updateScales(width, height);
 
-    const container = chart.select(`.line-lb-${cities}-container-bis`);
+    const container = chart.select(`.line-densidad-${cities}-container-bis`);
 
-    const lines = container.selectAll('.lines').data([dataLineEvolution]);
+    const lines = container.selectAll('.lines').data([dataLineDensidad]);
 
     const dots = container
       .selectAll('.circles-population')
       .remove()
       .exit()
-      .data(dataLineEvolution);
+      .data(dataLineDensidad);
 
     const newLines = lines.enter().append('path').attr('class', 'lines');
 
@@ -141,28 +146,31 @@ export function lineEvolution(csvFile, cities) {
 
   function updateSelectCity() {
     d3.csv(csvFile).then(data => {
-      const valueCity = d3.select(`#select-lb-${cities}`).property('value');
+      const valueCity = d3.select(`#select-densidad-${cities}`).property('value');
 
-      dataLineEvolution = data.filter(({ municipio }) => municipio === valueCity);
+      dataLineDensidad = data.filter(({ name }) => name === valueCity);
 
-      dataLineEvolution.forEach(d => {
+      dataLineDensidad.forEach(d => {
         d.population = +d.population;
         d.year = +d.year;
+        d.superficie = +d.superficie;
+        d.densidad = (d.population / d.superficie)
       });
 
       setupScales();
-      updateChart(dataLineEvolution);
+      updateChart(dataLineDensidad);
+      rectDesertDemographic(dataLineDensidad);
     });
   }
 
   function resize() {
-    updateChart(dataLineEvolution);
+    updateChart(dataLineDensidad);
   }
 
   function menuSelectCity() {
     d3.csv(csvFile).then(data => {
-      const citiesName = [...new Set(data.map(({ municipio }) => municipio))];
-      const selectCity = d3.select(`#select-lb-${cities}`);
+      const citiesName = [...new Set(data.map(({ name }) => name))];
+      const selectCity = d3.select(`#select-densidad-${cities}`);
 
       selectCity
         .selectAll('option')
@@ -181,19 +189,42 @@ export function lineEvolution(csvFile, cities) {
   function loadData() {
     d3.csv(csvFile).then(data => {
       const [{ name: municipality }] = data
-      dataLineEvolution = data.reduce((acc, current) => {
-        if (current.municipio === municipality) {
+      dataLineDensidad = data.reduce((acc, current) => {
+        if (current.name === municipality) {
           current.year = +(current.year)
           current.population = +(current.population)
+          current.superficie = +(current.superficie)
+          current.densidad = +(current.population / current.superficie)
           acc.push(current)
         }
         return acc
       }, [])
       setupElements();
       setupScales();
-      updateChart(dataLineEvolution);
+      updateChart(dataLineDensidad);
       updateSelectCity();
+      rectDesertDemographic(dataLineDensidad);
     });
+  }
+
+  function rectDesertDemographic(dataLineDensidad) {
+    const desertDemographic = dataLineDensidad.map(({ densidad }) => densidad)
+    if(desertDemographic.some(d => d < 10) && desertDemographic[desertDemographic.length - 1] < 10) {
+      chart.selectAll('.rect-desert-demographic')
+        .remove()
+        .exit()
+
+      chart.append('div')
+        .attr('class', 'rect-desert-demographic')
+        .html(`<span>Una densidad inferior a 10hab/km convierte al municipio en un desierto demógrafico.</span>`)
+        .style('position', 'absolute')
+        .style('top', '50px')
+        .style('left', '70%')
+    } else {
+      chart.selectAll('.rect-desert-demographic')
+        .remove()
+        .exit()
+    }
   }
 
   window.addEventListener('resize', resize);

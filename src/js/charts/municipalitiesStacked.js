@@ -1,10 +1,12 @@
 import { select, selectAll } from 'd3-selection';
 import { min, max, bisector, extent, group, rollup, sum } from 'd3-array';
-import { curveCardinal, area, stack, stackOrderInsideOut } from 'd3-shape';
+import { area, stack, stackOrderInsideOut } from 'd3-shape';
 import { scaleTime, scaleLinear, scaleOrdinal } from 'd3-scale';
 import { axisBottom, axisLeft } from 'd3-axis';
 import { csv } from 'd3-fetch';
 import { format } from 'd3-format';
+import { easeLinear } from 'd3-ease';
+import { interpolatePath } from 'd3-interpolate-path';
 
 const d3 = {
   select,
@@ -13,9 +15,9 @@ const d3 = {
   max,
   bisector,
   extent,
-  curveCardinal,
   area,
   stack,
+  easeLinear,
   stackOrderInsideOut,
   scaleTime,
   scaleLinear,
@@ -26,7 +28,8 @@ const d3 = {
   format,
   group,
   rollup,
-  sum
+  sum,
+  interpolatePath
 };
 
 export function municipalitiesStacked(csvFile, cities) {
@@ -86,7 +89,11 @@ export function municipalitiesStacked(csvFile, cities) {
       .tickSizeInner(-width)
       .ticks(12);
 
-    g.select('.axis-y').call(axisY);
+    g.select('.axis-y')
+      .transition()
+      .duration(450)
+      .ease(d3.easeLinear)
+      .call(axisY);
   }
 
   function updateChart(dataTable) {
@@ -124,7 +131,9 @@ export function municipalitiesStacked(csvFile, cities) {
 
     const container = chart.select(`.municipalities-stack-container-${cities}-bis`);
 
-    const layer = container.selectAll('.area-stack-municipalities').data(stackedData);
+    const layer = container
+      .selectAll('.area-stack-municipalities')
+      .data(stackedData);
 
     const newLayer = layer.enter()
       .append('path')
@@ -132,10 +141,48 @@ export function municipalitiesStacked(csvFile, cities) {
 
     layer
       .merge(newLayer)
+      .transition()
+      .duration(600)
+      .ease(d3.easeLinear)
+      .attrTween('d', function(d) {
+        let previous = d3.select(this).attr('d');
+        let current = area(d);
+        return d3.interpolatePath(previous, current);
+      })
       .attr('fill', d => colors(d.key))
-      .attr('d', area);
 
     drawAxes(g);
+  }
+
+  function updateSelectCity() {
+    d3.csv(csvFile).then(data => {
+      const valueCity = d3.select(`#select-municipalities-stack-${cities}`).property('value');
+
+      dataMunicipalitiesStacked = data.filter(({ name }) => name === valueCity);
+      dataTable = createStackedData()
+
+      setupScales(dataTable);
+      updateChart(dataTable);
+    });
+  }
+
+  function menuSelectCity() {
+    d3.csv(csvFile).then(data => {
+      const citiesName = [...new Set(data.map(({ name }) => name))];
+      const selectCity = d3.select(`#select-municipalities-stack-${cities}`);
+
+      selectCity
+        .selectAll('option')
+        .data(citiesName)
+        .enter()
+        .append('option')
+        .attr('value', d => d)
+        .text(d => d);
+
+      selectCity.on('change', function() {
+        updateSelectCity();
+      });
+    });
   }
 
   function resize() {
@@ -149,6 +196,7 @@ export function municipalitiesStacked(csvFile, cities) {
       dataMunicipalitiesStacked = data.filter(({ name }) => name === municipality)
       dataTable = createStackedData()
       setupElements();
+      menuSelectCity()
       setupScales(dataTable);
       updateChart(dataTable);
     });

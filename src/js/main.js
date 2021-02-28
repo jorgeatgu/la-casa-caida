@@ -17,7 +17,8 @@ import {
   linePopulation,
   lineEvolution,
   scatterEvolution,
-  municipalitiesStacked
+  municipalitiesStacked,
+  lineDensidad
 } from './charts/index.js';
 
 menu();
@@ -35,7 +36,8 @@ cities.map(element => {
     vegetativeCSV,
     comparatorCSV,
     evolutionCSV,
-    groupByAgeCSV
+    groupByAgeCSV,
+    densityCSV
   } = element;
   linePopulation(linePopulationCSV, city);
   lineHistoric(lineTotalCSV, city);
@@ -44,4 +46,5 @@ cities.map(element => {
   lineEvolution(evolutionCSV, city);
   scatterEvolution(evolutionCSV, city);
   municipalitiesStacked(groupByAgeCSV, city);
+  lineDensidad(densityCSV, city);
 });

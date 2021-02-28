@@ -25,10 +25,6 @@ export const scatterEvolution = (csvFile, cities) => {
   let height = 0;
   let w = 0;
   let h = 0;
-  const chart = d3.select(`.scatter-lb-${cities}`);
-  const svg = chart.select('svg');
-  const scales = {};
-  const habitantes = '%';
   let dataScatterEvolution;
   let secondYear = 2020;
   let firstYear = 2010;
@@ -36,6 +32,11 @@ export const scatterEvolution = (csvFile, cities) => {
   let winPopulation;
   let filteredData;
   let initChart = false;
+
+  const chart = d3.select(`.scatter-lb-${cities}`);
+  const svg = chart.select('svg');
+  const scales = {};
+  const habitantes = '%';
   const tooltip = d3
     .select(`.scatter-lb-${cities}`)
     .append('div')
@@ -243,13 +244,13 @@ export const scatterEvolution = (csvFile, cities) => {
 
   function loadData() {
     d3.csv(csvFile).then(data => {
-      dataScatterEvolution = data;
-
-      dataScatterEvolution.forEach(d => {
-        d.year = +d.year;
-        d.population = +d.population;
+      dataScatterEvolution = data.map(d => {
+        return {
+          year: (+d.year),
+          population: (+d.population),
+          municipio: d.municipio
+        }
       });
-
       setupElements();
       menuFirstYear(years);
       menuSecondYear(years);
@@ -268,9 +269,8 @@ export const scatterEvolution = (csvFile, cities) => {
     );
     filteredData = mergeYears.map(
       ({ populationFirstYear, populationSecondYear, name, cp }) => {
-        let difference = populationSecondYear - populationFirstYear;
         return {
-          percentage: +((difference * 100) / populationFirstYear).toFixed(2),
+          percentage: +(((populationSecondYear - populationFirstYear) * 100) / populationFirstYear).toFixed(2),
           populationFirstYear,
           populationSecondYear,
           cp,
@@ -285,7 +285,6 @@ export const scatterEvolution = (csvFile, cities) => {
       .length;
 
     d3.select(`.municipios-lost-${cities}`).remove();
-
     d3.select(`.municipios-wins-${cities}`).remove();
 
     svg

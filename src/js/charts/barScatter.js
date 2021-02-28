@@ -135,7 +135,7 @@ export function barScatter(csvFile, cities) {
           .style('opacity', 1)
           .html(
             `<p class="tooltip-citi">${d.city}<p/>
-            <p class="tooltip-population">Habitantes: <span class="tooltip-number">${d.population}</span><p/>
+            <p class="tooltip-population-text">Habitantes: <span class="tooltip-number">${d.population}</span><p/>
             <p class="tooltip-over">Mayores de 65: <span class="tooltip-number">${d.mayor}%</span><p/>
             <p class="tooltip-under">Menores de 18: <span class="tooltip-number">${d.menor}%</span><p/>
             `
@@ -236,6 +236,8 @@ export function barScatter(csvFile, cities) {
           .attr('r', 0);
 
         dataScatterPeople = data.filter(({ mayor }) => mayor > percentageCity);
+        console.log("data", data);
+        console.log("dataScatterPeople", dataScatterPeople.length);
 
         const container = chart.select(`.scatter-${cities}-container-bis`);
 
@@ -271,6 +273,7 @@ export function barScatter(csvFile, cities) {
       );
 
       const percentageCity = d3.select(this).property('value');
+      console.log("percentageCity", percentageCity);
 
       d3.csv(csvFile).then(data => {
         dataScatterPeople = data;
@@ -333,14 +336,15 @@ export function barScatter(csvFile, cities) {
 
   function loadData() {
     d3.csv(csvFile).then(data => {
-      dataScatterPeople = data;
-      dataScatterPeople.forEach(d => {
-        d.mayor = +d.mayor;
-        d.menor = +d.menor;
-        d.population = +d.population;
-        d.city = d.name;
-        d.over = d.percentagemayor;
-        d.under = d.percentagemenor;
+      dataScatterPeople = data.map(d => {
+        return {
+          mayor: (+d.mayor),
+          menor: (+d.menor),
+          population: (+d.population),
+          city: d.name,
+          over: d.percentagemayor,
+          under: d.percentagemenor
+        }
       });
 
       setupElements();
