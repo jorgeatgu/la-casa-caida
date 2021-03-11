@@ -1,0 +1,1819 @@
+year,cp,name,population
+2011,22001,Abiego,280
+2011,22002,Abizanda,139
+2011,22003,Adahuesca,176
+2011,22004,Agüero,160
+2011,22907,Aínsa-Sobrarbe,2232
+2011,22006,Aisa,379
+2011,22007,Albalate de Cinca,1259
+2011,22008,Albalatillo,237
+2011,22009,Albelda,839
+2011,22011,Albero Alto,134
+2011,22012,Albero Bajo,109
+2011,22013,Alberuela de Tubo,355
+2011,22014,Alcalá de Gurrea,275
+2011,22015,Alcalá del Obispo,411
+2011,22016,Alcampell,762
+2011,22017,Alcolea de Cinca,1137
+2011,22018,Alcubierre,439
+2011,22019,Alerre,222
+2011,22020,Alfántega,130
+2011,22021,Almudévar,2560
+2011,22022,Almunia de San Juan,661
+2011,22023,Almuniente,550
+2011,22024,Alquézar,302
+2011,22025,Altorricón,1492
+2011,22027,Angüés,439
+2011,22028,Ansó,475
+2011,22029,Antillón,146
+2011,22032,Aragüés del Puerto,133
+2011,22035,Arén,359
+2011,22036,Argavieso,118
+2011,22037,Arguis,117
+2011,22039,Ayerbe,1125
+2011,22040,Azanuy-Alins,181
+2011,22041,Azara,200
+2011,22042,Azlor,133
+2011,22043,Baélls,114
+2011,22044,Bailo,300
+2011,22045,Baldellou,119
+2011,22046,Ballobar,974
+2011,22047,Banastás,283
+2011,22048,Barbastro,17085
+2011,22049,Barbués,96
+2011,22050,Barbuñales,101
+2011,22051,Bárcabo,126
+2011,22052,Belver de Cinca,1374
+2011,22053,Benabarre,1180
+2011,22054,Benasque,2236
+2011,22246,Beranuy,104
+2011,22055,Berbegal,417
+2011,22057,Bielsa,495
+2011,22058,Bierge,254
+2011,22059,Biescas,1597
+2011,22060,Binaced,1485
+2011,22061,Binéfar,9482
+2011,22062,Bisaurri,206
+2011,22063,Biscarrués,223
+2011,22064,Blecua y Torres,215
+2011,22066,Boltaña,1055
+2011,22067,Bonansa,102
+2011,22068,Borau,85
+2011,22069,Broto,543
+2011,22072,Caldearenas,231
+2011,22074,Campo,350
+2011,22075,Camporrélls,182
+2011,22076,Canal de Berdún,382
+2011,22077,Candasnos,395
+2011,22078,Canfranc,620
+2011,22079,Capdesaso,176
+2011,22080,Capella,372
+2011,22081,Casbas de Huesca,303
+2011,22083,Castejón de Monegros,649
+2011,22084,Castejón de Sos,776
+2011,22082,Castejón del Puente,372
+2011,22085,Castelflorite,128
+2011,22086,Castiello de Jaca,257
+2011,22087,Castigaleu,115
+2011,22088,Castillazuelo,197
+2011,22089,Castillonroy,380
+2011,22094,Chalamera,122
+2011,22095,Chía,102
+2011,22096,Chimillas,358
+2011,22090,Colungo,142
+2011,22099,Esplús,654
+2011,22102,Estada,234
+2011,22103,Estadilla,853
+2011,22105,Estopiñán del Castillo,174
+2011,22106,Fago,30
+2011,22107,Fanlo,132
+2011,22109,Fiscal,318
+2011,22110,Fonz,1021
+2011,22111,Foradada del Toscar,211
+2011,22112,Fraga,14426
+2011,22113,La Fueva,634
+2011,22114,Gistaín,150
+2011,22115,El Grado,484
+2011,22116,Grañén,1988
+2011,22117,Graus,3697
+2011,22119,Gurrea de Gállego,1651
+2011,22122,Hoz de Jaca,70
+2011,22908,Hoz y Costean,208
+2011,22124,Huerto,267
+2011,22125,Huesca,52443
+2011,22126,Ibieca,109
+2011,22127,Igriés,666
+2011,22128,Ilche,237
+2011,22129,Isábena,305
+2011,22130,Jaca,13299
+2011,22131,Jasa,113
+2011,22133,Labuerda,169
+2011,22135,Laluenga,216
+2011,22136,Lalueza,1089
+2011,22137,Lanaja,1381
+2011,22139,Laperdiguera,102
+2011,22141,Lascellas-Ponzano,148
+2011,22142,Lascuarre,155
+2011,22143,Laspaúles,302
+2011,22144,Laspuña,301
+2011,22149,Loarre,369
+2011,22150,Loporzano,563
+2011,22151,Loscorrales,108
+2011,22905,Lupiñén-Ortilla,389
+2011,22155,Monesma y Cajigar,100
+2011,22156,Monflorite-Lascasas,315
+2011,22157,Montanuy,284
+2011,22158,Monzón,17215
+2011,22160,Naval,258
+2011,22162,Novales,175
+2011,22163,Nueno,559
+2011,22164,Olvena,55
+2011,22165,Ontiñena,597
+2011,22167,Osso de Cinca,768
+2011,22168,Palo,29
+2011,22170,Panticosa,820
+2011,22172,Peñalba,765
+2011,22173,Las Peñas de Riglos,269
+2011,22174,Peralta de Alcofea,619
+2011,22175,Peralta de Calasanz,243
+2011,22176,Peraltilla,212
+2011,22177,Perarrúa,112
+2011,22178,Pertusa,117
+2011,22181,Piracés,103
+2011,22182,Plan,327
+2011,22184,Poleñino,224
+2011,22186,Pozán de Vero,241
+2011,22187,La Puebla de Castro,416
+2011,22188,Puente de Montañana,143
+2011,22902,Puente la Reina de Jaca,290
+2011,22189,Puértolas,233
+2011,22190,Pueyo de Araguás,151
+2011,22193,Pueyo de Santa Cruz,371
+2011,22195,Quicena,290
+2011,22197,Robres,606
+2011,22199,Sabiñánigo,10345
+2011,22200,Sahún,342
+2011,22201,Salas Altas,310
+2011,22202,Salas Bajas,140
+2011,22203,Salillas,106
+2011,22204,Sallent de Gállego,1536
+2011,22205,San Esteban de Litera,509
+2011,22207,San Juan de Plan,157
+2011,22903,San Miguel del Cinca,849
+2011,22206,Sangarrén,231
+2011,22208,Santa Cilia,208
+2011,22209,Santa Cruz de la Serós,189
+2011,22906,Santa María de Dulcis,219
+2011,22212,Santaliestra y San Quílez,97
+2011,22213,Sariñena,4402
+2011,22214,Secastilla,155
+2011,22215,Seira,151
+2011,22217,Sena,549
+2011,22218,Senés de Alcubierre,64
+2011,22220,Sesa,209
+2011,22221,Sesué,131
+2011,22222,Siétamo,658
+2011,22223,Sopeira,118
+2011,22904,La Sotonera,1040
+2011,22225,Tamarite de Litera,3711
+2011,22226,Tardienta,998
+2011,22227,Tella-Sin,272
+2011,22228,Tierz,715
+2011,22229,Tolva,160
+2011,22230,Torla-Ordesa,327
+2011,22232,Torralba de Aragón,107
+2011,22233,Torre la Ribera,119
+2011,22234,Torrente de Cinca,1337
+2011,22235,Torres de Alcanadre,109
+2011,22236,Torres de Barbués,301
+2011,22239,Tramaced,98
+2011,22242,Valfarta,90
+2011,22243,Valle de Bardají,50
+2011,22901,Valle de Hecho,947
+2011,22244,Valle de Lierp,66
+2011,22245,Velilla de Cinca,449
+2011,22909,Vencillón,467
+2011,22247,Viacamp y Litera,48
+2011,22248,Vicién,119
+2011,22249,Villanova,157
+2011,22250,Villanúa,512
+2011,22251,Villanueva de Sigena,478
+2011,22252,Yebra de Basa,152
+2011,22253,Yésero,69
+2011,22254,Zaidín,1689
+2012,22001,Abiego,277
+2012,22002,Abizanda,136
+2012,22003,Adahuesca,182
+2012,22004,Agüero,159
+2012,22907,Aínsa-Sobrarbe,2242
+2012,22006,Aisa,367
+2012,22007,Albalate de Cinca,1251
+2012,22008,Albalatillo,224
+2012,22009,Albelda,810
+2012,22011,Albero Alto,134
+2012,22012,Albero Bajo,114
+2012,22013,Alberuela de Tubo,348
+2012,22014,Alcalá de Gurrea,285
+2012,22015,Alcalá del Obispo,368
+2012,22016,Alcampell,746
+2012,22017,Alcolea de Cinca,1141
+2012,22018,Alcubierre,424
+2012,22019,Alerre,211
+2012,22020,Alfántega,135
+2012,22021,Almudévar,2519
+2012,22022,Almunia de San Juan,664
+2012,22023,Almuniente,564
+2012,22024,Alquézar,301
+2012,22025,Altorricón,1494
+2012,22027,Angüés,419
+2012,22028,Ansó,467
+2012,22029,Antillón,148
+2012,22032,Aragüés del Puerto,128
+2012,22035,Arén,362
+2012,22036,Argavieso,110
+2012,22037,Arguis,125
+2012,22039,Ayerbe,1117
+2012,22040,Azanuy-Alins,174
+2012,22041,Azara,200
+2012,22042,Azlor,133
+2012,22043,Baélls,123
+2012,22044,Bailo,311
+2012,22045,Baldellou,113
+2012,22046,Ballobar,940
+2012,22047,Banastás,286
+2012,22048,Barbastro,17304
+2012,22049,Barbués,98
+2012,22050,Barbuñales,105
+2012,22051,Bárcabo,117
+2012,22052,Belver de Cinca,1375
+2012,22053,Benabarre,1215
+2012,22054,Benasque,2217
+2012,22246,Beranuy,97
+2012,22055,Berbegal,420
+2012,22057,Bielsa,503
+2012,22058,Bierge,251
+2012,22059,Biescas,1589
+2012,22060,Binaced,1498
+2012,22061,Binéfar,9456
+2012,22062,Bisaurri,202
+2012,22063,Biscarrués,226
+2012,22064,Blecua y Torres,219
+2012,22066,Boltaña,1092
+2012,22067,Bonansa,96
+2012,22068,Borau,84
+2012,22069,Broto,542
+2012,22072,Caldearenas,223
+2012,22074,Campo,330
+2012,22075,Camporrélls,167
+2012,22076,Canal de Berdún,365
+2012,22077,Candasnos,381
+2012,22078,Canfranc,599
+2012,22079,Capdesaso,184
+2012,22080,Capella,360
+2012,22081,Casbas de Huesca,304
+2012,22083,Castejón de Monegros,623
+2012,22084,Castejón de Sos,767
+2012,22082,Castejón del Puente,360
+2012,22085,Castelflorite,131
+2012,22086,Castiello de Jaca,249
+2012,22087,Castigaleu,104
+2012,22088,Castillazuelo,189
+2012,22089,Castillonroy,360
+2012,22094,Chalamera,115
+2012,22095,Chía,97
+2012,22096,Chimillas,370
+2012,22090,Colungo,131
+2012,22099,Esplús,663
+2012,22102,Estada,230
+2012,22103,Estadilla,855
+2012,22105,Estopiñán del Castillo,161
+2012,22106,Fago,29
+2012,22107,Fanlo,126
+2012,22109,Fiscal,346
+2012,22110,Fonz,982
+2012,22111,Foradada del Toscar,208
+2012,22112,Fraga,14655
+2012,22113,La Fueva,641
+2012,22114,Gistaín,147
+2012,22115,El Grado,471
+2012,22116,Grañén,1990
+2012,22117,Graus,3595
+2012,22119,Gurrea de Gállego,1644
+2012,22122,Hoz de Jaca,72
+2012,22908,Hoz y Costean,204
+2012,22124,Huerto,266
+2012,22125,Huesca,52296
+2012,22126,Ibieca,113
+2012,22127,Igriés,658
+2012,22128,Ilche,226
+2012,22129,Isábena,307
+2012,22130,Jaca,13248
+2012,22131,Jasa,112
+2012,22133,Labuerda,156
+2012,22135,Laluenga,221
+2012,22136,Lalueza,1066
+2012,22137,Lanaja,1358
+2012,22139,Laperdiguera,101
+2012,22141,Lascellas-Ponzano,143
+2012,22142,Lascuarre,152
+2012,22143,Laspaúles,322
+2012,22144,Laspuña,296
+2012,22149,Loarre,361
+2012,22150,Loporzano,549
+2012,22151,Loscorrales,107
+2012,22905,Lupiñén-Ortilla,378
+2012,22155,Monesma y Cajigar,95
+2012,22156,Monflorite-Lascasas,301
+2012,22157,Montanuy,265
+2012,22158,Monzón,17263
+2012,22160,Naval,250
+2012,22162,Novales,177
+2012,22163,Nueno,567
+2012,22164,Olvena,53
+2012,22165,Ontiñena,584
+2012,22167,Osso de Cinca,806
+2012,22168,Palo,30
+2012,22170,Panticosa,790
+2012,22172,Peñalba,759
+2012,22173,Las Peñas de Riglos,268
+2012,22174,Peralta de Alcofea,596
+2012,22175,Peralta de Calasanz,242
+2012,22176,Peraltilla,202
+2012,22177,Perarrúa,109
+2012,22178,Pertusa,121
+2012,22181,Piracés,100
+2012,22182,Plan,314
+2012,22184,Poleñino,217
+2012,22186,Pozán de Vero,243
+2012,22187,La Puebla de Castro,430
+2012,22188,Puente de Montañana,133
+2012,22902,Puente la Reina de Jaca,286
+2012,22189,Puértolas,225
+2012,22190,Pueyo de Araguás,154
+2012,22193,Pueyo de Santa Cruz,362
+2012,22195,Quicena,291
+2012,22197,Robres,605
+2012,22199,Sabiñánigo,10241
+2012,22200,Sahún,340
+2012,22201,Salas Altas,311
+2012,22202,Salas Bajas,138
+2012,22203,Salillas,106
+2012,22204,Sallent de Gállego,1512
+2012,22205,San Esteban de Litera,502
+2012,22207,San Juan de Plan,162
+2012,22903,San Miguel del Cinca,849
+2012,22206,Sangarrén,227
+2012,22208,Santa Cilia,201
+2012,22209,Santa Cruz de la Serós,194
+2012,22906,Santa María de Dulcis,226
+2012,22212,Santaliestra y San Quílez,94
+2012,22213,Sariñena,4402
+2012,22214,Secastilla,153
+2012,22215,Seira,149
+2012,22217,Sena,542
+2012,22218,Senés de Alcubierre,53
+2012,22220,Sesa,208
+2012,22221,Sesué,127
+2012,22222,Siétamo,650
+2012,22223,Sopeira,114
+2012,22904,La Sotonera,1042
+2012,22225,Tamarite de Litera,3656
+2012,22226,Tardienta,985
+2012,22227,Tella-Sin,263
+2012,22228,Tierz,714
+2012,22229,Tolva,152
+2012,22230,Torla-Ordesa,320
+2012,22232,Torralba de Aragón,110
+2012,22233,Torre la Ribera,117
+2012,22234,Torrente de Cinca,1321
+2012,22235,Torres de Alcanadre,105
+2012,22236,Torres de Barbués,297
+2012,22239,Tramaced,94
+2012,22242,Valfarta,74
+2012,22243,Valle de Bardají,49
+2012,22901,Valle de Hecho,937
+2012,22244,Valle de Lierp,64
+2012,22245,Velilla de Cinca,452
+2012,22909,Vencillón,455
+2012,22247,Viacamp y Litera,51
+2012,22248,Vicién,115
+2012,22249,Villanova,148
+2012,22250,Villanúa,499
+2012,22251,Villanueva de Sigena,464
+2012,22252,Yebra de Basa,147
+2012,22254,Zaidín,1750
+2012,22253,Yésero,67
+2013,22001,Abiego,279
+2013,22002,Abizanda,143
+2013,22003,Adahuesca,176
+2013,22004,Agüero,150
+2013,22907,Aínsa-Sobrarbe,2250
+2013,22006,Aisa,364
+2013,22007,Albalate de Cinca,1249
+2013,22008,Albalatillo,209
+2013,22009,Albelda,794
+2013,22011,Albero Alto,123
+2013,22012,Albero Bajo,121
+2013,22013,Alberuela de Tubo,339
+2013,22014,Alcalá de Gurrea,277
+2013,22015,Alcalá del Obispo,354
+2013,22016,Alcampell,724
+2013,22017,Alcolea de Cinca,1125
+2013,22018,Alcubierre,416
+2013,22019,Alerre,213
+2013,22020,Alfántega,140
+2013,22021,Almudévar,2514
+2013,22022,Almunia de San Juan,663
+2013,22023,Almuniente,538
+2013,22024,Alquézar,298
+2013,22025,Altorricón,1447
+2013,22027,Angüés,419
+2013,22028,Ansó,447
+2013,22029,Antillón,156
+2013,22032,Aragüés del Puerto,128
+2013,22035,Arén,326
+2013,22036,Argavieso,112
+2013,22037,Arguis,129
+2013,22039,Ayerbe,1111
+2013,22040,Azanuy-Alins,181
+2013,22041,Azara,197
+2013,22042,Azlor,133
+2013,22043,Baélls,109
+2013,22044,Bailo,301
+2013,22045,Baldellou,103
+2013,22046,Ballobar,863
+2013,22047,Banastás,297
+2013,22048,Barbastro,17210
+2013,22049,Barbués,89
+2013,22050,Barbuñales,98
+2013,22051,Bárcabo,115
+2013,22052,Belver de Cinca,1330
+2013,22053,Benabarre,1206
+2013,22054,Benasque,2195
+2013,22246,Beranuy,99
+2013,22055,Berbegal,385
+2013,22057,Bielsa,500
+2013,22058,Bierge,246
+2013,22059,Biescas,1568
+2013,22060,Binaced,1550
+2013,22061,Binéfar,9468
+2013,22062,Bisaurri,194
+2013,22063,Biscarrués,220
+2013,22064,Blecua y Torres,211
+2013,22066,Boltaña,1071
+2013,22067,Bonansa,86
+2013,22068,Borau,86
+2013,22069,Broto,533
+2013,22072,Caldearenas,212
+2013,22074,Campo,426
+2013,22075,Camporrélls,165
+2013,22076,Canal de Berdún,385
+2013,22077,Candasnos,349
+2013,22078,Canfranc,572
+2013,22079,Capdesaso,177
+2013,22080,Capella,371
+2013,22081,Casbas de Huesca,306
+2013,22083,Castejón de Monegros,611
+2013,22084,Castejón de Sos,731
+2013,22082,Castejón del Puente,349
+2013,22085,Castelflorite,135
+2013,22086,Castiello de Jaca,249
+2013,22087,Castigaleu,102
+2013,22088,Castillazuelo,181
+2013,22089,Castillonroy,342
+2013,22094,Chalamera,113
+2013,22095,Chía,100
+2013,22096,Chimillas,374
+2013,22090,Colungo,115
+2013,22099,Esplús,672
+2013,22102,Estada,221
+2013,22103,Estadilla,847
+2013,22105,Estopiñán del Castillo,144
+2013,22106,Fago,27
+2013,22107,Fanlo,118
+2013,22109,Fiscal,374
+2013,22110,Fonz,987
+2013,22111,Foradada del Toscar,197
+2013,22112,Fraga,14834
+2013,22113,La Fueva,618
+2013,22114,Gistaín,144
+2013,22115,El Grado,448
+2013,22116,Grañén,1961
+2013,22117,Graus,3513
+2013,22119,Gurrea de Gállego,1627
+2013,22122,Hoz de Jaca,74
+2013,22908,Hoz y Costean,190
+2013,22124,Huerto,255
+2013,22125,Huesca,52418
+2013,22126,Ibieca,121
+2013,22127,Igriés,675
+2013,22128,Ilche,211
+2013,22129,Isábena,297
+2013,22130,Jaca,13221
+2013,22131,Jasa,102
+2013,22133,Labuerda,156
+2013,22135,Laluenga,225
+2013,22136,Lalueza,1021
+2013,22137,Lanaja,1340
+2013,22139,Laperdiguera,95
+2013,22141,Lascellas-Ponzano,148
+2013,22142,Lascuarre,143
+2013,22143,Laspaúles,316
+2013,22144,Laspuña,293
+2013,22149,Loarre,361
+2013,22150,Loporzano,547
+2013,22151,Loscorrales,106
+2013,22905,Lupiñén-Ortilla,374
+2013,22155,Monesma y Cajigar,93
+2013,22156,Monflorite-Lascasas,304
+2013,22157,Montanuy,253
+2013,22158,Monzón,17290
+2013,22160,Naval,250
+2013,22162,Novales,183
+2013,22163,Nueno,558
+2013,22164,Olvena,62
+2013,22165,Ontiñena,585
+2013,22167,Osso de Cinca,805
+2013,22168,Palo,23
+2013,22170,Panticosa,765
+2013,22172,Peñalba,720
+2013,22173,Las Peñas de Riglos,268
+2013,22174,Peralta de Alcofea,553
+2013,22175,Peralta de Calasanz,240
+2013,22176,Peraltilla,201
+2013,22177,Perarrúa,107
+2013,22178,Pertusa,124
+2013,22181,Piracés,102
+2013,22182,Plan,312
+2013,22184,Poleñino,215
+2013,22186,Pozán de Vero,230
+2013,22187,La Puebla de Castro,415
+2013,22188,Puente de Montañana,129
+2013,22902,Puente la Reina de Jaca,284
+2013,22189,Puértolas,214
+2013,22190,Pueyo de Araguás,153
+2013,22193,Pueyo de Santa Cruz,358
+2013,22195,Quicena,298
+2013,22197,Robres,582
+2013,22199,Sabiñánigo,10129
+2013,22200,Sahún,326
+2013,22201,Salas Altas,302
+2013,22202,Salas Bajas,136
+2013,22203,Salillas,102
+2013,22204,Sallent de Gállego,1490
+2013,22205,San Esteban de Litera,501
+2013,22207,San Juan de Plan,158
+2013,22903,San Miguel del Cinca,854
+2013,22206,Sangarrén,214
+2013,22208,Santa Cilia,206
+2013,22209,Santa Cruz de la Serós,191
+2013,22906,Santa María de Dulcis,219
+2013,22212,Santaliestra y San Quílez,91
+2013,22213,Sariñena,4323
+2013,22214,Secastilla,158
+2013,22215,Seira,142
+2013,22217,Sena,530
+2013,22218,Senés de Alcubierre,51
+2013,22220,Sesa,208
+2013,22221,Sesué,121
+2013,22222,Siétamo,663
+2013,22223,Sopeira,110
+2013,22904,La Sotonera,1018
+2013,22225,Tamarite de Litera,3626
+2013,22226,Tardienta,994
+2013,22227,Tella-Sin,254
+2013,22228,Tierz,726
+2013,22229,Tolva,147
+2013,22230,Torla-Ordesa,292
+2013,22232,Torralba de Aragón,107
+2013,22233,Torre la Ribera,113
+2013,22234,Torrente de Cinca,1241
+2013,22235,Torres de Alcanadre,106
+2013,22236,Torres de Barbués,303
+2013,22239,Tramaced,95
+2013,22242,Valfarta,78
+2013,22243,Valle de Bardají,39
+2013,22901,Valle de Hecho,924
+2013,22244,Valle de Lierp,59
+2013,22245,Velilla de Cinca,447
+2013,22909,Vencillón,442
+2013,22247,Viacamp y Litera,43
+2013,22248,Vicién,124
+2013,22249,Villanova,150
+2013,22250,Villanúa,487
+2013,22251,Villanueva de Sigena,443
+2013,22252,Yebra de Basa,146
+2013,22253,Yésero,63
+2013,22254,Zaidín,1797
+2014,22001,Abiego,267
+2014,22002,Abizanda,140
+2014,22003,Adahuesca,172
+2014,22004,Agüero,150
+2014,22907,Aínsa-Sobrarbe,2213
+2014,22006,Aisa,363
+2014,22007,Albalate de Cinca,1201
+2014,22008,Albalatillo,207
+2014,22009,Albelda,762
+2014,22011,Albero Alto,125
+2014,22012,Albero Bajo,122
+2014,22013,Alberuela de Tubo,327
+2014,22014,Alcalá de Gurrea,277
+2014,22015,Alcalá del Obispo,349
+2014,22016,Alcampell,707
+2014,22017,Alcolea de Cinca,1136
+2014,22018,Alcubierre,401
+2014,22019,Alerre,213
+2014,22020,Alfántega,136
+2014,22021,Almudévar,2519
+2014,22022,Almunia de San Juan,681
+2014,22023,Almuniente,528
+2014,22024,Alquézar,297
+2014,22025,Altorricón,1477
+2014,22027,Angüés,404
+2014,22028,Ansó,436
+2014,22029,Antillón,153
+2014,22032,Aragüés del Puerto,123
+2014,22035,Arén,314
+2014,22036,Argavieso,107
+2014,22037,Arguis,125
+2014,22039,Ayerbe,1097
+2014,22040,Azanuy-Alins,184
+2014,22041,Azara,193
+2014,22042,Azlor,137
+2014,22043,Baélls,113
+2014,22044,Bailo,290
+2014,22045,Baldellou,98
+2014,22046,Ballobar,866
+2014,22047,Banastás,303
+2014,22048,Barbastro,17109
+2014,22049,Barbués,92
+2014,22050,Barbuñales,100
+2014,22051,Bárcabo,117
+2014,22052,Belver de Cinca,1346
+2014,22053,Benabarre,1153
+2014,22054,Benasque,2149
+2014,22246,Beranuy,97
+2014,22055,Berbegal,391
+2014,22057,Bielsa,496
+2014,22058,Bierge,242
+2014,22059,Biescas,1535
+2014,22060,Binaced,1539
+2014,22061,Binéfar,9461
+2014,22062,Bisaurri,179
+2014,22063,Biscarrués,209
+2014,22064,Blecua y Torres,202
+2014,22066,Boltaña,1041
+2014,22067,Bonansa,84
+2014,22068,Borau,91
+2014,22069,Broto,523
+2014,22072,Caldearenas,208
+2014,22074,Campo,459
+2014,22075,Camporrélls,148
+2014,22076,Canal de Berdún,376
+2014,22077,Candasnos,339
+2014,22078,Canfranc,554
+2014,22079,Capdesaso,170
+2014,22080,Capella,361
+2014,22081,Casbas de Huesca,295
+2014,22083,Castejón de Monegros,574
+2014,22084,Castejón de Sos,733
+2014,22082,Castejón del Puente,349
+2014,22085,Castelflorite,123
+2014,22086,Castiello de Jaca,243
+2014,22087,Castigaleu,95
+2014,22088,Castillazuelo,191
+2014,22089,Castillonroy,336
+2014,22094,Chalamera,103
+2014,22095,Chía,87
+2014,22096,Chimillas,373
+2014,22090,Colungo,124
+2014,22099,Esplús,646
+2014,22102,Estada,215
+2014,22103,Estadilla,822
+2014,22105,Estopiñán del Castillo,136
+2014,22106,Fago,24
+2014,22107,Fanlo,118
+2014,22109,Fiscal,369
+2014,22110,Fonz,960
+2014,22111,Foradada del Toscar,192
+2014,22112,Fraga,14926
+2014,22113,La Fueva,622
+2014,22114,Gistaín,143
+2014,22115,El Grado,435
+2014,22116,Grañén,1902
+2014,22117,Graus,3429
+2014,22119,Gurrea de Gállego,1575
+2014,22122,Hoz de Jaca,73
+2014,22908,Hoz y Costean,237
+2014,22124,Huerto,242
+2014,22125,Huesca,52555
+2014,22126,Ibieca,119
+2014,22127,Igriés,700
+2014,22128,Ilche,214
+2014,22129,Isábena,288
+2014,22130,Jaca,13121
+2014,22131,Jasa,111
+2014,22133,Labuerda,155
+2014,22135,Laluenga,216
+2014,22136,Lalueza,1024
+2014,22137,Lanaja,1324
+2014,22139,Laperdiguera,94
+2014,22141,Lascellas-Ponzano,146
+2014,22142,Lascuarre,136
+2014,22143,Laspaúles,304
+2014,22144,Laspuña,298
+2014,22149,Loarre,338
+2014,22150,Loporzano,535
+2014,22151,Loscorrales,107
+2014,22905,Lupiñén-Ortilla,373
+2014,22155,Monesma y Cajigar,88
+2014,22156,Monflorite-Lascasas,295
+2014,22157,Montanuy,237
+2014,22158,Monzón,17176
+2014,22160,Naval,256
+2014,22162,Novales,176
+2014,22163,Nueno,558
+2014,22164,Olvena,57
+2014,22165,Ontiñena,570
+2014,22167,Osso de Cinca,771
+2014,22168,Palo,22
+2014,22170,Panticosa,757
+2014,22172,Peñalba,691
+2014,22173,Las Peñas de Riglos,267
+2014,22174,Peralta de Alcofea,582
+2014,22175,Peralta de Calasanz,240
+2014,22176,Peraltilla,206
+2014,22177,Perarrúa,113
+2014,22178,Pertusa,121
+2014,22181,Piracés,106
+2014,22182,Plan,314
+2014,22184,Poleñino,216
+2014,22186,Pozán de Vero,225
+2014,22187,La Puebla de Castro,401
+2014,22188,Puente de Montañana,119
+2014,22902,Puente la Reina de Jaca,276
+2014,22189,Puértolas,217
+2014,22190,Pueyo de Araguás,145
+2014,22193,Pueyo de Santa Cruz,338
+2014,22195,Quicena,300
+2014,22197,Robres,575
+2014,22199,Sabiñánigo,9883
+2014,22200,Sahún,304
+2014,22201,Salas Altas,319
+2014,22202,Salas Bajas,161
+2014,22203,Salillas,107
+2014,22204,Sallent de Gállego,1484
+2014,22205,San Esteban de Litera,495
+2014,22207,San Juan de Plan,147
+2014,22903,San Miguel del Cinca,852
+2014,22206,Sangarrén,212
+2014,22208,Santa Cilia,225
+2014,22209,Santa Cruz de la Serós,192
+2014,22906,Santa María de Dulcis,226
+2014,22212,Santaliestra y San Quílez,99
+2014,22213,Sariñena,4293
+2014,22214,Secastilla,146
+2014,22215,Seira,147
+2014,22217,Sena,516
+2014,22218,Senés de Alcubierre,52
+2014,22220,Sesa,202
+2014,22221,Sesué,116
+2014,22222,Siétamo,675
+2014,22223,Sopeira,107
+2014,22904,La Sotonera,1013
+2014,22225,Tamarite de Litera,3604
+2014,22226,Tardienta,1005
+2014,22227,Tella-Sin,260
+2014,22228,Tierz,734
+2014,22229,Tolva,148
+2014,22230,Torla-Ordesa,293
+2014,22232,Torralba de Aragón,113
+2014,22233,Torre la Ribera,106
+2014,22234,Torrente de Cinca,1205
+2014,22235,Torres de Alcanadre,103
+2014,22236,Torres de Barbués,293
+2014,22239,Tramaced,97
+2014,22242,Valfarta,73
+2014,22243,Valle de Bardají,37
+2014,22901,Valle de Hecho,903
+2014,22244,Valle de Lierp,58
+2014,22245,Velilla de Cinca,461
+2014,22909,Vencillón,425
+2014,22247,Viacamp y Litera,43
+2014,22248,Vicién,122
+2014,22249,Villanova,159
+2014,22250,Villanúa,475
+2014,22251,Villanueva de Sigena,434
+2014,22252,Yebra de Basa,142
+2014,22253,Yésero,57
+2014,22254,Zaidín,1837
+2015,22001,Abiego,253
+2015,22002,Abizanda,142
+2015,22003,Adahuesca,173
+2015,22004,Agüero,145
+2015,22907,Aínsa-Sobrarbe,2220
+2015,22006,Aisa,358
+2015,22007,Albalate de Cinca,1151
+2015,22008,Albalatillo,205
+2015,22009,Albelda,750
+2015,22011,Albero Alto,124
+2015,22012,Albero Bajo,138
+2015,22013,Alberuela de Tubo,314
+2015,22014,Alcalá de Gurrea,273
+2015,22015,Alcalá del Obispo,342
+2015,22016,Alcampell,697
+2015,22017,Alcolea de Cinca,1125
+2015,22018,Alcubierre,399
+2015,22019,Alerre,209
+2015,22020,Alfántega,128
+2015,22021,Almudévar,2501
+2015,22022,Almunia de San Juan,679
+2015,22023,Almuniente,522
+2015,22024,Alquézar,297
+2015,22025,Altorricón,1469
+2015,22027,Angüés,391
+2015,22028,Ansó,426
+2015,22029,Antillón,159
+2015,22032,Aragüés del Puerto,119
+2015,22035,Arén,328
+2015,22036,Argavieso,105
+2015,22037,Arguis,126
+2015,22039,Ayerbe,1116
+2015,22040,Azanuy-Alins,173
+2015,22041,Azara,189
+2015,22042,Azlor,141
+2015,22043,Baélls,106
+2015,22044,Bailo,288
+2015,22045,Baldellou,102
+2015,22046,Ballobar,838
+2015,22047,Banastás,305
+2015,22048,Barbastro,17020
+2015,22049,Barbués,87
+2015,22050,Barbuñales,99
+2015,22051,Bárcabo,117
+2015,22052,Belver de Cinca,1312
+2015,22053,Benabarre,1127
+2015,22054,Benasque,2090
+2015,22246,Beranuy,92
+2015,22055,Berbegal,378
+2015,22057,Bielsa,488
+2015,22058,Bierge,244
+2015,22059,Biescas,1487
+2015,22060,Binaced,1507
+2015,22061,Binéfar,9439
+2015,22062,Bisaurri,176
+2015,22063,Biscarrués,202
+2015,22064,Blecua y Torres,200
+2015,22066,Boltaña,981
+2015,22067,Bonansa,81
+2015,22068,Borau,95
+2015,22069,Broto,532
+2015,22072,Caldearenas,210
+2015,22074,Campo,437
+2015,22075,Camporrélls,138
+2015,22076,Canal de Berdún,367
+2015,22077,Candasnos,330
+2015,22078,Canfranc,560
+2015,22079,Capdesaso,172
+2015,22080,Capella,361
+2015,22081,Casbas de Huesca,291
+2015,22083,Castejón de Monegros,568
+2015,22084,Castejón de Sos,740
+2015,22082,Castejón del Puente,340
+2015,22085,Castelflorite,120
+2015,22086,Castiello de Jaca,251
+2015,22087,Castigaleu,94
+2015,22088,Castillazuelo,181
+2015,22089,Castillonroy,343
+2015,22094,Chalamera,111
+2015,22095,Chía,90
+2015,22096,Chimillas,358
+2015,22090,Colungo,126
+2015,22099,Esplús,619
+2015,22102,Estada,210
+2015,22103,Estadilla,819
+2015,22105,Estopiñán del Castillo,147
+2015,22106,Fago,25
+2015,22107,Fanlo,112
+2015,22109,Fiscal,361
+2015,22110,Fonz,944
+2015,22111,Foradada del Toscar,187
+2015,22112,Fraga,14921
+2015,22113,La Fueva,622
+2015,22114,Gistaín,138
+2015,22115,El Grado,433
+2015,22116,Grañén,1859
+2015,22117,Graus,3371
+2015,22119,Gurrea de Gállego,1545
+2015,22122,Hoz de Jaca,68
+2015,22908,Hoz y Costean,230
+2015,22124,Huerto,238
+2015,22125,Huesca,52239
+2015,22126,Ibieca,110
+2015,22127,Igriés,692
+2015,22128,Ilche,208
+2015,22129,Isábena,276
+2015,22130,Jaca,13088
+2015,22131,Jasa,104
+2015,22133,Labuerda,167
+2015,22135,Laluenga,213
+2015,22136,Lalueza,997
+2015,22137,Lanaja,1268
+2015,22139,Laperdiguera,96
+2015,22141,Lascellas-Ponzano,138
+2015,22142,Lascuarre,137
+2015,22143,Laspaúles,281
+2015,22144,Laspuña,290
+2015,22149,Loarre,335
+2015,22150,Loporzano,532
+2015,22151,Loscorrales,106
+2015,22905,Lupiñén-Ortilla,364
+2015,22155,Monesma y Cajigar,87
+2015,22156,Monflorite-Lascasas,313
+2015,22157,Montanuy,221
+2015,22158,Monzón,17260
+2015,22160,Naval,259
+2015,22162,Novales,183
+2015,22163,Nueno,552
+2015,22164,Olvena,45
+2015,22165,Ontiñena,569
+2015,22167,Osso de Cinca,746
+2015,22168,Palo,24
+2015,22170,Panticosa,762
+2015,22172,Peñalba,695
+2015,22173,Las Peñas de Riglos,264
+2015,22174,Peralta de Alcofea,602
+2015,22175,Peralta de Calasanz,233
+2015,22176,Peraltilla,201
+2015,22177,Perarrúa,111
+2015,22178,Pertusa,124
+2015,22181,Piracés,107
+2015,22182,Plan,303
+2015,22184,Poleñino,217
+2015,22186,Pozán de Vero,221
+2015,22187,La Puebla de Castro,383
+2015,22188,Puente de Montañana,107
+2015,22902,Puente la Reina de Jaca,261
+2015,22189,Puértolas,207
+2015,22190,Pueyo de Araguás,149
+2015,22193,Pueyo de Santa Cruz,328
+2015,22195,Quicena,286
+2015,22197,Robres,586
+2015,22199,Sabiñánigo,9598
+2015,22200,Sahún,308
+2015,22201,Salas Altas,313
+2015,22202,Salas Bajas,168
+2015,22203,Salillas,101
+2015,22204,Sallent de Gállego,1441
+2015,22205,San Esteban de Litera,498
+2015,22207,San Juan de Plan,148
+2015,22903,San Miguel del Cinca,857
+2015,22206,Sangarrén,235
+2015,22208,Santa Cilia,207
+2015,22209,Santa Cruz de la Serós,186
+2015,22906,Santa María de Dulcis,221
+2015,22212,Santaliestra y San Quílez,104
+2015,22213,Sariñena,4223
+2015,22214,Secastilla,144
+2015,22215,Seira,147
+2015,22217,Sena,515
+2015,22218,Senés de Alcubierre,49
+2015,22220,Sesa,190
+2015,22221,Sesué,119
+2015,22222,Siétamo,672
+2015,22223,Sopeira,99
+2015,22904,La Sotonera,990
+2015,22225,Tamarite de Litera,3538
+2015,22226,Tardienta,985
+2015,22227,Tella-Sin,249
+2015,22228,Tierz,742
+2015,22229,Tolva,137
+2015,22230,Torla-Ordesa,306
+2015,22232,Torralba de Aragón,114
+2015,22233,Torre la Ribera,104
+2015,22234,Torrente de Cinca,1187
+2015,22235,Torres de Alcanadre,107
+2015,22236,Torres de Barbués,283
+2015,22239,Tramaced,110
+2015,22242,Valfarta,72
+2015,22243,Valle de Bardají,37
+2015,22901,Valle de Hecho,880
+2015,22244,Valle de Lierp,54
+2015,22245,Velilla de Cinca,442
+2015,22909,Vencillón,411
+2015,22247,Viacamp y Litera,42
+2015,22248,Vicién,126
+2015,22249,Villanova,157
+2015,22250,Villanúa,435
+2015,22251,Villanueva de Sigena,442
+2015,22252,Yebra de Basa,142
+2015,22253,Yésero,58
+2015,22254,Zaidín,1852
+2016,22001,Abiego,247
+2016,22002,Abizanda,142
+2016,22003,Adahuesca,166
+2016,22004,Agüero,141
+2016,22907,Aínsa-Sobrarbe,2173
+2016,22006,Aisa,345
+2016,22007,Albalate de Cinca,1147
+2016,22008,Albalatillo,196
+2016,22009,Albelda,735
+2016,22011,Albero Alto,114
+2016,22012,Albero Bajo,137
+2016,22013,Alberuela de Tubo,315
+2016,22014,Alcalá de Gurrea,266
+2016,22015,Alcalá del Obispo,340
+2016,22016,Alcampell,678
+2016,22017,Alcolea de Cinca,1158
+2016,22018,Alcubierre,385
+2016,22019,Alerre,205
+2016,22020,Alfántega,131
+2016,22021,Almudévar,2472
+2016,22022,Almunia de San Juan,672
+2016,22023,Almuniente,501
+2016,22024,Alquézar,299
+2016,22025,Altorricón,1466
+2016,22027,Angüés,390
+2016,22028,Ansó,412
+2016,22029,Antillón,155
+2016,22032,Aragüés del Puerto,115
+2016,22035,Arén,321
+2016,22036,Argavieso,101
+2016,22037,Arguis,122
+2016,22039,Ayerbe,1100
+2016,22040,Azanuy-Alins,168
+2016,22041,Azara,187
+2016,22042,Azlor,137
+2016,22043,Baélls,105
+2016,22044,Bailo,287
+2016,22045,Baldellou,91
+2016,22046,Ballobar,825
+2016,22047,Banastás,297
+2016,22048,Barbastro,16961
+2016,22049,Barbués,83
+2016,22050,Barbuñales,95
+2016,22051,Bárcabo,113
+2016,22052,Belver de Cinca,1294
+2016,22053,Benabarre,1111
+2016,22054,Benasque,2047
+2016,22246,Beranuy,88
+2016,22055,Berbegal,363
+2016,22057,Bielsa,483
+2016,22058,Bierge,251
+2016,22059,Biescas,1470
+2016,22060,Binaced,1528
+2016,22061,Binéfar,9394
+2016,22062,Bisaurri,185
+2016,22063,Biscarrués,195
+2016,22064,Blecua y Torres,202
+2016,22066,Boltaña,959
+2016,22067,Bonansa,80
+2016,22068,Borau,91
+2016,22069,Broto,532
+2016,22072,Caldearenas,216
+2016,22074,Campo,365
+2016,22075,Camporrélls,138
+2016,22076,Canal de Berdún,361
+2016,22077,Candasnos,318
+2016,22078,Canfranc,543
+2016,22079,Capdesaso,168
+2016,22080,Capella,364
+2016,22081,Casbas de Huesca,293
+2016,22083,Castejón de Monegros,543
+2016,22084,Castejón de Sos,740
+2016,22082,Castejón del Puente,325
+2016,22085,Castelflorite,114
+2016,22086,Castiello de Jaca,255
+2016,22087,Castigaleu,89
+2016,22088,Castillazuelo,176
+2016,22089,Castillonroy,334
+2016,22094,Chalamera,108
+2016,22095,Chía,85
+2016,22096,Chimillas,371
+2016,22090,Colungo,128
+2016,22099,Esplús,612
+2016,22102,Estada,205
+2016,22103,Estadilla,808
+2016,22105,Estopiñán del Castillo,142
+2016,22106,Fago,22
+2016,22107,Fanlo,107
+2016,22109,Fiscal,338
+2016,22110,Fonz,918
+2016,22111,Foradada del Toscar,183
+2016,22112,Fraga,14925
+2016,22113,La Fueva,611
+2016,22114,Gistaín,137
+2016,22115,El Grado,423
+2016,22116,Grañén,1804
+2016,22117,Graus,3329
+2016,22119,Gurrea de Gállego,1513
+2016,22122,Hoz de Jaca,72
+2016,22908,Hoz y Costean,217
+2016,22124,Huerto,230
+2016,22125,Huesca,52282
+2016,22126,Ibieca,100
+2016,22127,Igriés,711
+2016,22128,Ilche,211
+2016,22129,Isábena,266
+2016,22130,Jaca,12929
+2016,22131,Jasa,98
+2016,22133,Labuerda,158
+2016,22135,Laluenga,211
+2016,22136,Lalueza,974
+2016,22137,Lanaja,1231
+2016,22139,Laperdiguera,92
+2016,22141,Lascellas-Ponzano,133
+2016,22142,Lascuarre,136
+2016,22143,Laspaúles,266
+2016,22144,Laspuña,274
+2016,22149,Loarre,337
+2016,22150,Loporzano,536
+2016,22151,Loscorrales,102
+2016,22905,Lupiñén-Ortilla,340
+2016,22155,Monesma y Cajigar,84
+2016,22156,Monflorite-Lascasas,360
+2016,22157,Montanuy,223
+2016,22158,Monzón,17237
+2016,22160,Naval,264
+2016,22162,Novales,177
+2016,22163,Nueno,553
+2016,22164,Olvena,45
+2016,22165,Ontiñena,560
+2016,22167,Osso de Cinca,729
+2016,22168,Palo,24
+2016,22170,Panticosa,774
+2016,22172,Peñalba,688
+2016,22173,Las Peñas de Riglos,258
+2016,22174,Peralta de Alcofea,587
+2016,22175,Peralta de Calasanz,228
+2016,22176,Peraltilla,197
+2016,22177,Perarrúa,113
+2016,22178,Pertusa,115
+2016,22181,Piracés,103
+2016,22182,Plan,299
+2016,22184,Poleñino,209
+2016,22186,Pozán de Vero,204
+2016,22187,La Puebla de Castro,379
+2016,22188,Puente de Montañana,103
+2016,22902,Puente la Reina de Jaca,272
+2016,22189,Puértolas,213
+2016,22190,Pueyo de Araguás,156
+2016,22193,Pueyo de Santa Cruz,317
+2016,22195,Quicena,286
+2016,22197,Robres,569
+2016,22199,Sabiñánigo,9349
+2016,22200,Sahún,303
+2016,22201,Salas Altas,310
+2016,22202,Salas Bajas,169
+2016,22203,Salillas,98
+2016,22204,Sallent de Gállego,1461
+2016,22205,San Esteban de Litera,498
+2016,22207,San Juan de Plan,144
+2016,22903,San Miguel del Cinca,826
+2016,22206,Sangarrén,222
+2016,22208,Santa Cilia,219
+2016,22209,Santa Cruz de la Serós,186
+2016,22906,Santa María de Dulcis,226
+2016,22212,Santaliestra y San Quílez,95
+2016,22213,Sariñena,4188
+2016,22214,Secastilla,146
+2016,22215,Seira,145
+2016,22217,Sena,507
+2016,22218,Senés de Alcubierre,45
+2016,22220,Sesa,180
+2016,22221,Sesué,103
+2016,22222,Siétamo,680
+2016,22223,Sopeira,95
+2016,22904,La Sotonera,955
+2016,22225,Tamarite de Litera,3507
+2016,22226,Tardienta,965
+2016,22227,Tella-Sin,243
+2016,22228,Tierz,743
+2016,22229,Tolva,134
+2016,22230,Torla-Ordesa,305
+2016,22232,Torralba de Aragón,107
+2016,22233,Torre la Ribera,103
+2016,22234,Torrente de Cinca,1157
+2016,22235,Torres de Alcanadre,98
+2016,22236,Torres de Barbués,281
+2016,22239,Tramaced,113
+2016,22242,Valfarta,70
+2016,22243,Valle de Bardají,34
+2016,22901,Valle de Hecho,879
+2016,22244,Valle de Lierp,52
+2016,22245,Velilla de Cinca,442
+2016,22909,Vencillón,414
+2016,22247,Viacamp y Litera,44
+2016,22248,Vicién,121
+2016,22249,Villanova,162
+2016,22250,Villanúa,441
+2016,22251,Villanueva de Sigena,422
+2016,22252,Yebra de Basa,140
+2016,22253,Yésero,57
+2016,22254,Zaidín,1783
+2017,22001,Abiego,246
+2017,22002,Abizanda,156
+2017,22003,Adahuesca,172
+2017,22004,Agüero,139
+2017,22907,Aínsa-Sobrarbe,2128
+2017,22006,Aisa,331
+2017,22007,Albalate de Cinca,1120
+2017,22008,Albalatillo,187
+2017,22009,Albelda,728
+2017,22011,Albero Alto,114
+2017,22012,Albero Bajo,138
+2017,22013,Alberuela de Tubo,310
+2017,22014,Alcalá de Gurrea,267
+2017,22015,Alcalá del Obispo,332
+2017,22016,Alcampell,671
+2017,22017,Alcolea de Cinca,1104
+2017,22018,Alcubierre,377
+2017,22019,Alerre,200
+2017,22020,Alfántega,135
+2017,22021,Almudévar,2444
+2017,22022,Almunia de San Juan,665
+2017,22023,Almuniente,486
+2017,22024,Alquézar,304
+2017,22025,Altorricón,1420
+2017,22027,Angüés,360
+2017,22028,Ansó,411
+2017,22029,Antillón,154
+2017,22032,Aragüés del Puerto,114
+2017,22035,Arén,320
+2017,22036,Argavieso,100
+2017,22037,Arguis,122
+2017,22039,Ayerbe,1071
+2017,22040,Azanuy-Alins,173
+2017,22041,Azara,180
+2017,22042,Azlor,143
+2017,22043,Baélls,103
+2017,22044,Bailo,284
+2017,22045,Baldellou,82
+2017,22046,Ballobar,830
+2017,22047,Banastás,295
+2017,22048,Barbastro,16907
+2017,22049,Barbués,81
+2017,22050,Barbuñales,94
+2017,22051,Bárcabo,107
+2017,22052,Belver de Cinca,1281
+2017,22053,Benabarre,1110
+2017,22054,Benasque,2121
+2017,22246,Beranuy,77
+2017,22055,Berbegal,357
+2017,22057,Bielsa,473
+2017,22058,Bierge,242
+2017,22059,Biescas,1480
+2017,22060,Binaced,1524
+2017,22061,Binéfar,9391
+2017,22062,Bisaurri,180
+2017,22063,Biscarrués,192
+2017,22064,Blecua y Torres,182
+2017,22066,Boltaña,941
+2017,22067,Bonansa,79
+2017,22068,Borau,81
+2017,22069,Broto,552
+2017,22072,Caldearenas,228
+2017,22074,Campo,343
+2017,22075,Camporrélls,134
+2017,22076,Canal de Berdún,343
+2017,22077,Candasnos,315
+2017,22078,Canfranc,542
+2017,22079,Capdesaso,163
+2017,22080,Capella,358
+2017,22081,Casbas de Huesca,279
+2017,22083,Castejón de Monegros,528
+2017,22084,Castejón de Sos,738
+2017,22082,Castejón del Puente,326
+2017,22085,Castelflorite,112
+2017,22086,Castiello de Jaca,244
+2017,22087,Castigaleu,87
+2017,22088,Castillazuelo,174
+2017,22089,Castillonroy,321
+2017,22094,Chalamera,111
+2017,22095,Chía,87
+2017,22096,Chimillas,389
+2017,22090,Colungo,118
+2017,22099,Esplús,581
+2017,22102,Estada,202
+2017,22103,Estadilla,814
+2017,22105,Estopiñán del Castillo,132
+2017,22106,Fago,27
+2017,22107,Fanlo,102
+2017,22109,Fiscal,323
+2017,22110,Fonz,902
+2017,22111,Foradada del Toscar,178
+2017,22112,Fraga,15024
+2017,22113,La Fueva,608
+2017,22114,Gistaín,142
+2017,22115,El Grado,422
+2017,22116,Grañén,1748
+2017,22117,Graus,3334
+2017,22119,Gurrea de Gállego,1483
+2017,22122,Hoz de Jaca,76
+2017,22908,Hoz y Costean,221
+2017,22124,Huerto,218
+2017,22125,Huesca,52223
+2017,22126,Ibieca,100
+2017,22127,Igriés,686
+2017,22128,Ilche,213
+2017,22129,Isábena,261
+2017,22130,Jaca,12889
+2017,22131,Jasa,94
+2017,22133,Labuerda,157
+2017,22135,Laluenga,210
+2017,22136,Lalueza,943
+2017,22137,Lanaja,1179
+2017,22139,Laperdiguera,91
+2017,22141,Lascellas-Ponzano,128
+2017,22142,Lascuarre,133
+2017,22143,Laspaúles,244
+2017,22144,Laspuña,281
+2017,22149,Loarre,332
+2017,22150,Loporzano,522
+2017,22151,Loscorrales,100
+2017,22905,Lupiñén-Ortilla,335
+2017,22155,Monesma y Cajigar,77
+2017,22156,Monflorite-Lascasas,379
+2017,22157,Montanuy,220
+2017,22158,Monzón,17166
+2017,22160,Naval,270
+2017,22162,Novales,155
+2017,22163,Nueno,537
+2017,22164,Olvena,48
+2017,22165,Ontiñena,537
+2017,22167,Osso de Cinca,691
+2017,22168,Palo,26
+2017,22170,Panticosa,795
+2017,22172,Peñalba,662
+2017,22173,Las Peñas de Riglos,255
+2017,22174,Peralta de Alcofea,576
+2017,22175,Peralta de Calasanz,221
+2017,22176,Peraltilla,200
+2017,22177,Perarrúa,112
+2017,22178,Pertusa,114
+2017,22181,Piracés,104
+2017,22182,Plan,287
+2017,22184,Poleñino,205
+2017,22186,Pozán de Vero,214
+2017,22187,La Puebla de Castro,361
+2017,22188,Puente de Montañana,96
+2017,22902,Puente la Reina de Jaca,263
+2017,22189,Puértolas,210
+2017,22190,Pueyo de Araguás,152
+2017,22193,Pueyo de Santa Cruz,328
+2017,22195,Quicena,283
+2017,22197,Robres,561
+2017,22199,Sabiñánigo,9254
+2017,22200,Sahún,305
+2017,22201,Salas Altas,303
+2017,22202,Salas Bajas,171
+2017,22203,Salillas,101
+2017,22204,Sallent de Gállego,1444
+2017,22205,San Esteban de Litera,485
+2017,22207,San Juan de Plan,142
+2017,22903,San Miguel del Cinca,816
+2017,22206,Sangarrén,220
+2017,22208,Santa Cilia,229
+2017,22209,Santa Cruz de la Serós,177
+2017,22906,Santa María de Dulcis,213
+2017,22212,Santaliestra y San Quílez,87
+2017,22213,Sariñena,4155
+2017,22214,Secastilla,150
+2017,22215,Seira,143
+2017,22217,Sena,481
+2017,22218,Senés de Alcubierre,42
+2017,22220,Sesa,175
+2017,22221,Sesué,126
+2017,22222,Siétamo,681
+2017,22223,Sopeira,96
+2017,22904,La Sotonera,932
+2017,22225,Tamarite de Litera,3507
+2017,22226,Tardienta,973
+2017,22227,Tella-Sin,231
+2017,22228,Tierz,754
+2017,22229,Tolva,127
+2017,22230,Torla-Ordesa,299
+2017,22232,Torralba de Aragón,114
+2017,22233,Torre la Ribera,103
+2017,22234,Torrente de Cinca,1132
+2017,22235,Torres de Alcanadre,93
+2017,22236,Torres de Barbués,272
+2017,22239,Tramaced,107
+2017,22242,Valfarta,66
+2017,22243,Valle de Bardají,35
+2017,22901,Valle de Hecho,852
+2017,22244,Valle de Lierp,48
+2017,22245,Velilla de Cinca,448
+2017,22909,Vencillón,392
+2017,22247,Viacamp y Litera,35
+2017,22248,Vicién,121
+2017,22249,Villanova,164
+2017,22250,Villanúa,450
+2017,22251,Villanueva de Sigena,405
+2017,22252,Yebra de Basa,147
+2017,22253,Yésero,56
+2017,22254,Zaidín,1772
+2018,22001,Abiego,237
+2018,22002,Abizanda,151
+2018,22003,Adahuesca,172
+2018,22004,Agüero,130
+2018,22907,Aínsa-Sobrarbe,2151
+2018,22006,Aisa,321
+2018,22007,Albalate de Cinca,1102
+2018,22008,Albalatillo,181
+2018,22009,Albelda,721
+2018,22011,Albero Alto,105
+2018,22012,Albero Bajo,141
+2018,22013,Alberuela de Tubo,309
+2018,22014,Alcalá de Gurrea,246
+2018,22015,Alcalá del Obispo,325
+2018,22016,Alcampell,652
+2018,22017,Alcolea de Cinca,1160
+2018,22018,Alcubierre,363
+2018,22019,Alerre,201
+2018,22020,Alfántega,127
+2018,22021,Almudévar,2394
+2018,22022,Almunia de San Juan,654
+2018,22023,Almuniente,471
+2018,22024,Alquézar,296
+2018,22025,Altorricón,1409
+2018,22027,Angüés,367
+2018,22028,Ansó,431
+2018,22029,Antillón,149
+2018,22032,Aragüés del Puerto,116
+2018,22035,Arén,318
+2018,22036,Argavieso,96
+2018,22037,Arguis,129
+2018,22039,Ayerbe,1041
+2018,22040,Azanuy-Alins,176
+2018,22041,Azara,174
+2018,22042,Azlor,153
+2018,22043,Baélls,104
+2018,22044,Bailo,279
+2018,22045,Baldellou,77
+2018,22046,Ballobar,823
+2018,22047,Banastás,292
+2018,22048,Barbastro,16944
+2018,22049,Barbués,77
+2018,22050,Barbuñales,95
+2018,22051,Bárcabo,105
+2018,22052,Belver de Cinca,1292
+2018,22053,Benabarre,1107
+2018,22054,Benasque,2157
+2018,22246,Beranuy,78
+2018,22055,Berbegal,345
+2018,22057,Bielsa,476
+2018,22058,Bierge,231
+2018,22059,Biescas,1479
+2018,22060,Binaced,1555
+2018,22061,Binéfar,9435
+2018,22062,Bisaurri,181
+2018,22063,Biscarrués,189
+2018,22064,Blecua y Torres,183
+2018,22066,Boltaña,986
+2018,22067,Bonansa,86
+2018,22068,Borau,80
+2018,22069,Broto,531
+2018,22072,Caldearenas,218
+2018,22074,Campo,323
+2018,22075,Camporrélls,137
+2018,22076,Canal de Berdún,321
+2018,22077,Candasnos,317
+2018,22078,Canfranc,532
+2018,22079,Capdesaso,174
+2018,22080,Capella,354
+2018,22081,Casbas de Huesca,269
+2018,22083,Castejón de Monegros,531
+2018,22084,Castejón de Sos,753
+2018,22082,Castejón del Puente,315
+2018,22085,Castelflorite,108
+2018,22086,Castiello de Jaca,267
+2018,22087,Castigaleu,86
+2018,22088,Castillazuelo,169
+2018,22089,Castillonroy,312
+2018,22094,Chalamera,108
+2018,22095,Chía,86
+2018,22096,Chimillas,391
+2018,22090,Colungo,114
+2018,22099,Esplús,541
+2018,22102,Estada,204
+2018,22103,Estadilla,794
+2018,22105,Estopiñán del Castillo,126
+2018,22106,Fago,23
+2018,22107,Fanlo,97
+2018,22109,Fiscal,327
+2018,22110,Fonz,870
+2018,22111,Foradada del Toscar,173
+2018,22112,Fraga,14979
+2018,22113,La Fueva,597
+2018,22114,Gistaín,149
+2018,22115,El Grado,426
+2018,22116,Grañén,1753
+2018,22117,Graus,3305
+2018,22119,Gurrea de Gállego,1476
+2018,22122,Hoz de Jaca,76
+2018,22908,Hoz y Costean,226
+2018,22124,Huerto,218
+2018,22125,Huesca,52463
+2018,22126,Ibieca,97
+2018,22127,Igriés,705
+2018,22128,Ilche,212
+2018,22129,Isábena,238
+2018,22130,Jaca,12813
+2018,22131,Jasa,92
+2018,22133,Labuerda,162
+2018,22135,Laluenga,194
+2018,22136,Lalueza,913
+2018,22137,Lanaja,1202
+2018,22139,Laperdiguera,91
+2018,22141,Lascellas-Ponzano,126
+2018,22142,Lascuarre,136
+2018,22143,Laspaúles,230
+2018,22144,Laspuña,291
+2018,22149,Loarre,331
+2018,22150,Loporzano,522
+2018,22151,Loscorrales,106
+2018,22905,Lupiñén-Ortilla,341
+2018,22155,Monesma y Cajigar,73
+2018,22156,Monflorite-Lascasas,403
+2018,22157,Montanuy,215
+2018,22158,Monzón,17061
+2018,22160,Naval,269
+2018,22162,Novales,155
+2018,22163,Nueno,532
+2018,22164,Olvena,50
+2018,22165,Ontiñena,533
+2018,22167,Osso de Cinca,687
+2018,22168,Palo,27
+2018,22170,Panticosa,786
+2018,22172,Peñalba,622
+2018,22173,Las Peñas de Riglos,251
+2018,22174,Peralta de Alcofea,562
+2018,22175,Peralta de Calasanz,219
+2018,22176,Peraltilla,199
+2018,22177,Perarrúa,109
+2018,22178,Pertusa,110
+2018,22181,Piracés,98
+2018,22182,Plan,287
+2018,22184,Poleñino,200
+2018,22186,Pozán de Vero,218
+2018,22187,La Puebla de Castro,372
+2018,22188,Puente de Montañana,93
+2018,22902,Puente la Reina de Jaca,260
+2018,22189,Puértolas,215
+2018,22190,Pueyo de Araguás,154
+2018,22193,Pueyo de Santa Cruz,314
+2018,22195,Quicena,283
+2018,22197,Robres,541
+2018,22199,Sabiñánigo,9245
+2018,22200,Sahún,294
+2018,22201,Salas Altas,308
+2018,22202,Salas Bajas,167
+2018,22203,Salillas,96
+2018,22204,Sallent de Gállego,1463
+2018,22205,San Esteban de Litera,506
+2018,22207,San Juan de Plan,152
+2018,22903,San Miguel del Cinca,813
+2018,22206,Sangarrén,219
+2018,22208,Santa Cilia,231
+2018,22209,Santa Cruz de la Serós,180
+2018,22906,Santa María de Dulcis,208
+2018,22212,Santaliestra y San Quílez,81
+2018,22213,Sariñena,4168
+2018,22214,Secastilla,146
+2018,22215,Seira,150
+2018,22217,Sena,489
+2018,22218,Senés de Alcubierre,41
+2018,22220,Sesa,167
+2018,22221,Sesué,127
+2018,22222,Siétamo,664
+2018,22223,Sopeira,94
+2018,22904,La Sotonera,894
+2018,22225,Tamarite de Litera,3528
+2018,22226,Tardienta,952
+2018,22227,Tella-Sin,226
+2018,22228,Tierz,758
+2018,22229,Tolva,123
+2018,22230,Torla-Ordesa,298
+2018,22232,Torralba de Aragón,103
+2018,22233,Torre la Ribera,102
+2018,22234,Torrente de Cinca,1148
+2018,22235,Torres de Alcanadre,92
+2018,22236,Torres de Barbués,266
+2018,22239,Tramaced,99
+2018,22242,Valfarta,69
+2018,22243,Valle de Bardají,34
+2018,22901,Valle de Hecho,839
+2018,22244,Valle de Lierp,46
+2018,22245,Velilla de Cinca,463
+2018,22909,Vencillón,399
+2018,22247,Viacamp y Litera,36
+2018,22248,Vicién,116
+2018,22249,Villanova,159
+2018,22250,Villanúa,447
+2018,22251,Villanueva de Sigena,394
+2018,22252,Yebra de Basa,147
+2018,22253,Yésero,60
+2018,22254,Zaidín,1774
+2019,22001,Abiego,248,
+2019,22002,Abizanda,150,
+2019,22003,Adahuesca,177,
+2019,22004,Agüero,129,
+2019,22907,Aínsa-Sobrarbe,2201,
+2019,22006,Aisa,320,
+2019,22007,Albalate de Cinca,1103,
+2019,22008,Albalatillo,176,
+2019,22009,Albelda,698,
+2019,22011,Albero Alto,117,
+2019,22012,Albero Bajo,135,
+2019,22013,Alberuela de Tubo,301,
+2019,22014,Alcalá de Gurrea,248,
+2019,22015,Alcalá del Obispo,318,
+2019,22016,Alcampell,631,
+2019,22017,Alcolea de Cinca,1155,
+2019,22018,Alcubierre,360,
+2019,22019,Alerre,199,
+2019,22020,Alfántega,130,
+2019,22021,Almudévar,2379,
+2019,22022,Almunia de San Juan,658,
+2019,22023,Almuniente,460,
+2019,22024,Alquézar,303,
+2019,22025,Altorricón,1417,
+2019,22027,Angüés,354,
+2019,22028,Ansó,405,
+2019,22029,Antillón,140,
+2019,22032,Aragüés del Puerto,115,
+2019,22035,Arén,313,
+2019,22036,Argavieso,95,
+2019,22037,Arguis,127,
+2019,22039,Ayerbe,1009,
+2019,22040,Azanuy-Alins,168,
+2019,22041,Azara,171,
+2019,22042,Azlor,143,
+2019,22043,Baélls,104,
+2019,22044,Bailo,267,
+2019,22045,Baldellou,76,
+2019,22046,Ballobar,812,
+2019,22047,Banastás,295,
+2019,22048,Barbastro,16979,
+2019,22049,Barbués,78,
+2019,22050,Barbuñales,96,
+2019,22051,Bárcabo,103,
+2019,22052,Belver de Cinca,1275,
+2019,22053,Benabarre,1124,
+2019,22054,Benasque,2155,
+2019,22055,Berbegal,347,
+2019,22057,Bielsa,457,
+2019,22058,Bierge,239,
+2019,22059,Biescas,1463,
+2019,22060,Binaced,1575,
+2019,22061,Binéfar,9561,
+2019,22062,Bisaurri,167,
+2019,22063,Biscarrués,182,
+2019,22064,Blecua y Torres,182,
+2019,22066,Boltaña,1016,
+2019,22067,Bonansa,88,
+2019,22068,Borau,74,
+2019,22069,Broto,522,
+2019,22072,Caldearenas,229,
+2019,22074,Campo,278,
+2019,22075,Camporrélls,134,
+2019,22076,Canal de Berdún,314,
+2019,22077,Candasnos,462,
+2019,22078,Canfranc,540,
+2019,22079,Capdesaso,198,
+2019,22080,Capella,349,
+2019,22081,Casbas de Huesca,270,
+2019,22082,Castejón del Puente,318,
+2019,22083,Castejón de Monegros,522,
+2019,22084,Castejón de Sos,747,
+2019,22085,Castelflorite,106,
+2019,22086,Castiello de Jaca,243,
+2019,22087,Castigaleu,84,
+2019,22088,Castillazuelo,162,
+2019,22089,Castillonroy,313,
+2019,22090,Colungo,110,
+2019,22094,Chalamera,106,
+2019,22095,Chía,83,
+2019,22096,Chimillas,393,
+2019,22099,Esplús,581,
+2019,22102,Estada,208,
+2019,22103,Estadilla,800,
+2019,22105,Estopiñán del Castillo,120,
+2019,22106,Fago,22,
+2019,22107,Fanlo,101,
+2019,22109,Fiscal,330,
+2019,22110,Fonz,859,
+2019,22111,Foradada del Toscar,172,
+2019,22112,Fraga,15033,
+2019,22113,La Fueva,587,
+2019,22114,Gistaín,142,
+2019,22115,El Grado,400,
+2019,22116,Grañén,1762,
+2019,22117,Graus,3395,
+2019,22119,Gurrea de Gállego,1467,
+2019,22122,Hoz de Jaca,70,
+2019,22124,Huerto,206,
+2019,22125,Huesca,53132,
+2019,22126,Ibieca,96,
+2019,22127,Igriés,723,
+2019,22128,Ilche,211,
+2019,22129,Isábena,235,
+2019,22130,Jaca,12988,
+2019,22131,Jasa,92,
+2019,22133,Labuerda,162,
+2019,22135,Laluenga,197,
+2019,22136,Lalueza,892,
+2019,22137,Lanaja,1174,
+2019,22139,Laperdiguera,91,
+2019,22141,Lascellas-Ponzano,129,
+2019,22142,Lascuarre,132,
+2019,22143,Laspaúles,230,
+2019,22144,Laspuña,298,
+2019,22149,Loarre,338,
+2019,22150,Loporzano,530,
+2019,22151,Loscorrales,99,
+2019,22155,Monesma y Cajigar,76,
+2019,22156,Monflorite-Lascasas,404,
+2019,22157,Montanuy,212,
+2019,22158,Monzón,17236,
+2019,22160,Naval,275,
+2019,22162,Novales,156,
+2019,22163,Nueno,537,
+2019,22164,Olvena,55,
+2019,22165,Ontiñena,518,
+2019,22167,Osso de Cinca,681,
+2019,22168,Palo,27,
+2019,22170,Panticosa,784,
+2019,22172,Peñalba,611,
+2019,22173,Las Peñas de Riglos,248,
+2019,22174,Peralta de Alcofea,556,
+2019,22175,Peralta de Calasanz,210,
+2019,22176,Peraltilla,196,
+2019,22177,Perarrúa,111,
+2019,22178,Pertusa,113,
+2019,22181,Piracés,102,
+2019,22182,Plan,283,
+2019,22184,Poleñino,200,
+2019,22186,Pozán de Vero,228,
+2019,22187,La Puebla de Castro,383,
+2019,22188,Puente de Montañana,89,
+2019,22189,Puértolas,212,
+2019,22190,Pueyo de Araguás,161,
+2019,22193,Pueyo de Santa Cruz,318,
+2019,22195,Quicena,280,
+2019,22197,Robres,527,
+2019,22199,Sabiñánigo,9238,
+2019,22200,Sahún,312,
+2019,22201,Salas Altas,316,
+2019,22202,Salas Bajas,175,
+2019,22203,Salillas,94,
+2019,22204,Sallent de Gállego,1478,
+2019,22205,San Esteban de Litera,535,
+2019,22206,Sangarrén,223,
+2019,22207,San Juan de Plan,153,
+2019,22208,Santa Cilia,240,
+2019,22209,Santa Cruz de la Serós,183,
+2019,22212,Santaliestra y San Quílez,82,
+2019,22213,Sariñena,4160,
+2019,22214,Secastilla,140,
+2019,22215,Seira,148,
+2019,22217,Sena,495,
+2019,22218,Senés de Alcubierre,41,
+2019,22220,Sesa,161,
+2019,22221,Sesué,122,
+2019,22222,Siétamo,679,
+2019,22223,Sopeira,91,
+2019,22225,Tamarite de Litera,3476,
+2019,22226,Tardienta,961,
+2019,22227,Tella-Sin,232,
+2019,22228,Tierz,771,
+2019,22229,Tolva,121,
+2019,22230,Torla-Ordesa,304,
+2019,22232,Torralba de Aragón,101,
+2019,22233,Torre la Ribera,101,
+2019,22234,Torrente de Cinca,1154,
+2019,22235,Torres de Alcanadre,86,
+2019,22236,Torres de Barbués,252,
+2019,22239,Tramaced,104,
+2019,22242,Valfarta,67,
+2019,22243,Valle de Bardají,30,
+2019,22244,Valle de Lierp,39,
+2019,22245,Velilla de Cinca,461,
+2019,22246,Beranuy,82,
+2019,22247,Viacamp y Litera,36,
+2019,22248,Vicién,113,
+2019,22249,Villanova,168,
+2019,22250,Villanúa,432,
+2019,22251,Villanueva de Sigena,390,
+2019,22252,Yebra de Basa,143,
+2019,22253,Yésero,57,
+2019,22254,Zaidín,1763,
+2019,22901,Valle de Hecho,822,
+2019,22902,Puente la Reina de Jaca,255,
+2019,22903,San Miguel del Cinca,795,
+2019,22904,La Sotonera,872,
+2019,22905,Lupiñén-Ortilla,342,
+2019,22906,Santa María de Dulcis,209,
+2019,22908,Hoz y Costean,223,
+2019,22909,Vencillón,389,

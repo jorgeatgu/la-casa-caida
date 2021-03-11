@@ -1,0 +1,203 @@
+year,cp,name,population
+1950,22001,Abiego,766
+1950,22002,Abizanda,387
+1950,22003,Adahuesca,423
+1950,22004,Agüero,785
+1950,22006,Aísa,468
+1950,22007,Albalate de Cinca,1398
+1950,22008,Albalatillo,486
+1950,22009,Albelda,1471
+1950,22011,Albero Alto,244
+1950,22012,Albero Bajo,233
+1950,22013,Alberuela de Tubo,262
+1950,22014,Alcalá de Gurrea,1342
+1950,22015,Alcalá del Obispo,1176
+1950,22016,Alcampell,1971
+1950,22017,Alcolea de Cinca,1748
+1950,22018,Alcubierre,1121
+1950,22019,Alerre,144
+1950,22020,Alfántega,246
+1950,22021,Almudévar,3265
+1950,22022,Almunia de San Juan,1206
+1950,22023,Almuniente,531
+1950,22024,Alquézar,705
+1950,22025,Altorricón,1587
+1950,22027,Angüés,1320
+1950,22028,Ansó,1010
+1950,22029,Antillón,359
+1950,22032,Aragüés del Puerto,501
+1950,22035,Arén,1534
+1950,22036,Argavieso,304
+1950,22037,Arguis,362
+1950,22039,Ayerbe,2506
+1950,22040,Azanuy-Alins,770
+1950,22041,Azara,371
+1950,22042,Azlor,398
+1950,22043,Baells,535
+1950,22044,Bailo,1200
+1950,22045,Baldellou,402
+1950,22046,Ballobar,1665
+1950,22047,Banastás,70
+1950,22048,Barbastro,8341
+1950,22049,Barbués,245
+1950,22050,Barbuñales,324
+1950,22051,Bárcabo,643
+1950,22052,Belver de Cinca,1954
+1950,22053,Benabarre,2120
+1950,22054,Benasque,786
+1950,22055,Berbegal,907
+1950,22057,Bielsa,919
+1950,22058,Bierge,1133
+1950,22059,Biescas,2616
+1950,22060,Binaced,2300
+1950,22061,Binéfar,4571
+1950,22062,Bisaurri,625
+1950,22063,Biscarrués,727
+1950,22064,Blecua y Torres,646
+1950,22066,Boltaña,1566
+1950,22067,Bonansa,333
+1950,22068,Borau,224
+1950,22069,Broto,1429
+1950,22072,Caldearenas,1008
+1950,22074,Campo,783
+1950,22075,Camporrells,567
+1950,22076,Canal de Berdún,1446
+1950,22077,Candasnos,1052
+1950,22078,Canfranc,1054
+1950,22079,Capdesaso,409
+1950,22080,Capella,779
+1950,22081,Casbas de Huesca,1379
+1950,22082,Castejón del Puente,335
+1950,22083,Castejón de Monegros,1448
+1950,22084,Castejón de Sos,661
+1950,22085,Castelflorite,210
+1950,22086,Castiello de Jaca,438
+1950,22087,Castigaleu,272
+1950,22088,Castillazuelo,542
+1950,22089,Castillonroy,740
+1950,22090,Colungo,424
+1950,22094,Chalamera,334
+1950,22095,Chía,251
+1950,22096,Chimillas,234
+1950,22099,Esplús,1096
+1950,22102,Estada,441
+1950,22103,Estadilla,1478
+1950,22105,Estopiñán del Castillo,833
+1950,22106,Fago,221
+1950,22107,Fanlo,626
+1950,22109,Fiscal,1787
+1950,22110,Fonz,2014
+1950,22111,Foradada del Toscar,617
+1950,22112,Fraga,7750
+1950,22113,Fueva (La),2565
+1950,22114,Gistaín,381
+1950,22115,Grado (El),1063
+1950,22116,Grañén,1670
+1950,22117,Graus,5151
+1950,22119,Gurrea de Gállego,2266
+1950,22122,Hoz de Jaca,136
+1950,22124,Huerto,807
+1950,22125,Huesca,21066
+1950,22126,Ibieca,300
+1950,22127,Igriés,336
+1950,22128,Ilche,627
+1950,22129,Isábena,1070
+1950,22130,Jaca,10603
+1950,22131,Jasa,245
+1950,22133,Labuerda,338
+1950,22135,Laluenga,597
+1950,22136,Lalueza,1082
+1950,22137,Lanaja,1980
+1950,22139,Laperdiguera,270
+1950,22141,Lascellas-Ponzano,564
+1950,22142,Lascuarre,452
+1950,22143,Laspaúles,793
+1950,22144,Laspuña,535
+1950,22149,Loarre,1026
+1950,22150,Loporzano,1818
+1950,22151,Loscorrales,429
+1950,22155,Monesma y Cajigar,424
+1950,22156,Monflorite-Lascasas,447
+1950,22157,Montanuy,1090
+1950,22158,Monzón,6362
+1950,22160,Naval,846
+1950,22162,Novales,408
+1950,22163,Nueno,817
+1950,22164,Olvena,229
+1950,22165,Ontiñena,1427
+1950,22167,Osso de Cinca,895
+1950,22168,Palo,245
+1950,22170,Panticosa,763
+1950,22172,Peñalba,1062
+1950,22173,Peñas de Riglos (Las),1816
+1950,22174,Peralta de Alcofea,1553
+1950,22175,Peralta de Calasanz,1638
+1950,22176,Peraltilla,305
+1950,22177,Perarrúa,603
+1950,22178,Pertusa,380
+1950,22181,Piracés,245
+1950,22182,Plan,740
+1950,22184,Poleñino,490
+1950,22186,Pozán de Vero,637
+1950,22187,Puebla de Castro (La),547
+1950,22188,Puente de Montañana,585
+1950,22189,Puértolas,835
+1950,22190,Pueyo de Araguás (El),458
+1950,22193,Pueyo de Santa Cruz,522
+1950,22195,Quicena,251
+1950,22197,Robres,981
+1950,22199,Sabiñánigo,5606
+1950,22200,Sahún,474
+1950,22201,Salas Altas,794
+1950,22202,Salas Bajas,393
+1950,22203,Salillas,364
+1950,22204,Sallent de Gállego,1424
+1950,22205,San Esteban de Litera,1566
+1950,22206,Sangarrén,508
+1950,22207,San Juan de Plan,260
+1950,22208,Santa Cilia,513
+1950,22209,Santa Cruz de la Serós,317
+1950,22212,Santaliestra y San Quílez,392
+1950,22213,Sariñena,3787
+1950,22214,Secastilla,593
+1950,22215,Seira,447
+1950,22217,Sena,1052
+1950,22218,Senés de Alcubierre,154
+1950,22220,Sesa,698
+1950,22221,Sesué,181
+1950,22222,Siétamo,979
+1950,22223,Sopeira,558
+1950,22225,Tamarite de Litera,4594
+1950,22226,Tardienta,1792
+1950,22227,Tella-Sin,738
+1950,22228,Tierz,271
+1950,22229,Tolva,668
+1950,22230,Torla-Ordesa,814
+1950,22232,Torralba de Aragón,334
+1950,22233,Torre la Ribera,412
+1950,22234,Torrente de Cinca,1454
+1950,22235,Torres de Alcanadre,332
+1950,22236,Torres de Barbués,200
+1950,22239,Tramaced,175
+1950,22242,Valfarta,214
+1950,22243,Valle de Bardají,184
+1950,22244,Valle de Lierp,197
+1950,22245,Velilla de Cinca,852
+1950,22246,Beranuy,579
+1950,22247,Viacamp y Litera,573
+1950,22248,Vicién,287
+1950,22249,Villanova,127
+1950,22250,Villanúa,551
+1950,22251,Villanueva de Sigena,730
+1950,22252,Yebra de Basa,670
+1950,22253,Yésero,201
+1950,22254,Zaidín,2072
+1950,22901,Valle de Hecho,1929
+1950,22902,Puente la Reina de Jaca,664
+1950,22903,San Miguel del Cinca,1542
+1950,22904,Sotonera (La),3024
+1950,22905,Lupiñén-Ortilla,1176
+1950,22906,Santa María de Dulcis,546
+1950,22907,Aínsa-Sobrarbe,3024
+1950,22908,Hoz y Costeán,867
+1950,22909,Vencillón,147

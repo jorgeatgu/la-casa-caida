@@ -1,0 +1,203 @@
+year,cp,name,population
+2001,22001,Abiego,289
+2001,22002,Abizanda,133
+2001,22003,Adahuesca,159
+2001,22004,Agüero,171
+2001,22006,Aísa,402
+2001,22007,Albalate de Cinca,1203
+2001,22008,Albalatillo,259
+2001,22009,Albelda,926
+2001,22011,Albero Alto,108
+2001,22012,Albero Bajo,106
+2001,22013,Alberuela de Tubo,364
+2001,22014,Alcalá de Gurrea,315
+2001,22015,Alcalá del Obispo,369
+2001,22016,Alcampell,873
+2001,22017,Alcolea de Cinca,1250
+2001,22018,Alcubierre,449
+2001,22019,Alerre,205
+2001,22020,Alfántega,115
+2001,22021,Almudévar,2280
+2001,22022,Almunia de San Juan,678
+2001,22023,Almuniente,587
+2001,22024,Alquézar,290
+2001,22025,Altorricón,1457
+2001,22027,Angüés,430
+2001,22028,Ansó,523
+2001,22029,Antillón,160
+2001,22032,Aragüés del Puerto,148
+2001,22035,Arén,366
+2001,22036,Argavieso,123
+2001,22037,Arguis,67
+2001,22039,Ayerbe,1110
+2001,22040,Azanuy-Alins,177
+2001,22041,Azara,219
+2001,22042,Azlor,164
+2001,22043,Baells,144
+2001,22044,Bailo,315
+2001,22045,Baldellou,133
+2001,22046,Ballobar,1007
+2001,22047,Banastás,188
+2001,22048,Barbastro,15053
+2001,22049,Barbués,112
+2001,22050,Barbuñales,114
+2001,22051,Bárcabo,112
+2001,22052,Belver de Cinca,1317
+2001,22053,Benabarre,1120
+2001,22054,Benasque,1489
+2001,22055,Berbegal,460
+2001,22057,Bielsa,456
+2001,22058,Bierge,224
+2001,22059,Biescas,1244
+2001,22060,Binaced,1645
+2001,22061,Binéfar,8397
+2001,22062,Bisaurri,224
+2001,22063,Biscarrués,228
+2001,22064,Blecua y Torres,195
+2001,22066,Boltaña,814
+2001,22067,Bonansa,84
+2001,22068,Borau,74
+2001,22069,Broto,539
+2001,22072,Caldearenas,250
+2001,22074,Campo,348
+2001,22075,Camporrells,247
+2001,22076,Canal de Berdún,422
+2001,22077,Candasnos,568
+2001,22078,Canfranc,532
+2001,22079,Capdesaso,170
+2001,22080,Capella,383
+2001,22081,Casbas de Huesca,302
+2001,22082,Castejón del Puente,418
+2001,22083,Castejón de Monegros,665
+2001,22084,Castejón de Sos,617
+2001,22085,Castelflorite,137
+2001,22086,Castiello de Jaca,188
+2001,22087,Castigaleu,102
+2001,22088,Castillazuelo,220
+2001,22089,Castillonroy,427
+2001,22090,Colungo,133
+2001,22094,Chalamera,156
+2001,22095,Chía,111
+2001,22096,Chimillas,227
+2001,22099,Esplús,725
+2001,22102,Estada,192
+2001,22103,Estadilla,912
+2001,22105,Estopiñán del Castillo,217
+2001,22106,Fago,37
+2001,22107,Fanlo,170
+2001,22109,Fiscal,254
+2001,22110,Fonz,1097
+2001,22111,Foradada del Toscar,259
+2001,22112,Fraga,12100
+2001,22113,Fueva (La),607
+2001,22114,Gistaín,168
+2001,22115,Grado (El),518
+2001,22116,Grañén,1994
+2001,22117,Graus,3136
+2001,22119,Gurrea de Gállego,1772
+2001,22122,Hoz de Jaca,77
+2001,22124,Huerto,257
+2001,22125,Huesca,46243
+2001,22126,Ibieca,111
+2001,22127,Igriés,308
+2001,22128,Ilche,273
+2001,22129,Isábena,273
+2001,22130,Jaca,11398
+2001,22131,Jasa,120
+2001,22133,Labuerda,174
+2001,22135,Laluenga,257
+2001,22136,Lalueza,1183
+2001,22137,Lanaja,1531
+2001,22139,Laperdiguera,110
+2001,22141,Lascellas-Ponzano,166
+2001,22142,Lascuarre,159
+2001,22143,Laspaúles,277
+2001,22144,Laspuña,272
+2001,22149,Loarre,400
+2001,22150,Loporzano,488
+2001,22151,Loscorrales,114
+2001,22155,Monesma y Cajigar,98
+2001,22156,Monflorite-Lascasas,207
+2001,22157,Montanuy,296
+2001,22158,Monzón,14920
+2001,22160,Naval,314
+2001,22162,Novales,180
+2001,22163,Nueno,353
+2001,22164,Olvena,49
+2001,22165,Ontiñena,650
+2001,22167,Osso de Cinca,732
+2001,22168,Palo,41
+2001,22170,Panticosa,705
+2001,22172,Peñalba,784
+2001,22173,Peñas de Riglos (Las),268
+2001,22174,Peralta de Alcofea,701
+2001,22175,Peralta de Calasanz,258
+2001,22176,Peraltilla,166
+2001,22177,Perarrúa,127
+2001,22178,Pertusa,153
+2001,22181,Piracés,103
+2001,22182,Plan,314
+2001,22184,Poleñino,248
+2001,22186,Pozán de Vero,243
+2001,22187,Puebla de Castro (La),321
+2001,22188,Puente de Montañana,114
+2001,22189,Puértolas,214
+2001,22190,Pueyo de Araguás (El),145
+2001,22193,Pueyo de Santa Cruz,338
+2001,22195,Quicena,147
+2001,22197,Robres,653
+2001,22199,Sabiñánigo,8578
+2001,22200,Sahún,286
+2001,22201,Salas Altas,385
+2001,22202,Salas Bajas,161
+2001,22203,Salillas,110
+2001,22204,Sallent de Gállego,1080
+2001,22205,San Esteban de Litera,600
+2001,22206,Sangarrén,250
+2001,22207,San Juan de Plan,160
+2001,22208,Santa Cilia,191
+2001,22209,Santa Cruz de la Serós,152
+2001,22212,Santaliestra y San Quílez,123
+2001,22213,Sariñena,3950
+2001,22214,Secastilla,144
+2001,22215,Seira,202
+2001,22217,Sena,577
+2001,22218,Senés de Alcubierre,52
+2001,22220,Sesa,258
+2001,22221,Sesué,134
+2001,22222,Siétamo,453
+2001,22223,Sopeira,105
+2001,22225,Tamarite de Litera,3655
+2001,22226,Tardienta,1087
+2001,22227,Tella-Sin,281
+2001,22228,Tierz,180
+2001,22229,Tolva,188
+2001,22230,Torla-Ordesa,347
+2001,22232,Torralba de Aragón,119
+2001,22233,Torre la Ribera,110
+2001,22234,Torrente de Cinca,1103
+2001,22235,Torres de Alcanadre,127
+2001,22236,Torres de Barbués,358
+2001,22239,Tramaced,95
+2001,22242,Valfarta,95
+2001,22243,Valle de Bardají,49
+2001,22244,Valle de Lierp,51
+2001,22245,Velilla de Cinca,463
+2001,22246,Beranuy,111
+2001,22247,Viacamp y Litera,36
+2001,22248,Vicién,121
+2001,22249,Villanova,132
+2001,22250,Villanúa,340
+2001,22251,Villanueva de Sigena,531
+2001,22252,Yebra de Basa,161
+2001,22253,Yésero,81
+2001,22254,Zaidín,1672
+2001,22901,Valle de Hecho,977
+2001,22902,Puente la Reina de Jaca,262
+2001,22903,San Miguel del Cinca,886
+2001,22904,Sotonera (La),1088
+2001,22905,Lupiñén-Ortilla,343
+2001,22906,Santa María de Dulcis,222
+2001,22907,Aínsa-Sobrarbe,1602
+2001,22908,Hoz y Costeán,233
+2001,22909,Vencillón,468

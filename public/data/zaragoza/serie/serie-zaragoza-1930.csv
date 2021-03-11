@@ -1,0 +1,294 @@
+year,cp,name,population
+1930,50001,Abanto,810
+1930,50002,Acered,676
+1930,50003,Agón,340
+1930,50004,Aguarón,1885
+1930,50005,Aguilón,1163
+1930,50006,Ainzón,1960
+1930,50007,Aladrén,267
+1930,50008,Alagón,5083
+1930,50009,Alarba,441
+1930,50010,Alberite de San Juan,226
+1930,50011,Albeta,245
+1930,50012,Alborge,306
+1930,50013,Alcalá de Ebro,590
+1930,50014,Alcalá de Moncayo,466
+1930,50015,Alconchel de Ariza,735
+1930,50016,Aldehuela de Liestos,367
+1930,50017,Alfajarín,1335
+1930,50018,Alfamén,1042
+1930,50019,Alforque,374
+1930,50020,Alhama de Aragón,2015
+1930,50021,Almochuel,130
+1930,50022,Almolda (La),1210
+1930,50023,Almonacid de la Cuba,670
+1930,50024,Almonacid de la Sierra,1735
+1930,50025,Almunia de Doña Godina (La),4200
+1930,50026,Alpartir,1079
+1930,50027,Ambel,995
+1930,50028,Anento,388
+1930,50029,Aniñón,1651
+1930,50030,Añón de Moncayo,1111
+1930,50031,Aranda de Moncayo,1451
+1930,50032,Arándiga,1186
+1930,50033,Ardisa,540
+1930,50034,Ariza,2907
+1930,50035,Artieda,262
+1930,50036,Asín,460
+1930,50037,Atea,1104
+1930,50038,Ateca,3232
+1930,50039,Azuara,2955
+1930,50040,Badules,389
+1930,50041,Bagüés,203
+1930,50042,Balconchán,180
+1930,50043,Bárboles,808
+1930,50044,Bardallur,779
+1930,50045,Belchite,3604
+1930,50046,Belmonte de Gracián,1002
+1930,50047,Berdejo,329
+1930,50048,Berrueco,184
+1930,50050,Bijuesca,879
+1930,50051,Biota,1869
+1930,50052,Bisimbre,213
+1930,50053,Boquiñeni,1136
+1930,50054,Bordalba,566
+1930,50055,Borja,5055
+1930,50056,Botorrita,487
+1930,50057,Brea de Aragón,1904
+1930,50058,Bubierca,600
+1930,50059,Bujaraloz,1303
+1930,50060,Bulbuente,820
+1930,50061,Bureta,636
+1930,50062,Burgo de Ebro (El),1096
+1930,50063,Buste (El),466
+1930,50064,Cabañas de Ebro,795
+1930,50065,Cabolafuente,650
+1930,50066,Cadrete,691
+1930,50067,Calatayud,15733
+1930,50068,Calatorao,3460
+1930,50069,Calcena,1087
+1930,50070,Calmarza,537
+1930,50071,Campillo de Aragón,738
+1930,50072,Carenas,1120
+1930,50073,Cariñena,3070
+1930,50074,Caspe,9992
+1930,50075,Castejón de Alarba,355
+1930,50076,Castejón de las Armas,575
+1930,50077,Castejón de Valdejasa,1102
+1930,50078,Castiliscar,1026
+1930,50079,Cervera de la Cañada,982
+1930,50080,Cerveruela,363
+1930,50081,Cetina,2517
+1930,50082,Cimballa,466
+1930,50083,Cinco Olivas,400
+1930,50084,Clarés de Ribota,479
+1930,50085,Codo,1114
+1930,50086,Codos,995
+1930,50087,Contamina,243
+1930,50088,Cosuenda,1001
+1930,50089,Cuarte de Huerva,271
+1930,50090,Cubel,671
+1930,50091,Cuerlas (Las),439
+1930,50092,Chiprana,1192
+1930,50093,Chodes,578
+1930,50094,Daroca,3857
+1930,50095,Ejea de los Caballeros,8666
+1930,50096,Embid de Ariza,551
+1930,50098,Encinacorba,931
+1930,50099,Épila,5799
+1930,50100,Erla,1067
+1930,50101,Escatrón,2068
+1930,50102,Fabara,2192
+1930,50104,Farlete,548
+1930,50105,Fayón,1476
+1930,50106,Fayos (Los),505
+1930,50107,Figueruelas,559
+1930,50108,Fombuena,247
+1930,50109,Frago (El),563
+1930,50110,Frasno (El),1426
+1930,50111,Fréscano,352
+1930,50113,Fuendejalón,1418
+1930,50114,Fuendetodos,663
+1930,50115,Fuentes de Ebro,2941
+1930,50116,Fuentes de Jiloca,1219
+1930,50117,Gallocanta,490
+1930,50118,Gallur,3862
+1930,50119,Gelsa,2172
+1930,50120,Godojos,506
+1930,50121,Gotor,738
+1930,50122,Grisel,509
+1930,50123,Grisén,651
+1930,50124,Herrera de los Navarros,2224
+1930,50125,Ibdes,1769
+1930,50126,Illueca,1963
+1930,50128,Isuerre,302
+1930,50129,Jaraba,705
+1930,50130,Jarque,1331
+1930,50131,Jaulín,554
+1930,50132,Joyosa (La),283
+1930,50133,Lagata,623
+1930,50134,Langa del Castillo,818
+1930,50135,Layana,479
+1930,50136,Lécera,2290
+1930,50137,Leciñena,2152
+1930,50138,Lechón,181
+1930,50139,Letux,1221
+1930,50140,Litago,584
+1930,50141,Lituénigo,359
+1930,50142,Lobera de Onsella,507
+1930,50143,Longares,1448
+1930,50144,Longás,479
+1930,50146,Lucena de Jalón,599
+1930,50147,Luceni,1902
+1930,50148,Luesia,1790
+1930,50149,Luesma,290
+1930,50150,Lumpiaque,1889
+1930,50151,Luna,2611
+1930,50152,Maella,3332
+1930,50153,Magallón,2217
+1930,50154,Mainar,491
+1930,50155,Malanquilla,571
+1930,50156,Maleján,520
+1930,50157,Malón,1241
+1930,50159,Maluenda,1927
+1930,50160,Mallén,3030
+1930,50161,Manchones,740
+1930,50162,Mara,826
+1930,50163,María de Huerva,761
+1930,50164,Mediana de Aragón,1232
+1930,50165,Mequinenza,3296
+1930,50166,Mesones de Isuela,697
+1930,50167,Mezalocha,680
+1930,50168,Mianos,165
+1930,50169,Miedes de Aragón,1167
+1930,50170,Monegrillo,718
+1930,50171,Moneva,865
+1930,50172,Monreal de Ariza,847
+1930,50173,Monterde,889
+1930,50174,Montón,539
+1930,50175,Morata de Jalón,2280
+1930,50176,Morata de Jiloca,1247
+1930,50177,Morés,1359
+1930,50178,Moros,1446
+1930,50179,Moyuela,1370
+1930,50180,Mozota,426
+1930,50181,Muel,1569
+1930,50182,Muela (La),942
+1930,50183,Munébrega,1281
+1930,50184,Murero,530
+1930,50185,Murillo de Gállego,882
+1930,50186,Navardún,452
+1930,50187,Nigüella,314
+1930,50188,Nombrevilla,251
+1930,50189,Nonaspe,1882
+1930,50190,Novallas,1636
+1930,50191,Novillas,1013
+1930,50192,Nuévalos,1057
+1930,50193,Nuez de Ebro,546
+1930,50194,Olvés,539
+1930,50195,Orcajo,435
+1930,50196,Orera,442
+1930,50197,Orés,690
+1930,50198,Oseja,310
+1930,50199,Osera de Ebro,537
+1930,50200,Paniza,1375
+1930,50201,Paracuellos de Jiloca,1172
+1930,50202,Paracuellos de la Ribera,1015
+1930,50203,Pastriz,857
+1930,50204,Pedrola,2668
+1930,50205,Pedrosas (Las),443
+1930,50206,Perdiguera,796
+1930,50207,Piedratajada,458
+1930,50208,Pina de Ebro,2434
+1930,50209,Pinseque,1169
+1930,50210,Pintanos (Los),555
+1930,50211,Plasencia de Jalón,901
+1930,50212,Pleitas,178
+1930,50213,Plenas,768
+1930,50214,Pomer,484
+1930,50215,Pozuel de Ariza,402
+1930,50216,Pozuelo de Aragón,641
+1930,50217,Pradilla de Ebro,1070
+1930,50218,Puebla de Albortón,633
+1930,50219,Puebla de Alfindén (La),1262
+1930,50220,Puendeluna,307
+1930,50221,Purujosa,480
+1930,50222,Quinto,2751
+1930,50223,Remolinos,1438
+1930,50224,Retascón,308
+1930,50225,Ricla,2854
+1930,50227,Romanos,380
+1930,50228,Rueda de Jalón,1038
+1930,50229,Ruesca,233
+1930,50230,Sádaba,2748
+1930,50231,Salillas de Jalón,784
+1930,50232,Salvatierra de Esca,1144
+1930,50233,Samper del Salz,419
+1930,50234,San Martín de la Virgen de Moncayo,392
+1930,50235,San Mateo de Gállego,1516
+1930,50236,Santa Cruz de Grío,917
+1930,50237,Santa Cruz de Moncayo,281
+1930,50238,Santa Eulalia de Gállego,851
+1930,50239,Santed,334
+1930,50240,Sástago,3047
+1930,50241,Saviñán,1799
+1930,50242,Sediles,338
+1930,50243,Sestrica,1315
+1930,50244,Sierra de Luna,800
+1930,50245,Sigüés,1730
+1930,50246,Sisamón,663
+1930,50247,Sobradiel,698
+1930,50248,Sos del Rey Católico,3710
+1930,50249,Tabuenca,1258
+1930,50250,Talamantes,489
+1930,50251,Tarazona,9802
+1930,50252,Tauste,6488
+1930,50253,Terrer,1867
+1930,50254,Tierga,1082
+1930,50255,Tobed,942
+1930,50256,Torralba de los Frailes,678
+1930,50257,Torralba de Ribota,610
+1930,50258,Torralbilla,452
+1930,50259,Torrehermosa,411
+1930,50260,Torrelapaja,356
+1930,50261,Torrellas,982
+1930,50262,Torres de Berrellén,1738
+1930,50263,Torrijo de la Cañada,1833
+1930,50264,Tosos,990
+1930,50265,Trasmoz,330
+1930,50266,Trasobares,1017
+1930,50267,Uncastillo,3832
+1930,50268,Undués de Lerda,453
+1930,50269,Urrea de Jalón,967
+1930,50270,Urriés,1049
+1930,50271,Used,1509
+1930,50272,Utebo,2286
+1930,50273,Valdehorna,212
+1930,50274,Val de San Martín,334
+1930,50275,Valmadrid,232
+1930,50276,Valpalmas,521
+1930,50277,Valtorres,421
+1930,50278,Velilla de Ebro,990
+1930,50279,Velilla de Jiloca,609
+1930,50280,Vera de Moncayo,1171
+1930,50281,Vierlas,249
+1930,50282,Vilueña (La),413
+1930,50283,Villadoz,333
+1930,50284,Villafeliche,1146
+1930,50285,Villafranca de Ebro,699
+1930,50286,Villalba de Perejil,263
+1930,50287,Villalengua,1206
+1930,50288,Villanueva de Gállego,2110
+1930,50289,Villanueva de Jiloca,516
+1930,50290,Villanueva de Huerva,1270
+1930,50291,Villar de los Navarros,1291
+1930,50292,Villarreal de Huerva,523
+1930,50293,Villarroya de la Sierra,2193
+1930,50294,Villarroya del Campo,294
+1930,50295,Vistabella,547
+1930,50296,Zaida (La),578
+1930,50297,Zaragoza,160179
+1930,50298,Zuera,3860
+1930,50901,Biel,1492
+1930,50902,Marracos,227
+1930,50903,Villamayor de Gállego,2013

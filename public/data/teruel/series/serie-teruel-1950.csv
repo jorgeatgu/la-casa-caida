@@ -1,0 +1,237 @@
+year,cp,name,population
+1950,44001,Ababuj,400
+1950,44002,Abejuela,503
+1950,44003,Aguatón,153
+1950,44004,Aguaviva,1547
+1950,44005,Aguilar del Alfambra,392
+1950,44006,Alacón,1060
+1950,44007,Alba,701
+1950,44008,Albalate del Arzobispo,4341
+1950,44009,Albarracín,1501
+1950,44010,Albentosa,1075
+1950,44011,Alcaine,750
+1950,44012,Alcalá de la Selva,1333
+1950,44013,Alcañiz,9812
+1950,44014,Alcorisa,3208
+1950,44016,Alfambra,1579
+1950,44017,Aliaga,2019
+1950,44018,Almohaja,205
+1950,44019,Alobras,371
+1950,44020,Alpeñés,160
+1950,44021,Allepuz,743
+1950,44022,Alloza,1730
+1950,44023,Allueva,159
+1950,44024,Anadón,224
+1950,44025,Andorra,4472
+1950,44026,Arcos de las Salinas,814
+1950,44027,Arens de Lledó,595
+1950,44028,Argente,661
+1950,44029,Ariño,1571
+1950,44031,Azaila,579
+1950,44032,Bádenas,258
+1950,44033,Báguena,1523
+1950,44034,Bañón,728
+1950,44035,Barrachina,648
+1950,44036,Bea,196
+1950,44037,Beceite,1239
+1950,44038,Belmonte de San José,507
+1950,44039,Bello,1475
+1950,44040,Berge,549
+1950,44041,Bezas,339
+1950,44042,Blancas,932
+1950,44043,Blesa,973
+1950,44044,Bordón,471
+1950,44045,Bronchales,757
+1950,44046,Bueña,403
+1950,44047,Burbáguena,1396
+1950,44048,Cabra de Mora,330
+1950,44049,Calaceite,2122
+1950,44050,Calamocha,7881
+1950,44051,Calanda,3544
+1950,44052,Calomarde,381
+1950,44053,Camañas,431
+1950,44054,Camarena de la Sierra,572
+1950,44055,Camarillas,684
+1950,44056,Caminreal,1840
+1950,44059,Cantavieja,1587
+1950,44060,Cañada de Benatanduz,405
+1950,44061,Cañada de Verich (La),261
+1950,44062,Cañada Vellida,206
+1950,44063,Cañizar del Olivar,509
+1950,44064,Cascante del Río,496
+1950,44065,Castejón de Tornos,493
+1950,44066,Castel de Cabra,533
+1950,44067,Castelnou,352
+1950,44068,Castelserás,1513
+1950,44070,Castellar (El),396
+1950,44071,Castellote,3312
+1950,44074,Cedrillas,1031
+1950,44075,Celadas,875
+1950,44076,Cella,3909
+1950,44077,Cerollera (La),301
+1950,44080,Codoñera (La),801
+1950,44082,Corbalán,405
+1950,44084,Cortes de Aragón,401
+1950,44085,Cosa,470
+1950,44086,Cretas,1390
+1950,44087,Crivillén,778
+1950,44088,Cuba (La),286
+1950,44089,Cubla,344
+1950,44090,Cucalón,536
+1950,44092,Cuervo (El),401
+1950,44093,Cuevas de Almudén,244
+1950,44094,Cuevas Labradas,390
+1950,44096,Ejulve,923
+1950,44097,Escorihuela,577
+1950,44099,Escucha,1270
+1950,44100,Estercuel,1139
+1950,44101,Ferreruela de Huerva,363
+1950,44102,Fonfría,184
+1950,44103,Formiche Alto,711
+1950,44105,Fórnoles,501
+1950,44106,Fortanete,944
+1950,44107,Foz-Calanda,585
+1950,44108,Fresneda (La),1171
+1950,44109,Frías de Albarracín,506
+1950,44110,Fuenferrada,318
+1950,44111,Fuentes Calientes,340
+1950,44112,Fuentes Claras,1421
+1950,44113,Fuentes de Rubielos,560
+1950,44114,Fuentespalda,677
+1950,44115,Galve,376
+1950,44116,Gargallo,480
+1950,44117,Gea de Albarracín,1022
+1950,44118,Ginebrosa (La),867
+1950,44119,Griegos,396
+1950,44120,Guadalaviar,554
+1950,44121,Gúdar,308
+1950,44122,Híjar,3586
+1950,44123,Hinojosa de Jarque,549
+1950,44124,Hoz de la Vieja (La),816
+1950,44125,Huesa del Común,824
+1950,44126,Iglesuela del Cid (La),1119
+1950,44127,Jabaloyas,549
+1950,44128,Jarque de la Val,263
+1950,44129,Jatiel,218
+1950,44130,Jorcas,388
+1950,44131,Josa,340
+1950,44132,Lagueruela,373
+1950,44133,Lanzuela,223
+1950,44135,Libros,1008
+1950,44136,Lidón,335
+1950,44137,Linares de Mora,1079
+1950,44138,Loscos,1217
+1950,44141,Lledó,437
+1950,44142,Maicas,277
+1950,44143,Manzanera,1722
+1950,44144,Martín del Río,1023
+1950,44145,Mas de las Matas,1985
+1950,44146,Mata de los Olmos (La),494
+1950,44147,Mazaleón,1258
+1950,44148,Mezquita de Jarque,345
+1950,44149,Mirambel,588
+1950,44150,Miravete de la Sierra,250
+1950,44151,Molinos,947
+1950,44152,Monforte de Moyuela,481
+1950,44153,Monreal del Campo,3554
+1950,44154,Monroyo,913
+1950,44155,Montalbán,2672
+1950,44156,Monteagudo del Castillo,423
+1950,44157,Monterde de Albarracín,501
+1950,44158,Mora de Rubielos,2276
+1950,44159,Moscardón,375
+1950,44160,Mosqueruela,1939
+1950,44161,Muniesa,1969
+1950,44163,Noguera de Albarracín,399
+1950,44164,Nogueras,309
+1950,44165,Nogueruelas,679
+1950,44167,Obón,1012
+1950,44168,Odón,881
+1950,44169,Ojos Negros,1853
+1950,44171,Olba,1261
+1950,44172,Oliete,1943
+1950,44173,Olmos (Los),493
+1950,44174,Orihuela del Tremedal,1079
+1950,44175,Orrios,496
+1950,44176,Palomar de Arroyos,791
+1950,44177,Pancrudo,1024
+1950,44178,Parras de Castellote (Las),752
+1950,44179,Peñarroya de Tastavins,1286
+1950,44180,Peracense,374
+1950,44181,Peralejos,273
+1950,44182,Perales del Alfambra,840
+1950,44183,Pitarque,657
+1950,44184,Plou,330
+1950,44185,Pobo (El),555
+1950,44187,Portellada (La),661
+1950,44189,Pozondón,544
+1950,44190,Pozuel del Campo,547
+1950,44191,Puebla de Híjar (La),2738
+1950,44192,Puebla de Valverde (La),1743
+1950,44193,Puertomingalvo,971
+1950,44194,Ráfales,644
+1950,44195,Rillo,542
+1950,44196,Riodeva,816
+1950,44197,Ródenas,449
+1950,44198,Royuela,573
+1950,44199,Rubiales,177
+1950,44200,Rubielos de la Cérida,428
+1950,44201,Rubielos de Mora,1391
+1950,44203,Salcedillo,102
+1950,44204,Saldón,413
+1950,44205,Samper de Calanda,2408
+1950,44206,San Agustín,1037
+1950,44207,San Martín del Río,1033
+1950,44208,Santa Cruz de Nogueras,215
+1950,44209,Santa Eulalia,2649
+1950,44210,Sarrión,1993
+1950,44211,Segura de los Baños,538
+1950,44212,Seno,247
+1950,44213,Singra,413
+1950,44215,Terriente,900
+1950,44216,Teruel,20337
+1950,44217,Toril y Masegoso,242
+1950,44218,Tormón,213
+1950,44219,Tornos,998
+1950,44220,Torralba de los Sisones,568
+1950,44221,Torrecilla de Alcañiz,900
+1950,44222,Torrecilla del Rebollar,918
+1950,44223,Torre de Arcas,404
+1950,44224,Torre de las Arcas,300
+1950,44225,Torre del Compte,594
+1950,44226,Torrelacárcel,781
+1950,44227,Torre los Negros,409
+1950,44228,Torremocha de Jiloca,480
+1950,44229,Torres de Albarracín,448
+1950,44230,Torrevelilla,530
+1950,44231,Torrijas,413
+1950,44232,Torrijo del Campo,1417
+1950,44234,Tramacastiel,462
+1950,44235,Tramacastilla,384
+1950,44236,Tronchón,714
+1950,44237,Urrea de Gaén,1144
+1950,44238,Utrillas,2180
+1950,44239,Valacloche,143
+1950,44240,Valbona,681
+1950,44241,Valdealgorfa,1505
+1950,44243,Valdecuenca,299
+1950,44244,Valdelinares,477
+1950,44245,Valdeltormo,693
+1950,44246,Valderrobres,2697
+1950,44247,Valjunquera,998
+1950,44249,Vallecillo (El),385
+1950,44250,Veguillas de la Sierra,167
+1950,44251,Villafranca del Campo,934
+1950,44252,Villahermosa del Campo,318
+1950,44256,Villanueva del Rebollar de la Sierra,289
+1950,44257,Villar del Cobo,494
+1950,44258,Villar del Salz,488
+1950,44260,Villarluengo,1060
+1950,44261,Villarquemado,1630
+1950,44262,Villarroya de los Pinares,628
+1950,44263,Villastar,777
+1950,44264,Villel,1173
+1950,44265,Vinaceite,626
+1950,44266,Visiedo,589
+1950,44267,Vivel del Río Martín,819
+1950,44268,Zoma (La),133

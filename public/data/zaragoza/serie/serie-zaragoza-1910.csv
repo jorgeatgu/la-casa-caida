@@ -1,0 +1,294 @@
+year,cp,name,population
+1910,50001,Abanto,672
+1910,50002,Acered,756
+1910,50003,Agón,416
+1910,50004,Aguarón,2271
+1910,50005,Aguilón,1091
+1910,50006,Ainzón,1751
+1910,50007,Aladrén,345
+1910,50008,Alagón,4082
+1910,50009,Alarba,428
+1910,50010,Alberite de San Juan,230
+1910,50011,Albeta,318
+1910,50012,Alborge,432
+1910,50013,Alcalá de Ebro,479
+1910,50014,Alcalá de Moncayo,409
+1910,50015,Alconchel de Ariza,718
+1910,50016,Aldehuela de Liestos,247
+1910,50017,Alfajarín,1180
+1910,50018,Alfamén,716
+1910,50019,Alforque,450
+1910,50020,Alhama de Aragón,1752
+1910,50021,Almochuel,133
+1910,50022,Almolda (La),1253
+1910,50023,Almonacid de la Cuba,739
+1910,50024,Almonacid de la Sierra,2265
+1910,50025,Almunia de Doña Godina (La),4209
+1910,50026,Alpartir,1153
+1910,50027,Ambel,945
+1910,50028,Anento,362
+1910,50029,Aniñón,1884
+1910,50030,Añón de Moncayo,1125
+1910,50031,Aranda de Moncayo,1654
+1910,50032,Arándiga,1120
+1910,50033,Ardisa,455
+1910,50034,Ariza,1623
+1910,50035,Artieda,270
+1910,50036,Asín,387
+1910,50037,Atea,1192
+1910,50038,Ateca,3065
+1910,50039,Azuara,2756
+1910,50040,Badules,393
+1910,50041,Bagüés,215
+1910,50042,Balconchán,191
+1910,50043,Bárboles,731
+1910,50044,Bardallur,827
+1910,50045,Belchite,3522
+1910,50046,Belmonte de Gracián,998
+1910,50047,Berdejo,356
+1910,50048,Berrueco,241
+1910,50050,Bijuesca,884
+1910,50051,Biota,1463
+1910,50052,Bisimbre,267
+1910,50053,Boquiñeni,894
+1910,50054,Bordalba,524
+1910,50055,Borja,5243
+1910,50056,Botorrita,386
+1910,50057,Brea de Aragón,1325
+1910,50058,Bubierca,808
+1910,50059,Bujaraloz,1542
+1910,50060,Bulbuente,896
+1910,50061,Bureta,628
+1910,50062,Burgo de Ebro (El),1060
+1910,50063,Buste (El),420
+1910,50064,Cabañas de Ebro,625
+1910,50065,Cabolafuente,615
+1910,50066,Cadrete,655
+1910,50067,Calatayud,11858
+1910,50068,Calatorao,2785
+1910,50069,Calcena,907
+1910,50070,Calmarza,380
+1910,50071,Campillo de Aragón,692
+1910,50072,Carenas,964
+1910,50073,Cariñena,3592
+1910,50074,Caspe,8893
+1910,50075,Castejón de Alarba,357
+1910,50076,Castejón de las Armas,721
+1910,50077,Castejón de Valdejasa,1061
+1910,50078,Castiliscar,870
+1910,50079,Cervera de la Cañada,1019
+1910,50080,Cerveruela,431
+1910,50081,Cetina,1571
+1910,50082,Cimballa,484
+1910,50083,Cinco Olivas,555
+1910,50084,Clarés de Ribota,444
+1910,50085,Codo,1193
+1910,50086,Codos,919
+1910,50087,Contamina,212
+1910,50088,Cosuenda,1191
+1910,50089,Cuarte de Huerva,298
+1910,50090,Cubel,602
+1910,50091,Cuerlas (Las),355
+1910,50092,Chiprana,1565
+1910,50093,Chodes,626
+1910,50094,Daroca,3597
+1910,50095,Ejea de los Caballeros,5861
+1910,50096,Embid de Ariza,573
+1910,50098,Encinacorba,1049
+1910,50099,Épila,4820
+1910,50100,Erla,931
+1910,50101,Escatrón,2281
+1910,50102,Fabara,2273
+1910,50104,Farlete,559
+1910,50105,Fayón,1406
+1910,50106,Fayos (Los),490
+1910,50107,Figueruelas,451
+1910,50108,Fombuena,258
+1910,50109,Frago (El),615
+1910,50110,Frasno (El),1588
+1910,50111,Fréscano,447
+1910,50113,Fuendejalón,1226
+1910,50114,Fuendetodos,591
+1910,50115,Fuentes de Ebro,2774
+1910,50116,Fuentes de Jiloca,1000
+1910,50117,Gallocanta,396
+1910,50118,Gallur,2862
+1910,50119,Gelsa,2297
+1910,50120,Godojos,448
+1910,50121,Gotor,841
+1910,50122,Grisel,491
+1910,50123,Grisén,440
+1910,50124,Herrera de los Navarros,2047
+1910,50125,Ibdes,1509
+1910,50126,Illueca,1904
+1910,50128,Isuerre,356
+1910,50129,Jaraba,491
+1910,50130,Jarque,1514
+1910,50131,Jaulín,418
+1910,50132,Joyosa (La),271
+1910,50133,Lagata,593
+1910,50134,Langa del Castillo,657
+1910,50135,Layana,405
+1910,50136,Lécera,2236
+1910,50137,Leciñena,1798
+1910,50138,Lechón,149
+1910,50139,Letux,1132
+1910,50140,Litago,589
+1910,50141,Lituénigo,343
+1910,50142,Lobera de Onsella,518
+1910,50143,Longares,1506
+1910,50144,Longás,545
+1910,50146,Lucena de Jalón,496
+1910,50147,Luceni,907
+1910,50148,Luesia,1702
+1910,50149,Luesma,344
+1910,50150,Lumpiaque,1686
+1910,50151,Luna,2054
+1910,50152,Maella,3552
+1910,50153,Magallón,2662
+1910,50154,Mainar,474
+1910,50155,Malanquilla,565
+1910,50156,Maleján,538
+1910,50157,Malón,954
+1910,50159,Maluenda,1612
+1910,50160,Mallén,2501
+1910,50161,Manchones,702
+1910,50162,Mara,784
+1910,50163,María de Huerva,622
+1910,50164,Mediana de Aragón,1431
+1910,50165,Mequinenza,3427
+1910,50166,Mesones de Isuela,641
+1910,50167,Mezalocha,735
+1910,50168,Mianos,229
+1910,50169,Miedes de Aragón,986
+1910,50170,Monegrillo,902
+1910,50171,Moneva,735
+1910,50172,Monreal de Ariza,652
+1910,50173,Monterde,956
+1910,50174,Montón,498
+1910,50175,Morata de Jalón,2173
+1910,50176,Morata de Jiloca,987
+1910,50177,Morés,1272
+1910,50178,Moros,1395
+1910,50179,Moyuela,1138
+1910,50180,Mozota,482
+1910,50181,Muel,1504
+1910,50182,Muela (La),873
+1910,50183,Munébrega,1323
+1910,50184,Murero,530
+1910,50185,Murillo de Gállego,1213
+1910,50186,Navardún,439
+1910,50187,Nigüella,296
+1910,50188,Nombrevilla,267
+1910,50189,Nonaspe,1899
+1910,50190,Novallas,1574
+1910,50191,Novillas,842
+1910,50192,Nuévalos,937
+1910,50193,Nuez de Ebro,505
+1910,50194,Olvés,635
+1910,50195,Orcajo,495
+1910,50196,Orera,438
+1910,50197,Orés,762
+1910,50198,Oseja,333
+1910,50199,Osera de Ebro,529
+1910,50200,Paniza,1654
+1910,50201,Paracuellos de Jiloca,894
+1910,50202,Paracuellos de la Ribera,941
+1910,50203,Pastriz,796
+1910,50204,Pedrola,2507
+1910,50205,Pedrosas (Las),427
+1910,50206,Perdiguera,807
+1910,50207,Piedratajada,374
+1910,50208,Pina de Ebro,2473
+1910,50209,Pinseque,837
+1910,50210,Pintanos (Los),648
+1910,50211,Plasencia de Jalón,956
+1910,50212,Pleitas,185
+1910,50213,Plenas,735
+1910,50214,Pomer,469
+1910,50215,Pozuel de Ariza,319
+1910,50216,Pozuelo de Aragón,655
+1910,50217,Pradilla de Ebro,772
+1910,50218,Puebla de Albortón,659
+1910,50219,Puebla de Alfindén (La),1057
+1910,50220,Puendeluna,264
+1910,50221,Purujosa,543
+1910,50222,Quinto,2743
+1910,50223,Remolinos,1208
+1910,50224,Retascón,242
+1910,50225,Ricla,2885
+1910,50227,Romanos,330
+1910,50228,Rueda de Jalón,924
+1910,50229,Ruesca,204
+1910,50230,Sádaba,1983
+1910,50231,Salillas de Jalón,598
+1910,50232,Salvatierra de Esca,1085
+1910,50233,Samper del Salz,439
+1910,50234,San Martín de la Virgen de Moncayo,374
+1910,50235,San Mateo de Gállego,1165
+1910,50236,Santa Cruz de Grío,979
+1910,50237,Santa Cruz de Moncayo,253
+1910,50238,Santa Eulalia de Gállego,936
+1910,50239,Santed,323
+1910,50240,Sástago,3087
+1910,50241,Saviñán,1648
+1910,50242,Sediles,294
+1910,50243,Sestrica,1337
+1910,50244,Sierra de Luna,708
+1910,50245,Sigüés,1628
+1910,50246,Sisamón,520
+1910,50247,Sobradiel,469
+1910,50248,Sos del Rey Católico,3696
+1910,50249,Tabuenca,1292
+1910,50250,Talamantes,590
+1910,50251,Tarazona,8855
+1910,50252,Tauste,4787
+1910,50253,Terrer,977
+1910,50254,Tierga,802
+1910,50255,Tobed,975
+1910,50256,Torralba de los Frailes,543
+1910,50257,Torralba de Ribota,637
+1910,50258,Torralbilla,392
+1910,50259,Torrehermosa,316
+1910,50260,Torrelapaja,331
+1910,50261,Torrellas,856
+1910,50262,Torres de Berrellén,1291
+1910,50263,Torrijo de la Cañada,1988
+1910,50264,Tosos,829
+1910,50265,Trasmoz,312
+1910,50266,Trasobares,697
+1910,50267,Uncastillo,3094
+1910,50268,Undués de Lerda,510
+1910,50269,Urrea de Jalón,918
+1910,50270,Urriés,1004
+1910,50271,Used,1476
+1910,50272,Utebo,1792
+1910,50273,Valdehorna,194
+1910,50274,Val de San Martín,367
+1910,50275,Valmadrid,245
+1910,50276,Valpalmas,436
+1910,50277,Valtorres,334
+1910,50278,Velilla de Ebro,1171
+1910,50279,Velilla de Jiloca,579
+1910,50280,Vera de Moncayo,1083
+1910,50281,Vierlas,244
+1910,50282,Vilueña (La),447
+1910,50283,Villadoz,305
+1910,50284,Villafeliche,1336
+1910,50285,Villafranca de Ebro,665
+1910,50286,Villalba de Perejil,272
+1910,50287,Villalengua,1280
+1910,50288,Villanueva de Gállego,1371
+1910,50289,Villanueva de Jiloca,438
+1910,50290,Villanueva de Huerva,1124
+1910,50291,Villar de los Navarros,1175
+1910,50292,Villarreal de Huerva,458
+1910,50293,Villarroya de la Sierra,2435
+1910,50294,Villarroya del Campo,252
+1910,50295,Vistabella,621
+1910,50296,Zaida (La),485
+1910,50297,Zaragoza,109957
+1910,50298,Zuera,2825
+1910,50901,Biel,1735
+1910,50902,Marracos,182
+1910,50903,Villamayor de Gállego,1870

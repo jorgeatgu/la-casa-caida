@@ -1,0 +1,203 @@
+cp,nombre,total
+22001,Abiego,20
+22002,Abizanda,14
+22003,Adahuesca,28
+22004,Agüero,5
+22006,Aisa,36
+22007,Albalate de Cinca,158
+22008,Albalatillo,16
+22009,Albelda,95
+22011,Albero Alto,18
+22012,Albero Bajo,26
+22013,Alberuela de Tubo,24
+22014,Alcalá de Gurrea,12
+22015,Alcalá del Obispo,17
+22016,Alcampell,58
+22017,Alcolea de Cinca,163
+22018,Alcubierre,32
+22019,Alerre,23
+22020,Alfántega,11
+22021,Almudévar,425
+22022,Almunia de San Juan,98
+22023,Almuniente,62
+22024,Alquézar,24
+22025,Altorricón,236
+22027,Angüés,34
+22028,Ansó,46
+22029,Antillón,20
+22032,Aragüés del Puerto,11
+22035,Arén,24
+22036,Argavieso,9
+22037,Arguis,13
+22039,Ayerbe,179
+22040,Azanuy-Alins,25
+22041,Azara,20
+22042,Azlor,24
+22043,Baélls,9
+22044,Bailo,22
+22045,Baldellou,2
+22046,Ballobar,113
+22047,Banastás,54
+22048,Barbastro,3257
+22049,Barbués,3
+22050,Barbuñales,2
+22051,Bárcabo,3
+22052,Belver de Cinca,203
+22053,Benabarre,178
+22054,Benasque,382
+22055,Berbegal,27
+22057,Bielsa,68
+22058,Bierge,23
+22059,Biescas,228
+22060,Binaced,249
+22061,Binéfar,1877
+22062,Bisaurri,17
+22063,Biscarrués,15
+22064,Blecua y Torres,21
+22066,Boltaña,168
+22067,Bonansa,13
+22068,Borau,5
+22069,Broto,82
+22072,Caldearenas,23
+22074,Campo,33
+22075,Camporrélls,10
+22076,Canal de Berdún,27
+22077,Candasnos,0
+22078,Canfranc,83
+22079,Capdesaso,11
+22080,Capella,47
+22081,Casbas de Huesca,18
+22082,Castejón del Puente,30
+22083,Castejón de Monegros,49
+22084,Castejón de Sos,148
+22085,Castelflorite,7
+22086,Castiello de Jaca,39
+22087,Castigaleu,15
+22088,Castillazuelo,20
+22089,Castillonroy,33
+22090,Colungo,6
+22094,Chalamera,14
+22095,Chía,15
+22096,Chimillas,75
+22099,Esplús,58
+22102,Estada,17
+22103,Estadilla,99
+22105,Estopiñán del Castillo,18
+22106,Fago,3
+22107,Fanlo,2
+22109,Fiscal,46
+22110,Fonz,115
+22111,Foradada del Toscar,13
+22112,Fraga,3046
+22113,Fueva La,97
+22114,Gistaín,20
+22115,Grado El,44
+22116,Grañén,221
+22117,Graus,538
+22119,Gurrea de Gállego,155
+22122,Hoz de Jaca,11
+22124,Huerto,25
+22125,Huesca,10234
+22126,Ibieca,7
+22127,Igriés,182
+22128,Ilche,13
+22129,Isábena,19
+22130,Jaca,2307
+22131,Jasa,9
+22133,Labuerda,22
+22135,Laluenga,15
+22136,Lalueza,95
+22137,Lanaja,108
+22139,Laperdiguera,7
+22141,Lascellas-Ponzano,17
+22142,Lascuarre,23
+22143,Laspaúles,19
+22144,Laspuña,32
+22149,Loarre,20
+22150,Loporzano,52
+22151,Loscorrales,14
+22155,Monesma y Cajigar,2
+22156,Monflorite-Lascasas,81
+22157,Montanuy,21
+22158,Monzón,3448
+22160,Naval,37
+22162,Novales,18
+22163,Nueno,100
+22164,Olvena,10
+22165,Ontiñena,53
+22167,Osso de Cinca,76
+22168,Palo,2
+22170,Panticosa,115
+22172,Peñalba,73
+22173,Peñas de Riglos Las,23
+22174,Peralta de Alcofea,49
+22175,Peralta de Calasanz,18
+22176,Peraltilla,23
+22177,Perarrúa,12
+22178,Pertusa,10
+22181,Piracés,10
+22182,Plan,44
+22184,Poleñino,20
+22186,Pozán de Vero,30
+22187,Puebla de Castro La,64
+22188,Puente de Montañana,6
+22189,Puértolas,27
+22190,Pueyo de Araguás El,32
+22193,Pueyo de Santa Cruz,41
+22195,Quicena,47
+22197,Robres,61
+22199,Sabiñánigo,1569
+22200,Sahún,48
+22201,Salas Altas,38
+22202,Salas Bajas,23
+22203,Salillas,7
+22204,Sallent de Gállego,256
+22205,San Esteban de Litera,44
+22206,Sangarrén,14
+22207,San Juan de Plan,25
+22208,Santa Cilia,46
+22209,Santa Cruz de la Serós,21
+22212,Santaliestra y San Quílez,8
+22213,Sariñena,696
+22214,Secastilla,17
+22215,Seira,11
+22217,Sena,61
+22218,Senés de Alcubierre,3
+22220,Sesa,11
+22221,Sesué,27
+22222,Siétamo,134
+22223,Sopeira,15
+22225,Tamarite de Litera,575
+22226,Tardienta,141
+22227,Tella-Sin,14
+22228,Tierz,221
+22229,Tolva,8
+22230,Torla-Ordesa,22
+22232,Torralba de Aragón,8
+22233,Torre la Ribera,9
+22234,Torrente de Cinca,123
+22235,Torres de Alcanadre,0
+22236,Torres de Barbués,14
+22239,Tramaced,7
+22242,Valfarta,5
+22243,Valle de Bardají,0
+22244,Valle de Lierp,3
+22245,Velilla de Cinca,79
+22246,Beranuy,7
+22247,Viacamp y Litera,2
+22248,Vicién,9
+22249,Villanova,40
+22250,Villanúa,62
+22251,Villanueva de Sigena,39
+22252,Yebra de Basa,18
+22253,Yésero,2
+22254,Zaidín,265
+22901,Valle de Hecho,96
+22902,Puente la Reina de Jaca,36
+22903,San Miguel del Cinca,127
+22904,Sotonera La,95
+22905,Lupiñén-Ortilla,48
+22906,Santa María de Dulcis,23
+22907,Aínsa-Sobrarbe,404
+22908,Hoz y Costean,24
+22909,Vencillón,76
