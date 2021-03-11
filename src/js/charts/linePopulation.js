@@ -71,7 +71,7 @@ export function linePopulation(csvFile, cities) {
       firstYear > lastYear
         ? `<p class="tooltip-deceased">Desde 1900 su población ha disminuido en un <span class="tooltip-number">${percentageLose}%</span><p/>`
         : `<p class="tooltip-deceased">Desde 1900 su población ha aumentado en un <span class="tooltip-number">${percentageWin}%</span><p/>`;
-    const topPosition = firstYear > lastYear ? '20px' : '90%';
+    const topPosition = firstYear > lastYear ? '20px' : '73%';
     tooltipOver
       .data(dataLinePopulation)
       .html(
@@ -235,7 +235,7 @@ export function linePopulation(csvFile, cities) {
 
   function menuSelectCity() {
     d3.csv(csvFile).then(data => {
-      const citiesName = [...new Set(data.map(({ select }) => select))];
+      const citiesName = [...new Set(data.map(({ name }) => name))];
       const selectCity = d3.select(`#select-city-${cities}`);
 
       selectCity

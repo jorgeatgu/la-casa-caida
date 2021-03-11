@@ -205,6 +205,7 @@ export const scatterEvolution = (csvFile, cities) => {
   ];
   function menuFirstYear(yearsFirst) {
     const selectFirstYear = d3.select(`#select-first-year-${cities}`);
+    const selectSecondValue = d3.select(`#select-second-year-${cities}`).property('value');
 
     selectFirstYear
       .selectAll('option')
@@ -213,14 +214,7 @@ export const scatterEvolution = (csvFile, cities) => {
       .data(yearsFirst)
       .enter()
       .append('option')
-      .attr('value', d => d)
       .text(d => d);
-
-    selectFirstYear.on('change', function() {
-      firstYear = d3.select(this).property('value');
-      const yearsFiltered = years.filter(d => d !== firstYear)
-      menuSecondYear(yearsFiltered)
-    });
   }
 
   function menuSecondYear(yearsSecond) {
@@ -232,14 +226,7 @@ export const scatterEvolution = (csvFile, cities) => {
       .data(yearsSecond)
       .enter()
       .append('option')
-      .attr('value', d => d)
       .text(d => d);
-
-    selectSecondYear.on('change', function() {
-      secondYear = d3.select(this).property('value');
-      const yearsFiltered = years.filter(d => d !== secondYear)
-      menuFirstYear(yearsFiltered)
-    });
   }
 
   function loadData() {

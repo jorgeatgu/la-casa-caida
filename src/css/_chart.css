@@ -64,6 +64,10 @@
   }
 }
 
+.municipalities-stack {
+  margin-top: 1rem;
+}
+
 .line-densidad {
   margin-top: 2rem;
 }
@@ -310,10 +314,6 @@ select {
   font-weight: bold;
 }
 
-.tooltip-stack-text {
-  display: block;
-}
-
 .overlay-dos {
   fill: transparent;
 }
@@ -398,14 +398,24 @@ select {
 }
 
 .tooltip-scatter-lb {
-  .tooltip-scatter-text {
+  & .tooltip-scatter-text {
     font-size: 14px;
     margin: 0;
 
-    strong {
+    & strong {
       font-size: 1rem;
     }
   }
+}
+
+.tooltip-stack-text {
+  font-size: 1rem;
+  display: block;
+}
+
+.tooltip-stack-year {
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 48rem) {
@@ -423,7 +433,7 @@ select {
     padding: .5rem;
 
     &.tooltip-over {
-      .tooltip-deceased {
+      & .tooltip-deceased {
         font-size: 14px;
       }
     }
@@ -438,7 +448,7 @@ select {
   .chart-lb,
   .municipalities-stack,
   .line-densidad {
-    text {
+    & text {
       font-size: 14px;
     }
   }

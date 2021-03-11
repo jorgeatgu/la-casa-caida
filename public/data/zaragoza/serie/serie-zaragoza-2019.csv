@@ -1,0 +1,294 @@
+year,cp,name,population
+2019,50001,Abanto,100
+2019,50002,Acered,166
+2019,50003,Agón,137
+2019,50004,Aguarón,636
+2019,50005,Aguilón,251
+2019,50006,Ainzón,1077
+2019,50007,Aladrén,52
+2019,50008,Alagón,7163
+2019,50009,Alarba,124
+2019,50010,Alberite de San Juan,69
+2019,50011,Albeta,133
+2019,50012,Alborge,107
+2019,50013,Alcalá de Ebro,246
+2019,50014,Alcalá de Moncayo,143
+2019,50015,Alconchel de Ariza,62
+2019,50016,Aldehuela de Liestos,48
+2019,50017,Alfajarín,2315
+2019,50018,Alfamén,1446
+2019,50019,Alforque,68
+2019,50020,Alhama de Aragón,1020
+2019,50021,Almochuel,25
+2019,50022,La Almolda,553
+2019,50023,Almonacid de la Cuba,243
+2019,50024,Almonacid de la Sierra,735
+2019,50025,La Almunia de Doña Godina,7951
+2019,50026,Alpartir,555
+2019,50027,Ambel,254
+2019,50028,Anento,106
+2019,50029,Aniñón,706
+2019,50030,Añón de Moncayo,212
+2019,50031,Aranda de Moncayo,152
+2019,50032,Arándiga,302
+2019,50033,Ardisa,70
+2019,50034,Ariza,1115
+2019,50035,Artieda,80
+2019,50036,Asín,110
+2019,50037,Atea,151
+2019,50038,Ateca,1762
+2019,50039,Azuara,540
+2019,50040,Badules,85
+2019,50041,Bagüés,17
+2019,50042,Balconchán,16
+2019,50043,Bárboles,293
+2019,50044,Bardallur,254
+2019,50045,Belchite,1505
+2019,50046,Belmonte de Gracián,197
+2019,50047,Berdejo,47
+2019,50048,Berrueco,34
+2019,50050,Bijuesca,94
+2019,50051,Biota,941
+2019,50052,Bisimbre,92
+2019,50053,Boquiñeni,787
+2019,50054,Bordalba,56
+2019,50055,Borja,4969
+2019,50056,Botorrita,488
+2019,50057,Brea de Aragón,1609
+2019,50058,Bubierca,66
+2019,50059,Bujaraloz,985
+2019,50060,Bulbuente,221
+2019,50061,Bureta,214
+2019,50062,El Burgo de Ebro,2436
+2019,50063,El Buste,66
+2019,50064,Cabañas de Ebro,505
+2019,50065,Cabolafuente,33
+2019,50066,Cadrete,4032
+2019,50067,Calatayud,20024
+2019,50068,Calatorao,2881
+2019,50069,Calcena,72
+2019,50070,Calmarza,57
+2019,50071,Campillo de Aragón,147
+2019,50072,Carenas,213
+2019,50073,Cariñena,3302
+2019,50074,Caspe,9748
+2019,50075,Castejón de Alarba,91
+2019,50076,Castejón de las Armas,87
+2019,50077,Castejón de Valdejasa,210
+2019,50078,Castiliscar,263
+2019,50079,Cervera de la Cañada,271
+2019,50080,Cerveruela,33
+2019,50081,Cetina,593
+2019,50082,Cimballa,97
+2019,50083,Cinco Olivas,106
+2019,50084,Clarés de Ribota,66
+2019,50085,Codo,201
+2019,50086,Codos,234
+2019,50087,Contamina,37
+2019,50088,Cosuenda,364
+2019,50089,Cuarte de Huerva,13303
+2019,50090,Cubel,155
+2019,50091,Cuerlas Las,41
+2019,50092,Chiprana,523
+2019,50093,Chodes,104
+2019,50094,Daroca,1983
+2019,50095,Ejea de los Caballeros,16783
+2019,50096,Embid de Ariza,37
+2019,50098,Encinacorba,178
+2019,50099,Épila,4386
+2019,50100,Erla,342
+2019,50101,Escatrón,1051
+2019,50102,Fabara,1125
+2019,50104,Farlete,379
+2019,50105,Fayón,379
+2019,50106,Fayos Los,139
+2019,50107,Figueruelas,1259
+2019,50108,Fombuena,56
+2019,50109,Frago El,99
+2019,50110,Frasno El,380
+2019,50111,Fréscano,204
+2019,50113,Fuendejalón,778
+2019,50114,Fuendetodos,145
+2019,50115,Fuentes de Ebro,4504
+2019,50116,Fuentes de Jiloca,231
+2019,50117,Gallocanta,152
+2019,50118,Gallur,2596
+2019,50119,Gelsa,1013
+2019,50120,Godojos,54
+2019,50121,Gotor,318
+2019,50122,Grisel,74
+2019,50123,Grisén,589
+2019,50124,Herrera de los Navarros,506
+2019,50125,Ibdes,404
+2019,50126,Illueca,2924
+2019,50128,Isuerre,31
+2019,50129,Jaraba,280
+2019,50130,Jarque,435
+2019,50131,Jaulín,235
+2019,50132,Joyosa La,1073
+2019,50133,Lagata,111
+2019,50134,Langa del Castillo,121
+2019,50135,Layana,97
+2019,50136,Lécera,633
+2019,50137,Leciñena,1155
+2019,50138,Lechón,51
+2019,50139,Letux,364
+2019,50140,Litago,161
+2019,50141,Lituénigo,120
+2019,50142,Lobera de Onsella,28
+2019,50143,Longares,811
+2019,50144,Longás,31
+2019,50146,Lucena de Jalón,240
+2019,50147,Luceni,956
+2019,50148,Luesia,288
+2019,50149,Luesma,35
+2019,50150,Lumpiaque,814
+2019,50151,Luna,698
+2019,50152,Maella,1985
+2019,50153,Magallón,1128
+2019,50154,Mainar,155
+2019,50155,Malanquilla,92
+2019,50156,Maleján,259
+2019,50157,Malón,356
+2019,50159,Maluenda,922
+2019,50160,Mallén,3035
+2019,50161,Manchones,114
+2019,50162,Mara,168
+2019,50163,María de Huerva,5812
+2019,50164,Mediana de Aragón,461
+2019,50165,Mequinenza,2324
+2019,50166,Mesones de Isuela,264
+2019,50167,Mezalocha,238
+2019,50168,Mianos,30
+2019,50169,Miedes de Aragón,433
+2019,50170,Monegrillo,405
+2019,50171,Moneva,97
+2019,50172,Monreal de Ariza,200
+2019,50173,Monterde,157
+2019,50174,Montón,94
+2019,50175,Morata de Jalón,1079
+2019,50176,Morata de Jiloca,302
+2019,50177,Morés,323
+2019,50178,Moros,343
+2019,50179,Moyuela,280
+2019,50180,Mozota,122
+2019,50181,Muel,1378
+2019,50182,Muela La,5784
+2019,50183,Munébrega,371
+2019,50184,Murero,98
+2019,50185,Murillo de Gállego,183
+2019,50186,Navardún,38
+2019,50187,Nigüella,62
+2019,50188,Nombrevilla,31
+2019,50189,Nonaspe,961
+2019,50190,Novallas,830
+2019,50191,Novillas,532
+2019,50192,Nuévalos,310
+2019,50193,Nuez de Ebro,837
+2019,50194,Olvés,104
+2019,50195,Orcajo,58
+2019,50196,Orera,114
+2019,50197,Orés,114
+2019,50198,Oseja,53
+2019,50199,Osera de Ebro,386
+2019,50200,Paniza,609
+2019,50201,Paracuellos de Jiloca,592
+2019,50202,Paracuellos de la Ribera,143
+2019,50203,Pastriz,1297
+2019,50204,Pedrola,3568
+2019,50205,Pedrosas Las,87
+2019,50206,Perdiguera,572
+2019,50207,Piedratajada,95
+2019,50208,Pina de Ebro,2362
+2019,50209,Pinseque,3973
+2019,50210,Pintanos Los,37
+2019,50211,Plasencia de Jalón,306
+2019,50212,Pleitas,34
+2019,50213,Plenas,106
+2019,50214,Pomer,22
+2019,50215,Pozuel de Ariza,21
+2019,50216,Pozuelo de Aragón,296
+2019,50217,Pradilla de Ebro,563
+2019,50218,Puebla de Albortón,118
+2019,50219,La Puebla de Alfindén,6303
+2019,50220,Puendeluna,44
+2019,50221,Purujosa,35
+2019,50222,Quinto,1939
+2019,50223,Remolinos,1086
+2019,50224,Retascón,67
+2019,50225,Ricla,2847
+2019,50227,Romanos,128
+2019,50228,Rueda de Jalón,310
+2019,50229,Ruesca,78
+2019,50230,Sádaba,1324
+2019,50231,Salillas de Jalón,315
+2019,50232,Salvatierra de Esca,199
+2019,50233,Samper del Salz,110
+2019,50234,San Martín de la Virgen de Moncayo,277
+2019,50235,San Mateo de Gállego,3234
+2019,50236,Santa Cruz de Grío,116
+2019,50237,Santa Cruz de Moncayo,130
+2019,50238,Santa Eulalia de Gállego,95
+2019,50239,Santed,63
+2019,50240,Sástago,1154
+2019,50241,Sabiñán,723
+2019,50242,Sediles,102
+2019,50243,Sestrica,352
+2019,50244,Sierra de Luna,268
+2019,50245,Sigüés,83
+2019,50246,Sisamón,29
+2019,50247,Sobradiel,1096
+2019,50248,Sos del Rey Católico,590
+2019,50249,Tabuenca,314
+2019,50250,Talamantes,64
+2019,50251,Tarazona,10533
+2019,50252,Tauste,6912
+2019,50253,Terrer,447
+2019,50254,Tierga,186
+2019,50255,Tobed,214
+2019,50256,Torralba de los Frailes,79
+2019,50257,Torralba de Ribota,174
+2019,50258,Torralbilla,55
+2019,50259,Torrehermosa,59
+2019,50260,Torrelapaja,32
+2019,50261,Torrellas,250
+2019,50262,Torres de Berrellén,1446
+2019,50263,Torrijo de la Cañada,199
+2019,50264,Tosos,183
+2019,50265,Trasmoz,86
+2019,50266,Trasobares,122
+2019,50267,Uncastillo,636
+2019,50268,Undués de Lerda,50
+2019,50269,Urrea de Jalón,418
+2019,50270,Urriés,39
+2019,50271,Used,269
+2019,50272,Utebo,18691
+2019,50273,Valdehorna,33
+2019,50274,Val de San Martín,66
+2019,50275,Valmadrid,117
+2019,50276,Valpalmas,140
+2019,50277,Valtorres,61
+2019,50278,Velilla de Ebro,215
+2019,50279,Velilla de Jiloca,87
+2019,50280,Vera de Moncayo,338
+2019,50281,Vierlas,77
+2019,50282,La Vilueña,72
+2019,50283,Villadoz,92
+2019,50284,Villafeliche,166
+2019,50285,Villafranca de Ebro,833
+2019,50286,Villalba de Perejil,96
+2019,50287,Villalengua,313
+2019,50288,Villanueva de Gállego,4720
+2019,50289,Villanueva de Jiloca,54
+2019,50290,Villanueva de Huerva,443
+2019,50291,Villar de los Navarros,106
+2019,50292,Villarreal de Huerva,274
+2019,50293,Villarroya de la Sierra,446
+2019,50294,Villarroya del Campo,74
+2019,50295,Vistabella,49
+2019,50296,La Zaida,435
+2019,50297,Zaragoza,674997
+2019,50298,Zuera,8565
+2019,50901,Biel,154
+2019,50902,Marracos,86
+2019,50903,Villamayor de Gállego,2720

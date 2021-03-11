@@ -1,6 +1,7 @@
 import './../css/styles.css';
 import { cities } from './shared/cities.js';
 import './shared/select-multiselect.js';
+
 import {
   menu,
   widthMobile,

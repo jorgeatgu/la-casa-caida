@@ -33,14 +33,19 @@ const d3 = {
 };
 
 export function municipalitiesStacked(csvFile, cities) {
-  const margin = { top: 24, right: 8, bottom: 24, left: 32 };
+  const margin = { top: 40, right: 8, bottom: 24, left: 32 };
   let width = 0;
   let height = 0;
+  let dataMunicipalitiesStacked;
+  let dataTable;
   const chart = d3.select(`.municipalities-stack-${cities}`);
   const svg = chart.select('svg');
   const scales = {};
-  let dataMunicipalitiesStacked;
-  let dataTable;
+  const bisectDate = d3.bisector(d => d.year).left;
+  const tooltipStack = chart
+    .append('div')
+    .attr('class', 'tooltip tooltip-stack')
+    .style('opacity', 0);
 
   function setupScales(dataTable) {
     const countX = d3
@@ -112,6 +117,15 @@ export function municipalitiesStacked(csvFile, cities) {
 
     g.attr('transform', translate);
 
+    g.append('rect').attr('class', 'overlay-dos');
+
+    g.append('g')
+      .attr('class', 'focus')
+      .style('display', 'none')
+      .append('line')
+      .attr('class', 'x-hover-line hover-line')
+      .attr('y1', 0);
+
     let stackKeys = Array.from(new Set(dataMunicipalitiesStacked.map(d => d.age)).values())
     const stackedData = d3.stack().keys(stackKeys)(dataTable)
     let keys = [...new Set(dataMunicipalitiesStacked.map(({ age }) => age))];
@@ -126,6 +140,30 @@ export function municipalitiesStacked(csvFile, cities) {
       .scaleOrdinal()
       .domain(keys)
       .range(["#9db7c5", "#18857f", "#05cfc0", "#1f4196"]);
+
+    const legend = svg
+      .selectAll('.label')
+      .data(colors.domain())
+      .enter()
+      .append('g')
+      .attr('class', 'label')
+      .attr('transform', (d, i) => `translate(${i * 54}, 10)`);
+
+    legend
+      .append('rect')
+      .attr('x', (d, i) => `${margin.left+(i * 34)}`)
+      .attr('y', 0)
+      .attr('width', 16)
+      .attr('height', 16)
+      .style('fill', colors);
+
+    legend
+      .append('text')
+      .attr('class', 'legend-text')
+      .attr('x', (d, i) => `${margin.left+20+(i * 34)}`)
+      .attr('y', 9)
+      .attr('dy', '.35em')
+      .text((d) => `${d} años`);
 
     updateScales(width, height);
 
@@ -150,6 +188,70 @@ export function municipalitiesStacked(csvFile, cities) {
         return d3.interpolatePath(previous, current);
       })
       .attr('fill', d => colors(d.key))
+
+    const focus = g.select('.focus');
+
+    const overlay = g.select('.overlay-dos');
+
+    focus.select('.x-hover-line').attr('y2', height);
+
+    overlay
+      .attr('width', width + margin.left + margin.right)
+      .attr('height', height)
+      .on('mouseover', function() {
+        focus.style('display', null);
+      })
+      /*.on('mouseout', function() {
+        focus.style('display', 'none');
+        tooltipStack.style('opacity', 0);
+      })*/
+      .on('mousemove', mousemove);
+
+    function mousemove(event) {
+      const { layerX } = event;
+      const w = chart.node().offsetWidth;
+      var x0 = scales.count.x.invert(layerX),
+        i = bisectDate(dataMunicipalitiesStacked, x0, 1),
+        d0 = dataMunicipalitiesStacked[i - 1],
+        d1 = dataMunicipalitiesStacked[i],
+        d = x0 - d0.year > d1.year - x0 ? d1 : d0;
+      const positionX = scales.count.x(d.year) + margin.left;
+      const postionWidthTooltip = positionX + 200;
+      const positionRightTooltip = w - positionX;
+      const selectedYear = d.year
+      const dataStackedFilterYear = dataMunicipalitiesStacked.filter(({ year }) => year === selectedYear)
+
+      const tooltipHTML = dataStackedFilterYear
+        .reduce((acc, group) => {
+          acc.push(createTooltipText(group))
+          return acc
+        }, [])
+
+      function createTooltipText(group) {
+        const { age, total } = group
+        const habitantes = total === 1 ? 'habitante' : 'habitantes'
+        return `<span class="tooltip-stack-text"><b>${age} años:</b> ${total} ${habitantes}</span>`
+      }
+
+      tooltipStack
+        .style('opacity', 1)
+        .html(() => {
+          return `
+            <span class="tooltip-stack-year">${selectedYear}</span>
+            ${tooltipHTML.join('')}
+          `
+        })
+        .style('top', '35%')
+        .style('left', postionWidthTooltip > w ? 'auto' : positionX + 'px')
+        .style(
+          'right',
+          postionWidthTooltip > w ? positionRightTooltip + 'px' : 'auto'
+        );
+
+      focus
+        .select('.x-hover-line')
+        .attr('transform', `translate(${scales.count.x(d.year)},0)`);
+    }
 
     drawAxes(g);
   }

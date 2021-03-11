@@ -236,8 +236,6 @@ export function barScatter(csvFile, cities) {
           .attr('r', 0);
 
         dataScatterPeople = data.filter(({ mayor }) => mayor > percentageCity);
-        console.log("data", data);
-        console.log("dataScatterPeople", dataScatterPeople.length);
 
         const container = chart.select(`.scatter-${cities}-container-bis`);
 
@@ -273,7 +271,6 @@ export function barScatter(csvFile, cities) {
       );
 
       const percentageCity = d3.select(this).property('value');
-      console.log("percentageCity", percentageCity);
 
       d3.csv(csvFile).then(data => {
         dataScatterPeople = data;

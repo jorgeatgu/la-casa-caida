@@ -1,0 +1,733 @@
+municipio,cp,superficie,densidad,posicion
+Abiego,22001,38.19,6.20,1
+Abizanda,22002,44.84,3.36,2
+Adahuesca,22003,52.47,3.27,3
+Agüero,22004,94.16,1.38,4
+Aísa,22006,80.97,3.96,5
+Albalate de Cinca,22007,44.23,24.91,6
+Albalatillo,22008,9.15,19.78,7
+Albelda,22009,51.92,13.88,8
+Albero Alto,22011,19.28,5.44,9
+Albero Bajo,22012,22.22,6.34,10
+Alberuela de Tubo,22013,20.79,14.86,11
+Alcalá de Gurrea,22014,71.42,3.44,12
+Alcalá del Obispo,22015,47.85,6.79,13
+Alcampell,22016,58,11.24,14
+Alcolea de Cinca,22017,83.24,13.93,15
+Alcubierre,22018,115.31,3.14,16
+Alerre,22019,8.94,22.48,17
+Alfántega,22020,8.76,14.49,18
+Almudévar,22021,201.49,11.88,19
+Almunia de San Juan,22022,35.66,18.33,20
+Almuniente,22023,37.56,12.53,21
+Alquézar,22024,32.36,9.14,22
+Altorricón,22025,32.41,43.47,23
+Angüés,22027,56.51,6.49,24
+Anso,22028,223.08,1.93,25
+Antillón,22029,22.41,6.64,26
+AragÃ¼Ã©s del Puerto,22032,64.44,1.80,27
+ArÃ©n,22035,119.32,2.66,28
+Argavieso,22036,9,10.66,29
+Arguis,22037,62.75,2.05,30
+Ayerbe,22039,63.89,16.29,31
+Azanuy-Alins,22040,51.17,3.43,32
+Azara,22041,14.49,12.00,33
+Azlor,22042,15.89,9.62,34
+BaÃ©lls,22043,39.82,2.61,35
+Bailo,22044,164.43,1.69,36
+Baldellou,22045,30.42,2.53,37
+Ballobar,22046,127.73,6.44,38
+Banastás,22047,4.66,62.66,39
+Barbastro,22048,107,158.35,40
+BarbuÃ©s,22049,19.59,3.93,41
+Barbuñales,22050,18.75,5.06,42
+Bárcabo,22051,87.92,1.19,43
+Belver de Cinca,22052,82.63,15.63,44
+Benabarre,22053,157.14,7.04,45
+Benasque,22054,233,9.25,46
+Berbegal,22055,49.03,7.03,47
+Bielsa,22057,202.41,2.35,48
+Bierge,22058,145.03,1.59,49
+Biescas,22059,189.09,7.82,50
+Binaced,22060,78.49,19.81,51
+Binéfar,22061,25,377.40,52
+Bisaurri,22062,63.19,2.86,53
+Biscarrués,22063,30.18,6.26,54
+Blecua y Torres,22064,36,5.08,55
+Boltaña,22066,139.45,7.07,56
+Bonansa,22067,37.29,2.30,57
+Borau,22068,41.72,1.91,58
+Broto,22069,128,4.14,59
+Caldearenas,22072,192.31,1.13,60
+Campo,22074,22.86,14.12,61
+Camporrells,22075,26.71,5.12,62
+Canal de Berdún,22076,133.27,2.40,63
+Candasnos,22077,122.45,2.58,64
+Canfranc,22078,71.56,7.43,65
+Capdesaso,22079,17,10.23,66
+Capella,22080,60.71,5.83,67
+Casbas de Huesca,22081,132.69,2.02,68
+CastejÃ³n del Puente,22082,25.43,12.38,69
+Castejón de Monegros,22083,17.56,30.23,70
+Castejón de Sos,22084,17.56,42.88,71
+Castelflorite,22085,34.76,3.10,72
+Castiello de Jaca,22086,17.31,15.42,73
+Castigaleu,22087,26.53,3.24,74
+Castillazuelo,22088,15.32,11.03,75
+Castillonroy,22089,37.58,8.30,76
+Colungo,22090,40.64,2.80,77
+Chalamera,22094,11,9.81,78
+Chía,22095,26,3.30,79
+Chimillas,22096,10.04,38.94,80
+Esplús,22099,73,7.41,81
+Estada,22102,15.87,12.85,82
+Estadilla,22103,50.39,15.75,83
+Estopiñán del Castillo,22105,88.71,1.42,84
+Fago,22106,28.76,0.79,85
+Fanlo,22107,187,0.51,86
+Fiscal,22109,170.06,1.92,87
+Fonz,22110,51.86,16.77,88
+Foradada del Toscar,22111,106.25,1.62,89
+Fraga,22112,437.64,34.22,90
+La Fueva,22113,218.85,2.72,91
+Gistaín,22114,75,1.98,92
+El Grado,22115,63.77,6.68,93
+Grañén,22116,123.98,14.13,94
+Graus,22117,299.79,11.02,95
+Gurrea de Gállego,22119,191.97,7.68,96
+Hoz de Jaca,22122,12.45,6.10,97
+Huerto,22124,86.72,2.51,98
+Huesca,22125,161.04,325.77,99
+Ibieca,22126,14.94,6.49,100
+IgriÃ©s,22127,19.17,36.77,101
+Ilche,22128,63.72,3.32,102
+Isábena,22129,118.53,2.00,103
+Jaca,22130,406.34,31.53,104
+Jasa,22131,8,11.50,105
+Labuerda,22133,17.85,9.07,106
+Laluenga,22135,36.47,5.31,107
+Lalueza,22136,88.19,10.35,108
+Lanaja,22137,183,6.56,109
+Laperdiguera,22139,11.32,8.03,110
+Lascellas Ponzano,22141,27.33,4.61,111
+Lascuarre,22142,31.87,4.26,112
+LaspaÃºles,22143,81.75,2.81,113
+LaspuÃ±a,22144,45.29,6.42,114
+Loarre,22149,74.42,4.44,115
+Loporzano,22150,169.28,3.08,116
+Loscorrales,22151,40.25,2.63,117
+Monesma y Cajigar,22155,62,1.17,118
+Monflorite Lascasas,22156,29.16,13.82,119
+Montanuy,22157,174,1.23,120
+Monzón,22158,155.02,110.05,121
+Naval,22160,47.32,5.68,122
+Novales,22162,20.08,7.71,123
+Nueno,22163,147.24,3.61,124
+Olvena,22164,15.89,3.14,125
+Ontiñena,22165,136.96,3.89,126
+Osso de Cinca,22167,27.66,24.83,127
+Palo,22168,14.41,1.87,128
+Panticosa,22170,95,8.27,129
+Peñalba,22172,156,3.98,130
+Las Peñas de Riglos,22173,217.87,1.15,131
+Peralta de Alcofea,22174,116.14,4.83,132
+Peralta de Calasanz,22175,114.88,1.90,133
+Peraltilla,22176,16,12.43,134
+Perarrúa,22177,30.05,3.62,135
+Pertusa,22178,29.37,3.74,136
+Piracés,22181,25.15,3.89,137
+Plan,22182,92.53,3.10,138
+Poleñino,22184,33.02,6.05,139
+PozÃ¡n de Vero,22186,14.75,14.77,140
+La Puebla de Castro,22187,17.03,21.84,141
+Puente de Montañana,22188,48.56,1.91,142
+Puertolas,22189,99.86,2.15,143
+El Pueyo de Araguás,22190,61.84,2.49,144
+Pueyo de Santa Cruz,22193,9.29,33.79,145
+Quicena,22195,9.67,29.26,146
+Robres,22197,64,8.45,147
+Sabiñanigo,22199,586.82,15.75,148
+Sahún,22200,73.36,4.00,149
+Salas Altas,22201,20.74,14.85,150
+Salas Bajas,22202,12.93,12.91,151
+Salillas,22203,28.33,3.38,152
+Sallent de Gállego,22204,162.14,9.02,153
+San Esteban de Litera,22205,71,7.12,154
+Sangarrén,22206,32.22,6.79,155
+San Juan de Plan,22207,55.53,2.73,156
+Santa Cilia,22208,28.08,8.22,157
+Santa Cruz de La Serós,22209,19.51,9.22,158
+Santaliestra y San QuÃ­lez,22212,23.34,3.47,159
+Sariñena,22213,275.57,15.12,160
+Secastilla,22214,47.42,3.07,161
+Seira,22215,69,2.17,162
+Sena,22217,104.69,4.67,163
+SenÃ©s de Alcubierre,22218,20.53,1.99,164
+Sesa,22220,30.84,5.41,165
+Sesué,22221,5.35,23.73,166
+Siétamo,22222,48.98,13.55,167
+Sopeira,22223,44.09,2.13,168
+Tamarite de Litera,22225,110.58,31.90,169
+Tardienta,22226,90.65,10.50,170
+Tella-Sin,22227,90.33,2.50,171
+Tierz,22228,6.54,115.90,172
+Tolva,22229,58.97,2.08,173
+Torla-Ordesa,22230,185.21,1.60,174
+Torralba de Aragón,22232,40.39,2.55,175
+Torre La Ribera,22233,32.06,3.18,176
+Torrente de Cinca,22234,56.77,20.22,177
+Torres de Alcanadre,22235,28.31,3.24,178
+Torres de BarbuÃ©s,22236,13.94,19.08,179
+Tramaced,22239,15.42,6.42,180
+Valfarta,22242,33,2.09,181
+Valle de BardajÃ­,22243,45.48,0.74,182
+Valle de Lierp,22244,32.76,1.40,183
+Velilla de Cinca,22245,16.54,27.99,184
+Veracruz,22246,63.75,1.22,185
+Beranuy,22246,63.75,0.33,186
+Viacamp y Litera,22247,107.74,8.43,187
+Vicién,22248,13.76,22.55,188
+Villanova,22249,7.05,7.68,189
+Villanúa,22250,58.19,5.18,190
+Villanueva de Sigena,22251,75.99,1.61,191
+Yebra de Basa,22252,90.88,1.98,192
+Yésero,22253,30.23,19.16,193
+ZaidÃ­n,22254,92.55,3.57,194
+Valle de Hecho,22901,234.43,5.40,195
+Puente La Reina de Jaca,22902,48.13,7.63,196
+San Miguel del Cinca,22903,106.49,5.40,197
+La Sotonera,22904,165.54,3.09,198
+Lupiñén-Ortilla,22905,110.07,7.70,199
+Santa MarÃ­a de Dulcis,22906,27,7.55,200
+AÃ­nsa-Sobrarbe,22907,284.77,3.93,201
+Hoz y Costeán,22908,57.48,38.47,202
+Vencillón,22909,10.37,,203
+Ababuj,44001,54,1.40,204
+Abejuela,44002,86.67,0.56,205
+Aguatón,44003,21.64,0.83,206
+Aguaviva,44004,42.15,12.38,207
+Aguilar del Alfambra,44005,39.04,1.61,208
+AlacÃ³n,44006,47,5.61,209
+Alba,44007,69.53,2.56,210
+Albalate del Arzobispo,44008,205.69,9.74,211
+Albarracín,44009,452.72,2.24,212
+Albentosa,44010,68,3.77,213
+Alcaine,44011,57.38,1.09,214
+Alcalá de La Selva,44012,104.95,3.30,215
+Alcañiz,44013,472.12,33.76,216
+Alcorisa,44014,121,27.07,217
+Alfambra,44016,122.44,4.33,218
+Aliaga,44017,193.08,1.85,219
+Almohaja,44018,25.55,0.62,220
+Alobras,44019,30.72,2.01,221
+AlpeÃ±Ã©s,44020,28.62,0.76,222
+Allepuz,44021,67.26,1.87,223
+Alloza,44022,81,7.18,224
+Allueva,44023,18.65,1.55,225
+Anadón,44024,24.62,1.09,226
+Andorra,44025,141.36,53.99,227
+Arcos de Las Salinas,44026,112.99,0.92,228
+Arens de Lledó,44027,34.27,6.01,229
+Argente,44028,62.58,3.16,230
+Ariño,44029,81.93,8.64,231
+Azaila,44031,81.44,1.15,232
+BÃ¡denas,44032,31.31,0.63,233
+BÃ¡guena,44033,25.17,12.35,234
+BaÃ±Ã³n,44034,54.27,2.81,235
+Barrachina,44035,24.86,4.74,236
+Bea,44036,23.37,1.32,237
+Beceite,44037,96.72,5.59,238
+Belmonte de San JosÃ©,44038,43.68,2.58,239
+Bello,44039,52.49,4.28,240
+Berge,44040,42.64,5.72,241
+Bezas,44041,26.32,2.65,242
+Blancas,44042,73,1.71,243
+Blesa,44043,80.39,1.18,244
+Bordón,44044,29.98,3.53,245
+Bronchales,44045,59,7.50,246
+BueÃ±a,44046,40.75,1.54,247
+Burbáguena,44047,39.02,6.22,248
+Cabra de Mora,44048,34.31,1.60,249
+Calaceite,44049,81.33,12.43,250
+Calamocha,44050,316.63,13.64,251
+Calanda,44051,112.25,33.03,252
+Calomarde,44052,28.18,2.62,253
+CamaÃ±as,44053,78.67,1.57,254
+Camarena de La Sierra,44054,79.54,1.42,255
+Camarillas,44055,50.55,1.70,256
+Caminreal,44056,44.39,13.94,257
+Cantavieja,44059,124.56,5.73,258
+Cañada de Benatanduz,44060,34.89,1.11,259
+La Cañada de Verich,44061,10.86,8.01,260
+Cañada Vellida,44062,23,1.52,261
+Cañizar del Olivar,44063,22.29,4.39,262
+Cascante del Río,44064,32.38,2.19,263
+Castejón de Tornos,44065,17.56,3.53,264
+Castel de Cabra,44066,29.44,3.53,265
+Castelnou,44067,37.09,4.31,266
+Castelserás,44068,31.52,26.36,267
+El Castellar,44070,50.33,1.03,268
+Castellote,44071,235.18,2.87,269
+Cedrillas,44074,73.57,8.56,270
+Celadas,44075,100.45,3.94,271
+Cella,44076,124.68,20.90,272
+La Cerollera,44077,33.75,2.96,273
+La CodoÃ±era,44080,20.97,16.40,274
+Corbalán,44082,82.44,1.32,275
+Cortes de Aragón,44084,24.43,2.49,276
+Cosa,44085,54.81,0.94,277
+Cretas,44086,52.66,10.84,278
+Crivillén,44087,42.03,1.61,279
+La Cuba,44088,6.51,6.29,280
+Cubla,44089,48.63,1.11,281
+Cucalón,44090,31.93,2.50,282
+El Cuervo,44092,20.76,4.14,283
+Cuevas de AlmudÃ©n,44093,35.85,3.40,284
+Cuevas Labradas,44094,40.81,3.20,285
+Ejulve,44096,109.49,1.64,286
+Escorihuela,44097,56.99,2.43,287
+Escucha,44099,41.57,21.28,288
+Estercuel,44100,55.59,3.77,289
+Ferreruela de Huerva,44101,20.44,3.08,290
+Fonfría,44102,20.58,1.36,291
+Formiche Alto,44103,78.17,1.93,292
+Fórnoles,44105,32.56,2.30,293
+Fortanete,44106,168.21,1.21,294
+Foz-Calanda,44107,37.87,6.28,295
+La Fresneda,44108,39.48,11.22,296
+Frías de Albarrací­n,44109,50.79,2.28,297
+Fuenferrada,44110,24.53,1.71,298
+Fuentes Calientes,44111,25.01,4.03,299
+Fuentes Claras,44112,36.91,12.48,300
+Fuentes de Rubielos,44113,38.91,2.92,301
+Fuentespalda,44114,39,7.33,302
+Galve,44115,61.23,2.62,303
+Gargallo,44116,30.08,2.95,304
+Gea de Albarracín,44117,57,6.59,305
+La Ginebrosa,44118,80,2.50,306
+Griegos,44119,31.77,4.50,307
+Guadalaviar,44120,28.08,8.61,308
+Gúdar,44121,60.77,1.18,309
+Híjar,44122,165.36,10.33,310
+Hinojosa de Jarque,44123,36.47,3.26,311
+La Hoz de La Vieja,44124,43.73,1.94,312
+Huesa del Común,44125,61.69,1.08,313
+La Iglesuela del Cid,44126,40.29,10.27,314
+Jabaloyas,44127,61.73,1.05,315
+Jarque de La Val,44128,29.23,2.39,316
+Jatiel,44129,10.84,3.69,317
+Jorcas,44130,26,1.30,318
+Josa,44131,28.23,1.20,319
+Lagueruela,44132,26.32,2.96,320
+Lanzuela,44133,14.22,1.68,321
+Libros,44135,37.91,2.66,322
+Lidón,44136,40,1.37,323
+Linares de Mora,44137,116.28,2.14,324
+Loscos,44138,71.78,1.79,325
+Lledó,44141,15.61,11.01,326
+Maicas,44142,24.74,1.09,327
+Manzanera,44143,168.66,3.07,328
+Martín del Río,44144,54.88,7.59,329
+Mas de Las Matas,44145,29.99,42.41,330
+La Mata de Los Olmos,44146,23.73,11.16,331
+Mazaleón,44147,86.25,6.24,332
+Mezquita de Jarque,44148,31.14,3.14,333
+Mirambel,44149,45.47,2.55,334
+Miravete de La Sierra,44150,36.51,0.95,335
+Molinos,44151,79.61,3.05,336
+Monforte de Moyuela,44152,47.74,1.36,337
+Monreal del Campo,44153,89.05,27.32,338
+Monroyo,44154,79.23,4.29,339
+Montalbán,44155,82.04,15.15,340
+Monteagudo del Castillo,44156,44.36,1.12,341
+Monterde de Albarracín,44157,45.21,1.39,342
+Mora de Rubielos,44158,166.23,9.27,343
+Moscardón,44159,26.93,2.04,344
+Mosqueruela,44160,265.03,2.07,345
+Muniesa,44161,129,4.64,346
+Noguera de Albarracín,44163,47.44,2.80,347
+Nogueras,44164,18.85,1.32,348
+Nogueruelas,44165,99.49,2.18,349
+ObÃ³n,44167,68.38,0.65,350
+OdÃ³n,44168,74.24,2.76,351
+Ojos Negros,44169,90.92,4.14,352
+Olba,44171,20.99,10.76,353
+Oliete,44172,85.48,4.25,354
+Los Olmos,44173,43.97,2.77,355
+Orihuela del Tremedal,44174,71.52,6.80,356
+Orrios,44175,35,3.60,357
+Palomar de Arroyos,44176,33.62,5.02,358
+Pancrudo,44177,100.12,1.09,359
+Las Parras de Castellote,44178,42.13,1.25,360
+Peñarroya de Tastavins,44179,83.28,5.27,361
+Peracense,44180,28.66,2.65,362
+Peralejos,44181,36,2.44,363
+Perales del Alfambra,44182,104.24,2.12,364
+Pitarque,44183,54.35,1.45,365
+Plou,44184,17.21,2.49,366
+El Pobo,44185,63,1.80,367
+La Portellada,44187,21.37,11.37,368
+Pozondón,44189,67.64,0.70,369
+Pozuel del Campo,44190,27.85,2.44,370
+La Puebla de Híjar,44191,17.03,53.31,371
+La Puebla de Valverde,44192,17.03,26.60,372
+Puertomingalvo,44193,103.62,1.08,373
+RÃ¡fales,44194,35.61,4.01,374
+Rillo,44195,53.31,1.74,375
+Riodeva,44196,34.34,4.19,376
+Ródenas,44197,44.26,1.37,377
+Royuela,44198,32,6.43,378
+Rubiales,44199,27.42,1.82,379
+Rubielos de La CÃ©rida,44200,66,0.57,380
+Rubielos de Mora,44201,66,9.50,381
+Salcedillo,44203,16.89,1.00,382
+Saldón,44204,28.37,0.91,383
+Samper de Calanda,44205,142,5.51,384
+San Agustín,44206,56.57,2.20,385
+San Martín del Río,44207,5.42,27.30,386
+Santa Cruz de Nogueras,44208,19.51,1.89,387
+Santa Eulalia,44209,80.97,12.80,388
+Sarrión,44210,140.44,8.06,389
+Segura de Los Baños,44211,54.15,0.72,390
+Seno,44212,17.85,2.18,391
+Singra,44213,36.72,2.17,392
+Terriente,44215,47.98,3.81,393
+Teruel,44216,440.41,81.04,394
+Toril y Masegoso,44217,30.67,0.97,395
+Tormón,44218,29.34,1.05,396
+Tornos,44219,48.95,4.35,397
+Torralba de Los Sisones,44220,40.39,3.86,398
+Torrecilla de Alcañiz,44221,26.76,15.80,399
+Torrecilla del Rebollar,44222,26.76,4.74,400
+Torre de Arcas,44223,34.28,2.59,401
+Torre de Las Arcas,44224,37.17,0.75,402
+Torre del Compte,44225,19.46,6.78,403
+Torrelacárcel,44226,35.54,4.33,404
+Torre Los Negros,44227,29.15,3.01,405
+Torremocha de Jiloca,44228,33.94,3.15,406
+Torres de Albarracín,44229,28.31,6.46,407
+Torrevelilla,44230,33.44,5.65,408
+Torrijas,44231,57.34,0.66,409
+Torrijo del Campo,44232,44.04,10.14,410
+Tramacastiel,44234,47.29,1.35,411
+Tramacastilla,44235,24.81,4.27,412
+Tronchón,44236,57.11,1.13,413
+Urrea de Gaén,44237,41.12,10.60,414
+Utrillas,44238,39.82,74.58,415
+Valacloche,44239,15.02,1.39,416
+Valbona,44240,40.72,4.27,417
+Valdealgorfa,44241,46.93,13.25,418
+Valdecuenca,44243,18.64,1.87,419
+Valdelinares,44244,55.09,1.57,420
+Valdeltormo,44245,16,17.43,421
+Valderrobres,44246,124.04,19.25,422
+Valjunquera,44247,41.84,7.76,423
+El Vallecillo,44249,21.59,2.22,424
+Veguillas de La Sierra,44250,13.67,1.46,425
+Villafranca del Campo,44251,63.64,4.66,426
+Villahermosa del Campo,44252,19,4.94,427
+Villanueva del Rebollar de La Sierra,44256,75.99,0.61,428
+Villar del Cobo,44257,54.13,3.02,429
+Villar del Salz,44258,38.69,1.55,430
+Villarluengo,44260,157.89,1.12,431
+Villarquemado,44261,56.43,15.27,432
+Villarroya de Los Pinares,44262,91,1.75,433
+Villastar,44263,39.05,12.65,434
+Villel,44264,85.38,3.82,435
+Vinaceite,44265,50.07,4.97,436
+Visiedo,44266,55.53,2.25,437
+Vivel del Río Martín,44267,51.16,1.54,438
+La Zoma,44268,14,1.14,439
+Abanto,50001,63.84,1.51,440
+Acered,50002,30,5.50,441
+Agón,50003,18.52,7.88,442
+Aguarón,50004,36.62,17.23,443
+AguilÃ³n,50005,59.45,3.95,444
+Ainzón,50006,40.46,26.81,445
+AladrÃ©n,50007,21.06,2.46,446
+Alagón,50008,24.22,292.89,447
+Alarba,50009,19,7.00,448
+Alberite de San Juan,50010,11.23,6.41,449
+Albeta,50011,2.65,49.81,450
+Alborge,50012,4.84,22.31,451
+Alcalá de Ebro,50013,9.87,25.43,452
+Alcalá de Moncayo,50014,13.76,10.46,453
+Alconchel de Ariza,50015,34.85,1.80,454
+Aldehuela de Liestos,50016,38.04,1.28,455
+Alfajarín,50017,137.57,16.80,456
+Alfamén,50018,102.04,14.12,457
+Alforque,50019,10.62,5.83,458
+Alhama de Aragón,50020,31.14,33.26,459
+Almochuel,50021,32,0.90,460
+La Almolda,50022,131.33,4.31,461
+Almonacid de La Cuba,50023,55.21,4.56,462
+Almonacid de La Sierra,50024,55.21,12.51,463
+La Almunia de Doña Godina,50025,56.65,138.02,464
+Alpartir,50026,32.54,17.79,465
+Ambel,50027,61,4.19,466
+Anento,50028,21.52,4.41,467
+AniÃ±Ã³n,50029,52.46,13.49,468
+Añón de Moncayo,50030,64.19,3.31,469
+Aranda de Moncayo,50031,91,1.75,470
+ArÃ¡ndiga,50032,50.22,6.15,471
+Ardisa,50033,27.28,2.63,472
+Ariza,50034,103.08,11.04,473
+Artieda,50035,13.57,5.37,474
+AsÃ­n,50036,18.47,5.19,475
+Atea,50037,34.67,4.49,476
+Ateca,50038,84.71,21.16,477
+Azuara,50039,165.81,3.27,478
+Badules,50040,20.09,4.13,479
+BagÃ¼Ã©s,50041,30.72,0.39,480
+BalconchÃ¡n,50042,19,0.89,481
+BÃ¡rboles,50043,15.68,19.13,482
+Bardallur,50044,27.34,9.54,483
+Belchite,50045,273.68,5.58,484
+Belmonte de Gracián,50046,43.68,4.53,485
+Berdejo,50047,19.39,2.42,486
+Berrueco,50048,19,1.73,487
+Bijuesca,50050,57.08,1.71,488
+Biota,50051,128,7.40,489
+Bisimbre,50052,11.22,8.64,490
+Boquiñeni,50053,18.87,42.81,491
+Bordalba,50054,41.58,1.34,492
+Borja,50055,107.29,45.87,493
+Botorrita,50056,19.81,25.13,494
+Brea de Aragón,50057,13.38,124.43,495
+Bubierca,50058,29.54,2.13,496
+Bujaraloz,50059,120.92,8.31,497
+Bulbuente,50060,25.44,8.52,498
+Bureta,50061,11.91,18.21,499
+El Burgo de Ebro,50062,24.86,97.82,500
+El Buste,50063,7.61,9.46,501
+Cabañas de Ebro,50064,8.53,58.38,502
+Cabolafuente,50065,39.24,0.81,503
+Cadrete,50066,11.86,328.07,504
+Calatayud,50067,154.25,129.88,505
+Calatorao,50068,48.15,59.41,506
+Calcena,50069,64.74,1.15,507
+Calmarza,50070,28.15,2.09,508
+Campillo de Aragón,50071,36.86,4.04,509
+Carenas,50072,31.22,5.66,510
+Cariñena,50073,82.51,39.70,511
+Caspe,50074,503.15,18.93,512
+Castejón de Alarba,50075,17.56,5.23,513
+CastejÃ³n de Las Armas,50076,17.56,5.12,514
+Castejón de Valdejasa,50077,17.56,12.58,515
+Castiliscar,50078,40.68,6.51,516
+Cervera de La Cañada,50079,29.22,9.27,517
+Cerveruela,50080,23.49,1.48,518
+Cetina,50081,78.76,7.51,519
+Cimballa,50082,31.95,2.91,520
+Cinco Olivas,50083,2.25,49.77,521
+Clarés de Ribota,50084,18,3.61,522
+Codo,50085,11.36,17.42,523
+Codos,50086,62.69,2.91,524
+Contamina,50087,14.02,2.63,525
+Cosuenda,50088,31.68,11.58,526
+Cuarte de Huerva,50089,8.95,1458.65,527
+Cubel,50090,58.62,2.86,528
+Las Cuerlas,50091,32.58,1.19,529
+Chiprana,50092,38.98,13.03,530
+Chodes,50093,15.97,7.07,531
+Daroca,50094,52.05,38.34,532
+Ejea de Los Caballeros,50095,609.92,27.22,533
+Embid de Ariza,50096,41.26,0.87,534
+Encinacorba,50098,36.74,5.14,535
+Épila,50099,194.32,22.65,536
+Erla,50100,18.96,18.19,537
+Escatrón,50101,94.64,10.84,538
+Fabara,50102,101.63,11.33,539
+Farlete,50104,104.12,3.70,540
+FayÃ³n,50105,67.19,5.26,541
+Los Fayos,50106,3.88,36.34,542
+Figueruelas,50107,16.99,72.98,543
+Fombuena,50108,26.37,2.04,544
+El Frago,50109,33.76,2.93,545
+El Frasno,50110,48.64,7.89,546
+FrÃ©scano,50111,18.41,10.97,547
+Fuendejalón,50113,75.83,10.45,548
+Fuendetodos,50114,62,1.95,549
+Fuentes de Ebro,50115,141.73,32.05,550
+Fuentes de Jiloca,50116,27.35,8.37,551
+Gallocanta,50117,29.71,5.18,552
+Gallur,50118,41.71,63.00,553
+Gelsa,50119,72.04,13.81,554
+Godojos,50120,16.77,3.22,555
+Gotor,50121,15.52,19.71,556
+Grisel,50122,14.51,4.61,557
+Grisén,50123,4.75,125.68,558
+Herrera de Los Navarros,50124,105.01,4.81,559
+Ibdes,50125,56.31,7.17,560
+Illueca,50126,24.86,119.22,561
+Isuerre,50128,20.05,1.54,562
+Jaraba,50129,42.81,6.54,563
+Jarque,50130,43,10.13,564
+JaulÃ­n,50131,46.05,5.14,565
+La Joyosa,50132,6.52,164.41,566
+Lagata,50133,23.65,4.69,567
+Langa del Castillo,50134,50.13,2.63,568
+Layana,50135,3.69,27.10,569
+Lécera,50136,109,6.06,570
+Leciñena,50137,178.59,6.50,571
+Lechón,50138,17.46,3.03,572
+Letux,50139,30.15,11.34,573
+Litago,50140,15,11.06,574
+Lituénigo,50141,11.38,11.15,575
+Lobera de Onsella,50142,32.18,0.87,576
+Longares,50143,45.96,16.60,577
+Longás,50144,49.23,0.71,578
+Lucena de JalÃ³n,50146,10.31,22.98,579
+Luceni,50147,27.08,34.89,580
+Luesia,50148,126.83,2.44,581
+Luesma,50149,29,1.17,582
+Lumpiaque,50150,29.55,27.98,583
+Luna,50151,308.92,2.26,584
+Maella,50152,174.88,11.47,585
+Magallón,50153,78.61,14.41,586
+Mainar,50154,34.02,4.43,587
+Malanquilla,50155,36.63,2.73,588
+Maleján,50156,0.08,3237.50,589
+MalÃ³n,50157,5.66,57.06,590
+Maluenda,50159,40.09,23.49,591
+Mallén,50160,37.42,82.38,592
+Manchones,50161,26.83,3.65,593
+Mara,50162,21.09,8.58,594
+María de Huerva,50163,108.09,52.39,595
+Mediana de Aragón,50164,90.57,5.13,596
+Mequinenza,50165,307.45,7.48,597
+Mesones de Isuela,50166,48.55,5.58,598
+Mezalocha,50167,60.64,3.95,599
+Mianos,50168,14.82,2.15,600
+Miedes de Aragón,50169,55.38,7.80,601
+Monegrillo,50170,183.16,2.25,602
+Moneva,50171,61,1.54,603
+Monreal de Ariza,50172,62.06,3.41,604
+Monterde,50173,55.94,2.84,605
+MontÃ³n,50174,17.59,5.34,606
+Morata de Jalón,50175,45.87,23.91,607
+Morata de Jiloca,50176,23.09,12.21,608
+MorÃ©s,50177,21.46,15.56,609
+Moros,50178,53,6.83,610
+Moyuela,50179,42.76,5.72,611
+Mozota,50180,8.68,14.97,612
+Muel,50181,79.17,16.83,613
+La Muela,50182,143.49,38.18,614
+Munébrega,50183,40.99,9.39,615
+Murero,50184,18.25,5.86,616
+Murillo de Gállego,50185,54.71,3.18,617
+Navardún,50186,24,1.66,618
+NigÃ¼ella,50187,30.42,2.16,619
+Nombrevilla,50188,17.56,1.65,620
+Nonaspe,50189,111.45,8.63,621
+Novallas,50190,11,77.27,622
+Novillas,50191,25.28,21.36,623
+Nuévalos,50192,41.84,7.76,624
+Nuez de Ebro,50193,8.21,100.73,625
+Olvés,50194,20.18,5.25,626
+Orcajo,50195,28.45,2.07,627
+Orera,50196,19.82,5.95,628
+Orés,50197,54.52,1.90,629
+Oseja,50198,12,4.33,630
+Osera de Ebro,50199,24.56,16.08,631
+Paniza,50200,47.31,13.40,632
+Paracuellos de Jiloca,50201,32,18.78,633
+Paracuellos de La Ribera,50202,32,4.93,634
+Pastriz,50203,16.52,78.26,635
+Pedrola,50204,113.74,30.85,636
+Las Pedrosas,50205,18.26,4.92,637
+Perdiguera,50206,109.77,5.25,638
+Piedratajada,50207,22.66,4.28,639
+Pina de Ebro,50208,309.17,7.67,640
+Pinseque,50209,16.09,242.88,641
+Los Pintanos,50210,79.64,0.46,642
+Plasencia de JalÃ³n,50211,34.77,8.71,643
+Pleitas,50212,2.14,16.82,644
+Plenas,50213,37.95,2.66,645
+Pomer,50214,33.11,0.66,646
+Pozuel de Ariza,50215,22.63,0.92,647
+Pozuelo de Aragón,50216,32.11,8.84,648
+Pradilla de Ebro,50217,25.45,22.55,649
+Puebla de Albortón,50218,76.31,1.57,650
+La Puebla de Alfindén,50219,17.03,362.47,651
+Puendeluna,50220,9.88,4.45,652
+Purujosa,50221,35.43,1.01,653
+Quinto,50222,118.26,16.47,654
+Remolinos,50223,18.51,58.40,655
+Retascón,50224,25.16,2.94,656
+Ricla,50225,90.67,31.04,657
+Romanos,50227,19.53,6.09,658
+Rueda de Jalón,50228,107.37,3.02,659
+Ruesca,50229,11.63,6.19,660
+Sádaba,50230,129.55,10.21,661
+Salillas de Jalón,50231,2.51,121.11,662
+Salvatierra de Esca,50232,81.24,2.43,663
+Samper del Salz,50233,11.49,9.74,664
+San Martín de La Virgen de Moncayo,50234,5.42,52.76,665
+San Mateo de Gállego,50235,71.62,43.75,666
+Santa Cruz de GrÃ­o,50236,19.51,5.53,667
+Santa Cruz de Moncayo,50237,19.51,6.40,668
+Santa Eulalia de Gállego,50238,80.97,1.21,669
+Santed,50239,17.81,3.42,670
+Sástago,50240,300.98,3.88,671
+Saviñan,50241,15.52,44.52,672
+Sediles,50242,11.71,8.11,673
+Sestrica,50243,40.88,9.05,674
+Sierra de Luna,50244,43.39,5.83,675
+Sigüés,50245,101.77,0.86,676
+Sisamón,50246,41.55,0.74,677
+Sobradiel,50247,12.06,90.29,678
+Sos del Rey Católico,50248,216.62,2.71,679
+Tabuenca,50249,85.72,3.76,680
+Talamantes,50250,46.94,1.34,681
+Tarazona,50251,244.01,43.06,682
+Tauste,50252,405.23,17.06,683
+Terrer,50253,33.75,14.37,684
+Tierga,50254,66.13,2.90,685
+Tobed,50255,32.39,6.60,686
+Torralba de Los Frailes,50256,40.39,2.12,687
+Torralba de Ribota,50257,40.39,4.25,688
+Torralbilla,50258,25.86,2.35,689
+Torrehermosa,50259,21.13,2.98,690
+Torrelapaja,50260,15.68,2.04,691
+Torrellas,50261,2.53,98.81,692
+Torres de Berrellén,50262,53.81,26.87,693
+Torrijo de La Cañada,50263,74.57,2.76,694
+Tosos,50264,68.65,2.62,695
+Trasmoz,50265,18.26,4.87,696
+Trasobares,50266,71.76,1.67,697
+Uncastillo,50267,230.87,2.81,698
+Undués de Lerda,50268,42.99,1.27,699
+Urrea de JalÃ³n,50269,25.64,16.30,700
+Urriés,50270,37.27,1.01,701
+Used,50271,85.29,3.17,702
+Utebo,50272,17.72,1049.77,703
+Valdehorna,50273,7.95,3.77,704
+Val de San MartÃ­n,50274,25.66,2.49,705
+Valmadrid,50275,50.57,2.21,706
+Valpalmas,50276,39.79,3.56,707
+Valtorres,50277,3.29,20.66,708
+Velilla de Ebro,50278,59.79,3.59,709
+Velilla de Jiloca,50279,10,9.00,710
+Vera de Moncayo,50280,27.66,13.01,711
+Vierlas,50281,2.67,27.71,712
+La VilueÃ±a,50282,8.61,8.94,713
+Villadoz,50283,17.18,5.12,714
+Villafeliche,50284,22,7.72,715
+Villafranca de Ebro,50285,63.64,13.04,716
+Villalba de Perejil,50286,13.33,7.42,717
+Villalengua,50287,40.16,7.94,718
+Villanueva de Gállego,50288,75.99,61.33,719
+Villanueva de Jiloca,50289,75.99,0.60,720
+Villanueva de Huerva,50290,75.99,6.09,721
+Villar de Los Navarros,50291,49,2.08,722
+Villarreal de Huerva,50292,27.13,10.09,723
+Villarroya de La Sierra,50293,91,5.12,724
+Villarroya del Campo,50294,91,0.74,725
+Vistabella,50295,21.82,2.24,726
+La Zaida,50296,17.27,26.34,727
+Zaragoza,50297,973.78,684.83,728
+Zuera,50298,332.25,25.17,729
+Biel,50901,130.73,1.07,730
+Marracos,50902,16.92,5.08,731
+Villamayor de Gállego,50903,89.36,30.17,732
