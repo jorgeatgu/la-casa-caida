@@ -201,10 +201,10 @@ export function municipalitiesStacked(csvFile, cities) {
       .on('mouseover', function() {
         focus.style('display', null);
       })
-      /*.on('mouseout', function() {
+      .on('mouseout', function() {
         focus.style('display', 'none');
         tooltipStack.style('opacity', 0);
-      })*/
+      })
       .on('mousemove', mousemove);
 
     function mousemove(event) {
