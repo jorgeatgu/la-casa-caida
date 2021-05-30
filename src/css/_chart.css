@@ -132,8 +132,7 @@
   display: inline-block;
 }
 
-.tooltip-population {
-  position: absolute;
+.tooltip-population-text {
   font-size: 1rem;
   margin: 0;
   z-index: 2;

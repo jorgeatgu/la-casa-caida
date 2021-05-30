@@ -105,25 +105,19 @@ export function barVegetative(csvFile, cities) {
 
     svg.attr('width', w).attr('height', h);
 
-    const translate = `translate(${left},${top})`;
-
     const g = svg.select(`.bar-negative-${cities}-container`);
 
-    g.attr('transform', translate);
+    g.attr('transform', `translate(${left},${top})`);
 
     updateScales(width, height);
 
     const container = chart.select(`.bar-negative-${cities}-container-bis`);
 
-    const layer = container.selectAll('.bar-vertical').data(dataVegetative);
-
-    const newLayer = layer
-      .enter()
-      .append('rect')
-      .attr('class', d => (d.saldo < 0 ? 'negative' : 'positive'));
-
-    layer
-      .merge(newLayer)
+    container
+      .selectAll('.bar-vertical')
+      .data(dataVegetative)
+      .join('rect')
+      .attr('class', d => (d.saldo < 0 ? 'negative bar-vertical' : 'positive bar-vertical'))
       .on('mouseover', function(_, d) {
         tooltip.transition();
         tooltip

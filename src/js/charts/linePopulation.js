@@ -140,11 +140,9 @@ export function linePopulation(csvFile, cities) {
 
     svg.attr('width', w).attr('height', h);
 
-    const translate = `translate(${left},${top})`;
-
     const g = svg.select(`.line-population-${cities}-container`);
 
-    g.attr('transform', translate);
+    g.attr('transform', `translate(${left},${top})`);
 
     const line = d3
       .line()
@@ -155,35 +153,31 @@ export function linePopulation(csvFile, cities) {
 
     const container = chart.select(`.line-population-${cities}-container-bis`);
 
-    const lines = container.selectAll('.lines').data([dataLinePopulation]);
+    container
+      .selectAll('.lines')
+      .data([dataLinePopulation])
+      .join('path')
+      .attr('class', 'lines')
+      .attr('d', d => line(d))
 
-    const dots = container
+    container
       .selectAll('.circles-population')
-      .remove()
-      .exit()
-      .data(dataLinePopulation);
-
-    const newLines = lines.enter().append('path').attr('class', 'lines');
-
-    lines
-      .merge(newLines)
-      .transition()
-      .duration(400)
-      .ease(d3.easeLinear)
-      .attrTween('d', function(d) {
-        const previous = d3.select(this).attr('d');
-        const current = line(d);
-        return d3.interpolatePath(previous, current);
-      });
-
-    const dotsLayer = dots
-      .enter()
-      .append('circle')
+      .data(dataLinePopulation)
+      .join(
+        enter => enter
+          .append("circle")
+          .attr('cx', d => scales.count.x(d.year))
+          .attr('cy', d => scales.count.y(d.population))
+          .attr('r', 0),
+        update => update
+          .attr('r', 4),
+        exit => exit
+          .attr('cx', d => scales.count.x(d.year))
+          .attr('cy', d => scales.count.y(d.population))
+          .attr('r', 0)
+      )
       .attr('class', 'circles-population')
-      .attr('fill', '#531f4e');
-
-    dots
-      .merge(dotsLayer)
+      .attr('fill', '#531f4e')
       .on('mouseover', (event, d) => {
         const { year, population } = d
         const { pageX, pageY } = event;
@@ -203,9 +197,6 @@ export function linePopulation(csvFile, cities) {
       .on('mouseout', () => {
         tooltipPopulation.transition().duration(200).style('opacity', 0);
       })
-      .attr('cx', d => scales.count.x(d.year))
-      .attr('cy', d => scales.count.y(d.population))
-      .attr('r', 0)
       .transition()
       .duration(400)
       .ease(d3.easeLinear)

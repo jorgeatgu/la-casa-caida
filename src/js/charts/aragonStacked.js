@@ -85,8 +85,9 @@ export function aragonStacked() {
   }
 
   function drawAxes(g) {
+    const { count: { x, y } } = scales
     const axisX = d3
-      .axisBottom(scales.count.x)
+      .axisBottom(x)
       .tickFormat(d3.format('d'))
       .tickPadding(7)
       .ticks(9);
@@ -94,7 +95,7 @@ export function aragonStacked() {
     g.select('.axis-x').attr('transform', `translate(0,${height})`).call(axisX);
 
     const axisY = d3
-      .axisLeft(scales.count.y)
+      .axisLeft(y)
       .tickFormat(d => d + '%')
       .tickSizeInner(-width)
       .ticks(12);
@@ -113,11 +114,9 @@ export function aragonStacked() {
 
     svg.attr('width', w).attr('height', h);
 
-    const translate = `translate(${left},${top})`;
-
     const g = svg.select('.aragon-stack-container');
 
-    g.attr('transform', translate);
+    g.attr('transform', `translate(${left},${top})`);
 
     g.append('rect').attr('class', 'overlay-dos');
 
@@ -150,14 +149,13 @@ export function aragonStacked() {
 
     const container = chart.select('.aragon-stack-container-bis');
 
-    const layer = container.selectAll('.area-stack').data(stackedData);
-
-    const newLayer = layer.enter().append('path').attr('class', 'area-stack');
-
-    layer
-      .merge(newLayer)
+    container
+      .selectAll('.area-stack')
+      .data(stackedData)
+      .join('path')
       .attr('fill', d => colors(d.key))
-      .attr('d', area);
+      .attr('d', area)
+      .attr('class', 'area-stack');
 
     const focus = g.select('.focus');
 
@@ -201,7 +199,7 @@ export function aragonStacked() {
           `
         )
         .style('top', '35%')
-        .style('left', postionWidthTooltip > w ? 'auto' : positionX + 'px')
+        .style('left', postionWidthTooltip > w ? 'auto' : `${positionX}px`)
         .style(
           'right',
           postionWidthTooltip > w ? positionRightTooltip + 'px' : 'auto'

@@ -108,11 +108,9 @@ export function lineHistoric(csvFile, cities) {
 
     svg.attr('width', w).attr('height', h);
 
-    const translate = `translate(${left},${top})`;
-
     const g = svg.select(`.line-${cities}-container`);
 
-    g.attr('transform', translate);
+    g.attr('transform', `translate(${left},${top})`);
 
     const line = d3
       .line()
@@ -123,26 +121,20 @@ export function lineHistoric(csvFile, cities) {
 
     const container = chart.select(`.line-${cities}-container-bis`);
 
-    const layer = container.selectAll('.line').data([dataLineHistoric]);
-
-    const newLayer = layer
-      .enter()
-      .append('path')
+    container
+      .selectAll('.line')
+      .data([dataLineHistoric])
+      .join('path')
       .attr('class', 'line')
-      .attr('stroke-width', '1.5');
+      .attr('stroke-width', '1.5')
+      .attr('d', line);
 
-    const dots = container.selectAll('.circles').data(dataLineHistoric);
-
-    const dotsLayer = dots
-      .enter()
-      .append('circle')
+    container
+      .selectAll('.circles')
+      .data(dataLineHistoric)
+      .join('circle')
       .attr('class', 'circles')
-      .attr('fill', '#531f4e');
-
-    layer.merge(newLayer).attr('d', line);
-
-    dots
-      .merge(dotsLayer)
+      .attr('fill', '#531f4e')
       .on('mouseover', (event, d) => {
         const { pageX, pageY } = event;
         const postionWidthTooltip = scales.count.x(d.year) + 270;
