@@ -104,27 +104,19 @@ export function scatterDesert() {
 
     svg.attr('width', w).attr('height', h);
 
-    const translate = `translate(${left},${top})`;
-
     const g = svg.select('.scatter-desert-container');
 
-    g.attr('transform', translate);
+    g.attr('transform', `translate(${left},${top})`);
 
     updateScales(width, height);
 
     const container = chart.select('.scatter-desert-container-bis');
 
-    const layer = container
+    container
       .selectAll('.circle-desert')
-      .data(dataMunicipalities);
-
-    const newLayer = layer
-      .enter()
-      .append('circle')
-      .attr('class', 'circle-desert');
-
-    layer
-      .merge(newLayer)
+      .data(dataMunicipalities)
+      .join('circle')
+      .attr('class', 'circle-desert')
       .attr('cx', d => Math.random() * width)
       .attr('cy', d => scales.count.y(d.densidad))
       .attr('r', 3)

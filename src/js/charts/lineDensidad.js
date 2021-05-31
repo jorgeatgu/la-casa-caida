@@ -105,11 +105,9 @@ export function lineDensidad(csvFile, cities) {
 
     svg.attr('width', w).attr('height', h);
 
-    const translate = `translate(${left},${top})`;
-
     const g = svg.select(`.line-densidad-${cities}-container`);
 
-    g.attr('transform', translate);
+    g.attr('transform', `translate(${left},${top})`);
 
     const line = d3
       .line()
@@ -120,26 +118,12 @@ export function lineDensidad(csvFile, cities) {
 
     const container = chart.select(`.line-densidad-${cities}-container-bis`);
 
-    const lines = container.selectAll('.lines').data([dataLineDensidad]);
-
-    const dots = container
-      .selectAll('.circles-population')
-      .remove()
-      .exit()
-      .data(dataLineDensidad);
-
-    const newLines = lines.enter().append('path').attr('class', 'lines');
-
-    lines
-      .merge(newLines)
-      .transition()
-      .duration(400)
-      .ease(d3.easeLinear)
-      .attrTween('d', function(d) {
-        let previous = d3.select(this).attr('d');
-        let current = line(d);
-        return d3.interpolatePath(previous, current);
-      });
+    container
+      .selectAll('.lines')
+      .data([dataLineDensidad])
+      .join('path')
+      .attr('class', 'lines')
+      .attr('d', d => line(d))
 
     drawAxes(g);
   }

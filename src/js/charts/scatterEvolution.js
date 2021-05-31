@@ -248,6 +248,8 @@ export const scatterEvolution = (csvFile, cities) => {
 
   function updateYearData() {
     let mergeYears = [];
+    firstYear = d3.select(`#select-first-year-${cities}`).property('value');
+    secondYear = d3.select(`#select-second-year-${cities}`).property('value');
     let dataFirstYear = filterDataByYear(+firstYear, 'populationFirstYear');
     let dataSecondYear = filterDataByYear(+secondYear, 'populationSecondYear');
 
@@ -310,6 +312,9 @@ export const scatterEvolution = (csvFile, cities) => {
   }
 
   d3.select(`#select-compare-${cities}`).on('click', dataScatterEvolution => {
+
+
+
     updateYearData();
   });
 
