@@ -1,5 +1,3 @@
-import { menu, widthMobile } from './shared/index.js';
-
 const area = () => {
   const margin = { top: 24, right: 16, bottom: 24, left: 64 };
   let width = 0;
@@ -43,9 +41,7 @@ const area = () => {
       .tickFormat(d3.format('d'))
       .ticks(13);
 
-    g.select('.axis-x')
-      .attr('transform', `translate(0,${height})`)
-      .call(axisX);
+    g.select('.axis-x').attr('transform', `translate(0,${height})`).call(axisX);
 
     const axisY = d3
       .axisLeft(scales.count.y)
@@ -84,10 +80,7 @@ const area = () => {
 
     const layer = container.selectAll('.area').data([dataz]);
 
-    const newLayer = layer
-      .enter()
-      .append('path')
-      .attr('class', 'area');
+    const newLayer = layer.enter().append('path').attr('class', 'area');
 
     layer
       .merge(newLayer)
