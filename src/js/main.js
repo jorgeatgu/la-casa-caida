@@ -1,14 +1,7 @@
 import './../css/styles.css';
 import { cities } from './shared/cities.js';
-import './shared/select-multiselect.js';
-import SlimSelect from 'slim-select';
 
-import {
-  menu,
-  widthMobile,
-  changeLanguage,
-  animation
-} from './shared/index.js';
+import { menu, changeLanguage, animation } from './shared/index.js';
 
 import {
   scatterDesert,
@@ -36,7 +29,6 @@ cities.map(element => {
     lineTotalCSV,
     scatterUnderCSV,
     vegetativeCSV,
-    comparatorCSV,
     evolutionCSV,
     groupByAgeCSV,
     densityCSV
