@@ -123,7 +123,14 @@ export function lineDensidad(csvFile, cities) {
       .data([dataLineDensidad])
       .join('path')
       .attr('class', 'lines')
-      .attr('d', d => line(d))
+      .transition()
+      .duration(300)
+      .ease(d3.easeLinear)
+      .attrTween('d', function (d) {
+        let previous = d3.select(this).attr('d');
+        let current = line(d);
+        return d3.interpolatePath(previous, current);
+      });
 
     drawAxes(g);
   }

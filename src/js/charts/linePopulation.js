@@ -158,7 +158,14 @@ export function linePopulation(csvFile, cities) {
       .data([dataLinePopulation])
       .join('path')
       .attr('class', 'lines')
-      .attr('d', d => line(d))
+      .transition()
+      .duration(300)
+      .ease(d3.easeLinear)
+      .attrTween('d', function (d) {
+        let previous = d3.select(this).attr('d');
+        let current = line(d);
+        return d3.interpolatePath(previous, current);
+      });
 
     container
       .selectAll('.circles-population')
@@ -257,13 +264,12 @@ export function linePopulation(csvFile, cities) {
       });
       setupElements();
       setupScales();
-      updateChart(dataLinePopulation);
       updateSelectCity();
     });
+    menuSelectCity();
   }
 
   window.addEventListener('resize', resize);
 
   loadData();
-  menuSelectCity();
 }

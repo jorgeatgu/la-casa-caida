@@ -180,7 +180,7 @@ export function municipalitiesStacked(csvFile, cities) {
     layer
       .merge(newLayer)
       .transition()
-      .duration(600)
+      .duration(300)
       .ease(d3.easeLinear)
       .attrTween('d', function(d) {
         let previous = d3.select(this).attr('d');
