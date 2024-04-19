@@ -434,7 +434,8 @@
 
     .ss-main .ss-single-selected,
     .ss-main .ss-content {
-        margin-left: 3rem !important;
+        margin-left: 2rem !important;
+        margin-bottom: 1rem !important;
     }
 
 }
