@@ -4162,8 +4162,8 @@ year,cp,name,population,mayor,menor
 2022,50059,Bujaraloz,1013,,
 2022,50060,Bulbuente,244,,
 2022,50061,Bureta,213,,
-2022,50062,Burgo de Ebro El,2591,,
-2022,50063,Buste El,71,,
+2022,50062,El Burgo de Ebro,2591,,
+2022,50063,El Buste,71,,
 2022,50064,Cabañas de Ebro,491,,
 2022,50065,Cabolafuente,49,,
 2022,50066,Cadrete,4473,,
@@ -4193,7 +4193,7 @@ year,cp,name,population,mayor,menor
 2022,50088,Cosuenda,326,,
 2022,50089,Cuarte de Huerva,14169,,
 2022,50090,Cubel,153,,
-2022,50091,Cuerlas Las,39,,
+2022,50091,Las Cuerlas,39,,
 2022,50094,Daroca,1921,,
 2022,50095,Ejea de los Caballeros,17124,,
 2022,50096,Embid de Ariza,31,,
@@ -4204,11 +4204,11 @@ year,cp,name,population,mayor,menor
 2022,50102,Fabara,1088,,
 2022,50104,Farlete,376,,
 2022,50105,Fayón,397,,
-2022,50106,Fayos Los,131,,
+2022,50106,Los Fayos,131,,
 2022,50107,Figueruelas,1226,,
 2022,50108,Fombuena,59,,
-2022,50109,Frago El,117,,
-2022,50110,Frasno El,379,,
+2022,50109,El Frago,117,,
+2022,50110,El Frasno,379,,
 2022,50111,Fréscano,204,,
 2022,50113,Fuendejalón,763,,
 2022,50114,Fuendetodos,144,,
@@ -4277,7 +4277,7 @@ year,cp,name,population,mayor,menor
 2022,50179,Moyuela,251,,
 2022,50180,Mozota,123,,
 2022,50181,Muel,1479,,
-2022,50182,Muela La,6247,,
+2022,50182,La Muela,6247,,
 2022,50183,Munébrega,356,,
 2022,50184,Murero,104,,
 2022,50185,Murillo de Gállego,197,,
@@ -4305,7 +4305,7 @@ year,cp,name,population,mayor,menor
 2022,50207,Piedratajada,91,,
 2022,50208,Pina de Ebro,2433,,
 2022,50209,Pinseque,4278,,
-2022,50210,Pintanos Los,37,,
+2022,50210,Los Pintanos,37,,
 2022,50211,Plasencia de Jalón,325,,
 2022,50212,Pleitas,38,,
 2022,50213,Plenas,100,,
@@ -4314,7 +4314,7 @@ year,cp,name,population,mayor,menor
 2022,50216,Pozuelo de Aragón,263,,
 2022,50217,Pradilla de Ebro,541,,
 2022,50218,Puebla de Albortón,129,,
-2022,50219,Puebla de Alfindén La,6442,,
+2022,50219,La Puebla de Alfindén,6442,,
 2022,50220,Puendeluna,48,,
 2022,50221,Purujosa,27,,
 2022,50222,Quinto,1916,,
@@ -4389,9 +4389,9 @@ year,cp,name,population,mayor,menor
 2022,50292,Villarreal de Huerva,266,,
 2022,50293,Villarroya de la Sierra,435,,
 2022,50294,Villarroya del Campo,82,,
-2022,50282,Vilueña La,65,,
+2022,50282,La Vilueña,65,,
 2022,50295,Vistabella,52,,
-2022,50296,Zaida La,435,,
+2022,50296,La Zaida,435,,
 2022,50297,Zaragoza,673010,,
 2022,50298,Zuera,8632,,
 2023,50001,Abanto,86
@@ -4455,8 +4455,8 @@ year,cp,name,population,mayor,menor
 2023,50059,Bujaraloz,967
 2023,50060,Bulbuente,242
 2023,50061,Bureta,212
-2023,50062,Burgo de Ebro El,2660
-2023,50063,Buste El,64
+2023,50062,El Burgo de Ebro,2660
+2023,50063,El Buste,64
 2023,50064,Cabañas de Ebro,487
 2023,50065,Cabolafuente,46
 2023,50066,Cadrete,4486
@@ -4486,7 +4486,7 @@ year,cp,name,population,mayor,menor
 2023,50088,Cosuenda,335
 2023,50089,Cuarte de Huerva,14701
 2023,50090,Cubel,148
-2023,50091,Cuerlas Las,41
+2023,50091,Las Cuerlas,41
 2023,50094,Daroca,1957
 2023,50095,Ejea de los Caballeros,17135
 2023,50096,Embid de Ariza,31
@@ -4497,11 +4497,11 @@ year,cp,name,population,mayor,menor
 2023,50102,Fabara,1065
 2023,50104,Farlete,408
 2023,50105,Fayón,422
-2023,50106,Fayos Los,128
+2023,50106,Los Fayos,128
 2023,50107,Figueruelas,1250
 2023,50108,Fombuena,57
-2023,50109,Frago El,126
-2023,50110,Frasno El,363
+2023,50109,El Frago,126
+2023,50110,El Frasno,363
 2023,50111,Fréscano,200
 2023,50113,Fuendejalón,756
 2023,50114,Fuendetodos,150
@@ -4570,7 +4570,7 @@ year,cp,name,population,mayor,menor
 2023,50179,Moyuela,241
 2023,50180,Mozota,129
 2023,50181,Muel,1450
-2023,50182,Muela La,6416
+2023,50182,La Muela,6416
 2023,50183,Munébrega,369
 2023,50184,Murero,106
 2023,50185,Murillo de Gállego,203
@@ -4598,7 +4598,7 @@ year,cp,name,population,mayor,menor
 2023,50207,Piedratajada,89
 2023,50208,Pina de Ebro,2456
 2023,50209,Pinseque,4342
-2023,50210,Pintanos Los,40
+2023,50210,Los Pintanos,40
 2023,50211,Plasencia de Jalón,353
 2023,50212,Pleitas,34
 2023,50213,Plenas,105
@@ -4607,7 +4607,7 @@ year,cp,name,population,mayor,menor
 2023,50216,Pozuelo de Aragón,257
 2023,50217,Pradilla de Ebro,558
 2023,50218,Puebla de Albortón,131
-2023,50219,Puebla de Alfindén La,6414
+2023,50219,La Puebla de Alfindén,6414
 2023,50220,Puendeluna,44
 2023,50221,Purujosa,30
 2023,50222,Quinto,1869
@@ -4682,8 +4682,8 @@ year,cp,name,population,mayor,menor
 2023,50292,Villarreal de Huerva,278
 2023,50293,Villarroya de la Sierra,430
 2023,50294,Villarroya del Campo,71
-2023,50282,Vilueña La,63
+2023,50282,La Vilueña,63
 2023,50295,Vistabella,51
-2023,50296,Zaida La,439
+2023,50296,La Zaida,439
 2023,50297,Zaragoza,682513
 2023,50298,Zuera,8677
