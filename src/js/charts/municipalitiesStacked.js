@@ -139,7 +139,7 @@ export function municipalitiesStacked(csvFile, cities) {
     const colors = d3
       .scaleOrdinal()
       .domain(keys)
-      .range(["#9db7c5", "#18857f", "#05cfc0", "#1f4196"]);
+      .range(["#9db7c5", "#18857f", "#1f4196"]);
 
     const legend = svg
       .selectAll('.label')
@@ -210,11 +210,11 @@ export function municipalitiesStacked(csvFile, cities) {
     function mousemove(event) {
       const { layerX } = event;
       const w = chart.node().offsetWidth;
-      var x0 = scales.count.x.invert(layerX),
-        i = bisectDate(dataMunicipalitiesStacked, x0, 1),
-        d0 = dataMunicipalitiesStacked[i - 1],
-        d1 = dataMunicipalitiesStacked[i],
-        d = x0 - d0.year > d1.year - x0 ? d1 : d0;
+      var x0 = scales.count.x.invert(layerX);
+      var i = bisectDate(dataMunicipalitiesStacked, x0, 1);
+      var d0 = dataMunicipalitiesStacked[i - 1];
+      var d1 = dataMunicipalitiesStacked[i];
+      var d = x0 - d0.year > d1.year - x0 ? d1 : d0;
       const positionX = scales.count.x(d.year) + margin.left;
       const postionWidthTooltip = positionX + 200;
       const positionRightTooltip = w - positionX;
