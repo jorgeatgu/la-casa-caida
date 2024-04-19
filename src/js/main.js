@@ -1,5 +1,7 @@
 import './../css/styles.css';
 import { cities } from './shared/cities.js';
+import SlimSelect from 'slim-select';
+import './shared/select-multiselect.js';
 
 import { menu, changeLanguage, animation } from './shared/index.js';
 
