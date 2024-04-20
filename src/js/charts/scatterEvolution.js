@@ -181,7 +181,7 @@ export const scatterEvolution = (csvFile, cities) => {
       .attr('fill', d =>
         d.percentage >= 0 ? '#3b2462' : d.percentage === 0 ? '#111' : '#B41248'
       )
-      .attr('r', 4);
+      .attr('r', 3);
 
     drawAxes(g);
   }

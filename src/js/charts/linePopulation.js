@@ -177,7 +177,7 @@ export function linePopulation(csvFile, cities) {
           .attr('cy', d => scales.count.y(d.population))
           .attr('r', 0),
         update => update
-          .attr('r', 4),
+          .attr('r', 3),
         exit => exit
           .attr('cx', d => scales.count.x(d.year))
           .attr('cy', d => scales.count.y(d.population))
@@ -209,7 +209,7 @@ export function linePopulation(csvFile, cities) {
       .ease(d3.easeLinear)
       .attr('cx', d => scales.count.x(d.year))
       .attr('cy', d => scales.count.y(d.population))
-      .attr('r', 4);
+      .attr('r', 3);
 
     drawAxes(g);
   }
