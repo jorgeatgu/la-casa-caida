@@ -234,7 +234,6 @@ export function linePopulation(csvFile, cities) {
   function menuSelectCity() {
     d3.csv(csvFile).then(data => {
       const citiesName = [...new Set(data.map(({ name }) => name))];
-      console.log("citiesName", citiesName);
       const selectCity = d3.select(`#select-city-${cities}`);
 
       selectCity
