@@ -133,6 +133,9 @@ export function lineEvolution(csvFile, cities) {
   function updateSelectCity() {
     d3.csv(csvFile).then(data => {
       const valueCity = d3.select(`#select-evolution-${cities}`).property('value');
+      if(!valueCity){
+        return
+      }
 
       dataLineEvolution = data.filter(({ municipio }) => municipio === valueCity);
 

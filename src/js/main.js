@@ -1,6 +1,5 @@
 import './../css/styles.css';
 import { cities } from './shared/cities.js';
-import 'tom-select/dist/css/tom-select.default.css';
 import TomSelect from 'tom-select';
 window.TomSelect = TomSelect;
 

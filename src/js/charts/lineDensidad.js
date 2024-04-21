@@ -138,6 +138,9 @@ export function lineDensidad(csvFile, cities) {
   function updateSelectCity() {
     d3.csv(csvFile).then(data => {
       const valueCity = d3.select(`#select-densidad-${cities}`).property('value');
+      if(!valueCity){
+        return
+      }
 
       dataLineDensidad = data.filter(({ name }) => name === valueCity);
 

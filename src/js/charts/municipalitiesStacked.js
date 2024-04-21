@@ -259,6 +259,9 @@ export function municipalitiesStacked(csvFile, cities) {
   function updateSelectCity() {
     d3.csv(csvFile).then(data => {
       const valueCity = d3.select(`#select-municipalities-stack-${cities}`).property('value');
+      if(!valueCity){
+        return
+      }
 
       dataMunicipalitiesStacked = data.filter(({ name }) => name === valueCity);
       dataTable = createStackedData()

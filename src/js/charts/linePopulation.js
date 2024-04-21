@@ -217,6 +217,10 @@ export function linePopulation(csvFile, cities) {
   function updateSelectCity() {
     d3.csv(csvFile).then(data => {
       const valueCity = d3.select(`#select-city-${cities}`).property('value');
+      console.log("valueCity", valueCity);
+      if(!valueCity){
+        return
+      }
 
       dataLinePopulation = data.filter(({ name }) => name === valueCity);
 
@@ -244,7 +248,8 @@ export function linePopulation(csvFile, cities) {
         .attr('value', d => d)
         .text(d => d);
 
-      selectCity.on('change', function() {
+      selectCity.on('change', function(event) {
+        console.log("event", event);
         updateSelectCity();
       });
 

@@ -334,6 +334,9 @@ export function barScatter(csvFile, cities) {
   function updateSelectCity() {
     d3.csv(csvFile).then(data => {
       const valueCity = d3.select(`#filter-city-${cities}`).property('value');
+      if(!valueCity){
+        return
+      }
 
       d3.selectAll(`.scatter-${cities}-circles`)
         .transition()
