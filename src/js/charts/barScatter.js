@@ -1,4 +1,3 @@
-import SlimSelect from 'slim-select';
 import { select, selectAll } from 'd3-selection';
 import { min, max, extent } from 'd3-array';
 import { scaleLinear } from 'd3-scale';
@@ -214,6 +213,33 @@ export function barScatter(csvFile, cities) {
         d3.selectAll('.tooltip-percentage').remove().exit();
 
         updateSelectCity();
+      });
+
+      new TomSelect(`#filter-city-${cities}`,{
+        create: false,
+        placeholder: 'Filtra por municipio',
+        sortField: {
+          field: "text",
+          direction: "asc"
+        }
+      });
+
+      new TomSelect(`#percentage-over-city-${cities}`,{
+        create: false,
+        placeholder: 'Filtra tu municipio',
+        sortField: {
+          field: "text",
+          direction: "asc"
+        }
+      });
+
+      new TomSelect(`#percentage-under-city-${cities}`,{
+        create: false,
+        placeholder: 'Filtra tu municipio',
+        sortField: {
+          field: "text",
+          direction: "asc"
+        }
       });
     });
   }

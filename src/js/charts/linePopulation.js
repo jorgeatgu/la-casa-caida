@@ -234,6 +234,7 @@ export function linePopulation(csvFile, cities) {
   function menuSelectCity() {
     d3.csv(csvFile).then(data => {
       const citiesName = [...new Set(data.map(({ name }) => name))];
+      console.log("citiesName", citiesName);
       const selectCity = d3.select(`#select-city-${cities}`);
 
       selectCity
@@ -246,6 +247,15 @@ export function linePopulation(csvFile, cities) {
 
       selectCity.on('change', function() {
         updateSelectCity();
+      });
+
+      new TomSelect(`#select-city-${cities}`,{
+        create: false,
+        placeholder: 'Busca tu municipio',
+        sortField: {
+          field: "text",
+          direction: "asc"
+        }
       });
     });
   }
@@ -264,9 +274,9 @@ export function linePopulation(csvFile, cities) {
       });
       setupElements();
       setupScales();
+      menuSelectCity();
       updateSelectCity();
     });
-    menuSelectCity();
   }
 
   window.addEventListener('resize', resize);

@@ -174,6 +174,15 @@ export function lineDensidad(csvFile, cities) {
       selectCity.on('change', function() {
         updateSelectCity();
       });
+
+      new TomSelect(`#select-densidad-${cities}` ,{
+        create: false,
+        placeholder: 'Busca tu municipio',
+        sortField: {
+          field: "text",
+          direction: "asc"
+        }
+      });
     });
   }
 

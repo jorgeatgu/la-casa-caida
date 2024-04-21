@@ -45,6 +45,6 @@
     "vite": "2.9.18"
   },
   "dependencies": {
-    "slim-select": "^2.8.2"
+    "tom-select": "^2.3.1"
   }
 }
