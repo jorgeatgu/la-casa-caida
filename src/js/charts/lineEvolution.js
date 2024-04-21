@@ -195,6 +195,7 @@ export function lineEvolution(csvFile, cities) {
       setupElements();
       setupScales();
       updateChart(dataLineEvolution);
+      menuSelectCity();
       updateSelectCity();
     });
   }
@@ -202,5 +203,4 @@ export function lineEvolution(csvFile, cities) {
   window.addEventListener('resize', resize);
 
   loadData();
-  menuSelectCity();
 }

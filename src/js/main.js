@@ -12,7 +12,6 @@ import {
   barScatter,
   barVegetative,
   linePopulation,
-  lineEvolution,
   municipalitiesStacked,
   lineDensidad
 } from './charts/index.js';
@@ -38,7 +37,6 @@ cities.map(element => {
   lineHistoric(lineTotalCSV, city);
   barScatter(scatterUnderCSV, city);
   barVegetative(vegetativeCSV, city);
-  lineEvolution(evolutionCSV, city);
   municipalitiesStacked(groupByAgeCSV, city);
   lineDensidad(densityCSV, city);
 });
