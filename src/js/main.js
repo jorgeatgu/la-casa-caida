@@ -29,7 +29,6 @@ cities.map(element => {
     lineTotalCSV,
     scatterUnderCSV,
     vegetativeCSV,
-    evolutionCSV,
     groupByAgeCSV,
     densityCSV
   } = element;

@@ -77,8 +77,8 @@ export function linePopulation(csvFile, cities) {
       .html(
         d => `
         ${tooltipHeader}
-        <p class="tooltip-deceased">Mayores de 65 años en 2020: <span class="tooltip-number">${d.mayor}%</span><p/>
-        <p class="tooltip-deceased">Menores de 18 años en 2020: <span class="tooltip-number">${d.menor}%</span><p/>
+        <p class="tooltip-deceased">Mayores de 65 años en 2023: <span class="tooltip-number">${d.mayor}%</span><p/>
+        <p class="tooltip-deceased">Menores de 18 años en 2023: <span class="tooltip-number">${d.menor}%</span><p/>
         `
       )
       .transition()
@@ -238,6 +238,7 @@ export function linePopulation(csvFile, cities) {
     d3.csv(csvFile).then(data => {
       const citiesName = [...new Set(data.map(({ name }) => name))];
       const selectCity = d3.select(`#select-city-${cities}`);
+      console.log("selectCity", selectCity);
 
       selectCity
         .selectAll('option')
@@ -247,8 +248,7 @@ export function linePopulation(csvFile, cities) {
         .attr('value', d => d)
         .text(d => d);
 
-      selectCity.on('change', function(event) {
-        console.log("event", event);
+      selectCity.on('change', function() {
         updateSelectCity();
       });
 
