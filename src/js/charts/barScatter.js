@@ -217,6 +217,7 @@ export function barScatter(csvFile, cities) {
 
       new TomSelect(`#filter-city-${cities}`,{
         create: false,
+        maxOptions: null,
         placeholder: 'Filtra por municipio',
         sortField: {
           field: "text",
@@ -226,6 +227,7 @@ export function barScatter(csvFile, cities) {
 
       new TomSelect(`#percentage-over-city-${cities}`,{
         create: false,
+        maxOptions: null,
         placeholder: 'Filtra tu municipio',
         sortField: {
           field: "text",
@@ -235,6 +237,7 @@ export function barScatter(csvFile, cities) {
 
       new TomSelect(`#percentage-under-city-${cities}`,{
         create: false,
+        maxOptions: null,
         placeholder: 'Filtra tu municipio',
         sortField: {
           field: "text",

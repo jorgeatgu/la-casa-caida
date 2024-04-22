@@ -217,7 +217,6 @@ export function linePopulation(csvFile, cities) {
   function updateSelectCity() {
     d3.csv(csvFile).then(data => {
       const valueCity = d3.select(`#select-city-${cities}`).property('value');
-      console.log("valueCity", valueCity);
       if(!valueCity){
         return
       }
@@ -255,6 +254,7 @@ export function linePopulation(csvFile, cities) {
 
       new TomSelect(`#select-city-${cities}`,{
         create: false,
+        maxOptions: null,
         placeholder: 'Busca tu municipio',
         sortField: {
           field: "text",
