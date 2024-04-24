@@ -139,7 +139,7 @@ export function municipalitiesStacked(csvFile, cities) {
     const colors = d3
       .scaleOrdinal()
       .domain(keys)
-      .range(["#9db7c5", "#18857f", "#05cfc0", "#1f4196"]);
+      .range(["#9db7c5", "#18857f", "#1f4196"]);
 
     const legend = svg
       .selectAll('.label')
@@ -180,7 +180,7 @@ export function municipalitiesStacked(csvFile, cities) {
     layer
       .merge(newLayer)
       .transition()
-      .duration(600)
+      .duration(300)
       .ease(d3.easeLinear)
       .attrTween('d', function(d) {
         let previous = d3.select(this).attr('d');
@@ -210,11 +210,11 @@ export function municipalitiesStacked(csvFile, cities) {
     function mousemove(event) {
       const { layerX } = event;
       const w = chart.node().offsetWidth;
-      var x0 = scales.count.x.invert(layerX),
-        i = bisectDate(dataMunicipalitiesStacked, x0, 1),
-        d0 = dataMunicipalitiesStacked[i - 1],
-        d1 = dataMunicipalitiesStacked[i],
-        d = x0 - d0.year > d1.year - x0 ? d1 : d0;
+      var x0 = scales.count.x.invert(layerX);
+      var i = bisectDate(dataMunicipalitiesStacked, x0, 1);
+      var d0 = dataMunicipalitiesStacked[i - 1];
+      var d1 = dataMunicipalitiesStacked[i];
+      var d = x0 - d0.year > d1.year - x0 ? d1 : d0;
       const positionX = scales.count.x(d.year) + margin.left;
       const postionWidthTooltip = positionX + 200;
       const positionRightTooltip = w - positionX;
@@ -259,6 +259,9 @@ export function municipalitiesStacked(csvFile, cities) {
   function updateSelectCity() {
     d3.csv(csvFile).then(data => {
       const valueCity = d3.select(`#select-municipalities-stack-${cities}`).property('value');
+      if(!valueCity){
+        return
+      }
 
       dataMunicipalitiesStacked = data.filter(({ name }) => name === valueCity);
       dataTable = createStackedData()
@@ -283,6 +286,17 @@ export function municipalitiesStacked(csvFile, cities) {
 
       selectCity.on('change', function() {
         updateSelectCity();
+      });
+
+      new TomSelect(`#select-municipalities-stack-${cities}`,{
+        create: false,
+        maxOptions: null,
+        selectOnTab: true,
+        placeholder: 'Busca tu municipio',
+        sortField: {
+          field: "text",
+          direction: "asc"
+        }
       });
     });
   }

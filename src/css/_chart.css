@@ -472,7 +472,8 @@ select {
 
 .rect-desert-demographic {
   font-size: 1rem;
-  background-color: #C33F63;
-  padding: .5rem;
+  background-color: var(--black);
+  padding: .75rem;
   color: var(--white);
+  border-radius: .25rem;
 }

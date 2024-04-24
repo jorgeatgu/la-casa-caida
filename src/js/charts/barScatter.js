@@ -1,4 +1,3 @@
-import SlimSelect from 'slim-select';
 import { select, selectAll } from 'd3-selection';
 import { min, max, extent } from 'd3-array';
 import { scaleLinear } from 'd3-scale';
@@ -141,7 +140,7 @@ export function barScatter(csvFile, cities) {
             `<p class="tooltip-citi">${d.city}<p/>
             <p class="tooltip-population-text">Habitantes: <span class="tooltip-number">${d.population}</span><p/>
             <p class="tooltip-over">Mayores de 65: <span class="tooltip-number">${d.mayor}%</span><p/>
-            <p class="tooltip-under">Menores de 18: <span class="tooltip-number">${d.menor}%</span><p/>
+            <p class="tooltip-under">Menores de 16: <span class="tooltip-number">${d.menor}%</span><p/>
             `
           )
           .style('left', w / 2 - 150 + 'px')
@@ -214,6 +213,36 @@ export function barScatter(csvFile, cities) {
         d3.selectAll('.tooltip-percentage').remove().exit();
 
         updateSelectCity();
+      });
+
+      new TomSelect(`#filter-city-${cities}`,{
+        create: false,
+        maxOptions: null,
+        placeholder: 'Filtra por municipio',
+        sortField: {
+          field: "text",
+          direction: "asc"
+        }
+      });
+
+      new TomSelect(`#percentage-over-city-${cities}`,{
+        create: false,
+        maxOptions: null,
+        placeholder: 'Filtra tu municipio',
+        sortField: {
+          field: "text",
+          direction: "asc"
+        }
+      });
+
+      new TomSelect(`#percentage-under-city-${cities}`,{
+        create: false,
+        maxOptions: null,
+        placeholder: 'Filtra tu municipio',
+        sortField: {
+          field: "text",
+          direction: "asc"
+        }
       });
     });
   }
@@ -308,6 +337,9 @@ export function barScatter(csvFile, cities) {
   function updateSelectCity() {
     d3.csv(csvFile).then(data => {
       const valueCity = d3.select(`#filter-city-${cities}`).property('value');
+      if(!valueCity){
+        return
+      }
 
       d3.selectAll(`.scatter-${cities}-circles`)
         .transition()

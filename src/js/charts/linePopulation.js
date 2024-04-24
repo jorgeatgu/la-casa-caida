@@ -77,8 +77,8 @@ export function linePopulation(csvFile, cities) {
       .html(
         d => `
         ${tooltipHeader}
-        <p class="tooltip-deceased">Mayores de 65 años en 2020: <span class="tooltip-number">${d.mayor}%</span><p/>
-        <p class="tooltip-deceased">Menores de 18 años en 2020: <span class="tooltip-number">${d.menor}%</span><p/>
+        <p class="tooltip-deceased">Mayores de 65 años en 2023: <span class="tooltip-number">${d.mayor}%</span><p/>
+        <p class="tooltip-deceased">Menores de 18 años en 2023: <span class="tooltip-number">${d.menor}%</span><p/>
         `
       )
       .transition()
@@ -158,7 +158,14 @@ export function linePopulation(csvFile, cities) {
       .data([dataLinePopulation])
       .join('path')
       .attr('class', 'lines')
-      .attr('d', d => line(d))
+      .transition()
+      .duration(300)
+      .ease(d3.easeLinear)
+      .attrTween('d', function (d) {
+        let previous = d3.select(this).attr('d');
+        let current = line(d);
+        return d3.interpolatePath(previous, current);
+      });
 
     container
       .selectAll('.circles-population')
@@ -170,7 +177,7 @@ export function linePopulation(csvFile, cities) {
           .attr('cy', d => scales.count.y(d.population))
           .attr('r', 0),
         update => update
-          .attr('r', 4),
+          .attr('r', 3),
         exit => exit
           .attr('cx', d => scales.count.x(d.year))
           .attr('cy', d => scales.count.y(d.population))
@@ -202,7 +209,7 @@ export function linePopulation(csvFile, cities) {
       .ease(d3.easeLinear)
       .attr('cx', d => scales.count.x(d.year))
       .attr('cy', d => scales.count.y(d.population))
-      .attr('r', 4);
+      .attr('r', 3);
 
     drawAxes(g);
   }
@@ -210,6 +217,9 @@ export function linePopulation(csvFile, cities) {
   function updateSelectCity() {
     d3.csv(csvFile).then(data => {
       const valueCity = d3.select(`#select-city-${cities}`).property('value');
+      if(!valueCity){
+        return
+      }
 
       dataLinePopulation = data.filter(({ name }) => name === valueCity);
 
@@ -240,6 +250,17 @@ export function linePopulation(csvFile, cities) {
       selectCity.on('change', function() {
         updateSelectCity();
       });
+
+      new TomSelect(`#select-city-${cities}`,{
+        create: false,
+        maxOptions: null,
+        selectOnTab: true,
+        placeholder: 'Busca tu municipio',
+        sortField: {
+          field: "text",
+          direction: "asc"
+        }
+      });
     });
   }
 
@@ -257,7 +278,7 @@ export function linePopulation(csvFile, cities) {
       });
       setupElements();
       setupScales();
-      updateChart(dataLinePopulation);
+      menuSelectCity();
       updateSelectCity();
     });
   }
@@ -265,5 +286,4 @@ export function linePopulation(csvFile, cities) {
   window.addEventListener('resize', resize);
 
   loadData();
-  menuSelectCity();
 }

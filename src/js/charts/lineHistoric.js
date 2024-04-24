@@ -155,7 +155,7 @@ export function lineHistoric(csvFile, cities) {
       })
       .attr('cx', d => scales.count.x(d.year))
       .attr('cy', d => scales.count.y(d.total))
-      .attr('r', 4);
+      .attr('r', 3);
 
     drawAxes(g);
   }

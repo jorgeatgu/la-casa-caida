@@ -123,7 +123,14 @@ export function lineDensidad(csvFile, cities) {
       .data([dataLineDensidad])
       .join('path')
       .attr('class', 'lines')
-      .attr('d', d => line(d))
+      .transition()
+      .duration(300)
+      .ease(d3.easeLinear)
+      .attrTween('d', function (d) {
+        let previous = d3.select(this).attr('d');
+        let current = line(d);
+        return d3.interpolatePath(previous, current);
+      });
 
     drawAxes(g);
   }
@@ -131,6 +138,9 @@ export function lineDensidad(csvFile, cities) {
   function updateSelectCity() {
     d3.csv(csvFile).then(data => {
       const valueCity = d3.select(`#select-densidad-${cities}`).property('value');
+      if(!valueCity){
+        return
+      }
 
       dataLineDensidad = data.filter(({ name }) => name === valueCity);
 
@@ -166,6 +176,17 @@ export function lineDensidad(csvFile, cities) {
 
       selectCity.on('change', function() {
         updateSelectCity();
+      });
+
+      new TomSelect(`#select-densidad-${cities}` ,{
+        create: false,
+        maxOptions: null,
+        selectOnTab: true,
+        placeholder: 'Busca tu municipio',
+        sortField: {
+          field: "text",
+          direction: "asc"
+        }
       });
     });
   }

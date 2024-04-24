@@ -30,7 +30,7 @@ export function lineEvolution(csvFile, cities) {
   const margin = { top: 16, right: 16, bottom: 24, left: 62 };
   let width = 0;
   let height = 0;
-  const chart = d3.select(`.line-lb-${cities}`);
+  const chart = d3.select(`.line-evolution-${cities}`);
   const svg = chart.select('svg');
   let scales = {};
   let dataLineEvolution;
@@ -49,13 +49,13 @@ export function lineEvolution(csvFile, cities) {
   }
 
   function setupElements() {
-    const g = svg.select(`.line-lb-${cities}-container`);
+    const g = svg.select(`.line-evolution-${cities}-container`);
 
     g.append('g').attr('class', 'axis axis-x');
 
     g.append('g').attr('class', 'axis axis-y');
 
-    g.append('g').attr('class', `line-lb-${cities}-container-bis`);
+    g.append('g').attr('class', `line-evolution-${cities}-container-bis`);
   }
 
   function updateScales(width, height) {
@@ -100,7 +100,7 @@ export function lineEvolution(csvFile, cities) {
 
     svg.attr('width', w).attr('height', h);
 
-    const g = svg.select(`.line-lb-${cities}-container`);
+    const g = svg.select(`.line-evolution-${cities}-container`);
 
     g.attr('transform', `translate(${left},${top})`);
 
@@ -111,21 +111,31 @@ export function lineEvolution(csvFile, cities) {
 
     updateScales(width, height);
 
-    const container = chart.select(`.line-lb-${cities}-container-bis`);
+    const container = chart.select(`.line-evolution-${cities}-container-bis`);
 
     container
       .selectAll('.lines')
       .data([dataLineEvolution])
       .join('path')
       .attr('class', 'lines')
-      .attr('d', d => line(d))
+      .transition()
+      .duration(300)
+      .ease(d3.easeLinear)
+      .attrTween('d', function (d) {
+        let previous = d3.select(this).attr('d');
+        let current = line(d);
+        return d3.interpolatePath(previous, current);
+      });
 
     drawAxes(g);
   }
 
   function updateSelectCity() {
     d3.csv(csvFile).then(data => {
-      const valueCity = d3.select(`#select-lb-${cities}`).property('value');
+      const valueCity = d3.select(`#select-evolution-${cities}`).property('value');
+      if(!valueCity){
+        return
+      }
 
       dataLineEvolution = data.filter(({ municipio }) => municipio === valueCity);
 
@@ -146,7 +156,7 @@ export function lineEvolution(csvFile, cities) {
   function menuSelectCity() {
     d3.csv(csvFile).then(data => {
       const citiesName = [...new Set(data.map(({ municipio }) => municipio))];
-      const selectCity = d3.select(`#select-lb-${cities}`);
+      const selectCity = d3.select(`#select-evolution-${cities}`);
 
       selectCity
         .selectAll('option')
@@ -158,6 +168,17 @@ export function lineEvolution(csvFile, cities) {
 
       selectCity.on('change', function() {
         updateSelectCity();
+      });
+
+      new TomSelect(`#select-evolution-${cities}` ,{
+        create: false,
+        maxOptions: null,
+        selectOnTab: true,
+        placeholder: 'Busca tu municipio',
+        sortField: {
+          field: "text",
+          direction: "asc"
+        }
       });
     });
   }
@@ -176,6 +197,7 @@ export function lineEvolution(csvFile, cities) {
       setupElements();
       setupScales();
       updateChart(dataLineEvolution);
+      menuSelectCity();
       updateSelectCity();
     });
   }
@@ -183,5 +205,4 @@ export function lineEvolution(csvFile, cities) {
   window.addEventListener('resize', resize);
 
   loadData();
-  menuSelectCity();
 }

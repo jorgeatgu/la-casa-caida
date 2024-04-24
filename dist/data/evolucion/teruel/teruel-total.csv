@@ -2123,3 +2123,476 @@ year,cp,name,population
 2019,44266, Visiedo,119,
 2019,44267, Vivel del Río Martín,73,
 2019,44268, Zoma La,33,
+year,cp,name,Total
+2022,44001,Ababuj,72
+2021,44001,Ababuj,76
+2022,44002,Abejuela,56
+2021,44002,Abejuela,57
+2022,44003,Aguatón,16
+2021,44003,Aguatón,17
+2022,44004,Aguaviva,556
+2021,44004,Aguaviva,547
+2022,44005,Aguilar del Alfambra,81
+2021,44005,Aguilar del Alfambra,76
+2022,44006,Alacón,219
+2021,44006,Alacón,235
+2022,44007,Alba,181
+2021,44007,Alba,184
+2022,44008,Albalate del Arzobispo,1959
+2021,44008,Albalate del Arzobispo,1977
+2022,44009,Albarracín,1008
+2021,44009,Albarracín,990
+2022,44010,Albentosa,275
+2021,44010,Albentosa,294
+2022,44011,Alcaine,46
+2021,44011,Alcaine,46
+2022,44012,Alcalá de la Selva,383
+2021,44012,Alcalá de la Selva,352
+2022,44013,Alcañiz,16054
+2021,44013,Alcañiz,16029
+2022,44014,Alcorisa,3252
+2021,44014,Alcorisa,3293
+2022,44016,Alfambra,490
+2021,44016,Alfambra,483
+2022,44017,Aliaga,323
+2021,44017,Aliaga,333
+2022,44021,Allepuz,124
+2021,44021,Allepuz,128
+2022,44022,Alloza,553
+2021,44022,Alloza,577
+2022,44023,Allueva,21
+2021,44023,Allueva,22
+2022,44018,Almohaja,16
+2021,44018,Almohaja,14
+2022,44019,Alobras,67
+2021,44019,Alobras,65
+2022,44020,Alpeñés,20
+2021,44020,Alpeñés,20
+2022,44024,Anadón,33
+2021,44024,Anadón,32
+2022,44025,Andorra,7201
+2021,44025,Andorra,7327
+2022,44026,Arcos de las Salinas,117
+2021,44026,Arcos de las Salinas,112
+2022,44027,Arens de Lledó,214
+2021,44027,Arens de Lledó,221
+2022,44028,Argente,208
+2021,44028,Argente,199
+2022,44029,Ariño,665
+2021,44029,Ariño,685
+2022,44031,Azaila,105
+2021,44031,Azaila,100
+2022,44032,Bádenas,19
+2021,44032,Bádenas,18
+2022,44033,Báguena,271
+2021,44033,Báguena,278
+2022,44034,Bañón,157
+2021,44034,Bañón,149
+2022,44035,Barrachina,116
+2021,44035,Barrachina,113
+2022,44036,Bea,33
+2021,44036,Bea,31
+2022,44037,Beceite,550
+2021,44037,Beceite,544
+2022,44039,Bello,230
+2021,44039,Bello,224
+2022,44038,Belmonte de San José,136
+2021,44038,Belmonte de San José,123
+2022,44040,Berge,231
+2021,44040,Berge,237
+2022,44041,Bezas,63
+2021,44041,Bezas,63
+2022,44042,Blancas,140
+2021,44042,Blancas,132
+2022,44043,Blesa,88
+2021,44043,Blesa,85
+2022,44044,Bordón,111
+2021,44044,Bordón,116
+2022,44045,Bronchales,435
+2021,44045,Bronchales,424
+2022,44046,Bueña,51
+2021,44046,Bueña,52
+2022,44047,Burbáguena,278
+2021,44047,Burbáguena,207
+2022,44048,Cabra de Mora,69
+2021,44048,Cabra de Mora,68
+2022,44049,Calaceite,993
+2021,44049,Calaceite,982
+2022,44050,Calamocha,4485
+2021,44050,Calamocha,4473
+2022,44051,Calanda,3755
+2021,44051,Calanda,3753
+2022,44052,Calomarde,77
+2021,44052,Calomarde,78
+2022,44053,Camañas,137
+2021,44053,Camañas,140
+2022,44054,Camarena de la Sierra,123
+2021,44054,Camarena de la Sierra,116
+2022,44055,Camarillas,84
+2021,44055,Camarillas,82
+2022,44056,Caminreal,625
+2021,44056,Caminreal,634
+2022,44059,Cantavieja,707
+2021,44059,Cantavieja,734
+2022,44060,Cañada de Benatanduz,35
+2021,44060,Cañada de Benatanduz,34
+2022,44061,Cañada de Verich La,97
+2021,44061,Cañada de Verich La,101
+2022,44062,Cañada Vellida,38
+2021,44062,Cañada Vellida,37
+2022,44063,Cañizar del Olivar,103
+2021,44063,Cañizar del Olivar,105
+2022,44064,Cascante del Río,66
+2021,44064,Cascante del Río,69
+2022,44065,Castejón de Tornos,53
+2021,44065,Castejón de Tornos,52
+2022,44066,Castel de Cabra,95
+2021,44066,Castel de Cabra,95
+2022,44070,Castellar El,55
+2021,44070,Castellar El,56
+2022,44071,Castellote,677
+2021,44071,Castellote,687
+2022,44067,Castelnou,113
+2021,44067,Castelnou,120
+2022,44068,Castelserás,793
+2021,44068,Castelserás,789
+2022,44074,Cedrillas,634
+2021,44074,Cedrillas,609
+2022,44075,Celadas,362
+2021,44075,Celadas,374
+2022,44076,Cella,2611
+2021,44076,Cella,2578
+2022,44077,Cerollera La,74
+2021,44077,Cerollera La,84
+2022,44080,Codoñera La,317
+2021,44080,Codoñera La,317
+2022,44082,Corbalán,110
+2021,44082,Corbalán,108
+2022,44084,Cortes de Aragón,62
+2021,44084,Cortes de Aragón,63
+2022,44085,Cosa,50
+2021,44085,Cosa,55
+2022,44086,Cretas,563
+2021,44086,Cretas,555
+2022,44087,Crivillén,90
+2021,44087,Crivillén,87
+2022,44088,Cuba La,42
+2021,44088,Cuba La,42
+2022,44089,Cubla,60
+2021,44089,Cubla,52
+2022,44090,Cucalón,78
+2021,44090,Cucalón,82
+2022,44092,Cuervo El,72
+2021,44092,Cuervo El,74
+2022,44093,Cuevas de Almudén,126
+2021,44093,Cuevas de Almudén,118
+2022,44094,Cuevas Labradas,133
+2021,44094,Cuevas Labradas,137
+2022,44096,Ejulve,186
+2021,44096,Ejulve,178
+2022,44097,Escorihuela,138
+2021,44097,Escorihuela,141
+2022,44099,Escucha,773
+2021,44099,Escucha,782
+2022,44100,Estercuel,205
+2021,44100,Estercuel,209
+2022,44101,Ferreruela de Huerva,70
+2021,44101,Ferreruela de Huerva,74
+2022,44102,Fonfría,30
+2021,44102,Fonfría,29
+2022,44103,Formiche Alto,159
+2021,44103,Formiche Alto,155
+2022,44105,Fórnoles,86
+2021,44105,Fórnoles,81
+2022,44106,Fortanete,209
+2021,44106,Fortanete,200
+2022,44107,Foz-Calanda,273
+2021,44107,Foz-Calanda,271
+2022,44108,Fresneda La,462
+2021,44108,Fresneda La,457
+2022,44109,Frías de Albarracín,105
+2021,44109,Frías de Albarracín,105
+2022,44110,Fuenferrada,35
+2021,44110,Fuenferrada,40
+2022,44111,Fuentes Calientes,89
+2021,44111,Fuentes Calientes,92
+2022,44112,Fuentes Claras,434
+2021,44112,Fuentes Claras,433
+2022,44113,Fuentes de Rubielos,160
+2021,44113,Fuentes de Rubielos,154
+2022,44114,Fuentespalda,293
+2021,44114,Fuentespalda,293
+2022,44115,Galve,150
+2021,44115,Galve,163
+2022,44116,Gargallo,98
+2021,44116,Gargallo,98
+2022,44117,Gea de Albarracín,434
+2021,44117,Gea de Albarracín,378
+2022,44118,Ginebrosa La,200
+2021,44118,Ginebrosa La,201
+2022,44119,Griegos,140
+2021,44119,Griegos,138
+2022,44120,Guadalaviar,249
+2021,44120,Guadalaviar,253
+2022,44121,Gúdar,73
+2021,44121,Gúdar,79
+2022,44122,Híjar,1751
+2021,44122,Híjar,1771
+2022,44123,Hinojosa de Jarque,106
+2021,44123,Hinojosa de Jarque,110
+2022,44124,Hoz de la Vieja La,90
+2021,44124,Hoz de la Vieja La,91
+2022,44125,Huesa del Común,71
+2021,44125,Huesa del Común,73
+2022,44126,Iglesuela del Cid La,395
+2021,44126,Iglesuela del Cid La,407
+2022,44127,Jabaloyas,65
+2021,44127,Jabaloyas,61
+2022,44128,Jarque de la Val,56
+2021,44128,Jarque de la Val,60
+2022,44129,Jatiel,46
+2021,44129,Jatiel,45
+2022,44130,Jorcas,36
+2021,44130,Jorcas,34
+2022,44131,Josa,42
+2021,44131,Josa,36
+2022,44132,Lagueruela,71
+2021,44132,Lagueruela,66
+2022,44133,Lanzuela,25
+2021,44133,Lanzuela,25
+2022,44135,Libros,102
+2021,44135,Libros,104
+2022,44136,Lidón,53
+2021,44136,Lidón,54
+2022,44137,Linares de Mora,235
+2021,44137,Linares de Mora,226
+2022,44141,Lledó,171
+2021,44141,Lledó,172
+2022,44138,Loscos,118
+2021,44138,Loscos,122
+2022,44142,Maicas,31
+2021,44142,Maicas,31
+2022,44143,Manzanera,533
+2021,44143,Manzanera,527
+2022,44144,Martín del Río,372
+2021,44144,Martín del Río,372
+2022,44145,Mas de las Matas,1255
+2021,44145,Mas de las Matas,1271
+2022,44146,Mata de los Olmos La,270
+2021,44146,Mata de los Olmos La,257
+2022,44147,Mazaleón,487
+2021,44147,Mazaleón,503
+2022,44148,Mezquita de Jarque,84
+2021,44148,Mezquita de Jarque,87
+2022,44149,Mirambel,111
+2021,44149,Mirambel,111
+2022,44150,Miravete de la Sierra,27
+2021,44150,Miravete de la Sierra,38
+2022,44151,Molinos,227
+2021,44151,Molinos,238
+2022,44152,Monforte de Moyuela,75
+2021,44152,Monforte de Moyuela,71
+2022,44153,Monreal del Campo,2499
+2021,44153,Monreal del Campo,2522
+2022,44154,Monroyo,312
+2021,44154,Monroyo,318
+2022,44155,Montalbán,1209
+2021,44155,Montalbán,1237
+2022,44156,Monteagudo del Castillo,43
+2021,44156,Monteagudo del Castillo,51
+2022,44157,Monterde de Albarracín,55
+2021,44157,Monterde de Albarracín,57
+2022,44158,Mora de Rubielos,1569
+2021,44158,Mora de Rubielos,1539
+2022,44159,Moscardón,52
+2021,44159,Moscardón,53
+2022,44160,Mosqueruela,551
+2021,44160,Mosqueruela,531
+2022,44161,Muniesa,571
+2021,44161,Muniesa,571
+2022,44163,Noguera de Albarracín,138
+2021,44163,Noguera de Albarracín,142
+2022,44164,Nogueras,27
+2021,44164,Nogueras,28
+2022,44165,Nogueruelas,205
+2021,44165,Nogueruelas,207
+2022,44167,Obón,35
+2021,44167,Obón,32
+2022,44168,Odón,214
+2021,44168,Odón,218
+2022,44169,Ojos Negros,328
+2021,44169,Ojos Negros,330
+2022,44171,Olba,266
+2021,44171,Olba,264
+2022,44172,Oliete,330
+2021,44172,Oliete,340
+2022,44173,Olmos Los,120
+2021,44173,Olmos Los,118
+2022,44174,Orihuela del Tremedal,454
+2021,44174,Orihuela del Tremedal,454
+2022,44175,Orrios,123
+2021,44175,Orrios,130
+2022,44176,Palomar de Arroyos,172
+2021,44176,Palomar de Arroyos,168
+2022,44177,Pancrudo,123
+2021,44177,Pancrudo,119
+2022,44178,Parras de Castellote Las,60
+2021,44178,Parras de Castellote Las,56
+2022,44179,Peñarroya de Tastavins,450
+2021,44179,Peñarroya de Tastavins,450
+2022,44180,Peracense,78
+2021,44180,Peracense,85
+2022,44181,Peralejos,85
+2021,44181,Peralejos,85
+2022,44182,Perales del Alfambra,264
+2021,44182,Perales del Alfambra,251
+2022,44183,Pitarque,69
+2021,44183,Pitarque,69
+2022,44184,Plou,47
+2021,44184,Plou,48
+2022,44185,Pobo El,106
+2021,44185,Pobo El,112
+2022,44187,Portellada La,236
+2021,44187,Portellada La,230
+2022,44189,Pozondón,48
+2021,44189,Pozondón,47
+2022,44190,Pozuel del Campo,60
+2021,44190,Pozuel del Campo,62
+2022,44191,Puebla de Híjar La,914
+2021,44191,Puebla de Híjar La,909
+2022,44192,Puebla de Valverde La,448
+2021,44192,Puebla de Valverde La,445
+2022,44193,Puertomingalvo,141
+2021,44193,Puertomingalvo,125
+2022,44194,Ráfales,146
+2021,44194,Ráfales,144
+2022,44195,Rillo,86
+2021,44195,Rillo,92
+2022,44196,Riodeva,136
+2021,44196,Riodeva,128
+2022,44197,Ródenas,62
+2021,44197,Ródenas,61
+2022,44198,Royuela,225
+2021,44198,Royuela,212
+2022,44199,Rubiales,43
+2021,44199,Rubiales,42
+2022,44200,Rubielos de la Cérida,32
+2021,44200,Rubielos de la Cérida,37
+2022,44201,Rubielos de Mora,624
+2021,44201,Rubielos de Mora,632
+2022,44203,Salcedillo,11
+2021,44203,Salcedillo,11
+2022,44204,Saldón,22
+2021,44204,Saldón,25
+2022,44205,Samper de Calanda,731
+2021,44205,Samper de Calanda,731
+2022,44206,San Agustín,134
+2021,44206,San Agustín,138
+2022,44207,San Martín del Río,132
+2021,44207,San Martín del Río,137
+2022,44208,Santa Cruz de Nogueras,25
+2021,44208,Santa Cruz de Nogueras,30
+2022,44209,Santa Eulalia,1033
+2021,44209,Santa Eulalia,1066
+2022,44210,Sarrión,1201
+2021,44210,Sarrión,1194
+2022,44211,Segura de los Baños,42
+2021,44211,Segura de los Baños,38
+2022,44212,Seno,43
+2021,44212,Seno,44
+2022,44213,Singra,80
+2021,44213,Singra,80
+2022,44215,Terriente,191
+2021,44215,Terriente,181
+2022,44216,Teruel,35900
+2021,44216,Teruel,35994
+2022,44217,Toril y Masegoso,37
+2021,44217,Toril y Masegoso,36
+2022,44218,Tormón,26
+2021,44218,Tormón,25
+2022,44219,Tornos,196
+2021,44219,Tornos,201
+2022,44220,Torralba de los Sisones,151
+2021,44220,Torralba de los Sisones,162
+2022,44223,Torre de Arcas,82
+2021,44223,Torre de Arcas,93
+2022,44224,Torre de las Arcas,24
+2021,44224,Torre de las Arcas,25
+2022,44225,Torre del Compte,125
+2021,44225,Torre del Compte,122
+2022,44227,Torre los Negros,81
+2021,44227,Torre los Negros,82
+2022,44221,Torrecilla de Alcañiz,460
+2021,44221,Torrecilla de Alcañiz,450
+2022,44222,Torrecilla del Rebollar,121
+2021,44222,Torrecilla del Rebollar,122
+2022,44226,Torrelacárcel,140
+2021,44226,Torrelacárcel,142
+2022,44228,Torremocha de Jiloca,106
+2021,44228,Torremocha de Jiloca,108
+2022,44229,Torres de Albarracín,168
+2021,44229,Torres de Albarracín,171
+2022,44230,Torrevelilla,170
+2021,44230,Torrevelilla,180
+2022,44231,Torrijas,35
+2021,44231,Torrijas,38
+2022,44232,Torrijo del Campo,482
+2021,44232,Torrijo del Campo,470
+2022,44234,Tramacastiel,66
+2021,44234,Tramacastiel,67
+2022,44235,Tramacastilla,117
+2021,44235,Tramacastilla,105
+2022,44236,Tronchón,61
+2021,44236,Tronchón,65
+2022,44237,Urrea de Gaén,440
+2021,44237,Urrea de Gaén,435
+2022,44238,Utrillas,3011
+2021,44238,Utrillas,3003
+2022,44239,Valacloche,26
+2021,44239,Valacloche,24
+2022,44240,Valbona,188
+2021,44240,Valbona,184
+2022,44241,Valdealgorfa,591
+2021,44241,Valdealgorfa,589
+2022,44243,Valdecuenca,31
+2021,44243,Valdecuenca,29
+2022,44244,Valdelinares,78
+2021,44244,Valdelinares,82
+2022,44245,Valdeltormo,301
+2021,44245,Valdeltormo,293
+2022,44246,Valderrobres,2498
+2021,44246,Valderrobres,2457
+2022,44247,Valjunquera,337
+2021,44247,Valjunquera,342
+2022,44249,Vallecillo El,41
+2021,44249,Vallecillo El,39
+2022,44250,Veguillas de la Sierra,21
+2021,44250,Veguillas de la Sierra,21
+2022,44251,Villafranca del Campo,301
+2021,44251,Villafranca del Campo,302
+2022,44252,Villahermosa del Campo,90
+2021,44252,Villahermosa del Campo,88
+2022,44256,Villanueva del Rebollar de la Sierra,44
+2021,44256,Villanueva del Rebollar de la Sierra,42
+2022,44257,Villar del Cobo,165
+2021,44257,Villar del Cobo,163
+2022,44258,Villar del Salz,63
+2021,44258,Villar del Salz,66
+2022,44260,Villarluengo,174
+2021,44260,Villarluengo,169
+2022,44261,Villarquemado,857
+2021,44261,Villarquemado,846
+2022,44262,Villarroya de los Pinares,172
+2021,44262,Villarroya de los Pinares,175
+2022,44263,Villastar,543
+2021,44263,Villastar,548
+2022,44264,Villel,329
+2021,44264,Villel,325
+2022,44265,Vinaceite,211
+2021,44265,Vinaceite,215
+2022,44266,Visiedo,118
+2021,44266,Visiedo,124
+2022,44267,Vivel del Río Martín,68
+2021,44267,Vivel del Río Martín,75
+2022,44268,Zoma La,30
+2021,44268,Zoma La,31

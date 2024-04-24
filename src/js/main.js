@@ -1,5 +1,7 @@
 import './../css/styles.css';
 import { cities } from './shared/cities.js';
+import TomSelect from 'tom-select';
+window.TomSelect = TomSelect;
 
 import { menu, changeLanguage, animation } from './shared/index.js';
 
@@ -10,8 +12,6 @@ import {
   barScatter,
   barVegetative,
   linePopulation,
-  lineEvolution,
-  scatterEvolution,
   municipalitiesStacked,
   lineDensidad
 } from './charts/index.js';
@@ -29,7 +29,6 @@ cities.map(element => {
     lineTotalCSV,
     scatterUnderCSV,
     vegetativeCSV,
-    evolutionCSV,
     groupByAgeCSV,
     densityCSV
   } = element;
@@ -37,8 +36,6 @@ cities.map(element => {
   lineHistoric(lineTotalCSV, city);
   barScatter(scatterUnderCSV, city);
   barVegetative(vegetativeCSV, city);
-  lineEvolution(evolutionCSV, city);
-  scatterEvolution(evolutionCSV, city);
   municipalitiesStacked(groupByAgeCSV, city);
   lineDensidad(densityCSV, city);
 });
