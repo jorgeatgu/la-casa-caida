@@ -312,9 +312,6 @@ export const scatterEvolution = (csvFile, cities) => {
   }
 
   d3.select(`#select-compare-${cities}`).on('click', dataScatterEvolution => {
-
-
-
     updateYearData();
   });
 

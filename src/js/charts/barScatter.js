@@ -140,7 +140,7 @@ export function barScatter(csvFile, cities) {
             `<p class="tooltip-citi">${d.city}<p/>
             <p class="tooltip-population-text">Habitantes: <span class="tooltip-number">${d.population}</span><p/>
             <p class="tooltip-over">Mayores de 65: <span class="tooltip-number">${d.mayor}%</span><p/>
-            <p class="tooltip-under">Menores de 18: <span class="tooltip-number">${d.menor}%</span><p/>
+            <p class="tooltip-under">Menores de 16: <span class="tooltip-number">${d.menor}%</span><p/>
             `
           )
           .style('left', w / 2 - 150 + 'px')

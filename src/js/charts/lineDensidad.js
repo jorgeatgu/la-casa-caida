@@ -181,6 +181,7 @@ export function lineDensidad(csvFile, cities) {
       new TomSelect(`#select-densidad-${cities}` ,{
         create: false,
         maxOptions: null,
+        selectOnTab: true,
         placeholder: 'Busca tu municipio',
         sortField: {
           field: "text",

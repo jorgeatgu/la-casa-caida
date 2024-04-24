@@ -291,6 +291,7 @@ export function municipalitiesStacked(csvFile, cities) {
       new TomSelect(`#select-municipalities-stack-${cities}`,{
         create: false,
         maxOptions: null,
+        selectOnTab: true,
         placeholder: 'Busca tu municipio',
         sortField: {
           field: "text",

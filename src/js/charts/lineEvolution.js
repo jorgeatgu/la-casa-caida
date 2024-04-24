@@ -173,6 +173,7 @@ export function lineEvolution(csvFile, cities) {
       new TomSelect(`#select-evolution-${cities}` ,{
         create: false,
         maxOptions: null,
+        selectOnTab: true,
         placeholder: 'Busca tu municipio',
         sortField: {
           field: "text",
