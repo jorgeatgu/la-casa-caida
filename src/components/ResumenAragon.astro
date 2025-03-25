@@ -1,0 +1,72 @@
+---
+const totalMunicipios = 731;
+const desiertoDemografico = 519;
+const sinMenores = 28;
+const porcentajeZaragoza = 50.88;
+---
+
+<div class="resumen-aragon">
+  <h2 class="subtittle">Aragón en cifras</h2>
+
+  <div class="datos-grid">
+    <div class="dato-card">
+      <h3 class="dato-titulo">731</h3>
+      <p class="dato-texto">Municipios en Aragón</p>
+    </div>
+
+    <div class="dato-card">
+      <h3 class="dato-titulo">{desiertoDemografico}</h3>
+      <p class="dato-texto">Municipios en desierto demográfico</p>
+    </div>
+
+    <div class="dato-card">
+      <h3 class="dato-titulo">{sinMenores}</h3>
+      <p class="dato-texto">Municipios sin menores de 16 años</p>
+    </div>
+
+    <div class="dato-card">
+      <h3 class="dato-titulo">{porcentajeZaragoza}%</h3>
+      <p class="dato-texto">De la población vive en Zaragoza capital</p>
+    </div>
+  </div>
+
+  <article class="sponsor-card">
+    <p class="sponsor-card-text">Actualizado el <strong>21 de marzo de 2025.</strong></p>
+    <p class="sponsor-card-text">Los datos corresponden al padrón del INE a <strong>fecha 1 de enero de 2025.</strong></p>
+  </article>
+</div>
+
+<style>
+  .resumen-aragon {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+  }
+
+  .datos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .dato-card {
+    text-align: center;
+    background-color: var(--bgc-teruel);
+    padding: 1.5rem;
+    border-radius: 4px;
+  }
+
+  .dato-titulo {
+    font-size: 2.5rem;
+    margin: 0;
+    color: var(--project1txt);
+  }
+
+  .dato-texto {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+</style>
