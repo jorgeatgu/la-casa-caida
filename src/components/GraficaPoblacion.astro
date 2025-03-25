@@ -1,0 +1,87 @@
+---
+const { municipio, codigo, provincia } = Astro.props;
+const chartId = `grafica-poblacion-${codigo}`;
+---
+
+<div class="grafica-container">
+  <div class="line-population" id={chartId}></div>
+</div>
+
+<script define:vars={{ municipio, codigo, provincia, chartId }}>
+  import { select } from 'd3-selection';
+  import { scaleLinear, scaleTime } from 'd3-scale';
+  import { line } from 'd3-shape';
+  import { axisBottom, axisLeft } from 'd3-axis';
+  import { csv } from 'd3-fetch';
+  import { extent, max } from 'd3-array';
+
+  // Crear gráfico cuando el DOM esté listo
+  document.addEventListener('DOMContentLoaded', () => {
+    // Configuración del gráfico
+    const margin = { top: 20, right: 30, bottom: 40, left: 60 };
+    const width = 800;
+    const height = 400;
+
+    // Seleccionar el contenedor
+    const container = select(`#${chartId}`);
+
+    // Crear el SVG
+    const svg = container.append("svg")
+      .attr("width", "100%")
+      .attr("height", height + margin.top + margin.bottom)
+      .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
+      .append("g")
+      .attr("transform", `translate(${margin.left},${margin.top})`);
+
+    // Cargar datos CSV
+    const csvPath = `/data/${provincia}/${codigo}.csv`;
+
+    csv(csvPath).then(data => {
+      // Procesar datos
+      data.forEach(d => {
+        d.year = +d.year;
+        d.population = +d.population;
+      });
+
+      // Crear escalas
+      const x = scaleTime()
+        .domain(extent(data, d => d.year))
+        .range([0, width]);
+
+      const y = scaleLinear()
+        .domain([0, max(data, d => d.population) * 1.1])
+        .range([height, 0]);
+
+      // Crear línea
+      const lineGenerator = line()
+        .x(d => x(d.year))
+        .y(d => y(d.population));
+
+      // Añadir ejes
+      svg.append("g")
+        .attr("class", "axis axis-x")
+        .attr("transform", `translate(0,${height})`)
+        .call(axisBottom(x).tickFormat(d => d));
+
+      svg.append("g")
+        .attr("class", "axis axis-y")
+        .call(axisLeft(y));
+
+      // Dibujar línea
+      svg.append("path")
+        .datum(data)
+        .attr("class", "line")
+        .attr("d", lineGenerator);
+
+      // Añadir puntos
+      svg.selectAll(".circles-population")
+        .data(data)
+        .enter()
+        .append("circle")
+        .attr("class", "circles-population")
+        .attr("cx", d => x(d.year))
+        .attr("cy", d => y(d.population))
+        .attr("r", 3);
+    });
+  });
+</script>

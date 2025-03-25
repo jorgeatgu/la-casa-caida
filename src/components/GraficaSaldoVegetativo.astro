@@ -1,0 +1,101 @@
+---
+const { municipio, codigo, provincia } = Astro.props;
+const chartId = `grafica-vegetativo-${codigo}`;
+---
+
+<div class="grafica-container">
+  <div class="bar-negative" id={chartId}></div>
+</div>
+
+<script define:vars={{ municipio, codigo, provincia, chartId }}>
+  import { select } from 'd3-selection';
+  import { scaleLinear, scaleBand } from 'd3-scale';
+  import { axisBottom, axisLeft } from 'd3-axis';
+  import { csv } from 'd3-fetch';
+  import { min, max } from 'd3-array';
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const margin = { top: 24, right: 8, bottom: 24, left: 40 };
+    const width = 800 - margin.left - margin.right;
+    const height = 400 - margin.top - margin.bottom;
+
+    const container = select(`#${chartId}`);
+
+    // Crear tooltip
+    const tooltip = container
+      .append('div')
+      .attr('class', 'tooltip tooltip-negative')
+      .style('opacity', 0);
+
+    const svg = container.append("svg")
+      .attr("width", "100%")
+      .attr("height", height + margin.top + margin.bottom)
+      .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
+      .append("g")
+      .attr("transform", `translate(${margin.left},${margin.top})`);
+
+    const csvPath = `/data/${provincia}/vegetativo/${codigo}.csv`;
+
+    csv(csvPath).then(data => {
+      data.forEach(d => {
+        d.year = +d.year;
+        d.nacidos = +d.nacidos;
+        d.fallecidos = +d.fallecidos;
+        d.saldo = +d.saldo;
+      });
+
+      // Escalas
+      const x = scaleBand()
+        .domain(data.map(d => d.year))
+        .range([0, width])
+        .paddingInner(0.2);
+
+      const y = scaleLinear()
+        .domain([
+          min(data, d => d.saldo) * 2,
+          max(data, d => max(data, d => d.saldo) < 300 ? d.saldo * 6 : d.saldo * 2.5)
+        ])
+        .range([height, 0]);
+
+      // Ejes
+      svg.append("g")
+        .attr("class", "axis axis-x")
+        .attr("transform", `translate(0,${height})`)
+        .call(axisBottom(x).tickValues(
+          x.domain().filter((d, i) => !(i % 6))
+        ));
+
+      svg.append("g")
+        .attr("class", "axis axis-y")
+        .call(axisLeft(y).ticks(5).tickSize(-width).tickFormat(d => d));
+
+      // Barras
+      svg.selectAll(".bar-vertical")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("class", d => (d.saldo < 0 ? "negative bar-vertical" : "positive bar-vertical"))
+        .attr("width", x.bandwidth())
+        .attr("x", d => x(d.year))
+        .attr("y", d => d.saldo > 0 ? y(d.saldo) : y(0))
+        .attr("height", d => Math.abs(y(d.saldo) - y(0)))
+        .on("mouseover", function(event, d) {
+          tooltip.transition()
+            .style("opacity", 1)
+            .html(`
+              <p class="tooltip-year"><span class="tooltip-number">${d.year}</span></p>
+              <p class="tooltip-born">Nacidos: <span class="tooltip-number">${d.nacidos}</span></p>
+              <p class="tooltip-deceased">Fallecidos: <span class="tooltip-number">${d.fallecidos}</span></p>
+              <p class="tooltip-deceased">Saldo: <span class="tooltip-number">${d.saldo}</span></p>
+            `)
+            .style("left", (width / 2 - 100) + "px")
+            .style("top", "50px");
+        })
+        .on("mouseout", function() {
+          tooltip.transition()
+            .duration(200)
+            .style("opacity", 0);
+        });
+    });
+  });
+</script>

@@ -1,0 +1,68 @@
+---
+import '../styles/components/header.css';
+---
+
+<header>
+  <div class="burger">
+    <span></span>
+  </div>
+  <nav class="navegacion menu--inola">
+    <a href="#teruel" class="navegacion-btn menu__item">
+      <span class="menu__item-name">Teruel</span>
+    </a>
+    <a href="#huesca" class="navegacion-btn menu__item">
+      <span class="menu__item-name">Huesca</span>
+    </a>
+    <a href="#zaragoza" class="navegacion-btn menu__item">
+      <span class="menu__item-name">Zaragoza</span>
+    </a>
+    <a href="#testimonios" class="navegacion-btn menu__item">
+      <span class="menu__item-name">¿Qué podemos hacer?</span>
+    </a>
+    <a href="#enlaces" class="navegacion-btn menu__item">
+      <span class="menu__item-name">Enlaces de interés</span>
+    </a>
+    <a href="https://github.com/jorgeatgu/la-casa-caida" class="navegacion-btn menu__item">
+      <span class="menu__item-name">GitHub</span>
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=La casa caída - La evolución de la población en Aragón&url=https://casacaida.co&via=jorgeatgu&related=jorgeatgu&hashtags=Aragón,despoblación" rel="nofollow" target="_blank" title="Comparte en Twitter" class="navegacion-btn menu__item">
+      <span class="menu__item-name">Compartir en Twitter</span>
+    </a>
+  </nav>
+  <div class="overlay"></div>
+</header>
+
+<script>
+  // Script del menú
+  function menu() {
+    const overlay = document.querySelector('.overlay');
+    const navigation = document.querySelector('.navegacion');
+    const body = document.querySelector('body');
+    const elementBtn = document.querySelectorAll('.navegacion-btn');
+    const burger = document.querySelector('.burger');
+
+    function classToggle() {
+      burger.classList.toggle('clicked');
+      overlay.classList.toggle('show');
+      navigation.classList.toggle('show');
+      body.classList.toggle('overflow');
+    }
+
+    document.querySelector('.burger').addEventListener('click', classToggle);
+    document.querySelector('.overlay').addEventListener('click', classToggle);
+
+    for (let index = 0; index < elementBtn.length; index++) {
+      elementBtn[index].addEventListener('click', function() {
+        removeClass();
+      });
+    }
+
+    function removeClass() {
+      overlay.classList.remove('show');
+      navigation.classList.remove('show');
+      burger.classList.remove('clicked');
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', menu);
+</script>
