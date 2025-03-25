@@ -1,0 +1,1418 @@
+[
+  {
+    "nombre": "Ababuj",
+    "provincia": "teruel",
+    "slug": "ababuj",
+    "codigoINE": "44001"
+  },
+  {
+    "nombre": "Abejuela",
+    "provincia": "teruel",
+    "slug": "abejuela",
+    "codigoINE": "44002"
+  },
+  {
+    "nombre": "Aguatón",
+    "provincia": "teruel",
+    "slug": "aguaton",
+    "codigoINE": "44003"
+  },
+  {
+    "nombre": "Aguaviva",
+    "provincia": "teruel",
+    "slug": "aguaviva",
+    "codigoINE": "44004"
+  },
+  {
+    "nombre": "Aguilar del Alfambra",
+    "provincia": "teruel",
+    "slug": "aguilar-del-alfambra",
+    "codigoINE": "44005"
+  },
+  {
+    "nombre": "Alacón",
+    "provincia": "teruel",
+    "slug": "alacon",
+    "codigoINE": "44006"
+  },
+  {
+    "nombre": "Alba",
+    "provincia": "teruel",
+    "slug": "alba",
+    "codigoINE": "44007"
+  },
+  {
+    "nombre": "Albalate del Arzobispo",
+    "provincia": "teruel",
+    "slug": "albalate-del-arzobispo",
+    "codigoINE": "44008"
+  },
+  {
+    "nombre": "Albarracín",
+    "provincia": "teruel",
+    "slug": "albarracin",
+    "codigoINE": "44009"
+  },
+  {
+    "nombre": "Albentosa",
+    "provincia": "teruel",
+    "slug": "albentosa",
+    "codigoINE": "44010"
+  },
+  {
+    "nombre": "Alcaine",
+    "provincia": "teruel",
+    "slug": "alcaine",
+    "codigoINE": "44011"
+  },
+  {
+    "nombre": "Alcalá de la Selva",
+    "provincia": "teruel",
+    "slug": "alcala-de-la-selva",
+    "codigoINE": "44012"
+  },
+  {
+    "nombre": "Alcañiz",
+    "provincia": "teruel",
+    "slug": "alcaniz",
+    "codigoINE": "44013"
+  },
+  {
+    "nombre": "Alcorisa",
+    "provincia": "teruel",
+    "slug": "alcorisa",
+    "codigoINE": "44014"
+  },
+  {
+    "nombre": "Alfambra",
+    "provincia": "teruel",
+    "slug": "alfambra",
+    "codigoINE": "44016"
+  },
+  {
+    "nombre": "Aliaga",
+    "provincia": "teruel",
+    "slug": "aliaga",
+    "codigoINE": "44017"
+  },
+  {
+    "nombre": "Allepuz",
+    "provincia": "teruel",
+    "slug": "allepuz",
+    "codigoINE": "44021"
+  },
+  {
+    "nombre": "Alloza",
+    "provincia": "teruel",
+    "slug": "alloza",
+    "codigoINE": "44022"
+  },
+  {
+    "nombre": "Allueva",
+    "provincia": "teruel",
+    "slug": "allueva",
+    "codigoINE": "44023"
+  },
+  {
+    "nombre": "Almohaja",
+    "provincia": "teruel",
+    "slug": "almohaja",
+    "codigoINE": "44018"
+  },
+  {
+    "nombre": "Alobras",
+    "provincia": "teruel",
+    "slug": "alobras",
+    "codigoINE": "44019"
+  },
+  {
+    "nombre": "Alpeñés",
+    "provincia": "teruel",
+    "slug": "alpenes",
+    "codigoINE": "44020"
+  },
+  {
+    "nombre": "Anadón",
+    "provincia": "teruel",
+    "slug": "anadon",
+    "codigoINE": "44024"
+  },
+  {
+    "nombre": "Andorra",
+    "provincia": "teruel",
+    "slug": "andorra",
+    "codigoINE": "44025"
+  },
+  {
+    "nombre": "Arcos de las Salinas",
+    "provincia": "teruel",
+    "slug": "arcos-de-las-salinas",
+    "codigoINE": "44026"
+  },
+  {
+    "nombre": "Arens de Lledó",
+    "provincia": "teruel",
+    "slug": "arens-de-lledo",
+    "codigoINE": "44027"
+  },
+  {
+    "nombre": "Argente",
+    "provincia": "teruel",
+    "slug": "argente",
+    "codigoINE": "44028"
+  },
+  {
+    "nombre": "Ariño",
+    "provincia": "teruel",
+    "slug": "arino",
+    "codigoINE": "44029"
+  },
+  {
+    "nombre": "Azaila",
+    "provincia": "teruel",
+    "slug": "azaila",
+    "codigoINE": "44031"
+  },
+  {
+    "nombre": "Bádenas",
+    "provincia": "teruel",
+    "slug": "badenas",
+    "codigoINE": "44032"
+  },
+  {
+    "nombre": "Báguena",
+    "provincia": "teruel",
+    "slug": "baguena",
+    "codigoINE": "44033"
+  },
+  {
+    "nombre": "Bañón",
+    "provincia": "teruel",
+    "slug": "banon",
+    "codigoINE": "44034"
+  },
+  {
+    "nombre": "Barrachina",
+    "provincia": "teruel",
+    "slug": "barrachina",
+    "codigoINE": "44035"
+  },
+  {
+    "nombre": "Bea",
+    "provincia": "teruel",
+    "slug": "bea",
+    "codigoINE": "44036"
+  },
+  {
+    "nombre": "Beceite",
+    "provincia": "teruel",
+    "slug": "beceite",
+    "codigoINE": "44037"
+  },
+  {
+    "nombre": "Bello",
+    "provincia": "teruel",
+    "slug": "bello",
+    "codigoINE": "44039"
+  },
+  {
+    "nombre": "Belmonte de San José",
+    "provincia": "teruel",
+    "slug": "belmonte-de-san-jose",
+    "codigoINE": "44038"
+  },
+  {
+    "nombre": "Berge",
+    "provincia": "teruel",
+    "slug": "berge",
+    "codigoINE": "44040"
+  },
+  {
+    "nombre": "Bezas",
+    "provincia": "teruel",
+    "slug": "bezas",
+    "codigoINE": "44041"
+  },
+  {
+    "nombre": "Blancas",
+    "provincia": "teruel",
+    "slug": "blancas",
+    "codigoINE": "44042"
+  },
+  {
+    "nombre": "Blesa",
+    "provincia": "teruel",
+    "slug": "blesa",
+    "codigoINE": "44043"
+  },
+  {
+    "nombre": "Bordón",
+    "provincia": "teruel",
+    "slug": "bordon",
+    "codigoINE": "44044"
+  },
+  {
+    "nombre": "Bronchales",
+    "provincia": "teruel",
+    "slug": "bronchales",
+    "codigoINE": "44045"
+  },
+  {
+    "nombre": "Bueña",
+    "provincia": "teruel",
+    "slug": "buena",
+    "codigoINE": "44046"
+  },
+  {
+    "nombre": "Burbáguena",
+    "provincia": "teruel",
+    "slug": "burbaguena",
+    "codigoINE": "44047"
+  },
+  {
+    "nombre": "Cabra de Mora",
+    "provincia": "teruel",
+    "slug": "cabra-de-mora",
+    "codigoINE": "44048"
+  },
+  {
+    "nombre": "Calaceite",
+    "provincia": "teruel",
+    "slug": "calaceite",
+    "codigoINE": "44049"
+  },
+  {
+    "nombre": "Calamocha",
+    "provincia": "teruel",
+    "slug": "calamocha",
+    "codigoINE": "44050"
+  },
+  {
+    "nombre": "Calanda",
+    "provincia": "teruel",
+    "slug": "calanda",
+    "codigoINE": "44051"
+  },
+  {
+    "nombre": "Calomarde",
+    "provincia": "teruel",
+    "slug": "calomarde",
+    "codigoINE": "44052"
+  },
+  {
+    "nombre": "Camañas",
+    "provincia": "teruel",
+    "slug": "camanas",
+    "codigoINE": "44053"
+  },
+  {
+    "nombre": "Camarena de la Sierra",
+    "provincia": "teruel",
+    "slug": "camarena-de-la-sierra",
+    "codigoINE": "44054"
+  },
+  {
+    "nombre": "Camarillas",
+    "provincia": "teruel",
+    "slug": "camarillas",
+    "codigoINE": "44055"
+  },
+  {
+    "nombre": "Caminreal",
+    "provincia": "teruel",
+    "slug": "caminreal",
+    "codigoINE": "44056"
+  },
+  {
+    "nombre": "Cantavieja",
+    "provincia": "teruel",
+    "slug": "cantavieja",
+    "codigoINE": "44059"
+  },
+  {
+    "nombre": "Cañada de Benatanduz",
+    "provincia": "teruel",
+    "slug": "canada-de-benatanduz",
+    "codigoINE": "44060"
+  },
+  {
+    "nombre": "Cañada Vellida",
+    "provincia": "teruel",
+    "slug": "canada-vellida",
+    "codigoINE": "44062"
+  },
+  {
+    "nombre": "Cañizar del Olivar",
+    "provincia": "teruel",
+    "slug": "canizar-del-olivar",
+    "codigoINE": "44063"
+  },
+  {
+    "nombre": "Cascante del Río",
+    "provincia": "teruel",
+    "slug": "cascante-del-rio",
+    "codigoINE": "44064"
+  },
+  {
+    "nombre": "Castejón de Tornos",
+    "provincia": "teruel",
+    "slug": "castejon-de-tornos",
+    "codigoINE": "44065"
+  },
+  {
+    "nombre": "Castel de Cabra",
+    "provincia": "teruel",
+    "slug": "castel-de-cabra",
+    "codigoINE": "44066"
+  },
+  {
+    "nombre": "Castellote",
+    "provincia": "teruel",
+    "slug": "castellote",
+    "codigoINE": "44071"
+  },
+  {
+    "nombre": "Castelnou",
+    "provincia": "teruel",
+    "slug": "castelnou",
+    "codigoINE": "44067"
+  },
+  {
+    "nombre": "Castelserás",
+    "provincia": "teruel",
+    "slug": "castelseras",
+    "codigoINE": "44068"
+  },
+  {
+    "nombre": "Cedrillas",
+    "provincia": "teruel",
+    "slug": "cedrillas",
+    "codigoINE": "44074"
+  },
+  {
+    "nombre": "Celadas",
+    "provincia": "teruel",
+    "slug": "celadas",
+    "codigoINE": "44075"
+  },
+  {
+    "nombre": "Cella",
+    "provincia": "teruel",
+    "slug": "cella",
+    "codigoINE": "44076"
+  },
+  {
+    "nombre": "Corbalán",
+    "provincia": "teruel",
+    "slug": "corbalan",
+    "codigoINE": "44082"
+  },
+  {
+    "nombre": "Cortes de Aragón",
+    "provincia": "teruel",
+    "slug": "cortes-de-aragon",
+    "codigoINE": "44084"
+  },
+  {
+    "nombre": "Cosa",
+    "provincia": "teruel",
+    "slug": "cosa",
+    "codigoINE": "44085"
+  },
+  {
+    "nombre": "Cretas",
+    "provincia": "teruel",
+    "slug": "cretas",
+    "codigoINE": "44086"
+  },
+  {
+    "nombre": "Crivillén",
+    "provincia": "teruel",
+    "slug": "crivillen",
+    "codigoINE": "44087"
+  },
+  {
+    "nombre": "Cubla",
+    "provincia": "teruel",
+    "slug": "cubla",
+    "codigoINE": "44089"
+  },
+  {
+    "nombre": "Cucalón",
+    "provincia": "teruel",
+    "slug": "cucalon",
+    "codigoINE": "44090"
+  },
+  {
+    "nombre": "Cuevas de Almudén",
+    "provincia": "teruel",
+    "slug": "cuevas-de-almuden",
+    "codigoINE": "44093"
+  },
+  {
+    "nombre": "Cuevas Labradas",
+    "provincia": "teruel",
+    "slug": "cuevas-labradas",
+    "codigoINE": "44094"
+  },
+  {
+    "nombre": "Ejulve",
+    "provincia": "teruel",
+    "slug": "ejulve",
+    "codigoINE": "44096"
+  },
+  {
+    "nombre": "El Castellar",
+    "provincia": "teruel",
+    "slug": "el-castellar",
+    "codigoINE": "44070"
+  },
+  {
+    "nombre": "El Cuervo",
+    "provincia": "teruel",
+    "slug": "el-cuervo",
+    "codigoINE": "44092"
+  },
+  {
+    "nombre": "El Pobo",
+    "provincia": "teruel",
+    "slug": "el-pobo",
+    "codigoINE": "44185"
+  },
+  {
+    "nombre": "El Vallecillo",
+    "provincia": "teruel",
+    "slug": "el-vallecillo",
+    "codigoINE": "44249"
+  },
+  {
+    "nombre": "Escorihuela",
+    "provincia": "teruel",
+    "slug": "escorihuela",
+    "codigoINE": "44097"
+  },
+  {
+    "nombre": "Escucha",
+    "provincia": "teruel",
+    "slug": "escucha",
+    "codigoINE": "44099"
+  },
+  {
+    "nombre": "Estercuel",
+    "provincia": "teruel",
+    "slug": "estercuel",
+    "codigoINE": "44100"
+  },
+  {
+    "nombre": "Ferreruela de Huerva",
+    "provincia": "teruel",
+    "slug": "ferreruela-de-huerva",
+    "codigoINE": "44101"
+  },
+  {
+    "nombre": "Fonfría",
+    "provincia": "teruel",
+    "slug": "fonfria",
+    "codigoINE": "44102"
+  },
+  {
+    "nombre": "Formiche Alto",
+    "provincia": "teruel",
+    "slug": "formiche-alto",
+    "codigoINE": "44103"
+  },
+  {
+    "nombre": "Fórnoles",
+    "provincia": "teruel",
+    "slug": "fornoles",
+    "codigoINE": "44105"
+  },
+  {
+    "nombre": "Fortanete",
+    "provincia": "teruel",
+    "slug": "fortanete",
+    "codigoINE": "44106"
+  },
+  {
+    "nombre": "Foz-Calanda",
+    "provincia": "teruel",
+    "slug": "foz-calanda",
+    "codigoINE": "44107"
+  },
+  {
+    "nombre": "Frías de Albarracín",
+    "provincia": "teruel",
+    "slug": "frias-de-albarracin",
+    "codigoINE": "44109"
+  },
+  {
+    "nombre": "Fuenferrada",
+    "provincia": "teruel",
+    "slug": "fuenferrada",
+    "codigoINE": "44110"
+  },
+  {
+    "nombre": "Fuentes Calientes",
+    "provincia": "teruel",
+    "slug": "fuentes-calientes",
+    "codigoINE": "44111"
+  },
+  {
+    "nombre": "Fuentes Claras",
+    "provincia": "teruel",
+    "slug": "fuentes-claras",
+    "codigoINE": "44112"
+  },
+  {
+    "nombre": "Fuentes de Rubielos",
+    "provincia": "teruel",
+    "slug": "fuentes-de-rubielos",
+    "codigoINE": "44113"
+  },
+  {
+    "nombre": "Fuentespalda",
+    "provincia": "teruel",
+    "slug": "fuentespalda",
+    "codigoINE": "44114"
+  },
+  {
+    "nombre": "Galve",
+    "provincia": "teruel",
+    "slug": "galve",
+    "codigoINE": "44115"
+  },
+  {
+    "nombre": "Gargallo",
+    "provincia": "teruel",
+    "slug": "gargallo",
+    "codigoINE": "44116"
+  },
+  {
+    "nombre": "Gea de Albarracín",
+    "provincia": "teruel",
+    "slug": "gea-de-albarracin",
+    "codigoINE": "44117"
+  },
+  {
+    "nombre": "Griegos",
+    "provincia": "teruel",
+    "slug": "griegos",
+    "codigoINE": "44119"
+  },
+  {
+    "nombre": "Guadalaviar",
+    "provincia": "teruel",
+    "slug": "guadalaviar",
+    "codigoINE": "44120"
+  },
+  {
+    "nombre": "Gúdar",
+    "provincia": "teruel",
+    "slug": "gudar",
+    "codigoINE": "44121"
+  },
+  {
+    "nombre": "Híjar",
+    "provincia": "teruel",
+    "slug": "hijar",
+    "codigoINE": "44122"
+  },
+  {
+    "nombre": "Hinojosa de Jarque",
+    "provincia": "teruel",
+    "slug": "hinojosa-de-jarque",
+    "codigoINE": "44123"
+  },
+  {
+    "nombre": "Huesa del Común",
+    "provincia": "teruel",
+    "slug": "huesa-del-comun",
+    "codigoINE": "44125"
+  },
+  {
+    "nombre": "Jabaloyas",
+    "provincia": "teruel",
+    "slug": "jabaloyas",
+    "codigoINE": "44127"
+  },
+  {
+    "nombre": "Jarque de la Val",
+    "provincia": "teruel",
+    "slug": "jarque-de-la-val",
+    "codigoINE": "44128"
+  },
+  {
+    "nombre": "Jatiel",
+    "provincia": "teruel",
+    "slug": "jatiel",
+    "codigoINE": "44129"
+  },
+  {
+    "nombre": "Jorcas",
+    "provincia": "teruel",
+    "slug": "jorcas",
+    "codigoINE": "44130"
+  },
+  {
+    "nombre": "Josa",
+    "provincia": "teruel",
+    "slug": "josa",
+    "codigoINE": "44131"
+  },
+  {
+    "nombre": "La Cañada de Verich",
+    "provincia": "teruel",
+    "slug": "la-canada-de-verich",
+    "codigoINE": "44061"
+  },
+  {
+    "nombre": "La Cerollera",
+    "provincia": "teruel",
+    "slug": "la-cerollera",
+    "codigoINE": "44077"
+  },
+  {
+    "nombre": "La Codoñera",
+    "provincia": "teruel",
+    "slug": "la-codonera",
+    "codigoINE": "44080"
+  },
+  {
+    "nombre": "La Cuba",
+    "provincia": "teruel",
+    "slug": "la-cuba",
+    "codigoINE": "44088"
+  },
+  {
+    "nombre": "La Fresneda",
+    "provincia": "teruel",
+    "slug": "la-fresneda",
+    "codigoINE": "44108"
+  },
+  {
+    "nombre": "La Ginebrosa",
+    "provincia": "teruel",
+    "slug": "la-ginebrosa",
+    "codigoINE": "44118"
+  },
+  {
+    "nombre": "La Hoz de la Vieja",
+    "provincia": "teruel",
+    "slug": "la-hoz-de-la-vieja",
+    "codigoINE": "44124"
+  },
+  {
+    "nombre": "La Iglesuela del Cid",
+    "provincia": "teruel",
+    "slug": "la-iglesuela-del-cid",
+    "codigoINE": "44126"
+  },
+  {
+    "nombre": "La Mata de los Olmos",
+    "provincia": "teruel",
+    "slug": "la-mata-de-los-olmos",
+    "codigoINE": "44146"
+  },
+  {
+    "nombre": "La Portellada",
+    "provincia": "teruel",
+    "slug": "la-portellada",
+    "codigoINE": "44187"
+  },
+  {
+    "nombre": "La Puebla de Híjar",
+    "provincia": "teruel",
+    "slug": "la-puebla-de-hijar",
+    "codigoINE": "44191"
+  },
+  {
+    "nombre": "La Puebla de Valverde",
+    "provincia": "teruel",
+    "slug": "la-puebla-de-valverde",
+    "codigoINE": "44192"
+  },
+  {
+    "nombre": "La Zoma",
+    "provincia": "teruel",
+    "slug": "la-zoma",
+    "codigoINE": "44268"
+  },
+  {
+    "nombre": "Lagueruela",
+    "provincia": "teruel",
+    "slug": "lagueruela",
+    "codigoINE": "44132"
+  },
+  {
+    "nombre": "Lanzuela",
+    "provincia": "teruel",
+    "slug": "lanzuela",
+    "codigoINE": "44133"
+  },
+  {
+    "nombre": "Las Parras de Castellote",
+    "provincia": "teruel",
+    "slug": "las-parras-de-castellote",
+    "codigoINE": "44178"
+  },
+  {
+    "nombre": "Libros",
+    "provincia": "teruel",
+    "slug": "libros",
+    "codigoINE": "44135"
+  },
+  {
+    "nombre": "Lidón",
+    "provincia": "teruel",
+    "slug": "lidon",
+    "codigoINE": "44136"
+  },
+  {
+    "nombre": "Linares de Mora",
+    "provincia": "teruel",
+    "slug": "linares-de-mora",
+    "codigoINE": "44137"
+  },
+  {
+    "nombre": "Lledó",
+    "provincia": "teruel",
+    "slug": "lledo",
+    "codigoINE": "44141"
+  },
+  {
+    "nombre": "Los Olmos",
+    "provincia": "teruel",
+    "slug": "los-olmos",
+    "codigoINE": "44173"
+  },
+  {
+    "nombre": "Loscos",
+    "provincia": "teruel",
+    "slug": "loscos",
+    "codigoINE": "44138"
+  },
+  {
+    "nombre": "Maicas",
+    "provincia": "teruel",
+    "slug": "maicas",
+    "codigoINE": "44142"
+  },
+  {
+    "nombre": "Manzanera",
+    "provincia": "teruel",
+    "slug": "manzanera",
+    "codigoINE": "44143"
+  },
+  {
+    "nombre": "Martín del Río",
+    "provincia": "teruel",
+    "slug": "martin-del-rio",
+    "codigoINE": "44144"
+  },
+  {
+    "nombre": "Mas de las Matas",
+    "provincia": "teruel",
+    "slug": "mas-de-las-matas",
+    "codigoINE": "44145"
+  },
+  {
+    "nombre": "Mazaleón",
+    "provincia": "teruel",
+    "slug": "mazaleon",
+    "codigoINE": "44147"
+  },
+  {
+    "nombre": "Mezquita de Jarque",
+    "provincia": "teruel",
+    "slug": "mezquita-de-jarque",
+    "codigoINE": "44148"
+  },
+  {
+    "nombre": "Mirambel",
+    "provincia": "teruel",
+    "slug": "mirambel",
+    "codigoINE": "44149"
+  },
+  {
+    "nombre": "Miravete de la Sierra",
+    "provincia": "teruel",
+    "slug": "miravete-de-la-sierra",
+    "codigoINE": "44150"
+  },
+  {
+    "nombre": "Molinos",
+    "provincia": "teruel",
+    "slug": "molinos",
+    "codigoINE": "44151"
+  },
+  {
+    "nombre": "Monforte de Moyuela",
+    "provincia": "teruel",
+    "slug": "monforte-de-moyuela",
+    "codigoINE": "44152"
+  },
+  {
+    "nombre": "Monreal del Campo",
+    "provincia": "teruel",
+    "slug": "monreal-del-campo",
+    "codigoINE": "44153"
+  },
+  {
+    "nombre": "Monroyo",
+    "provincia": "teruel",
+    "slug": "monroyo",
+    "codigoINE": "44154"
+  },
+  {
+    "nombre": "Montalbán",
+    "provincia": "teruel",
+    "slug": "montalban",
+    "codigoINE": "44155"
+  },
+  {
+    "nombre": "Monteagudo del Castillo",
+    "provincia": "teruel",
+    "slug": "monteagudo-del-castillo",
+    "codigoINE": "44156"
+  },
+  {
+    "nombre": "Monterde de Albarracín",
+    "provincia": "teruel",
+    "slug": "monterde-de-albarracin",
+    "codigoINE": "44157"
+  },
+  {
+    "nombre": "Mora de Rubielos",
+    "provincia": "teruel",
+    "slug": "mora-de-rubielos",
+    "codigoINE": "44158"
+  },
+  {
+    "nombre": "Moscardón",
+    "provincia": "teruel",
+    "slug": "moscardon",
+    "codigoINE": "44159"
+  },
+  {
+    "nombre": "Mosqueruela",
+    "provincia": "teruel",
+    "slug": "mosqueruela",
+    "codigoINE": "44160"
+  },
+  {
+    "nombre": "Muniesa",
+    "provincia": "teruel",
+    "slug": "muniesa",
+    "codigoINE": "44161"
+  },
+  {
+    "nombre": "Noguera de Albarracín",
+    "provincia": "teruel",
+    "slug": "noguera-de-albarracin",
+    "codigoINE": "44163"
+  },
+  {
+    "nombre": "Nogueras",
+    "provincia": "teruel",
+    "slug": "nogueras",
+    "codigoINE": "44164"
+  },
+  {
+    "nombre": "Nogueruelas",
+    "provincia": "teruel",
+    "slug": "nogueruelas",
+    "codigoINE": "44165"
+  },
+  {
+    "nombre": "Obón",
+    "provincia": "teruel",
+    "slug": "obon",
+    "codigoINE": "44167"
+  },
+  {
+    "nombre": "Odón",
+    "provincia": "teruel",
+    "slug": "odon",
+    "codigoINE": "44168"
+  },
+  {
+    "nombre": "Ojos Negros",
+    "provincia": "teruel",
+    "slug": "ojos-negros",
+    "codigoINE": "44169"
+  },
+  {
+    "nombre": "Olba",
+    "provincia": "teruel",
+    "slug": "olba",
+    "codigoINE": "44171"
+  },
+  {
+    "nombre": "Oliete",
+    "provincia": "teruel",
+    "slug": "oliete",
+    "codigoINE": "44172"
+  },
+  {
+    "nombre": "Orihuela del Tremedal",
+    "provincia": "teruel",
+    "slug": "orihuela-del-tremedal",
+    "codigoINE": "44174"
+  },
+  {
+    "nombre": "Orrios",
+    "provincia": "teruel",
+    "slug": "orrios",
+    "codigoINE": "44175"
+  },
+  {
+    "nombre": "Palomar de Arroyos",
+    "provincia": "teruel",
+    "slug": "palomar-de-arroyos",
+    "codigoINE": "44176"
+  },
+  {
+    "nombre": "Pancrudo",
+    "provincia": "teruel",
+    "slug": "pancrudo",
+    "codigoINE": "44177"
+  },
+  {
+    "nombre": "Peñarroya de Tastavins",
+    "provincia": "teruel",
+    "slug": "penarroya-de-tastavins",
+    "codigoINE": "44179"
+  },
+  {
+    "nombre": "Peracense",
+    "provincia": "teruel",
+    "slug": "peracense",
+    "codigoINE": "44180"
+  },
+  {
+    "nombre": "Peralejos",
+    "provincia": "teruel",
+    "slug": "peralejos",
+    "codigoINE": "44181"
+  },
+  {
+    "nombre": "Perales del Alfambra",
+    "provincia": "teruel",
+    "slug": "perales-del-alfambra",
+    "codigoINE": "44182"
+  },
+  {
+    "nombre": "Pitarque",
+    "provincia": "teruel",
+    "slug": "pitarque",
+    "codigoINE": "44183"
+  },
+  {
+    "nombre": "Plou",
+    "provincia": "teruel",
+    "slug": "plou",
+    "codigoINE": "44184"
+  },
+  {
+    "nombre": "Pozondón",
+    "provincia": "teruel",
+    "slug": "pozondon",
+    "codigoINE": "44189"
+  },
+  {
+    "nombre": "Pozuel del Campo",
+    "provincia": "teruel",
+    "slug": "pozuel-del-campo",
+    "codigoINE": "44190"
+  },
+  {
+    "nombre": "Puertomingalvo",
+    "provincia": "teruel",
+    "slug": "puertomingalvo",
+    "codigoINE": "44193"
+  },
+  {
+    "nombre": "Ráfales",
+    "provincia": "teruel",
+    "slug": "rafales",
+    "codigoINE": "44194"
+  },
+  {
+    "nombre": "Rillo",
+    "provincia": "teruel",
+    "slug": "rillo",
+    "codigoINE": "44195"
+  },
+  {
+    "nombre": "Riodeva",
+    "provincia": "teruel",
+    "slug": "riodeva",
+    "codigoINE": "44196"
+  },
+  {
+    "nombre": "Ródenas",
+    "provincia": "teruel",
+    "slug": "rodenas",
+    "codigoINE": "44197"
+  },
+  {
+    "nombre": "Royuela",
+    "provincia": "teruel",
+    "slug": "royuela",
+    "codigoINE": "44198"
+  },
+  {
+    "nombre": "Rubiales",
+    "provincia": "teruel",
+    "slug": "rubiales",
+    "codigoINE": "44199"
+  },
+  {
+    "nombre": "Rubielos de la Cérida",
+    "provincia": "teruel",
+    "slug": "rubielos-de-la-cerida",
+    "codigoINE": "44200"
+  },
+  {
+    "nombre": "Rubielos de Mora",
+    "provincia": "teruel",
+    "slug": "rubielos-de-mora",
+    "codigoINE": "44201"
+  },
+  {
+    "nombre": "Salcedillo",
+    "provincia": "teruel",
+    "slug": "salcedillo",
+    "codigoINE": "44203"
+  },
+  {
+    "nombre": "Saldón",
+    "provincia": "teruel",
+    "slug": "saldon",
+    "codigoINE": "44204"
+  },
+  {
+    "nombre": "Samper de Calanda",
+    "provincia": "teruel",
+    "slug": "samper-de-calanda",
+    "codigoINE": "44205"
+  },
+  {
+    "nombre": "San Agustín",
+    "provincia": "teruel",
+    "slug": "san-agustin",
+    "codigoINE": "44206"
+  },
+  {
+    "nombre": "San Martín del Río",
+    "provincia": "teruel",
+    "slug": "san-martin-del-rio",
+    "codigoINE": "44207"
+  },
+  {
+    "nombre": "Santa Cruz de Nogueras",
+    "provincia": "teruel",
+    "slug": "santa-cruz-de-nogueras",
+    "codigoINE": "44208"
+  },
+  {
+    "nombre": "Santa Eulalia",
+    "provincia": "teruel",
+    "slug": "santa-eulalia",
+    "codigoINE": "44209"
+  },
+  {
+    "nombre": "Sarrión",
+    "provincia": "teruel",
+    "slug": "sarrion",
+    "codigoINE": "44210"
+  },
+  {
+    "nombre": "Segura de los Baños",
+    "provincia": "teruel",
+    "slug": "segura-de-los-banos",
+    "codigoINE": "44211"
+  },
+  {
+    "nombre": "Seno",
+    "provincia": "teruel",
+    "slug": "seno",
+    "codigoINE": "44212"
+  },
+  {
+    "nombre": "Singra",
+    "provincia": "teruel",
+    "slug": "singra",
+    "codigoINE": "44213"
+  },
+  {
+    "nombre": "Terriente",
+    "provincia": "teruel",
+    "slug": "terriente",
+    "codigoINE": "44215"
+  },
+  {
+    "nombre": "Teruel",
+    "provincia": "teruel",
+    "slug": "teruel",
+    "codigoINE": "44216"
+  },
+  {
+    "nombre": "Toril y Masegoso",
+    "provincia": "teruel",
+    "slug": "toril-y-masegoso",
+    "codigoINE": "44217"
+  },
+  {
+    "nombre": "Tormón",
+    "provincia": "teruel",
+    "slug": "tormon",
+    "codigoINE": "44218"
+  },
+  {
+    "nombre": "Tornos",
+    "provincia": "teruel",
+    "slug": "tornos",
+    "codigoINE": "44219"
+  },
+  {
+    "nombre": "Torralba de los Sisones",
+    "provincia": "teruel",
+    "slug": "torralba-de-los-sisones",
+    "codigoINE": "44220"
+  },
+  {
+    "nombre": "Torre de Arcas",
+    "provincia": "teruel",
+    "slug": "torre-de-arcas",
+    "codigoINE": "44223"
+  },
+  {
+    "nombre": "Torre de las Arcas",
+    "provincia": "teruel",
+    "slug": "torre-de-las-arcas",
+    "codigoINE": "44224"
+  },
+  {
+    "nombre": "Torre del Compte",
+    "provincia": "teruel",
+    "slug": "torre-del-compte",
+    "codigoINE": "44225"
+  },
+  {
+    "nombre": "Torre los Negros",
+    "provincia": "teruel",
+    "slug": "torre-los-negros",
+    "codigoINE": "44227"
+  },
+  {
+    "nombre": "Torrecilla de Alcañiz",
+    "provincia": "teruel",
+    "slug": "torrecilla-de-alcaniz",
+    "codigoINE": "44221"
+  },
+  {
+    "nombre": "Torrecilla del Rebollar",
+    "provincia": "teruel",
+    "slug": "torrecilla-del-rebollar",
+    "codigoINE": "44222"
+  },
+  {
+    "nombre": "Torrelacárcel",
+    "provincia": "teruel",
+    "slug": "torrelacarcel",
+    "codigoINE": "44226"
+  },
+  {
+    "nombre": "Torremocha de Jiloca",
+    "provincia": "teruel",
+    "slug": "torremocha-de-jiloca",
+    "codigoINE": "44228"
+  },
+  {
+    "nombre": "Torres de Albarracín",
+    "provincia": "teruel",
+    "slug": "torres-de-albarracin",
+    "codigoINE": "44229"
+  },
+  {
+    "nombre": "Torrevelilla",
+    "provincia": "teruel",
+    "slug": "torrevelilla",
+    "codigoINE": "44230"
+  },
+  {
+    "nombre": "Torrijas",
+    "provincia": "teruel",
+    "slug": "torrijas",
+    "codigoINE": "44231"
+  },
+  {
+    "nombre": "Torrijo del Campo",
+    "provincia": "teruel",
+    "slug": "torrijo-del-campo",
+    "codigoINE": "44232"
+  },
+  {
+    "nombre": "Tramacastiel",
+    "provincia": "teruel",
+    "slug": "tramacastiel",
+    "codigoINE": "44234"
+  },
+  {
+    "nombre": "Tramacastilla",
+    "provincia": "teruel",
+    "slug": "tramacastilla",
+    "codigoINE": "44235"
+  },
+  {
+    "nombre": "Tronchón",
+    "provincia": "teruel",
+    "slug": "tronchon",
+    "codigoINE": "44236"
+  },
+  {
+    "nombre": "Urrea de Gaén",
+    "provincia": "teruel",
+    "slug": "urrea-de-gaen",
+    "codigoINE": "44237"
+  },
+  {
+    "nombre": "Utrillas",
+    "provincia": "teruel",
+    "slug": "utrillas",
+    "codigoINE": "44238"
+  },
+  {
+    "nombre": "Valacloche",
+    "provincia": "teruel",
+    "slug": "valacloche",
+    "codigoINE": "44239"
+  },
+  {
+    "nombre": "Valbona",
+    "provincia": "teruel",
+    "slug": "valbona",
+    "codigoINE": "44240"
+  },
+  {
+    "nombre": "Valdealgorfa",
+    "provincia": "teruel",
+    "slug": "valdealgorfa",
+    "codigoINE": "44241"
+  },
+  {
+    "nombre": "Valdecuenca",
+    "provincia": "teruel",
+    "slug": "valdecuenca",
+    "codigoINE": "44243"
+  },
+  {
+    "nombre": "Valdelinares",
+    "provincia": "teruel",
+    "slug": "valdelinares",
+    "codigoINE": "44244"
+  },
+  {
+    "nombre": "Valdeltormo",
+    "provincia": "teruel",
+    "slug": "valdeltormo",
+    "codigoINE": "44245"
+  },
+  {
+    "nombre": "Valderrobres",
+    "provincia": "teruel",
+    "slug": "valderrobres",
+    "codigoINE": "44246"
+  },
+  {
+    "nombre": "Valjunquera",
+    "provincia": "teruel",
+    "slug": "valjunquera",
+    "codigoINE": "44247"
+  },
+  {
+    "nombre": "Veguillas de la Sierra",
+    "provincia": "teruel",
+    "slug": "veguillas-de-la-sierra",
+    "codigoINE": "44250"
+  },
+  {
+    "nombre": "Villafranca del Campo",
+    "provincia": "teruel",
+    "slug": "villafranca-del-campo",
+    "codigoINE": "44251"
+  },
+  {
+    "nombre": "Villahermosa del Campo",
+    "provincia": "teruel",
+    "slug": "villahermosa-del-campo",
+    "codigoINE": "44252"
+  },
+  {
+    "nombre": "Villanueva del Rebollar de la Sierra",
+    "provincia": "teruel",
+    "slug": "villanueva-del-rebollar-de-la-sierra",
+    "codigoINE": "44256"
+  },
+  {
+    "nombre": "Villar del Cobo",
+    "provincia": "teruel",
+    "slug": "villar-del-cobo",
+    "codigoINE": "44257"
+  },
+  {
+    "nombre": "Villar del Salz",
+    "provincia": "teruel",
+    "slug": "villar-del-salz",
+    "codigoINE": "44258"
+  },
+  {
+    "nombre": "Villarluengo",
+    "provincia": "teruel",
+    "slug": "villarluengo",
+    "codigoINE": "44260"
+  },
+  {
+    "nombre": "Villarquemado",
+    "provincia": "teruel",
+    "slug": "villarquemado",
+    "codigoINE": "44261"
+  },
+  {
+    "nombre": "Villarroya de los Pinares",
+    "provincia": "teruel",
+    "slug": "villarroya-de-los-pinares",
+    "codigoINE": "44262"
+  },
+  {
+    "nombre": "Villastar",
+    "provincia": "teruel",
+    "slug": "villastar",
+    "codigoINE": "44263"
+  },
+  {
+    "nombre": "Villel",
+    "provincia": "teruel",
+    "slug": "villel",
+    "codigoINE": "44264"
+  },
+  {
+    "nombre": "Vinaceite",
+    "provincia": "teruel",
+    "slug": "vinaceite",
+    "codigoINE": "44265"
+  },
+  {
+    "nombre": "Visiedo",
+    "provincia": "teruel",
+    "slug": "visiedo",
+    "codigoINE": "44266"
+  },
+  {
+    "nombre": "Vivel del Río Martín",
+    "provincia": "teruel",
+    "slug": "vivel-del-rio-martin",
+    "codigoINE": "44267"
+  }
+]

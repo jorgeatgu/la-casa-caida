@@ -1,0 +1,4388 @@
+[
+  {
+    "nombre": "Ababuj",
+    "provincia": "teruel",
+    "slug": "ababuj",
+    "codigoINE": "44001"
+  },
+  {
+    "nombre": "Abanto",
+    "provincia": "zaragoza",
+    "slug": "abanto",
+    "codigoINE": "50001"
+  },
+  {
+    "nombre": "Abejuela",
+    "provincia": "teruel",
+    "slug": "abejuela",
+    "codigoINE": "44002"
+  },
+  {
+    "nombre": "Abiego",
+    "provincia": "huesca",
+    "slug": "abiego",
+    "codigoINE": "22001"
+  },
+  {
+    "nombre": "Abizanda",
+    "provincia": "huesca",
+    "slug": "abizanda",
+    "codigoINE": "22002"
+  },
+  {
+    "nombre": "Acered",
+    "provincia": "zaragoza",
+    "slug": "acered",
+    "codigoINE": "50002"
+  },
+  {
+    "nombre": "Adahuesca",
+    "provincia": "huesca",
+    "slug": "adahuesca",
+    "codigoINE": "22003"
+  },
+  {
+    "nombre": "Agón",
+    "provincia": "zaragoza",
+    "slug": "agon",
+    "codigoINE": "50003"
+  },
+  {
+    "nombre": "Aguarón",
+    "provincia": "zaragoza",
+    "slug": "aguaron",
+    "codigoINE": "50004"
+  },
+  {
+    "nombre": "Aguatón",
+    "provincia": "teruel",
+    "slug": "aguaton",
+    "codigoINE": "44003"
+  },
+  {
+    "nombre": "Aguaviva",
+    "provincia": "teruel",
+    "slug": "aguaviva",
+    "codigoINE": "44004"
+  },
+  {
+    "nombre": "Agüero",
+    "provincia": "huesca",
+    "slug": "aguero",
+    "codigoINE": "22004"
+  },
+  {
+    "nombre": "Aguilar del Alfambra",
+    "provincia": "teruel",
+    "slug": "aguilar-del-alfambra",
+    "codigoINE": "44005"
+  },
+  {
+    "nombre": "Aguilón",
+    "provincia": "zaragoza",
+    "slug": "aguilon",
+    "codigoINE": "50005"
+  },
+  {
+    "nombre": "Aínsa-Sobrarbe",
+    "provincia": "huesca",
+    "slug": "ainsa-sobrarbe",
+    "codigoINE": "22907"
+  },
+  {
+    "nombre": "Ainzón",
+    "provincia": "zaragoza",
+    "slug": "ainzon",
+    "codigoINE": "50006"
+  },
+  {
+    "nombre": "Aisa",
+    "provincia": "huesca",
+    "slug": "aisa",
+    "codigoINE": "22006"
+  },
+  {
+    "nombre": "Alacón",
+    "provincia": "teruel",
+    "slug": "alacon",
+    "codigoINE": "44006"
+  },
+  {
+    "nombre": "Aladrén",
+    "provincia": "zaragoza",
+    "slug": "aladren",
+    "codigoINE": "50007"
+  },
+  {
+    "nombre": "Alagón",
+    "provincia": "zaragoza",
+    "slug": "alagon",
+    "codigoINE": "50008"
+  },
+  {
+    "nombre": "Alarba",
+    "provincia": "zaragoza",
+    "slug": "alarba",
+    "codigoINE": "50009"
+  },
+  {
+    "nombre": "Alba",
+    "provincia": "teruel",
+    "slug": "alba",
+    "codigoINE": "44007"
+  },
+  {
+    "nombre": "Albalate de Cinca",
+    "provincia": "huesca",
+    "slug": "albalate-de-cinca",
+    "codigoINE": "22007"
+  },
+  {
+    "nombre": "Albalate del Arzobispo",
+    "provincia": "teruel",
+    "slug": "albalate-del-arzobispo",
+    "codigoINE": "44008"
+  },
+  {
+    "nombre": "Albalatillo",
+    "provincia": "huesca",
+    "slug": "albalatillo",
+    "codigoINE": "22008"
+  },
+  {
+    "nombre": "Albarracín",
+    "provincia": "teruel",
+    "slug": "albarracin",
+    "codigoINE": "44009"
+  },
+  {
+    "nombre": "Albelda",
+    "provincia": "huesca",
+    "slug": "albelda",
+    "codigoINE": "22009"
+  },
+  {
+    "nombre": "Albentosa",
+    "provincia": "teruel",
+    "slug": "albentosa",
+    "codigoINE": "44010"
+  },
+  {
+    "nombre": "Alberite de San Juan",
+    "provincia": "zaragoza",
+    "slug": "alberite-de-san-juan",
+    "codigoINE": "50010"
+  },
+  {
+    "nombre": "Albero Alto",
+    "provincia": "huesca",
+    "slug": "albero-alto",
+    "codigoINE": "22011"
+  },
+  {
+    "nombre": "Albero Bajo",
+    "provincia": "huesca",
+    "slug": "albero-bajo",
+    "codigoINE": "22012"
+  },
+  {
+    "nombre": "Alberuela de Tubo",
+    "provincia": "huesca",
+    "slug": "alberuela-de-tubo",
+    "codigoINE": "22013"
+  },
+  {
+    "nombre": "Albeta",
+    "provincia": "zaragoza",
+    "slug": "albeta",
+    "codigoINE": "50011"
+  },
+  {
+    "nombre": "Alborge",
+    "provincia": "zaragoza",
+    "slug": "alborge",
+    "codigoINE": "50012"
+  },
+  {
+    "nombre": "Alcaine",
+    "provincia": "teruel",
+    "slug": "alcaine",
+    "codigoINE": "44011"
+  },
+  {
+    "nombre": "Alcalá de Ebro",
+    "provincia": "zaragoza",
+    "slug": "alcala-de-ebro",
+    "codigoINE": "50013"
+  },
+  {
+    "nombre": "Alcalá de Gurrea",
+    "provincia": "huesca",
+    "slug": "alcala-de-gurrea",
+    "codigoINE": "22014"
+  },
+  {
+    "nombre": "Alcalá de la Selva",
+    "provincia": "teruel",
+    "slug": "alcala-de-la-selva",
+    "codigoINE": "44012"
+  },
+  {
+    "nombre": "Alcalá de Moncayo",
+    "provincia": "zaragoza",
+    "slug": "alcala-de-moncayo",
+    "codigoINE": "50014"
+  },
+  {
+    "nombre": "Alcalá del Obispo",
+    "provincia": "huesca",
+    "slug": "alcala-del-obispo",
+    "codigoINE": "22015"
+  },
+  {
+    "nombre": "Alcampell",
+    "provincia": "huesca",
+    "slug": "alcampell",
+    "codigoINE": "22016"
+  },
+  {
+    "nombre": "Alcañiz",
+    "provincia": "teruel",
+    "slug": "alcaniz",
+    "codigoINE": "44013"
+  },
+  {
+    "nombre": "Alcolea de Cinca",
+    "provincia": "huesca",
+    "slug": "alcolea-de-cinca",
+    "codigoINE": "22017"
+  },
+  {
+    "nombre": "Alconchel de Ariza",
+    "provincia": "zaragoza",
+    "slug": "alconchel-de-ariza",
+    "codigoINE": "50015"
+  },
+  {
+    "nombre": "Alcorisa",
+    "provincia": "teruel",
+    "slug": "alcorisa",
+    "codigoINE": "44014"
+  },
+  {
+    "nombre": "Alcubierre",
+    "provincia": "huesca",
+    "slug": "alcubierre",
+    "codigoINE": "22018"
+  },
+  {
+    "nombre": "Aldehuela de Liestos",
+    "provincia": "zaragoza",
+    "slug": "aldehuela-de-liestos",
+    "codigoINE": "50016"
+  },
+  {
+    "nombre": "Alerre",
+    "provincia": "huesca",
+    "slug": "alerre",
+    "codigoINE": "22019"
+  },
+  {
+    "nombre": "Alfajarín",
+    "provincia": "zaragoza",
+    "slug": "alfajarin",
+    "codigoINE": "50017"
+  },
+  {
+    "nombre": "Alfambra",
+    "provincia": "teruel",
+    "slug": "alfambra",
+    "codigoINE": "44016"
+  },
+  {
+    "nombre": "Alfamén",
+    "provincia": "zaragoza",
+    "slug": "alfamen",
+    "codigoINE": "50018"
+  },
+  {
+    "nombre": "Alfántega",
+    "provincia": "huesca",
+    "slug": "alfantega",
+    "codigoINE": "22021"
+  },
+  {
+    "nombre": "Alforque",
+    "provincia": "zaragoza",
+    "slug": "alforque",
+    "codigoINE": "50019"
+  },
+  {
+    "nombre": "Alhama de Aragón",
+    "provincia": "zaragoza",
+    "slug": "alhama-de-aragon",
+    "codigoINE": "50020"
+  },
+  {
+    "nombre": "Aliaga",
+    "provincia": "teruel",
+    "slug": "aliaga",
+    "codigoINE": "44017"
+  },
+  {
+    "nombre": "Allepuz",
+    "provincia": "teruel",
+    "slug": "allepuz",
+    "codigoINE": "44021"
+  },
+  {
+    "nombre": "Alloza",
+    "provincia": "teruel",
+    "slug": "alloza",
+    "codigoINE": "44022"
+  },
+  {
+    "nombre": "Allueva",
+    "provincia": "teruel",
+    "slug": "allueva",
+    "codigoINE": "44023"
+  },
+  {
+    "nombre": "Almochuel",
+    "provincia": "zaragoza",
+    "slug": "almochuel",
+    "codigoINE": "50021"
+  },
+  {
+    "nombre": "Almohaja",
+    "provincia": "teruel",
+    "slug": "almohaja",
+    "codigoINE": "44018"
+  },
+  {
+    "nombre": "Almonacid de la Cuba",
+    "provincia": "zaragoza",
+    "slug": "almonacid-de-la-cuba",
+    "codigoINE": "50023"
+  },
+  {
+    "nombre": "Almonacid de la Sierra",
+    "provincia": "zaragoza",
+    "slug": "almonacid-de-la-sierra",
+    "codigoINE": "50024"
+  },
+  {
+    "nombre": "Almudévar",
+    "provincia": "huesca",
+    "slug": "almudevar",
+    "codigoINE": "22021"
+  },
+  {
+    "nombre": "Almunia de San Juan",
+    "provincia": "huesca",
+    "slug": "almunia-de-san-juan",
+    "codigoINE": "22022"
+  },
+  {
+    "nombre": "Almuniente",
+    "provincia": "huesca",
+    "slug": "almuniente",
+    "codigoINE": "22023"
+  },
+  {
+    "nombre": "Alobras",
+    "provincia": "teruel",
+    "slug": "alobras",
+    "codigoINE": "44019"
+  },
+  {
+    "nombre": "Alpartir",
+    "provincia": "zaragoza",
+    "slug": "alpartir",
+    "codigoINE": "50026"
+  },
+  {
+    "nombre": "Alpeñés",
+    "provincia": "teruel",
+    "slug": "alpenes",
+    "codigoINE": "44020"
+  },
+  {
+    "nombre": "Alquézar",
+    "provincia": "huesca",
+    "slug": "alquezar",
+    "codigoINE": "22024"
+  },
+  {
+    "nombre": "Altorricón",
+    "provincia": "huesca",
+    "slug": "altorricon",
+    "codigoINE": "22025"
+  },
+  {
+    "nombre": "Ambel",
+    "provincia": "zaragoza",
+    "slug": "ambel",
+    "codigoINE": "50027"
+  },
+  {
+    "nombre": "Anadón",
+    "provincia": "teruel",
+    "slug": "anadon",
+    "codigoINE": "44024"
+  },
+  {
+    "nombre": "Andorra",
+    "provincia": "teruel",
+    "slug": "andorra",
+    "codigoINE": "44025"
+  },
+  {
+    "nombre": "Anento",
+    "provincia": "zaragoza",
+    "slug": "anento",
+    "codigoINE": "50028"
+  },
+  {
+    "nombre": "Angüés",
+    "provincia": "huesca",
+    "slug": "angues",
+    "codigoINE": "22027"
+  },
+  {
+    "nombre": "Aniñón",
+    "provincia": "zaragoza",
+    "slug": "aninon",
+    "codigoINE": "50029"
+  },
+  {
+    "nombre": "Ansó",
+    "provincia": "huesca",
+    "slug": "anso",
+    "codigoINE": "22028"
+  },
+  {
+    "nombre": "Antillón",
+    "provincia": "huesca",
+    "slug": "antillon",
+    "codigoINE": "22029"
+  },
+  {
+    "nombre": "Añón de Moncayo",
+    "provincia": "zaragoza",
+    "slug": "anon-de-moncayo",
+    "codigoINE": "50030"
+  },
+  {
+    "nombre": "Aragüés del Puerto",
+    "provincia": "huesca",
+    "slug": "aragues-del-puerto",
+    "codigoINE": "22032"
+  },
+  {
+    "nombre": "Aranda de Moncayo",
+    "provincia": "zaragoza",
+    "slug": "aranda-de-moncayo",
+    "codigoINE": "50031"
+  },
+  {
+    "nombre": "Arándiga",
+    "provincia": "zaragoza",
+    "slug": "arandiga",
+    "codigoINE": "50032"
+  },
+  {
+    "nombre": "Arcos de las Salinas",
+    "provincia": "teruel",
+    "slug": "arcos-de-las-salinas",
+    "codigoINE": "44026"
+  },
+  {
+    "nombre": "Ardisa",
+    "provincia": "zaragoza",
+    "slug": "ardisa",
+    "codigoINE": "50033"
+  },
+  {
+    "nombre": "Arén",
+    "provincia": "huesca",
+    "slug": "aren",
+    "codigoINE": "22035"
+  },
+  {
+    "nombre": "Arens de Lledó",
+    "provincia": "teruel",
+    "slug": "arens-de-lledo",
+    "codigoINE": "44027"
+  },
+  {
+    "nombre": "Argavieso",
+    "provincia": "huesca",
+    "slug": "argavieso",
+    "codigoINE": "22036"
+  },
+  {
+    "nombre": "Argente",
+    "provincia": "teruel",
+    "slug": "argente",
+    "codigoINE": "44028"
+  },
+  {
+    "nombre": "Arguis",
+    "provincia": "huesca",
+    "slug": "arguis",
+    "codigoINE": "22037"
+  },
+  {
+    "nombre": "Ariño",
+    "provincia": "teruel",
+    "slug": "arino",
+    "codigoINE": "44029"
+  },
+  {
+    "nombre": "Ariza",
+    "provincia": "zaragoza",
+    "slug": "ariza",
+    "codigoINE": "50034"
+  },
+  {
+    "nombre": "Artieda",
+    "provincia": "zaragoza",
+    "slug": "artieda",
+    "codigoINE": "50035"
+  },
+  {
+    "nombre": "Asín",
+    "provincia": "zaragoza",
+    "slug": "asin",
+    "codigoINE": "50036"
+  },
+  {
+    "nombre": "Atea",
+    "provincia": "zaragoza",
+    "slug": "atea",
+    "codigoINE": "50037"
+  },
+  {
+    "nombre": "Ateca",
+    "provincia": "zaragoza",
+    "slug": "ateca",
+    "codigoINE": "50038"
+  },
+  {
+    "nombre": "Ayerbe",
+    "provincia": "huesca",
+    "slug": "ayerbe",
+    "codigoINE": "22039"
+  },
+  {
+    "nombre": "Azaila",
+    "provincia": "teruel",
+    "slug": "azaila",
+    "codigoINE": "44031"
+  },
+  {
+    "nombre": "Azanuy-Alins",
+    "provincia": "huesca",
+    "slug": "azanuy-alins",
+    "codigoINE": "22040"
+  },
+  {
+    "nombre": "Azara",
+    "provincia": "huesca",
+    "slug": "azara",
+    "codigoINE": "22041"
+  },
+  {
+    "nombre": "Azlor",
+    "provincia": "huesca",
+    "slug": "azlor",
+    "codigoINE": "22042"
+  },
+  {
+    "nombre": "Azuara",
+    "provincia": "zaragoza",
+    "slug": "azuara",
+    "codigoINE": "50039"
+  },
+  {
+    "nombre": "Bádenas",
+    "provincia": "teruel",
+    "slug": "badenas",
+    "codigoINE": "44032"
+  },
+  {
+    "nombre": "Badules",
+    "provincia": "zaragoza",
+    "slug": "badules",
+    "codigoINE": "50040"
+  },
+  {
+    "nombre": "Baélls",
+    "provincia": "huesca",
+    "slug": "baells",
+    "codigoINE": "22043"
+  },
+  {
+    "nombre": "Báguena",
+    "provincia": "teruel",
+    "slug": "baguena",
+    "codigoINE": "44033"
+  },
+  {
+    "nombre": "Bagüés",
+    "provincia": "zaragoza",
+    "slug": "bagues",
+    "codigoINE": "50041"
+  },
+  {
+    "nombre": "Bailo",
+    "provincia": "huesca",
+    "slug": "bailo",
+    "codigoINE": "22044"
+  },
+  {
+    "nombre": "Balconchán",
+    "provincia": "zaragoza",
+    "slug": "balconchan",
+    "codigoINE": "50042"
+  },
+  {
+    "nombre": "Baldellou",
+    "provincia": "huesca",
+    "slug": "baldellou",
+    "codigoINE": "22045"
+  },
+  {
+    "nombre": "Ballobar",
+    "provincia": "huesca",
+    "slug": "ballobar",
+    "codigoINE": "22046"
+  },
+  {
+    "nombre": "Banastás",
+    "provincia": "huesca",
+    "slug": "banastas",
+    "codigoINE": "22047"
+  },
+  {
+    "nombre": "Bañón",
+    "provincia": "teruel",
+    "slug": "banon",
+    "codigoINE": "44034"
+  },
+  {
+    "nombre": "Barbastro",
+    "provincia": "huesca",
+    "slug": "barbastro",
+    "codigoINE": "22048"
+  },
+  {
+    "nombre": "Bárboles",
+    "provincia": "zaragoza",
+    "slug": "barboles",
+    "codigoINE": "50043"
+  },
+  {
+    "nombre": "Barbués",
+    "provincia": "huesca",
+    "slug": "barbues",
+    "codigoINE": "22049"
+  },
+  {
+    "nombre": "Barbuñales",
+    "provincia": "huesca",
+    "slug": "barbunales",
+    "codigoINE": "22050"
+  },
+  {
+    "nombre": "Bárcabo",
+    "provincia": "huesca",
+    "slug": "barcabo",
+    "codigoINE": "22051"
+  },
+  {
+    "nombre": "Bardallur",
+    "provincia": "zaragoza",
+    "slug": "bardallur",
+    "codigoINE": "50044"
+  },
+  {
+    "nombre": "Barrachina",
+    "provincia": "teruel",
+    "slug": "barrachina",
+    "codigoINE": "44035"
+  },
+  {
+    "nombre": "Bea",
+    "provincia": "teruel",
+    "slug": "bea",
+    "codigoINE": "44036"
+  },
+  {
+    "nombre": "Beceite",
+    "provincia": "teruel",
+    "slug": "beceite",
+    "codigoINE": "44037"
+  },
+  {
+    "nombre": "Belchite",
+    "provincia": "zaragoza",
+    "slug": "belchite",
+    "codigoINE": "50045"
+  },
+  {
+    "nombre": "Bello",
+    "provincia": "teruel",
+    "slug": "bello",
+    "codigoINE": "44039"
+  },
+  {
+    "nombre": "Belmonte de Gracián",
+    "provincia": "zaragoza",
+    "slug": "belmonte-de-gracian",
+    "codigoINE": "50046"
+  },
+  {
+    "nombre": "Belmonte de San José",
+    "provincia": "teruel",
+    "slug": "belmonte-de-san-jose",
+    "codigoINE": "44038"
+  },
+  {
+    "nombre": "Belver de Cinca",
+    "provincia": "huesca",
+    "slug": "belver-de-cinca",
+    "codigoINE": "22052"
+  },
+  {
+    "nombre": "Benabarre",
+    "provincia": "huesca",
+    "slug": "benabarre",
+    "codigoINE": "22053"
+  },
+  {
+    "nombre": "Benasque",
+    "provincia": "huesca",
+    "slug": "benasque",
+    "codigoINE": "22054"
+  },
+  {
+    "nombre": "Beranuy",
+    "provincia": "huesca",
+    "slug": "beranuy",
+    "codigoINE": "22246"
+  },
+  {
+    "nombre": "Berbegal",
+    "provincia": "huesca",
+    "slug": "berbegal",
+    "codigoINE": "22055"
+  },
+  {
+    "nombre": "Berdejo",
+    "provincia": "zaragoza",
+    "slug": "berdejo",
+    "codigoINE": "50047"
+  },
+  {
+    "nombre": "Berge",
+    "provincia": "teruel",
+    "slug": "berge",
+    "codigoINE": "44040"
+  },
+  {
+    "nombre": "Berrueco",
+    "provincia": "zaragoza",
+    "slug": "berrueco",
+    "codigoINE": "50048"
+  },
+  {
+    "nombre": "Bezas",
+    "provincia": "teruel",
+    "slug": "bezas",
+    "codigoINE": "44041"
+  },
+  {
+    "nombre": "Biel",
+    "provincia": "zaragoza",
+    "slug": "biel",
+    "codigoINE": "50901"
+  },
+  {
+    "nombre": "Bielsa",
+    "provincia": "huesca",
+    "slug": "bielsa",
+    "codigoINE": "22057"
+  },
+  {
+    "nombre": "Bierge",
+    "provincia": "huesca",
+    "slug": "bierge",
+    "codigoINE": "22058"
+  },
+  {
+    "nombre": "Biescas",
+    "provincia": "huesca",
+    "slug": "biescas",
+    "codigoINE": "22059"
+  },
+  {
+    "nombre": "Bijuesca",
+    "provincia": "zaragoza",
+    "slug": "bijuesca",
+    "codigoINE": "50050"
+  },
+  {
+    "nombre": "Binaced",
+    "provincia": "huesca",
+    "slug": "binaced",
+    "codigoINE": "22060"
+  },
+  {
+    "nombre": "Binéfar",
+    "provincia": "huesca",
+    "slug": "binefar",
+    "codigoINE": "22061"
+  },
+  {
+    "nombre": "Biota",
+    "provincia": "zaragoza",
+    "slug": "biota",
+    "codigoINE": "50051"
+  },
+  {
+    "nombre": "Bisaurri",
+    "provincia": "huesca",
+    "slug": "bisaurri",
+    "codigoINE": "22062"
+  },
+  {
+    "nombre": "Biscarrués",
+    "provincia": "huesca",
+    "slug": "biscarrues",
+    "codigoINE": "22063"
+  },
+  {
+    "nombre": "Bisimbre",
+    "provincia": "zaragoza",
+    "slug": "bisimbre",
+    "codigoINE": "50052"
+  },
+  {
+    "nombre": "Blancas",
+    "provincia": "teruel",
+    "slug": "blancas",
+    "codigoINE": "44042"
+  },
+  {
+    "nombre": "Blecua y Torres",
+    "provincia": "huesca",
+    "slug": "blecua-y-torres",
+    "codigoINE": "22064"
+  },
+  {
+    "nombre": "Blesa",
+    "provincia": "teruel",
+    "slug": "blesa",
+    "codigoINE": "44043"
+  },
+  {
+    "nombre": "Boltaña",
+    "provincia": "huesca",
+    "slug": "boltana",
+    "codigoINE": "22066"
+  },
+  {
+    "nombre": "Bonansa",
+    "provincia": "huesca",
+    "slug": "bonansa",
+    "codigoINE": "22067"
+  },
+  {
+    "nombre": "Boquiñeni",
+    "provincia": "zaragoza",
+    "slug": "boquineni",
+    "codigoINE": "50053"
+  },
+  {
+    "nombre": "Borau",
+    "provincia": "huesca",
+    "slug": "borau",
+    "codigoINE": "22068"
+  },
+  {
+    "nombre": "Bordalba",
+    "provincia": "zaragoza",
+    "slug": "bordalba",
+    "codigoINE": "50054"
+  },
+  {
+    "nombre": "Bordón",
+    "provincia": "teruel",
+    "slug": "bordon",
+    "codigoINE": "44044"
+  },
+  {
+    "nombre": "Borja",
+    "provincia": "zaragoza",
+    "slug": "borja",
+    "codigoINE": "50055"
+  },
+  {
+    "nombre": "Botorrita",
+    "provincia": "zaragoza",
+    "slug": "botorrita",
+    "codigoINE": "50056"
+  },
+  {
+    "nombre": "Brea de Aragón",
+    "provincia": "zaragoza",
+    "slug": "brea-de-aragon",
+    "codigoINE": "50057"
+  },
+  {
+    "nombre": "Bronchales",
+    "provincia": "teruel",
+    "slug": "bronchales",
+    "codigoINE": "44045"
+  },
+  {
+    "nombre": "Broto",
+    "provincia": "huesca",
+    "slug": "broto",
+    "codigoINE": "22069"
+  },
+  {
+    "nombre": "Bubierca",
+    "provincia": "zaragoza",
+    "slug": "bubierca",
+    "codigoINE": "50058"
+  },
+  {
+    "nombre": "Bueña",
+    "provincia": "teruel",
+    "slug": "buena",
+    "codigoINE": "44046"
+  },
+  {
+    "nombre": "Bujaraloz",
+    "provincia": "zaragoza",
+    "slug": "bujaraloz",
+    "codigoINE": "50059"
+  },
+  {
+    "nombre": "Bulbuente",
+    "provincia": "zaragoza",
+    "slug": "bulbuente",
+    "codigoINE": "50060"
+  },
+  {
+    "nombre": "Burbáguena",
+    "provincia": "teruel",
+    "slug": "burbaguena",
+    "codigoINE": "44047"
+  },
+  {
+    "nombre": "Bureta",
+    "provincia": "zaragoza",
+    "slug": "bureta",
+    "codigoINE": "50061"
+  },
+  {
+    "nombre": "Cabañas de Ebro",
+    "provincia": "zaragoza",
+    "slug": "cabanas-de-ebro",
+    "codigoINE": "50064"
+  },
+  {
+    "nombre": "Cabolafuente",
+    "provincia": "zaragoza",
+    "slug": "cabolafuente",
+    "codigoINE": "50065"
+  },
+  {
+    "nombre": "Cabra de Mora",
+    "provincia": "teruel",
+    "slug": "cabra-de-mora",
+    "codigoINE": "44048"
+  },
+  {
+    "nombre": "Cadrete",
+    "provincia": "zaragoza",
+    "slug": "cadrete",
+    "codigoINE": "50066"
+  },
+  {
+    "nombre": "Calaceite",
+    "provincia": "teruel",
+    "slug": "calaceite",
+    "codigoINE": "44049"
+  },
+  {
+    "nombre": "Calamocha",
+    "provincia": "teruel",
+    "slug": "calamocha",
+    "codigoINE": "44050"
+  },
+  {
+    "nombre": "Calanda",
+    "provincia": "teruel",
+    "slug": "calanda",
+    "codigoINE": "44051"
+  },
+  {
+    "nombre": "Calatayud",
+    "provincia": "zaragoza",
+    "slug": "calatayud",
+    "codigoINE": "50067"
+  },
+  {
+    "nombre": "Calatorao",
+    "provincia": "zaragoza",
+    "slug": "calatorao",
+    "codigoINE": "50068"
+  },
+  {
+    "nombre": "Calcena",
+    "provincia": "zaragoza",
+    "slug": "calcena",
+    "codigoINE": "50069"
+  },
+  {
+    "nombre": "Caldearenas",
+    "provincia": "huesca",
+    "slug": "caldearenas",
+    "codigoINE": "22072"
+  },
+  {
+    "nombre": "Calmarza",
+    "provincia": "zaragoza",
+    "slug": "calmarza",
+    "codigoINE": "50070"
+  },
+  {
+    "nombre": "Calomarde",
+    "provincia": "teruel",
+    "slug": "calomarde",
+    "codigoINE": "44052"
+  },
+  {
+    "nombre": "Camañas",
+    "provincia": "teruel",
+    "slug": "camanas",
+    "codigoINE": "44053"
+  },
+  {
+    "nombre": "Camarena de la Sierra",
+    "provincia": "teruel",
+    "slug": "camarena-de-la-sierra",
+    "codigoINE": "44054"
+  },
+  {
+    "nombre": "Camarillas",
+    "provincia": "teruel",
+    "slug": "camarillas",
+    "codigoINE": "44055"
+  },
+  {
+    "nombre": "Caminreal",
+    "provincia": "teruel",
+    "slug": "caminreal",
+    "codigoINE": "44056"
+  },
+  {
+    "nombre": "Campillo de Aragón",
+    "provincia": "zaragoza",
+    "slug": "campillo-de-aragon",
+    "codigoINE": "50071"
+  },
+  {
+    "nombre": "Campo",
+    "provincia": "huesca",
+    "slug": "campo",
+    "codigoINE": "22074"
+  },
+  {
+    "nombre": "Camporrélls",
+    "provincia": "huesca",
+    "slug": "camporrells",
+    "codigoINE": "22075"
+  },
+  {
+    "nombre": "Canal de Berdún",
+    "provincia": "huesca",
+    "slug": "canal-de-berdun",
+    "codigoINE": "22076"
+  },
+  {
+    "nombre": "Candasnos",
+    "provincia": "huesca",
+    "slug": "candasnos",
+    "codigoINE": "22077"
+  },
+  {
+    "nombre": "Canfranc",
+    "provincia": "huesca",
+    "slug": "canfranc",
+    "codigoINE": "22078"
+  },
+  {
+    "nombre": "Cantavieja",
+    "provincia": "teruel",
+    "slug": "cantavieja",
+    "codigoINE": "44059"
+  },
+  {
+    "nombre": "Cañada de Benatanduz",
+    "provincia": "teruel",
+    "slug": "canada-de-benatanduz",
+    "codigoINE": "44060"
+  },
+  {
+    "nombre": "Cañada Vellida",
+    "provincia": "teruel",
+    "slug": "canada-vellida",
+    "codigoINE": "44062"
+  },
+  {
+    "nombre": "Cañizar del Olivar",
+    "provincia": "teruel",
+    "slug": "canizar-del-olivar",
+    "codigoINE": "44063"
+  },
+  {
+    "nombre": "Capdesaso",
+    "provincia": "huesca",
+    "slug": "capdesaso",
+    "codigoINE": "22079"
+  },
+  {
+    "nombre": "Capella",
+    "provincia": "huesca",
+    "slug": "capella",
+    "codigoINE": "22080"
+  },
+  {
+    "nombre": "Carenas",
+    "provincia": "zaragoza",
+    "slug": "carenas",
+    "codigoINE": "50072"
+  },
+  {
+    "nombre": "Cariñena",
+    "provincia": "zaragoza",
+    "slug": "carinena",
+    "codigoINE": "50073"
+  },
+  {
+    "nombre": "Casbas de Huesca",
+    "provincia": "huesca",
+    "slug": "casbas-de-huesca",
+    "codigoINE": "22081"
+  },
+  {
+    "nombre": "Cascante del Río",
+    "provincia": "teruel",
+    "slug": "cascante-del-rio",
+    "codigoINE": "44064"
+  },
+  {
+    "nombre": "Caspe",
+    "provincia": "zaragoza",
+    "slug": "caspe",
+    "codigoINE": "50074"
+  },
+  {
+    "nombre": "Castejón de Alarba",
+    "provincia": "zaragoza",
+    "slug": "castejon-de-alarba",
+    "codigoINE": "50075"
+  },
+  {
+    "nombre": "Castejón de las Armas",
+    "provincia": "zaragoza",
+    "slug": "castejon-de-las-armas",
+    "codigoINE": "50076"
+  },
+  {
+    "nombre": "Castejón de Monegros",
+    "provincia": "huesca",
+    "slug": "castejon-de-monegros",
+    "codigoINE": "22083"
+  },
+  {
+    "nombre": "Castejón de Sos",
+    "provincia": "huesca",
+    "slug": "castejon-de-sos",
+    "codigoINE": "22084"
+  },
+  {
+    "nombre": "Castejón de Tornos",
+    "provincia": "teruel",
+    "slug": "castejon-de-tornos",
+    "codigoINE": "44065"
+  },
+  {
+    "nombre": "Castejón de Valdejasa",
+    "provincia": "zaragoza",
+    "slug": "castejon-de-valdejasa",
+    "codigoINE": "50077"
+  },
+  {
+    "nombre": "Castejón del Puente",
+    "provincia": "huesca",
+    "slug": "castejon-del-puente",
+    "codigoINE": "22082"
+  },
+  {
+    "nombre": "Castel de Cabra",
+    "provincia": "teruel",
+    "slug": "castel-de-cabra",
+    "codigoINE": "44066"
+  },
+  {
+    "nombre": "Castelflorite",
+    "provincia": "huesca",
+    "slug": "castelflorite",
+    "codigoINE": "22085"
+  },
+  {
+    "nombre": "Castellote",
+    "provincia": "teruel",
+    "slug": "castellote",
+    "codigoINE": "44071"
+  },
+  {
+    "nombre": "Castelnou",
+    "provincia": "teruel",
+    "slug": "castelnou",
+    "codigoINE": "44067"
+  },
+  {
+    "nombre": "Castelserás",
+    "provincia": "teruel",
+    "slug": "castelseras",
+    "codigoINE": "44068"
+  },
+  {
+    "nombre": "Castiello de Jaca",
+    "provincia": "huesca",
+    "slug": "castiello-de-jaca",
+    "codigoINE": "22086"
+  },
+  {
+    "nombre": "Castigaleu",
+    "provincia": "huesca",
+    "slug": "castigaleu",
+    "codigoINE": "22087"
+  },
+  {
+    "nombre": "Castiliscar",
+    "provincia": "zaragoza",
+    "slug": "castiliscar",
+    "codigoINE": "50078"
+  },
+  {
+    "nombre": "Castillazuelo",
+    "provincia": "huesca",
+    "slug": "castillazuelo",
+    "codigoINE": "22088"
+  },
+  {
+    "nombre": "Castillonroy",
+    "provincia": "huesca",
+    "slug": "castillonroy",
+    "codigoINE": "22089"
+  },
+  {
+    "nombre": "Cedrillas",
+    "provincia": "teruel",
+    "slug": "cedrillas",
+    "codigoINE": "44074"
+  },
+  {
+    "nombre": "Celadas",
+    "provincia": "teruel",
+    "slug": "celadas",
+    "codigoINE": "44075"
+  },
+  {
+    "nombre": "Cella",
+    "provincia": "teruel",
+    "slug": "cella",
+    "codigoINE": "44076"
+  },
+  {
+    "nombre": "Cervera de la Cañada",
+    "provincia": "zaragoza",
+    "slug": "cervera-de-la-canada",
+    "codigoINE": "50079"
+  },
+  {
+    "nombre": "Cerveruela",
+    "provincia": "zaragoza",
+    "slug": "cerveruela",
+    "codigoINE": "50080"
+  },
+  {
+    "nombre": "Cetina",
+    "provincia": "zaragoza",
+    "slug": "cetina",
+    "codigoINE": "50081"
+  },
+  {
+    "nombre": "Chalamera",
+    "provincia": "huesca",
+    "slug": "chalamera",
+    "codigoINE": "22094"
+  },
+  {
+    "nombre": "Chía",
+    "provincia": "huesca",
+    "slug": "chia",
+    "codigoINE": "22095"
+  },
+  {
+    "nombre": "Chimillas",
+    "provincia": "huesca",
+    "slug": "chimillas",
+    "codigoINE": "22096"
+  },
+  {
+    "nombre": "Chiprana",
+    "provincia": "zaragoza",
+    "slug": "chiprana",
+    "codigoINE": "50092"
+  },
+  {
+    "nombre": "Chodes",
+    "provincia": "zaragoza",
+    "slug": "chodes",
+    "codigoINE": "50093"
+  },
+  {
+    "nombre": "Cimballa",
+    "provincia": "zaragoza",
+    "slug": "cimballa",
+    "codigoINE": "50082"
+  },
+  {
+    "nombre": "Cinco Olivas",
+    "provincia": "zaragoza",
+    "slug": "cinco-olivas",
+    "codigoINE": "50083"
+  },
+  {
+    "nombre": "Clarés de Ribota",
+    "provincia": "zaragoza",
+    "slug": "clares-de-ribota",
+    "codigoINE": "50084"
+  },
+  {
+    "nombre": "Codo",
+    "provincia": "zaragoza",
+    "slug": "codo",
+    "codigoINE": "50085"
+  },
+  {
+    "nombre": "Codos",
+    "provincia": "zaragoza",
+    "slug": "codos",
+    "codigoINE": "50086"
+  },
+  {
+    "nombre": "Colungo",
+    "provincia": "huesca",
+    "slug": "colungo",
+    "codigoINE": "22090"
+  },
+  {
+    "nombre": "Contamina",
+    "provincia": "zaragoza",
+    "slug": "contamina",
+    "codigoINE": "50087"
+  },
+  {
+    "nombre": "Corbalán",
+    "provincia": "teruel",
+    "slug": "corbalan",
+    "codigoINE": "44082"
+  },
+  {
+    "nombre": "Cortes de Aragón",
+    "provincia": "teruel",
+    "slug": "cortes-de-aragon",
+    "codigoINE": "44084"
+  },
+  {
+    "nombre": "Cosa",
+    "provincia": "teruel",
+    "slug": "cosa",
+    "codigoINE": "44085"
+  },
+  {
+    "nombre": "Cosuenda",
+    "provincia": "zaragoza",
+    "slug": "cosuenda",
+    "codigoINE": "50088"
+  },
+  {
+    "nombre": "Cretas",
+    "provincia": "teruel",
+    "slug": "cretas",
+    "codigoINE": "44086"
+  },
+  {
+    "nombre": "Crivillén",
+    "provincia": "teruel",
+    "slug": "crivillen",
+    "codigoINE": "44087"
+  },
+  {
+    "nombre": "Cuarte de Huerva",
+    "provincia": "zaragoza",
+    "slug": "cuarte-de-huerva",
+    "codigoINE": "50089"
+  },
+  {
+    "nombre": "Cubel",
+    "provincia": "zaragoza",
+    "slug": "cubel",
+    "codigoINE": "50090"
+  },
+  {
+    "nombre": "Cubla",
+    "provincia": "teruel",
+    "slug": "cubla",
+    "codigoINE": "44089"
+  },
+  {
+    "nombre": "Cucalón",
+    "provincia": "teruel",
+    "slug": "cucalon",
+    "codigoINE": "44090"
+  },
+  {
+    "nombre": "Cuevas de Almudén",
+    "provincia": "teruel",
+    "slug": "cuevas-de-almuden",
+    "codigoINE": "44093"
+  },
+  {
+    "nombre": "Cuevas Labradas",
+    "provincia": "teruel",
+    "slug": "cuevas-labradas",
+    "codigoINE": "44094"
+  },
+  {
+    "nombre": "Daroca",
+    "provincia": "zaragoza",
+    "slug": "daroca",
+    "codigoINE": "50094"
+  },
+  {
+    "nombre": "Ejea de los Caballeros",
+    "provincia": "zaragoza",
+    "slug": "ejea-de-los-caballeros",
+    "codigoINE": "50095"
+  },
+  {
+    "nombre": "Ejulve",
+    "provincia": "teruel",
+    "slug": "ejulve",
+    "codigoINE": "44096"
+  },
+  {
+    "nombre": "El Burgo de Ebro",
+    "provincia": "zaragoza",
+    "slug": "el-burgo-de-ebro",
+    "codigoINE": "50062"
+  },
+  {
+    "nombre": "El Buste",
+    "provincia": "zaragoza",
+    "slug": "el-buste",
+    "codigoINE": "50063"
+  },
+  {
+    "nombre": "El Castellar",
+    "provincia": "teruel",
+    "slug": "el-castellar",
+    "codigoINE": "44070"
+  },
+  {
+    "nombre": "El Cuervo",
+    "provincia": "teruel",
+    "slug": "el-cuervo",
+    "codigoINE": "44092"
+  },
+  {
+    "nombre": "El Frago",
+    "provincia": "zaragoza",
+    "slug": "el-frago",
+    "codigoINE": "50109"
+  },
+  {
+    "nombre": "El Frasno",
+    "provincia": "zaragoza",
+    "slug": "el-frasno",
+    "codigoINE": "50110"
+  },
+  {
+    "nombre": "El Grado",
+    "provincia": "huesca",
+    "slug": "el-grado",
+    "codigoINE": "22115"
+  },
+  {
+    "nombre": "El Pobo",
+    "provincia": "teruel",
+    "slug": "el-pobo",
+    "codigoINE": "44185"
+  },
+  {
+    "nombre": "El Pueyo de Araguás",
+    "provincia": "huesca",
+    "slug": "el-pueyo-de-araguas",
+    "codigoINE": "22190"
+  },
+  {
+    "nombre": "El Vallecillo",
+    "provincia": "teruel",
+    "slug": "el-vallecillo",
+    "codigoINE": "44249"
+  },
+  {
+    "nombre": "Embid de Ariza",
+    "provincia": "zaragoza",
+    "slug": "embid-de-ariza",
+    "codigoINE": "50096"
+  },
+  {
+    "nombre": "Encinacorba",
+    "provincia": "zaragoza",
+    "slug": "encinacorba",
+    "codigoINE": "50098"
+  },
+  {
+    "nombre": "Épila",
+    "provincia": "zaragoza",
+    "slug": "epila",
+    "codigoINE": "50099"
+  },
+  {
+    "nombre": "Erla",
+    "provincia": "zaragoza",
+    "slug": "erla",
+    "codigoINE": "50100"
+  },
+  {
+    "nombre": "Escatrón",
+    "provincia": "zaragoza",
+    "slug": "escatron",
+    "codigoINE": "50101"
+  },
+  {
+    "nombre": "Escorihuela",
+    "provincia": "teruel",
+    "slug": "escorihuela",
+    "codigoINE": "44097"
+  },
+  {
+    "nombre": "Escucha",
+    "provincia": "teruel",
+    "slug": "escucha",
+    "codigoINE": "44099"
+  },
+  {
+    "nombre": "Esplús",
+    "provincia": "huesca",
+    "slug": "esplus",
+    "codigoINE": "22099"
+  },
+  {
+    "nombre": "Estada",
+    "provincia": "huesca",
+    "slug": "estada",
+    "codigoINE": "22102"
+  },
+  {
+    "nombre": "Estadilla",
+    "provincia": "huesca",
+    "slug": "estadilla",
+    "codigoINE": "22103"
+  },
+  {
+    "nombre": "Estercuel",
+    "provincia": "teruel",
+    "slug": "estercuel",
+    "codigoINE": "44100"
+  },
+  {
+    "nombre": "Estopiñán del Castillo",
+    "provincia": "huesca",
+    "slug": "estopinan-del-castillo",
+    "codigoINE": "22105"
+  },
+  {
+    "nombre": "Fabara",
+    "provincia": "zaragoza",
+    "slug": "fabara",
+    "codigoINE": "50102"
+  },
+  {
+    "nombre": "Fago",
+    "provincia": "huesca",
+    "slug": "fago",
+    "codigoINE": "22106"
+  },
+  {
+    "nombre": "Fanlo",
+    "provincia": "huesca",
+    "slug": "fanlo",
+    "codigoINE": "22107"
+  },
+  {
+    "nombre": "Farlete",
+    "provincia": "zaragoza",
+    "slug": "farlete",
+    "codigoINE": "50104"
+  },
+  {
+    "nombre": "Fayón",
+    "provincia": "zaragoza",
+    "slug": "fayon",
+    "codigoINE": "50105"
+  },
+  {
+    "nombre": "Ferreruela de Huerva",
+    "provincia": "teruel",
+    "slug": "ferreruela-de-huerva",
+    "codigoINE": "44101"
+  },
+  {
+    "nombre": "Figueruelas",
+    "provincia": "zaragoza",
+    "slug": "figueruelas",
+    "codigoINE": "50107"
+  },
+  {
+    "nombre": "Fiscal",
+    "provincia": "huesca",
+    "slug": "fiscal",
+    "codigoINE": "22109"
+  },
+  {
+    "nombre": "Fombuena",
+    "provincia": "zaragoza",
+    "slug": "fombuena",
+    "codigoINE": "50108"
+  },
+  {
+    "nombre": "Fonfría",
+    "provincia": "teruel",
+    "slug": "fonfria",
+    "codigoINE": "44102"
+  },
+  {
+    "nombre": "Fonz",
+    "provincia": "huesca",
+    "slug": "fonz",
+    "codigoINE": "22110"
+  },
+  {
+    "nombre": "Foradada del Toscar",
+    "provincia": "huesca",
+    "slug": "foradada-del-toscar",
+    "codigoINE": "22111"
+  },
+  {
+    "nombre": "Formiche Alto",
+    "provincia": "teruel",
+    "slug": "formiche-alto",
+    "codigoINE": "44103"
+  },
+  {
+    "nombre": "Fórnoles",
+    "provincia": "teruel",
+    "slug": "fornoles",
+    "codigoINE": "44105"
+  },
+  {
+    "nombre": "Fortanete",
+    "provincia": "teruel",
+    "slug": "fortanete",
+    "codigoINE": "44106"
+  },
+  {
+    "nombre": "Foz-Calanda",
+    "provincia": "teruel",
+    "slug": "foz-calanda",
+    "codigoINE": "44107"
+  },
+  {
+    "nombre": "Fraga",
+    "provincia": "huesca",
+    "slug": "fraga",
+    "codigoINE": "22112"
+  },
+  {
+    "nombre": "Fréscano",
+    "provincia": "zaragoza",
+    "slug": "frescano",
+    "codigoINE": "50111"
+  },
+  {
+    "nombre": "Frías de Albarracín",
+    "provincia": "teruel",
+    "slug": "frias-de-albarracin",
+    "codigoINE": "44109"
+  },
+  {
+    "nombre": "Fuendejalón",
+    "provincia": "zaragoza",
+    "slug": "fuendejalon",
+    "codigoINE": "50113"
+  },
+  {
+    "nombre": "Fuendetodos",
+    "provincia": "zaragoza",
+    "slug": "fuendetodos",
+    "codigoINE": "50114"
+  },
+  {
+    "nombre": "Fuenferrada",
+    "provincia": "teruel",
+    "slug": "fuenferrada",
+    "codigoINE": "44110"
+  },
+  {
+    "nombre": "Fuentes Calientes",
+    "provincia": "teruel",
+    "slug": "fuentes-calientes",
+    "codigoINE": "44111"
+  },
+  {
+    "nombre": "Fuentes Claras",
+    "provincia": "teruel",
+    "slug": "fuentes-claras",
+    "codigoINE": "44112"
+  },
+  {
+    "nombre": "Fuentes de Ebro",
+    "provincia": "zaragoza",
+    "slug": "fuentes-de-ebro",
+    "codigoINE": "50115"
+  },
+  {
+    "nombre": "Fuentes de Jiloca",
+    "provincia": "zaragoza",
+    "slug": "fuentes-de-jiloca",
+    "codigoINE": "50116"
+  },
+  {
+    "nombre": "Fuentes de Rubielos",
+    "provincia": "teruel",
+    "slug": "fuentes-de-rubielos",
+    "codigoINE": "44113"
+  },
+  {
+    "nombre": "Fuentespalda",
+    "provincia": "teruel",
+    "slug": "fuentespalda",
+    "codigoINE": "44114"
+  },
+  {
+    "nombre": "Gallocanta",
+    "provincia": "zaragoza",
+    "slug": "gallocanta",
+    "codigoINE": "50117"
+  },
+  {
+    "nombre": "Gallur",
+    "provincia": "zaragoza",
+    "slug": "gallur",
+    "codigoINE": "50118"
+  },
+  {
+    "nombre": "Galve",
+    "provincia": "teruel",
+    "slug": "galve",
+    "codigoINE": "44115"
+  },
+  {
+    "nombre": "Gargallo",
+    "provincia": "teruel",
+    "slug": "gargallo",
+    "codigoINE": "44116"
+  },
+  {
+    "nombre": "Gea de Albarracín",
+    "provincia": "teruel",
+    "slug": "gea-de-albarracin",
+    "codigoINE": "44117"
+  },
+  {
+    "nombre": "Gelsa",
+    "provincia": "zaragoza",
+    "slug": "gelsa",
+    "codigoINE": "50119"
+  },
+  {
+    "nombre": "Gistaín",
+    "provincia": "huesca",
+    "slug": "gistain",
+    "codigoINE": "22114"
+  },
+  {
+    "nombre": "Godojos",
+    "provincia": "zaragoza",
+    "slug": "godojos",
+    "codigoINE": "50120"
+  },
+  {
+    "nombre": "Gotor",
+    "provincia": "zaragoza",
+    "slug": "gotor",
+    "codigoINE": "50121"
+  },
+  {
+    "nombre": "Grañén",
+    "provincia": "huesca",
+    "slug": "granen",
+    "codigoINE": "22116"
+  },
+  {
+    "nombre": "Graus",
+    "provincia": "huesca",
+    "slug": "graus",
+    "codigoINE": "22117"
+  },
+  {
+    "nombre": "Griegos",
+    "provincia": "teruel",
+    "slug": "griegos",
+    "codigoINE": "44119"
+  },
+  {
+    "nombre": "Grisel",
+    "provincia": "zaragoza",
+    "slug": "grisel",
+    "codigoINE": "50122"
+  },
+  {
+    "nombre": "Grisén",
+    "provincia": "zaragoza",
+    "slug": "grisen",
+    "codigoINE": "50123"
+  },
+  {
+    "nombre": "Guadalaviar",
+    "provincia": "teruel",
+    "slug": "guadalaviar",
+    "codigoINE": "44120"
+  },
+  {
+    "nombre": "Gúdar",
+    "provincia": "teruel",
+    "slug": "gudar",
+    "codigoINE": "44121"
+  },
+  {
+    "nombre": "Gurrea de Gállego",
+    "provincia": "huesca",
+    "slug": "gurrea-de-gallego",
+    "codigoINE": "22119"
+  },
+  {
+    "nombre": "Herrera de los Navarros",
+    "provincia": "zaragoza",
+    "slug": "herrera-de-los-navarros",
+    "codigoINE": "50124"
+  },
+  {
+    "nombre": "Híjar",
+    "provincia": "teruel",
+    "slug": "hijar",
+    "codigoINE": "44122"
+  },
+  {
+    "nombre": "Hinojosa de Jarque",
+    "provincia": "teruel",
+    "slug": "hinojosa-de-jarque",
+    "codigoINE": "44123"
+  },
+  {
+    "nombre": "Hoz de Jaca",
+    "provincia": "huesca",
+    "slug": "hoz-de-jaca",
+    "codigoINE": "22122"
+  },
+  {
+    "nombre": "Hoz y Costean",
+    "provincia": "huesca",
+    "slug": "hoz-y-costean",
+    "codigoINE": "22908"
+  },
+  {
+    "nombre": "Huerto",
+    "provincia": "huesca",
+    "slug": "huerto",
+    "codigoINE": "22124"
+  },
+  {
+    "nombre": "Huesa del Común",
+    "provincia": "teruel",
+    "slug": "huesa-del-comun",
+    "codigoINE": "44125"
+  },
+  {
+    "nombre": "Huesca",
+    "provincia": "huesca",
+    "slug": "huesca",
+    "codigoINE": "22125"
+  },
+  {
+    "nombre": "Ibdes",
+    "provincia": "zaragoza",
+    "slug": "ibdes",
+    "codigoINE": "50125"
+  },
+  {
+    "nombre": "Ibieca",
+    "provincia": "huesca",
+    "slug": "ibieca",
+    "codigoINE": "22126"
+  },
+  {
+    "nombre": "Igriés",
+    "provincia": "huesca",
+    "slug": "igries",
+    "codigoINE": "22127"
+  },
+  {
+    "nombre": "Ilche",
+    "provincia": "huesca",
+    "slug": "ilche",
+    "codigoINE": "22128"
+  },
+  {
+    "nombre": "Illueca",
+    "provincia": "zaragoza",
+    "slug": "illueca",
+    "codigoINE": "50126"
+  },
+  {
+    "nombre": "Isábena",
+    "provincia": "huesca",
+    "slug": "isabena",
+    "codigoINE": "22129"
+  },
+  {
+    "nombre": "Isuerre",
+    "provincia": "zaragoza",
+    "slug": "isuerre",
+    "codigoINE": "50128"
+  },
+  {
+    "nombre": "Jabaloyas",
+    "provincia": "teruel",
+    "slug": "jabaloyas",
+    "codigoINE": "44127"
+  },
+  {
+    "nombre": "Jaca",
+    "provincia": "huesca",
+    "slug": "jaca",
+    "codigoINE": "22130"
+  },
+  {
+    "nombre": "Jaraba",
+    "provincia": "zaragoza",
+    "slug": "jaraba",
+    "codigoINE": "50129"
+  },
+  {
+    "nombre": "Jarque de la Val",
+    "provincia": "teruel",
+    "slug": "jarque-de-la-val",
+    "codigoINE": "44128"
+  },
+  {
+    "nombre": "Jarque de Moncayo",
+    "provincia": "zaragoza",
+    "slug": "jarque-de-moncayo",
+    "codigoINE": "50130"
+  },
+  {
+    "nombre": "Jasa",
+    "provincia": "huesca",
+    "slug": "jasa",
+    "codigoINE": "22131"
+  },
+  {
+    "nombre": "Jatiel",
+    "provincia": "teruel",
+    "slug": "jatiel",
+    "codigoINE": "44129"
+  },
+  {
+    "nombre": "Jaulín",
+    "provincia": "zaragoza",
+    "slug": "jaulin",
+    "codigoINE": "50131"
+  },
+  {
+    "nombre": "Jorcas",
+    "provincia": "teruel",
+    "slug": "jorcas",
+    "codigoINE": "44130"
+  },
+  {
+    "nombre": "Josa",
+    "provincia": "teruel",
+    "slug": "josa",
+    "codigoINE": "44131"
+  },
+  {
+    "nombre": "La Almolda",
+    "provincia": "zaragoza",
+    "slug": "la-almolda",
+    "codigoINE": "50022"
+  },
+  {
+    "nombre": "La Almunia de Doña Godina",
+    "provincia": "zaragoza",
+    "slug": "la-almunia-de-dona-godina",
+    "codigoINE": "50025"
+  },
+  {
+    "nombre": "La Cañada de Verich",
+    "provincia": "teruel",
+    "slug": "la-canada-de-verich",
+    "codigoINE": "44061"
+  },
+  {
+    "nombre": "La Cerollera",
+    "provincia": "teruel",
+    "slug": "la-cerollera",
+    "codigoINE": "44077"
+  },
+  {
+    "nombre": "La Codoñera",
+    "provincia": "teruel",
+    "slug": "la-codonera",
+    "codigoINE": "44080"
+  },
+  {
+    "nombre": "La Cuba",
+    "provincia": "teruel",
+    "slug": "la-cuba",
+    "codigoINE": "44088"
+  },
+  {
+    "nombre": "La Fresneda",
+    "provincia": "teruel",
+    "slug": "la-fresneda",
+    "codigoINE": "44108"
+  },
+  {
+    "nombre": "La Fueva",
+    "provincia": "huesca",
+    "slug": "la-fueva",
+    "codigoINE": "22113"
+  },
+  {
+    "nombre": "La Ginebrosa",
+    "provincia": "teruel",
+    "slug": "la-ginebrosa",
+    "codigoINE": "44118"
+  },
+  {
+    "nombre": "La Hoz de la Vieja",
+    "provincia": "teruel",
+    "slug": "la-hoz-de-la-vieja",
+    "codigoINE": "44124"
+  },
+  {
+    "nombre": "La Iglesuela del Cid",
+    "provincia": "teruel",
+    "slug": "la-iglesuela-del-cid",
+    "codigoINE": "44126"
+  },
+  {
+    "nombre": "La Joyosa",
+    "provincia": "zaragoza",
+    "slug": "la-joyosa",
+    "codigoINE": "50132"
+  },
+  {
+    "nombre": "La Mata de los Olmos",
+    "provincia": "teruel",
+    "slug": "la-mata-de-los-olmos",
+    "codigoINE": "44146"
+  },
+  {
+    "nombre": "La Muela",
+    "provincia": "zaragoza",
+    "slug": "la-muela",
+    "codigoINE": "50182"
+  },
+  {
+    "nombre": "La Portellada",
+    "provincia": "teruel",
+    "slug": "la-portellada",
+    "codigoINE": "44187"
+  },
+  {
+    "nombre": "La Puebla de Alfindén",
+    "provincia": "zaragoza",
+    "slug": "la-puebla-de-alfinden",
+    "codigoINE": "50219"
+  },
+  {
+    "nombre": "La Puebla de Castro",
+    "provincia": "huesca",
+    "slug": "la-puebla-de-castro",
+    "codigoINE": "22187"
+  },
+  {
+    "nombre": "La Puebla de Híjar",
+    "provincia": "teruel",
+    "slug": "la-puebla-de-hijar",
+    "codigoINE": "44191"
+  },
+  {
+    "nombre": "La Puebla de Valverde",
+    "provincia": "teruel",
+    "slug": "la-puebla-de-valverde",
+    "codigoINE": "44192"
+  },
+  {
+    "nombre": "La Sotonera",
+    "provincia": "huesca",
+    "slug": "la-sotonera",
+    "codigoINE": "22904"
+  },
+  {
+    "nombre": "La Vilueña",
+    "provincia": "zaragoza",
+    "slug": "la-viluena",
+    "codigoINE": "50282"
+  },
+  {
+    "nombre": "La Zaida",
+    "provincia": "zaragoza",
+    "slug": "la-zaida",
+    "codigoINE": "50296"
+  },
+  {
+    "nombre": "La Zoma",
+    "provincia": "teruel",
+    "slug": "la-zoma",
+    "codigoINE": "44268"
+  },
+  {
+    "nombre": "Labuerda",
+    "provincia": "huesca",
+    "slug": "labuerda",
+    "codigoINE": "22133"
+  },
+  {
+    "nombre": "Lagata",
+    "provincia": "zaragoza",
+    "slug": "lagata",
+    "codigoINE": "50133"
+  },
+  {
+    "nombre": "Lagueruela",
+    "provincia": "teruel",
+    "slug": "lagueruela",
+    "codigoINE": "44132"
+  },
+  {
+    "nombre": "Laluenga",
+    "provincia": "huesca",
+    "slug": "laluenga",
+    "codigoINE": "22135"
+  },
+  {
+    "nombre": "Lalueza",
+    "provincia": "huesca",
+    "slug": "lalueza",
+    "codigoINE": "22136"
+  },
+  {
+    "nombre": "Lanaja",
+    "provincia": "huesca",
+    "slug": "lanaja",
+    "codigoINE": "22137"
+  },
+  {
+    "nombre": "Langa del Castillo",
+    "provincia": "zaragoza",
+    "slug": "langa-del-castillo",
+    "codigoINE": "50134"
+  },
+  {
+    "nombre": "Lanzuela",
+    "provincia": "teruel",
+    "slug": "lanzuela",
+    "codigoINE": "44133"
+  },
+  {
+    "nombre": "Laperdiguera",
+    "provincia": "huesca",
+    "slug": "laperdiguera",
+    "codigoINE": "22139"
+  },
+  {
+    "nombre": "Las Cuerlas",
+    "provincia": "zaragoza",
+    "slug": "las-cuerlas",
+    "codigoINE": "50091"
+  },
+  {
+    "nombre": "Las Parras de Castellote",
+    "provincia": "teruel",
+    "slug": "las-parras-de-castellote",
+    "codigoINE": "44178"
+  },
+  {
+    "nombre": "Las Pedrosas",
+    "provincia": "zaragoza",
+    "slug": "las-pedrosas",
+    "codigoINE": "50205"
+  },
+  {
+    "nombre": "Las Peñas de Riglos",
+    "provincia": "huesca",
+    "slug": "las-penas-de-riglos",
+    "codigoINE": "22173"
+  },
+  {
+    "nombre": "Lascellas-Ponzano",
+    "provincia": "huesca",
+    "slug": "lascellas-ponzano",
+    "codigoINE": "22141"
+  },
+  {
+    "nombre": "Lascuarre",
+    "provincia": "huesca",
+    "slug": "lascuarre",
+    "codigoINE": "22142"
+  },
+  {
+    "nombre": "Laspaúles",
+    "provincia": "huesca",
+    "slug": "laspaules",
+    "codigoINE": "22143"
+  },
+  {
+    "nombre": "Laspuña",
+    "provincia": "huesca",
+    "slug": "laspuna",
+    "codigoINE": "22144"
+  },
+  {
+    "nombre": "Layana",
+    "provincia": "zaragoza",
+    "slug": "layana",
+    "codigoINE": "50135"
+  },
+  {
+    "nombre": "Lécera",
+    "provincia": "zaragoza",
+    "slug": "lecera",
+    "codigoINE": "50136"
+  },
+  {
+    "nombre": "Lechón",
+    "provincia": "zaragoza",
+    "slug": "lechon",
+    "codigoINE": "50138"
+  },
+  {
+    "nombre": "Leciñena",
+    "provincia": "zaragoza",
+    "slug": "lecinena",
+    "codigoINE": "50137"
+  },
+  {
+    "nombre": "Letux",
+    "provincia": "zaragoza",
+    "slug": "letux",
+    "codigoINE": "50139"
+  },
+  {
+    "nombre": "Libros",
+    "provincia": "teruel",
+    "slug": "libros",
+    "codigoINE": "44135"
+  },
+  {
+    "nombre": "Lidón",
+    "provincia": "teruel",
+    "slug": "lidon",
+    "codigoINE": "44136"
+  },
+  {
+    "nombre": "Linares de Mora",
+    "provincia": "teruel",
+    "slug": "linares-de-mora",
+    "codigoINE": "44137"
+  },
+  {
+    "nombre": "Litago",
+    "provincia": "zaragoza",
+    "slug": "litago",
+    "codigoINE": "50140"
+  },
+  {
+    "nombre": "Lituénigo",
+    "provincia": "zaragoza",
+    "slug": "lituenigo",
+    "codigoINE": "50141"
+  },
+  {
+    "nombre": "Lledó",
+    "provincia": "teruel",
+    "slug": "lledo",
+    "codigoINE": "44141"
+  },
+  {
+    "nombre": "Loarre",
+    "provincia": "huesca",
+    "slug": "loarre",
+    "codigoINE": "22149"
+  },
+  {
+    "nombre": "Lobera de Onsella",
+    "provincia": "zaragoza",
+    "slug": "lobera-de-onsella",
+    "codigoINE": "50142"
+  },
+  {
+    "nombre": "Longares",
+    "provincia": "zaragoza",
+    "slug": "longares",
+    "codigoINE": "50143"
+  },
+  {
+    "nombre": "Longás",
+    "provincia": "zaragoza",
+    "slug": "longas",
+    "codigoINE": "50144"
+  },
+  {
+    "nombre": "Loporzano",
+    "provincia": "huesca",
+    "slug": "loporzano",
+    "codigoINE": "22150"
+  },
+  {
+    "nombre": "Los Fayos",
+    "provincia": "zaragoza",
+    "slug": "los-fayos",
+    "codigoINE": "50106"
+  },
+  {
+    "nombre": "Los Olmos",
+    "provincia": "teruel",
+    "slug": "los-olmos",
+    "codigoINE": "44173"
+  },
+  {
+    "nombre": "Los Pintanos",
+    "provincia": "zaragoza",
+    "slug": "los-pintanos",
+    "codigoINE": "50210"
+  },
+  {
+    "nombre": "Loscorrales",
+    "provincia": "huesca",
+    "slug": "loscorrales",
+    "codigoINE": "22151"
+  },
+  {
+    "nombre": "Loscos",
+    "provincia": "teruel",
+    "slug": "loscos",
+    "codigoINE": "44138"
+  },
+  {
+    "nombre": "Lucena de Jalón",
+    "provincia": "zaragoza",
+    "slug": "lucena-de-jalon",
+    "codigoINE": "50146"
+  },
+  {
+    "nombre": "Luceni",
+    "provincia": "zaragoza",
+    "slug": "luceni",
+    "codigoINE": "50147"
+  },
+  {
+    "nombre": "Luesia",
+    "provincia": "zaragoza",
+    "slug": "luesia",
+    "codigoINE": "50148"
+  },
+  {
+    "nombre": "Luesma",
+    "provincia": "zaragoza",
+    "slug": "luesma",
+    "codigoINE": "50149"
+  },
+  {
+    "nombre": "Lumpiaque",
+    "provincia": "zaragoza",
+    "slug": "lumpiaque",
+    "codigoINE": "50150"
+  },
+  {
+    "nombre": "Luna",
+    "provincia": "zaragoza",
+    "slug": "luna",
+    "codigoINE": "50151"
+  },
+  {
+    "nombre": "Lupiñén-Ortilla",
+    "provincia": "huesca",
+    "slug": "lupinen-ortilla",
+    "codigoINE": "22905"
+  },
+  {
+    "nombre": "Maella",
+    "provincia": "zaragoza",
+    "slug": "maella",
+    "codigoINE": "50152"
+  },
+  {
+    "nombre": "Magallón",
+    "provincia": "zaragoza",
+    "slug": "magallon",
+    "codigoINE": "50153"
+  },
+  {
+    "nombre": "Maicas",
+    "provincia": "teruel",
+    "slug": "maicas",
+    "codigoINE": "44142"
+  },
+  {
+    "nombre": "Mainar",
+    "provincia": "zaragoza",
+    "slug": "mainar",
+    "codigoINE": "50154"
+  },
+  {
+    "nombre": "Malanquilla",
+    "provincia": "zaragoza",
+    "slug": "malanquilla",
+    "codigoINE": "50155"
+  },
+  {
+    "nombre": "Maleján",
+    "provincia": "zaragoza",
+    "slug": "malejan",
+    "codigoINE": "50156"
+  },
+  {
+    "nombre": "Mallén",
+    "provincia": "zaragoza",
+    "slug": "mallen",
+    "codigoINE": "50160"
+  },
+  {
+    "nombre": "Malón",
+    "provincia": "zaragoza",
+    "slug": "malon",
+    "codigoINE": "50157"
+  },
+  {
+    "nombre": "Maluenda",
+    "provincia": "zaragoza",
+    "slug": "maluenda",
+    "codigoINE": "50159"
+  },
+  {
+    "nombre": "Manchones",
+    "provincia": "zaragoza",
+    "slug": "manchones",
+    "codigoINE": "50161"
+  },
+  {
+    "nombre": "Manzanera",
+    "provincia": "teruel",
+    "slug": "manzanera",
+    "codigoINE": "44143"
+  },
+  {
+    "nombre": "Mara",
+    "provincia": "zaragoza",
+    "slug": "mara",
+    "codigoINE": "50162"
+  },
+  {
+    "nombre": "María de Huerva",
+    "provincia": "zaragoza",
+    "slug": "maria-de-huerva",
+    "codigoINE": "50163"
+  },
+  {
+    "nombre": "Marracos",
+    "provincia": "zaragoza",
+    "slug": "marracos",
+    "codigoINE": "50902"
+  },
+  {
+    "nombre": "Martín del Río",
+    "provincia": "teruel",
+    "slug": "martin-del-rio",
+    "codigoINE": "44144"
+  },
+  {
+    "nombre": "Mas de las Matas",
+    "provincia": "teruel",
+    "slug": "mas-de-las-matas",
+    "codigoINE": "44145"
+  },
+  {
+    "nombre": "Mazaleón",
+    "provincia": "teruel",
+    "slug": "mazaleon",
+    "codigoINE": "44147"
+  },
+  {
+    "nombre": "Mediana de Aragón",
+    "provincia": "zaragoza",
+    "slug": "mediana-de-aragon",
+    "codigoINE": "50164"
+  },
+  {
+    "nombre": "Mequinenza",
+    "provincia": "zaragoza",
+    "slug": "mequinenza",
+    "codigoINE": "50165"
+  },
+  {
+    "nombre": "Mesones de Isuela",
+    "provincia": "zaragoza",
+    "slug": "mesones-de-isuela",
+    "codigoINE": "50166"
+  },
+  {
+    "nombre": "Mezalocha",
+    "provincia": "zaragoza",
+    "slug": "mezalocha",
+    "codigoINE": "50167"
+  },
+  {
+    "nombre": "Mezquita de Jarque",
+    "provincia": "teruel",
+    "slug": "mezquita-de-jarque",
+    "codigoINE": "44148"
+  },
+  {
+    "nombre": "Mianos",
+    "provincia": "zaragoza",
+    "slug": "mianos",
+    "codigoINE": "50168"
+  },
+  {
+    "nombre": "Miedes de Aragón",
+    "provincia": "zaragoza",
+    "slug": "miedes-de-aragon",
+    "codigoINE": "50169"
+  },
+  {
+    "nombre": "Mirambel",
+    "provincia": "teruel",
+    "slug": "mirambel",
+    "codigoINE": "44149"
+  },
+  {
+    "nombre": "Miravete de la Sierra",
+    "provincia": "teruel",
+    "slug": "miravete-de-la-sierra",
+    "codigoINE": "44150"
+  },
+  {
+    "nombre": "Molinos",
+    "provincia": "teruel",
+    "slug": "molinos",
+    "codigoINE": "44151"
+  },
+  {
+    "nombre": "Monegrillo",
+    "provincia": "zaragoza",
+    "slug": "monegrillo",
+    "codigoINE": "50170"
+  },
+  {
+    "nombre": "Monesma y Cajigar",
+    "provincia": "huesca",
+    "slug": "monesma-y-cajigar",
+    "codigoINE": "22155"
+  },
+  {
+    "nombre": "Moneva",
+    "provincia": "zaragoza",
+    "slug": "moneva",
+    "codigoINE": "50171"
+  },
+  {
+    "nombre": "Monflorite-Lascasas",
+    "provincia": "huesca",
+    "slug": "monflorite-lascasas",
+    "codigoINE": "22156"
+  },
+  {
+    "nombre": "Monforte de Moyuela",
+    "provincia": "teruel",
+    "slug": "monforte-de-moyuela",
+    "codigoINE": "44152"
+  },
+  {
+    "nombre": "Monreal de Ariza",
+    "provincia": "zaragoza",
+    "slug": "monreal-de-ariza",
+    "codigoINE": "50172"
+  },
+  {
+    "nombre": "Monreal del Campo",
+    "provincia": "teruel",
+    "slug": "monreal-del-campo",
+    "codigoINE": "44153"
+  },
+  {
+    "nombre": "Monroyo",
+    "provincia": "teruel",
+    "slug": "monroyo",
+    "codigoINE": "44154"
+  },
+  {
+    "nombre": "Montalbán",
+    "provincia": "teruel",
+    "slug": "montalban",
+    "codigoINE": "44155"
+  },
+  {
+    "nombre": "Montanuy",
+    "provincia": "huesca",
+    "slug": "montanuy",
+    "codigoINE": "22157"
+  },
+  {
+    "nombre": "Monteagudo del Castillo",
+    "provincia": "teruel",
+    "slug": "monteagudo-del-castillo",
+    "codigoINE": "44156"
+  },
+  {
+    "nombre": "Monterde",
+    "provincia": "zaragoza",
+    "slug": "monterde",
+    "codigoINE": "50173"
+  },
+  {
+    "nombre": "Monterde de Albarracín",
+    "provincia": "teruel",
+    "slug": "monterde-de-albarracin",
+    "codigoINE": "44157"
+  },
+  {
+    "nombre": "Montón",
+    "provincia": "zaragoza",
+    "slug": "monton",
+    "codigoINE": "50174"
+  },
+  {
+    "nombre": "Monzón",
+    "provincia": "huesca",
+    "slug": "monzon",
+    "codigoINE": "22158"
+  },
+  {
+    "nombre": "Mora de Rubielos",
+    "provincia": "teruel",
+    "slug": "mora-de-rubielos",
+    "codigoINE": "44158"
+  },
+  {
+    "nombre": "Morata de Jalón",
+    "provincia": "zaragoza",
+    "slug": "morata-de-jalon",
+    "codigoINE": "50175"
+  },
+  {
+    "nombre": "Morata de Jiloca",
+    "provincia": "zaragoza",
+    "slug": "morata-de-jiloca",
+    "codigoINE": "50176"
+  },
+  {
+    "nombre": "Morés",
+    "provincia": "zaragoza",
+    "slug": "mores",
+    "codigoINE": "50177"
+  },
+  {
+    "nombre": "Moros",
+    "provincia": "zaragoza",
+    "slug": "moros",
+    "codigoINE": "50178"
+  },
+  {
+    "nombre": "Moscardón",
+    "provincia": "teruel",
+    "slug": "moscardon",
+    "codigoINE": "44159"
+  },
+  {
+    "nombre": "Mosqueruela",
+    "provincia": "teruel",
+    "slug": "mosqueruela",
+    "codigoINE": "44160"
+  },
+  {
+    "nombre": "Moyuela",
+    "provincia": "zaragoza",
+    "slug": "moyuela",
+    "codigoINE": "50179"
+  },
+  {
+    "nombre": "Mozota",
+    "provincia": "zaragoza",
+    "slug": "mozota",
+    "codigoINE": "50180"
+  },
+  {
+    "nombre": "Muel",
+    "provincia": "zaragoza",
+    "slug": "muel",
+    "codigoINE": "50181"
+  },
+  {
+    "nombre": "Munébrega",
+    "provincia": "zaragoza",
+    "slug": "munebrega",
+    "codigoINE": "50183"
+  },
+  {
+    "nombre": "Muniesa",
+    "provincia": "teruel",
+    "slug": "muniesa",
+    "codigoINE": "44161"
+  },
+  {
+    "nombre": "Murero",
+    "provincia": "zaragoza",
+    "slug": "murero",
+    "codigoINE": "50184"
+  },
+  {
+    "nombre": "Murillo de Gállego",
+    "provincia": "zaragoza",
+    "slug": "murillo-de-gallego",
+    "codigoINE": "50185"
+  },
+  {
+    "nombre": "Naval",
+    "provincia": "huesca",
+    "slug": "naval",
+    "codigoINE": "22160"
+  },
+  {
+    "nombre": "Navardún",
+    "provincia": "zaragoza",
+    "slug": "navardun",
+    "codigoINE": "50186"
+  },
+  {
+    "nombre": "Nigüella",
+    "provincia": "zaragoza",
+    "slug": "niguella",
+    "codigoINE": "50187"
+  },
+  {
+    "nombre": "Noguera de Albarracín",
+    "provincia": "teruel",
+    "slug": "noguera-de-albarracin",
+    "codigoINE": "44163"
+  },
+  {
+    "nombre": "Nogueras",
+    "provincia": "teruel",
+    "slug": "nogueras",
+    "codigoINE": "44164"
+  },
+  {
+    "nombre": "Nogueruelas",
+    "provincia": "teruel",
+    "slug": "nogueruelas",
+    "codigoINE": "44165"
+  },
+  {
+    "nombre": "Nombrevilla",
+    "provincia": "zaragoza",
+    "slug": "nombrevilla",
+    "codigoINE": "50188"
+  },
+  {
+    "nombre": "Nonaspe",
+    "provincia": "zaragoza",
+    "slug": "nonaspe",
+    "codigoINE": "50189"
+  },
+  {
+    "nombre": "Novales",
+    "provincia": "huesca",
+    "slug": "novales",
+    "codigoINE": "22162"
+  },
+  {
+    "nombre": "Novallas",
+    "provincia": "zaragoza",
+    "slug": "novallas",
+    "codigoINE": "50190"
+  },
+  {
+    "nombre": "Novillas",
+    "provincia": "zaragoza",
+    "slug": "novillas",
+    "codigoINE": "50191"
+  },
+  {
+    "nombre": "Nueno",
+    "provincia": "huesca",
+    "slug": "nueno",
+    "codigoINE": "22163"
+  },
+  {
+    "nombre": "Nuévalos",
+    "provincia": "zaragoza",
+    "slug": "nuevalos",
+    "codigoINE": "50192"
+  },
+  {
+    "nombre": "Nuez de Ebro",
+    "provincia": "zaragoza",
+    "slug": "nuez-de-ebro",
+    "codigoINE": "50193"
+  },
+  {
+    "nombre": "Obón",
+    "provincia": "teruel",
+    "slug": "obon",
+    "codigoINE": "44167"
+  },
+  {
+    "nombre": "Odón",
+    "provincia": "teruel",
+    "slug": "odon",
+    "codigoINE": "44168"
+  },
+  {
+    "nombre": "Ojos Negros",
+    "provincia": "teruel",
+    "slug": "ojos-negros",
+    "codigoINE": "44169"
+  },
+  {
+    "nombre": "Olba",
+    "provincia": "teruel",
+    "slug": "olba",
+    "codigoINE": "44171"
+  },
+  {
+    "nombre": "Oliete",
+    "provincia": "teruel",
+    "slug": "oliete",
+    "codigoINE": "44172"
+  },
+  {
+    "nombre": "Olvena",
+    "provincia": "huesca",
+    "slug": "olvena",
+    "codigoINE": "22164"
+  },
+  {
+    "nombre": "Olvés",
+    "provincia": "zaragoza",
+    "slug": "olves",
+    "codigoINE": "50194"
+  },
+  {
+    "nombre": "Ontiñena",
+    "provincia": "huesca",
+    "slug": "ontinena",
+    "codigoINE": "22165"
+  },
+  {
+    "nombre": "Orcajo",
+    "provincia": "zaragoza",
+    "slug": "orcajo",
+    "codigoINE": "50195"
+  },
+  {
+    "nombre": "Orera",
+    "provincia": "zaragoza",
+    "slug": "orera",
+    "codigoINE": "50196"
+  },
+  {
+    "nombre": "Orés",
+    "provincia": "zaragoza",
+    "slug": "ores",
+    "codigoINE": "50197"
+  },
+  {
+    "nombre": "Orihuela del Tremedal",
+    "provincia": "teruel",
+    "slug": "orihuela-del-tremedal",
+    "codigoINE": "44174"
+  },
+  {
+    "nombre": "Orrios",
+    "provincia": "teruel",
+    "slug": "orrios",
+    "codigoINE": "44175"
+  },
+  {
+    "nombre": "Oseja",
+    "provincia": "zaragoza",
+    "slug": "oseja",
+    "codigoINE": "50198"
+  },
+  {
+    "nombre": "Osera de Ebro",
+    "provincia": "zaragoza",
+    "slug": "osera-de-ebro",
+    "codigoINE": "50199"
+  },
+  {
+    "nombre": "Osso de Cinca",
+    "provincia": "huesca",
+    "slug": "osso-de-cinca",
+    "codigoINE": "22167"
+  },
+  {
+    "nombre": "Palo",
+    "provincia": "huesca",
+    "slug": "palo",
+    "codigoINE": "22168"
+  },
+  {
+    "nombre": "Palomar de Arroyos",
+    "provincia": "teruel",
+    "slug": "palomar-de-arroyos",
+    "codigoINE": "44176"
+  },
+  {
+    "nombre": "Pancrudo",
+    "provincia": "teruel",
+    "slug": "pancrudo",
+    "codigoINE": "44177"
+  },
+  {
+    "nombre": "Paniza",
+    "provincia": "zaragoza",
+    "slug": "paniza",
+    "codigoINE": "50200"
+  },
+  {
+    "nombre": "Panticosa",
+    "provincia": "huesca",
+    "slug": "panticosa",
+    "codigoINE": "22170"
+  },
+  {
+    "nombre": "Paracuellos de Jiloca",
+    "provincia": "zaragoza",
+    "slug": "paracuellos-de-jiloca",
+    "codigoINE": "50201"
+  },
+  {
+    "nombre": "Paracuellos de la Ribera",
+    "provincia": "zaragoza",
+    "slug": "paracuellos-de-la-ribera",
+    "codigoINE": "50202"
+  },
+  {
+    "nombre": "Pastriz",
+    "provincia": "zaragoza",
+    "slug": "pastriz",
+    "codigoINE": "50203"
+  },
+  {
+    "nombre": "Pedrola",
+    "provincia": "zaragoza",
+    "slug": "pedrola",
+    "codigoINE": "50204"
+  },
+  {
+    "nombre": "Peñalba",
+    "provincia": "huesca",
+    "slug": "penalba",
+    "codigoINE": "22172"
+  },
+  {
+    "nombre": "Peñarroya de Tastavins",
+    "provincia": "teruel",
+    "slug": "penarroya-de-tastavins",
+    "codigoINE": "44179"
+  },
+  {
+    "nombre": "Peracense",
+    "provincia": "teruel",
+    "slug": "peracense",
+    "codigoINE": "44180"
+  },
+  {
+    "nombre": "Peralejos",
+    "provincia": "teruel",
+    "slug": "peralejos",
+    "codigoINE": "44181"
+  },
+  {
+    "nombre": "Perales del Alfambra",
+    "provincia": "teruel",
+    "slug": "perales-del-alfambra",
+    "codigoINE": "44182"
+  },
+  {
+    "nombre": "Peralta de Alcofea",
+    "provincia": "huesca",
+    "slug": "peralta-de-alcofea",
+    "codigoINE": "22174"
+  },
+  {
+    "nombre": "Peralta de Calasanz",
+    "provincia": "huesca",
+    "slug": "peralta-de-calasanz",
+    "codigoINE": "22175"
+  },
+  {
+    "nombre": "Peraltilla",
+    "provincia": "huesca",
+    "slug": "peraltilla",
+    "codigoINE": "22176"
+  },
+  {
+    "nombre": "Perarrúa",
+    "provincia": "huesca",
+    "slug": "perarrua",
+    "codigoINE": "22177"
+  },
+  {
+    "nombre": "Perdiguera",
+    "provincia": "zaragoza",
+    "slug": "perdiguera",
+    "codigoINE": "50206"
+  },
+  {
+    "nombre": "Pertusa",
+    "provincia": "huesca",
+    "slug": "pertusa",
+    "codigoINE": "22178"
+  },
+  {
+    "nombre": "Piedratajada",
+    "provincia": "zaragoza",
+    "slug": "piedratajada",
+    "codigoINE": "50207"
+  },
+  {
+    "nombre": "Pina de Ebro",
+    "provincia": "zaragoza",
+    "slug": "pina-de-ebro",
+    "codigoINE": "50208"
+  },
+  {
+    "nombre": "Pinseque",
+    "provincia": "zaragoza",
+    "slug": "pinseque",
+    "codigoINE": "50209"
+  },
+  {
+    "nombre": "Piracés",
+    "provincia": "huesca",
+    "slug": "piraces",
+    "codigoINE": "22181"
+  },
+  {
+    "nombre": "Pitarque",
+    "provincia": "teruel",
+    "slug": "pitarque",
+    "codigoINE": "44183"
+  },
+  {
+    "nombre": "Plan",
+    "provincia": "huesca",
+    "slug": "plan",
+    "codigoINE": "22182"
+  },
+  {
+    "nombre": "Plasencia de Jalón",
+    "provincia": "zaragoza",
+    "slug": "plasencia-de-jalon",
+    "codigoINE": "50211"
+  },
+  {
+    "nombre": "Pleitas",
+    "provincia": "zaragoza",
+    "slug": "pleitas",
+    "codigoINE": "50212"
+  },
+  {
+    "nombre": "Plenas",
+    "provincia": "zaragoza",
+    "slug": "plenas",
+    "codigoINE": "50213"
+  },
+  {
+    "nombre": "Plou",
+    "provincia": "teruel",
+    "slug": "plou",
+    "codigoINE": "44184"
+  },
+  {
+    "nombre": "Poleñino",
+    "provincia": "huesca",
+    "slug": "polenino",
+    "codigoINE": "22184"
+  },
+  {
+    "nombre": "Pomer",
+    "provincia": "zaragoza",
+    "slug": "pomer",
+    "codigoINE": "50214"
+  },
+  {
+    "nombre": "Pozán de Vero",
+    "provincia": "huesca",
+    "slug": "pozan-de-vero",
+    "codigoINE": "22186"
+  },
+  {
+    "nombre": "Pozondón",
+    "provincia": "teruel",
+    "slug": "pozondon",
+    "codigoINE": "44189"
+  },
+  {
+    "nombre": "Pozuel de Ariza",
+    "provincia": "zaragoza",
+    "slug": "pozuel-de-ariza",
+    "codigoINE": "50215"
+  },
+  {
+    "nombre": "Pozuel del Campo",
+    "provincia": "teruel",
+    "slug": "pozuel-del-campo",
+    "codigoINE": "44190"
+  },
+  {
+    "nombre": "Pozuelo de Aragón",
+    "provincia": "zaragoza",
+    "slug": "pozuelo-de-aragon",
+    "codigoINE": "50216"
+  },
+  {
+    "nombre": "Pradilla de Ebro",
+    "provincia": "zaragoza",
+    "slug": "pradilla-de-ebro",
+    "codigoINE": "50217"
+  },
+  {
+    "nombre": "Puebla de Albortón",
+    "provincia": "zaragoza",
+    "slug": "puebla-de-alborton",
+    "codigoINE": "50218"
+  },
+  {
+    "nombre": "Puendeluna",
+    "provincia": "zaragoza",
+    "slug": "puendeluna",
+    "codigoINE": "50220"
+  },
+  {
+    "nombre": "Puente de Montañana",
+    "provincia": "huesca",
+    "slug": "puente-de-montanana",
+    "codigoINE": "22188"
+  },
+  {
+    "nombre": "Puente la Reina de Jaca",
+    "provincia": "huesca",
+    "slug": "puente-la-reina-de-jaca",
+    "codigoINE": "22902"
+  },
+  {
+    "nombre": "Puértolas",
+    "provincia": "huesca",
+    "slug": "puertolas",
+    "codigoINE": "22189"
+  },
+  {
+    "nombre": "Puertomingalvo",
+    "provincia": "teruel",
+    "slug": "puertomingalvo",
+    "codigoINE": "44193"
+  },
+  {
+    "nombre": "Pueyo de Santa Cruz",
+    "provincia": "huesca",
+    "slug": "pueyo-de-santa-cruz",
+    "codigoINE": "22193"
+  },
+  {
+    "nombre": "Purujosa",
+    "provincia": "zaragoza",
+    "slug": "purujosa",
+    "codigoINE": "50221"
+  },
+  {
+    "nombre": "Quicena",
+    "provincia": "huesca",
+    "slug": "quicena",
+    "codigoINE": "22195"
+  },
+  {
+    "nombre": "Quinto",
+    "provincia": "zaragoza",
+    "slug": "quinto",
+    "codigoINE": "50222"
+  },
+  {
+    "nombre": "Ráfales",
+    "provincia": "teruel",
+    "slug": "rafales",
+    "codigoINE": "44194"
+  },
+  {
+    "nombre": "Remolinos",
+    "provincia": "zaragoza",
+    "slug": "remolinos",
+    "codigoINE": "50223"
+  },
+  {
+    "nombre": "Retascón",
+    "provincia": "zaragoza",
+    "slug": "retascon",
+    "codigoINE": "50224"
+  },
+  {
+    "nombre": "Ricla",
+    "provincia": "zaragoza",
+    "slug": "ricla",
+    "codigoINE": "50225"
+  },
+  {
+    "nombre": "Rillo",
+    "provincia": "teruel",
+    "slug": "rillo",
+    "codigoINE": "44195"
+  },
+  {
+    "nombre": "Riodeva",
+    "provincia": "teruel",
+    "slug": "riodeva",
+    "codigoINE": "44196"
+  },
+  {
+    "nombre": "Robres",
+    "provincia": "huesca",
+    "slug": "robres",
+    "codigoINE": "22197"
+  },
+  {
+    "nombre": "Ródenas",
+    "provincia": "teruel",
+    "slug": "rodenas",
+    "codigoINE": "44197"
+  },
+  {
+    "nombre": "Romanos",
+    "provincia": "zaragoza",
+    "slug": "romanos",
+    "codigoINE": "50227"
+  },
+  {
+    "nombre": "Royuela",
+    "provincia": "teruel",
+    "slug": "royuela",
+    "codigoINE": "44198"
+  },
+  {
+    "nombre": "Rubiales",
+    "provincia": "teruel",
+    "slug": "rubiales",
+    "codigoINE": "44199"
+  },
+  {
+    "nombre": "Rubielos de la Cérida",
+    "provincia": "teruel",
+    "slug": "rubielos-de-la-cerida",
+    "codigoINE": "44200"
+  },
+  {
+    "nombre": "Rubielos de Mora",
+    "provincia": "teruel",
+    "slug": "rubielos-de-mora",
+    "codigoINE": "44201"
+  },
+  {
+    "nombre": "Rueda de Jalón",
+    "provincia": "zaragoza",
+    "slug": "rueda-de-jalon",
+    "codigoINE": "50228"
+  },
+  {
+    "nombre": "Ruesca",
+    "provincia": "zaragoza",
+    "slug": "ruesca",
+    "codigoINE": "50229"
+  },
+  {
+    "nombre": "Sabiñán",
+    "provincia": "zaragoza",
+    "slug": "sabinan",
+    "codigoINE": "50241"
+  },
+  {
+    "nombre": "Sabiñánigo",
+    "provincia": "huesca",
+    "slug": "sabinanigo",
+    "codigoINE": "22199"
+  },
+  {
+    "nombre": "Sádaba",
+    "provincia": "zaragoza",
+    "slug": "sadaba",
+    "codigoINE": "50230"
+  },
+  {
+    "nombre": "Sahún",
+    "provincia": "huesca",
+    "slug": "sahun",
+    "codigoINE": "22200"
+  },
+  {
+    "nombre": "Salas Altas",
+    "provincia": "huesca",
+    "slug": "salas-altas",
+    "codigoINE": "22201"
+  },
+  {
+    "nombre": "Salas Bajas",
+    "provincia": "huesca",
+    "slug": "salas-bajas",
+    "codigoINE": "22202"
+  },
+  {
+    "nombre": "Salcedillo",
+    "provincia": "teruel",
+    "slug": "salcedillo",
+    "codigoINE": "44203"
+  },
+  {
+    "nombre": "Saldón",
+    "provincia": "teruel",
+    "slug": "saldon",
+    "codigoINE": "44204"
+  },
+  {
+    "nombre": "Salillas",
+    "provincia": "huesca",
+    "slug": "salillas",
+    "codigoINE": "22203"
+  },
+  {
+    "nombre": "Salillas de Jalón",
+    "provincia": "zaragoza",
+    "slug": "salillas-de-jalon",
+    "codigoINE": "50231"
+  },
+  {
+    "nombre": "Sallent de Gállego",
+    "provincia": "huesca",
+    "slug": "sallent-de-gallego",
+    "codigoINE": "22204"
+  },
+  {
+    "nombre": "Salvatierra de Esca",
+    "provincia": "zaragoza",
+    "slug": "salvatierra-de-esca",
+    "codigoINE": "50232"
+  },
+  {
+    "nombre": "Samper de Calanda",
+    "provincia": "teruel",
+    "slug": "samper-de-calanda",
+    "codigoINE": "44205"
+  },
+  {
+    "nombre": "Samper del Salz",
+    "provincia": "zaragoza",
+    "slug": "samper-del-salz",
+    "codigoINE": "50233"
+  },
+  {
+    "nombre": "San Agustín",
+    "provincia": "teruel",
+    "slug": "san-agustin",
+    "codigoINE": "44206"
+  },
+  {
+    "nombre": "San Esteban de Litera",
+    "provincia": "huesca",
+    "slug": "san-esteban-de-litera",
+    "codigoINE": "22205"
+  },
+  {
+    "nombre": "San Juan de Plan",
+    "provincia": "huesca",
+    "slug": "san-juan-de-plan",
+    "codigoINE": "22207"
+  },
+  {
+    "nombre": "San Martín de la Virgen de Moncayo",
+    "provincia": "zaragoza",
+    "slug": "san-martin-de-la-virgen-de-moncayo",
+    "codigoINE": "50234"
+  },
+  {
+    "nombre": "San Martín del Río",
+    "provincia": "teruel",
+    "slug": "san-martin-del-rio",
+    "codigoINE": "44207"
+  },
+  {
+    "nombre": "San Mateo de Gállego",
+    "provincia": "zaragoza",
+    "slug": "san-mateo-de-gallego",
+    "codigoINE": "50235"
+  },
+  {
+    "nombre": "San Miguel del Cinca",
+    "provincia": "huesca",
+    "slug": "san-miguel-del-cinca",
+    "codigoINE": "22903"
+  },
+  {
+    "nombre": "Sangarrén",
+    "provincia": "huesca",
+    "slug": "sangarren",
+    "codigoINE": "22206"
+  },
+  {
+    "nombre": "Santa Cilia",
+    "provincia": "huesca",
+    "slug": "santa-cilia",
+    "codigoINE": "22208"
+  },
+  {
+    "nombre": "Santa Cruz de Grío",
+    "provincia": "zaragoza",
+    "slug": "santa-cruz-de-grio",
+    "codigoINE": "50236"
+  },
+  {
+    "nombre": "Santa Cruz de la Serós",
+    "provincia": "huesca",
+    "slug": "santa-cruz-de-la-seros",
+    "codigoINE": "22209"
+  },
+  {
+    "nombre": "Santa Cruz de Moncayo",
+    "provincia": "zaragoza",
+    "slug": "santa-cruz-de-moncayo",
+    "codigoINE": "50237"
+  },
+  {
+    "nombre": "Santa Cruz de Nogueras",
+    "provincia": "teruel",
+    "slug": "santa-cruz-de-nogueras",
+    "codigoINE": "44208"
+  },
+  {
+    "nombre": "Santa Eulalia",
+    "provincia": "teruel",
+    "slug": "santa-eulalia",
+    "codigoINE": "44209"
+  },
+  {
+    "nombre": "Santa Eulalia de Gállego",
+    "provincia": "zaragoza",
+    "slug": "santa-eulalia-de-gallego",
+    "codigoINE": "50238"
+  },
+  {
+    "nombre": "Santa María de Dulcis",
+    "provincia": "huesca",
+    "slug": "santa-maria-de-dulcis",
+    "codigoINE": "22906"
+  },
+  {
+    "nombre": "Santaliestra y San Quílez",
+    "provincia": "huesca",
+    "slug": "santaliestra-y-san-quilez",
+    "codigoINE": "22212"
+  },
+  {
+    "nombre": "Santed",
+    "provincia": "zaragoza",
+    "slug": "santed",
+    "codigoINE": "50239"
+  },
+  {
+    "nombre": "Sariñena",
+    "provincia": "huesca",
+    "slug": "sarinena",
+    "codigoINE": "22213"
+  },
+  {
+    "nombre": "Sarrión",
+    "provincia": "teruel",
+    "slug": "sarrion",
+    "codigoINE": "44210"
+  },
+  {
+    "nombre": "Sástago",
+    "provincia": "zaragoza",
+    "slug": "sastago",
+    "codigoINE": "50240"
+  },
+  {
+    "nombre": "Secastilla",
+    "provincia": "huesca",
+    "slug": "secastilla",
+    "codigoINE": "22214"
+  },
+  {
+    "nombre": "Sediles",
+    "provincia": "zaragoza",
+    "slug": "sediles",
+    "codigoINE": "50242"
+  },
+  {
+    "nombre": "Segura de los Baños",
+    "provincia": "teruel",
+    "slug": "segura-de-los-banos",
+    "codigoINE": "44211"
+  },
+  {
+    "nombre": "Seira",
+    "provincia": "huesca",
+    "slug": "seira",
+    "codigoINE": "22215"
+  },
+  {
+    "nombre": "Sena",
+    "provincia": "huesca",
+    "slug": "sena",
+    "codigoINE": "22217"
+  },
+  {
+    "nombre": "Senés de Alcubierre",
+    "provincia": "huesca",
+    "slug": "senes-de-alcubierre",
+    "codigoINE": "22218"
+  },
+  {
+    "nombre": "Seno",
+    "provincia": "teruel",
+    "slug": "seno",
+    "codigoINE": "44212"
+  },
+  {
+    "nombre": "Sesa",
+    "provincia": "huesca",
+    "slug": "sesa",
+    "codigoINE": "22220"
+  },
+  {
+    "nombre": "Sestrica",
+    "provincia": "zaragoza",
+    "slug": "sestrica",
+    "codigoINE": "50243"
+  },
+  {
+    "nombre": "Sesué",
+    "provincia": "huesca",
+    "slug": "sesue",
+    "codigoINE": "22221"
+  },
+  {
+    "nombre": "Sierra de Luna",
+    "provincia": "zaragoza",
+    "slug": "sierra-de-luna",
+    "codigoINE": "50244"
+  },
+  {
+    "nombre": "Siétamo",
+    "provincia": "huesca",
+    "slug": "sietamo",
+    "codigoINE": "22222"
+  },
+  {
+    "nombre": "Sigüés",
+    "provincia": "zaragoza",
+    "slug": "sigues",
+    "codigoINE": "50245"
+  },
+  {
+    "nombre": "Singra",
+    "provincia": "teruel",
+    "slug": "singra",
+    "codigoINE": "44213"
+  },
+  {
+    "nombre": "Sisamón",
+    "provincia": "zaragoza",
+    "slug": "sisamon",
+    "codigoINE": "50246"
+  },
+  {
+    "nombre": "Sobradiel",
+    "provincia": "zaragoza",
+    "slug": "sobradiel",
+    "codigoINE": "50247"
+  },
+  {
+    "nombre": "Sopeira",
+    "provincia": "huesca",
+    "slug": "sopeira",
+    "codigoINE": "22223"
+  },
+  {
+    "nombre": "Sos del Rey Católico",
+    "provincia": "zaragoza",
+    "slug": "sos-del-rey-catolico",
+    "codigoINE": "50248"
+  },
+  {
+    "nombre": "Tabuenca",
+    "provincia": "zaragoza",
+    "slug": "tabuenca",
+    "codigoINE": "50249"
+  },
+  {
+    "nombre": "Talamantes",
+    "provincia": "zaragoza",
+    "slug": "talamantes",
+    "codigoINE": "50250"
+  },
+  {
+    "nombre": "Tamarite de Litera",
+    "provincia": "huesca",
+    "slug": "tamarite-de-litera",
+    "codigoINE": "22225"
+  },
+  {
+    "nombre": "Tarazona",
+    "provincia": "zaragoza",
+    "slug": "tarazona",
+    "codigoINE": "50251"
+  },
+  {
+    "nombre": "Tardienta",
+    "provincia": "huesca",
+    "slug": "tardienta",
+    "codigoINE": "22226"
+  },
+  {
+    "nombre": "Tauste",
+    "provincia": "zaragoza",
+    "slug": "tauste",
+    "codigoINE": "50252"
+  },
+  {
+    "nombre": "Tella-Sin",
+    "provincia": "huesca",
+    "slug": "tella-sin",
+    "codigoINE": "22227"
+  },
+  {
+    "nombre": "Terrer",
+    "provincia": "zaragoza",
+    "slug": "terrer",
+    "codigoINE": "50253"
+  },
+  {
+    "nombre": "Terriente",
+    "provincia": "teruel",
+    "slug": "terriente",
+    "codigoINE": "44215"
+  },
+  {
+    "nombre": "Teruel",
+    "provincia": "teruel",
+    "slug": "teruel",
+    "codigoINE": "44216"
+  },
+  {
+    "nombre": "Tierga",
+    "provincia": "zaragoza",
+    "slug": "tierga",
+    "codigoINE": "50254"
+  },
+  {
+    "nombre": "Tierz",
+    "provincia": "huesca",
+    "slug": "tierz",
+    "codigoINE": "22228"
+  },
+  {
+    "nombre": "Tobed",
+    "provincia": "zaragoza",
+    "slug": "tobed",
+    "codigoINE": "50255"
+  },
+  {
+    "nombre": "Tolva",
+    "provincia": "huesca",
+    "slug": "tolva",
+    "codigoINE": "22229"
+  },
+  {
+    "nombre": "Toril y Masegoso",
+    "provincia": "teruel",
+    "slug": "toril-y-masegoso",
+    "codigoINE": "44217"
+  },
+  {
+    "nombre": "Torla-Ordesa",
+    "provincia": "huesca",
+    "slug": "torla-ordesa",
+    "codigoINE": "22230"
+  },
+  {
+    "nombre": "Tormón",
+    "provincia": "teruel",
+    "slug": "tormon",
+    "codigoINE": "44218"
+  },
+  {
+    "nombre": "Tornos",
+    "provincia": "teruel",
+    "slug": "tornos",
+    "codigoINE": "44219"
+  },
+  {
+    "nombre": "Torralba de Aragón",
+    "provincia": "huesca",
+    "slug": "torralba-de-aragon",
+    "codigoINE": "22232"
+  },
+  {
+    "nombre": "Torralba de los Frailes",
+    "provincia": "zaragoza",
+    "slug": "torralba-de-los-frailes",
+    "codigoINE": "50256"
+  },
+  {
+    "nombre": "Torralba de los Sisones",
+    "provincia": "teruel",
+    "slug": "torralba-de-los-sisones",
+    "codigoINE": "44220"
+  },
+  {
+    "nombre": "Torralba de Ribota",
+    "provincia": "zaragoza",
+    "slug": "torralba-de-ribota",
+    "codigoINE": "50257"
+  },
+  {
+    "nombre": "Torralbilla",
+    "provincia": "zaragoza",
+    "slug": "torralbilla",
+    "codigoINE": "50258"
+  },
+  {
+    "nombre": "Torre de Arcas",
+    "provincia": "teruel",
+    "slug": "torre-de-arcas",
+    "codigoINE": "44223"
+  },
+  {
+    "nombre": "Torre de las Arcas",
+    "provincia": "teruel",
+    "slug": "torre-de-las-arcas",
+    "codigoINE": "44224"
+  },
+  {
+    "nombre": "Torre del Compte",
+    "provincia": "teruel",
+    "slug": "torre-del-compte",
+    "codigoINE": "44225"
+  },
+  {
+    "nombre": "Torre la Ribera",
+    "provincia": "huesca",
+    "slug": "torre-la-ribera",
+    "codigoINE": "22233"
+  },
+  {
+    "nombre": "Torre los Negros",
+    "provincia": "teruel",
+    "slug": "torre-los-negros",
+    "codigoINE": "44227"
+  },
+  {
+    "nombre": "Torrecilla de Alcañiz",
+    "provincia": "teruel",
+    "slug": "torrecilla-de-alcaniz",
+    "codigoINE": "44221"
+  },
+  {
+    "nombre": "Torrecilla del Rebollar",
+    "provincia": "teruel",
+    "slug": "torrecilla-del-rebollar",
+    "codigoINE": "44222"
+  },
+  {
+    "nombre": "Torrehermosa",
+    "provincia": "zaragoza",
+    "slug": "torrehermosa",
+    "codigoINE": "50259"
+  },
+  {
+    "nombre": "Torrelacárcel",
+    "provincia": "teruel",
+    "slug": "torrelacarcel",
+    "codigoINE": "44226"
+  },
+  {
+    "nombre": "Torrelapaja",
+    "provincia": "zaragoza",
+    "slug": "torrelapaja",
+    "codigoINE": "50260"
+  },
+  {
+    "nombre": "Torrellas",
+    "provincia": "zaragoza",
+    "slug": "torrellas",
+    "codigoINE": "50261"
+  },
+  {
+    "nombre": "Torremocha de Jiloca",
+    "provincia": "teruel",
+    "slug": "torremocha-de-jiloca",
+    "codigoINE": "44228"
+  },
+  {
+    "nombre": "Torrente de Cinca",
+    "provincia": "huesca",
+    "slug": "torrente-de-cinca",
+    "codigoINE": "22234"
+  },
+  {
+    "nombre": "Torres de Albarracín",
+    "provincia": "teruel",
+    "slug": "torres-de-albarracin",
+    "codigoINE": "44229"
+  },
+  {
+    "nombre": "Torres de Alcanadre",
+    "provincia": "huesca",
+    "slug": "torres-de-alcanadre",
+    "codigoINE": "22235"
+  },
+  {
+    "nombre": "Torres de Barbués",
+    "provincia": "huesca",
+    "slug": "torres-de-barbues",
+    "codigoINE": "22236"
+  },
+  {
+    "nombre": "Torres de Berrellén",
+    "provincia": "zaragoza",
+    "slug": "torres-de-berrellen",
+    "codigoINE": "50262"
+  },
+  {
+    "nombre": "Torrevelilla",
+    "provincia": "teruel",
+    "slug": "torrevelilla",
+    "codigoINE": "44230"
+  },
+  {
+    "nombre": "Torrijas",
+    "provincia": "teruel",
+    "slug": "torrijas",
+    "codigoINE": "44231"
+  },
+  {
+    "nombre": "Torrijo de la Cañada",
+    "provincia": "zaragoza",
+    "slug": "torrijo-de-la-canada",
+    "codigoINE": "50263"
+  },
+  {
+    "nombre": "Torrijo del Campo",
+    "provincia": "teruel",
+    "slug": "torrijo-del-campo",
+    "codigoINE": "44232"
+  },
+  {
+    "nombre": "Tosos",
+    "provincia": "zaragoza",
+    "slug": "tosos",
+    "codigoINE": "50264"
+  },
+  {
+    "nombre": "Tramacastiel",
+    "provincia": "teruel",
+    "slug": "tramacastiel",
+    "codigoINE": "44234"
+  },
+  {
+    "nombre": "Tramacastilla",
+    "provincia": "teruel",
+    "slug": "tramacastilla",
+    "codigoINE": "44235"
+  },
+  {
+    "nombre": "Tramaced",
+    "provincia": "huesca",
+    "slug": "tramaced",
+    "codigoINE": "22239"
+  },
+  {
+    "nombre": "Trasmoz",
+    "provincia": "zaragoza",
+    "slug": "trasmoz",
+    "codigoINE": "50265"
+  },
+  {
+    "nombre": "Trasobares",
+    "provincia": "zaragoza",
+    "slug": "trasobares",
+    "codigoINE": "50266"
+  },
+  {
+    "nombre": "Tronchón",
+    "provincia": "teruel",
+    "slug": "tronchon",
+    "codigoINE": "44236"
+  },
+  {
+    "nombre": "Uncastillo",
+    "provincia": "zaragoza",
+    "slug": "uncastillo",
+    "codigoINE": "50267"
+  },
+  {
+    "nombre": "Undués de Lerda",
+    "provincia": "zaragoza",
+    "slug": "undues-de-lerda",
+    "codigoINE": "50268"
+  },
+  {
+    "nombre": "Urrea de Gaén",
+    "provincia": "teruel",
+    "slug": "urrea-de-gaen",
+    "codigoINE": "44237"
+  },
+  {
+    "nombre": "Urrea de Jalón",
+    "provincia": "zaragoza",
+    "slug": "urrea-de-jalon",
+    "codigoINE": "50269"
+  },
+  {
+    "nombre": "Urriés",
+    "provincia": "zaragoza",
+    "slug": "urries",
+    "codigoINE": "50270"
+  },
+  {
+    "nombre": "Used",
+    "provincia": "zaragoza",
+    "slug": "used",
+    "codigoINE": "50271"
+  },
+  {
+    "nombre": "Utebo",
+    "provincia": "zaragoza",
+    "slug": "utebo",
+    "codigoINE": "50272"
+  },
+  {
+    "nombre": "Utrillas",
+    "provincia": "teruel",
+    "slug": "utrillas",
+    "codigoINE": "44238"
+  },
+  {
+    "nombre": "Val de San Martín",
+    "provincia": "zaragoza",
+    "slug": "val-de-san-martin",
+    "codigoINE": "50274"
+  },
+  {
+    "nombre": "Valacloche",
+    "provincia": "teruel",
+    "slug": "valacloche",
+    "codigoINE": "44239"
+  },
+  {
+    "nombre": "Valbona",
+    "provincia": "teruel",
+    "slug": "valbona",
+    "codigoINE": "44240"
+  },
+  {
+    "nombre": "Valdealgorfa",
+    "provincia": "teruel",
+    "slug": "valdealgorfa",
+    "codigoINE": "44241"
+  },
+  {
+    "nombre": "Valdecuenca",
+    "provincia": "teruel",
+    "slug": "valdecuenca",
+    "codigoINE": "44243"
+  },
+  {
+    "nombre": "Valdehorna",
+    "provincia": "zaragoza",
+    "slug": "valdehorna",
+    "codigoINE": "50273"
+  },
+  {
+    "nombre": "Valdelinares",
+    "provincia": "teruel",
+    "slug": "valdelinares",
+    "codigoINE": "44244"
+  },
+  {
+    "nombre": "Valdeltormo",
+    "provincia": "teruel",
+    "slug": "valdeltormo",
+    "codigoINE": "44245"
+  },
+  {
+    "nombre": "Valderrobres",
+    "provincia": "teruel",
+    "slug": "valderrobres",
+    "codigoINE": "44246"
+  },
+  {
+    "nombre": "Valfarta",
+    "provincia": "huesca",
+    "slug": "valfarta",
+    "codigoINE": "22242"
+  },
+  {
+    "nombre": "Valjunquera",
+    "provincia": "teruel",
+    "slug": "valjunquera",
+    "codigoINE": "44247"
+  },
+  {
+    "nombre": "Valle de Bardají",
+    "provincia": "huesca",
+    "slug": "valle-de-bardaji",
+    "codigoINE": "22243"
+  },
+  {
+    "nombre": "Valle de Hecho",
+    "provincia": "huesca",
+    "slug": "valle-de-hecho",
+    "codigoINE": "22901"
+  },
+  {
+    "nombre": "Valle de Lierp",
+    "provincia": "huesca",
+    "slug": "valle-de-lierp",
+    "codigoINE": "22244"
+  },
+  {
+    "nombre": "Valmadrid",
+    "provincia": "zaragoza",
+    "slug": "valmadrid",
+    "codigoINE": "50275"
+  },
+  {
+    "nombre": "Valpalmas",
+    "provincia": "zaragoza",
+    "slug": "valpalmas",
+    "codigoINE": "50276"
+  },
+  {
+    "nombre": "Valtorres",
+    "provincia": "zaragoza",
+    "slug": "valtorres",
+    "codigoINE": "50277"
+  },
+  {
+    "nombre": "Veguillas de la Sierra",
+    "provincia": "teruel",
+    "slug": "veguillas-de-la-sierra",
+    "codigoINE": "44250"
+  },
+  {
+    "nombre": "Velilla de Cinca",
+    "provincia": "huesca",
+    "slug": "velilla-de-cinca",
+    "codigoINE": "22245"
+  },
+  {
+    "nombre": "Velilla de Ebro",
+    "provincia": "zaragoza",
+    "slug": "velilla-de-ebro",
+    "codigoINE": "50278"
+  },
+  {
+    "nombre": "Velilla de Jiloca",
+    "provincia": "zaragoza",
+    "slug": "velilla-de-jiloca",
+    "codigoINE": "50279"
+  },
+  {
+    "nombre": "Vencillón",
+    "provincia": "huesca",
+    "slug": "vencillon",
+    "codigoINE": "22909"
+  },
+  {
+    "nombre": "Vera de Moncayo",
+    "provincia": "zaragoza",
+    "slug": "vera-de-moncayo",
+    "codigoINE": "50280"
+  },
+  {
+    "nombre": "Viacamp y Litera",
+    "provincia": "huesca",
+    "slug": "viacamp-y-litera",
+    "codigoINE": "22247"
+  },
+  {
+    "nombre": "Vicién",
+    "provincia": "huesca",
+    "slug": "vicien",
+    "codigoINE": "22248"
+  },
+  {
+    "nombre": "Vierlas",
+    "provincia": "zaragoza",
+    "slug": "vierlas",
+    "codigoINE": "50281"
+  },
+  {
+    "nombre": "Villadoz",
+    "provincia": "zaragoza",
+    "slug": "villadoz",
+    "codigoINE": "50283"
+  },
+  {
+    "nombre": "Villafeliche",
+    "provincia": "zaragoza",
+    "slug": "villafeliche",
+    "codigoINE": "50284"
+  },
+  {
+    "nombre": "Villafranca de Ebro",
+    "provincia": "zaragoza",
+    "slug": "villafranca-de-ebro",
+    "codigoINE": "50285"
+  },
+  {
+    "nombre": "Villafranca del Campo",
+    "provincia": "teruel",
+    "slug": "villafranca-del-campo",
+    "codigoINE": "44251"
+  },
+  {
+    "nombre": "Villahermosa del Campo",
+    "provincia": "teruel",
+    "slug": "villahermosa-del-campo",
+    "codigoINE": "44252"
+  },
+  {
+    "nombre": "Villalba de Perejil",
+    "provincia": "zaragoza",
+    "slug": "villalba-de-perejil",
+    "codigoINE": "50286"
+  },
+  {
+    "nombre": "Villalengua",
+    "provincia": "zaragoza",
+    "slug": "villalengua",
+    "codigoINE": "50287"
+  },
+  {
+    "nombre": "Villamayor de Gállego",
+    "provincia": "zaragoza",
+    "slug": "villamayor-de-gallego",
+    "codigoINE": "50903"
+  },
+  {
+    "nombre": "Villanova",
+    "provincia": "huesca",
+    "slug": "villanova",
+    "codigoINE": "22249"
+  },
+  {
+    "nombre": "Villanúa",
+    "provincia": "huesca",
+    "slug": "villanua",
+    "codigoINE": "22250"
+  },
+  {
+    "nombre": "Villanueva de Gállego",
+    "provincia": "zaragoza",
+    "slug": "villanueva-de-gallego",
+    "codigoINE": "50288"
+  },
+  {
+    "nombre": "Villanueva de Huerva",
+    "provincia": "zaragoza",
+    "slug": "villanueva-de-huerva",
+    "codigoINE": "50290"
+  },
+  {
+    "nombre": "Villanueva de Jiloca",
+    "provincia": "zaragoza",
+    "slug": "villanueva-de-jiloca",
+    "codigoINE": "50289"
+  },
+  {
+    "nombre": "Villanueva de Sigena",
+    "provincia": "huesca",
+    "slug": "villanueva-de-sigena",
+    "codigoINE": "22251"
+  },
+  {
+    "nombre": "Villanueva del Rebollar de la Sierra",
+    "provincia": "teruel",
+    "slug": "villanueva-del-rebollar-de-la-sierra",
+    "codigoINE": "44256"
+  },
+  {
+    "nombre": "Villar de los Navarros",
+    "provincia": "zaragoza",
+    "slug": "villar-de-los-navarros",
+    "codigoINE": "50291"
+  },
+  {
+    "nombre": "Villar del Cobo",
+    "provincia": "teruel",
+    "slug": "villar-del-cobo",
+    "codigoINE": "44257"
+  },
+  {
+    "nombre": "Villar del Salz",
+    "provincia": "teruel",
+    "slug": "villar-del-salz",
+    "codigoINE": "44258"
+  },
+  {
+    "nombre": "Villarluengo",
+    "provincia": "teruel",
+    "slug": "villarluengo",
+    "codigoINE": "44260"
+  },
+  {
+    "nombre": "Villarquemado",
+    "provincia": "teruel",
+    "slug": "villarquemado",
+    "codigoINE": "44261"
+  },
+  {
+    "nombre": "Villarreal de Huerva",
+    "provincia": "zaragoza",
+    "slug": "villarreal-de-huerva",
+    "codigoINE": "50292"
+  },
+  {
+    "nombre": "Villarroya de la Sierra",
+    "provincia": "zaragoza",
+    "slug": "villarroya-de-la-sierra",
+    "codigoINE": "50293"
+  },
+  {
+    "nombre": "Villarroya de los Pinares",
+    "provincia": "teruel",
+    "slug": "villarroya-de-los-pinares",
+    "codigoINE": "44262"
+  },
+  {
+    "nombre": "Villarroya del Campo",
+    "provincia": "zaragoza",
+    "slug": "villarroya-del-campo",
+    "codigoINE": "50294"
+  },
+  {
+    "nombre": "Villastar",
+    "provincia": "teruel",
+    "slug": "villastar",
+    "codigoINE": "44263"
+  },
+  {
+    "nombre": "Villel",
+    "provincia": "teruel",
+    "slug": "villel",
+    "codigoINE": "44264"
+  },
+  {
+    "nombre": "Vinaceite",
+    "provincia": "teruel",
+    "slug": "vinaceite",
+    "codigoINE": "44265"
+  },
+  {
+    "nombre": "Visiedo",
+    "provincia": "teruel",
+    "slug": "visiedo",
+    "codigoINE": "44266"
+  },
+  {
+    "nombre": "Vistabella",
+    "provincia": "zaragoza",
+    "slug": "vistabella",
+    "codigoINE": "50295"
+  },
+  {
+    "nombre": "Vivel del Río Martín",
+    "provincia": "teruel",
+    "slug": "vivel-del-rio-martin",
+    "codigoINE": "44267"
+  },
+  {
+    "nombre": "Yebra de Basa",
+    "provincia": "huesca",
+    "slug": "yebra-de-basa",
+    "codigoINE": "22252"
+  },
+  {
+    "nombre": "Yésero",
+    "provincia": "huesca",
+    "slug": "yesero",
+    "codigoINE": "22253"
+  },
+  {
+    "nombre": "Zaidín",
+    "provincia": "huesca",
+    "slug": "zaidin",
+    "codigoINE": "22254"
+  },
+  {
+    "nombre": "Zaragoza",
+    "provincia": "zaragoza",
+    "slug": "zaragoza",
+    "codigoINE": "50297"
+  },
+  {
+    "nombre": "Zuera",
+    "provincia": "zaragoza",
+    "slug": "zuera",
+    "codigoINE": "50298"
+  }
+]

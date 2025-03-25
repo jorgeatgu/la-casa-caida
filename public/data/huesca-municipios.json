@@ -1,0 +1,1214 @@
+[
+  {
+    "nombre": "Abiego",
+    "provincia": "huesca",
+    "slug": "abiego",
+    "codigoINE": "22001"
+  },
+  {
+    "nombre": "Abizanda",
+    "provincia": "huesca",
+    "slug": "abizanda",
+    "codigoINE": "22002"
+  },
+  {
+    "nombre": "Adahuesca",
+    "provincia": "huesca",
+    "slug": "adahuesca",
+    "codigoINE": "22003"
+  },
+  {
+    "nombre": "Agüero",
+    "provincia": "huesca",
+    "slug": "aguero",
+    "codigoINE": "22004"
+  },
+  {
+    "nombre": "Aínsa-Sobrarbe",
+    "provincia": "huesca",
+    "slug": "ainsa-sobrarbe",
+    "codigoINE": "22907"
+  },
+  {
+    "nombre": "Aisa",
+    "provincia": "huesca",
+    "slug": "aisa",
+    "codigoINE": "22006"
+  },
+  {
+    "nombre": "Albalate de Cinca",
+    "provincia": "huesca",
+    "slug": "albalate-de-cinca",
+    "codigoINE": "22007"
+  },
+  {
+    "nombre": "Albalatillo",
+    "provincia": "huesca",
+    "slug": "albalatillo",
+    "codigoINE": "22008"
+  },
+  {
+    "nombre": "Albelda",
+    "provincia": "huesca",
+    "slug": "albelda",
+    "codigoINE": "22009"
+  },
+  {
+    "nombre": "Albero Alto",
+    "provincia": "huesca",
+    "slug": "albero-alto",
+    "codigoINE": "22011"
+  },
+  {
+    "nombre": "Albero Bajo",
+    "provincia": "huesca",
+    "slug": "albero-bajo",
+    "codigoINE": "22012"
+  },
+  {
+    "nombre": "Alberuela de Tubo",
+    "provincia": "huesca",
+    "slug": "alberuela-de-tubo",
+    "codigoINE": "22013"
+  },
+  {
+    "nombre": "Alcalá de Gurrea",
+    "provincia": "huesca",
+    "slug": "alcala-de-gurrea",
+    "codigoINE": "22014"
+  },
+  {
+    "nombre": "Alcalá del Obispo",
+    "provincia": "huesca",
+    "slug": "alcala-del-obispo",
+    "codigoINE": "22015"
+  },
+  {
+    "nombre": "Alcampell",
+    "provincia": "huesca",
+    "slug": "alcampell",
+    "codigoINE": "22016"
+  },
+  {
+    "nombre": "Alcolea de Cinca",
+    "provincia": "huesca",
+    "slug": "alcolea-de-cinca",
+    "codigoINE": "22017"
+  },
+  {
+    "nombre": "Alcubierre",
+    "provincia": "huesca",
+    "slug": "alcubierre",
+    "codigoINE": "22018"
+  },
+  {
+    "nombre": "Alerre",
+    "provincia": "huesca",
+    "slug": "alerre",
+    "codigoINE": "22019"
+  },
+  {
+    "nombre": "Alfántega",
+    "provincia": "huesca",
+    "slug": "alfantega",
+    "codigoINE": "22021"
+  },
+  {
+    "nombre": "Almudévar",
+    "provincia": "huesca",
+    "slug": "almudevar",
+    "codigoINE": "22021"
+  },
+  {
+    "nombre": "Almunia de San Juan",
+    "provincia": "huesca",
+    "slug": "almunia-de-san-juan",
+    "codigoINE": "22022"
+  },
+  {
+    "nombre": "Almuniente",
+    "provincia": "huesca",
+    "slug": "almuniente",
+    "codigoINE": "22023"
+  },
+  {
+    "nombre": "Alquézar",
+    "provincia": "huesca",
+    "slug": "alquezar",
+    "codigoINE": "22024"
+  },
+  {
+    "nombre": "Altorricón",
+    "provincia": "huesca",
+    "slug": "altorricon",
+    "codigoINE": "22025"
+  },
+  {
+    "nombre": "Angüés",
+    "provincia": "huesca",
+    "slug": "angues",
+    "codigoINE": "22027"
+  },
+  {
+    "nombre": "Ansó",
+    "provincia": "huesca",
+    "slug": "anso",
+    "codigoINE": "22028"
+  },
+  {
+    "nombre": "Antillón",
+    "provincia": "huesca",
+    "slug": "antillon",
+    "codigoINE": "22029"
+  },
+  {
+    "nombre": "Aragüés del Puerto",
+    "provincia": "huesca",
+    "slug": "aragues-del-puerto",
+    "codigoINE": "22032"
+  },
+  {
+    "nombre": "Arén",
+    "provincia": "huesca",
+    "slug": "aren",
+    "codigoINE": "22035"
+  },
+  {
+    "nombre": "Argavieso",
+    "provincia": "huesca",
+    "slug": "argavieso",
+    "codigoINE": "22036"
+  },
+  {
+    "nombre": "Arguis",
+    "provincia": "huesca",
+    "slug": "arguis",
+    "codigoINE": "22037"
+  },
+  {
+    "nombre": "Ayerbe",
+    "provincia": "huesca",
+    "slug": "ayerbe",
+    "codigoINE": "22039"
+  },
+  {
+    "nombre": "Azanuy-Alins",
+    "provincia": "huesca",
+    "slug": "azanuy-alins",
+    "codigoINE": "22040"
+  },
+  {
+    "nombre": "Azara",
+    "provincia": "huesca",
+    "slug": "azara",
+    "codigoINE": "22041"
+  },
+  {
+    "nombre": "Azlor",
+    "provincia": "huesca",
+    "slug": "azlor",
+    "codigoINE": "22042"
+  },
+  {
+    "nombre": "Baélls",
+    "provincia": "huesca",
+    "slug": "baells",
+    "codigoINE": "22043"
+  },
+  {
+    "nombre": "Bailo",
+    "provincia": "huesca",
+    "slug": "bailo",
+    "codigoINE": "22044"
+  },
+  {
+    "nombre": "Baldellou",
+    "provincia": "huesca",
+    "slug": "baldellou",
+    "codigoINE": "22045"
+  },
+  {
+    "nombre": "Ballobar",
+    "provincia": "huesca",
+    "slug": "ballobar",
+    "codigoINE": "22046"
+  },
+  {
+    "nombre": "Banastás",
+    "provincia": "huesca",
+    "slug": "banastas",
+    "codigoINE": "22047"
+  },
+  {
+    "nombre": "Barbastro",
+    "provincia": "huesca",
+    "slug": "barbastro",
+    "codigoINE": "22048"
+  },
+  {
+    "nombre": "Barbués",
+    "provincia": "huesca",
+    "slug": "barbues",
+    "codigoINE": "22049"
+  },
+  {
+    "nombre": "Barbuñales",
+    "provincia": "huesca",
+    "slug": "barbunales",
+    "codigoINE": "22050"
+  },
+  {
+    "nombre": "Bárcabo",
+    "provincia": "huesca",
+    "slug": "barcabo",
+    "codigoINE": "22051"
+  },
+  {
+    "nombre": "Belver de Cinca",
+    "provincia": "huesca",
+    "slug": "belver-de-cinca",
+    "codigoINE": "22052"
+  },
+  {
+    "nombre": "Benabarre",
+    "provincia": "huesca",
+    "slug": "benabarre",
+    "codigoINE": "22053"
+  },
+  {
+    "nombre": "Benasque",
+    "provincia": "huesca",
+    "slug": "benasque",
+    "codigoINE": "22054"
+  },
+  {
+    "nombre": "Beranuy",
+    "provincia": "huesca",
+    "slug": "beranuy",
+    "codigoINE": "22246"
+  },
+  {
+    "nombre": "Berbegal",
+    "provincia": "huesca",
+    "slug": "berbegal",
+    "codigoINE": "22055"
+  },
+  {
+    "nombre": "Bielsa",
+    "provincia": "huesca",
+    "slug": "bielsa",
+    "codigoINE": "22057"
+  },
+  {
+    "nombre": "Bierge",
+    "provincia": "huesca",
+    "slug": "bierge",
+    "codigoINE": "22058"
+  },
+  {
+    "nombre": "Biescas",
+    "provincia": "huesca",
+    "slug": "biescas",
+    "codigoINE": "22059"
+  },
+  {
+    "nombre": "Binaced",
+    "provincia": "huesca",
+    "slug": "binaced",
+    "codigoINE": "22060"
+  },
+  {
+    "nombre": "Binéfar",
+    "provincia": "huesca",
+    "slug": "binefar",
+    "codigoINE": "22061"
+  },
+  {
+    "nombre": "Bisaurri",
+    "provincia": "huesca",
+    "slug": "bisaurri",
+    "codigoINE": "22062"
+  },
+  {
+    "nombre": "Biscarrués",
+    "provincia": "huesca",
+    "slug": "biscarrues",
+    "codigoINE": "22063"
+  },
+  {
+    "nombre": "Blecua y Torres",
+    "provincia": "huesca",
+    "slug": "blecua-y-torres",
+    "codigoINE": "22064"
+  },
+  {
+    "nombre": "Boltaña",
+    "provincia": "huesca",
+    "slug": "boltana",
+    "codigoINE": "22066"
+  },
+  {
+    "nombre": "Bonansa",
+    "provincia": "huesca",
+    "slug": "bonansa",
+    "codigoINE": "22067"
+  },
+  {
+    "nombre": "Borau",
+    "provincia": "huesca",
+    "slug": "borau",
+    "codigoINE": "22068"
+  },
+  {
+    "nombre": "Broto",
+    "provincia": "huesca",
+    "slug": "broto",
+    "codigoINE": "22069"
+  },
+  {
+    "nombre": "Caldearenas",
+    "provincia": "huesca",
+    "slug": "caldearenas",
+    "codigoINE": "22072"
+  },
+  {
+    "nombre": "Campo",
+    "provincia": "huesca",
+    "slug": "campo",
+    "codigoINE": "22074"
+  },
+  {
+    "nombre": "Camporrélls",
+    "provincia": "huesca",
+    "slug": "camporrells",
+    "codigoINE": "22075"
+  },
+  {
+    "nombre": "Canal de Berdún",
+    "provincia": "huesca",
+    "slug": "canal-de-berdun",
+    "codigoINE": "22076"
+  },
+  {
+    "nombre": "Candasnos",
+    "provincia": "huesca",
+    "slug": "candasnos",
+    "codigoINE": "22077"
+  },
+  {
+    "nombre": "Canfranc",
+    "provincia": "huesca",
+    "slug": "canfranc",
+    "codigoINE": "22078"
+  },
+  {
+    "nombre": "Capdesaso",
+    "provincia": "huesca",
+    "slug": "capdesaso",
+    "codigoINE": "22079"
+  },
+  {
+    "nombre": "Capella",
+    "provincia": "huesca",
+    "slug": "capella",
+    "codigoINE": "22080"
+  },
+  {
+    "nombre": "Casbas de Huesca",
+    "provincia": "huesca",
+    "slug": "casbas-de-huesca",
+    "codigoINE": "22081"
+  },
+  {
+    "nombre": "Castejón de Monegros",
+    "provincia": "huesca",
+    "slug": "castejon-de-monegros",
+    "codigoINE": "22083"
+  },
+  {
+    "nombre": "Castejón de Sos",
+    "provincia": "huesca",
+    "slug": "castejon-de-sos",
+    "codigoINE": "22084"
+  },
+  {
+    "nombre": "Castejón del Puente",
+    "provincia": "huesca",
+    "slug": "castejon-del-puente",
+    "codigoINE": "22082"
+  },
+  {
+    "nombre": "Castelflorite",
+    "provincia": "huesca",
+    "slug": "castelflorite",
+    "codigoINE": "22085"
+  },
+  {
+    "nombre": "Castiello de Jaca",
+    "provincia": "huesca",
+    "slug": "castiello-de-jaca",
+    "codigoINE": "22086"
+  },
+  {
+    "nombre": "Castigaleu",
+    "provincia": "huesca",
+    "slug": "castigaleu",
+    "codigoINE": "22087"
+  },
+  {
+    "nombre": "Castillazuelo",
+    "provincia": "huesca",
+    "slug": "castillazuelo",
+    "codigoINE": "22088"
+  },
+  {
+    "nombre": "Castillonroy",
+    "provincia": "huesca",
+    "slug": "castillonroy",
+    "codigoINE": "22089"
+  },
+  {
+    "nombre": "Chalamera",
+    "provincia": "huesca",
+    "slug": "chalamera",
+    "codigoINE": "22094"
+  },
+  {
+    "nombre": "Chía",
+    "provincia": "huesca",
+    "slug": "chia",
+    "codigoINE": "22095"
+  },
+  {
+    "nombre": "Chimillas",
+    "provincia": "huesca",
+    "slug": "chimillas",
+    "codigoINE": "22096"
+  },
+  {
+    "nombre": "Colungo",
+    "provincia": "huesca",
+    "slug": "colungo",
+    "codigoINE": "22090"
+  },
+  {
+    "nombre": "El Grado",
+    "provincia": "huesca",
+    "slug": "el-grado",
+    "codigoINE": "22115"
+  },
+  {
+    "nombre": "El Pueyo de Araguás",
+    "provincia": "huesca",
+    "slug": "el-pueyo-de-araguas",
+    "codigoINE": "22190"
+  },
+  {
+    "nombre": "Esplús",
+    "provincia": "huesca",
+    "slug": "esplus",
+    "codigoINE": "22099"
+  },
+  {
+    "nombre": "Estada",
+    "provincia": "huesca",
+    "slug": "estada",
+    "codigoINE": "22102"
+  },
+  {
+    "nombre": "Estadilla",
+    "provincia": "huesca",
+    "slug": "estadilla",
+    "codigoINE": "22103"
+  },
+  {
+    "nombre": "Estopiñán del Castillo",
+    "provincia": "huesca",
+    "slug": "estopinan-del-castillo",
+    "codigoINE": "22105"
+  },
+  {
+    "nombre": "Fago",
+    "provincia": "huesca",
+    "slug": "fago",
+    "codigoINE": "22106"
+  },
+  {
+    "nombre": "Fanlo",
+    "provincia": "huesca",
+    "slug": "fanlo",
+    "codigoINE": "22107"
+  },
+  {
+    "nombre": "Fiscal",
+    "provincia": "huesca",
+    "slug": "fiscal",
+    "codigoINE": "22109"
+  },
+  {
+    "nombre": "Fonz",
+    "provincia": "huesca",
+    "slug": "fonz",
+    "codigoINE": "22110"
+  },
+  {
+    "nombre": "Foradada del Toscar",
+    "provincia": "huesca",
+    "slug": "foradada-del-toscar",
+    "codigoINE": "22111"
+  },
+  {
+    "nombre": "Fraga",
+    "provincia": "huesca",
+    "slug": "fraga",
+    "codigoINE": "22112"
+  },
+  {
+    "nombre": "Gistaín",
+    "provincia": "huesca",
+    "slug": "gistain",
+    "codigoINE": "22114"
+  },
+  {
+    "nombre": "Grañén",
+    "provincia": "huesca",
+    "slug": "granen",
+    "codigoINE": "22116"
+  },
+  {
+    "nombre": "Graus",
+    "provincia": "huesca",
+    "slug": "graus",
+    "codigoINE": "22117"
+  },
+  {
+    "nombre": "Gurrea de Gállego",
+    "provincia": "huesca",
+    "slug": "gurrea-de-gallego",
+    "codigoINE": "22119"
+  },
+  {
+    "nombre": "Hoz de Jaca",
+    "provincia": "huesca",
+    "slug": "hoz-de-jaca",
+    "codigoINE": "22122"
+  },
+  {
+    "nombre": "Hoz y Costean",
+    "provincia": "huesca",
+    "slug": "hoz-y-costean",
+    "codigoINE": "22908"
+  },
+  {
+    "nombre": "Huerto",
+    "provincia": "huesca",
+    "slug": "huerto",
+    "codigoINE": "22124"
+  },
+  {
+    "nombre": "Huesca",
+    "provincia": "huesca",
+    "slug": "huesca",
+    "codigoINE": "22125"
+  },
+  {
+    "nombre": "Ibieca",
+    "provincia": "huesca",
+    "slug": "ibieca",
+    "codigoINE": "22126"
+  },
+  {
+    "nombre": "Igriés",
+    "provincia": "huesca",
+    "slug": "igries",
+    "codigoINE": "22127"
+  },
+  {
+    "nombre": "Ilche",
+    "provincia": "huesca",
+    "slug": "ilche",
+    "codigoINE": "22128"
+  },
+  {
+    "nombre": "Isábena",
+    "provincia": "huesca",
+    "slug": "isabena",
+    "codigoINE": "22129"
+  },
+  {
+    "nombre": "Jaca",
+    "provincia": "huesca",
+    "slug": "jaca",
+    "codigoINE": "22130"
+  },
+  {
+    "nombre": "Jasa",
+    "provincia": "huesca",
+    "slug": "jasa",
+    "codigoINE": "22131"
+  },
+  {
+    "nombre": "La Fueva",
+    "provincia": "huesca",
+    "slug": "la-fueva",
+    "codigoINE": "22113"
+  },
+  {
+    "nombre": "La Puebla de Castro",
+    "provincia": "huesca",
+    "slug": "la-puebla-de-castro",
+    "codigoINE": "22187"
+  },
+  {
+    "nombre": "La Sotonera",
+    "provincia": "huesca",
+    "slug": "la-sotonera",
+    "codigoINE": "22904"
+  },
+  {
+    "nombre": "Labuerda",
+    "provincia": "huesca",
+    "slug": "labuerda",
+    "codigoINE": "22133"
+  },
+  {
+    "nombre": "Laluenga",
+    "provincia": "huesca",
+    "slug": "laluenga",
+    "codigoINE": "22135"
+  },
+  {
+    "nombre": "Lalueza",
+    "provincia": "huesca",
+    "slug": "lalueza",
+    "codigoINE": "22136"
+  },
+  {
+    "nombre": "Lanaja",
+    "provincia": "huesca",
+    "slug": "lanaja",
+    "codigoINE": "22137"
+  },
+  {
+    "nombre": "Laperdiguera",
+    "provincia": "huesca",
+    "slug": "laperdiguera",
+    "codigoINE": "22139"
+  },
+  {
+    "nombre": "Las Peñas de Riglos",
+    "provincia": "huesca",
+    "slug": "las-penas-de-riglos",
+    "codigoINE": "22173"
+  },
+  {
+    "nombre": "Lascellas-Ponzano",
+    "provincia": "huesca",
+    "slug": "lascellas-ponzano",
+    "codigoINE": "22141"
+  },
+  {
+    "nombre": "Lascuarre",
+    "provincia": "huesca",
+    "slug": "lascuarre",
+    "codigoINE": "22142"
+  },
+  {
+    "nombre": "Laspaúles",
+    "provincia": "huesca",
+    "slug": "laspaules",
+    "codigoINE": "22143"
+  },
+  {
+    "nombre": "Laspuña",
+    "provincia": "huesca",
+    "slug": "laspuna",
+    "codigoINE": "22144"
+  },
+  {
+    "nombre": "Loarre",
+    "provincia": "huesca",
+    "slug": "loarre",
+    "codigoINE": "22149"
+  },
+  {
+    "nombre": "Loporzano",
+    "provincia": "huesca",
+    "slug": "loporzano",
+    "codigoINE": "22150"
+  },
+  {
+    "nombre": "Loscorrales",
+    "provincia": "huesca",
+    "slug": "loscorrales",
+    "codigoINE": "22151"
+  },
+  {
+    "nombre": "Lupiñén-Ortilla",
+    "provincia": "huesca",
+    "slug": "lupinen-ortilla",
+    "codigoINE": "22905"
+  },
+  {
+    "nombre": "Monesma y Cajigar",
+    "provincia": "huesca",
+    "slug": "monesma-y-cajigar",
+    "codigoINE": "22155"
+  },
+  {
+    "nombre": "Monflorite-Lascasas",
+    "provincia": "huesca",
+    "slug": "monflorite-lascasas",
+    "codigoINE": "22156"
+  },
+  {
+    "nombre": "Montanuy",
+    "provincia": "huesca",
+    "slug": "montanuy",
+    "codigoINE": "22157"
+  },
+  {
+    "nombre": "Monzón",
+    "provincia": "huesca",
+    "slug": "monzon",
+    "codigoINE": "22158"
+  },
+  {
+    "nombre": "Naval",
+    "provincia": "huesca",
+    "slug": "naval",
+    "codigoINE": "22160"
+  },
+  {
+    "nombre": "Novales",
+    "provincia": "huesca",
+    "slug": "novales",
+    "codigoINE": "22162"
+  },
+  {
+    "nombre": "Nueno",
+    "provincia": "huesca",
+    "slug": "nueno",
+    "codigoINE": "22163"
+  },
+  {
+    "nombre": "Olvena",
+    "provincia": "huesca",
+    "slug": "olvena",
+    "codigoINE": "22164"
+  },
+  {
+    "nombre": "Ontiñena",
+    "provincia": "huesca",
+    "slug": "ontinena",
+    "codigoINE": "22165"
+  },
+  {
+    "nombre": "Osso de Cinca",
+    "provincia": "huesca",
+    "slug": "osso-de-cinca",
+    "codigoINE": "22167"
+  },
+  {
+    "nombre": "Palo",
+    "provincia": "huesca",
+    "slug": "palo",
+    "codigoINE": "22168"
+  },
+  {
+    "nombre": "Panticosa",
+    "provincia": "huesca",
+    "slug": "panticosa",
+    "codigoINE": "22170"
+  },
+  {
+    "nombre": "Peñalba",
+    "provincia": "huesca",
+    "slug": "penalba",
+    "codigoINE": "22172"
+  },
+  {
+    "nombre": "Peralta de Alcofea",
+    "provincia": "huesca",
+    "slug": "peralta-de-alcofea",
+    "codigoINE": "22174"
+  },
+  {
+    "nombre": "Peralta de Calasanz",
+    "provincia": "huesca",
+    "slug": "peralta-de-calasanz",
+    "codigoINE": "22175"
+  },
+  {
+    "nombre": "Peraltilla",
+    "provincia": "huesca",
+    "slug": "peraltilla",
+    "codigoINE": "22176"
+  },
+  {
+    "nombre": "Perarrúa",
+    "provincia": "huesca",
+    "slug": "perarrua",
+    "codigoINE": "22177"
+  },
+  {
+    "nombre": "Pertusa",
+    "provincia": "huesca",
+    "slug": "pertusa",
+    "codigoINE": "22178"
+  },
+  {
+    "nombre": "Piracés",
+    "provincia": "huesca",
+    "slug": "piraces",
+    "codigoINE": "22181"
+  },
+  {
+    "nombre": "Plan",
+    "provincia": "huesca",
+    "slug": "plan",
+    "codigoINE": "22182"
+  },
+  {
+    "nombre": "Poleñino",
+    "provincia": "huesca",
+    "slug": "polenino",
+    "codigoINE": "22184"
+  },
+  {
+    "nombre": "Pozán de Vero",
+    "provincia": "huesca",
+    "slug": "pozan-de-vero",
+    "codigoINE": "22186"
+  },
+  {
+    "nombre": "Puente de Montañana",
+    "provincia": "huesca",
+    "slug": "puente-de-montanana",
+    "codigoINE": "22188"
+  },
+  {
+    "nombre": "Puente la Reina de Jaca",
+    "provincia": "huesca",
+    "slug": "puente-la-reina-de-jaca",
+    "codigoINE": "22902"
+  },
+  {
+    "nombre": "Puértolas",
+    "provincia": "huesca",
+    "slug": "puertolas",
+    "codigoINE": "22189"
+  },
+  {
+    "nombre": "Pueyo de Santa Cruz",
+    "provincia": "huesca",
+    "slug": "pueyo-de-santa-cruz",
+    "codigoINE": "22193"
+  },
+  {
+    "nombre": "Quicena",
+    "provincia": "huesca",
+    "slug": "quicena",
+    "codigoINE": "22195"
+  },
+  {
+    "nombre": "Robres",
+    "provincia": "huesca",
+    "slug": "robres",
+    "codigoINE": "22197"
+  },
+  {
+    "nombre": "Sabiñánigo",
+    "provincia": "huesca",
+    "slug": "sabinanigo",
+    "codigoINE": "22199"
+  },
+  {
+    "nombre": "Sahún",
+    "provincia": "huesca",
+    "slug": "sahun",
+    "codigoINE": "22200"
+  },
+  {
+    "nombre": "Salas Altas",
+    "provincia": "huesca",
+    "slug": "salas-altas",
+    "codigoINE": "22201"
+  },
+  {
+    "nombre": "Salas Bajas",
+    "provincia": "huesca",
+    "slug": "salas-bajas",
+    "codigoINE": "22202"
+  },
+  {
+    "nombre": "Salillas",
+    "provincia": "huesca",
+    "slug": "salillas",
+    "codigoINE": "22203"
+  },
+  {
+    "nombre": "Sallent de Gállego",
+    "provincia": "huesca",
+    "slug": "sallent-de-gallego",
+    "codigoINE": "22204"
+  },
+  {
+    "nombre": "San Esteban de Litera",
+    "provincia": "huesca",
+    "slug": "san-esteban-de-litera",
+    "codigoINE": "22205"
+  },
+  {
+    "nombre": "San Juan de Plan",
+    "provincia": "huesca",
+    "slug": "san-juan-de-plan",
+    "codigoINE": "22207"
+  },
+  {
+    "nombre": "San Miguel del Cinca",
+    "provincia": "huesca",
+    "slug": "san-miguel-del-cinca",
+    "codigoINE": "22903"
+  },
+  {
+    "nombre": "Sangarrén",
+    "provincia": "huesca",
+    "slug": "sangarren",
+    "codigoINE": "22206"
+  },
+  {
+    "nombre": "Santa Cilia",
+    "provincia": "huesca",
+    "slug": "santa-cilia",
+    "codigoINE": "22208"
+  },
+  {
+    "nombre": "Santa Cruz de la Serós",
+    "provincia": "huesca",
+    "slug": "santa-cruz-de-la-seros",
+    "codigoINE": "22209"
+  },
+  {
+    "nombre": "Santa María de Dulcis",
+    "provincia": "huesca",
+    "slug": "santa-maria-de-dulcis",
+    "codigoINE": "22906"
+  },
+  {
+    "nombre": "Santaliestra y San Quílez",
+    "provincia": "huesca",
+    "slug": "santaliestra-y-san-quilez",
+    "codigoINE": "22212"
+  },
+  {
+    "nombre": "Sariñena",
+    "provincia": "huesca",
+    "slug": "sarinena",
+    "codigoINE": "22213"
+  },
+  {
+    "nombre": "Secastilla",
+    "provincia": "huesca",
+    "slug": "secastilla",
+    "codigoINE": "22214"
+  },
+  {
+    "nombre": "Seira",
+    "provincia": "huesca",
+    "slug": "seira",
+    "codigoINE": "22215"
+  },
+  {
+    "nombre": "Sena",
+    "provincia": "huesca",
+    "slug": "sena",
+    "codigoINE": "22217"
+  },
+  {
+    "nombre": "Senés de Alcubierre",
+    "provincia": "huesca",
+    "slug": "senes-de-alcubierre",
+    "codigoINE": "22218"
+  },
+  {
+    "nombre": "Sesa",
+    "provincia": "huesca",
+    "slug": "sesa",
+    "codigoINE": "22220"
+  },
+  {
+    "nombre": "Sesué",
+    "provincia": "huesca",
+    "slug": "sesue",
+    "codigoINE": "22221"
+  },
+  {
+    "nombre": "Siétamo",
+    "provincia": "huesca",
+    "slug": "sietamo",
+    "codigoINE": "22222"
+  },
+  {
+    "nombre": "Sopeira",
+    "provincia": "huesca",
+    "slug": "sopeira",
+    "codigoINE": "22223"
+  },
+  {
+    "nombre": "Tamarite de Litera",
+    "provincia": "huesca",
+    "slug": "tamarite-de-litera",
+    "codigoINE": "22225"
+  },
+  {
+    "nombre": "Tardienta",
+    "provincia": "huesca",
+    "slug": "tardienta",
+    "codigoINE": "22226"
+  },
+  {
+    "nombre": "Tella-Sin",
+    "provincia": "huesca",
+    "slug": "tella-sin",
+    "codigoINE": "22227"
+  },
+  {
+    "nombre": "Tierz",
+    "provincia": "huesca",
+    "slug": "tierz",
+    "codigoINE": "22228"
+  },
+  {
+    "nombre": "Tolva",
+    "provincia": "huesca",
+    "slug": "tolva",
+    "codigoINE": "22229"
+  },
+  {
+    "nombre": "Torla-Ordesa",
+    "provincia": "huesca",
+    "slug": "torla-ordesa",
+    "codigoINE": "22230"
+  },
+  {
+    "nombre": "Torralba de Aragón",
+    "provincia": "huesca",
+    "slug": "torralba-de-aragon",
+    "codigoINE": "22232"
+  },
+  {
+    "nombre": "Torre la Ribera",
+    "provincia": "huesca",
+    "slug": "torre-la-ribera",
+    "codigoINE": "22233"
+  },
+  {
+    "nombre": "Torrente de Cinca",
+    "provincia": "huesca",
+    "slug": "torrente-de-cinca",
+    "codigoINE": "22234"
+  },
+  {
+    "nombre": "Torres de Alcanadre",
+    "provincia": "huesca",
+    "slug": "torres-de-alcanadre",
+    "codigoINE": "22235"
+  },
+  {
+    "nombre": "Torres de Barbués",
+    "provincia": "huesca",
+    "slug": "torres-de-barbues",
+    "codigoINE": "22236"
+  },
+  {
+    "nombre": "Tramaced",
+    "provincia": "huesca",
+    "slug": "tramaced",
+    "codigoINE": "22239"
+  },
+  {
+    "nombre": "Valfarta",
+    "provincia": "huesca",
+    "slug": "valfarta",
+    "codigoINE": "22242"
+  },
+  {
+    "nombre": "Valle de Bardají",
+    "provincia": "huesca",
+    "slug": "valle-de-bardaji",
+    "codigoINE": "22243"
+  },
+  {
+    "nombre": "Valle de Hecho",
+    "provincia": "huesca",
+    "slug": "valle-de-hecho",
+    "codigoINE": "22901"
+  },
+  {
+    "nombre": "Valle de Lierp",
+    "provincia": "huesca",
+    "slug": "valle-de-lierp",
+    "codigoINE": "22244"
+  },
+  {
+    "nombre": "Velilla de Cinca",
+    "provincia": "huesca",
+    "slug": "velilla-de-cinca",
+    "codigoINE": "22245"
+  },
+  {
+    "nombre": "Vencillón",
+    "provincia": "huesca",
+    "slug": "vencillon",
+    "codigoINE": "22909"
+  },
+  {
+    "nombre": "Viacamp y Litera",
+    "provincia": "huesca",
+    "slug": "viacamp-y-litera",
+    "codigoINE": "22247"
+  },
+  {
+    "nombre": "Vicién",
+    "provincia": "huesca",
+    "slug": "vicien",
+    "codigoINE": "22248"
+  },
+  {
+    "nombre": "Villanova",
+    "provincia": "huesca",
+    "slug": "villanova",
+    "codigoINE": "22249"
+  },
+  {
+    "nombre": "Villanúa",
+    "provincia": "huesca",
+    "slug": "villanua",
+    "codigoINE": "22250"
+  },
+  {
+    "nombre": "Villanueva de Sigena",
+    "provincia": "huesca",
+    "slug": "villanueva-de-sigena",
+    "codigoINE": "22251"
+  },
+  {
+    "nombre": "Yebra de Basa",
+    "provincia": "huesca",
+    "slug": "yebra-de-basa",
+    "codigoINE": "22252"
+  },
+  {
+    "nombre": "Yésero",
+    "provincia": "huesca",
+    "slug": "yesero",
+    "codigoINE": "22253"
+  },
+  {
+    "nombre": "Zaidín",
+    "provincia": "huesca",
+    "slug": "zaidin",
+    "codigoINE": "22254"
+  }
+]
