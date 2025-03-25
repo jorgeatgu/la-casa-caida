@@ -1,0 +1,101 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { aragonStacked } from '../scripts/d3/aragonStacked';
+import { scatterDesert } from '../scripts/d3/scatterDesert';
+---
+
+<BaseLayout title="La casa caída | La despoblación de Aragón">
+  <header class="header">
+    <div class="header-container">
+      <h3 class="header-title">
+        <div class="text-wrapper">
+          La casa
+          <span class="letter">c</span><span class="letter">a</span><span class="letter">í</span><span class="letter">d</span><span class="letter">a</span>
+        </div>
+      </h3>
+      <span class="author">Por <a href="https://jorgeatgu.com">Jorge Aznar</a></span>
+
+      <!-- Ronda lyrics -->
+      <p class="header-ronda">
+        <!-- ... -->
+      </p>
+
+      <div class="section-text">
+        <!-- Introducción -->
+      </div>
+    </div>
+
+    <!-- Gráfico de desierto demográfico -->
+    <div class="container-chart">
+      <h4 class="subtittle">Aragón, un desierto demográfico</h4>
+      <p class="text"><!-- ... --></p>
+      <div class="scatter-desert">
+        <svg class="scatter-chart">
+          <g class="scatter-desert-container"></g>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Gráfico de distribución por provincias -->
+    <div class="container-desert">
+      <h4 class="subtittle">Distribución de la población en Aragón</h4>
+      <p class="text"><!-- ... --></p>
+      <div class="aragon-stack">
+        <svg>
+          <g class="aragon-stack-container"></g>
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <!-- Enlaces a las provincias -->
+  <section class="provinces-section">
+    <div class="province-card">
+      <h2>Huesca</h2>
+      <p><!-- Descripción --></p>
+      <a href="/provincia/huesca">Ver municipios de Huesca</a>
+    </div>
+
+    <div class="province-card">
+      <h2>Teruel</h2>
+      <p><!-- Descripción --></p>
+      <a href="/provincia/teruel">Ver municipios de Teruel</a>
+    </div>
+
+    <div class="province-card">
+      <h2>Zaragoza</h2>
+      <p><!-- Descripción --></p>
+      <a href="/provincia/zaragoza">Ver municipios de Zaragoza</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  import { scatterDesert } from '../scripts/d3/scatterDesert';
+  import { aragonStacked } from '../scripts/d3/aragonStacked';
+  import anime from 'animejs/lib/anime.es.js';
+
+  // Inicializar gráficos
+  document.addEventListener('DOMContentLoaded', () => {
+    scatterDesert();
+    aragonStacked();
+
+    // Animación del título
+    anime.timeline()
+      .add({
+        targets: '.header-title .letter',
+        translateY: [0, '1.5rem'],
+        translateZ: 0,
+        duration: 750,
+        delay: anime.stagger(500)
+      })
+      .add({
+        targets: '.letter',
+        translateY: ['1.5rem', '2rem'],
+        translateZ: 0,
+        rotate: 45,
+        duration: 750,
+        delay: anime.stagger(1000)
+      });
+  });
+</script>

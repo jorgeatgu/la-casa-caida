@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { municipios } from '../../data/municipios';
+
+const municipiosZaragoza = municipios.filter(m => m.provincia === 'zaragoza');
+---
+
+<BaseLayout title="Zaragoza - La casa caída">
+  <h1>Zaragoza</h1>
+
+  <section class="intro">
+    <!-- Introducción sobre la provincia -->
+  </section>
+
+  <section class="container-chart line-province-zaragoza">
+    <h2>Evolución de la población - Zaragoza</h2>
+    <p><!-- ... --></p>
+    <div class="line-zaragoza">
+      <svg class="line-chart">
+        <g class="line-zaragoza-container"></g>
+      </svg>
+    </div>
+  </section>
+
+  <section>
+    <h2>Municipios de Zaragoza</h2>
+    <div class="municipios-grid">
+      {municipiosZaragoza.map(municipio => (
+        <div class="municipio-card">
+          <h3>{municipio.nombre}</h3>
+          <p>Población: {municipio.poblacionActual} habitantes</p>
+          <a href={`/municipio/${municipio.slug}`}>Ver detalles</a>
+        </div>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+import { lineHistoric } from '../../scripts/d3/lineHistoric';
+
+document.addEventListener('DOMContentLoaded', () => {
+  lineHistoric('data/zaragoza/zaragoza-total.csv', 'zaragoza');
+});
+</script>

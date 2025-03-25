@@ -1,0 +1,57 @@
+---
+import MunicipioLayout from '../../layouts/MunicipioLayout.astro';
+import GraficaPoblacion from '../../components/GraficaPoblacion.astro';
+import GraficaEdades from '../../components/GraficaEdades.astro';
+import GraficaSaldoVegetativo from '../../components/GraficaSaldoVegetativo.astro';
+import GraficaDensidad from '../../components/GraficaDensidad.astro';
+import { municipios } from '../../data/municipios';
+
+// Generar todas las rutas dinámicas
+export async function getStaticPaths() {
+  return municipios.map((municipio) => {
+    return {
+      params: { slug: municipio.slug },
+      props: { municipioData: municipio }
+    };
+  });
+}
+
+// Obtener los datos del municipio actual
+const { municipioData } = Astro.props;
+const { nombre, provincia, codigoINE } = municipioData;
+
+// Metadatos para SEO
+const title = `${nombre} - La casa caída | Evolución poblacional de Aragón`;
+const descripcion = `Evolución de la población en ${nombre} (${provincia}). Datos históricos, distribución por edades y densidad demográfica.`;
+---
+
+<MunicipioLayout
+  title={title}
+  descripcion={descripcion}
+  municipio={nombre}
+  provincia={provincia}
+>
+  <section class="container-chart">
+    <h2 class="subtittle">Evolución de la población en {nombre}</h2>
+    <p class="text">En esta gráfica podemos ver cómo ha ido evolucionando la población de {nombre} desde 1900 hasta 2024.</p>
+    <GraficaPoblacion municipio={nombre} codigo={codigoINE} provincia={provincia} />
+  </section>
+
+  <section class="container-chart">
+    <h2 class="subtittle">Grupos de edad</h2>
+    <p class="text">Distribución por grupos de edad de la población de {nombre}.</p>
+    <GraficaEdades municipio={nombre} codigo={codigoINE} provincia={provincia} />
+  </section>
+
+  <section class="container-chart">
+    <h2 class="subtittle">Densidad demográfica</h2>
+    <p class="text">Evolución de la densidad demográfica en {nombre}.</p>
+    <GraficaDensidad municipio={nombre} codigo={codigoINE} provincia={provincia} />
+  </section>
+
+  <section class="container-chart">
+    <h2 class="subtittle">Saldo vegetativo</h2>
+    <p class="text">Evolución del saldo vegetativo (nacimientos menos defunciones) en {nombre}.</p>
+    <GraficaSaldoVegetativo municipio={nombre} codigo={codigoINE} provincia={provincia} />
+  </section>
+</MunicipioLayout>
