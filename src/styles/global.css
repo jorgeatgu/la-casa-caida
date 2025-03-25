@@ -1,14 +1,12 @@
-@import "tailwindcss";
 
 /* src/styles/global.css */
 @import '_variables.css';
-@import 'components/_header.css';
-@import 'components/_navigation.css';
-@import 'components/_section.css';
-@import 'components/_chart.css';
-@import 'components/_footer.css';
-@import 'components/_proyectos.css';
-@import 'components/_metodology.css';
+@import 'components/header.css';
+@import 'components/section.css';
+@import 'components/chart.css';
+@import 'components/footer.css';
+@import 'components/proyectos.css';
+@import 'components/metodology.css';
 
 body {
   margin: 0;
