@@ -1,10 +1,8 @@
 // astro.config.mjs
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
   site: 'https://casacaida.co',
-  integrations: [tailwind()],
   output: 'static',
   build: {
     // Esto es opcional, para optimizar más la carga
