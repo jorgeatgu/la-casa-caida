@@ -1,0 +1,24 @@
+---
+import '../styles/global.css';
+
+const { title, descripcion } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title}</title>
+  <meta name="description" content={descripcion || "La casa caída | La evolución de la población en Aragón"}>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Playfair+Display:400,700" rel="stylesheet">
+</head>
+<body>
+  <slot />
+
+  <!-- Si necesitas scripts globales -->
+  <script src="/js/main.js"></script>
+</body>
+</html>

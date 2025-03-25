@@ -1,0 +1,20 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const { title, descripcion, municipio, provincia } = Astro.props;
+---
+
+<BaseLayout title={title} descripcion={descripcion}>
+  <Header />
+  <main class="container">
+    <div class="container-chart">
+      <h1 class="title">{municipio}</h1>
+      <p class="text">Provincia de {provincia}</p>
+
+      <slot />
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>
