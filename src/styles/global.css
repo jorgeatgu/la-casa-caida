@@ -1,1 +1,47 @@
 @import "tailwindcss";
+
+/* src/styles/global.css */
+@import '_variables.css';
+@import 'components/_header.css';
+@import 'components/_navigation.css';
+@import 'components/_section.css';
+@import 'components/_chart.css';
+@import 'components/_footer.css';
+@import 'components/_proyectos.css';
+@import 'components/_metodology.css';
+
+body {
+  margin: 0;
+  line-height: 1.4;
+  color: var(--black);
+  font-family: var(--text);
+}
+
+.container {
+  font-size: 0;
+}
+
+.container-bgc {
+  background-color: var(--bgc-teruel);
+}
+
+.container-chart,
+.container-desert {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem .5rem;
+}
+
+@media only screen and (min-width: 48rem) {
+  .container-chart {
+    max-width: 60rem;
+    padding: 3rem .5rem;
+  }
+
+  .container-desert {
+    max-width: 65rem;
+    padding: 3rem 0;
+  }
+}
+
+/* Más estilos globales... */
