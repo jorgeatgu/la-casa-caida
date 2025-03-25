@@ -10,7 +10,7 @@ const chartId = "aragon-stack";
   </article>
 </div>
 
-<script define:vars={{ chartId }}>
+<script define:vars={{ chartId }} type="module">
   import { select } from 'd3-selection';
   import { min, max, bisector, extent } from 'd3-array';
   import { curveCardinal, area, stack, stackOrderInsideOut } from 'd3-shape';

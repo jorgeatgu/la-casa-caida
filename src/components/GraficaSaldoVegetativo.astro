@@ -7,19 +7,15 @@ const chartId = `grafica-vegetativo-${codigo}`;
   <div class="bar-negative" id={chartId}></div>
 </div>
 
-<script define:vars={{ municipio, codigo, provincia, chartId }}>
-  import { select } from 'd3-selection';
-  import { scaleLinear, scaleBand } from 'd3-scale';
-  import { axisBottom, axisLeft } from 'd3-axis';
-  import { csv } from 'd3-fetch';
-  import { min, max } from 'd3-array';
+<script define:vars={{ municipio, codigo, provincia, chartId }} type="module">
+  import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
 
   document.addEventListener('DOMContentLoaded', () => {
     const margin = { top: 24, right: 8, bottom: 24, left: 40 };
     const width = 800 - margin.left - margin.right;
     const height = 400 - margin.top - margin.bottom;
 
-    const container = select(`#${chartId}`);
+    const container = d3.select(`#${chartId}`);
 
     // Crear tooltip
     const tooltip = container
@@ -34,10 +30,13 @@ const chartId = `grafica-vegetativo-${codigo}`;
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    const csvPath = `/data/${provincia}/vegetativo/${codigo}.csv`;
+    const csvPath = `/data/${provincia}/saldo-vegetativo-total-${provincia}.csv`;
 
-    csv(csvPath).then(data => {
-      data.forEach(d => {
+    d3.csv(csvPath).then(data => {
+      // Filtrar por código INE
+      const municipioData = data.filter(d => d.codigoINE === codigo);
+
+      municipioData.forEach(d => {
         d.year = +d.year;
         d.nacidos = +d.nacidos;
         d.fallecidos = +d.fallecidos;
@@ -45,15 +44,15 @@ const chartId = `grafica-vegetativo-${codigo}`;
       });
 
       // Escalas
-      const x = scaleBand()
-        .domain(data.map(d => d.year))
+      const x = d3.scaleBand()
+        .domain(municipioData.map(d => d.year))
         .range([0, width])
         .paddingInner(0.2);
 
-      const y = scaleLinear()
+      const y = d3.scaleLinear()
         .domain([
-          min(data, d => d.saldo) * 2,
-          max(data, d => max(data, d => d.saldo) < 300 ? d.saldo * 6 : d.saldo * 2.5)
+          d3.min(municipioData, d => d.saldo) * 2,
+          d3.max(municipioData, d => d3.max(municipioData, d => d.saldo) < 300 ? d.saldo * 6 : d.saldo * 2.5)
         ])
         .range([height, 0]);
 
@@ -61,17 +60,17 @@ const chartId = `grafica-vegetativo-${codigo}`;
       svg.append("g")
         .attr("class", "axis axis-x")
         .attr("transform", `translate(0,${height})`)
-        .call(axisBottom(x).tickValues(
+        .call(d3.axisBottom(x).tickValues(
           x.domain().filter((d, i) => !(i % 6))
         ));
 
       svg.append("g")
         .attr("class", "axis axis-y")
-        .call(axisLeft(y).ticks(5).tickSize(-width).tickFormat(d => d));
+        .call(d3.axisLeft(y).ticks(5).tickSize(-width).tickFormat(d => d));
 
       // Barras
       svg.selectAll(".bar-vertical")
-        .data(data)
+        .data(municipioData)
         .enter()
         .append("rect")
         .attr("class", d => (d.saldo < 0 ? "negative bar-vertical" : "positive bar-vertical"))

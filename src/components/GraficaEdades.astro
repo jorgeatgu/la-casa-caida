@@ -7,20 +7,16 @@ const chartId = `grafica-edades-${codigo}`;
   <div class="municipalities-stack" id={chartId}></div>
 </div>
 
-<script define:vars={{ municipio, codigo, provincia, chartId }}>
-  import { select } from 'd3-selection';
-  import { scaleLinear, scaleTime, scaleOrdinal } from 'd3-scale';
-  import { stack, area } from 'd3-shape';
-  import { axisBottom, axisLeft } from 'd3-axis';
-  import { csv } from 'd3-fetch';
-  import { max, extent, group } from 'd3-array';
+<script define:vars={{ municipio, codigo, provincia, chartId }} type="module">
+  import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
+
 
   document.addEventListener('DOMContentLoaded', () => {
     const margin = { top: 40, right: 8, bottom: 24, left: 32 };
     const width = 800 - margin.left - margin.right;
     const height = 400 - margin.top - margin.bottom;
 
-    const container = select(`#${chartId}`);
+    const container = d3.select(`#${chartId}`);
 
     const svg = container.append("svg")
       .attr("width", "100%")
@@ -29,24 +25,27 @@ const chartId = `grafica-edades-${codigo}`;
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    const csvPath = `/data/${provincia}/grupos-edad/${codigo}.csv`;
+    const csvPath = `/data/${provincia}/${provincia}-years-groups-total.csv`;
 
-    csv(csvPath).then(data => {
-      data.forEach(d => {
+    d3.csv(csvPath).then(data => {
+      // Filtrar por código INE
+      const municipioData = data.filter(d => d.municipio === municipio || d.name === municipio);
+
+      municipioData.forEach(d => {
         d.year = +d.year;
         d.total = +d.total;
         d.age = d.age; // Categoría de edad
       });
 
       // Agrupar por año y edad para stackedData
-      let groupedMap = group(
-        data,
+      let groupedMap = d3.group(
+        municipioData,
         d => d.year,
         d => d.age
       );
 
       // Obtener todas las categorías de edad únicas
-      let stackKeys = [...new Set(data.map(d => d.age))];
+      let stackKeys = [...new Set(municipioData.map(d => d.age))];
 
       // Crear los datos apilados
       const dataStacked = Array.from(groupedMap.entries())
@@ -61,26 +60,26 @@ const chartId = `grafica-edades-${codigo}`;
         .sort((a, b) => a.year - b.year);
 
       // Configurar escalas
-      const x = scaleTime()
-        .domain(extent(dataStacked, d => d.year))
+      const x = d3.scaleTime()
+        .domain(d3.extent(dataStacked, d => d.year))
         .range([0, width]);
 
       // Configurar stack
-      const stackGenerator = stack().keys(stackKeys);
+      const stackGenerator = d3.stack().keys(stackKeys);
       const stackedData = stackGenerator(dataStacked);
 
       // Escala para Y
-      const y = scaleLinear()
-        .domain([0, max(stackedData, d => max(d, d => d[1]))])
+      const y = d3.scaleLinear()
+        .domain([0, d3.max(stackedData, d => d3.max(d, d => d[1]))])
         .range([height, 0]);
 
       // Colores
-      const colors = scaleOrdinal()
+      const colors = d3.scaleOrdinal()
         .domain(stackKeys)
         .range(["#9db7c5", "#18857f", "#1f4196"]);
 
       // Función de área
-      const areaGenerator = area()
+      const areaGenerator = d3.area()
         .x(d => x(d.data.year))
         .y0(d => y(d[0]))
         .y1(d => y(d[1]));
@@ -117,11 +116,11 @@ const chartId = `grafica-edades-${codigo}`;
       svg.append("g")
         .attr("class", "axis axis-x")
         .attr("transform", `translate(0,${height})`)
-        .call(axisBottom(x).tickFormat(d => d));
+        .call(d3.axisBottom(x).tickFormat(d => d));
 
       svg.append("g")
         .attr("class", "axis axis-y")
-        .call(axisLeft(y));
+        .call(d3.axisLeft(y));
     });
   });
 </script>

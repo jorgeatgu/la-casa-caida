@@ -7,20 +7,16 @@ const chartId = `grafica-densidad-${codigo}`;
   <div class="line-densidad" id={chartId}></div>
 </div>
 
-<script define:vars={{ municipio, codigo, provincia, chartId }}>
-  import { select } from 'd3-selection';
-  import { scaleLinear, scaleTime } from 'd3-scale';
-  import { line } from 'd3-shape';
-  import { axisBottom, axisLeft } from 'd3-axis';
-  import { csv } from 'd3-fetch';
-  import { min, max } from 'd3-array';
+<script define:vars={{ municipio, codigo, provincia, chartId }} type="module">
+  import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
+
 
   document.addEventListener('DOMContentLoaded', () => {
     const margin = { top: 16, right: 16, bottom: 24, left: 96 };
     const width = 800 - margin.left - margin.right;
     const height = 400 - margin.top - margin.bottom;
 
-    const container = select(`#${chartId}`);
+    const container = d3.select(`#${chartId}`);
 
     const svg = container.append("svg")
       .attr("width", "100%")
@@ -29,44 +25,47 @@ const chartId = `grafica-densidad-${codigo}`;
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    const csvPath = `/data/${provincia}/densidad/${codigo}.csv`;
+    const csvPath = `/data/${provincia}/${provincia}-densidad.csv`;
 
-    csv(csvPath).then(data => {
-      data.forEach(d => {
+    d3.csv(csvPath).then(data => {
+      // Filtrar por código INE
+      const municipioData = data.filter(d => d.municipio === municipio || d.name === municipio);
+
+      municipioData.forEach(d => {
         d.year = +d.year;
         d.population = +d.population;
         d.superficie = +d.superficie;
         d.densidad = (d.population / d.superficie);
       });
 
-      const x = scaleTime()
-        .domain([min(data, d => d.year), max(data, d => d.year)])
+      const x = d3.scaleTime()
+        .domain([d3.min(municipioData, d => d.year), d3.max(municipioData, d => d.year)])
         .range([0, width]);
 
-      const y = scaleLinear()
-        .domain([0, max(data, d => d.densidad) * 1.5])
+      const y = d3.scaleLinear()
+        .domain([0, d3.max(municipioData, d => d.densidad) * 1.5])
         .range([height, 0]);
 
-      const lineGenerator = line()
+      const lineGenerator = d3.line()
         .x(d => x(d.year))
         .y(d => y(d.densidad));
 
       svg.append("g")
         .attr("class", "axis axis-x")
         .attr("transform", `translate(0,${height})`)
-        .call(axisBottom(x).tickFormat(d => d).ticks(13));
+        .call(d3.axisBottom(x).tickFormat(d => d).ticks(13));
 
       svg.append("g")
         .attr("class", "axis axis-y")
-        .call(axisLeft(y).tickFormat(d => d + " hab/km²").tickSize(-width).ticks(6));
+        .call(d3.axisLeft(y).tickFormat(d => d + " hab/km²").tickSize(-width).ticks(6));
 
       svg.append("path")
-        .datum(data)
+        .datum(municipioData)
         .attr("class", "lines")
         .attr("d", lineGenerator);
 
       // Añadir mensaje de desierto demográfico si aplica
-      const desertDemographic = data.map(d => d.densidad);
+      const desertDemographic = municipioData.map(d => d.densidad);
 
       if (desertDemographic.some(d => d < 10) && desertDemographic[desertDemographic.length - 1] < 10) {
         container.append("div")

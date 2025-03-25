@@ -65,12 +65,12 @@ const chartId = "comparador-chart";
 </div>
 
 <script define:vars={{ chartId }}>
-  import { select } from 'd3-selection';
-  import { scaleLinear, scaleTime } from 'd3-scale';
-  import { line } from 'd3-shape';
-  import { axisBottom, axisLeft } from 'd3-axis';
-  import { csv } from 'd3-fetch';
-  import { extent, max } from 'd3-array';
+  import { select } from 'https://cdn.jsdelivr.net/npm/d3-selection@3/+esm';
+  import { scaleLinear, scaleTime } from 'https://cdn.jsdelivr.net/npm/d3-scale@4/+esm';
+  import { line } from 'https://cdn.jsdelivr.net/npm/d3-shape@3/+esm';
+  import { axisBottom, axisLeft } from 'https://cdn.jsdelivr.net/npm/d3-axis@3/+esm';
+  import { csv } from 'https://cdn.jsdelivr.net/npm/d3-fetch@3/+esm';
+  import { extent, max } from 'https://cdn.jsdelivr.net/npm/d3-array@3/+esm';
 
   document.addEventListener('DOMContentLoaded', () => {
     const btnComparar = document.getElementById('btn-comparar');
