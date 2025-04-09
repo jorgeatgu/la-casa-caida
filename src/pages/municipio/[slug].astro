@@ -2,7 +2,6 @@
 import MunicipioLayout from '../../layouts/MunicipioLayout.astro';
 import GraficaPoblacion from '../../components/GraficaPoblacion.astro';
 import GraficaEdades from '../../components/GraficaEdades.astro';
-import GraficaSaldoVegetativo from '../../components/GraficaSaldoVegetativo.astro';
 import GraficaDensidad from '../../components/GraficaDensidad.astro';
 import { municipios } from '../../data/municipios';
 
@@ -44,9 +43,4 @@ const descripcion = `Evolución de la población en ${nombre} (${provincia}). Da
     <GraficaDensidad municipio={nombre} codigo={codigoINE} provincia={provincia} />
   </section>
 
-  <section class="container-chart">
-    <h2 class="subtittle">Saldo vegetativo</h2>
-    <p class="text">Evolución del saldo vegetativo (nacimientos menos defunciones) en {nombre}.</p>
-    <GraficaSaldoVegetativo municipio={nombre} codigo={codigoINE} provincia={provincia} />
-  </section>
 </MunicipioLayout>

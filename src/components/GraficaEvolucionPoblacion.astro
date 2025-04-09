@@ -193,7 +193,7 @@ const containerClass = `line-evolution-${provincia}`;
     }
 
     function loadData() {
-      const csvPath = `/data/${provincia}/evolucion-poblacion-${provincia}.csv`;
+      const csvPath = `/data/${provincia}/${provincia}-evolucion.csv`;
 
       csv(csvPath).then(data => {
         // Si tenemos un municipio específico, usamos ese

@@ -1,125 +1,181 @@
 ---
-const { provincia, codigo } = Astro.props;
+const { municipio, codigo, provincia } = Astro.props;
 const chartId = `grafica-vegetativo-${codigo || provincia}`;
+const containerClass = `bar-negative-${provincia}`;
+const containerSelector = `bar-negative-${provincia}-container`;
+const containerBisSelector = `bar-negative-${provincia}-container-bis`;
 ---
 
 <div class="grafica-container">
-  <div class="bar-negative" id={chartId}></div>
+  <div class={containerClass}>
+    <svg>
+      <g class={containerSelector}></g>
+    </svg>
+  </div>
 </div>
 
 <script is:inline src="https://d3js.org/d3.v7.min.js"></script>
 
-<script define:vars={{ provincia, codigo, chartId }}>
+<script define:vars={{ municipio, codigo, provincia, chartId, containerClass, containerSelector, containerBisSelector }}>
   document.addEventListener('DOMContentLoaded', () => {
     const margin = { top: 24, right: 8, bottom: 24, left: 40 };
-    const width = 800 - margin.left - margin.right;
-    const height = 400 - margin.top - margin.bottom;
-
-    const container = d3.select(`#${chartId}`);
-
-    // Crear tooltip
-    const tooltip = container
+    let width = 0;
+    let height = 0;
+    let w = 0;
+    let h = 0;
+    const chart = d3.select(`.${containerClass}`);
+    const svg = chart.select('svg');
+    const scales = {};
+    let dataVegetative;
+    const tooltip = chart
       .append('div')
       .attr('class', 'tooltip tooltip-negative')
       .style('opacity', 0);
 
-    const svg = container.append("svg")
-      .attr("width", "100%")
-      .attr("height", height + margin.top + margin.bottom)
-      .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
-      .append("g")
-      .attr("transform", `translate(${margin.left},${margin.top})`);
+    function setupScales() {
+      const saldoMin = d3.min(dataVegetative, d => d.saldo);
+      const saldoMax = d3.max(dataVegetative, d => d.saldo);
 
-    const csvPath = `/data/${provincia}/saldo-vegetativo-total-${provincia}.csv`;
+      const saldoMaxMin = -500;
+      const saldoMaxMax = 300;
 
-    d3.csv(csvPath).then(data => {
-      // Procesamos directamente los datos sin filtrar por municipio
-      // ya que los datos ya están a nivel de provincia
-      data.forEach(d => {
-        d.year = +d.year;
-        d.nacidos = +d.nacidos;
-        d.fallecidos = +d.fallecidos;
-        d.saldo = +d.saldo;
-      });
+      const countX = d3.scaleBand().domain(dataVegetative.map(d => d.year));
 
-      // Escalas
-      const x = d3.scaleBand()
-        .domain(data.map(d => d.year))
-        .range([0, width])
-        .paddingInner(0.2);
-
-      const y = d3.scaleLinear()
+      const countY = d3
+        .scaleLinear()
         .domain([
-          d3.min(data, d => d.saldo) * 1.2, // Ajustamos factor de escala
-          d3.max(data, d => d.saldo) * 1.2
-        ])
-        .range([height, 0]);
+          d3.min(dataVegetative, d => d.saldo * 2),
+          d3.max(dataVegetative, d =>
+            saldoMax < saldoMaxMax
+              ? d3.max(dataVegetative, d => d.saldo * 6)
+              : d3.max(dataVegetative, d => d.saldo * 2.5)
+          )
+        ]);
 
-      // Ejes
-      svg.append("g")
-        .attr("class", "axis axis-x")
-        .attr("transform", `translate(0,${height})`)
-        .call(d3.axisBottom(x).tickValues(
-          x.domain().filter((d, i) => !(i % 5)) // Mostramos cada 5 años para mayor claridad
-        ));
+      scales.count = { x: countX, y: countY };
+    }
 
-      svg.append("g")
-        .attr("class", "axis axis-y")
-        .call(d3.axisLeft(y).ticks(5).tickSize(-width).tickFormat(d => d));
+    function setupElements() {
+      const g = svg.select(`.${containerSelector}`);
 
-      // Línea del cero
-      svg.append("line")
-        .attr("class", "zero-line")
-        .attr("x1", 0)
-        .attr("y1", y(0))
-        .attr("x2", width)
-        .attr("y2", y(0))
-        .attr("stroke", "#888")
-        .attr("stroke-dasharray", "2,2");
+      g.append('g').attr('class', 'axis axis-x');
+      g.append('g').attr('class', 'axis axis-y');
+      g.append('g').attr('class', containerBisSelector);
+    }
 
-      // Barras
-      svg.selectAll(".bar-vertical")
-        .data(data)
-        .enter()
-        .append("rect")
-        .attr("class", d => (d.saldo < 0 ? "negative bar-vertical" : "positive bar-vertical"))
-        .attr("width", x.bandwidth())
-        .attr("x", d => x(d.year))
-        .attr("y", d => d.saldo > 0 ? y(d.saldo) : y(0))
-        .attr("height", d => Math.abs(y(d.saldo) - y(0)))
-        .on("mouseover", function(event, d) {
-          tooltip.transition()
-            .style("opacity", 1)
-            .html(`
-              <p class="tooltip-year"><span class="tooltip-number">${d.year}</span></p>
-              <p class="tooltip-born">Nacidos: <span class="tooltip-number">${d.nacidos}</span></p>
-              <p class="tooltip-deceased">Fallecidos: <span class="tooltip-number">${d.fallecidos}</span></p>
-              <p class="tooltip-deceased">Saldo: <span class="tooltip-number">${d.saldo}</span></p>
-            `)
-            .style("left", (x(d.year) + x.bandwidth()/2 - 100) + "px")
-            .style("top", "30px");
+    function updateScales(width, height) {
+      const { count: { x, y } } = scales
+      x.rangeRound([0, width]).paddingInner(0.2);
+      y.range([height, 0]);
+    }
+
+    function drawAxes(g) {
+      const axisX = d3.axisBottom(scales.count.x).tickValues(
+        scales.count.x.domain().filter((d, i) => {
+          return !(i % 6);
         })
-        .on("mouseout", function() {
-          tooltip.transition()
-            .duration(200)
-            .style("opacity", 0);
+      );
+
+      g.select('.axis-x').attr('transform', `translate(0,${height})`).call(axisX);
+
+      const axisY = d3
+        .axisLeft(scales.count.y)
+        .tickFormat(d3.format('d'))
+        .ticks(5)
+        .tickSize(-width)
+        .tickPadding(8);
+
+      g.select('.axis-y').call(axisY);
+    }
+
+    function updateChart(dataVegetative) {
+      w = chart.node().offsetWidth;
+      h = 600;
+
+      const { left, right, top, bottom } = margin
+
+      width = w - left - right;
+      height = h - top - bottom;
+
+      svg.attr('width', w).attr('height', h);
+
+      const g = svg.select(`.${containerSelector}`);
+
+      g.attr('transform', `translate(${left},${top})`);
+
+      updateScales(width, height);
+
+      const container = chart.select(`.${containerBisSelector}`);
+
+      container
+        .selectAll('.bar-vertical')
+        .data(dataVegetative)
+        .join('rect')
+        .attr('class', d => (d.saldo < 0 ? 'negative bar-vertical' : 'positive bar-vertical'))
+        .on('mouseover', function(event, d) {
+          tooltip.transition();
+          tooltip
+            .style('opacity', 1)
+            .html(
+              `
+              <p class="tooltip-year"><span class="tooltip-number">${d.year}</span><p/>
+              <p class="tooltip-born">Nacidos: <span class="tooltip-number">${d.nacidos}</span><p/>
+              <p class="tooltip-deceased">Fallecidos: <span class="tooltip-number">${d.fallecidos}</span><p/>
+              <p class="tooltip-deceased">Saldo: <span class="tooltip-number">${d.saldo}</span><p/>
+              `
+            )
+            .style('left', w / 2 - 100 + 'px')
+            .style('top', 50 + 'px');
+        })
+        .on('mouseout', function() {
+          tooltip.transition().duration(200).style('opacity', 0);
+        })
+        .attr('width', scales.count.x.bandwidth())
+        .attr('x', d => scales.count.x(d.year))
+        .attr('y', d =>
+          d.saldo > 0 ? scales.count.y(d.saldo) : scales.count.y(0)
+        )
+        .attr('height', d =>
+          Math.abs(scales.count.y(d.saldo) - scales.count.y(0))
+        );
+
+      drawAxes(g);
+    }
+
+    function resize() {
+      updateChart(dataVegetative);
+    }
+
+    function loadData() {
+      const csvPath = `/data/${provincia}/saldo-vegetativo-total-${provincia}.csv`;
+
+      d3.csv(csvPath).then(data => {
+        // Convertimos los valores numéricos
+        data.forEach(d => {
+          d.year = +d.year;
+          d.nacidos = +d.nacidos;
+          d.fallecidos = +d.fallecidos;
+          d.saldo = +d.saldo;
         });
-    }).catch(error => {
-      console.error(`Error cargando datos de ${csvPath}:`, error);
-    });
+
+        dataVegetative = data;
+        setupElements();
+        setupScales();
+        updateChart(dataVegetative);
+      }).catch(error => {
+        console.error(`Error cargando datos de ${csvPath}:`, error);
+      });
+    }
+
+    window.addEventListener('resize', resize);
+    loadData();
   });
 </script>
 
 <style>
   .grafica-container {
     position: relative;
-    margin: 2rem 0;
-    height: 450px;
-  }
-
-  .bar-negative {
-    width: 100%;
-    height: 100%;
+    margin: 1rem 0;
   }
 
   .positive {
@@ -148,19 +204,5 @@ const chartId = `grafica-vegetativo-${codigo || provincia}`;
 
   .tooltip-number {
     font-weight: bold;
-  }
-
-  .axis line, .axis path {
-    stroke: #ccc;
-  }
-
-  .axis text {
-    font-size: 12px;
-    fill: #666;
-  }
-
-  .axis-y line {
-    stroke: #eee;
-    stroke-dasharray: 2,2;
   }
 </style>
