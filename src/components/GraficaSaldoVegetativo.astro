@@ -8,7 +8,16 @@ const chartId = `grafica-vegetativo-${codigo}`;
 </div>
 
 <script define:vars={{ municipio, codigo, provincia, chartId }} type="module">
-  import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
+  import {
+    select,
+    scaleLinear,
+    scaleBand,
+    axisBottom,
+    axisLeft,
+    csv,
+    min,
+    max
+  } from '../utils/d3-utils';
 
   document.addEventListener('DOMContentLoaded', () => {
     const margin = { top: 24, right: 8, bottom: 24, left: 40 };
@@ -33,8 +42,7 @@ const chartId = `grafica-vegetativo-${codigo}`;
     const csvPath = `/data/${provincia}/saldo-vegetativo-total-${provincia}.csv`;
 
     d3.csv(csvPath).then(data => {
-      // Filtrar por código INE
-      const municipioData = data.filter(d => d.codigoINE === codigo);
+      const municipioData = data.filter(d => d.municipio === municipio || d.name === municipio);
 
       municipioData.forEach(d => {
         d.year = +d.year;

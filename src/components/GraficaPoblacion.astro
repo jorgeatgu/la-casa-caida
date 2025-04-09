@@ -8,7 +8,17 @@ const chartId = `grafica-poblacion-${codigo}`;
 </div>
 
 <script define:vars={{ municipio, codigo, provincia, chartId }} type="module">
-  import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
+  import {
+    select,
+    scaleLinear,
+    scaleTime,
+    line,
+    axisBottom,
+    axisLeft,
+    csv,
+    extent,
+    max
+  } from '../utils/d3-utils';
 
   document.addEventListener('DOMContentLoaded', () => {
     // Configuración del gráfico

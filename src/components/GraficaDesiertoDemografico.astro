@@ -11,11 +11,15 @@ const chartId = "scatter-desert";
 </div>
 
 <script define:vars={{ chartId }} type="module">
-  import { select } from 'd3-selection';
-  import { scaleLinear } from 'd3-scale';
-  import { axisBottom, axisLeft } from 'd3-axis';
-  import { csv } from 'd3-fetch';
-  import { min, max } from 'd3-array';
+  import {
+    select,
+    scaleLinear,
+    axisBottom,
+    axisLeft,
+    csv,
+    min,
+    max
+  } from '../utils/d3-utils';
 
   document.addEventListener('DOMContentLoaded', () => {
     const margin = { top: 24, right: 24, bottom: 48, left: 72 };

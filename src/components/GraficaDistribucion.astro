@@ -11,13 +11,24 @@ const chartId = "aragon-stack";
 </div>
 
 <script define:vars={{ chartId }} type="module">
-  import { select } from 'd3-selection';
-  import { min, max, bisector, extent } from 'd3-array';
-  import { curveCardinal, area, stack, stackOrderInsideOut } from 'd3-shape';
-  import { scaleTime, scaleLinear, scaleOrdinal } from 'd3-scale';
-  import { axisBottom, axisLeft } from 'd3-axis';
-  import { csv } from 'd3-fetch';
-  import { format } from 'd3-format';
+  import {
+    select,
+    min,
+    max,
+    bisector,
+    extent,
+    curveCardinal,
+    area,
+    stack,
+    stackOrderInsideOut,
+    scaleTime,
+    scaleLinear,
+    scaleOrdinal,
+    axisBottom,
+    axisLeft,
+    csv,
+    format
+  } from '../utils/d3-utils';
 
   document.addEventListener('DOMContentLoaded', () => {
     const margin = { top: 24, right: 8, bottom: 24, left: 32 };
