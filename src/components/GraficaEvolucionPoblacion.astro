@@ -1,0 +1,223 @@
+---
+const { provincia, municipio, codigo } = Astro.props;
+const chartId = `grafica-evolucion-${codigo || provincia}`;
+const containerClass = `line-evolution-${provincia}`;
+---
+
+<div class="grafica-container">
+  <div class={containerClass}>
+    <div class="select-container">
+      <select id={`select-evolution-${provincia}`}></select>
+    </div>
+    <svg class="line-chart">
+      <g class={`line-evolution-${provincia}-container`}></g>
+    </svg>
+  </div>
+</div>
+
+<script define:vars={{ provincia, municipio, codigo, chartId, containerClass }} type="module">
+  import {
+    select,
+    selectAll,
+    min,
+    max,
+    line,
+    scaleTime,
+    scaleLinear,
+    axisBottom,
+    axisLeft,
+    csv,
+    easeLinear,
+    format,
+    interpolatePath,
+    timeFormat
+  } from '../utils/d3-utils';
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const margin = { top: 16, right: 16, bottom: 24, left: 62 };
+    let width = 0;
+    let height = 0;
+    const chart = select(`.${containerClass}`);
+    const svg = chart.select('svg');
+    let scales = {};
+    let dataLineEvolution;
+
+    function setupScales() {
+      const countX = scaleTime().domain([2010, 2020]);
+
+      const countY = scaleLinear()
+        .domain([
+          min(dataLineEvolution, d => d.population * 0.75),
+          max(dataLineEvolution, d => d.population) * 1.25
+        ]);
+
+      scales.count = { x: countX, y: countY };
+    }
+
+    function setupElements() {
+      const g = svg.select(`.line-evolution-${provincia}-container`);
+
+      g.append('g').attr('class', 'axis axis-x');
+      g.append('g').attr('class', 'axis axis-y');
+      g.append('g').attr('class', `line-evolution-${provincia}-container-bis`);
+    }
+
+    function updateScales(width, height) {
+      const { count: { x, y } } = scales;
+      x.range([0, width]);
+      y.range([height, 0]);
+    }
+
+    function drawAxes(g) {
+      const axisX = axisBottom(scales.count.x)
+        .tickPadding(5)
+        .tickFormat(format('d'))
+        .ticks(13);
+
+      g.select('.axis-x')
+        .attr('transform', `translate(0,${height})`)
+        .call(axisX);
+
+      const axisY = axisLeft(scales.count.y)
+        .tickPadding(5)
+        .tickFormat(format('d'))
+        .tickSize(-width)
+        .ticks(6);
+
+      g.select('.axis-y')
+        .transition()
+        .duration(450)
+        .ease(easeLinear)
+        .call(axisY);
+    }
+
+    function updateChart() {
+      const w = chart.node().offsetWidth;
+      const h = 500;
+
+      const { left, right, top, bottom } = margin;
+
+      width = w - left - right;
+      height = h - top - bottom;
+
+      svg.attr('width', w).attr('height', h);
+
+      const g = svg.select(`.line-evolution-${provincia}-container`);
+      g.attr('transform', `translate(${left},${top})`);
+
+      const linePath = line()
+        .x(d => scales.count.x(d.year))
+        .y(d => scales.count.y(d.population));
+
+      updateScales(width, height);
+
+      const container = chart.select(`.line-evolution-${provincia}-container-bis`);
+
+      container
+        .selectAll('.lines')
+        .data([dataLineEvolution])
+        .join('path')
+        .attr('class', 'lines')
+        .transition()
+        .duration(300)
+        .ease(easeLinear)
+        .attrTween('d', function (d) {
+          let previous = select(this).attr('d');
+          let current = linePath(d);
+          return interpolatePath(previous || current, current);
+        });
+
+      drawAxes(g);
+    }
+
+    function updateSelectCity() {
+      const csvPath = `/data/${provincia}/evolucion-poblacion-${provincia}.csv`;
+
+      csv(csvPath).then(data => {
+        const valueCity = select(`#select-evolution-${provincia}`).property('value');
+        if(!valueCity){
+          return;
+        }
+
+        dataLineEvolution = data.filter(({ municipio }) => municipio === valueCity);
+
+        dataLineEvolution.forEach(d => {
+          d.population = +d.population;
+          d.year = +d.year;
+        });
+
+        setupScales();
+        updateChart();
+      });
+    }
+
+    function resize() {
+      if (dataLineEvolution) {
+        updateChart();
+      }
+    }
+
+    function menuSelectCity() {
+      const csvPath = `/data/${provincia}/evolucion-poblacion-${provincia}.csv`;
+
+      csv(csvPath).then(data => {
+        const citiesName = [...new Set(data.map(({ municipio }) => municipio))];
+        const selectCity = select(`#select-evolution-${provincia}`);
+
+        selectCity
+          .selectAll('option')
+          .data(citiesName)
+          .enter()
+          .append('option')
+          .attr('value', d => d)
+          .text(d => d);
+
+        selectCity.on('change', function() {
+          updateSelectCity();
+        });
+
+        // Iniciar TomSelect si está disponible
+        if (typeof TomSelect !== 'undefined') {
+          new TomSelect(`#select-evolution-${provincia}`, {
+            create: false,
+            maxOptions: null,
+            selectOnTab: true,
+            placeholder: 'Busca tu municipio',
+            sortField: {
+              field: "text",
+              direction: "asc"
+            }
+          });
+        }
+      });
+    }
+
+    function loadData() {
+      const csvPath = `/data/${provincia}/evolucion-poblacion-${provincia}.csv`;
+
+      csv(csvPath).then(data => {
+        // Si tenemos un municipio específico, usamos ese
+        if (municipio) {
+          dataLineEvolution = data.filter(d => d.municipio === municipio);
+        } else {
+          // Si no, usamos el primer municipio (que debería ser el total de la provincia)
+          const [{ municipio: firstMunicipality }] = data;
+          dataLineEvolution = data.filter(d => d.municipio === firstMunicipality);
+        }
+
+        dataLineEvolution.forEach(d => {
+          d.year = +d.year;
+          d.population = +d.population;
+        });
+
+        setupElements();
+        setupScales();
+        updateChart();
+        menuSelectCity();
+      });
+    }
+
+    window.addEventListener('resize', resize);
+    loadData();
+  });
+</script>

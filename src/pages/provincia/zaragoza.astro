@@ -1,25 +1,30 @@
 ---
 import BaseLayout from '../../layouts/Layout.astro';
 import { municipios } from '../../data/municipios';
+import GraficaHistoricaPoblacion from '../../components/GraficaHistoricaPoblacion.astro';
+import GraficaSaldoVegetativo from '../../components/GraficaSaldoVegetativo.astro';
 
-const municipiosZaragoza = municipios.filter(m => m.provincia === 'zaragoza');
+const provincia = 'zaragoza';
+const municipiosZaragoza = municipios.filter(m => m.provincia === provincia);
 ---
 
 <BaseLayout title="Zaragoza - La casa caída">
   <h1>Zaragoza</h1>
 
   <section class="intro">
-    <!-- Introducción sobre la provincia -->
+    <p>Zaragoza es una provincia situada en la comunidad autónoma de Aragón, España. Con su capital del mismo nombre, es un importante centro económico y cultural de la región.</p>
   </section>
 
-  <section class="container-chart line-province-zaragoza">
+  <section class="container-chart">
     <h2>Evolución de la población - Zaragoza</h2>
-    <p><!-- ... --></p>
-    <div class="line-zaragoza">
-      <svg class="line-chart">
-        <g class="line-zaragoza-container"></g>
-      </svg>
-    </div>
+    <p>Esta gráfica muestra la evolución histórica de la población de la provincia de Zaragoza a lo largo del tiempo.</p>
+    <GraficaHistoricaPoblacion provincia={provincia} />
+  </section>
+
+  <section class="container-chart">
+    <h2>Saldo vegetativo - Zaragoza</h2>
+    <p>El saldo vegetativo representa la diferencia entre nacimientos y defunciones, mostrando el crecimiento natural de la población sin considerar los movimientos migratorios.</p>
+    <GraficaSaldoVegetativo provincia={provincia} />
   </section>
 
   <section>
@@ -36,10 +41,47 @@ const municipiosZaragoza = municipios.filter(m => m.provincia === 'zaragoza');
   </section>
 </BaseLayout>
 
-<script>
-import { lineHistoric } from '../../scripts/d3/lineHistoric';
+<style>
+  .container-chart {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
 
-document.addEventListener('DOMContentLoaded', () => {
-  lineHistoric('data/zaragoza/zaragoza-total.csv', 'zaragoza');
-});
-</script>
+  .municipios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .municipio-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+
+  .municipio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .municipio-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .municipio-card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: 500;
+  }
+
+  .municipio-card a:hover {
+    text-decoration: underline;
+  }
+</style>

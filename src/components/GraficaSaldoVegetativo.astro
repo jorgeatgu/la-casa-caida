@@ -1,24 +1,15 @@
 ---
-const { municipio, codigo, provincia } = Astro.props;
-const chartId = `grafica-vegetativo-${codigo}`;
+const { provincia, codigo } = Astro.props;
+const chartId = `grafica-vegetativo-${codigo || provincia}`;
 ---
 
 <div class="grafica-container">
   <div class="bar-negative" id={chartId}></div>
 </div>
 
-<script define:vars={{ municipio, codigo, provincia, chartId }} type="module">
-  import {
-    select,
-    scaleLinear,
-    scaleBand,
-    axisBottom,
-    axisLeft,
-    csv,
-    min,
-    max
-  } from '../utils/d3-utils';
+<script is:inline src="https://d3js.org/d3.v7.min.js"></script>
 
+<script define:vars={{ provincia, codigo, chartId }}>
   document.addEventListener('DOMContentLoaded', () => {
     const margin = { top: 24, right: 8, bottom: 24, left: 40 };
     const width = 800 - margin.left - margin.right;
@@ -42,9 +33,9 @@ const chartId = `grafica-vegetativo-${codigo}`;
     const csvPath = `/data/${provincia}/saldo-vegetativo-total-${provincia}.csv`;
 
     d3.csv(csvPath).then(data => {
-      const municipioData = data.filter(d => d.municipio === municipio || d.name === municipio);
-
-      municipioData.forEach(d => {
+      // Procesamos directamente los datos sin filtrar por municipio
+      // ya que los datos ya están a nivel de provincia
+      data.forEach(d => {
         d.year = +d.year;
         d.nacidos = +d.nacidos;
         d.fallecidos = +d.fallecidos;
@@ -53,14 +44,14 @@ const chartId = `grafica-vegetativo-${codigo}`;
 
       // Escalas
       const x = d3.scaleBand()
-        .domain(municipioData.map(d => d.year))
+        .domain(data.map(d => d.year))
         .range([0, width])
         .paddingInner(0.2);
 
       const y = d3.scaleLinear()
         .domain([
-          d3.min(municipioData, d => d.saldo) * 2,
-          d3.max(municipioData, d => d3.max(municipioData, d => d.saldo) < 300 ? d.saldo * 6 : d.saldo * 2.5)
+          d3.min(data, d => d.saldo) * 1.2, // Ajustamos factor de escala
+          d3.max(data, d => d.saldo) * 1.2
         ])
         .range([height, 0]);
 
@@ -69,16 +60,26 @@ const chartId = `grafica-vegetativo-${codigo}`;
         .attr("class", "axis axis-x")
         .attr("transform", `translate(0,${height})`)
         .call(d3.axisBottom(x).tickValues(
-          x.domain().filter((d, i) => !(i % 6))
+          x.domain().filter((d, i) => !(i % 5)) // Mostramos cada 5 años para mayor claridad
         ));
 
       svg.append("g")
         .attr("class", "axis axis-y")
         .call(d3.axisLeft(y).ticks(5).tickSize(-width).tickFormat(d => d));
 
+      // Línea del cero
+      svg.append("line")
+        .attr("class", "zero-line")
+        .attr("x1", 0)
+        .attr("y1", y(0))
+        .attr("x2", width)
+        .attr("y2", y(0))
+        .attr("stroke", "#888")
+        .attr("stroke-dasharray", "2,2");
+
       // Barras
       svg.selectAll(".bar-vertical")
-        .data(municipioData)
+        .data(data)
         .enter()
         .append("rect")
         .attr("class", d => (d.saldo < 0 ? "negative bar-vertical" : "positive bar-vertical"))
@@ -95,14 +96,71 @@ const chartId = `grafica-vegetativo-${codigo}`;
               <p class="tooltip-deceased">Fallecidos: <span class="tooltip-number">${d.fallecidos}</span></p>
               <p class="tooltip-deceased">Saldo: <span class="tooltip-number">${d.saldo}</span></p>
             `)
-            .style("left", (width / 2 - 100) + "px")
-            .style("top", "50px");
+            .style("left", (x(d.year) + x.bandwidth()/2 - 100) + "px")
+            .style("top", "30px");
         })
         .on("mouseout", function() {
           tooltip.transition()
             .duration(200)
             .style("opacity", 0);
         });
+    }).catch(error => {
+      console.error(`Error cargando datos de ${csvPath}:`, error);
     });
   });
 </script>
+
+<style>
+  .grafica-container {
+    position: relative;
+    margin: 2rem 0;
+    height: 450px;
+  }
+
+  .bar-negative {
+    width: 100%;
+    height: 100%;
+  }
+
+  .positive {
+    fill: #8BC34A;
+  }
+
+  .negative {
+    fill: #FF5252;
+  }
+
+  .tooltip {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    pointer-events: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .tooltip-year {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .tooltip-number {
+    font-weight: bold;
+  }
+
+  .axis line, .axis path {
+    stroke: #ccc;
+  }
+
+  .axis text {
+    font-size: 12px;
+    fill: #666;
+  }
+
+  .axis-y line {
+    stroke: #eee;
+    stroke-dasharray: 2,2;
+  }
+</style>
