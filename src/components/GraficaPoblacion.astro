@@ -8,18 +8,6 @@ const chartId = `grafica-poblacion-${codigo}`;
 </div>
 
 <script define:vars={{ municipio, codigo, provincia, chartId }} type="module">
-  import {
-    select,
-    scaleLinear,
-    scaleTime,
-    line,
-    axisBottom,
-    axisLeft,
-    csv,
-    extent,
-    max
-  } from '../utils/d3-utils';
-
   document.addEventListener('DOMContentLoaded', () => {
     // Configuración del gráfico
     const margin = { top: 20, right: 30, bottom: 40, left: 60 };
@@ -49,6 +37,9 @@ const chartId = `grafica-poblacion-${codigo}`;
         d.population = +d.population;
       });
 
+      // Ordenar por año para asegurar la correcta visualización
+      municipioData.sort((a, b) => a.year - b.year);
+
       // Crear escalas
       const x = d3.scaleTime()
         .domain(d3.extent(municipioData, d => d.year))
@@ -67,17 +58,45 @@ const chartId = `grafica-poblacion-${codigo}`;
       svg.append("g")
         .attr("class", "axis axis-x")
         .attr("transform", `translate(0,${height})`)
-        .call(d3.axisBottom(x).tickFormat(d => d));
+        .call(d3.axisBottom(x).tickFormat(d3.format('d')));
 
       svg.append("g")
         .attr("class", "axis axis-y")
-        .call(d3.axisLeft(y));
+        .call(d3.axisLeft(y).tickFormat(d3.format(',.0f')));
+
+      // Añadir título de ejes
+      svg.append("text")
+        .attr("class", "axis-label")
+        .attr("text-anchor", "middle")
+        .attr("transform", `translate(${width/2}, ${height + margin.bottom - 5})`)
+        .text("Año");
+
+      svg.append("text")
+        .attr("class", "axis-label")
+        .attr("text-anchor", "middle")
+        .attr("transform", `translate(${-margin.left/2 - 10}, ${height/2}) rotate(-90)`)
+        .text("Habitantes");
 
       // Dibujar línea
       svg.append("path")
         .datum(municipioData)
         .attr("class", "line")
+        .attr("fill", "none")
+        .attr("stroke", "#1a73e8")
+        .attr("stroke-width", 2)
         .attr("d", lineGenerator);
+
+      // Crear tooltip
+      const tooltip = d3.select('body')
+        .append('div')
+        .attr('class', 'tooltip')
+        .style('opacity', 0)
+        .style('position', 'absolute')
+        .style('background', '#fff')
+        .style('padding', '8px')
+        .style('border-radius', '4px')
+        .style('box-shadow', '0 2px 4px rgba(0,0,0,0.2)')
+        .style('pointer-events', 'none');
 
       // Añadir puntos
       svg.selectAll(".circles-population")
@@ -87,7 +106,62 @@ const chartId = `grafica-poblacion-${codigo}`;
         .attr("class", "circles-population")
         .attr("cx", d => x(d.year))
         .attr("cy", d => y(d.population))
-        .attr("r", 3);
+        .attr("r", 4)
+        .attr("fill", "#1a73e8")
+        .attr("stroke", "#fff")
+        .attr("stroke-width", 2)
+        .on('mouseover', function(event, d) {
+          d3.select(this)
+            .attr('r', 6)
+            .attr('stroke-width', 3);
+
+          tooltip
+            .style('opacity', 1)
+            .html(`
+              <strong>${d.year}</strong><br>
+              Población: ${d.population.toLocaleString()} habitantes
+            `)
+            .style('left', (event.pageX + 10) + 'px')
+            .style('top', (event.pageY - 28) + 'px');
+        })
+        .on('mouseout', function() {
+          d3.select(this)
+            .attr('r', 4)
+            .attr('stroke-width', 2);
+
+          tooltip.style('opacity', 0);
+        });
+
+    }).catch(error => {
+      console.error("Error al cargar los datos:", error);
+      container.html('<div class="error-message">No se pudieron cargar los datos. Por favor, inténtelo de nuevo más tarde.</div>');
     });
   });
 </script>
+
+<style>
+  .grafica-container {
+    margin: 2rem 0;
+    width: 100%;
+  }
+
+  .line {
+    fill: none;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+
+  .axis-label {
+    font-size: 0.85rem;
+    fill: #666;
+  }
+
+  .error-message {
+    color: #d32f2f;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid #ffcdd2;
+    background-color: #ffebee;
+    border-radius: 4px;
+  }
+</style>
