@@ -4,9 +4,29 @@ import { municipios } from '../../data/municipios';
 import GraficaHistoricaPoblacion from '../../components/GraficaHistoricaPoblacion.astro';
 import GraficaSaldoVegetativo from '../../components/GraficaSaldoVegetativo.astro';
 import MunicipiosSection from '../../components/MunicipiosSection.astro';
+import DatosDestacados from '../../components/DatosDestacados.astro';
+
 
 const provincia = 'huesca';
 const municipiosHuesca = municipios.filter(m => m.provincia === provincia);
+
+const datosHuesca = [
+  {
+    valor: "14.5%",
+    descripcion: "Disminución de población desde 1950",
+    color: "indigo"
+  },
+  {
+    valor: "22.8%",
+    descripcion: "Mayores de 65 años en 2023",
+    color: "amber"
+  },
+  {
+    valor: "13.2%",
+    descripcion: "Menores de 18 años en 2023",
+    color: "emerald"
+  }
+];
 ---
 
 <BaseLayout title="Huesca - La provincia del Pirineo">
@@ -15,29 +35,22 @@ const municipiosHuesca = municipios.filter(m => m.provincia === provincia);
       <div class="section-text">
         <h1 class="provincia-titulo">Huesca</h1>
         <p class="header-ronda">
-          <span class="header-ronda-text">Entre montañas y llanos, pueblos que resisten.</span>
-          <span class="header-ronda-text">Cumbres blancas y valles verdes, testigos de la historia.</span>
-          <span class="header-ronda-text">Memoria de gentes que no se rinden ante la despoblación,</span>
-          <span class="header-ronda-text">tradiciones que perduran en cada rincón.</span>
+          <span class="header-ronda-text">Hay una cruz en El Saso</span>
+          <span class="header-ronda-text">donde los mastines aúllan soledad,</span>
+          <span class="header-ronda-text">donde cada noche enciendo el fuego pa' cenar</span>
+          <span class="header-ronda-text">migas, uva y vino por los que se han ido.</span>
+          <span class="header-ronda-text">Yo maldigo la ciudad.</span>
+          <span class="header-ronda-text">"Padre, que el pueblo ya no es pa' vivir,</span>
+          <span class="header-ronda-text">venga con nosotros a Madrid..."</span>
+          <span class="header-ronda-text">Así me hablan mis hijos pero yo me quedo,</span>
+          <span class="header-ronda-text">y aquí he de morir.</span>
+          <a href="https://www.youtube.com/watch?v=i_r15tHZX_Y" class="header-ronda-text">Más birras - Hay una cruz en el Saso</a>
         </p>
 
         <section class="intro">
-          <p>Huesca es la provincia más septentrional de Aragón, marcada por el contraste entre la majestuosidad del Pirineo en el norte y las llanuras que se extienden hacia el sur. A pesar de contar con paisajes de indudable atractivo, la provincia no escapa al problema de la despoblación que afecta a gran parte de la España interior.</p>
+          <p class="text">La provincia de Huesca ha seguido un camino parecido a la de Teruel, pero al contrario de esta Huesca comenzo una ligera recuperación de población a partir del año 2000. Por desgracia la recuperación no es igual para todos los municipios, y 141 de estos tienen una densidad inferior a 10hab/km2.</p>
         </section>
-        <div class="datos-destacados">
-          <div class="dato">
-            <span class="dato-valor">14.5%</span>
-            <span class="dato-descripcion">Disminución de población desde 1950</span>
-          </div>
-          <div class="dato">
-            <span class="dato-valor">22.8%</span>
-            <span class="dato-descripcion">Mayores de 65 años en 2023</span>
-          </div>
-          <div class="dato">
-            <span class="dato-valor">13.2%</span>
-            <span class="dato-descripcion">Menores de 18 años en 2023</span>
-          </div>
-        </div>
+        <DatosDestacados datos={datosHuesca} />
       </div>
 
       <section class="container-chart">
@@ -58,7 +71,7 @@ const municipiosHuesca = municipios.filter(m => m.provincia === provincia);
         <GraficaSaldoVegetativo provincia={provincia} />
       </section>
 
-      <MunicipiosSection municipios={municipiosHuesca} />
+      <MunicipiosSection municipios={municipiosHuesca} provincia={provincia} />
 
     </section>
   </section>

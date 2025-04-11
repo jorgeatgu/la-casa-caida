@@ -4,9 +4,28 @@ import { municipios } from '../../data/municipios';
 import GraficaHistoricaPoblacion from '../../components/GraficaHistoricaPoblacion.astro';
 import GraficaSaldoVegetativo from '../../components/GraficaSaldoVegetativo.astro';
 import MunicipiosSection from '../../components/MunicipiosSection.astro';
+import DatosDestacados from '../../components/DatosDestacados.astro';
 
 const provincia = 'zaragoza';
 const municipiosZaragoza = municipios.filter(m => m.provincia === provincia);
+
+const datosZaragoza = [
+  {
+    valor: "72.10%",
+    descripcion: "Población en la capital",
+    color: "indigo"
+  },
+  {
+    valor: "21.40%",
+    descripcion: "Mayores de 65 años en 2023",
+    color: "amber"
+  },
+  {
+    valor: "16.70%",
+    descripcion: "Menores de 18 años en 2023",
+    color: "emerald"
+  }
+];
 ---
 
 <BaseLayout title="Zaragoza - El contraste">
@@ -15,14 +34,20 @@ const municipiosZaragoza = municipios.filter(m => m.provincia === provincia);
       <div class="section-text">
         <h1 class="provincia-titulo">Zaragoza</h1>
         <p class="header-ronda">
-          <span class="header-ronda-text">Ciudad que crece, mientras se vacía el campo.</span>
-          <span class="header-ronda-text">Agua que divide, tierra que une.</span>
-          <span class="header-ronda-text">El Ebro, columna vertebral de un territorio de contrastes,</span>
-          <span class="header-ronda-text">donde la capital concentra vidas y oportunidades.</span>
+          <span class="header-ronda-text">Siempre te recuerdo "Vieja"</span>
+          <span class="header-ronda-text">Sentada junto al portal</span>
+          <span class="header-ronda-text">Acariciando la lumbre</span>
+          <span class="header-ronda-text">La cadiera y el pozal</span>
+          <span class="header-ronda-text">La tristeza de tus ojos de tanto mirar</span>
+          <span class="header-ronda-text">Hijos que van hacia Francia</span>
+          <span class="header-ronda-text">Y otros hacia la ciudad</span>
+          <span class="header-ronda-text">El Miguel dice que va bueno</span>
+          <span class="header-ronda-text">Y parió la del Julian</span>
+          <a href="https://www.youtube.com/watch?v=jtEKnb4B2_M" class="header-ronda-text">Labordeta - La Vieja</a>
         </p>
 
         <section class="intro">
-          <p>La provincia de Zaragoza representa como pocas el contraste entre la España urbana y la rural. Mientras la capital concentra más del 70% de la población provincial y continúa creciendo, la mayoría de los municipios rurales se enfrentan a un declive demográfico constante.</p>
+          <p class="text">Zaragoza al contrario que sus hermanas ha doblado la población en menos de un siglo. Su privilegiada situación en el valle del Ebro y con menos de 300KM de distancia de Madrid, Barcelona, Valencia y Bilbao ha hecho que algunos municipios de la provincia y sobre todo la propia capital aumenten su población. Es la única de las tres pronvicias que entre 2006 y 2011 tuvo un saldo vegetativo positivo. En 2017 el número de fallecidos fue el más alto de la serie(1996-2017), y el de nacidos fue el más bajo desde 2003.</p>
         </section>
         <div class="datos-destacados">
           <div class="dato">
@@ -58,8 +83,7 @@ const municipiosZaragoza = municipios.filter(m => m.provincia === provincia);
         <GraficaSaldoVegetativo provincia={provincia} />
       </section>
 
-      <MunicipiosSection municipios={municipiosZaragoza} />
-
+      <MunicipiosSection municipios={municipiosZaragoza} provincia={provincia} />
     </section>
   </section>
 </BaseLayout>

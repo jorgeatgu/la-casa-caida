@@ -4,9 +4,28 @@ import { municipios } from '../../data/municipios';
 import GraficaHistoricaPoblacion from '../../components/GraficaHistoricaPoblacion.astro';
 import GraficaSaldoVegetativo from '../../components/GraficaSaldoVegetativo.astro';
 import MunicipiosSection from '../../components/MunicipiosSection.astro';
+import DatosDestacados from '../../components/DatosDestacados.astro';
 
 const provincia = 'teruel';
 const municipiosTeruel = municipios.filter(m => m.provincia === provincia);
+
+const datosTeruel = [
+  {
+    valor: "24.51%",
+    descripcion: "Disminución de población desde 1900",
+    color: "indigo"
+  },
+  {
+    valor: "20.20%",
+    descripcion: "Mayores de 65 años en 2023",
+    color: "amber"
+  },
+  {
+    valor: "15.60%",
+    descripcion: "Menores de 18 años en 2023",
+    color: "emerald"
+  }
+];
 ---
 
 <BaseLayout title="Teruel - La casa caída">
@@ -64,8 +83,7 @@ const municipiosTeruel = municipios.filter(m => m.provincia === provincia);
         <GraficaSaldoVegetativo provincia={provincia} />
       </section>
 
-      <MunicipiosSection municipios={municipiosTeruel} />
-
+      <MunicipiosSection municipios={municipiosTeruel} provincia={provincia} />
     </section>
   </section>
 </BaseLayout>

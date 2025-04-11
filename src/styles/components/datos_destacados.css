@@ -1,0 +1,119 @@
+.datos-alternativo {
+  margin: 2.5rem 0;
+}
+
+.datos-alternativo-titulo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+}
+
+.datos-alternativo-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .datos-alternativo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.dato-alternativo-tarjeta {
+  position: relative;
+  overflow: hidden;
+  border-radius: .75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+  border-bottom: 4px solid #ccc;
+  transition: all .3s ease;
+}
+
+.dato-alternativo-tarjeta:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .15);
+  transform: scale(1.05);
+}
+
+.dato-alternativo-contenido {
+  padding: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.dato-alternativo-decoracion {
+  position: absolute;
+  top: -1.5rem;
+  right: -1.5rem;
+  font-size: 6rem;
+  font-weight: 800;
+  transform: rotate(12deg);
+  opacity: .1;
+  z-index: 0;
+}
+
+.dato-alternativo-valor {
+  font-size: 2.25rem;
+  font-weight: 800;
+  display: block;
+}
+
+.dato-alternativo-descripcion {
+  display: block;
+  color: #334155;
+  margin-top: .75rem;
+}
+
+.color-indigo.dato-alternativo-tarjeta {
+  background-color: #eef2ff;
+  border-bottom-color: #4f46e5;
+}
+
+.color-indigo .dato-alternativo-valor {
+  color: #4338ca;
+}
+
+.color-amber.dato-alternativo-tarjeta {
+  background-color: #fffbeb;
+  border-bottom-color: #d97706;
+}
+
+.color-amber .dato-alternativo-valor {
+  color: #b45309;
+}
+
+.color-emerald.dato-alternativo-tarjeta {
+  background-color: #ecfdf5;
+  border-bottom-color: #059669;
+}
+
+.color-emerald .dato-alternativo-valor {
+  color: #047857;
+}
+
+.color-blue.dato-alternativo-tarjeta {
+  background-color: #eff6ff;
+  border-bottom-color: #2563eb;
+}
+
+.color-blue .dato-alternativo-valor {
+  color: #1d4ed8;
+}
+
+.color-orange.dato-alternativo-tarjeta {
+  background-color: #fff7ed;
+  border-bottom-color: #ea580c;
+}
+
+.color-orange .dato-alternativo-valor {
+  color: #c2410c;
+}
+
+.color-rose.dato-alternativo-tarjeta {
+  background-color: #fff1f2;
+  border-bottom-color: #e11d48;
+}
+
+.color-rose .dato-alternativo-valor {
+  color: #be123c;
+}
