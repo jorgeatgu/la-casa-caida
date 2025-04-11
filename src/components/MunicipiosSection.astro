@@ -1,0 +1,252 @@
+---
+// MunicipiosSection.astro - Componente Astro para la sección de municipios con filtro
+const { municipios } = Astro.props;
+---
+
+<section class="municipios-section">
+  <h2>Municipios de Teruel</h2>
+
+  <div class="filtro-container">
+    <input
+      type="text"
+      id="filtroMunicipios"
+      placeholder="Buscar municipios..."
+      class="filtro-input"
+    />
+    <button
+      type="button"
+      id="limpiarFiltro"
+      class="limpiar-filtro"
+      aria-label="Limpiar búsqueda"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="limpiar-icono">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+
+  <div class="contador-resultados">
+    Mostrando {municipios.length} municipios
+  </div>
+
+  <div class="municipios-grid" id="municipiosGrid">
+    {municipios.map((municipio) => (
+      <a
+        href={`/municipio/${municipio.slug}`}
+        class="municipio-card-link"
+      >
+        <div class="municipio-card">
+          <h3>{municipio.nombre}</h3>
+          <p>Población: {municipio.poblacionActual} habitantes</p>
+          <span class="ver-mas">Ver detalles →</span>
+        </div>
+      </a>
+    ))}
+  </div>
+</section>
+
+<script>
+  // Script del lado del cliente para la funcionalidad de filtrado
+  document.addEventListener('DOMContentLoaded', () => {
+    const filtroInput = document.getElementById('filtroMunicipios');
+    const limpiarFiltroBtn = document.getElementById('limpiarFiltro');
+    const municipiosGrid = document.getElementById('municipiosGrid');
+    const contadorResultados = document.querySelector('.contador-resultados');
+
+    if (!filtroInput || !municipiosGrid || !limpiarFiltroBtn) return;
+
+    // Ocultar inicialmente el botón de limpiar
+    limpiarFiltroBtn.style.display = 'none';
+
+    // Función de filtrado
+    function filtrarMunicipios() {
+      const textoBusqueda = filtroInput.value.toLowerCase().trim();
+      const tarjetas = municipiosGrid.querySelectorAll('.municipio-card-link');
+      let resultadosEncontrados = 0;
+
+      // Mostrar/ocultar el botón de limpiar según si hay texto
+      limpiarFiltroBtn.style.display = textoBusqueda.length > 0 ? 'flex' : 'none';
+
+      tarjetas.forEach(tarjeta => {
+        const nombreMunicipio = tarjeta.querySelector('h3').textContent.toLowerCase();
+
+        if (nombreMunicipio.includes(textoBusqueda)) {
+          tarjeta.style.display = 'block';
+          resultadosEncontrados++;
+
+          // Animación para resaltar coincidencias
+          if (textoBusqueda.length > 0) {
+            tarjeta.style.animationName = 'pulseHighlight';
+            tarjeta.style.animationDuration = '1s';
+            setTimeout(() => {
+              tarjeta.style.animationName = '';
+            }, 1000);
+          }
+        } else {
+          tarjeta.style.display = 'none';
+        }
+      });
+
+      // Actualizar contador
+      const total = tarjetas.length;
+      contadorResultados.textContent = resultadosEncontrados === total
+        ? `Mostrando todos los municipios (${total})`
+        : `Mostrando ${resultadosEncontrados} de ${total} municipios`;
+
+      // Mensaje cuando no hay resultados
+      const noResultadosMsg = document.getElementById('noResultadosMsg');
+
+      if (resultadosEncontrados === 0 && textoBusqueda.length > 0) {
+        if (!noResultadosMsg) {
+          const mensaje = document.createElement('div');
+          mensaje.id = 'noResultadosMsg';
+          mensaje.className = 'no-resultados';
+          mensaje.textContent = `No se encontraron municipios que coincidan con "${textoBusqueda}"`;
+          municipiosGrid.insertAdjacentElement('afterend', mensaje);
+        }
+      } else if (noResultadosMsg) {
+        noResultadosMsg.remove();
+      }
+    }
+
+    // Evento de input para filtrar mientras se escribe
+    filtroInput.addEventListener('input', filtrarMunicipios);
+
+    // Funcionalidad de limpiar el input
+    limpiarFiltroBtn.addEventListener('click', () => {
+      filtroInput.value = '';
+      filtroInput.focus();
+      filtrarMunicipios(); // Volver a mostrar todos los municipios
+
+      // Efecto de rebote para las tarjetas cuando se limpia
+      municipiosGrid.querySelectorAll('.municipio-card-link').forEach((card, index) => {
+        setTimeout(() => {
+          card.classList.add('bounce');
+          setTimeout(() => card.classList.remove('bounce'), 500);
+        }, index * 30);
+      });
+    });
+
+    // También limpiar cuando se presiona Escape mientras el input tiene foco
+    filtroInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        filtroInput.value = '';
+        limpiarFiltroBtn.style.display = 'none';
+        filtrarMunicipios();
+        filtroInput.blur(); // Quitar el foco del input
+      }
+    });
+
+    // Animación de entrada para las tarjetas
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1
+    };
+
+    const observerCallback = (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animated');
+          observer.unobserve(entry.target);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+    // Observar todas las tarjetas para animar su entrada
+    document.querySelectorAll('.municipio-card-link').forEach((card, index) => {
+      card.style.opacity = '0';
+      card.style.transform = 'translateY(20px)';
+      card.style.transition = `opacity 0.5s ease, transform 0.5s ease ${index * 0.05}s`;
+      observer.observe(card);
+    });
+
+    // Clase para aplicar la animación
+    document.addEventListener('scroll', () => {
+      document.querySelectorAll('.municipio-card-link').forEach((card) => {
+        const rect = card.getBoundingClientRect();
+        if (rect.top <= window.innerHeight * 0.8 && rect.bottom >= 0) {
+          card.style.opacity = '1';
+          card.style.transform = 'translateY(0)';
+        }
+      });
+    });
+
+    // Disparar evento de scroll para animar elementos visibles inicialmente
+    window.dispatchEvent(new Event('scroll'));
+  });
+</script>
+
+<style>
+  /* Estilos básicos - Lo demás se carga desde archivos externos */
+  .municipios-section {
+    margin-top: 3rem;
+    padding: 2rem 0;
+  }
+
+  /* Estilos para el contenedor del input y botón limpiar */
+  .filtro-container {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .filtro-input {
+    width: 100%;
+    padding: 1rem 3rem 1rem 1.5rem;
+    border-radius: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  .filtro-input:focus {
+    outline: none;
+    border-color: #0a3d62;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  }
+
+  .limpiar-filtro {
+    position: absolute;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 0;
+    color: #555;
+  }
+
+  .limpiar-filtro:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+  }
+
+  .limpiar-icono {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* Animación de rebote para las tarjetas */
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .bounce {
+    animation: bounce 0.5s ease;
+  }
+</style>

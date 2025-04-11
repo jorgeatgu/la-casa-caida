@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/Layout.astro';
 import { municipios } from '../../data/municipios';
 import GraficaHistoricaPoblacion from '../../components/GraficaHistoricaPoblacion.astro';
 import GraficaSaldoVegetativo from '../../components/GraficaSaldoVegetativo.astro';
+import MunicipiosSection from '../../components/MunicipiosSection.astro';
 
 const provincia = 'teruel';
 const municipiosTeruel = municipios.filter(m => m.provincia === provincia);
@@ -63,18 +64,8 @@ const municipiosTeruel = municipios.filter(m => m.provincia === provincia);
         <GraficaSaldoVegetativo provincia={provincia} />
       </section>
 
-      <section class="municipios-section">
-        <h2>Municipios de Teruel</h2>
-        <div class="municipios-grid">
-          {municipiosTeruel.map(municipio => (
-            <div class="municipio-card">
-              <h3>{municipio.nombre}</h3>
-              <p>Población: {municipio.poblacionActual} habitantes</p>
-              <a href={`/municipio/${municipio.slug}`}>Ver detalles</a>
-            </div>
-          ))}
-        </div>
-      </section>
+      <MunicipiosSection municipios={municipiosTeruel} />
+
     </section>
   </section>
 </BaseLayout>
