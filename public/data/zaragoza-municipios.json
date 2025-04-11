@@ -3,1758 +3,2051 @@
     "nombre": "Abanto",
     "provincia": "zaragoza",
     "slug": "abanto",
-    "codigoINE": "50001"
+    "codigoINE": "50001",
+    "poblacionActual": 80
   },
   {
     "nombre": "Acered",
     "provincia": "zaragoza",
     "slug": "acered",
-    "codigoINE": "50002"
+    "codigoINE": "50002",
+    "poblacionActual": 141
   },
   {
     "nombre": "Agón",
     "provincia": "zaragoza",
     "slug": "agon",
-    "codigoINE": "50003"
+    "codigoINE": "50003",
+    "poblacionActual": 133
   },
   {
     "nombre": "Aguarón",
     "provincia": "zaragoza",
     "slug": "aguaron",
-    "codigoINE": "50004"
+    "codigoINE": "50004",
+    "poblacionActual": 599
   },
   {
     "nombre": "Aguilón",
     "provincia": "zaragoza",
     "slug": "aguilon",
-    "codigoINE": "50005"
+    "codigoINE": "50005",
+    "poblacionActual": 273
   },
   {
     "nombre": "Ainzón",
     "provincia": "zaragoza",
     "slug": "ainzon",
-    "codigoINE": "50006"
+    "codigoINE": "50006",
+    "poblacionActual": 1043
   },
   {
     "nombre": "Aladrén",
     "provincia": "zaragoza",
     "slug": "aladren",
-    "codigoINE": "50007"
+    "codigoINE": "50007",
+    "poblacionActual": 62
   },
   {
     "nombre": "Alagón",
     "provincia": "zaragoza",
     "slug": "alagon",
-    "codigoINE": "50008"
+    "codigoINE": "50008",
+    "poblacionActual": 7450
   },
   {
     "nombre": "Alarba",
     "provincia": "zaragoza",
     "slug": "alarba",
-    "codigoINE": "50009"
+    "codigoINE": "50009",
+    "poblacionActual": 93
   },
   {
     "nombre": "Alberite de San Juan",
     "provincia": "zaragoza",
     "slug": "alberite-de-san-juan",
-    "codigoINE": "50010"
+    "codigoINE": "50010",
+    "poblacionActual": 84
   },
   {
     "nombre": "Albeta",
     "provincia": "zaragoza",
     "slug": "albeta",
-    "codigoINE": "50011"
+    "codigoINE": "50011",
+    "poblacionActual": 141
   },
   {
     "nombre": "Alborge",
     "provincia": "zaragoza",
     "slug": "alborge",
-    "codigoINE": "50012"
+    "codigoINE": "50012",
+    "poblacionActual": 102
   },
   {
     "nombre": "Alcalá de Ebro",
     "provincia": "zaragoza",
     "slug": "alcala-de-ebro",
-    "codigoINE": "50013"
+    "codigoINE": "50013",
+    "poblacionActual": 243
   },
   {
     "nombre": "Alcalá de Moncayo",
     "provincia": "zaragoza",
     "slug": "alcala-de-moncayo",
-    "codigoINE": "50014"
+    "codigoINE": "50014",
+    "poblacionActual": 153
   },
   {
     "nombre": "Alconchel de Ariza",
     "provincia": "zaragoza",
     "slug": "alconchel-de-ariza",
-    "codigoINE": "50015"
+    "codigoINE": "50015",
+    "poblacionActual": 78
   },
   {
     "nombre": "Aldehuela de Liestos",
     "provincia": "zaragoza",
     "slug": "aldehuela-de-liestos",
-    "codigoINE": "50016"
+    "codigoINE": "50016",
+    "poblacionActual": 49
   },
   {
     "nombre": "Alfajarín",
     "provincia": "zaragoza",
     "slug": "alfajarin",
-    "codigoINE": "50017"
+    "codigoINE": "50017",
+    "poblacionActual": 2415
   },
   {
     "nombre": "Alfamén",
     "provincia": "zaragoza",
     "slug": "alfamen",
-    "codigoINE": "50018"
+    "codigoINE": "50018",
+    "poblacionActual": 1494
   },
   {
     "nombre": "Alforque",
     "provincia": "zaragoza",
     "slug": "alforque",
-    "codigoINE": "50019"
+    "codigoINE": "50019",
+    "poblacionActual": 61
   },
   {
     "nombre": "Alhama de Aragón",
     "provincia": "zaragoza",
     "slug": "alhama-de-aragon",
-    "codigoINE": "50020"
+    "codigoINE": "50020",
+    "poblacionActual": 925
   },
   {
     "nombre": "Almochuel",
     "provincia": "zaragoza",
     "slug": "almochuel",
-    "codigoINE": "50021"
+    "codigoINE": "50021",
+    "poblacionActual": 22
+  },
+  {
+    "nombre": "Almolda La",
+    "provincia": "zaragoza",
+    "slug": "almolda-la",
+    "codigoINE": "50022",
+    "poblacionActual": 543
   },
   {
     "nombre": "Almonacid de la Cuba",
     "provincia": "zaragoza",
     "slug": "almonacid-de-la-cuba",
-    "codigoINE": "50023"
+    "codigoINE": "50023",
+    "poblacionActual": 233
   },
   {
     "nombre": "Almonacid de la Sierra",
     "provincia": "zaragoza",
     "slug": "almonacid-de-la-sierra",
-    "codigoINE": "50024"
+    "codigoINE": "50024",
+    "poblacionActual": 759
+  },
+  {
+    "nombre": "Almunia de Doña Godina La",
+    "provincia": "zaragoza",
+    "slug": "almunia-de-dona-godina-la",
+    "codigoINE": "50025",
+    "poblacionActual": 7937
   },
   {
     "nombre": "Alpartir",
     "provincia": "zaragoza",
     "slug": "alpartir",
-    "codigoINE": "50026"
+    "codigoINE": "50026",
+    "poblacionActual": 589
   },
   {
     "nombre": "Ambel",
     "provincia": "zaragoza",
     "slug": "ambel",
-    "codigoINE": "50027"
+    "codigoINE": "50027",
+    "poblacionActual": 254
   },
   {
     "nombre": "Anento",
     "provincia": "zaragoza",
     "slug": "anento",
-    "codigoINE": "50028"
+    "codigoINE": "50028",
+    "poblacionActual": 112
   },
   {
     "nombre": "Aniñón",
     "provincia": "zaragoza",
     "slug": "aninon",
-    "codigoINE": "50029"
+    "codigoINE": "50029",
+    "poblacionActual": 683
   },
   {
     "nombre": "Añón de Moncayo",
     "provincia": "zaragoza",
     "slug": "anon-de-moncayo",
-    "codigoINE": "50030"
+    "codigoINE": "50030",
+    "poblacionActual": 216
   },
   {
     "nombre": "Aranda de Moncayo",
     "provincia": "zaragoza",
     "slug": "aranda-de-moncayo",
-    "codigoINE": "50031"
+    "codigoINE": "50031",
+    "poblacionActual": 117
   },
   {
     "nombre": "Arándiga",
     "provincia": "zaragoza",
     "slug": "arandiga",
-    "codigoINE": "50032"
+    "codigoINE": "50032",
+    "poblacionActual": 264
   },
   {
     "nombre": "Ardisa",
     "provincia": "zaragoza",
     "slug": "ardisa",
-    "codigoINE": "50033"
+    "codigoINE": "50033",
+    "poblacionActual": 76
   },
   {
     "nombre": "Ariza",
     "provincia": "zaragoza",
     "slug": "ariza",
-    "codigoINE": "50034"
+    "codigoINE": "50034",
+    "poblacionActual": 1082
   },
   {
     "nombre": "Artieda",
     "provincia": "zaragoza",
     "slug": "artieda",
-    "codigoINE": "50035"
+    "codigoINE": "50035",
+    "poblacionActual": 86
   },
   {
     "nombre": "Asín",
     "provincia": "zaragoza",
     "slug": "asin",
-    "codigoINE": "50036"
+    "codigoINE": "50036",
+    "poblacionActual": 89
   },
   {
     "nombre": "Atea",
     "provincia": "zaragoza",
     "slug": "atea",
-    "codigoINE": "50037"
+    "codigoINE": "50037",
+    "poblacionActual": 136
   },
   {
     "nombre": "Ateca",
     "provincia": "zaragoza",
     "slug": "ateca",
-    "codigoINE": "50038"
+    "codigoINE": "50038",
+    "poblacionActual": 1732
   },
   {
     "nombre": "Azuara",
     "provincia": "zaragoza",
     "slug": "azuara",
-    "codigoINE": "50039"
+    "codigoINE": "50039",
+    "poblacionActual": 537
   },
   {
     "nombre": "Badules",
     "provincia": "zaragoza",
     "slug": "badules",
-    "codigoINE": "50040"
+    "codigoINE": "50040",
+    "poblacionActual": 81
   },
   {
     "nombre": "Bagüés",
     "provincia": "zaragoza",
     "slug": "bagues",
-    "codigoINE": "50041"
+    "codigoINE": "50041",
+    "poblacionActual": 17
   },
   {
     "nombre": "Balconchán",
     "provincia": "zaragoza",
     "slug": "balconchan",
-    "codigoINE": "50042"
+    "codigoINE": "50042",
+    "poblacionActual": 19
   },
   {
     "nombre": "Bárboles",
     "provincia": "zaragoza",
     "slug": "barboles",
-    "codigoINE": "50043"
+    "codigoINE": "50043",
+    "poblacionActual": 286
   },
   {
     "nombre": "Bardallur",
     "provincia": "zaragoza",
     "slug": "bardallur",
-    "codigoINE": "50044"
+    "codigoINE": "50044",
+    "poblacionActual": 228
   },
   {
     "nombre": "Belchite",
     "provincia": "zaragoza",
     "slug": "belchite",
-    "codigoINE": "50045"
+    "codigoINE": "50045",
+    "poblacionActual": 1509
   },
   {
     "nombre": "Belmonte de Gracián",
     "provincia": "zaragoza",
     "slug": "belmonte-de-gracian",
-    "codigoINE": "50046"
+    "codigoINE": "50046",
+    "poblacionActual": 181
   },
   {
     "nombre": "Berdejo",
     "provincia": "zaragoza",
     "slug": "berdejo",
-    "codigoINE": "50047"
+    "codigoINE": "50047",
+    "poblacionActual": 38
   },
   {
     "nombre": "Berrueco",
     "provincia": "zaragoza",
     "slug": "berrueco",
-    "codigoINE": "50048"
+    "codigoINE": "50048",
+    "poblacionActual": 33
   },
   {
     "nombre": "Biel",
     "provincia": "zaragoza",
     "slug": "biel",
-    "codigoINE": "50901"
+    "codigoINE": "50901",
+    "poblacionActual": 170
   },
   {
     "nombre": "Bijuesca",
     "provincia": "zaragoza",
     "slug": "bijuesca",
-    "codigoINE": "50050"
+    "codigoINE": "50050",
+    "poblacionActual": 93
   },
   {
     "nombre": "Biota",
     "provincia": "zaragoza",
     "slug": "biota",
-    "codigoINE": "50051"
+    "codigoINE": "50051",
+    "poblacionActual": 840
   },
   {
     "nombre": "Bisimbre",
     "provincia": "zaragoza",
     "slug": "bisimbre",
-    "codigoINE": "50052"
+    "codigoINE": "50052",
+    "poblacionActual": 91
   },
   {
     "nombre": "Boquiñeni",
     "provincia": "zaragoza",
     "slug": "boquineni",
-    "codigoINE": "50053"
+    "codigoINE": "50053",
+    "poblacionActual": 751
   },
   {
     "nombre": "Bordalba",
     "provincia": "zaragoza",
     "slug": "bordalba",
-    "codigoINE": "50054"
+    "codigoINE": "50054",
+    "poblacionActual": 47
   },
   {
     "nombre": "Borja",
     "provincia": "zaragoza",
     "slug": "borja",
-    "codigoINE": "50055"
+    "codigoINE": "50055",
+    "poblacionActual": 5191
   },
   {
     "nombre": "Botorrita",
     "provincia": "zaragoza",
     "slug": "botorrita",
-    "codigoINE": "50056"
+    "codigoINE": "50056",
+    "poblacionActual": 579
   },
   {
     "nombre": "Brea de Aragón",
     "provincia": "zaragoza",
     "slug": "brea-de-aragon",
-    "codigoINE": "50057"
+    "codigoINE": "50057",
+    "poblacionActual": 1506
   },
   {
     "nombre": "Bubierca",
     "provincia": "zaragoza",
     "slug": "bubierca",
-    "codigoINE": "50058"
+    "codigoINE": "50058",
+    "poblacionActual": 57
   },
   {
     "nombre": "Bujaraloz",
     "provincia": "zaragoza",
     "slug": "bujaraloz",
-    "codigoINE": "50059"
+    "codigoINE": "50059",
+    "poblacionActual": 953
   },
   {
     "nombre": "Bulbuente",
     "provincia": "zaragoza",
     "slug": "bulbuente",
-    "codigoINE": "50060"
+    "codigoINE": "50060",
+    "poblacionActual": 240
   },
   {
     "nombre": "Bureta",
     "provincia": "zaragoza",
     "slug": "bureta",
-    "codigoINE": "50061"
+    "codigoINE": "50061",
+    "poblacionActual": 208
   },
   {
     "nombre": "Cabañas de Ebro",
     "provincia": "zaragoza",
     "slug": "cabanas-de-ebro",
-    "codigoINE": "50064"
+    "codigoINE": "50064",
+    "poblacionActual": 481
   },
   {
     "nombre": "Cabolafuente",
     "provincia": "zaragoza",
     "slug": "cabolafuente",
-    "codigoINE": "50065"
+    "codigoINE": "50065",
+    "poblacionActual": 50
   },
   {
     "nombre": "Cadrete",
     "provincia": "zaragoza",
     "slug": "cadrete",
-    "codigoINE": "50066"
+    "codigoINE": "50066",
+    "poblacionActual": 4639
   },
   {
     "nombre": "Calatayud",
     "provincia": "zaragoza",
     "slug": "calatayud",
-    "codigoINE": "50067"
+    "codigoINE": "50067",
+    "poblacionActual": 19850
   },
   {
     "nombre": "Calatorao",
     "provincia": "zaragoza",
     "slug": "calatorao",
-    "codigoINE": "50068"
+    "codigoINE": "50068",
+    "poblacionActual": 2906
   },
   {
     "nombre": "Calcena",
     "provincia": "zaragoza",
     "slug": "calcena",
-    "codigoINE": "50069"
+    "codigoINE": "50069",
+    "poblacionActual": 72
   },
   {
     "nombre": "Calmarza",
     "provincia": "zaragoza",
     "slug": "calmarza",
-    "codigoINE": "50070"
+    "codigoINE": "50070",
+    "poblacionActual": 58
   },
   {
     "nombre": "Campillo de Aragón",
     "provincia": "zaragoza",
     "slug": "campillo-de-aragon",
-    "codigoINE": "50071"
+    "codigoINE": "50071",
+    "poblacionActual": 112
   },
   {
     "nombre": "Carenas",
     "provincia": "zaragoza",
     "slug": "carenas",
-    "codigoINE": "50072"
+    "codigoINE": "50072",
+    "poblacionActual": 167
   },
   {
     "nombre": "Cariñena",
     "provincia": "zaragoza",
     "slug": "carinena",
-    "codigoINE": "50073"
+    "codigoINE": "50073",
+    "poblacionActual": 3456
   },
   {
     "nombre": "Caspe",
     "provincia": "zaragoza",
     "slug": "caspe",
-    "codigoINE": "50074"
+    "codigoINE": "50074",
+    "poblacionActual": 10432
   },
   {
     "nombre": "Castejón de Alarba",
     "provincia": "zaragoza",
     "slug": "castejon-de-alarba",
-    "codigoINE": "50075"
+    "codigoINE": "50075",
+    "poblacionActual": 79
   },
   {
     "nombre": "Castejón de las Armas",
     "provincia": "zaragoza",
     "slug": "castejon-de-las-armas",
-    "codigoINE": "50076"
+    "codigoINE": "50076",
+    "poblacionActual": 88
   },
   {
     "nombre": "Castejón de Valdejasa",
     "provincia": "zaragoza",
     "slug": "castejon-de-valdejasa",
-    "codigoINE": "50077"
+    "codigoINE": "50077",
+    "poblacionActual": 198
   },
   {
     "nombre": "Castiliscar",
     "provincia": "zaragoza",
     "slug": "castiliscar",
-    "codigoINE": "50078"
+    "codigoINE": "50078",
+    "poblacionActual": 214
   },
   {
     "nombre": "Cervera de la Cañada",
     "provincia": "zaragoza",
     "slug": "cervera-de-la-canada",
-    "codigoINE": "50079"
+    "codigoINE": "50079",
+    "poblacionActual": 259
   },
   {
     "nombre": "Cerveruela",
     "provincia": "zaragoza",
     "slug": "cerveruela",
-    "codigoINE": "50080"
+    "codigoINE": "50080",
+    "poblacionActual": 37
   },
   {
     "nombre": "Cetina",
     "provincia": "zaragoza",
     "slug": "cetina",
-    "codigoINE": "50081"
+    "codigoINE": "50081",
+    "poblacionActual": 552
   },
   {
     "nombre": "Chiprana",
     "provincia": "zaragoza",
     "slug": "chiprana",
-    "codigoINE": "50092"
+    "codigoINE": "50092",
+    "poblacionActual": 500
   },
   {
     "nombre": "Chodes",
     "provincia": "zaragoza",
     "slug": "chodes",
-    "codigoINE": "50093"
+    "codigoINE": "50093",
+    "poblacionActual": 102
   },
   {
     "nombre": "Cimballa",
     "provincia": "zaragoza",
     "slug": "cimballa",
-    "codigoINE": "50082"
+    "codigoINE": "50082",
+    "poblacionActual": 80
   },
   {
     "nombre": "Cinco Olivas",
     "provincia": "zaragoza",
     "slug": "cinco-olivas",
-    "codigoINE": "50083"
+    "codigoINE": "50083",
+    "poblacionActual": 102
   },
   {
     "nombre": "Clarés de Ribota",
     "provincia": "zaragoza",
     "slug": "clares-de-ribota",
-    "codigoINE": "50084"
+    "codigoINE": "50084",
+    "poblacionActual": 70
   },
   {
     "nombre": "Codo",
     "provincia": "zaragoza",
     "slug": "codo",
-    "codigoINE": "50085"
+    "codigoINE": "50085",
+    "poblacionActual": 201
   },
   {
     "nombre": "Codos",
     "provincia": "zaragoza",
     "slug": "codos",
-    "codigoINE": "50086"
+    "codigoINE": "50086",
+    "poblacionActual": 217
   },
   {
     "nombre": "Contamina",
     "provincia": "zaragoza",
     "slug": "contamina",
-    "codigoINE": "50087"
+    "codigoINE": "50087",
+    "poblacionActual": 33
   },
   {
     "nombre": "Cosuenda",
     "provincia": "zaragoza",
     "slug": "cosuenda",
-    "codigoINE": "50088"
+    "codigoINE": "50088",
+    "poblacionActual": 329
   },
   {
     "nombre": "Cuarte de Huerva",
     "provincia": "zaragoza",
     "slug": "cuarte-de-huerva",
-    "codigoINE": "50089"
+    "codigoINE": "50089",
+    "poblacionActual": 15112
   },
   {
     "nombre": "Cubel",
     "provincia": "zaragoza",
     "slug": "cubel",
-    "codigoINE": "50090"
+    "codigoINE": "50090",
+    "poblacionActual": 143
   },
   {
     "nombre": "Daroca",
     "provincia": "zaragoza",
     "slug": "daroca",
-    "codigoINE": "50094"
+    "codigoINE": "50094",
+    "poblacionActual": 1919
   },
   {
     "nombre": "Ejea de los Caballeros",
     "provincia": "zaragoza",
     "slug": "ejea-de-los-caballeros",
-    "codigoINE": "50095"
+    "codigoINE": "50095",
+    "poblacionActual": 17133
   },
   {
     "nombre": "El Burgo de Ebro",
     "provincia": "zaragoza",
     "slug": "el-burgo-de-ebro",
-    "codigoINE": "50062"
+    "codigoINE": "50062",
+    "poblacionActual": 2704
   },
   {
     "nombre": "El Buste",
     "provincia": "zaragoza",
     "slug": "el-buste",
-    "codigoINE": "50063"
+    "codigoINE": "50063",
+    "poblacionActual": 59
   },
   {
     "nombre": "El Frago",
     "provincia": "zaragoza",
     "slug": "el-frago",
-    "codigoINE": "50109"
+    "codigoINE": "50109",
+    "poblacionActual": 134
   },
   {
     "nombre": "El Frasno",
     "provincia": "zaragoza",
     "slug": "el-frasno",
-    "codigoINE": "50110"
+    "codigoINE": "50110",
+    "poblacionActual": 361
   },
   {
     "nombre": "Embid de Ariza",
     "provincia": "zaragoza",
     "slug": "embid-de-ariza",
-    "codigoINE": "50096"
+    "codigoINE": "50096",
+    "poblacionActual": 29
   },
   {
     "nombre": "Encinacorba",
     "provincia": "zaragoza",
     "slug": "encinacorba",
-    "codigoINE": "50098"
+    "codigoINE": "50098",
+    "poblacionActual": 182
   },
   {
     "nombre": "Épila",
     "provincia": "zaragoza",
     "slug": "epila",
-    "codigoINE": "50099"
+    "codigoINE": "50099",
+    "poblacionActual": 4565
   },
   {
     "nombre": "Erla",
     "provincia": "zaragoza",
     "slug": "erla",
-    "codigoINE": "50100"
+    "codigoINE": "50100",
+    "poblacionActual": 371
   },
   {
     "nombre": "Escatrón",
     "provincia": "zaragoza",
     "slug": "escatron",
-    "codigoINE": "50101"
+    "codigoINE": "50101",
+    "poblacionActual": 1177
   },
   {
     "nombre": "Fabara",
     "provincia": "zaragoza",
     "slug": "fabara",
-    "codigoINE": "50102"
+    "codigoINE": "50102",
+    "poblacionActual": 1047
   },
   {
     "nombre": "Farlete",
     "provincia": "zaragoza",
     "slug": "farlete",
-    "codigoINE": "50104"
+    "codigoINE": "50104",
+    "poblacionActual": 394
   },
   {
     "nombre": "Fayón",
     "provincia": "zaragoza",
     "slug": "fayon",
-    "codigoINE": "50105"
+    "codigoINE": "50105",
+    "poblacionActual": 430
   },
   {
     "nombre": "Figueruelas",
     "provincia": "zaragoza",
     "slug": "figueruelas",
-    "codigoINE": "50107"
+    "codigoINE": "50107",
+    "poblacionActual": 1270
   },
   {
     "nombre": "Fombuena",
     "provincia": "zaragoza",
     "slug": "fombuena",
-    "codigoINE": "50108"
+    "codigoINE": "50108",
+    "poblacionActual": 55
   },
   {
     "nombre": "Fréscano",
     "provincia": "zaragoza",
     "slug": "frescano",
-    "codigoINE": "50111"
+    "codigoINE": "50111",
+    "poblacionActual": 194
   },
   {
     "nombre": "Fuendejalón",
     "provincia": "zaragoza",
     "slug": "fuendejalon",
-    "codigoINE": "50113"
+    "codigoINE": "50113",
+    "poblacionActual": 763
   },
   {
     "nombre": "Fuendetodos",
     "provincia": "zaragoza",
     "slug": "fuendetodos",
-    "codigoINE": "50114"
+    "codigoINE": "50114",
+    "poblacionActual": 145
   },
   {
     "nombre": "Fuentes de Ebro",
     "provincia": "zaragoza",
     "slug": "fuentes-de-ebro",
-    "codigoINE": "50115"
+    "codigoINE": "50115",
+    "poblacionActual": 4631
   },
   {
     "nombre": "Fuentes de Jiloca",
     "provincia": "zaragoza",
     "slug": "fuentes-de-jiloca",
-    "codigoINE": "50116"
+    "codigoINE": "50116",
+    "poblacionActual": 209
   },
   {
     "nombre": "Gallocanta",
     "provincia": "zaragoza",
     "slug": "gallocanta",
-    "codigoINE": "50117"
+    "codigoINE": "50117",
+    "poblacionActual": 133
   },
   {
     "nombre": "Gallur",
     "provincia": "zaragoza",
     "slug": "gallur",
-    "codigoINE": "50118"
+    "codigoINE": "50118",
+    "poblacionActual": 2603
   },
   {
     "nombre": "Gelsa",
     "provincia": "zaragoza",
     "slug": "gelsa",
-    "codigoINE": "50119"
+    "codigoINE": "50119",
+    "poblacionActual": 986
   },
   {
     "nombre": "Godojos",
     "provincia": "zaragoza",
     "slug": "godojos",
-    "codigoINE": "50120"
+    "codigoINE": "50120",
+    "poblacionActual": 54
   },
   {
     "nombre": "Gotor",
     "provincia": "zaragoza",
     "slug": "gotor",
-    "codigoINE": "50121"
+    "codigoINE": "50121",
+    "poblacionActual": 306
   },
   {
     "nombre": "Grisel",
     "provincia": "zaragoza",
     "slug": "grisel",
-    "codigoINE": "50122"
+    "codigoINE": "50122",
+    "poblacionActual": 96
   },
   {
     "nombre": "Grisén",
     "provincia": "zaragoza",
     "slug": "grisen",
-    "codigoINE": "50123"
+    "codigoINE": "50123",
+    "poblacionActual": 632
   },
   {
     "nombre": "Herrera de los Navarros",
     "provincia": "zaragoza",
     "slug": "herrera-de-los-navarros",
-    "codigoINE": "50124"
+    "codigoINE": "50124",
+    "poblacionActual": 504
   },
   {
     "nombre": "Ibdes",
     "provincia": "zaragoza",
     "slug": "ibdes",
-    "codigoINE": "50125"
+    "codigoINE": "50125",
+    "poblacionActual": 372
   },
   {
     "nombre": "Illueca",
     "provincia": "zaragoza",
     "slug": "illueca",
-    "codigoINE": "50126"
+    "codigoINE": "50126",
+    "poblacionActual": 2727
   },
   {
     "nombre": "Isuerre",
     "provincia": "zaragoza",
     "slug": "isuerre",
-    "codigoINE": "50128"
+    "codigoINE": "50128",
+    "poblacionActual": 30
   },
   {
     "nombre": "Jaraba",
     "provincia": "zaragoza",
     "slug": "jaraba",
-    "codigoINE": "50129"
+    "codigoINE": "50129",
+    "poblacionActual": 295
   },
   {
     "nombre": "Jarque de Moncayo",
     "provincia": "zaragoza",
     "slug": "jarque-de-moncayo",
-    "codigoINE": "50130"
+    "codigoINE": "50130",
+    "poblacionActual": 381
   },
   {
     "nombre": "Jaulín",
     "provincia": "zaragoza",
     "slug": "jaulin",
-    "codigoINE": "50131"
+    "codigoINE": "50131",
+    "poblacionActual": 292
   },
   {
-    "nombre": "La Almolda",
+    "nombre": "Joyosa La",
     "provincia": "zaragoza",
-    "slug": "la-almolda",
-    "codigoINE": "50022"
-  },
-  {
-    "nombre": "La Almunia de Doña Godina",
-    "provincia": "zaragoza",
-    "slug": "la-almunia-de-dona-godina",
-    "codigoINE": "50025"
-  },
-  {
-    "nombre": "La Joyosa",
-    "provincia": "zaragoza",
-    "slug": "la-joyosa",
-    "codigoINE": "50132"
+    "slug": "joyosa-la",
+    "codigoINE": "50132",
+    "poblacionActual": 1132
   },
   {
     "nombre": "La Muela",
     "provincia": "zaragoza",
     "slug": "la-muela",
-    "codigoINE": "50182"
+    "codigoINE": "50182",
+    "poblacionActual": 6564
   },
   {
     "nombre": "La Puebla de Alfindén",
     "provincia": "zaragoza",
     "slug": "la-puebla-de-alfinden",
-    "codigoINE": "50219"
+    "codigoINE": "50219",
+    "poblacionActual": 6426
   },
   {
     "nombre": "La Vilueña",
     "provincia": "zaragoza",
     "slug": "la-viluena",
-    "codigoINE": "50282"
+    "codigoINE": "50282",
+    "poblacionActual": 57
   },
   {
     "nombre": "La Zaida",
     "provincia": "zaragoza",
     "slug": "la-zaida",
-    "codigoINE": "50296"
+    "codigoINE": "50296",
+    "poblacionActual": 428
   },
   {
     "nombre": "Lagata",
     "provincia": "zaragoza",
     "slug": "lagata",
-    "codigoINE": "50133"
+    "codigoINE": "50133",
+    "poblacionActual": 115
   },
   {
     "nombre": "Langa del Castillo",
     "provincia": "zaragoza",
     "slug": "langa-del-castillo",
-    "codigoINE": "50134"
+    "codigoINE": "50134",
+    "poblacionActual": 110
   },
   {
     "nombre": "Las Cuerlas",
     "provincia": "zaragoza",
     "slug": "las-cuerlas",
-    "codigoINE": "50091"
-  },
-  {
-    "nombre": "Las Pedrosas",
-    "provincia": "zaragoza",
-    "slug": "las-pedrosas",
-    "codigoINE": "50205"
+    "codigoINE": "50091",
+    "poblacionActual": 41
   },
   {
     "nombre": "Layana",
     "provincia": "zaragoza",
     "slug": "layana",
-    "codigoINE": "50135"
+    "codigoINE": "50135",
+    "poblacionActual": 98
   },
   {
     "nombre": "Lécera",
     "provincia": "zaragoza",
     "slug": "lecera",
-    "codigoINE": "50136"
+    "codigoINE": "50136",
+    "poblacionActual": 599
   },
   {
     "nombre": "Lechón",
     "provincia": "zaragoza",
     "slug": "lechon",
-    "codigoINE": "50138"
+    "codigoINE": "50138",
+    "poblacionActual": 44
   },
   {
     "nombre": "Leciñena",
     "provincia": "zaragoza",
     "slug": "lecinena",
-    "codigoINE": "50137"
+    "codigoINE": "50137",
+    "poblacionActual": 1090
   },
   {
     "nombre": "Letux",
     "provincia": "zaragoza",
     "slug": "letux",
-    "codigoINE": "50139"
+    "codigoINE": "50139",
+    "poblacionActual": 356
   },
   {
     "nombre": "Litago",
     "provincia": "zaragoza",
     "slug": "litago",
-    "codigoINE": "50140"
+    "codigoINE": "50140",
+    "poblacionActual": 192
   },
   {
     "nombre": "Lituénigo",
     "provincia": "zaragoza",
     "slug": "lituenigo",
-    "codigoINE": "50141"
+    "codigoINE": "50141",
+    "poblacionActual": 124
   },
   {
     "nombre": "Lobera de Onsella",
     "provincia": "zaragoza",
     "slug": "lobera-de-onsella",
-    "codigoINE": "50142"
+    "codigoINE": "50142",
+    "poblacionActual": 27
   },
   {
     "nombre": "Longares",
     "provincia": "zaragoza",
     "slug": "longares",
-    "codigoINE": "50143"
+    "codigoINE": "50143",
+    "poblacionActual": 830
   },
   {
     "nombre": "Longás",
     "provincia": "zaragoza",
     "slug": "longas",
-    "codigoINE": "50144"
+    "codigoINE": "50144",
+    "poblacionActual": 45
   },
   {
     "nombre": "Los Fayos",
     "provincia": "zaragoza",
     "slug": "los-fayos",
-    "codigoINE": "50106"
+    "codigoINE": "50106",
+    "poblacionActual": 133
   },
   {
     "nombre": "Los Pintanos",
     "provincia": "zaragoza",
     "slug": "los-pintanos",
-    "codigoINE": "50210"
+    "codigoINE": "50210",
+    "poblacionActual": 37
   },
   {
     "nombre": "Lucena de Jalón",
     "provincia": "zaragoza",
     "slug": "lucena-de-jalon",
-    "codigoINE": "50146"
+    "codigoINE": "50146",
+    "poblacionActual": 224
   },
   {
     "nombre": "Luceni",
     "provincia": "zaragoza",
     "slug": "luceni",
-    "codigoINE": "50147"
+    "codigoINE": "50147",
+    "poblacionActual": 1003
   },
   {
     "nombre": "Luesia",
     "provincia": "zaragoza",
     "slug": "luesia",
-    "codigoINE": "50148"
+    "codigoINE": "50148",
+    "poblacionActual": 331
   },
   {
     "nombre": "Luesma",
     "provincia": "zaragoza",
     "slug": "luesma",
-    "codigoINE": "50149"
+    "codigoINE": "50149",
+    "poblacionActual": 41
   },
   {
     "nombre": "Lumpiaque",
     "provincia": "zaragoza",
     "slug": "lumpiaque",
-    "codigoINE": "50150"
+    "codigoINE": "50150",
+    "poblacionActual": 862
   },
   {
     "nombre": "Luna",
     "provincia": "zaragoza",
     "slug": "luna",
-    "codigoINE": "50151"
+    "codigoINE": "50151",
+    "poblacionActual": 675
   },
   {
     "nombre": "Maella",
     "provincia": "zaragoza",
     "slug": "maella",
-    "codigoINE": "50152"
+    "codigoINE": "50152",
+    "poblacionActual": 2089
   },
   {
     "nombre": "Magallón",
     "provincia": "zaragoza",
     "slug": "magallon",
-    "codigoINE": "50153"
+    "codigoINE": "50153",
+    "poblacionActual": 1093
   },
   {
     "nombre": "Mainar",
     "provincia": "zaragoza",
     "slug": "mainar",
-    "codigoINE": "50154"
+    "codigoINE": "50154",
+    "poblacionActual": 171
   },
   {
     "nombre": "Malanquilla",
     "provincia": "zaragoza",
     "slug": "malanquilla",
-    "codigoINE": "50155"
+    "codigoINE": "50155",
+    "poblacionActual": 73
   },
   {
     "nombre": "Maleján",
     "provincia": "zaragoza",
     "slug": "malejan",
-    "codigoINE": "50156"
+    "codigoINE": "50156",
+    "poblacionActual": 279
   },
   {
     "nombre": "Mallén",
     "provincia": "zaragoza",
     "slug": "mallen",
-    "codigoINE": "50160"
+    "codigoINE": "50160",
+    "poblacionActual": 2951
   },
   {
     "nombre": "Malón",
     "provincia": "zaragoza",
     "slug": "malon",
-    "codigoINE": "50157"
+    "codigoINE": "50157",
+    "poblacionActual": 442
   },
   {
     "nombre": "Maluenda",
     "provincia": "zaragoza",
     "slug": "maluenda",
-    "codigoINE": "50159"
+    "codigoINE": "50159",
+    "poblacionActual": 915
   },
   {
     "nombre": "Manchones",
     "provincia": "zaragoza",
     "slug": "manchones",
-    "codigoINE": "50161"
+    "codigoINE": "50161",
+    "poblacionActual": 96
   },
   {
     "nombre": "Mara",
     "provincia": "zaragoza",
     "slug": "mara",
-    "codigoINE": "50162"
+    "codigoINE": "50162",
+    "poblacionActual": 161
   },
   {
     "nombre": "María de Huerva",
     "provincia": "zaragoza",
     "slug": "maria-de-huerva",
-    "codigoINE": "50163"
+    "codigoINE": "50163",
+    "poblacionActual": 6371
   },
   {
     "nombre": "Marracos",
     "provincia": "zaragoza",
     "slug": "marracos",
-    "codigoINE": "50902"
+    "codigoINE": "50902",
+    "poblacionActual": 85
   },
   {
     "nombre": "Mediana de Aragón",
     "provincia": "zaragoza",
     "slug": "mediana-de-aragon",
-    "codigoINE": "50164"
+    "codigoINE": "50164",
+    "poblacionActual": 457
   },
   {
     "nombre": "Mequinenza",
     "provincia": "zaragoza",
     "slug": "mequinenza",
-    "codigoINE": "50165"
+    "codigoINE": "50165",
+    "poblacionActual": 2232
   },
   {
     "nombre": "Mesones de Isuela",
     "provincia": "zaragoza",
     "slug": "mesones-de-isuela",
-    "codigoINE": "50166"
+    "codigoINE": "50166",
+    "poblacionActual": 266
   },
   {
     "nombre": "Mezalocha",
     "provincia": "zaragoza",
     "slug": "mezalocha",
-    "codigoINE": "50167"
+    "codigoINE": "50167",
+    "poblacionActual": 206
   },
   {
     "nombre": "Mianos",
     "provincia": "zaragoza",
     "slug": "mianos",
-    "codigoINE": "50168"
+    "codigoINE": "50168",
+    "poblacionActual": 28
   },
   {
     "nombre": "Miedes de Aragón",
     "provincia": "zaragoza",
     "slug": "miedes-de-aragon",
-    "codigoINE": "50169"
+    "codigoINE": "50169",
+    "poblacionActual": 403
   },
   {
     "nombre": "Monegrillo",
     "provincia": "zaragoza",
     "slug": "monegrillo",
-    "codigoINE": "50170"
+    "codigoINE": "50170",
+    "poblacionActual": 380
   },
   {
     "nombre": "Moneva",
     "provincia": "zaragoza",
     "slug": "moneva",
-    "codigoINE": "50171"
+    "codigoINE": "50171",
+    "poblacionActual": 118
   },
   {
     "nombre": "Monreal de Ariza",
     "provincia": "zaragoza",
     "slug": "monreal-de-ariza",
-    "codigoINE": "50172"
+    "codigoINE": "50172",
+    "poblacionActual": 173
   },
   {
     "nombre": "Monterde",
     "provincia": "zaragoza",
     "slug": "monterde",
-    "codigoINE": "50173"
+    "codigoINE": "50173",
+    "poblacionActual": 152
   },
   {
     "nombre": "Montón",
     "provincia": "zaragoza",
     "slug": "monton",
-    "codigoINE": "50174"
+    "codigoINE": "50174",
+    "poblacionActual": 96
   },
   {
     "nombre": "Morata de Jalón",
     "provincia": "zaragoza",
     "slug": "morata-de-jalon",
-    "codigoINE": "50175"
+    "codigoINE": "50175",
+    "poblacionActual": 1082
   },
   {
     "nombre": "Morata de Jiloca",
     "provincia": "zaragoza",
     "slug": "morata-de-jiloca",
-    "codigoINE": "50176"
+    "codigoINE": "50176",
+    "poblacionActual": 235
   },
   {
     "nombre": "Morés",
     "provincia": "zaragoza",
     "slug": "mores",
-    "codigoINE": "50177"
+    "codigoINE": "50177",
+    "poblacionActual": 303
   },
   {
     "nombre": "Moros",
     "provincia": "zaragoza",
     "slug": "moros",
-    "codigoINE": "50178"
+    "codigoINE": "50178",
+    "poblacionActual": 269
   },
   {
     "nombre": "Moyuela",
     "provincia": "zaragoza",
     "slug": "moyuela",
-    "codigoINE": "50179"
+    "codigoINE": "50179",
+    "poblacionActual": 227
   },
   {
     "nombre": "Mozota",
     "provincia": "zaragoza",
     "slug": "mozota",
-    "codigoINE": "50180"
+    "codigoINE": "50180",
+    "poblacionActual": 130
   },
   {
     "nombre": "Muel",
     "provincia": "zaragoza",
     "slug": "muel",
-    "codigoINE": "50181"
+    "codigoINE": "50181",
+    "poblacionActual": 1474
   },
   {
     "nombre": "Munébrega",
     "provincia": "zaragoza",
     "slug": "munebrega",
-    "codigoINE": "50183"
+    "codigoINE": "50183",
+    "poblacionActual": 361
   },
   {
     "nombre": "Murero",
     "provincia": "zaragoza",
     "slug": "murero",
-    "codigoINE": "50184"
+    "codigoINE": "50184",
+    "poblacionActual": 92
   },
   {
     "nombre": "Murillo de Gállego",
     "provincia": "zaragoza",
     "slug": "murillo-de-gallego",
-    "codigoINE": "50185"
+    "codigoINE": "50185",
+    "poblacionActual": 203
   },
   {
     "nombre": "Navardún",
     "provincia": "zaragoza",
     "slug": "navardun",
-    "codigoINE": "50186"
+    "codigoINE": "50186",
+    "poblacionActual": 39
   },
   {
     "nombre": "Nigüella",
     "provincia": "zaragoza",
     "slug": "niguella",
-    "codigoINE": "50187"
+    "codigoINE": "50187",
+    "poblacionActual": 62
   },
   {
     "nombre": "Nombrevilla",
     "provincia": "zaragoza",
     "slug": "nombrevilla",
-    "codigoINE": "50188"
+    "codigoINE": "50188",
+    "poblacionActual": 39
   },
   {
     "nombre": "Nonaspe",
     "provincia": "zaragoza",
     "slug": "nonaspe",
-    "codigoINE": "50189"
+    "codigoINE": "50189",
+    "poblacionActual": 1012
   },
   {
     "nombre": "Novallas",
     "provincia": "zaragoza",
     "slug": "novallas",
-    "codigoINE": "50190"
+    "codigoINE": "50190",
+    "poblacionActual": 859
   },
   {
     "nombre": "Novillas",
     "provincia": "zaragoza",
     "slug": "novillas",
-    "codigoINE": "50191"
+    "codigoINE": "50191",
+    "poblacionActual": 502
   },
   {
     "nombre": "Nuévalos",
     "provincia": "zaragoza",
     "slug": "nuevalos",
-    "codigoINE": "50192"
+    "codigoINE": "50192",
+    "poblacionActual": 306
   },
   {
     "nombre": "Nuez de Ebro",
     "provincia": "zaragoza",
     "slug": "nuez-de-ebro",
-    "codigoINE": "50193"
+    "codigoINE": "50193",
+    "poblacionActual": 907
   },
   {
     "nombre": "Olvés",
     "provincia": "zaragoza",
     "slug": "olves",
-    "codigoINE": "50194"
+    "codigoINE": "50194",
+    "poblacionActual": 111
   },
   {
     "nombre": "Orcajo",
     "provincia": "zaragoza",
     "slug": "orcajo",
-    "codigoINE": "50195"
+    "codigoINE": "50195",
+    "poblacionActual": 58
   },
   {
     "nombre": "Orera",
     "provincia": "zaragoza",
     "slug": "orera",
-    "codigoINE": "50196"
+    "codigoINE": "50196",
+    "poblacionActual": 101
   },
   {
     "nombre": "Orés",
     "provincia": "zaragoza",
     "slug": "ores",
-    "codigoINE": "50197"
+    "codigoINE": "50197",
+    "poblacionActual": 74
   },
   {
     "nombre": "Oseja",
     "provincia": "zaragoza",
     "slug": "oseja",
-    "codigoINE": "50198"
+    "codigoINE": "50198",
+    "poblacionActual": 44
   },
   {
     "nombre": "Osera de Ebro",
     "provincia": "zaragoza",
     "slug": "osera-de-ebro",
-    "codigoINE": "50199"
+    "codigoINE": "50199",
+    "poblacionActual": 428
   },
   {
     "nombre": "Paniza",
     "provincia": "zaragoza",
     "slug": "paniza",
-    "codigoINE": "50200"
+    "codigoINE": "50200",
+    "poblacionActual": 575
   },
   {
     "nombre": "Paracuellos de Jiloca",
     "provincia": "zaragoza",
     "slug": "paracuellos-de-jiloca",
-    "codigoINE": "50201"
+    "codigoINE": "50201",
+    "poblacionActual": 607
   },
   {
     "nombre": "Paracuellos de la Ribera",
     "provincia": "zaragoza",
     "slug": "paracuellos-de-la-ribera",
-    "codigoINE": "50202"
+    "codigoINE": "50202",
+    "poblacionActual": 112
   },
   {
     "nombre": "Pastriz",
     "provincia": "zaragoza",
     "slug": "pastriz",
-    "codigoINE": "50203"
+    "codigoINE": "50203",
+    "poblacionActual": 1305
   },
   {
     "nombre": "Pedrola",
     "provincia": "zaragoza",
     "slug": "pedrola",
-    "codigoINE": "50204"
+    "codigoINE": "50204",
+    "poblacionActual": 3766
+  },
+  {
+    "nombre": "Pedrosas Las",
+    "provincia": "zaragoza",
+    "slug": "pedrosas-las",
+    "codigoINE": "50205",
+    "poblacionActual": 113
   },
   {
     "nombre": "Perdiguera",
     "provincia": "zaragoza",
     "slug": "perdiguera",
-    "codigoINE": "50206"
+    "codigoINE": "50206",
+    "poblacionActual": 544
   },
   {
     "nombre": "Piedratajada",
     "provincia": "zaragoza",
     "slug": "piedratajada",
-    "codigoINE": "50207"
+    "codigoINE": "50207",
+    "poblacionActual": 97
   },
   {
     "nombre": "Pina de Ebro",
     "provincia": "zaragoza",
     "slug": "pina-de-ebro",
-    "codigoINE": "50208"
+    "codigoINE": "50208",
+    "poblacionActual": 2446
   },
   {
     "nombre": "Pinseque",
     "provincia": "zaragoza",
     "slug": "pinseque",
-    "codigoINE": "50209"
+    "codigoINE": "50209",
+    "poblacionActual": 4551
   },
   {
     "nombre": "Plasencia de Jalón",
     "provincia": "zaragoza",
     "slug": "plasencia-de-jalon",
-    "codigoINE": "50211"
+    "codigoINE": "50211",
+    "poblacionActual": 382
   },
   {
     "nombre": "Pleitas",
     "provincia": "zaragoza",
     "slug": "pleitas",
-    "codigoINE": "50212"
+    "codigoINE": "50212",
+    "poblacionActual": 30
   },
   {
     "nombre": "Plenas",
     "provincia": "zaragoza",
     "slug": "plenas",
-    "codigoINE": "50213"
+    "codigoINE": "50213",
+    "poblacionActual": 111
   },
   {
     "nombre": "Pomer",
     "provincia": "zaragoza",
     "slug": "pomer",
-    "codigoINE": "50214"
+    "codigoINE": "50214",
+    "poblacionActual": 24
   },
   {
     "nombre": "Pozuel de Ariza",
     "provincia": "zaragoza",
     "slug": "pozuel-de-ariza",
-    "codigoINE": "50215"
+    "codigoINE": "50215",
+    "poblacionActual": 24
   },
   {
     "nombre": "Pozuelo de Aragón",
     "provincia": "zaragoza",
     "slug": "pozuelo-de-aragon",
-    "codigoINE": "50216"
+    "codigoINE": "50216",
+    "poblacionActual": 249
   },
   {
     "nombre": "Pradilla de Ebro",
     "provincia": "zaragoza",
     "slug": "pradilla-de-ebro",
-    "codigoINE": "50217"
+    "codigoINE": "50217",
+    "poblacionActual": 546
   },
   {
     "nombre": "Puebla de Albortón",
     "provincia": "zaragoza",
     "slug": "puebla-de-alborton",
-    "codigoINE": "50218"
+    "codigoINE": "50218",
+    "poblacionActual": 136
   },
   {
     "nombre": "Puendeluna",
     "provincia": "zaragoza",
     "slug": "puendeluna",
-    "codigoINE": "50220"
+    "codigoINE": "50220",
+    "poblacionActual": 42
   },
   {
     "nombre": "Purujosa",
     "provincia": "zaragoza",
     "slug": "purujosa",
-    "codigoINE": "50221"
+    "codigoINE": "50221",
+    "poblacionActual": 29
   },
   {
     "nombre": "Quinto",
     "provincia": "zaragoza",
     "slug": "quinto",
-    "codigoINE": "50222"
+    "codigoINE": "50222",
+    "poblacionActual": 1884
   },
   {
     "nombre": "Remolinos",
     "provincia": "zaragoza",
     "slug": "remolinos",
-    "codigoINE": "50223"
+    "codigoINE": "50223",
+    "poblacionActual": 1023
   },
   {
     "nombre": "Retascón",
     "provincia": "zaragoza",
     "slug": "retascon",
-    "codigoINE": "50224"
+    "codigoINE": "50224",
+    "poblacionActual": 73
   },
   {
     "nombre": "Ricla",
     "provincia": "zaragoza",
     "slug": "ricla",
-    "codigoINE": "50225"
+    "codigoINE": "50225",
+    "poblacionActual": 2949
   },
   {
     "nombre": "Romanos",
     "provincia": "zaragoza",
     "slug": "romanos",
-    "codigoINE": "50227"
+    "codigoINE": "50227",
+    "poblacionActual": 145
   },
   {
     "nombre": "Rueda de Jalón",
     "provincia": "zaragoza",
     "slug": "rueda-de-jalon",
-    "codigoINE": "50228"
+    "codigoINE": "50228",
+    "poblacionActual": 325
   },
   {
     "nombre": "Ruesca",
     "provincia": "zaragoza",
     "slug": "ruesca",
-    "codigoINE": "50229"
+    "codigoINE": "50229",
+    "poblacionActual": 66
   },
   {
     "nombre": "Sabiñán",
     "provincia": "zaragoza",
     "slug": "sabinan",
-    "codigoINE": "50241"
+    "codigoINE": "50241",
+    "poblacionActual": 691
   },
   {
     "nombre": "Sádaba",
     "provincia": "zaragoza",
     "slug": "sadaba",
-    "codigoINE": "50230"
+    "codigoINE": "50230",
+    "poblacionActual": 1258
   },
   {
     "nombre": "Salillas de Jalón",
     "provincia": "zaragoza",
     "slug": "salillas-de-jalon",
-    "codigoINE": "50231"
+    "codigoINE": "50231",
+    "poblacionActual": 359
   },
   {
     "nombre": "Salvatierra de Esca",
     "provincia": "zaragoza",
     "slug": "salvatierra-de-esca",
-    "codigoINE": "50232"
+    "codigoINE": "50232",
+    "poblacionActual": 194
   },
   {
     "nombre": "Samper del Salz",
     "provincia": "zaragoza",
     "slug": "samper-del-salz",
-    "codigoINE": "50233"
+    "codigoINE": "50233",
+    "poblacionActual": 82
   },
   {
     "nombre": "San Martín de la Virgen de Moncayo",
     "provincia": "zaragoza",
     "slug": "san-martin-de-la-virgen-de-moncayo",
-    "codigoINE": "50234"
+    "codigoINE": "50234",
+    "poblacionActual": 274
   },
   {
     "nombre": "San Mateo de Gállego",
     "provincia": "zaragoza",
     "slug": "san-mateo-de-gallego",
-    "codigoINE": "50235"
+    "codigoINE": "50235",
+    "poblacionActual": 3409
   },
   {
     "nombre": "Santa Cruz de Grío",
     "provincia": "zaragoza",
     "slug": "santa-cruz-de-grio",
-    "codigoINE": "50236"
+    "codigoINE": "50236",
+    "poblacionActual": 104
   },
   {
     "nombre": "Santa Cruz de Moncayo",
     "provincia": "zaragoza",
     "slug": "santa-cruz-de-moncayo",
-    "codigoINE": "50237"
+    "codigoINE": "50237",
+    "poblacionActual": 124
   },
   {
     "nombre": "Santa Eulalia de Gállego",
     "provincia": "zaragoza",
     "slug": "santa-eulalia-de-gallego",
-    "codigoINE": "50238"
+    "codigoINE": "50238",
+    "poblacionActual": 101
   },
   {
     "nombre": "Santed",
     "provincia": "zaragoza",
     "slug": "santed",
-    "codigoINE": "50239"
+    "codigoINE": "50239",
+    "poblacionActual": 71
   },
   {
     "nombre": "Sástago",
     "provincia": "zaragoza",
     "slug": "sastago",
-    "codigoINE": "50240"
+    "codigoINE": "50240",
+    "poblacionActual": 1091
   },
   {
     "nombre": "Sediles",
     "provincia": "zaragoza",
     "slug": "sediles",
-    "codigoINE": "50242"
+    "codigoINE": "50242",
+    "poblacionActual": 111
   },
   {
     "nombre": "Sestrica",
     "provincia": "zaragoza",
     "slug": "sestrica",
-    "codigoINE": "50243"
+    "codigoINE": "50243",
+    "poblacionActual": 340
   },
   {
     "nombre": "Sierra de Luna",
     "provincia": "zaragoza",
     "slug": "sierra-de-luna",
-    "codigoINE": "50244"
+    "codigoINE": "50244",
+    "poblacionActual": 259
   },
   {
     "nombre": "Sigüés",
     "provincia": "zaragoza",
     "slug": "sigues",
-    "codigoINE": "50245"
+    "codigoINE": "50245",
+    "poblacionActual": 70
   },
   {
     "nombre": "Sisamón",
     "provincia": "zaragoza",
     "slug": "sisamon",
-    "codigoINE": "50246"
+    "codigoINE": "50246",
+    "poblacionActual": 47
   },
   {
     "nombre": "Sobradiel",
     "provincia": "zaragoza",
     "slug": "sobradiel",
-    "codigoINE": "50247"
+    "codigoINE": "50247",
+    "poblacionActual": 1127
   },
   {
     "nombre": "Sos del Rey Católico",
     "provincia": "zaragoza",
     "slug": "sos-del-rey-catolico",
-    "codigoINE": "50248"
+    "codigoINE": "50248",
+    "poblacionActual": 585
   },
   {
     "nombre": "Tabuenca",
     "provincia": "zaragoza",
     "slug": "tabuenca",
-    "codigoINE": "50249"
+    "codigoINE": "50249",
+    "poblacionActual": 311
   },
   {
     "nombre": "Talamantes",
     "provincia": "zaragoza",
     "slug": "talamantes",
-    "codigoINE": "50250"
+    "codigoINE": "50250",
+    "poblacionActual": 82
   },
   {
     "nombre": "Tarazona",
     "provincia": "zaragoza",
     "slug": "tarazona",
-    "codigoINE": "50251"
+    "codigoINE": "50251",
+    "poblacionActual": 10803
   },
   {
     "nombre": "Tauste",
     "provincia": "zaragoza",
     "slug": "tauste",
-    "codigoINE": "50252"
+    "codigoINE": "50252",
+    "poblacionActual": 6817
   },
   {
     "nombre": "Terrer",
     "provincia": "zaragoza",
     "slug": "terrer",
-    "codigoINE": "50253"
+    "codigoINE": "50253",
+    "poblacionActual": 585
   },
   {
     "nombre": "Tierga",
     "provincia": "zaragoza",
     "slug": "tierga",
-    "codigoINE": "50254"
+    "codigoINE": "50254",
+    "poblacionActual": 177
   },
   {
     "nombre": "Tobed",
     "provincia": "zaragoza",
     "slug": "tobed",
-    "codigoINE": "50255"
+    "codigoINE": "50255",
+    "poblacionActual": 198
   },
   {
     "nombre": "Torralba de los Frailes",
     "provincia": "zaragoza",
     "slug": "torralba-de-los-frailes",
-    "codigoINE": "50256"
+    "codigoINE": "50256",
+    "poblacionActual": 68
   },
   {
     "nombre": "Torralba de Ribota",
     "provincia": "zaragoza",
     "slug": "torralba-de-ribota",
-    "codigoINE": "50257"
+    "codigoINE": "50257",
+    "poblacionActual": 169
   },
   {
     "nombre": "Torralbilla",
     "provincia": "zaragoza",
     "slug": "torralbilla",
-    "codigoINE": "50258"
+    "codigoINE": "50258",
+    "poblacionActual": 40
   },
   {
     "nombre": "Torrehermosa",
     "provincia": "zaragoza",
     "slug": "torrehermosa",
-    "codigoINE": "50259"
+    "codigoINE": "50259",
+    "poblacionActual": 74
   },
   {
     "nombre": "Torrelapaja",
     "provincia": "zaragoza",
     "slug": "torrelapaja",
-    "codigoINE": "50260"
+    "codigoINE": "50260",
+    "poblacionActual": 29
   },
   {
     "nombre": "Torrellas",
     "provincia": "zaragoza",
     "slug": "torrellas",
-    "codigoINE": "50261"
+    "codigoINE": "50261",
+    "poblacionActual": 231
   },
   {
     "nombre": "Torres de Berrellén",
     "provincia": "zaragoza",
     "slug": "torres-de-berrellen",
-    "codigoINE": "50262"
+    "codigoINE": "50262",
+    "poblacionActual": 1506
   },
   {
     "nombre": "Torrijo de la Cañada",
     "provincia": "zaragoza",
     "slug": "torrijo-de-la-canada",
-    "codigoINE": "50263"
+    "codigoINE": "50263",
+    "poblacionActual": 193
   },
   {
     "nombre": "Tosos",
     "provincia": "zaragoza",
     "slug": "tosos",
-    "codigoINE": "50264"
+    "codigoINE": "50264",
+    "poblacionActual": 175
   },
   {
     "nombre": "Trasmoz",
     "provincia": "zaragoza",
     "slug": "trasmoz",
-    "codigoINE": "50265"
+    "codigoINE": "50265",
+    "poblacionActual": 83
   },
   {
     "nombre": "Trasobares",
     "provincia": "zaragoza",
     "slug": "trasobares",
-    "codigoINE": "50266"
+    "codigoINE": "50266",
+    "poblacionActual": 122
   },
   {
     "nombre": "Uncastillo",
     "provincia": "zaragoza",
     "slug": "uncastillo",
-    "codigoINE": "50267"
+    "codigoINE": "50267",
+    "poblacionActual": 615
   },
   {
     "nombre": "Undués de Lerda",
     "provincia": "zaragoza",
     "slug": "undues-de-lerda",
-    "codigoINE": "50268"
+    "codigoINE": "50268",
+    "poblacionActual": 55
   },
   {
     "nombre": "Urrea de Jalón",
     "provincia": "zaragoza",
     "slug": "urrea-de-jalon",
-    "codigoINE": "50269"
+    "codigoINE": "50269",
+    "poblacionActual": 440
   },
   {
     "nombre": "Urriés",
     "provincia": "zaragoza",
     "slug": "urries",
-    "codigoINE": "50270"
+    "codigoINE": "50270",
+    "poblacionActual": 49
   },
   {
     "nombre": "Used",
     "provincia": "zaragoza",
     "slug": "used",
-    "codigoINE": "50271"
+    "codigoINE": "50271",
+    "poblacionActual": 260
   },
   {
     "nombre": "Utebo",
     "provincia": "zaragoza",
     "slug": "utebo",
-    "codigoINE": "50272"
+    "codigoINE": "50272",
+    "poblacionActual": 19022
   },
   {
     "nombre": "Val de San Martín",
     "provincia": "zaragoza",
     "slug": "val-de-san-martin",
-    "codigoINE": "50274"
+    "codigoINE": "50274",
+    "poblacionActual": 59
   },
   {
     "nombre": "Valdehorna",
     "provincia": "zaragoza",
     "slug": "valdehorna",
-    "codigoINE": "50273"
+    "codigoINE": "50273",
+    "poblacionActual": 31
   },
   {
     "nombre": "Valmadrid",
     "provincia": "zaragoza",
     "slug": "valmadrid",
-    "codigoINE": "50275"
+    "codigoINE": "50275",
+    "poblacionActual": 127
   },
   {
     "nombre": "Valpalmas",
     "provincia": "zaragoza",
     "slug": "valpalmas",
-    "codigoINE": "50276"
+    "codigoINE": "50276",
+    "poblacionActual": 126
   },
   {
     "nombre": "Valtorres",
     "provincia": "zaragoza",
     "slug": "valtorres",
-    "codigoINE": "50277"
+    "codigoINE": "50277",
+    "poblacionActual": 75
   },
   {
     "nombre": "Velilla de Ebro",
     "provincia": "zaragoza",
     "slug": "velilla-de-ebro",
-    "codigoINE": "50278"
+    "codigoINE": "50278",
+    "poblacionActual": 207
   },
   {
     "nombre": "Velilla de Jiloca",
     "provincia": "zaragoza",
     "slug": "velilla-de-jiloca",
-    "codigoINE": "50279"
+    "codigoINE": "50279",
+    "poblacionActual": 74
   },
   {
     "nombre": "Vera de Moncayo",
     "provincia": "zaragoza",
     "slug": "vera-de-moncayo",
-    "codigoINE": "50280"
+    "codigoINE": "50280",
+    "poblacionActual": 315
   },
   {
     "nombre": "Vierlas",
     "provincia": "zaragoza",
     "slug": "vierlas",
-    "codigoINE": "50281"
+    "codigoINE": "50281",
+    "poblacionActual": 90
   },
   {
     "nombre": "Villadoz",
     "provincia": "zaragoza",
     "slug": "villadoz",
-    "codigoINE": "50283"
+    "codigoINE": "50283",
+    "poblacionActual": 81
   },
   {
     "nombre": "Villafeliche",
     "provincia": "zaragoza",
     "slug": "villafeliche",
-    "codigoINE": "50284"
+    "codigoINE": "50284",
+    "poblacionActual": 159
   },
   {
     "nombre": "Villafranca de Ebro",
     "provincia": "zaragoza",
     "slug": "villafranca-de-ebro",
-    "codigoINE": "50285"
+    "codigoINE": "50285",
+    "poblacionActual": 835
   },
   {
     "nombre": "Villalba de Perejil",
     "provincia": "zaragoza",
     "slug": "villalba-de-perejil",
-    "codigoINE": "50286"
+    "codigoINE": "50286",
+    "poblacionActual": 84
   },
   {
     "nombre": "Villalengua",
     "provincia": "zaragoza",
     "slug": "villalengua",
-    "codigoINE": "50287"
+    "codigoINE": "50287",
+    "poblacionActual": 289
   },
   {
     "nombre": "Villamayor de Gállego",
     "provincia": "zaragoza",
     "slug": "villamayor-de-gallego",
-    "codigoINE": "50903"
+    "codigoINE": "50903",
+    "poblacionActual": 2854
   },
   {
     "nombre": "Villanueva de Gállego",
     "provincia": "zaragoza",
     "slug": "villanueva-de-gallego",
-    "codigoINE": "50288"
+    "codigoINE": "50288",
+    "poblacionActual": 4814
   },
   {
     "nombre": "Villanueva de Huerva",
     "provincia": "zaragoza",
     "slug": "villanueva-de-huerva",
-    "codigoINE": "50290"
+    "codigoINE": "50290",
+    "poblacionActual": 376
   },
   {
     "nombre": "Villanueva de Jiloca",
     "provincia": "zaragoza",
     "slug": "villanueva-de-jiloca",
-    "codigoINE": "50289"
+    "codigoINE": "50289",
+    "poblacionActual": 69
   },
   {
     "nombre": "Villar de los Navarros",
     "provincia": "zaragoza",
     "slug": "villar-de-los-navarros",
-    "codigoINE": "50291"
+    "codigoINE": "50291",
+    "poblacionActual": 157
   },
   {
     "nombre": "Villarreal de Huerva",
     "provincia": "zaragoza",
     "slug": "villarreal-de-huerva",
-    "codigoINE": "50292"
+    "codigoINE": "50292",
+    "poblacionActual": 269
   },
   {
     "nombre": "Villarroya de la Sierra",
     "provincia": "zaragoza",
     "slug": "villarroya-de-la-sierra",
-    "codigoINE": "50293"
+    "codigoINE": "50293",
+    "poblacionActual": 413
   },
   {
     "nombre": "Villarroya del Campo",
     "provincia": "zaragoza",
     "slug": "villarroya-del-campo",
-    "codigoINE": "50294"
+    "codigoINE": "50294",
+    "poblacionActual": 69
   },
   {
     "nombre": "Vistabella",
     "provincia": "zaragoza",
     "slug": "vistabella",
-    "codigoINE": "50295"
+    "codigoINE": "50295",
+    "poblacionActual": 51
   },
   {
     "nombre": "Zaragoza",
     "provincia": "zaragoza",
     "slug": "zaragoza",
-    "codigoINE": "50297"
+    "codigoINE": "50297",
+    "poblacionActual": 686986
   },
   {
     "nombre": "Zuera",
     "provincia": "zaragoza",
     "slug": "zuera",
-    "codigoINE": "50298"
+    "codigoINE": "50298",
+    "poblacionActual": 8709
   }
 ]

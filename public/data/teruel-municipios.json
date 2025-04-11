@@ -3,1416 +3,1652 @@
     "nombre": "Ababuj",
     "provincia": "teruel",
     "slug": "ababuj",
-    "codigoINE": "44001"
+    "codigoINE": "44001",
+    "poblacionActual": 74
   },
   {
     "nombre": "Abejuela",
     "provincia": "teruel",
     "slug": "abejuela",
-    "codigoINE": "44002"
+    "codigoINE": "44002",
+    "poblacionActual": 57
   },
   {
     "nombre": "Aguatón",
     "provincia": "teruel",
     "slug": "aguaton",
-    "codigoINE": "44003"
+    "codigoINE": "44003",
+    "poblacionActual": 17
   },
   {
     "nombre": "Aguaviva",
     "provincia": "teruel",
     "slug": "aguaviva",
-    "codigoINE": "44004"
+    "codigoINE": "44004",
+    "poblacionActual": 547
   },
   {
     "nombre": "Aguilar del Alfambra",
     "provincia": "teruel",
     "slug": "aguilar-del-alfambra",
-    "codigoINE": "44005"
+    "codigoINE": "44005",
+    "poblacionActual": 82
   },
   {
     "nombre": "Alacón",
     "provincia": "teruel",
     "slug": "alacon",
-    "codigoINE": "44006"
+    "codigoINE": "44006",
+    "poblacionActual": 208
   },
   {
     "nombre": "Alba",
     "provincia": "teruel",
     "slug": "alba",
-    "codigoINE": "44007"
+    "codigoINE": "44007",
+    "poblacionActual": 187
   },
   {
     "nombre": "Albalate del Arzobispo",
     "provincia": "teruel",
     "slug": "albalate-del-arzobispo",
-    "codigoINE": "44008"
+    "codigoINE": "44008",
+    "poblacionActual": 1933
   },
   {
     "nombre": "Albarracín",
     "provincia": "teruel",
     "slug": "albarracin",
-    "codigoINE": "44009"
+    "codigoINE": "44009",
+    "poblacionActual": 1002
   },
   {
     "nombre": "Albentosa",
     "provincia": "teruel",
     "slug": "albentosa",
-    "codigoINE": "44010"
+    "codigoINE": "44010",
+    "poblacionActual": 299
   },
   {
     "nombre": "Alcaine",
     "provincia": "teruel",
     "slug": "alcaine",
-    "codigoINE": "44011"
+    "codigoINE": "44011",
+    "poblacionActual": 39
   },
   {
     "nombre": "Alcalá de la Selva",
     "provincia": "teruel",
     "slug": "alcala-de-la-selva",
-    "codigoINE": "44012"
+    "codigoINE": "44012",
+    "poblacionActual": 378
   },
   {
     "nombre": "Alcañiz",
     "provincia": "teruel",
     "slug": "alcaniz",
-    "codigoINE": "44013"
+    "codigoINE": "44013",
+    "poblacionActual": 16247
   },
   {
     "nombre": "Alcorisa",
     "provincia": "teruel",
     "slug": "alcorisa",
-    "codigoINE": "44014"
+    "codigoINE": "44014",
+    "poblacionActual": 3234
   },
   {
     "nombre": "Alfambra",
     "provincia": "teruel",
     "slug": "alfambra",
-    "codigoINE": "44016"
+    "codigoINE": "44016",
+    "poblacionActual": 487
   },
   {
     "nombre": "Aliaga",
     "provincia": "teruel",
     "slug": "aliaga",
-    "codigoINE": "44017"
+    "codigoINE": "44017",
+    "poblacionActual": 345
   },
   {
     "nombre": "Allepuz",
     "provincia": "teruel",
     "slug": "allepuz",
-    "codigoINE": "44021"
+    "codigoINE": "44021",
+    "poblacionActual": 124
   },
   {
     "nombre": "Alloza",
     "provincia": "teruel",
     "slug": "alloza",
-    "codigoINE": "44022"
+    "codigoINE": "44022",
+    "poblacionActual": 551
   },
   {
     "nombre": "Allueva",
     "provincia": "teruel",
     "slug": "allueva",
-    "codigoINE": "44023"
+    "codigoINE": "44023",
+    "poblacionActual": 30
   },
   {
     "nombre": "Almohaja",
     "provincia": "teruel",
     "slug": "almohaja",
-    "codigoINE": "44018"
+    "codigoINE": "44018",
+    "poblacionActual": 12
   },
   {
     "nombre": "Alobras",
     "provincia": "teruel",
     "slug": "alobras",
-    "codigoINE": "44019"
+    "codigoINE": "44019",
+    "poblacionActual": 69
   },
   {
     "nombre": "Alpeñés",
     "provincia": "teruel",
     "slug": "alpenes",
-    "codigoINE": "44020"
+    "codigoINE": "44020",
+    "poblacionActual": 26
   },
   {
     "nombre": "Anadón",
     "provincia": "teruel",
     "slug": "anadon",
-    "codigoINE": "44024"
+    "codigoINE": "44024",
+    "poblacionActual": 34
   },
   {
     "nombre": "Andorra",
     "provincia": "teruel",
     "slug": "andorra",
-    "codigoINE": "44025"
+    "codigoINE": "44025",
+    "poblacionActual": 7258
   },
   {
     "nombre": "Arcos de las Salinas",
     "provincia": "teruel",
     "slug": "arcos-de-las-salinas",
-    "codigoINE": "44026"
+    "codigoINE": "44026",
+    "poblacionActual": 110
   },
   {
     "nombre": "Arens de Lledó",
     "provincia": "teruel",
     "slug": "arens-de-lledo",
-    "codigoINE": "44027"
+    "codigoINE": "44027",
+    "poblacionActual": 194
   },
   {
     "nombre": "Argente",
     "provincia": "teruel",
     "slug": "argente",
-    "codigoINE": "44028"
+    "codigoINE": "44028",
+    "poblacionActual": 201
   },
   {
     "nombre": "Ariño",
     "provincia": "teruel",
     "slug": "arino",
-    "codigoINE": "44029"
+    "codigoINE": "44029",
+    "poblacionActual": 632
   },
   {
     "nombre": "Azaila",
     "provincia": "teruel",
     "slug": "azaila",
-    "codigoINE": "44031"
+    "codigoINE": "44031",
+    "poblacionActual": 95
   },
   {
     "nombre": "Bádenas",
     "provincia": "teruel",
     "slug": "badenas",
-    "codigoINE": "44032"
+    "codigoINE": "44032",
+    "poblacionActual": 24
   },
   {
     "nombre": "Báguena",
     "provincia": "teruel",
     "slug": "baguena",
-    "codigoINE": "44033"
+    "codigoINE": "44033",
+    "poblacionActual": 295
   },
   {
     "nombre": "Bañón",
     "provincia": "teruel",
     "slug": "banon",
-    "codigoINE": "44034"
+    "codigoINE": "44034",
+    "poblacionActual": 155
   },
   {
     "nombre": "Barrachina",
     "provincia": "teruel",
     "slug": "barrachina",
-    "codigoINE": "44035"
+    "codigoINE": "44035",
+    "poblacionActual": 115
   },
   {
     "nombre": "Bea",
     "provincia": "teruel",
     "slug": "bea",
-    "codigoINE": "44036"
+    "codigoINE": "44036",
+    "poblacionActual": 27
   },
   {
     "nombre": "Beceite",
     "provincia": "teruel",
     "slug": "beceite",
-    "codigoINE": "44037"
+    "codigoINE": "44037",
+    "poblacionActual": 562
   },
   {
     "nombre": "Bello",
     "provincia": "teruel",
     "slug": "bello",
-    "codigoINE": "44039"
+    "codigoINE": "44039",
+    "poblacionActual": 213
   },
   {
     "nombre": "Belmonte de San José",
     "provincia": "teruel",
     "slug": "belmonte-de-san-jose",
-    "codigoINE": "44038"
+    "codigoINE": "44038",
+    "poblacionActual": 135
   },
   {
     "nombre": "Berge",
     "provincia": "teruel",
     "slug": "berge",
-    "codigoINE": "44040"
+    "codigoINE": "44040",
+    "poblacionActual": 216
   },
   {
     "nombre": "Bezas",
     "provincia": "teruel",
     "slug": "bezas",
-    "codigoINE": "44041"
+    "codigoINE": "44041",
+    "poblacionActual": 68
   },
   {
     "nombre": "Blancas",
     "provincia": "teruel",
     "slug": "blancas",
-    "codigoINE": "44042"
+    "codigoINE": "44042",
+    "poblacionActual": 134
   },
   {
     "nombre": "Blesa",
     "provincia": "teruel",
     "slug": "blesa",
-    "codigoINE": "44043"
+    "codigoINE": "44043",
+    "poblacionActual": 76
   },
   {
     "nombre": "Bordón",
     "provincia": "teruel",
     "slug": "bordon",
-    "codigoINE": "44044"
+    "codigoINE": "44044",
+    "poblacionActual": 113
   },
   {
     "nombre": "Bronchales",
     "provincia": "teruel",
     "slug": "bronchales",
-    "codigoINE": "44045"
+    "codigoINE": "44045",
+    "poblacionActual": 451
   },
   {
     "nombre": "Bueña",
     "provincia": "teruel",
     "slug": "buena",
-    "codigoINE": "44046"
+    "codigoINE": "44046",
+    "poblacionActual": 55
   },
   {
     "nombre": "Burbáguena",
     "provincia": "teruel",
     "slug": "burbaguena",
-    "codigoINE": "44047"
+    "codigoINE": "44047",
+    "poblacionActual": 352
   },
   {
     "nombre": "Cabra de Mora",
     "provincia": "teruel",
     "slug": "cabra-de-mora",
-    "codigoINE": "44048"
+    "codigoINE": "44048",
+    "poblacionActual": 66
   },
   {
     "nombre": "Calaceite",
     "provincia": "teruel",
     "slug": "calaceite",
-    "codigoINE": "44049"
+    "codigoINE": "44049",
+    "poblacionActual": 960
   },
   {
     "nombre": "Calamocha",
     "provincia": "teruel",
     "slug": "calamocha",
-    "codigoINE": "44050"
+    "codigoINE": "44050",
+    "poblacionActual": 4542
   },
   {
     "nombre": "Calanda",
     "provincia": "teruel",
     "slug": "calanda",
-    "codigoINE": "44051"
+    "codigoINE": "44051",
+    "poblacionActual": 3678
   },
   {
     "nombre": "Calomarde",
     "provincia": "teruel",
     "slug": "calomarde",
-    "codigoINE": "44052"
+    "codigoINE": "44052",
+    "poblacionActual": 74
   },
   {
     "nombre": "Camañas",
     "provincia": "teruel",
     "slug": "camanas",
-    "codigoINE": "44053"
+    "codigoINE": "44053",
+    "poblacionActual": 127
   },
   {
     "nombre": "Camarena de la Sierra",
     "provincia": "teruel",
     "slug": "camarena-de-la-sierra",
-    "codigoINE": "44054"
+    "codigoINE": "44054",
+    "poblacionActual": 142
   },
   {
     "nombre": "Camarillas",
     "provincia": "teruel",
     "slug": "camarillas",
-    "codigoINE": "44055"
+    "codigoINE": "44055",
+    "poblacionActual": 120
   },
   {
     "nombre": "Caminreal",
     "provincia": "teruel",
     "slug": "caminreal",
-    "codigoINE": "44056"
+    "codigoINE": "44056",
+    "poblacionActual": 603
   },
   {
     "nombre": "Cantavieja",
     "provincia": "teruel",
     "slug": "cantavieja",
-    "codigoINE": "44059"
+    "codigoINE": "44059",
+    "poblacionActual": 719
   },
   {
     "nombre": "Cañada de Benatanduz",
     "provincia": "teruel",
     "slug": "canada-de-benatanduz",
-    "codigoINE": "44060"
+    "codigoINE": "44060",
+    "poblacionActual": 39
   },
   {
     "nombre": "Cañada Vellida",
     "provincia": "teruel",
     "slug": "canada-vellida",
-    "codigoINE": "44062"
+    "codigoINE": "44062",
+    "poblacionActual": 38
   },
   {
     "nombre": "Cañizar del Olivar",
     "provincia": "teruel",
     "slug": "canizar-del-olivar",
-    "codigoINE": "44063"
+    "codigoINE": "44063",
+    "poblacionActual": 111
   },
   {
     "nombre": "Cascante del Río",
     "provincia": "teruel",
     "slug": "cascante-del-rio",
-    "codigoINE": "44064"
+    "codigoINE": "44064",
+    "poblacionActual": 65
   },
   {
     "nombre": "Castejón de Tornos",
     "provincia": "teruel",
     "slug": "castejon-de-tornos",
-    "codigoINE": "44065"
+    "codigoINE": "44065",
+    "poblacionActual": 66
   },
   {
     "nombre": "Castel de Cabra",
     "provincia": "teruel",
     "slug": "castel-de-cabra",
-    "codigoINE": "44066"
+    "codigoINE": "44066",
+    "poblacionActual": 84
   },
   {
     "nombre": "Castellote",
     "provincia": "teruel",
     "slug": "castellote",
-    "codigoINE": "44071"
+    "codigoINE": "44071",
+    "poblacionActual": 663
   },
   {
     "nombre": "Castelnou",
     "provincia": "teruel",
     "slug": "castelnou",
-    "codigoINE": "44067"
+    "codigoINE": "44067",
+    "poblacionActual": 99
   },
   {
     "nombre": "Castelserás",
     "provincia": "teruel",
     "slug": "castelseras",
-    "codigoINE": "44068"
+    "codigoINE": "44068",
+    "poblacionActual": 801
   },
   {
     "nombre": "Cedrillas",
     "provincia": "teruel",
     "slug": "cedrillas",
-    "codigoINE": "44074"
+    "codigoINE": "44074",
+    "poblacionActual": 647
   },
   {
     "nombre": "Celadas",
     "provincia": "teruel",
     "slug": "celadas",
-    "codigoINE": "44075"
+    "codigoINE": "44075",
+    "poblacionActual": 329
   },
   {
     "nombre": "Cella",
     "provincia": "teruel",
     "slug": "cella",
-    "codigoINE": "44076"
+    "codigoINE": "44076",
+    "poblacionActual": 2690
   },
   {
     "nombre": "Corbalán",
     "provincia": "teruel",
     "slug": "corbalan",
-    "codigoINE": "44082"
+    "codigoINE": "44082",
+    "poblacionActual": 118
   },
   {
     "nombre": "Cortes de Aragón",
     "provincia": "teruel",
     "slug": "cortes-de-aragon",
-    "codigoINE": "44084"
+    "codigoINE": "44084",
+    "poblacionActual": 65
   },
   {
     "nombre": "Cosa",
     "provincia": "teruel",
     "slug": "cosa",
-    "codigoINE": "44085"
+    "codigoINE": "44085",
+    "poblacionActual": 62
   },
   {
     "nombre": "Cretas",
     "provincia": "teruel",
     "slug": "cretas",
-    "codigoINE": "44086"
+    "codigoINE": "44086",
+    "poblacionActual": 570
   },
   {
     "nombre": "Crivillén",
     "provincia": "teruel",
     "slug": "crivillen",
-    "codigoINE": "44087"
+    "codigoINE": "44087",
+    "poblacionActual": 91
   },
   {
     "nombre": "Cubla",
     "provincia": "teruel",
     "slug": "cubla",
-    "codigoINE": "44089"
+    "codigoINE": "44089",
+    "poblacionActual": 58
   },
   {
     "nombre": "Cucalón",
     "provincia": "teruel",
     "slug": "cucalon",
-    "codigoINE": "44090"
+    "codigoINE": "44090",
+    "poblacionActual": 79
   },
   {
     "nombre": "Cuevas de Almudén",
     "provincia": "teruel",
     "slug": "cuevas-de-almuden",
-    "codigoINE": "44093"
+    "codigoINE": "44093",
+    "poblacionActual": 115
   },
   {
     "nombre": "Cuevas Labradas",
     "provincia": "teruel",
     "slug": "cuevas-labradas",
-    "codigoINE": "44094"
+    "codigoINE": "44094",
+    "poblacionActual": 136
   },
   {
     "nombre": "Ejulve",
     "provincia": "teruel",
     "slug": "ejulve",
-    "codigoINE": "44096"
+    "codigoINE": "44096",
+    "poblacionActual": 169
   },
   {
     "nombre": "El Castellar",
     "provincia": "teruel",
     "slug": "el-castellar",
-    "codigoINE": "44070"
+    "codigoINE": "44070",
+    "poblacionActual": 56
   },
   {
     "nombre": "El Cuervo",
     "provincia": "teruel",
     "slug": "el-cuervo",
-    "codigoINE": "44092"
+    "codigoINE": "44092",
+    "poblacionActual": 95
   },
   {
     "nombre": "El Pobo",
     "provincia": "teruel",
     "slug": "el-pobo",
-    "codigoINE": "44185"
+    "codigoINE": "44185",
+    "poblacionActual": 98
   },
   {
     "nombre": "El Vallecillo",
     "provincia": "teruel",
     "slug": "el-vallecillo",
-    "codigoINE": "44249"
+    "codigoINE": "44249",
+    "poblacionActual": 37
   },
   {
     "nombre": "Escorihuela",
     "provincia": "teruel",
     "slug": "escorihuela",
-    "codigoINE": "44097"
+    "codigoINE": "44097",
+    "poblacionActual": 141
   },
   {
     "nombre": "Escucha",
     "provincia": "teruel",
     "slug": "escucha",
-    "codigoINE": "44099"
+    "codigoINE": "44099",
+    "poblacionActual": 772
   },
   {
     "nombre": "Estercuel",
     "provincia": "teruel",
     "slug": "estercuel",
-    "codigoINE": "44100"
+    "codigoINE": "44100",
+    "poblacionActual": 203
   },
   {
     "nombre": "Ferreruela de Huerva",
     "provincia": "teruel",
     "slug": "ferreruela-de-huerva",
-    "codigoINE": "44101"
+    "codigoINE": "44101",
+    "poblacionActual": 78
   },
   {
     "nombre": "Fonfría",
     "provincia": "teruel",
     "slug": "fonfria",
-    "codigoINE": "44102"
+    "codigoINE": "44102",
+    "poblacionActual": 35
   },
   {
     "nombre": "Formiche Alto",
     "provincia": "teruel",
     "slug": "formiche-alto",
-    "codigoINE": "44103"
+    "codigoINE": "44103",
+    "poblacionActual": 158
   },
   {
     "nombre": "Fórnoles",
     "provincia": "teruel",
     "slug": "fornoles",
-    "codigoINE": "44105"
+    "codigoINE": "44105",
+    "poblacionActual": 72
   },
   {
     "nombre": "Fortanete",
     "provincia": "teruel",
     "slug": "fortanete",
-    "codigoINE": "44106"
+    "codigoINE": "44106",
+    "poblacionActual": 216
   },
   {
     "nombre": "Foz-Calanda",
     "provincia": "teruel",
     "slug": "foz-calanda",
-    "codigoINE": "44107"
+    "codigoINE": "44107",
+    "poblacionActual": 281
   },
   {
     "nombre": "Frías de Albarracín",
     "provincia": "teruel",
     "slug": "frias-de-albarracin",
-    "codigoINE": "44109"
+    "codigoINE": "44109",
+    "poblacionActual": 112
   },
   {
     "nombre": "Fuenferrada",
     "provincia": "teruel",
     "slug": "fuenferrada",
-    "codigoINE": "44110"
+    "codigoINE": "44110",
+    "poblacionActual": 35
   },
   {
     "nombre": "Fuentes Calientes",
     "provincia": "teruel",
     "slug": "fuentes-calientes",
-    "codigoINE": "44111"
+    "codigoINE": "44111",
+    "poblacionActual": 82
   },
   {
     "nombre": "Fuentes Claras",
     "provincia": "teruel",
     "slug": "fuentes-claras",
-    "codigoINE": "44112"
+    "codigoINE": "44112",
+    "poblacionActual": 435
   },
   {
     "nombre": "Fuentes de Rubielos",
     "provincia": "teruel",
     "slug": "fuentes-de-rubielos",
-    "codigoINE": "44113"
+    "codigoINE": "44113",
+    "poblacionActual": 156
   },
   {
     "nombre": "Fuentespalda",
     "provincia": "teruel",
     "slug": "fuentespalda",
-    "codigoINE": "44114"
+    "codigoINE": "44114",
+    "poblacionActual": 289
   },
   {
     "nombre": "Galve",
     "provincia": "teruel",
     "slug": "galve",
-    "codigoINE": "44115"
+    "codigoINE": "44115",
+    "poblacionActual": 144
   },
   {
     "nombre": "Gargallo",
     "provincia": "teruel",
     "slug": "gargallo",
-    "codigoINE": "44116"
+    "codigoINE": "44116",
+    "poblacionActual": 87
   },
   {
     "nombre": "Gea de Albarracín",
     "provincia": "teruel",
     "slug": "gea-de-albarracin",
-    "codigoINE": "44117"
+    "codigoINE": "44117",
+    "poblacionActual": 467
   },
   {
     "nombre": "Griegos",
     "provincia": "teruel",
     "slug": "griegos",
-    "codigoINE": "44119"
+    "codigoINE": "44119",
+    "poblacionActual": 142
   },
   {
     "nombre": "Guadalaviar",
     "provincia": "teruel",
     "slug": "guadalaviar",
-    "codigoINE": "44120"
+    "codigoINE": "44120",
+    "poblacionActual": 237
   },
   {
     "nombre": "Gúdar",
     "provincia": "teruel",
     "slug": "gudar",
-    "codigoINE": "44121"
+    "codigoINE": "44121",
+    "poblacionActual": 73
   },
   {
     "nombre": "Híjar",
     "provincia": "teruel",
     "slug": "hijar",
-    "codigoINE": "44122"
+    "codigoINE": "44122",
+    "poblacionActual": 1760
   },
   {
     "nombre": "Hinojosa de Jarque",
     "provincia": "teruel",
     "slug": "hinojosa-de-jarque",
-    "codigoINE": "44123"
+    "codigoINE": "44123",
+    "poblacionActual": 99
   },
   {
     "nombre": "Huesa del Común",
     "provincia": "teruel",
     "slug": "huesa-del-comun",
-    "codigoINE": "44125"
+    "codigoINE": "44125",
+    "poblacionActual": 57
   },
   {
     "nombre": "Jabaloyas",
     "provincia": "teruel",
     "slug": "jabaloyas",
-    "codigoINE": "44127"
+    "codigoINE": "44127",
+    "poblacionActual": 63
   },
   {
     "nombre": "Jarque de la Val",
     "provincia": "teruel",
     "slug": "jarque-de-la-val",
-    "codigoINE": "44128"
+    "codigoINE": "44128",
+    "poblacionActual": 62
   },
   {
     "nombre": "Jatiel",
     "provincia": "teruel",
     "slug": "jatiel",
-    "codigoINE": "44129"
+    "codigoINE": "44129",
+    "poblacionActual": 49
   },
   {
     "nombre": "Jorcas",
     "provincia": "teruel",
     "slug": "jorcas",
-    "codigoINE": "44130"
+    "codigoINE": "44130",
+    "poblacionActual": 39
   },
   {
     "nombre": "Josa",
     "provincia": "teruel",
     "slug": "josa",
-    "codigoINE": "44131"
+    "codigoINE": "44131",
+    "poblacionActual": 35
   },
   {
     "nombre": "La Cañada de Verich",
     "provincia": "teruel",
     "slug": "la-canada-de-verich",
-    "codigoINE": "44061"
+    "codigoINE": "44061",
+    "poblacionActual": 80
   },
   {
     "nombre": "La Cerollera",
     "provincia": "teruel",
     "slug": "la-cerollera",
-    "codigoINE": "44077"
+    "codigoINE": "44077",
+    "poblacionActual": 77
   },
   {
     "nombre": "La Codoñera",
     "provincia": "teruel",
     "slug": "la-codonera",
-    "codigoINE": "44080"
+    "codigoINE": "44080",
+    "poblacionActual": 321
   },
   {
     "nombre": "La Cuba",
     "provincia": "teruel",
     "slug": "la-cuba",
-    "codigoINE": "44088"
+    "codigoINE": "44088",
+    "poblacionActual": 50
   },
   {
     "nombre": "La Fresneda",
     "provincia": "teruel",
     "slug": "la-fresneda",
-    "codigoINE": "44108"
+    "codigoINE": "44108",
+    "poblacionActual": 459
   },
   {
     "nombre": "La Ginebrosa",
     "provincia": "teruel",
     "slug": "la-ginebrosa",
-    "codigoINE": "44118"
+    "codigoINE": "44118",
+    "poblacionActual": 196
   },
   {
     "nombre": "La Hoz de la Vieja",
     "provincia": "teruel",
     "slug": "la-hoz-de-la-vieja",
-    "codigoINE": "44124"
+    "codigoINE": "44124",
+    "poblacionActual": 87
   },
   {
     "nombre": "La Iglesuela del Cid",
     "provincia": "teruel",
     "slug": "la-iglesuela-del-cid",
-    "codigoINE": "44126"
+    "codigoINE": "44126",
+    "poblacionActual": 377
   },
   {
     "nombre": "La Mata de los Olmos",
     "provincia": "teruel",
     "slug": "la-mata-de-los-olmos",
-    "codigoINE": "44146"
+    "codigoINE": "44146",
+    "poblacionActual": 271
   },
   {
     "nombre": "La Portellada",
     "provincia": "teruel",
     "slug": "la-portellada",
-    "codigoINE": "44187"
+    "codigoINE": "44187",
+    "poblacionActual": 241
   },
   {
     "nombre": "La Puebla de Híjar",
     "provincia": "teruel",
     "slug": "la-puebla-de-hijar",
-    "codigoINE": "44191"
+    "codigoINE": "44191",
+    "poblacionActual": 934
   },
   {
     "nombre": "La Puebla de Valverde",
     "provincia": "teruel",
     "slug": "la-puebla-de-valverde",
-    "codigoINE": "44192"
+    "codigoINE": "44192",
+    "poblacionActual": 465
   },
   {
     "nombre": "La Zoma",
     "provincia": "teruel",
     "slug": "la-zoma",
-    "codigoINE": "44268"
+    "codigoINE": "44268",
+    "poblacionActual": 27
   },
   {
     "nombre": "Lagueruela",
     "provincia": "teruel",
     "slug": "lagueruela",
-    "codigoINE": "44132"
+    "codigoINE": "44132",
+    "poblacionActual": 71
   },
   {
     "nombre": "Lanzuela",
     "provincia": "teruel",
     "slug": "lanzuela",
-    "codigoINE": "44133"
+    "codigoINE": "44133",
+    "poblacionActual": 24
   },
   {
     "nombre": "Las Parras de Castellote",
     "provincia": "teruel",
     "slug": "las-parras-de-castellote",
-    "codigoINE": "44178"
+    "codigoINE": "44178",
+    "poblacionActual": 57
   },
   {
     "nombre": "Libros",
     "provincia": "teruel",
     "slug": "libros",
-    "codigoINE": "44135"
+    "codigoINE": "44135",
+    "poblacionActual": 102
   },
   {
     "nombre": "Lidón",
     "provincia": "teruel",
     "slug": "lidon",
-    "codigoINE": "44136"
+    "codigoINE": "44136",
+    "poblacionActual": 56
   },
   {
     "nombre": "Linares de Mora",
     "provincia": "teruel",
     "slug": "linares-de-mora",
-    "codigoINE": "44137"
+    "codigoINE": "44137",
+    "poblacionActual": 233
   },
   {
     "nombre": "Lledó",
     "provincia": "teruel",
     "slug": "lledo",
-    "codigoINE": "44141"
+    "codigoINE": "44141",
+    "poblacionActual": 153
   },
   {
     "nombre": "Los Olmos",
     "provincia": "teruel",
     "slug": "los-olmos",
-    "codigoINE": "44173"
+    "codigoINE": "44173",
+    "poblacionActual": 117
   },
   {
     "nombre": "Loscos",
     "provincia": "teruel",
     "slug": "loscos",
-    "codigoINE": "44138"
+    "codigoINE": "44138",
+    "poblacionActual": 112
   },
   {
     "nombre": "Maicas",
     "provincia": "teruel",
     "slug": "maicas",
-    "codigoINE": "44142"
+    "codigoINE": "44142",
+    "poblacionActual": 35
   },
   {
     "nombre": "Manzanera",
     "provincia": "teruel",
     "slug": "manzanera",
-    "codigoINE": "44143"
+    "codigoINE": "44143",
+    "poblacionActual": 539
   },
   {
     "nombre": "Martín del Río",
     "provincia": "teruel",
     "slug": "martin-del-rio",
-    "codigoINE": "44144"
+    "codigoINE": "44144",
+    "poblacionActual": 370
   },
   {
     "nombre": "Mas de las Matas",
     "provincia": "teruel",
     "slug": "mas-de-las-matas",
-    "codigoINE": "44145"
+    "codigoINE": "44145",
+    "poblacionActual": 1225
   },
   {
     "nombre": "Mazaleón",
     "provincia": "teruel",
     "slug": "mazaleon",
-    "codigoINE": "44147"
+    "codigoINE": "44147",
+    "poblacionActual": 481
   },
   {
     "nombre": "Mezquita de Jarque",
     "provincia": "teruel",
     "slug": "mezquita-de-jarque",
-    "codigoINE": "44148"
+    "codigoINE": "44148",
+    "poblacionActual": 81
   },
   {
     "nombre": "Mirambel",
     "provincia": "teruel",
     "slug": "mirambel",
-    "codigoINE": "44149"
+    "codigoINE": "44149",
+    "poblacionActual": 107
   },
   {
     "nombre": "Miravete de la Sierra",
     "provincia": "teruel",
     "slug": "miravete-de-la-sierra",
-    "codigoINE": "44150"
+    "codigoINE": "44150",
+    "poblacionActual": 32
   },
   {
     "nombre": "Molinos",
     "provincia": "teruel",
     "slug": "molinos",
-    "codigoINE": "44151"
+    "codigoINE": "44151",
+    "poblacionActual": 228
   },
   {
     "nombre": "Monforte de Moyuela",
     "provincia": "teruel",
     "slug": "monforte-de-moyuela",
-    "codigoINE": "44152"
+    "codigoINE": "44152",
+    "poblacionActual": 75
   },
   {
     "nombre": "Monreal del Campo",
     "provincia": "teruel",
     "slug": "monreal-del-campo",
-    "codigoINE": "44153"
+    "codigoINE": "44153",
+    "poblacionActual": 2541
   },
   {
     "nombre": "Monroyo",
     "provincia": "teruel",
     "slug": "monroyo",
-    "codigoINE": "44154"
+    "codigoINE": "44154",
+    "poblacionActual": 308
   },
   {
     "nombre": "Montalbán",
     "provincia": "teruel",
     "slug": "montalban",
-    "codigoINE": "44155"
+    "codigoINE": "44155",
+    "poblacionActual": 1165
   },
   {
     "nombre": "Monteagudo del Castillo",
     "provincia": "teruel",
     "slug": "monteagudo-del-castillo",
-    "codigoINE": "44156"
+    "codigoINE": "44156",
+    "poblacionActual": 43
   },
   {
     "nombre": "Monterde de Albarracín",
     "provincia": "teruel",
     "slug": "monterde-de-albarracin",
-    "codigoINE": "44157"
+    "codigoINE": "44157",
+    "poblacionActual": 58
   },
   {
     "nombre": "Mora de Rubielos",
     "provincia": "teruel",
     "slug": "mora-de-rubielos",
-    "codigoINE": "44158"
+    "codigoINE": "44158",
+    "poblacionActual": 1618
   },
   {
     "nombre": "Moscardón",
     "provincia": "teruel",
     "slug": "moscardon",
-    "codigoINE": "44159"
+    "codigoINE": "44159",
+    "poblacionActual": 61
   },
   {
     "nombre": "Mosqueruela",
     "provincia": "teruel",
     "slug": "mosqueruela",
-    "codigoINE": "44160"
+    "codigoINE": "44160",
+    "poblacionActual": 544
   },
   {
     "nombre": "Muniesa",
     "provincia": "teruel",
     "slug": "muniesa",
-    "codigoINE": "44161"
+    "codigoINE": "44161",
+    "poblacionActual": 572
   },
   {
     "nombre": "Noguera de Albarracín",
     "provincia": "teruel",
     "slug": "noguera-de-albarracin",
-    "codigoINE": "44163"
+    "codigoINE": "44163",
+    "poblacionActual": 130
   },
   {
     "nombre": "Nogueras",
     "provincia": "teruel",
     "slug": "nogueras",
-    "codigoINE": "44164"
+    "codigoINE": "44164",
+    "poblacionActual": 32
   },
   {
     "nombre": "Nogueruelas",
     "provincia": "teruel",
     "slug": "nogueruelas",
-    "codigoINE": "44165"
+    "codigoINE": "44165",
+    "poblacionActual": 193
   },
   {
     "nombre": "Obón",
     "provincia": "teruel",
     "slug": "obon",
-    "codigoINE": "44167"
+    "codigoINE": "44167",
+    "poblacionActual": 31
   },
   {
     "nombre": "Odón",
     "provincia": "teruel",
     "slug": "odon",
-    "codigoINE": "44168"
+    "codigoINE": "44168",
+    "poblacionActual": 197
   },
   {
     "nombre": "Ojos Negros",
     "provincia": "teruel",
     "slug": "ojos-negros",
-    "codigoINE": "44169"
+    "codigoINE": "44169",
+    "poblacionActual": 328
   },
   {
     "nombre": "Olba",
     "provincia": "teruel",
     "slug": "olba",
-    "codigoINE": "44171"
+    "codigoINE": "44171",
+    "poblacionActual": 294
   },
   {
     "nombre": "Oliete",
     "provincia": "teruel",
     "slug": "oliete",
-    "codigoINE": "44172"
+    "codigoINE": "44172",
+    "poblacionActual": 367
   },
   {
     "nombre": "Orihuela del Tremedal",
     "provincia": "teruel",
     "slug": "orihuela-del-tremedal",
-    "codigoINE": "44174"
+    "codigoINE": "44174",
+    "poblacionActual": 458
   },
   {
     "nombre": "Orrios",
     "provincia": "teruel",
     "slug": "orrios",
-    "codigoINE": "44175"
+    "codigoINE": "44175",
+    "poblacionActual": 119
   },
   {
     "nombre": "Palomar de Arroyos",
     "provincia": "teruel",
     "slug": "palomar-de-arroyos",
-    "codigoINE": "44176"
+    "codigoINE": "44176",
+    "poblacionActual": 160
   },
   {
     "nombre": "Pancrudo",
     "provincia": "teruel",
     "slug": "pancrudo",
-    "codigoINE": "44177"
+    "codigoINE": "44177",
+    "poblacionActual": 113
   },
   {
     "nombre": "Peñarroya de Tastavins",
     "provincia": "teruel",
     "slug": "penarroya-de-tastavins",
-    "codigoINE": "44179"
+    "codigoINE": "44179",
+    "poblacionActual": 460
   },
   {
     "nombre": "Peracense",
     "provincia": "teruel",
     "slug": "peracense",
-    "codigoINE": "44180"
+    "codigoINE": "44180",
+    "poblacionActual": 74
   },
   {
     "nombre": "Peralejos",
     "provincia": "teruel",
     "slug": "peralejos",
-    "codigoINE": "44181"
+    "codigoINE": "44181",
+    "poblacionActual": 89
   },
   {
     "nombre": "Perales del Alfambra",
     "provincia": "teruel",
     "slug": "perales-del-alfambra",
-    "codigoINE": "44182"
+    "codigoINE": "44182",
+    "poblacionActual": 271
   },
   {
     "nombre": "Pitarque",
     "provincia": "teruel",
     "slug": "pitarque",
-    "codigoINE": "44183"
+    "codigoINE": "44183",
+    "poblacionActual": 61
   },
   {
     "nombre": "Plou",
     "provincia": "teruel",
     "slug": "plou",
-    "codigoINE": "44184"
+    "codigoINE": "44184",
+    "poblacionActual": 46
   },
   {
     "nombre": "Pozondón",
     "provincia": "teruel",
     "slug": "pozondon",
-    "codigoINE": "44189"
+    "codigoINE": "44189",
+    "poblacionActual": 54
   },
   {
     "nombre": "Pozuel del Campo",
     "provincia": "teruel",
     "slug": "pozuel-del-campo",
-    "codigoINE": "44190"
+    "codigoINE": "44190",
+    "poblacionActual": 66
   },
   {
     "nombre": "Puertomingalvo",
     "provincia": "teruel",
     "slug": "puertomingalvo",
-    "codigoINE": "44193"
+    "codigoINE": "44193",
+    "poblacionActual": 141
   },
   {
     "nombre": "Ráfales",
     "provincia": "teruel",
     "slug": "rafales",
-    "codigoINE": "44194"
+    "codigoINE": "44194",
+    "poblacionActual": 149
   },
   {
     "nombre": "Rillo",
     "provincia": "teruel",
     "slug": "rillo",
-    "codigoINE": "44195"
+    "codigoINE": "44195",
+    "poblacionActual": 98
   },
   {
     "nombre": "Riodeva",
     "provincia": "teruel",
     "slug": "riodeva",
-    "codigoINE": "44196"
+    "codigoINE": "44196",
+    "poblacionActual": 121
   },
   {
     "nombre": "Ródenas",
     "provincia": "teruel",
     "slug": "rodenas",
-    "codigoINE": "44197"
+    "codigoINE": "44197",
+    "poblacionActual": 61
   },
   {
     "nombre": "Royuela",
     "provincia": "teruel",
     "slug": "royuela",
-    "codigoINE": "44198"
+    "codigoINE": "44198",
+    "poblacionActual": 225
   },
   {
     "nombre": "Rubiales",
     "provincia": "teruel",
     "slug": "rubiales",
-    "codigoINE": "44199"
+    "codigoINE": "44199",
+    "poblacionActual": 43
   },
   {
     "nombre": "Rubielos de la Cérida",
     "provincia": "teruel",
     "slug": "rubielos-de-la-cerida",
-    "codigoINE": "44200"
+    "codigoINE": "44200",
+    "poblacionActual": 26
   },
   {
     "nombre": "Rubielos de Mora",
     "provincia": "teruel",
     "slug": "rubielos-de-mora",
-    "codigoINE": "44201"
+    "codigoINE": "44201",
+    "poblacionActual": 615
   },
   {
     "nombre": "Salcedillo",
     "provincia": "teruel",
     "slug": "salcedillo",
-    "codigoINE": "44203"
+    "codigoINE": "44203",
+    "poblacionActual": 13
   },
   {
     "nombre": "Saldón",
     "provincia": "teruel",
     "slug": "saldon",
-    "codigoINE": "44204"
+    "codigoINE": "44204",
+    "poblacionActual": 26
   },
   {
     "nombre": "Samper de Calanda",
     "provincia": "teruel",
     "slug": "samper-de-calanda",
-    "codigoINE": "44205"
+    "codigoINE": "44205",
+    "poblacionActual": 730
   },
   {
     "nombre": "San Agustín",
     "provincia": "teruel",
     "slug": "san-agustin",
-    "codigoINE": "44206"
+    "codigoINE": "44206",
+    "poblacionActual": 137
   },
   {
     "nombre": "San Martín del Río",
     "provincia": "teruel",
     "slug": "san-martin-del-rio",
-    "codigoINE": "44207"
+    "codigoINE": "44207",
+    "poblacionActual": 136
   },
   {
     "nombre": "Santa Cruz de Nogueras",
     "provincia": "teruel",
     "slug": "santa-cruz-de-nogueras",
-    "codigoINE": "44208"
+    "codigoINE": "44208",
+    "poblacionActual": 24
   },
   {
     "nombre": "Santa Eulalia",
     "provincia": "teruel",
     "slug": "santa-eulalia",
-    "codigoINE": "44209"
+    "codigoINE": "44209",
+    "poblacionActual": 1020
   },
   {
     "nombre": "Sarrión",
     "provincia": "teruel",
     "slug": "sarrion",
-    "codigoINE": "44210"
+    "codigoINE": "44210",
+    "poblacionActual": 1216
   },
   {
     "nombre": "Segura de los Baños",
     "provincia": "teruel",
     "slug": "segura-de-los-banos",
-    "codigoINE": "44211"
+    "codigoINE": "44211",
+    "poblacionActual": 48
   },
   {
     "nombre": "Seno",
     "provincia": "teruel",
     "slug": "seno",
-    "codigoINE": "44212"
+    "codigoINE": "44212",
+    "poblacionActual": 38
   },
   {
     "nombre": "Singra",
     "provincia": "teruel",
     "slug": "singra",
-    "codigoINE": "44213"
+    "codigoINE": "44213",
+    "poblacionActual": 75
   },
   {
     "nombre": "Terriente",
     "provincia": "teruel",
     "slug": "terriente",
-    "codigoINE": "44215"
+    "codigoINE": "44215",
+    "poblacionActual": 210
   },
   {
     "nombre": "Teruel",
     "provincia": "teruel",
     "slug": "teruel",
-    "codigoINE": "44216"
+    "codigoINE": "44216",
+    "poblacionActual": 36713
   },
   {
     "nombre": "Toril y Masegoso",
     "provincia": "teruel",
     "slug": "toril-y-masegoso",
-    "codigoINE": "44217"
+    "codigoINE": "44217",
+    "poblacionActual": 34
   },
   {
     "nombre": "Tormón",
     "provincia": "teruel",
     "slug": "tormon",
-    "codigoINE": "44218"
+    "codigoINE": "44218",
+    "poblacionActual": 31
   },
   {
     "nombre": "Tornos",
     "provincia": "teruel",
     "slug": "tornos",
-    "codigoINE": "44219"
+    "codigoINE": "44219",
+    "poblacionActual": 182
   },
   {
     "nombre": "Torralba de los Sisones",
     "provincia": "teruel",
     "slug": "torralba-de-los-sisones",
-    "codigoINE": "44220"
+    "codigoINE": "44220",
+    "poblacionActual": 146
   },
   {
     "nombre": "Torre de Arcas",
     "provincia": "teruel",
     "slug": "torre-de-arcas",
-    "codigoINE": "44223"
+    "codigoINE": "44223",
+    "poblacionActual": 82
   },
   {
     "nombre": "Torre de las Arcas",
     "provincia": "teruel",
     "slug": "torre-de-las-arcas",
-    "codigoINE": "44224"
+    "codigoINE": "44224",
+    "poblacionActual": 20
   },
   {
     "nombre": "Torre del Compte",
     "provincia": "teruel",
     "slug": "torre-del-compte",
-    "codigoINE": "44225"
+    "codigoINE": "44225",
+    "poblacionActual": 122
   },
   {
     "nombre": "Torre los Negros",
     "provincia": "teruel",
     "slug": "torre-los-negros",
-    "codigoINE": "44227"
+    "codigoINE": "44227",
+    "poblacionActual": 80
   },
   {
     "nombre": "Torrecilla de Alcañiz",
     "provincia": "teruel",
     "slug": "torrecilla-de-alcaniz",
-    "codigoINE": "44221"
+    "codigoINE": "44221",
+    "poblacionActual": 436
   },
   {
     "nombre": "Torrecilla del Rebollar",
     "provincia": "teruel",
     "slug": "torrecilla-del-rebollar",
-    "codigoINE": "44222"
+    "codigoINE": "44222",
+    "poblacionActual": 117
   },
   {
     "nombre": "Torrelacárcel",
     "provincia": "teruel",
     "slug": "torrelacarcel",
-    "codigoINE": "44226"
+    "codigoINE": "44226",
+    "poblacionActual": 131
   },
   {
     "nombre": "Torremocha de Jiloca",
     "provincia": "teruel",
     "slug": "torremocha-de-jiloca",
-    "codigoINE": "44228"
+    "codigoINE": "44228",
+    "poblacionActual": 103
   },
   {
     "nombre": "Torres de Albarracín",
     "provincia": "teruel",
     "slug": "torres-de-albarracin",
-    "codigoINE": "44229"
+    "codigoINE": "44229",
+    "poblacionActual": 191
   },
   {
     "nombre": "Torrevelilla",
     "provincia": "teruel",
     "slug": "torrevelilla",
-    "codigoINE": "44230"
+    "codigoINE": "44230",
+    "poblacionActual": 182
   },
   {
     "nombre": "Torrijas",
     "provincia": "teruel",
     "slug": "torrijas",
-    "codigoINE": "44231"
+    "codigoINE": "44231",
+    "poblacionActual": 36
   },
   {
     "nombre": "Torrijo del Campo",
     "provincia": "teruel",
     "slug": "torrijo-del-campo",
-    "codigoINE": "44232"
+    "codigoINE": "44232",
+    "poblacionActual": 502
   },
   {
     "nombre": "Tramacastiel",
     "provincia": "teruel",
     "slug": "tramacastiel",
-    "codigoINE": "44234"
+    "codigoINE": "44234",
+    "poblacionActual": 58
   },
   {
     "nombre": "Tramacastilla",
     "provincia": "teruel",
     "slug": "tramacastilla",
-    "codigoINE": "44235"
+    "codigoINE": "44235",
+    "poblacionActual": 130
   },
   {
     "nombre": "Tronchón",
     "provincia": "teruel",
     "slug": "tronchon",
-    "codigoINE": "44236"
+    "codigoINE": "44236",
+    "poblacionActual": 60
   },
   {
     "nombre": "Urrea de Gaén",
     "provincia": "teruel",
     "slug": "urrea-de-gaen",
-    "codigoINE": "44237"
+    "codigoINE": "44237",
+    "poblacionActual": 440
   },
   {
     "nombre": "Utrillas",
     "provincia": "teruel",
     "slug": "utrillas",
-    "codigoINE": "44238"
+    "codigoINE": "44238",
+    "poblacionActual": 3102
   },
   {
     "nombre": "Valacloche",
     "provincia": "teruel",
     "slug": "valacloche",
-    "codigoINE": "44239"
+    "codigoINE": "44239",
+    "poblacionActual": 32
   },
   {
     "nombre": "Valbona",
     "provincia": "teruel",
     "slug": "valbona",
-    "codigoINE": "44240"
+    "codigoINE": "44240",
+    "poblacionActual": 192
   },
   {
     "nombre": "Valdealgorfa",
     "provincia": "teruel",
     "slug": "valdealgorfa",
-    "codigoINE": "44241"
+    "codigoINE": "44241",
+    "poblacionActual": 580
   },
   {
     "nombre": "Valdecuenca",
     "provincia": "teruel",
     "slug": "valdecuenca",
-    "codigoINE": "44243"
+    "codigoINE": "44243",
+    "poblacionActual": 28
   },
   {
     "nombre": "Valdelinares",
     "provincia": "teruel",
     "slug": "valdelinares",
-    "codigoINE": "44244"
+    "codigoINE": "44244",
+    "poblacionActual": 75
   },
   {
     "nombre": "Valdeltormo",
     "provincia": "teruel",
     "slug": "valdeltormo",
-    "codigoINE": "44245"
+    "codigoINE": "44245",
+    "poblacionActual": 305
   },
   {
     "nombre": "Valderrobres",
     "provincia": "teruel",
     "slug": "valderrobres",
-    "codigoINE": "44246"
+    "codigoINE": "44246",
+    "poblacionActual": 2545
   },
   {
     "nombre": "Valjunquera",
     "provincia": "teruel",
     "slug": "valjunquera",
-    "codigoINE": "44247"
+    "codigoINE": "44247",
+    "poblacionActual": 328
   },
   {
     "nombre": "Veguillas de la Sierra",
     "provincia": "teruel",
     "slug": "veguillas-de-la-sierra",
-    "codigoINE": "44250"
+    "codigoINE": "44250",
+    "poblacionActual": 24
   },
   {
     "nombre": "Villafranca del Campo",
     "provincia": "teruel",
     "slug": "villafranca-del-campo",
-    "codigoINE": "44251"
+    "codigoINE": "44251",
+    "poblacionActual": 296
   },
   {
     "nombre": "Villahermosa del Campo",
     "provincia": "teruel",
     "slug": "villahermosa-del-campo",
-    "codigoINE": "44252"
+    "codigoINE": "44252",
+    "poblacionActual": 93
   },
   {
     "nombre": "Villanueva del Rebollar de la Sierra",
     "provincia": "teruel",
     "slug": "villanueva-del-rebollar-de-la-sierra",
-    "codigoINE": "44256"
+    "codigoINE": "44256",
+    "poblacionActual": 48
   },
   {
     "nombre": "Villar del Cobo",
     "provincia": "teruel",
     "slug": "villar-del-cobo",
-    "codigoINE": "44257"
+    "codigoINE": "44257",
+    "poblacionActual": 162
   },
   {
     "nombre": "Villar del Salz",
     "provincia": "teruel",
     "slug": "villar-del-salz",
-    "codigoINE": "44258"
+    "codigoINE": "44258",
+    "poblacionActual": 53
   },
   {
     "nombre": "Villarluengo",
     "provincia": "teruel",
     "slug": "villarluengo",
-    "codigoINE": "44260"
+    "codigoINE": "44260",
+    "poblacionActual": 163
   },
   {
     "nombre": "Villarquemado",
     "provincia": "teruel",
     "slug": "villarquemado",
-    "codigoINE": "44261"
+    "codigoINE": "44261",
+    "poblacionActual": 870
   },
   {
     "nombre": "Villarroya de los Pinares",
     "provincia": "teruel",
     "slug": "villarroya-de-los-pinares",
-    "codigoINE": "44262"
+    "codigoINE": "44262",
+    "poblacionActual": 163
   },
   {
     "nombre": "Villastar",
     "provincia": "teruel",
     "slug": "villastar",
-    "codigoINE": "44263"
+    "codigoINE": "44263",
+    "poblacionActual": 551
   },
   {
     "nombre": "Villel",
     "provincia": "teruel",
     "slug": "villel",
-    "codigoINE": "44264"
+    "codigoINE": "44264",
+    "poblacionActual": 337
   },
   {
     "nombre": "Vinaceite",
     "provincia": "teruel",
     "slug": "vinaceite",
-    "codigoINE": "44265"
+    "codigoINE": "44265",
+    "poblacionActual": 182
   },
   {
     "nombre": "Visiedo",
     "provincia": "teruel",
     "slug": "visiedo",
-    "codigoINE": "44266"
+    "codigoINE": "44266",
+    "poblacionActual": 131
   },
   {
     "nombre": "Vivel del Río Martín",
     "provincia": "teruel",
     "slug": "vivel-del-rio-martin",
-    "codigoINE": "44267"
+    "codigoINE": "44267",
+    "poblacionActual": 63
   }
 ]

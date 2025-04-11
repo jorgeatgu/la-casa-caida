@@ -1,237 +1,237 @@
-cp,name
-44001,Ababuj
-44002,Abejuela
-44003,Aguatón
-44004,Aguaviva
-44005,Aguilar del Alfambra
-44006,Alacón
-44007,Alba
-44008,Albalate del Arzobispo
-44009,Albarracín
-44010,Albentosa
-44011,Alcaine
-44012,Alcalá de la Selva
-44013,Alcañiz
-44014,Alcorisa
-44016,Alfambra
-44017,Aliaga
-44018,Almohaja
-44019,Alobras
-44020,Alpeñés
-44021,Allepuz
-44022,Alloza
-44023,Allueva
-44024,Anadón
-44025,Andorra
-44026,Arcos de las Salinas
-44027,Arens de Lledó
-44028,Argente
-44029,Ariño
-44031,Azaila
-44032,Bádenas
-44033,Báguena
-44034,Bañón
-44035,Barrachina
-44036,Bea
-44037,Beceite
-44038,Belmonte de San José
-44039,Bello
-44040,Berge
-44041,Bezas
-44042,Blancas
-44043,Blesa
-44044,Bordón
-44045,Bronchales
-44046,Bueña
-44047,Burbáguena
-44048,Cabra de Mora
-44049,Calaceite
-44050,Calamocha
-44051,Calanda
-44052,Calomarde
-44053,Camañas
-44054,Camarena de la Sierra
-44055,Camarillas
-44056,Caminreal
-44059,Cantavieja
-44060,Cañada de Benatanduz
-44061,La Cañada de Verich
-44062,Cañada Vellida
-44063,Cañizar del Olivar
-44064,Cascante del Río
-44065,Castejón de Tornos
-44066,Castel de Cabra
-44067,Castelnou
-44068,Castelserás
-44070,El Castellar
-44071,Castellote
-44074,Cedrillas
-44075,Celadas
-44076,Cella
-44077,La Cerollera
-44080,La Codoñera
-44082,Corbalán
-44084,Cortes de Aragón
-44085,Cosa
-44086,Cretas
-44087,Crivillén
-44088,La Cuba
-44089,Cubla
-44090,Cucalón
-44092,El Cuervo
-44093,Cuevas de Almudén
-44094,Cuevas Labradas
-44096,Ejulve
-44097,Escorihuela
-44099,Escucha
-44100,Estercuel
-44101,Ferreruela de Huerva
-44102,Fonfría
-44103,Formiche Alto
-44105,Fórnoles
-44106,Fortanete
-44107,Foz-Calanda
-44108,La Fresneda
-44109,Frías de Albarracín
-44110,Fuenferrada
-44111,Fuentes Calientes
-44112,Fuentes Claras
-44113,Fuentes de Rubielos
-44114,Fuentespalda
-44115,Galve
-44116,Gargallo
-44117,Gea de Albarracín
-44118,La Ginebrosa
-44119,Griegos
-44120,Guadalaviar
-44121,Gúdar
-44122,Híjar
-44123,Hinojosa de Jarque
-44124,La Hoz de la Vieja
-44125,Huesa del Común
-44126,La Iglesuela del Cid
-44127,Jabaloyas
-44128,Jarque de la Val
-44129,Jatiel
-44130,Jorcas
-44131,Josa
-44132,Lagueruela
-44133,Lanzuela
-44135,Libros
-44136,Lidón
-44137,Linares de Mora
-44138,Loscos
-44141,Lledó
-44142,Maicas
-44143,Manzanera
-44144,Martín del Río
-44145,Mas de las Matas
-44146,La Mata de los Olmos
-44147,Mazaleón
-44148,Mezquita de Jarque
-44149,Mirambel
-44150,Miravete de la Sierra
-44151,Molinos
-44152,Monforte de Moyuela
-44153,Monreal del Campo
-44154,Monroyo
-44155,Montalbán
-44156,Monteagudo del Castillo
-44157,Monterde de Albarracín
-44158,Mora de Rubielos
-44159,Moscardón
-44160,Mosqueruela
-44161,Muniesa
-44163,Noguera de Albarracín
-44164,Nogueras
-44165,Nogueruelas
-44167,Obón
-44168,Odón
-44169,Ojos Negros
-44171,Olba
-44172,Oliete
-44173,Los Olmos
-44174,Orihuela del Tremedal
-44175,Orrios
-44176,Palomar de Arroyos
-44177,Pancrudo
-44178,Las Parras de Castellote
-44179,Peñarroya de Tastavins
-44180,Peracense
-44181,Peralejos
-44182,Perales del Alfambra
-44183,Pitarque
-44184,Plou
-44185,El Pobo
-44187,La Portellada
-44189,Pozondón
-44190,Pozuel del Campo
-44191,La Puebla de Híjar
-44192,La Puebla de Valverde
-44193,Puertomingalvo
-44194,Ráfales
-44195,Rillo
-44196,Riodeva
-44197,Ródenas
-44198,Royuela
-44199,Rubiales
-44200,Rubielos de la Cérida
-44201,Rubielos de Mora
-44203,Salcedillo
-44204,Saldón
-44205,Samper de Calanda
-44206,San Agustín
-44207,San Martín del Río
-44208,Santa Cruz de Nogueras
-44209,Santa Eulalia
-44210,Sarrión
-44211,Segura de los Baños
-44212,Seno
-44213,Singra
-44215,Terriente
-44216,Teruel
-44217,Toril y Masegoso
-44218,Tormón
-44219,Tornos
-44220,Torralba de los Sisones
-44221,Torrecilla de Alcañiz
-44222,Torrecilla del Rebollar
-44223,Torre de Arcas
-44224,Torre de las Arcas
-44225,Torre del Compte
-44226,Torrelacárcel
-44227,Torre los Negros
-44228,Torremocha de Jiloca
-44229,Torres de Albarracín
-44230,Torrevelilla
-44231,Torrijas
-44232,Torrijo del Campo
-44234,Tramacastiel
-44235,Tramacastilla
-44236,Tronchón
-44237,Urrea de Gaén
-44238,Utrillas
-44239,Valacloche
-44240,Valbona
-44241,Valdealgorfa
-44243,Valdecuenca
-44244,Valdelinares
-44245,Valdeltormo
-44246,Valderrobres
-44247,Valjunquera
-44249,El Vallecillo
-44250,Veguillas de la Sierra
-44251,Villafranca del Campo
-44252,Villahermosa del Campo
-44256,Villanueva del Rebollar de la Sierra
-44257,Villar del Cobo
-44258,Villar del Salz
-44260,Villarluengo
-44261,Villarquemado
-44262,Villarroya de los Pinares
-44263,Villastar
-44264,Villel
-44265,Vinaceite
-44266,Visiedo
-44267,Vivel del Río Martín
-44268,La Zoma
+year,cp,name,population
+2024,44001,Ababuj,74
+2024,44002,Abejuela,57
+2024,44003,Aguatón,17
+2024,44004,Aguaviva,547
+2024,44005,Aguilar del Alfambra,82
+2024,44006,Alacón,208
+2024,44007,Alba,187
+2024,44008,Albalate del Arzobispo,1933
+2024,44009,Albarracín,1002
+2024,44010,Albentosa,299
+2024,44011,Alcaine,39
+2024,44012,Alcalá de la Selva,378
+2024,44013,Alcañiz,16247
+2024,44014,Alcorisa,3234
+2024,44016,Alfambra,487
+2024,44017,Aliaga,345
+2024,44021,Allepuz,124
+2024,44022,Alloza,551
+2024,44023,Allueva,30
+2024,44018,Almohaja,12
+2024,44019,Alobras,69
+2024,44020,Alpeñés,26
+2024,44024,Anadón,34
+2024,44025,Andorra,7258
+2024,44026,Arcos de las Salinas,110
+2024,44027,Arens de Lledó,194
+2024,44028,Argente,201
+2024,44029,Ariño,632
+2024,44031,Azaila,95
+2024,44032,Bádenas,24
+2024,44033,Báguena,295
+2024,44034,Bañón,155
+2024,44035,Barrachina,115
+2024,44036,Bea,27
+2024,44037,Beceite,562
+2024,44039,Bello,213
+2024,44038,Belmonte de San José,135
+2024,44040,Berge,216
+2024,44041,Bezas,68
+2024,44042,Blancas,134
+2024,44043,Blesa,76
+2024,44044,Bordón,113
+2024,44045,Bronchales,451
+2024,44046,Bueña,55
+2024,44047,Burbáguena,352
+2024,44048,Cabra de Mora,66
+2024,44049,Calaceite,960
+2024,44050,Calamocha,4542
+2024,44051,Calanda,3678
+2024,44052,Calomarde,74
+2024,44053,Camañas,127
+2024,44054,Camarena de la Sierra,142
+2024,44055,Camarillas,120
+2024,44056,Caminreal,603
+2024,44059,Cantavieja,719
+2024,44060,Cañada de Benatanduz,39
+2024,44061,La Cañada de Verich,80
+2024,44062,Cañada Vellida,38
+2024,44063,Cañizar del Olivar,111
+2024,44064,Cascante del Río,65
+2024,44065,Castejón de Tornos,66
+2024,44066,Castel de Cabra,84
+2024,44070,El Castellar,56
+2024,44071,Castellote,663
+2024,44067,Castelnou,99
+2024,44068,Castelserás,801
+2024,44074,Cedrillas,647
+2024,44075,Celadas,329
+2024,44076,Cella,2690
+2024,44077,La Cerollera,77
+2024,44080,La Codoñera,321
+2024,44082,Corbalán,118
+2024,44084,Cortes de Aragón,65
+2024,44085,Cosa,62
+2024,44086,Cretas,570
+2024,44087,Crivillén,91
+2024,44088,La Cuba,50
+2024,44089,Cubla,58
+2024,44090,Cucalón,79
+2024,44092,El Cuervo,95
+2024,44093,Cuevas de Almudén,115
+2024,44094,Cuevas Labradas,136
+2024,44096,Ejulve,169
+2024,44097,Escorihuela,141
+2024,44099,Escucha,772
+2024,44100,Estercuel,203
+2024,44101,Ferreruela de Huerva,78
+2024,44102,Fonfría,35
+2024,44103,Formiche Alto,158
+2024,44105,Fórnoles,72
+2024,44106,Fortanete,216
+2024,44107,Foz-Calanda,281
+2024,44108,La Fresneda,459
+2024,44109,Frías de Albarracín,112
+2024,44110,Fuenferrada,35
+2024,44111,Fuentes Calientes,82
+2024,44112,Fuentes Claras,435
+2024,44113,Fuentes de Rubielos,156
+2024,44114,Fuentespalda,289
+2024,44115,Galve,144
+2024,44116,Gargallo,87
+2024,44117,Gea de Albarracín,467
+2024,44118,La Ginebrosa,196
+2024,44119,Griegos,142
+2024,44120,Guadalaviar,237
+2024,44121,Gúdar,73
+2024,44122,Híjar,1760
+2024,44123,Hinojosa de Jarque,99
+2024,44124,La Hoz de la Vieja,87
+2024,44125,Huesa del Común,57
+2024,44126,La Iglesuela del Cid,377
+2024,44127,Jabaloyas,63
+2024,44128,Jarque de la Val,62
+2024,44129,Jatiel,49
+2024,44130,Jorcas,39
+2024,44131,Josa,35
+2024,44132,Lagueruela,71
+2024,44133,Lanzuela,24
+2024,44135,Libros,102
+2024,44136,Lidón,56
+2024,44137,Linares de Mora,233
+2024,44141,Lledó,153
+2024,44138,Loscos,112
+2024,44142,Maicas,35
+2024,44143,Manzanera,539
+2024,44144,Martín del Río,370
+2024,44145,Mas de las Matas,1225
+2024,44146,La Mata de los Olmos,271
+2024,44147,Mazaleón,481
+2024,44148,Mezquita de Jarque,81
+2024,44149,Mirambel,107
+2024,44150,Miravete de la Sierra,32
+2024,44151,Molinos,228
+2024,44152,Monforte de Moyuela,75
+2024,44153,Monreal del Campo,2541
+2024,44154,Monroyo,308
+2024,44155,Montalbán,1165
+2024,44156,Monteagudo del Castillo,43
+2024,44157,Monterde de Albarracín,58
+2024,44158,Mora de Rubielos,1618
+2024,44159,Moscardón,61
+2024,44160,Mosqueruela,544
+2024,44161,Muniesa,572
+2024,44163,Noguera de Albarracín,130
+2024,44164,Nogueras,32
+2024,44165,Nogueruelas,193
+2024,44167,Obón,31
+2024,44168,Odón,197
+2024,44169,Ojos Negros,328
+2024,44171,Olba,294
+2024,44172,Oliete,367
+2024,44173,Los Olmos,117
+2024,44174,Orihuela del Tremedal,458
+2024,44175,Orrios,119
+2024,44176,Palomar de Arroyos,160
+2024,44177,Pancrudo,113
+2024,44178,Las Parras de Castellote,57
+2024,44179,Peñarroya de Tastavins,460
+2024,44180,Peracense,74
+2024,44181,Peralejos,89
+2024,44182,Perales del Alfambra,271
+2024,44183,Pitarque,61
+2024,44184,Plou,46
+2024,44185,El Pobo,98
+2024,44187,La Portellada,241
+2024,44189,Pozondón,54
+2024,44190,Pozuel del Campo,66
+2024,44191,La Puebla de Híjar,934
+2024,44192,La Puebla de Valverde,465
+2024,44193,Puertomingalvo,141
+2024,44194,Ráfales,149
+2024,44195,Rillo,98
+2024,44196,Riodeva,121
+2024,44197,Ródenas,61
+2024,44198,Royuela,225
+2024,44199,Rubiales,43
+2024,44200,Rubielos de la Cérida,26
+2024,44201,Rubielos de Mora,615
+2024,44203,Salcedillo,13
+2024,44204,Saldón,26
+2024,44205,Samper de Calanda,730
+2024,44206,San Agustín,137
+2024,44207,San Martín del Río,136
+2024,44208,Santa Cruz de Nogueras,24
+2024,44209,Santa Eulalia,1020
+2024,44210,Sarrión,1216
+2024,44211,Segura de los Baños,48
+2024,44212,Seno,38
+2024,44213,Singra,75
+2024,44215,Terriente,210
+2024,44216,Teruel,36713
+2024,44217,Toril y Masegoso,34
+2024,44218,Tormón,31
+2024,44219,Tornos,182
+2024,44220,Torralba de los Sisones,146
+2024,44223,Torre de Arcas,82
+2024,44224,Torre de las Arcas,20
+2024,44225,Torre del Compte,122
+2024,44227,Torre los Negros,80
+2024,44221,Torrecilla de Alcañiz,436
+2024,44222,Torrecilla del Rebollar,117
+2024,44226,Torrelacárcel,131
+2024,44228,Torremocha de Jiloca,103
+2024,44229,Torres de Albarracín,191
+2024,44230,Torrevelilla,182
+2024,44231,Torrijas,36
+2024,44232,Torrijo del Campo,502
+2024,44234,Tramacastiel,58
+2024,44235,Tramacastilla,130
+2024,44236,Tronchón,60
+2024,44237,Urrea de Gaén,440
+2024,44238,Utrillas,3102
+2024,44239,Valacloche,32
+2024,44240,Valbona,192
+2024,44241,Valdealgorfa,580
+2024,44243,Valdecuenca,28
+2024,44244,Valdelinares,75
+2024,44245,Valdeltormo,305
+2024,44246,Valderrobres,2545
+2024,44247,Valjunquera,328
+2024,44249,El Vallecillo,37
+2024,44250,Veguillas de la Sierra,24
+2024,44251,Villafranca del Campo,296
+2024,44252,Villahermosa del Campo,93
+2024,44256,Villanueva del Rebollar de la Sierra,48
+2024,44257,Villar del Cobo,162
+2024,44258,Villar del Salz,53
+2024,44260,Villarluengo,163
+2024,44261,Villarquemado,870
+2024,44262,Villarroya de los Pinares,163
+2024,44263,Villastar,551
+2024,44264,Villel,337
+2024,44265,Vinaceite,182
+2024,44266,Visiedo,131
+2024,44267,Vivel del Río Martín,63
+2024,44268,La Zoma,27

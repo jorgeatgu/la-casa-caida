@@ -1,294 +1,294 @@
-cp,name
-50001,Abanto
-50002,Acered
-50003,Agón
-50004,Aguarón
-50005,Aguilón
-50006,Ainzón
-50007,Aladrén
-50008,Alagón
-50009,Alarba
-50010,Alberite de San Juan
-50011,Albeta
-50012,Alborge
-50013,Alcalá de Ebro
-50014,Alcalá de Moncayo
-50015,Alconchel de Ariza
-50016,Aldehuela de Liestos
-50017,Alfajarín
-50018,Alfamén
-50019,Alforque
-50020,Alhama de Aragón
-50021,Almochuel
-50022,La Almolda
-50023,Almonacid de la Cuba
-50024,Almonacid de la Sierra
-50025,La Almunia de Doña Godina
-50026,Alpartir
-50027,Ambel
-50028,Anento
-50029,Aniñón
-50030,Añón de Moncayo
-50031,Aranda de Moncayo
-50032,Arándiga
-50033,Ardisa
-50034,Ariza
-50035,Artieda
-50036,Asín
-50037,Atea
-50038,Ateca
-50039,Azuara
-50040,Badules
-50041,Bagüés
-50042,Balconchán
-50043,Bárboles
-50044,Bardallur
-50045,Belchite
-50046,Belmonte de Gracián
-50047,Berdejo
-50048,Berrueco
-50050,Bijuesca
-50051,Biota
-50052,Bisimbre
-50053,Boquiñeni
-50054,Bordalba
-50055,Borja
-50056,Botorrita
-50057,Brea de Aragón
-50058,Bubierca
-50059,Bujaraloz
-50060,Bulbuente
-50061,Bureta
-50062,El Burgo de Ebro
-50063,El Buste
-50064,Cabañas de Ebro
-50065,Cabolafuente
-50066,Cadrete
-50067,Calatayud
-50068,Calatorao
-50069,Calcena
-50070,Calmarza
-50071,Campillo de Aragón
-50072,Carenas
-50073,Cariñena
-50074,Caspe
-50075,Castejón de Alarba
-50076,Castejón de las Armas
-50077,Castejón de Valdejasa
-50078,Castiliscar
-50079,Cervera de la Cañada
-50080,Cerveruela
-50081,Cetina
-50082,Cimballa
-50083,Cinco Olivas
-50084,Clarés de Ribota
-50085,Codo
-50086,Codos
-50087,Contamina
-50088,Cosuenda
-50089,Cuarte de Huerva
-50090,Cubel
-50091,Las Cuerlas
-50092,Chiprana
-50093,Chodes
-50094,Daroca
-50095,Ejea de los Caballeros
-50096,Embid de Ariza
-50098,Encinacorba
-50099,Épila
-50100,Erla
-50101,Escatrón
-50102,Fabara
-50104,Farlete
-50105,Fayón
-50106,Los Fayos
-50107,Figueruelas
-50108,Fombuena
-50109,El Frago
-50110,El Frasno
-50111,Fréscano
-50113,Fuendejalón
-50114,Fuendetodos
-50115,Fuentes de Ebro
-50116,Fuentes de Jiloca
-50117,Gallocanta
-50118,Gallur
-50119,Gelsa
-50120,Godojos
-50121,Gotor
-50122,Grisel
-50123,Grisén
-50124,Herrera de los Navarros
-50125,Ibdes
-50126,Illueca
-50128,Isuerre
-50129,Jaraba
-50130,Jarque de Moncayo
-50131,Jaulín
-50132,La Joyosa
-50133,Lagata
-50134,Langa del Castillo
-50135,Layana
-50136,Lécera
-50137,Leciñena
-50138,Lechón
-50139,Letux
-50140,Litago
-50141,Lituénigo
-50142,Lobera de Onsella
-50143,Longares
-50144,Longás
-50146,Lucena de Jalón
-50147,Luceni
-50148,Luesia
-50149,Luesma
-50150,Lumpiaque
-50151,Luna
-50152,Maella
-50153,Magallón
-50154,Mainar
-50155,Malanquilla
-50156,Maleján
-50157,Malón
-50159,Maluenda
-50160,Mallén
-50161,Manchones
-50162,Mara
-50163,María de Huerva
-50164,Mediana de Aragón
-50165,Mequinenza
-50166,Mesones de Isuela
-50167,Mezalocha
-50168,Mianos
-50169,Miedes de Aragón
-50170,Monegrillo
-50171,Moneva
-50172,Monreal de Ariza
-50173,Monterde
-50174,Montón
-50175,Morata de Jalón
-50176,Morata de Jiloca
-50177,Morés
-50178,Moros
-50179,Moyuela
-50180,Mozota
-50181,Muel
-50182,La Muela
-50183,Munébrega
-50184,Murero
-50185,Murillo de Gállego
-50186,Navardún
-50187,Nigüella
-50188,Nombrevilla
-50189,Nonaspe
-50190,Novallas
-50191,Novillas
-50192,Nuévalos
-50193,Nuez de Ebro
-50194,Olvés
-50195,Orcajo
-50196,Orera
-50197,Orés
-50198,Oseja
-50199,Osera de Ebro
-50200,Paniza
-50201,Paracuellos de Jiloca
-50202,Paracuellos de la Ribera
-50203,Pastriz
-50204,Pedrola
-50205,Las Pedrosas
-50206,Perdiguera
-50207,Piedratajada
-50208,Pina de Ebro
-50209,Pinseque
-50210,Los Pintanos
-50211,Plasencia de Jalón
-50212,Pleitas
-50213,Plenas
-50214,Pomer
-50215,Pozuel de Ariza
-50216,Pozuelo de Aragón
-50217,Pradilla de Ebro
-50218,Puebla de Albortón
-50219,La Puebla de Alfindén
-50220,Puendeluna
-50221,Purujosa
-50222,Quinto
-50223,Remolinos
-50224,Retascón
-50225,Ricla
-50227,Romanos
-50228,Rueda de Jalón
-50229,Ruesca
-50230,Sádaba
-50231,Salillas de Jalón
-50232,Salvatierra de Esca
-50233,Samper del Salz
-50234,San Martín de la Virgen de Moncayo
-50235,San Mateo de Gállego
-50236,Santa Cruz de Grío
-50237,Santa Cruz de Moncayo
-50238,Santa Eulalia de Gállego
-50239,Santed
-50240,Sástago
-50241,Sabiñán
-50242,Sediles
-50243,Sestrica
-50244,Sierra de Luna
-50245,Sigüés
-50246,Sisamón
-50247,Sobradiel
-50248,Sos del Rey Católico
-50249,Tabuenca
-50250,Talamantes
-50251,Tarazona
-50252,Tauste
-50253,Terrer
-50254,Tierga
-50255,Tobed
-50256,Torralba de los Frailes
-50257,Torralba de Ribota
-50258,Torralbilla
-50259,Torrehermosa
-50260,Torrelapaja
-50261,Torrellas
-50262,Torres de Berrellén
-50263,Torrijo de la Cañada
-50264,Tosos
-50265,Trasmoz
-50266,Trasobares
-50267,Uncastillo
-50268,Undués de Lerda
-50269,Urrea de Jalón
-50270,Urriés
-50271,Used
-50272,Utebo
-50273,Valdehorna
-50274,Val de San Martín
-50275,Valmadrid
-50276,Valpalmas
-50277,Valtorres
-50278,Velilla de Ebro
-50279,Velilla de Jiloca
-50280,Vera de Moncayo
-50281,Vierlas
-50282,La Vilueña
-50283,Villadoz
-50284,Villafeliche
-50285,Villafranca de Ebro
-50286,Villalba de Perejil
-50287,Villalengua
-50288,Villanueva de Gállego
-50289,Villanueva de Jiloca
-50290,Villanueva de Huerva
-50291,Villar de los Navarros
-50292,Villarreal de Huerva
-50293,Villarroya de la Sierra
-50294,Villarroya del Campo
-50295,Vistabella
-50296,La Zaida
-50297,Zaragoza
-50298,Zuera
-50901,Biel
-50902,Marracos
-50903,Villamayor de Gállego
+year,cp,name,population
+2024,50001,Abanto,80
+2024,50002,Acered,141
+2024,50003,Agón,133
+2024,50004,Aguarón,599
+2024,50005,Aguilón,273
+2024,50006,Ainzón,1043
+2024,50007,Aladrén,62
+2024,50008,Alagón,7450
+2024,50009,Alarba,93
+2024,50010,Alberite de San Juan,84
+2024,50011,Albeta,141
+2024,50012,Alborge,102
+2024,50013,Alcalá de Ebro,243
+2024,50014,Alcalá de Moncayo,153
+2024,50015,Alconchel de Ariza,78
+2024,50016,Aldehuela de Liestos,49
+2024,50017,Alfajarín,2415
+2024,50018,Alfamén,1494
+2024,50019,Alforque,61
+2024,50020,Alhama de Aragón,925
+2024,50021,Almochuel,22
+2024,50022,Almolda La,543
+2024,50023,Almonacid de la Cuba,233
+2024,50024,Almonacid de la Sierra,759
+2024,50025,Almunia de Doña Godina La,7937
+2024,50026,Alpartir,589
+2024,50027,Ambel,254
+2024,50028,Anento,112
+2024,50029,Aniñón,683
+2024,50030,Añón de Moncayo,216
+2024,50031,Aranda de Moncayo,117
+2024,50032,Arándiga,264
+2024,50033,Ardisa,76
+2024,50034,Ariza,1082
+2024,50035,Artieda,86
+2024,50036,Asín,89
+2024,50037,Atea,136
+2024,50038,Ateca,1732
+2024,50039,Azuara,537
+2024,50040,Badules,81
+2024,50041,Bagüés,17
+2024,50042,Balconchán,19
+2024,50043,Bárboles,286
+2024,50044,Bardallur,228
+2024,50045,Belchite,1509
+2024,50046,Belmonte de Gracián,181
+2024,50047,Berdejo,38
+2024,50048,Berrueco,33
+2024,50050,Bijuesca,93
+2024,50051,Biota,840
+2024,50052,Bisimbre,91
+2024,50053,Boquiñeni,751
+2024,50054,Bordalba,47
+2024,50055,Borja,5191
+2024,50056,Botorrita,579
+2024,50057,Brea de Aragón,1506
+2024,50058,Bubierca,57
+2024,50059,Bujaraloz,953
+2024,50060,Bulbuente,240
+2024,50061,Bureta,208
+2024,50062,El Burgo de Ebro,2704
+2024,50063,El Buste,59
+2024,50064,Cabañas de Ebro,481
+2024,50065,Cabolafuente,50
+2024,50066,Cadrete,4639
+2024,50067,Calatayud,19850
+2024,50068,Calatorao,2906
+2024,50069,Calcena,72
+2024,50070,Calmarza,58
+2024,50071,Campillo de Aragón,112
+2024,50072,Carenas,167
+2024,50073,Cariñena,3456
+2024,50074,Caspe,10432
+2024,50075,Castejón de Alarba,79
+2024,50076,Castejón de las Armas,88
+2024,50077,Castejón de Valdejasa,198
+2024,50078,Castiliscar,214
+2024,50079,Cervera de la Cañada,259
+2024,50080,Cerveruela,37
+2024,50081,Cetina,552
+2024,50082,Cimballa,80
+2024,50083,Cinco Olivas,102
+2024,50084,Clarés de Ribota,70
+2024,50085,Codo,201
+2024,50086,Codos,217
+2024,50087,Contamina,33
+2024,50088,Cosuenda,329
+2024,50089,Cuarte de Huerva,15112
+2024,50090,Cubel,143
+2024,50091,Las Cuerlas,41
+2024,50092,Chiprana,500
+2024,50093,Chodes,102
+2024,50094,Daroca,1919
+2024,50095,Ejea de los Caballeros,17133
+2024,50096,Embid de Ariza,29
+2024,50098,Encinacorba,182
+2024,50099,Épila,4565
+2024,50100,Erla,371
+2024,50101,Escatrón,1177
+2024,50102,Fabara,1047
+2024,50104,Farlete,394
+2024,50105,Fayón,430
+2024,50106,Los Fayos,133
+2024,50107,Figueruelas,1270
+2024,50108,Fombuena,55
+2024,50109,El Frago,134
+2024,50110,El Frasno,361
+2024,50111,Fréscano,194
+2024,50113,Fuendejalón,763
+2024,50114,Fuendetodos,145
+2024,50115,Fuentes de Ebro,4631
+2024,50116,Fuentes de Jiloca,209
+2024,50117,Gallocanta,133
+2024,50118,Gallur,2603
+2024,50119,Gelsa,986
+2024,50120,Godojos,54
+2024,50121,Gotor,306
+2024,50122,Grisel,96
+2024,50123,Grisén,632
+2024,50124,Herrera de los Navarros,504
+2024,50125,Ibdes,372
+2024,50126,Illueca,2727
+2024,50128,Isuerre,30
+2024,50129,Jaraba,295
+2024,50130,Jarque de Moncayo,381
+2024,50131,Jaulín,292
+2024,50132,Joyosa La,1132
+2024,50133,Lagata,115
+2024,50134,Langa del Castillo,110
+2024,50135,Layana,98
+2024,50136,Lécera,599
+2024,50137,Leciñena,1090
+2024,50138,Lechón,44
+2024,50139,Letux,356
+2024,50140,Litago,192
+2024,50141,Lituénigo,124
+2024,50142,Lobera de Onsella,27
+2024,50143,Longares,830
+2024,50144,Longás,45
+2024,50146,Lucena de Jalón,224
+2024,50147,Luceni,1003
+2024,50148,Luesia,331
+2024,50149,Luesma,41
+2024,50150,Lumpiaque,862
+2024,50151,Luna,675
+2024,50152,Maella,2089
+2024,50153,Magallón,1093
+2024,50154,Mainar,171
+2024,50155,Malanquilla,73
+2024,50156,Maleján,279
+2024,50157,Malón,442
+2024,50159,Maluenda,915
+2024,50160,Mallén,2951
+2024,50161,Manchones,96
+2024,50162,Mara,161
+2024,50163,María de Huerva,6371
+2024,50164,Mediana de Aragón,457
+2024,50165,Mequinenza,2232
+2024,50166,Mesones de Isuela,266
+2024,50167,Mezalocha,206
+2024,50168,Mianos,28
+2024,50169,Miedes de Aragón,403
+2024,50170,Monegrillo,380
+2024,50171,Moneva,118
+2024,50172,Monreal de Ariza,173
+2024,50173,Monterde,152
+2024,50174,Montón,96
+2024,50175,Morata de Jalón,1082
+2024,50176,Morata de Jiloca,235
+2024,50177,Morés,303
+2024,50178,Moros,269
+2024,50179,Moyuela,227
+2024,50180,Mozota,130
+2024,50181,Muel,1474
+2024,50182,La Muela,6564
+2024,50183,Munébrega,361
+2024,50184,Murero,92
+2024,50185,Murillo de Gállego,203
+2024,50186,Navardún,39
+2024,50187,Nigüella,62
+2024,50188,Nombrevilla,39
+2024,50189,Nonaspe,1012
+2024,50190,Novallas,859
+2024,50191,Novillas,502
+2024,50192,Nuévalos,306
+2024,50193,Nuez de Ebro,907
+2024,50194,Olvés,111
+2024,50195,Orcajo,58
+2024,50196,Orera,101
+2024,50197,Orés,74
+2024,50198,Oseja,44
+2024,50199,Osera de Ebro,428
+2024,50200,Paniza,575
+2024,50201,Paracuellos de Jiloca,607
+2024,50202,Paracuellos de la Ribera,112
+2024,50203,Pastriz,1305
+2024,50204,Pedrola,3766
+2024,50205,Pedrosas Las,113
+2024,50206,Perdiguera,544
+2024,50207,Piedratajada,97
+2024,50208,Pina de Ebro,2446
+2024,50209,Pinseque,4551
+2024,50210,Los Pintanos,37
+2024,50211,Plasencia de Jalón,382
+2024,50212,Pleitas,30
+2024,50213,Plenas,111
+2024,50214,Pomer,24
+2024,50215,Pozuel de Ariza,24
+2024,50216,Pozuelo de Aragón,249
+2024,50217,Pradilla de Ebro,546
+2024,50218,Puebla de Albortón,136
+2024,50219,La Puebla de Alfindén,6426
+2024,50220,Puendeluna,42
+2024,50221,Purujosa,29
+2024,50222,Quinto,1884
+2024,50223,Remolinos,1023
+2024,50224,Retascón,73
+2024,50225,Ricla,2949
+2024,50227,Romanos,145
+2024,50228,Rueda de Jalón,325
+2024,50229,Ruesca,66
+2024,50230,Sádaba,1258
+2024,50231,Salillas de Jalón,359
+2024,50232,Salvatierra de Esca,194
+2024,50233,Samper del Salz,82
+2024,50234,San Martín de la Virgen de Moncayo,274
+2024,50235,San Mateo de Gállego,3409
+2024,50236,Santa Cruz de Grío,104
+2024,50237,Santa Cruz de Moncayo,124
+2024,50238,Santa Eulalia de Gállego,101
+2024,50239,Santed,71
+2024,50240,Sástago,1091
+2024,50241,Sabiñán,691
+2024,50242,Sediles,111
+2024,50243,Sestrica,340
+2024,50244,Sierra de Luna,259
+2024,50245,Sigüés,70
+2024,50246,Sisamón,47
+2024,50247,Sobradiel,1127
+2024,50248,Sos del Rey Católico,585
+2024,50249,Tabuenca,311
+2024,50250,Talamantes,82
+2024,50251,Tarazona,10803
+2024,50252,Tauste,6817
+2024,50253,Terrer,585
+2024,50254,Tierga,177
+2024,50255,Tobed,198
+2024,50256,Torralba de los Frailes,68
+2024,50257,Torralba de Ribota,169
+2024,50258,Torralbilla,40
+2024,50259,Torrehermosa,74
+2024,50260,Torrelapaja,29
+2024,50261,Torrellas,231
+2024,50262,Torres de Berrellén,1506
+2024,50263,Torrijo de la Cañada,193
+2024,50264,Tosos,175
+2024,50265,Trasmoz,83
+2024,50266,Trasobares,122
+2024,50267,Uncastillo,615
+2024,50268,Undués de Lerda,55
+2024,50269,Urrea de Jalón,440
+2024,50270,Urriés,49
+2024,50271,Used,260
+2024,50272,Utebo,19022
+2024,50273,Valdehorna,31
+2024,50274,Val de San Martín,59
+2024,50275,Valmadrid,127
+2024,50276,Valpalmas,126
+2024,50277,Valtorres,75
+2024,50278,Velilla de Ebro,207
+2024,50279,Velilla de Jiloca,74
+2024,50280,Vera de Moncayo,315
+2024,50281,Vierlas,90
+2024,50282,La Vilueña,57
+2024,50283,Villadoz,81
+2024,50284,Villafeliche,159
+2024,50285,Villafranca de Ebro,835
+2024,50286,Villalba de Perejil,84
+2024,50287,Villalengua,289
+2024,50288,Villanueva de Gállego,4814
+2024,50289,Villanueva de Jiloca,69
+2024,50290,Villanueva de Huerva,376
+2024,50291,Villar de los Navarros,157
+2024,50292,Villarreal de Huerva,269
+2024,50293,Villarroya de la Sierra,413
+2024,50294,Villarroya del Campo,69
+2024,50295,Vistabella,51
+2024,50296,La Zaida,428
+2024,50297,Zaragoza,686986
+2024,50298,Zuera,8709
+2024,50901,Biel,170
+2024,50902,Marracos,85
+2024,50903,Villamayor de Gállego,2854
