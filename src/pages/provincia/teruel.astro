@@ -9,79 +9,72 @@ const municipiosTeruel = municipios.filter(m => m.provincia === provincia);
 ---
 
 <BaseLayout title="Teruel - La casa caída">
-  <h1>Teruel</h1>
+  <section class="provincia-container">
+    <section class="provincia-layout">
+      <div class="section-text">
+        <h1 class="provincia-titulo">Teruel ¿existe?</h1>
+        <p class="header-ronda">
+          <span class="header-ronda-text">Lagrimas caídas, siglos de exclusión,</span>
+          <span class="header-ronda-text">dádivas perdidas en el fondo de un cajón.</span>
+          <span class="header-ronda-text">Tierra abandonada para el buitre carroñero,</span>
+          <span class="header-ronda-text">promesas olvidadas en el vertedero.</span>
+          <span class="header-ronda-text">Somos made in Teruel, made in Teruel,</span>
+          <span class="header-ronda-text">estamos que no estamos para mal o para bien.</span>
+          <span class="header-ronda-text">Jóvenes parados tienen que partir.</span>
+          <span class="header-ronda-text">Viejos resignados sólo les queda vivir viendo como mueren sus raíces</span>
+          <a href="https://www.youtube.com/watch?v=Ur3-qy4bd-s" class="header-ronda-text">Azero - Made In Teruel</a>
+        </p>
 
-  <section class="intro">
-    <p>Teruel es una provincia situada en la comunidad autónoma de Aragón, España. Con su capital del mismo nombre, destaca por su rico patrimonio mudéjar y su entorno natural.</p>
-  </section>
-
-  <section class="container-chart">
-    <h2>Evolución de la población - Teruel</h2>
-    <p>Esta gráfica muestra la evolución histórica de la población de la provincia de Teruel a lo largo del tiempo.</p>
-    <GraficaHistoricaPoblacion provincia={provincia} />
-  </section>
-
-  <section class="container-chart">
-    <h2>Saldo vegetativo - Teruel</h2>
-    <p>El saldo vegetativo representa la diferencia entre nacimientos y defunciones, mostrando el crecimiento natural de la población sin considerar los movimientos migratorios.</p>
-    <GraficaSaldoVegetativo provincia={provincia} />
-  </section>
-
-  <section>
-    <h2>Municipios de Teruel</h2>
-    <div class="municipios-grid">
-      {municipiosTeruel.map(municipio => (
-        <div class="municipio-card">
-          <h3>{municipio.nombre}</h3>
-          <p>Población: {municipio.poblacionActual} habitantes</p>
-          <a href={`/municipio/${municipio.slug}`}>Ver detalles</a>
+        <section class="intro">
+          <p>Teruel existe para aquellos que tuvieron que marchar en busca de un futuro mejor, en aquellos que se quedaron y en aquellos que darían todo por quedarse cuando se acaba el verano. No existe para aquellos que gobernaron, gobiernan y gobernarán. Las cifras son claras en 50 años ha perdido casi el 50% de su población. En 28 municipios no hay un solo habitante que sea menor de 16 años. En 85 municipios hay menos de 5 habitantes menores de 18 años.
+            El futuro se marcha, obligado por aquellos que pudieron hacer algo y ni tan si quiera lo intentaron.</p>
+        </section>
+        <div class="datos-destacados">
+          <div class="dato">
+            <span class="dato-valor">24.51%</span>
+            <span class="dato-descripcion">Disminución de población desde 1900</span>
+          </div>
+          <div class="dato">
+            <span class="dato-valor">20.20%</span>
+            <span class="dato-descripcion">Mayores de 65 años en 2023</span>
+          </div>
+          <div class="dato">
+            <span class="dato-valor">15.60%</span>
+            <span class="dato-descripcion">Menores de 18 años en 2023</span>
+          </div>
         </div>
-      ))}
-    </div>
+      </div>
+
+      <section class="container-chart">
+        <div class="chart-header section-text">
+          <h2>Evolución de la población - Teruel</h2>
+          <p>En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Teruel desde 1900 hasta 2024.</p>
+          <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragon Open Data. Los datos de 2024 son del INE.</span>
+        </div>
+        <GraficaHistoricaPoblacion provincia={provincia} />
+      </section>
+
+      <section class="container-chart">
+        <div class="chart-header section-text">
+          <h2>Saldo vegetativo - Teruel</h2>
+          <p>El saldo vegetativo representa la diferencia entre nacimientos y defunciones, mostrando el crecimiento natural de la población sin considerar los movimientos migratorios.</p>
+          <span class="data">Los datos son del IAEST.</span>
+        </div>
+        <GraficaSaldoVegetativo provincia={provincia} />
+      </section>
+
+      <section class="municipios-section">
+        <h2>Municipios de Teruel</h2>
+        <div class="municipios-grid">
+          {municipiosTeruel.map(municipio => (
+            <div class="municipio-card">
+              <h3>{municipio.nombre}</h3>
+              <p>Población: {municipio.poblacionActual} habitantes</p>
+              <a href={`/municipio/${municipio.slug}`}>Ver detalles</a>
+            </div>
+          ))}
+        </div>
+      </section>
+    </section>
   </section>
 </BaseLayout>
-
-<style>
-  .container-chart {
-    margin: 2rem 0;
-    padding: 1rem;
-    background-color: #f5f5f5;
-    border-radius: 8px;
-  }
-
-  .municipios-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-  }
-
-  .municipio-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1rem;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  }
-
-  .municipio-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  }
-
-  .municipio-card h3 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-  }
-
-  .municipio-card a {
-    display: inline-block;
-    margin-top: 0.5rem;
-    text-decoration: none;
-    color: #0066cc;
-    font-weight: 500;
-  }
-
-  .municipio-card a:hover {
-    text-decoration: underline;
-  }
-</style>
