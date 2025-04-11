@@ -3,85 +3,63 @@ import BaseLayout from '../../layouts/Layout.astro';
 import { municipios } from '../../data/municipios';
 import GraficaHistoricaPoblacion from '../../components/GraficaHistoricaPoblacion.astro';
 import GraficaSaldoVegetativo from '../../components/GraficaSaldoVegetativo.astro';
+import MunicipiosSection from '../../components/MunicipiosSection.astro';
 
 const provincia = 'zaragoza';
 const municipiosZaragoza = municipios.filter(m => m.provincia === provincia);
 ---
 
-<BaseLayout title="Zaragoza - La casa caída">
-  <h1>Zaragoza</h1>
+<BaseLayout title="Zaragoza - El contraste">
+  <section class="provincia-container">
+    <section class="provincia-layout">
+      <div class="section-text">
+        <h1 class="provincia-titulo">Zaragoza</h1>
+        <p class="header-ronda">
+          <span class="header-ronda-text">Ciudad que crece, mientras se vacía el campo.</span>
+          <span class="header-ronda-text">Agua que divide, tierra que une.</span>
+          <span class="header-ronda-text">El Ebro, columna vertebral de un territorio de contrastes,</span>
+          <span class="header-ronda-text">donde la capital concentra vidas y oportunidades.</span>
+        </p>
 
-  <section class="intro">
-    <p>Zaragoza es una provincia situada en la comunidad autónoma de Aragón, España. Con su capital del mismo nombre, es un importante centro económico y cultural de la región.</p>
-  </section>
-
-  <section class="container-chart">
-    <h2>Evolución de la población - Zaragoza</h2>
-    <p>Esta gráfica muestra la evolución histórica de la población de la provincia de Zaragoza a lo largo del tiempo.</p>
-    <GraficaHistoricaPoblacion provincia={provincia} />
-  </section>
-
-  <section class="container-chart">
-    <h2>Saldo vegetativo - Zaragoza</h2>
-    <p>El saldo vegetativo representa la diferencia entre nacimientos y defunciones, mostrando el crecimiento natural de la población sin considerar los movimientos migratorios.</p>
-    <GraficaSaldoVegetativo provincia={provincia} />
-  </section>
-
-  <section>
-    <h2>Municipios de Zaragoza</h2>
-    <div class="municipios-grid">
-      {municipiosZaragoza.map(municipio => (
-        <div class="municipio-card">
-          <h3>{municipio.nombre}</h3>
-          <p>Población: {municipio.poblacionActual} habitantes</p>
-          <a href={`/municipio/${municipio.slug}`}>Ver detalles</a>
+        <section class="intro">
+          <p>La provincia de Zaragoza representa como pocas el contraste entre la España urbana y la rural. Mientras la capital concentra más del 70% de la población provincial y continúa creciendo, la mayoría de los municipios rurales se enfrentan a un declive demográfico constante.</p>
+        </section>
+        <div class="datos-destacados">
+          <div class="dato">
+            <span class="dato-valor">72.1%</span>
+            <span class="dato-descripcion">Población en la capital</span>
+          </div>
+          <div class="dato">
+            <span class="dato-valor">21.4%</span>
+            <span class="dato-descripcion">Mayores de 65 años en 2023</span>
+          </div>
+          <div class="dato">
+            <span class="dato-valor">16.7%</span>
+            <span class="dato-descripcion">Menores de 18 años en 2023</span>
+          </div>
         </div>
-      ))}
-    </div>
+      </div>
+
+      <section class="container-chart">
+        <div class="chart-header section-text">
+          <h2>Evolución de la población - Zaragoza</h2>
+          <p>En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Zaragoza desde 1900 hasta 2024.</p>
+          <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragón Open Data. Los datos de 2024 son del INE.</span>
+        </div>
+        <GraficaHistoricaPoblacion provincia={provincia} />
+      </section>
+
+      <section class="container-chart">
+        <div class="chart-header section-text">
+          <h2>Saldo vegetativo - Zaragoza</h2>
+          <p>El saldo vegetativo representa la diferencia entre nacimientos y defunciones, mostrando el crecimiento natural de la población sin considerar los movimientos migratorios.</p>
+          <span class="data">Los datos son del IAEST.</span>
+        </div>
+        <GraficaSaldoVegetativo provincia={provincia} />
+      </section>
+
+      <MunicipiosSection municipios={municipiosZaragoza} />
+
+    </section>
   </section>
 </BaseLayout>
-
-<style>
-  .container-chart {
-    margin: 2rem 0;
-    padding: 1rem;
-    background-color: #f5f5f5;
-    border-radius: 8px;
-  }
-
-  .municipios-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-  }
-
-  .municipio-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1rem;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  }
-
-  .municipio-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  }
-
-  .municipio-card h3 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-  }
-
-  .municipio-card a {
-    display: inline-block;
-    margin-top: 0.5rem;
-    text-decoration: none;
-    color: #0066cc;
-    font-weight: 500;
-  }
-
-  .municipio-card a:hover {
-    text-decoration: underline;
-  }
-</style>
