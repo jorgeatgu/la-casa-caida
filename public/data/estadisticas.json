@@ -1,0 +1,21 @@
+{
+  "totalMunicipios": 730,
+  "porProvincia": {
+    "huesca": 201,
+    "teruel": 236,
+    "zaragoza": 293
+  },
+  "poblacionTotal": 1347705,
+  "poblacionPorProvincia": {
+    "huesca": 228505,
+    "teruel": 135661,
+    "zaragoza": 983539
+  },
+  "municipiosPorRango": {
+    "riesgoAlto": 209,
+    "riesgoMedio": 331,
+    "pequenos": 86,
+    "medianos": 79,
+    "grandes": 25
+  }
+}

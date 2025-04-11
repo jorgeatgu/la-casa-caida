@@ -7,6 +7,7 @@ import { parse } from 'csv-parse/sync';
 const DATA_DIR = './public/data';
 const OUTPUT_DIR = './src/data';
 const PROVINCIAS = ['huesca', 'teruel', 'zaragoza'];
+const CURRENT_YEAR = "2024"; // Año actual para filtrar datos de población
 
 // Asegurarse de que los directorios existan
 if (!fs.existsSync(OUTPUT_DIR)) {
@@ -19,6 +20,9 @@ async function procesarDatos() {
 
   // Array para almacenar todos los municipios
   const todosLosMunicipios = [];
+
+  // Map para almacenar temporalmente la información de población
+  const poblacionPorMunicipio = new Map();
 
   // Procesar cada provincia
   for (const provincia of PROVINCIAS) {
@@ -40,8 +44,25 @@ async function procesarDatos() {
       skip_empty_lines: true
     });
 
-    // Procesar cada municipio
+    // Primero, crear un mapa de la población por cada código INE
+    // Esto es necesario porque el formato de datos requiere filtrar por año
+    datosMunicipios.forEach(registro => {
+      if (registro.year === CURRENT_YEAR) {
+        poblacionPorMunicipio.set(registro.cp, parseInt(registro.population, 10) || 0);
+      }
+    });
+
+    // Luego, procesar cada municipio único
+    const municipiosUnicos = new Set();
+
     for (const municipio of datosMunicipios) {
+      // Evitar duplicados (porque pueden haber múltiples años para el mismo municipio)
+      if (municipiosUnicos.has(municipio.cp)) {
+        continue;
+      }
+
+      municipiosUnicos.add(municipio.cp);
+
       // Crear slug para URL
       const slug = municipio.name
         .toLowerCase()
@@ -63,18 +84,22 @@ async function procesarDatos() {
         provinciaMunicipio = 'zaragoza';
       }
 
+      // Obtener la población del municipio del año actual
+      const poblacionActual = poblacionPorMunicipio.get(municipio.cp) || 0;
+
       // Datos básicos del municipio
       const municipioData = {
         nombre: municipio.name,
         provincia: provinciaMunicipio,
         slug: slug,
-        codigoINE: municipio.cp
+        codigoINE: municipio.cp,
+        poblacionActual: poblacionActual
       };
 
       // Agregar a la lista general
       todosLosMunicipios.push(municipioData);
 
-      console.log(`Procesado municipio: ${municipio.name} (${municipio.cp})`);
+      console.log(`Procesado municipio: ${municipio.name} (${municipio.cp}) - Población: ${poblacionActual}`);
     }
   }
 
@@ -102,7 +127,43 @@ async function procesarDatos() {
     );
   }
 
+  // Generar archivo con estadísticas básicas
+  const estadisticas = {
+    totalMunicipios: todosLosMunicipios.length,
+    porProvincia: {
+      huesca: todosLosMunicipios.filter(m => m.provincia === 'huesca').length,
+      teruel: todosLosMunicipios.filter(m => m.provincia === 'teruel').length,
+      zaragoza: todosLosMunicipios.filter(m => m.provincia === 'zaragoza').length
+    },
+    poblacionTotal: todosLosMunicipios.reduce((sum, m) => sum + (m.poblacionActual || 0), 0),
+    poblacionPorProvincia: {
+      huesca: todosLosMunicipios.filter(m => m.provincia === 'huesca').reduce((sum, m) => sum + (m.poblacionActual || 0), 0),
+      teruel: todosLosMunicipios.filter(m => m.provincia === 'teruel').reduce((sum, m) => sum + (m.poblacionActual || 0), 0),
+      zaragoza: todosLosMunicipios.filter(m => m.provincia === 'zaragoza').reduce((sum, m) => sum + (m.poblacionActual || 0), 0)
+    },
+    municipiosPorRango: {
+      // Municipios en riesgo de despoblación (menos de 100 habitantes)
+      riesgoAlto: todosLosMunicipios.filter(m => m.poblacionActual > 0 && m.poblacionActual < 100).length,
+      // Entre 100 y 500 habitantes
+      riesgoMedio: todosLosMunicipios.filter(m => m.poblacionActual >= 100 && m.poblacionActual < 500).length,
+      // Entre 500 y 1000 habitantes
+      pequenos: todosLosMunicipios.filter(m => m.poblacionActual >= 500 && m.poblacionActual < 1000).length,
+      // Entre 1000 y 5000 habitantes
+      medianos: todosLosMunicipios.filter(m => m.poblacionActual >= 1000 && m.poblacionActual < 5000).length,
+      // Más de 5000 habitantes
+      grandes: todosLosMunicipios.filter(m => m.poblacionActual >= 5000).length
+    }
+  };
+
+  fs.writeFileSync(
+    path.join(DATA_DIR, 'estadisticas.json'),
+    JSON.stringify(estadisticas, null, 2)
+  );
+
   console.log(`Proceso completado. Se han procesado ${todosLosMunicipios.length} municipios.`);
+  console.log(`Población total registrada: ${estadisticas.poblacionTotal} habitantes.`);
+  console.log(`Huesca: ${estadisticas.poblacionPorProvincia.huesca} | Teruel: ${estadisticas.poblacionPorProvincia.teruel} | Zaragoza: ${estadisticas.poblacionPorProvincia.zaragoza}`);
+  console.log(`Municipios en riesgo de despoblación: ${estadisticas.municipiosPorRango.riesgoAlto}`);
 }
 
 // Ejecutar el script
