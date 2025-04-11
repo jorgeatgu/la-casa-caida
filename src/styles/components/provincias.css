@@ -427,7 +427,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   background: radial-gradient(circle at center, rgba(10, 61, 98, .05) 0%, rgba(255, 255, 255, 0) 70%);
   opacity: 0;
   z-index: -1;
@@ -447,6 +446,93 @@
 
 .municipio-card-link:focus .municipio-card {
   box-shadow: 0 0 0 3px rgba(10, 61, 98, .3), 0 8px 25px rgba(0, 0, 0, .15);
+}
+
+
+.ordenamiento-container {
+  margin: 1.5rem auto;
+  position: relative;
+}
+
+.ordenamiento-container label {
+  display: block;
+}
+
+.ordenamiento-label {
+  margin-right: .8rem;
+  font-size: .95rem;
+  color: #555;
+  font-family: var(--text);
+  font-weight: 500;
+}
+
+.ordenar-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: rgba(255, 255, 255, .95);
+  border: 2px solid rgba(0, 0, 0, .08);
+  padding: .6rem 2.5rem .6rem 1.2rem;
+  font-size: .9rem;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+  cursor: pointer;
+  transition: all .25s ease;
+  font-family: var(--text);
+  width: auto;
+  min-width: 220px;
+}
+
+.ordenamiento-container:after {
+  content: '';
+  position: absolute;
+  left: 196px;
+  top: 65%;
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid #555;
+  border-bottom: 2px solid #555;
+  transform: translateY(-60%) rotate(45deg);
+  pointer-events: none;
+}
+
+.ordenar-select:hover {
+  border-color: rgba(10, 61, 98, .3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+}
+
+.ordenar-select:focus {
+  outline: none;
+  border-color: #0a3d62;
+  box-shadow: 0 0 0 3px rgba(10, 61, 98, .15);
+}
+
+.ordenar-select:focus + .ordenamiento-container:after {
+  transform: translateY(-40%) rotate(-135deg);
+}
+
+.ordenar-select option {
+  padding: 10px;
+  background-color: white;
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  .ordenamiento-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ordenamiento-label {
+    margin-right: 0;
+    margin-bottom: .5rem;
+    text-align: center;
+  }
+
+  .ordenar-select {
+    width: 100%;
+    min-width: unset;
+  }
 }
 
 @media (max-width: 768px) {
