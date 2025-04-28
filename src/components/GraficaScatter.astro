@@ -99,7 +99,7 @@ const csvPath = `/data/${provincia}/${provincia}-mayor-menor.csv`;
   }
 
   .filtro-select {
-    padding: 8px 12px;
+    padding: 8px 4px;
     border-radius: 4px;
     border: 1px solid #ddd;
     background-color: white;
@@ -107,10 +107,6 @@ const csvPath = `/data/${provincia}/${provincia}-mayor-menor.csv`;
     font-size: 14px;
     cursor: pointer;
     appearance: auto;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='6' fill='none'%3E%3Cpath fill='%23666' d='M6 6 0 0h12L6 6Z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 12px center;
-    padding-right: 32px;
   }
 
   .filtro-borrar {
@@ -156,7 +152,7 @@ const csvPath = `/data/${provincia}/${provincia}-mayor-menor.csv`;
   }
 
   .axis-y line {
-    stroke-dasharray: 2,2;
+    stroke-dasharray: 2;
   }
 
   .axis path {
@@ -216,6 +212,10 @@ const csvPath = `/data/${provincia}/${provincia}-mayor-menor.csv`;
   .tooltip-empty {
     background-color: #fff3f3;
     border-color: #ffccd5;
+  }
+
+  .axis-x path, .axis-y path {
+    display: none;
   }
 </style>
 

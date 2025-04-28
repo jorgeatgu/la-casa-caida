@@ -216,9 +216,9 @@ const chartId = `grafica-densidad-${codigo}`;
           const alertContainer = container.append("div")
             .attr("class", "densidad-alerta")
             .style("position", "absolute")
-            .style("top", "20px")
+            .style("top", "10px")
             .style("right", "20px")
-            .style("background-color", "rgba(244, 67, 54, 0.1)")
+            .style("background-color", "#fab892")
             .style("border", "1px solid #f44336")
             .style("border-radius", "4px")
             .style("padding", "10px")
@@ -297,21 +297,19 @@ const chartId = `grafica-densidad-${codigo}`;
   :global(.axis-x path),
   :global(.axis-y path) {
     stroke: #ccc;
-  }
-
-  :global(.axis-x line),
-  :global(.axis-y line) {
-    stroke: #e0e0e0;
+    display: none;
   }
 
   :global(.axis-y line) {
     opacity: 0.7;
+    stroke-dasharray: 2;
   }
 
   :global(.axis-x text),
   :global(.axis-y text) {
     fill: #666;
     font-size: 12px;
+    font-family: var(--text);
   }
 
   /* Estilo para el tooltip */
