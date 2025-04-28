@@ -1,35 +1,5 @@
 import anime from 'animejs/lib/anime.es.js';
 
-function menu() {
-  const overlay = document.querySelector('.overlay');
-  const navigation = document.querySelector('.navegacion');
-  const body = document.querySelector('body');
-  const elementBtn = document.querySelectorAll('.navegacion-btn');
-  const burger = document.querySelector('.burger');
-
-  function classToggle() {
-    burger.classList.toggle('clicked');
-    overlay.classList.toggle('show');
-    navigation.classList.toggle('show');
-    body.classList.toggle('overflow');
-  }
-
-  document.querySelector('.burger').addEventListener('click', classToggle);
-  document.querySelector('.overlay').addEventListener('click', classToggle);
-
-  for (let index = 0; index < elementBtn.length; index++) {
-    elementBtn[index].addEventListener('click', function() {
-      removeClass();
-    });
-  }
-
-  function removeClass() {
-    overlay.classList.remove('show');
-    navigation.classList.remove('show');
-    burger.classList.remove('clicked');
-  }
-}
-
 const widthMobile = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
 function changeLanguage() {
@@ -83,4 +53,4 @@ function animation() {
     });
 }
 
-export { menu, widthMobile, changeLanguage, animation };
+export { widthMobile, changeLanguage, animation };
