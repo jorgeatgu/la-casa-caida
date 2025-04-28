@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import NavMenu from '../components/NavMenu.astro';
 
 const { title, descripcion } = Astro.props;
 ---
@@ -17,7 +18,20 @@ const { title, descripcion } = Astro.props;
   <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-  <slot />
+  <NavMenu />
+
+  <main>
+    <slot />
+  </main>
+
+  <footer class="footer">
+    <div class="container-chart">
+      <p class="footer-texto">Hecho en Zaragoza con mucha maña por un <a class="footer-links" href="http://jorgeatgu.com" target="_blank">maño</a> - 2019 - 2025</p>
+      <p class="footer-texto">Cualquier consulta escribid a: data@jorgeatgu.com</p>
+      <a class="footer-links" href="https://github.com/jorgeatgu/la-casa-caida">Todo el código y datos está disponible en GitHub</a>
+    </div>
+  </footer>
+
 
   <script src="/src/scripts/main.js"></script>
 </body>

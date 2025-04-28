@@ -38,6 +38,109 @@ import { scatterDesert } from '../scripts/d3/scatterDesert';
         </div>
       </div>
     </div>
+    <div class="container-chart">
+      <section class="provinces-section">
+        <h2 class="provinces-title">Explora Aragón por Provincias</h2>
+
+        <div class="provinces-grid">
+          <!-- Tarjeta Huesca -->
+          <div class="province-card huesca-card">
+            <div class="card-header">
+              <div class="card-overlay"></div>
+              <h2 class="card-title">Huesca</h2>
+            </div>
+            <div class="card-content">
+              <div class="card-stats">
+                <span class="stat-population huesca-stat">221.909 habitantes</span>
+                <span class="stat-density">15,71 hab/km²</span>
+              </div>
+              <p class="card-description">
+                La provincia más septentrional de Aragón, conocida por sus impresionantes paisajes montañosos del Pirineo y sus valles. Enfrenta retos de despoblación en zonas rurales mientras mantiene centros turísticos activos.
+              </p>
+              <div class="province-data">
+                <div class="data-item">
+                  <span class="data-label">Municipios</span>
+                  <span class="data-value">202</span>
+                </div>
+                <div class="data-item">
+                  <span class="data-label">Capital</span>
+                  <span class="data-value">Huesca</span>
+                </div>
+                <div class="data-item">
+                  <span class="data-label">Superficie</span>
+                  <span class="data-value">15.636 km²</span>
+                </div>
+              </div>
+              <a href="/provincia/huesca" class="card-button huesca-button">Ver municipios de Huesca</a>
+            </div>
+          </div>
+
+          <!-- Tarjeta Teruel -->
+          <div class="province-card teruel-card">
+            <div class="card-header">
+              <div class="card-overlay"></div>
+              <h2 class="card-title">Teruel</h2>
+            </div>
+            <div class="card-content">
+              <div class="card-stats">
+                <span class="stat-population teruel-stat">134.176 habitantes</span>
+                <span class="stat-density">9,09 hab/km²</span>
+              </div>
+              <p class="card-description">
+                La provincia menos poblada de Aragón y una de las más despobladas de España. Con un rico patrimonio histórico y paisajes impresionantes, enfrenta graves desafíos demográficos.
+              </p>
+              <div class="province-data">
+                <div class="data-item">
+                  <span class="data-label">Municipios</span>
+                  <span class="data-value">236</span>
+                </div>
+                <div class="data-item">
+                  <span class="data-label">Capital</span>
+                  <span class="data-value">Teruel</span>
+                </div>
+                <div class="data-item">
+                  <span class="data-label">Superficie</span>
+                  <span class="data-value">14.810 km²</span>
+                </div>
+              </div>
+              <a href="/provincia/teruel" class="card-button teruel-button">Ver municipios de Teruel</a>
+            </div>
+          </div>
+
+          <!-- Tarjeta Zaragoza -->
+          <div class="province-card zaragoza-card">
+            <div class="card-header">
+              <div class="card-overlay"></div>
+              <h2 class="card-title">Zaragoza</h2>
+            </div>
+            <div class="card-content">
+              <div class="card-stats">
+                <span class="stat-population zaragoza-stat">972.528 habitantes</span>
+                <span class="stat-density">56,32 hab/km²</span>
+              </div>
+              <p class="card-description">
+                La provincia más poblada de Aragón, con más del 70% de sus habitantes concentrados en la capital. El contraste entre la metrópoli y las zonas rurales periféricas representa el desequilibrio demográfico aragonés.
+              </p>
+              <div class="province-data">
+                <div class="data-item">
+                  <span class="data-label">Municipios</span>
+                  <span class="data-value">293</span>
+                </div>
+                <div class="data-item">
+                  <span class="data-label">Capital</span>
+                  <span class="data-value">Zaragoza</span>
+                </div>
+                <div class="data-item">
+                  <span class="data-label">Superficie</span>
+                  <span class="data-value">17.274 km²</span>
+                </div>
+              </div>
+              <a href="/provincia/zaragoza" class="card-button zaragoza-button">Ver municipios de Zaragoza</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- Gráfico de desierto demográfico -->
     <div class="container-chart">
       <h4 class="subtittle">Aragón, un desierto demográfico</h4>
@@ -63,31 +166,9 @@ import { scatterDesert } from '../scripts/d3/scatterDesert';
       </div>
     </div>
   </header>
-  <!-- Enlaces a las provincias -->
-  <section class="provinces-section">
-    <div class="province-card">
-      <h2>Huesca</h2>
-      <p>
-        <!-- Descripción -->
-      </p>
-      <a href="/provincia/huesca">Ver municipios de Huesca</a>
-    </div>
-    <div class="province-card">
-      <h2>Teruel</h2>
-      <p>
-        <!-- Descripción -->
-      </p>
-      <a href="/provincia/teruel">Ver municipios de Teruel</a>
-    </div>
-    <div class="province-card">
-      <h2>Zaragoza</h2>
-      <p>
-        <!-- Descripción -->
-      </p>
-      <a href="/provincia/zaragoza">Ver municipios de Zaragoza</a>
-    </div>
-  </section>
+
 </BaseLayout>
+
 <script>
 import { scatterDesert } from '../scripts/d3/scatterDesert';
 import { aragonStacked } from '../scripts/d3/aragonStacked';
@@ -115,5 +196,76 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: 750,
       delay: anime.stagger(1000)
     });
+
+  // NUEVO: Código para la interactividad de las tarjetas de provincias
+  // Referencias a elementos
+  const provinceCards = document.querySelectorAll('.province-card');
+  const dataItems = document.querySelectorAll('.data-item');
+
+  // Animación de entrada para las tarjetas con IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    const cardObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // Asegurarse que la tarjeta sea visible
+          entry.target.style.opacity = '1';
+          // Dejar de observar después de la animación
+          cardObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.2, // Activa cuando al menos el 20% de la tarjeta es visible
+      rootMargin: '0px 0px -50px 0px' // Ajuste para activar un poco antes
+    });
+
+    // Observar cada tarjeta
+    provinceCards.forEach(card => {
+      cardObserver.observe(card);
+    });
+  } else {
+    // Fallback para navegadores que no soportan IntersectionObserver
+    provinceCards.forEach(card => {
+      card.style.opacity = '1';
+    });
+  }
+
+  // Efecto hover para los datos estadísticos
+  dataItems.forEach(item => {
+    // Hover de datos
+    item.addEventListener('mouseenter', function() {
+      // Obtener el color de la provincia correspondiente
+      const card = this.closest('.province-card');
+      let highlightColor = '#2563eb'; // Color por defecto (Huesca)
+
+      if (card.classList.contains('teruel-card')) {
+        highlightColor = '#d97706';
+      } else if (card.classList.contains('zaragoza-card')) {
+        highlightColor = '#dc2626';
+      }
+
+      // Aplicar el color específico de la provincia
+      this.style.color = highlightColor;
+    });
+
+    item.addEventListener('mouseleave', function() {
+      // Restaurar el color original
+      this.style.color = '';
+    });
+  });
+
+  // Añadir listeners para los botones
+  document.querySelectorAll('.card-button').forEach(button => {
+    button.addEventListener('mouseover', function() {
+      // Agregar un sutil efecto de "pulso" al hacer hover
+      this.animate([
+        { transform: 'scale(1)' },
+        { transform: 'scale(1.03)' },
+        { transform: 'scale(1)' }
+      ], {
+        duration: 600,
+        easing: 'ease-in-out'
+      });
+    });
+  });
 });
 </script>
