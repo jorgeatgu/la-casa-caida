@@ -1,0 +1,114 @@
+---
+// Importamos los datos de municipios
+import { municipios } from '../data/municipios';
+
+// Recibimos el municipio actual y la provincia como props
+const { provincia, municipioActual } = Astro.props;
+
+// Función para capitalizar la primera letra
+const capitalizar = (texto) => {
+  return texto.charAt(0).toUpperCase() + texto.slice(1);
+};
+
+// Obtenemos el nombre capitalizado de la provincia
+const provinciaCapitalizada = capitalizar(provincia);
+
+// Filtramos todos los municipios de la misma provincia, excluyendo el actual
+const municipiosDeProvincia = municipios
+  .filter(m => m.provincia === provincia && m.nombre !== municipioActual)
+  .map(m => ({
+    ...m,
+    // Añadimos una propiedad para hacer un random sort
+    random: Math.random()
+  }))
+  // Ordenamos aleatoriamente
+  .sort((a, b) => a.random - b.random)
+  // Tomamos solo 6 municipios
+  .slice(0, 6);
+---
+
+<section class="container-municipios-relacionados">
+  <h2 class="subtittle">Más municipios de {provinciaCapitalizada}</h2>
+  <p class="text">Descubre otros municipios de la provincia y su evolución demográfica.</p>
+
+  <div class="municipios-grid">
+    {municipiosDeProvincia.map((municipio) => (
+      <a href={`/municipio/${municipio.slug}`} class="municipio-card">
+        <div class="municipio-inner">
+          <h3 class="municipio-nombre">{municipio.nombre}</h3>
+          <p class="municipio-poblacion">{municipio.poblacionActual} habitantes</p>
+        </div>
+      </a>
+    ))}
+  </div>
+</section>
+
+<style>
+  .container-municipios-relacionados {
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .container-municipios-relacionados h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .container-municipios-relacionados p {
+    margin-bottom: 1.5rem;
+  }
+
+  .municipios-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  @media (min-width: 768px) {
+    .municipios-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .municipios-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  .municipio-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .municipio-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .municipio-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .municipio-nombre {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  .municipio-poblacion {
+    font-size: 0.9rem;
+    color: #4b5563;
+    margin-top: auto;
+    margin-bottom: 0 !important;
+  }
+</style>

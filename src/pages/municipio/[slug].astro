@@ -3,7 +3,8 @@ import MunicipioLayout from '../../layouts/MunicipioLayout.astro';
 import GraficaPoblacion from '../../components/GraficaPoblacion.astro';
 import GraficaEdades from '../../components/GraficaEdades.astro';
 import GraficaDensidad from '../../components/GraficaDensidad.astro';
-import GraficaScatter from "../../components/GraficaScatter.astro";
+import DatosMunicipio from '../../components/DatosMunicipio.astro';
+import MunicipiosRelacionados from '../../components/MunicipiosRelacionados.astro';
 import { municipios } from '../../data/municipios';
 
 // Generar todas las rutas dinámicas
@@ -45,11 +46,19 @@ const descripcion = `Evolución de la población en ${nombre} (${provincia}). Da
   </section>
 
   <section class="container-chart">
-    <h2 class="subtittle">Edad de la población</h2>
-    <p class="text">En la siguiente gráfica podemos ver el porcentaje de menores de 16 años y mayores de 65 años que vive en cada municipio, los datos son del INE a fecha de 2024. La excepción es que el porcentaje de menores sea superior al 20% de la población. Lo habitual es que el porcentaje de mayores de 65 años sea superior al 20%.</p>
-    <GraficaScatter
+    <h2 class="subtittle">Datos demográficos</h2>
+    <p class="text">A continuación se muestran los principales indicadores demográficos de {nombre}, con particular atención a la distribución por edades de la población.</p>
+
+    <DatosMunicipio
       provincia={provincia}
+      municipio={nombre}
     />
   </section>
+
+  <!-- Nueva sección: Municipios relacionados -->
+  <MunicipiosRelacionados
+    provincia={provincia}
+    municipioActual={nombre}
+  />
 
 </MunicipioLayout>

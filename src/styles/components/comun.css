@@ -89,11 +89,6 @@ body {
 
 @media only screen and (min-width: 48rem) {
 
-  .container-chart {
-    max-width: 60rem;
-    padding: 3rem .5rem;
-  }
-
   .container-desert {
     max-width: 65rem;
     padding: 3rem 0;
