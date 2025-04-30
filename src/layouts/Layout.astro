@@ -1,8 +1,9 @@
 ---
 import '../styles/global.css';
 import NavMenu from '../components/NavMenu.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
 
-const { title, descripcion } = Astro.props;
+const { title, descripcion, provinciaActual, municipioActual } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -19,8 +20,13 @@ const { title, descripcion } = Astro.props;
 </head>
 <body>
   <NavMenu />
-
-  <main>
+  <main class="provincia-container">
+    <div class="container-chart">
+      <Breadcrumb
+        provinciaActual={provinciaActual}
+        municipioActual={municipioActual}
+      />
+    </div>
     <slot />
   </main>
 
