@@ -1,16 +1,21 @@
-// astro.config.mjs
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://casacaida.co',
   output: 'static',
+  integrations: [
+    sitemap({
+      changefreq: 'weekly',
+      priority: 0.7,
+      lastmod: new Date(),
+    })
+  ],
   build: {
-    // Esto es opcional, para optimizar más la carga
     assets: 'assets',
     inlineStylesheets: 'auto'
   },
   vite: {
-    // Opciones de Vite para optimizar el build
     build: {
       cssCodeSplit: true,
       minify: 'terser',

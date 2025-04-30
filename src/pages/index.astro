@@ -23,32 +23,29 @@ import { scatterDesert } from '../scripts/d3/scatterDesert';
         <a href="https://www.youtube.com/watch?v=DbanIqZdbzo" class="header-ronda-text">La Ronda de Boltaña - La casa caída</a>
       </p>
       <div class="container-chart">
-        <div class="section-text">
-          <div class="container-chart">
-            <p class="text">La casa caída es una bonita y triste canción de la <a href="http://www.rondadors.com/d2/18/d2_18.php">Ronda de Boltaña</a>, trata sobre la despoblación del Alto Aragón. <span class="bold">Si se nos cae la casa se vuelve a levantar,</span> canta la Ronda. El problema al que nos enfrentamos en Aragón(y en otras partes de España) es que cada día esta más cerca el momento donde no haya nadie para levantar la casa.</p>
-            <p class="text">Según el INE el número total de habitantes en Aragón es de 1.341.289. <span class="bold">El 50.88% de ellos reside en la ciudad de Zaragoza</span>. Estas cifras dejan la densidad de población de Aragón en 28,11 hab/km2, solo por delante de Castilla y León, Castilla-La Mancha y Extremadura.</p>
-            <article class="sponsor-card">
-              <p class="sponsor-card-text">Actualizado el <strong>21 de marzo de 2025.</strong></p>
-              <p class="sponsor-card-text">Los datos corresponden al padrón del INE a <strong>fecha 1 de enero de 2025.</strong></p>
-            </article>
-            <article class="sponsor-card">
-              <p class="sponsor-card-text">Puedes apoyar económicamente este proyecto en:</p>
-              <a href="https://www.buymeacoffee.com/jorgeatgu"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a keyboard&emoji=❤️&slug=jorgeatgu&button_colour=5F7FFF&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00"></a>
-              <a class="github-button" href="https://github.com/sponsors/jorgeatgu" data-color-scheme="no-preference: light; light: light_high_contrast; dark: light;" data-icon="octicon-heart" data-size="large" aria-label="Sponsor @jorgeatgu on GitHub">Sponsor</a>
-            </article>
-          </div>
+        <div class="section-text section-text-index">
+          <p class="text">La casa caída es una bonita y triste canción de la <a href="http://www.rondadors.com/d2/18/d2_18.php">Ronda de Boltaña</a>, trata sobre la despoblación del Alto Aragón. <span class="bold">Si se nos cae la casa se vuelve a levantar,</span> canta la Ronda. El problema al que nos enfrentamos en Aragón(y en otras partes de España) es que cada día esta más cerca el momento donde no haya nadie para levantar la casa.</p>
+          <p class="text">Según el INE el número total de habitantes en Aragón es de 1.341.289. <span class="bold">El 50.88% de ellos reside en la ciudad de Zaragoza</span>. Estas cifras dejan la densidad de población de Aragón en 28,11 hab/km2, solo por delante de Castilla y León, Castilla-La Mancha y Extremadura.</p>
+          <article class="sponsor-card">
+            <p class="sponsor-card-text">Actualizado el <strong>21 de marzo de 2025.</strong></p>
+            <p class="sponsor-card-text">Los datos corresponden al padrón del INE a <strong>fecha 1 de enero de 2025.</strong></p>
+          </article>
+          <article class="sponsor-card">
+            <p class="sponsor-card-text">Puedes apoyar económicamente este proyecto en:</p>
+            <a href="https://www.buymeacoffee.com/jorgeatgu"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a keyboard&emoji=❤️&slug=jorgeatgu&button_colour=5F7FFF&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00"></a>
+            <a class="github-button" href="https://github.com/sponsors/jorgeatgu" data-color-scheme="no-preference: light; light: light_high_contrast; dark: light;" data-icon="octicon-heart" data-size="large" aria-label="Sponsor @jorgeatgu on GitHub">Sponsor</a>
+          </article>
         </div>
       </div>
     </div>
     <div class="container-chart">
       <section class="provinces-section">
         <h2 class="provinces-title">Explora Aragón por Provincias</h2>
-
         <div class="provinces-grid">
           <!-- Tarjeta Huesca -->
           <div class="province-card huesca-card">
             <div class="card-header">
-              <div class="card-overlay"></div>
+              <div class="card-overlay huesca-card-bg"></div>
               <h2 class="card-title">Huesca</h2>
             </div>
             <div class="card-content">
@@ -80,7 +77,7 @@ import { scatterDesert } from '../scripts/d3/scatterDesert';
           <!-- Tarjeta Teruel -->
           <div class="province-card teruel-card">
             <div class="card-header">
-              <div class="card-overlay"></div>
+              <div class="card-overlay teruel-card-bg"></div>
               <h2 class="card-title">Teruel</h2>
             </div>
             <div class="card-content">
@@ -112,7 +109,7 @@ import { scatterDesert } from '../scripts/d3/scatterDesert';
           <!-- Tarjeta Zaragoza -->
           <div class="province-card zaragoza-card">
             <div class="card-header">
-              <div class="card-overlay"></div>
+              <div class="card-overlay zaragoza-card-bg"></div>
               <h2 class="card-title">Zaragoza</h2>
             </div>
             <div class="card-content">
@@ -145,10 +142,9 @@ import { scatterDesert } from '../scripts/d3/scatterDesert';
     </div>
     <!-- Gráfico de desierto demográfico -->
     <div class="container-chart">
-      <h4 class="subtittle">Aragón, un desierto demográfico</h4>
-      <p class="text">
-        <!-- ... -->
-      </p>
+      <div class="section-text section-text-index">
+        <h4 class="subtittle">Aragón, un desierto demográfico</h4>
+      </div>
       <div class="scatter-desert">
         <svg class="scatter-chart">
           <g class="scatter-desert-container"></g>
@@ -157,10 +153,9 @@ import { scatterDesert } from '../scripts/d3/scatterDesert';
     </div>
     <!-- Gráfico de distribución por provincias -->
     <div class="container-desert">
-      <h4 class="subtittle">Distribución de la población en Aragón</h4>
-      <p class="text">
-        <!-- ... -->
-      </p>
+      <div class="section-text section-text-index">
+        <h4 class="subtittle">Distribución de la población en Aragón</h4>
+      </div>
       <div class="aragon-stack">
         <svg>
           <g class="aragon-stack-container"></g>

@@ -1,24 +1,26 @@
 ---
 const { municipio, codigo, provincia } = Astro.props;
+// Crear un ID seguro sin espacios ni caracteres especiales
+const municipioId = municipio.replace(/\s+/g, '-').replace(/[^\w-]/g, '').toLowerCase();
 const chartId = `grafica-municipios-stacked-${codigo}`;
 ---
 
 <div class="grafica-container">
-  <div class={`municipalities-stack-${municipio}`}>
+  <div class={`municipalities-stack-${municipioId}`}>
     <svg class="municipalities-stack"></svg>
   </div>
 </div>
 
 <script is:inline src="https://unpkg.com/d3-interpolate-path@2.2.1/build/d3-interpolate-path.min.js"></script>
 
-<script define:vars={{ municipio, codigo, provincia, chartId }} type="module">
+<script define:vars={{ municipio, codigo, provincia, chartId, municipioId }} type="module">
   document.addEventListener('DOMContentLoaded', () => {
     const margin = { top: 40, right: 8, bottom: 24, left: 32 };
     let width = 0;
     let height = 0;
     let dataMunicipalitiesStacked;
     let dataTable;
-    const chart = d3.select(`.municipalities-stack-${municipio}`);
+    const chart = d3.select(`.municipalities-stack-${municipioId}`);
     const svg = chart.select('svg');
     const scales = {};
     const bisectDate = d3.bisector(d => d.year).left;
@@ -43,13 +45,13 @@ const chartId = `grafica-municipios-stacked-${codigo}`;
 
     function setupElements() {
       svg.append('g')
-        .attr('class', `municipalities-stack-${municipio}-container`);
+        .attr('class', `municipalities-stack-${municipioId}-container`);
 
-      const g = svg.select(`.municipalities-stack-${municipio}-container`);
+      const g = svg.select(`.municipalities-stack-${municipioId}-container`);
 
       g.append('g').attr('class', 'axis axis-x');
       g.append('g').attr('class', 'axis axis-y');
-      g.append('g').attr('class', `municipalities-stack-container-${municipio}-bis`);
+      g.append('g').attr('class', `municipalities-stack-container-${municipioId}-bis`);
     }
 
     function updateScales(width, height) {
@@ -93,7 +95,7 @@ const chartId = `grafica-municipios-stacked-${codigo}`;
 
       const translate = `translate(${left},${top})`;
 
-      const g = svg.select(`.municipalities-stack-${municipio}-container`);
+      const g = svg.select(`.municipalities-stack-${municipioId}-container`);
 
       g.attr('transform', translate);
 
@@ -147,7 +149,7 @@ const chartId = `grafica-municipios-stacked-${codigo}`;
 
       updateScales(width, height);
 
-      const container = g.select(`.municipalities-stack-container-${municipio}-bis`);
+      const container = g.select(`.municipalities-stack-container-${municipioId}-bis`);
 
       const layer = container
         .selectAll('.area-stack-municipalities')

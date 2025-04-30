@@ -131,17 +131,49 @@ body {
   border-top: 4px solid var(--huesca-color);
 }
 
+.huesca-card-bg {
+  background-color: var(--huesca-color);
+}
+
 .teruel-card {
   border-top: 4px solid var(--teruel-color);
+}
+
+.teruel-card-bg {
+  background-color: var(--teruel-color);
 }
 
 .zaragoza-card {
   border-top: 4px solid var(--zaragoza-color);
 }
 
+.zaragoza-card-bg {
+  background-color: var(--zaragoza-color);
+}
+
+.sponsor-card {
+  margin:1.5rem 0;
+  font-family:Playfair Display,serif;
+  font-family:var(--title);
+  background:#fff;
+  background:var(--white);
+  box-shadow:#00000029 0 4px 24px,#00000014 0 2px 12px,#40404c4d 0 0 0 .6px;
+  padding:1rem;
+  border-radius:.5rem
+}
+.sponsor-card a,
+.sponsor-card iframe {
+  display:block;
+  margin-bottom:.5rem
+}
+.sponsor-card-text {
+  margin-top:0;
+  font-size:.875rem
+}
+
 /* Cabecera de la tarjeta */
 .card-header {
-  height: 12rem;
+  height: 4rem;
   position: relative;
   overflow: hidden;
 }
@@ -160,7 +192,6 @@ body {
 .card-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, .7), transparent);
 }
 
 .card-title {

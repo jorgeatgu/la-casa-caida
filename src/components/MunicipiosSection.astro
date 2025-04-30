@@ -168,6 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   };
 
+  // Corregimos la función de ordenamiento
   const ordenarMunicipios = (criterio) => {
     const tarjetas = Array.from(municipiosGrid.querySelectorAll('.municipio-card-link'));
 
@@ -175,11 +176,20 @@ document.addEventListener('DOMContentLoaded', () => {
       const nombreA = a.querySelector('h3').textContent;
       const nombreB = b.querySelector('h3').textContent;
 
-      const poblacionTextoA = a.querySelector('p').textContent.match(/\d+/);
-      const poblacionTextoB = b.querySelector('p').textContent.match(/\d+/);
+      // Extraemos el texto completo de población
+      const poblacionTextoA = a.querySelector('p').textContent;
+      const poblacionTextoB = b.querySelector('p').textContent;
 
-      const poblacionA = poblacionTextoA ? parseInt(poblacionTextoA[0], 10) : 0;
-      const poblacionB = poblacionTextoB ? parseInt(poblacionTextoB[0], 10) : 0;
+      // Usamos una expresión regular mejorada que capture números con separadores de miles
+      // o convertimos el texto directamente eliminando puntos y extrayendo solo los dígitos
+      const extraerNumero = (texto) => {
+        if (texto.includes("Sin datos")) return 0;
+        // Quitamos los puntos y extraemos solo los dígitos
+        return parseInt(texto.replace(/\./g, '').match(/\d+/)[0], 10);
+      };
+
+      const poblacionA = extraerNumero(poblacionTextoA);
+      const poblacionB = extraerNumero(poblacionTextoB);
 
       if (criterio === 'alfabetico') {
         return nombreA.localeCompare(nombreB);
@@ -248,7 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <style>
 .municipios-section {
   margin-top: 3rem;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 }
 
 .municipios-section h2 {

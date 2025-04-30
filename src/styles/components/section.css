@@ -32,10 +32,14 @@
 @media only screen and (min-width: 48rem) {
 
     .section-text {
-        width: 30rem;
-        .container-chart {
-          padding: 0;
-        }
+      width: 30rem;
+      .container-chart {
+        padding: 0;
+      }
+    }
+
+    .section-text-index {
+      margin: 0 auto;
     }
 
 }
