@@ -1,0 +1,145 @@
+---
+// DatosDestacadosAlternativo.astro
+interface Props {
+  datos: {
+    valor: string;
+    descripcion: string;
+    color: string;
+  }[];
+  titulo?: string;
+}
+
+const { datos, titulo = "Datos destacados" } = Astro.props;
+
+// Función para obtener la clase de color adecuada
+function getColorClass(colorName) {
+  const colorMap = {
+    'indigo': 'color-indigo',
+    'amber': 'color-amber',
+    'emerald': 'color-emerald',
+    'blue': 'color-blue',
+    'orange': 'color-orange',
+    'rose': 'color-rose',
+  };
+
+  return colorMap[colorName] || 'color-indigo';
+}
+---
+
+<div class="datos-alternativo">
+  <div class="datos-alternativo-grid">
+    {datos.map((dato) => (
+      <div class={`dato-alternativo-tarjeta ${getColorClass(dato.color)}`}>
+        <div class="dato-alternativo-contenido">
+          <span class="dato-alternativo-valor">{dato.valor}</span>
+          <span class="dato-alternativo-descripcion">{dato.descripcion}</span>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+
+<style>
+  .datos-alternativo {
+    margin: 2.5rem 0;
+  }
+
+  .datos-alternativo-titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 1.5rem;
+  }
+
+  .datos-alternativo-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .dato-alternativo-tarjeta {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #ccc;
+    transition: all 0.3s ease;
+  }
+
+  .dato-alternativo-tarjeta:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+  }
+
+  .dato-alternativo-contenido {
+    padding: 1.5rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .dato-alternativo-valor {
+    font-size: 2.25rem;
+    font-weight: 800;
+    display: block;
+  }
+
+  .dato-alternativo-descripcion {
+    display: block;
+    color: #334155;
+    margin-top: 0.75rem;
+  }
+
+  .color-indigo {
+    background-color: #eef2ff;
+    border-top-color: #4f46e5;
+  }
+
+  .color-indigo .dato-alternativo-valor {
+    color: #4338ca;
+  }
+
+  .color-amber {
+    background-color: #fffbeb;
+    border-top-color: #d97706;
+  }
+
+  .color-amber .dato-alternativo-valor {
+    color: #b45309;
+  }
+
+  .color-emerald {
+    background-color: #ecfdf5;
+    border-top-color: #059669;
+  }
+
+  .color-emerald .dato-alternativo-valor {
+    color: #047857;
+  }
+
+  .color-blue {
+    background-color: #eff6ff;
+    border-top-color: #2563eb;
+  }
+
+  .color-blue .dato-alternativo-valor {
+    color: #1d4ed8;
+  }
+
+  .color-orange {
+    background-color: #fff7ed;
+    border-top-color: #ea580c;
+  }
+
+  .color-orange .dato-alternativo-valor {
+    color: #c2410c;
+  }
+
+  .color-rose {
+    background-color: #fff1f2;
+    border-top-color: #e11d48;
+  }
+
+  .color-rose .dato-alternativo-valor {
+    color: #be123c;
+  }
+</style>

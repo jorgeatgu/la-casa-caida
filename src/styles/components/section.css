@@ -1,0 +1,45 @@
+.section-image {
+    height: 50vh;
+    margin-top: 5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.section-text {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+    .title {
+        margin-bottom: .25rem;
+    }
+    .text {
+        margin-top: .5rem;
+        margin-bottom: 0;
+    }
+    .header-ronda {
+        max-width: 20rem;
+    }
+    .container-chart {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.provincia-layout .section-text {
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 48rem) {
+
+    .section-text {
+      width: 30rem;
+      .container-chart {
+        padding: 0;
+      }
+    }
+
+    .section-text-index {
+      margin: 0 auto;
+    }
+
+}

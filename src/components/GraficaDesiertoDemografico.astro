@@ -1,0 +1,91 @@
+---
+const chartId = "scatter-desert";
+---
+
+<div class="grafica-container">
+  <div class="scatter-desert" id={chartId}>
+    <svg class="scatter-chart">
+      <g class="scatter-desert-container"></g>
+    </svg>
+  </div>
+</div>
+
+<script define:vars={{ chartId }} type="module">
+  import {
+    select,
+    scaleLinear,
+    axisBottom,
+    axisLeft,
+    csv,
+    min,
+    max
+  } from '../utils/d3-utils';
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const margin = { top: 24, right: 24, bottom: 48, left: 72 };
+    const width = 800 - margin.left - margin.right;
+    const height = 600 - margin.top - margin.bottom;
+
+    const chart = select('#scatter-desert');
+    const svg = chart.select('svg')
+      .attr("width", "100%")
+      .attr("height", height + margin.top + margin.bottom)
+      .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`);
+
+    const g = svg.select('.scatter-desert-container')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    // Cargar datos
+    csv('/data/aragon-municipios.csv').then(data => {
+      data.forEach(d => {
+        d.densidad = +d.densidad;
+      });
+
+      // Configurar escalas
+      const x = scaleLinear()
+        .domain([min(data, d => d.densidad), max(data, d => d.densidad)])
+        .range([0, width]);
+
+      const y = scaleLinear()
+        .domain([min(data, d => d.densidad), max(data, d => d.densidad)])
+        .range([height, 0]);
+
+      // Crear elementos
+      g.append('g').attr('class', 'axis axis-x');
+      g.append('g').attr('class', 'axis axis-y');
+      g.append('g').attr('class', 'scatter-desert-container-bis');
+
+      g.append('circle')
+        .attr('r', 3)
+        .attr('fill', '#B41248')
+        .attr('cy', '94%')
+        .attr('cx', '4%');
+
+      g.append('text')
+        .text('Municipios con una densidad inferior a 10hab/km²')
+        .attr('y', '95%')
+        .attr('x', '5%');
+
+      // Dibujar ejes
+      g.select('.axis-x')
+        .attr('transform', `translate(0,${height})`)
+        .call(axisBottom(x).tickFormat(d => d).ticks(0));
+
+      g.select('.axis-y')
+        .call(axisLeft(y).tickFormat(d => d + ' hab/km²').tickSize(-width).ticks(10));
+
+      // Dibujar puntos
+      g.select('.scatter-desert-container-bis')
+        .selectAll('.circle-desert')
+        .data(data)
+        .enter()
+        .append('circle')
+        .attr('class', 'circle-desert')
+        .attr('cx', d => Math.random() * width)
+        .attr('cy', d => y(d.densidad))
+        .attr('r', 3)
+        .attr('fill', d => (d.densidad >= 10 ? '#3b2462' : '#B41248'))
+        .attr('fill-opacity', 0.8);
+    });
+  });
+</script>

@@ -1,0 +1,507 @@
+---
+// Propiedades del componente
+const { provincia, titulo } = Astro.props;
+const cities = provincia || 'default';
+const csvPath = `/data/${provincia}/${provincia}-mayor-menor.csv`;
+---
+
+<div class="grafica-scatter-container">
+  {titulo && <h2 class="grafica-titulo">{titulo}</h2>}
+
+  <div class="filtros-container">
+    <h3 class="filtros-titulo">FILTROS</h3>
+
+    <div class="filtros-grupos">
+      <div class="filtro-grupo">
+        <label for={`percentage-over-city-${cities}`}>% de mayores</label>
+        <select id={`percentage-over-city-${cities}`} class="filtro-select">
+          <option value="0" selected>Todos</option>
+          <option value="10">10%</option>
+          <option value="20">20%</option>
+          <option value="30">30%</option>
+          <option value="40">40%</option>
+          <option value="50">50%</option>
+        </select>
+      </div>
+
+      <div class="filtro-grupo">
+        <label for={`percentage-under-city-${cities}`}>% de menores</label>
+        <select id={`percentage-under-city-${cities}`} class="filtro-select">
+          <option value="0" selected>Todos</option>
+          <option value="10">10%</option>
+          <option value="15">15%</option>
+          <option value="20">20%</option>
+          <option value="25">25%</option>
+        </select>
+      </div>
+
+      <button id={`clear-filter-${cities}`} class="filtro-borrar">BORRAR FILTROS</button>
+    </div>
+  </div>
+
+  <div class={`scatter-${cities}`}>
+    <svg>
+      <g class={`scatter-${cities}-container`}></g>
+    </svg>
+  </div>
+</div>
+
+<style>
+  .grafica-scatter-container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .grafica-titulo {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+  .filtros-container {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    max-width: 1000px;
+    margin: 0 auto 30px;
+  }
+
+  .filtros-titulo {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #333;
+  }
+
+  .filtros-grupos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: flex-end;
+  }
+
+  .filtro-grupo {
+    display: flex;
+    flex-direction: column;
+    min-width: 120px;
+  }
+
+  .filtro-grupo label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+
+  .filtro-select {
+    padding: 8px 4px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: white;
+    min-width: 120px;
+    font-size: 14px;
+    cursor: pointer;
+    appearance: auto;
+  }
+
+  .filtro-borrar {
+    background-color: #98012e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-transform: uppercase;
+    height: 36px;
+  }
+
+  .filtro-borrar:hover {
+    background-color: #7a0025;
+  }
+
+  svg {
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+  }
+
+  .scatter-circles {
+    fill: #1a73e8;
+    opacity: 0.7;
+    stroke: #fff;
+    stroke-width: 1;
+    transition: all 0.3s ease;
+  }
+
+  .scatter-circles:hover {
+    fill: #c5221f;
+    opacity: 1;
+    r: 8;
+  }
+
+  .axis line {
+    stroke: #e5e5e5;
+  }
+
+  .axis-y line {
+    stroke-dasharray: 2;
+  }
+
+  .axis path {
+    display: none;
+  }
+
+  .axis text {
+    font-size: 12px;
+    fill: #666;
+  }
+
+  .legend {
+    font-size: 14px;
+    fill: #333;
+    font-weight: 500;
+  }
+
+  .tooltip {
+    position: absolute;
+    padding: 12px 16px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    pointer-events: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    z-index: 10;
+    font-size: 14px;
+  }
+
+  .tooltip-citi {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 0 8px;
+    color: #333;
+  }
+
+  .tooltip-population-text, .tooltip-over, .tooltip-under, .tooltip-year {
+    margin: 6px 0;
+    color: #555;
+  }
+
+  .tooltip-number {
+    font-weight: 600;
+    color: #000;
+  }
+
+  .tooltip-percentage {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    padding: 12px 16px;
+    border-radius: 6px;
+    max-width: 300px;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+
+  .tooltip-empty {
+    background-color: #fff3f3;
+    border-color: #ffccd5;
+  }
+
+  .axis-x path, .axis-y path {
+    display: none;
+  }
+</style>
+
+<script define:vars={{ provincia, cities, csvPath }} type="module">
+
+  // D3 ya está disponible globalmente a través del Layout
+
+  document.addEventListener('DOMContentLoaded', () => {
+    let width = 0;
+    let height = 0;
+    let w = 0;
+    let h = 0;
+    let dataScatterPeople;
+    const margin = { top: 20, right: 30, bottom: 64, left: 60 };
+    const chart = d3.select(`.scatter-${cities}`);
+    const svg = chart.select('svg');
+    const scales = {};
+    const symbolP = '%';
+
+    const tooltip = chart
+      .append('div')
+      .attr('class', 'tooltip tooltip-under-over')
+      .attr('id', 'tooltip-scatter')
+      .style('opacity', 0);
+
+    function setupScales() {
+      const countX = d3.scaleLinear().domain([0, 75]);
+
+      const countY = d3
+        .scaleLinear()
+        .domain([0, d3.max(dataScatterPeople, d => d.menor * 1.75)]);
+
+      scales.count = { x: countX, y: countY };
+    }
+
+    function setupElements() {
+      const g = svg.select(`.scatter-${cities}-container`);
+
+      g.append('g').attr('class', 'axis axis-x');
+
+      g.append('g').attr('class', 'axis axis-y');
+
+      g.append('g').attr('class', `scatter-${cities}-container-bis`);
+
+      g.append('text')
+        .attr('class', 'legend')
+        .attr('y', '97%')
+        .attr('x', '35%')
+        .style('text-anchor', 'start')
+        .text('Mayores de 65 años');
+
+      g.append('text')
+        .attr('class', 'legend')
+        .attr('x', '-350')
+        .attr('y', '-30')
+        .attr('transform', 'rotate(-90)')
+        .style('text-anchor', 'start')
+        .text('Menores de 18 años');
+    }
+
+    function updateScales(width, height) {
+      const { count: { x, y } } = scales
+      x.range([0, width]);
+      y.range([height, 20]);
+    }
+
+    function drawAxes(g) {
+      const axisX = d3
+        .axisBottom(scales.count.x)
+        .tickFormat(d => d + symbolP)
+        .tickPadding(11)
+        .ticks(10);
+
+      g.select('.axis-x').attr('transform', `translate(0,${height})`).call(axisX);
+
+      const axisY = d3
+        .axisLeft(scales.count.y)
+        .tickFormat(d => d + symbolP)
+        .tickSize(-width)
+        .ticks(5);
+
+      g.select('.axis-y').call(axisY);
+    }
+
+    function updateChart(dataScatterPeople) {
+      w = chart.node().offsetWidth;
+      h = 600;
+
+      const { left, right, top, bottom } = margin
+
+      width = w - left - right;
+      height = h - top - bottom;
+
+      svg.attr('width', w).attr('height', h);
+
+      const g = svg.select(`.scatter-${cities}-container`);
+
+      g.attr('transform', `translate(${left},${top})`);
+
+      updateScales(width, height);
+
+      const container = chart.select(`.scatter-${cities}-container-bis`);
+
+      container
+        .selectAll('.scatter-circles')
+        .data(dataScatterPeople)
+        .join(
+          enter => enter
+            .append("circle")
+            .attr('cx', d => scales.count.x(d.mayor))
+            .attr('cy', d => scales.count.y(d.menor))
+            .attr('r', 0),
+          update => update
+            .attr('r', 6),
+          exit => exit
+            .attr('cx', d => scales.count.x(d.mayor))
+            .attr('cy', d => scales.count.y(d.menor))
+            .attr('r', 0)
+        )
+        .attr('class', `scatter-${cities}-circles scatter-circles`)
+        .on('mouseover', function(event, d) {
+          tooltip.transition();
+          tooltip
+            .style('opacity', 1)
+            .html(
+              `<p class="tooltip-citi">${d.city}<p/>
+              <p class="tooltip-population-text">Habitantes: <span class="tooltip-number">${d.population}</span><p/>
+              <p class="tooltip-over">Mayores de 65 años: <span class="tooltip-number">${d.mayor.toFixed(2)}%</span><p/>
+              <p class="tooltip-under">Menores de 18 años: <span class="tooltip-number">${d.menor.toFixed(2)}%</span><p/>
+              <p class="tooltip-year">Año: <span class="tooltip-number">${d.year}</span><p/>
+              `
+            )
+            .style('left', (event.pageX - chart.node().getBoundingClientRect().left) + 'px')
+            .style('top', (event.pageY - chart.node().getBoundingClientRect().top - 100) + 'px');
+        })
+        .on('mouseout', function() {
+          tooltip.transition().duration(200).style('opacity', 0);
+        })
+        .transition()
+        .duration(600)
+        .ease(d3.easeQuad)
+        .attr('cx', d => scales.count.x(d.mayor))
+        .attr('cy', d => scales.count.y(d.menor))
+        .attr('r', 6);
+
+      drawAxes(g);
+    }
+
+    function clearFilter() {
+      const selectButton = d3.select(`#clear-filter-${cities}`);
+
+      selectButton.on('click', function() {
+        d3.select(`#percentage-over-city-${cities}`).property('selectedIndex', 0);
+        d3.select(`#percentage-under-city-${cities}`).property('selectedIndex', 0);
+        d3.selectAll('.tooltip-percentage').remove();
+
+        d3.csv(csvPath).then(data => {
+          dataScatterPeople = data;
+          dataScatterPeople.forEach(d => {
+            d.mayor = +d.mayor;
+            d.menor = +d.menor;
+            d.city = d.name;
+            d.population = +d.population || 0;
+          });
+          updateChart(dataScatterPeople);
+        });
+      });
+    }
+
+    function percentageOlder() {
+      const selectPercentage = d3.select(`#percentage-over-city-${cities}`);
+
+      selectPercentage.on('change', function() {
+        d3.select(`#percentage-under-city-${cities}`).property('selectedIndex', 0);
+
+        const percentageCity = d3.select(this).property('value');
+
+        d3.csv(csvPath).then(data => {
+          // Convertir los datos al formato correcto
+          const formattedData = data.map(d => {
+            return {
+              mayor: parseFloat(d.mayor),
+              menor: parseFloat(d.menor),
+              population: parseInt(d.population, 10),
+              city: d.name,
+              year: parseInt(d.year, 10)
+            }
+          });
+
+          d3.selectAll(`.scatter-${cities}-circles`)
+            .transition()
+            .duration(400)
+            .attr('r', 0);
+
+          dataScatterPeople = formattedData.filter(({ mayor }) => mayor > percentageCity);
+
+          d3.selectAll('.tooltip-percentage').remove();
+
+          chart
+            .append('div')
+            .attr('class', 'tooltip tooltip-percentage')
+            .html(
+              `
+              <p class="tooltip-population-text"><span class="tooltip-number">En ${dataScatterPeople.length}</span> municipios el % de habitantes mayores de 65 años es superior al <span class="tooltip-number">${percentageCity}%</span>. <p/>
+              `
+            )
+            .style('right', `${margin.right}px`)
+            .style('top', `${50}px`);
+
+          updateChart(dataScatterPeople);
+        });
+      });
+    }
+
+    function percentageUnder() {
+      const selectPercentage = d3.select(`#percentage-under-city-${cities}`);
+
+      selectPercentage.on('change', function() {
+        d3.select(`#percentage-over-city-${cities}`).property('selectedIndex', 0);
+
+        const percentageCity = d3.select(this).property('value');
+
+        d3.csv(csvPath).then(data => {
+          // Convertir los datos al formato correcto
+          const formattedData = data.map(d => {
+            return {
+              mayor: parseFloat(d.mayor),
+              menor: parseFloat(d.menor),
+              population: parseInt(d.population, 10),
+              city: d.name,
+              year: parseInt(d.year, 10)
+            }
+          });
+
+          d3.selectAll(`.scatter-${cities}-circles`)
+            .transition()
+            .duration(400)
+            .attr('r', 0);
+
+          dataScatterPeople = formattedData.filter(({ menor }) => menor > percentageCity);
+
+          d3.selectAll('.tooltip-percentage').remove();
+
+          chart
+            .append('div')
+            .attr('class', 'tooltip tooltip-percentage')
+            .html(
+              `
+              <p class="tooltip-population-text"><span class="tooltip-number">En ${dataScatterPeople.length}</span> municipios el % de habitantes menores de 18 años es superior al <span class="tooltip-number">${percentageCity}%</span>. <p/>
+              `
+            )
+            .style('right', `${margin.right}px`)
+            .style('top', `${50}px`);
+
+          updateChart(dataScatterPeople);
+        });
+      });
+    }
+
+    function resize() {
+      updateChart(dataScatterPeople);
+    }
+
+    function loadData() {
+      d3.csv(csvPath).then(data => {
+        dataScatterPeople = data.map(d => {
+          return {
+            mayor: parseFloat(d.mayor),
+            menor: parseFloat(d.menor),
+            population: parseInt(d.population, 10),
+            city: d.name,
+            year: parseInt(d.year, 10)
+          }
+        });
+
+        setupElements();
+        setupScales();
+        updateChart(dataScatterPeople);
+        percentageOlder();
+        percentageUnder();
+        clearFilter();
+      });
+    }
+
+    window.addEventListener('resize', resize);
+
+    loadData();
+  });
+</script>

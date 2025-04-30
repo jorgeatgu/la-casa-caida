@@ -1,0 +1,328 @@
+---
+const { municipio, codigo, provincia } = Astro.props;
+const chartId = `grafica-densidad-${codigo}`;
+---
+
+<div class="grafica-container">
+  <div class="line-densidad" id={chartId}></div>
+</div>
+
+<script define:vars={{ municipio, codigo, provincia, chartId }} type="module">
+  document.addEventListener('DOMContentLoaded', () => {
+    let width = 0;
+    let height = 0;
+    let scales = {};
+    let dataLineDensidad = [];
+    const margin = { top: 20, right: 20, bottom: 40, left: 96 };
+    const container = d3.select(`#${chartId}`);
+    const labelDesert = ' hab/km²';
+
+    // Crear SVG con atributos para responsividad
+    const svg = container.append("svg")
+      .attr("width", "100%")
+      .attr("height", 500)
+      .append("g")
+      .attr("class", `${chartId}-container`)
+      .attr("transform", `translate(${margin.left},${margin.top})`);
+
+    // Añadir grupos para ejes y líneas
+    svg.append('g').attr('class', 'axis axis-x');
+    svg.append('g').attr('class', 'axis axis-y');
+    svg.append('g').attr('class', `${chartId}-container-bis`);
+
+    // Cargar datos
+    const csvPath = `/data/${provincia}/${provincia}-densidad.csv`;
+
+    function setupScales() {
+      const countX = d3.scaleTime()
+        .domain([
+          d3.min(dataLineDensidad, d => d.year),
+          d3.max(dataLineDensidad, d => d.year)
+        ]);
+
+      const countY = d3.scaleLinear()
+        .domain([
+          0,
+          d3.max(dataLineDensidad, d => d.densidad * 1.2)
+        ]);
+
+      scales.count = { x: countX, y: countY };
+    }
+
+    function updateScales(width, height) {
+      const { count: { x, y } } = scales;
+      x.range([0, width]);
+      y.range([height, 0]);
+    }
+
+    function drawAxes(g) {
+      const axisX = d3.axisBottom(scales.count.x)
+        .tickPadding(5)
+        .tickFormat(d3.format('d'))
+        .ticks(10);
+
+      g.select('.axis-x')
+        .attr('transform', `translate(0,${height})`)
+        .call(axisX);
+
+      const axisY = d3.axisLeft(scales.count.y)
+        .tickPadding(5)
+        .tickFormat(d => d + labelDesert)
+        .tickSize(-width)
+        .ticks(6);
+
+      g.select('.axis-y')
+        .transition()
+        .duration(450)
+        .ease(d3.easeLinear)
+        .call(axisY);
+
+      // Añadir etiquetas de los ejes
+      g.selectAll('.axis-label.x-label').remove();
+      g.selectAll('.axis-label.y-label').remove();
+
+      g.append("text")
+        .attr("class", "axis-label x-label")
+        .attr("text-anchor", "middle")
+        .attr("transform", `translate(${width/2}, ${height + margin.bottom - 5})`)
+        .text("Año");
+
+      g.append("text")
+        .attr("class", "axis-label y-label")
+        .attr("text-anchor", "middle")
+        .attr("transform", `translate(${-margin.left/2 - 15}, ${height/2}) rotate(-90)`)
+        .text("Densidad (hab/km²)");
+    }
+
+    function updateChart() {
+      const w = container.node().offsetWidth;
+      const h = 500;
+
+      const { left, right, top, bottom } = margin;
+
+      width = w - left - right;
+      height = h - top - bottom;
+
+      container.select("svg").attr('width', w).attr('height', h);
+
+      const g = svg;
+
+      const line = d3.line()
+        .x(d => scales.count.x(d.year))
+        .y(d => scales.count.y(d.densidad));
+
+      updateScales(width, height);
+
+      // Dibujar la línea
+      g.select(`.${chartId}-container-bis`)
+        .selectAll('.lines')
+        .data([dataLineDensidad])
+        .join('path')
+        .attr('class', 'lines')
+        .attr("fill", "none")
+        .attr("stroke", "#1a73e8")
+        .attr("stroke-width", 2)
+        .transition()
+        .duration(300)
+        .ease(d3.easeLinear)
+        .attrTween('d', function (d) {
+          let previous = d3.select(this).attr('d');
+          let current = line(d);
+          // Si previous no existe (primera carga), usamos un camino vacío
+          return previous ? d3.interpolatePath(previous, current) : (()=> current);
+        });
+
+      // Añadir puntos con interactividad
+      addPointsWithInteractivity(g);
+
+      // Dibujar ejes
+      drawAxes(g);
+
+      // Verificar si es desierto demográfico
+      checkDesertDemographic();
+    }
+
+    function addPointsWithInteractivity(g) {
+      // Primero eliminar puntos existentes
+      g.selectAll(".data-point").remove();
+
+      // Eliminar tooltip existente y crear uno nuevo para asegurar que no haya conflictos
+      d3.select("body").select(".tooltip-densidad").remove();
+
+      const tooltip = d3.select("body")
+        .append("div")
+        .attr("class", "tooltip-densidad")
+        .style("position", "absolute")
+        .style("background", "white")
+        .style("padding", "8px")
+        .style("border-radius", "4px")
+        .style("box-shadow", "0 2px 4px rgba(0,0,0,0.2)")
+        .style("pointer-events", "none")
+        .style("opacity", 0)
+        .style("z-index", 1000); // Asegurar que esté por encima de otros elementos
+
+      // Añadir puntos
+      g.select(`.${chartId}-container-bis`)
+        .selectAll(".data-point")
+        .data(dataLineDensidad)
+        .enter()
+        .append("circle")
+        .attr("class", "data-point")
+        .attr("cx", d => scales.count.x(d.year))
+        .attr("cy", d => scales.count.y(d.densidad))
+        .attr("r", 4)
+        .attr("fill", d => d.densidad < 10 ? "#f44336" : "#1a73e8")
+        .attr("stroke", "#fff")
+        .attr("stroke-width", 2)
+        .on("mouseover", function(event, d) {
+          // Aumentar tamaño del círculo
+          d3.select(this)
+            .attr("r", 6)
+            .attr("stroke-width", 3);
+
+          // Mostrar tooltip con información
+          tooltip
+            .html(`
+              <strong>${d.year}</strong><br>
+              Población: ${d.population.toLocaleString()} habitantes<br>
+              Superficie: ${d.superficie.toLocaleString()} km²<br>
+              Densidad: ${d.densidad.toFixed(2)} hab/km²
+              ${d.densidad < 10 ? "<br><strong>¡Desierto demográfico!</strong>" : ""}
+            `)
+            .style("left", (event.pageX + 10) + "px")
+            .style("top", (event.pageY - 28) + "px")
+            .style("opacity", 0.9);
+        })
+        .on("mouseout", function() {
+          // Restaurar tamaño original del círculo
+          d3.select(this)
+            .attr("r", 4)
+            .attr("stroke-width", 2);
+
+          // Ocultar tooltip
+          tooltip.style("opacity", 0);
+        });
+    }
+
+    function checkDesertDemographic() {
+      // Eliminar alerta existente si la hay
+      container.selectAll('.densidad-alerta').remove();
+
+      // Comprobar el último valor de densidad
+      if (dataLineDensidad.length > 0) {
+        const currentDensity = dataLineDensidad[dataLineDensidad.length - 1].densidad;
+
+        if (currentDensity < 10) {
+          const alertContainer = container.append("div")
+            .attr("class", "densidad-alerta")
+            .style("position", "absolute")
+            .style("top", "10px")
+            .style("right", "20px")
+            .style("background-color", "#fab892")
+            .style("border", "1px solid #f44336")
+            .style("border-radius", "4px")
+            .style("padding", "10px")
+            .style("max-width", "250px");
+
+          alertContainer.append("p")
+            .style("margin", "0")
+            .style("font-size", "14px")
+            .html("<strong>Desierto demográfico</strong>: Una densidad inferior a 10 hab/km² convierte al municipio en un desierto demográfico.");
+        }
+      }
+    }
+
+    function loadData() {
+      d3.csv(csvPath).then(data => {
+        // Filtrar por el municipio actual
+        dataLineDensidad = data.filter(d => d.municipio === municipio || d.name === municipio);
+
+        // Procesar los datos
+        dataLineDensidad.forEach(d => {
+          d.year = +d.year;
+          d.population = +d.population;
+          d.superficie = +d.superficie;
+          d.densidad = (d.population / d.superficie);
+        });
+
+        // Ordenar por año para asegurar la correcta visualización
+        dataLineDensidad.sort((a, b) => a.year - b.year);
+
+        // Configurar escalas y actualizar gráfico
+        setupScales();
+        updateChart();
+      }).catch(error => {
+        console.error("Error al cargar los datos:", error);
+        container.html('<div class="error-message">No se pudieron cargar los datos. Por favor, inténtelo de nuevo más tarde.</div>');
+      });
+    }
+
+    // Manejo de resize para responsividad
+    function resize() {
+      updateChart();
+    }
+
+    window.addEventListener('resize', resize);
+    loadData();
+  });
+</script>
+
+<style>
+  .grafica-container {
+    margin: 2rem 0;
+    width: 100%;
+    position: relative;
+  }
+
+  .line-densidad {
+    width: 100%;
+    position: relative;
+  }
+
+  .axis-label {
+    font-size: 0.85rem;
+    fill: #666;
+  }
+
+  .error-message {
+    color: #d32f2f;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid #ffcdd2;
+    background-color: #ffebee;
+    border-radius: 4px;
+  }
+
+  /* Estilo para los ejes */
+  :global(.axis-x path),
+  :global(.axis-y path) {
+    stroke: #ccc;
+    display: none;
+  }
+
+  :global(.axis-y line) {
+    opacity: 0.7;
+    stroke-dasharray: 2;
+  }
+
+  :global(.axis-x text),
+  :global(.axis-y text) {
+    fill: #666;
+    font-size: 12px;
+    font-family: var(--text);
+  }
+
+  /* Estilo para el tooltip */
+  :global(.tooltip-densidad) {
+    color: #333;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding: 10px;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    z-index: 1000;
+  }
+</style>

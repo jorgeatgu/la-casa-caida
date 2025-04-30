@@ -1,0 +1,74 @@
+---
+// NavMenu.astro
+---
+<nav class="main-nav">
+  <div class="nav-container">
+    <div class="logo">
+      <a href="/" class="logo-link">La casa caída</a>
+    </div>
+
+    <button class="menu-toggle" aria-label="Abrir menú">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <div class="nav-links">
+      <a href="/provincia/huesca" class="nav-link huesca-link">Huesca</a>
+      <a href="/provincia/teruel" class="nav-link teruel-link">Teruel</a>
+      <a href="/provincia/zaragoza" class="nav-link zaragoza-link">Zaragoza</a>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    const mainNav = document.querySelector('.main-nav');
+
+    // Toggle menú móvil
+    menuToggle?.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      navLinks?.classList.toggle('active');
+
+      // Prevenir scroll cuando el menú está abierto
+      if (navLinks?.classList.contains('active')) {
+        document.body.style.overflow = 'hidden';
+      } else {
+        document.body.style.overflow = '';
+      }
+    });
+
+    // Detectar página actual y marcar enlace correspondiente
+    const currentPath = window.location.pathname;
+    const navLinksElements = document.querySelectorAll('.nav-link');
+
+    navLinksElements.forEach(link => {
+      const href = link.getAttribute('href');
+      if (currentPath === href || (href !== '/' && currentPath.startsWith(href))) {
+        link.classList.add('active');
+      }
+    });
+
+    // Cambiar estilo de menú al hacer scroll
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        mainNav?.classList.add('scrolled');
+      } else {
+        mainNav?.classList.remove('scrolled');
+      }
+    });
+
+    // Cerrar menú móvil al hacer clic en un enlace
+    navLinksElements.forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 768) {
+          menuToggle?.classList.remove('active');
+          navLinks?.classList.remove('active');
+          document.body.style.overflow = ''; // Restaurar scroll
+        }
+      });
+    });
+  });
+</script>

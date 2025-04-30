@@ -1,0 +1,45 @@
+---
+import '../styles/global.css';
+import NavMenu from '../components/NavMenu.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+const { title, descripcion, provinciaActual, municipioActual } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title}</title>
+  <meta name="description" content={descripcion || "La casa caída | La evolución de la población en Aragón"}>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Playfair+Display:400,700" rel="stylesheet">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="f10ac894-f008-49ef-a691-a9da640f99c9"></script>
+</head>
+<body>
+  <NavMenu />
+  <main class="provincia-container">
+    <div class="container-chart">
+      <Breadcrumb
+        provinciaActual={provinciaActual}
+        municipioActual={municipioActual}
+      />
+    </div>
+    <slot />
+  </main>
+
+  <footer class="footer">
+    <div class="container-chart">
+      <p class="footer-texto">Hecho en Zaragoza con mucha maña por un <a class="footer-links" href="http://jorgeatgu.com" target="_blank">maño</a> - 2019 - 2025</p>
+      <p class="footer-texto">Cualquier consulta escribid a: data@jorgeatgu.com</p>
+      <a class="footer-links" href="https://github.com/jorgeatgu/la-casa-caida">Todo el código y datos está disponible en GitHub</a>
+    </div>
+  </footer>
+
+
+  <script src="/src/scripts/main.js"></script>
+</body>
+</html>

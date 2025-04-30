@@ -1,0 +1,267 @@
+---
+import { municipios } from '../data/municipios';
+
+// Obtener lista de municipios por provincia
+const municipiosHuesca = municipios.filter(m => m.provincia === 'huesca');
+const municipiosTeruel = municipios.filter(m => m.provincia === 'teruel');
+const municipiosZaragoza = municipios.filter(m => m.provincia === 'zaragoza');
+
+const chartId = "comparador-chart";
+---
+
+<div class="comparador">
+  <h2 class="subtittle">Comparador de municipios</h2>
+  <p class="text">Selecciona dos municipios para comparar su evolución demográfica.</p>
+
+  <div class="selectors">
+    <div class="selector-group">
+      <label for="municipio1">Primer municipio:</label>
+      <select id="municipio1" class="selector-municipio">
+        <optgroup label="Huesca">
+          {municipiosHuesca.map(m => (
+            <option value={`${m.provincia}-${m.codigoINE}`}>{m.nombre}</option>
+          ))}
+        </optgroup>
+        <optgroup label="Teruel">
+          {municipiosTeruel.map(m => (
+            <option value={`${m.provincia}-${m.codigoINE}`}>{m.nombre}</option>
+          ))}
+        </optgroup>
+        <optgroup label="Zaragoza">
+          {municipiosZaragoza.map(m => (
+            <option value={`${m.provincia}-${m.codigoINE}`}>{m.nombre}</option>
+          ))}
+        </optgroup>
+      </select>
+    </div>
+
+    <div class="selector-group">
+      <label for="municipio2">Segundo municipio:</label>
+      <select id="municipio2" class="selector-municipio">
+        <optgroup label="Huesca">
+          {municipiosHuesca.map(m => (
+            <option value={`${m.provincia}-${m.codigoINE}`}>{m.nombre}</option>
+          ))}
+        </optgroup>
+        <optgroup label="Teruel">
+          {municipiosTeruel.map(m => (
+            <option value={`${m.provincia}-${m.codigoINE}`}>{m.nombre}</option>
+          ))}
+        </optgroup>
+        <optgroup label="Zaragoza">
+          {municipiosZaragoza.map(m => (
+            <option value={`${m.provincia}-${m.codigoINE}`}>{m.nombre}</option>
+          ))}
+        </optgroup>
+      </select>
+    </div>
+
+    <button id="btn-comparar" class="btn-comparar">Comparar</button>
+  </div>
+
+  <div id={chartId} class="comparador-chart">
+    <svg></svg>
+  </div>
+</div>
+
+<script define:vars={{ chartId }}>
+  import { select } from 'https://cdn.jsdelivr.net/npm/d3-selection@3/+esm';
+  import { scaleLinear, scaleTime } from 'https://cdn.jsdelivr.net/npm/d3-scale@4/+esm';
+  import { line } from 'https://cdn.jsdelivr.net/npm/d3-shape@3/+esm';
+  import { axisBottom, axisLeft } from 'https://cdn.jsdelivr.net/npm/d3-axis@3/+esm';
+  import { csv } from 'https://cdn.jsdelivr.net/npm/d3-fetch@3/+esm';
+  import { extent, max } from 'https://cdn.jsdelivr.net/npm/d3-array@3/+esm';
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const btnComparar = document.getElementById('btn-comparar');
+    const selectMunicipio1 = document.getElementById('municipio1');
+    const selectMunicipio2 = document.getElementById('municipio2');
+
+    btnComparar.addEventListener('click', compararMunicipios);
+
+    function compararMunicipios() {
+      const [provincia1, codigo1] = selectMunicipio1.value.split('-');
+      const [provincia2, codigo2] = selectMunicipio2.value.split('-');
+
+      Promise.all([
+        csv(`/data/${provincia1}/${codigo1}.csv`),
+        csv(`/data/${provincia2}/${codigo2}.csv`)
+      ]).then(([data1, data2]) => {
+        // Procesar datos
+        data1.forEach(d => {
+          d.year = +d.year;
+          d.population = +d.population;
+        });
+
+        data2.forEach(d => {
+          d.year = +d.year;
+          d.population = +d.population;
+        });
+
+        // Dibujar gráfica
+        const margin = { top: 20, right: 80, bottom: 40, left: 60 };
+        const width = 800 - margin.left - margin.right;
+        const height = 400 - margin.top - margin.bottom;
+
+        const chart = select(`#${chartId}`);
+
+        // Limpiar gráfica anterior
+        chart.select('svg').html('');
+
+        const svg = chart.select('svg')
+          .attr("width", "100%")
+          .attr("height", height + margin.top + margin.bottom)
+          .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
+          .append("g")
+          .attr("transform", `translate(${margin.left},${margin.top})`);
+
+        // Escalas
+        const allYears = [...data1.map(d => d.year), ...data2.map(d => d.year)];
+        const allPopulation = [...data1.map(d => d.population), ...data2.map(d => d.population)];
+
+        const x = scaleTime()
+          .domain(extent(allYears))
+          .range([0, width]);
+
+        const y = scaleLinear()
+          .domain([0, max(allPopulation) * 1.1])
+          .range([height, 0]);
+
+        // Líneas
+        const lineGenerator = line()
+          .x(d => x(d.year))
+          .y(d => y(d.population));
+
+        // Línea municipio 1
+        svg.append("path")
+          .datum(data1)
+          .attr("class", "line")
+          .attr("stroke", "#b60b46")
+          .attr("stroke-width", 3)
+          .attr("fill", "none")
+          .attr("d", lineGenerator);
+
+        // Línea municipio 2
+        svg.append("path")
+          .datum(data2)
+          .attr("class", "line")
+          .attr("stroke", "#3b2462")
+          .attr("stroke-width", 3)
+          .attr("fill", "none")
+          .attr("d", lineGenerator);
+
+        // Ejes
+        svg.append("g")
+          .attr("class", "axis axis-x")
+          .attr("transform", `translate(0,${height})`)
+          .call(axisBottom(x).tickFormat(d => d));
+
+        svg.append("g")
+          .attr("class", "axis axis-y")
+          .call(axisLeft(y));
+
+        // Leyenda
+        const leyenda = svg.append("g")
+          .attr("class", "leyenda")
+          .attr("transform", `translate(${width - 150},20)`);
+
+        // Leyenda municipio 1
+        leyenda.append("rect")
+          .attr("width", 15)
+          .attr("height", 15)
+          .attr("fill", "#b60b46");
+
+        leyenda.append("text")
+          .attr("x", 20)
+          .attr("y", 12)
+          .text(selectMunicipio1.options[selectMunicipio1.selectedIndex].text);
+
+        // Leyenda municipio 2
+        leyenda.append("rect")
+          .attr("width", 15)
+          .attr("height", 15)
+          .attr("fill", "#3b2462")
+          .attr("y", 25);
+
+        leyenda.append("text")
+          .attr("x", 20)
+          .attr("y", 37)
+          .text(selectMunicipio2.options[selectMunicipio2.selectedIndex].text);
+      });
+    }
+
+    // Selección aleatoria inicial para demo
+    const randomIndex1 = Math.floor(Math.random() * selectMunicipio1.options.length);
+    const randomIndex2 = Math.floor(Math.random() * selectMunicipio2.options.length);
+
+    selectMunicipio1.selectedIndex = randomIndex1;
+    selectMunicipio2.selectedIndex = randomIndex2;
+
+    // Aplicar TomSelect si está disponible
+    if (typeof TomSelect !== 'undefined') {
+      new TomSelect('#municipio1', {
+        create: false,
+        sortField: {
+          field: "text",
+          direction: "asc"
+        }
+      });
+
+      new TomSelect('#municipio2', {
+        create: false,
+        sortField: {
+          field: "text",
+          direction: "asc"
+        }
+      });
+    }
+  });
+</script>
+
+<style>
+  .comparador {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+  }
+
+  .selectors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .selector-group {
+    flex: 1;
+    min-width: 250px;
+  }
+
+  .selector-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+  .btn-comparar {
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--project1txt);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .btn-comparar:hover {
+    opacity: 0.9;
+  }
+
+  .comparador-chart {
+    margin-top: 2rem;
+    min-height: 400px;
+  }
+</style>

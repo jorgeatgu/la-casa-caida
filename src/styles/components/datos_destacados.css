@@ -1,0 +1,348 @@
+.datos-alternativo {
+  margin: 2.5rem 0;
+}
+
+.datos-alternativo-titulo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+}
+
+.datos-alternativo-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .datos-alternativo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.dato-alternativo-tarjeta {
+  position: relative;
+  overflow: hidden;
+  border-radius: .75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+  border-bottom: 4px solid #ccc;
+  transition: all .3s ease;
+}
+
+.dato-alternativo-tarjeta:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .15);
+  transform: scale(1.05);
+}
+
+.dato-alternativo-contenido {
+  padding: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.dato-alternativo-decoracion {
+  position: absolute;
+  top: -1.5rem;
+  right: -1.5rem;
+  font-size: 6rem;
+  font-weight: 800;
+  transform: rotate(12deg);
+  opacity: .1;
+  z-index: 0;
+}
+
+.dato-alternativo-valor {
+  font-size: 2.25rem;
+  font-weight: 800;
+  display: block;
+}
+
+.dato-alternativo-descripcion {
+  display: block;
+  color: #334155;
+  margin-top: .75rem;
+}
+
+.color-indigo.dato-alternativo-tarjeta {
+  background-color: #eef2ff;
+  border-bottom-color: #4f46e5;
+}
+
+.color-indigo .dato-alternativo-valor {
+  color: #4338ca;
+}
+
+.color-amber.dato-alternativo-tarjeta {
+  background-color: #fffbeb;
+  border-bottom-color: #d97706;
+}
+
+.color-amber .dato-alternativo-valor {
+  color: #b45309;
+}
+
+.color-emerald.dato-alternativo-tarjeta {
+  background-color: #ecfdf5;
+  border-bottom-color: #059669;
+}
+
+.color-emerald .dato-alternativo-valor {
+  color: #047857;
+}
+
+.color-blue.dato-alternativo-tarjeta {
+  background-color: #eff6ff;
+  border-bottom-color: #2563eb;
+}
+
+.color-blue .dato-alternativo-valor {
+  color: #1d4ed8;
+}
+
+.color-orange.dato-alternativo-tarjeta {
+  background-color: #fff7ed;
+  border-bottom-color: #ea580c;
+}
+
+.color-orange .dato-alternativo-valor {
+  color: #c2410c;
+}
+
+.color-rose.dato-alternativo-tarjeta {
+  background-color: #fff1f2;
+  border-bottom-color: #e11d48;
+}
+
+.color-rose .dato-alternativo-valor {
+  color: #be123c;
+}
+
+.datos-alternativo {
+  margin: 2.5rem 0;
+}
+
+.datos-alternativo-titulo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+}
+
+.datos-alternativo-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.dato-alternativo-tarjeta {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.dato-alternativo-tarjeta:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+}
+
+.dato-alternativo-contenido {
+  padding: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.dato-alternativo-valor {
+  font-size: 2.25rem;
+  font-weight: 800;
+  display: block;
+}
+
+.dato-alternativo-descripcion {
+  display: block;
+  color: #334155;
+  margin-top: 0.75rem;
+}
+
+.color-indigo {
+  background-color: #eef2ff;
+  border-top-color: #4f46e5;
+}
+
+.color-indigo .dato-alternativo-valor {
+  color: #4338ca;
+}
+
+.color-amber {
+  background-color: #fffbeb;
+  border-top-color: #d97706;
+}
+
+.color-amber .dato-alternativo-valor {
+  color: #b45309;
+}
+
+.color-emerald {
+  background-color: #ecfdf5;
+  border-top-color: #059669;
+}
+
+.color-emerald .dato-alternativo-valor {
+  color: #047857;
+}
+
+.color-blue {
+  background-color: #eff6ff;
+  border-top-color: #2563eb;
+}
+
+.color-blue .dato-alternativo-valor {
+  color: #1d4ed8;
+}
+
+.color-orange {
+  background-color: #fff7ed;
+  border-top-color: #ea580c;
+}
+
+.color-orange .dato-alternativo-valor {
+  color: #c2410c;
+}
+
+.color-rose {
+  background-color: #fff1f2;
+  border-top-color: #e11d48;
+}
+
+.datos-municipio-container {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+#datos-municipio-contenido {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.cargando-datos {
+  text-align: center;
+  padding: 2rem;
+  color: #64748b;
+}
+
+.tarjeta {
+  position: relative;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #ccc;
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+
+.tarjeta:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+}
+
+.tarjeta-contenido {
+  padding: 1.5rem;
+}
+
+.tarjeta-valor {
+  font-size: 2.25rem;
+  font-weight: 800;
+  display: block;
+}
+
+.tarjeta-descripcion {
+  display: block;
+  color: #334155;
+  margin-top: 0.75rem;
+}
+
+.tarjeta-extra {
+  display: block;
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-top: 0.5rem;
+}
+
+/* Colores de tarjetas */
+.tarjeta-azul {
+  border-top-color: #4f46e5;
+  background-color: #eef2ff;
+}
+
+.tarjeta-azul .tarjeta-valor {
+  color: #4338ca;
+}
+
+.tarjeta-ambar {
+  border-top-color: #d97706;
+  background-color: #fffbeb;
+}
+
+.tarjeta-ambar .tarjeta-valor {
+  color: #b45309;
+}
+
+.tarjeta-verde {
+  border-top-color: #059669;
+  background-color: #ecfdf5;
+}
+
+.tarjeta-verde .tarjeta-valor {
+  color: #047857;
+}
+
+/* Estilos para la comparativa */
+.comparativa-item {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.comparativa-titulo {
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 0.5rem;
+}
+
+.comparativa-valor {
+  margin-bottom: 0.25rem;
+}
+
+.comparativa-municipio {
+  font-weight: 500;
+  color: #0f172a;
+}
+
+.comparativa-provincia {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.diferencia {
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+}
+
+.diferencia-positiva {
+  color: #16a34a;
+}
+
+.diferencia-negativa {
+  color: #dc2626;
+}
+
+.diferencia-neutral {
+  color: #64748b;
+}

@@ -1,0 +1,290 @@
+---
+const { provincia, municipio, codigo } = Astro.props;
+const chartId = `grafica-evolucion-${codigo || provincia}`;
+const containerClass = `line-evolution-${provincia}`;
+---
+
+<div class="grafica-container">
+  <div class={containerClass}>
+    <svg class="line-chart" aria-labelledby={`${chartId}-title`}>
+      <title id={`${chartId}-title`}>Evolución de población en {municipio}</title>
+      <g class={`line-evolution-${provincia}-container`}></g>
+    </svg>
+  </div>
+</div>
+
+<script define:vars={{ provincia, municipio, codigo, chartId, containerClass }} type="module">
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const margin = { top: 16, right: 16, bottom: 24, left: 62 };
+    let width = 0;
+    let height = 0;
+    const chart = d3.select(`.${containerClass}`);
+    const svg = chart.select('svg');
+    let scales = {};
+    let dataLineEvolution;
+
+    function setupScales() {
+      // Usar extent para calcular el rango de años automáticamente
+      const yearExtent = d3.extent(dataLineEvolution, d => d.year);
+      const countX = d3.scaleTime().domain(yearExtent);
+
+      // Calcular el rango de población con padding para mejor visualización
+      const minPop = d3.min(dataLineEvolution, d => d.population);
+      const maxPop = d3.max(dataLineEvolution, d => d.population);
+      const padding = (maxPop - minPop) * 0.1;
+
+      const countY = d3.scaleLinear()
+        .domain([
+          Math.max(0, minPop - padding), // Evitar valores negativos
+          maxPop + padding
+        ]);
+
+      scales.count = { x: countX, y: countY };
+    }
+
+    function setupElements() {
+      const g = svg.select(`.line-evolution-${provincia}-container`);
+
+      g.append('g').attr('class', 'axis axis-x');
+      g.append('g').attr('class', 'axis axis-y');
+      g.append('g').attr('class', `line-evolution-${provincia}-container-bis`);
+
+      // Añadir título del eje X
+      g.append('text')
+        .attr('class', 'axis-label x-label')
+        .attr('text-anchor', 'middle')
+        .text('Año');
+
+      // Añadir título del eje Y
+      g.append('text')
+        .attr('class', 'axis-label y-label')
+        .attr('text-anchor', 'middle')
+        .text('Habitantes');
+    }
+
+    function updateScales(width, height) {
+      const { count: { x, y } } = scales;
+      x.range([0, width]);
+      y.range([height, 0]);
+    }
+
+    function drawAxes(g) {
+      const axisX = d3.axisBottom(scales.count.x)
+        .tickPadding(5)
+        .tickFormat(d3.format('d'))
+        .ticks(width < 500 ? 5 : 10); // Adaptar número de ticks al ancho
+
+      g.select('.axis-x')
+        .attr('transform', `translate(0,${height})`)
+        .call(axisX);
+
+      const axisY = d3.axisLeft(scales.count.y)
+        .tickPadding(5)
+        .tickFormat(d3.format(',.0f')) // Formato con separador de miles
+        .tickSize(-width)
+        .ticks(6);
+
+      g.select('.axis-y')
+        .transition()
+        .duration(450)
+        .ease(d3.easeLinear)
+        .call(axisY);
+
+      // Actualizar posición de las etiquetas de los ejes
+      g.select('.x-label')
+        .attr('transform', `translate(${width/2}, ${height + margin.bottom - 5})`)
+
+      g.select('.y-label')
+        .attr('transform', `translate(${-margin.left/2 - 10}, ${height/2}) rotate(-90)`);
+    }
+
+    function updateChart() {
+      const w = chart.node().offsetWidth;
+      // Altura responsive: más pequeña en móviles
+      const h = window.innerWidth < 768 ? 350 : 500;
+
+      const { left, right, top, bottom } = margin;
+
+      width = w - left - right;
+      height = h - top - bottom;
+
+      svg.attr('width', w).attr('height', h);
+
+      const g = svg.select(`.line-evolution-${provincia}-container`);
+      g.attr('transform', `translate(${left},${top})`);
+
+      const linePath = d3.line()
+        .x(d => scales.count.x(d.year))
+        .y(d => scales.count.y(d.population));
+
+      updateScales(width, height);
+
+      const container = chart.select(`.line-evolution-${provincia}-container-bis`);
+
+      // Añadir círculos para los puntos de datos
+      const points = container.selectAll('.data-point')
+        .data(dataLineEvolution);
+
+      points.exit().remove();
+
+      points.enter()
+        .append('circle')
+        .attr('class', 'data-point')
+        .attr('r', 4)
+        .merge(points)
+        .attr('cx', d => scales.count.x(d.year))
+        .attr('cy', d => scales.count.y(d.population))
+        .attr('fill', '#1a73e8')
+        .attr('stroke', '#fff')
+        .attr('stroke-width', 2);
+
+      // Actualizar línea
+      container
+        .selectAll('.lines')
+        .data([dataLineEvolution])
+        .join('path')
+        .attr('class', 'lines')
+        .attr('fill', 'none')
+        .attr('stroke', '#1a73e8')
+        .attr('stroke-width', 2)
+        .transition()
+        .duration(300)
+        .ease(d3.easeLinear)
+        .attrTween('d', function (d) {
+          let previous = d3.select(this).attr('d');
+          let current = linePath(d);
+          return d3.interpolatePath(previous || current, current);
+        });
+
+      // Añadir tooltips para interactividad
+      const tooltip = d3.select('body')
+        .selectAll('.tooltip')
+        .data([0])
+        .join('div')
+        .attr('class', 'tooltip')
+        .style('position', 'absolute')
+        .style('background', '#fff')
+        .style('padding', '8px')
+        .style('border-radius', '4px')
+        .style('box-shadow', '0 2px 4px rgba(0,0,0,0.2)')
+        .style('pointer-events', 'none')
+        .style('opacity', 0);
+
+      container.selectAll('.data-point')
+        .on('mouseover', function(event, d) {
+          d3.select(this)
+            .attr('r', 6)
+            .attr('stroke-width', 3);
+
+          tooltip
+            .style('opacity', 1)
+            .html(`
+              <strong>${d.year}</strong><br>
+              Población: ${d.population.toLocaleString()} habitantes
+            `)
+            .style('left', (event.pageX + 10) + 'px')
+            .style('top', (event.pageY - 28) + 'px');
+        })
+        .on('mouseout', function() {
+          d3.select(this)
+            .attr('r', 4)
+            .attr('stroke-width', 2);
+
+          tooltip.style('opacity', 0);
+        });
+
+      drawAxes(g);
+    }
+
+    function resize() {
+      if (dataLineEvolution) {
+        updateChart();
+      }
+    }
+
+    function loadData() {
+      const csvPath = `/data/${provincia}/${provincia}-evolucion.csv`;
+
+      d3.csv(csvPath).then(data => {
+        // Si tenemos un municipio específico, usamos ese
+        if (municipio) {
+          dataLineEvolution = data.filter(d => d.name === municipio);
+        } else {
+          // Si no, usamos el primer municipio (que debería ser el total de la provincia)
+          const [{ municipio: firstMunicipality }] = data;
+          dataLineEvolution = data.filter(d => d.name === firstMunicipality);
+        }
+
+        dataLineEvolution.forEach(d => {
+          d.year = +d.year;
+          d.population = +d.population;
+        });
+
+        // Ordenar por año para asegurar la correcta visualización
+        dataLineEvolution.sort((a, b) => a.year - b.year);
+
+        setupElements();
+        setupScales();
+        updateChart();
+      }).catch(error => {
+        console.error("Error al cargar los datos:", error);
+        // Mostrar mensaje de error en la gráfica
+        const container = chart.select(`.${containerClass}`);
+        container.html('<div class="error-message">No se pudieron cargar los datos. Por favor, inténtelo de nuevo más tarde.</div>');
+      });
+    }
+
+    // Debounce para evitar múltiples llamadas durante el redimensionamiento
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(resize, 250);
+    });
+
+    // Iniciar la carga de datos
+    loadData();
+  });
+</script>
+
+<style>
+  .grafica-container {
+    margin: 2rem 0;
+    width: 100%;
+  }
+
+  .line-chart {
+    width: 100%;
+    overflow: visible;
+  }
+
+  .axis-x path, .axis-y path {
+    stroke: #999;
+  }
+
+  .axis-label {
+    font-size: 0.85rem;
+    fill: #666;
+  }
+
+  .lines {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+
+  .error-message {
+    color: #d32f2f;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid #ffcdd2;
+    background-color: #ffebee;
+    border-radius: 4px;
+  }
+
+  /* Estilo responsivo */
+  @media (max-width: 768px) {
+    .axis text {
+      font-size: 0.75rem;
+    }
+  }
+</style>

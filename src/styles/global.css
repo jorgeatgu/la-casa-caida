@@ -1,0 +1,365 @@
+@import '_variables.css';
+@import 'components/header.css';
+@import 'components/menu.css';
+@import 'components/section.css';
+@import 'components/chart.css';
+@import 'components/footer.css';
+@import 'components/proyectos.css';
+@import 'components/datos_destacados.css';
+@import 'components/metodology.css';
+@import 'components/provincias.css';
+
+body {
+  margin: 0;
+  line-height: 1.4;
+  color: var(--black);
+  font-family: var(--text);
+}
+
+.container {
+  font-size: 0;
+}
+
+.container-bgc {
+  background-color: var(--bgc-teruel);
+}
+
+.author,
+.author-text {
+  font-size: 12px;
+  font-family: var(--title);
+  display: block;
+  text-align: center;
+}
+
+.author-text {
+  text-align: left;
+  margin-bottom: .75rem;
+}
+
+.container-chart,
+.container-desert {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem .5rem;
+}
+
+@media only screen and (min-width: 48rem) {
+  .container-chart {
+    max-width: 60rem;
+    padding: 0;
+  }
+
+  .container-desert {
+    max-width: 65rem;
+    padding: 3rem 0;
+  }
+}
+
+:root {
+  --huesca-color: #2563eb;
+  --teruel-color: #d97706;
+  --zaragoza-color: #dc2626;
+
+  --card-radius: .75rem;
+  --card-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+  --card-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 10px 10px -5px rgba(0, 0, 0, .04);
+
+  --text-dark: #1f2937;
+  --text-medium: #4b5563;
+  --text-light: #9ca3af;
+  --bg-white: #fff;
+
+  --spacing-xs: .25rem;
+  --spacing-sm: .5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-xxl: 3rem;
+
+  --transition-fast: 200ms;
+  --transition-normal: 300ms;
+  --transition-slow: 500ms;
+}
+
+/* Estilos de la sección */
+.provinces-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-md) var(--spacing-xxl);
+}
+
+.provinces-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: var(--spacing-xxl);
+  position: relative;
+  padding-bottom: var(--spacing-md);
+}
+
+.provinces-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5rem;
+  height: .25rem;
+  background: linear-gradient(90deg, var(--huesca-color), var(--teruel-color), var(--zaragoza-color));
+  border-radius: 2px;
+}
+
+/* Grid para las tarjetas */
+.provinces-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-xl);
+}
+
+@media (min-width: 768px) {
+  .provinces-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Estilos base de las tarjetas */
+.province-card {
+  background-color: var(--bg-white);
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  transition: transform var(--transition-normal) ease, box-shadow var(--transition-normal) ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.province-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--card-shadow-hover);
+}
+
+/* Colores específicos para cada provincia */
+.huesca-card {
+  border-top: 4px solid var(--huesca-color);
+}
+
+.huesca-card-bg {
+  background-color: var(--huesca-color);
+}
+
+.teruel-card {
+  border-top: 4px solid var(--teruel-color);
+}
+
+.teruel-card-bg {
+  background-color: var(--teruel-color);
+}
+
+.zaragoza-card {
+  border-top: 4px solid var(--zaragoza-color);
+}
+
+.zaragoza-card-bg {
+  background-color: var(--zaragoza-color);
+}
+
+.sponsor-card {
+  margin:1.5rem 0;
+  font-family:Playfair Display,serif;
+  font-family:var(--title);
+  background:#fff;
+  background:var(--white);
+  box-shadow:#00000029 0 4px 24px,#00000014 0 2px 12px,#40404c4d 0 0 0 .6px;
+  padding:1rem;
+  border-radius:.5rem
+}
+.sponsor-card a,
+.sponsor-card iframe {
+  display:block;
+  margin-bottom:.5rem
+}
+.sponsor-card-text {
+  margin-top:0;
+  font-size:.875rem
+}
+
+/* Cabecera de la tarjeta */
+.card-header {
+  height: 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow) ease;
+}
+
+.province-card:hover .card-image {
+  transform: scale(1.05);
+}
+
+.card-overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.card-title {
+  position: absolute;
+  bottom: var(--spacing-md);
+  left: var(--spacing-md);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  z-index: 1;
+}
+
+/* Contenido de la tarjeta */
+.card-content {
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Estadísticas */
+.card-stats {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+  justify-content: space-between;
+}
+
+.stat-population {
+  font-size: .875rem;
+  font-weight: 600;
+  padding: .25rem .75rem;
+  border-radius: 9999px;
+}
+
+.huesca-stat {
+  background-color: rgba(37, 99, 235, .1);
+  color: var(--huesca-color);
+}
+
+.teruel-stat {
+  background-color: rgba(217, 119, 6, .1);
+  color: var(--teruel-color);
+}
+
+.zaragoza-stat {
+  background-color: rgba(220, 38, 38, .1);
+  color: var(--zaragoza-color);
+}
+
+.stat-density {
+  font-size: .875rem;
+  color: var(--text-light);
+}
+
+/* Descripción */
+.card-description {
+  color: var(--text-medium);
+  margin-bottom: var(--spacing-lg);
+  line-height: 1.5;
+}
+
+/* Datos de provincia */
+.province-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-lg);
+  font-size: .875rem;
+  color: var(--text-medium);
+}
+
+.data-item {
+  cursor: pointer;
+  transition: transform var(--transition-fast) ease, color var(--transition-fast) ease;
+}
+
+.data-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: var(--spacing-xs);
+}
+
+/* Botón */
+.card-button {
+  display: block;
+  width: 100%;
+  padding: var(--spacing-md) var(--spacing-md);
+  text-align: center;
+  border-radius: .5rem;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: background-color var(--transition-normal) ease;
+  margin-top: auto;
+}
+
+.card-button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, .1);
+  transform: translateX(-100%);
+  transition: transform .3s ease;
+  z-index: -1;
+}
+
+.card-button:hover:before {
+  transform: translateX(0);
+}
+
+.huesca-button {
+  background-color: var(--huesca-color);
+}
+
+.huesca-button:hover {
+  background-color: #1d4ed8; /* Más oscuro */
+}
+
+.teruel-button {
+  background-color: var(--teruel-color);
+}
+
+.teruel-button:hover {
+  background-color: #b45309; /* Más oscuro */
+}
+
+.zaragoza-button {
+  background-color: var(--zaragoza-color);
+}
+
+.zaragoza-button:hover {
+  background-color: #b91c1c; /* Más oscuro */
+}
+
+/* Estados interactivos para los datos */
+.data-item:hover {
+  transform: scale(1.1);
+  color: var(--huesca-color);
+}
+
+/* Animación de entrada */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

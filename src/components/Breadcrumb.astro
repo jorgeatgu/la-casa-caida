@@ -1,0 +1,183 @@
+---
+/**
+ * Componente de Breadcrumbs simplificado con el formato:
+ * - Para provincia: home / provincia
+ * - Para municipio: home / provincia / municipio
+ */
+
+export interface Props {
+  className?: string;
+  provinciaActual?: string; // Para pasar la provincia desde el layout de municipio
+  municipioActual?: string; // Para pasar el municipio desde el layout
+}
+
+const {
+  className = '',
+  provinciaActual = '',
+  municipioActual = ''
+} = Astro.props;
+
+// Obtenemos la URL actual para determinar la ubicación
+const pathname = Astro.url.pathname;
+const pathSegments = pathname.split('/').filter(segment => segment !== '');
+
+// Determinamos si estamos en la página de inicio
+const isHomePage = pathname === '/' || pathname === '';
+
+// Función para crear los elementos del breadcrumb basados en la URL y props
+function generateBreadcrumbItems() {
+  // En la página de inicio no mostramos breadcrumbs
+  if (isHomePage) {
+    return [];
+  }
+
+  // Iniciamos con el icono de home
+  let items = [{ label: 'Home', url: '/' }];
+
+  // Caso 1: Si tenemos provincia y municipio en props, estamos en una página de municipio
+  if (provinciaActual && municipioActual) {
+    items.push({
+      label: provinciaActual.charAt(0).toUpperCase() + provinciaActual.slice(1),
+      url: `/provincia/${provinciaActual.toLowerCase()}`
+    });
+
+    items.push({
+      label: municipioActual,
+      url: null // El último elemento no tiene enlace
+    });
+
+    return items;
+  }
+
+  // Caso 2: Detectamos basado en la URL
+  if (pathSegments.length > 0) {
+    // Caso 2a: /provincia/[nombre-provincia]
+    if (pathSegments[0] === 'provincia' && pathSegments.length > 1) {
+      const provincia = pathSegments[1];
+      items.push({
+        label: provincia.charAt(0).toUpperCase() + provincia.slice(1),
+        url: null // El último elemento no tiene enlace
+      });
+    }
+  }
+
+  return items;
+}
+
+const breadcrumbItems = generateBreadcrumbItems();
+
+// Si no hay elementos, no mostramos nada
+if (breadcrumbItems.length === 0) {
+  return null;
+}
+
+// Crear datos estructurados de Schema.org para SEO
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": breadcrumbItems.map((item, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": item.label,
+    "item": item.url ? new URL(item.url, Astro.site).toString() : undefined
+  }))
+};
+---
+
+{breadcrumbItems.length > 0 && (
+  <nav aria-label="Breadcrumb" class={`breadcrumb ${className}`}>
+    <ol class="breadcrumb-list">
+      {breadcrumbItems.map((item, index) => (
+        <li class="breadcrumb-item">
+          {index > 0 && (
+            <span aria-hidden="true" class="breadcrumb-separator">/</span>
+          )}
+          {item.url ? (
+            <a href={item.url} class="breadcrumb-link">
+              {index === 0 ? (
+                <svg class="home-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+              ) : (
+                item.label
+              )}
+            </a>
+          ) : (
+            <span class="breadcrumb-current" aria-current="page">{item.label}</span>
+          )}
+        </li>
+      ))}
+    </ol>
+
+    {/* Datos estructurados Schema.org para SEO */}
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </nav>
+)}
+
+<style>
+  .breadcrumb {
+    font-size: 1rem;
+    margin: 1rem 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: var(--white);
+    display: inline-block;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+  }
+
+  .breadcrumb-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .breadcrumb-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .breadcrumb-separator {
+    margin: 0 0.5rem;
+    color: #666;
+  }
+
+  .breadcrumb-link {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+  }
+
+  .breadcrumb-link:hover {
+    color: #004080;
+    text-decoration: underline;
+  }
+
+  .breadcrumb-current {
+    color: #666;
+    font-weight: 500;
+  }
+
+  .home-icon {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+  }
+
+  @media (max-width: 768px) {
+    .breadcrumb {
+      overflow-x: auto;
+      white-space: nowrap;
+      scrollbar-width: none;
+    }
+
+    .breadcrumb::-webkit-scrollbar {
+      display: none;
+    }
+  }
+</style>

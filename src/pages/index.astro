@@ -1,0 +1,268 @@
+---
+import BaseLayout from '../layouts/Layout.astro';
+import { aragonStacked } from '../scripts/d3/aragonStacked';
+import { scatterDesert } from '../scripts/d3/scatterDesert';
+---
+<BaseLayout title="La casa caída | La despoblación de Aragón">
+  <header class="header">
+    <div class="header-container">
+      <h3 class="header-title">
+        <div class="text-wrapper">
+          La casa
+          <span class="letter">c</span><span class="letter">a</span><span class="letter">í</span><span class="letter">d</span><span class="letter">a</span>
+        </div>
+      </h3>
+      <span class="author">Por <a href="https://jorgeatgu.com">Jorge Aznar</a></span>
+      <p class="header-ronda">
+        <span class="header-ronda-text">Delante de esta puerta cerrada</span>
+        <span class="header-ronda-text">la ronda lleva tanto sin parar.</span>
+        <span class="header-ronda-text">Por esa ventaneta hoy tan sombría,</span>
+        <span class="header-ronda-text">en otro tiempo nanas se escuchaba cantar.</span>
+        <span class="header-ronda-text">Febrero tras febrero, eterno invierno,</span>
+        <span class="header-ronda-text">a esta puerta la vida ya no ha vuelto a llamar.</span>
+        <a href="https://www.youtube.com/watch?v=DbanIqZdbzo" class="header-ronda-text">La Ronda de Boltaña - La casa caída</a>
+      </p>
+      <div class="container-chart">
+        <div class="section-text section-text-index">
+          <p class="text">La casa caída es una bonita y triste canción de la <a href="http://www.rondadors.com/d2/18/d2_18.php">Ronda de Boltaña</a>, trata sobre la despoblación del Alto Aragón. <span class="bold">Si se nos cae la casa se vuelve a levantar,</span> canta la Ronda. El problema al que nos enfrentamos en Aragón(y en otras partes de España) es que cada día esta más cerca el momento donde no haya nadie para levantar la casa.</p>
+          <p class="text">Según el INE el número total de habitantes en Aragón es de 1.341.289. <span class="bold">El 50.88% de ellos reside en la ciudad de Zaragoza</span>. Estas cifras dejan la densidad de población de Aragón en 28,11 hab/km2, solo por delante de Castilla y León, Castilla-La Mancha y Extremadura.</p>
+          <article class="sponsor-card">
+            <p class="sponsor-card-text">Actualizado el <strong>21 de marzo de 2025.</strong></p>
+            <p class="sponsor-card-text">Los datos corresponden al padrón del INE a <strong>fecha 1 de enero de 2025.</strong></p>
+          </article>
+          <article class="sponsor-card">
+            <p class="sponsor-card-text">Puedes apoyar económicamente este proyecto en:</p>
+            <a href="https://www.buymeacoffee.com/jorgeatgu"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a keyboard&emoji=❤️&slug=jorgeatgu&button_colour=5F7FFF&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00"></a>
+            <a class="github-button" href="https://github.com/sponsors/jorgeatgu" data-color-scheme="no-preference: light; light: light_high_contrast; dark: light;" data-icon="octicon-heart" data-size="large" aria-label="Sponsor @jorgeatgu on GitHub">Sponsor</a>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div class="container-chart">
+      <section class="provinces-section">
+        <h2 class="provinces-title">Explora Aragón por Provincias</h2>
+        <div class="provinces-grid">
+          <!-- Tarjeta Huesca -->
+          <div class="province-card huesca-card">
+            <div class="card-header">
+              <div class="card-overlay huesca-card-bg"></div>
+              <h2 class="card-title">Huesca</h2>
+            </div>
+            <div class="card-content">
+              <div class="card-stats">
+                <span class="stat-population huesca-stat">221.909 habitantes</span>
+                <span class="stat-density">15,71 hab/km²</span>
+              </div>
+              <p class="card-description">
+                La provincia más septentrional de Aragón, conocida por sus impresionantes paisajes montañosos del Pirineo y sus valles. Enfrenta retos de despoblación en zonas rurales mientras mantiene centros turísticos activos.
+              </p>
+              <div class="province-data">
+                <div class="data-item">
+                  <span class="data-label">Municipios</span>
+                  <span class="data-value">202</span>
+                </div>
+                <div class="data-item">
+                  <span class="data-label">Capital</span>
+                  <span class="data-value">Huesca</span>
+                </div>
+                <div class="data-item">
+                  <span class="data-label">Superficie</span>
+                  <span class="data-value">15.636 km²</span>
+                </div>
+              </div>
+              <a href="/provincia/huesca" class="card-button huesca-button">Ver municipios de Huesca</a>
+            </div>
+          </div>
+
+          <!-- Tarjeta Teruel -->
+          <div class="province-card teruel-card">
+            <div class="card-header">
+              <div class="card-overlay teruel-card-bg"></div>
+              <h2 class="card-title">Teruel</h2>
+            </div>
+            <div class="card-content">
+              <div class="card-stats">
+                <span class="stat-population teruel-stat">134.176 habitantes</span>
+                <span class="stat-density">9,09 hab/km²</span>
+              </div>
+              <p class="card-description">
+                La provincia menos poblada de Aragón y una de las más despobladas de España. Con un rico patrimonio histórico y paisajes impresionantes, enfrenta graves desafíos demográficos.
+              </p>
+              <div class="province-data">
+                <div class="data-item">
+                  <span class="data-label">Municipios</span>
+                  <span class="data-value">236</span>
+                </div>
+                <div class="data-item">
+                  <span class="data-label">Capital</span>
+                  <span class="data-value">Teruel</span>
+                </div>
+                <div class="data-item">
+                  <span class="data-label">Superficie</span>
+                  <span class="data-value">14.810 km²</span>
+                </div>
+              </div>
+              <a href="/provincia/teruel" class="card-button teruel-button">Ver municipios de Teruel</a>
+            </div>
+          </div>
+
+          <!-- Tarjeta Zaragoza -->
+          <div class="province-card zaragoza-card">
+            <div class="card-header">
+              <div class="card-overlay zaragoza-card-bg"></div>
+              <h2 class="card-title">Zaragoza</h2>
+            </div>
+            <div class="card-content">
+              <div class="card-stats">
+                <span class="stat-population zaragoza-stat">972.528 habitantes</span>
+                <span class="stat-density">56,32 hab/km²</span>
+              </div>
+              <p class="card-description">
+                La provincia más poblada de Aragón, con más del 70% de sus habitantes concentrados en la capital. El contraste entre la metrópoli y las zonas rurales periféricas representa el desequilibrio demográfico aragonés.
+              </p>
+              <div class="province-data">
+                <div class="data-item">
+                  <span class="data-label">Municipios</span>
+                  <span class="data-value">293</span>
+                </div>
+                <div class="data-item">
+                  <span class="data-label">Capital</span>
+                  <span class="data-value">Zaragoza</span>
+                </div>
+                <div class="data-item">
+                  <span class="data-label">Superficie</span>
+                  <span class="data-value">17.274 km²</span>
+                </div>
+              </div>
+              <a href="/provincia/zaragoza" class="card-button zaragoza-button">Ver municipios de Zaragoza</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Gráfico de desierto demográfico -->
+    <div class="container-chart">
+      <div class="section-text section-text-index">
+        <h4 class="subtittle">Aragón, un desierto demográfico</h4>
+      </div>
+      <div class="scatter-desert">
+        <svg class="scatter-chart">
+          <g class="scatter-desert-container"></g>
+        </svg>
+      </div>
+    </div>
+    <!-- Gráfico de distribución por provincias -->
+    <div class="container-desert">
+      <div class="section-text section-text-index">
+        <h4 class="subtittle">Distribución de la población en Aragón</h4>
+      </div>
+      <div class="aragon-stack">
+        <svg>
+          <g class="aragon-stack-container"></g>
+        </svg>
+      </div>
+    </div>
+  </header>
+
+</BaseLayout>
+
+<script>
+import { scatterDesert } from '../scripts/d3/scatterDesert';
+import { aragonStacked } from '../scripts/d3/aragonStacked';
+import anime from 'animejs/lib/anime.es.js';
+
+// Inicializar gráficos
+document.addEventListener('DOMContentLoaded', () => {
+  scatterDesert();
+  aragonStacked();
+
+  // Animación del título
+  anime.timeline()
+    .add({
+      targets: '.header-title .letter',
+      translateY: [0, '1.5rem'],
+      translateZ: 0,
+      duration: 750,
+      delay: anime.stagger(500)
+    })
+    .add({
+      targets: '.letter',
+      translateY: ['1.5rem', '2rem'],
+      translateZ: 0,
+      rotate: 45,
+      duration: 750,
+      delay: anime.stagger(1000)
+    });
+
+  // NUEVO: Código para la interactividad de las tarjetas de provincias
+  // Referencias a elementos
+  const provinceCards = document.querySelectorAll('.province-card');
+  const dataItems = document.querySelectorAll('.data-item');
+
+  // Animación de entrada para las tarjetas con IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    const cardObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // Asegurarse que la tarjeta sea visible
+          entry.target.style.opacity = '1';
+          // Dejar de observar después de la animación
+          cardObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.2, // Activa cuando al menos el 20% de la tarjeta es visible
+      rootMargin: '0px 0px -50px 0px' // Ajuste para activar un poco antes
+    });
+
+    // Observar cada tarjeta
+    provinceCards.forEach(card => {
+      cardObserver.observe(card);
+    });
+  } else {
+    // Fallback para navegadores que no soportan IntersectionObserver
+    provinceCards.forEach(card => {
+      card.style.opacity = '1';
+    });
+  }
+
+  // Efecto hover para los datos estadísticos
+  dataItems.forEach(item => {
+    // Hover de datos
+    item.addEventListener('mouseenter', function() {
+      // Obtener el color de la provincia correspondiente
+      const card = this.closest('.province-card');
+      let highlightColor = '#2563eb'; // Color por defecto (Huesca)
+
+      if (card.classList.contains('teruel-card')) {
+        highlightColor = '#d97706';
+      } else if (card.classList.contains('zaragoza-card')) {
+        highlightColor = '#dc2626';
+      }
+
+      // Aplicar el color específico de la provincia
+      this.style.color = highlightColor;
+    });
+
+    item.addEventListener('mouseleave', function() {
+      // Restaurar el color original
+      this.style.color = '';
+    });
+  });
+
+  // Añadir listeners para los botones
+  document.querySelectorAll('.card-button').forEach(button => {
+    button.addEventListener('mouseover', function() {
+      // Agregar un sutil efecto de "pulso" al hacer hover
+      this.animate([
+        { transform: 'scale(1)' },
+        { transform: 'scale(1.03)' },
+        { transform: 'scale(1)' }
+      ], {
+        duration: 600,
+        easing: 'ease-in-out'
+      });
+    });
+  });
+});
+</script>

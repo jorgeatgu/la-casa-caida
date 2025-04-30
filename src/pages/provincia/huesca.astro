@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../../layouts/Layout.astro';
+import { municipios } from '../../data/municipios';
+import GraficaHistoricaPoblacion from '../../components/GraficaHistoricaPoblacion.astro';
+import GraficaSaldoVegetativo from '../../components/GraficaSaldoVegetativo.astro';
+import MunicipiosSection from '../../components/MunicipiosSection.astro';
+import DatosDestacados from '../../components/DatosDestacados.astro';
+
+
+const provincia = 'huesca';
+const municipiosHuesca = municipios.filter(m => m.provincia === provincia);
+
+const datosHuesca = [
+  {
+    "valor": "10.37%",
+    "descripcion": "Disminución de población desde 1900",
+    "color": "indigo"
+  },
+  {
+    "valor": "9.43%",
+    "descripcion": "Mayor crecimiento (2001-2011)",
+    "color": "emerald"
+  },
+  {
+    "valor": "5.24%",
+    "descripcion": "Mayor decrecimiento (1960-1970)",
+    "color": "amber"
+  }
+];
+---
+
+<BaseLayout title="Huesca - La provincia del Pirineo">
+  <section class="provincia-container">
+    <section class="provincia-layout">
+
+      <div class="section-text">
+        <h1 class="provincia-titulo">Huesca</h1>
+        <p class="header-ronda">
+          <span class="header-ronda-text">Hay una cruz en El Saso</span>
+          <span class="header-ronda-text">donde los mastines aúllan soledad,</span>
+          <span class="header-ronda-text">donde cada noche enciendo el fuego pa' cenar</span>
+          <span class="header-ronda-text">migas, uva y vino por los que se han ido.</span>
+          <span class="header-ronda-text">Yo maldigo la ciudad.</span>
+          <span class="header-ronda-text">"Padre, que el pueblo ya no es pa' vivir,</span>
+          <span class="header-ronda-text">venga con nosotros a Madrid..."</span>
+          <span class="header-ronda-text">Así me hablan mis hijos pero yo me quedo,</span>
+          <span class="header-ronda-text">y aquí he de morir.</span>
+          <a href="https://www.youtube.com/watch?v=i_r15tHZX_Y" class="header-ronda-text">Más birras - Hay una cruz en el Saso</a>
+        </p>
+
+        <section class="intro">
+          <p class="text">La provincia de Huesca ha seguido un camino parecido a la de Teruel, pero al contrario de esta Huesca comenzo una ligera recuperación de población a partir del año 2000. Por desgracia la recuperación no es igual para todos los municipios, y 141 de estos tienen una densidad inferior a 10hab/km2.</p>
+        </section>
+        <DatosDestacados datos={datosHuesca} />
+      </div>
+      <div class="chart-header section-text">
+        <h2>Evolución de la población - Huesca</h2>
+        <p>En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Huesca desde 1900 hasta 2024.</p>
+        <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragón Open Data. Los datos de 2024 son del INE.</span>
+      </div>
+      <section class="container-chart">
+        <GraficaHistoricaPoblacion provincia={provincia} />
+      </section>
+
+      <section class="container-chart">
+        <div class="chart-header section-text">
+          <h2>Saldo vegetativo - Huesca</h2>
+          <p>El saldo vegetativo representa la diferencia entre nacimientos y defunciones, mostrando el crecimiento natural de la población sin considerar los movimientos migratorios.</p>
+          <span class="data">Los datos son del IAEST.</span>
+        </div>
+        <GraficaSaldoVegetativo provincia={provincia} />
+      </section>
+
+      <MunicipiosSection municipios={municipiosHuesca} provincia={provincia} />
+
+    </section>
+  </section>
+</BaseLayout>

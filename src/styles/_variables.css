@@ -1,0 +1,15 @@
+:root {
+  --fontSystem: BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  --monospace: 'SFMono-Regular', Consolas, Menlo, Courier, monospace;
+  --title: 'Playfair Display', serif;
+  --text: 'Roboto Condensed', sans-serif;
+  --black: #111;
+  --white: #fff;
+  --background: #FBDED5;
+  --bgc-lb: #FEF9EF;
+  --bgc-teruel: #FFF6CB;
+  --scatter: #483c24;
+  --line-negative: #5e3214;
+  --shadow: 0 2px 4px 0 rgba(0, 0, 0, .31), 0 2px 4px 0 rgba(50, 50, 58, .2);
+  --fondoproyectos: #0c1e44;
+}

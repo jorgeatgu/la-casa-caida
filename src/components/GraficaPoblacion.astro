@@ -1,0 +1,279 @@
+---
+const { municipio, codigo, provincia } = Astro.props;
+const chartId = `grafica-poblacion-${codigo}`;
+---
+
+<div class="grafica-container">
+  <div class="line-population" id={chartId}></div>
+</div>
+
+<script define:vars={{ municipio, codigo, provincia, chartId }} type="module">
+  document.addEventListener('DOMContentLoaded', () => {
+    // Variables globales
+    let width = 0;
+    let height = 0;
+    let scales = {};
+    let dataLinePopulation = [];
+    const margin = { top: 20, right: 30, bottom: 40, left: 60 };
+    const container = d3.select(`#${chartId}`);
+
+    // Crear el SVG con configuración responsiva
+    const svg = container.append("svg")
+      .attr("width", "100%")
+      .attr("height", 500)
+      .append("g")
+      .attr("class", `${chartId}-container`)
+      .attr("transform", `translate(${margin.left},${margin.top})`);
+
+    // Añadir grupos para ejes y elementos
+    svg.append('g').attr('class', 'axis axis-x');
+    svg.append('g').attr('class', 'axis axis-y');
+    svg.append('g').attr('class', `${chartId}-container-bis`);
+
+    // Cargar datos CSV
+    const csvPath = `/data/${provincia}/${provincia}.csv`;
+
+    function setupScales() {
+      const countX = d3.scaleTime()
+        .domain([
+          d3.min(dataLinePopulation, d => d.year),
+          d3.max(dataLinePopulation, d => d.year)
+        ]);
+
+      const countY = d3.scaleLinear()
+        .domain([0, d3.max(dataLinePopulation, d => d.population) * 1.1]);
+
+      scales.count = { x: countX, y: countY };
+    }
+
+    function updateScales(width, height) {
+      const { count: { x, y } } = scales;
+      x.range([0, width]);
+      y.range([height, 0]);
+    }
+
+    function drawAxes(g) {
+      const axisX = d3.axisBottom(scales.count.x)
+        .tickPadding(5)
+        .tickFormat(d3.format('d'))
+        .ticks(10);
+
+      g.select('.axis-x')
+        .attr('transform', `translate(0,${height})`)
+        .call(axisX);
+
+      const axisY = d3.axisLeft(scales.count.y)
+        .tickPadding(5)
+        .tickFormat(d3.format(',.0f'))
+        .tickSize(-width)
+        .ticks(6);
+
+      g.select('.axis-y')
+        .transition()
+        .duration(450)
+        .ease(d3.easeLinear)
+        .call(axisY);
+
+      // Añadir etiquetas de los ejes
+      g.selectAll('.axis-label').remove();
+
+      g.append("text")
+        .attr("class", "axis-label x-label")
+        .attr("text-anchor", "middle")
+        .attr("transform", `translate(${width/2}, ${height + margin.bottom - 5})`)
+        .text("Año");
+
+      g.append("text")
+        .attr("class", "axis-label y-label")
+        .attr("text-anchor", "middle")
+        .attr("transform", `translate(${-margin.left/2 - 10}, ${height/2}) rotate(-90)`)
+        .text("Habitantes");
+    }
+
+    function updateChart() {
+      const w = container.node().offsetWidth;
+      const h = 500;
+
+      const { left, right, top, bottom } = margin;
+
+      width = w - left - right;
+      height = h - top - bottom;
+
+      container.select("svg").attr('width', w).attr('height', h);
+
+      const g = svg;
+
+      const line = d3.line()
+        .x(d => scales.count.x(d.year))
+        .y(d => scales.count.y(d.population));
+
+      updateScales(width, height);
+
+      // Dibujar la línea
+      g.select(`.${chartId}-container-bis`)
+        .selectAll('.lines')
+        .data([dataLinePopulation])
+        .join('path')
+        .attr('class', 'lines')
+        .attr("fill", "none")
+        .attr("stroke", "#1a73e8")
+        .attr("stroke-width", 2)
+        .transition()
+        .duration(300)
+        .ease(d3.easeLinear)
+        .attrTween('d', function (d) {
+          let previous = d3.select(this).attr('d');
+          let current = line(d);
+          // Si previous no existe (primera carga), usamos un camino vacío
+          return previous ? d3.interpolatePath(previous, current) : (()=> current);
+        });
+
+      // Añadir puntos con interactividad
+      addPointsWithInteractivity(g);
+
+      // Dibujar ejes
+      drawAxes(g);
+    }
+
+    function addPointsWithInteractivity(g) {
+      // Primero eliminar puntos existentes
+      g.selectAll(".circles-population").remove();
+
+      // Eliminar tooltip existente y crear uno nuevo
+      d3.select("body").select(".tooltip-poblacion").remove();
+
+      const tooltip = d3.select("body")
+        .append("div")
+        .attr("class", "tooltip-poblacion")
+        .style("position", "absolute")
+        .style("background", "white")
+        .style("padding", "8px")
+        .style("border-radius", "4px")
+        .style("box-shadow", "0 2px 4px rgba(0,0,0,0.2)")
+        .style("pointer-events", "none")
+        .style("opacity", 0)
+        .style("z-index", 1000);
+
+      // Añadir puntos
+      g.select(`.${chartId}-container-bis`)
+        .selectAll(".circles-population")
+        .data(dataLinePopulation)
+        .enter()
+        .append("circle")
+        .attr("class", "circles-population")
+        .attr("cx", d => scales.count.x(d.year))
+        .attr("cy", d => scales.count.y(d.population))
+        .attr("r", 4)
+        .attr("fill", "#1a73e8")
+        .attr("stroke", "#fff")
+        .attr("stroke-width", 2)
+        .on("mouseover", function(event, d) {
+          // Aumentar tamaño del círculo
+          d3.select(this)
+            .attr("r", 6)
+            .attr("stroke-width", 3);
+
+          // Mostrar tooltip con información
+          tooltip
+            .html(`
+              <strong>${d.year}</strong><br>
+              Población: ${d.population.toLocaleString()} habitantes
+            `)
+            .style("left", (event.pageX + 10) + "px")
+            .style("top", (event.pageY - 28) + "px")
+            .style("opacity", 0.9);
+        })
+        .on("mouseout", function() {
+          // Restaurar tamaño original del círculo
+          d3.select(this)
+            .attr("r", 4)
+            .attr("stroke-width", 2);
+
+          // Ocultar tooltip
+          tooltip.style("opacity", 0);
+        });
+    }
+
+    function loadData() {
+      d3.csv(csvPath).then(data => {
+        // Filtrar por el municipio actual
+        dataLinePopulation = data.filter(d => d.municipio === municipio || d.name === municipio);
+
+        // Procesar los datos
+        dataLinePopulation.forEach(d => {
+          d.year = +d.year;
+          d.population = +d.population;
+        });
+
+        // Ordenar por año para asegurar la correcta visualización
+        dataLinePopulation.sort((a, b) => a.year - b.year);
+
+        // Configurar escalas y actualizar gráfico
+        setupScales();
+        updateChart();
+      }).catch(error => {
+        console.error("Error al cargar los datos:", error);
+        container.html('<div class="error-message">No se pudieron cargar los datos. Por favor, inténtelo de nuevo más tarde.</div>');
+      });
+    }
+
+    // Manejo de resize para responsividad
+    function resize() {
+      updateChart();
+    }
+
+    window.addEventListener('resize', resize);
+    loadData();
+  });
+</script>
+
+<style>
+  .grafica-container {
+    margin: 2rem 0;
+    width: 100%;
+    position: relative;
+  }
+
+  .line-population {
+    width: 100%;
+    position: relative;
+  }
+
+  .axis-label {
+    font-size: 0.85rem;
+    fill: #666;
+  }
+
+  .error-message {
+    color: #d32f2f;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid #ffcdd2;
+    background-color: #ffebee;
+    border-radius: 4px;
+  }
+
+  :global(.axis-y line) {
+    opacity: 0.7;
+  }
+
+  :global(.axis-x text),
+  :global(.axis-y text) {
+    fill: #666;
+    font-size: 12px;
+  }
+
+  /* Estilo para el tooltip */
+  :global(.tooltip-poblacion) {
+    color: #333;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding: 10px;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    z-index: 1000;
+  }
+</style>

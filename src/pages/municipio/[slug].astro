@@ -1,0 +1,71 @@
+---
+import MunicipioLayout from '../../layouts/MunicipioLayout.astro';
+import GraficaPoblacion from '../../components/GraficaPoblacion.astro';
+import GraficaEdades from '../../components/GraficaEdades.astro';
+import GraficaDensidad from '../../components/GraficaDensidad.astro';
+import DatosMunicipio from '../../components/DatosMunicipio.astro';
+import MunicipiosRelacionados from '../../components/MunicipiosRelacionados.astro';
+import { municipios } from '../../data/municipios';
+
+// Generar todas las rutas dinámicas
+export async function getStaticPaths() {
+  return municipios.map((municipio) => {
+    return {
+      params: { slug: municipio.slug },
+      props: { municipioData: municipio }
+    };
+  });
+}
+
+// Obtener los datos del municipio actual
+const { municipioData } = Astro.props;
+const { nombre, provincia, codigoINE } = municipioData;
+
+// Metadatos para SEO
+const title = `${nombre} - La casa caída | Evolución poblacional de Aragón`;
+const descripcion = `Evolución de la población en ${nombre} (${provincia}). Datos históricos, distribución por edades y densidad demográfica.`;
+---
+
+<MunicipioLayout title={title} descripcion={descripcion} municipio={nombre} provincia={provincia}>
+  <section class="container-chart">
+    <section class="section-text">
+      <h2 class="subtittle">Evolución de la población en {nombre}</h2>
+      <p class="text">En esta gráfica podemos ver cómo ha ido evolucionando la población de {nombre} desde 1900 hasta 2024.</p>
+    </section>
+    <GraficaPoblacion municipio={nombre} codigo={codigoINE} provincia={provincia} />
+  </section>
+
+  <section class="container-chart">
+    <section class="section-text">
+      <h2 class="subtittle">Grupos de edad</h2>
+      <p class="text">Distribución por grupos de edad de la población de {nombre}.</p>
+    </section>
+    <GraficaEdades municipio={nombre} codigo={codigoINE} provincia={provincia} />
+  </section>
+
+  <section class="container-chart">
+    <section class="section-text">
+      <h2 class="subtittle">Densidad demográfica</h2>
+      <p class="text">Evolución de la densidad demográfica en {nombre}.</p>
+    </section>
+    <GraficaDensidad municipio={nombre} codigo={codigoINE} provincia={provincia} />
+  </section>
+
+
+  <section class="container-chart">
+    <section class="section-text">
+      <h2 class="subtittle">Datos demográficos</h2>
+      <p class="text">A continuación se muestran los principales indicadores demográficos de {nombre}, con particular atención a la distribución por edades de la población.</p>
+    </section>
+    <DatosMunicipio
+      provincia={provincia}
+      municipio={nombre}
+    />
+  </section>
+
+  <MunicipiosRelacionados
+    provincia={provincia}
+    municipioActual={nombre}
+  />
+
+</MunicipioLayout>
