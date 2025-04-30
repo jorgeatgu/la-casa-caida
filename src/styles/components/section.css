@@ -9,8 +9,6 @@
     display: block;
     width: 100%;
     vertical-align: middle;
-    padding: 2rem 0 0;
-    margin: 0 auto;
     .title {
         margin-bottom: .25rem;
     }
@@ -27,12 +25,16 @@
     }
 }
 
+.provincia-layout .section-text {
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 48rem) {
 
     .section-text {
         width: 30rem;
         .container-chart {
-            padding: 0;
+          padding: 0;
         }
     }
 

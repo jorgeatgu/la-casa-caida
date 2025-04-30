@@ -32,6 +32,7 @@ const datosHuesca = [
 <BaseLayout title="Huesca - La provincia del Pirineo">
   <section class="provincia-container">
     <section class="provincia-layout">
+
       <div class="section-text">
         <h1 class="provincia-titulo">Huesca</h1>
         <p class="header-ronda">
@@ -52,13 +53,12 @@ const datosHuesca = [
         </section>
         <DatosDestacados datos={datosHuesca} />
       </div>
-
+      <div class="chart-header section-text">
+        <h2>Evolución de la población - Huesca</h2>
+        <p>En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Huesca desde 1900 hasta 2024.</p>
+        <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragón Open Data. Los datos de 2024 son del INE.</span>
+      </div>
       <section class="container-chart">
-        <div class="chart-header section-text">
-          <h2>Evolución de la población - Huesca</h2>
-          <p>En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Huesca desde 1900 hasta 2024.</p>
-          <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragón Open Data. Los datos de 2024 son del INE.</span>
-        </div>
         <GraficaHistoricaPoblacion provincia={provincia} />
       </section>
 

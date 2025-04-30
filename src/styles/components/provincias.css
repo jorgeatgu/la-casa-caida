@@ -1,13 +1,13 @@
 .provincia-container {
   background-color: var(--bgc-teruel);
   margin: 0 auto;
-  padding: 0;
 }
 
 .provincia-titulo {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
+  margin-top: 0;
   color: #333;
   font-family: var(--title);
 }
@@ -552,7 +552,6 @@
 
 @media (max-width: 768px) {
   .provincia-container {
-    padding: 1.5rem;
     border-radius: 8px;
   }
 

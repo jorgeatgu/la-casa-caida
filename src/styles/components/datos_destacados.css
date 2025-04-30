@@ -225,7 +225,7 @@
 
 #datos-municipio-contenido {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1.5rem;
   margin-top: 1rem;
 }
