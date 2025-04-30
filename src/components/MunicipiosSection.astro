@@ -29,7 +29,7 @@ const provinciaNombre = capitalizar(provincia);
     <a href={`/municipio/${municipio.slug}`} class="municipio-card-link">
       <div class="municipio-card">
         <h3>{municipio.nombre}</h3>
-        <p>Población: {municipio.poblacionActual?.toLocaleString() || "Sin datos"} habitantes</p>
+        <p>{municipio.poblacionActual?.toLocaleString() || "Sin datos"} habitantes</p>
         {municipio.poblacionActual > 0 && municipio.poblacionActual < 100 && ( <span class="municipio-card-badge">En riesgo</span>
           )}
           <span class="ver-mas">Ver detalles →</span>

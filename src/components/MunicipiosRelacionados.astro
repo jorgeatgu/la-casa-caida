@@ -13,13 +13,20 @@ const capitalizar = (texto) => {
 // Obtenemos el nombre capitalizado de la provincia
 const provinciaCapitalizada = capitalizar(provincia);
 
+// Función para formatear el número con puntos como separador de miles
+const formatearNumero = (numero) => {
+  return numero.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+};
+
 // Filtramos todos los municipios de la misma provincia, excluyendo el actual
 const municipiosDeProvincia = municipios
   .filter(m => m.provincia === provincia && m.nombre !== municipioActual)
   .map(m => ({
     ...m,
     // Añadimos una propiedad para hacer un random sort
-    random: Math.random()
+    random: Math.random(),
+    // Formateamos la población
+    poblacionFormateada: formatearNumero(m.poblacionActual)
   }))
   // Ordenamos aleatoriamente
   .sort((a, b) => a.random - b.random)
@@ -27,16 +34,19 @@ const municipiosDeProvincia = municipios
   .slice(0, 6);
 ---
 
-<section class="container-municipios-relacionados">
-  <h2 class="subtittle">Más municipios de {provinciaCapitalizada}</h2>
-  <p class="text">Descubre otros municipios de la provincia y su evolución demográfica.</p>
+<section class="container-chart">
+  <div class="chart-header section-text">
+    <h2>Más municipios de {provinciaCapitalizada}</h2>
+    <p>Descubre otros municipios de la provincia y su evolución demográfica.</p>
+  </div>
 
   <div class="municipios-grid">
     {municipiosDeProvincia.map((municipio) => (
       <a href={`/municipio/${municipio.slug}`} class="municipio-card">
         <div class="municipio-inner">
-          <h3 class="municipio-nombre">{municipio.nombre}</h3>
-          <p class="municipio-poblacion">{municipio.poblacionActual} habitantes</p>
+          <h3 class="municipio-title">{municipio.nombre}</h3>
+          <p class="municipio-poblacion">{municipio.poblacionFormateada} habitantes</p>
+          <span class="mas-detalles">Ver detalles →</span>
         </div>
       </a>
     ))}
@@ -44,23 +54,11 @@ const municipiosDeProvincia = municipios
 </section>
 
 <style>
-  .container-municipios-relacionados {
-    margin-top: 3rem;
-    padding-bottom: 5rem;
-  }
-
-  .container-municipios-relacionados h2 {
-    margin-bottom: 0.5rem;
-  }
-
-  .container-municipios-relacionados p {
-    margin-bottom: 1.5rem;
-  }
-
   .municipios-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 3rem;
+    gap: 1rem;
+    padding: 2rem 0;
   }
 
   @media (min-width: 768px) {
@@ -81,7 +79,6 @@ const municipiosDeProvincia = municipios
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     overflow: hidden;
-    height: 100%;
     display: flex;
     text-decoration: none;
     color: inherit;
@@ -99,16 +96,37 @@ const municipiosDeProvincia = municipios
     justify-content: space-between;
   }
 
-  .municipio-nombre {
+  .municipio-title {
     font-size: 1.25rem;
     font-weight: 600;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .municipio-poblacion {
     font-size: 0.9rem;
     color: #4b5563;
-    margin-top: auto;
-    margin-bottom: 0 !important;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .mas-detalles {
+    display: inline-block;
+    font-size: .9rem;
+    color: #0a3d62;
+    font-weight: 500;
+    transition: transform .2s ease;
+  }
+
+  .flecha {
+    margin-left: 4px;
+    transition: transform 0.2s ease;
+  }
+
+  .municipio-card:hover .mas-detalles {
+    text-decoration: underline;
+  }
+
+  .municipio-card:hover .flecha {
+    transform: translateX(4px);
   }
 </style>
