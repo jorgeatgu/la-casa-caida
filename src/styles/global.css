@@ -24,6 +24,19 @@ body {
   background-color: var(--bgc-teruel);
 }
 
+.author,
+.author-text {
+  font-size: 12px;
+  font-family: var(--title);
+  display: block;
+  text-align: center;
+}
+
+.author-text {
+  text-align: left;
+  margin-bottom: .75rem;
+}
+
 .container-chart,
 .container-desert {
   width: 100%;
