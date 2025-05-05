@@ -63,7 +63,7 @@ const containerBisSelector = `line-${provincia}-container-bis`;
 
     function updateScales(width, height) {
       const { count: { x, y } } = scales;
-      x.range([90, width]);
+      x.range([65, width]);
       y.range([height, 0]);
     }
 
@@ -73,7 +73,7 @@ const containerBisSelector = `line-${provincia}-container-bis`;
         .ticks(9);
 
       g.select('.axis-x')
-        .attr('transform', `translate(0,${height})`)
+        .attr('transform', `translate(-0,${height})`)
         .call(axisX);
 
       const localeFormat = locale.format(',.0f');
@@ -84,7 +84,7 @@ const containerBisSelector = `line-${provincia}-container-bis`;
 
       g.select('.axis-y').call(axisY);
       g.selectAll('.axis-y .tick text')
-        .attr('x', 80)
+        .attr('x', 60)
         .attr('dy', -5);
     }
 

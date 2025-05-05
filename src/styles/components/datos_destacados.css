@@ -346,3 +346,9 @@
 .diferencia-neutral {
   color: #64748b;
 }
+
+@media only screen and (max-width: 48rem) {
+  #datos-municipio-contenido {
+    grid-template-columns: 1fr;
+  }
+}
