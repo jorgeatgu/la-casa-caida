@@ -33,7 +33,6 @@ export function cargarDatosEdadSync(provincia, name) {
 }
 
 export function cargarDatosHistoricosSync(provincia, cp) {
-  console.log("cp", cp);
   try {
     const csvPath = path.join(process.cwd(), 'public', 'data', provincia, `${provincia}-tarjetas.csv`);
 
@@ -52,11 +51,7 @@ export function cargarDatosHistoricosSync(provincia, cp) {
         population: parseInt(values[3]) || 0
       }));
 
-    // Filtrar para el municipio específico
     const filtered = data.filter(d => d.name === cp);
-    console.log("filtered", filtered);
-
-    console.log(`Registros históricos para ${cp}: ${filtered.length}`);
 
     return filtered;
   } catch (error) {

@@ -16,7 +16,6 @@ if (!fs.existsSync(OUTPUT_DIR)) {
 
 // Función principal para procesar los datos
 async function procesarDatos() {
-  console.log('Procesando datos de municipios...');
 
   // Array para almacenar todos los municipios
   const todosLosMunicipios = [];
@@ -26,7 +25,6 @@ async function procesarDatos() {
 
   // Procesar cada provincia
   for (const provincia of PROVINCIAS) {
-    console.log(`Procesando provincia: ${provincia}`);
 
     // Leer CSV simplificado
     const rutaCSV = path.join(DATA_DIR, provincia, `${provincia}-municipios.csv`);
@@ -99,7 +97,6 @@ async function procesarDatos() {
       // Agregar a la lista general
       todosLosMunicipios.push(municipioData);
 
-      console.log(`Procesado municipio: ${municipio.name} (${municipio.cp}) - Población: ${poblacionActual}`);
     }
   }
 
@@ -160,10 +157,6 @@ async function procesarDatos() {
     JSON.stringify(estadisticas, null, 2)
   );
 
-  console.log(`Proceso completado. Se han procesado ${todosLosMunicipios.length} municipios.`);
-  console.log(`Población total registrada: ${estadisticas.poblacionTotal} habitantes.`);
-  console.log(`Huesca: ${estadisticas.poblacionPorProvincia.huesca} | Teruel: ${estadisticas.poblacionPorProvincia.teruel} | Zaragoza: ${estadisticas.poblacionPorProvincia.zaragoza}`);
-  console.log(`Municipios en riesgo de despoblación: ${estadisticas.municipiosPorRango.riesgoAlto}`);
 }
 
 // Ejecutar el script

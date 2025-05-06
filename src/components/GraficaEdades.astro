@@ -268,7 +268,6 @@ const chartId = `grafica-municipios-stacked-${codigo}`;
       )
 
       let stackKeys = Array.from(new Set(dataMunicipalitiesStacked.map(d => d.age)).values())
-      console.log(stackKeys)
 
       const reducer = v => d3.sum(v, d => d.total);
 
