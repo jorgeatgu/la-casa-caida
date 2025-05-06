@@ -100,7 +100,7 @@
 .municipios-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.8rem;
+  gap: 2rem;
   margin-top: 1.5rem;
 }
 
