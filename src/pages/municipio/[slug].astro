@@ -7,6 +7,7 @@ import DatosMunicipio from '../../components/DatosMunicipio.astro';
 import MunicipiosRelacionados from '../../components/MunicipiosRelacionados.astro';
 import { municipios } from '../../data/municipios';
 import SocialShare from '../../components/SocialShare.astro';
+import Kofi from '../../components/Kofi.astro';
 
 // Generar todas las rutas dinámicas
 export async function getStaticPaths() {
@@ -38,6 +39,8 @@ const descripcion = `Evolución de la población en ${nombre} (${provincia}). Da
       title={`Datos de población de ${nombre}`}
       description={`Conoce la evolución demográfica de ${nombre} (${provincia}) con datos desde 1900`}
     />
+
+    <Kofi />
   </section>
 
   <section class="container-chart">

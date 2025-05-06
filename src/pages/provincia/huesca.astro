@@ -5,7 +5,7 @@ import GraficaHistoricaPoblacion from '../../components/GraficaHistoricaPoblacio
 import GraficaSaldoVegetativo from '../../components/GraficaSaldoVegetativo.astro';
 import MunicipiosSection from '../../components/MunicipiosSection.astro';
 import DatosDestacados from '../../components/DatosDestacados.astro';
-
+import Kofi from '../../components/Kofi.astro';
 
 const provincia = 'huesca';
 const municipiosHuesca = municipios.filter(m => m.provincia === provincia);
@@ -51,6 +51,7 @@ const datosHuesca = [
         <section class="intro">
           <p class="text">La provincia de Huesca ha seguido un camino parecido a la de Teruel, pero al contrario de esta Huesca comenzo una ligera recuperación de población a partir del año 2000. Por desgracia la recuperación no es igual para todos los municipios, y 141 de estos tienen una densidad inferior a 10hab/km2.</p>
         </section>
+        <Kofi />
         <DatosDestacados datos={datosHuesca} />
       </div>
       <div class="chart-header section-text">
