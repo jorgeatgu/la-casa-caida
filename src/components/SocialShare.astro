@@ -24,6 +24,7 @@ const emailUrl = `mailto:?subject=${emailSubject}&body=${emailBody}`;
     gap: 12px;
     align-items: center;
     margin-top: 1rem;
+    box-sizing: border-box;
   }
 
   .share-button {
@@ -63,6 +64,7 @@ const emailUrl = `mailto:?subject=${emailSubject}&body=${emailBody}`;
   @media (max-width: 640px) {
     .social-share {
       flex-direction: column;
+      padding: 1rem;
     }
 
     .share-button {
