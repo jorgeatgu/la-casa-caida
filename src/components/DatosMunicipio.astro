@@ -1,34 +1,149 @@
 ---
-// DatosMunicipio.astro - Versión con explicación mejorada
 const {
   provincia,
   municipio,
   titulo = "",
-  mostrarComparativa = true
 } = Astro.props;
 
-const csvPath = `/data/${provincia}/${provincia}-mayor-menor.csv`;
+// Importar las funciones para cargar datos
+import { cargarDatosEdadSync, cargarDatosHistoricosSync } from '../scripts/dataLoader.js';
+import { municipios } from '../data/municipios.js';
+
+// Obtener el nombre del municipio
+const municipioObj = municipios.find(m => m.codigoINE === municipio);
+const nombreMunicipio = municipioObj?.nombre || municipio;
+
+// Cargar datos de edad (que incluyen población actual)
+const datosEdad = cargarDatosEdadSync(provincia, nombreMunicipio);
+
+// Pre-cargar los datos
+const municipioData = datosEdad ? {
+  nombre: nombreMunicipio,
+  poblacion: datosEdad.population,
+  mayores: datosEdad.mayor,
+  menores: datosEdad.menor,
+  year: '2024'
+} : null;
+
+// NUEVA LÓGICA: Cargar datos históricos para las tres tarjetas adicionales
+const datosHistoricos = cargarDatosHistoricosSync(provincia, municipio);
+
+// Calcular estadísticas históricas
+const poblacion1900 = datosHistoricos.find(d => d.year === '1900')?.population;
+const poblacion2024 = datosHistoricos.find(d => d.year === '2024')?.population;
+const poblacionMaxima = datosHistoricos.length > 0 ?
+  Math.max(...datosHistoricos.map(d => d.population)) : 0;
+const poblacionMinima = datosHistoricos.length > 0 ?
+  Math.min(...datosHistoricos.map(d => d.population)) : 0;
+
+// Calcular variación desde 1900
+const variacion1900 = poblacion1900 && poblacion2024 ?
+  ((poblacion2024 - poblacion1900) / poblacion1900) * 100 : null;
+
+// Calcular mayor crecimiento y decrecimiento por década
+let mayorCrecimiento = { valor: 0, periodo: '' };
+let mayorDecrecimiento = { valor: 0, periodo: '' };
+
+if (datosHistoricos.length > 1) {
+  const decadas = Array.from({ length: 13 }, (_, i) => i);
+
+  decadas.forEach(i => {
+    const inicio = 1900 + (i * 10);
+    const fin = inicio + 10;
+
+    const poblacionInicio = datosHistoricos.find(d => d.year === inicio.toString())?.population;
+    const poblacionFin = datosHistoricos.find(d => d.year === fin.toString())?.population;
+
+    if (poblacionInicio && poblacionFin) {
+      const cambio = ((poblacionFin - poblacionInicio) / poblacionInicio) * 100;
+
+      if (cambio > mayorCrecimiento.valor) {
+        mayorCrecimiento = {
+          valor: cambio,
+          periodo: `${inicio}-${fin}`
+        };
+      }
+
+      if (cambio < mayorDecrecimiento.valor) {
+        mayorDecrecimiento = {
+          valor: cambio,
+          periodo: `${inicio}-${fin}`
+        };
+      }
+    }
+  });
+}
 ---
 
-<div class="datos-municipio-container" data-municipio={municipio} data-provincia={provincia} data-csv-path={csvPath}>
+<div class="datos-municipio-container">
   {titulo && <h2 class="subtittle">{titulo}</h2>}
 
   <div id="datos-municipio-contenido">
-    <p class="cargando-datos">Cargando datos demográficos...</p>
-  </div>
-
-  {mostrarComparativa && (
-    <div id="comparativa-provincial" style="display: none;" class="comparativa-container">
-      <h3 class="comparativa-heading">Comparativa con la provincia</h3>
-      <p class="comparativa-explicacion">Los porcentajes con flechas indican la diferencia relativa respecto a la media provincial. Una flecha hacia abajo (↓) indica un valor menor que la media, mientras que una flecha hacia arriba (↑) indica un valor mayor.</p>
-      <div id="comparativa-datos" class="comparativa-grid">
-        <!-- Se llenará con JavaScript -->
-      </div>
+      {municipioData ? (
+        <>
+          <div class="tarjeta tarjeta-azul">
+            <div class="tarjeta-contenido">
+              <span class="tarjeta-valor">{municipioData.poblacion.toLocaleString('es-ES')}</span>
+              <span class="tarjeta-descripcion">Habitantes en 2024</span>
+              <span class="tarjeta-extra">Datos actuales</span>
+            </div>
+          </div>
+          <div class="tarjeta tarjeta-ambar">
+            <div class="tarjeta-contenido">
+              <span class="tarjeta-valor">{municipioData.mayores.toFixed(1)}%</span>
+              <span class="tarjeta-descripcion">Mayores de 65 años</span>
+              <span class="tarjeta-extra">Datos de {municipioData.year}</span>
+            </div>
+          </div>
+          <div class="tarjeta tarjeta-verde">
+            <div class="tarjeta-contenido">
+              <span class="tarjeta-valor">{municipioData.menores.toFixed(1)}%</span>
+              <span class="tarjeta-descripcion">Menores de 18 años</span>
+              <span class="tarjeta-extra">Datos de {municipioData.year}</span>
+            </div>
+          </div>
+          {variacion1900 !== null && (
+            <div class={`tarjeta ${variacion1900 >= 0 ? 'tarjeta-emerald' : 'tarjeta-indigo'}`}>
+              <div class="tarjeta-contenido">
+                <span class="tarjeta-valor">
+                  {variacion1900 > 0 ? '+' : ''}{variacion1900.toFixed(1)}%
+                </span>
+                <span class="tarjeta-descripcion">
+                  Evolución desde 1900
+                </span>
+                <span class="tarjeta-extra">
+                  {variacion1900 >= 0 ? 'Aumento poblacional' : 'Reducción poblacional'}
+                </span>
+              </div>
+            </div>
+          )}
+          {mayorCrecimiento.valor > 0 && (
+            <div class="tarjeta tarjeta-emerald">
+              <div class="tarjeta-contenido">
+                <span class="tarjeta-valor">{mayorCrecimiento.valor.toFixed(2)}%</span>
+                <span class="tarjeta-descripcion">Mayor crecimiento ({mayorCrecimiento.periodo})</span>
+                <span class="tarjeta-extra">Mejor década</span>
+              </div>
+            </div>
+          )}
+          {mayorDecrecimiento.valor < 0 && (
+            <div class="tarjeta tarjeta-amber">
+              <div class="tarjeta-contenido">
+                <span class="tarjeta-valor">{mayorDecrecimiento.valor.toFixed(2)}%</span>
+                <span class="tarjeta-descripcion">Mayor decrecimiento ({mayorDecrecimiento.periodo})</span>
+                <span class="tarjeta-extra">Peor década</span>
+              </div>
+            </div>
+          )}
+        </>
+      ) : (
+        <p class="cargando-datos">No se encontraron datos para este municipio</p>
+      )}
     </div>
-  )}
 </div>
 
 <style>
+  /* Estilos existentes - NO TOCAR */
   .datos-municipio-container {
     width: 100%;
     max-width: 100%;
@@ -39,6 +154,13 @@ const csvPath = `/data/${provincia}/${provincia}-mayor-menor.csv`;
     text-align: center;
     padding: 2rem;
     color: #64748b;
+  }
+
+  .demo-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
   }
 
   .tarjeta {
@@ -79,7 +201,7 @@ const csvPath = `/data/${provincia}/${provincia}-mayor-menor.csv`;
     margin-top: 0.5rem;
   }
 
-  /* Colores de tarjetas */
+  /* Colores existentes - NO TOCAR */
   .tarjeta-azul {
     border-top-color: #4f46e5;
     background-color: #eef2ff;
@@ -107,294 +229,31 @@ const csvPath = `/data/${provincia}/${provincia}-mayor-menor.csv`;
     color: #047857;
   }
 
-  /* Estilos para la comparativa */
-  .comparativa-container {
-    background-color: #f8fafc;
-    border-radius: 0.75rem;
-    padding: 1.5rem;
-    margin-top: 2rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  /* NUEVOS ESTILOS para las tarjetas adicionales */
+  .tarjeta-indigo {
+    border-top-color: #6366f1;
+    background-color: #eef2ff;
   }
 
-  .comparativa-heading {
-    text-align: center;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #334155;
-    margin-bottom: 0.75rem;
+  .tarjeta-indigo .tarjeta-valor {
+    color: #4338ca;
   }
 
-  .comparativa-explicacion {
-    text-align: center;
-    color: #64748b;
-    font-size: 0.9rem;
-    margin-bottom: 1.5rem;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.5;
-    padding: 0.75rem;
-    background-color: #f1f5f9;
-    border-radius: 0.5rem;
+  .tarjeta-emerald {
+    border-top-color: #10b981;
+    background-color: #ecfdf5;
   }
 
-  .comparativa-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
+  .tarjeta-emerald .tarjeta-valor {
+    color: #065f46;
   }
 
-  .comparativa-item {
-    background-color: #fff;
-    border-radius: 0.5rem;
-    padding: 1.25rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  .tarjeta-indigo {
+    border-top-color: #6366f1;
+    background-color: #eef2ff;
   }
 
-  .comparativa-titulo {
-    font-weight: 600;
-    color: #475569;
-    margin-bottom: 0.75rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid #e2e8f0;
-  }
-
-  .comparativa-valor {
-    margin-bottom: 0.5rem;
-  }
-
-  .comparativa-municipio {
-    font-weight: 500;
-    color: #0f172a;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .comparativa-municipio-valor {
-    font-weight: 600;
-  }
-
-  .comparativa-provincia {
-    color: #64748b;
-    font-size: 0.9rem;
-    margin-top: 0.5rem;
-  }
-
-  .diferencia {
-    font-size: 0.85rem;
-    padding: 0.25rem 0.5rem;
-    border-radius: 0.25rem;
-    display: inline-flex;
-    align-items: center;
-  }
-
-  .diferencia-explicacion {
-    font-size: 0.8rem;
-    color: #64748b;
-    margin-top: 0.25rem;
-    font-style: italic;
-  }
-
-  .diferencia-positiva {
-    color: #16a34a;
-    background-color: #f0fdf4;
-  }
-
-  .diferencia-negativa {
-    color: #dc2626;
-    background-color: #fef2f2;
-  }
-
-  .diferencia-neutral {
-    color: #64748b;
-    background-color: #f8fafc;
-  }
-
-  .flecha {
-    margin-right: 0.25rem;
+  .tarjeta-indigo .tarjeta-valor {
+    color: #4338ca;
   }
 </style>
-
-<script>
-  document.addEventListener('DOMContentLoaded', async () => {
-    const container = document.querySelector('.datos-municipio-container');
-    if (!container) return;
-
-    const municipioNombre = container.getAttribute('data-municipio');
-    const provinciaNombre = container.getAttribute('data-provincia');
-    const csvPath = container.getAttribute('data-csv-path');
-    const contenedor = document.getElementById('datos-municipio-contenido');
-    const comparativaContainer = document.getElementById('comparativa-provincial');
-    const comparativaDatos = document.getElementById('comparativa-datos');
-
-    if (!contenedor) return;
-
-    try {
-      // Cargar el CSV
-      const respuesta = await fetch(csvPath);
-      const csvTexto = await respuesta.text();
-
-      // Función simple para parsear CSV
-      function parseCSV(text) {
-        const lines = text.split('\n').filter(line => line.trim());
-        const headers = lines[0].split(',').map(h => h.trim());
-
-        const data = [];
-        for (let i = 1; i < lines.length; i++) {
-          const values = lines[i].split(',');
-          if (values.length < headers.length) continue;
-
-          const item = {};
-          headers.forEach((header, index) => {
-            item[header] = values[index];
-          });
-
-          data.push(item);
-        }
-
-        return data;
-      }
-
-      // Parsear los datos
-      const csvData = parseCSV(csvTexto);
-
-      // Procesar los datos
-      const municipiosData = csvData.map(item => ({
-        nombre: item.name,
-        poblacion: parseInt(item.population || 0),
-        mayores: parseFloat(item.mayor || 0),
-        menores: parseFloat(item.menor || 0),
-        year: parseInt(item.year || new Date().getFullYear())
-      }));
-
-      // Encontrar el municipio buscado
-      const municipioData = municipiosData.find(m => m.nombre === municipioNombre);
-
-      if (!municipioData) {
-        console.error('No se encontró el municipio:', municipioNombre);
-        console.log('Municipios disponibles:', municipiosData.map(m => m.nombre).slice(0, 10).join(', ') + '...');
-        contenedor.innerHTML = `<p class="cargando-datos">No se encontraron datos para "${municipioNombre}"</p>`;
-        return;
-      }
-
-      // Calcular medias provinciales
-      const municipiosValidos = municipiosData.filter(m => m.poblacion > 0);
-      const poblacionTotal = municipiosValidos.reduce((sum, m) => sum + m.poblacion, 0);
-
-      const mediaMayores = municipiosValidos.reduce((sum, m) => sum + (m.mayores * m.poblacion), 0) / poblacionTotal;
-      const mediaMenores = municipiosValidos.reduce((sum, m) => sum + (m.menores * m.poblacion), 0) / poblacionTotal;
-
-      // Crear HTML de tarjetas
-      const html = `
-        <div class="tarjeta tarjeta-azul">
-          <div class="tarjeta-contenido">
-            <span class="tarjeta-valor">${municipioData.poblacion.toLocaleString('es-ES')}</span>
-            <span class="tarjeta-descripcion">Habitantes</span>
-            <span class="tarjeta-extra">Datos de ${municipioData.year}</span>
-          </div>
-        </div>
-
-        <div class="tarjeta tarjeta-ambar">
-          <div class="tarjeta-contenido">
-            <span class="tarjeta-valor">${municipioData.mayores.toFixed(1)}%</span>
-            <span class="tarjeta-descripcion">Mayores de 65 años</span>
-            <span class="tarjeta-extra">Datos de ${municipioData.year}</span>
-          </div>
-        </div>
-
-        <div class="tarjeta tarjeta-verde">
-          <div class="tarjeta-contenido">
-            <span class="tarjeta-valor">${municipioData.menores.toFixed(1)}%</span>
-            <span class="tarjeta-descripcion">Menores de 18 años</span>
-            <span class="tarjeta-extra">Datos de ${municipioData.year}</span>
-          </div>
-        </div>
-      `;
-
-      // Actualizar contenedor
-      contenedor.innerHTML = html;
-
-      // Mostrar comparativa si está habilitada
-      if (comparativaContainer && comparativaDatos) {
-        // Calcular diferencias porcentuales
-        const difMayores = ((municipioData.mayores / mediaMayores) - 1) * 100;
-        const difMenores = ((municipioData.menores / mediaMenores) - 1) * 100;
-
-        // Determinar clases para diferencias
-        const claseDifMayores = difMayores > 5 ? 'diferencia-positiva' :
-                              difMayores < -5 ? 'diferencia-negativa' :
-                              'diferencia-neutral';
-
-        const claseDifMenores = difMenores > 5 ? 'diferencia-positiva' :
-                              difMenores < -5 ? 'diferencia-negativa' :
-                              'diferencia-neutral';
-
-        // Símbolos para las flechas
-        const flechaMayores = difMayores > 5 ? '↑' :
-                            difMayores < -5 ? '↓' :
-                            '→';
-
-        const flechaMenores = difMenores > 5 ? '↑' :
-                            difMenores < -5 ? '↓' :
-                            '→';
-
-        // Textos explicativos para las diferencias
-        const explicacionMayores = difMayores > 5
-          ? `Es un ${Math.abs(difMayores).toFixed(1)}% mayor que la media provincial`
-          : difMayores < -5
-          ? `Es un ${Math.abs(difMayores).toFixed(1)}% menor que la media provincial`
-          : `Es similar a la media provincial`;
-
-        const explicacionMenores = difMenores > 5
-          ? `Es un ${Math.abs(difMenores).toFixed(1)}% mayor que la media provincial`
-          : difMenores < -5
-          ? `Es un ${Math.abs(difMenores).toFixed(1)}% menor que la media provincial`
-          : `Es similar a la media provincial`;
-
-        // Crear HTML de comparativa
-        const comparativaHTML = `
-          <div class="comparativa-item">
-            <div class="comparativa-titulo">Mayores de 65 años</div>
-            <div class="comparativa-valor">
-              <div class="comparativa-municipio">
-                <span class="comparativa-municipio-valor">${municipioData.mayores.toFixed(1)}% en ${municipioNombre}</span>
-                <span class="diferencia ${claseDifMayores}">
-                  <span class="flecha">${flechaMayores}</span> ${Math.abs(difMayores).toFixed(1)}%
-                </span>
-              </div>
-              <div class="diferencia-explicacion">${explicacionMayores}</div>
-              <div class="comparativa-provincia">
-                ${mediaMayores.toFixed(1)}% media en ${provinciaNombre}
-              </div>
-            </div>
-          </div>
-
-          <div class="comparativa-item">
-            <div class="comparativa-titulo">Menores de 18 años</div>
-            <div class="comparativa-valor">
-              <div class="comparativa-municipio">
-                <span class="comparativa-municipio-valor">${municipioData.menores.toFixed(1)}% en ${municipioNombre}</span>
-                <span class="diferencia ${claseDifMenores}">
-                  <span class="flecha">${flechaMenores}</span> ${Math.abs(difMenores).toFixed(1)}%
-                </span>
-              </div>
-              <div class="diferencia-explicacion">${explicacionMenores}</div>
-              <div class="comparativa-provincia">
-                ${mediaMenores.toFixed(1)}% media en ${provinciaNombre}
-              </div>
-            </div>
-          </div>
-        `;
-
-        // Actualizar sección de comparativa
-        comparativaDatos.innerHTML = comparativaHTML;
-        comparativaContainer.style.display = 'block';
-      }
-
-    } catch (error) {
-      console.error('Error al cargar o procesar los datos:', error);
-      contenedor.innerHTML = `<p class="cargando-datos">Error al cargar los datos: ${error.message}</p>`;
-    }
-  });
-</script>

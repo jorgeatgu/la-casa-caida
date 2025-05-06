@@ -28,6 +28,7 @@ const descripcion = `Evolución de la población en ${nombre} (${provincia}). Da
 ---
 
 <MunicipioLayout title={title} descripcion={descripcion} municipio={nombre} provincia={provincia}>
+
   <section class="container-chart">
     <section class="section-text">
       <p class="text">Comparte la información de {nombre} con tus contactos:</p>
@@ -38,6 +39,18 @@ const descripcion = `Evolución de la población en ${nombre} (${provincia}). Da
       description={`Conoce la evolución demográfica de ${nombre} (${provincia}) con datos desde 1900`}
     />
   </section>
+
+  <section class="container-chart">
+    <section class="section-text">
+      <h2 class="subtittle">Datos demográficos</h2>
+      <p class="text">A continuación se muestran los principales indicadores demográficos de {nombre}, con particular atención a la distribución por edades de la población.</p>
+    </section>
+    <DatosMunicipio
+      provincia={provincia}
+      municipio={nombre}
+    />
+  </section>
+
   <section class="container-chart">
     <section class="section-text">
       <h2 class="subtittle">Evolución de la población en {nombre}</h2>
@@ -60,18 +73,6 @@ const descripcion = `Evolución de la población en ${nombre} (${provincia}). Da
       <p class="text">Evolución de la densidad demográfica en {nombre}.</p>
     </section>
     <GraficaDensidad municipio={nombre} codigo={codigoINE} provincia={provincia} />
-  </section>
-
-
-  <section class="container-chart">
-    <section class="section-text">
-      <h2 class="subtittle">Datos demográficos</h2>
-      <p class="text">A continuación se muestran los principales indicadores demográficos de {nombre}, con particular atención a la distribución por edades de la población.</p>
-    </section>
-    <DatosMunicipio
-      provincia={provincia}
-      municipio={nombre}
-    />
   </section>
 
   <MunicipiosRelacionados
