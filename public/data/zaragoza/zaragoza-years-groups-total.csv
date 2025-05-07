@@ -17579,589 +17579,1761 @@ Zuera,65-100,2019,1283
 Zuera,65-100,2020,1324
 Zuera,65-100,2021,1328
 Zuera,65-100,2022,1370
-Abanto,2,51,34,2023
-Acered,9,74,56,2023
-Agón,6,80,46,2023
-Aguarón,41,376,166,2023
-Aguilón,11,146,115,2023
-Ainzón,114,680,262,2023
-Aladrén,2,41,21,2023
-Alagón,1105,4780,1371,2023
-Alarba,2,48,46,2023
-Alberite de San Juan,6,49,27,2023
-Albeta,13,87,41,2023
-Alborge,9,66,30,2023
-Alcalá de Ebro,22,151,67,2023
-Alcalá de Moncayo,13,94,43,2023
-Alconchel de Ariza,3,43,30,2023
-Aldehuela de Liestos,0,30,21,2023
-Alfajarín,403,1572,469,2023
-Alfamén,219,976,264,2023
-Alforque,0,41,24,2023
-Alhama de Aragón,106,582,241,2023
-Almochuel,0,10,10,2023
-La Almolda,41,311,200,2023
-Almonacid de la Cuba,14,137,75,2023
-Almonacid de la Sierra,95,477,207,2023
-La Almunia de Doña Godina,1272,5323,1296,2023
-Alpartir,67,360,140,2023
-Ambel,16,140,92,2023
-Anento,4,84,23,2023
-Aniñón,65,386,225,2023
-Añón de Moncayo,22,106,90,2023
-Aranda de Moncayo,4,72,51,2023
-Arándiga,20,150,97,2023
-Ardisa,1,39,37,2023
-Ariza,148,609,303,2023
-Artieda,6,49,26,2023
-Asín,5,50,46,2023
-Atea,6,80,49,2023
-Ateca,152,1048,493,2023
-Azuara,38,337,155,2023
-Badules,2,42,30,2023
-Bagüés,2,10,6,2023
-Balconchán,0,7,10,2023
-Bárboles,28,182,81,2023
-Bardallur,16,136,79,2023
-Belchite,154,916,457,2023
-Belmonte de Gracián,9,96,75,2023
-Berdejo,1,18,18,2023
-Berrueco,0,19,14,2023
-Bijuesca,2,73,20,2023
-Biota,68,524,262,2023
-Bisimbre,6,46,33,2023
-Boquiñeni,70,457,258,2023
-Bordalba,0,24,25,2023
-Borja,809,3256,1009,2023
-Botorrita,85,363,124,2023
-Brea de Aragón,153,909,459,2023
-Bubierca,1,39,20,2023
-Bujaraloz,120,627,227,2023
-Bulbuente,23,165,54,2023
-Bureta,13,109,90,2023
-Burgo de El Ebro,437,1788,471,2023
-El Buste,3,34,26,2023
-Cabañas de Ebro,43,287,156,2023
-Cabolafuente,0,24,22,2023
-Cadrete,877,3168,524,2023
-Calatayud,2707,12820,4186,2023
-Calatorao,455,1814,615,2023
-Calcena,0,43,33,2023
-Calmarza,5,27,26,2023
-Campillo de Aragón,5,69,49,2023
-Carenas,4,108,76,2023
-Cariñena,523,2246,681,2023
-Caspe,1763,6515,2002,2023
-Castejón de Alarba,1,52,35,2023
-Castejón de las Armas,2,52,34,2023
-Castejón de Valdejasa,11,114,78,2023
-Castiliscar,12,107,100,2023
-Cervera de la Cañada,29,150,95,2023
-Cerveruela,1,24,12,2023
-Cetina,58,352,154,2023
-Cimballa,8,44,38,2023
-Cinco Olivas,7,62,32,2023
-Clarés de Ribota,2,45,28,2023
-Codo,16,123,75,2023
-Codos,27,131,72,2023
-Contamina,3,16,18,2023
-Cosuenda,33,194,109,2023
-Cuarte de Huerva,3643,9955,1031,2023
-Cubel,17,76,55,2023
-Las Cuerlas,0,25,16,2023
-Chiprana,82,362,89,2023
-Chodes,7,55,33,2023
-Daroca,250,1207,497,2023
-Ejea de los Caballeros,2485,11215,3449,2023
-Embid de Ariza,1,14,16,2023
-Encinacorba,9,107,71,2023
-Épila,786,2866,851,2023
-Erla,36,201,126,2023
-Escatrón,156,707,308,2023
-Fabara,114,633,315,2023
-Farlete,30,233,148,2023
-Fayón,60,239,121,2023
-Los Fayos,7,72,51,2023
-Figueruelas,157,854,244,2023
-Fombuena,3,41,13,2023
-El Frago,14,74,38,2023
-El Frasno,16,228,125,2023
-Fréscano,18,129,54,2023
-Fuendejalón,76,483,226,2023
-Fuendetodos,10,94,46,2023
-Fuentes de Ebro,716,3030,897,2023
-Fuentes de Jiloca,12,126,82,2023
-Gallocanta,9,68,46,2023
-Gallur,323,1612,657,2023
-Gelsa,110,581,309,2023
-Godojos,4,40,17,2023
-Gotor,21,194,98,2023
-Grisel,10,61,22,2023
-Grisén,97,424,124,2023
-Herrera de los Navarros,51,311,138,2023
-Ibdes,31,228,124,2023
-Illueca,238,1795,677,2023
-Isuerre,2,15,16,2023
-Jaraba,46,174,62,2023
-Jarque de Moncayo,34,264,103,2023
-Jaulín,24,169,98,2023
-La Joyosa,217,776,152,2023
-Lagata,3,62,45,2023
-Langa del Castillo,5,54,56,2023
-Layana,6,60,30,2023
-Lécera,45,361,212,2023
-Leciñena,119,604,379,2023
-Lechón,1,28,17,2023
-Letux,13,192,132,2023
-Litago,10,118,68,2023
-Lituénigo,12,72,39,2023
-Lobera de Onsella,2,14,9,2023
-Longares,79,597,179,2023
-Longás,0,26,18,2023
-Lucena de Jalón,26,137,73,2023
-Luceni,133,615,241,2023
-Luesia,21,213,113,2023
-Luesma,1,24,15,2023
-Lumpiaque,120,506,232,2023
-Luna,46,419,222,2023
-Maella,289,1280,523,2023
-Magallón,133,664,313,2023
-Mainar,17,108,52,2023
-Malanquilla,3,42,34,2023
-Maleján,34,167,68,2023
-Malón,60,257,111,2023
-Maluenda,94,567,240,2023
-Mallén,410,1968,643,2023
-Manchones,8,51,40,2023
-Mara,15,102,47,2023
-María de Huerva,1618,4286,526,2023
-Mediana de Aragón,51,279,114,2023
-Mequinenza,298,1415,559,2023
-Mesones de Isuela,17,140,103,2023
-Mezalocha,12,128,85,2023
-Mianos,0,15,12,2023
-Miedes de Aragón,41,272,118,2023
-Monegrillo,25,226,132,2023
-Moneva,8,69,50,2023
-Monreal de Ariza,6,103,68,2023
-Monterde,3,85,73,2023
-Montón,5,39,44,2023
-Morata de Jalón,88,646,328,2023
-Morata de Jiloca,19,165,77,2023
-Morés,21,172,113,2023
-Moros,5,175,101,2023
-Moyuela,2,125,115,2023
-Mozota,14,74,40,2023
-Muel,195,951,313,2023
-La Muela,1383,4418,652,2023
-Munébrega,20,240,116,2023
-Murero,3,66,37,2023
-Murillo de Gállego,24,133,47,2023
-Navardún,0,23,15,2023
-Nigüella,0,30,30,2023
-Nombrevilla,2,19,16,2023
-Nonaspe,131,628,269,2023
-Novallas,108,536,206,2023
-Novillas,38,302,171,2023
-Nuévalos,34,211,72,2023
-Nuez de Ebro,149,583,178,2023
-Olvés,7,56,38,2023
-Orcajo,1,35,23,2023
-Orera,4,66,33,2023
-Orés,5,52,34,2023
-Oseja,0,31,16,2023
-Osera de Ebro,41,248,112,2023
-Paniza,64,360,170,2023
-Paracuellos de Jiloca,67,391,130,2023
-Paracuellos de la Ribera,0,58,56,2023
-Pastriz,177,876,267,2023
-Pedrola,553,2461,690,2023
-Las Pedrosas,7,59,33,2023
-Perdiguera,55,368,130,2023
-Piedratajada,2,48,39,2023
-Pina de Ebro,364,1591,499,2023
-Pinseque,833,2942,562,2023
-Los Pintanos,1,15,24,2023
-Plasencia de Jalón,37,235,84,2023
-Pleitas,4,18,11,2023
-Plenas,8,50,48,2023
-Pomer,0,18,8,2023
-Pozuel de Ariza,3,11,9,2023
-Pozuelo de Aragón,19,157,82,2023
-Pradilla de Ebro,52,366,148,2023
-Puebla de Albortón,2,83,46,2023
-Puebla de La Alfindén,1387,4501,609,2023
-Puendeluna,0,28,16,2023
-Purujosa,0,22,8,2023
-Quinto,238,1149,484,2023
-Remolinos,86,591,332,2023
-Retascón,5,42,24,2023
-Ricla,332,2194,480,2023
-Romanos,15,78,55,2023
-Rueda de Jalón,43,187,93,2023
-Ruesca,3,57,10,2023
-Sádaba,99,807,355,2023
-Salillas de Jalón,51,211,91,2023
-Salvatierra de Esca,33,120,50,2023
-Samper del Salz,6,46,40,2023
-San Martín de la Virgen de Moncayo,35,150,86,2023
-San Mateo de Gállego,540,2248,651,2023
-Santa Cruz de Grío,3,57,37,2023
-Santa Cruz de Moncayo,16,78,32,2023
-Santa Eulalia de Gállego,7,52,37,2023
-Santed,1,39,27,2023
-Sástago,131,589,367,2023
-Saviñán,64,385,224,2023
-Sediles,9,58,45,2023
-Sestrica,10,216,113,2023
-Sierra de Luna,32,162,78,2023
-Sigüés,6,38,26,2023
-Sisamón,0,29,16,2023
-Sobradiel,195,703,222,2023
-Sos del Rey Católico,52,325,206,2023
-Tabuenca,16,180,119,2023
-Talamantes,8,58,18,2023
-Tarazona,1542,6722,2419,2023
-Tauste,891,4343,1568,2023
-Terrer,58,348,148,2023
-Tierga,6,112,56,2023
-Tobed,11,112,77,2023
-Torralba de los Frailes,3,34,35,2023
-Torralba de Ribota,5,101,71,2023
-Torralbilla,0,25,19,2023
-Torrehermosa,3,44,27,2023
-Torrelapaja,0,15,17,2023
-Torrellas,25,141,72,2023
-Torres de Berrellén,213,949,336,2023
-Torrijo de la Cañada,9,109,82,2023
-Tosos,8,103,56,2023
-Trasmoz,7,48,27,2023
-Trasobares,5,61,57,2023
-Uncastillo,32,372,222,2023
-Undués de Lerda,5,36,11,2023
-Urrea de Jalón,62,267,110,2023
-Urriés,4,24,21,2023
-Used,14,150,107,2023
-Utebo,3436,12810,2671,2023
-Valdehorna,0,22,10,2023
-Val de San Martín,2,37,24,2023
-Valmadrid,5,70,51,2023
-Valpalmas,1,77,57,2023
-Valtorres,9,47,19,2023
-Velilla de Ebro,20,125,57,2023
-Velilla de Jiloca,2,44,20,2023
-Vera de Moncayo,16,181,119,2023
-Vierlas,7,57,21,2023
-La Vilueña,7,31,27,2023
-Villadoz,12,48,24,2023
-Villafeliche,4,95,48,2023
-Villafranca de Ebro,106,554,179,2023
-Villalba de Perejil,12,46,33,2023
-Villalengua,24,167,97,2023
-Villanueva de Gállego,760,3259,788,2023
-Villanueva de Jiloca,3,35,29,2023
-Villanueva de Huerva,25,249,116,2023
-Villar de los Navarros,14,87,47,2023
-Villarreal de Huerva,38,182,55,2023
-Villarroya de la Sierra,29,232,170,2023
-Villarroya del Campo,4,35,32,2023
-Vistabella,0,25,26,2023
-La Zaida,39,259,140,2023
-Zaragoza,98226,434253,151470,2023
-Zuera,1453,5780,1406,2023
-Biel,5,97,63,2023
-Marracos,4,50,33,2023
-Villamayor de Gállego,358,1862,644,2023
-Abanto,2,45,34,2024
-Acered,10,79,52,2024
-Agón,5,80,48,2024
-Aguarón,46,389,161,2024
-Aguilón,10,146,117,2024
-Ainzón,104,658,282,2024
-Aladrén,1,41,20,2024
-Alagón,1067,4910,1447,2024
-Alarba,2,50,41,2024
-Alberite de San Juan,5,50,28,2024
-Albeta,14,91,37,2024
-Alborge,8,66,28,2024
-Alcalá de Ebro,21,154,68,2024
-Alcalá de Moncayo,13,92,49,2024
-Alconchel de Ariza,4,46,29,2024
-Aldehuela de Liestos,0,31,18,2024
-Alfajarín,396,1542,469,2024
-Alfamén,233,975,272,2024
-Alforque,0,38,23,2024
-Alhama de Aragón,92,585,248,2024
-Almochuel,0,10,12,2024
-La Almolda,40,304,200,2024
-Almonacid de la Cuba,12,141,81,2024
-Almonacid de la Sierra,98,458,201,2024
-La Almunia de Doña Godina,1262,5371,1322,2024
-Alpartir,75,384,133,2024
-Ambel,22,143,89,2024
-Anento,2,86,24,2024
-Aniñón,68,391,220,2024
-Añón de Moncayo,23,108,91,2024
-Aranda de Moncayo,3,63,49,2024
-Arándiga,22,153,90,2024
-Ardisa,0,39,37,2024
-Ariza,138,640,304,2024
-Artieda,5,52,29,2024
-Asín,6,44,40,2024
-Atea,2,85,48,2024
-Ateca,150,1075,502,2024
-Azuara,33,346,161,2024
-Badules,2,50,30,2024
-Bagüés,2,11,6,2024
-Balconchán,0,8,11,2024
-Bárboles,27,182,76,2024
-Bardallur,14,127,86,2024
-Belchite,142,907,463,2024
-Belmonte de Gracián,8,101,71,2024
-Berdejo,1,21,16,2024
-Berrueco,0,18,15,2024
-Bijuesca,2,72,20,2024
-Biota,63,507,269,2024
-Bisimbre,3,53,35,2024
-Boquiñeni,70,445,245,2024
-Bordalba,0,22,25,2024
-Borja,816,3286,1053,2024
-Botorrita,83,375,124,2024
-Brea de Aragón,144,906,462,2024
-Bubierca,1,36,20,2024
-Bujaraloz,117,613,229,2024
-Bulbuente,22,159,58,2024
-Bureta,14,108,86,2024
-Burgo de El Ebro,436,1818,490,2024
-El Buste,2,32,25,2024
-Cabañas de Ebro,44,276,155,2024
-Cabolafuente,0,29,22,2024
-Cadrete,849,3241,559,2024
-Calatayud,2715,12909,4210,2024
-Calatorao,430,1812,628,2024
-Calcena,1,41,30,2024
-Calmarza,6,28,24,2024
-Campillo de Aragón,2,68,43,2024
-Carenas,1,98,67,2024
-Cariñena,532,2276,695,2024
-Caspe,1793,6555,2021,2024
-Castejón de Alarba,1,49,29,2024
-Castejón de las Armas,0,55,35,2024
-Castejón de Valdejasa,9,113,76,2024
-Castiliscar,11,104,99,2024
-Cervera de la Cañada,24,147,89,2024
-Cerveruela,1,23,13,2024
-Cetina,55,351,148,2024
-Cimballa,6,46,29,2024
-Cinco Olivas,5,61,34,2024
-Clarés de Ribota,2,45,25,2024
-Codo,11,120,70,2024
-Codos,27,134,69,2024
-Contamina,2,13,18,2024
-Cosuenda,31,190,109,2024
-Cuarte de Huerva,3664,10264,1136,2024
-Cubel,14,75,54,2024
-Las Cuerlas,0,23,18,2024
-Chiprana,67,357,87,2024
-Chodes,7,63,32,2024
-Daroca,236,1211,480,2024
-Ejea de los Caballeros,2481,11080,3539,2024
-Embid de Ariza,1,13,15,2024
-Encinacorba,8,103,73,2024
-Épila,797,2889,851,2024
-Erla,42,205,125,2024
-Escatrón,163,693,315,2024
-Fabara,117,622,305,2024
-Farlete,21,225,148,2024
-Fayón,60,247,121,2024
-Los Fayos,9,71,54,2024
-Figueruelas,153,857,263,2024
-Fombuena,0,38,17,2024
-El Frago,16,79,39,2024
-El Frasno,14,227,125,2024
-Fréscano,17,120,58,2024
-Fuendejalón,80,483,223,2024
-Fuendetodos,7,90,46,2024
-Fuentes de Ebro,702,3033,921,2024
-Fuentes de Jiloca,11,112,87,2024
-Gallocanta,10,75,45,2024
-Gallur,310,1613,679,2024
-Gelsa,99,578,311,2024
-Godojos,4,33,17,2024
-Gotor,19,201,94,2024
-Grisel,12,61,23,2024
-Grisén,89,413,124,2024
-Herrera de los Navarros,46,321,136,2024
-Ibdes,29,220,126,2024
-Illueca,251,1790,680,2024
-Isuerre,2,14,14,2024
-Jaraba,45,188,62,2024
-Jarque de Moncayo,31,251,102,2024
-Jaulín,24,166,103,2024
-La Joyosa,216,761,155,2024
-Lagata,6,64,45,2024
-Langa del Castillo,5,49,56,2024
-Layana,6,61,31,2024
-Lécera,47,345,206,2024
-Leciñena,119,600,372,2024
-Lechón,0,28,16,2024
-Letux,14,206,135,2024
-Litago,9,115,68,2024
-Lituénigo,13,71,40,2024
-Lobera de Onsella,0,14,13,2024
-Longares,85,554,183,2024
-Longás,0,26,19,2024
-Lucena de Jalón,28,131,67,2024
-Luceni,130,623,250,2024
-Luesia,22,202,115,2024
-Luesma,0,25,16,2024
-Lumpiaque,115,510,243,2024
-Luna,50,402,225,2024
-Maella,297,1237,534,2024
-Magallón,123,659,311,2024
-Mainar,13,109,49,2024
-Malanquilla,2,48,23,2024
-Maleján,35,172,71,2024
-Malón,68,266,107,2024
-Maluenda,97,576,242,2024
-Mallén,405,1978,658,2024
-Manchones,5,48,44,2024
-Mara,15,105,44,2024
-María de Huerva,1565,4384,540,2024
-Mediana de Aragón,50,293,113,2024
-Mequinenza,282,1403,548,2024
-Mesones de Isuela,16,146,104,2024
-Mezalocha,9,117,81,2024
-Mianos,0,17,11,2024
-Miedes de Aragón,33,251,120,2024
-Monegrillo,22,217,137,2024
-Moneva,9,70,41,2024
-Monreal de Ariza,5,99,68,2024
-Monterde,4,87,63,2024
-Montón,6,47,42,2024
-Morata de Jalón,95,655,336,2024
-Morata de Jiloca,17,159,73,2024
-Morés,23,171,111,2024
-Moros,4,162,103,2024
-Moyuela,0,120,107,2024
-Mozota,14,72,44,2024
-Muel,207,962,322,2024
-La Muela,1354,4551,664,2024
-Munébrega,25,238,105,2024
-Murero,2,56,34,2024
-Murillo de Gállego,17,142,45,2024
-Navardún,0,24,14,2024
-Nigüella,0,32,30,2024
-Nombrevilla,2,22,15,2024
-Nonaspe,130,611,276,2024
-Novallas,111,538,212,2024
-Novillas,30,297,175,2024
-Nuévalos,36,199,75,2024
-Nuez de Ebro,141,581,184,2024
-Olvés,10,61,41,2024
-Orcajo,1,32,26,2024
-Orera,4,64,33,2024
-Orés,2,45,27,2024
-Oseja,0,27,17,2024
-Osera de Ebro,47,270,112,2024
-Paniza,57,341,176,2024
-Paracuellos de Jiloca,64,407,142,2024
-Paracuellos de la Ribera,0,62,50,2024
-Pastriz,168,870,276,2024
-Pedrola,567,2486,704,2024
-Las Pedrosas,9,70,34,2024
-Perdiguera,53,365,125,2024
-Piedratajada,1,51,45,2024
-Pina de Ebro,345,1606,494,2024
-Pinseque,852,3069,620,2024
-Los Pintanos,0,16,23,2024
-Plasencia de Jalón,46,241,94,2024
-Pleitas,4,16,10,2024
-Plenas,8,55,50,2024
-Pomer,0,16,8,2024
-Pozuel de Ariza,5,10,9,2024
-Pozuelo de Aragón,16,149,84,2024
-Pradilla de Ebro,48,361,156,2024
-Puebla de Albortón,5,88,44,2024
-Puebla de La Alfindén,1329,4542,647,2024
-Puendeluna,0,24,18,2024
-Purujosa,0,21,8,2024
-Quinto,244,1147,489,2024
-Remolinos,89,613,322,2024
-Retascón,5,46,22,2024
-Ricla,334,2182,482,2024
-Romanos,11,68,65,2024
-Rueda de Jalón,42,189,95,2024
-Ruesca,6,53,10,2024
-Sádaba,107,799,362,2024
-Salillas de Jalón,51,221,89,2024
-Salvatierra de Esca,30,114,49,2024
-Samper del Salz,6,42,34,2024
-San Martín de la Virgen de Moncayo,34,154,86,2024
-San Mateo de Gállego,526,2244,647,2024
-Santa Cruz de Grío,6,63,35,2024
-Santa Cruz de Moncayo,14,77,33,2024
-Santa Eulalia de Gállego,9,52,40,2024
-Santed,1,39,31,2024
-Sástago,138,599,356,2024
-Saviñán,72,395,223,2024
-Sediles,11,59,42,2024
-Sestrica,11,220,109,2024
-Sierra de Luna,29,153,75,2024
-Sigüés,7,39,25,2024
-Sisamón,1,25,21,2024
-Sobradiel,187,726,224,2024
-Sos del Rey Católico,58,329,199,2024
-Tabuenca,16,176,119,2024
-Talamantes,10,49,23,2024
-Tarazona,1514,6821,2431,2024
-Tauste,874,4315,1596,2024
-Terrer,58,365,154,2024
-Tierga,6,116,55,2024
-Tobed,14,110,72,2024
-Torralba de los Frailes,3,30,35,2024
-Torralba de Ribota,3,101,65,2024
-Torralbilla,0,22,17,2024
-Torrehermosa,4,47,27,2024
-Torrelapaja,0,14,15,2024
-Torrellas,23,137,71,2024
-Torres de Berrellén,210,959,335,2024
-Torrijo de la Cañada,9,103,81,2024
-Tosos,14,105,57,2024
-Trasmoz,9,49,25,2024
-Trasobares,5,64,53,2024
-Uncastillo,34,357,224,2024
-Undués de Lerda,7,42,6,2024
-Urrea de Jalón,64,267,106,2024
-Urriés,3,23,23,2024
-Used,13,147,103,2024
-Utebo,3284,12937,2763,2024
-Valdehorna,0,22,9,2024
-Val de San Martín,1,34,24,2024
-Valmadrid,6,71,50,2024
-Valpalmas,1,73,53,2024
-Valtorres,11,46,19,2024
-Velilla de Ebro,22,120,63,2024
-Velilla de Jiloca,4,52,20,2024
-Vera de Moncayo,15,175,126,2024
-Vierlas,11,58,21,2024
-La Vilueña,7,28,24,2024
-Villadoz,13,45,23,2024
-Villafeliche,11,94,51,2024
-Villafranca de Ebro,101,554,178,2024
-Villalba de Perejil,10,43,31,2024
-Villalengua,22,170,97,2024
-Villanueva de Gállego,720,3268,821,2024
-Villanueva de Jiloca,3,37,29,2024
-Villanueva de Huerva,21,242,116,2024
-Villar de los Navarros,14,90,53,2024
-Villarreal de Huerva,37,180,50,2024
-Villarroya de la Sierra,20,224,168,2024
-Villarroya del Campo,4,35,29,2024
-Vistabella,0,26,25,2024
-La Zaida,37,252,142,2024
-Zaragoza,96887,439307,154843,2024
-Zuera,1431,5761,1443,2024
-Biel,6,102,62,2024
-Marracos,3,50,32,2024
-Villamayor de Gállego,360,1853,639,2024
+Abanto,0-16,2023,2
+Acered,0-16,2023,9
+Agón,0-16,2023,6
+Aguarón,0-16,2023,41
+Aguilón,0-16,2023,11
+Ainzón,0-16,2023,114
+Aladrén,0-16,2023,2
+Alagón,0-16,2023,1105
+Alarba,0-16,2023,2
+Alberite de San Juan,0-16,2023,6
+Albeta,0-16,2023,13
+Alborge,0-16,2023,9
+Alcalá de Ebro,0-16,2023,22
+Alcalá de Moncayo,0-16,2023,13
+Alconchel de Ariza,0-16,2023,3
+Aldehuela de Liestos,0-16,2023,0
+Alfajarín,0-16,2023,403
+Alfamén,0-16,2023,219
+Alforque,0-16,2023,0
+Alhama de Aragón,0-16,2023,106
+Almochuel,0-16,2023,0
+La Almolda,0-16,2023,41
+Almonacid de la Cuba,0-16,2023,14
+Almonacid de la Sierra,0-16,2023,95
+La Almunia de Doña Godina,0-16,2023,1272
+Alpartir,0-16,2023,67
+Ambel,0-16,2023,16
+Anento,0-16,2023,4
+Aniñón,0-16,2023,65
+Añón de Moncayo,0-16,2023,22
+Aranda de Moncayo,0-16,2023,4
+Arándiga,0-16,2023,20
+Ardisa,0-16,2023,1
+Ariza,0-16,2023,148
+Artieda,0-16,2023,6
+Asín,0-16,2023,5
+Atea,0-16,2023,6
+Ateca,0-16,2023,152
+Azuara,0-16,2023,38
+Badules,0-16,2023,2
+Bagüés,0-16,2023,2
+Balconchán,0-16,2023,0
+Bárboles,0-16,2023,28
+Bardallur,0-16,2023,16
+Belchite,0-16,2023,154
+Belmonte de Gracián,0-16,2023,9
+Berdejo,0-16,2023,1
+Berrueco,0-16,2023,0
+Bijuesca,0-16,2023,2
+Biota,0-16,2023,68
+Bisimbre,0-16,2023,6
+Boquiñeni,0-16,2023,70
+Bordalba,0-16,2023,0
+Borja,0-16,2023,809
+Botorrita,0-16,2023,85
+Brea de Aragón,0-16,2023,153
+Bubierca,0-16,2023,1
+Bujaraloz,0-16,2023,120
+Bulbuente,0-16,2023,23
+Bureta,0-16,2023,13
+Burgo de El Ebro,0-16,2023,437
+El Buste,0-16,2023,3
+Cabañas de Ebro,0-16,2023,43
+Cabolafuente,0-16,2023,0
+Cadrete,0-16,2023,877
+Calatayud,0-16,2023,2707
+Calatorao,0-16,2023,455
+Calcena,0-16,2023,0
+Calmarza,0-16,2023,5
+Campillo de Aragón,0-16,2023,5
+Carenas,0-16,2023,4
+Cariñena,0-16,2023,523
+Caspe,0-16,2023,1763
+Castejón de Alarba,0-16,2023,1
+Castejón de las Armas,0-16,2023,2
+Castejón de Valdejasa,0-16,2023,11
+Castiliscar,0-16,2023,12
+Cervera de la Cañada,0-16,2023,29
+Cerveruela,0-16,2023,1
+Cetina,0-16,2023,58
+Cimballa,0-16,2023,8
+Cinco Olivas,0-16,2023,7
+Clarés de Ribota,0-16,2023,2
+Codo,0-16,2023,16
+Codos,0-16,2023,27
+Contamina,0-16,2023,3
+Cosuenda,0-16,2023,33
+Cuarte de Huerva,0-16,2023,3643
+Cubel,0-16,2023,17
+Las Cuerlas,0-16,2023,0
+Chiprana,0-16,2023,82
+Chodes,0-16,2023,7
+Daroca,0-16,2023,250
+Ejea de los Caballeros,0-16,2023,2485
+Embid de Ariza,0-16,2023,1
+Encinacorba,0-16,2023,9
+Épila,0-16,2023,786
+Erla,0-16,2023,36
+Escatrón,0-16,2023,156
+Fabara,0-16,2023,114
+Farlete,0-16,2023,30
+Fayón,0-16,2023,60
+Los Fayos,0-16,2023,7
+Figueruelas,0-16,2023,157
+Fombuena,0-16,2023,3
+El Frago,0-16,2023,14
+El Frasno,0-16,2023,16
+Fréscano,0-16,2023,18
+Fuendejalón,0-16,2023,76
+Fuendetodos,0-16,2023,10
+Fuentes de Ebro,0-16,2023,716
+Fuentes de Jiloca,0-16,2023,12
+Gallocanta,0-16,2023,9
+Gallur,0-16,2023,323
+Gelsa,0-16,2023,110
+Godojos,0-16,2023,4
+Gotor,0-16,2023,21
+Grisel,0-16,2023,10
+Grisén,0-16,2023,97
+Herrera de los Navarros,0-16,2023,51
+Ibdes,0-16,2023,31
+Illueca,0-16,2023,238
+Isuerre,0-16,2023,2
+Jaraba,0-16,2023,46
+Jarque de Moncayo,0-16,2023,34
+Jaulín,0-16,2023,24
+La Joyosa,0-16,2023,217
+Lagata,0-16,2023,3
+Langa del Castillo,0-16,2023,5
+Layana,0-16,2023,6
+Lécera,0-16,2023,45
+Leciñena,0-16,2023,119
+Lechón,0-16,2023,1
+Letux,0-16,2023,13
+Litago,0-16,2023,10
+Lituénigo,0-16,2023,12
+Lobera de Onsella,0-16,2023,2
+Longares,0-16,2023,79
+Longás,0-16,2023,0
+Lucena de Jalón,0-16,2023,26
+Luceni,0-16,2023,133
+Luesia,0-16,2023,21
+Luesma,0-16,2023,1
+Lumpiaque,0-16,2023,120
+Luna,0-16,2023,46
+Maella,0-16,2023,289
+Magallón,0-16,2023,133
+Mainar,0-16,2023,17
+Malanquilla,0-16,2023,3
+Maleján,0-16,2023,34
+Malón,0-16,2023,60
+Maluenda,0-16,2023,94
+Mallén,0-16,2023,410
+Manchones,0-16,2023,8
+Mara,0-16,2023,15
+María de Huerva,0-16,2023,1618
+Mediana de Aragón,0-16,2023,51
+Mequinenza,0-16,2023,298
+Mesones de Isuela,0-16,2023,17
+Mezalocha,0-16,2023,12
+Mianos,0-16,2023,0
+Miedes de Aragón,0-16,2023,41
+Monegrillo,0-16,2023,25
+Moneva,0-16,2023,8
+Monreal de Ariza,0-16,2023,6
+Monterde,0-16,2023,3
+Montón,0-16,2023,5
+Morata de Jalón,0-16,2023,88
+Morata de Jiloca,0-16,2023,19
+Morés,0-16,2023,21
+Moros,0-16,2023,5
+Moyuela,0-16,2023,2
+Mozota,0-16,2023,14
+Muel,0-16,2023,195
+La Muela,0-16,2023,1383
+Munébrega,0-16,2023,20
+Murero,0-16,2023,3
+Murillo de Gállego,0-16,2023,24
+Navardún,0-16,2023,0
+Nigüella,0-16,2023,0
+Nombrevilla,0-16,2023,2
+Nonaspe,0-16,2023,131
+Novallas,0-16,2023,108
+Novillas,0-16,2023,38
+Nuévalos,0-16,2023,34
+Nuez de Ebro,0-16,2023,149
+Olvés,0-16,2023,7
+Orcajo,0-16,2023,1
+Orera,0-16,2023,4
+Orés,0-16,2023,5
+Oseja,0-16,2023,0
+Osera de Ebro,0-16,2023,41
+Paniza,0-16,2023,64
+Paracuellos de Jiloca,0-16,2023,67
+Paracuellos de la Ribera,0-16,2023,0
+Pastriz,0-16,2023,177
+Pedrola,0-16,2023,553
+Las Pedrosas,0-16,2023,7
+Perdiguera,0-16,2023,55
+Piedratajada,0-16,2023,2
+Pina de Ebro,0-16,2023,364
+Pinseque,0-16,2023,833
+Los Pintanos,0-16,2023,1
+Plasencia de Jalón,0-16,2023,37
+Pleitas,0-16,2023,4
+Plenas,0-16,2023,8
+Pomer,0-16,2023,0
+Pozuel de Ariza,0-16,2023,3
+Pozuelo de Aragón,0-16,2023,19
+Pradilla de Ebro,0-16,2023,52
+Puebla de Albortón,0-16,2023,2
+Puebla de La Alfindén,0-16,2023,1387
+Puendeluna,0-16,2023,0
+Purujosa,0-16,2023,0
+Quinto,0-16,2023,238
+Remolinos,0-16,2023,86
+Retascón,0-16,2023,5
+Ricla,0-16,2023,332
+Romanos,0-16,2023,15
+Rueda de Jalón,0-16,2023,43
+Ruesca,0-16,2023,3
+Sádaba,0-16,2023,99
+Salillas de Jalón,0-16,2023,51
+Salvatierra de Esca,0-16,2023,33
+Samper del Salz,0-16,2023,6
+San Martín de la Virgen de Moncayo,0-16,2023,35
+San Mateo de Gállego,0-16,2023,540
+Santa Cruz de Grío,0-16,2023,3
+Santa Cruz de Moncayo,0-16,2023,16
+Santa Eulalia de Gállego,0-16,2023,7
+Santed,0-16,2023,1
+Sástago,0-16,2023,131
+Saviñán,0-16,2023,64
+Sediles,0-16,2023,9
+Sestrica,0-16,2023,10
+Sierra de Luna,0-16,2023,32
+Sigüés,0-16,2023,6
+Sisamón,0-16,2023,0
+Sobradiel,0-16,2023,195
+Sos del Rey Católico,0-16,2023,52
+Tabuenca,0-16,2023,16
+Talamantes,0-16,2023,8
+Tarazona,0-16,2023,1542
+Tauste,0-16,2023,891
+Terrer,0-16,2023,58
+Tierga,0-16,2023,6
+Tobed,0-16,2023,11
+Torralba de los Frailes,0-16,2023,3
+Torralba de Ribota,0-16,2023,5
+Torralbilla,0-16,2023,0
+Torrehermosa,0-16,2023,3
+Torrelapaja,0-16,2023,0
+Torrellas,0-16,2023,25
+Torres de Berrellén,0-16,2023,213
+Torrijo de la Cañada,0-16,2023,9
+Tosos,0-16,2023,8
+Trasmoz,0-16,2023,7
+Trasobares,0-16,2023,5
+Uncastillo,0-16,2023,32
+Undués de Lerda,0-16,2023,5
+Urrea de Jalón,0-16,2023,62
+Urriés,0-16,2023,4
+Used,0-16,2023,14
+Utebo,0-16,2023,3436
+Valdehorna,0-16,2023,0
+Val de San Martín,0-16,2023,2
+Valmadrid,0-16,2023,5
+Valpalmas,0-16,2023,1
+Valtorres,0-16,2023,9
+Velilla de Ebro,0-16,2023,20
+Velilla de Jiloca,0-16,2023,2
+Vera de Moncayo,0-16,2023,16
+Vierlas,0-16,2023,7
+La Vilueña,0-16,2023,7
+Villadoz,0-16,2023,12
+Villafeliche,0-16,2023,4
+Villafranca de Ebro,0-16,2023,106
+Villalba de Perejil,0-16,2023,12
+Villalengua,0-16,2023,24
+Villanueva de Gállego,0-16,2023,760
+Villanueva de Jiloca,0-16,2023,3
+Villanueva de Huerva,0-16,2023,25
+Villar de los Navarros,0-16,2023,14
+Villarreal de Huerva,0-16,2023,38
+Villarroya de la Sierra,0-16,2023,29
+Villarroya del Campo,0-16,2023,4
+Vistabella,0-16,2023,0
+La Zaida,0-16,2023,39
+Zaragoza,0-16,2023,98226
+Zuera,0-16,2023,1453
+Biel,0-16,2023,5
+Marracos,0-16,2023,4
+Villamayor de Gállego,0-16,2023,358
+Abanto,0-16,2024,2
+Acered,0-16,2024,10
+Agón,0-16,2024,5
+Aguarón,0-16,2024,46
+Aguilón,0-16,2024,10
+Ainzón,0-16,2024,104
+Aladrén,0-16,2024,1
+Alagón,0-16,2024,1067
+Alarba,0-16,2024,2
+Alberite de San Juan,0-16,2024,5
+Albeta,0-16,2024,14
+Alborge,0-16,2024,8
+Alcalá de Ebro,0-16,2024,21
+Alcalá de Moncayo,0-16,2024,13
+Alconchel de Ariza,0-16,2024,4
+Aldehuela de Liestos,0-16,2024,0
+Alfajarín,0-16,2024,396
+Alfamén,0-16,2024,233
+Alforque,0-16,2024,0
+Alhama de Aragón,0-16,2024,92
+Almochuel,0-16,2024,0
+La Almolda,0-16,2024,40
+Almonacid de la Cuba,0-16,2024,12
+Almonacid de la Sierra,0-16,2024,98
+La Almunia de Doña Godina,0-16,2024,1262
+Alpartir,0-16,2024,75
+Ambel,0-16,2024,22
+Anento,0-16,2024,2
+Aniñón,0-16,2024,68
+Añón de Moncayo,0-16,2024,23
+Aranda de Moncayo,0-16,2024,3
+Arándiga,0-16,2024,22
+Ardisa,0-16,2024,0
+Ariza,0-16,2024,138
+Artieda,0-16,2024,5
+Asín,0-16,2024,6
+Atea,0-16,2024,2
+Ateca,0-16,2024,150
+Azuara,0-16,2024,33
+Badules,0-16,2024,2
+Bagüés,0-16,2024,2
+Balconchán,0-16,2024,0
+Bárboles,0-16,2024,27
+Bardallur,0-16,2024,14
+Belchite,0-16,2024,142
+Belmonte de Gracián,0-16,2024,8
+Berdejo,0-16,2024,1
+Berrueco,0-16,2024,0
+Bijuesca,0-16,2024,2
+Biota,0-16,2024,63
+Bisimbre,0-16,2024,3
+Boquiñeni,0-16,2024,70
+Bordalba,0-16,2024,0
+Borja,0-16,2024,816
+Botorrita,0-16,2024,83
+Brea de Aragón,0-16,2024,144
+Bubierca,0-16,2024,1
+Bujaraloz,0-16,2024,117
+Bulbuente,0-16,2024,22
+Bureta,0-16,2024,14
+Burgo de El Ebro,0-16,2024,436
+El Buste,0-16,2024,2
+Cabañas de Ebro,0-16,2024,44
+Cabolafuente,0-16,2024,0
+Cadrete,0-16,2024,849
+Calatayud,0-16,2024,2715
+Calatorao,0-16,2024,430
+Calcena,0-16,2024,1
+Calmarza,0-16,2024,6
+Campillo de Aragón,0-16,2024,2
+Carenas,0-16,2024,1
+Cariñena,0-16,2024,532
+Caspe,0-16,2024,1793
+Castejón de Alarba,0-16,2024,1
+Castejón de las Armas,0-16,2024,0
+Castejón de Valdejasa,0-16,2024,9
+Castiliscar,0-16,2024,11
+Cervera de la Cañada,0-16,2024,24
+Cerveruela,0-16,2024,1
+Cetina,0-16,2024,55
+Cimballa,0-16,2024,6
+Cinco Olivas,0-16,2024,5
+Clarés de Ribota,0-16,2024,2
+Codo,0-16,2024,11
+Codos,0-16,2024,27
+Contamina,0-16,2024,2
+Cosuenda,0-16,2024,31
+Cuarte de Huerva,0-16,2024,3664
+Cubel,0-16,2024,14
+Las Cuerlas,0-16,2024,0
+Chiprana,0-16,2024,67
+Chodes,0-16,2024,7
+Daroca,0-16,2024,236
+Ejea de los Caballeros,0-16,2024,2481
+Embid de Ariza,0-16,2024,1
+Encinacorba,0-16,2024,8
+Épila,0-16,2024,797
+Erla,0-16,2024,42
+Escatrón,0-16,2024,163
+Fabara,0-16,2024,117
+Farlete,0-16,2024,21
+Fayón,0-16,2024,60
+Los Fayos,0-16,2024,9
+Figueruelas,0-16,2024,153
+Fombuena,0-16,2024,0
+El Frago,0-16,2024,16
+El Frasno,0-16,2024,14
+Fréscano,0-16,2024,17
+Fuendejalón,0-16,2024,80
+Fuendetodos,0-16,2024,7
+Fuentes de Ebro,0-16,2024,702
+Fuentes de Jiloca,0-16,2024,11
+Gallocanta,0-16,2024,10
+Gallur,0-16,2024,310
+Gelsa,0-16,2024,99
+Godojos,0-16,2024,4
+Gotor,0-16,2024,19
+Grisel,0-16,2024,12
+Grisén,0-16,2024,89
+Herrera de los Navarros,0-16,2024,46
+Ibdes,0-16,2024,29
+Illueca,0-16,2024,251
+Isuerre,0-16,2024,2
+Jaraba,0-16,2024,45
+Jarque de Moncayo,0-16,2024,31
+Jaulín,0-16,2024,24
+La Joyosa,0-16,2024,216
+Lagata,0-16,2024,6
+Langa del Castillo,0-16,2024,5
+Layana,0-16,2024,6
+Lécera,0-16,2024,47
+Leciñena,0-16,2024,119
+Lechón,0-16,2024,0
+Letux,0-16,2024,14
+Litago,0-16,2024,9
+Lituénigo,0-16,2024,13
+Lobera de Onsella,0-16,2024,0
+Longares,0-16,2024,85
+Longás,0-16,2024,0
+Lucena de Jalón,0-16,2024,28
+Luceni,0-16,2024,130
+Luesia,0-16,2024,22
+Luesma,0-16,2024,0
+Lumpiaque,0-16,2024,115
+Luna,0-16,2024,50
+Maella,0-16,2024,297
+Magallón,0-16,2024,123
+Mainar,0-16,2024,13
+Malanquilla,0-16,2024,2
+Maleján,0-16,2024,35
+Malón,0-16,2024,68
+Maluenda,0-16,2024,97
+Mallén,0-16,2024,405
+Manchones,0-16,2024,5
+Mara,0-16,2024,15
+María de Huerva,0-16,2024,1565
+Mediana de Aragón,0-16,2024,50
+Mequinenza,0-16,2024,282
+Mesones de Isuela,0-16,2024,16
+Mezalocha,0-16,2024,9
+Mianos,0-16,2024,0
+Miedes de Aragón,0-16,2024,33
+Monegrillo,0-16,2024,22
+Moneva,0-16,2024,9
+Monreal de Ariza,0-16,2024,5
+Monterde,0-16,2024,4
+Montón,0-16,2024,6
+Morata de Jalón,0-16,2024,95
+Morata de Jiloca,0-16,2024,17
+Morés,0-16,2024,23
+Moros,0-16,2024,4
+Moyuela,0-16,2024,0
+Mozota,0-16,2024,14
+Muel,0-16,2024,207
+La Muela,0-16,2024,1354
+Munébrega,0-16,2024,25
+Murero,0-16,2024,2
+Murillo de Gállego,0-16,2024,17
+Navardún,0-16,2024,0
+Nigüella,0-16,2024,0
+Nombrevilla,0-16,2024,2
+Nonaspe,0-16,2024,130
+Novallas,0-16,2024,111
+Novillas,0-16,2024,30
+Nuévalos,0-16,2024,36
+Nuez de Ebro,0-16,2024,141
+Olvés,0-16,2024,10
+Orcajo,0-16,2024,1
+Orera,0-16,2024,4
+Orés,0-16,2024,2
+Oseja,0-16,2024,0
+Osera de Ebro,0-16,2024,47
+Paniza,0-16,2024,57
+Paracuellos de Jiloca,0-16,2024,64
+Paracuellos de la Ribera,0-16,2024,0
+Pastriz,0-16,2024,168
+Pedrola,0-16,2024,567
+Las Pedrosas,0-16,2024,9
+Perdiguera,0-16,2024,53
+Piedratajada,0-16,2024,1
+Pina de Ebro,0-16,2024,345
+Pinseque,0-16,2024,852
+Los Pintanos,0-16,2024,0
+Plasencia de Jalón,0-16,2024,46
+Pleitas,0-16,2024,4
+Plenas,0-16,2024,8
+Pomer,0-16,2024,0
+Pozuel de Ariza,0-16,2024,5
+Pozuelo de Aragón,0-16,2024,16
+Pradilla de Ebro,0-16,2024,48
+Puebla de Albortón,0-16,2024,5
+Puebla de La Alfindén,0-16,2024,1329
+Puendeluna,0-16,2024,0
+Purujosa,0-16,2024,0
+Quinto,0-16,2024,244
+Remolinos,0-16,2024,89
+Retascón,0-16,2024,5
+Ricla,0-16,2024,334
+Romanos,0-16,2024,11
+Rueda de Jalón,0-16,2024,42
+Ruesca,0-16,2024,6
+Sádaba,0-16,2024,107
+Salillas de Jalón,0-16,2024,51
+Salvatierra de Esca,0-16,2024,30
+Samper del Salz,0-16,2024,6
+San Martín de la Virgen de Moncayo,0-16,2024,34
+San Mateo de Gállego,0-16,2024,526
+Santa Cruz de Grío,0-16,2024,6
+Santa Cruz de Moncayo,0-16,2024,14
+Santa Eulalia de Gállego,0-16,2024,9
+Santed,0-16,2024,1
+Sástago,0-16,2024,138
+Saviñán,0-16,2024,72
+Sediles,0-16,2024,11
+Sestrica,0-16,2024,11
+Sierra de Luna,0-16,2024,29
+Sigüés,0-16,2024,7
+Sisamón,0-16,2024,1
+Sobradiel,0-16,2024,187
+Sos del Rey Católico,0-16,2024,58
+Tabuenca,0-16,2024,16
+Talamantes,0-16,2024,10
+Tarazona,0-16,2024,1514
+Tauste,0-16,2024,874
+Terrer,0-16,2024,58
+Tierga,0-16,2024,6
+Tobed,0-16,2024,14
+Torralba de los Frailes,0-16,2024,3
+Torralba de Ribota,0-16,2024,3
+Torralbilla,0-16,2024,0
+Torrehermosa,0-16,2024,4
+Torrelapaja,0-16,2024,0
+Torrellas,0-16,2024,23
+Torres de Berrellén,0-16,2024,210
+Torrijo de la Cañada,0-16,2024,9
+Tosos,0-16,2024,14
+Trasmoz,0-16,2024,9
+Trasobares,0-16,2024,5
+Uncastillo,0-16,2024,34
+Undués de Lerda,0-16,2024,7
+Urrea de Jalón,0-16,2024,64
+Urriés,0-16,2024,3
+Used,0-16,2024,13
+Utebo,0-16,2024,3284
+Valdehorna,0-16,2024,0
+Val de San Martín,0-16,2024,1
+Valmadrid,0-16,2024,6
+Valpalmas,0-16,2024,1
+Valtorres,0-16,2024,11
+Velilla de Ebro,0-16,2024,22
+Velilla de Jiloca,0-16,2024,4
+Vera de Moncayo,0-16,2024,15
+Vierlas,0-16,2024,11
+La Vilueña,0-16,2024,7
+Villadoz,0-16,2024,13
+Villafeliche,0-16,2024,11
+Villafranca de Ebro,0-16,2024,101
+Villalba de Perejil,0-16,2024,10
+Villalengua,0-16,2024,22
+Villanueva de Gállego,0-16,2024,720
+Villanueva de Jiloca,0-16,2024,3
+Villanueva de Huerva,0-16,2024,21
+Villar de los Navarros,0-16,2024,14
+Villarreal de Huerva,0-16,2024,37
+Villarroya de la Sierra,0-16,2024,20
+Villarroya del Campo,0-16,2024,4
+Vistabella,0-16,2024,0
+La Zaida,0-16,2024,37
+Zaragoza,0-16,2024,96887
+Zuera,0-16,2024,1431
+Biel,0-16,2024,6
+Marracos,0-16,2024,3
+Villamayor de Gállego,0-16,2024,360
+Abanto,16-64,2023,51
+Acered,16-64,2023,74
+Agón,16-64,2023,80
+Aguarón,16-64,2023,376
+Aguilón,16-64,2023,146
+Ainzón,16-64,2023,680
+Aladrén,16-64,2023,41
+Alagón,16-64,2023,4780
+Alarba,16-64,2023,48
+Alberite de San Juan,16-64,2023,49
+Albeta,16-64,2023,87
+Alborge,16-64,2023,66
+Alcalá de Ebro,16-64,2023,151
+Alcalá de Moncayo,16-64,2023,94
+Alconchel de Ariza,16-64,2023,43
+Aldehuela de Liestos,16-64,2023,30
+Alfajarín,16-64,2023,1572
+Alfamén,16-64,2023,976
+Alforque,16-64,2023,41
+Alhama de Aragón,16-64,2023,582
+Almochuel,16-64,2023,10
+La Almolda,16-64,2023,311
+Almonacid de la Cuba,16-64,2023,137
+Almonacid de la Sierra,16-64,2023,477
+La Almunia de Doña Godina,16-64,2023,5323
+Alpartir,16-64,2023,360
+Ambel,16-64,2023,140
+Anento,16-64,2023,84
+Aniñón,16-64,2023,386
+Añón de Moncayo,16-64,2023,106
+Aranda de Moncayo,16-64,2023,72
+Arándiga,16-64,2023,150
+Ardisa,16-64,2023,39
+Ariza,16-64,2023,609
+Artieda,16-64,2023,49
+Asín,16-64,2023,50
+Atea,16-64,2023,80
+Ateca,16-64,2023,1048
+Azuara,16-64,2023,337
+Badules,16-64,2023,42
+Bagüés,16-64,2023,10
+Balconchán,16-64,2023,7
+Bárboles,16-64,2023,182
+Bardallur,16-64,2023,136
+Belchite,16-64,2023,916
+Belmonte de Gracián,16-64,2023,96
+Berdejo,16-64,2023,18
+Berrueco,16-64,2023,19
+Bijuesca,16-64,2023,73
+Biota,16-64,2023,524
+Bisimbre,16-64,2023,46
+Boquiñeni,16-64,2023,457
+Bordalba,16-64,2023,24
+Borja,16-64,2023,3256
+Botorrita,16-64,2023,363
+Brea de Aragón,16-64,2023,909
+Bubierca,16-64,2023,39
+Bujaraloz,16-64,2023,627
+Bulbuente,16-64,2023,165
+Bureta,16-64,2023,109
+Burgo de El Ebro,16-64,2023,1788
+El Buste,16-64,2023,34
+Cabañas de Ebro,16-64,2023,287
+Cabolafuente,16-64,2023,24
+Cadrete,16-64,2023,3168
+Calatayud,16-64,2023,12820
+Calatorao,16-64,2023,1814
+Calcena,16-64,2023,43
+Calmarza,16-64,2023,27
+Campillo de Aragón,16-64,2023,69
+Carenas,16-64,2023,108
+Cariñena,16-64,2023,2246
+Caspe,16-64,2023,6515
+Castejón de Alarba,16-64,2023,52
+Castejón de las Armas,16-64,2023,52
+Castejón de Valdejasa,16-64,2023,114
+Castiliscar,16-64,2023,107
+Cervera de la Cañada,16-64,2023,150
+Cerveruela,16-64,2023,24
+Cetina,16-64,2023,352
+Cimballa,16-64,2023,44
+Cinco Olivas,16-64,2023,62
+Clarés de Ribota,16-64,2023,45
+Codo,16-64,2023,123
+Codos,16-64,2023,131
+Contamina,16-64,2023,16
+Cosuenda,16-64,2023,194
+Cuarte de Huerva,16-64,2023,9955
+Cubel,16-64,2023,76
+Las Cuerlas,16-64,2023,25
+Chiprana,16-64,2023,362
+Chodes,16-64,2023,55
+Daroca,16-64,2023,1207
+Ejea de los Caballeros,16-64,2023,11215
+Embid de Ariza,16-64,2023,14
+Encinacorba,16-64,2023,107
+Épila,16-64,2023,2866
+Erla,16-64,2023,201
+Escatrón,16-64,2023,707
+Fabara,16-64,2023,633
+Farlete,16-64,2023,233
+Fayón,16-64,2023,239
+Los Fayos,16-64,2023,72
+Figueruelas,16-64,2023,854
+Fombuena,16-64,2023,41
+El Frago,16-64,2023,74
+El Frasno,16-64,2023,228
+Fréscano,16-64,2023,129
+Fuendejalón,16-64,2023,483
+Fuendetodos,16-64,2023,94
+Fuentes de Ebro,16-64,2023,3030
+Fuentes de Jiloca,16-64,2023,126
+Gallocanta,16-64,2023,68
+Gallur,16-64,2023,1612
+Gelsa,16-64,2023,581
+Godojos,16-64,2023,40
+Gotor,16-64,2023,194
+Grisel,16-64,2023,61
+Grisén,16-64,2023,424
+Herrera de los Navarros,16-64,2023,311
+Ibdes,16-64,2023,228
+Illueca,16-64,2023,1795
+Isuerre,16-64,2023,15
+Jaraba,16-64,2023,174
+Jarque de Moncayo,16-64,2023,264
+Jaulín,16-64,2023,169
+La Joyosa,16-64,2023,776
+Lagata,16-64,2023,62
+Langa del Castillo,16-64,2023,54
+Layana,16-64,2023,60
+Lécera,16-64,2023,361
+Leciñena,16-64,2023,604
+Lechón,16-64,2023,28
+Letux,16-64,2023,192
+Litago,16-64,2023,118
+Lituénigo,16-64,2023,72
+Lobera de Onsella,16-64,2023,14
+Longares,16-64,2023,597
+Longás,16-64,2023,26
+Lucena de Jalón,16-64,2023,137
+Luceni,16-64,2023,615
+Luesia,16-64,2023,213
+Luesma,16-64,2023,24
+Lumpiaque,16-64,2023,506
+Luna,16-64,2023,419
+Maella,16-64,2023,1280
+Magallón,16-64,2023,664
+Mainar,16-64,2023,108
+Malanquilla,16-64,2023,42
+Maleján,16-64,2023,167
+Malón,16-64,2023,257
+Maluenda,16-64,2023,567
+Mallén,16-64,2023,1968
+Manchones,16-64,2023,51
+Mara,16-64,2023,102
+María de Huerva,16-64,2023,4286
+Mediana de Aragón,16-64,2023,279
+Mequinenza,16-64,2023,1415
+Mesones de Isuela,16-64,2023,140
+Mezalocha,16-64,2023,128
+Mianos,16-64,2023,15
+Miedes de Aragón,16-64,2023,272
+Monegrillo,16-64,2023,226
+Moneva,16-64,2023,69
+Monreal de Ariza,16-64,2023,103
+Monterde,16-64,2023,85
+Montón,16-64,2023,39
+Morata de Jalón,16-64,2023,646
+Morata de Jiloca,16-64,2023,165
+Morés,16-64,2023,172
+Moros,16-64,2023,175
+Moyuela,16-64,2023,125
+Mozota,16-64,2023,74
+Muel,16-64,2023,951
+La Muela,16-64,2023,4418
+Munébrega,16-64,2023,240
+Murero,16-64,2023,66
+Murillo de Gállego,16-64,2023,133
+Navardún,16-64,2023,23
+Nigüella,16-64,2023,30
+Nombrevilla,16-64,2023,19
+Nonaspe,16-64,2023,628
+Novallas,16-64,2023,536
+Novillas,16-64,2023,302
+Nuévalos,16-64,2023,211
+Nuez de Ebro,16-64,2023,583
+Olvés,16-64,2023,56
+Orcajo,16-64,2023,35
+Orera,16-64,2023,66
+Orés,16-64,2023,52
+Oseja,16-64,2023,31
+Osera de Ebro,16-64,2023,248
+Paniza,16-64,2023,360
+Paracuellos de Jiloca,16-64,2023,391
+Paracuellos de la Ribera,16-64,2023,58
+Pastriz,16-64,2023,876
+Pedrola,16-64,2023,2461
+Las Pedrosas,16-64,2023,59
+Perdiguera,16-64,2023,368
+Piedratajada,16-64,2023,48
+Pina de Ebro,16-64,2023,1591
+Pinseque,16-64,2023,2942
+Los Pintanos,16-64,2023,15
+Plasencia de Jalón,16-64,2023,235
+Pleitas,16-64,2023,18
+Plenas,16-64,2023,50
+Pomer,16-64,2023,18
+Pozuel de Ariza,16-64,2023,11
+Pozuelo de Aragón,16-64,2023,157
+Pradilla de Ebro,16-64,2023,366
+Puebla de Albortón,16-64,2023,83
+Puebla de La Alfindén,16-64,2023,4501
+Puendeluna,16-64,2023,28
+Purujosa,16-64,2023,22
+Quinto,16-64,2023,1149
+Remolinos,16-64,2023,591
+Retascón,16-64,2023,42
+Ricla,16-64,2023,2194
+Romanos,16-64,2023,78
+Rueda de Jalón,16-64,2023,187
+Ruesca,16-64,2023,57
+Sádaba,16-64,2023,807
+Salillas de Jalón,16-64,2023,211
+Salvatierra de Esca,16-64,2023,120
+Samper del Salz,16-64,2023,46
+San Martín de la Virgen de Moncayo,16-64,2023,150
+San Mateo de Gállego,16-64,2023,2248
+Santa Cruz de Grío,16-64,2023,57
+Santa Cruz de Moncayo,16-64,2023,78
+Santa Eulalia de Gállego,16-64,2023,52
+Santed,16-64,2023,39
+Sástago,16-64,2023,589
+Saviñán,16-64,2023,385
+Sediles,16-64,2023,58
+Sestrica,16-64,2023,216
+Sierra de Luna,16-64,2023,162
+Sigüés,16-64,2023,38
+Sisamón,16-64,2023,29
+Sobradiel,16-64,2023,703
+Sos del Rey Católico,16-64,2023,325
+Tabuenca,16-64,2023,180
+Talamantes,16-64,2023,58
+Tarazona,16-64,2023,6722
+Tauste,16-64,2023,4343
+Terrer,16-64,2023,348
+Tierga,16-64,2023,112
+Tobed,16-64,2023,112
+Torralba de los Frailes,16-64,2023,34
+Torralba de Ribota,16-64,2023,101
+Torralbilla,16-64,2023,25
+Torrehermosa,16-64,2023,44
+Torrelapaja,16-64,2023,15
+Torrellas,16-64,2023,141
+Torres de Berrellén,16-64,2023,949
+Torrijo de la Cañada,16-64,2023,109
+Tosos,16-64,2023,103
+Trasmoz,16-64,2023,48
+Trasobares,16-64,2023,61
+Uncastillo,16-64,2023,372
+Undués de Lerda,16-64,2023,36
+Urrea de Jalón,16-64,2023,267
+Urriés,16-64,2023,24
+Used,16-64,2023,150
+Utebo,16-64,2023,12810
+Valdehorna,16-64,2023,22
+Val de San Martín,16-64,2023,37
+Valmadrid,16-64,2023,70
+Valpalmas,16-64,2023,77
+Valtorres,16-64,2023,47
+Velilla de Ebro,16-64,2023,125
+Velilla de Jiloca,16-64,2023,44
+Vera de Moncayo,16-64,2023,181
+Vierlas,16-64,2023,57
+La Vilueña,16-64,2023,31
+Villadoz,16-64,2023,48
+Villafeliche,16-64,2023,95
+Villafranca de Ebro,16-64,2023,554
+Villalba de Perejil,16-64,2023,46
+Villalengua,16-64,2023,167
+Villanueva de Gállego,16-64,2023,3259
+Villanueva de Jiloca,16-64,2023,35
+Villanueva de Huerva,16-64,2023,249
+Villar de los Navarros,16-64,2023,87
+Villarreal de Huerva,16-64,2023,182
+Villarroya de la Sierra,16-64,2023,232
+Villarroya del Campo,16-64,2023,35
+Vistabella,16-64,2023,25
+La Zaida,16-64,2023,259
+Zaragoza,16-64,2023,434253
+Zuera,16-64,2023,5780
+Biel,16-64,2023,97
+Marracos,16-64,2023,50
+Villamayor de Gállego,16-64,2023,1862
+Abanto,16-64,2024,45
+Acered,16-64,2024,79
+Agón,16-64,2024,80
+Aguarón,16-64,2024,389
+Aguilón,16-64,2024,146
+Ainzón,16-64,2024,658
+Aladrén,16-64,2024,41
+Alagón,16-64,2024,4910
+Alarba,16-64,2024,50
+Alberite de San Juan,16-64,2024,50
+Albeta,16-64,2024,91
+Alborge,16-64,2024,66
+Alcalá de Ebro,16-64,2024,154
+Alcalá de Moncayo,16-64,2024,92
+Alconchel de Ariza,16-64,2024,46
+Aldehuela de Liestos,16-64,2024,31
+Alfajarín,16-64,2024,1542
+Alfamén,16-64,2024,975
+Alforque,16-64,2024,38
+Alhama de Aragón,16-64,2024,585
+Almochuel,16-64,2024,10
+La Almolda,16-64,2024,304
+Almonacid de la Cuba,16-64,2024,141
+Almonacid de la Sierra,16-64,2024,458
+La Almunia de Doña Godina,16-64,2024,5371
+Alpartir,16-64,2024,384
+Ambel,16-64,2024,143
+Anento,16-64,2024,86
+Aniñón,16-64,2024,391
+Añón de Moncayo,16-64,2024,108
+Aranda de Moncayo,16-64,2024,63
+Arándiga,16-64,2024,153
+Ardisa,16-64,2024,39
+Ariza,16-64,2024,640
+Artieda,16-64,2024,52
+Asín,16-64,2024,44
+Atea,16-64,2024,85
+Ateca,16-64,2024,1075
+Azuara,16-64,2024,346
+Badules,16-64,2024,50
+Bagüés,16-64,2024,11
+Balconchán,16-64,2024,8
+Bárboles,16-64,2024,182
+Bardallur,16-64,2024,127
+Belchite,16-64,2024,907
+Belmonte de Gracián,16-64,2024,101
+Berdejo,16-64,2024,21
+Berrueco,16-64,2024,18
+Bijuesca,16-64,2024,72
+Biota,16-64,2024,507
+Bisimbre,16-64,2024,53
+Boquiñeni,16-64,2024,445
+Bordalba,16-64,2024,22
+Borja,16-64,2024,3286
+Botorrita,16-64,2024,375
+Brea de Aragón,16-64,2024,906
+Bubierca,16-64,2024,36
+Bujaraloz,16-64,2024,613
+Bulbuente,16-64,2024,159
+Bureta,16-64,2024,108
+Burgo de El Ebro,16-64,2024,1818
+El Buste,16-64,2024,32
+Cabañas de Ebro,16-64,2024,276
+Cabolafuente,16-64,2024,29
+Cadrete,16-64,2024,3241
+Calatayud,16-64,2024,12909
+Calatorao,16-64,2024,1812
+Calcena,16-64,2024,41
+Calmarza,16-64,2024,28
+Campillo de Aragón,16-64,2024,68
+Carenas,16-64,2024,98
+Cariñena,16-64,2024,2276
+Caspe,16-64,2024,6555
+Castejón de Alarba,16-64,2024,49
+Castejón de las Armas,16-64,2024,55
+Castejón de Valdejasa,16-64,2024,113
+Castiliscar,16-64,2024,104
+Cervera de la Cañada,16-64,2024,147
+Cerveruela,16-64,2024,23
+Cetina,16-64,2024,351
+Cimballa,16-64,2024,46
+Cinco Olivas,16-64,2024,61
+Clarés de Ribota,16-64,2024,45
+Codo,16-64,2024,120
+Codos,16-64,2024,134
+Contamina,16-64,2024,13
+Cosuenda,16-64,2024,190
+Cuarte de Huerva,16-64,2024,10264
+Cubel,16-64,2024,75
+Las Cuerlas,16-64,2024,23
+Chiprana,16-64,2024,357
+Chodes,16-64,2024,63
+Daroca,16-64,2024,1211
+Ejea de los Caballeros,16-64,2024,11080
+Embid de Ariza,16-64,2024,13
+Encinacorba,16-64,2024,103
+Épila,16-64,2024,2889
+Erla,16-64,2024,205
+Escatrón,16-64,2024,693
+Fabara,16-64,2024,622
+Farlete,16-64,2024,225
+Fayón,16-64,2024,247
+Los Fayos,16-64,2024,71
+Figueruelas,16-64,2024,857
+Fombuena,16-64,2024,38
+El Frago,16-64,2024,79
+El Frasno,16-64,2024,227
+Fréscano,16-64,2024,120
+Fuendejalón,16-64,2024,483
+Fuendetodos,16-64,2024,90
+Fuentes de Ebro,16-64,2024,3033
+Fuentes de Jiloca,16-64,2024,112
+Gallocanta,16-64,2024,75
+Gallur,16-64,2024,1613
+Gelsa,16-64,2024,578
+Godojos,16-64,2024,33
+Gotor,16-64,2024,201
+Grisel,16-64,2024,61
+Grisén,16-64,2024,413
+Herrera de los Navarros,16-64,2024,321
+Ibdes,16-64,2024,220
+Illueca,16-64,2024,1790
+Isuerre,16-64,2024,14
+Jaraba,16-64,2024,188
+Jarque de Moncayo,16-64,2024,251
+Jaulín,16-64,2024,166
+La Joyosa,16-64,2024,761
+Lagata,16-64,2024,64
+Langa del Castillo,16-64,2024,49
+Layana,16-64,2024,61
+Lécera,16-64,2024,345
+Leciñena,16-64,2024,600
+Lechón,16-64,2024,28
+Letux,16-64,2024,206
+Litago,16-64,2024,115
+Lituénigo,16-64,2024,71
+Lobera de Onsella,16-64,2024,14
+Longares,16-64,2024,554
+Longás,16-64,2024,26
+Lucena de Jalón,16-64,2024,131
+Luceni,16-64,2024,623
+Luesia,16-64,2024,202
+Luesma,16-64,2024,25
+Lumpiaque,16-64,2024,510
+Luna,16-64,2024,402
+Maella,16-64,2024,1237
+Magallón,16-64,2024,659
+Mainar,16-64,2024,109
+Malanquilla,16-64,2024,48
+Maleján,16-64,2024,172
+Malón,16-64,2024,266
+Maluenda,16-64,2024,576
+Mallén,16-64,2024,1978
+Manchones,16-64,2024,48
+Mara,16-64,2024,105
+María de Huerva,16-64,2024,4384
+Mediana de Aragón,16-64,2024,293
+Mequinenza,16-64,2024,1403
+Mesones de Isuela,16-64,2024,146
+Mezalocha,16-64,2024,117
+Mianos,16-64,2024,17
+Miedes de Aragón,16-64,2024,251
+Monegrillo,16-64,2024,217
+Moneva,16-64,2024,70
+Monreal de Ariza,16-64,2024,99
+Monterde,16-64,2024,87
+Montón,16-64,2024,47
+Morata de Jalón,16-64,2024,655
+Morata de Jiloca,16-64,2024,159
+Morés,16-64,2024,171
+Moros,16-64,2024,162
+Moyuela,16-64,2024,120
+Mozota,16-64,2024,72
+Muel,16-64,2024,962
+La Muela,16-64,2024,4551
+Munébrega,16-64,2024,238
+Murero,16-64,2024,56
+Murillo de Gállego,16-64,2024,142
+Navardún,16-64,2024,24
+Nigüella,16-64,2024,32
+Nombrevilla,16-64,2024,22
+Nonaspe,16-64,2024,611
+Novallas,16-64,2024,538
+Novillas,16-64,2024,297
+Nuévalos,16-64,2024,199
+Nuez de Ebro,16-64,2024,581
+Olvés,16-64,2024,61
+Orcajo,16-64,2024,32
+Orera,16-64,2024,64
+Orés,16-64,2024,45
+Oseja,16-64,2024,27
+Osera de Ebro,16-64,2024,270
+Paniza,16-64,2024,341
+Paracuellos de Jiloca,16-64,2024,407
+Paracuellos de la Ribera,16-64,2024,62
+Pastriz,16-64,2024,870
+Pedrola,16-64,2024,2486
+Las Pedrosas,16-64,2024,70
+Perdiguera,16-64,2024,365
+Piedratajada,16-64,2024,51
+Pina de Ebro,16-64,2024,1606
+Pinseque,16-64,2024,3069
+Los Pintanos,16-64,2024,16
+Plasencia de Jalón,16-64,2024,241
+Pleitas,16-64,2024,16
+Plenas,16-64,2024,55
+Pomer,16-64,2024,16
+Pozuel de Ariza,16-64,2024,10
+Pozuelo de Aragón,16-64,2024,149
+Pradilla de Ebro,16-64,2024,361
+Puebla de Albortón,16-64,2024,88
+Puebla de La Alfindén,16-64,2024,4542
+Puendeluna,16-64,2024,24
+Purujosa,16-64,2024,21
+Quinto,16-64,2024,1147
+Remolinos,16-64,2024,613
+Retascón,16-64,2024,46
+Ricla,16-64,2024,2182
+Romanos,16-64,2024,68
+Rueda de Jalón,16-64,2024,189
+Ruesca,16-64,2024,53
+Sádaba,16-64,2024,799
+Salillas de Jalón,16-64,2024,221
+Salvatierra de Esca,16-64,2024,114
+Samper del Salz,16-64,2024,42
+San Martín de la Virgen de Moncayo,16-64,2024,154
+San Mateo de Gállego,16-64,2024,2244
+Santa Cruz de Grío,16-64,2024,63
+Santa Cruz de Moncayo,16-64,2024,77
+Santa Eulalia de Gállego,16-64,2024,52
+Santed,16-64,2024,39
+Sástago,16-64,2024,599
+Saviñán,16-64,2024,395
+Sediles,16-64,2024,59
+Sestrica,16-64,2024,220
+Sierra de Luna,16-64,2024,153
+Sigüés,16-64,2024,39
+Sisamón,16-64,2024,25
+Sobradiel,16-64,2024,726
+Sos del Rey Católico,16-64,2024,329
+Tabuenca,16-64,2024,176
+Talamantes,16-64,2024,49
+Tarazona,16-64,2024,6821
+Tauste,16-64,2024,4315
+Terrer,16-64,2024,365
+Tierga,16-64,2024,116
+Tobed,16-64,2024,110
+Torralba de los Frailes,16-64,2024,30
+Torralba de Ribota,16-64,2024,101
+Torralbilla,16-64,2024,22
+Torrehermosa,16-64,2024,47
+Torrelapaja,16-64,2024,14
+Torrellas,16-64,2024,137
+Torres de Berrellén,16-64,2024,959
+Torrijo de la Cañada,16-64,2024,103
+Tosos,16-64,2024,105
+Trasmoz,16-64,2024,49
+Trasobares,16-64,2024,64
+Uncastillo,16-64,2024,357
+Undués de Lerda,16-64,2024,42
+Urrea de Jalón,16-64,2024,267
+Urriés,16-64,2024,23
+Used,16-64,2024,147
+Utebo,16-64,2024,12937
+Valdehorna,16-64,2024,22
+Val de San Martín,16-64,2024,34
+Valmadrid,16-64,2024,71
+Valpalmas,16-64,2024,73
+Valtorres,16-64,2024,46
+Velilla de Ebro,16-64,2024,120
+Velilla de Jiloca,16-64,2024,52
+Vera de Moncayo,16-64,2024,175
+Vierlas,16-64,2024,58
+La Vilueña,16-64,2024,28
+Villadoz,16-64,2024,45
+Villafeliche,16-64,2024,94
+Villafranca de Ebro,16-64,2024,554
+Villalba de Perejil,16-64,2024,43
+Villalengua,16-64,2024,170
+Villanueva de Gállego,16-64,2024,3268
+Villanueva de Jiloca,16-64,2024,37
+Villanueva de Huerva,16-64,2024,242
+Villar de los Navarros,16-64,2024,90
+Villarreal de Huerva,16-64,2024,180
+Villarroya de la Sierra,16-64,2024,224
+Villarroya del Campo,16-64,2024,35
+Vistabella,16-64,2024,26
+La Zaida,16-64,2024,252
+Zaragoza,16-64,2024,439307
+Zuera,16-64,2024,5761
+Biel,16-64,2024,102
+Marracos,16-64,2024,50
+Villamayor de Gállego,16-64,2024,1853
+Abanto,65-100,2023,34
+Acered,65-100,2023,56
+Agón,65-100,2023,46
+Aguarón,65-100,2023,166
+Aguilón,65-100,2023,115
+Ainzón,65-100,2023,262
+Aladrén,65-100,2023,21
+Alagón,65-100,2023,1371
+Alarba,65-100,2023,46
+Alberite de San Juan,65-100,2023,27
+Albeta,65-100,2023,41
+Alborge,65-100,2023,30
+Alcalá de Ebro,65-100,2023,67
+Alcalá de Moncayo,65-100,2023,43
+Alconchel de Ariza,65-100,2023,30
+Aldehuela de Liestos,65-100,2023,21
+Alfajarín,65-100,2023,469
+Alfamén,65-100,2023,264
+Alforque,65-100,2023,24
+Alhama de Aragón,65-100,2023,241
+Almochuel,65-100,2023,10
+La Almolda,65-100,2023,200
+Almonacid de la Cuba,65-100,2023,75
+Almonacid de la Sierra,65-100,2023,207
+La Almunia de Doña Godina,65-100,2023,1296
+Alpartir,65-100,2023,140
+Ambel,65-100,2023,92
+Anento,65-100,2023,23
+Aniñón,65-100,2023,225
+Añón de Moncayo,65-100,2023,90
+Aranda de Moncayo,65-100,2023,51
+Arándiga,65-100,2023,97
+Ardisa,65-100,2023,37
+Ariza,65-100,2023,303
+Artieda,65-100,2023,26
+Asín,65-100,2023,46
+Atea,65-100,2023,49
+Ateca,65-100,2023,493
+Azuara,65-100,2023,155
+Badules,65-100,2023,30
+Bagüés,65-100,2023,6
+Balconchán,65-100,2023,10
+Bárboles,65-100,2023,81
+Bardallur,65-100,2023,79
+Belchite,65-100,2023,457
+Belmonte de Gracián,65-100,2023,75
+Berdejo,65-100,2023,18
+Berrueco,65-100,2023,14
+Bijuesca,65-100,2023,20
+Biota,65-100,2023,262
+Bisimbre,65-100,2023,33
+Boquiñeni,65-100,2023,258
+Bordalba,65-100,2023,25
+Borja,65-100,2023,1009
+Botorrita,65-100,2023,124
+Brea de Aragón,65-100,2023,459
+Bubierca,65-100,2023,20
+Bujaraloz,65-100,2023,227
+Bulbuente,65-100,2023,54
+Bureta,65-100,2023,90
+Burgo de El Ebro,65-100,2023,471
+El Buste,65-100,2023,26
+Cabañas de Ebro,65-100,2023,156
+Cabolafuente,65-100,2023,22
+Cadrete,65-100,2023,524
+Calatayud,65-100,2023,4186
+Calatorao,65-100,2023,615
+Calcena,65-100,2023,33
+Calmarza,65-100,2023,26
+Campillo de Aragón,65-100,2023,49
+Carenas,65-100,2023,76
+Cariñena,65-100,2023,681
+Caspe,65-100,2023,2002
+Castejón de Alarba,65-100,2023,35
+Castejón de las Armas,65-100,2023,34
+Castejón de Valdejasa,65-100,2023,78
+Castiliscar,65-100,2023,100
+Cervera de la Cañada,65-100,2023,95
+Cerveruela,65-100,2023,12
+Cetina,65-100,2023,154
+Cimballa,65-100,2023,38
+Cinco Olivas,65-100,2023,32
+Clarés de Ribota,65-100,2023,28
+Codo,65-100,2023,75
+Codos,65-100,2023,72
+Contamina,65-100,2023,18
+Cosuenda,65-100,2023,109
+Cuarte de Huerva,65-100,2023,1031
+Cubel,65-100,2023,55
+Las Cuerlas,65-100,2023,16
+Chiprana,65-100,2023,89
+Chodes,65-100,2023,33
+Daroca,65-100,2023,497
+Ejea de los Caballeros,65-100,2023,3449
+Embid de Ariza,65-100,2023,16
+Encinacorba,65-100,2023,71
+Épila,65-100,2023,851
+Erla,65-100,2023,126
+Escatrón,65-100,2023,308
+Fabara,65-100,2023,315
+Farlete,65-100,2023,148
+Fayón,65-100,2023,121
+Los Fayos,65-100,2023,51
+Figueruelas,65-100,2023,244
+Fombuena,65-100,2023,13
+El Frago,65-100,2023,38
+El Frasno,65-100,2023,125
+Fréscano,65-100,2023,54
+Fuendejalón,65-100,2023,226
+Fuendetodos,65-100,2023,46
+Fuentes de Ebro,65-100,2023,897
+Fuentes de Jiloca,65-100,2023,82
+Gallocanta,65-100,2023,46
+Gallur,65-100,2023,657
+Gelsa,65-100,2023,309
+Godojos,65-100,2023,17
+Gotor,65-100,2023,98
+Grisel,65-100,2023,22
+Grisén,65-100,2023,124
+Herrera de los Navarros,65-100,2023,138
+Ibdes,65-100,2023,124
+Illueca,65-100,2023,677
+Isuerre,65-100,2023,16
+Jaraba,65-100,2023,62
+Jarque de Moncayo,65-100,2023,103
+Jaulín,65-100,2023,98
+La Joyosa,65-100,2023,152
+Lagata,65-100,2023,45
+Langa del Castillo,65-100,2023,56
+Layana,65-100,2023,30
+Lécera,65-100,2023,212
+Leciñena,65-100,2023,379
+Lechón,65-100,2023,17
+Letux,65-100,2023,132
+Litago,65-100,2023,68
+Lituénigo,65-100,2023,39
+Lobera de Onsella,65-100,2023,9
+Longares,65-100,2023,179
+Longás,65-100,2023,18
+Lucena de Jalón,65-100,2023,73
+Luceni,65-100,2023,241
+Luesia,65-100,2023,113
+Luesma,65-100,2023,15
+Lumpiaque,65-100,2023,232
+Luna,65-100,2023,222
+Maella,65-100,2023,523
+Magallón,65-100,2023,313
+Mainar,65-100,2023,52
+Malanquilla,65-100,2023,34
+Maleján,65-100,2023,68
+Malón,65-100,2023,111
+Maluenda,65-100,2023,240
+Mallén,65-100,2023,643
+Manchones,65-100,2023,40
+Mara,65-100,2023,47
+María de Huerva,65-100,2023,526
+Mediana de Aragón,65-100,2023,114
+Mequinenza,65-100,2023,559
+Mesones de Isuela,65-100,2023,103
+Mezalocha,65-100,2023,85
+Mianos,65-100,2023,12
+Miedes de Aragón,65-100,2023,118
+Monegrillo,65-100,2023,132
+Moneva,65-100,2023,50
+Monreal de Ariza,65-100,2023,68
+Monterde,65-100,2023,73
+Montón,65-100,2023,44
+Morata de Jalón,65-100,2023,328
+Morata de Jiloca,65-100,2023,77
+Morés,65-100,2023,113
+Moros,65-100,2023,101
+Moyuela,65-100,2023,115
+Mozota,65-100,2023,40
+Muel,65-100,2023,313
+La Muela,65-100,2023,652
+Munébrega,65-100,2023,116
+Murero,65-100,2023,37
+Murillo de Gállego,65-100,2023,47
+Navardún,65-100,2023,15
+Nigüella,65-100,2023,30
+Nombrevilla,65-100,2023,16
+Nonaspe,65-100,2023,269
+Novallas,65-100,2023,206
+Novillas,65-100,2023,171
+Nuévalos,65-100,2023,72
+Nuez de Ebro,65-100,2023,178
+Olvés,65-100,2023,38
+Orcajo,65-100,2023,23
+Orera,65-100,2023,33
+Orés,65-100,2023,34
+Oseja,65-100,2023,16
+Osera de Ebro,65-100,2023,112
+Paniza,65-100,2023,170
+Paracuellos de Jiloca,65-100,2023,130
+Paracuellos de la Ribera,65-100,2023,56
+Pastriz,65-100,2023,267
+Pedrola,65-100,2023,690
+Las Pedrosas,65-100,2023,33
+Perdiguera,65-100,2023,130
+Piedratajada,65-100,2023,39
+Pina de Ebro,65-100,2023,499
+Pinseque,65-100,2023,562
+Los Pintanos,65-100,2023,24
+Plasencia de Jalón,65-100,2023,84
+Pleitas,65-100,2023,11
+Plenas,65-100,2023,48
+Pomer,65-100,2023,8
+Pozuel de Ariza,65-100,2023,9
+Pozuelo de Aragón,65-100,2023,82
+Pradilla de Ebro,65-100,2023,148
+Puebla de Albortón,65-100,2023,46
+Puebla de La Alfindén,65-100,2023,609
+Puendeluna,65-100,2023,16
+Purujosa,65-100,2023,8
+Quinto,65-100,2023,484
+Remolinos,65-100,2023,332
+Retascón,65-100,2023,24
+Ricla,65-100,2023,480
+Romanos,65-100,2023,55
+Rueda de Jalón,65-100,2023,93
+Ruesca,65-100,2023,10
+Sádaba,65-100,2023,355
+Salillas de Jalón,65-100,2023,91
+Salvatierra de Esca,65-100,2023,50
+Samper del Salz,65-100,2023,40
+San Martín de la Virgen de Moncayo,65-100,2023,86
+San Mateo de Gállego,65-100,2023,651
+Santa Cruz de Grío,65-100,2023,37
+Santa Cruz de Moncayo,65-100,2023,32
+Santa Eulalia de Gállego,65-100,2023,37
+Santed,65-100,2023,27
+Sástago,65-100,2023,367
+Saviñán,65-100,2023,224
+Sediles,65-100,2023,45
+Sestrica,65-100,2023,113
+Sierra de Luna,65-100,2023,78
+Sigüés,65-100,2023,26
+Sisamón,65-100,2023,16
+Sobradiel,65-100,2023,222
+Sos del Rey Católico,65-100,2023,206
+Tabuenca,65-100,2023,119
+Talamantes,65-100,2023,18
+Tarazona,65-100,2023,2419
+Tauste,65-100,2023,1568
+Terrer,65-100,2023,148
+Tierga,65-100,2023,56
+Tobed,65-100,2023,77
+Torralba de los Frailes,65-100,2023,35
+Torralba de Ribota,65-100,2023,71
+Torralbilla,65-100,2023,19
+Torrehermosa,65-100,2023,27
+Torrelapaja,65-100,2023,17
+Torrellas,65-100,2023,72
+Torres de Berrellén,65-100,2023,336
+Torrijo de la Cañada,65-100,2023,82
+Tosos,65-100,2023,56
+Trasmoz,65-100,2023,27
+Trasobares,65-100,2023,57
+Uncastillo,65-100,2023,222
+Undués de Lerda,65-100,2023,11
+Urrea de Jalón,65-100,2023,110
+Urriés,65-100,2023,21
+Used,65-100,2023,107
+Utebo,65-100,2023,2671
+Valdehorna,65-100,2023,10
+Val de San Martín,65-100,2023,24
+Valmadrid,65-100,2023,51
+Valpalmas,65-100,2023,57
+Valtorres,65-100,2023,19
+Velilla de Ebro,65-100,2023,57
+Velilla de Jiloca,65-100,2023,20
+Vera de Moncayo,65-100,2023,119
+Vierlas,65-100,2023,21
+La Vilueña,65-100,2023,27
+Villadoz,65-100,2023,24
+Villafeliche,65-100,2023,48
+Villafranca de Ebro,65-100,2023,179
+Villalba de Perejil,65-100,2023,33
+Villalengua,65-100,2023,97
+Villanueva de Gállego,65-100,2023,788
+Villanueva de Jiloca,65-100,2023,29
+Villanueva de Huerva,65-100,2023,116
+Villar de los Navarros,65-100,2023,47
+Villarreal de Huerva,65-100,2023,55
+Villarroya de la Sierra,65-100,2023,170
+Villarroya del Campo,65-100,2023,32
+Vistabella,65-100,2023,26
+La Zaida,65-100,2023,140
+Zaragoza,65-100,2023,151470
+Zuera,65-100,2023,1406
+Biel,65-100,2023,63
+Marracos,65-100,2023,33
+Villamayor de Gállego,65-100,2023,644
+Abanto,65-100,2024,34
+Acered,65-100,2024,52
+Agón,65-100,2024,48
+Aguarón,65-100,2024,161
+Aguilón,65-100,2024,117
+Ainzón,65-100,2024,282
+Aladrén,65-100,2024,20
+Alagón,65-100,2024,1447
+Alarba,65-100,2024,41
+Alberite de San Juan,65-100,2024,28
+Albeta,65-100,2024,37
+Alborge,65-100,2024,28
+Alcalá de Ebro,65-100,2024,68
+Alcalá de Moncayo,65-100,2024,49
+Alconchel de Ariza,65-100,2024,29
+Aldehuela de Liestos,65-100,2024,18
+Alfajarín,65-100,2024,469
+Alfamén,65-100,2024,272
+Alforque,65-100,2024,23
+Alhama de Aragón,65-100,2024,248
+Almochuel,65-100,2024,12
+La Almolda,65-100,2024,200
+Almonacid de la Cuba,65-100,2024,81
+Almonacid de la Sierra,65-100,2024,201
+La Almunia de Doña Godina,65-100,2024,1322
+Alpartir,65-100,2024,133
+Ambel,65-100,2024,89
+Anento,65-100,2024,24
+Aniñón,65-100,2024,220
+Añón de Moncayo,65-100,2024,91
+Aranda de Moncayo,65-100,2024,49
+Arándiga,65-100,2024,90
+Ardisa,65-100,2024,37
+Ariza,65-100,2024,304
+Artieda,65-100,2024,29
+Asín,65-100,2024,40
+Atea,65-100,2024,48
+Ateca,65-100,2024,502
+Azuara,65-100,2024,161
+Badules,65-100,2024,30
+Bagüés,65-100,2024,6
+Balconchán,65-100,2024,11
+Bárboles,65-100,2024,76
+Bardallur,65-100,2024,86
+Belchite,65-100,2024,463
+Belmonte de Gracián,65-100,2024,71
+Berdejo,65-100,2024,16
+Berrueco,65-100,2024,15
+Bijuesca,65-100,2024,20
+Biota,65-100,2024,269
+Bisimbre,65-100,2024,35
+Boquiñeni,65-100,2024,245
+Bordalba,65-100,2024,25
+Borja,65-100,2024,1053
+Botorrita,65-100,2024,124
+Brea de Aragón,65-100,2024,462
+Bubierca,65-100,2024,20
+Bujaraloz,65-100,2024,229
+Bulbuente,65-100,2024,58
+Bureta,65-100,2024,86
+Burgo de El Ebro,65-100,2024,490
+El Buste,65-100,2024,25
+Cabañas de Ebro,65-100,2024,155
+Cabolafuente,65-100,2024,22
+Cadrete,65-100,2024,559
+Calatayud,65-100,2024,4210
+Calatorao,65-100,2024,628
+Calcena,65-100,2024,30
+Calmarza,65-100,2024,24
+Campillo de Aragón,65-100,2024,43
+Carenas,65-100,2024,67
+Cariñena,65-100,2024,695
+Caspe,65-100,2024,2021
+Castejón de Alarba,65-100,2024,29
+Castejón de las Armas,65-100,2024,35
+Castejón de Valdejasa,65-100,2024,76
+Castiliscar,65-100,2024,99
+Cervera de la Cañada,65-100,2024,89
+Cerveruela,65-100,2024,13
+Cetina,65-100,2024,148
+Cimballa,65-100,2024,29
+Cinco Olivas,65-100,2024,34
+Clarés de Ribota,65-100,2024,25
+Codo,65-100,2024,70
+Codos,65-100,2024,69
+Contamina,65-100,2024,18
+Cosuenda,65-100,2024,109
+Cuarte de Huerva,65-100,2024,1136
+Cubel,65-100,2024,54
+Las Cuerlas,65-100,2024,18
+Chiprana,65-100,2024,87
+Chodes,65-100,2024,32
+Daroca,65-100,2024,480
+Ejea de los Caballeros,65-100,2024,3539
+Embid de Ariza,65-100,2024,15
+Encinacorba,65-100,2024,73
+Épila,65-100,2024,851
+Erla,65-100,2024,125
+Escatrón,65-100,2024,315
+Fabara,65-100,2024,305
+Farlete,65-100,2024,148
+Fayón,65-100,2024,121
+Los Fayos,65-100,2024,54
+Figueruelas,65-100,2024,263
+Fombuena,65-100,2024,17
+El Frago,65-100,2024,39
+El Frasno,65-100,2024,125
+Fréscano,65-100,2024,58
+Fuendejalón,65-100,2024,223
+Fuendetodos,65-100,2024,46
+Fuentes de Ebro,65-100,2024,921
+Fuentes de Jiloca,65-100,2024,87
+Gallocanta,65-100,2024,45
+Gallur,65-100,2024,679
+Gelsa,65-100,2024,311
+Godojos,65-100,2024,17
+Gotor,65-100,2024,94
+Grisel,65-100,2024,23
+Grisén,65-100,2024,124
+Herrera de los Navarros,65-100,2024,136
+Ibdes,65-100,2024,126
+Illueca,65-100,2024,680
+Isuerre,65-100,2024,14
+Jaraba,65-100,2024,62
+Jarque de Moncayo,65-100,2024,102
+Jaulín,65-100,2024,103
+La Joyosa,65-100,2024,155
+Lagata,65-100,2024,45
+Langa del Castillo,65-100,2024,56
+Layana,65-100,2024,31
+Lécera,65-100,2024,206
+Leciñena,65-100,2024,372
+Lechón,65-100,2024,16
+Letux,65-100,2024,135
+Litago,65-100,2024,68
+Lituénigo,65-100,2024,40
+Lobera de Onsella,65-100,2024,13
+Longares,65-100,2024,183
+Longás,65-100,2024,19
+Lucena de Jalón,65-100,2024,67
+Luceni,65-100,2024,250
+Luesia,65-100,2024,115
+Luesma,65-100,2024,16
+Lumpiaque,65-100,2024,243
+Luna,65-100,2024,225
+Maella,65-100,2024,534
+Magallón,65-100,2024,311
+Mainar,65-100,2024,49
+Malanquilla,65-100,2024,23
+Maleján,65-100,2024,71
+Malón,65-100,2024,107
+Maluenda,65-100,2024,242
+Mallén,65-100,2024,658
+Manchones,65-100,2024,44
+Mara,65-100,2024,44
+María de Huerva,65-100,2024,540
+Mediana de Aragón,65-100,2024,113
+Mequinenza,65-100,2024,548
+Mesones de Isuela,65-100,2024,104
+Mezalocha,65-100,2024,81
+Mianos,65-100,2024,11
+Miedes de Aragón,65-100,2024,120
+Monegrillo,65-100,2024,137
+Moneva,65-100,2024,41
+Monreal de Ariza,65-100,2024,68
+Monterde,65-100,2024,63
+Montón,65-100,2024,42
+Morata de Jalón,65-100,2024,336
+Morata de Jiloca,65-100,2024,73
+Morés,65-100,2024,111
+Moros,65-100,2024,103
+Moyuela,65-100,2024,107
+Mozota,65-100,2024,44
+Muel,65-100,2024,322
+La Muela,65-100,2024,664
+Munébrega,65-100,2024,105
+Murero,65-100,2024,34
+Murillo de Gállego,65-100,2024,45
+Navardún,65-100,2024,14
+Nigüella,65-100,2024,30
+Nombrevilla,65-100,2024,15
+Nonaspe,65-100,2024,276
+Novallas,65-100,2024,212
+Novillas,65-100,2024,175
+Nuévalos,65-100,2024,75
+Nuez de Ebro,65-100,2024,184
+Olvés,65-100,2024,41
+Orcajo,65-100,2024,26
+Orera,65-100,2024,33
+Orés,65-100,2024,27
+Oseja,65-100,2024,17
+Osera de Ebro,65-100,2024,112
+Paniza,65-100,2024,176
+Paracuellos de Jiloca,65-100,2024,142
+Paracuellos de la Ribera,65-100,2024,50
+Pastriz,65-100,2024,276
+Pedrola,65-100,2024,704
+Las Pedrosas,65-100,2024,34
+Perdiguera,65-100,2024,125
+Piedratajada,65-100,2024,45
+Pina de Ebro,65-100,2024,494
+Pinseque,65-100,2024,620
+Los Pintanos,65-100,2024,23
+Plasencia de Jalón,65-100,2024,94
+Pleitas,65-100,2024,10
+Plenas,65-100,2024,50
+Pomer,65-100,2024,8
+Pozuel de Ariza,65-100,2024,9
+Pozuelo de Aragón,65-100,2024,84
+Pradilla de Ebro,65-100,2024,156
+Puebla de Albortón,65-100,2024,44
+Puebla de La Alfindén,65-100,2024,647
+Puendeluna,65-100,2024,18
+Purujosa,65-100,2024,8
+Quinto,65-100,2024,489
+Remolinos,65-100,2024,322
+Retascón,65-100,2024,22
+Ricla,65-100,2024,482
+Romanos,65-100,2024,65
+Rueda de Jalón,65-100,2024,95
+Ruesca,65-100,2024,10
+Sádaba,65-100,2024,362
+Salillas de Jalón,65-100,2024,89
+Salvatierra de Esca,65-100,2024,49
+Samper del Salz,65-100,2024,34
+San Martín de la Virgen de Moncayo,65-100,2024,86
+San Mateo de Gállego,65-100,2024,647
+Santa Cruz de Grío,65-100,2024,35
+Santa Cruz de Moncayo,65-100,2024,33
+Santa Eulalia de Gállego,65-100,2024,40
+Santed,65-100,2024,31
+Sástago,65-100,2024,356
+Saviñán,65-100,2024,223
+Sediles,65-100,2024,42
+Sestrica,65-100,2024,109
+Sierra de Luna,65-100,2024,75
+Sigüés,65-100,2024,25
+Sisamón,65-100,2024,21
+Sobradiel,65-100,2024,224
+Sos del Rey Católico,65-100,2024,199
+Tabuenca,65-100,2024,119
+Talamantes,65-100,2024,23
+Tarazona,65-100,2024,2431
+Tauste,65-100,2024,1596
+Terrer,65-100,2024,154
+Tierga,65-100,2024,55
+Tobed,65-100,2024,72
+Torralba de los Frailes,65-100,2024,35
+Torralba de Ribota,65-100,2024,65
+Torralbilla,65-100,2024,17
+Torrehermosa,65-100,2024,27
+Torrelapaja,65-100,2024,15
+Torrellas,65-100,2024,71
+Torres de Berrellén,65-100,2024,335
+Torrijo de la Cañada,65-100,2024,81
+Tosos,65-100,2024,57
+Trasmoz,65-100,2024,25
+Trasobares,65-100,2024,53
+Uncastillo,65-100,2024,224
+Undués de Lerda,65-100,2024,6
+Urrea de Jalón,65-100,2024,106
+Urriés,65-100,2024,23
+Used,65-100,2024,103
+Utebo,65-100,2024,2763
+Valdehorna,65-100,2024,9
+Val de San Martín,65-100,2024,24
+Valmadrid,65-100,2024,50
+Valpalmas,65-100,2024,53
+Valtorres,65-100,2024,19
+Velilla de Ebro,65-100,2024,63
+Velilla de Jiloca,65-100,2024,20
+Vera de Moncayo,65-100,2024,126
+Vierlas,65-100,2024,21
+La Vilueña,65-100,2024,24
+Villadoz,65-100,2024,23
+Villafeliche,65-100,2024,51
+Villafranca de Ebro,65-100,2024,178
+Villalba de Perejil,65-100,2024,31
+Villalengua,65-100,2024,97
+Villanueva de Gállego,65-100,2024,821
+Villanueva de Jiloca,65-100,2024,29
+Villanueva de Huerva,65-100,2024,116
+Villar de los Navarros,65-100,2024,53
+Villarreal de Huerva,65-100,2024,50
+Villarroya de la Sierra,65-100,2024,168
+Villarroya del Campo,65-100,2024,29
+Vistabella,65-100,2024,25
+La Zaida,65-100,2024,142
+Zaragoza,65-100,2024,154843
+Zuera,65-100,2024,1443
+Biel,65-100,2024,62
+Marracos,65-100,2024,32
+Villamayor de Gállego,65-100,2024,639
