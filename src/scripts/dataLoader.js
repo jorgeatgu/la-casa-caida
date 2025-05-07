@@ -51,7 +51,7 @@ export function cargarDatosHistoricosSync(provincia, cp) {
         population: parseInt(values[3]) || 0
       }));
 
-    const filtered = data.filter(d => d.name === cp);
+    const filtered = data.filter(d => d.cp === cp);
 
     return filtered;
   } catch (error) {

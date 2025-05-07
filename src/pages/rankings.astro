@@ -1,0 +1,213 @@
+---
+// rankings.astro - Página principal para mostrar los rankings
+import Layout from '../layouts/Layout.astro';
+import RankingMunicipios from '../components/RankingMunicipios.astro';
+import SocialShare from '../components/SocialShare.astro';
+import Kofi from '../components/Kofi.astro';
+// Metadatos para SEO
+const title = "Rankings de Municipios de Aragón | La casa caída";
+const descripcion = "Descubre los rankings demográficos de los municipios aragoneses: despoblación, envejecimiento, crecimiento y más.";
+---
+<Layout title={title} descripcion={descripcion}>
+  <div class="container-pagina">
+    <h1 class="titulo-principal">Rankings demográficos de los municipios de Aragón</h1>
+    <section class="seccion-intro">
+      <p class="texto-intro">
+        En esta página encontrarás diferentes clasificaciones demográficas de los municipios aragoneses,
+        basadas en indicadores como la despoblación, el envejecimiento, la densidad y otras variables.
+        Estos rankings te permitirán conocer la situación demográfica de Aragón desde diferentes perspectivas.
+      </p>
+      <SocialShare title="Rankings demográficos de municipios de Aragón" description="Conoce qué municipios aragoneses lideran las clasificaciones de despoblación, envejecimiento y otros indicadores demográficos" />
+      <Kofi />
+    </section>
+    <section class="seccion-navegacion">
+      <h2 class="titulo-navegacion">Selecciona un ranking:</h2>
+      <div class="botones-navegacion">
+        <a href="#despoblacion" class="boton-navegacion">Mayor despoblación</a>
+        <a href="#crecimiento" class="boton-navegacion">Mayor crecimiento</a>
+        <a href="#envejecidos" class="boton-navegacion">Más envejecidos</a>
+        <a href="#jovenes" class="boton-navegacion">Más jóvenes</a>
+      </div>
+    </section>
+    <section id="despoblacion" class="seccion-ranking">
+      <RankingMunicipios tipoRanking="despoblacion" limite={15} />
+    </section>
+    <section id="crecimiento" class="seccion-ranking">
+      <RankingMunicipios tipoRanking="crecimiento" limite={15} />
+    </section>
+    <section id="envejecidos" class="seccion-ranking">
+      <RankingMunicipios tipoRanking="envejecidos" limite={15} />
+    </section>
+    <section id="jovenes" class="seccion-ranking">
+      <RankingMunicipios tipoRanking="jovenes" limite={15} />
+    </section>
+    <section class="seccion-metodologia">
+      <h2 class="titulo-metodologia">Metodología</h2>
+      <p class="texto-metodologia">
+        Los rankings presentados en esta página se han elaborado a partir de los datos oficiales del Instituto
+        Nacional de Estadística (INE) y del Instituto Aragonés de Estadística (IAEST). Para evitar distorsiones
+        estadísticas, en algunos casos se han aplicado filtros para excluir municipios con población muy pequeña.
+      </p>
+      <p class="texto-metodologia">
+        Las variables utilizadas incluyen:
+      </p>
+      <ul class="lista-metodologia">
+        <li>Evolución de la población desde 1900 hasta 2024</li>
+        <li>Porcentaje de población mayor de 65 años</li>
+        <li>Porcentaje de población menor de 16 años</li>
+      </ul>
+      <p class="texto-metodologia">
+        Para cada municipio, puedes consultar información más detallada haciendo clic en su nombre,
+        lo que te llevará a su página específica con todas las estadísticas disponibles.
+      </p>
+    </section>
+  </div>
+</Layout>
+<style>
+.container-pagina {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.titulo-principal {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.seccion-intro {
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto-intro {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #475569;
+  margin-bottom: 1.5rem;
+}
+
+.seccion-navegacion {
+  background-color: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.titulo-navegacion {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 1rem;
+}
+
+.botones-navegacion {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.boton-navegacion {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #e2e8f0;
+  color: #334155;
+  text-decoration: none;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.boton-navegacion:hover {
+  background-color: #cbd5e1;
+}
+
+.seccion-ranking {
+  margin-bottom: 4rem;
+  scroll-margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.titulo-seccion {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+
+.ranking-grupo {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.seccion-metodologia {
+  background-color: #f8fafc;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-top: 3rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.titulo-metodologia {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.texto-metodologia {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #475569;
+  margin-bottom: 1rem;
+}
+
+.lista-metodologia {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.lista-metodologia li {
+  margin-bottom: 0.5rem;
+  color: #475569;
+}
+
+/* Responsivo */
+@media (min-width: 768px) {
+  .ranking-grupo {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .titulo-principal {
+    font-size: 1.75rem;
+  }
+
+  .texto-intro {
+    font-size: 1rem;
+  }
+
+  .seccion-navegacion {
+    padding: 1rem;
+  }
+
+  .botones-navegacion {
+    gap: 0.5rem;
+  }
+
+  .boton-navegacion {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+  }
+}
+</style>

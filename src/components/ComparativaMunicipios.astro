@@ -1,0 +1,757 @@
+---
+// ComparativaMunicipios.astro
+import { municipios } from '../data/municipios.js';
+import { cargarDatosEdadSync, cargarDatosHistoricosSync } from '../scripts/dataLoader.js';
+
+const {
+  codigosMunicipios = [], // Array de códigos INE
+  mostrarDensidad = true,
+  mostrarEdades = true,
+  mostrarEvolucion = true,
+  altura = 500
+} = Astro.props;
+
+// Si no se pasan municipios específicos, usar los 5 más poblados por defecto
+let municipiosSeleccionados = [];
+
+if (codigosMunicipios.length > 0) {
+  // Filtramos los municipios solicitados
+  municipiosSeleccionados = codigosMunicipios.map(codigo => {
+    return municipios.find(m => m.codigoINE === codigo);
+  }).filter(Boolean); // Eliminar los undefined
+} else {
+  // Por defecto: capitales de provincia + dos más poblados
+  const capitales = ['Zaragoza', 'Huesca', 'Teruel'];
+  municipiosSeleccionados = municipios.filter(m => capitales.includes(m.nombre));
+
+  // Añadir los dos siguientes más poblados que no sean capitales
+  const otrosMunicipios = municipios
+    .filter(m => !capitales.includes(m.nombre))
+    .slice(0, 2);
+
+  municipiosSeleccionados = [...municipiosSeleccionados, ...otrosMunicipios];
+}
+
+// Preparar los datos para cada municipio
+const datosMunicipios = [];
+
+for (const municipio of municipiosSeleccionados) {
+  try {
+    const datosHistoricos = cargarDatosHistoricosSync(municipio.provincia, municipio.codigoINE);
+    const datosEdad = cargarDatosEdadSync(municipio.provincia, municipio.nombre);
+
+    if (datosHistoricos && datosHistoricos.length > 0 && datosEdad) {
+      // Datos básicos
+      const poblacionActual = datosHistoricos.find(d => d.year === '2024')?.population || 0;
+
+      // Datos de evolución histórica (cada 20 años)
+      const datosEvolucion = [
+        { anio: 1900, poblacion: datosHistoricos.find(d => d.year === '1900')?.population || 0 },
+        { anio: 1920, poblacion: datosHistoricos.find(d => d.year === '1920')?.population || 0 },
+        { anio: 1940, poblacion: datosHistoricos.find(d => d.year === '1940')?.population || 0 },
+        { anio: 1960, poblacion: datosHistoricos.find(d => d.year === '1960')?.population || 0 },
+        { anio: 1980, poblacion: datosHistoricos.find(d => d.year === '1980')?.population || 0 },
+        { anio: 2000, poblacion: datosHistoricos.find(d => d.year === '2000')?.population || 0 },
+        { anio: 2020, poblacion: datosHistoricos.find(d => d.year === '2020')?.population || 0 },
+        { anio: 2024, poblacion: poblacionActual }
+      ];
+
+      // Normalizar los datos de evolución (relativo a 1900 = 100)
+      const poblacion1900 = datosEvolucion[0].poblacion;
+      const datosEvolucionNormalizada = datosEvolucion.map(d => ({
+        anio: d.anio,
+        valor: poblacion1900 > 0 ? (d.poblacion / poblacion1900) * 100 : 0
+      }));
+
+      datosMunicipios.push({
+        nombre: municipio.nombre,
+        provincia: municipio.provincia,
+        slug: municipio.slug,
+        poblacionActual,
+        porcentajeMayores: datosEdad.mayor || 0,
+        porcentajeMenores: datosEdad.menor || 0,
+        densidad: datosEdad.density || 0,
+        datosEvolucion,
+        datosEvolucionNormalizada
+      });
+    }
+  } catch (error) {
+    console.error(`Error al procesar datos para ${municipio.nombre}: ${error.message}`);
+  }
+}
+
+// ID únicos para cada gráfica
+const idGraficaDensidad = `grafica-densidad-${Math.random().toString(36).substring(2, 9)}`;
+const idGraficaEdades = `grafica-edades-${Math.random().toString(36).substring(2, 9)}`;
+const idGraficaEvolucion = `grafica-evolucion-${Math.random().toString(36).substring(2, 9)}`;
+
+// Función para obtener el color según el índice del municipio
+function colorMunicipio(index) {
+  const colores = [
+    '#4f46e5', // Azul
+    '#10b981', // Verde
+    '#f59e0b', // Ámbar
+    '#ef4444', // Rojo
+    '#8b5cf6', // Púrpura
+    '#06b6d4', // Cian
+    '#ec4899', // Rosa
+    '#f97316', // Naranja
+  ];
+
+  return colores[index % colores.length];
+}
+
+// Función para formatear números con separador de miles
+function formatearNumero(numero) {
+  return numero.toLocaleString('es-ES');
+}
+---
+
+<div class="comparativa-container">
+  <h2 class="titulo-comparativa">Comparativa entre municipios seleccionados</h2>
+
+  <div class="municipios-comparados">
+    <div class="lista-municipios">
+      {datosMunicipios.map((municipio, index) => (
+        <div class="municipio-item" style={`border-color: ${colorMunicipio(index)};`}>
+          <h3 class="nombre-municipio">{municipio.nombre}</h3>
+          <p class="provincia-municipio">{municipio.provincia}</p>
+          <p class="poblacion-municipio">
+            <strong>{formatearNumero(municipio.poblacionActual)}</strong> habitantes
+          </p>
+          <a href={`/municipio/${municipio.slug}`} class="enlace-municipio">
+            Ver página completa
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  {mostrarDensidad && (
+    <div class="seccion-grafica">
+      <h3 class="titulo-seccion">Densidad de población</h3>
+      <p class="descripcion-seccion">Comparación de la densidad de población (habitantes por km²)</p>
+
+      <div class="grafica-contenedor">
+        <div id={idGraficaDensidad} class="grafica-barras"></div>
+      </div>
+    </div>
+  )}
+
+  {mostrarEdades && (
+    <div class="seccion-grafica">
+      <h3 class="titulo-seccion">Distribución por edades</h3>
+      <p class="descripcion-seccion">Comparación de la estructura de edad de la población</p>
+
+      <div class="grafica-contenedor">
+        <div id={idGraficaEdades} class="grafica-barras"></div>
+      </div>
+    </div>
+  )}
+
+  {mostrarEvolucion && (
+    <div class="seccion-grafica">
+      <h3 class="titulo-seccion">Evolución histórica</h3>
+      <p class="descripcion-seccion">Evolución relativa de la población desde 1900 (base 100)</p>
+
+      <div class="grafica-contenedor">
+        <div id={idGraficaEvolucion} class="grafica-lineas"></div>
+      </div>
+    </div>
+  )}
+</div>
+
+<script define:vars={{ datosMunicipios, idGraficaDensidad, idGraficaEdades, idGraficaEvolucion, colorMunicipio, mostrarDensidad, mostrarEdades, mostrarEvolucion }}>
+document.addEventListener('DOMContentLoaded', () => {
+  if (mostrarDensidad) crearGraficaDensidad();
+  if (mostrarEdades) crearGraficaEdades();
+  if (mostrarEvolucion) crearGraficaEvolucion();
+
+  // Recrear las gráficas al cambiar de tamaño la ventana
+  window.addEventListener('resize', () => {
+    if (mostrarDensidad) crearGraficaDensidad();
+    if (mostrarEdades) crearGraficaEdades();
+    if (mostrarEvolucion) crearGraficaEvolucion();
+  });
+
+  function crearGraficaDensidad() {
+    // Obtener el elemento contenedor
+    const contenedor = document.getElementById(idGraficaDensidad);
+    if (!contenedor) return;
+
+    // Limpiar el contenedor antes de crear la gráfica
+    contenedor.innerHTML = '';
+
+    // Dimensiones
+    const width = contenedor.clientWidth;
+    const height = contenedor.clientHeight;
+    const margin = { top: 20, right: 30, bottom: 80, left: 60 };
+    const innerWidth = width - margin.left - margin.right;
+    const innerHeight = height - margin.top - margin.bottom;
+
+    // Crear el elemento SVG
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('width', width);
+    svg.setAttribute('height', height);
+    svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+    contenedor.appendChild(svg);
+
+    // Crear el grupo principal con margen
+    const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+    g.setAttribute('transform', `translate(${margin.left},${margin.top})`);
+    svg.appendChild(g);
+
+    // Escala para el eje X (municipios)
+    const municipios = datosMunicipios.map(d => d.nombre);
+    const xScale = municipios.map((_, i) => i * (innerWidth / municipios.length) + (innerWidth / municipios.length / 2));
+
+    // Encontrar la densidad máxima para la escala
+    const densidadMaxima = Math.max(...datosMunicipios.map(d => d.densidad));
+
+    // Escala para el eje Y (densidad)
+    const yScale = valor => (valor / densidadMaxima) * innerHeight;
+
+    // Crear barras
+    datosMunicipios.forEach((d, i) => {
+      const bar = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+      const barWidth = (innerWidth / municipios.length) * 0.6;
+
+      bar.setAttribute('x', xScale[i] - barWidth / 2);
+      bar.setAttribute('y', innerHeight - yScale(d.densidad));
+      bar.setAttribute('width', barWidth);
+      bar.setAttribute('height', yScale(d.densidad));
+      bar.setAttribute('fill', colorMunicipio(i));
+      bar.setAttribute('rx', 4);
+      g.appendChild(bar);
+
+      // Texto del municipio
+      const textoMunicipio = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      textoMunicipio.textContent = d.nombre;
+      textoMunicipio.setAttribute('x', xScale[i]);
+      textoMunicipio.setAttribute('y', innerHeight + 20);
+      textoMunicipio.setAttribute('text-anchor', 'middle');
+      textoMunicipio.setAttribute('font-size', '12px');
+      textoMunicipio.setAttribute('fill', '#1e293b');
+      g.appendChild(textoMunicipio);
+
+      // Texto de la provincia
+      const textoProvincia = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      textoProvincia.textContent = `(${d.provincia})`;
+      textoProvincia.setAttribute('x', xScale[i]);
+      textoProvincia.setAttribute('y', innerHeight + 40);
+      textoProvincia.setAttribute('text-anchor', 'middle');
+      textoProvincia.setAttribute('font-size', '10px');
+      textoProvincia.setAttribute('fill', '#6b7280');
+      g.appendChild(textoProvincia);
+
+      // Valor de la densidad
+      const textoValor = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      textoValor.textContent = d.densidad.toFixed(1);
+      textoValor.setAttribute('x', xScale[i]);
+      textoValor.setAttribute('y', innerHeight - yScale(d.densidad) - 10);
+      textoValor.setAttribute('text-anchor', 'middle');
+      textoValor.setAttribute('font-size', '11px');
+      textoValor.setAttribute('fill', '#1e293b');
+      textoValor.setAttribute('font-weight', 'bold');
+      g.appendChild(textoValor);
+    });
+
+    // Eje Y
+    const yAxis = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    yAxis.setAttribute('x1', 0);
+    yAxis.setAttribute('y1', 0);
+    yAxis.setAttribute('x2', 0);
+    yAxis.setAttribute('y2', innerHeight);
+    yAxis.setAttribute('stroke', '#d1d5db');
+    yAxis.setAttribute('stroke-width', 1);
+    g.appendChild(yAxis);
+
+    // Eje X
+    const xAxis = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    xAxis.setAttribute('x1', 0);
+    xAxis.setAttribute('y1', innerHeight);
+    xAxis.setAttribute('x2', innerWidth);
+    xAxis.setAttribute('y2', innerHeight);
+    xAxis.setAttribute('stroke', '#d1d5db');
+    xAxis.setAttribute('stroke-width', 1);
+    g.appendChild(xAxis);
+
+    // Texto del eje Y
+    const yLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    yLabel.textContent = 'hab/km²';
+    yLabel.setAttribute('x', -40);
+    yLabel.setAttribute('y', -10);
+    yLabel.setAttribute('font-size', '11px');
+    yLabel.setAttribute('fill', '#6b7280');
+    g.appendChild(yLabel);
+  }
+
+  function crearGraficaEdades() {
+    // Obtener el elemento contenedor
+    const contenedor = document.getElementById(idGraficaEdades);
+    if (!contenedor) return;
+
+    // Limpiar el contenedor antes de crear la gráfica
+    contenedor.innerHTML = '';
+
+    // Dimensiones
+    const width = contenedor.clientWidth;
+    const height = contenedor.clientHeight;
+    const margin = { top: 20, right: 30, bottom: 80, left: 60 };
+    const innerWidth = width - margin.left - margin.right;
+    const innerHeight = height - margin.top - margin.bottom;
+
+    // Crear el elemento SVG
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('width', width);
+    svg.setAttribute('height', height);
+    svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+    contenedor.appendChild(svg);
+
+    // Crear el grupo principal con margen
+    const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+    g.setAttribute('transform', `translate(${margin.left},${margin.top})`);
+    svg.appendChild(g);
+
+    // Escala para el eje X (municipios)
+    const municipios = datosMunicipios.map(d => d.nombre);
+    const xScale = municipios.map((_, i) => i * (innerWidth / municipios.length) + (innerWidth / municipios.length / 2));
+
+    // Ancho de las barras
+    const barWidth = (innerWidth / municipios.length) * 0.7;
+    const barWidthHalf = barWidth / 2;
+
+    // Escala para el eje Y (porcentajes)
+    const yScale = valor => (valor / 100) * innerHeight;
+
+    // Crear barras
+    datosMunicipios.forEach((d, i) => {
+      // Barra para mayores (65+)
+      const barMayores = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+      barMayores.setAttribute('x', xScale[i] - barWidthHalf);
+      barMayores.setAttribute('y', innerHeight - yScale(d.porcentajeMayores));
+      barMayores.setAttribute('width', barWidthHalf);
+      barMayores.setAttribute('height', yScale(d.porcentajeMayores));
+      barMayores.setAttribute('fill', '#f59e0b'); // Ámbar para mayores
+      g.appendChild(barMayores);
+
+      // Texto del valor de mayores
+      const textoMayores = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      textoMayores.textContent = d.porcentajeMayores.toFixed(1) + '%';
+      textoMayores.setAttribute('x', xScale[i] - barWidthHalf / 2);
+      textoMayores.setAttribute('y', innerHeight - yScale(d.porcentajeMayores) - 5);
+      textoMayores.setAttribute('text-anchor', 'middle');
+      textoMayores.setAttribute('font-size', '10px');
+      textoMayores.setAttribute('fill', '#92400e');
+      g.appendChild(textoMayores);
+
+      // Barra para menores (0-18)
+      const barMenores = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+      barMenores.setAttribute('x', xScale[i]);
+      barMenores.setAttribute('y', innerHeight - yScale(d.porcentajeMenores));
+      barMenores.setAttribute('width', barWidthHalf);
+      barMenores.setAttribute('height', yScale(d.porcentajeMenores));
+      barMenores.setAttribute('fill', '#10b981'); // Verde para menores
+      g.appendChild(barMenores);
+
+      // Texto del valor de menores
+      const textoMenores = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      textoMenores.textContent = d.porcentajeMenores.toFixed(1) + '%';
+      textoMenores.setAttribute('x', xScale[i] + barWidthHalf / 2);
+      textoMenores.setAttribute('y', innerHeight - yScale(d.porcentajeMenores) - 5);
+      textoMenores.setAttribute('text-anchor', 'middle');
+      textoMenores.setAttribute('font-size', '10px');
+      textoMenores.setAttribute('fill', '#065f46');
+      g.appendChild(textoMenores);
+
+      // Texto del municipio
+      const textoMunicipio = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      textoMunicipio.textContent = d.nombre;
+      textoMunicipio.setAttribute('x', xScale[i]);
+      textoMunicipio.setAttribute('y', innerHeight + 20);
+      textoMunicipio.setAttribute('text-anchor', 'middle');
+      textoMunicipio.setAttribute('font-size', '12px');
+      textoMunicipio.setAttribute('fill', '#1e293b');
+      g.appendChild(textoMunicipio);
+    });
+
+    // Eje Y
+    const yAxis = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    yAxis.setAttribute('x1', 0);
+    yAxis.setAttribute('y1', 0);
+    yAxis.setAttribute('x2', 0);
+    yAxis.setAttribute('y2', innerHeight);
+    yAxis.setAttribute('stroke', '#d1d5db');
+    yAxis.setAttribute('stroke-width', 1);
+    g.appendChild(yAxis);
+
+    // Eje X
+    const xAxis = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    xAxis.setAttribute('x1', 0);
+    xAxis.setAttribute('y1', innerHeight);
+    xAxis.setAttribute('x2', innerWidth);
+    xAxis.setAttribute('y2', innerHeight);
+    xAxis.setAttribute('stroke', '#d1d5db');
+    xAxis.setAttribute('stroke-width', 1);
+    g.appendChild(xAxis);
+
+    // Texto del eje Y
+    const yLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    yLabel.textContent = '%';
+    yLabel.setAttribute('x', -15);
+    yLabel.setAttribute('y', -10);
+    yLabel.setAttribute('font-size', '11px');
+    yLabel.setAttribute('fill', '#6b7280');
+    g.appendChild(yLabel);
+
+    // Leyenda
+    const leyendaG = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+    leyendaG.setAttribute('transform', `translate(${innerWidth - 150}, ${margin.top})`);
+
+    // Rectángulo mayores (65+)
+    const rectMayores = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+    rectMayores.setAttribute('x', 0);
+    rectMayores.setAttribute('y', 0);
+    rectMayores.setAttribute('width', 12);
+    rectMayores.setAttribute('height', 12);
+    rectMayores.setAttribute('fill', '#f59e0b');
+    leyendaG.appendChild(rectMayores);
+
+    // Texto mayores
+    const textoLeyendaMayores = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    textoLeyendaMayores.textContent = 'Mayores de 65 años';
+    textoLeyendaMayores.setAttribute('x', 20);
+    textoLeyendaMayores.setAttribute('y', 10);
+    textoLeyendaMayores.setAttribute('font-size', '11px');
+    textoLeyendaMayores.setAttribute('fill', '#6b7280');
+    leyendaG.appendChild(textoLeyendaMayores);
+
+    // Rectángulo menores (0-18)
+    const rectMenores = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+    rectMenores.setAttribute('x', 0);
+    rectMenores.setAttribute('y', 20);
+    rectMenores.setAttribute('width', 12);
+    rectMenores.setAttribute('height', 12);
+    rectMenores.setAttribute('fill', '#10b981');
+    leyendaG.appendChild(rectMenores);
+
+    // Texto menores
+    const textoLeyendaMenores = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    textoLeyendaMenores.textContent = 'Menores de 18 años';
+    textoLeyendaMenores.setAttribute('x', 20);
+    textoLeyendaMenores.setAttribute('y', 30);
+    textoLeyendaMenores.setAttribute('font-size', '11px');
+    textoLeyendaMenores.setAttribute('fill', '#6b7280');
+    leyendaG.appendChild(textoLeyendaMenores);
+
+    g.appendChild(leyendaG);
+  }
+
+  function crearGraficaEvolucion() {
+    // Obtener el elemento contenedor
+    const contenedor = document.getElementById(idGraficaEvolucion);
+    if (!contenedor) return;
+
+    // Limpiar el contenedor antes de crear la gráfica
+    contenedor.innerHTML = '';
+
+    // Dimensiones
+    const width = contenedor.clientWidth;
+    const height = contenedor.clientHeight;
+    const margin = { top: 20, right: 160, bottom: 50, left: 60 };
+    const innerWidth = width - margin.left - margin.right;
+    const innerHeight = height - margin.top - margin.bottom;
+
+    // Crear el elemento SVG
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('width', width);
+    svg.setAttribute('height', height);
+    svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+    contenedor.appendChild(svg);
+
+    // Crear el grupo principal con margen
+    const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+    g.setAttribute('transform', `translate(${margin.left},${margin.top})`);
+    svg.appendChild(g);
+
+    // Años disponibles (eje X)
+    const años = [1900, 1920, 1940, 1960, 1980, 2000, 2020, 2024];
+
+    // Escala para el eje X (años)
+    const xScale = año => ((año - 1900) / (2024 - 1900)) * innerWidth;
+
+    // Encontrar el valor máximo para la escala Y
+    const valorMaximo = Math.max(
+      ...datosMunicipios.flatMap(m => m.datosEvolucionNormalizada.map(d => d.valor)),
+      200 // Al menos 200% para la escala
+    );
+
+    // Escala para el eje Y (valores)
+    const yScale = valor => innerHeight - ((valor / valorMaximo) * innerHeight);
+
+    // Crear líneas para cada municipio
+    datosMunicipios.forEach((municipio, index) => {
+      // Crear el path para la línea
+      const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+
+      // Generar los puntos del path
+      let d = '';
+      municipio.datosEvolucionNormalizada.forEach((dato, i) => {
+        const x = xScale(dato.anio);
+        const y = yScale(dato.valor);
+
+        if (i === 0) {
+          d += `M ${x} ${y}`;
+        } else {
+          d += ` L ${x} ${y}`;
+        }
+      });
+
+      path.setAttribute('d', d);
+      path.setAttribute('fill', 'none');
+      path.setAttribute('stroke', colorMunicipio(index));
+      path.setAttribute('stroke-width', 2);
+      g.appendChild(path);
+
+      // Crear puntos en cada dato
+      municipio.datosEvolucionNormalizada.forEach((dato) => {
+        const punto = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        punto.setAttribute('cx', xScale(dato.anio));
+        punto.setAttribute('cy', yScale(dato.valor));
+        punto.setAttribute('r', 3);
+        punto.setAttribute('fill', colorMunicipio(index));
+
+        // Tooltip al pasar el ratón sobre el punto
+        const title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+        title.textContent = `${municipio.nombre} (${dato.anio}): ${dato.valor.toFixed(1)}%`;
+        punto.appendChild(title);
+
+        g.appendChild(punto);
+      });
+    });
+
+    // Eje Y
+    const yAxis = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    yAxis.setAttribute('x1', 0);
+    yAxis.setAttribute('y1', 0);
+    yAxis.setAttribute('x2', 0);
+    yAxis.setAttribute('y2', innerHeight);
+    yAxis.setAttribute('stroke', '#d1d5db');
+    yAxis.setAttribute('stroke-width', 1);
+    g.appendChild(yAxis);
+
+    // Eje X
+    const xAxis = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    xAxis.setAttribute('x1', 0);
+    xAxis.setAttribute('y1', innerHeight);
+    xAxis.setAttribute('x2', innerWidth);
+    xAxis.setAttribute('y2', innerHeight);
+    xAxis.setAttribute('stroke', '#d1d5db');
+    xAxis.setAttribute('stroke-width', 1);
+    g.appendChild(xAxis);
+
+    // Línea del 100% (base)
+    const lineaBase = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    lineaBase.setAttribute('x1', 0);
+    lineaBase.setAttribute('y1', yScale(100));
+    lineaBase.setAttribute('x2', innerWidth);
+    lineaBase.setAttribute('y2', yScale(100));
+    lineaBase.setAttribute('stroke', '#d1d5db');
+    lineaBase.setAttribute('stroke-width', 1);
+    lineaBase.setAttribute('stroke-dasharray', '4');
+    g.appendChild(lineaBase);
+
+    // Texto base 100%
+    const textoBase = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    textoBase.textContent = '100%';
+    textoBase.setAttribute('x', -25);
+    textoBase.setAttribute('y', yScale(100) + 4);
+    textoBase.setAttribute('font-size', '10px');
+    textoBase.setAttribute('fill', '#6b7280');
+    g.appendChild(textoBase);
+
+    // Marcas del eje X (años)
+    años.forEach(año => {
+      const x = xScale(año);
+
+      // Línea de marca
+      const tickLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      tickLine.setAttribute('x1', x);
+      tickLine.setAttribute('y1', innerHeight);
+      tickLine.setAttribute('x2', x);
+      tickLine.setAttribute('y2', innerHeight + 5);
+      tickLine.setAttribute('stroke', '#d1d5db');
+      tickLine.setAttribute('stroke-width', 1);
+      g.appendChild(tickLine);
+
+      // Texto del año
+      const textoAño = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      textoAño.textContent = año;
+      textoAño.setAttribute('x', x);
+      textoAño.setAttribute('y', innerHeight + 20);
+      textoAño.setAttribute('text-anchor', 'middle');
+      textoAño.setAttribute('font-size', '11px');
+      textoAño.setAttribute('fill', '#6b7280');
+      g.appendChild(textoAño);
+    });
+
+    // Leyenda
+    const leyendaG = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+    leyendaG.setAttribute('transform', `translate(${innerWidth + 20}, ${margin.top})`);
+
+    datosMunicipios.forEach((municipio, index) => {
+      // Línea de color
+      const lineaLeyenda = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      lineaLeyenda.setAttribute('x1', 0);
+      lineaLeyenda.setAttribute('y1', index * 25 + 6);
+      lineaLeyenda.setAttribute('x2', 20);
+      lineaLeyenda.setAttribute('y2', index * 25 + 6);
+      lineaLeyenda.setAttribute('stroke', colorMunicipio(index));
+      lineaLeyenda.setAttribute('stroke-width', 2);
+      leyendaG.appendChild(lineaLeyenda);
+
+      // Texto del municipio
+      const textoMunicipio = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      textoMunicipio.textContent = municipio.nombre;
+      textoMunicipio.setAttribute('x', 30);
+      textoMunicipio.setAttribute('y', index * 25 + 10);
+      textoMunicipio.setAttribute('font-size', '12px');
+      textoMunicipio.setAttribute('fill', '#1e293b');
+      leyendaG.appendChild(textoMunicipio);
+
+      // Texto de la población actual
+      const textoPoblacion = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      const valorActual = municipio.datosEvolucionNormalizada.find(d => d.anio === 2024)?.valor || 0;
+      textoPoblacion.textContent = `${valorActual.toFixed(0)}%`;
+      textoPoblacion.setAttribute('x', 30);
+      textoPoblacion.setAttribute('y', index * 25 + 25);
+      textoPoblacion.setAttribute('font-size', '11px');
+      textoPoblacion.setAttribute('fill', '#6b7280');
+      leyendaG.appendChild(textoPoblacion);
+    });
+
+    g.appendChild(leyendaG);
+  }
+});
+</script>
+
+<style>
+  .comparativa-container {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 3rem;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  .titulo-comparativa {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .municipios-comparados {
+    margin-bottom: 2rem;
+  }
+
+  .lista-municipios {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .municipio-item {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-top: 4px solid;
+    transition: all 0.3s ease;
+  }
+
+  .municipio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .nombre-municipio {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    color: #1e293b;
+  }
+
+  .provincia-municipio {
+    font-size: 0.875rem;
+    color: #64748b;
+    margin-bottom: 1rem;
+  }
+
+  .poblacion-municipio {
+    font-size: 1rem;
+    color: #334155;
+    margin-bottom: 1rem;
+  }
+
+  .enlace-municipio {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #f1f5f9;
+    color: #334155;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    transition: all 0.2s;
+  }
+
+  .enlace-municipio:hover {
+    background-color: #e2e8f0;
+  }
+
+  .seccion-grafica {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .titulo-seccion {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .descripcion-seccion {
+    font-size: 1rem;
+    color: #64748b;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .grafica-contenedor {
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+
+  .grafica-barras,
+  .grafica-lineas {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .lista-municipios {
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+
+    .grafica-contenedor {
+      height: 400px;
+    }
+  }
+</style>

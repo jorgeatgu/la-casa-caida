@@ -1,0 +1,539 @@
+---
+// MapaRankings.astro
+import { municipios } from '../data/municipios.js';
+import { cargarDatosEdadSync, cargarDatosHistoricosSync } from '../scripts/dataLoader.js';
+
+const {
+  tipoRanking = "despoblacion",
+  altura = 600,
+  anchura = 800
+} = Astro.props;
+
+// Cargar todos los datos necesarios para todos los municipios
+const datosMunicipios = [];
+
+// Procesamos los datos de todos los municipios de las tres provincias
+for (const municipio of municipios) {
+  try {
+    const datosHistoricos = cargarDatosHistoricosSync(municipio.provincia, municipio.codigoINE);
+    const datosEdad = cargarDatosEdadSync(municipio.provincia, municipio.nombre);
+    console.log(datosEdad)
+    console.log(datosHistoricos)
+
+    if (datosHistoricos && datosHistoricos.length > 0 && datosEdad) {
+      // Datos básicos
+      const poblacion1900 = datosHistoricos.find(d => d.year === '1900')?.population || 0;
+      const poblacion2024 = datosHistoricos.find(d => d.year === '2024')?.population || 0;
+      const poblacion2014 = datosHistoricos.find(d => d.year === '2014')?.population || 0;
+
+      // Métricas calculadas
+      const variacion1900 = poblacion1900 > 0 ? ((poblacion2024 - poblacion1900) / poblacion1900) * 100 : 0;
+      const varUltimosAnios = poblacion2014 > 0 ? ((poblacion2024 - poblacion2014) / poblacion2014) * 100 : 0;
+      const perdidaAbsoluta = poblacion1900 - poblacion2024;
+
+      datosMunicipios.push({
+        nombre: municipio.nombre,
+        provincia: municipio.provincia,
+        slug: municipio.slug,
+        codigoINE: municipio.codigoINE,
+        coordX: municipio.coordX || 0,
+        coordY: municipio.coordY || 0,
+        poblacion1900,
+        poblacion2024,
+        variacion1900,
+        perdidaAbsoluta,
+        perdidaPorcentual: poblacion1900 > 0 ? (perdidaAbsoluta / poblacion1900) * 100 : 0,
+        varUltimosAnios,
+        porcentajeMayores: datosEdad.mayor || 0,
+        porcentajeMenores: datosEdad.menor || 0,
+        densidad: datosEdad.density || 0
+      });
+    }
+  } catch (error) {
+    console.error(`Error al procesar datos para ${municipio.nombre}: ${error.message}`);
+  }
+}
+
+// ID único para esta gráfica
+const mapaId = `mapa-${tipoRanking}-${Math.random().toString(36).substring(2, 9)}`;
+
+// Determinar el título y descripción según el tipo de ranking
+let tituloPrincipal = '';
+let descripcion = '';
+let colorEscala = 'rojo'; // 'rojo', 'verde', 'azul', 'naranja'
+
+switch(tipoRanking) {
+  case "despoblacion":
+    tituloPrincipal = "Mapa de despoblación de Aragón";
+    descripcion = "Porcentaje de población perdida desde 1900 hasta la actualidad";
+    colorEscala = 'rojo';
+    break;
+
+  case "envejecimiento":
+    tituloPrincipal = "Mapa del envejecimiento en Aragón";
+    descripcion = "Porcentaje de población mayor de 65 años por municipio";
+    colorEscala = 'naranja';
+    break;
+
+  case "jovenes":
+    tituloPrincipal = "Mapa de población joven en Aragón";
+    descripcion = "Porcentaje de población menor de 18 años por municipio";
+    colorEscala = 'verde';
+    break;
+
+  case "densidad":
+    tituloPrincipal = "Mapa de densidad de población en Aragón";
+    descripcion = "Habitantes por kilómetro cuadrado";
+    colorEscala = 'azul';
+    break;
+
+}
+
+// Función para obtener el valor según el tipo de ranking
+function obtenerValor(municipio) {
+  switch(tipoRanking) {
+    case "despoblacion":
+      return municipio.perdidaPorcentual;
+    case "envejecimiento":
+      return municipio.porcentajeMayores;
+    case "jovenes":
+      return municipio.porcentajeMenores;
+    case "densidad":
+      return municipio.densidad;
+    default:
+      return 0;
+  }
+}
+
+// Determinar el rango de valores para la escala de colores
+const valores = datosMunicipios.map(m => obtenerValor(m)).filter(v => !isNaN(v) && v !== null);
+const valorMinimo = Math.min(...valores);
+const valorMaximo = Math.max(...valores);
+
+// Función para obtener el color según el valor y la escala
+function getColorFromScale(valor, min, max, escala) {
+  // Normalizar el valor entre 0 y 1
+  const normalizado = (valor - min) / (max - min);
+
+  // Asegurarse de que está entre 0 y 1
+  const n = Math.max(0, Math.min(1, normalizado));
+
+  // Definir las escalas de colores
+  let color;
+
+  switch(escala) {
+    case 'rojo':
+      // Escala de rojos (de claro a oscuro)
+      color = `rgb(${255}, ${Math.floor(255 - (n * 255))}, ${Math.floor(255 - (n * 255))})`;
+      break;
+    case 'verde':
+      // Escala de verdes (de claro a oscuro)
+      color = `rgb(${Math.floor(255 - (n * 200))}, ${Math.floor(255 - (n * 100))}, ${Math.floor(255 - (n * 200))})`;
+      break;
+    case 'azul':
+      // Escala de azules (de claro a oscuro)
+      color = `rgb(${Math.floor(255 - (n * 200))}, ${Math.floor(255 - (n * 200))}, ${255})`;
+      break;
+    case 'naranja':
+      // Escala de naranjas (de claro a oscuro)
+      color = `rgb(${255}, ${Math.floor(255 - (n * 180))}, ${Math.floor(255 - (n * 255))})`;
+      break;
+    default:
+      color = `rgb(${Math.floor(255 - (n * 255))}, ${Math.floor(255 - (n * 255))}, ${Math.floor(255 - (n * 255))})`;
+  }
+
+  return color;
+}
+
+// Determinar el tamaño del círculo en función de la población
+function getRadioCirculo(poblacion) {
+  if (!poblacion) return 3;
+
+  if (poblacion > 500000) return 20;
+  if (poblacion > 100000) return 15;
+  if (poblacion > 50000) return 12;
+  if (poblacion > 20000) return 10;
+  if (poblacion > 10000) return 8;
+  if (poblacion > 5000) return 7;
+  if (poblacion > 1000) return 6;
+
+  return 4;
+}
+---
+
+<div class="mapa-ranking-container">
+  <h2 class="titulo-mapa">{tituloPrincipal}</h2>
+  <p class="descripcion-mapa">{descripcion}</p>
+
+  <div class="mapa-container" style={`height: ${altura}px; width: ${anchura}px;`}>
+    <div id={mapaId} class="mapa-aragon"></div>
+  </div>
+
+  <div class="leyenda-container">
+    <div class="leyenda-titulo">Leyenda</div>
+
+    <div class="escala-colores">
+      <div class="escala-etiqueta">Menor</div>
+      <div class="escala-barras">
+        {Array.from({ length: 10 }).map((_, i) => (
+          <div
+            class="escala-barra"
+            style={`background-color: ${getColorFromScale(valorMinimo + ((valorMaximo - valorMinimo) * (i / 9)), valorMinimo, valorMaximo, colorEscala)};`}
+          ></div>
+        ))}
+      </div>
+      <div class="escala-etiqueta">Mayor</div>
+    </div>
+
+    <div class="escala-valores">
+      <div class="valor-minimo">
+        {tipoRanking === "despoblacion" ||
+         tipoRanking === "densidad" ? valorMinimo.toFixed(1) + ' hab/km²' :
+         valorMinimo.toFixed(1) + '%'}
+      </div>
+      <div class="valor-maximo">
+        {tipoRanking === "despoblacion" ||
+         tipoRanking === "densidad" ? valorMaximo.toFixed(1) + ' hab/km²' :
+         valorMaximo.toFixed(1) + '%'}
+      </div>
+    </div>
+
+    <div class="leyenda-tamanios">
+      <div class="leyenda-titulo-tamanios">Tamaño según población</div>
+      <div class="tamanios-circulo">
+        {[1000, 5000, 10000, 50000, 100000].map(poblacion => (
+          <div class="tamanio-item">
+            <div class="circulo-ejemplo" style={`width: ${getRadioCirculo(poblacion) * 2}px; height: ${getRadioCirculo(poblacion) * 2}px;`}></div>
+            <div class="tamanio-etiqueta">{poblacion.toLocaleString('es-ES')}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script define:vars={{
+  datosMunicipios,
+  mapaId,
+  valorMinimo,
+  valorMaximo,
+  colorEscala,
+  tipoRanking,
+  anchura,
+  altura,
+  getColorFromScale,
+  getRadioCirculo,
+  obtenerValor
+}}>
+document.addEventListener('DOMContentLoaded', () => {
+  crearMapa();
+
+  // Recrear el mapa al cambiar de tamaño la ventana
+  window.addEventListener('resize', crearMapa);
+
+  function crearMapa() {
+    // Obtener el elemento contenedor
+    const contenedor = document.getElementById(mapaId);
+    if (!contenedor) return;
+
+    // Limpiar el contenedor antes de crear el mapa
+    contenedor.innerHTML = '';
+
+    // Dimensiones
+    const width = contenedor.clientWidth;
+    const height = contenedor.clientHeight;
+
+    // Márgenes para no recortar los círculos
+    const margin = 30;
+
+    // Crear el elemento SVG
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('width', width);
+    svg.setAttribute('height', height);
+    svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+    contenedor.appendChild(svg);
+
+    // Encontrar los límites de coordenadas
+    const minX = Math.min(...datosMunicipios.map(d => d.coordX)) - margin;
+    const maxX = Math.max(...datosMunicipios.map(d => d.coordX)) + margin;
+    const minY = Math.min(...datosMunicipios.map(d => d.coordY)) - margin;
+    const maxY = Math.max(...datosMunicipios.map(d => d.coordY)) + margin;
+
+    // Escalas para convertir coordenadas geográficas a píxeles
+    const escalaX = (x) => ((x - minX) / (maxX - minX)) * width;
+    const escalaY = (y) => ((y - minY) / (maxY - minY)) * height;
+
+    // Dibujar los límites de las provincias (simplificado)
+    const grupoProvincias = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+
+    // Huesca, Zaragoza y Teruel (aproximación simplificada)
+    const limiteProvincias = [
+      { nombre: 'Huesca', path: `M${escalaX(0.3*maxX)} ${escalaY(0.1*maxY)} L${escalaX(0.7*maxX)} ${escalaY(0.1*maxY)} L${escalaX(0.7*maxX)} ${escalaY(0.3*maxY)} L${escalaX(0.3*maxX)} ${escalaY(0.3*maxY)} Z` },
+      { nombre: 'Zaragoza', path: `M${escalaX(0.2*maxX)} ${escalaY(0.3*maxY)} L${escalaX(0.8*maxX)} ${escalaY(0.3*maxY)} L${escalaX(0.8*maxX)} ${escalaY(0.6*maxY)} L${escalaX(0.2*maxX)} ${escalaY(0.6*maxY)} Z` },
+      { nombre: 'Teruel', path: `M${escalaX(0.3*maxX)} ${escalaY(0.6*maxY)} L${escalaX(0.7*maxX)} ${escalaY(0.6*maxY)} L${escalaX(0.7*maxX)} ${escalaY(0.9*maxY)} L${escalaX(0.3*maxX)} ${escalaY(0.9*maxY)} Z` }
+    ];
+
+    limiteProvincias.forEach(provincia => {
+      const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      path.setAttribute('d', provincia.path);
+      path.setAttribute('fill', 'none');
+      path.setAttribute('stroke', '#d1d5db');
+      path.setAttribute('stroke-width', '1');
+      path.setAttribute('stroke-dasharray', '3,3');
+      grupoProvincias.appendChild(path);
+
+      // Etiqueta de la provincia
+      const texto = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+
+      // Posición según la provincia
+      let x, y;
+      if (provincia.nombre === 'Huesca') {
+        x = escalaX(0.5*maxX);
+        y = escalaY(0.2*maxY);
+      } else if (provincia.nombre === 'Zaragoza') {
+        x = escalaX(0.5*maxX);
+        y = escalaY(0.45*maxY);
+      } else {
+        x = escalaX(0.5*maxX);
+        y = escalaY(0.75*maxY);
+      }
+
+      texto.setAttribute('x', x);
+      texto.setAttribute('y', y);
+      texto.setAttribute('text-anchor', 'middle');
+      texto.setAttribute('font-size', '14px');
+      texto.setAttribute('fill', '#94a3b8');
+      texto.textContent = provincia.nombre;
+      grupoProvincias.appendChild(texto);
+    });
+
+    svg.appendChild(grupoProvincias);
+
+    // Crear un grupo para los municipios
+    const grupoMunicipios = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+
+    // Dibujar cada municipio
+    datosMunicipios.forEach(municipio => {
+      if (!municipio.coordX || !municipio.coordY) return;
+
+      const valor = obtenerValor(municipio);
+      const radio = getRadioCirculo(municipio.poblacion2024);
+      const color = getColorFromScale(valor, valorMinimo, valorMaximo, colorEscala);
+
+      // Círculo del municipio
+      const circulo = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      circulo.setAttribute('cx', escalaX(municipio.coordX));
+      circulo.setAttribute('cy', escalaY(municipio.coordY));
+      circulo.setAttribute('r', radio);
+      circulo.setAttribute('fill', color);
+      circulo.setAttribute('stroke', '#ffffff');
+      circulo.setAttribute('stroke-width', '0.5');
+      circulo.setAttribute('opacity', '0.8');
+
+      // Eventos de interacción
+      circulo.addEventListener('mouseover', () => {
+        circulo.setAttribute('opacity', '1');
+        circulo.setAttribute('stroke-width', '1.5');
+
+        // Mostrar tooltip
+        const tooltip = document.createElement('div');
+        tooltip.className = 'mapa-tooltip';
+        tooltip.style.position = 'absolute';
+        tooltip.style.left = `${event.pageX + 10}px`;
+        tooltip.style.top = `${event.pageY + 10}px`;
+        tooltip.style.backgroundColor = '#ffffff';
+        tooltip.style.border = '1px solid #d1d5db';
+        tooltip.style.borderRadius = '4px';
+        tooltip.style.padding = '8px 12px';
+        tooltip.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
+        tooltip.style.zIndex = '1000';
+        tooltip.style.fontSize = '14px';
+
+        // Contenido del tooltip
+        tooltip.innerHTML = `
+          <div style="font-weight: bold; margin-bottom: 4px;">${municipio.nombre} (${municipio.provincia})</div>
+          <div>Población: ${municipio.poblacion2024.toLocaleString('es-ES')}</div>
+          ${tipoRanking === 'despoblacion' ?
+            `<div>Población en 1900: ${municipio.poblacion1900.toLocaleString('es-ES')}</div>
+             <div>Pérdida: ${municipio.perdidaPorcentual.toFixed(1)}%</div>` : ''}
+          ${tipoRanking === 'envejecimiento' ?
+            `<div>Mayores de 65 años: ${municipio.porcentajeMayores.toFixed(1)}%</div>` : ''}
+          ${tipoRanking === 'jovenes' ?
+            `<div>Menores de 18 años: ${municipio.porcentajeMenores.toFixed(1)}%</div>` : ''}
+          ${tipoRanking === 'densidad' ?
+            `<div>Densidad: ${municipio.densidad.toFixed(1)} hab/km²</div>` : ''}
+          ${tipoRanking === 'crecimiento-reciente' ?
+            `<div>Variación 2014-2024: ${municipio.varUltimosAnios > 0 ? '+' : ''}${municipio.varUltimosAnios.toFixed(1)}%</div>` : ''}
+        `;
+
+        document.body.appendChild(tooltip);
+        circulo.tooltip = tooltip;
+      });
+
+      circulo.addEventListener('mouseout', () => {
+        circulo.setAttribute('opacity', '0.8');
+        circulo.setAttribute('stroke-width', '0.5');
+
+        // Eliminar tooltip
+        if (circulo.tooltip) {
+          document.body.removeChild(circulo.tooltip);
+          circulo.tooltip = null;
+        }
+      });
+
+      circulo.addEventListener('click', () => {
+        // Navegar a la página del municipio
+        window.location.href = `/municipio/${municipio.slug}`;
+      });
+
+      grupoMunicipios.appendChild(circulo);
+
+      // Etiqueta para municipios grandes
+      if (municipio.poblacion2024 > 20000) {
+        const texto = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        texto.setAttribute('x', escalaX(municipio.coordX));
+        texto.setAttribute('y', escalaY(municipio.coordY) + radio + 12);
+        texto.setAttribute('text-anchor', 'middle');
+        texto.setAttribute('font-size', '11px');
+        texto.setAttribute('fill', '#1e293b');
+        texto.textContent = municipio.nombre;
+        grupoMunicipios.appendChild(texto);
+      }
+    });
+
+    svg.appendChild(grupoMunicipios);
+  }
+});
+</script>
+
+<style>
+  .mapa-ranking-container {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 3rem;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  .titulo-mapa {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+
+  .descripcion-mapa {
+    font-size: 1rem;
+    color: #64748b;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .mapa-container {
+    width: 100%;
+    max-width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .mapa-aragon {
+    width: 100%;
+    height: 100%;
+  }
+
+  .leyenda-container {
+    margin-top: 1.5rem;
+    background-color: #f8fafc;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .leyenda-titulo {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 0.75rem;
+  }
+
+  .escala-colores {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+
+  .escala-etiqueta {
+    font-size: 0.875rem;
+    color: #64748b;
+    width: 60px;
+  }
+
+  .escala-barras {
+    display: flex;
+    flex-grow: 1;
+    height: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .escala-barra {
+    flex-grow: 1;
+    height: 100%;
+  }
+
+  .escala-valores {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: #64748b;
+    margin-bottom: 1.5rem;
+  }
+
+  .leyenda-tamanios {
+    margin-top: 1rem;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 1rem;
+  }
+
+  .leyenda-titulo-tamanios {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 0.5rem;
+  }
+
+  .tamanios-circulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 40px;
+  }
+
+  .tamanio-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .circulo-ejemplo {
+    background-color: #94a3b8;
+    border-radius: 50%;
+    margin-bottom: 4px;
+  }
+
+  .tamanio-etiqueta {
+    font-size: 0.75rem;
+    color: #64748b;
+  }
+
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .mapa-container {
+      height: 400px;
+    }
+  }
+</style>

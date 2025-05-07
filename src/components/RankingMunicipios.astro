@@ -1,0 +1,328 @@
+---
+// RankingMunicipios.astro (con parser nativo)
+import fs from 'fs';
+import path from 'path';
+
+const { tipoRanking = "despoblacion", limite = 10, mostrarLinks = true } = Astro.props;
+
+// Función para parsear CSV (similar a la existente en dataLoader)
+function parseCSV(content) {
+  // Separar por líneas
+  const lines = content.split('\n');
+
+  // Obtener cabeceras
+  const headers = lines[0].split(',');
+
+  // Transformar las líneas de datos en objetos
+  return lines.slice(1)
+    .filter(line => line.trim() !== '')
+    .map(line => {
+      const values = line.split(',');
+      // Crear un objeto con los valores mapeados a sus cabeceras
+      return headers.reduce((obj, header, i) => {
+        // Convertir valores numéricos a números
+        let value = values[i];
+        if (value && !isNaN(value) && value.trim() !== '') {
+          value = parseFloat(value);
+        }
+        obj[header] = value;
+        return obj;
+      }, {});
+    });
+}
+
+// Cargar los datos desde el CSV precalculado
+let datosFiltrados = [];
+let tituloPrincipal = '';
+let descripcion = '';
+
+try {
+  // Usar la ruta estándar según tu estructura de proyecto
+  const csvPath = path.join(process.cwd(), 'public', 'data', `/rankings/ranking-${tipoRanking}.csv`);
+  const csvContent = fs.readFileSync(csvPath, 'utf8');
+
+  // Parsear el CSV con nuestra función
+  const parsedData = parseCSV(csvContent);
+
+  if (parsedData && parsedData.length > 0) {
+    // Limitar la cantidad de municipios según el parámetro
+    datosFiltrados = parsedData.slice(0, limite);
+  }
+} catch (error) {
+  console.error(`Error al cargar el ranking ${tipoRanking}:`, error);
+
+  // En caso de error, proporcionar datos de ejemplo
+  datosFiltrados = Array(limite).fill(null).map((_, i) => ({
+    nombre: `Municipio ${i+1}`,
+    provincia: "Ejemplo",
+    slug: `municipio-${i+1}`,
+    poblacion1900: 1000,
+    poblacion2024: 500,
+    perdidaPorcentual: 50,
+    variacion1900: -50,
+    porcentajeMayores: 30,
+    porcentajeMenores: 15,
+    densidad: 10,
+    poblacion2014: 550,
+    varUltimosAnios: -9.1
+  }));
+}
+
+// Configurar títulos y descripciones según el tipo de ranking
+switch(tipoRanking) {
+  case "despoblacion":
+    tituloPrincipal = "Municipios con mayor despoblación desde 1900";
+    descripcion = "Ranking de los municipios aragoneses que han perdido mayor porcentaje de población desde 1900 hasta la actualidad.";
+    break;
+
+  case "crecimiento":
+    tituloPrincipal = "Municipios con mayor crecimiento desde 1900";
+    descripcion = "Ranking de los municipios aragoneses que han experimentado un mayor crecimiento poblacional desde 1900.";
+    break;
+
+  case "envejecidos":
+    tituloPrincipal = "Municipios más envejecidos";
+    descripcion = "Ranking de los municipios aragoneses con mayor porcentaje de población mayor de 65 años.";
+    break;
+
+  case "jovenes":
+    tituloPrincipal = "Municipios más jóvenes";
+    descripcion = "Ranking de los municipios aragoneses con mayor porcentaje de población menor de 16 años.";
+    break;
+
+  case "densidad-alta":
+    tituloPrincipal = "Municipios con mayor densidad de población";
+    descripcion = "Ranking de los municipios aragoneses con mayor densidad de población (habitantes por km²).";
+    break;
+
+  case "densidad-baja":
+    tituloPrincipal = "Municipios con menor densidad de población";
+    descripcion = "Ranking de los municipios aragoneses con menor densidad de población (habitantes por km²).";
+    break;
+
+}
+
+// Función para formatear números con separador de miles
+function formatearNumero(numero) {
+  if (numero === undefined || numero === null) return "N/A";
+  return numero.toLocaleString('es-ES');
+}
+---
+
+<div class="ranking-container">
+  <h2 class="titulo-ranking">{tituloPrincipal}</h2>
+  <p class="descripcion-ranking">{descripcion}</p>
+
+  <div class="tabla-container">
+    <table class="tabla-ranking">
+      <thead>
+        <tr>
+          <th class="columna-posicion">#</th>
+          <th class="columna-municipio">Municipio</th>
+          <th class="columna-provincia">Provincia</th>
+
+          {tipoRanking === "despoblacion" && (
+            <>
+              <th class="columna-dato columna-numero">1900</th>
+              <th class="columna-dato columna-numero">2024</th>
+              <th class="columna-dato columna-numero">% Pérdida</th>
+            </>
+          )}
+
+          {tipoRanking === "crecimiento" && (
+            <>
+              <th class="columna-dato columna-numero">1900</th>
+              <th class="columna-dato columna-numero">2024</th>
+              <th class="columna-dato columna-numero">% Aumento</th>
+            </>
+          )}
+
+          {(tipoRanking === "envejecidos" || tipoRanking === "jovenes") && (
+            <>
+              <th class="columna-dato columna-numero">Habitantes</th>
+              <th class="columna-dato columna-numero">
+                {tipoRanking === "envejecidos" ? "% +65 años" : "% -16 años"}
+              </th>
+            </>
+          )}
+
+          {(tipoRanking === "densidad-alta" || tipoRanking === "densidad-baja") && (
+            <>
+              <th class="columna-dato columna-numero">Habitantes</th>
+              <th class="columna-dato columna-numero">Densidad (hab/km²)</th>
+            </>
+          )}
+
+        </tr>
+      </thead>
+      <tbody>
+        {datosFiltrados.map((municipio, index) => (
+          <tr>
+            <td class="columna-posicion">{index + 1}</td>
+            <td class="columna-municipio">
+              {mostrarLinks ?
+                <a href={`/municipio/${municipio.slug}`} class="enlace-municipio">
+                  {municipio.nombre}
+                </a> :
+                municipio.nombre
+              }
+            </td>
+            <td class="columna-provincia">{municipio.provincia}</td>
+
+            {tipoRanking === "despoblacion" && (
+              <>
+                <td class="columna-dato">{formatearNumero(municipio.poblacion1900)}</td>
+                <td class="columna-dato">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="columna-dato destacado">{municipio.perdidaPorcentual?.toFixed(1) || 0}%</td>
+              </>
+            )}
+
+            {tipoRanking === "crecimiento" && (
+              <>
+                <td class="columna-dato">{formatearNumero(municipio.poblacion1900)}</td>
+                <td class="columna-dato">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="columna-dato destacado positivo">+{municipio.variacion1900?.toFixed(1) || 0}%</td>
+              </>
+            )}
+
+            {tipoRanking === "envejecidos" && (
+              <>
+                <td class="columna-dato">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="columna-dato destacado">{municipio.porcentajeMayores?.toFixed(1) || 0}%</td>
+              </>
+            )}
+
+            {tipoRanking === "jovenes" && (
+              <>
+                <td class="columna-dato">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="columna-dato destacado positivo">{municipio.porcentajeMenores?.toFixed(1) || 0}%</td>
+              </>
+            )}
+
+            {(tipoRanking === "densidad-alta" || tipoRanking === "densidad-baja") && (
+              <>
+                <td class="columna-dato">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="columna-dato destacado">{municipio.densidad?.toFixed(1) || 0}</td>
+              </>
+            )}
+
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<style>
+  .ranking-container {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 2rem;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  .titulo-ranking {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 0.75rem;
+  }
+
+  .descripcion-ranking {
+    font-size: 1rem;
+    color: #64748b;
+    margin-bottom: 1.5rem;
+  }
+
+  .tabla-container {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .tabla-ranking {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9375rem;
+    background: var(--white);
+  }
+
+  .tabla-ranking thead {
+    background-color: #f1f5f9;
+  }
+
+  .tabla-ranking th {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: #475569;
+    border-bottom: 2px solid #e2e8f0;
+  }
+
+  .tabla-ranking th.columna-numero {
+    text-align: right;
+  }
+
+  .tabla-ranking td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .tabla-ranking tbody tr:hover {
+    background-color: #f8fafc;
+  }
+
+  .columna-posicion {
+    width: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: #64748b;
+  }
+
+  .columna-municipio {
+    min-width: 180px;
+    font-weight: 600;
+  }
+
+  .columna-provincia {
+    min-width: 100px;
+    color: #64748b;
+    text-transform: capitalize;
+  }
+
+  .columna-dato,
+  .columna-numero {
+    min-width: 100px;
+    text-align: right;
+  }
+
+  .destacado {
+    font-weight: 700;
+    color: #dc2626;  /* Rojo para valores negativos */
+  }
+
+  .destacado.positivo {
+    color: #16a34a;  /* Verde para valores positivos */
+  }
+
+  .enlace-municipio {
+    color: #2563eb;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .enlace-municipio:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+  }
+
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .tabla-container {
+      margin: 0 -1rem;
+      width: calc(100% + 2rem);
+      border-radius: 0;
+    }
+  }
+</style>
