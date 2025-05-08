@@ -32,7 +32,7 @@ export function cargarDatosEdadSync(provincia, name) {
   }
 }
 
-export function cargarDatosHistoricosSync(provincia, cp) {
+export function cargarDatosHistoricosSync(provincia, name) {
   try {
     const csvPath = path.join(process.cwd(), 'public', 'data', provincia, `${provincia}-tarjetas.csv`);
 
@@ -51,7 +51,7 @@ export function cargarDatosHistoricosSync(provincia, cp) {
         population: parseInt(values[3]) || 0
       }));
 
-    const filtered = data.filter(d => d.cp === cp);
+    const filtered = data.filter(d => d.name === name);
 
     return filtered;
   } catch (error) {

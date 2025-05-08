@@ -1,26 +1,18 @@
 ---
-// RankingMunicipios.astro (con parser nativo)
 import fs from 'fs';
 import path from 'path';
 
 const { tipoRanking = "despoblacion", limite = 10, mostrarLinks = true } = Astro.props;
 
-// Función para parsear CSV (similar a la existente en dataLoader)
 function parseCSV(content) {
-  // Separar por líneas
   const lines = content.split('\n');
-
-  // Obtener cabeceras
   const headers = lines[0].split(',');
 
-  // Transformar las líneas de datos en objetos
   return lines.slice(1)
     .filter(line => line.trim() !== '')
     .map(line => {
       const values = line.split(',');
-      // Crear un objeto con los valores mapeados a sus cabeceras
       return headers.reduce((obj, header, i) => {
-        // Convertir valores numéricos a números
         let value = values[i];
         if (value && !isNaN(value) && value.trim() !== '') {
           value = parseFloat(value);
@@ -31,27 +23,23 @@ function parseCSV(content) {
     });
 }
 
-// Cargar los datos desde el CSV precalculado
 let datosFiltrados = [];
 let tituloPrincipal = '';
 let descripcion = '';
+let iconoRanking = '';
 
 try {
-  // Usar la ruta estándar según tu estructura de proyecto
   const csvPath = path.join(process.cwd(), 'public', 'data', `/rankings/ranking-${tipoRanking}.csv`);
   const csvContent = fs.readFileSync(csvPath, 'utf8');
 
-  // Parsear el CSV con nuestra función
   const parsedData = parseCSV(csvContent);
 
   if (parsedData && parsedData.length > 0) {
-    // Limitar la cantidad de municipios según el parámetro
     datosFiltrados = parsedData.slice(0, limite);
   }
 } catch (error) {
   console.error(`Error al cargar el ranking ${tipoRanking}:`, error);
 
-  // En caso de error, proporcionar datos de ejemplo
   datosFiltrados = Array(limite).fill(null).map((_, i) => ({
     nombre: `Municipio ${i+1}`,
     provincia: "Ejemplo",
@@ -68,79 +56,96 @@ try {
   }));
 }
 
-// Configurar títulos y descripciones según el tipo de ranking
 switch(tipoRanking) {
   case "despoblacion":
     tituloPrincipal = "Municipios con mayor despoblación desde 1900";
     descripcion = "Ranking de los municipios aragoneses que han perdido mayor porcentaje de población desde 1900 hasta la actualidad.";
+    iconoRanking = `<svg xmlns="http://www.w3.org/2000/svg" class="icono-ranking" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>`;
     break;
 
   case "crecimiento":
     tituloPrincipal = "Municipios con mayor crecimiento desde 1900";
     descripcion = "Ranking de los municipios aragoneses que han experimentado un mayor crecimiento poblacional desde 1900.";
+    iconoRanking = `<svg xmlns="http://www.w3.org/2000/svg" class="icono-ranking" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 17h8m0 0v-8m0 8l-8-8-4 4-6-6"></path></svg>`;
     break;
 
   case "envejecidos":
     tituloPrincipal = "Municipios más envejecidos";
     descripcion = "Ranking de los municipios aragoneses con mayor porcentaje de población mayor de 65 años.";
+    iconoRanking = `<svg xmlns="http://www.w3.org/2000/svg" class="icono-ranking" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 7a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm8 8h1a3 3 0 0 1 3 3v1h-4m-8 0H4v-1a3 3 0 0 1 3-3h5"></path><path d="M15 13.5v.5h.5v-.5h-.5zm0 .5v.5H15v-.5h.5z"></path></svg>`;
     break;
 
   case "jovenes":
     tituloPrincipal = "Municipios más jóvenes";
     descripcion = "Ranking de los municipios aragoneses con mayor porcentaje de población menor de 16 años.";
+    iconoRanking = `<svg xmlns="http://www.w3.org/2000/svg" class="icono-ranking" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 7a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm2 8h4m-7 3h10m-5-3v6"></path></svg>`;
     break;
 
   case "densidad-alta":
     tituloPrincipal = "Municipios con mayor densidad de población";
     descripcion = "Ranking de los municipios aragoneses con mayor densidad de población (habitantes por km²).";
+    iconoRanking = `<svg xmlns="http://www.w3.org/2000/svg" class="icono-ranking" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 8h14M5 12h14M5 16h14"></path></svg>`;
     break;
 
   case "densidad-baja":
     tituloPrincipal = "Municipios con menor densidad de población";
     descripcion = "Ranking de los municipios aragoneses con menor densidad de población (habitantes por km²).";
+    iconoRanking = `<svg xmlns="http://www.w3.org/2000/svg" class="icono-ranking" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 10h14M5 14h14"></path></svg>`;
     break;
-
 }
 
-// Función para formatear números con separador de miles
 function formatearNumero(numero) {
   if (numero === undefined || numero === null) return "N/A";
   return numero.toLocaleString('es-ES');
 }
+
+// Función para generar una barra de progreso visual según el valor
+function getBarra(valor, max, invertido = false) {
+  const porcentaje = Math.min(Math.abs(valor) / max * 100, 100);
+  const colorClass = invertido ? (valor > 0 ? "barra-negativa" : "barra-positiva") : (valor < 0 ? "barra-negativa" : "barra-positiva");
+  return `<div class="barra-container"><div class="barra ${colorClass}" style="width: ${porcentaje}%"></div></div>`;
+}
 ---
 
-<div class="ranking-container">
-  <h2 class="titulo-ranking">{tituloPrincipal}</h2>
-  <p class="descripcion-ranking">{descripcion}</p>
+<div class="ranking-card">
+  <div class="ranking-header">
+    <div class="ranking-title-container">
+      <div class="ranking-icon-wrapper" set:html={iconoRanking} />
+      <div>
+        <h2 class="ranking-title">{tituloPrincipal}</h2>
+        <p class="ranking-description">{descripcion}</p>
+      </div>
+    </div>
+  </div>
 
-  <div class="tabla-container">
-    <table class="tabla-ranking">
+  <div class="ranking-body">
+    <table class="ranking-table">
       <thead>
         <tr>
-          <th class="columna-posicion">#</th>
-          <th class="columna-municipio">Municipio</th>
-          <th class="columna-provincia">Provincia</th>
+          <th class="column-position">#</th>
+          <th class="column-municipio">Municipio</th>
+          <th class="column-provincia">Provincia</th>
 
           {tipoRanking === "despoblacion" && (
             <>
-              <th class="columna-dato columna-numero">1900</th>
-              <th class="columna-dato columna-numero">2024</th>
-              <th class="columna-dato columna-numero">% Pérdida</th>
+              <th class="column-dato">1900</th>
+              <th class="column-dato">2024</th>
+              <th class="column-dato">% Pérdida</th>
             </>
           )}
 
           {tipoRanking === "crecimiento" && (
             <>
-              <th class="columna-dato columna-numero">1900</th>
-              <th class="columna-dato columna-numero">2024</th>
-              <th class="columna-dato columna-numero">% Aumento</th>
+              <th class="column-dato">1900</th>
+              <th class="column-dato">2024</th>
+              <th class="column-dato">% Aumento</th>
             </>
           )}
 
           {(tipoRanking === "envejecidos" || tipoRanking === "jovenes") && (
             <>
-              <th class="columna-dato columna-numero">Habitantes</th>
-              <th class="columna-dato columna-numero">
+              <th class="column-dato">Habitantes</th>
+              <th class="column-dato">
                 {tipoRanking === "envejecidos" ? "% +65 años" : "% -16 años"}
               </th>
             </>
@@ -148,18 +153,19 @@ function formatearNumero(numero) {
 
           {(tipoRanking === "densidad-alta" || tipoRanking === "densidad-baja") && (
             <>
-              <th class="columna-dato columna-numero">Habitantes</th>
-              <th class="columna-dato columna-numero">Densidad (hab/km²)</th>
+              <th class="column-dato">Habitantes</th>
+              <th class="column-dato">Densidad (hab/km²)</th>
             </>
           )}
-
         </tr>
       </thead>
       <tbody>
         {datosFiltrados.map((municipio, index) => (
           <tr>
-            <td class="columna-posicion">{index + 1}</td>
-            <td class="columna-municipio">
+            <td class="column-position">
+              <div class="position-number">{index + 1}</div>
+            </td>
+            <td class="column-municipio">
               {mostrarLinks ?
                 <a href={`/municipio/${municipio.slug}`} class="enlace-municipio">
                   {municipio.nombre}
@@ -167,45 +173,69 @@ function formatearNumero(numero) {
                 municipio.nombre
               }
             </td>
-            <td class="columna-provincia">{municipio.provincia}</td>
+            <td class="column-provincia">{municipio.provincia}</td>
 
             {tipoRanking === "despoblacion" && (
               <>
-                <td class="columna-dato">{formatearNumero(municipio.poblacion1900)}</td>
-                <td class="columna-dato">{formatearNumero(municipio.poblacion2024)}</td>
-                <td class="columna-dato destacado">{municipio.perdidaPorcentual?.toFixed(1) || 0}%</td>
+                <td class="column-dato historic">{formatearNumero(municipio.poblacion1900)}</td>
+                <td class="column-dato current">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="column-dato valor-destacado">
+                  <div class="valor-wrapper negativo">
+                    <span class="valor-numero">-{municipio.perdidaPorcentual?.toFixed(1) || 0}%</span>
+                    <Fragment set:html={getBarra(municipio.perdidaPorcentual, 100, true)} />
+                  </div>
+                </td>
               </>
             )}
 
             {tipoRanking === "crecimiento" && (
               <>
-                <td class="columna-dato">{formatearNumero(municipio.poblacion1900)}</td>
-                <td class="columna-dato">{formatearNumero(municipio.poblacion2024)}</td>
-                <td class="columna-dato destacado positivo">+{municipio.variacion1900?.toFixed(1) || 0}%</td>
+                <td class="column-dato historic">{formatearNumero(municipio.poblacion1900)}</td>
+                <td class="column-dato current">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="column-dato valor-destacado">
+                  <div class="valor-wrapper positivo">
+                    <span class="valor-numero">+{municipio.variacion1900?.toFixed(1) || 0}%</span>
+                    <Fragment set:html={getBarra(municipio.variacion1900, 200)} />
+                  </div>
+                </td>
               </>
             )}
 
             {tipoRanking === "envejecidos" && (
               <>
-                <td class="columna-dato">{formatearNumero(municipio.poblacion2024)}</td>
-                <td class="columna-dato destacado">{municipio.porcentajeMayores?.toFixed(1) || 0}%</td>
+                <td class="column-dato">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="column-dato valor-destacado">
+                  <div class="valor-wrapper">
+                    <span class="valor-numero">{municipio.porcentajeMayores?.toFixed(1) || 0}%</span>
+                    <Fragment set:html={getBarra(municipio.porcentajeMayores, 100)} />
+                  </div>
+                </td>
               </>
             )}
 
             {tipoRanking === "jovenes" && (
               <>
-                <td class="columna-dato">{formatearNumero(municipio.poblacion2024)}</td>
-                <td class="columna-dato destacado positivo">{municipio.porcentajeMenores?.toFixed(1) || 0}%</td>
+                <td class="column-dato">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="column-dato valor-destacado">
+                  <div class="valor-wrapper positivo">
+                    <span class="valor-numero">{municipio.porcentajeMenores?.toFixed(1) || 0}%</span>
+                    <Fragment set:html={getBarra(municipio.porcentajeMenores, 50)} />
+                  </div>
+                </td>
               </>
             )}
 
             {(tipoRanking === "densidad-alta" || tipoRanking === "densidad-baja") && (
               <>
-                <td class="columna-dato">{formatearNumero(municipio.poblacion2024)}</td>
-                <td class="columna-dato destacado">{municipio.densidad?.toFixed(1) || 0}</td>
+                <td class="column-dato">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="column-dato valor-destacado">
+                  <div class="valor-wrapper">
+                    <span class="valor-numero">{municipio.densidad?.toFixed(1) || 0}</span>
+                    <Fragment set:html={getBarra(tipoRanking === "densidad-baja" ? -municipio.densidad : municipio.densidad, tipoRanking === "densidad-baja" ? 50 : 1000, tipoRanking === "densidad-baja")} />
+                  </div>
+                </td>
               </>
             )}
-
           </tr>
         ))}
       </tbody>
@@ -214,115 +244,326 @@ function formatearNumero(numero) {
 </div>
 
 <style>
-  .ranking-container {
+  /* Contenedor principal */
+  .ranking-card {
     width: 100%;
-    max-width: 100%;
-    margin-bottom: 2rem;
-    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    margin-bottom: 2.5rem;
+    transition: all 0.3s ease;
   }
 
-  .titulo-ranking {
-    font-size: 1.75rem;
+  .ranking-card:hover {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  }
+
+  /* Cabecera */
+  .ranking-header {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid rgba(229, 231, 235, 0.7);
+  }
+
+  .ranking-title-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .ranking-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #f1f5f9;
+    border-radius: 0.75rem;
+    color: #3b82f6;
+  }
+
+  .icono-ranking {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .ranking-title {
+    font-size: 1.4rem;
     font-weight: 700;
     color: #1e293b;
-    margin-bottom: 0.75rem;
+    margin: 0;
+    line-height: 1.3;
   }
 
-  .descripcion-ranking {
-    font-size: 1rem;
+  .ranking-description {
+    font-size: 0.95rem;
     color: #64748b;
-    margin-bottom: 1.5rem;
+    margin: 0.25rem 0 0;
+    line-height: 1.4;
   }
 
-  .tabla-container {
-    width: 100%;
+  /* Cuerpo de la tabla */
+  .ranking-body {
+    padding: 0.5rem;
     overflow-x: auto;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .tabla-ranking {
+  .ranking-table {
     width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9375rem;
-    background: var(--white);
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 0.95rem;
   }
 
-  .tabla-ranking thead {
-    background-color: #f1f5f9;
+  /* Cabecera de la tabla */
+  .ranking-table thead {
+    position: sticky;
+    top: 0;
+    z-index: 10;
   }
 
-  .tabla-ranking th {
-    padding: 0.75rem 1rem;
+  .ranking-table th {
+    padding: 1rem;
     text-align: left;
     font-weight: 600;
-    color: #475569;
-    border-bottom: 2px solid #e2e8f0;
+    color: #64748b;
+    background-color: #ffffff;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    white-space: nowrap;
   }
 
-  .tabla-ranking th.columna-numero {
+  .ranking-table th.column-dato {
     text-align: right;
   }
 
-  .tabla-ranking td {
-    padding: 0.75rem 1rem;
-    border-bottom: 1px solid #e2e8f0;
+  /* Filas de la tabla */
+  .ranking-table tr {
+    transition: background-color 0.2s ease;
   }
 
-  .tabla-ranking tbody tr:hover {
+  .ranking-table tbody tr {
+    position: relative;
+  }
+
+  .ranking-table tbody tr::after {
+    content: '';
+    position: absolute;
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: 0;
+    height: 1px;
+    background-color: #f1f5f9;
+  }
+
+  .ranking-table tbody tr:last-child::after {
+    display: none;
+  }
+
+  .ranking-table tbody tr:hover {
     background-color: #f8fafc;
   }
 
-  .columna-posicion {
-    width: 40px;
-    text-align: center;
-    font-weight: 700;
-    color: #64748b;
+  /* Filas destacadas (top 3) */
+  .ranking-table tr.destacado-1 {
+    background-color: rgba(254, 249, 195, 0.25);
   }
 
-  .columna-municipio {
+  .ranking-table tr.destacado-2 {
+    background-color: rgba(240, 253, 250, 0.25);
+  }
+
+  .ranking-table tr.destacado-3 {
+    background-color: rgba(254, 242, 242, 0.25);
+  }
+
+  .ranking-table tr.destacado-1:hover {
+    background-color: rgba(254, 249, 195, 0.4);
+  }
+
+  .ranking-table tr.destacado-2:hover {
+    background-color: rgba(240, 253, 250, 0.4);
+  }
+
+  .ranking-table tr.destacado-3:hover {
+    background-color: rgba(254, 242, 242, 0.4);
+  }
+
+  /* Celdas de la tabla */
+  .ranking-table td {
+    padding: 1rem;
+    vertical-align: middle;
+  }
+
+  .ranking-table td.column-dato {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  /* Columna de posición */
+  .column-position {
+    width: 3.5rem;
+    text-align: center;
+  }
+
+  .position-number {
+    display: inline-block;
+    color: #94a3b8;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  /* Medallas para el top 3 */
+  .medal-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-weight: 700;
+    color: white;
+    margin: 0 auto;
+  }
+
+  .medal-1 {
+    background-color: #facc15;
+    box-shadow: 0 2px 4px rgba(250, 204, 21, 0.3);
+  }
+
+  .medal-2 {
+    background-color: #0ea5e9;
+    box-shadow: 0 2px 4px rgba(14, 165, 233, 0.3);
+  }
+
+  .medal-3 {
+    background-color: #ef4444;
+    box-shadow: 0 2px 4px rgba(239, 68, 68, 0.3);
+  }
+
+  /* Columna de municipio */
+  .column-municipio {
     min-width: 180px;
     font-weight: 600;
   }
 
-  .columna-provincia {
-    min-width: 100px;
+  /* Columna de provincia */
+  .column-provincia {
     color: #64748b;
     text-transform: capitalize;
-  }
-
-  .columna-dato,
-  .columna-numero {
     min-width: 100px;
-    text-align: right;
   }
 
-  .destacado {
-    font-weight: 700;
-    color: #dc2626;  /* Rojo para valores negativos */
-  }
-
-  .destacado.positivo {
-    color: #16a34a;  /* Verde para valores positivos */
-  }
-
+  /* Enlaces a municipios */
   .enlace-municipio {
     color: #2563eb;
     text-decoration: none;
     transition: all 0.2s;
+    position: relative;
   }
 
   .enlace-municipio:hover {
     color: #1d4ed8;
-    text-decoration: underline;
+  }
+
+  .enlace-municipio::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: #1d4ed8;
+    transition: width 0.3s ease;
+  }
+
+  .enlace-municipio:hover::after {
+    width: 100%;
+  }
+
+  /* Estilos para los valores históricos y actuales */
+  .column-dato.historic {
+    color: #94a3b8;
+  }
+
+  .column-dato.current {
+    font-weight: 600;
+  }
+
+  /* Valores destacados y barras de progreso */
+  .valor-destacado {
+    min-width: 140px;
+  }
+
+  .valor-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    align-items: flex-end;
+  }
+
+  .valor-numero {
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
+  .valor-wrapper.positivo .valor-numero {
+    color: #10b981;
+  }
+
+  .valor-wrapper.negativo .valor-numero {
+    color: #ef4444;
+  }
+
+  /* Barras de progreso */
+  .barra-container {
+    width: 100%;
+    height: 4px;
+    background-color: #f1f5f9;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .barra {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.5s ease;
+  }
+
+  .barra-positiva {
+    background-color: #10b981;
+  }
+
+  .barra-negativa {
+    background-color: #ef4444;
   }
 
   /* Responsivo */
   @media (max-width: 768px) {
-    .tabla-container {
-      margin: 0 -1rem;
+    .ranking-header {
+      padding: 1.25rem 1.5rem;
+    }
+
+    .ranking-body {
+      padding: 0;
+    }
+
+    .ranking-body .ranking-table {
+      font-size: 0.875rem;
+    }
+
+    .ranking-table td,
+    .ranking-table th {
+      padding: 0.75rem;
+    }
+
+    .ranking-card {
+      border-radius: 0.75rem;
+      margin-left: -1rem;
+      margin-right: -1rem;
       width: calc(100% + 2rem);
-      border-radius: 0;
     }
   }
 </style>
