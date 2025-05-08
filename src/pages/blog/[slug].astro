@@ -1,0 +1,38 @@
+---
+// src/pages/blog/[slug].astro
+import { getCollection } from 'astro:content';
+import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
+
+// Genera todas las rutas de posts
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('blog');
+  return blogEntries.map(entry => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+// Obtiene el post específico
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
+// Si el post tiene un gráfico, carga D3.js
+const hasChart = entry.body.includes('<div id="chart"');
+---
+
+<BlogPostLayout frontmatter={entry.data}>
+  {/* Carga D3.js solo si es necesario */}
+  {hasChart && (
+    <script is:inline src="https://d3js.org/d3.v7.min.js"></script>
+  )}
+
+  <Content />
+
+  {/* Script para inicializar D3 si hay un gráfico */}
+  {hasChart && (
+    <script>
+      // Aquí iría el código D3 específico si el post tiene un gráfico
+      // Este script se ejecutaría solo en posts que tengan visualizaciones
+    </script>
+  )}
+</BlogPostLayout>

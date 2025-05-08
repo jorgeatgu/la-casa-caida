@@ -8,6 +8,7 @@
 @import 'components/datos_destacados.css';
 @import 'components/metodology.css';
 @import 'components/provincias.css';
+@import 'components/blog.css';
 
 body {
   margin: 0;

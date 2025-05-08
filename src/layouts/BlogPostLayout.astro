@@ -1,0 +1,50 @@
+---
+// src/layouts/BlogPostLayout.astro
+import BaseLayout from './BaseLayout.astro';
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout title={frontmatter.title}>
+  <link rel="stylesheet" href="/styles/blog.css">
+  <article class="blog-post">
+    <header class="post-header">
+      {frontmatter.image && (
+        <div class="post-image">
+          <img src={frontmatter.image} alt={frontmatter.title} />
+        </div>
+      )}
+      <div class="post-meta">
+        <time datetime={frontmatter.pubDate.toISOString()}>
+          {new Date(frontmatter.pubDate).toLocaleDateString('es-ES', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+          })}
+        </time>
+        <span class="post-author">Por {frontmatter.author}</span>
+      </div>
+      <h1 class="post-title">{frontmatter.title}</h1>
+      <p class="post-description">{frontmatter.description}</p>
+      {frontmatter.tags && (
+        <div class="post-tags">
+          {frontmatter.tags.map(tag => (
+            <a href={`/tags/${tag}`} class="tag">{tag}</a>
+          ))}
+        </div>
+      )}
+    </header>
+    
+    <div class="post-content">
+      <slot />
+    </div>
+    
+    <footer class="post-footer">
+      <div class="share-buttons">
+        <h3>Compartir</h3>
+        <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(frontmatter.title)}&url=${encodeURIComponent(Astro.url)}`} target="_blank" rel="noopener noreferrer" class="share-button twitter">Twitter</a>
+        <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(Astro.url)}`} target="_blank" rel="noopener noreferrer" class="share-button facebook">Facebook</a>
+        <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(Astro.url)}&title=${encodeURIComponent(frontmatter.title)}`} target="_blank" rel="noopener noreferrer" class="share-button linkedin">LinkedIn</a>
+      </div>
+    </footer>
+  </article>
+</BaseLayout>
