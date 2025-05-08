@@ -1,0 +1,230 @@
+---
+// SelectorRankings.astro
+const { rankingActivo = "despoblacion" } = Astro.props;
+
+// Definición de los rankings disponibles con sus iconos y descripciones
+const rankings = [
+  {
+    id: "despoblacion",
+    nombre: "Mayor despoblación",
+    descripcion: "Municipios que han perdido más población desde 1900",
+    icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>`
+  },
+  {
+    id: "crecimiento",
+    nombre: "Mayor crecimiento",
+    descripcion: "Municipios que más han crecido desde 1900",
+    icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 17h8m0 0v-8m0 8l-8-8-4 4-6-6"></path></svg>`
+  },
+  {
+    id: "envejecidos",
+    nombre: "Más envejecidos",
+    descripcion: "Municipios con mayor porcentaje de mayores de 65 años",
+    icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm8 8h1a3 3 0 0 1 3 3v1h-4m-8 0H4v-1a3 3 0 0 1 3-3h5"></path><path d="M15 13.5v.5h.5v-.5h-.5zm0 .5v.5H15v-.5h.5z"></path></svg>`
+  },
+  {
+    id: "jovenes",
+    nombre: "Más jóvenes",
+    descripcion: "Municipios con mayor porcentaje de menores de 16 años",
+    icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm2 8h4m-7 3h10m-5-3v6"></path></svg>`
+  }
+];
+---
+
+<div class="selector-container">
+  <div class="selector-header">
+    <div class="selector-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+      </svg>
+    </div>
+    <h2 class="selector-title">Selecciona un ranking</h2>
+  </div>
+
+  <div class="ranking-options">
+    {rankings.map(ranking => (
+      <a
+        href={`#${ranking.id}`}
+        class={`ranking-option`}
+      >
+        <div class="ranking-option-content">
+          <div class="ranking-option-icon" set:html={ranking.icono} />
+          <div class="ranking-option-text">
+            <span class="ranking-option-name">{ranking.nombre}</span>
+            <span class="ranking-option-description">{ranking.descripcion}</span>
+          </div>
+        </div>
+      </a>
+    ))}
+  </div>
+</div>
+
+<script>
+  // Añadir efecto de hover con JavaScript para mejorar la experiencia
+  document.addEventListener('DOMContentLoaded', () => {
+    const options = document.querySelectorAll('.ranking-option');
+
+    options.forEach(option => {
+      option.addEventListener('mouseenter', () => {
+        if (!option.classList.contains('active')) {
+          option.classList.add('hover');
+        }
+      });
+
+      option.addEventListener('mouseleave', () => {
+        option.classList.remove('hover');
+      });
+    });
+  });
+</script>
+
+<style>
+  .selector-container {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+  }
+
+  .selector-header {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+  }
+
+  .selector-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.75rem;
+    background-color: #f0f9ff;
+    color: #3b82f6;
+  }
+
+  .selector-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin: 0;
+  }
+
+  .ranking-options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+
+  .ranking-option {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    border: 1px solid rgba(229, 231, 235, 0.8);
+    background-color: #ffffff;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .ranking-option:hover, .ranking-option.hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-color: rgba(203, 213, 225, 1);
+  }
+
+  .ranking-option.active {
+    background-color: #f8fafc;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.3);
+  }
+
+  .ranking-option-content {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .ranking-option-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 0.5rem;
+    background-color: #f1f5f9;
+    color: #475569;
+  }
+
+  .active .ranking-option-icon {
+    background-color: #dbeafe;
+    color: #3b82f6;
+  }
+
+  .ranking-option-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ranking-option-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #334155;
+  }
+
+  .active .ranking-option-name {
+    color: #1e293b;
+  }
+
+  .ranking-option-description {
+    font-size: 0.8rem;
+    color: #64748b;
+    line-height: 1.3;
+    margin-top: 0.125rem;
+  }
+
+  .active-indicator {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #3b82f6;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  /* Animación para el indicador activo */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+  }
+
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .ranking-options {
+      grid-template-columns: 1fr;
+    }
+
+    .selector-container {
+      border-radius: 0.75rem;
+    }
+
+    .selector-header {
+      padding: 1.25rem;
+    }
+  }
+
+  /* Para pantallas muy pequeñas */
+  @media (max-width: 350px) {
+    .ranking-option-description {
+      display: none;
+    }
+  }
+</style>

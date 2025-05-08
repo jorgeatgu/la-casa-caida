@@ -1,0 +1,372 @@
+---
+// Metodologia.astro
+const { titulo = "Metodología" } = Astro.props;
+// Podemos definir diferentes secciones de metodología según necesitemos
+const secciones = [
+{
+id: "fuentes",
+titulo: "Fuentes de datos",
+icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+  <polyline points="7 10 12 15 17 10"></polyline>
+  <line x1="12" y1="15" x2="12" y2="3"></line>
+</svg>`,
+contenido: `
+<p>Los datos de población histórica proceden del Instituto Nacional de Estadística (INE) y del Instituto Aragonés de Estadística (IAEST).</p>
+<ul>
+  <li>Población de 1900-2011: Censos de población</li>
+  <li>Población de 2012-2024: Padrones municipales</li>
+</ul>
+`
+},
+{
+id: "calculos",
+titulo: "Cálculos y criterios",
+icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="10"></circle>
+  <line x1="12" y1="8" x2="12" y2="12"></line>
+  <line x1="12" y1="16" x2="12.01" y2="16"></line>
+</svg>`,
+contenido: `
+<p>Los porcentajes de variación se calculan utilizando la siguiente fórmula:</p>
+<div class="formula-container">
+  <div class="formula">% Variación = ((Población actual - Población 1900) / Población 1900) × 100</div>
+</div>
+<p>La densidad de población se calcula dividiendo el número de habitantes entre la superficie del municipio en kilómetros cuadrados.</p>
+`
+},
+{
+id: "actualizacion",
+titulo: "Actualización",
+icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="10"></circle>
+  <polyline points="12 6 12 12 16 14"></polyline>
+</svg>`,
+contenido: `
+<p>Los datos se actualizan anualmente tras la publicación oficial del padrón municipal por parte del INE (generalmente durante el primer trimestre del año).</p>
+<p>Última actualización: Mayo 2025</p>
+`
+},
+{
+id: "limitaciones",
+titulo: "Limitaciones",
+icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+  <line x1="12" y1="9" x2="12" y2="13"></line>
+  <line x1="12" y1="17" x2="12.01" y2="17"></line>
+</svg>`,
+contenido: `
+<p>Es importante considerar que a lo largo del periodo analizado (1900-2024) se han producido fusiones y segregaciones de municipios, lo que puede afectar a la comparabilidad de los datos. En esos casos, se ha intentado reconstruir las series históricas para mantener la coherencia temporal.</p>
+`
+}
+];
+---
+<div class="metodologia-container">
+  <div class="metodologia-header">
+    <div class="metodologia-header-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+      </svg>
+    </div>
+    <h2 class="metodologia-title">{titulo}</h2>
+  </div>
+  <div class="metodologia-content">
+    <div class="metodologia-intro">
+      <p>Esta página utiliza datos demográficos históricos y actuales para analizar la evolución de la población en los municipios aragoneses. A continuación, se detalla la metodología empleada.</p>
+    </div>
+    <div class="metodologia-accordion">
+      {secciones.map((seccion, index) => (
+      <div class="accordion-item" data-section={seccion.id}>
+        <div class="accordion-header">
+          <div class="accordion-icon" set:html={seccion.icono} />
+          <h3 class="accordion-title">{seccion.titulo}</h3>
+          <div class="accordion-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <div class="accordion-inner" set:html={seccion.contenido} />
+        </div>
+      </div>
+      ))}
+    </div>
+    <div class="metodologia-footer">
+      <div class="metodologia-contact">
+        <p>Si tienes dudas o sugerencias sobre la metodología, puedes <a href="/contacto" class="contact-link">contactar con nosotros</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+// Funcionalidad para el acordeón
+document.addEventListener('DOMContentLoaded', () => {
+  const accordionItems = document.querySelectorAll('.accordion-item');
+
+  // Abrir el primer elemento por defecto
+  if (accordionItems.length > 0) {
+    accordionItems[0].classList.add('active');
+  }
+
+  accordionItems.forEach(item => {
+    const header = item.querySelector('.accordion-header');
+
+    header.addEventListener('click', () => {
+      const isActive = item.classList.contains('active');
+
+      // Si usamos este enfoque, solo un elemento estará abierto a la vez
+      // Descomentar para ese comportamiento
+      /*
+      accordionItems.forEach(otherItem => {
+        otherItem.classList.remove('active');
+      });
+      */
+
+      // Toggle del estado actual
+      if (isActive) {
+        item.classList.remove('active');
+      } else {
+        item.classList.add('active');
+      }
+    });
+  });
+});
+</script>
+<style>
+.metodologia-container {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.metodologia-header {
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(229, 231, 235, 0.6);
+  background-color: #f8fafc;
+}
+
+.metodologia-header-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: #dbeafe;
+  color: #3b82f6;
+}
+
+.metodologia-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0;
+}
+
+.metodologia-content {
+  padding: 2rem;
+}
+
+.metodologia-intro {
+  margin-bottom: 2rem;
+  color: #475569;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Estilos para el acordeón */
+.metodologia-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.accordion-item {
+  border: 1px solid rgba(229, 231, 235, 0.8);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.accordion-item:hover {
+  border-color: rgba(203, 213, 225, 1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.accordion-item.active {
+  border-color: #cbd5e1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.accordion-header {
+  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: background-color 0.2s ease;
+}
+
+.accordion-header:hover {
+  background-color: #f8fafc;
+}
+
+.accordion-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background-color: #f1f5f9;
+  color: #475569;
+}
+
+.active .accordion-icon {
+  background-color: #eff6ff;
+  color: #3b82f6;
+}
+
+.accordion-title {
+  flex-grow: 1;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #334155;
+  margin: 0;
+}
+
+.active .accordion-title {
+  color: #1e293b;
+}
+
+.accordion-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #94a3b8;
+  transition: transform 0.3s ease;
+}
+
+.active .accordion-toggle {
+  transform: rotate(180deg);
+  color: #3b82f6;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.active .accordion-content {
+  max-height: 500px;
+  /* Altura máxima para la animación */
+}
+
+.accordion-inner {
+  padding: 0 1.25rem 1.25rem 4.5rem;
+  color: #475569;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.accordion-inner p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.accordion-inner p:last-child {
+  margin-bottom: 0;
+}
+
+.accordion-inner ul {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.accordion-inner li {
+  margin-bottom: 0.25rem;
+}
+
+/* Fórmula matemática */
+.formula-container {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.formula {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  background-color: #f8fafc;
+  border-radius: 0.5rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  color: #0f172a;
+  border-left: 3px solid #3b82f6;
+}
+
+/* Footer */
+.metodologia-footer {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(229, 231, 235, 0.6);
+  font-size: 0.95rem;
+  color: #64748b;
+}
+
+.contact-link {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.contact-link:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .metodologia-header {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .metodologia-content {
+    padding: 1.5rem;
+  }
+
+  .accordion-inner {
+    padding: 0 1rem 1rem 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .metodologia-header-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .accordion-inner {
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  .accordion-icon {
+    min-width: 2rem;
+    height: 2rem;
+  }
+}
+</style>

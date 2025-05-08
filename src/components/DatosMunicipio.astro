@@ -26,6 +26,7 @@ const municipioData = datosEdad ? {
 } : null;
 
 const datosHistoricos = cargarDatosHistoricosSync(provincia, municipio);
+console.log(datosHistoricos)
 
 // Calcular estadísticas históricas
 const poblacion1900 = datosHistoricos.find(d => d.year === '1900')?.population;
@@ -111,7 +112,7 @@ if (datosHistoricos.length > 1) {
                   Evolución desde 1900
                 </span>
                 <span class="tarjeta-extra">
-                  {variacion1900 >= 0 ? 'Aumento poblacional' : 'Reducción poblacional'}
+                  {variacion1900 >= 0 ? 'Aumento de la población' : 'Reducción de la población'}
                 </span>
               </div>
             </div>
