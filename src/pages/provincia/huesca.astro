@@ -6,6 +6,8 @@ import GraficaSaldoVegetativo from '../../components/GraficaSaldoVegetativo.astr
 import MunicipiosSection from '../../components/MunicipiosSection.astro';
 import DatosDestacados from '../../components/DatosDestacados.astro';
 import Kofi from '../../components/Kofi.astro';
+import AdBlock from '../../components/AdBlock.astro';
+
 
 const provincia = 'huesca';
 const municipiosHuesca = municipios.filter(m => m.provincia === provincia);
@@ -54,6 +56,9 @@ const datosHuesca = [
         <Kofi />
         <DatosDestacados datos={datosHuesca} />
       </div>
+
+      <AdBlock slotId="1827851366" format="auto" />
+
       <div class="chart-header section-text">
         <h2>Evolución de la población - Huesca</h2>
         <p>En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Huesca desde 1900 hasta 2024.</p>
@@ -62,6 +67,8 @@ const datosHuesca = [
       <section class="container-chart">
         <GraficaHistoricaPoblacion provincia={provincia} />
       </section>
+
+      <AdBlock slotId="2765328821" format="auto" />
 
       <section class="container-chart">
         <div class="chart-header section-text">

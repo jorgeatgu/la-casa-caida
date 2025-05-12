@@ -8,6 +8,7 @@ import MunicipiosRelacionados from '../../components/MunicipiosRelacionados.astr
 import { municipios } from '../../data/municipios';
 import SocialShare from '../../components/SocialShare.astro';
 import Kofi from '../../components/Kofi.astro';
+import AdBlock from '../../components/AdBlock.astro';
 
 // Generar todas las rutas dinámicas
 export async function getStaticPaths() {
@@ -43,6 +44,8 @@ const descripcion = `Evolución de la población en ${nombre} (${provincia}). Da
     <Kofi />
   </section>
 
+  <AdBlock slotId="1827851366" format="auto" />
+
   <section class="container-chart">
     <section class="section-text">
       <h2 class="subtittle">Datos demográficos</h2>
@@ -61,6 +64,8 @@ const descripcion = `Evolución de la población en ${nombre} (${provincia}). Da
     </section>
     <GraficaPoblacion municipio={nombre} codigo={codigoINE} provincia={provincia} />
   </section>
+
+  <AdBlock slotId="2765328821" format="auto" />
 
   <section class="container-chart">
     <section class="section-text">

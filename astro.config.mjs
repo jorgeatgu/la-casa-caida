@@ -27,8 +27,13 @@ export default defineConfig({
             d3: ['d3-selection', 'd3-array', 'd3-scale', 'd3-shape', 'd3-axis', 'd3-fetch'],
             anime: ['animejs']
           }
-        }
+        },
+        // Agregar configuración para AdSense
+        external: ['https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js']
       }
+    },
+    optimizeDeps: {
+      exclude: ['adsbygoogle']
     }
   }
 });
