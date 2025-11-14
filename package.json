@@ -13,7 +13,7 @@
     "@astrojs/mdx": "^4.2.6",
     "@astrojs/sitemap": "^3.3.1",
     "animejs": "^3.2.2",
-    "astro": "^5.13.2",
+    "astro": "^5.15.6",
     "csv-parse": "^5.6.0",
     "d3-array": "^3.2.4",
     "d3-axis": "^3.0.0",
