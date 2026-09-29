@@ -1,18 +1,50 @@
 ---
-// components/AdBlock.astro
-const { slotId, format = 'auto', className = '' } = Astro.props;
+// components/AdBlock.astro - Versión corregida
+const { slotId, format = 'auto', className = '', id = crypto.randomUUID() } = Astro.props;
 ---
 
 <div class={`ad-container ${className}`}>
   <div class="ad-label">Publicidad</div>
   <ins class="adsbygoogle"
+       id={`ad-${id}`}
        style="display:block"
        data-ad-client="ca-pub-8990231994528437"
        data-ad-slot={slotId}
        data-ad-format={format}
        data-full-width-responsive="true"></ins>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
+
+  <script define:vars={{ id }}>
+    // Esta función se ejecuta una sola vez por instancia
+    (function(id) {
+      const adElement = document.getElementById(`ad-${id}`);
+
+      // Verifica si el anuncio ya ha sido inicializado
+      if (adElement && !adElement.getAttribute('data-adsbygoogle-initialized')) {
+        // Marca este anuncio como inicializado para evitar duplicaciones
+        adElement.setAttribute('data-adsbygoogle-initialized', 'true');
+
+        // Función de inicialización con reintentos
+        function initAd() {
+          try {
+            if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
+              window.adsbygoogle.push({});
+            } else {
+              // Si adsbygoogle no está listo, reintenta en 200ms
+              setTimeout(initAd, 200);
+            }
+          } catch (e) {
+            console.warn('Error al inicializar anuncio:', e);
+          }
+        }
+
+        // Inicia la secuencia cuando el DOM está listo
+        if (document.readyState === 'complete' || document.readyState === 'interactive') {
+          setTimeout(initAd, 100);
+        } else {
+          window.addEventListener('DOMContentLoaded', () => setTimeout(initAd, 100));
+        }
+      }
+    })(id);
   </script>
 </div>
 
@@ -27,6 +59,7 @@ const { slotId, format = 'auto', className = '' } = Astro.props;
     background-color: #f9f9f9;
     border-radius: 0.25rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    min-height: 100px;
   }
 
   .ad-label {
@@ -36,11 +69,5 @@ const { slotId, format = 'auto', className = '' } = Astro.props;
     margin-bottom: 0.25rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-  }
-
-  @media (max-width: 768px) {
-    .ad-container {
-      margin: 1.5rem auto;
-    }
   }
 </style>
