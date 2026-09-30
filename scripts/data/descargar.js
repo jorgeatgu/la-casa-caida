@@ -15,6 +15,8 @@ const GIST_SUPERFICIE = 'https://gist.githubusercontent.com/jorgeatgu/40eaa471b0
 const PROVINCIAS_ARAGON = ['22', '44', '50'];
 const TOTAL_MUNICIPIOS = 731;
 const REINTENTOS = 3;
+// Incluye la lectura del cuerpo: el CSV del censo pesa unos 335 MB.
+const TIMEOUT_MS = 10 * 60 * 1000;
 
 // El gist trae el código 22246 dos veces (Veracruz y Beranuy, misma geometría).
 // Veracruz se llama Beranuy desde 2011.
@@ -32,12 +34,14 @@ const FUENTES = [
   { fuente: 'gist', tabla: 'superficie', formato: 'superficie', url: GIST_SUPERFICIE }
 ];
 
-async function pedir(url) {
+// Pide la URL y pasa la respuesta a `leer`. Si falla la petición o la lectura
+// del cuerpo (corte a mitad del CSV del censo, timeout), se reintenta entera.
+async function pedir(url, leer) {
   for (let intento = 1; ; intento++) {
     try {
-      const respuesta = await fetch(url);
+      const respuesta = await fetch(url, { signal: AbortSignal.timeout(TIMEOUT_MS) });
       if (!respuesta.ok) throw new Error(`HTTP ${respuesta.status}`);
-      return respuesta;
+      return await leer(respuesta);
     } catch (error) {
       if (intento >= REINTENTOS) throw new Error(`${url}: ${error.message}`);
       await new Promise(resolve => setTimeout(resolve, 2000 * intento));
@@ -47,7 +51,7 @@ async function pedir(url) {
 
 // Respuesta de la API Tempus, guardada byte a byte.
 async function descargarJSON({ url }, destino) {
-  const texto = await (await pedir(url)).text();
+  const texto = await pedir(url, respuesta => respuesta.text());
   const datos = JSON.parse(texto);
   if (!Array.isArray(datos) || datos.length === 0) {
     throw new Error(`respuesta inesperada: ${texto.slice(0, 120)}`);
@@ -61,22 +65,24 @@ async function descargarJSON({ url }, destino) {
 // Aragón con Sexo = Total y Relación = Total.
 // Columnas: Total Nacional;Provincias;Municipios;Sexo;Edad;Relacion...;Periodo;Total
 async function descargarCenso({ url }, destino) {
-  const respuesta = await pedir(url);
-  const lineas = readline.createInterface({ input: Readable.fromWeb(respuesta.body), crlfDelay: Infinity });
-  const salida = [];
-  const municipios = new Set();
+  const { salida, municipios } = await pedir(url, async respuesta => {
+    const lineas = readline.createInterface({ input: Readable.fromWeb(respuesta.body), crlfDelay: Infinity });
+    const salida = [];
+    const municipios = new Set();
 
-  for await (const linea of lineas) {
-    if (salida.length === 0) {
+    for await (const linea of lineas) {
+      if (salida.length === 0) {
+        salida.push(linea);
+        continue;
+      }
+      const [, provincia = '', municipio, sexo, , relacion] = linea.split(';');
+      if (!PROVINCIAS_ARAGON.includes(provincia.slice(0, 2))) continue;
+      if (sexo !== 'Total' || relacion !== 'Total') continue;
       salida.push(linea);
-      continue;
+      if (municipio) municipios.add(municipio.slice(0, 5));
     }
-    const [, provincia = '', municipio, sexo, , relacion] = linea.split(';');
-    if (!PROVINCIAS_ARAGON.includes(provincia.slice(0, 2))) continue;
-    if (sexo !== 'Total' || relacion !== 'Total') continue;
-    salida.push(linea);
-    if (municipio) municipios.add(municipio.slice(0, 5));
-  }
+    return { salida, municipios };
+  });
 
   if (municipios.size !== TOTAL_MUNICIPIOS) {
     throw new Error(`se esperaban ${TOTAL_MUNICIPIOS} municipios y hay ${municipios.size}`);
@@ -93,7 +99,7 @@ function repararNombre(nombre) {
 // Superficie oficial del gist (sup_of_km2) sin tocar, más el área del polígono
 // para detectar los valores erróneos del gist.
 async function descargarSuperficie({ url }, destino) {
-  const { features } = await (await pedir(url)).json();
+  const { features } = await pedir(url, respuesta => respuesta.json());
   const porCodigo = new Map();
 
   for (const { properties: p } of features) {

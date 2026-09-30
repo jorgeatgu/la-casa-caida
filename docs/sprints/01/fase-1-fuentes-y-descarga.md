@@ -52,16 +52,16 @@ Ninguna. Puede ir en paralelo con la fase 2.
 
 ## Tareas
 
-- [ ] Crear la rama `fase-1-fuentes-y-descarga`
-- [ ] Recuperar documentación y scripts borrados a `docs/sprints/01/referencia/`
-- [ ] Resolver la fecha de referencia del "2024"
-- [ ] Identificar tablas del INE y del IAEST
-- [ ] Escribir `docs/sprints/01/fuentes.md`
-- [ ] Escribir `scripts/data/descargar.js`
-- [ ] Añadir `data:download` a `package.json`
-- [ ] Generar `data-raw/superficie.csv`
-- [ ] Ejecutar la descarga y revisar lo descargado
-- [ ] Build en verde
+- [x] Crear la rama `fase-1-fuentes-y-descarga`
+- [x] Recuperar documentación y scripts borrados a `docs/sprints/01/referencia/`
+- [x] Resolver la fecha de referencia del "2024"
+- [x] Identificar tablas del INE y del IAEST
+- [x] Escribir `docs/sprints/01/fuentes.md`
+- [x] Escribir `scripts/data/descargar.js`
+- [x] Añadir `data:download` a `package.json`
+- [x] Generar `data-raw/superficie.csv`
+- [x] Ejecutar la descarga y revisar lo descargado
+- [x] Build en verde
 - [ ] PR
 
 ## Criterios de aceptación
