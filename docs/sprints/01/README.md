@@ -27,7 +27,7 @@ Todas las decisiones salen de la entrevista `/create-feature` del 2026-09-29.
 | Documentación | `docs/actualizar-datos.md` y README corregido | Todo en el README: crece demasiado |
 | Huecos de la serie | Se rellenan 2012-2019 con datos anuales | Un año suelto: habría que repetirlo cada año |
 | Rankings de densidad | Se generan y se publican en `/rankings` | Eliminarlos: salen casi gratis al arreglar la densidad |
-| Despliegue | PR por fase con preview de Vercel. Se sube la versión de Node | Rama única: PR final difícil de revisar |
+| Despliegue | Rama de integración `update-2025`: cada fase abre su PR contra ella, con preview de Vercel, y un único merge de `update-2025` a `master` despliega todo a producción al final del sprint. Se sube la versión de Node | Rama única: PR final difícil de revisar. PR por fase a `master`: publica datos a medias entre fases. Ramas encadenadas (fase N sobre fase N-1): obligan a rebases en cascada y rompen el paralelo de las fases 1 y 2 |
 
 ## Principios técnicos
 
@@ -50,7 +50,9 @@ Todas las decisiones salen de la entrevista `/create-feature` del 2026-09-29.
 
 Orden recomendado: 1 y 2 a la vez, después 3, 4, 5 y 6.
 
-**En paralelo:** las fases 1 y 2 no comparten ficheros y pueden ir en worktrees separados. La fase 3 puede empezar en cuanto se mergee la 2, aunque la 1 siga abierta. El resto es secuencial.
+**Ramas:** cada fase sale de `update-2025` actualizada (`git pull` antes de crear la rama) y abre su PR contra `update-2025`, nunca contra `master`. Al terminar la fase 6, una PR de `update-2025` a `master` hace el único despliegue a producción.
+
+**En paralelo:** las fases 1 y 2 no comparten ficheros y pueden ir en worktrees separados. La fase 3 puede empezar en cuanto se mergee la 2 en `update-2025`, aunque la 1 siga abierta. El resto es secuencial.
 
 ## Riesgos
 

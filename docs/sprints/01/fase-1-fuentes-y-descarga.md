@@ -113,6 +113,7 @@ Si una tabla no está disponible por API, no lo fuerces: aplica el plan B del RE
 necesita que yo descargue algo desde el navegador, dime exactamente qué URL y dónde
 guardarlo.
 
-Crea la rama fase-1-fuentes-y-descarga y ejecuta el alcance completo. Antes de abrir la PR,
+Crea la rama fase-1-fuentes-y-descarga desde update-2025 actualizada, abre la PR contra update-2025 (no
+contra master) y ejecuta el alcance completo. Antes de abrir la PR,
 lanza /code-review y atiende sus hallazgos.
 ```

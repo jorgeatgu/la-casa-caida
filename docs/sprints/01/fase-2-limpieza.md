@@ -120,6 +120,7 @@ Orden de trabajo:
 El cambio de versión de Node en el panel de Vercel lo hago yo a mano. Recuérdamelo en la
 descripción de la PR.
 
-Crea la rama fase-2-limpieza y ejecuta el alcance completo. Antes de abrir la PR, lanza
+Crea la rama fase-2-limpieza desde update-2025 actualizada, abre la PR contra update-2025 (no
+contra master) y ejecuta el alcance completo. Antes de abrir la PR, lanza
 /code-review y atiende sus hallazgos.
 ```

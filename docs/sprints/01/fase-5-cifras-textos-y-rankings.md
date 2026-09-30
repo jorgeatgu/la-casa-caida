@@ -134,6 +134,7 @@ Orden de trabajo:
 5. Rankings de densidad.
 6. npm run validate:data y npm run build.
 
-Crea la rama fase-5-cifras-textos-y-rankings y ejecuta el alcance completo. Antes de abrir
+Crea la rama fase-5-cifras-textos-y-rankings desde update-2025 actualizada, abre la PR contra update-2025 (no
+contra master) y ejecuta el alcance completo. Antes de abrir
 la PR, lanza /code-review y atiende sus hallazgos.
 ```

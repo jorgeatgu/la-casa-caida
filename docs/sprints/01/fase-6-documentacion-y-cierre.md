@@ -40,7 +40,7 @@ Depende de la fase 5. Es la última.
 2. Corregir `README.md`: cifras, fuentes, enlace a la guía.
 3. Revisar que `Metodologia.astro` coincide con la guía.
 4. Probar la guía: seguirla desde cero en un clon limpio y comprobar que el resultado es idéntico.
-5. QA de producción tras el merge.
+5. PR de `update-2025` a `master`, que es el único despliegue a producción del sprint, y QA de producción tras el merge.
 6. Escribir `retro.md`.
 
 ## Fuera de alcance
@@ -106,11 +106,12 @@ Orden de trabajo:
 2. README.md y revisión de Metodologia.astro.
 3. Prueba de la guía en un clon limpio, en el directorio temporal de la sesión.
 4. PR.
-5. Tras el merge, QA de producción.
+5. PR de update-2025 a master y, tras el merge, QA de producción.
 6. retro.md: prepárame un borrador con lo que viste en las PR y lo completo yo.
 
 El QA en móvil real lo hago yo a mano. Dame la lista de páginas y qué mirar en cada una.
 
-Crea la rama fase-6-documentacion-y-cierre y ejecuta el alcance completo. Antes de abrir la
+Crea la rama fase-6-documentacion-y-cierre desde update-2025 actualizada, abre la PR contra update-2025 (no
+contra master) y ejecuta el alcance completo. Antes de abrir la
 PR, lanza /code-review y atiende sus hallazgos.
 ```

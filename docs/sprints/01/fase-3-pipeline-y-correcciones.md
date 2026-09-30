@@ -136,6 +136,7 @@ Orden de trabajo:
 En esta fase no se añaden años nuevos. Si validar.js detecta un error que no está en la
 lista de la fase, corrígelo si es evidente y, si no, anótalo en la PR.
 
-Crea la rama fase-3-pipeline-y-correcciones y ejecuta el alcance completo. Antes de abrir
+Crea la rama fase-3-pipeline-y-correcciones desde update-2025 actualizada, abre la PR contra update-2025 (no
+contra master) y ejecuta el alcance completo. Antes de abrir
 la PR, lanza /code-review y atiende sus hallazgos.
 ```

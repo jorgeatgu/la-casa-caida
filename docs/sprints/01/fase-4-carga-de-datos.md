@@ -132,6 +132,7 @@ Ningún CSV de public/data/ se edita a mano. Todo sale de los scripts.
 Si la validación detecta municipios nuevos, desaparecidos o renombrados, no lo resuelvas
 por tu cuenta: enséñame la lista y lo decidimos.
 
-Crea la rama fase-4-carga-de-datos y ejecuta el alcance completo. Antes de abrir la PR,
+Crea la rama fase-4-carga-de-datos desde update-2025 actualizada, abre la PR contra update-2025 (no
+contra master) y ejecuta el alcance completo. Antes de abrir la PR,
 lanza /code-review y atiende sus hallazgos.
 ```
