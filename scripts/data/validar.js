@@ -4,7 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { parse } from 'csv-parse/sync';
-import { ANIO_REFERENCIA } from '../../src/config/anio.js';
+import { ANIO_REFERENCIA, FECHA_ACTUALIZACION } from '../../src/config/anio.js';
 import { DATA_DIR, PROVINCIAS } from './lib/csv.js';
 
 const MUNICIPIOS_POR_PROVINCIA = { huesca: 202, teruel: 236, zaragoza: 293 };
@@ -210,6 +210,26 @@ if (aragonMunicipios) {
   for (const provincia of PROVINCIAS) {
     const filas = aragonMunicipios.filter(f => f.cp.startsWith(PREFIJO[provincia]));
     comprobarMunicipios('aragon-municipios.csv', filas, provincia, 'municipio');
+  }
+}
+
+// src/data/cifras.json (lo genera scripts/data/cifras.js) debe cuadrar con los CSV
+const RUTA_CIFRAS = path.join(process.cwd(), 'src', 'data', 'cifras.json');
+if (!fs.existsSync(RUTA_CIFRAS)) {
+  error('cifras.json', 'no existe: ejecuta npm run data:build');
+} else {
+  const cifras = JSON.parse(fs.readFileSync(RUTA_CIFRAS, 'utf8'));
+  const comprobar = (descripcion, valor, esperado) => {
+    if (valor !== esperado) error('cifras.json', `${descripcion} vale ${valor} y se esperaba ${esperado}`);
+  };
+  comprobar('anio', cifras.anio, ANIO_REFERENCIA);
+  comprobar('actualizado', cifras.actualizado, FECHA_ACTUALIZACION);
+  const ultimaFila = aragonTotal?.at(-1);
+  if (ultimaFila) comprobar('aragon.poblacion', cifras.aragon?.poblacion, Number(ultimaFila.aragon));
+  for (const provincia of PROVINCIAS) {
+    const datos = cifras.provincias?.[provincia];
+    comprobar(`${provincia}.poblacion`, datos?.poblacion, totales[provincia]?.get(String(ANIO_REFERENCIA)));
+    comprobar(`${provincia}.municipios`, datos?.municipios, MUNICIPIOS_POR_PROVINCIA[provincia]);
   }
 }
 

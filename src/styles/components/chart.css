@@ -219,6 +219,19 @@
     fill: #090387;
   }
 
+  /* Dato provisional: rayado del color de la barra (patrones de GraficaSaldoVegetativo) y borde */
+  .bar-provisional {
+    stroke-width: 1;
+  }
+
+  .bar-provisional.negative {
+    stroke: #a01721;
+  }
+
+  .bar-provisional.positive {
+    stroke: #090387;
+  }
+
   .axis-x {
     text {
       font-size: 14px;
@@ -476,4 +489,11 @@ select {
   padding: .75rem;
   color: var(--white);
   border-radius: .25rem;
+}
+
+.tooltip-provisional {
+  max-width: 16rem;
+  margin-top: 5px;
+  font-size: 0.85em;
+  font-style: italic;
 }

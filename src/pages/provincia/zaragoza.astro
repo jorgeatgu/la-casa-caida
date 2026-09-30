@@ -7,25 +7,29 @@ import MunicipiosSection from '../../components/MunicipiosSection.astro';
 import DatosDestacados from '../../components/DatosDestacados.astro';
 import Kofi from '../../components/Kofi.astro';
 import AdBlock from '../../components/AdBlock.astro';
+import cifras from '../../data/cifras.json';
+import { ANIO_REFERENCIA } from '../../config/anio.js';
+import { numero, porcentaje } from '../../scripts/formato.js';
 
 const provincia = 'zaragoza';
 const municipiosZaragoza = municipios.filter(m => m.provincia === provincia);
 
+const datos = cifras.provincias[provincia];
 const datosZaragoza = [
   {
-    "valor": "72.10%",
-    "descripcion": "Población en la capital",
-    "color": "indigo"
+    valor: porcentaje(datos.porcentajeCapital),
+    descripcion: "Población en la capital",
+    color: "indigo"
   },
   {
-    "valor": "18.14%",
-    "descripcion": "Mayor crecimiento (1960-1970)",
-    "color": "emerald"
+    valor: porcentaje(datos.mayorCrecimiento.valor),
+    descripcion: `Mayor crecimiento (${datos.mayorCrecimiento.periodo})`,
+    color: "emerald"
   },
   {
-    "valor": "0.29%",
-    "descripcion": "Mayor decrecimiento (2011-2020)",
-    "color": "amber"
+    valor: porcentaje(-datos.mayorDecrecimiento.valor),
+    descripcion: `Mayor decrecimiento (${datos.mayorDecrecimiento.periodo})`,
+    color: "amber"
   }
 ];
 ---
@@ -51,7 +55,7 @@ const datosZaragoza = [
           </p>
 
           <section class="intro">
-            <p class="text">Zaragoza al contrario que sus hermanas ha doblado la población en menos de un siglo. Su privilegiada situación en el valle del Ebro y con menos de 300KM de distancia de Madrid, Barcelona, Valencia y Bilbao ha hecho que algunos municipios de la provincia y sobre todo la propia capital aumenten su población. Es la única de las tres pronvicias que entre 2006 y 2011 tuvo un saldo vegetativo positivo. En 2017 el número de fallecidos fue el más alto de la serie(1996-2017), y el de nacidos fue el más bajo desde 2003.</p>
+            <p class="text">Zaragoza al contrario que sus hermanas ha doblado la población en menos de un siglo. Su privilegiada situación en el valle del Ebro y con menos de 300KM de distancia de Madrid, Barcelona, Valencia y Bilbao ha hecho que algunos municipios de la provincia y sobre todo la propia capital aumenten su población. Es la única de las tres pronvicias que entre 2006 y 2011 tuvo un saldo vegetativo positivo. En {datos.saldo.maxFallecidos.anio} el número de fallecidos fue el más alto de la serie ({datos.saldo.desde}-{datos.saldo.hasta}), y en {datos.saldo.minNacidos.anio} los nacimientos marcaron su mínimo: {numero(datos.saldo.minNacidos.valor)}.</p>
           </section>
 
           <Kofi />
@@ -62,8 +66,8 @@ const datosZaragoza = [
 
         <div class="chart-header section-text">
           <h2>Evolución de la población - Zaragoza</h2>
-          <p>En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Zaragoza desde 1900 hasta 2024.</p>
-          <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragón Open Data. Los datos de 2024 son del INE.</span>
+          <p>En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Zaragoza desde 1900 hasta {ANIO_REFERENCIA}.</p>
+          <span class="data">Los datos provienen de dos fuentes: los censos de 1900 a 2011, disponibles en Aragón Open Data, y el padrón municipal del INE desde 2012 hasta {ANIO_REFERENCIA}.</span>
         </div>
         <GraficaHistoricaPoblacion provincia={provincia} />
       </section>
@@ -72,7 +76,7 @@ const datosZaragoza = [
         <div class="chart-header section-text">
           <h2>Saldo vegetativo - Zaragoza</h2>
           <p>El saldo vegetativo representa la diferencia entre nacimientos y defunciones, mostrando el crecimiento natural de la población sin considerar los movimientos migratorios.</p>
-          <span class="data">Los datos son del IAEST.</span>
+          <span class="data">Los datos son del Movimiento Natural de la Población del INE.</span>
         </div>
         <GraficaSaldoVegetativo provincia={provincia} />
       </section>

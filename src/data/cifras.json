@@ -1,0 +1,116 @@
+{
+  "anio": 2025,
+  "actualizado": "2026-09-30",
+  "hayProvisionales": true,
+  "aragon": {
+    "poblacion": 1358812,
+    "superficie": 47680,
+    "densidad": 28.5,
+    "porcentajeZaragozaCapital": 51.01
+  },
+  "provincias": {
+    "huesca": {
+      "poblacion": 230624,
+      "superficie": 15616,
+      "densidad": 14.77,
+      "municipios": 202,
+      "municipiosDensidadBaja": 137,
+      "municipiosSinMenores": 1,
+      "municipiosPocosMenores": 18,
+      "maximo": {
+        "anio": 1920,
+        "poblacion": 265603
+      },
+      "variacion1900": -9.59,
+      "mayorCrecimiento": {
+        "valor": 9.43,
+        "periodo": "2001-2011"
+      },
+      "mayorDecrecimiento": {
+        "valor": -5.24,
+        "periodo": "1960-1970"
+      },
+      "saldo": {
+        "desde": 1975,
+        "hasta": 2024,
+        "maxFallecidos": {
+          "anio": 2020,
+          "valor": 2888
+        },
+        "minNacidos": {
+          "anio": 2023,
+          "valor": 1400
+        }
+      }
+    },
+    "teruel": {
+      "poblacion": 136197,
+      "superficie": 14799,
+      "densidad": 9.2,
+      "municipios": 236,
+      "municipiosDensidadBaja": 199,
+      "municipiosSinMenores": 22,
+      "municipiosPocosMenores": 80,
+      "maximo": {
+        "anio": 1910,
+        "poblacion": 265908
+      },
+      "variacion1900": -45.95,
+      "mayorCrecimiento": {
+        "valor": 5.52,
+        "periodo": "1900-1910"
+      },
+      "mayorDecrecimiento": {
+        "valor": -22.3,
+        "periodo": "1960-1970"
+      },
+      "saldo": {
+        "desde": 1975,
+        "hasta": 2024,
+        "maxFallecidos": {
+          "anio": 2020,
+          "valor": 2016
+        },
+        "minNacidos": {
+          "anio": 2023,
+          "valor": 860
+        }
+      }
+    },
+    "zaragoza": {
+      "poblacion": 991991,
+      "superficie": 17264,
+      "densidad": 57.46,
+      "municipios": 293,
+      "municipiosDensidadBaja": 183,
+      "municipiosSinMenores": 30,
+      "municipiosPocosMenores": 73,
+      "maximo": {
+        "anio": 2025,
+        "poblacion": 991991
+      },
+      "variacion1900": 135.61,
+      "mayorCrecimiento": {
+        "valor": 18.14,
+        "periodo": "1960-1970"
+      },
+      "mayorDecrecimiento": {
+        "valor": -0.29,
+        "periodo": "2011-2020"
+      },
+      "saldo": {
+        "desde": 1975,
+        "hasta": 2024,
+        "maxFallecidos": {
+          "anio": 2020,
+          "valor": 11807
+        },
+        "minNacidos": {
+          "anio": 2024,
+          "valor": 6213
+        }
+      },
+      "porcentajeCapital": 69.87
+    }
+  }
+}
