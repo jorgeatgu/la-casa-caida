@@ -69,17 +69,17 @@ Problemas conocidos:
 
 ## Tareas
 
-- [ ] Crear la rama `fase-3-pipeline-y-correcciones`
-- [ ] Módulo del año de referencia
-- [ ] Scripts en `scripts/data/` y entradas en `package.json`
-- [ ] Columna de código INE y cruces por código
-- [ ] Nombres unificados
-- [ ] Correcciones de datos
-- [ ] Densidad y columnas sin año en rankings
-- [ ] CSV de rankings de densidad
-- [ ] `scripts/data/validar.js`
-- [ ] `npm run data:build` y `npm run validate:data` en verde
-- [ ] Build en verde
+- [x] Crear la rama `fase-3-pipeline-y-correcciones`
+- [x] Módulo del año de referencia
+- [x] Scripts en `scripts/data/` y entradas en `package.json`
+- [x] Columna de código INE y cruces por código
+- [x] Nombres unificados
+- [x] Correcciones de datos
+- [x] Densidad y columnas sin año en rankings
+- [x] CSV de rankings de densidad
+- [x] `scripts/data/validar.js`
+- [x] `npm run data:build` y `npm run validate:data` en verde
+- [x] Build en verde
 - [ ] Revisar el preview de Vercel
 - [ ] PR
 

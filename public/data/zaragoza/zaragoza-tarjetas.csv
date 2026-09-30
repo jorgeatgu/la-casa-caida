@@ -3829,10 +3829,10 @@ year,cp,name,population
 2021,50019,Alforque,62
 2021,50020,Alhama de Aragón,1002
 2021,50021,Almochuel,24
-2021,50022,Almolda,555
+2021,50022,La Almolda,555
 2021,50023,Almonacid de la Cuba,234
 2021,50024,Almonacid de la Sierra,771
-2021,50025,Almunia de Doña Godina,7983
+2021,50025,La Almunia de Doña Godina,7983
 2021,50026,Alpartir,604
 2021,50027,Ambel,252
 2021,50028,Anento,91
@@ -3868,8 +3868,8 @@ year,cp,name,population
 2021,50059,Bujaraloz,975
 2021,50060,Bulbuente,233
 2021,50061,Bureta,206
-2021,50062,Burgo de Ebro,2538
-2021,50063,Buste,69
+2021,50062,El Burgo de Ebro,2538
+2021,50063,El Buste,69
 2021,50064,Cabañas de Ebro,487
 2021,50065,Cabolafuente,49
 2021,50066,Cadrete,4334
@@ -3897,7 +3897,7 @@ year,cp,name,population
 2021,50088,Cosuenda,335
 2021,50089,Cuarte de Huerva,13773
 2021,50090,Cubel,146
-2021,50091,Cuerlas,42
+2021,50091,Las Cuerlas,42
 2021,50092,Chiprana,503
 2021,50093,Chodes,100
 2021,50094,Daroca,1914
@@ -3910,11 +3910,11 @@ year,cp,name,population
 2021,50102,Fabara,1096
 2021,50104,Farlete,378
 2021,50105,Fayón,382
-2021,50106,Fayos,134
+2021,50106,Los Fayos,134
 2021,50107,Figueruelas,1239
 2021,50108,Fombuena,59
-2021,50109,Frago,115
-2021,50110,Frasno,394
+2021,50109,El Frago,115
+2021,50110,El Frasno,394
 2021,50111,Fréscano,200
 2021,50113,Fuendejalón,766
 2021,50114,Fuendetodos,142
@@ -3934,7 +3934,7 @@ year,cp,name,population
 2021,50129,Jaraba,282
 2021,50130,Jarque de Moncayo,413
 2021,50131,Jaulín,275
-2021,50132,Joyosa,2021,6.52
+2021,50132,La Joyosa,1132
 2021,50133,Lagata,114
 2021,50134,Langa del Castillo,116
 2021,50135,Layana,92
@@ -3982,7 +3982,7 @@ year,cp,name,population
 2021,50179,Moyuela,262
 2021,50180,Mozota,124
 2021,50181,Muel,1436
-2021,50182,Muela,6125
+2021,50182,La Muela,6125
 2021,50183,Munébrega,360
 2021,50184,Murero,97
 2021,50185,Murillo de Gállego,187
@@ -3991,7 +3991,7 @@ year,cp,name,population
 2021,50188,Nombrevilla,35
 2021,50189,Nonaspe,998
 2021,50190,Novallas,833
-2021,50191,Novillas,5028.21
+2021,50191,Novillas,502
 2021,50192,Nuévalos,297
 2021,50193,Nuez de Ebro,880
 2021,50194,Olvés,105
@@ -4005,12 +4005,12 @@ year,cp,name,population
 2021,50202,Paracuellos de la Ribera,131
 2021,50203,Pastriz,1294
 2021,50204,Pedrola,3572
-2021,50205,Pedrosas,96
+2021,50205,Las Pedrosas,96
 2021,50206,Perdiguera,567
 2021,50207,Piedratajada,93
 2021,50208,Pina de Ebro,2390
 2021,50209,Pinseque,4184
-2021,50210,Pintanos,38
+2021,50210,Los Pintanos,38
 2021,50211,Plasencia de Jalón,309
 2021,50212,Pleitas,33
 2021,50213,Plenas,100
@@ -4019,7 +4019,7 @@ year,cp,name,population
 2021,50216,Pozuelo de Aragón,265
 2021,50217,Pradilla de Ebro,534
 2021,50218,Puebla de Albortón,125
-2021,50219,Puebla de Alfindén,6446
+2021,50219,La Puebla de Alfindén,6446
 2021,50220,Puendeluna,49
 2021,50221,Purujosa,26
 2021,50222,Quinto,1937
@@ -4046,7 +4046,7 @@ year,cp,name,population
 2021,50244,Sierra de Luna,285
 2021,50245,Sigüés,79
 2021,50246,Sisamón,33
-2021,50247,Sobradiel,115085.72
+2021,50247,Sobradiel,1150
 2021,50248,Sos del Rey Católico,574
 2021,50249,Tabuenca,320
 2021,50250,Talamantes,64
@@ -4081,7 +4081,7 @@ year,cp,name,population
 2021,50279,Velilla de Jiloca,76
 2021,50280,Vera de Moncayo,314
 2021,50281,Vierlas,83
-2021,50282,Vilueña,71
+2021,50282,La Vilueña,71
 2021,50283,Villadoz,90
 2021,50284,Villafeliche,147
 2021,50285,Villafranca de Ebro,848
@@ -4095,7 +4095,7 @@ year,cp,name,population
 2021,50293,Villarroya de la Sierra,445
 2021,50294,Villarroya del Campo,89
 2021,50295,Vistabella,51
-2021,50296,Zaida,432
+2021,50296,La Zaida,432
 2021,50297,Zaragoza,675301
 2021,50298,Zuera,8591
 2021,50901,Biel,171
@@ -4122,10 +4122,10 @@ year,cp,name,population
 2022,50019,Alforque,64
 2022,50020,Alhama de Aragón,964
 2022,50021,Almochuel,22
-2022,50022,Almolda La,549
+2022,50022,La Almolda,549
 2022,50023,Almonacid de la Cuba,234
 2022,50024,Almonacid de la Sierra,756
-2022,50025,Almunia de Doña Godina La,7943
+2022,50025,La Almunia de Doña Godina,7943
 2022,50026,Alpartir,602
 2022,50027,Ambel,253
 2022,50028,Anento,101
@@ -4161,8 +4161,8 @@ year,cp,name,population
 2022,50059,Bujaraloz,1013
 2022,50060,Bulbuente,244
 2022,50061,Bureta,213
-2022,50062,Burgo de Ebro El,2591
-2022,50063,Buste El,71
+2022,50062,El Burgo de Ebro,2591
+2022,50063,El Buste,71
 2022,50064,Cabañas de Ebro,491
 2022,50065,Cabolafuente,49
 2022,50066,Cadrete,4473
@@ -4190,7 +4190,7 @@ year,cp,name,population
 2022,50088,Cosuenda,326
 2022,50089,Cuarte de Huerva,14169
 2022,50090,Cubel,153
-2022,50091,Cuerlas Las,39
+2022,50091,Las Cuerlas,39
 2022,50092,Chiprana,515
 2022,50093,Chodes,96
 2022,50094,Daroca,1921
@@ -4203,11 +4203,11 @@ year,cp,name,population
 2022,50102,Fabara,1088
 2022,50104,Farlete,376
 2022,50105,Fayón,397
-2022,50106,Fayos Los,131
+2022,50106,Los Fayos,131
 2022,50107,Figueruelas,1226
 2022,50108,Fombuena,59
-2022,50109,Frago El,117
-2022,50110,Frasno El,379
+2022,50109,El Frago,117
+2022,50110,El Frasno,379
 2022,50111,Fréscano,204
 2022,50113,Fuendejalón,763
 2022,50114,Fuendetodos,144
@@ -4227,7 +4227,7 @@ year,cp,name,population
 2022,50129,Jaraba,280
 2022,50130,Jarque de Moncayo,407
 2022,50131,Jaulín,278
-2022,50132,Joyosa La,1119
+2022,50132,La Joyosa,1119
 2022,50133,Lagata,109
 2022,50134,Langa del Castillo,115
 2022,50135,Layana,96
@@ -4275,7 +4275,7 @@ year,cp,name,population
 2022,50179,Moyuela,251
 2022,50180,Mozota,123
 2022,50181,Muel,1479
-2022,50182,Muela La,6247
+2022,50182,La Muela,6247
 2022,50183,Munébrega,356
 2022,50184,Murero,104
 2022,50185,Murillo de Gállego,197
@@ -4298,12 +4298,12 @@ year,cp,name,population
 2022,50202,Paracuellos de la Ribera,129
 2022,50203,Pastriz,1300
 2022,50204,Pedrola,3625
-2022,50205,Pedrosas Las,97
+2022,50205,Las Pedrosas,97
 2022,50206,Perdiguera,553
 2022,50207,Piedratajada,91
 2022,50208,Pina de Ebro,2433
 2022,50209,Pinseque,4278
-2022,50210,Pintanos Los,37
+2022,50210,Los Pintanos,37
 2022,50211,Plasencia de Jalón,325
 2022,50212,Pleitas,38
 2022,50213,Plenas,100
@@ -4312,7 +4312,7 @@ year,cp,name,population
 2022,50216,Pozuelo de Aragón,263
 2022,50217,Pradilla de Ebro,541
 2022,50218,Puebla de Albortón,129
-2022,50219,Puebla de Alfindén La,6442
+2022,50219,La Puebla de Alfindén,6442
 2022,50220,Puendeluna,48
 2022,50221,Purujosa,27
 2022,50222,Quinto,1916
@@ -4415,10 +4415,10 @@ year,cp,name,population
 2023,50019,Alforque,65
 2023,50020,Alhama de Aragón,925
 2023,50021,Almochuel,20
-2023,50022,Almolda La,548
+2023,50022,La Almolda,548
 2023,50023,Almonacid de la Cuba,227
 2023,50024,Almonacid de la Sierra,775
-2023,50025,Almunia de Doña Godina La,7914
+2023,50025,La Almunia de Doña Godina,7914
 2023,50026,Alpartir,570
 2023,50027,Ambel,248
 2023,50028,Anento,111
@@ -4454,8 +4454,8 @@ year,cp,name,population
 2023,50059,Bujaraloz,967
 2023,50060,Bulbuente,242
 2023,50061,Bureta,212
-2023,50062,Burgo de Ebro El,2660
-2023,50063,Buste El,64
+2023,50062,El Burgo de Ebro,2660
+2023,50063,El Buste,64
 2023,50064,Cabañas de Ebro,487
 2023,50065,Cabolafuente,46
 2023,50066,Cadrete,4486
@@ -4483,7 +4483,7 @@ year,cp,name,population
 2023,50088,Cosuenda,335
 2023,50089,Cuarte de Huerva,14701
 2023,50090,Cubel,148
-2023,50091,Cuerlas Las,41
+2023,50091,Las Cuerlas,41
 2023,50092,Chiprana,531
 2023,50093,Chodes,94
 2023,50094,Daroca,1957
@@ -4496,11 +4496,11 @@ year,cp,name,population
 2023,50102,Fabara,1065
 2023,50104,Farlete,408
 2023,50105,Fayón,422
-2023,50106,Fayos Los,128
+2023,50106,Los Fayos,128
 2023,50107,Figueruelas,1250
 2023,50108,Fombuena,57
-2023,50109,Frago El,126
-2023,50110,Frasno El,363
+2023,50109,El Frago,126
+2023,50110,El Frasno,363
 2023,50111,Fréscano,200
 2023,50113,Fuendejalón,756
 2023,50114,Fuendetodos,150
@@ -4520,7 +4520,7 @@ year,cp,name,population
 2023,50129,Jaraba,281
 2023,50130,Jarque de Moncayo,399
 2023,50131,Jaulín,291
-2023,50132,Joyosa La,1152
+2023,50132,La Joyosa,1152
 2023,50133,Lagata,111
 2023,50134,Langa del Castillo,115
 2023,50135,Layana,96
@@ -4568,7 +4568,7 @@ year,cp,name,population
 2023,50179,Moyuela,241
 2023,50180,Mozota,129
 2023,50181,Muel,1450
-2023,50182,Muela La,6416
+2023,50182,La Muela,6416
 2023,50183,Munébrega,369
 2023,50184,Murero,106
 2023,50185,Murillo de Gállego,203
@@ -4591,12 +4591,12 @@ year,cp,name,population
 2023,50202,Paracuellos de la Ribera,115
 2023,50203,Pastriz,1316
 2023,50204,Pedrola,3667
-2023,50205,Pedrosas Las,99
+2023,50205,Las Pedrosas,99
 2023,50206,Perdiguera,552
 2023,50207,Piedratajada,89
 2023,50208,Pina de Ebro,2456
 2023,50209,Pinseque,4342
-2023,50210,Pintanos Los,40
+2023,50210,Los Pintanos,40
 2023,50211,Plasencia de Jalón,353
 2023,50212,Pleitas,34
 2023,50213,Plenas,105
@@ -4605,7 +4605,7 @@ year,cp,name,population
 2023,50216,Pozuelo de Aragón,257
 2023,50217,Pradilla de Ebro,558
 2023,50218,Puebla de Albortón,131
-2023,50219,Puebla de Alfindén La,6414
+2023,50219,La Puebla de Alfindén,6414
 2023,50220,Puendeluna,44
 2023,50221,Purujosa,30
 2023,50222,Quinto,1869
@@ -4708,10 +4708,10 @@ year,cp,name,population
 2024,50019,Alforque,61
 2024,50020,Alhama de Aragón,925
 2024,50021,Almochuel,22
-2024,50022,Almolda La,543
+2024,50022,La Almolda,543
 2024,50023,Almonacid de la Cuba,233
 2024,50024,Almonacid de la Sierra,759
-2024,50025,Almunia de Doña Godina La,7937
+2024,50025,La Almunia de Doña Godina,7937
 2024,50026,Alpartir,589
 2024,50027,Ambel,254
 2024,50028,Anento,112
@@ -4813,7 +4813,7 @@ year,cp,name,population
 2024,50129,Jaraba,295
 2024,50130,Jarque de Moncayo,381
 2024,50131,Jaulín,292
-2024,50132,Joyosa La,1132
+2024,50132,La Joyosa,1132
 2024,50133,Lagata,115
 2024,50134,Langa del Castillo,110
 2024,50135,Layana,98
@@ -4884,7 +4884,7 @@ year,cp,name,population
 2024,50202,Paracuellos de la Ribera,112
 2024,50203,Pastriz,1305
 2024,50204,Pedrola,3766
-2024,50205,Pedrosas Las,113
+2024,50205,Las Pedrosas,113
 2024,50206,Perdiguera,544
 2024,50207,Piedratajada,97
 2024,50208,Pina de Ebro,2446

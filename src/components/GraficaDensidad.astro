@@ -1,5 +1,5 @@
 ---
-const { municipio, codigo, provincia } = Astro.props;
+const { codigo, provincia } = Astro.props;
 const chartId = `grafica-densidad-${codigo}`;
 ---
 
@@ -7,7 +7,7 @@ const chartId = `grafica-densidad-${codigo}`;
   <div class="line-densidad" id={chartId}></div>
 </div>
 
-<script define:vars={{ municipio, codigo, provincia, chartId }} type="module">
+<script define:vars={{ codigo, provincia, chartId }} type="module">
   document.addEventListener('DOMContentLoaded', () => {
     let width = 0;
     let height = 0;
@@ -235,7 +235,7 @@ const chartId = `grafica-densidad-${codigo}`;
     function loadData() {
       d3.csv(csvPath).then(data => {
         // Filtrar por el municipio actual
-        dataLineDensidad = data.filter(d => d.municipio === municipio || d.name === municipio);
+        dataLineDensidad = data.filter(d => d.cp === codigo);
 
         // Procesar los datos
         dataLineDensidad.forEach(d => {

@@ -3,7 +3,7 @@
 import { municipios } from '../data/municipios';
 
 // Recibimos el municipio actual y la provincia como props
-const { provincia, municipioActual } = Astro.props;
+const { provincia, codigoActual } = Astro.props;
 
 // Función para capitalizar la primera letra
 const capitalizar = (texto) => {
@@ -20,7 +20,7 @@ const formatearNumero = (numero) => {
 
 // Filtramos todos los municipios de la misma provincia, excluyendo el actual
 const municipiosDeProvincia = municipios
-  .filter(m => m.provincia === provincia && m.nombre !== municipioActual)
+  .filter(m => m.provincia === provincia && m.codigoINE !== codigoActual)
   .map(m => ({
     ...m,
     // Añadimos una propiedad para hacer un random sort

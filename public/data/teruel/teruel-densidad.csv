@@ -34,7 +34,7 @@ year,cp,name,population,superficie
 1900,44035,Barrachina,697,24.86
 1900,44036,Bea,170,23.37
 1900,44037,Beceite,2252,96.72
-1900,44038,Belmonte de San José,817,43.68
+1900,44038,Belmonte de San José,817,33.99
 1900,44039,Bello,989,52.49
 1900,44040,Berge,816,42.64
 1900,44041,Bezas,357,26.32
@@ -59,7 +59,7 @@ year,cp,name,population,superficie
 1900,44062,Cañada Vellida,201,23
 1900,44063,Cañizar del Olivar,507,22.29
 1900,44064,Cascante del Río,574,32.38
-1900,44065,Castejón de Tornos,475,17.56
+1900,44065,Castejón de Tornos,475,30.89
 1900,44066,Castel de Cabra,623,29.44
 1900,44067,Castelnou,680,37.09
 1900,44068,Castelserás,2177,31.52
@@ -120,7 +120,7 @@ year,cp,name,population,superficie
 1900,44135,Libros,607,37.91
 1900,44136,Lidón,308,40
 1900,44137,Linares de Mora,1592,116.28
-1900,44138,Loscos,1507,71.78
+1900,44138,Loscos,1507,83.99
 1900,44141,Lledó,580,15.61
 1900,44142,Maicas,391,24.74
 1900,44143,Manzanera,2750,168.66
@@ -152,7 +152,7 @@ year,cp,name,population,superficie
 1900,44172,Oliete,2146,85.48
 1900,44173,Los Olmos,600,43.97
 1900,44174,Orihuela del Tremedal,945,71.52
-1900,44175,Orrios,430,35
+1900,44175,Orrios,430,44.23
 1900,44176,Palomar de Arroyos,612,33.62
 1900,44177,Pancrudo,1000,100.12
 1900,44178,Las Parras de Castellote,1107,42.13
@@ -166,8 +166,8 @@ year,cp,name,population,superficie
 1900,44187,La Portellada,860,21.37
 1900,44189,Pozondón,539,67.64
 1900,44190,Pozuel del Campo,598,27.85
-1900,44191,La Puebla de Híjar,1921,17.03
-1900,44192,La Puebla de Valverde,1982,17.03
+1900,44191,La Puebla de Híjar,1921,60.80
+1900,44192,La Puebla de Valverde,1982,282.76
 1900,44193,Puertomingalvo,1271,103.62
 1900,44194,Ráfales,859,35.61
 1900,44195,Rillo,502,53.31
@@ -181,8 +181,8 @@ year,cp,name,population,superficie
 1900,44204,Saldón,435,28.37
 1900,44205,Samper de Calanda,2647,142
 1900,44206,San Agustín,1204,56.57
-1900,44207,San Martín del Río,1330,5.42
-1900,44208,Santa Cruz de Nogueras,346,19.51
+1900,44207,San Martín del Río,1330,16.57
+1900,44208,Santa Cruz de Nogueras,346,15.17
 1900,44209,Santa Eulalia,1164,80.97
 1900,44210,Sarrión,2233,140.44
 1900,44211,Segura de los Baños,795,54.15
@@ -193,9 +193,9 @@ year,cp,name,population,superficie
 1900,44217,Toril y Masegoso,366,30.67
 1900,44218,Tormón,303,29.34
 1900,44219,Tornos,578,48.95
-1900,44220,Torralba de los Sisones,608,40.39
+1900,44220,Torralba de los Sisones,608,44.78
 1900,44221,Torrecilla de Alcañiz,1105,26.76
-1900,44222,Torrecilla del Rebollar,891,26.76
+1900,44222,Torrecilla del Rebollar,891,63.44
 1900,44223,Torre de Arcas,485,34.28
 1900,44224,Torre de las Arcas,545,37.17
 1900,44225,Torre del Compte,748,19.46
@@ -223,12 +223,12 @@ year,cp,name,population,superficie
 1900,44250,Veguillas de la Sierra,292,13.67
 1900,44251,Villafranca del Campo,988,63.64
 1900,44252,Villahermosa del Campo,236,19
-1900,44256,Villanueva del Rebollar de la Sierra,309,75.99
+1900,44256,Villanueva del Rebollar de la Sierra,309,18.99
 1900,44257,Villar del Cobo,596,54.13
 1900,44258,Villar del Salz,412,38.69
 1900,44260,Villarluengo,2128,157.89
 1900,44261,Villarquemado,872,56.43
-1900,44262,Villarroya de los Pinares,1095,91
+1900,44262,Villarroya de los Pinares,1095,66.43
 1900,44263,Villastar,737,39.05
 1900,44264,Villel,1182,85.38
 1900,44265,Vinaceite,544,50.07
@@ -270,7 +270,7 @@ year,cp,name,population,superficie
 1910,44035,Barrachina,722,24.86
 1910,44036,Bea,167,23.37
 1910,44037,Beceite,1902,96.72
-1910,44038,Belmonte de San José,820,43.68
+1910,44038,Belmonte de San José,820,33.99
 1910,44039,Bello,1145,52.49
 1910,44040,Berge,804,42.64
 1910,44041,Bezas,336,26.32
@@ -295,7 +295,7 @@ year,cp,name,population,superficie
 1910,44062,Cañada Vellida,192,23
 1910,44063,Cañizar del Olivar,579,22.29
 1910,44064,Cascante del Río,612,32.38
-1910,44065,Castejón de Tornos,492,17.56
+1910,44065,Castejón de Tornos,492,30.89
 1910,44066,Castel de Cabra,603,29.44
 1910,44067,Castelnou,549,37.09
 1910,44068,Castelserás,2154,31.52
@@ -356,7 +356,7 @@ year,cp,name,population,superficie
 1910,44135,Libros,755,37.91
 1910,44136,Lidón,316,40
 1910,44137,Linares de Mora,1679,116.28
-1910,44138,Loscos,1522,71.78
+1910,44138,Loscos,1522,83.99
 1910,44141,Lledó,629,15.61
 1910,44142,Maicas,440,24.74
 1910,44143,Manzanera,2985,168.66
@@ -388,7 +388,7 @@ year,cp,name,population,superficie
 1910,44172,Oliete,2533,85.48
 1910,44173,Los Olmos,586,43.97
 1910,44174,Orihuela del Tremedal,897,71.52
-1910,44175,Orrios,418,35
+1910,44175,Orrios,418,44.23
 1910,44176,Palomar de Arroyos,654,33.62
 1910,44177,Pancrudo,1013,100.12
 1910,44178,Las Parras de Castellote,1201,42.13
@@ -402,8 +402,8 @@ year,cp,name,population,superficie
 1910,44187,La Portellada,815,21.37
 1910,44189,Pozondón,592,67.64
 1910,44190,Pozuel del Campo,603,27.85
-1910,44191,La Puebla de Híjar,2360,17.03
-1910,44192,La Puebla de Valverde,2193,17.03
+1910,44191,La Puebla de Híjar,2360,60.80
+1910,44192,La Puebla de Valverde,2193,282.76
 1910,44193,Puertomingalvo,1406,103.62
 1910,44194,Ráfales,900,35.61
 1910,44195,Rillo,447,53.31
@@ -417,8 +417,8 @@ year,cp,name,population,superficie
 1910,44204,Saldón,479,28.37
 1910,44205,Samper de Calanda,2815,142
 1910,44206,San Agustín,1240,56.57
-1910,44207,San Martín del Río,983,5.42
-1910,44208,Santa Cruz de Nogueras,367,19.51
+1910,44207,San Martín del Río,983,16.57
+1910,44208,Santa Cruz de Nogueras,367,15.17
 1910,44209,Santa Eulalia,1469,80.97
 1910,44210,Sarrión,2390,140.44
 1910,44211,Segura de los Baños,840,54.15
@@ -429,9 +429,9 @@ year,cp,name,population,superficie
 1910,44217,Toril y Masegoso,362,30.67
 1910,44218,Tormón,267,29.34
 1910,44219,Tornos,584,48.95
-1910,44220,Torralba de los Sisones,623,40.39
+1910,44220,Torralba de los Sisones,623,44.78
 1910,44221,Torrecilla de Alcañiz,1128,26.76
-1910,44222,Torrecilla del Rebollar,849,26.76
+1910,44222,Torrecilla del Rebollar,849,63.44
 1910,44223,Torre de Arcas,463,34.28
 1910,44224,Torre de las Arcas,551,37.17
 1910,44225,Torre del Compte,790,19.46
@@ -459,12 +459,12 @@ year,cp,name,population,superficie
 1910,44250,Veguillas de la Sierra,272,13.67
 1910,44251,Villafranca del Campo,1027,63.64
 1910,44252,Villahermosa del Campo,248,19
-1910,44256,Villanueva del Rebollar de la Sierra,314,75.99
+1910,44256,Villanueva del Rebollar de la Sierra,314,18.99
 1910,44257,Villar del Cobo,648,54.13
 1910,44258,Villar del Salz,644,38.69
 1910,44260,Villarluengo,1968,157.89
 1910,44261,Villarquemado,998,56.43
-1910,44262,Villarroya de los Pinares,942,91
+1910,44262,Villarroya de los Pinares,942,66.43
 1910,44263,Villastar,731,39.05
 1910,44264,Villel,1210,85.38
 1910,44265,Vinaceite,654,50.07
@@ -506,7 +506,7 @@ year,cp,name,population,superficie
 1920,44035,Barrachina,658,24.86
 1920,44036,Bea,186,23.37
 1920,44037,Beceite,1965,96.72
-1920,44038,Belmonte de San José,745,43.68
+1920,44038,Belmonte de San José,745,33.99
 1920,44039,Bello,1275,52.49
 1920,44040,Berge,743,42.64
 1920,44041,Bezas,368,26.32
@@ -531,7 +531,7 @@ year,cp,name,population,superficie
 1920,44062,Cañada Vellida,211,23
 1920,44063,Cañizar del Olivar,503,22.29
 1920,44064,Cascante del Río,576,32.38
-1920,44065,Castejón de Tornos,518,17.56
+1920,44065,Castejón de Tornos,518,30.89
 1920,44066,Castel de Cabra,530,29.44
 1920,44067,Castelnou,505,37.09
 1920,44068,Castelserás,2186,31.52
@@ -592,7 +592,7 @@ year,cp,name,population,superficie
 1920,44135,Libros,794,37.91
 1920,44136,Lidón,345,40
 1920,44137,Linares de Mora,1515,116.28
-1920,44138,Loscos,1461,71.78
+1920,44138,Loscos,1461,83.99
 1920,44141,Lledó,543,15.61
 1920,44142,Maicas,390,24.74
 1920,44143,Manzanera,2368,168.66
@@ -624,7 +624,7 @@ year,cp,name,population,superficie
 1920,44172,Oliete,2327,85.48
 1920,44173,Los Olmos,518,43.97
 1920,44174,Orihuela del Tremedal,1052,71.52
-1920,44175,Orrios,409,35
+1920,44175,Orrios,409,44.23
 1920,44176,Palomar de Arroyos,612,33.62
 1920,44177,Pancrudo,1097,100.12
 1920,44178,Las Parras de Castellote,985,42.13
@@ -638,8 +638,8 @@ year,cp,name,population,superficie
 1920,44187,La Portellada,823,21.37
 1920,44189,Pozondón,595,67.64
 1920,44190,Pozuel del Campo,602,27.85
-1920,44191,La Puebla de Híjar,2724,17.03
-1920,44192,La Puebla de Valverde,2242,17.03
+1920,44191,La Puebla de Híjar,2724,60.80
+1920,44192,La Puebla de Valverde,2242,282.76
 1920,44193,Puertomingalvo,1421,103.62
 1920,44194,Ráfales,907,35.61
 1920,44195,Rillo,527,53.31
@@ -653,8 +653,8 @@ year,cp,name,population,superficie
 1920,44204,Saldón,470,28.37
 1920,44205,Samper de Calanda,2626,142
 1920,44206,San Agustín,1477,56.57
-1920,44207,San Martín del Río,919,5.42
-1920,44208,Santa Cruz de Nogueras,345,19.51
+1920,44207,San Martín del Río,919,16.57
+1920,44208,Santa Cruz de Nogueras,345,15.17
 1920,44209,Santa Eulalia,2140,80.97
 1920,44210,Sarrión,2396,140.44
 1920,44211,Segura de los Baños,754,54.15
@@ -665,9 +665,9 @@ year,cp,name,population,superficie
 1920,44217,Toril y Masegoso,344,30.67
 1920,44218,Tormón,310,29.34
 1920,44219,Tornos,740,48.95
-1920,44220,Torralba de los Sisones,609,40.39
+1920,44220,Torralba de los Sisones,609,44.78
 1920,44221,Torrecilla de Alcañiz,1087,26.76
-1920,44222,Torrecilla del Rebollar,918,26.76
+1920,44222,Torrecilla del Rebollar,918,63.44
 1920,44223,Torre de Arcas,524,34.28
 1920,44224,Torre de las Arcas,521,37.17
 1920,44225,Torre del Compte,848,19.46
@@ -695,12 +695,12 @@ year,cp,name,population,superficie
 1920,44250,Veguillas de la Sierra,211,13.67
 1920,44251,Villafranca del Campo,1098,63.64
 1920,44252,Villahermosa del Campo,274,19
-1920,44256,Villanueva del Rebollar de la Sierra,330,75.99
+1920,44256,Villanueva del Rebollar de la Sierra,330,18.99
 1920,44257,Villar del Cobo,586,54.13
 1920,44258,Villar del Salz,466,38.69
 1920,44260,Villarluengo,1733,157.89
 1920,44261,Villarquemado,1310,56.43
-1920,44262,Villarroya de los Pinares,875,91
+1920,44262,Villarroya de los Pinares,875,66.43
 1920,44263,Villastar,719,39.05
 1920,44264,Villel,1282,85.38
 1920,44265,Vinaceite,653,50.07
@@ -742,7 +742,7 @@ year,cp,name,population,superficie
 1930,44035,Barrachina,655,24.86
 1930,44036,Bea,194,23.37
 1930,44037,Beceite,1761,96.72
-1930,44038,Belmonte de San José,626,43.68
+1930,44038,Belmonte de San José,626,33.99
 1930,44039,Bello,1435,52.49
 1930,44040,Berge,677,42.64
 1930,44041,Bezas,388,26.32
@@ -767,7 +767,7 @@ year,cp,name,population,superficie
 1930,44062,Cañada Vellida,201,23
 1930,44063,Cañizar del Olivar,385,22.29
 1930,44064,Cascante del Río,584,32.38
-1930,44065,Castejón de Tornos,537,17.56
+1930,44065,Castejón de Tornos,537,30.89
 1930,44066,Castel de Cabra,548,29.44
 1930,44067,Castelnou,492,37.09
 1930,44068,Castelserás,2087,31.52
@@ -828,7 +828,7 @@ year,cp,name,population,superficie
 1930,44135,Libros,1586,37.91
 1930,44136,Lidón,384,40
 1930,44137,Linares de Mora,1359,116.28
-1930,44138,Loscos,1467,71.78
+1930,44138,Loscos,1467,83.99
 1930,44141,Lledó,550,15.61
 1930,44142,Maicas,384,24.74
 1930,44143,Manzanera,2387,168.66
@@ -860,7 +860,7 @@ year,cp,name,population,superficie
 1930,44172,Oliete,2258,85.48
 1930,44173,Los Olmos,513,43.97
 1930,44174,Orihuela del Tremedal,1118,71.52
-1930,44175,Orrios,430,35
+1930,44175,Orrios,430,44.23
 1930,44176,Palomar de Arroyos,607,33.62
 1930,44177,Pancrudo,1012,100.12
 1930,44178,Las Parras de Castellote,860,42.13
@@ -874,8 +874,8 @@ year,cp,name,population,superficie
 1930,44187,La Portellada,765,21.37
 1930,44189,Pozondón,616,67.64
 1930,44190,Pozuel del Campo,634,27.85
-1930,44191,La Puebla de Híjar,2849,17.03
-1930,44192,La Puebla de Valverde,2133,17.03
+1930,44191,La Puebla de Híjar,2849,60.80
+1930,44192,La Puebla de Valverde,2133,282.76
 1930,44193,Puertomingalvo,1309,103.62
 1930,44194,Ráfales,809,35.61
 1930,44195,Rillo,520,53.31
@@ -889,8 +889,8 @@ year,cp,name,population,superficie
 1930,44204,Saldón,502,28.37
 1930,44205,Samper de Calanda,2698,142
 1930,44206,San Agustín,1332,56.57
-1930,44207,San Martín del Río,1072,5.42
-1930,44208,Santa Cruz de Nogueras,315,19.51
+1930,44207,San Martín del Río,1072,16.57
+1930,44208,Santa Cruz de Nogueras,315,15.17
 1930,44209,Santa Eulalia,2626,80.97
 1930,44210,Sarrión,2517,140.44
 1930,44211,Segura de los Baños,768,54.15
@@ -901,9 +901,9 @@ year,cp,name,population,superficie
 1930,44217,Toril y Masegoso,328,30.67
 1930,44218,Tormón,342,29.34
 1930,44219,Tornos,852,48.95
-1930,44220,Torralba de los Sisones,675,40.39
+1930,44220,Torralba de los Sisones,675,44.78
 1930,44221,Torrecilla de Alcañiz,1075,26.76
-1930,44222,Torrecilla del Rebollar,897,26.76
+1930,44222,Torrecilla del Rebollar,897,63.44
 1930,44223,Torre de Arcas,469,34.28
 1930,44224,Torre de las Arcas,448,37.17
 1930,44225,Torre del Compte,855,19.46
@@ -931,12 +931,12 @@ year,cp,name,population,superficie
 1930,44250,Veguillas de la Sierra,217,13.67
 1930,44251,Villafranca del Campo,1085,63.64
 1930,44252,Villahermosa del Campo,287,19
-1930,44256,Villanueva del Rebollar de la Sierra,330,75.99
+1930,44256,Villanueva del Rebollar de la Sierra,330,18.99
 1930,44257,Villar del Cobo,517,54.13
 1930,44258,Villar del Salz,587,38.69
 1930,44260,Villarluengo,1487,157.89
 1930,44261,Villarquemado,1661,56.43
-1930,44262,Villarroya de los Pinares,772,91
+1930,44262,Villarroya de los Pinares,772,66.43
 1930,44263,Villastar,846,39.05
 1930,44264,Villel,1227,85.38
 1930,44265,Vinaceite,729,50.07
@@ -978,7 +978,7 @@ year,cp,name,population,superficie
 1940,44035,Barrachina,635,24.86
 1940,44036,Bea,179,23.37
 1940,44037,Beceite,1278,96.72
-1940,44038,Belmonte de San José,524,43.68
+1940,44038,Belmonte de San José,524,33.99
 1940,44039,Bello,1396,52.49
 1940,44040,Berge,645,42.64
 1940,44041,Bezas,345,26.32
@@ -1003,7 +1003,7 @@ year,cp,name,population,superficie
 1940,44062,Cañada Vellida,191,23
 1940,44063,Cañizar del Olivar,483,22.29
 1940,44064,Cascante del Río,553,32.38
-1940,44065,Castejón de Tornos,510,17.56
+1940,44065,Castejón de Tornos,510,30.89
 1940,44066,Castel de Cabra,518,29.44
 1940,44067,Castelnou,442,37.09
 1940,44068,Castelserás,1857,31.52
@@ -1064,7 +1064,7 @@ year,cp,name,population,superficie
 1940,44135,Libros,1278,37.91
 1940,44136,Lidón,348,40
 1940,44137,Linares de Mora,1222,116.28
-1940,44138,Loscos,1482,71.78
+1940,44138,Loscos,1482,83.99
 1940,44141,Lledó,490,15.61
 1940,44142,Maicas,351,24.74
 1940,44143,Manzanera,2083,168.66
@@ -1096,7 +1096,7 @@ year,cp,name,population,superficie
 1940,44172,Oliete,2044,85.48
 1940,44173,Los Olmos,539,43.97
 1940,44174,Orihuela del Tremedal,1093,71.52
-1940,44175,Orrios,455,35
+1940,44175,Orrios,455,44.23
 1940,44176,Palomar de Arroyos,684,33.62
 1940,44177,Pancrudo,766,100.12
 1940,44178,Las Parras de Castellote,778,42.13
@@ -1110,8 +1110,8 @@ year,cp,name,population,superficie
 1940,44187,La Portellada,693,21.37
 1940,44189,Pozondón,576,67.64
 1940,44190,Pozuel del Campo,614,27.85
-1940,44191,La Puebla de Híjar,2542,17.03
-1940,44192,La Puebla de Valverde,1800,17.03
+1940,44191,La Puebla de Híjar,2542,60.80
+1940,44192,La Puebla de Valverde,1800,282.76
 1940,44193,Puertomingalvo,1181,103.62
 1940,44194,Ráfales,715,35.61
 1940,44195,Rillo,486,53.31
@@ -1125,8 +1125,8 @@ year,cp,name,population,superficie
 1940,44204,Saldón,490,28.37
 1940,44205,Samper de Calanda,2524,142
 1940,44206,San Agustín,1267,56.57
-1940,44207,San Martín del Río,1053,5.42
-1940,44208,Santa Cruz de Nogueras,208,19.51
+1940,44207,San Martín del Río,1053,16.57
+1940,44208,Santa Cruz de Nogueras,208,15.17
 1940,44209,Santa Eulalia,2887,80.97
 1940,44210,Sarrión,1958,140.44
 1940,44211,Segura de los Baños,553,54.15
@@ -1137,9 +1137,9 @@ year,cp,name,population,superficie
 1940,44217,Toril y Masegoso,251,30.67
 1940,44218,Tormón,265,29.34
 1940,44219,Tornos,916,48.95
-1940,44220,Torralba de los Sisones,666,40.39
+1940,44220,Torralba de los Sisones,666,44.78
 1940,44221,Torrecilla de Alcañiz,1047,26.76
-1940,44222,Torrecilla del Rebollar,858,26.76
+1940,44222,Torrecilla del Rebollar,858,63.44
 1940,44223,Torre de Arcas,432,34.28
 1940,44224,Torre de las Arcas,394,37.17
 1940,44225,Torre del Compte,678,19.46
@@ -1167,12 +1167,12 @@ year,cp,name,population,superficie
 1940,44250,Veguillas de la Sierra,210,13.67
 1940,44251,Villafranca del Campo,1032,63.64
 1940,44252,Villahermosa del Campo,276,19
-1940,44256,Villanueva del Rebollar de la Sierra,269,75.99
+1940,44256,Villanueva del Rebollar de la Sierra,269,18.99
 1940,44257,Villar del Cobo,480,54.13
 1940,44258,Villar del Salz,449,38.69
 1940,44260,Villarluengo,1293,157.89
 1940,44261,Villarquemado,1591,56.43
-1940,44262,Villarroya de los Pinares,641,91
+1940,44262,Villarroya de los Pinares,641,66.43
 1940,44263,Villastar,757,39.05
 1940,44264,Villel,1155,85.38
 1940,44265,Vinaceite,655,50.07
@@ -1214,7 +1214,7 @@ year,cp,name,population,superficie
 1950,44035,Barrachina,648,24.86
 1950,44036,Bea,196,23.37
 1950,44037,Beceite,1239,96.72
-1950,44038,Belmonte de San José,507,43.68
+1950,44038,Belmonte de San José,507,33.99
 1950,44039,Bello,1475,52.49
 1950,44040,Berge,549,42.64
 1950,44041,Bezas,339,26.32
@@ -1239,7 +1239,7 @@ year,cp,name,population,superficie
 1950,44062,Cañada Vellida,206,23
 1950,44063,Cañizar del Olivar,509,22.29
 1950,44064,Cascante del Río,496,32.38
-1950,44065,Castejón de Tornos,493,17.56
+1950,44065,Castejón de Tornos,493,30.89
 1950,44066,Castel de Cabra,533,29.44
 1950,44067,Castelnou,352,37.09
 1950,44068,Castelserás,1513,31.52
@@ -1300,7 +1300,7 @@ year,cp,name,population,superficie
 1950,44135,Libros,1008,37.91
 1950,44136,Lidón,335,40
 1950,44137,Linares de Mora,1079,116.28
-1950,44138,Loscos,1217,71.78
+1950,44138,Loscos,1217,83.99
 1950,44141,Lledó,437,15.61
 1950,44142,Maicas,277,24.74
 1950,44143,Manzanera,1722,168.66
@@ -1332,7 +1332,7 @@ year,cp,name,population,superficie
 1950,44172,Oliete,1943,85.48
 1950,44173,Los Olmos,493,43.97
 1950,44174,Orihuela del Tremedal,1079,71.52
-1950,44175,Orrios,496,35
+1950,44175,Orrios,496,44.23
 1950,44176,Palomar de Arroyos,791,33.62
 1950,44177,Pancrudo,1024,100.12
 1950,44178,Las Parras de Castellote,752,42.13
@@ -1346,8 +1346,8 @@ year,cp,name,population,superficie
 1950,44187,La Portellada,661,21.37
 1950,44189,Pozondón,544,67.64
 1950,44190,Pozuel del Campo,547,27.85
-1950,44191,La Puebla de Híjar,2738,17.03
-1950,44192,La Puebla de Valverde,1743,17.03
+1950,44191,La Puebla de Híjar,2738,60.80
+1950,44192,La Puebla de Valverde,1743,282.76
 1950,44193,Puertomingalvo,971,103.62
 1950,44194,Ráfales,644,35.61
 1950,44195,Rillo,542,53.31
@@ -1361,8 +1361,8 @@ year,cp,name,population,superficie
 1950,44204,Saldón,413,28.37
 1950,44205,Samper de Calanda,2408,142
 1950,44206,San Agustín,1037,56.57
-1950,44207,San Martín del Río,1033,5.42
-1950,44208,Santa Cruz de Nogueras,215,19.51
+1950,44207,San Martín del Río,1033,16.57
+1950,44208,Santa Cruz de Nogueras,215,15.17
 1950,44209,Santa Eulalia,2649,80.97
 1950,44210,Sarrión,1993,140.44
 1950,44211,Segura de los Baños,538,54.15
@@ -1373,9 +1373,9 @@ year,cp,name,population,superficie
 1950,44217,Toril y Masegoso,242,30.67
 1950,44218,Tormón,213,29.34
 1950,44219,Tornos,998,48.95
-1950,44220,Torralba de los Sisones,568,40.39
+1950,44220,Torralba de los Sisones,568,44.78
 1950,44221,Torrecilla de Alcañiz,900,26.76
-1950,44222,Torrecilla del Rebollar,918,26.76
+1950,44222,Torrecilla del Rebollar,918,63.44
 1950,44223,Torre de Arcas,404,34.28
 1950,44224,Torre de las Arcas,300,37.17
 1950,44225,Torre del Compte,594,19.46
@@ -1403,12 +1403,12 @@ year,cp,name,population,superficie
 1950,44250,Veguillas de la Sierra,167,13.67
 1950,44251,Villafranca del Campo,934,63.64
 1950,44252,Villahermosa del Campo,318,19
-1950,44256,Villanueva del Rebollar de la Sierra,289,75.99
+1950,44256,Villanueva del Rebollar de la Sierra,289,18.99
 1950,44257,Villar del Cobo,494,54.13
 1950,44258,Villar del Salz,488,38.69
 1950,44260,Villarluengo,1060,157.89
 1950,44261,Villarquemado,1630,56.43
-1950,44262,Villarroya de los Pinares,628,91
+1950,44262,Villarroya de los Pinares,628,66.43
 1950,44263,Villastar,777,39.05
 1950,44264,Villel,1173,85.38
 1950,44265,Vinaceite,626,50.07
@@ -1450,7 +1450,7 @@ year,cp,name,population,superficie
 1960,44035,Barrachina,549,24.86
 1960,44036,Bea,126,23.37
 1960,44037,Beceite,1193,96.72
-1960,44038,Belmonte de San José,422,43.68
+1960,44038,Belmonte de San José,422,33.99
 1960,44039,Bello,1324,52.49
 1960,44040,Berge,452,42.64
 1960,44041,Bezas,363,26.32
@@ -1475,7 +1475,7 @@ year,cp,name,population,superficie
 1960,44062,Cañada Vellida,208,23
 1960,44063,Cañizar del Olivar,398,22.29
 1960,44064,Cascante del Río,424,32.38
-1960,44065,Castejón de Tornos,417,17.56
+1960,44065,Castejón de Tornos,417,30.89
 1960,44066,Castel de Cabra,534,29.44
 1960,44067,Castelnou,300,37.09
 1960,44068,Castelserás,1295,31.52
@@ -1536,7 +1536,7 @@ year,cp,name,population,superficie
 1960,44135,Libros,593,37.91
 1960,44136,Lidón,282,40
 1960,44137,Linares de Mora,834,116.28
-1960,44138,Loscos,1032,71.78
+1960,44138,Loscos,1032,83.99
 1960,44141,Lledó,373,15.61
 1960,44142,Maicas,195,24.74
 1960,44143,Manzanera,1485,168.66
@@ -1568,7 +1568,7 @@ year,cp,name,population,superficie
 1960,44172,Oliete,1711,85.48
 1960,44173,Los Olmos,356,43.97
 1960,44174,Orihuela del Tremedal,1042,71.52
-1960,44175,Orrios,479,35
+1960,44175,Orrios,479,44.23
 1960,44176,Palomar de Arroyos,568,33.62
 1960,44177,Pancrudo,873,100.12
 1960,44178,Las Parras de Castellote,540,42.13
@@ -1582,8 +1582,8 @@ year,cp,name,population,superficie
 1960,44187,La Portellada,545,21.37
 1960,44189,Pozondón,430,67.64
 1960,44190,Pozuel del Campo,486,27.85
-1960,44191,La Puebla de Híjar,2559,17.03
-1960,44192,La Puebla de Valverde,1378,17.03
+1960,44191,La Puebla de Híjar,2559,60.80
+1960,44192,La Puebla de Valverde,1378,282.76
 1960,44193,Puertomingalvo,793,103.62
 1960,44194,Ráfales,575,35.61
 1960,44195,Rillo,700,53.31
@@ -1597,8 +1597,8 @@ year,cp,name,population,superficie
 1960,44204,Saldón,361,28.37
 1960,44205,Samper de Calanda,2028,142
 1960,44206,San Agustín,843,56.57
-1960,44207,San Martín del Río,881,5.42
-1960,44208,Santa Cruz de Nogueras,165,19.51
+1960,44207,San Martín del Río,881,16.57
+1960,44208,Santa Cruz de Nogueras,165,15.17
 1960,44209,Santa Eulalia,2485,80.97
 1960,44210,Sarrión,1792,140.44
 1960,44211,Segura de los Baños,426,54.15
@@ -1609,9 +1609,9 @@ year,cp,name,population,superficie
 1960,44217,Toril y Masegoso,181,30.67
 1960,44218,Tormón,172,29.34
 1960,44219,Tornos,783,48.95
-1960,44220,Torralba de los Sisones,494,40.39
+1960,44220,Torralba de los Sisones,494,44.78
 1960,44221,Torrecilla de Alcañiz,767,26.76
-1960,44222,Torrecilla del Rebollar,747,26.76
+1960,44222,Torrecilla del Rebollar,747,63.44
 1960,44223,Torre de Arcas,282,34.28
 1960,44224,Torre de las Arcas,234,37.17
 1960,44225,Torre del Compte,403,19.46
@@ -1639,12 +1639,12 @@ year,cp,name,population,superficie
 1960,44250,Veguillas de la Sierra,129,13.67
 1960,44251,Villafranca del Campo,863,63.64
 1960,44252,Villahermosa del Campo,295,19
-1960,44256,Villanueva del Rebollar de la Sierra,234,75.99
+1960,44256,Villanueva del Rebollar de la Sierra,234,18.99
 1960,44257,Villar del Cobo,424,54.13
 1960,44258,Villar del Salz,453,38.69
 1960,44260,Villarluengo,810,157.89
 1960,44261,Villarquemado,1573,56.43
-1960,44262,Villarroya de los Pinares,574,91
+1960,44262,Villarroya de los Pinares,574,66.43
 1960,44263,Villastar,681,39.05
 1960,44264,Villel,1024,85.38
 1960,44265,Vinaceite,535,50.07
@@ -1686,7 +1686,7 @@ year,cp,name,population,superficie
 1970,44035,Barrachina,328,24.86
 1970,44036,Bea,50,23.37
 1970,44037,Beceite,1006,96.72
-1970,44038,Belmonte de San José,236,43.68
+1970,44038,Belmonte de San José,236,33.99
 1970,44039,Bello,883,52.49
 1970,44040,Berge,341,42.64
 1970,44041,Bezas,249,26.32
@@ -1711,7 +1711,7 @@ year,cp,name,population,superficie
 1970,44062,Cañada Vellida,155,23
 1970,44063,Cañizar del Olivar,273,22.29
 1970,44064,Cascante del Río,261,32.38
-1970,44065,Castejón de Tornos,260,17.56
+1970,44065,Castejón de Tornos,260,30.89
 1970,44066,Castel de Cabra,393,29.44
 1970,44067,Castelnou,216,37.09
 1970,44068,Castelserás,1099,31.52
@@ -1772,7 +1772,7 @@ year,cp,name,population,superficie
 1970,44135,Libros,393,37.91
 1970,44136,Lidón,190,40
 1970,44137,Linares de Mora,582,116.28
-1970,44138,Loscos,580,71.78
+1970,44138,Loscos,580,83.99
 1970,44141,Lledó,321,15.61
 1970,44142,Maicas,51,24.74
 1970,44143,Manzanera,1050,168.66
@@ -1804,7 +1804,7 @@ year,cp,name,population,superficie
 1970,44172,Oliete,1035,85.48
 1970,44173,Los Olmos,259,43.97
 1970,44174,Orihuela del Tremedal,882,71.52
-1970,44175,Orrios,306,35
+1970,44175,Orrios,306,44.23
 1970,44176,Palomar de Arroyos,405,33.62
 1970,44177,Pancrudo,514,100.12
 1970,44178,Las Parras de Castellote,240,42.13
@@ -1818,8 +1818,8 @@ year,cp,name,population,superficie
 1970,44187,La Portellada,430,21.37
 1970,44189,Pozondón,219,67.64
 1970,44190,Pozuel del Campo,318,27.85
-1970,44191,La Puebla de Híjar,2118,17.03
-1970,44192,La Puebla de Valverde,1003,17.03
+1970,44191,La Puebla de Híjar,2118,60.80
+1970,44192,La Puebla de Valverde,1003,282.76
 1970,44193,Puertomingalvo,413,103.62
 1970,44194,Ráfales,426,35.61
 1970,44195,Rillo,398,53.31
@@ -1833,8 +1833,8 @@ year,cp,name,population,superficie
 1970,44204,Saldón,193,28.37
 1970,44205,Samper de Calanda,1609,142
 1970,44206,San Agustín,502,56.57
-1970,44207,San Martín del Río,654,5.42
-1970,44208,Santa Cruz de Nogueras,89,19.51
+1970,44207,San Martín del Río,654,16.57
+1970,44208,Santa Cruz de Nogueras,89,15.17
 1970,44209,Santa Eulalia,2044,80.97
 1970,44210,Sarrión,1307,140.44
 1970,44211,Segura de los Baños,197,54.15
@@ -1845,9 +1845,9 @@ year,cp,name,population,superficie
 1970,44217,Toril y Masegoso,137,30.67
 1970,44218,Tormón,119,29.34
 1970,44219,Tornos,457,48.95
-1970,44220,Torralba de los Sisones,347,40.39
+1970,44220,Torralba de los Sisones,347,44.78
 1970,44221,Torrecilla de Alcañiz,618,26.76
-1970,44222,Torrecilla del Rebollar,436,26.76
+1970,44222,Torrecilla del Rebollar,436,63.44
 1970,44223,Torre de Arcas,213,34.28
 1970,44224,Torre de las Arcas,123,37.17
 1970,44225,Torre del Compte,319,19.46
@@ -1875,12 +1875,12 @@ year,cp,name,population,superficie
 1970,44250,Veguillas de la Sierra,66,13.67
 1970,44251,Villafranca del Campo,665,63.64
 1970,44252,Villahermosa del Campo,166,19
-1970,44256,Villanueva del Rebollar de la Sierra,134,75.99
+1970,44256,Villanueva del Rebollar de la Sierra,134,18.99
 1970,44257,Villar del Cobo,352,54.13
 1970,44258,Villar del Salz,320,38.69
 1970,44260,Villarluengo,492,157.89
 1970,44261,Villarquemado,1299,56.43
-1970,44262,Villarroya de los Pinares,400,91
+1970,44262,Villarroya de los Pinares,400,66.43
 1970,44263,Villastar,545,39.05
 1970,44264,Villel,686,85.38
 1970,44265,Vinaceite,473,50.07
@@ -1922,7 +1922,7 @@ year,cp,name,population,superficie
 1981,44035,Barrachina,239,24.86
 1981,44036,Bea,19,23.37
 1981,44037,Beceite,733,96.72
-1981,44038,Belmonte de San José,212,43.68
+1981,44038,Belmonte de San José,212,33.99
 1981,44039,Bello,596,52.49
 1981,44040,Berge,274,42.64
 1981,44041,Bezas,88,26.32
@@ -1947,7 +1947,7 @@ year,cp,name,population,superficie
 1981,44062,Cañada Vellida,101,23
 1981,44063,Cañizar del Olivar,163,22.29
 1981,44064,Cascante del Río,181,32.38
-1981,44065,Castejón de Tornos,155,17.56
+1981,44065,Castejón de Tornos,155,30.89
 1981,44066,Castel de Cabra,286,29.44
 1981,44067,Castelnou,148,37.09
 1981,44068,Castelserás,1009,31.52
@@ -2008,7 +2008,7 @@ year,cp,name,population,superficie
 1981,44135,Libros,265,37.91
 1981,44136,Lidón,133,40
 1981,44137,Linares de Mora,416,116.28
-1981,44138,Loscos,301,71.78
+1981,44138,Loscos,301,83.99
 1981,44141,Lledó,276,15.61
 1981,44142,Maicas,27,24.74
 1981,44143,Manzanera,575,168.66
@@ -2040,7 +2040,7 @@ year,cp,name,population,superficie
 1981,44172,Oliete,711,85.48
 1981,44173,Los Olmos,215,43.97
 1981,44174,Orihuela del Tremedal,738,71.52
-1981,44175,Orrios,236,35
+1981,44175,Orrios,236,44.23
 1981,44176,Palomar de Arroyos,341,33.62
 1981,44177,Pancrudo,305,100.12
 1981,44178,Las Parras de Castellote,155,42.13
@@ -2054,8 +2054,8 @@ year,cp,name,population,superficie
 1981,44187,La Portellada,396,21.37
 1981,44189,Pozondón,132,67.64
 1981,44190,Pozuel del Campo,179,27.85
-1981,44191,La Puebla de Híjar,1597,17.03
-1981,44192,La Puebla de Valverde,579,17.03
+1981,44191,La Puebla de Híjar,1597,60.80
+1981,44192,La Puebla de Valverde,579,282.76
 1981,44193,Puertomingalvo,213,103.62
 1981,44194,Ráfales,328,35.61
 1981,44195,Rillo,263,53.31
@@ -2069,8 +2069,8 @@ year,cp,name,population,superficie
 1981,44204,Saldón,59,28.37
 1981,44205,Samper de Calanda,1403,142
 1981,44206,San Agustín,233,56.57
-1981,44207,San Martín del Río,439,5.42
-1981,44208,Santa Cruz de Nogueras,38,19.51
+1981,44207,San Martín del Río,439,16.57
+1981,44208,Santa Cruz de Nogueras,38,15.17
 1981,44209,Santa Eulalia,1919,80.97
 1981,44210,Sarrión,1149,140.44
 1981,44211,Segura de los Baños,96,54.15
@@ -2081,9 +2081,9 @@ year,cp,name,population,superficie
 1981,44217,Toril y Masegoso,61,30.67
 1981,44218,Tormón,61,29.34
 1981,44219,Tornos,364,48.95
-1981,44220,Torralba de los Sisones,282,40.39
+1981,44220,Torralba de los Sisones,282,44.78
 1981,44221,Torrecilla de Alcañiz,533,26.76
-1981,44222,Torrecilla del Rebollar,236,26.76
+1981,44222,Torrecilla del Rebollar,236,63.44
 1981,44223,Torre de Arcas,171,34.28
 1981,44224,Torre de las Arcas,61,37.17
 1981,44225,Torre del Compte,236,19.46
@@ -2111,12 +2111,12 @@ year,cp,name,population,superficie
 1981,44250,Veguillas de la Sierra,51,13.67
 1981,44251,Villafranca del Campo,553,63.64
 1981,44252,Villahermosa del Campo,114,19
-1981,44256,Villanueva del Rebollar de la Sierra,64,75.99
+1981,44256,Villanueva del Rebollar de la Sierra,64,18.99
 1981,44257,Villar del Cobo,285,54.13
 1981,44258,Villar del Salz,184,38.69
 1981,44260,Villarluengo,289,157.89
 1981,44261,Villarquemado,1176,56.43
-1981,44262,Villarroya de los Pinares,249,91
+1981,44262,Villarroya de los Pinares,249,66.43
 1981,44263,Villastar,425,39.05
 1981,44264,Villel,462,85.38
 1981,44265,Vinaceite,422,50.07
@@ -2158,7 +2158,7 @@ year,cp,name,population,superficie
 1991,44035,Barrachina,200,24.86
 1991,44036,Bea,28,23.37
 1991,44037,Beceite,701,96.72
-1991,44038,Belmonte de San José,172,43.68
+1991,44038,Belmonte de San José,172,33.99
 1991,44039,Bello,474,52.49
 1991,44040,Berge,260,42.64
 1991,44041,Bezas,76,26.32
@@ -2183,7 +2183,7 @@ year,cp,name,population,superficie
 1991,44062,Cañada Vellida,74,23
 1991,44063,Cañizar del Olivar,156,22.29
 1991,44064,Cascante del Río,138,32.38
-1991,44065,Castejón de Tornos,122,17.56
+1991,44065,Castejón de Tornos,122,30.89
 1991,44066,Castel de Cabra,229,29.44
 1991,44067,Castelnou,123,37.09
 1991,44068,Castelserás,938,31.52
@@ -2244,7 +2244,7 @@ year,cp,name,population,superficie
 1991,44135,Libros,213,37.91
 1991,44136,Lidón,111,40
 1991,44137,Linares de Mora,351,116.28
-1991,44138,Loscos,210,71.78
+1991,44138,Loscos,210,83.99
 1991,44141,Lledó,229,15.61
 1991,44142,Maicas,20,24.74
 1991,44143,Manzanera,490,168.66
@@ -2276,7 +2276,7 @@ year,cp,name,population,superficie
 1991,44172,Oliete,574,85.48
 1991,44173,Los Olmos,174,43.97
 1991,44174,Orihuela del Tremedal,627,71.52
-1991,44175,Orrios,223,35
+1991,44175,Orrios,223,44.23
 1991,44176,Palomar de Arroyos,320,33.62
 1991,44177,Pancrudo,228,100.12
 1991,44178,Las Parras de Castellote,104,42.13
@@ -2290,8 +2290,8 @@ year,cp,name,population,superficie
 1991,44187,La Portellada,352,21.37
 1991,44189,Pozondón,101,67.64
 1991,44190,Pozuel del Campo,148,27.85
-1991,44191,La Puebla de Híjar,1247,17.03
-1991,44192,La Puebla de Valverde,498,17.03
+1991,44191,La Puebla de Híjar,1247,60.80
+1991,44192,La Puebla de Valverde,498,282.76
 1991,44193,Puertomingalvo,164,103.62
 1991,44194,Ráfales,257,35.61
 1991,44195,Rillo,163,53.31
@@ -2305,8 +2305,8 @@ year,cp,name,population,superficie
 1991,44204,Saldón,53,28.37
 1991,44205,Samper de Calanda,1185,142
 1991,44206,San Agustín,184,56.57
-1991,44207,San Martín del Río,351,5.42
-1991,44208,Santa Cruz de Nogueras,32,19.51
+1991,44207,San Martín del Río,351,16.57
+1991,44208,Santa Cruz de Nogueras,32,15.17
 1991,44209,Santa Eulalia,1424,80.97
 1991,44210,Sarrión,1066,140.44
 1991,44211,Segura de los Baños,67,54.15
@@ -2317,9 +2317,9 @@ year,cp,name,population,superficie
 1991,44217,Toril y Masegoso,50,30.67
 1991,44218,Tormón,50,29.34
 1991,44219,Tornos,300,48.95
-1991,44220,Torralba de los Sisones,252,40.39
+1991,44220,Torralba de los Sisones,252,44.78
 1991,44221,Torrecilla de Alcañiz,487,26.76
-1991,44222,Torrecilla del Rebollar,199,26.76
+1991,44222,Torrecilla del Rebollar,199,63.44
 1991,44223,Torre de Arcas,133,34.28
 1991,44224,Torre de las Arcas,43,37.17
 1991,44225,Torre del Compte,205,19.46
@@ -2347,12 +2347,12 @@ year,cp,name,population,superficie
 1991,44250,Veguillas de la Sierra,33,13.67
 1991,44251,Villafranca del Campo,403,63.64
 1991,44252,Villahermosa del Campo,89,19
-1991,44256,Villanueva del Rebollar de la Sierra,52,75.99
+1991,44256,Villanueva del Rebollar de la Sierra,52,18.99
 1991,44257,Villar del Cobo,239,54.13
 1991,44258,Villar del Salz,145,38.69
 1991,44260,Villarluengo,243,157.89
 1991,44261,Villarquemado,1053,56.43
-1991,44262,Villarroya de los Pinares,218,91
+1991,44262,Villarroya de los Pinares,218,66.43
 1991,44263,Villastar,381,39.05
 1991,44264,Villel,376,85.38
 1991,44265,Vinaceite,359,50.07
@@ -2394,7 +2394,7 @@ year,cp,name,population,superficie
 2001,44035,Barrachina,154,24.86
 2001,44036,Bea,38,23.37
 2001,44037,Beceite,619,96.72
-2001,44038,Belmonte de San José,138,43.68
+2001,44038,Belmonte de San José,138,33.99
 2001,44039,Bello,369,52.49
 2001,44040,Berge,248,42.64
 2001,44041,Bezas,65,26.32
@@ -2419,7 +2419,7 @@ year,cp,name,population,superficie
 2001,44062,Cañada Vellida,54,23
 2001,44063,Cañizar del Olivar,116,22.29
 2001,44064,Cascante del Río,107,32.38
-2001,44065,Castejón de Tornos,92,17.56
+2001,44065,Castejón de Tornos,92,30.89
 2001,44066,Castel de Cabra,158,29.44
 2001,44067,Castelnou,109,37.09
 2001,44068,Castelserás,824,31.52
@@ -2480,7 +2480,7 @@ year,cp,name,population,superficie
 2001,44135,Libros,157,37.91
 2001,44136,Lidón,75,40
 2001,44137,Linares de Mora,303,116.28
-2001,44138,Loscos,188,71.78
+2001,44138,Loscos,188,83.99
 2001,44141,Lledó,209,15.61
 2001,44142,Maicas,42,24.74
 2001,44143,Manzanera,464,168.66
@@ -2512,7 +2512,7 @@ year,cp,name,population,superficie
 2001,44172,Oliete,454,85.48
 2001,44173,Los Olmos,144,43.97
 2001,44174,Orihuela del Tremedal,604,71.52
-2001,44175,Orrios,186,35
+2001,44175,Orrios,186,44.23
 2001,44176,Palomar de Arroyos,246,33.62
 2001,44177,Pancrudo,157,100.12
 2001,44178,Las Parras de Castellote,79,42.13
@@ -2526,8 +2526,8 @@ year,cp,name,population,superficie
 2001,44187,La Portellada,292,21.37
 2001,44189,Pozondón,80,67.64
 2001,44190,Pozuel del Campo,112,27.85
-2001,44191,La Puebla de Híjar,1046,17.03
-2001,44192,La Puebla de Valverde,485,17.03
+2001,44191,La Puebla de Híjar,1046,60.80
+2001,44192,La Puebla de Valverde,485,282.76
 2001,44193,Puertomingalvo,153,103.62
 2001,44194,Ráfales,199,35.61
 2001,44195,Rillo,137,53.31
@@ -2541,8 +2541,8 @@ year,cp,name,population,superficie
 2001,44204,Saldón,32,28.37
 2001,44205,Samper de Calanda,971,142
 2001,44206,San Agustín,127,56.57
-2001,44207,San Martín del Río,269,5.42
-2001,44208,Santa Cruz de Nogueras,29,19.51
+2001,44207,San Martín del Río,269,16.57
+2001,44208,Santa Cruz de Nogueras,29,15.17
 2001,44209,Santa Eulalia,1132,80.97
 2001,44210,Sarrión,1017,140.44
 2001,44211,Segura de los Baños,40,54.15
@@ -2553,9 +2553,9 @@ year,cp,name,population,superficie
 2001,44217,Toril y Masegoso,26,30.67
 2001,44218,Tormón,35,29.34
 2001,44219,Tornos,245,48.95
-2001,44220,Torralba de los Sisones,231,40.39
+2001,44220,Torralba de los Sisones,231,44.78
 2001,44221,Torrecilla de Alcañiz,439,26.76
-2001,44222,Torrecilla del Rebollar,177,26.76
+2001,44222,Torrecilla del Rebollar,177,63.44
 2001,44223,Torre de Arcas,102,34.28
 2001,44224,Torre de las Arcas,37,37.17
 2001,44225,Torre del Compte,174,19.46
@@ -2583,12 +2583,12 @@ year,cp,name,population,superficie
 2001,44250,Veguillas de la Sierra,27,13.67
 2001,44251,Villafranca del Campo,378,63.64
 2001,44252,Villahermosa del Campo,75,19
-2001,44256,Villanueva del Rebollar de la Sierra,48,75.99
+2001,44256,Villanueva del Rebollar de la Sierra,48,18.99
 2001,44257,Villar del Cobo,222,54.13
 2001,44258,Villar del Salz,95,38.69
 2001,44260,Villarluengo,207,157.89
 2001,44261,Villarquemado,942,56.43
-2001,44262,Villarroya de los Pinares,197,91
+2001,44262,Villarroya de los Pinares,197,66.43
 2001,44263,Villastar,343,39.05
 2001,44264,Villel,331,85.38
 2001,44265,Vinaceite,283,50.07
@@ -2630,7 +2630,7 @@ year,cp,name,population,superficie
 2011,44035,Barrachina,140,24.86
 2011,44036,Bea,30,23.37
 2011,44037,Beceite,591,96.72
-2011,44038,Belmonte de San José,125,43.68
+2011,44038,Belmonte de San José,125,33.99
 2011,44039,Bello,276,52.49
 2011,44040,Berge,258,42.64
 2011,44041,Bezas,78,26.32
@@ -2655,7 +2655,7 @@ year,cp,name,population,superficie
 2011,44062,Cañada Vellida,38,23
 2011,44063,Cañizar del Olivar,105,22.29
 2011,44064,Cascante del Río,94,32.38
-2011,44065,Castejón de Tornos,64,17.56
+2011,44065,Castejón de Tornos,64,30.89
 2011,44066,Castel de Cabra,140,29.44
 2011,44067,Castelnou,178,37.09
 2011,44068,Castelserás,835,31.52
@@ -2716,7 +2716,7 @@ year,cp,name,population,superficie
 2011,44135,Libros,145,37.91
 2011,44136,Lidón,54,40
 2011,44137,Linares de Mora,285,116.28
-2011,44138,Loscos,170,71.78
+2011,44138,Loscos,170,83.99
 2011,44141,Lledó,165,15.61
 2011,44142,Maicas,39,24.74
 2011,44143,Manzanera,563,168.66
@@ -2748,7 +2748,7 @@ year,cp,name,population,superficie
 2011,44172,Oliete,448,85.48
 2011,44173,Los Olmos,121,43.97
 2011,44174,Orihuela del Tremedal,568,71.52
-2011,44175,Orrios,153,35
+2011,44175,Orrios,153,44.23
 2011,44176,Palomar de Arroyos,188,33.62
 2011,44177,Pancrudo,133,100.12
 2011,44178,Las Parras de Castellote,69,42.13
@@ -2762,8 +2762,8 @@ year,cp,name,population,superficie
 2011,44187,La Portellada,254,21.37
 2011,44189,Pozondón,71,67.64
 2011,44190,Pozuel del Campo,89,27.85
-2011,44191,La Puebla de Híjar,988,17.03
-2011,44192,La Puebla de Valverde,547,17.03
+2011,44191,La Puebla de Híjar,988,60.80
+2011,44192,La Puebla de Valverde,547,282.76
 2011,44193,Puertomingalvo,137,103.62
 2011,44194,Ráfales,158,35.61
 2011,44195,Rillo,110,53.31
@@ -2777,8 +2777,8 @@ year,cp,name,population,superficie
 2011,44204,Saldón,27,28.37
 2011,44205,Samper de Calanda,884,142
 2011,44206,San Agustín,175,56.57
-2011,44207,San Martín del Río,190,5.42
-2011,44208,Santa Cruz de Nogueras,38,19.51
+2011,44207,San Martín del Río,190,16.57
+2011,44208,Santa Cruz de Nogueras,38,15.17
 2011,44209,Santa Eulalia,1127,80.97
 2011,44210,Sarrión,1132,140.44
 2011,44211,Segura de los Baños,41,54.15
@@ -2789,9 +2789,9 @@ year,cp,name,population,superficie
 2011,44217,Toril y Masegoso,36,30.67
 2011,44218,Tormón,34,29.34
 2011,44219,Tornos,225,48.95
-2011,44220,Torralba de los Sisones,175,40.39
+2011,44220,Torralba de los Sisones,175,44.78
 2011,44221,Torrecilla de Alcañiz,440,26.76
-2011,44222,Torrecilla del Rebollar,144,26.76
+2011,44222,Torrecilla del Rebollar,144,63.44
 2011,44223,Torre de Arcas,96,34.28
 2011,44224,Torre de las Arcas,33,37.17
 2011,44225,Torre del Compte,148,19.46
@@ -2819,12 +2819,12 @@ year,cp,name,population,superficie
 2011,44250,Veguillas de la Sierra,20,13.67
 2011,44251,Villafranca del Campo,332,63.64
 2011,44252,Villahermosa del Campo,99,19
-2011,44256,Villanueva del Rebollar de la Sierra,48,75.99
+2011,44256,Villanueva del Rebollar de la Sierra,48,18.99
 2011,44257,Villar del Cobo,204,54.13
 2011,44258,Villar del Salz,79,38.69
 2011,44260,Villarluengo,202,157.89
 2011,44261,Villarquemado,908,56.43
-2011,44262,Villarroya de los Pinares,163,91
+2011,44262,Villarroya de los Pinares,163,66.43
 2011,44263,Villastar,472,39.05
 2011,44264,Villel,347,85.38
 2011,44265,Vinaceite,298,50.07
@@ -2847,12 +2847,12 @@ year,cp,name,population,superficie
 2020,44014,Alcorisa,3298,121
 2020,44016,Alfambra,482,122.44
 2020,44017,Aliaga,326,193.08
-2020,44021,Allepuz,124,25.55
-2020,44022,Alloza,572,30.72
-2020,44023,Allueva,24,28.62
-2020,44018,Almohaja,14,67.26
-2020,44019,Alobras,64,81
-2020,44020,Alpeñés,21,18.65
+2020,44021,Allepuz,124,67.26
+2020,44022,Alloza,572,81
+2020,44023,Allueva,24,18.65
+2020,44018,Almohaja,14,25.55
+2020,44019,Alobras,64,30.72
+2020,44020,Alpeñés,21,28.62
 2020,44024,Anadón,32,24.62
 2020,44025,Andorra,7345,141.36
 2020,44026,Arcos de las Salinas,118,112.99
@@ -2866,8 +2866,8 @@ year,cp,name,population,superficie
 2020,44035,Barrachina,109,24.86
 2020,44036,Bea,29,23.37
 2020,44037,Beceite,531,96.72
-2020,44039,Bello,219,43.68
-2020,44038,Belmonte de San José,123,52.49
+2020,44039,Bello,219,52.49
+2020,44038,Belmonte de San José,123,33.99
 2020,44040,Berge,241,42.64
 2020,44041,Bezas,67,26.32
 2020,44042,Blancas,125,73
@@ -2891,12 +2891,12 @@ year,cp,name,population,superficie
 2020,44062,Cañada Vellida,36,23
 2020,44063,Cañizar del Olivar,100,22.29
 2020,44064,Cascante del Río,67,32.38
-2020,44065,Castejón de Tornos,55,17.56
+2020,44065,Castejón de Tornos,55,30.89
 2020,44066,Castel de Cabra,93,29.44
-2020,44070,El Castellar,55,37.09
-2020,44071,Castellote,676,31.52
-2020,44067,Castelnou,134,50.33
-2020,44068,Castelserás,800,235.18
+2020,44070,El Castellar,55,50.33
+2020,44071,Castellote,676,235.18
+2020,44067,Castelnou,134,37.09
+2020,44068,Castelserás,800,31.52
 2020,44074,Cedrillas,639,73.57
 2020,44075,Celadas,367,100.45
 2020,44076,Cella,2571,124.68
@@ -2947,13 +2947,13 @@ year,cp,name,population,superficie
 2020,44129,Jatiel,39,10.84
 2020,44130,Jorcas,29,26
 2020,44131,Josa,34,28.23
-2020,44132,Lagueruela,60,26.32
+2020,44132,Lagueruela,69,26.32
 2020,44133,Lanzuela,22,14.22
 2020,44135,Libros,100,37.91
 2020,44136,Lidón,54,40
 2020,44137,Linares de Mora,225,116.28
-2020,44141,Lledó,155,71.78
-2020,44138,Loscos,125,15.61
+2020,44141,Lledó,155,15.61
+2020,44138,Loscos,125,83.99
 2020,44142,Maicas,31,24.74
 2020,44143,Manzanera,516,168.66
 2020,44144,Martín del Río,387,54.88
@@ -2984,7 +2984,7 @@ year,cp,name,population,superficie
 2020,44172,Oliete,343,85.48
 2020,44173,Los Olmos,118,43.97
 2020,44174,Orihuela del Tremedal,450,71.52
-2020,44175,Orrios,128,35
+2020,44175,Orrios,128,44.23
 2020,44176,Palomar de Arroyos,170,33.62
 2020,44177,Pancrudo,119,100.12
 2020,44178,Las Parras de Castellote,55,42.13
@@ -2998,8 +2998,8 @@ year,cp,name,population,superficie
 2020,44187,La Portellada,236,21.37
 2020,44189,Pozondón,43,67.64
 2020,44190,Pozuel del Campo,63,27.85
-2020,44191,La Puebla de Híjar,899,17.03
-2020,44192,La Puebla de Valverde,451,17.03
+2020,44191,La Puebla de Híjar,899,60.80
+2020,44192,La Puebla de Valverde,451,282.76
 2020,44193,Puertomingalvo,117,103.62
 2020,44194,Ráfales,139,35.61
 2020,44195,Rillo,85,53.31
@@ -3013,8 +3013,8 @@ year,cp,name,population,superficie
 2020,44204,Saldón,24,28.37
 2020,44205,Samper de Calanda,721,142
 2020,44206,San Agustín,123,56.57
-2020,44207,San Martín del Río,132,5.42
-2020,44208,Santa Cruz de Nogueras,30,19.51
+2020,44207,San Martín del Río,132,16.57
+2020,44208,Santa Cruz de Nogueras,30,15.17
 2020,44209,Santa Eulalia,1050,80.97
 2020,44210,Sarrión,1148,140.44
 2020,44211,Segura de los Baños,41,54.15
@@ -3025,14 +3025,14 @@ year,cp,name,population,superficie
 2020,44217,Toril y Masegoso,33,30.67
 2020,44218,Tormón,25,29.34
 2020,44219,Tornos,202,48.95
-2020,44220,Torralba de los Sisones,157,40.39
-2020,44223,Torre de Arcas,94,26.76
-2020,44224,Torre de las Arcas,29,26.76
-2020,44225,Torre del Compte,117,34.28
-2020,44227,Torre los Negros,83,37.17
-2020,44221,Torrecilla de Alcañiz,439,19.46
-2020,44222,Torrecilla del Rebollar,123,35.54
-2020,44226,Torrelacárcel,143,29.15
+2020,44220,Torralba de los Sisones,157,44.78
+2020,44223,Torre de Arcas,94,34.28
+2020,44224,Torre de las Arcas,29,37.17
+2020,44225,Torre del Compte,117,19.46
+2020,44227,Torre los Negros,83,29.15
+2020,44221,Torrecilla de Alcañiz,439,26.76
+2020,44222,Torrecilla del Rebollar,123,63.44
+2020,44226,Torrelacárcel,143,35.54
 2020,44228,Torremocha de Jiloca,107,33.94
 2020,44229,Torres de Albarracín,185,28.31
 2020,44230,Torrevelilla,170,33.44
@@ -3055,12 +3055,12 @@ year,cp,name,population,superficie
 2020,44250,Veguillas de la Sierra,21,13.67
 2020,44251,Villafranca del Campo,285,63.64
 2020,44252,Villahermosa del Campo,83,19
-2020,44256,Villanueva del Rebollar de la Sierra,42,75.99
+2020,44256,Villanueva del Rebollar de la Sierra,42,18.99
 2020,44257,Villar del Cobo,160,54.13
 2020,44258,Villar del Salz,61,38.69
 2020,44260,Villarluengo,171,157.89
 2020,44261,Villarquemado,841,56.43
-2020,44262,Villarroya de los Pinares,161,91
+2020,44262,Villarroya de los Pinares,161,66.43
 2020,44263,Villastar,507,39.05
 2020,44264,Villel,333,85.38
 2020,44265,Vinaceite,231,50.07
@@ -3083,12 +3083,12 @@ year,cp,name,population,superficie
 2021,44014,Alcorisa,3293,121
 2021,44016,Alfambra,483,122.44
 2021,44017,Aliaga,333,193.08
-2021,44021,Allepuz,128,25.55
-2021,44022,Alloza,577,30.72
-2021,44023,Allueva,22,28.62
-2021,44018,Almohaja,14,67.26
-2021,44019,Alobras,65,81
-2021,44020,Alpeñés,20,18.65
+2021,44021,Allepuz,128,67.26
+2021,44022,Alloza,577,81
+2021,44023,Allueva,22,18.65
+2021,44018,Almohaja,14,25.55
+2021,44019,Alobras,65,30.72
+2021,44020,Alpeñés,20,28.62
 2021,44024,Anadón,32,24.62
 2021,44025,Andorra,7327,141.36
 2021,44026,Arcos de las Salinas,112,112.99
@@ -3102,8 +3102,8 @@ year,cp,name,population,superficie
 2021,44035,Barrachina,113,24.86
 2021,44036,Bea,31,23.37
 2021,44037,Beceite,544,96.72
-2021,44039,Bello,224,43.68
-2021,44038,Belmonte de San José,123,52.49
+2021,44039,Bello,224,52.49
+2021,44038,Belmonte de San José,123,33.99
 2021,44040,Berge,237,42.64
 2021,44041,Bezas,63,26.32
 2021,44042,Blancas,132,73
@@ -3127,12 +3127,12 @@ year,cp,name,population,superficie
 2021,44062,Cañada Vellida,37,23
 2021,44063,Cañizar del Olivar,105,22.29
 2021,44064,Cascante del Río,69,32.38
-2021,44065,Castejón de Tornos,52,17.56
+2021,44065,Castejón de Tornos,52,30.89
 2021,44066,Castel de Cabra,95,29.44
-2021,44070,El Castellar,56,37.09
-2021,44071,Castellote,687,31.52
-2021,44067,Castelnou,120,50.33
-2021,44068,Castelserás,789,235.18
+2021,44070,El Castellar,56,50.33
+2021,44071,Castellote,687,235.18
+2021,44067,Castelnou,120,37.09
+2021,44068,Castelserás,789,31.52
 2021,44074,Cedrillas,609,73.57
 2021,44075,Celadas,374,100.45
 2021,44076,Cella,2578,124.68
@@ -3188,8 +3188,8 @@ year,cp,name,population,superficie
 2021,44135,Libros,104,37.91
 2021,44136,Lidón,54,40
 2021,44137,Linares de Mora,226,116.28
-2021,44141,Lledó,172,71.78
-2021,44138,Loscos,122,15.61
+2021,44141,Lledó,172,15.61
+2021,44138,Loscos,122,83.99
 2021,44142,Maicas,31,24.74
 2021,44143,Manzanera,527,168.66
 2021,44144,Martín del Río,372,54.88
@@ -3220,7 +3220,7 @@ year,cp,name,population,superficie
 2021,44172,Oliete,340,85.48
 2021,44173,Los Olmos,118,43.97
 2021,44174,Orihuela del Tremedal,454,71.52
-2021,44175,Orrios,130,35
+2021,44175,Orrios,130,44.23
 2021,44176,Palomar de Arroyos,168,33.62
 2021,44177,Pancrudo,119,100.12
 2021,44178,Las Parras de Castellote,56,42.13
@@ -3234,8 +3234,8 @@ year,cp,name,population,superficie
 2021,44187,La Portellada,230,21.37
 2021,44189,Pozondón,47,67.64
 2021,44190,Pozuel del Campo,62,27.85
-2021,44191,La Puebla de Híjar,909,17.03
-2021,44192,La Puebla de Valverde,445,17.03
+2021,44191,La Puebla de Híjar,909,60.80
+2021,44192,La Puebla de Valverde,445,282.76
 2021,44193,Puertomingalvo,125,103.62
 2021,44194,Ráfales,144,35.61
 2021,44195,Rillo,92,53.31
@@ -3249,8 +3249,8 @@ year,cp,name,population,superficie
 2021,44204,Saldón,25,28.37
 2021,44205,Samper de Calanda,731,142
 2021,44206,San Agustín,138,56.57
-2021,44207,San Martín del Río,137,5.42
-2021,44208,Santa Cruz de Nogueras,30,19.51
+2021,44207,San Martín del Río,137,16.57
+2021,44208,Santa Cruz de Nogueras,30,15.17
 2021,44209,Santa Eulalia,1066,80.97
 2021,44210,Sarrión,1194,140.44
 2021,44211,Segura de los Baños,38,54.15
@@ -3261,14 +3261,14 @@ year,cp,name,population,superficie
 2021,44217,Toril y Masegoso,36,30.67
 2021,44218,Tormón,25,29.34
 2021,44219,Tornos,201,48.95
-2021,44220,Torralba de los Sisones,162,40.39
-2021,44223,Torre de Arcas,93,26.76
-2021,44224,Torre de las Arcas,25,26.76
-2021,44225,Torre del Compte,122,34.28
-2021,44227,Torre los Negros,82,37.17
-2021,44221,Torrecilla de Alcañiz,450,19.46
-2021,44222,Torrecilla del Rebollar,122,35.54
-2021,44226,Torrelacárcel,142,29.15
+2021,44220,Torralba de los Sisones,162,44.78
+2021,44223,Torre de Arcas,93,34.28
+2021,44224,Torre de las Arcas,25,37.17
+2021,44225,Torre del Compte,122,19.46
+2021,44227,Torre los Negros,82,29.15
+2021,44221,Torrecilla de Alcañiz,450,26.76
+2021,44222,Torrecilla del Rebollar,122,63.44
+2021,44226,Torrelacárcel,142,35.54
 2021,44228,Torremocha de Jiloca,108,33.94
 2021,44229,Torres de Albarracín,171,28.31
 2021,44230,Torrevelilla,180,33.44
@@ -3291,12 +3291,12 @@ year,cp,name,population,superficie
 2021,44250,Veguillas de la Sierra,21,13.67
 2021,44251,Villafranca del Campo,302,63.64
 2021,44252,Villahermosa del Campo,88,19
-2021,44256,Villanueva del Rebollar de la Sierra,42,75.99
+2021,44256,Villanueva del Rebollar de la Sierra,42,18.99
 2021,44257,Villar del Cobo,163,54.13
 2021,44258,Villar del Salz,66,38.69
 2021,44260,Villarluengo,169,157.89
 2021,44261,Villarquemado,846,56.43
-2021,44262,Villarroya de los Pinares,175,91
+2021,44262,Villarroya de los Pinares,175,66.43
 2021,44263,Villastar,548,39.05
 2021,44264,Villel,325,85.38
 2021,44265,Vinaceite,215,50.07
@@ -3319,12 +3319,12 @@ year,cp,name,population,superficie
 2022,44014,Alcorisa,3252,121
 2022,44016,Alfambra,490,122.44
 2022,44017,Aliaga,323,193.08
-2022,44021,Allepuz,124,25.55
-2022,44022,Alloza,553,30.72
-2022,44023,Allueva,21,28.62
-2022,44018,Almohaja,16,67.26
-2022,44019,Alobras,67,81
-2022,44020,Alpeñés,20,18.65
+2022,44021,Allepuz,124,67.26
+2022,44022,Alloza,553,81
+2022,44023,Allueva,21,18.65
+2022,44018,Almohaja,16,25.55
+2022,44019,Alobras,67,30.72
+2022,44020,Alpeñés,20,28.62
 2022,44024,Anadón,33,24.62
 2022,44025,Andorra,7201,141.36
 2022,44026,Arcos de las Salinas,117,112.99
@@ -3338,8 +3338,8 @@ year,cp,name,population,superficie
 2022,44035,Barrachina,116,24.86
 2022,44036,Bea,33,23.37
 2022,44037,Beceite,550,96.72
-2022,44039,Bello,230,43.68
-2022,44038,Belmonte de San José,136,52.49
+2022,44039,Bello,230,52.49
+2022,44038,Belmonte de San José,136,33.99
 2022,44040,Berge,231,42.64
 2022,44041,Bezas,63,26.32
 2022,44042,Blancas,140,73
@@ -3363,12 +3363,12 @@ year,cp,name,population,superficie
 2022,44062,Cañada Vellida,38,23
 2022,44063,Cañizar del Olivar,103,22.29
 2022,44064,Cascante del Río,66,32.38
-2022,44065,Castejón de Tornos,53,17.56
+2022,44065,Castejón de Tornos,53,30.89
 2022,44066,Castel de Cabra,95,29.44
-2022,44070,El Castellar,55,37.09
-2022,44071,Castellote,677,31.52
-2022,44067,Castelnou,113,50.33
-2022,44068,Castelserás,793,235.18
+2022,44070,El Castellar,55,50.33
+2022,44071,Castellote,677,235.18
+2022,44067,Castelnou,113,37.09
+2022,44068,Castelserás,793,31.52
 2022,44074,Cedrillas,634,73.57
 2022,44075,Celadas,362,100.45
 2022,44076,Cella,2611,124.68
@@ -3424,8 +3424,8 @@ year,cp,name,population,superficie
 2022,44135,Libros,102,37.91
 2022,44136,Lidón,53,40
 2022,44137,Linares de Mora,235,116.28
-2022,44141,Lledó,171,71.78
-2022,44138,Loscos,118,15.61
+2022,44141,Lledó,171,15.61
+2022,44138,Loscos,118,83.99
 2022,44142,Maicas,31,24.74
 2022,44143,Manzanera,533,168.66
 2022,44144,Martín del Río,372,54.88
@@ -3456,7 +3456,7 @@ year,cp,name,population,superficie
 2022,44172,Oliete,330,85.48
 2022,44173,Los Olmos,120,43.97
 2022,44174,Orihuela del Tremedal,454,71.52
-2022,44175,Orrios,123,35
+2022,44175,Orrios,123,44.23
 2022,44176,Palomar de Arroyos,172,33.62
 2022,44177,Pancrudo,123,100.12
 2022,44178,Las Parras de Castellote,60,42.13
@@ -3470,8 +3470,8 @@ year,cp,name,population,superficie
 2022,44187,La Portellada,236,21.37
 2022,44189,Pozondón,48,67.64
 2022,44190,Pozuel del Campo,60,27.85
-2022,44191,La Puebla de Híjar,914,17.03
-2022,44192,La Puebla de Valverde,448,17.03
+2022,44191,La Puebla de Híjar,914,60.80
+2022,44192,La Puebla de Valverde,448,282.76
 2022,44193,Puertomingalvo,141,103.62
 2022,44194,Ráfales,146,35.61
 2022,44195,Rillo,86,53.31
@@ -3485,8 +3485,8 @@ year,cp,name,population,superficie
 2022,44204,Saldón,22,28.37
 2022,44205,Samper de Calanda,731,142
 2022,44206,San Agustín,134,56.57
-2022,44207,San Martín del Río,132,5.42
-2022,44208,Santa Cruz de Nogueras,25,19.51
+2022,44207,San Martín del Río,132,16.57
+2022,44208,Santa Cruz de Nogueras,25,15.17
 2022,44209,Santa Eulalia,1033,80.97
 2022,44210,Sarrión,1201,140.44
 2022,44211,Segura de los Baños,42,54.15
@@ -3497,14 +3497,14 @@ year,cp,name,population,superficie
 2022,44217,Toril y Masegoso,37,30.67
 2022,44218,Tormón,26,29.34
 2022,44219,Tornos,196,48.95
-2022,44220,Torralba de los Sisones,151,40.39
-2022,44223,Torre de Arcas,82,26.76
-2022,44224,Torre de las Arcas,24,26.76
-2022,44225,Torre del Compte,125,34.28
-2022,44227,Torre los Negros,81,37.17
-2022,44221,Torrecilla de Alcañiz,460,19.46
-2022,44222,Torrecilla del Rebollar,121,35.54
-2022,44226,Torrelacárcel,140,29.15
+2022,44220,Torralba de los Sisones,151,44.78
+2022,44223,Torre de Arcas,82,34.28
+2022,44224,Torre de las Arcas,24,37.17
+2022,44225,Torre del Compte,125,19.46
+2022,44227,Torre los Negros,81,29.15
+2022,44221,Torrecilla de Alcañiz,460,26.76
+2022,44222,Torrecilla del Rebollar,121,63.44
+2022,44226,Torrelacárcel,140,35.54
 2022,44228,Torremocha de Jiloca,106,33.94
 2022,44229,Torres de Albarracín,168,28.31
 2022,44230,Torrevelilla,170,33.44
@@ -3527,12 +3527,12 @@ year,cp,name,population,superficie
 2022,44250,Veguillas de la Sierra,21,13.67
 2022,44251,Villafranca del Campo,301,63.64
 2022,44252,Villahermosa del Campo,90,19
-2022,44256,Villanueva del Rebollar de la Sierra,44,75.99
+2022,44256,Villanueva del Rebollar de la Sierra,44,18.99
 2022,44257,Villar del Cobo,165,54.13
 2022,44258,Villar del Salz,63,38.69
 2022,44260,Villarluengo,174,157.89
 2022,44261,Villarquemado,857,56.43
-2022,44262,Villarroya de los Pinares,172,91
+2022,44262,Villarroya de los Pinares,172,66.43
 2022,44263,Villastar,543,39.05
 2022,44264,Villel,329,85.38
 2022,44265,Vinaceite,211,50.07
@@ -3555,12 +3555,12 @@ year,cp,name,population,superficie
 2023,44014,Alcorisa,3243,121
 2023,44016,Alfambra,482,122.44
 2023,44017,Aliaga,343,193.08
-2023,44021,Allepuz,121,25.55
-2023,44022,Alloza,540,30.72
-2023,44023,Allueva,27,28.62
-2023,44018,Almohaja,17,67.26
-2023,44019,Alobras,71,81
-2023,44020,Alpeñés,25,18.65
+2023,44021,Allepuz,121,67.26
+2023,44022,Alloza,540,81
+2023,44023,Allueva,27,18.65
+2023,44018,Almohaja,17,25.55
+2023,44019,Alobras,71,30.72
+2023,44020,Alpeñés,25,28.62
 2023,44024,Anadón,33,24.62
 2023,44025,Andorra,7214,141.36
 2023,44026,Arcos de las Salinas,116,112.99
@@ -3574,8 +3574,8 @@ year,cp,name,population,superficie
 2023,44035,Barrachina,120,24.86
 2023,44036,Bea,28,23.37
 2023,44037,Beceite,569,96.72
-2023,44039,Bello,217,43.68
-2023,44038,Belmonte de San José,127,52.49
+2023,44039,Bello,217,52.49
+2023,44038,Belmonte de San José,127,33.99
 2023,44040,Berge,226,42.64
 2023,44041,Bezas,64,26.32
 2023,44042,Blancas,135,73
@@ -3599,12 +3599,12 @@ year,cp,name,population,superficie
 2023,44062,Cañada Vellida,40,23
 2023,44063,Cañizar del Olivar,103,22.29
 2023,44064,Cascante del Río,70,32.38
-2023,44065,Castejón de Tornos,68,17.56
+2023,44065,Castejón de Tornos,68,30.89
 2023,44066,Castel de Cabra,89,29.44
-2023,44070,El Castellar,55,37.09
-2023,44071,Castellote,678,31.52
-2023,44067,Castelnou,108,50.33
-2023,44068,Castelserás,795,235.18
+2023,44070,El Castellar,55,50.33
+2023,44071,Castellote,678,235.18
+2023,44067,Castelnou,108,37.09
+2023,44068,Castelserás,795,31.52
 2023,44074,Cedrillas,653,73.57
 2023,44075,Celadas,345,100.45
 2023,44076,Cella,2644,124.68
@@ -3660,8 +3660,8 @@ year,cp,name,population,superficie
 2023,44135,Libros,101,37.91
 2023,44136,Lidón,51,40
 2023,44137,Linares de Mora,232,116.28
-2023,44141,Lledó,171,71.78
-2023,44138,Loscos,116,15.61
+2023,44141,Lledó,171,15.61
+2023,44138,Loscos,116,83.99
 2023,44142,Maicas,32,24.74
 2023,44143,Manzanera,540,168.66
 2023,44144,Martín del Río,370,54.88
@@ -3692,7 +3692,7 @@ year,cp,name,population,superficie
 2023,44172,Oliete,349,85.48
 2023,44173,Los Olmos,119,43.97
 2023,44174,Orihuela del Tremedal,453,71.52
-2023,44175,Orrios,122,35
+2023,44175,Orrios,122,44.23
 2023,44176,Palomar de Arroyos,167,33.62
 2023,44177,Pancrudo,114,100.12
 2023,44178,Las Parras de Castellote,61,42.13
@@ -3706,8 +3706,8 @@ year,cp,name,population,superficie
 2023,44187,La Portellada,242,21.37
 2023,44189,Pozondón,54,67.64
 2023,44190,Pozuel del Campo,66,27.85
-2023,44191,La Puebla de Híjar,917,17.03
-2023,44192,La Puebla de Valverde,470,17.03
+2023,44191,La Puebla de Híjar,917,60.80
+2023,44192,La Puebla de Valverde,470,282.76
 2023,44193,Puertomingalvo,137,103.62
 2023,44194,Ráfales,150,35.61
 2023,44195,Rillo,97,53.31
@@ -3721,8 +3721,8 @@ year,cp,name,population,superficie
 2023,44204,Saldón,21,28.37
 2023,44205,Samper de Calanda,725,142
 2023,44206,San Agustín,134,56.57
-2023,44207,San Martín del Río,135,5.42
-2023,44208,Santa Cruz de Nogueras,23,19.51
+2023,44207,San Martín del Río,135,16.57
+2023,44208,Santa Cruz de Nogueras,23,15.17
 2023,44209,Santa Eulalia,1017,80.97
 2023,44210,Sarrión,1197,140.44
 2023,44211,Segura de los Baños,42,54.15
@@ -3733,14 +3733,14 @@ year,cp,name,population,superficie
 2023,44217,Toril y Masegoso,33,30.67
 2023,44218,Tormón,33,29.34
 2023,44219,Tornos,191,48.95
-2023,44220,Torralba de los Sisones,148,40.39
-2023,44223,Torre de Arcas,82,26.76
-2023,44224,Torre de las Arcas,24,26.76
-2023,44225,Torre del Compte,118,34.28
-2023,44227,Torre los Negros,76,37.17
-2023,44221,Torrecilla de Alcañiz,440,19.46
-2023,44222,Torrecilla del Rebollar,125,35.54
-2023,44226,Torrelacárcel,135,29.15
+2023,44220,Torralba de los Sisones,148,44.78
+2023,44223,Torre de Arcas,82,34.28
+2023,44224,Torre de las Arcas,24,37.17
+2023,44225,Torre del Compte,118,19.46
+2023,44227,Torre los Negros,76,29.15
+2023,44221,Torrecilla de Alcañiz,440,26.76
+2023,44222,Torrecilla del Rebollar,125,63.44
+2023,44226,Torrelacárcel,135,35.54
 2023,44228,Torremocha de Jiloca,110,33.94
 2023,44229,Torres de Albarracín,191,28.31
 2023,44230,Torrevelilla,169,33.44
@@ -3763,16 +3763,15 @@ year,cp,name,population,superficie
 2023,44250,Veguillas de la Sierra,20,13.67
 2023,44251,Villafranca del Campo,302,63.64
 2023,44252,Villahermosa del Campo,93,19
-2023,44256,Villanueva del Rebollar de la Sierra,44,75.99
+2023,44256,Villanueva del Rebollar de la Sierra,44,18.99
 2023,44257,Villar del Cobo,163,54.13
 2023,44258,Villar del Salz,59,38.69
 2023,44260,Villarluengo,181,157.89
 2023,44261,Villarquemado,865,56.43
-2023,44262,Villarroya de los Pinares,168,91
+2023,44262,Villarroya de los Pinares,168,66.43
 2023,44263,Villastar,543,39.05
 2023,44264,Villel,326,85.38
 2023,44265,Vinaceite,200,50.07
 2023,44266,Visiedo,130,55.53
 2023,44267,Vivel del Río Martín,67,51.16
 2023,44268,La Zoma,27,14
-

@@ -1,0 +1,44 @@
+{
+  "redirects": [
+    {
+      "source": "/municipio/almolda-la",
+      "destination": "/municipio/la-almolda",
+      "permanent": true
+    },
+    {
+      "source": "/municipio/almolda-la/",
+      "destination": "/municipio/la-almolda",
+      "permanent": true
+    },
+    {
+      "source": "/municipio/almunia-de-dona-godina-la",
+      "destination": "/municipio/la-almunia-de-dona-godina",
+      "permanent": true
+    },
+    {
+      "source": "/municipio/almunia-de-dona-godina-la/",
+      "destination": "/municipio/la-almunia-de-dona-godina",
+      "permanent": true
+    },
+    {
+      "source": "/municipio/joyosa-la",
+      "destination": "/municipio/la-joyosa",
+      "permanent": true
+    },
+    {
+      "source": "/municipio/joyosa-la/",
+      "destination": "/municipio/la-joyosa",
+      "permanent": true
+    },
+    {
+      "source": "/municipio/pedrosas-las",
+      "destination": "/municipio/las-pedrosas",
+      "permanent": true
+    },
+    {
+      "source": "/municipio/pedrosas-las/",
+      "destination": "/municipio/las-pedrosas",
+      "permanent": true
+    }
+  ]
+}

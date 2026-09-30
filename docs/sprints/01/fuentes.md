@@ -18,7 +18,7 @@ Consecuencias para las fases siguientes:
 - El "2024" está bien etiquetado: es el padrón a 1-ene-2024. Lo que está mal es `src/pages/index.astro:31-32` ("padrón del INE a fecha 1 de enero de 2025").
 - La población total que usan los porcentajes de edad (censo) no es la del padrón. Hay que decidir si se sigue así y documentarlo en Metodología.
 - El tramo que se etiqueta como "0-16" es en realidad **"Menos de 16 años"** (0-15). "16-64" y "65-100" corresponden a "De 16 a 64" y "65 y más".
-- `zaragoza-total.csv` no coincide con el INE en 2022 y 2023: 2023 = 979.365 (INE 977.413) y 2022 = 968.884 (INE 966.438). Además tiene la cabecera repetida. Lo corrige la fase 3.
+- `zaragoza-total.csv` no coincide con el INE en 2022 y 2023: 2023 = 979.365 (INE 977.413) y 2022 = 968.884 (INE 966.438). Además tiene la cabecera repetida. Lo corrige la fase 3. **Corregido en la fase 3**, junto con los totales de 2021-2023 de Huesca y Teruel, que tampoco coincidían: los `*-total.csv` y `aragon-total.csv` toman ahora de DPOP todos los años del padrón.
 
 ## Tablas que se usan
 
@@ -66,6 +66,8 @@ El script escribe `data-raw/superficie.csv` con `codigo_ine,nombre,sup_of_km2,ar
 - Los nombres con mojibake ("CastejÃ³n") se reparan. El nombre es solo para mostrar.
 
 Hay 31 municipios cuyo `sup_of_km2` se aleja más de un 5 % del área del polígono. La mayoría son un cruce por prefijo del nombre en el origen del gist: todos los "Castejón de…" valen 17,56; "Villanueva…" 75,99; "Santa Cruz de…" 19,51; "Torralba de…" 40,39; "La Puebla de…" 17,03; "Villarroya…" 91. Es la causa de las densidades absurdas que hay hoy en `*-densidad.csv` (Villanueva de Jiloca, 75,99 km²). Argavieso y Jasa solo difieren por redondeo a entero. En Ansó y Fago el polígono de Fago tiene la misma área que el de Ansó, así que ahí tampoco sirve el polígono. **La fase 3 decide la corrección**, idealmente con una fuente oficial de superficie (IGN / IAEST) o con el área del polígono.
+
+**Decisión de la fase 3.** Se usa `sup_of_km2`, salvo en los 27 municipios de la tabla con más de un 5 % de desviación, donde se usa `area_poligono_km2` con dos decimales. Hay cuatro excepciones que conservan `sup_of_km2`: Argavieso y Jasa (22036 y 22131), porque la diferencia es de redondeo, y Ansó y Fago (22028 y 22106), porque su polígono es compartido. La superficie se cruza siempre por código. Al generar `*-densidad.csv` y `aragon-municipios.csv` hay que aplicar la misma regla.
 
 | Código | Municipio | `sup_of_km2` | Área del polígono |
 |---|---|---|---|

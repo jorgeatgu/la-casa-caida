@@ -73,8 +73,8 @@ year,cp,name,population,superficie
 1900,50073,Cariñena,3313,82.51
 1900,50074,Caspe,7808,503.15
 1900,50075,Castejón de Alarba,294,17.56
-1900,50076,Castejón de las Armas,750,17.56
-1900,50077,Castejón de Valdejasa,1095,17.56
+1900,50076,Castejón de las Armas,750,16.18
+1900,50077,Castejón de Valdejasa,1095,110.11
 1900,50078,Castiliscar,823,40.68
 1900,50079,Cervera de la Cañada,904,29.22
 1900,50080,Cerveruela,443,23.49
@@ -193,7 +193,7 @@ year,cp,name,population,superficie
 1900,50199,Osera de Ebro,497,24.56
 1900,50200,Paniza,1820,47.31
 1900,50201,Paracuellos de Jiloca,712,32
-1900,50202,Paracuellos de la Ribera,908,32
+1900,50202,Paracuellos de la Ribera,908,14.95
 1900,50203,Pastriz,707,16.52
 1900,50204,Pedrola,2269,113.74
 1900,50205,Las Pedrosas,390,18.26
@@ -227,8 +227,8 @@ year,cp,name,population,superficie
 1900,50234,San Martín de la Virgen de Moncayo,385,5.42
 1900,50235,San Mateo de Gállego,960,71.62
 1900,50236,Santa Cruz de Grío,929,19.51
-1900,50237,Santa Cruz de Moncayo,318,19.51
-1900,50238,Santa Eulalia de Gállego,924,80.97
+1900,50237,Santa Cruz de Moncayo,318,3.97
+1900,50238,Santa Eulalia de Gállego,924,29.58
 1900,50239,Santed,290,17.81
 1900,50240,Sástago,2987,300.98
 1900,50241,Sabiñán,1759,15.52
@@ -246,8 +246,8 @@ year,cp,name,population,superficie
 1900,50253,Terrer,975,33.75
 1900,50254,Tierga,682,66.13
 1900,50255,Tobed,1002,32.39
-1900,50256,Torralba de los Frailes,530,40.39
-1900,50257,Torralba de Ribota,654,40.39
+1900,50256,Torralba de los Frailes,530,59.19
+1900,50257,Torralba de Ribota,654,32.51
 1900,50258,Torralbilla,393,25.86
 1900,50259,Torrehermosa,258,21.13
 1900,50260,Torrelapaja,310,15.68
@@ -279,12 +279,12 @@ year,cp,name,population,superficie
 1900,50286,Villalba de Perejil,266,13.33
 1900,50287,Villalengua,1384,40.16
 1900,50288,Villanueva de Gállego,1281,75.99
-1900,50289,Villanueva de Jiloca,545,75.99
+1900,50289,Villanueva de Jiloca,545,7.34
 1900,50290,Villanueva de Huerva,922,75.99
 1900,50291,Villar de los Navarros,984,49
 1900,50292,Villarreal de Huerva,469,27.13
 1900,50293,Villarroya de la Sierra,2405,91
-1900,50294,Villarroya del Campo,229,91
+1900,50294,Villarroya del Campo,229,16.94
 1900,50295,Vistabella,495,21.82
 1900,50296,La Zaida,446,17.27
 1900,50297,Zaragoza,98397,973.78
@@ -366,8 +366,8 @@ year,cp,name,population,superficie
 1910,50073,Cariñena,3592,82.51
 1910,50074,Caspe,8893,503.15
 1910,50075,Castejón de Alarba,357,17.56
-1910,50076,Castejón de las Armas,721,17.56
-1910,50077,Castejón de Valdejasa,1061,17.56
+1910,50076,Castejón de las Armas,721,16.18
+1910,50077,Castejón de Valdejasa,1061,110.11
 1910,50078,Castiliscar,870,40.68
 1910,50079,Cervera de la Cañada,1019,29.22
 1910,50080,Cerveruela,431,23.49
@@ -486,7 +486,7 @@ year,cp,name,population,superficie
 1910,50199,Osera de Ebro,529,24.56
 1910,50200,Paniza,1654,47.31
 1910,50201,Paracuellos de Jiloca,894,32
-1910,50202,Paracuellos de la Ribera,941,32
+1910,50202,Paracuellos de la Ribera,941,14.95
 1910,50203,Pastriz,796,16.52
 1910,50204,Pedrola,2507,113.74
 1910,50205,Las Pedrosas,427,18.26
@@ -520,8 +520,8 @@ year,cp,name,population,superficie
 1910,50234,San Martín de la Virgen de Moncayo,374,5.42
 1910,50235,San Mateo de Gállego,1165,71.62
 1910,50236,Santa Cruz de Grío,979,19.51
-1910,50237,Santa Cruz de Moncayo,253,19.51
-1910,50238,Santa Eulalia de Gállego,936,80.97
+1910,50237,Santa Cruz de Moncayo,253,3.97
+1910,50238,Santa Eulalia de Gállego,936,29.58
 1910,50239,Santed,323,17.81
 1910,50240,Sástago,3087,300.98
 1910,50241,Sabiñán,1648,15.52
@@ -539,8 +539,8 @@ year,cp,name,population,superficie
 1910,50253,Terrer,977,33.75
 1910,50254,Tierga,802,66.13
 1910,50255,Tobed,975,32.39
-1910,50256,Torralba de los Frailes,543,40.39
-1910,50257,Torralba de Ribota,637,40.39
+1910,50256,Torralba de los Frailes,543,59.19
+1910,50257,Torralba de Ribota,637,32.51
 1910,50258,Torralbilla,392,25.86
 1910,50259,Torrehermosa,316,21.13
 1910,50260,Torrelapaja,331,15.68
@@ -572,12 +572,12 @@ year,cp,name,population,superficie
 1910,50286,Villalba de Perejil,272,13.33
 1910,50287,Villalengua,1280,40.16
 1910,50288,Villanueva de Gállego,1371,75.99
-1910,50289,Villanueva de Jiloca,438,75.99
+1910,50289,Villanueva de Jiloca,438,7.34
 1910,50290,Villanueva de Huerva,1124,75.99
 1910,50291,Villar de los Navarros,1175,49
 1910,50292,Villarreal de Huerva,458,27.13
 1910,50293,Villarroya de la Sierra,2435,91
-1910,50294,Villarroya del Campo,252,91
+1910,50294,Villarroya del Campo,252,16.94
 1910,50295,Vistabella,621,21.82
 1910,50296,La Zaida,485,17.27
 1910,50297,Zaragoza,109957,973.78
@@ -659,8 +659,8 @@ year,cp,name,population,superficie
 1920,50073,Cariñena,3448,82.51
 1920,50074,Caspe,9259,503.15
 1920,50075,Castejón de Alarba,321,17.56
-1920,50076,Castejón de las Armas,598,17.56
-1920,50077,Castejón de Valdejasa,1049,17.56
+1920,50076,Castejón de las Armas,598,16.18
+1920,50077,Castejón de Valdejasa,1049,110.11
 1920,50078,Castiliscar,943,40.68
 1920,50079,Cervera de la Cañada,1028,29.22
 1920,50080,Cerveruela,386,23.49
@@ -779,7 +779,7 @@ year,cp,name,population,superficie
 1920,50199,Osera de Ebro,546,24.56
 1920,50200,Paniza,1425,47.31
 1920,50201,Paracuellos de Jiloca,1078,32
-1920,50202,Paracuellos de la Ribera,984,32
+1920,50202,Paracuellos de la Ribera,984,14.95
 1920,50203,Pastriz,820,16.52
 1920,50204,Pedrola,2632,113.74
 1920,50205,Las Pedrosas,462,18.26
@@ -813,8 +813,8 @@ year,cp,name,population,superficie
 1920,50234,San Martín de la Virgen de Moncayo,400,5.42
 1920,50235,San Mateo de Gállego,1361,71.62
 1920,50236,Santa Cruz de Grío,1004,19.51
-1920,50237,Santa Cruz de Moncayo,268,19.51
-1920,50238,Santa Eulalia de Gállego,907,80.97
+1920,50237,Santa Cruz de Moncayo,268,3.97
+1920,50238,Santa Eulalia de Gállego,907,29.58
 1920,50239,Santed,336,17.81
 1920,50240,Sástago,3059,300.98
 1920,50241,Sabiñán,1765,15.52
@@ -832,8 +832,8 @@ year,cp,name,population,superficie
 1920,50253,Terrer,1393,33.75
 1920,50254,Tierga,1058,66.13
 1920,50255,Tobed,964,32.39
-1920,50256,Torralba de los Frailes,624,40.39
-1920,50257,Torralba de Ribota,594,40.39
+1920,50256,Torralba de los Frailes,624,59.19
+1920,50257,Torralba de Ribota,594,32.51
 1920,50258,Torralbilla,416,25.86
 1920,50259,Torrehermosa,365,21.13
 1920,50260,Torrelapaja,348,15.68
@@ -865,12 +865,12 @@ year,cp,name,population,superficie
 1920,50286,Villalba de Perejil,251,13.33
 1920,50287,Villalengua,1236,40.16
 1920,50288,Villanueva de Gállego,1778,75.99
-1920,50289,Villanueva de Jiloca,515,75.99
+1920,50289,Villanueva de Jiloca,515,7.34
 1920,50290,Villanueva de Huerva,1346,75.99
 1920,50291,Villar de los Navarros,1187,49
 1920,50292,Villarreal de Huerva,463,27.13
 1920,50293,Villarroya de la Sierra,2274,91
-1920,50294,Villarroya del Campo,255,91
+1920,50294,Villarroya del Campo,255,16.94
 1920,50295,Vistabella,545,21.82
 1920,50296,La Zaida,570,17.27
 1920,50297,Zaragoza,138617,973.78
@@ -952,8 +952,8 @@ year,cp,name,population,superficie
 1930,50073,Cariñena,3070,82.51
 1930,50074,Caspe,9992,503.15
 1930,50075,Castejón de Alarba,355,17.56
-1930,50076,Castejón de las Armas,575,17.56
-1930,50077,Castejón de Valdejasa,1102,17.56
+1930,50076,Castejón de las Armas,575,16.18
+1930,50077,Castejón de Valdejasa,1102,110.11
 1930,50078,Castiliscar,1026,40.68
 1930,50079,Cervera de la Cañada,982,29.22
 1930,50080,Cerveruela,363,23.49
@@ -1072,7 +1072,7 @@ year,cp,name,population,superficie
 1930,50199,Osera de Ebro,537,24.56
 1930,50200,Paniza,1375,47.31
 1930,50201,Paracuellos de Jiloca,1172,32
-1930,50202,Paracuellos de la Ribera,1015,32
+1930,50202,Paracuellos de la Ribera,1015,14.95
 1930,50203,Pastriz,857,16.52
 1930,50204,Pedrola,2668,113.74
 1930,50205,Las Pedrosas,443,18.26
@@ -1106,8 +1106,8 @@ year,cp,name,population,superficie
 1930,50234,San Martín de la Virgen de Moncayo,392,5.42
 1930,50235,San Mateo de Gállego,1516,71.62
 1930,50236,Santa Cruz de Grío,917,19.51
-1930,50237,Santa Cruz de Moncayo,281,19.51
-1930,50238,Santa Eulalia de Gállego,851,80.97
+1930,50237,Santa Cruz de Moncayo,281,3.97
+1930,50238,Santa Eulalia de Gállego,851,29.58
 1930,50239,Santed,334,17.81
 1930,50240,Sástago,3047,300.98
 1930,50241,Sabiñán,1799,15.52
@@ -1125,8 +1125,8 @@ year,cp,name,population,superficie
 1930,50253,Terrer,1867,33.75
 1930,50254,Tierga,1082,66.13
 1930,50255,Tobed,942,32.39
-1930,50256,Torralba de los Frailes,678,40.39
-1930,50257,Torralba de Ribota,610,40.39
+1930,50256,Torralba de los Frailes,678,59.19
+1930,50257,Torralba de Ribota,610,32.51
 1930,50258,Torralbilla,452,25.86
 1930,50259,Torrehermosa,411,21.13
 1930,50260,Torrelapaja,356,15.68
@@ -1158,12 +1158,12 @@ year,cp,name,population,superficie
 1930,50286,Villalba de Perejil,263,13.33
 1930,50287,Villalengua,1206,40.16
 1930,50288,Villanueva de Gállego,2110,75.99
-1930,50289,Villanueva de Jiloca,516,75.99
+1930,50289,Villanueva de Jiloca,516,7.34
 1930,50290,Villanueva de Huerva,1270,75.99
 1930,50291,Villar de los Navarros,1291,49
 1930,50292,Villarreal de Huerva,523,27.13
 1930,50293,Villarroya de la Sierra,2193,91
-1930,50294,Villarroya del Campo,294,91
+1930,50294,Villarroya del Campo,294,16.94
 1930,50295,Vistabella,547,21.82
 1930,50296,La Zaida,578,17.27
 1930,50297,Zaragoza,160179,973.78
@@ -1245,8 +1245,8 @@ year,cp,name,population,superficie
 1940,50073,Cariñena,3049,82.51
 1940,50074,Caspe,9844,503.15
 1940,50075,Castejón de Alarba,361,17.56
-1940,50076,Castejón de las Armas,526,17.56
-1940,50077,Castejón de Valdejasa,1162,17.56
+1940,50076,Castejón de las Armas,526,16.18
+1940,50077,Castejón de Valdejasa,1162,110.11
 1940,50078,Castiliscar,1039,40.68
 1940,50079,Cervera de la Cañada,1021,29.22
 1940,50080,Cerveruela,276,23.49
@@ -1365,7 +1365,7 @@ year,cp,name,population,superficie
 1940,50199,Osera de Ebro,539,24.56
 1940,50200,Paniza,1319,47.31
 1940,50201,Paracuellos de Jiloca,1256,32
-1940,50202,Paracuellos de la Ribera,967,32
+1940,50202,Paracuellos de la Ribera,967,14.95
 1940,50203,Pastriz,784,16.52
 1940,50204,Pedrola,2850,113.74
 1940,50205,Las Pedrosas,359,18.26
@@ -1399,8 +1399,8 @@ year,cp,name,population,superficie
 1940,50234,San Martín de la Virgen de Moncayo,421,5.42
 1940,50235,San Mateo de Gállego,1598,71.62
 1940,50236,Santa Cruz de Grío,877,19.51
-1940,50237,Santa Cruz de Moncayo,275,19.51
-1940,50238,Santa Eulalia de Gállego,737,80.97
+1940,50237,Santa Cruz de Moncayo,275,3.97
+1940,50238,Santa Eulalia de Gállego,737,29.58
 1940,50239,Santed,307,17.81
 1940,50240,Sástago,2865,300.98
 1940,50241,Sabiñán,1716,15.52
@@ -1418,8 +1418,8 @@ year,cp,name,population,superficie
 1940,50253,Terrer,1909,33.75
 1940,50254,Tierga,969,66.13
 1940,50255,Tobed,975,32.39
-1940,50256,Torralba de los Frailes,715,40.39
-1940,50257,Torralba de Ribota,613,40.39
+1940,50256,Torralba de los Frailes,715,59.19
+1940,50257,Torralba de Ribota,613,32.51
 1940,50258,Torralbilla,406,25.86
 1940,50259,Torrehermosa,437,21.13
 1940,50260,Torrelapaja,405,15.68
@@ -1451,12 +1451,12 @@ year,cp,name,population,superficie
 1940,50286,Villalba de Perejil,272,13.33
 1940,50287,Villalengua,1218,40.16
 1940,50288,Villanueva de Gállego,2094,75.99
-1940,50289,Villanueva de Jiloca,529,75.99
+1940,50289,Villanueva de Jiloca,529,7.34
 1940,50290,Villanueva de Huerva,1215,75.99
 1940,50291,Villar de los Navarros,1101,49
 1940,50292,Villarreal de Huerva,573,27.13
 1940,50293,Villarroya de la Sierra,2116,91
-1940,50294,Villarroya del Campo,284,91
+1940,50294,Villarroya del Campo,284,16.94
 1940,50295,Vistabella,505,21.82
 1940,50296,La Zaida,620,17.27
 1940,50297,Zaragoza,202948,973.78
@@ -1538,8 +1538,8 @@ year,cp,name,population,superficie
 1950,50073,Cariñena,3158,82.51
 1950,50074,Caspe,10128,503.15
 1950,50075,Castejón de Alarba,343,17.56
-1950,50076,Castejón de las Armas,508,17.56
-1950,50077,Castejón de Valdejasa,1068,17.56
+1950,50076,Castejón de las Armas,508,16.18
+1950,50077,Castejón de Valdejasa,1068,110.11
 1950,50078,Castiliscar,1045,40.68
 1950,50079,Cervera de la Cañada,1020,29.22
 1950,50080,Cerveruela,300,23.49
@@ -1658,7 +1658,7 @@ year,cp,name,population,superficie
 1950,50199,Osera de Ebro,404,24.56
 1950,50200,Paniza,1330,47.31
 1950,50201,Paracuellos de Jiloca,1183,32
-1950,50202,Paracuellos de la Ribera,931,32
+1950,50202,Paracuellos de la Ribera,931,14.95
 1950,50203,Pastriz,821,16.52
 1950,50204,Pedrola,2702,113.74
 1950,50205,Las Pedrosas,337,18.26
@@ -1692,8 +1692,8 @@ year,cp,name,population,superficie
 1950,50234,San Martín de la Virgen de Moncayo,420,5.42
 1950,50235,San Mateo de Gállego,1814,71.62
 1950,50236,Santa Cruz de Grío,871,19.51
-1950,50237,Santa Cruz de Moncayo,251,19.51
-1950,50238,Santa Eulalia de Gállego,517,80.97
+1950,50237,Santa Cruz de Moncayo,251,3.97
+1950,50238,Santa Eulalia de Gállego,517,29.58
 1950,50239,Santed,310,17.81
 1950,50240,Sástago,2658,300.98
 1950,50241,Sabiñán,1628,15.52
@@ -1711,8 +1711,8 @@ year,cp,name,population,superficie
 1950,50253,Terrer,1742,33.75
 1950,50254,Tierga,789,66.13
 1950,50255,Tobed,843,32.39
-1950,50256,Torralba de los Frailes,711,40.39
-1950,50257,Torralba de Ribota,573,40.39
+1950,50256,Torralba de los Frailes,711,59.19
+1950,50257,Torralba de Ribota,573,32.51
 1950,50258,Torralbilla,437,25.86
 1950,50259,Torrehermosa,342,21.13
 1950,50260,Torrelapaja,383,15.68
@@ -1744,12 +1744,12 @@ year,cp,name,population,superficie
 1950,50286,Villalba de Perejil,236,13.33
 1950,50287,Villalengua,1124,40.16
 1950,50288,Villanueva de Gállego,2138,75.99
-1950,50289,Villanueva de Jiloca,487,75.99
+1950,50289,Villanueva de Jiloca,487,7.34
 1950,50290,Villanueva de Huerva,1289,75.99
 1950,50291,Villar de los Navarros,1084,49
 1950,50292,Villarreal de Huerva,561,27.13
 1950,50293,Villarroya de la Sierra,1954,91
-1950,50294,Villarroya del Campo,293,91
+1950,50294,Villarroya del Campo,293,16.94
 1950,50295,Vistabella,485,21.82
 1950,50296,La Zaida,596,17.27
 1950,50297,Zaragoza,241867,973.78
@@ -1831,8 +1831,8 @@ year,cp,name,population,superficie
 1960,50073,Cariñena,3031,82.51
 1960,50074,Caspe,9603,503.15
 1960,50075,Castejón de Alarba,298,17.56
-1960,50076,Castejón de las Armas,401,17.56
-1960,50077,Castejón de Valdejasa,902,17.56
+1960,50076,Castejón de las Armas,401,16.18
+1960,50077,Castejón de Valdejasa,902,110.11
 1960,50078,Castiliscar,1012,40.68
 1960,50079,Cervera de la Cañada,772,29.22
 1960,50080,Cerveruela,153,23.49
@@ -1951,7 +1951,7 @@ year,cp,name,population,superficie
 1960,50199,Osera de Ebro,407,24.56
 1960,50200,Paniza,1166,47.31
 1960,50201,Paracuellos de Jiloca,1069,32
-1960,50202,Paracuellos de la Ribera,800,32
+1960,50202,Paracuellos de la Ribera,800,14.95
 1960,50203,Pastriz,929,16.52
 1960,50204,Pedrola,2677,113.74
 1960,50205,Las Pedrosas,251,18.26
@@ -1985,8 +1985,8 @@ year,cp,name,population,superficie
 1960,50234,San Martín de la Virgen de Moncayo,405,5.42
 1960,50235,San Mateo de Gállego,1793,71.62
 1960,50236,Santa Cruz de Grío,720,19.51
-1960,50237,Santa Cruz de Moncayo,216,19.51
-1960,50238,Santa Eulalia de Gállego,305,80.97
+1960,50237,Santa Cruz de Moncayo,216,3.97
+1960,50238,Santa Eulalia de Gállego,305,29.58
 1960,50239,Santed,316,17.81
 1960,50240,Sástago,2444,300.98
 1960,50241,Sabiñán,1616,15.52
@@ -2004,8 +2004,8 @@ year,cp,name,population,superficie
 1960,50253,Terrer,1624,33.75
 1960,50254,Tierga,674,66.13
 1960,50255,Tobed,723,32.39
-1960,50256,Torralba de los Frailes,575,40.39
-1960,50257,Torralba de Ribota,467,40.39
+1960,50256,Torralba de los Frailes,575,59.19
+1960,50257,Torralba de Ribota,467,32.51
 1960,50258,Torralbilla,358,25.86
 1960,50259,Torrehermosa,251,21.13
 1960,50260,Torrelapaja,299,15.68
@@ -2037,12 +2037,12 @@ year,cp,name,population,superficie
 1960,50286,Villalba de Perejil,191,13.33
 1960,50287,Villalengua,1009,40.16
 1960,50288,Villanueva de Gállego,2157,75.99
-1960,50289,Villanueva de Jiloca,358,75.99
+1960,50289,Villanueva de Jiloca,358,7.34
 1960,50290,Villanueva de Huerva,1079,75.99
 1960,50291,Villar de los Navarros,894,49
 1960,50292,Villarreal de Huerva,415,27.13
 1960,50293,Villarroya de la Sierra,1659,91
-1960,50294,Villarroya del Campo,280,91
+1960,50294,Villarroya del Campo,280,16.94
 1960,50295,Vistabella,344,21.82
 1960,50296,La Zaida,569,17.27
 1960,50297,Zaragoza,301655,973.78
@@ -2124,8 +2124,8 @@ year,cp,name,population,superficie
 1970,50073,Cariñena,2893,82.51
 1970,50074,Caspe,9162,503.15
 1970,50075,Castejón de Alarba,235,17.56
-1970,50076,Castejón de las Armas,234,17.56
-1970,50077,Castejón de Valdejasa,581,17.56
+1970,50076,Castejón de las Armas,234,16.18
+1970,50077,Castejón de Valdejasa,581,110.11
 1970,50078,Castiliscar,649,40.68
 1970,50079,Cervera de la Cañada,563,29.22
 1970,50080,Cerveruela,27,23.49
@@ -2244,7 +2244,7 @@ year,cp,name,population,superficie
 1970,50199,Osera de Ebro,348,24.56
 1970,50200,Paniza,970,47.31
 1970,50201,Paracuellos de Jiloca,886,32
-1970,50202,Paracuellos de la Ribera,624,32
+1970,50202,Paracuellos de la Ribera,624,14.95
 1970,50203,Pastriz,837,16.52
 1970,50204,Pedrola,2442,113.74
 1970,50205,Las Pedrosas,174,18.26
@@ -2278,8 +2278,8 @@ year,cp,name,population,superficie
 1970,50234,San Martín de la Virgen de Moncayo,371,5.42
 1970,50235,San Mateo de Gállego,1759,71.62
 1970,50236,Santa Cruz de Grío,520,19.51
-1970,50237,Santa Cruz de Moncayo,168,19.51
-1970,50238,Santa Eulalia de Gállego,229,80.97
+1970,50237,Santa Cruz de Moncayo,168,3.97
+1970,50238,Santa Eulalia de Gállego,229,29.58
 1970,50239,Santed,184,17.81
 1970,50240,Sástago,1991,300.98
 1970,50241,Sabiñán,1427,15.52
@@ -2297,8 +2297,8 @@ year,cp,name,population,superficie
 1970,50253,Terrer,1402,33.75
 1970,50254,Tierga,420,66.13
 1970,50255,Tobed,513,32.39
-1970,50256,Torralba de los Frailes,259,40.39
-1970,50257,Torralba de Ribota,400,40.39
+1970,50256,Torralba de los Frailes,259,59.19
+1970,50257,Torralba de Ribota,400,32.51
 1970,50258,Torralbilla,172,25.86
 1970,50259,Torrehermosa,190,21.13
 1970,50260,Torrelapaja,184,15.68
@@ -2330,12 +2330,12 @@ year,cp,name,population,superficie
 1970,50286,Villalba de Perejil,128,13.33
 1970,50287,Villalengua,750,40.16
 1970,50288,Villanueva de Gállego,2294,75.99
-1970,50289,Villanueva de Jiloca,242,75.99
+1970,50289,Villanueva de Jiloca,242,7.34
 1970,50290,Villanueva de Huerva,993,75.99
 1970,50291,Villar de los Navarros,553,49
 1970,50292,Villarreal de Huerva,270,27.13
 1970,50293,Villarroya de la Sierra,1360,91
-1970,50294,Villarroya del Campo,186,91
+1970,50294,Villarroya del Campo,186,16.94
 1970,50295,Vistabella,203,21.82
 1970,50296,La Zaida,699,17.27
 1970,50297,Zaragoza,467223,973.78
@@ -2417,8 +2417,8 @@ year,cp,name,population,superficie
 1981,50073,Cariñena,3127,82.51
 1981,50074,Caspe,8339,503.15
 1981,50075,Castejón de Alarba,179,17.56
-1981,50076,Castejón de las Armas,198,17.56
-1981,50077,Castejón de Valdejasa,452,17.56
+1981,50076,Castejón de las Armas,198,16.18
+1981,50077,Castejón de Valdejasa,452,110.11
 1981,50078,Castiliscar,493,40.68
 1981,50079,Cervera de la Cañada,438,29.22
 1981,50080,Cerveruela,7,23.49
@@ -2537,7 +2537,7 @@ year,cp,name,population,superficie
 1981,50199,Osera de Ebro,320,24.56
 1981,50200,Paniza,848,47.31
 1981,50201,Paracuellos de Jiloca,620,32
-1981,50202,Paracuellos de la Ribera,463,32
+1981,50202,Paracuellos de la Ribera,463,14.95
 1981,50203,Pastriz,775,16.52
 1981,50204,Pedrola,2143,113.74
 1981,50205,Las Pedrosas,121,18.26
@@ -2571,8 +2571,8 @@ year,cp,name,population,superficie
 1981,50234,San Martín de la Virgen de Moncayo,332,5.42
 1981,50235,San Mateo de Gállego,1847,71.62
 1981,50236,Santa Cruz de Grío,280,19.51
-1981,50237,Santa Cruz de Moncayo,112,19.51
-1981,50238,Santa Eulalia de Gállego,155,80.97
+1981,50237,Santa Cruz de Moncayo,112,3.97
+1981,50238,Santa Eulalia de Gállego,155,29.58
 1981,50239,Santed,117,17.81
 1981,50240,Sástago,1803,300.98
 1981,50241,Sabiñán,1253,15.52
@@ -2590,8 +2590,8 @@ year,cp,name,population,superficie
 1981,50253,Terrer,923,33.75
 1981,50254,Tierga,329,66.13
 1981,50255,Tobed,393,32.39
-1981,50256,Torralba de los Frailes,151,40.39
-1981,50257,Torralba de Ribota,296,40.39
+1981,50256,Torralba de los Frailes,151,59.19
+1981,50257,Torralba de Ribota,296,32.51
 1981,50258,Torralbilla,99,25.86
 1981,50259,Torrehermosa,151,21.13
 1981,50260,Torrelapaja,92,15.68
@@ -2623,12 +2623,12 @@ year,cp,name,population,superficie
 1981,50286,Villalba de Perejil,106,13.33
 1981,50287,Villalengua,612,40.16
 1981,50288,Villanueva de Gállego,2360,75.99
-1981,50289,Villanueva de Jiloca,173,75.99
+1981,50289,Villanueva de Jiloca,173,7.34
 1981,50290,Villanueva de Huerva,817,75.99
 1981,50291,Villar de los Navarros,314,49
 1981,50292,Villarreal de Huerva,215,27.13
 1981,50293,Villarroya de la Sierra,1000,91
-1981,50294,Villarroya del Campo,109,91
+1981,50294,Villarroya del Campo,109,16.94
 1981,50295,Vistabella,67,21.82
 1981,50296,La Zaida,739,17.27
 1981,50297,Zaragoza,569830,973.78
@@ -2710,8 +2710,8 @@ year,cp,name,population,superficie
 1991,50073,Cariñena,2877,82.51
 1991,50074,Caspe,8029,503.15
 1991,50075,Castejón de Alarba,141,17.56
-1991,50076,Castejón de las Armas,155,17.56
-1991,50077,Castejón de Valdejasa,397,17.56
+1991,50076,Castejón de las Armas,155,16.18
+1991,50077,Castejón de Valdejasa,397,110.11
 1991,50078,Castiliscar,469,40.68
 1991,50079,Cervera de la Cañada,375,29.22
 1991,50080,Cerveruela,4,23.49
@@ -2830,7 +2830,7 @@ year,cp,name,population,superficie
 1991,50199,Osera de Ebro,346,24.56
 1991,50200,Paniza,770,47.31
 1991,50201,Paracuellos de Jiloca,559,32
-1991,50202,Paracuellos de la Ribera,351,32
+1991,50202,Paracuellos de la Ribera,351,14.95
 1991,50203,Pastriz,752,16.52
 1991,50204,Pedrola,2460,113.74
 1991,50205,Las Pedrosas,114,18.26
@@ -2864,8 +2864,8 @@ year,cp,name,population,superficie
 1991,50234,San Martín de la Virgen de Moncayo,314,5.42
 1991,50235,San Mateo de Gállego,1845,71.62
 1991,50236,Santa Cruz de Grío,238,19.51
-1991,50237,Santa Cruz de Moncayo,102,19.51
-1991,50238,Santa Eulalia de Gállego,126,80.97
+1991,50237,Santa Cruz de Moncayo,102,3.97
+1991,50238,Santa Eulalia de Gállego,126,29.58
 1991,50239,Santed,84,17.81
 1991,50240,Sástago,1674,300.98
 1991,50241,Sabiñán,1056,15.52
@@ -2883,8 +2883,8 @@ year,cp,name,population,superficie
 1991,50253,Terrer,726,33.75
 1991,50254,Tierga,292,66.13
 1991,50255,Tobed,303,32.39
-1991,50256,Torralba de los Frailes,131,40.39
-1991,50257,Torralba de Ribota,251,40.39
+1991,50256,Torralba de los Frailes,131,59.19
+1991,50257,Torralba de Ribota,251,32.51
 1991,50258,Torralbilla,80,25.86
 1991,50259,Torrehermosa,131,21.13
 1991,50260,Torrelapaja,58,15.68
@@ -2916,12 +2916,12 @@ year,cp,name,population,superficie
 1991,50286,Villalba de Perejil,104,13.33
 1991,50287,Villalengua,500,40.16
 1991,50288,Villanueva de Gállego,2483,75.99
-1991,50289,Villanueva de Jiloca,115,75.99
+1991,50289,Villanueva de Jiloca,115,7.34
 1991,50290,Villanueva de Huerva,678,75.99
 1991,50291,Villar de los Navarros,199,49
 1991,50292,Villarreal de Huerva,214,27.13
 1991,50293,Villarroya de la Sierra,816,91
-1991,50294,Villarroya del Campo,76,91
+1991,50294,Villarroya del Campo,76,16.94
 1991,50295,Vistabella,34,21.82
 1991,50296,La Zaida,653,17.27
 1991,50297,Zaragoza,592548,973.78
@@ -3003,8 +3003,8 @@ year,cp,name,population,superficie
 2001,50073,Cariñena,3196,82.51
 2001,50074,Caspe,7896,503.15
 2001,50075,Castejón de Alarba,103,17.56
-2001,50076,Castejón de las Armas,117,17.56
-2001,50077,Castejón de Valdejasa,324,17.56
+2001,50076,Castejón de las Armas,117,16.18
+2001,50077,Castejón de Valdejasa,324,110.11
 2001,50078,Castiliscar,403,40.68
 2001,50079,Cervera de la Cañada,332,29.22
 2001,50080,Cerveruela,25,23.49
@@ -3123,7 +3123,7 @@ year,cp,name,population,superficie
 2001,50199,Osera de Ebro,357,24.56
 2001,50200,Paniza,702,47.31
 2001,50201,Paracuellos de Jiloca,494,32
-2001,50202,Paracuellos de la Ribera,255,32
+2001,50202,Paracuellos de la Ribera,255,14.95
 2001,50203,Pastriz,1083,16.52
 2001,50204,Pedrola,2812,113.74
 2001,50205,Las Pedrosas,103,18.26
@@ -3157,8 +3157,8 @@ year,cp,name,population,superficie
 2001,50234,San Martín de la Virgen de Moncayo,296,5.42
 2001,50235,San Mateo de Gállego,2212,71.62
 2001,50236,Santa Cruz de Grío,212,19.51
-2001,50237,Santa Cruz de Moncayo,120,19.51
-2001,50238,Santa Eulalia de Gállego,131,80.97
+2001,50237,Santa Cruz de Moncayo,120,3.97
+2001,50238,Santa Eulalia de Gállego,131,29.58
 2001,50239,Santed,72,17.81
 2001,50240,Sástago,1389,300.98
 2001,50241,Sabiñán,921,15.52
@@ -3176,8 +3176,8 @@ year,cp,name,population,superficie
 2001,50253,Terrer,601,33.75
 2001,50254,Tierga,244,66.13
 2001,50255,Tobed,251,32.39
-2001,50256,Torralba de los Frailes,96,40.39
-2001,50257,Torralba de Ribota,190,40.39
+2001,50256,Torralba de los Frailes,96,59.19
+2001,50257,Torralba de Ribota,190,32.51
 2001,50258,Torralbilla,78,25.86
 2001,50259,Torrehermosa,113,21.13
 2001,50260,Torrelapaja,42,15.68
@@ -3209,12 +3209,12 @@ year,cp,name,population,superficie
 2001,50286,Villalba de Perejil,115,13.33
 2001,50287,Villalengua,414,40.16
 2001,50288,Villanueva de Gállego,3426,75.99
-2001,50289,Villanueva de Jiloca,91,75.99
+2001,50289,Villanueva de Jiloca,91,7.34
 2001,50290,Villanueva de Huerva,588,75.99
 2001,50291,Villar de los Navarros,139,49
 2001,50292,Villarreal de Huerva,178,27.13
 2001,50293,Villarroya de la Sierra,660,91
-2001,50294,Villarroya del Campo,74,91
+2001,50294,Villarroya del Campo,74,16.94
 2001,50295,Vistabella,36,21.82
 2001,50296,La Zaida,584,17.27
 2001,50297,Zaragoza,612472,973.78
@@ -3296,8 +3296,8 @@ year,cp,name,population,superficie
 2011,50073,Cariñena,3623,82.51
 2011,50074,Caspe,9797,503.15
 2011,50075,Castejón de Alarba,91,17.56
-2011,50076,Castejón de las Armas,116,17.56
-2011,50077,Castejón de Valdejasa,266,17.56
+2011,50076,Castejón de las Armas,116,16.18
+2011,50077,Castejón de Valdejasa,266,110.11
 2011,50078,Castiliscar,311,40.68
 2011,50079,Cervera de la Cañada,319,29.22
 2011,50080,Cerveruela,41,23.49
@@ -3416,7 +3416,7 @@ year,cp,name,population,superficie
 2011,50199,Osera de Ebro,449,24.56
 2011,50200,Paniza,729,47.31
 2011,50201,Paracuellos de Jiloca,592,32
-2011,50202,Paracuellos de la Ribera,176,32
+2011,50202,Paracuellos de la Ribera,176,14.95
 2011,50203,Pastriz,1382,16.52
 2011,50204,Pedrola,3753,113.74
 2011,50205,Las Pedrosas,119,18.26
@@ -3450,8 +3450,8 @@ year,cp,name,population,superficie
 2011,50234,San Martín de la Virgen de Moncayo,299,5.42
 2011,50235,San Mateo de Gállego,3150,71.62
 2011,50236,Santa Cruz de Grío,152,19.51
-2011,50237,Santa Cruz de Moncayo,134,19.51
-2011,50238,Santa Eulalia de Gállego,126,80.97
+2011,50237,Santa Cruz de Moncayo,134,3.97
+2011,50238,Santa Eulalia de Gállego,126,29.58
 2011,50239,Santed,64,17.81
 2011,50240,Sástago,1266,300.98
 2011,50241,Sabiñán,770,15.52
@@ -3469,8 +3469,8 @@ year,cp,name,population,superficie
 2011,50253,Terrer,474,33.75
 2011,50254,Tierga,198,66.13
 2011,50255,Tobed,232,32.39
-2011,50256,Torralba de los Frailes,90,40.39
-2011,50257,Torralba de Ribota,207,40.39
+2011,50256,Torralba de los Frailes,90,59.19
+2011,50257,Torralba de Ribota,207,32.51
 2011,50258,Torralbilla,56,25.86
 2011,50259,Torrehermosa,81,21.13
 2011,50260,Torrelapaja,41,15.68
@@ -3502,12 +3502,12 @@ year,cp,name,population,superficie
 2011,50286,Villalba de Perejil,109,13.33
 2011,50287,Villalengua,388,40.16
 2011,50288,Villanueva de Gállego,4604,75.99
-2011,50289,Villanueva de Jiloca,64,75.99
+2011,50289,Villanueva de Jiloca,64,7.34
 2011,50290,Villanueva de Huerva,563,75.99
 2011,50291,Villar de los Navarros,116,49
 2011,50292,Villarreal de Huerva,221,27.13
 2011,50293,Villarroya de la Sierra,555,91
-2011,50294,Villarroya del Campo,78,91
+2011,50294,Villarroya del Campo,78,16.94
 2011,50295,Vistabella,51,21.82
 2011,50296,La Zaida,497,17.27
 2011,50297,Zaragoza,678115,973.78
@@ -3589,8 +3589,8 @@ year,cp,name,population,superficie
 2020,50073,Cariñena,3355,82.51
 2020,50074,Caspe,10026,503.15
 2020,50075,Castejón de Alarba,88,17.56
-2020,50076,Castejón de las Armas,78,17.56
-2020,50077,Castejón de Valdejasa,209,17.56
+2020,50076,Castejón de las Armas,78,16.18
+2020,50077,Castejón de Valdejasa,209,110.11
 2020,50078,Castiliscar,254,40.68
 2020,50079,Cervera de la Cañada,260,29.22
 2020,50080,Cerveruela,34,23.49
@@ -3709,7 +3709,7 @@ year,cp,name,population,superficie
 2020,50199,Osera de Ebro,383,24.56
 2020,50200,Paniza,619,47.31
 2020,50201,Paracuellos de Jiloca,573,32
-2020,50202,Paracuellos de la Ribera,136,32
+2020,50202,Paracuellos de la Ribera,136,14.95
 2020,50203,Pastriz,1300,16.52
 2020,50204,Pedrola,3587,113.74
 2020,50205,Las Pedrosas,86,18.26
@@ -3743,8 +3743,8 @@ year,cp,name,population,superficie
 2020,50234,San Martín de la Virgen de Moncayo,270,5.42
 2020,50235,San Mateo de Gállego,3269,71.62
 2020,50236,Santa Cruz de Grío,105,19.51
-2020,50237,Santa Cruz de Moncayo,123,19.51
-2020,50238,Santa Eulalia de Gállego,97,80.97
+2020,50237,Santa Cruz de Moncayo,123,3.97
+2020,50238,Santa Eulalia de Gállego,97,29.58
 2020,50239,Santed,64,17.81
 2020,50240,Sástago,1119,300.98
 2020,50241,Sabiñán,722,15.52
@@ -3762,8 +3762,8 @@ year,cp,name,population,superficie
 2020,50253,Terrer,464,33.75
 2020,50254,Tierga,190,66.13
 2020,50255,Tobed,230,32.39
-2020,50256,Torralba de los Frailes,76,40.39
-2020,50257,Torralba de Ribota,169,40.39
+2020,50256,Torralba de los Frailes,76,59.19
+2020,50257,Torralba de Ribota,169,32.51
 2020,50258,Torralbilla,59,25.86
 2020,50259,Torrehermosa,69,21.13
 2020,50260,Torrelapaja,35,15.68
@@ -3795,12 +3795,12 @@ year,cp,name,population,superficie
 2020,50286,Villalba de Perejil,96,13.33
 2020,50287,Villalengua,293,40.16
 2020,50288,Villanueva de Gállego,4728,75.99
-2020,50289,Villanueva de Jiloca,52,75.99
+2020,50289,Villanueva de Jiloca,52,7.34
 2020,50290,Villanueva de Huerva,434,75.99
 2020,50291,Villar de los Navarros,113,49
 2020,50292,Villarreal de Huerva,273,27.13
 2020,50293,Villarroya de la Sierra,435,91
-2020,50294,Villarroya del Campo,89,91
+2020,50294,Villarroya del Campo,89,16.94
 2020,50295,Vistabella,48,21.82
 2020,50296,La Zaida,447,17.27
 2020,50297,Zaragoza,681877,973.78
@@ -3829,10 +3829,10 @@ year,cp,name,population,superficie
 2021,50019,Alforque,62,10.62
 2021,50020,Alhama de Aragón,1002,31.14
 2021,50021,Almochuel,24,32
-2021,50022,Almolda,555,131.33
+2021,50022,La Almolda,555,131.33
 2021,50023,Almonacid de la Cuba,234,55.21
 2021,50024,Almonacid de la Sierra,771,55.21
-2021,50025,Almunia de Doña Godina,7983,56.65
+2021,50025,La Almunia de Doña Godina,7983,56.65
 2021,50026,Alpartir,604,32.54
 2021,50027,Ambel,252,61
 2021,50028,Anento,91,21.52
@@ -3868,8 +3868,8 @@ year,cp,name,population,superficie
 2021,50059,Bujaraloz,975,120.92
 2021,50060,Bulbuente,233,25.44
 2021,50061,Bureta,206,11.91
-2021,50062,Burgo de Ebro,2538,24.86
-2021,50063,Buste,69,7.61
+2021,50062,El Burgo de Ebro,2538,24.86
+2021,50063,El Buste,69,7.61
 2021,50064,Cabañas de Ebro,487,8.53
 2021,50065,Cabolafuente,49,39.24
 2021,50066,Cadrete,4334,11.86
@@ -3882,8 +3882,8 @@ year,cp,name,population,superficie
 2021,50073,Cariñena,3370,82.51
 2021,50074,Caspe,10183,503.15
 2021,50075,Castejón de Alarba,78,17.56
-2021,50076,Castejón de las Armas,82,17.56
-2021,50077,Castejón de Valdejasa,216,17.56
+2021,50076,Castejón de las Armas,82,16.18
+2021,50077,Castejón de Valdejasa,216,110.11
 2021,50078,Castiliscar,248,40.68
 2021,50079,Cervera de la Cañada,264,29.22
 2021,50080,Cerveruela,37,23.49
@@ -3897,7 +3897,7 @@ year,cp,name,population,superficie
 2021,50088,Cosuenda,335,31.68
 2021,50089,Cuarte de Huerva,13773,8.95
 2021,50090,Cubel,146,58.62
-2021,50091,Cuerlas,42,32.58
+2021,50091,Las Cuerlas,42,32.58
 2021,50092,Chiprana,503,38.98
 2021,50093,Chodes,100,15.97
 2021,50094,Daroca,1914,52.05
@@ -3910,11 +3910,11 @@ year,cp,name,population,superficie
 2021,50102,Fabara,1096,101.63
 2021,50104,Farlete,378,104.12
 2021,50105,Fayón,382,67.19
-2021,50106,Fayos,134,3.88
+2021,50106,Los Fayos,134,3.88
 2021,50107,Figueruelas,1239,16.99
 2021,50108,Fombuena,59,26.37
-2021,50109,Frago,115,33.76
-2021,50110,Frasno,394,48.64
+2021,50109,El Frago,115,33.76
+2021,50110,El Frasno,394,48.64
 2021,50111,Fréscano,200,18.41
 2021,50113,Fuendejalón,766,75.83
 2021,50114,Fuendetodos,142,62
@@ -3934,7 +3934,7 @@ year,cp,name,population,superficie
 2021,50129,Jaraba,282,42.81
 2021,50130,Jarque de Moncayo,413,43
 2021,50131,Jaulín,275,46.05
-2021,50132,Joyosa,2021,23.65,6.52
+2021,50132,La Joyosa,1132,6.52
 2021,50133,Lagata,114,23.65
 2021,50134,Langa del Castillo,116,50.13
 2021,50135,Layana,92,3.69
@@ -3982,7 +3982,7 @@ year,cp,name,population,superficie
 2021,50179,Moyuela,262,42.76
 2021,50180,Mozota,124,8.68
 2021,50181,Muel,1436,79.17
-2021,50182,Muela,6125,143.49
+2021,50182,La Muela,6125,143.49
 2021,50183,Munébrega,360,40.99
 2021,50184,Murero,97,18.25
 2021,50185,Murillo de Gállego,187,54.71
@@ -3991,7 +3991,7 @@ year,cp,name,population,superficie
 2021,50188,Nombrevilla,35,17.56
 2021,50189,Nonaspe,998,111.45
 2021,50190,Novallas,833,11
-2021,50191,Novillas,5028.21,25.28
+2021,50191,Novillas,502,25.28
 2021,50192,Nuévalos,297,41.84
 2021,50193,Nuez de Ebro,880,8.21
 2021,50194,Olvés,105,20.18
@@ -4002,15 +4002,15 @@ year,cp,name,population,superficie
 2021,50199,Osera de Ebro,395,24.56
 2021,50200,Paniza,609,47.31
 2021,50201,Paracuellos de Jiloca,567,32
-2021,50202,Paracuellos de la Ribera,131,32
+2021,50202,Paracuellos de la Ribera,131,14.95
 2021,50203,Pastriz,1294,16.52
 2021,50204,Pedrola,3572,113.74
-2021,50205,Pedrosas,96,18.26
+2021,50205,Las Pedrosas,96,18.26
 2021,50206,Perdiguera,567,109.77
 2021,50207,Piedratajada,93,22.66
 2021,50208,Pina de Ebro,2390,309.17
 2021,50209,Pinseque,4184,16.09
-2021,50210,Pintanos,38,79.64
+2021,50210,Los Pintanos,38,79.64
 2021,50211,Plasencia de Jalón,309,34.77
 2021,50212,Pleitas,33,2.14
 2021,50213,Plenas,100,37.95
@@ -4019,7 +4019,7 @@ year,cp,name,population,superficie
 2021,50216,Pozuelo de Aragón,265,32.11
 2021,50217,Pradilla de Ebro,534,25.45
 2021,50218,Puebla de Albortón,125,76.31
-2021,50219,Puebla de Alfindén,6446,17.03
+2021,50219,La Puebla de Alfindén,6446,17.03
 2021,50220,Puendeluna,49,9.88
 2021,50221,Purujosa,26,35.43
 2021,50222,Quinto,1937,118.26
@@ -4036,8 +4036,8 @@ year,cp,name,population,superficie
 2021,50234,San Martín de la Virgen de Moncayo,276,5.42
 2021,50235,San Mateo de Gállego,3415,71.62
 2021,50236,Santa Cruz de Grío,102,19.51
-2021,50237,Santa Cruz de Moncayo,134,19.51
-2021,50238,Santa Eulalia de Gállego,103,80.97
+2021,50237,Santa Cruz de Moncayo,134,3.97
+2021,50238,Santa Eulalia de Gállego,103,29.58
 2021,50239,Santed,64,17.81
 2021,50240,Sástago,1122,300.98
 2021,50241,Sabiñán,686,15.52
@@ -4046,7 +4046,7 @@ year,cp,name,population,superficie
 2021,50244,Sierra de Luna,285,43.39
 2021,50245,Sigüés,79,101.77
 2021,50246,Sisamón,33,41.55
-2021,50247,Sobradiel,115085.72,12.06
+2021,50247,Sobradiel,1150,12.06
 2021,50248,Sos del Rey Católico,574,216.62
 2021,50249,Tabuenca,320,85.72
 2021,50250,Talamantes,64,46.94
@@ -4055,8 +4055,8 @@ year,cp,name,population,superficie
 2021,50253,Terrer,530,33.75
 2021,50254,Tierga,190,66.13
 2021,50255,Tobed,225,32.39
-2021,50256,Torralba de los Frailes,74,40.39
-2021,50257,Torralba de Ribota,163,40.39
+2021,50256,Torralba de los Frailes,74,59.19
+2021,50257,Torralba de Ribota,163,32.51
 2021,50258,Torralbilla,59,25.86
 2021,50259,Torrehermosa,63,21.13
 2021,50260,Torrelapaja,35,15.68
@@ -4081,21 +4081,21 @@ year,cp,name,population,superficie
 2021,50279,Velilla de Jiloca,76,10
 2021,50280,Vera de Moncayo,314,27.66
 2021,50281,Vierlas,83,2.67
-2021,50282,Vilueña,71,8.61
+2021,50282,La Vilueña,71,8.61
 2021,50283,Villadoz,90,17.18
 2021,50284,Villafeliche,147,22
 2021,50285,Villafranca de Ebro,848,63.64
 2021,50286,Villalba de Perejil,100,13.33
 2021,50287,Villalengua,291,40.16
 2021,50288,Villanueva de Gállego,4725,75.99
-2021,50289,Villanueva de Jiloca,57,75.99
+2021,50289,Villanueva de Jiloca,57,7.34
 2021,50290,Villanueva de Huerva,412,75.99
 2021,50291,Villar de los Navarros,130,49
 2021,50292,Villarreal de Huerva,272,27.13
 2021,50293,Villarroya de la Sierra,445,91
-2021,50294,Villarroya del Campo,89,91
+2021,50294,Villarroya del Campo,89,16.94
 2021,50295,Vistabella,51,21.82
-2021,50296,Zaida,432,17.27
+2021,50296,La Zaida,432,17.27
 2021,50297,Zaragoza,675301,973.78
 2021,50298,Zuera,8591,332.25
 2021,50901,Biel,171,130.73
@@ -4122,10 +4122,10 @@ year,cp,name,population,superficie
 2022,50019,Alforque,64,10.62
 2022,50020,Alhama de Aragón,964,31.14
 2022,50021,Almochuel,22,32
-2022,50022,Almolda La,549,131.33
+2022,50022,La Almolda,549,131.33
 2022,50023,Almonacid de la Cuba,234,55.21
 2022,50024,Almonacid de la Sierra,756,55.21
-2022,50025,Almunia de Doña Godina La,7943,56.65
+2022,50025,La Almunia de Doña Godina,7943,56.65
 2022,50026,Alpartir,602,32.54
 2022,50027,Ambel,253,61
 2022,50028,Anento,101,21.52
@@ -4161,8 +4161,8 @@ year,cp,name,population,superficie
 2022,50059,Bujaraloz,1013,120.92
 2022,50060,Bulbuente,244,25.44
 2022,50061,Bureta,213,11.91
-2022,50062,Burgo de Ebro El,2591,24.86
-2022,50063,Buste El,71,7.61
+2022,50062,El Burgo de Ebro,2591,24.86
+2022,50063,El Buste,71,7.61
 2022,50064,Cabañas de Ebro,491,8.53
 2022,50065,Cabolafuente,49,39.24
 2022,50066,Cadrete,4473,11.86
@@ -4175,8 +4175,8 @@ year,cp,name,population,superficie
 2022,50073,Cariñena,3345,82.51
 2022,50074,Caspe,10220,503.15
 2022,50075,Castejón de Alarba,73,17.56
-2022,50076,Castejón de las Armas,81,17.56
-2022,50077,Castejón de Valdejasa,209,17.56
+2022,50076,Castejón de las Armas,81,16.18
+2022,50077,Castejón de Valdejasa,209,110.11
 2022,50078,Castiliscar,230,40.68
 2022,50079,Cervera de la Cañada,264,29.22
 2022,50080,Cerveruela,39,23.49
@@ -4190,7 +4190,7 @@ year,cp,name,population,superficie
 2022,50088,Cosuenda,326,31.68
 2022,50089,Cuarte de Huerva,14169,8.95
 2022,50090,Cubel,153,58.62
-2022,50091,Cuerlas Las,39,32.58
+2022,50091,Las Cuerlas,39,32.58
 2022,50092,Chiprana,515,38.98
 2022,50093,Chodes,96,15.97
 2022,50094,Daroca,1921,52.05
@@ -4203,11 +4203,11 @@ year,cp,name,population,superficie
 2022,50102,Fabara,1088,101.63
 2022,50104,Farlete,376,104.12
 2022,50105,Fayón,397,67.19
-2022,50106,Fayos Los,131,3.88
+2022,50106,Los Fayos,131,3.88
 2022,50107,Figueruelas,1226,16.99
 2022,50108,Fombuena,59,26.37
-2022,50109,Frago El,117,33.76
-2022,50110,Frasno El,379,48.64
+2022,50109,El Frago,117,33.76
+2022,50110,El Frasno,379,48.64
 2022,50111,Fréscano,204,18.41
 2022,50113,Fuendejalón,763,75.83
 2022,50114,Fuendetodos,144,62
@@ -4227,7 +4227,7 @@ year,cp,name,population,superficie
 2022,50129,Jaraba,280,42.81
 2022,50130,Jarque de Moncayo,407,43
 2022,50131,Jaulín,278,46.05
-2022,50132,Joyosa La,1119,6.52
+2022,50132,La Joyosa,1119,6.52
 2022,50133,Lagata,109,23.65
 2022,50134,Langa del Castillo,115,50.13
 2022,50135,Layana,96,3.69
@@ -4275,7 +4275,7 @@ year,cp,name,population,superficie
 2022,50179,Moyuela,251,42.76
 2022,50180,Mozota,123,8.68
 2022,50181,Muel,1479,79.17
-2022,50182,Muela La,6247,143.49
+2022,50182,La Muela,6247,143.49
 2022,50183,Munébrega,356,40.99
 2022,50184,Murero,104,18.25
 2022,50185,Murillo de Gállego,197,54.71
@@ -4295,15 +4295,15 @@ year,cp,name,population,superficie
 2022,50199,Osera de Ebro,413,24.56
 2022,50200,Paniza,604,47.31
 2022,50201,Paracuellos de Jiloca,582,32
-2022,50202,Paracuellos de la Ribera,129,32
+2022,50202,Paracuellos de la Ribera,129,14.95
 2022,50203,Pastriz,1300,16.52
 2022,50204,Pedrola,3625,113.74
-2022,50205,Pedrosas Las,97,18.26
+2022,50205,Las Pedrosas,97,18.26
 2022,50206,Perdiguera,553,109.77
 2022,50207,Piedratajada,91,22.66
 2022,50208,Pina de Ebro,2433,309.17
 2022,50209,Pinseque,4278,16.09
-2022,50210,Pintanos Los,37,79.64
+2022,50210,Los Pintanos,37,79.64
 2022,50211,Plasencia de Jalón,325,34.77
 2022,50212,Pleitas,38,2.14
 2022,50213,Plenas,100,37.95
@@ -4312,7 +4312,7 @@ year,cp,name,population,superficie
 2022,50216,Pozuelo de Aragón,263,32.11
 2022,50217,Pradilla de Ebro,541,25.45
 2022,50218,Puebla de Albortón,129,76.31
-2022,50219,Puebla de Alfindén La,6442,17.03
+2022,50219,La Puebla de Alfindén,6442,17.03
 2022,50220,Puendeluna,48,9.88
 2022,50221,Purujosa,27,35.43
 2022,50222,Quinto,1916,118.26
@@ -4329,8 +4329,8 @@ year,cp,name,population,superficie
 2022,50234,San Martín de la Virgen de Moncayo,283,5.42
 2022,50235,San Mateo de Gállego,3452,71.62
 2022,50236,Santa Cruz de Grío,94,19.51
-2022,50237,Santa Cruz de Moncayo,125,19.51
-2022,50238,Santa Eulalia de Gállego,102,80.97
+2022,50237,Santa Cruz de Moncayo,125,3.97
+2022,50238,Santa Eulalia de Gállego,102,29.58
 2022,50239,Santed,66,17.81
 2022,50240,Sástago,1093,300.98
 2022,50241,Sabiñán,675,15.52
@@ -4348,8 +4348,8 @@ year,cp,name,population,superficie
 2022,50253,Terrer,565,33.75
 2022,50254,Tierga,179,66.13
 2022,50255,Tobed,215,32.39
-2022,50256,Torralba de los Frailes,73,40.39
-2022,50257,Torralba de Ribota,168,40.39
+2022,50256,Torralba de los Frailes,73,59.19
+2022,50257,Torralba de Ribota,168,32.51
 2022,50258,Torralbilla,51,25.86
 2022,50259,Torrehermosa,70,21.13
 2022,50260,Torrelapaja,35,15.68
@@ -4381,12 +4381,12 @@ year,cp,name,population,superficie
 2022,50286,Villalba de Perejil,100,13.33
 2022,50287,Villalengua,287,40.16
 2022,50288,Villanueva de Gállego,4769,75.99
-2022,50289,Villanueva de Jiloca,68,75.99
+2022,50289,Villanueva de Jiloca,68,7.34
 2022,50290,Villanueva de Huerva,389,75.99
 2022,50291,Villar de los Navarros,141,49
 2022,50292,Villarreal de Huerva,266,27.13
 2022,50293,Villarroya de la Sierra,435,91
-2022,50294,Villarroya del Campo,82,91
+2022,50294,Villarroya del Campo,82,16.94
 2022,50295,Vistabella,52,21.82
 2022,50296,La Zaida,435,17.27
 2022,50297,Zaragoza,673010,973.78
@@ -4415,10 +4415,10 @@ year,cp,name,population,superficie
 2023,50019,Alforque,65,10.62
 2023,50020,Alhama de Aragón,925,31.14
 2023,50021,Almochuel,20,32
-2023,50022,Almolda La,548,131.33
+2023,50022,La Almolda,548,131.33
 2023,50023,Almonacid de la Cuba,227,55.21
 2023,50024,Almonacid de la Sierra,775,55.21
-2023,50025,Almunia de Doña Godina La,7914,56.65
+2023,50025,La Almunia de Doña Godina,7914,56.65
 2023,50026,Alpartir,570,32.54
 2023,50027,Ambel,248,61
 2023,50028,Anento,111,21.52
@@ -4454,8 +4454,8 @@ year,cp,name,population,superficie
 2023,50059,Bujaraloz,967,120.92
 2023,50060,Bulbuente,242,25.44
 2023,50061,Bureta,212,11.91
-2023,50062,Burgo de Ebro El,2660,24.86
-2023,50063,Buste El,64,7.61
+2023,50062,El Burgo de Ebro,2660,24.86
+2023,50063,El Buste,64,7.61
 2023,50064,Cabañas de Ebro,487,8.53
 2023,50065,Cabolafuente,46,39.24
 2023,50066,Cadrete,4486,11.86
@@ -4468,8 +4468,8 @@ year,cp,name,population,superficie
 2023,50073,Cariñena,3397,82.51
 2023,50074,Caspe,10336,503.15
 2023,50075,Castejón de Alarba,89,17.56
-2023,50076,Castejón de las Armas,86,17.56
-2023,50077,Castejón de Valdejasa,202,17.56
+2023,50076,Castejón de las Armas,86,16.18
+2023,50077,Castejón de Valdejasa,202,110.11
 2023,50078,Castiliscar,217,40.68
 2023,50079,Cervera de la Cañada,272,29.22
 2023,50080,Cerveruela,37,23.49
@@ -4483,7 +4483,7 @@ year,cp,name,population,superficie
 2023,50088,Cosuenda,335,31.68
 2023,50089,Cuarte de Huerva,14701,8.95
 2023,50090,Cubel,148,58.62
-2023,50091,Cuerlas Las,41,32.58
+2023,50091,Las Cuerlas,41,32.58
 2023,50092,Chiprana,531,38.98
 2023,50093,Chodes,94,15.97
 2023,50094,Daroca,1957,52.05
@@ -4496,11 +4496,11 @@ year,cp,name,population,superficie
 2023,50102,Fabara,1065,101.63
 2023,50104,Farlete,408,104.12
 2023,50105,Fayón,422,67.19
-2023,50106,Fayos Los,128,3.88
+2023,50106,Los Fayos,128,3.88
 2023,50107,Figueruelas,1250,16.99
 2023,50108,Fombuena,57,26.37
-2023,50109,Frago El,126,33.76
-2023,50110,Frasno El,363,48.64
+2023,50109,El Frago,126,33.76
+2023,50110,El Frasno,363,48.64
 2023,50111,Fréscano,200,18.41
 2023,50113,Fuendejalón,756,75.83
 2023,50114,Fuendetodos,150,62
@@ -4520,7 +4520,7 @@ year,cp,name,population,superficie
 2023,50129,Jaraba,281,42.81
 2023,50130,Jarque de Moncayo,399,43
 2023,50131,Jaulín,291,46.05
-2023,50132,Joyosa La,1152,6.52
+2023,50132,La Joyosa,1152,6.52
 2023,50133,Lagata,111,23.65
 2023,50134,Langa del Castillo,115,50.13
 2023,50135,Layana,96,3.69
@@ -4568,7 +4568,7 @@ year,cp,name,population,superficie
 2023,50179,Moyuela,241,42.76
 2023,50180,Mozota,129,8.68
 2023,50181,Muel,1450,79.17
-2023,50182,Muela La,6416,143.49
+2023,50182,La Muela,6416,143.49
 2023,50183,Munébrega,369,40.99
 2023,50184,Murero,106,18.25
 2023,50185,Murillo de Gállego,203,54.71
@@ -4588,15 +4588,15 @@ year,cp,name,population,superficie
 2023,50199,Osera de Ebro,400,24.56
 2023,50200,Paniza,594,47.31
 2023,50201,Paracuellos de Jiloca,584,32
-2023,50202,Paracuellos de la Ribera,115,32
+2023,50202,Paracuellos de la Ribera,115,14.95
 2023,50203,Pastriz,1316,16.52
 2023,50204,Pedrola,3667,113.74
-2023,50205,Pedrosas Las,99,18.26
+2023,50205,Las Pedrosas,99,18.26
 2023,50206,Perdiguera,552,109.77
 2023,50207,Piedratajada,89,22.66
 2023,50208,Pina de Ebro,2456,309.17
 2023,50209,Pinseque,4342,16.09
-2023,50210,Pintanos Los,40,79.64
+2023,50210,Los Pintanos,40,79.64
 2023,50211,Plasencia de Jalón,353,34.77
 2023,50212,Pleitas,34,2.14
 2023,50213,Plenas,105,37.95
@@ -4605,7 +4605,7 @@ year,cp,name,population,superficie
 2023,50216,Pozuelo de Aragón,257,32.11
 2023,50217,Pradilla de Ebro,558,25.45
 2023,50218,Puebla de Albortón,131,76.31
-2023,50219,Puebla de Alfindén La,6414,17.03
+2023,50219,La Puebla de Alfindén,6414,17.03
 2023,50220,Puendeluna,44,9.88
 2023,50221,Purujosa,30,35.43
 2023,50222,Quinto,1869,118.26
@@ -4622,8 +4622,8 @@ year,cp,name,population,superficie
 2023,50234,San Martín de la Virgen de Moncayo,271,5.42
 2023,50235,San Mateo de Gállego,3441,71.62
 2023,50236,Santa Cruz de Grío,97,19.51
-2023,50237,Santa Cruz de Moncayo,126,19.51
-2023,50238,Santa Eulalia de Gállego,94,80.97
+2023,50237,Santa Cruz de Moncayo,126,3.97
+2023,50238,Santa Eulalia de Gállego,94,29.58
 2023,50239,Santed,67,17.81
 2023,50240,Sástago,1088,300.98
 2023,50241,Sabiñán,673,15.52
@@ -4641,8 +4641,8 @@ year,cp,name,population,superficie
 2023,50253,Terrer,550,33.75
 2023,50254,Tierga,174,66.13
 2023,50255,Tobed,201,32.39
-2023,50256,Torralba de los Frailes,72,40.39
-2023,50257,Torralba de Ribota,176,40.39
+2023,50256,Torralba de los Frailes,72,59.19
+2023,50257,Torralba de Ribota,176,32.51
 2023,50258,Torralbilla,43,25.86
 2023,50259,Torrehermosa,73,21.13
 2023,50260,Torrelapaja,32,15.68
@@ -4674,12 +4674,12 @@ year,cp,name,population,superficie
 2023,50286,Villalba de Perejil,91,13.33
 2023,50287,Villalengua,289,40.16
 2023,50288,Villanueva de Gállego,4806,75.99
-2023,50289,Villanueva de Jiloca,69,75.99
+2023,50289,Villanueva de Jiloca,69,7.34
 2023,50290,Villanueva de Huerva,385,75.99
 2023,50291,Villar de los Navarros,148,49
 2023,50292,Villarreal de Huerva,278,27.13
 2023,50293,Villarroya de la Sierra,430,91
-2023,50294,Villarroya del Campo,71,91
+2023,50294,Villarroya del Campo,71,16.94
 2023,50295,Vistabella,51,21.82
 2023,50296,La Zaida,439,17.27
 2023,50297,Zaragoza,682513,973.78
@@ -4687,4 +4687,3 @@ year,cp,name,population,superficie
 2023,50901,Biel,167,130.73
 2023,50902,Marracos,87,16.92
 2023,50903,Villamayor de Gállego,2866,89.36
-

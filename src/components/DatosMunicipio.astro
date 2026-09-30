@@ -1,20 +1,20 @@
 ---
 const {
   provincia,
-  municipio,
+  codigo,
   titulo = "",
 } = Astro.props;
 
 // Importar las funciones para cargar datos
 import { cargarDatosEdadSync, cargarDatosHistoricosSync } from '../scripts/dataLoader.js';
 import { municipios } from '../data/municipios.js';
+import { ANIO_REFERENCIA } from '../config/anio.js';
 
 // Obtener el nombre del municipio
-const municipioObj = municipios.find(m => m.codigoINE === municipio);
-const nombreMunicipio = municipioObj?.nombre || municipio;
+const nombreMunicipio = municipios.find(m => m.codigoINE === codigo)?.nombre;
 
 // Cargar datos de edad (que incluyen población actual)
-const datosEdad = cargarDatosEdadSync(provincia, nombreMunicipio);
+const datosEdad = cargarDatosEdadSync(provincia, codigo);
 
 // Pre-cargar los datos
 const municipioData = datosEdad ? {
@@ -22,23 +22,22 @@ const municipioData = datosEdad ? {
   poblacion: datosEdad.population,
   mayores: datosEdad.mayor,
   menores: datosEdad.menor,
-  year: '2024'
+  year: ANIO_REFERENCIA
 } : null;
 
-const datosHistoricos = cargarDatosHistoricosSync(provincia, municipio);
-console.log(datosHistoricos)
+const datosHistoricos = cargarDatosHistoricosSync(provincia, codigo);
 
 // Calcular estadísticas históricas
 const poblacion1900 = datosHistoricos.find(d => d.year === '1900')?.population;
-const poblacion2024 = datosHistoricos.find(d => d.year === '2024')?.population;
+const poblacionActual = datosHistoricos.find(d => d.year === String(ANIO_REFERENCIA))?.population;
 const poblacionMaxima = datosHistoricos.length > 0 ?
   Math.max(...datosHistoricos.map(d => d.population)) : 0;
 const poblacionMinima = datosHistoricos.length > 0 ?
   Math.min(...datosHistoricos.map(d => d.population)) : 0;
 
 // Calcular variación desde 1900
-const variacion1900 = poblacion1900 && poblacion2024 ?
-  ((poblacion2024 - poblacion1900) / poblacion1900) * 100 : null;
+const variacion1900 = poblacion1900 && poblacionActual ?
+  ((poblacionActual - poblacion1900) / poblacion1900) * 100 : null;
 
 // Calcular mayor crecimiento y decrecimiento por década
 let mayorCrecimiento = { valor: 0, periodo: '' };
@@ -84,7 +83,7 @@ if (datosHistoricos.length > 1) {
           <div class="tarjeta tarjeta-azul">
             <div class="tarjeta-contenido">
               <span class="tarjeta-valor">{municipioData.poblacion.toLocaleString('es-ES')}</span>
-              <span class="tarjeta-descripcion">Habitantes en 2024</span>
+              <span class="tarjeta-descripcion">Habitantes en {municipioData.year}</span>
               <span class="tarjeta-extra">Datos actuales</span>
             </div>
           </div>
