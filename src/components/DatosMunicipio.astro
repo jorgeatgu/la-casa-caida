@@ -44,14 +44,19 @@ let mayorCrecimiento = { valor: 0, periodo: '' };
 let mayorDecrecimiento = { valor: 0, periodo: '' };
 
 if (datosHistoricos.length > 1) {
-  const decadas = Array.from({ length: 13 }, (_, i) => i);
+  // Un punto por década: el primer año con dato de cada una. Los censos no siempre
+  // caen en año redondo (1981, 1991, 2011) y desde 2012 la serie es anual.
+  const poblacionPorAnio = new Map(datosHistoricos.map(d => [Number(d.year), d.population]));
+  const puntosDecada = [];
+  for (let decada = 1900; decada <= ANIO_REFERENCIA; decada += 10) {
+    const anio = Math.min(...[...poblacionPorAnio.keys()].filter(a => a >= decada && a < decada + 10));
+    if (Number.isFinite(anio)) puntosDecada.push(anio);
+  }
 
-  decadas.forEach(i => {
-    const inicio = 1900 + (i * 10);
-    const fin = inicio + 10;
-
-    const poblacionInicio = datosHistoricos.find(d => d.year === inicio.toString())?.population;
-    const poblacionFin = datosHistoricos.find(d => d.year === fin.toString())?.population;
+  puntosDecada.slice(1).forEach((fin, i) => {
+    const inicio = puntosDecada[i];
+    const poblacionInicio = poblacionPorAnio.get(inicio);
+    const poblacionFin = poblacionPorAnio.get(fin);
 
     if (poblacionInicio && poblacionFin) {
       const cambio = ((poblacionFin - poblacionInicio) / poblacionInicio) * 100;

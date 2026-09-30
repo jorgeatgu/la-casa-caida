@@ -49,12 +49,12 @@ Notas:
 
 | Fuente | Motivo |
 |---|---|
-| Estadística del Padrón Continuo, edad año a año por municipio: 33817 (Huesca), 33937 (Teruel), 33967 (Zaragoza) | La serie termina el 1-ene-2022. El INE la sustituyó por el Censo Anual |
+| Estadística del Padrón Continuo, edad año a año por municipio: 33817 (Huesca), 33937 (Teruel), 33967 (Zaragoza) | La serie termina el 1-ene-2022. El INE la sustituyó por el Censo Anual. Los años 2003-2022 publicados se congelan en `data-raw/historico/edades-padron-2003-2022.csv` (fase 4) |
 | Padrón Continuo, grupos quinquenales por municipio | Termina en 2022 y los quinquenios no permiten 0-15 / 16-64 |
 | Censo Anual 68535 (grupos quinquenales y nacionalidad) | 717 MB y no da el corte en 16 años. La 68540 da los tres tramos directamente |
 | ECP 79543 (municipios y grandes grupos de edad) | Solo 83 municipios grandes (en Aragón: Huesca, Teruel y Zaragoza capitales) |
 | IAEST, movimiento natural de la población | El MNP del INE da exactamente las mismas cifras que había en el repo (citadas como IAEST) y tiene API. Se aplica el plan B del README del sprint: el MNP del INE |
-| Aragón Open Data, serie histórica 1900-2011 | No cambia. Se mantiene la serie actual (`README.md`) |
+| Aragón Open Data, serie histórica 1900-2011 | No cambia. Se mantiene la serie actual, congelada en `data-raw/historico/censos-1900-2011.csv` (fase 4) |
 
 ## Superficie: errores del gist
 

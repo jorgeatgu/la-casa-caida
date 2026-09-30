@@ -45,5 +45,10 @@ const { title, descripcion, provinciaActual, municipioActual } = Astro.props;
 
 
   <script src="/src/scripts/main.js"></script>
+  <script>
+    // Los scripts inline de las gráficas no pueden importar módulos: usan d3 y estos helpers como globales
+    import { alinearUltimaMarca, marcasAnio, radioPunto } from '../scripts/d3/ejeAnios.js';
+    window.ejeAnios = { alinearUltimaMarca, marcasAnio, radioPunto };
+  </script>
 </body>
 </html>

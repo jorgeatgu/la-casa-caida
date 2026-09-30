@@ -14,7 +14,7 @@ const chartId = `grafica-poblacion-${codigo}`;
     let height = 0;
     let scales = {};
     let dataLinePopulation = [];
-    const margin = { top: 20, right: 16, bottom: 40, left: 32 };
+    const margin = { top: 20, right: 16, bottom: 40, left: 64 };
     const container = d3.select(`#${chartId}`);
 
     // Crear el SVG con configuración responsiva
@@ -53,14 +53,16 @@ const chartId = `grafica-poblacion-${codigo}`;
     }
 
     function drawAxes(g) {
+      const [inicio, fin] = d3.extent(dataLinePopulation, d => d.year);
       const axisX = d3.axisBottom(scales.count.x)
         .tickPadding(5)
         .tickFormat(d3.format('d'))
-        .ticks(10);
+        .tickValues(ejeAnios.marcasAnio(inicio, fin, width));
 
       g.select('.axis-x')
         .attr('transform', `translate(0,${height})`)
-        .call(axisX);
+        .call(axisX)
+        .call(ejeAnios.alinearUltimaMarca);
 
       const axisY = d3.axisLeft(scales.count.y)
         .tickPadding(5)
@@ -86,7 +88,7 @@ const chartId = `grafica-poblacion-${codigo}`;
       g.append("text")
         .attr("class", "axis-label y-label")
         .attr("text-anchor", "middle")
-        .attr("transform", `translate(${-margin.left/2 - 10}, ${height/2}) rotate(-90)`)
+        .attr("transform", `translate(${-margin.left + 10}, ${height/2}) rotate(-90)`)
         .text("Habitantes");
     }
 
@@ -154,6 +156,9 @@ const chartId = `grafica-poblacion-${codigo}`;
         .style("opacity", 0)
         .style("z-index", 1000);
 
+      const [inicio, fin] = d3.extent(dataLinePopulation, d => d.year);
+      const radio = d => ejeAnios.radioPunto(dataLinePopulation, dataLinePopulation.indexOf(d), width / (fin - inicio));
+
       // Añadir puntos
       g.select(`.${chartId}-container-bis`)
         .selectAll(".circles-population")
@@ -163,10 +168,10 @@ const chartId = `grafica-poblacion-${codigo}`;
         .attr("class", "circles-population")
         .attr("cx", d => scales.count.x(d.year))
         .attr("cy", d => scales.count.y(d.population))
-        .attr("r", 4)
+        .attr("r", radio)
         .attr("fill", "#1a73e8")
         .attr("stroke", "#fff")
-        .attr("stroke-width", 2)
+        .attr("stroke-width", d => radio(d) / 2)
         .on("mouseover", function(event, d) {
           // Aumentar tamaño del círculo
           d3.select(this)
@@ -183,11 +188,11 @@ const chartId = `grafica-poblacion-${codigo}`;
             .style("top", (event.pageY - 28) + "px")
             .style("opacity", 0.9);
         })
-        .on("mouseout", function() {
+        .on("mouseout", function(event, d) {
           // Restaurar tamaño original del círculo
           d3.select(this)
-            .attr("r", 4)
-            .attr("stroke-width", 2);
+            .attr("r", radio(d))
+            .attr("stroke-width", radio(d) / 2);
 
           // Ocultar tooltip
           tooltip.style("opacity", 0);
