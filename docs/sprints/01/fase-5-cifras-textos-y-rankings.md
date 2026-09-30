@@ -79,8 +79,8 @@ Provisionales:
 - [x] Copyright calculado
 - [x] `npm run validate:data` en verde
 - [x] Build en verde
-- [ ] Revisar el preview de Vercel
-- [ ] PR
+- [x] Revisar el preview de Vercel
+- [x] PR
 
 ## Resultado
 
