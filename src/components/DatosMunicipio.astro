@@ -17,20 +17,21 @@ const nombreMunicipio = municipios.find(m => m.codigoINE === codigo)?.nombre;
 // Cargar datos de edad (que incluyen población actual)
 const datosEdad = cargarDatosEdadSync(provincia, codigo);
 
-// Pre-cargar los datos
-const municipioData = datosEdad ? {
-  nombre: nombreMunicipio,
-  poblacion: datosEdad.population,
-  mayores: datosEdad.mayor,
-  menores: datosEdad.menor,
-  year: ANIO_REFERENCIA
-} : null;
-
 const datosHistoricos = cargarDatosHistoricosSync(provincia, codigo);
 
 // Calcular estadísticas históricas
 const poblacion1900 = datosHistoricos.find(d => d.year === '1900')?.population;
 const poblacionActual = datosHistoricos.find(d => d.year === String(ANIO_REFERENCIA))?.population;
+
+// Habitantes del padrón, como en las gráficas y los rankings. Los porcentajes de edad
+// salen del Censo Anual, cuya población total difiere en unas pocas personas.
+const municipioData = datosEdad ? {
+  nombre: nombreMunicipio,
+  poblacion: poblacionActual ?? datosEdad.population,
+  mayores: datosEdad.mayor,
+  menores: datosEdad.menor,
+  year: ANIO_REFERENCIA
+} : null;
 const poblacionMaxima = datosHistoricos.length > 0 ?
   Math.max(...datosHistoricos.map(d => d.population)) : 0;
 const poblacionMinima = datosHistoricos.length > 0 ?

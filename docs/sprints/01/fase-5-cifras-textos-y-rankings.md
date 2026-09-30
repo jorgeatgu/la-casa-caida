@@ -92,6 +92,7 @@ Provisionales:
 - Las fuentes de las provincias dicen ahora "padrón municipal del INE desde 2012" y "Movimiento Natural de la Población del INE", en lugar de "Los datos de 2024 son del INE" y "del IAEST".
 - `/rankings` muestra 6 rankings, y el selector pasa a 3 columnas. Maleján encabeza la densidad alta con 3.525 hab/km², porque su superficie es de 0,08 km² (el gist y el polígono coinciden).
 - `validar.js` comprueba que `cifras.json` existe y cuadra con los CSV: año, población de Aragón y población y nº de municipios de cada provincia.
+- La tarjeta "Habitantes en {año}" de cada municipio usa el padrón, como las gráficas y los rankings, y no el total del Censo Anual. Era un pendiente de la PR de la fase 4. Los % de edad siguen saliendo del censo.
 - `Footer.astro` no lo importa nadie (el pie está en `Layout.astro`). Se le calcula el año igualmente.
 
 ## Criterios de aceptación
