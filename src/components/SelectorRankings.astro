@@ -27,6 +27,18 @@ const rankings = [
     nombre: "Más jóvenes",
     descripcion: "Municipios con mayor porcentaje de menores de 16 años",
     icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm2 8h4m-7 3h10m-5-3v6"></path></svg>`
+  },
+  {
+    id: "densidad-alta",
+    nombre: "Mayor densidad",
+    descripcion: "Municipios con más habitantes por km²",
+    icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14M5 12h14M5 16h14"></path></svg>`
+  },
+  {
+    id: "densidad-baja",
+    nombre: "Menor densidad",
+    descripcion: "Municipios con menos habitantes por km²",
+    icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10h14M5 14h14"></path></svg>`
   }
 ];
 ---
@@ -118,7 +130,7 @@ const rankings = [
 
   .ranking-options {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     padding: 1.5rem;
   }

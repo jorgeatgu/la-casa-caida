@@ -9,6 +9,7 @@ const {
 import { cargarDatosEdadSync, cargarDatosHistoricosSync } from '../scripts/dataLoader.js';
 import { municipios } from '../data/municipios.js';
 import { ANIO_REFERENCIA } from '../config/anio.js';
+import { variacionesPorDecada } from '../scripts/decadas.js';
 
 // Obtener el nombre del municipio
 const nombreMunicipio = municipios.find(m => m.codigoINE === codigo)?.nombre;
@@ -39,44 +40,11 @@ const poblacionMinima = datosHistoricos.length > 0 ?
 const variacion1900 = poblacion1900 && poblacionActual ?
   ((poblacionActual - poblacion1900) / poblacion1900) * 100 : null;
 
-// Calcular mayor crecimiento y decrecimiento por década
-let mayorCrecimiento = { valor: 0, periodo: '' };
-let mayorDecrecimiento = { valor: 0, periodo: '' };
-
-if (datosHistoricos.length > 1) {
-  // Un punto por década: el primer año con dato de cada una. Los censos no siempre
-  // caen en año redondo (1981, 1991, 2011) y desde 2012 la serie es anual.
-  const poblacionPorAnio = new Map(datosHistoricos.map(d => [Number(d.year), d.population]));
-  const puntosDecada = [];
-  for (let decada = 1900; decada <= ANIO_REFERENCIA; decada += 10) {
-    const anio = Math.min(...[...poblacionPorAnio.keys()].filter(a => a >= decada && a < decada + 10));
-    if (Number.isFinite(anio)) puntosDecada.push(anio);
-  }
-
-  puntosDecada.slice(1).forEach((fin, i) => {
-    const inicio = puntosDecada[i];
-    const poblacionInicio = poblacionPorAnio.get(inicio);
-    const poblacionFin = poblacionPorAnio.get(fin);
-
-    if (poblacionInicio && poblacionFin) {
-      const cambio = ((poblacionFin - poblacionInicio) / poblacionInicio) * 100;
-
-      if (cambio > mayorCrecimiento.valor) {
-        mayorCrecimiento = {
-          valor: cambio,
-          periodo: `${inicio}-${fin}`
-        };
-      }
-
-      if (cambio < mayorDecrecimiento.valor) {
-        mayorDecrecimiento = {
-          valor: cambio,
-          periodo: `${inicio}-${fin}`
-        };
-      }
-    }
-  });
-}
+// Mayor crecimiento y decrecimiento por década
+const { mayorCrecimiento, mayorDecrecimiento } = variacionesPorDecada(
+  new Map(datosHistoricos.map(d => [Number(d.year), d.population])),
+  ANIO_REFERENCIA
+);
 ---
 
 <div class="datos-municipio-container">
@@ -102,7 +70,7 @@ if (datosHistoricos.length > 1) {
           <div class="tarjeta tarjeta-verde">
             <div class="tarjeta-contenido">
               <span class="tarjeta-valor">{municipioData.menores.toFixed(1)}%</span>
-              <span class="tarjeta-descripcion">Menores de 18 años</span>
+              <span class="tarjeta-descripcion">Menores de 16 años</span>
               <span class="tarjeta-extra">Datos de {municipioData.year}</span>
             </div>
           </div>

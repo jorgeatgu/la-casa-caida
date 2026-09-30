@@ -7,26 +7,30 @@ import MunicipiosSection from '../../components/MunicipiosSection.astro';
 import DatosDestacados from '../../components/DatosDestacados.astro';
 import Kofi from '../../components/Kofi.astro';
 import AdBlock from '../../components/AdBlock.astro';
+import cifras from '../../data/cifras.json';
+import { ANIO_REFERENCIA } from '../../config/anio.js';
+import { porcentaje } from '../../scripts/formato.js';
 
 
 const provincia = 'huesca';
 const municipiosHuesca = municipios.filter(m => m.provincia === provincia);
 
+const datos = cifras.provincias[provincia];
 const datosHuesca = [
   {
-    "valor": "10.37%",
-    "descripcion": "Disminución de población desde 1900",
-    "color": "indigo"
+    valor: porcentaje(-datos.variacion1900),
+    descripcion: "Disminución de población desde 1900",
+    color: "indigo"
   },
   {
-    "valor": "9.43%",
-    "descripcion": "Mayor crecimiento (2001-2011)",
-    "color": "emerald"
+    valor: porcentaje(datos.mayorCrecimiento.valor),
+    descripcion: `Mayor crecimiento (${datos.mayorCrecimiento.periodo})`,
+    color: "emerald"
   },
   {
-    "valor": "5.24%",
-    "descripcion": "Mayor decrecimiento (1960-1970)",
-    "color": "amber"
+    valor: porcentaje(-datos.mayorDecrecimiento.valor),
+    descripcion: `Mayor decrecimiento (${datos.mayorDecrecimiento.periodo})`,
+    color: "amber"
   }
 ];
 ---
@@ -51,7 +55,7 @@ const datosHuesca = [
         </p>
 
         <section class="intro">
-          <p class="text">La provincia de Huesca ha seguido un camino parecido a la de Teruel, pero al contrario de esta Huesca comenzo una ligera recuperación de población a partir del año 2000. Por desgracia la recuperación no es igual para todos los municipios, y 141 de estos tienen una densidad inferior a 10hab/km2.</p>
+          <p class="text">La provincia de Huesca ha seguido un camino parecido a la de Teruel, pero al contrario de esta Huesca comenzo una ligera recuperación de población a partir del año 2000. Por desgracia la recuperación no es igual para todos los municipios, y {datos.municipiosDensidadBaja} de estos tienen una densidad inferior a 10hab/km2.</p>
         </section>
         <Kofi />
         <DatosDestacados datos={datosHuesca} />
@@ -61,8 +65,8 @@ const datosHuesca = [
 
       <div class="chart-header section-text">
         <h2>Evolución de la población - Huesca</h2>
-        <p>En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Huesca desde 1900 hasta 2024.</p>
-        <span class="data">Los datos provienen de dos datasets diferentes. Censo de habitantes desde 1900 a 2011 disponible en Aragón Open Data. Los datos de 2024 son del INE.</span>
+        <p>En la siguiente gráfica podemos ver cómo ha ido evolucionando la población total de la provincia de Huesca desde 1900 hasta {ANIO_REFERENCIA}.</p>
+        <span class="data">Los datos provienen de dos fuentes: los censos de 1900 a 2011, disponibles en Aragón Open Data, y el padrón municipal del INE desde 2012 hasta {ANIO_REFERENCIA}.</span>
       </div>
       <section class="container-chart">
         <GraficaHistoricaPoblacion provincia={provincia} />
@@ -74,7 +78,7 @@ const datosHuesca = [
         <div class="chart-header section-text">
           <h2>Saldo vegetativo - Huesca</h2>
           <p>El saldo vegetativo representa la diferencia entre nacimientos y defunciones, mostrando el crecimiento natural de la población sin considerar los movimientos migratorios.</p>
-          <span class="data">Los datos son del IAEST.</span>
+          <span class="data">Los datos son del Movimiento Natural de la Población del INE.</span>
         </div>
         <GraficaSaldoVegetativo provincia={provincia} />
       </section>

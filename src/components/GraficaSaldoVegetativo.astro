@@ -1,5 +1,15 @@
 ---
+import fs from 'fs';
+import path from 'path';
+import { parse } from 'csv-parse/sync';
+
 const { municipio, codigo, provincia } = Astro.props;
+
+// Años provisionales (estimación mensual del INE) para la leyenda
+const csv = fs.readFileSync(path.join(process.cwd(), 'public', 'data', provincia, `saldo-vegetativo-total-${provincia}.csv`), 'utf8');
+const aniosProvisionales = parse(csv, { columns: true, skip_empty_lines: true, bom: true })
+  .filter(f => f.provisional === '1')
+  .map(f => f.year);
 const chartId = `grafica-vegetativo-${codigo || provincia}`;
 const containerClass = `bar-negative-${provincia}`;
 const containerSelector = `bar-negative-${provincia}-container`;
@@ -9,9 +19,27 @@ const containerBisSelector = `bar-negative-${provincia}-container-bis`;
 <div class="grafica-container">
   <div class={containerClass}>
     <svg class="bar-negative-chart">
+      <defs>
+        <pattern id={`provisional-negative-${provincia}`} patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+          <rect width="6" height="6" fill="#fff" />
+          <rect width="2.5" height="6" fill="#a01721" />
+        </pattern>
+        <pattern id={`provisional-positive-${provincia}`} patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+          <rect width="6" height="6" fill="#fff" />
+          <rect width="2.5" height="6" fill="#090387" />
+        </pattern>
+      </defs>
       <g class={containerSelector}></g>
     </svg>
   </div>
+  {aniosProvisionales.length > 0 && (
+    <p class="leyenda-provisional">
+      <svg class="leyenda-muestra" width="14" height="14" aria-hidden="true">
+        <rect x="0.5" y="0.5" width="13" height="13" fill={`url(#provisional-negative-${provincia})`} />
+      </svg>
+      {aniosProvisionales.join(', ')}: dato provisional (estimación mensual del INE)
+    </p>
+  )}
 </div>
 
 <script define:vars={{ municipio, codigo, provincia, chartId, containerClass, containerSelector, containerBisSelector }}>
@@ -109,7 +137,12 @@ const containerBisSelector = `bar-negative-${provincia}-container-bis`;
         .selectAll('.bar-vertical')
         .data(dataVegetative)
         .join('rect')
-        .attr('class', d => (d.saldo < 0 ? 'negative bar-vertical' : 'positive bar-vertical'))
+        .attr('class', d =>
+          `${d.saldo < 0 ? 'negative' : 'positive'} bar-vertical${d.provisional ? ' bar-provisional' : ''}`
+        )
+        .style('fill', d =>
+          d.provisional ? `url(#provisional-${d.saldo < 0 ? 'negative' : 'positive'}-${provincia})` : null
+        )
         .on('mouseover', function(event, d) {
           tooltip.transition();
           tooltip
@@ -120,6 +153,9 @@ const containerBisSelector = `bar-negative-${provincia}-container-bis`;
               <p class="tooltip-born">Nacidos: <span class="tooltip-number">${d.nacidos}</span><p/>
               <p class="tooltip-deceased">Fallecidos: <span class="tooltip-number">${d.fallecidos}</span><p/>
               <p class="tooltip-deceased">Saldo: <span class="tooltip-number">${d.saldo}</span><p/>
+              ${d.provisional
+                ? `<p class="tooltip-provisional">Dato provisional: estimación del INE a partir de los datos mensuales. El definitivo se publica a finales de ${d.year + 1}.</p>`
+                : ''}
               `
             )
             .style('left', w / 2 - 100 + 'px')
@@ -154,6 +190,7 @@ const containerBisSelector = `bar-negative-${provincia}-container-bis`;
           d.nacidos = +d.nacidos;
           d.fallecidos = +d.fallecidos;
           d.saldo = +d.saldo;
+          d.provisional = d.provisional === '1';
         });
 
         dataVegetative = data;
@@ -182,6 +219,23 @@ const containerBisSelector = `bar-negative-${provincia}-container-bis`;
 
   .negative {
     fill: #FF5252;
+  }
+
+  .leyenda-provisional {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0 0;
+    font-size: 0.875rem;
+    color: #475569;
+  }
+
+  .leyenda-muestra {
+    flex: none;
+  }
+
+  .leyenda-muestra rect {
+    stroke: #a01721;
   }
 
   .tooltip {

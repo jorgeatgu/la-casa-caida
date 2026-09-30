@@ -67,20 +67,32 @@ Provisionales:
 
 ## Tareas
 
-- [ ] Crear la rama `fase-5-cifras-textos-y-rankings`
-- [ ] `scripts/data/cifras.js` y `src/data/cifras.json`
-- [ ] Cifras de `index.astro`
-- [ ] Cifras de `provincia/*.astro`
-- [ ] Años desde el módulo central
-- [ ] Etiqueta de menores corregida
-- [ ] Revisión de la prosa cualitativa
-- [ ] Aviso de provisional en gráficas y Metodología
-- [ ] Rankings de densidad publicados
-- [ ] Copyright calculado
-- [ ] `npm run validate:data` en verde
-- [ ] Build en verde
+- [x] Crear la rama `fase-5-cifras-textos-y-rankings`
+- [x] `scripts/data/cifras.js` y `src/data/cifras.json`
+- [x] Cifras de `index.astro`
+- [x] Cifras de `provincia/*.astro`
+- [x] Años desde el módulo central
+- [x] Etiqueta de menores corregida
+- [x] Revisión de la prosa cualitativa
+- [x] Aviso de provisional en gráficas y Metodología
+- [x] Rankings de densidad publicados
+- [x] Copyright calculado
+- [x] `npm run validate:data` en verde
+- [x] Build en verde
 - [ ] Revisar el preview de Vercel
 - [ ] PR
+
+## Resultado
+
+- `cifras.js` es el último paso de `data:build`. Lee `aragon-total.csv`, `aragon-municipios.csv` y los CSV de cada provincia, y escribe `src/data/cifras.json`. La superficie de Aragón y de cada provincia es la suma de la superficie municipal (47.680 km², frente a los 47.720 oficiales), para que las densidades de la prosa cuadren con las de las gráficas y los rankings.
+- La fecha de "Actualizado el" es `FECHA_ACTUALIZACION` en `src/config/anio.js`, junto a `ANIO_REFERENCIA`. Se cambia a mano en cada actualización. No se usa el día del build ni el de la descarga, para que `data:build` siga siendo idempotente.
+- El cálculo de décadas de `DatosMunicipio.astro` pasa a `src/scripts/decadas.js`, y lo usa también `cifras.js` para las provincias.
+- Prosa: se calculan desde `cifras.json` los municipios por debajo de 10 hab/km² (Huesca), los municipios sin menores de 16 y con menos de 5 menores de 16 (Teruel), el año de máxima población (Teruel), el % en la capital (Zaragoza y la home) y los extremos del saldo vegetativo con años definitivos (Zaragoza). Se reescriben, con visto bueno, las frases de Teruel ("en 50 años casi el 50 %", "menores de 18"), la de 2017 de Zaragoza y la de "más del 70 %" de la home. Siguen escritas a mano, y hay que revisarlas en cada actualización: la recuperación de Huesca desde 2000, "ha doblado la población en menos de un siglo" y "única con saldo positivo entre 2006 y 2011" en Zaragoza, "solo por delante de Castilla y León, Castilla-La Mancha y Extremadura" en la home, y "casi la mitad" de Teruel.
+- Provisional: la barra del año provisional lleva un rayado a 45° del color de la barra y un borde. El tooltip lo explica, y debajo de la gráfica aparece una leyenda, que solo sale si hay algún año provisional. Metodología tiene la sección "Datos provisionales" mientras `cifras.hayProvisionales` sea verdadero.
+- Las fuentes de las provincias dicen ahora "padrón municipal del INE desde 2012" y "Movimiento Natural de la Población del INE", en lugar de "Los datos de 2024 son del INE" y "del IAEST".
+- `/rankings` muestra 6 rankings, y el selector pasa a 3 columnas. Maleján encabeza la densidad alta con 3.525 hab/km², porque su superficie es de 0,08 km² (el gist y el polígono coinciden).
+- `validar.js` comprueba que `cifras.json` existe y cuadra con los CSV: año, población de Aragón y población y nº de municipios de cada provincia.
+- `Footer.astro` no lo importa nadie (el pie está en `Layout.astro`). Se le calcula el año igualmente.
 
 ## Criterios de aceptación
 
