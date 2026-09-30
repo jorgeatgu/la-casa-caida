@@ -184,7 +184,7 @@ export function aragonStacked() {
         i = bisectDate(dataAragonStacked, x0, 1),
         d0 = dataAragonStacked[i - 1],
         d1 = dataAragonStacked[i],
-        d = x0 - d0.year > d1.year - x0 ? d1 : d0;
+        d = d1 && x0 - d0.year > d1.year - x0 ? d1 : d0;
       const positionX = scales.count.x(d.year) + margin.left;
       const postionWidthTooltip = positionX + 200;
       const positionRightTooltip = w - positionX;
