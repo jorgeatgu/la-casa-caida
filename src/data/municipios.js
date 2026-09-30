@@ -360,8 +360,8 @@ export const municipios = [
     "nombre": "Alfántega",
     "provincia": "huesca",
     "slug": "alfantega",
-    "codigoINE": "22021",
-    "poblacionActual": 2437
+    "codigoINE": "22020",
+    "poblacionActual": 129
   },
   {
     "nombre": "Alforque",
@@ -420,13 +420,6 @@ export const municipios = [
     "poblacionActual": 12
   },
   {
-    "nombre": "Almolda La",
-    "provincia": "zaragoza",
-    "slug": "almolda-la",
-    "codigoINE": "50022",
-    "poblacionActual": 543
-  },
-  {
     "nombre": "Almonacid de la Cuba",
     "provincia": "zaragoza",
     "slug": "almonacid-de-la-cuba",
@@ -441,11 +434,11 @@ export const municipios = [
     "poblacionActual": 759
   },
   {
-    "nombre": "Almunia de Doña Godina La",
-    "provincia": "zaragoza",
-    "slug": "almunia-de-dona-godina-la",
-    "codigoINE": "50025",
-    "poblacionActual": 7937
+    "nombre": "Almudévar",
+    "provincia": "huesca",
+    "slug": "almudevar",
+    "codigoINE": "22021",
+    "poblacionActual": 2437
   },
   {
     "nombre": "Almunia de San Juan",
@@ -2394,11 +2387,18 @@ export const municipios = [
     "poblacionActual": 35
   },
   {
-    "nombre": "Joyosa La",
+    "nombre": "La Almolda",
     "provincia": "zaragoza",
-    "slug": "joyosa-la",
-    "codigoINE": "50132",
-    "poblacionActual": 1132
+    "slug": "la-almolda",
+    "codigoINE": "50022",
+    "poblacionActual": 543
+  },
+  {
+    "nombre": "La Almunia de Doña Godina",
+    "provincia": "zaragoza",
+    "slug": "la-almunia-de-dona-godina",
+    "codigoINE": "50025",
+    "poblacionActual": 7937
   },
   {
     "nombre": "La Cañada de Verich",
@@ -2462,6 +2462,13 @@ export const municipios = [
     "slug": "la-iglesuela-del-cid",
     "codigoINE": "44126",
     "poblacionActual": 377
+  },
+  {
+    "nombre": "La Joyosa",
+    "provincia": "zaragoza",
+    "slug": "la-joyosa",
+    "codigoINE": "50132",
+    "poblacionActual": 1132
   },
   {
     "nombre": "La Mata de los Olmos",
@@ -2616,6 +2623,13 @@ export const municipios = [
     "slug": "las-parras-de-castellote",
     "codigoINE": "44178",
     "poblacionActual": 57
+  },
+  {
+    "nombre": "Las Pedrosas",
+    "provincia": "zaragoza",
+    "slug": "las-pedrosas",
+    "codigoINE": "50205",
+    "poblacionActual": 113
   },
   {
     "nombre": "Las Peñas de Riglos",
@@ -3512,13 +3526,6 @@ export const municipios = [
     "slug": "pedrola",
     "codigoINE": "50204",
     "poblacionActual": 3766
-  },
-  {
-    "nombre": "Pedrosas Las",
-    "provincia": "zaragoza",
-    "slug": "pedrosas-las",
-    "codigoINE": "50205",
-    "poblacionActual": 113
   },
   {
     "nombre": "Peñalba",

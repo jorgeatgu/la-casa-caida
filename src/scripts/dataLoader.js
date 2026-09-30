@@ -1,59 +1,47 @@
 import fs from 'fs';
 import path from 'path';
+import { parse } from 'csv-parse/sync';
+import { ANIO_REFERENCIA } from '../config/anio.js';
 
-function parseCSV(content) {
-  const lines = content.split('\n');
-  return lines.slice(1)
-    .filter(line => line.trim() !== '')
-    .map(line => {
-      const values = line.split(',');
-      return values;
-    });
+// Cada CSV se lee una sola vez por build, no una vez por municipio
+const cache = new Map();
+
+function leerCsvProvincia(provincia, fichero) {
+  const csvPath = path.join(process.cwd(), 'public', 'data', provincia, fichero);
+  if (!cache.has(csvPath)) {
+    cache.set(csvPath, parse(fs.readFileSync(csvPath, 'utf8'), { columns: true, skip_empty_lines: true, bom: true }));
+  }
+  return cache.get(csvPath);
 }
 
-export function cargarDatosEdadSync(provincia, name) {
+export function cargarDatosEdadSync(provincia, codigo) {
   try {
-    const csvPath = path.join(process.cwd(), 'public', 'data', provincia, `${provincia}-mayor-menor.csv`);
-    const csvContent = fs.readFileSync(csvPath, 'utf8');
+    const fila = leerCsvProvincia(provincia, `${provincia}-mayor-menor.csv`)
+      .find(d => d.cp === codigo && d.year === String(ANIO_REFERENCIA));
 
-    const data = parseCSV(csvContent)
-      .map(values => ({
-        year: values[0],
-        name: values[1],
-        menor: parseFloat(values[2]),
-        mayor: parseFloat(values[3]),
-        population: parseInt(values[4])
-      }));
-
-    return data.find(d => d.name === name && d.year === '2024') || null;
+    return fila ? {
+      year: fila.year,
+      name: fila.name,
+      menor: parseFloat(fila.menor),
+      mayor: parseFloat(fila.mayor),
+      population: parseInt(fila.population, 10)
+    } : null;
   } catch (error) {
     console.error('Error al cargar datos de edad:', error);
     return null;
   }
 }
 
-export function cargarDatosHistoricosSync(provincia, name) {
+export function cargarDatosHistoricosSync(provincia, codigo) {
   try {
-    const csvPath = path.join(process.cwd(), 'public', 'data', provincia, `${provincia}-tarjetas.csv`);
-
-    if (!fs.existsSync(csvPath)) {
-      console.error('Archivo no encontrado:', csvPath);
-      return [];
-    }
-
-    const csvContent = fs.readFileSync(csvPath, 'utf8');
-
-    const data = parseCSV(csvContent)
-      .map(values => ({
-        year: values[0],
-        cp: values[1],
-        name: values[2],
-        population: parseInt(values[3]) || 0
+    return leerCsvProvincia(provincia, `${provincia}-tarjetas.csv`)
+      .filter(d => d.cp === codigo)
+      .map(d => ({
+        year: d.year,
+        cp: d.cp,
+        name: d.name,
+        population: parseInt(d.population, 10) || 0
       }));
-
-    const filtered = data.filter(d => d.name === name);
-
-    return filtered;
   } catch (error) {
     console.error('Error al cargar datos históricos:', error);
     return [];

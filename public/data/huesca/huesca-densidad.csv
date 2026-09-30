@@ -3,7 +3,7 @@ year,cp,name,population,superficie
 1900,22002,Abizanda,463,44.84
 1900,22003,Adahuesca,725,52.47
 1900,22004,Agüero,1182,94.16
-1900,22006,Aísa,733,80.97
+1900,22006,Aisa,733,80.97
 1900,22007,Albalate de Cinca,1519,44.23
 1900,22008,Albalatillo,464,9.15
 1900,22009,Albelda,1213,51.92
@@ -60,7 +60,7 @@ year,cp,name,population,superficie
 1900,22069,Broto,1758,128
 1900,22072,Caldearenas,1483,192.31
 1900,22074,Campo,806,22.86
-1900,22075,Camporrells,997,26.71
+1900,22075,Camporrélls,997,26.71
 1900,22076,Canal de Berdún,2022,133.27
 1900,22077,Candasnos,1063,122.45
 1900,22078,Canfranc,770,71.56
@@ -68,8 +68,8 @@ year,cp,name,population,superficie
 1900,22080,Capella,1008,60.71
 1900,22081,Casbas de Huesca,2195,132.69
 1900,22082,Castejón del Puente,621,25.43
-1900,22083,Castejón de Monegros,1594,17.56
-1900,22084,Castejón de Sos,813,17.56
+1900,22083,Castejón de Monegros,1594,165.42
+1900,22084,Castejón de Sos,813,31.59
 1900,22085,Castelflorite,247,34.76
 1900,22086,Castiello de Jaca,523,17.31
 1900,22087,Castigaleu,266,26.53
@@ -139,7 +139,7 @@ year,cp,name,population,superficie
 1900,22182,Plan,1124,92.53
 1900,22184,Poleñino,512,33.02
 1900,22186,Pozán de Vero,885,14.75
-1900,22187,La Puebla de Castro,887,17.03
+1900,22187,La Puebla de Castro,887,29.42
 1900,22188,Puente de Montañana,822,48.56
 1900,22189,Puértolas,1049,99.86
 1900,22190,El Pueyo de Araguás,492,61.84
@@ -156,7 +156,7 @@ year,cp,name,population,superficie
 1900,22206,Sangarrén,509,32.22
 1900,22207,San Juan de Plan,361,55.53
 1900,22208,Santa Cilia,567,28.08
-1900,22209,Santa Cruz de la Serós,422,19.51
+1900,22209,Santa Cruz de la Serós,422,26.97
 1900,22212,Santaliestra y San Quílez,366,23.34
 1900,22213,Sariñena,4029,275.57
 1900,22214,Secastilla,850,47.42
@@ -176,7 +176,7 @@ year,cp,name,population,superficie
 1900,22232,Torralba de Aragón,443,40.39
 1900,22233,Torre la Ribera,362,32.06
 1900,22234,Torrente de Cinca,1382,56.77
-1900,22235,Torres de Alcanadre,499,28.31
+1900,22235,Torres de Alcanadre,499,17.64
 1900,22236,Torres de Barbués,202,13.94
 1900,22239,Tramaced,111,15.42
 1900,22242,Valfarta,309,33
@@ -188,7 +188,7 @@ year,cp,name,population,superficie
 1900,22248,Vicién,374,13.76
 1900,22249,Villanova,279,7.05
 1900,22250,Villanúa,959,58.19
-1900,22251,Villanueva de Sigena,900,75.99
+1900,22251,Villanueva de Sigena,900,146.47
 1900,22252,Yebra de Basa,867,90.88
 1900,22253,Yésero,288,30.23
 1900,22254,Zaidín,1907,92.55
@@ -199,12 +199,12 @@ year,cp,name,population,superficie
 1900,22905,Lupiñén-Ortilla,1138,110.07
 1900,22906,Santa María de Dulcis,644,27
 1900,22907,Aínsa-Sobrarbe,3680,284.77
-1900,22908,Hoz y Costeán,1390,57.48
+1900,22908,Hoz y Costean,1390,57.48
 1910,22001,Abiego,1440,38.19
 1910,22002,Abizanda,472,44.84
 1910,22003,Adahuesca,631,52.47
 1910,22004,Agüero,1253,94.16
-1910,22006,Aísa,787,80.97
+1910,22006,Aisa,787,80.97
 1910,22007,Albalate de Cinca,1636,44.23
 1910,22008,Albalatillo,497,9.15
 1910,22009,Albelda,1357,51.92
@@ -261,7 +261,7 @@ year,cp,name,population,superficie
 1910,22069,Broto,1822,128
 1910,22072,Caldearenas,1512,192.31
 1910,22074,Campo,828,22.86
-1910,22075,Camporrells,902,26.71
+1910,22075,Camporrélls,902,26.71
 1910,22076,Canal de Berdún,2066,133.27
 1910,22077,Candasnos,1054,122.45
 1910,22078,Canfranc,774,71.56
@@ -269,8 +269,8 @@ year,cp,name,population,superficie
 1910,22080,Capella,1064,60.71
 1910,22081,Casbas de Huesca,2155,132.69
 1910,22082,Castejón del Puente,612,25.43
-1910,22083,Castejón de Monegros,1575,17.56
-1910,22084,Castejón de Sos,900,17.56
+1910,22083,Castejón de Monegros,1575,165.42
+1910,22084,Castejón de Sos,900,31.59
 1910,22085,Castelflorite,285,34.76
 1910,22086,Castiello de Jaca,531,17.31
 1910,22087,Castigaleu,269,26.53
@@ -340,7 +340,7 @@ year,cp,name,population,superficie
 1910,22182,Plan,1096,92.53
 1910,22184,Poleñino,556,33.02
 1910,22186,Pozán de Vero,914,14.75
-1910,22187,La Puebla de Castro,837,17.03
+1910,22187,La Puebla de Castro,837,29.42
 1910,22188,Puente de Montañana,809,48.56
 1910,22189,Puértolas,1060,99.86
 1910,22190,El Pueyo de Araguás,493,61.84
@@ -357,7 +357,7 @@ year,cp,name,population,superficie
 1910,22206,Sangarrén,532,32.22
 1910,22207,San Juan de Plan,367,55.53
 1910,22208,Santa Cilia,606,28.08
-1910,22209,Santa Cruz de la Serós,412,19.51
+1910,22209,Santa Cruz de la Serós,412,26.97
 1910,22212,Santaliestra y San Quílez,379,23.34
 1910,22213,Sariñena,4424,275.57
 1910,22214,Secastilla,855,47.42
@@ -377,7 +377,7 @@ year,cp,name,population,superficie
 1910,22232,Torralba de Aragón,420,40.39
 1910,22233,Torre la Ribera,401,32.06
 1910,22234,Torrente de Cinca,1409,56.77
-1910,22235,Torres de Alcanadre,492,28.31
+1910,22235,Torres de Alcanadre,492,17.64
 1910,22236,Torres de Barbués,238,13.94
 1910,22239,Tramaced,111,15.42
 1910,22242,Valfarta,346,33
@@ -389,7 +389,7 @@ year,cp,name,population,superficie
 1910,22248,Vicién,328,13.76
 1910,22249,Villanova,324,7.05
 1910,22250,Villanúa,1114,58.19
-1910,22251,Villanueva de Sigena,974,75.99
+1910,22251,Villanueva de Sigena,974,146.47
 1910,22252,Yebra de Basa,888,90.88
 1910,22253,Yésero,311,30.23
 1910,22254,Zaidín,2091,92.55
@@ -400,12 +400,12 @@ year,cp,name,population,superficie
 1910,22905,Lupiñén-Ortilla,1181,110.07
 1910,22906,Santa María de Dulcis,622,27
 1910,22907,Aínsa-Sobrarbe,3800,284.77
-1910,22908,Hoz y Costeán,1383,57.48
+1910,22908,Hoz y Costean,1383,57.48
 1920,22001,Abiego,1401,38.19
 1920,22002,Abizanda,446,44.84
 1920,22003,Adahuesca,647,52.47
 1920,22004,Agüero,1177,94.16
-1920,22006,Aísa,814,80.97
+1920,22006,Aisa,814,80.97
 1920,22007,Albalate de Cinca,1590,44.23
 1920,22008,Albalatillo,549,9.15
 1920,22009,Albelda,1481,51.92
@@ -462,7 +462,7 @@ year,cp,name,population,superficie
 1920,22069,Broto,1750,128
 1920,22072,Caldearenas,1436,192.31
 1920,22074,Campo,898,22.86
-1920,22075,Camporrells,875,26.71
+1920,22075,Camporrélls,875,26.71
 1920,22076,Canal de Berdún,1932,133.27
 1920,22077,Candasnos,1063,122.45
 1920,22078,Canfranc,1090,71.56
@@ -470,8 +470,8 @@ year,cp,name,population,superficie
 1920,22080,Capella,1013,60.71
 1920,22081,Casbas de Huesca,2054,132.69
 1920,22082,Castejón del Puente,551,25.43
-1920,22083,Castejón de Monegros,1502,17.56
-1920,22084,Castejón de Sos,966,17.56
+1920,22083,Castejón de Monegros,1502,165.42
+1920,22084,Castejón de Sos,966,31.59
 1920,22085,Castelflorite,266,34.76
 1920,22086,Castiello de Jaca,506,17.31
 1920,22087,Castigaleu,293,26.53
@@ -541,7 +541,7 @@ year,cp,name,population,superficie
 1920,22182,Plan,1113,92.53
 1920,22184,Poleñino,523,33.02
 1920,22186,Pozán de Vero,791,14.75
-1920,22187,La Puebla de Castro,735,17.03
+1920,22187,La Puebla de Castro,735,29.42
 1920,22188,Puente de Montañana,801,48.56
 1920,22189,Puértolas,1074,99.86
 1920,22190,El Pueyo de Araguás,503,61.84
@@ -558,7 +558,7 @@ year,cp,name,population,superficie
 1920,22206,Sangarrén,614,32.22
 1920,22207,San Juan de Plan,383,55.53
 1920,22208,Santa Cilia,600,28.08
-1920,22209,Santa Cruz de la Serós,332,19.51
+1920,22209,Santa Cruz de la Serós,332,26.97
 1920,22212,Santaliestra y San Quílez,422,23.34
 1920,22213,Sariñena,4490,275.57
 1920,22214,Secastilla,845,47.42
@@ -578,7 +578,7 @@ year,cp,name,population,superficie
 1920,22232,Torralba de Aragón,477,40.39
 1920,22233,Torre la Ribera,438,32.06
 1920,22234,Torrente de Cinca,1438,56.77
-1920,22235,Torres de Alcanadre,493,28.31
+1920,22235,Torres de Alcanadre,493,17.64
 1920,22236,Torres de Barbués,250,13.94
 1920,22239,Tramaced,119,15.42
 1920,22242,Valfarta,368,33
@@ -590,7 +590,7 @@ year,cp,name,population,superficie
 1920,22248,Vicién,296,13.76
 1920,22249,Villanova,352,7.05
 1920,22250,Villanúa,847,58.19
-1920,22251,Villanueva de Sigena,972,75.99
+1920,22251,Villanueva de Sigena,972,146.47
 1920,22252,Yebra de Basa,926,90.88
 1920,22253,Yésero,293,30.23
 1920,22254,Zaidín,2100,92.55
@@ -601,12 +601,12 @@ year,cp,name,population,superficie
 1920,22905,Lupiñén-Ortilla,1211,110.07
 1920,22906,Santa María de Dulcis,583,27
 1920,22907,Aínsa-Sobrarbe,3715,284.77
-1920,22908,Hoz y Costeán,1313,57.48
+1920,22908,Hoz y Costean,1313,57.48
 1930,22001,Abiego,1181,38.19
 1930,22002,Abizanda,437,44.84
 1930,22003,Adahuesca,545,52.47
 1930,22004,Agüero,1084,94.16
-1930,22006,Aísa,631,80.97
+1930,22006,Aisa,631,80.97
 1930,22007,Albalate de Cinca,1588,44.23
 1930,22008,Albalatillo,564,9.15
 1930,22009,Albelda,1271,51.92
@@ -663,7 +663,7 @@ year,cp,name,population,superficie
 1930,22069,Broto,1678,128
 1930,22072,Caldearenas,1256,192.31
 1930,22074,Campo,765,22.86
-1930,22075,Camporrells,804,26.71
+1930,22075,Camporrélls,804,26.71
 1930,22076,Canal de Berdún,1766,133.27
 1930,22077,Candasnos,907,122.45
 1930,22078,Canfranc,1696,71.56
@@ -671,8 +671,8 @@ year,cp,name,population,superficie
 1930,22080,Capella,1025,60.71
 1930,22081,Casbas de Huesca,1909,132.69
 1930,22082,Castejón del Puente,419,25.43
-1930,22083,Castejón de Monegros,1407,17.56
-1930,22084,Castejón de Sos,706,17.56
+1930,22083,Castejón de Monegros,1407,165.42
+1930,22084,Castejón de Sos,706,31.59
 1930,22085,Castelflorite,251,34.76
 1930,22086,Castiello de Jaca,544,17.31
 1930,22087,Castigaleu,351,26.53
@@ -742,7 +742,7 @@ year,cp,name,population,superficie
 1930,22182,Plan,1007,92.53
 1930,22184,Poleñino,538,33.02
 1930,22186,Pozán de Vero,771,14.75
-1930,22187,La Puebla de Castro,686,17.03
+1930,22187,La Puebla de Castro,686,29.42
 1930,22188,Puente de Montañana,733,48.56
 1930,22189,Puértolas,1020,99.86
 1930,22190,El Pueyo de Araguás,514,61.84
@@ -759,7 +759,7 @@ year,cp,name,population,superficie
 1930,22206,Sangarrén,619,32.22
 1930,22207,San Juan de Plan,301,55.53
 1930,22208,Santa Cilia,528,28.08
-1930,22209,Santa Cruz de la Serós,343,19.51
+1930,22209,Santa Cruz de la Serós,343,26.97
 1930,22212,Santaliestra y San Quílez,350,23.34
 1930,22213,Sariñena,3988,275.57
 1930,22214,Secastilla,786,47.42
@@ -779,7 +779,7 @@ year,cp,name,population,superficie
 1930,22232,Torralba de Aragón,475,40.39
 1930,22233,Torre la Ribera,426,32.06
 1930,22234,Torrente de Cinca,1369,56.77
-1930,22235,Torres de Alcanadre,446,28.31
+1930,22235,Torres de Alcanadre,446,17.64
 1930,22236,Torres de Barbués,228,13.94
 1930,22239,Tramaced,132,15.42
 1930,22242,Valfarta,335,33
@@ -791,7 +791,7 @@ year,cp,name,population,superficie
 1930,22248,Vicién,336,13.76
 1930,22249,Villanova,211,7.05
 1930,22250,Villanúa,682,58.19
-1930,22251,Villanueva de Sigena,875,75.99
+1930,22251,Villanueva de Sigena,875,146.47
 1930,22252,Yebra de Basa,867,90.88
 1930,22253,Yésero,254,30.23
 1930,22254,Zaidín,2051,92.55
@@ -802,12 +802,12 @@ year,cp,name,population,superficie
 1930,22905,Lupiñén-Ortilla,1300,110.07
 1930,22906,Santa María de Dulcis,553,27
 1930,22907,Aínsa-Sobrarbe,3479,284.77
-1930,22908,Hoz y Costeán,1151,57.48
+1930,22908,Hoz y Costean,1151,57.48
 1940,22001,Abiego,1058,38.19
 1940,22002,Abizanda,402,44.84
 1940,22003,Adahuesca,513,52.47
 1940,22004,Agüero,1007,94.16
-1940,22006,Aísa,552,80.97
+1940,22006,Aisa,552,80.97
 1940,22007,Albalate de Cinca,1616,44.23
 1940,22008,Albalatillo,556,9.15
 1940,22009,Albelda,1410,51.92
@@ -864,7 +864,7 @@ year,cp,name,population,superficie
 1940,22069,Broto,1467,128
 1940,22072,Caldearenas,1139,192.31
 1940,22074,Campo,794,22.86
-1940,22075,Camporrells,691,26.71
+1940,22075,Camporrélls,691,26.71
 1940,22076,Canal de Berdún,1687,133.27
 1940,22077,Candasnos,1092,122.45
 1940,22078,Canfranc,1090,71.56
@@ -872,8 +872,8 @@ year,cp,name,population,superficie
 1940,22080,Capella,910,60.71
 1940,22081,Casbas de Huesca,1698,132.69
 1940,22082,Castejón del Puente,395,25.43
-1940,22083,Castejón de Monegros,1532,17.56
-1940,22084,Castejón de Sos,708,17.56
+1940,22083,Castejón de Monegros,1532,165.42
+1940,22084,Castejón de Sos,708,31.59
 1940,22085,Castelflorite,270,34.76
 1940,22086,Castiello de Jaca,437,17.31
 1940,22087,Castigaleu,312,26.53
@@ -943,7 +943,7 @@ year,cp,name,population,superficie
 1940,22182,Plan,871,92.53
 1940,22184,Poleñino,527,33.02
 1940,22186,Pozán de Vero,747,14.75
-1940,22187,La Puebla de Castro,660,17.03
+1940,22187,La Puebla de Castro,660,29.42
 1940,22188,Puente de Montañana,669,48.56
 1940,22189,Puértolas,925,99.86
 1940,22190,El Pueyo de Araguás,504,61.84
@@ -960,7 +960,7 @@ year,cp,name,population,superficie
 1940,22206,Sangarrén,631,32.22
 1940,22207,San Juan de Plan,294,55.53
 1940,22208,Santa Cilia,511,28.08
-1940,22209,Santa Cruz de la Serós,341,19.51
+1940,22209,Santa Cruz de la Serós,341,26.97
 1940,22212,Santaliestra y San Quílez,373,23.34
 1940,22213,Sariñena,4107,275.57
 1940,22214,Secastilla,735,47.42
@@ -980,7 +980,7 @@ year,cp,name,population,superficie
 1940,22232,Torralba de Aragón,454,40.39
 1940,22233,Torre la Ribera,476,32.06
 1940,22234,Torrente de Cinca,1315,56.77
-1940,22235,Torres de Alcanadre,401,28.31
+1940,22235,Torres de Alcanadre,401,17.64
 1940,22236,Torres de Barbués,233,13.94
 1940,22239,Tramaced,144,15.42
 1940,22242,Valfarta,296,33
@@ -992,7 +992,7 @@ year,cp,name,population,superficie
 1940,22248,Vicién,245,13.76
 1940,22249,Villanova,159,7.05
 1940,22250,Villanúa,585,58.19
-1940,22251,Villanueva de Sigena,791,75.99
+1940,22251,Villanueva de Sigena,791,146.47
 1940,22252,Yebra de Basa,741,90.88
 1940,22253,Yésero,248,30.23
 1940,22254,Zaidín,1990,92.55
@@ -1003,12 +1003,13 @@ year,cp,name,population,superficie
 1940,22905,Lupiñén-Ortilla,1276,110.07
 1940,22906,Santa María de Dulcis,556,27
 1940,22907,Aínsa-Sobrarbe,3331,284.77
-1940,22908,Hoz y Costeán,1086,57.48
+1940,22908,Hoz y Costean,1086,57.48
+1940,22909,Vencillón,149,10.37
 1950,22001,Abiego,766,38.19
 1950,22002,Abizanda,387,44.84
 1950,22003,Adahuesca,423,52.47
 1950,22004,Agüero,785,94.16
-1950,22006,Aísa,468,80.97
+1950,22006,Aisa,468,80.97
 1950,22007,Albalate de Cinca,1398,44.23
 1950,22008,Albalatillo,486,9.15
 1950,22009,Albelda,1471,51.92
@@ -1065,7 +1066,7 @@ year,cp,name,population,superficie
 1950,22069,Broto,1429,128
 1950,22072,Caldearenas,1008,192.31
 1950,22074,Campo,783,22.86
-1950,22075,Camporrells,567,26.71
+1950,22075,Camporrélls,567,26.71
 1950,22076,Canal de Berdún,1446,133.27
 1950,22077,Candasnos,1052,122.45
 1950,22078,Canfranc,1054,71.56
@@ -1073,8 +1074,8 @@ year,cp,name,population,superficie
 1950,22080,Capella,779,60.71
 1950,22081,Casbas de Huesca,1379,132.69
 1950,22082,Castejón del Puente,335,25.43
-1950,22083,Castejón de Monegros,1448,17.56
-1950,22084,Castejón de Sos,661,17.56
+1950,22083,Castejón de Monegros,1448,165.42
+1950,22084,Castejón de Sos,661,31.59
 1950,22085,Castelflorite,210,34.76
 1950,22086,Castiello de Jaca,438,17.31
 1950,22087,Castigaleu,272,26.53
@@ -1144,7 +1145,7 @@ year,cp,name,population,superficie
 1950,22182,Plan,740,92.53
 1950,22184,Poleñino,490,33.02
 1950,22186,Pozán de Vero,637,14.75
-1950,22187,La Puebla de Castro,547,17.03
+1950,22187,La Puebla de Castro,547,29.42
 1950,22188,Puente de Montañana,585,48.56
 1950,22189,Puértolas,835,99.86
 1950,22190,El Pueyo de Araguás,458,61.84
@@ -1161,7 +1162,7 @@ year,cp,name,population,superficie
 1950,22206,Sangarrén,508,32.22
 1950,22207,San Juan de Plan,260,55.53
 1950,22208,Santa Cilia,513,28.08
-1950,22209,Santa Cruz de la Serós,317,19.51
+1950,22209,Santa Cruz de la Serós,317,26.97
 1950,22212,Santaliestra y San Quílez,392,23.34
 1950,22213,Sariñena,3787,275.57
 1950,22214,Secastilla,593,47.42
@@ -1181,7 +1182,7 @@ year,cp,name,population,superficie
 1950,22232,Torralba de Aragón,334,40.39
 1950,22233,Torre la Ribera,412,32.06
 1950,22234,Torrente de Cinca,1454,56.77
-1950,22235,Torres de Alcanadre,332,28.31
+1950,22235,Torres de Alcanadre,332,17.64
 1950,22236,Torres de Barbués,200,13.94
 1950,22239,Tramaced,175,15.42
 1950,22242,Valfarta,214,33
@@ -1193,7 +1194,7 @@ year,cp,name,population,superficie
 1950,22248,Vicién,287,13.76
 1950,22249,Villanova,127,7.05
 1950,22250,Villanúa,551,58.19
-1950,22251,Villanueva de Sigena,730,75.99
+1950,22251,Villanueva de Sigena,730,146.47
 1950,22252,Yebra de Basa,670,90.88
 1950,22253,Yésero,201,30.23
 1950,22254,Zaidín,2072,92.55
@@ -1204,12 +1205,13 @@ year,cp,name,population,superficie
 1950,22905,Lupiñén-Ortilla,1176,110.07
 1950,22906,Santa María de Dulcis,546,27
 1950,22907,Aínsa-Sobrarbe,3024,284.77
-1950,22908,Hoz y Costeán,867,57.48
+1950,22908,Hoz y Costean,867,57.48
+1950,22909,Vencillón,147,10.37
 1960,22001,Abiego,614,38.19
 1960,22002,Abizanda,305,44.84
 1960,22003,Adahuesca,332,52.47
 1960,22004,Agüero,504,94.16
-1960,22006,Aísa,385,80.97
+1960,22006,Aisa,385,80.97
 1960,22007,Albalate de Cinca,1388,44.23
 1960,22008,Albalatillo,453,9.15
 1960,22009,Albelda,1432,51.92
@@ -1266,7 +1268,7 @@ year,cp,name,population,superficie
 1960,22069,Broto,1083,128
 1960,22072,Caldearenas,866,192.31
 1960,22074,Campo,715,22.86
-1960,22075,Camporrells,808,26.71
+1960,22075,Camporrélls,808,26.71
 1960,22076,Canal de Berdún,1077,133.27
 1960,22077,Candasnos,890,122.45
 1960,22078,Canfranc,1105,71.56
@@ -1274,8 +1276,8 @@ year,cp,name,population,superficie
 1960,22080,Capella,689,60.71
 1960,22081,Casbas de Huesca,1124,132.69
 1960,22082,Castejón del Puente,396,25.43
-1960,22083,Castejón de Monegros,1487,17.56
-1960,22084,Castejón de Sos,605,17.56
+1960,22083,Castejón de Monegros,1487,165.42
+1960,22084,Castejón de Sos,605,31.59
 1960,22085,Castelflorite,191,34.76
 1960,22086,Castiello de Jaca,405,17.31
 1960,22087,Castigaleu,228,26.53
@@ -1345,7 +1347,7 @@ year,cp,name,population,superficie
 1960,22182,Plan,640,92.53
 1960,22184,Poleñino,484,33.02
 1960,22186,Pozán de Vero,460,14.75
-1960,22187,La Puebla de Castro,599,17.03
+1960,22187,La Puebla de Castro,599,29.42
 1960,22188,Puente de Montañana,579,48.56
 1960,22189,Puértolas,741,99.86
 1960,22190,El Pueyo de Araguás,378,61.84
@@ -1362,7 +1364,7 @@ year,cp,name,population,superficie
 1960,22206,Sangarrén,474,32.22
 1960,22207,San Juan de Plan,236,55.53
 1960,22208,Santa Cilia,421,28.08
-1960,22209,Santa Cruz de la Serós,252,19.51
+1960,22209,Santa Cruz de la Serós,252,26.97
 1960,22212,Santaliestra y San Quílez,274,23.34
 1960,22213,Sariñena,3993,275.57
 1960,22214,Secastilla,497,47.42
@@ -1382,7 +1384,7 @@ year,cp,name,population,superficie
 1960,22232,Torralba de Aragón,394,40.39
 1960,22233,Torre la Ribera,397,32.06
 1960,22234,Torrente de Cinca,1793,56.77
-1960,22235,Torres de Alcanadre,276,28.31
+1960,22235,Torres de Alcanadre,276,17.64
 1960,22236,Torres de Barbués,189,13.94
 1960,22239,Tramaced,203,15.42
 1960,22242,Valfarta,152,33
@@ -1394,7 +1396,7 @@ year,cp,name,population,superficie
 1960,22248,Vicién,283,13.76
 1960,22249,Villanova,190,7.05
 1960,22250,Villanúa,446,58.19
-1960,22251,Villanueva de Sigena,679,75.99
+1960,22251,Villanueva de Sigena,679,146.47
 1960,22252,Yebra de Basa,490,90.88
 1960,22253,Yésero,194,30.23
 1960,22254,Zaidín,2132,92.55
@@ -1405,12 +1407,13 @@ year,cp,name,population,superficie
 1960,22905,Lupiñén-Ortilla,916,110.07
 1960,22906,Santa María de Dulcis,446,27
 1960,22907,Aínsa-Sobrarbe,2502,284.77
-1960,22908,Hoz y Costeán,747,57.48
+1960,22908,Hoz y Costean,747,57.48
+1960,22909,Vencillón,88,10.37
 1970,22001,Abiego,465,38.19
 1970,22002,Abizanda,195,44.84
 1970,22003,Adahuesca,258,52.47
 1970,22004,Agüero,303,94.16
-1970,22006,Aísa,263,80.97
+1970,22006,Aisa,263,80.97
 1970,22007,Albalate de Cinca,1262,44.23
 1970,22008,Albalatillo,362,9.15
 1970,22009,Albelda,1271,51.92
@@ -1467,7 +1470,7 @@ year,cp,name,population,superficie
 1970,22069,Broto,679,128
 1970,22072,Caldearenas,494,192.31
 1970,22074,Campo,524,22.86
-1970,22075,Camporrells,500,26.71
+1970,22075,Camporrélls,500,26.71
 1970,22076,Canal de Berdún,745,133.27
 1970,22077,Candasnos,830,122.45
 1970,22078,Canfranc,1027,71.56
@@ -1475,8 +1478,8 @@ year,cp,name,population,superficie
 1970,22080,Capella,563,60.71
 1970,22081,Casbas de Huesca,674,132.69
 1970,22082,Castejón del Puente,444,25.43
-1970,22083,Castejón de Monegros,1016,17.56
-1970,22084,Castejón de Sos,459,17.56
+1970,22083,Castejón de Monegros,1016,165.42
+1970,22084,Castejón de Sos,459,31.59
 1970,22085,Castelflorite,175,34.76
 1970,22086,Castiello de Jaca,262,17.31
 1970,22087,Castigaleu,150,26.53
@@ -1546,7 +1549,7 @@ year,cp,name,population,superficie
 1970,22182,Plan,548,92.53
 1970,22184,Poleñino,374,33.02
 1970,22186,Pozán de Vero,391,14.75
-1970,22187,La Puebla de Castro,442,17.03
+1970,22187,La Puebla de Castro,442,29.42
 1970,22188,Puente de Montañana,270,48.56
 1970,22189,Puértolas,323,99.86
 1970,22190,El Pueyo de Araguás,257,61.84
@@ -1563,7 +1566,7 @@ year,cp,name,population,superficie
 1970,22206,Sangarrén,429,32.22
 1970,22207,San Juan de Plan,205,55.53
 1970,22208,Santa Cilia,307,28.08
-1970,22209,Santa Cruz de la Serós,164,19.51
+1970,22209,Santa Cruz de la Serós,164,26.97
 1970,22212,Santaliestra y San Quílez,141,23.34
 1970,22213,Sariñena,4209,275.57
 1970,22214,Secastilla,345,47.42
@@ -1583,7 +1586,7 @@ year,cp,name,population,superficie
 1970,22232,Torralba de Aragón,240,40.39
 1970,22233,Torre la Ribera,221,32.06
 1970,22234,Torrente de Cinca,1524,56.77
-1970,22235,Torres de Alcanadre,208,28.31
+1970,22235,Torres de Alcanadre,208,17.64
 1970,22236,Torres de Barbués,544,13.94
 1970,22239,Tramaced,189,15.42
 1970,22242,Valfarta,151,33
@@ -1595,7 +1598,7 @@ year,cp,name,population,superficie
 1970,22248,Vicién,194,13.76
 1970,22249,Villanova,131,7.05
 1970,22250,Villanúa,323,58.19
-1970,22251,Villanueva de Sigena,613,75.99
+1970,22251,Villanueva de Sigena,613,146.47
 1970,22252,Yebra de Basa,222,90.88
 1970,22253,Yésero,141,30.23
 1970,22254,Zaidín,2008,92.55
@@ -1606,12 +1609,13 @@ year,cp,name,population,superficie
 1970,22905,Lupiñén-Ortilla,674,110.07
 1970,22906,Santa María de Dulcis,350,27
 1970,22907,Aínsa-Sobrarbe,1722,284.77
-1970,22908,Hoz y Costeán,498,57.48
+1970,22908,Hoz y Costean,498,57.48
+1970,22909,Vencillón,456,10.37
 1981,22001,Abiego,357,38.19
 1981,22002,Abizanda,134,44.84
 1981,22003,Adahuesca,183,52.47
 1981,22004,Agüero,238,94.16
-1981,22006,Aísa,273,80.97
+1981,22006,Aisa,273,80.97
 1981,22007,Albalate de Cinca,1238,44.23
 1981,22008,Albalatillo,308,9.15
 1981,22009,Albelda,1160,51.92
@@ -1668,7 +1672,7 @@ year,cp,name,population,superficie
 1981,22069,Broto,509,128
 1981,22072,Caldearenas,339,192.31
 1981,22074,Campo,434,22.86
-1981,22075,Camporrells,374,26.71
+1981,22075,Camporrélls,374,26.71
 1981,22076,Canal de Berdún,550,133.27
 1981,22077,Candasnos,743,122.45
 1981,22078,Canfranc,608,71.56
@@ -1676,8 +1680,8 @@ year,cp,name,population,superficie
 1981,22080,Capella,534,60.71
 1981,22081,Casbas de Huesca,406,132.69
 1981,22082,Castejón del Puente,457,25.43
-1981,22083,Castejón de Monegros,907,17.56
-1981,22084,Castejón de Sos,443,17.56
+1981,22083,Castejón de Monegros,907,165.42
+1981,22084,Castejón de Sos,443,31.59
 1981,22085,Castelflorite,194,34.76
 1981,22086,Castiello de Jaca,168,17.31
 1981,22087,Castigaleu,111,26.53
@@ -1747,7 +1751,7 @@ year,cp,name,population,superficie
 1981,22182,Plan,325,92.53
 1981,22184,Poleñino,327,33.02
 1981,22186,Pozán de Vero,311,14.75
-1981,22187,La Puebla de Castro,348,17.03
+1981,22187,La Puebla de Castro,348,29.42
 1981,22188,Puente de Montañana,166,48.56
 1981,22189,Puértolas,205,99.86
 1981,22190,El Pueyo de Araguás,178,61.84
@@ -1764,7 +1768,7 @@ year,cp,name,population,superficie
 1981,22206,Sangarrén,337,32.22
 1981,22207,San Juan de Plan,177,55.53
 1981,22208,Santa Cilia,214,28.08
-1981,22209,Santa Cruz de la Serós,144,19.51
+1981,22209,Santa Cruz de la Serós,144,26.97
 1981,22212,Santaliestra y San Quílez,117,23.34
 1981,22213,Sariñena,4338,275.57
 1981,22214,Secastilla,240,47.42
@@ -1784,7 +1788,7 @@ year,cp,name,population,superficie
 1981,22232,Torralba de Aragón,184,40.39
 1981,22233,Torre la Ribera,118,32.06
 1981,22234,Torrente de Cinca,1261,56.77
-1981,22235,Torres de Alcanadre,149,28.31
+1981,22235,Torres de Alcanadre,149,17.64
 1981,22236,Torres de Barbués,492,13.94
 1981,22239,Tramaced,161,15.42
 1981,22242,Valfarta,124,33
@@ -1796,7 +1800,7 @@ year,cp,name,population,superficie
 1981,22248,Vicién,143,13.76
 1981,22249,Villanova,121,7.05
 1981,22250,Villanúa,265,58.19
-1981,22251,Villanueva de Sigena,549,75.99
+1981,22251,Villanueva de Sigena,549,146.47
 1981,22252,Yebra de Basa,184,90.88
 1981,22253,Yésero,61,30.23
 1981,22254,Zaidín,1857,92.55
@@ -1807,12 +1811,13 @@ year,cp,name,population,superficie
 1981,22905,Lupiñén-Ortilla,452,110.07
 1981,22906,Santa María de Dulcis,269,27
 1981,22907,Aínsa-Sobrarbe,1237,284.77
-1981,22908,Hoz y Costeán,342,57.48
+1981,22908,Hoz y Costean,342,57.48
+1981,22909,Vencillón,542,10.37
 1991,22001,Abiego,320,38.19
 1991,22002,Abizanda,129,44.84
 1991,22003,Adahuesca,174,52.47
 1991,22004,Agüero,168,94.16
-1991,22006,Aísa,321,80.97
+1991,22006,Aisa,321,80.97
 1991,22007,Albalate de Cinca,1149,44.23
 1991,22008,Albalatillo,279,9.15
 1991,22009,Albelda,1023,51.92
@@ -1869,7 +1874,7 @@ year,cp,name,population,superficie
 1991,22069,Broto,468,128
 1991,22072,Caldearenas,283,192.31
 1991,22074,Campo,375,22.86
-1991,22075,Camporrells,269,26.71
+1991,22075,Camporrélls,269,26.71
 1991,22076,Canal de Berdún,459,133.27
 1991,22077,Candasnos,634,122.45
 1991,22078,Canfranc,486,71.56
@@ -1877,8 +1882,8 @@ year,cp,name,population,superficie
 1991,22080,Capella,456,60.71
 1991,22081,Casbas de Huesca,366,132.69
 1991,22082,Castejón del Puente,416,25.43
-1991,22083,Castejón de Monegros,785,17.56
-1991,22084,Castejón de Sos,449,17.56
+1991,22083,Castejón de Monegros,785,165.42
+1991,22084,Castejón de Sos,449,31.59
 1991,22085,Castelflorite,170,34.76
 1991,22086,Castiello de Jaca,139,17.31
 1991,22087,Castigaleu,97,26.53
@@ -1948,7 +1953,7 @@ year,cp,name,population,superficie
 1991,22182,Plan,301,92.53
 1991,22184,Poleñino,261,33.02
 1991,22186,Pozán de Vero,268,14.75
-1991,22187,La Puebla de Castro,298,17.03
+1991,22187,La Puebla de Castro,298,29.42
 1991,22188,Puente de Montañana,135,48.56
 1991,22189,Puértolas,205,99.86
 1991,22190,El Pueyo de Araguás,173,61.84
@@ -1965,7 +1970,7 @@ year,cp,name,population,superficie
 1991,22206,Sangarrén,307,32.22
 1991,22207,San Juan de Plan,170,55.53
 1991,22208,Santa Cilia,158,28.08
-1991,22209,Santa Cruz de la Serós,138,19.51
+1991,22209,Santa Cruz de la Serós,138,26.97
 1991,22212,Santaliestra y San Quílez,105,23.34
 1991,22213,Sariñena,4227,275.57
 1991,22214,Secastilla,190,47.42
@@ -1985,7 +1990,7 @@ year,cp,name,population,superficie
 1991,22232,Torralba de Aragón,150,40.39
 1991,22233,Torre la Ribera,115,32.06
 1991,22234,Torrente de Cinca,1174,56.77
-1991,22235,Torres de Alcanadre,141,28.31
+1991,22235,Torres de Alcanadre,141,17.64
 1991,22236,Torres de Barbués,428,13.94
 1991,22239,Tramaced,131,15.42
 1991,22242,Valfarta,116,33
@@ -1997,7 +2002,7 @@ year,cp,name,population,superficie
 1991,22248,Vicién,111,13.76
 1991,22249,Villanova,94,7.05
 1991,22250,Villanúa,283,58.19
-1991,22251,Villanueva de Sigena,500,75.99
+1991,22251,Villanueva de Sigena,500,146.47
 1991,22252,Yebra de Basa,173,90.88
 1991,22253,Yésero,53,30.23
 1991,22254,Zaidín,1756,92.55
@@ -2008,12 +2013,13 @@ year,cp,name,population,superficie
 1991,22905,Lupiñén-Ortilla,404,110.07
 1991,22906,Santa María de Dulcis,225,27
 1991,22907,Aínsa-Sobrarbe,1427,284.77
-1991,22908,Hoz y Costeán,268,57.48
+1991,22908,Hoz y Costean,268,57.48
+1991,22909,Vencillón,514,10.37
 2001,22001,Abiego,289,38.19
 2001,22002,Abizanda,133,44.84
 2001,22003,Adahuesca,159,52.47
 2001,22004,Agüero,171,94.16
-2001,22006,Aísa,402,80.97
+2001,22006,Aisa,402,80.97
 2001,22007,Albalate de Cinca,1203,44.23
 2001,22008,Albalatillo,259,9.15
 2001,22009,Albelda,926,51.92
@@ -2070,7 +2076,7 @@ year,cp,name,population,superficie
 2001,22069,Broto,539,128
 2001,22072,Caldearenas,250,192.31
 2001,22074,Campo,348,22.86
-2001,22075,Camporrells,247,26.71
+2001,22075,Camporrélls,247,26.71
 2001,22076,Canal de Berdún,422,133.27
 2001,22077,Candasnos,568,122.45
 2001,22078,Canfranc,532,71.56
@@ -2078,8 +2084,8 @@ year,cp,name,population,superficie
 2001,22080,Capella,383,60.71
 2001,22081,Casbas de Huesca,302,132.69
 2001,22082,Castejón del Puente,418,25.43
-2001,22083,Castejón de Monegros,665,17.56
-2001,22084,Castejón de Sos,617,17.56
+2001,22083,Castejón de Monegros,665,165.42
+2001,22084,Castejón de Sos,617,31.59
 2001,22085,Castelflorite,137,34.76
 2001,22086,Castiello de Jaca,188,17.31
 2001,22087,Castigaleu,102,26.53
@@ -2149,7 +2155,7 @@ year,cp,name,population,superficie
 2001,22182,Plan,314,92.53
 2001,22184,Poleñino,248,33.02
 2001,22186,Pozán de Vero,243,14.75
-2001,22187,La Puebla de Castro,321,17.03
+2001,22187,La Puebla de Castro,321,29.42
 2001,22188,Puente de Montañana,114,48.56
 2001,22189,Puértolas,214,99.86
 2001,22190,El Pueyo de Araguás,145,61.84
@@ -2166,7 +2172,7 @@ year,cp,name,population,superficie
 2001,22206,Sangarrén,250,32.22
 2001,22207,San Juan de Plan,160,55.53
 2001,22208,Santa Cilia,191,28.08
-2001,22209,Santa Cruz de la Serós,152,19.51
+2001,22209,Santa Cruz de la Serós,152,26.97
 2001,22212,Santaliestra y San Quílez,123,23.34
 2001,22213,Sariñena,3950,275.57
 2001,22214,Secastilla,144,47.42
@@ -2186,7 +2192,7 @@ year,cp,name,population,superficie
 2001,22232,Torralba de Aragón,119,40.39
 2001,22233,Torre la Ribera,110,32.06
 2001,22234,Torrente de Cinca,1103,56.77
-2001,22235,Torres de Alcanadre,127,28.31
+2001,22235,Torres de Alcanadre,127,17.64
 2001,22236,Torres de Barbués,358,13.94
 2001,22239,Tramaced,95,15.42
 2001,22242,Valfarta,95,33
@@ -2198,7 +2204,7 @@ year,cp,name,population,superficie
 2001,22248,Vicién,121,13.76
 2001,22249,Villanova,132,7.05
 2001,22250,Villanúa,340,58.19
-2001,22251,Villanueva de Sigena,531,75.99
+2001,22251,Villanueva de Sigena,531,146.47
 2001,22252,Yebra de Basa,161,90.88
 2001,22253,Yésero,81,30.23
 2001,22254,Zaidín,1672,92.55
@@ -2209,12 +2215,13 @@ year,cp,name,population,superficie
 2001,22905,Lupiñén-Ortilla,343,110.07
 2001,22906,Santa María de Dulcis,222,27
 2001,22907,Aínsa-Sobrarbe,1602,284.77
-2001,22908,Hoz y Costeán,233,57.48
+2001,22908,Hoz y Costean,233,57.48
+2001,22909,Vencillón,468,10.37
 2011,22001,Abiego,273,38.19
 2011,22002,Abizanda,133,44.84
 2011,22003,Adahuesca,178,52.47
 2011,22004,Agüero,156,94.16
-2011,22006,Aísa,371,80.97
+2011,22006,Aisa,371,80.97
 2011,22007,Albalate de Cinca,1245,44.23
 2011,22008,Albalatillo,221,9.15
 2011,22009,Albelda,816,51.92
@@ -2271,7 +2278,7 @@ year,cp,name,population,superficie
 2011,22069,Broto,538,128
 2011,22072,Caldearenas,235,192.31
 2011,22074,Campo,332,22.86
-2011,22075,Camporrells,163,26.71
+2011,22075,Camporrélls,163,26.71
 2011,22076,Canal de Berdún,377,133.27
 2011,22077,Candasnos,400,122.45
 2011,22078,Canfranc,591,71.56
@@ -2279,8 +2286,8 @@ year,cp,name,population,superficie
 2011,22080,Capella,369,60.71
 2011,22081,Casbas de Huesca,302,132.69
 2011,22082,Castejón del Puente,354,25.43
-2011,22083,Castejón de Monegros,612,17.56
-2011,22084,Castejón de Sos,782,17.56
+2011,22083,Castejón de Monegros,612,165.42
+2011,22084,Castejón de Sos,782,31.59
 2011,22085,Castelflorite,132,34.76
 2011,22086,Castiello de Jaca,252,17.31
 2011,22087,Castigaleu,106,26.53
@@ -2350,7 +2357,7 @@ year,cp,name,population,superficie
 2011,22182,Plan,316,92.53
 2011,22184,Poleñino,219,33.02
 2011,22186,Pozán de Vero,239,14.75
-2011,22187,La Puebla de Castro,428,17.03
+2011,22187,La Puebla de Castro,428,29.42
 2011,22188,Puente de Montañana,131,48.56
 2011,22189,Puértolas,233,99.86
 2011,22190,El Pueyo de Araguás,152,61.84
@@ -2367,7 +2374,7 @@ year,cp,name,population,superficie
 2011,22206,Sangarrén,227,32.22
 2011,22207,San Juan de Plan,160,55.53
 2011,22208,Santa Cilia,201,28.08
-2011,22209,Santa Cruz de la Serós,194,19.51
+2011,22209,Santa Cruz de la Serós,194,26.97
 2011,22212,Santaliestra y San Quílez,96,23.34
 2011,22213,Sariñena,4396,275.57
 2011,22214,Secastilla,154,47.42
@@ -2387,7 +2394,7 @@ year,cp,name,population,superficie
 2011,22232,Torralba de Aragón,106,40.39
 2011,22233,Torre la Ribera,117,32.06
 2011,22234,Torrente de Cinca,1226,56.77
-2011,22235,Torres de Alcanadre,106,28.31
+2011,22235,Torres de Alcanadre,106,17.64
 2011,22236,Torres de Barbués,294,13.94
 2011,22239,Tramaced,94,15.42
 2011,22242,Valfarta,76,33
@@ -2399,7 +2406,7 @@ year,cp,name,population,superficie
 2011,22248,Vicién,117,13.76
 2011,22249,Villanova,149,7.05
 2011,22250,Villanúa,495,58.19
-2011,22251,Villanueva de Sigena,457,75.99
+2011,22251,Villanueva de Sigena,457,146.47
 2011,22252,Yebra de Basa,151,90.88
 2011,22253,Yésero,68,30.23
 2011,22254,Zaidín,1719,92.55
@@ -2410,12 +2417,13 @@ year,cp,name,population,superficie
 2011,22905,Lupiñén-Ortilla,380,110.07
 2011,22906,Santa María de Dulcis,220,27
 2011,22907,Aínsa-Sobrarbe,2179,284.77
-2011,22908,Hoz y Costeán,206,57.48
+2011,22908,Hoz y Costean,206,57.48
+2011,22909,Vencillón,459,10.37
 2020,22001,Abiego,258,38.19
 2020,22002,Abizanda,139,44.84
 2020,22003,Adahuesca,180,52.47
 2020,22004,Agüero,125,94.16
-2020,22006,Aísa,313,80.97
+2020,22006,Aisa,313,80.97
 2020,22007,Albalate de Cinca,1099,44.23
 2020,22008,Albalatillo,163,9.15
 2020,22009,Albelda,708,51.92
@@ -2472,7 +2480,7 @@ year,cp,name,population,superficie
 2020,22069,Broto,538,128
 2020,22072,Caldearenas,226,192.31
 2020,22074,Campo,436,22.86
-2020,22075,Camporrells,127,26.71
+2020,22075,Camporrélls,127,26.71
 2020,22076,Canal de Berdún,323,133.27
 2020,22077,Candasnos,419,122.45
 2020,22078,Canfranc,558,71.56
@@ -2480,8 +2488,8 @@ year,cp,name,population,superficie
 2020,22080,Capella,360,60.71
 2020,22081,Casbas de Huesca,275,132.69
 2020,22082,Castejón del Puente,312,25.43
-2020,22083,Castejón de Monegros,510,17.56
-2020,22084,Castejón de Sos,764,17.56
+2020,22083,Castejón de Monegros,510,165.42
+2020,22084,Castejón de Sos,764,31.59
 2020,22085,Castelflorite,103,34.76
 2020,22086,Castiello de Jaca,221,17.31
 2020,22087,Castigaleu,79,26.53
@@ -2551,7 +2559,7 @@ year,cp,name,population,superficie
 2020,22182,Plan,273,92.53
 2020,22184,Poleñino,210,33.02
 2020,22186,Pozán de Vero,214,14.75
-2020,22187,La Puebla de Castro,377,17.03
+2020,22187,La Puebla de Castro,377,29.42
 2020,22188,Puente de Montañana,93,48.56
 2020,22189,Puértolas,213,99.86
 2020,22190,El Pueyo de Araguás,161,61.84
@@ -2568,7 +2576,7 @@ year,cp,name,population,superficie
 2020,22206,Sangarrén,221,32.22
 2020,22207,San Juan de Plan,150,55.53
 2020,22208,Santa Cilia,243,28.08
-2020,22209,Santa Cruz de la Serós,188,19.51
+2020,22209,Santa Cruz de la Serós,188,26.97
 2020,22212,Santaliestra y San Quílez,80,23.34
 2020,22213,Sariñena,4184,275.57
 2020,22214,Secastilla,140,47.42
@@ -2588,7 +2596,7 @@ year,cp,name,population,superficie
 2020,22232,Torralba de Aragón,113,40.39
 2020,22233,Torre la Ribera,96,32.06
 2020,22234,Torrente de Cinca,1327,56.77
-2020,22235,Torres de Alcanadre,82,28.31
+2020,22235,Torres de Alcanadre,82,17.64
 2020,22236,Torres de Barbués,251,13.94
 2020,22239,Tramaced,98,15.42
 2020,22242,Valfarta,63,33
@@ -2600,7 +2608,7 @@ year,cp,name,population,superficie
 2020,22248,Vicién,110,13.76
 2020,22249,Villanova,174,7.05
 2020,22250,Villanúa,451,58.19
-2020,22251,Villanueva de Sigena,384,75.99
+2020,22251,Villanueva de Sigena,384,146.47
 2020,22252,Yebra de Basa,142,90.88
 2020,22253,Yésero,57,30.23
 2020,22254,Zaidín,1798,92.55
@@ -2611,7 +2619,8 @@ year,cp,name,population,superficie
 2020,22905,Lupiñén-Ortilla,335,110.07
 2020,22906,Santa María de Dulcis,205,27
 2020,22907,Aínsa-Sobrarbe,2242,284.77
-2020,22908,Hoz y Costeán,221,57.48
+2020,22908,Hoz y Costean,221,57.48
+2020,22909,Vencillón,390,10.37
 2021,22001,Abiego,271,38.19
 2021,22002,Abizanda,143,44.84
 2021,22003,Adahuesca,190,52.47
@@ -2629,7 +2638,7 @@ year,cp,name,population,superficie
 2021,22017,Alcolea de Cinca,1200,83.24
 2021,22018,Alcubierre,372,115.31
 2021,22019,Alerre,208,8.94
-2021,22021,Alfántega,133,8.76
+2021,22020,Alfántega,133,8.76
 2021,22021,Almudévar,2412,201.49
 2021,22022,Almunia de San Juan,689,35.66
 2021,22023,Almuniente,454,37.56
@@ -2681,8 +2690,8 @@ year,cp,name,population,superficie
 2021,22080,Capella,350,60.71
 2021,22081,Casbas de Huesca,290,132.69
 2021,22082,Castejón del Puente,345,25.43
-2021,22083,Castejón de Monegros,497,17.56
-2021,22084,Castejón de Sos,791,17.56
+2021,22083,Castejón de Monegros,497,165.42
+2021,22084,Castejón de Sos,791,31.59
 2021,22085,Castelflorite,103,34.76
 2021,22086,Castiello de Jaca,240,17.31
 2021,22087,Castigaleu,80,26.53
@@ -2752,7 +2761,7 @@ year,cp,name,population,superficie
 2021,22182,Plan,274,92.53
 2021,22184,Poleñino,199,33.02
 2021,22186,Pozán de Vero,234,14.75
-2021,22187,La Puebla de Castro,391,17.03
+2021,22187,La Puebla de Castro,391,29.42
 2021,22188,Puente de Montañana,96,48.56
 2021,22189,Puértolas,212,99.86
 2021,22190,El Pueyo de Araguás,167,61.84
@@ -2769,7 +2778,7 @@ year,cp,name,population,superficie
 2021,22206,Sangarrén,219,32.22
 2021,22207,San Juan de Plan,148,55.53
 2021,22208,Santa Cilia,245,28.08
-2021,22209,Santa Cruz de la Serós,193,19.51
+2021,22209,Santa Cruz de la Serós,193,26.97
 2021,22212,Santaliestra y San Quílez,75,23.34
 2021,22213,Sariñena,4173,275.57
 2021,22214,Secastilla,149,47.42
@@ -2789,7 +2798,7 @@ year,cp,name,population,superficie
 2021,22232,Torralba de Aragón,109,40.39
 2021,22233,Torre la Ribera,95,32.06
 2021,22234,Torrente de Cinca,1279,56.77
-2021,22235,Torres de Alcanadre,91,28.31
+2021,22235,Torres de Alcanadre,91,17.64
 2021,22236,Torres de Barbués,251,13.94
 2021,22239,Tramaced,100,15.42
 2021,22242,Valfarta,65,33
@@ -2801,7 +2810,7 @@ year,cp,name,population,superficie
 2021,22248,Vicién,122,13.76
 2021,22249,Villanova,171,7.05
 2021,22250,Villanúa,524,58.19
-2021,22251,Villanueva de Sigena,364,75.99
+2021,22251,Villanueva de Sigena,364,146.47
 2021,22252,Yebra de Basa,152,90.88
 2021,22253,Yésero,60,30.23
 2021,22254,Zaidín,1860,92.55
@@ -2813,6 +2822,7 @@ year,cp,name,population,superficie
 2021,22906,Santa María de Dulcis,204,27
 2021,22907,Aínsa-Sobrarbe,2312,284.77
 2021,22908,Hoz y Costean,240,57.48
+2021,22909,Vencillón,399,10.37
 2022,22001,Abiego,278,38.19
 2022,22002,Abizanda,151,44.84
 2022,22003,Adahuesca,204,52.47
@@ -2830,7 +2840,7 @@ year,cp,name,population,superficie
 2022,22017,Alcolea de Cinca,1160,83.24
 2022,22018,Alcubierre,399,115.31
 2022,22019,Alerre,213,8.94
-2022,22021,Alfántega,124,8.76
+2022,22020,Alfántega,124,8.76
 2022,22021,Almudévar,2394,201.49
 2022,22022,Almunia de San Juan,707,35.66
 2022,22023,Almuniente,453,37.56
@@ -2882,8 +2892,8 @@ year,cp,name,population,superficie
 2022,22080,Capella,352,60.71
 2022,22081,Casbas de Huesca,301,132.69
 2022,22082,Castejón del Puente,333,25.43
-2022,22083,Castejón de Monegros,512,17.56
-2022,22084,Castejón de Sos,805,17.56
+2022,22083,Castejón de Monegros,512,165.42
+2022,22084,Castejón de Sos,805,31.59
 2022,22085,Castelflorite,100,34.76
 2022,22086,Castiello de Jaca,249,17.31
 2022,22087,Castigaleu,88,26.53
@@ -2953,7 +2963,7 @@ year,cp,name,population,superficie
 2022,22182,Plan,283,92.53
 2022,22184,Poleñino,193,33.02
 2022,22186,Pozán de Vero,241,14.75
-2022,22187,La Puebla de Castro,415,17.03
+2022,22187,La Puebla de Castro,415,29.42
 2022,22188,Puente de Montañana,94,48.56
 2022,22189,Puértolas,216,99.86
 2022,22190,El Pueyo de Araguás,168,61.84
@@ -2970,7 +2980,7 @@ year,cp,name,population,superficie
 2022,22206,Sangarrén,219,32.22
 2022,22207,San Juan de Plan,158,55.53
 2022,22208,Santa Cilia,254,28.08
-2022,22209,Santa Cruz de la Serós,194,19.51
+2022,22209,Santa Cruz de la Serós,194,26.97
 2022,22212,Santaliestra y San Quílez,79,23.34
 2022,22213,Sariñena,4164,275.57
 2022,22214,Secastilla,151,47.42
@@ -2990,7 +3000,7 @@ year,cp,name,population,superficie
 2022,22232,Torralba de Aragón,105,40.39
 2022,22233,Torre la Ribera,101,32.06
 2022,22234,Torrente de Cinca,1151,56.77
-2022,22235,Torres de Alcanadre,85,28.31
+2022,22235,Torres de Alcanadre,85,17.64
 2022,22236,Torres de Barbués,256,13.94
 2022,22239,Tramaced,110,15.42
 2022,22242,Valfarta,58,33
@@ -3002,7 +3012,7 @@ year,cp,name,population,superficie
 2022,22248,Vicién,128,13.76
 2022,22249,Villanova,170,7.05
 2022,22250,Villanúa,560,58.19
-2022,22251,Villanueva de Sigena,370,75.99
+2022,22251,Villanueva de Sigena,370,146.47
 2022,22252,Yebra de Basa,154,90.88
 2022,22253,Yésero,58,30.23
 2022,22254,Zaidín,1872,92.55
@@ -3014,6 +3024,7 @@ year,cp,name,population,superficie
 2022,22906,Santa María de Dulcis,201,27
 2022,22907,Aínsa-Sobrarbe,2315,284.77
 2022,22908,Hoz y Costean,240,57.48
+2022,22909,Vencillón,415,10.37
 2023,22001,Abiego,261,38.19
 2023,22002,Abizanda,162,44.84
 2023,22003,Adahuesca,210,52.47
@@ -3031,7 +3042,7 @@ year,cp,name,population,superficie
 2023,22017,Alcolea de Cinca,1092,83.24
 2023,22018,Alcubierre,412,115.31
 2023,22019,Alerre,221,8.94
-2023,22021,Alfántega,130,8.76
+2023,22020,Alfántega,130,8.76
 2023,22021,Almudévar,2439,201.49
 2023,22022,Almunia de San Juan,722,35.66
 2023,22023,Almuniente,440,37.56
@@ -3083,8 +3094,8 @@ year,cp,name,population,superficie
 2023,22080,Capella,360,60.71
 2023,22081,Casbas de Huesca,291,132.69
 2023,22082,Castejón del Puente,328,25.43
-2023,22083,Castejón de Monegros,478,17.56
-2023,22084,Castejón de Sos,833,17.56
+2023,22083,Castejón de Monegros,478,165.42
+2023,22084,Castejón de Sos,833,31.59
 2023,22085,Castelflorite,102,34.76
 2023,22086,Castiello de Jaca,242,17.31
 2023,22087,Castigaleu,96,26.53
@@ -3154,7 +3165,7 @@ year,cp,name,population,superficie
 2023,22182,Plan,281,92.53
 2023,22184,Poleñino,197,33.02
 2023,22186,Pozán de Vero,235,14.75
-2023,22187,La Puebla de Castro,419,17.03
+2023,22187,La Puebla de Castro,419,29.42
 2023,22188,Puente de Montañana,100,48.56
 2023,22189,Puértolas,222,99.86
 2023,22190,El Pueyo de Araguás,173,61.84
@@ -3171,7 +3182,7 @@ year,cp,name,population,superficie
 2023,22206,Sangarrén,211,32.22
 2023,22207,San Juan de Plan,154,55.53
 2023,22208,Santa Cilia,251,28.08
-2023,22209,Santa Cruz de la Serós,192,19.51
+2023,22209,Santa Cruz de la Serós,192,26.97
 2023,22212,Santaliestra y San Quílez,77,23.34
 2023,22213,Sariñena,4131,275.57
 2023,22214,Secastilla,148,47.42
@@ -3191,7 +3202,7 @@ year,cp,name,population,superficie
 2023,22232,Torralba de Aragón,109,40.39
 2023,22233,Torre la Ribera,97,32.06
 2023,22234,Torrente de Cinca,1121,56.77
-2023,22235,Torres de Alcanadre,82,28.31
+2023,22235,Torres de Alcanadre,82,17.64
 2023,22236,Torres de Barbués,260,13.94
 2023,22239,Tramaced,108,15.42
 2023,22242,Valfarta,62,33
@@ -3203,7 +3214,7 @@ year,cp,name,population,superficie
 2023,22248,Vicién,139,13.76
 2023,22249,Villanova,176,7.05
 2023,22250,Villanúa,553,58.19
-2023,22251,Villanueva de Sigena,341,75.99
+2023,22251,Villanueva de Sigena,341,146.47
 2023,22252,Yebra de Basa,161,90.88
 2023,22253,Yésero,63,30.23
 2023,22254,Zaidín,1784,92.55
@@ -3215,3 +3226,4 @@ year,cp,name,population,superficie
 2023,22906,Santa María de Dulcis,206,27
 2023,22907,Aínsa-Sobrarbe,2297,284.77
 2023,22908,Hoz y Costean,240,57.48
+2023,22909,Vencillón,408,10.37

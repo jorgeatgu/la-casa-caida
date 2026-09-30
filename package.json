@@ -11,7 +11,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "data:download": "node scripts/data/descargar.js"
+    "data:download": "node scripts/data/descargar.js",
+    "data:build": "node scripts/data/procesarDatos.js && node scripts/data/calcularPorcentajesEdad.js && node scripts/data/generarRankingsCsv.js",
+    "validate:data": "node scripts/data/validar.js"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.2.6",

@@ -192,10 +192,10 @@ export function aragonStacked() {
         .html(
           `
           <span class="tooltip-stack-number tooltip-stack-text">${d.year}</span>
-          <span class="tooltip-stack-text">Huesca: <span class="tooltip-number">${d.huescaP}% - ${d.huesca} hab.</span></span>
-          <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruelP}% - ${d.teruel} hab.</span></span>
-          <span class="tooltip-stack-text">Zaragoza: <span class="tooltip-number">${d.zaragozaP}% - ${d.zaragoza} hab.</span></span>
-          <span class="tooltip-stack-text">Total: <span class="tooltip-number">${d.aragon} hab.</span></span>
+          <span class="tooltip-stack-text">Huesca: <span class="tooltip-number">${d.huescaP}% - ${Number(d.huesca).toLocaleString('es-ES')} hab.</span></span>
+          <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruelP}% - ${Number(d.teruel).toLocaleString('es-ES')} hab.</span></span>
+          <span class="tooltip-stack-text">Zaragoza: <span class="tooltip-number">${d.zaragozaP}% - ${Number(d.zaragoza).toLocaleString('es-ES')} hab.</span></span>
+          <span class="tooltip-stack-text">Total: <span class="tooltip-number">${Number(d.aragon).toLocaleString('es-ES')} hab.</span></span>
           `
         )
         .style('top', '35%')

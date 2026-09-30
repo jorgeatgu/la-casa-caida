@@ -1,7 +1,7 @@
 ---
-const { municipio, codigo, provincia } = Astro.props;
-// Crear un ID seguro sin espacios ni caracteres especiales
-const municipioId = municipio.replace(/\s+/g, '-').replace(/[^\w-]/g, '').toLowerCase();
+const { codigo, provincia } = Astro.props;
+// El código INE sirve de identificador seguro para las clases del gráfico
+const municipioId = codigo;
 const chartId = `grafica-municipios-stacked-${codigo}`;
 ---
 
@@ -13,7 +13,7 @@ const chartId = `grafica-municipios-stacked-${codigo}`;
 
 <script is:inline src="https://unpkg.com/d3-interpolate-path@2.2.1/build/d3-interpolate-path.min.js"></script>
 
-<script define:vars={{ municipio, codigo, provincia, chartId, municipioId }} type="module">
+<script define:vars={{ codigo, provincia, chartId, municipioId }} type="module">
   document.addEventListener('DOMContentLoaded', () => {
     const margin = { top: 40, right: 8, bottom: 24, left: 16 };
     let width = 0;
@@ -248,7 +248,7 @@ const chartId = `grafica-municipios-stacked-${codigo}`;
 
       d3.csv(csvPath).then(data => {
         // Filtrar por municipio
-        dataMunicipalitiesStacked = data.filter(({ name }) => name === municipio);
+        dataMunicipalitiesStacked = data.filter(({ cp }) => cp === codigo);
 
         dataTable = createStackedData()
         setupElements();
