@@ -11,7 +11,7 @@ Todas las decisiones salen de la entrevista `/create-feature` del 2026-09-29.
 ## Prerrequisito
 
 - `master` limpio y desplegando en Vercel.
-- Node 22 o superior en local.
+- Node 24 en local (`engines.node: "24.x"`).
 
 ## Decisiones cerradas
 

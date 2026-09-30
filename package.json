@@ -4,7 +4,7 @@
   "author": "Jorge Aznar",
   "type": "module",
   "engines": {
-    "node": ">=22"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "astro dev",
