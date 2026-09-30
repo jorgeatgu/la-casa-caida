@@ -56,14 +56,16 @@ const chartId = `grafica-densidad-${codigo}`;
     }
 
     function drawAxes(g) {
+      const [inicio, fin] = d3.extent(dataLineDensidad, d => d.year);
       const axisX = d3.axisBottom(scales.count.x)
         .tickPadding(5)
         .tickFormat(d3.format('d'))
-        .ticks(10);
+        .tickValues(ejeAnios.marcasAnio(inicio, fin, width));
 
       g.select('.axis-x')
         .attr('transform', `translate(0,${height})`)
-        .call(axisX);
+        .call(axisX)
+        .call(ejeAnios.alinearUltimaMarca);
 
       const axisY = d3.axisLeft(scales.count.y)
         .tickPadding(5)
@@ -161,6 +163,9 @@ const chartId = `grafica-densidad-${codigo}`;
         .style("opacity", 0)
         .style("z-index", 1000); // Asegurar que esté por encima de otros elementos
 
+      const [inicio, fin] = d3.extent(dataLineDensidad, d => d.year);
+      const radio = d => ejeAnios.radioPunto(dataLineDensidad, dataLineDensidad.indexOf(d), width / (fin - inicio));
+
       // Añadir puntos
       g.select(`.${chartId}-container-bis`)
         .selectAll(".data-point")
@@ -170,10 +175,10 @@ const chartId = `grafica-densidad-${codigo}`;
         .attr("class", "data-point")
         .attr("cx", d => scales.count.x(d.year))
         .attr("cy", d => scales.count.y(d.densidad))
-        .attr("r", 4)
+        .attr("r", radio)
         .attr("fill", d => d.densidad < 10 ? "#f44336" : "#1a73e8")
         .attr("stroke", "#fff")
-        .attr("stroke-width", 2)
+        .attr("stroke-width", d => radio(d) / 2)
         .on("mouseover", function(event, d) {
           // Aumentar tamaño del círculo
           d3.select(this)
@@ -193,11 +198,11 @@ const chartId = `grafica-densidad-${codigo}`;
             .style("top", (event.pageY - 28) + "px")
             .style("opacity", 0.9);
         })
-        .on("mouseout", function() {
+        .on("mouseout", function(event, d) {
           // Restaurar tamaño original del círculo
           d3.select(this)
-            .attr("r", 4)
-            .attr("stroke-width", 2);
+            .attr("r", radio(d))
+            .attr("stroke-width", radio(d) / 2);
 
           // Ocultar tooltip
           tooltip.style("opacity", 0);

@@ -65,19 +65,29 @@ A tener en cuenta:
 
 ## Tareas
 
-- [ ] Crear la rama `fase-4-carga-de-datos`
-- [ ] `scripts/data/transformar.js` e integración en `data:build`
-- [ ] Corrección de etiqueta de año, si aplica
-- [ ] Serie 2012-2019
-- [ ] Años nuevos de población, edades y saldo vegetativo
-- [ ] Columna `provisional`
-- [ ] Ficheros de último año regenerados
-- [ ] Año de referencia actualizado
-- [ ] `npm run data:build` y `npm run validate:data` en verde
-- [ ] Revisión de todas las gráficas y ajustes de ejes
-- [ ] Build en verde
+- [x] Crear la rama `fase-4-carga-de-datos`
+- [x] `scripts/data/transformar.js` e integración en `data:build`
+- [x] Corrección de etiqueta de año, si aplica (no aplica: el "2024" era el padrón a 1-ene-2024)
+- [x] Serie 2012-2019
+- [x] Años nuevos de población, edades y saldo vegetativo
+- [x] Columna `provisional`
+- [x] Ficheros de último año regenerados
+- [x] Año de referencia actualizado
+- [x] `npm run data:build` y `npm run validate:data` en verde
+- [x] Revisión de todas las gráficas y ajustes de ejes
+- [x] Build en verde
 - [ ] Revisar el preview de Vercel
 - [ ] PR
+
+## Resultado
+
+- `transformar.js` reproduce los CSV que había: ningún valor existente cambia. Lo nuevo son los años 2012-2019 y 2025, la densidad de 2024 y 2025, el saldo de 2024 y 2025 y la foto de `aragon-municipios.csv`, que pasa de 2023 a 2025.
+- Las series sin fuente descargable (censos 1900-2011 y edades 2003-2022 del Padrón Continuo) se congelan en `data-raw/historico/`, extraídas una sola vez de los CSV de la fase 3. Ver su `README.md`.
+- Edades: 2003-2022 del Padrón Continuo y desde 2023 del Censo Anual, como ya estaba publicado. En 2021 y 2022 las dos fuentes difieren en unas pocas personas por tramo; se mantiene el padrón.
+- `provisional` solo se añade a `saldo-vegetativo-total-{p}.csv`, que es el único dato provisional: 2025 sale del acumulado de diciembre de EMN y EDeS. Los datos de padrón y censo son definitivos. `aragon-total.csv` no se toca porque `aragonStacked.js` lee las columnas por posición.
+- Las defunciones de 2011 del MNP vienen con `T3_TipoDato = "Nulo"` aunque el valor es el definitivo. Por eso solo cuentan como provisionales los tipos `Estimados`, `Provisional` y `Avance`.
+- Sin municipios nuevos, desaparecidos ni renombrados entre 2012 y 2025.
+- Gráficas: los ejes de año muestran tantas marcas como caben en el ancho y siempre el último año (`src/scripts/d3/ejeAnios.js`). Los puntos anuales se dibujan más pequeños que los censales. Se corrigen etiquetas cortadas en edades, población, histórica provincial y saldo. `DatosMunicipio.astro` compara décadas usando el primer año con dato de cada una (1970-1981, 2011-2020…).
 
 ## Criterios de aceptación
 

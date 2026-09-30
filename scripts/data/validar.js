@@ -25,7 +25,7 @@ const TIPOS = {
   edades: { fichero: p => `${p}-years-groups-total.csv`, columnas: { cp: 't', name: 't', age: 't', year: 'i', total: 'i' } },
   mayorMenor: { fichero: p => `${p}-mayor-menor.csv`, columnas: { year: 'i', cp: 't', name: 't', menor: 'd', mayor: 'd', population: 'i' } },
   total: { fichero: p => `${p}-total.csv`, columnas: { year: 'i', total: 'i' } },
-  saldo: { fichero: p => `saldo-vegetativo-total-${p}.csv`, columnas: { year: 'i', saldo: 'i', nacidos: 'i', fallecidos: 'i' } }
+  saldo: { fichero: p => `saldo-vegetativo-total-${p}.csv`, columnas: { year: 'i', saldo: 'i', nacidos: 'i', fallecidos: 'i', provisional: 'i' } }
 };
 
 const ARAGON_TOTAL = { year: 'i', teruel: 'i', huesca: 'i', zaragoza: 'i', aragon: 'i', teruelP: 'd', huescaP: 'd', zaragozaP: 'd' };
@@ -171,9 +171,18 @@ for (const provincia of PROVINCIAS) {
   }
 
   const { ruta: rutaSaldo, filas: filasSaldo } = datos.saldo;
+  let hayProvisional = false;
   for (const fila of filasSaldo || []) {
     if (Number(fila.nacidos) - Number(fila.fallecidos) !== Number(fila.saldo)) {
       error(rutaSaldo, `${fila.year}: ${fila.nacidos} nacidos − ${fila.fallecidos} fallecidos ≠ saldo ${fila.saldo}`);
+    }
+    // Los provisionales son siempre los últimos años: detrás de uno no puede venir un definitivo
+    if (fila.provisional !== '0' && fila.provisional !== '1') {
+      error(rutaSaldo, `${fila.year}: provisional = "${fila.provisional}", se esperaba 0 o 1`);
+    } else if (fila.provisional === '1') {
+      hayProvisional = true;
+    } else if (hayProvisional) {
+      error(rutaSaldo, `${fila.year}: dato definitivo después de uno provisional`);
     }
   }
 }

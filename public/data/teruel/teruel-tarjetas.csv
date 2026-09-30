@@ -2831,6 +2831,1894 @@ year,cp,name,population
 2011,44266,Visiedo,146
 2011,44267,Vivel del Río Martín,89
 2011,44268,La Zoma,23
+2012,44001,Ababuj,73
+2012,44002,Abejuela,55
+2012,44003,Aguatón,20
+2012,44004,Aguaviva,660
+2012,44005,Aguilar del Alfambra,73
+2012,44006,Alacón,331
+2012,44007,Alba,231
+2012,44008,Albalate del Arzobispo,2087
+2012,44009,Albarracín,1102
+2012,44010,Albentosa,290
+2012,44011,Alcaine,69
+2012,44012,Alcalá de la Selva,496
+2012,44013,Alcañiz,16424
+2012,44014,Alcorisa,3556
+2012,44016,Alfambra,622
+2012,44017,Aliaga,366
+2012,44018,Almohaja,28
+2012,44019,Alobras,79
+2012,44020,Alpeñés,25
+2012,44021,Allepuz,121
+2012,44022,Alloza,673
+2012,44023,Allueva,21
+2012,44024,Anadón,27
+2012,44025,Andorra,8266
+2012,44026,Arcos de las Salinas,105
+2012,44027,Arens de Lledó,205
+2012,44028,Argente,224
+2012,44029,Ariño,893
+2012,44031,Azaila,133
+2012,44032,Bádenas,21
+2012,44033,Báguena,370
+2012,44034,Bañón,162
+2012,44035,Barrachina,143
+2012,44036,Bea,30
+2012,44037,Beceite,607
+2012,44038,Belmonte de San José,126
+2012,44039,Bello,282
+2012,44040,Berge,254
+2012,44041,Bezas,78
+2012,44042,Blancas,158
+2012,44043,Blesa,125
+2012,44044,Bordón,131
+2012,44045,Bronchales,472
+2012,44046,Bueña,63
+2012,44047,Burbáguena,292
+2012,44048,Cabra de Mora,79
+2012,44049,Calaceite,1105
+2012,44050,Calamocha,4579
+2012,44051,Calanda,3956
+2012,44052,Calomarde,90
+2012,44053,Camañas,135
+2012,44054,Camarena de la Sierra,145
+2012,44055,Camarillas,117
+2012,44056,Caminreal,735
+2012,44059,Cantavieja,745
+2012,44060,Cañada de Benatanduz,39
+2012,44061,La Cañada de Verich,106
+2012,44062,Cañada Vellida,38
+2012,44063,Cañizar del Olivar,110
+2012,44064,Cascante del Río,91
+2012,44065,Castejón de Tornos,64
+2012,44066,Castel de Cabra,138
+2012,44067,Castelnou,177
+2012,44068,Castelserás,834
+2012,44070,El Castellar,64
+2012,44071,Castellote,794
+2012,44074,Cedrillas,631
+2012,44075,Celadas,406
+2012,44076,Cella,2878
+2012,44077,La Cerollera,116
+2012,44080,La Codoñera,377
+2012,44082,Corbalán,107
+2012,44084,Cortes de Aragón,72
+2012,44085,Cosa,61
+2012,44086,Cretas,598
+2012,44087,Crivillén,88
+2012,44088,La Cuba,50
+2012,44089,Cubla,62
+2012,44090,Cucalón,108
+2012,44092,El Cuervo,91
+2012,44093,Cuevas de Almudén,148
+2012,44094,Cuevas Labradas,128
+2012,44096,Ejulve,208
+2012,44097,Escorihuela,177
+2012,44099,Escucha,995
+2012,44100,Estercuel,259
+2012,44101,Ferreruela de Huerva,70
+2012,44102,Fonfría,30
+2012,44103,Formiche Alto,175
+2012,44105,Fórnoles,105
+2012,44106,Fortanete,222
+2012,44107,Foz-Calanda,279
+2012,44108,La Fresneda,486
+2012,44109,Frías de Albarracín,151
+2012,44110,Fuenferrada,62
+2012,44111,Fuentes Calientes,116
+2012,44112,Fuentes Claras,576
+2012,44113,Fuentes de Rubielos,125
+2012,44114,Fuentespalda,317
+2012,44115,Galve,170
+2012,44116,Gargallo,122
+2012,44117,Gea de Albarracín,405
+2012,44118,La Ginebrosa,216
+2012,44119,Griegos,143
+2012,44120,Guadalaviar,236
+2012,44121,Gúdar,77
+2012,44122,Híjar,1806
+2012,44123,Hinojosa de Jarque,151
+2012,44124,La Hoz de la Vieja,79
+2012,44125,Huesa del Común,86
+2012,44126,La Iglesuela del Cid,496
+2012,44127,Jabaloyas,83
+2012,44128,Jarque de la Val,91
+2012,44129,Jatiel,49
+2012,44130,Jorcas,41
+2012,44131,Josa,38
+2012,44132,Lagueruela,69
+2012,44133,Lanzuela,28
+2012,44135,Libros,141
+2012,44136,Lidón,55
+2012,44137,Linares de Mora,296
+2012,44138,Loscos,175
+2012,44141,Lledó,169
+2012,44142,Maicas,38
+2012,44143,Manzanera,554
+2012,44144,Martín del Río,429
+2012,44145,Mas de las Matas,1360
+2012,44146,La Mata de los Olmos,281
+2012,44147,Mazaleón,567
+2012,44148,Mezquita de Jarque,118
+2012,44149,Mirambel,129
+2012,44150,Miravete de la Sierra,33
+2012,44151,Molinos,286
+2012,44152,Monforte de Moyuela,63
+2012,44153,Monreal del Campo,2709
+2012,44154,Monroyo,390
+2012,44155,Montalbán,1350
+2012,44156,Monteagudo del Castillo,67
+2012,44157,Monterde de Albarracín,66
+2012,44158,Mora de Rubielos,1649
+2012,44159,Moscardón,64
+2012,44160,Mosqueruela,621
+2012,44161,Muniesa,653
+2012,44163,Noguera de Albarracín,152
+2012,44164,Nogueras,31
+2012,44165,Nogueruelas,219
+2012,44167,Obón,39
+2012,44168,Odón,229
+2012,44169,Ojos Negros,445
+2012,44171,Olba,249
+2012,44172,Oliete,459
+2012,44173,Los Olmos,124
+2012,44174,Orihuela del Tremedal,572
+2012,44175,Orrios,152
+2012,44176,Palomar de Arroyos,189
+2012,44177,Pancrudo,133
+2012,44178,Las Parras de Castellote,69
+2012,44179,Peñarroya de Tastavins,497
+2012,44180,Peracense,77
+2012,44181,Peralejos,83
+2012,44182,Perales del Alfambra,269
+2012,44183,Pitarque,93
+2012,44184,Plou,48
+2012,44185,El Pobo,142
+2012,44187,La Portellada,254
+2012,44189,Pozondón,71
+2012,44190,Pozuel del Campo,90
+2012,44191,La Puebla de Híjar,982
+2012,44192,La Puebla de Valverde,550
+2012,44193,Puertomingalvo,144
+2012,44194,Ráfales,159
+2012,44195,Rillo,111
+2012,44196,Riodeva,173
+2012,44197,Ródenas,79
+2012,44198,Royuela,247
+2012,44199,Rubiales,61
+2012,44200,Rubielos de la Cérida,43
+2012,44201,Rubielos de Mora,755
+2012,44203,Salcedillo,10
+2012,44204,Saldón,28
+2012,44205,Samper de Calanda,884
+2012,44206,San Agustín,177
+2012,44207,San Martín del Río,191
+2012,44208,Santa Cruz de Nogueras,39
+2012,44209,Santa Eulalia,1122
+2012,44210,Sarrión,1129
+2012,44211,Segura de los Baños,40
+2012,44212,Seno,45
+2012,44213,Singra,84
+2012,44215,Terriente,191
+2012,44216,Teruel,35841
+2012,44217,Toril y Masegoso,35
+2012,44218,Tormón,34
+2012,44219,Tornos,231
+2012,44220,Torralba de los Sisones,181
+2012,44221,Torrecilla de Alcañiz,447
+2012,44222,Torrecilla del Rebollar,142
+2012,44223,Torre de Arcas,88
+2012,44224,Torre de las Arcas,30
+2012,44225,Torre del Compte,148
+2012,44226,Torrelacárcel,200
+2012,44227,Torre los Negros,98
+2012,44228,Torremocha de Jiloca,128
+2012,44229,Torres de Albarracín,167
+2012,44230,Torrevelilla,199
+2012,44231,Torrijas,57
+2012,44232,Torrijo del Campo,506
+2012,44234,Tramacastiel,85
+2012,44235,Tramacastilla,125
+2012,44236,Tronchón,100
+2012,44237,Urrea de Gaén,516
+2012,44238,Utrillas,3238
+2012,44239,Valacloche,28
+2012,44240,Valbona,211
+2012,44241,Valdealgorfa,651
+2012,44243,Valdecuenca,56
+2012,44244,Valdelinares,106
+2012,44245,Valdeltormo,317
+2012,44246,Valderrobres,2335
+2012,44247,Valjunquera,386
+2012,44249,El Vallecillo,54
+2012,44250,Veguillas de la Sierra,20
+2012,44251,Villafranca del Campo,323
+2012,44252,Villahermosa del Campo,99
+2012,44256,Villanueva del Rebollar de la Sierra,47
+2012,44257,Villar del Cobo,202
+2012,44258,Villar del Salz,79
+2012,44260,Villarluengo,200
+2012,44261,Villarquemado,904
+2012,44262,Villarroya de los Pinares,163
+2012,44263,Villastar,480
+2012,44264,Villel,347
+2012,44265,Vinaceite,308
+2012,44266,Visiedo,145
+2012,44267,Vivel del Río Martín,86
+2012,44268,La Zoma,22
+2013,44001,Ababuj,65
+2013,44002,Abejuela,39
+2013,44003,Aguatón,19
+2013,44004,Aguaviva,654
+2013,44005,Aguilar del Alfambra,75
+2013,44006,Alacón,306
+2013,44007,Alba,215
+2013,44008,Albalate del Arzobispo,2049
+2013,44009,Albarracín,1093
+2013,44010,Albentosa,296
+2013,44011,Alcaine,69
+2013,44012,Alcalá de la Selva,457
+2013,44013,Alcañiz,16384
+2013,44014,Alcorisa,3501
+2013,44016,Alfambra,584
+2013,44017,Aliaga,361
+2013,44018,Almohaja,21
+2013,44019,Alobras,79
+2013,44020,Alpeñés,19
+2013,44021,Allepuz,119
+2013,44022,Alloza,667
+2013,44023,Allueva,15
+2013,44024,Anadón,23
+2013,44025,Andorra,8278
+2013,44026,Arcos de las Salinas,96
+2013,44027,Arens de Lledó,215
+2013,44028,Argente,225
+2013,44029,Ariño,769
+2013,44031,Azaila,124
+2013,44032,Bádenas,20
+2013,44033,Báguena,353
+2013,44034,Bañón,163
+2013,44035,Barrachina,148
+2013,44036,Bea,30
+2013,44037,Beceite,599
+2013,44038,Belmonte de San José,117
+2013,44039,Bello,250
+2013,44040,Berge,251
+2013,44041,Bezas,75
+2013,44042,Blancas,157
+2013,44043,Blesa,118
+2013,44044,Bordón,120
+2013,44045,Bronchales,461
+2013,44046,Bueña,62
+2013,44047,Burbáguena,294
+2013,44048,Cabra de Mora,66
+2013,44049,Calaceite,1106
+2013,44050,Calamocha,4515
+2013,44051,Calanda,3949
+2013,44052,Calomarde,84
+2013,44053,Camañas,127
+2013,44054,Camarena de la Sierra,138
+2013,44055,Camarillas,110
+2013,44056,Caminreal,724
+2013,44059,Cantavieja,724
+2013,44060,Cañada de Benatanduz,38
+2013,44061,La Cañada de Verich,94
+2013,44062,Cañada Vellida,38
+2013,44063,Cañizar del Olivar,98
+2013,44064,Cascante del Río,80
+2013,44065,Castejón de Tornos,66
+2013,44066,Castel de Cabra,131
+2013,44067,Castelnou,152
+2013,44068,Castelserás,833
+2013,44070,El Castellar,62
+2013,44071,Castellote,782
+2013,44074,Cedrillas,630
+2013,44075,Celadas,404
+2013,44076,Cella,2886
+2013,44077,La Cerollera,104
+2013,44080,La Codoñera,368
+2013,44082,Corbalán,109
+2013,44084,Cortes de Aragón,57
+2013,44085,Cosa,60
+2013,44086,Cretas,597
+2013,44087,Crivillén,76
+2013,44088,La Cuba,47
+2013,44089,Cubla,61
+2013,44090,Cucalón,110
+2013,44092,El Cuervo,98
+2013,44093,Cuevas de Almudén,141
+2013,44094,Cuevas Labradas,135
+2013,44096,Ejulve,204
+2013,44097,Escorihuela,162
+2013,44099,Escucha,1003
+2013,44100,Estercuel,261
+2013,44101,Ferreruela de Huerva,67
+2013,44102,Fonfría,30
+2013,44103,Formiche Alto,170
+2013,44105,Fórnoles,93
+2013,44106,Fortanete,208
+2013,44107,Foz-Calanda,269
+2013,44108,La Fresneda,495
+2013,44109,Frías de Albarracín,143
+2013,44110,Fuenferrada,61
+2013,44111,Fuentes Calientes,113
+2013,44112,Fuentes Claras,553
+2013,44113,Fuentes de Rubielos,128
+2013,44114,Fuentespalda,308
+2013,44115,Galve,168
+2013,44116,Gargallo,122
+2013,44117,Gea de Albarracín,410
+2013,44118,La Ginebrosa,216
+2013,44119,Griegos,139
+2013,44120,Guadalaviar,245
+2013,44121,Gúdar,84
+2013,44122,Híjar,1774
+2013,44123,Hinojosa de Jarque,146
+2013,44124,La Hoz de la Vieja,83
+2013,44125,Huesa del Común,82
+2013,44126,La Iglesuela del Cid,469
+2013,44127,Jabaloyas,78
+2013,44128,Jarque de la Val,87
+2013,44129,Jatiel,50
+2013,44130,Jorcas,38
+2013,44131,Josa,36
+2013,44132,Lagueruela,72
+2013,44133,Lanzuela,27
+2013,44135,Libros,137
+2013,44136,Lidón,54
+2013,44137,Linares de Mora,276
+2013,44138,Loscos,156
+2013,44141,Lledó,172
+2013,44142,Maicas,36
+2013,44143,Manzanera,539
+2013,44144,Martín del Río,437
+2013,44145,Mas de las Matas,1349
+2013,44146,La Mata de los Olmos,280
+2013,44147,Mazaleón,558
+2013,44148,Mezquita de Jarque,121
+2013,44149,Mirambel,113
+2013,44150,Miravete de la Sierra,29
+2013,44151,Molinos,276
+2013,44152,Monforte de Moyuela,66
+2013,44153,Monreal del Campo,2680
+2013,44154,Monroyo,367
+2013,44155,Montalbán,1341
+2013,44156,Monteagudo del Castillo,59
+2013,44157,Monterde de Albarracín,62
+2013,44158,Mora de Rubielos,1632
+2013,44159,Moscardón,62
+2013,44160,Mosqueruela,607
+2013,44161,Muniesa,640
+2013,44163,Noguera de Albarracín,146
+2013,44164,Nogueras,30
+2013,44165,Nogueruelas,210
+2013,44167,Obón,38
+2013,44168,Odón,228
+2013,44169,Ojos Negros,435
+2013,44171,Olba,250
+2013,44172,Oliete,430
+2013,44173,Los Olmos,131
+2013,44174,Orihuela del Tremedal,552
+2013,44175,Orrios,145
+2013,44176,Palomar de Arroyos,186
+2013,44177,Pancrudo,123
+2013,44178,Las Parras de Castellote,63
+2013,44179,Peñarroya de Tastavins,480
+2013,44180,Peracense,73
+2013,44181,Peralejos,90
+2013,44182,Perales del Alfambra,265
+2013,44183,Pitarque,89
+2013,44184,Plou,45
+2013,44185,El Pobo,145
+2013,44187,La Portellada,245
+2013,44189,Pozondón,66
+2013,44190,Pozuel del Campo,80
+2013,44191,La Puebla de Híjar,974
+2013,44192,La Puebla de Valverde,547
+2013,44193,Puertomingalvo,135
+2013,44194,Ráfales,138
+2013,44195,Rillo,109
+2013,44196,Riodeva,165
+2013,44197,Ródenas,78
+2013,44198,Royuela,230
+2013,44199,Rubiales,55
+2013,44200,Rubielos de la Cérida,43
+2013,44201,Rubielos de Mora,722
+2013,44203,Salcedillo,10
+2013,44204,Saldón,29
+2013,44205,Samper de Calanda,867
+2013,44206,San Agustín,151
+2013,44207,San Martín del Río,182
+2013,44208,Santa Cruz de Nogueras,38
+2013,44209,Santa Eulalia,1118
+2013,44210,Sarrión,1149
+2013,44211,Segura de los Baños,40
+2013,44212,Seno,43
+2013,44213,Singra,73
+2013,44215,Terriente,179
+2013,44216,Teruel,35961
+2013,44217,Toril y Masegoso,35
+2013,44218,Tormón,31
+2013,44219,Tornos,234
+2013,44220,Torralba de los Sisones,174
+2013,44221,Torrecilla de Alcañiz,437
+2013,44222,Torrecilla del Rebollar,142
+2013,44223,Torre de Arcas,95
+2013,44224,Torre de las Arcas,31
+2013,44225,Torre del Compte,147
+2013,44226,Torrelacárcel,193
+2013,44227,Torre los Negros,91
+2013,44228,Torremocha de Jiloca,125
+2013,44229,Torres de Albarracín,159
+2013,44230,Torrevelilla,211
+2013,44231,Torrijas,44
+2013,44232,Torrijo del Campo,496
+2013,44234,Tramacastiel,76
+2013,44235,Tramacastilla,114
+2013,44236,Tronchón,91
+2013,44237,Urrea de Gaén,491
+2013,44238,Utrillas,3268
+2013,44239,Valacloche,23
+2013,44240,Valbona,197
+2013,44241,Valdealgorfa,621
+2013,44243,Valdecuenca,44
+2013,44244,Valdelinares,100
+2013,44245,Valdeltormo,322
+2013,44246,Valderrobres,2310
+2013,44247,Valjunquera,383
+2013,44249,El Vallecillo,52
+2013,44250,Veguillas de la Sierra,22
+2013,44251,Villafranca del Campo,323
+2013,44252,Villahermosa del Campo,102
+2013,44256,Villanueva del Rebollar de la Sierra,46
+2013,44257,Villar del Cobo,192
+2013,44258,Villar del Salz,73
+2013,44260,Villarluengo,195
+2013,44261,Villarquemado,889
+2013,44262,Villarroya de los Pinares,164
+2013,44263,Villastar,498
+2013,44264,Villel,355
+2013,44265,Vinaceite,287
+2013,44266,Visiedo,141
+2013,44267,Vivel del Río Martín,81
+2013,44268,La Zoma,19
+2014,44001,Ababuj,65
+2014,44002,Abejuela,41
+2014,44003,Aguatón,18
+2014,44004,Aguaviva,605
+2014,44005,Aguilar del Alfambra,77
+2014,44006,Alacón,314
+2014,44007,Alba,212
+2014,44008,Albalate del Arzobispo,2025
+2014,44009,Albarracín,1059
+2014,44010,Albentosa,279
+2014,44011,Alcaine,72
+2014,44012,Alcalá de la Selva,424
+2014,44013,Alcañiz,16333
+2014,44014,Alcorisa,3433
+2014,44016,Alfambra,587
+2014,44017,Aliaga,358
+2014,44018,Almohaja,21
+2014,44019,Alobras,75
+2014,44020,Alpeñés,19
+2014,44021,Allepuz,117
+2014,44022,Alloza,638
+2014,44023,Allueva,15
+2014,44024,Anadón,24
+2014,44025,Andorra,8148
+2014,44026,Arcos de las Salinas,100
+2014,44027,Arens de Lledó,208
+2014,44028,Argente,217
+2014,44029,Ariño,775
+2014,44031,Azaila,119
+2014,44032,Bádenas,19
+2014,44033,Báguena,337
+2014,44034,Bañón,154
+2014,44035,Barrachina,137
+2014,44036,Bea,28
+2014,44037,Beceite,583
+2014,44038,Belmonte de San José,120
+2014,44039,Bello,244
+2014,44040,Berge,247
+2014,44041,Bezas,77
+2014,44042,Blancas,152
+2014,44043,Blesa,109
+2014,44044,Bordón,114
+2014,44045,Bronchales,427
+2014,44046,Bueña,62
+2014,44047,Burbáguena,281
+2014,44048,Cabra de Mora,70
+2014,44049,Calaceite,1076
+2014,44050,Calamocha,4469
+2014,44051,Calanda,3920
+2014,44052,Calomarde,88
+2014,44053,Camañas,128
+2014,44054,Camarena de la Sierra,137
+2014,44055,Camarillas,103
+2014,44056,Caminreal,684
+2014,44059,Cantavieja,724
+2014,44060,Cañada de Benatanduz,41
+2014,44061,La Cañada de Verich,102
+2014,44062,Cañada Vellida,37
+2014,44063,Cañizar del Olivar,99
+2014,44064,Cascante del Río,82
+2014,44065,Castejón de Tornos,63
+2014,44066,Castel de Cabra,128
+2014,44067,Castelnou,140
+2014,44068,Castelserás,830
+2014,44070,El Castellar,60
+2014,44071,Castellote,754
+2014,44074,Cedrillas,619
+2014,44075,Celadas,399
+2014,44076,Cella,2818
+2014,44077,La Cerollera,106
+2014,44080,La Codoñera,374
+2014,44082,Corbalán,106
+2014,44084,Cortes de Aragón,61
+2014,44085,Cosa,56
+2014,44086,Cretas,601
+2014,44087,Crivillén,75
+2014,44088,La Cuba,45
+2014,44089,Cubla,55
+2014,44090,Cucalón,103
+2014,44092,El Cuervo,85
+2014,44093,Cuevas de Almudén,145
+2014,44094,Cuevas Labradas,127
+2014,44096,Ejulve,194
+2014,44097,Escorihuela,160
+2014,44099,Escucha,981
+2014,44100,Estercuel,230
+2014,44101,Ferreruela de Huerva,64
+2014,44102,Fonfría,30
+2014,44103,Formiche Alto,168
+2014,44105,Fórnoles,78
+2014,44106,Fortanete,201
+2014,44107,Foz-Calanda,269
+2014,44108,La Fresneda,468
+2014,44109,Frías de Albarracín,144
+2014,44110,Fuenferrada,62
+2014,44111,Fuentes Calientes,111
+2014,44112,Fuentes Claras,531
+2014,44113,Fuentes de Rubielos,121
+2014,44114,Fuentespalda,299
+2014,44115,Galve,164
+2014,44116,Gargallo,110
+2014,44117,Gea de Albarracín,397
+2014,44118,La Ginebrosa,206
+2014,44119,Griegos,142
+2014,44120,Guadalaviar,248
+2014,44121,Gúdar,76
+2014,44122,Híjar,1763
+2014,44123,Hinojosa de Jarque,136
+2014,44124,La Hoz de la Vieja,81
+2014,44125,Huesa del Común,73
+2014,44126,La Iglesuela del Cid,462
+2014,44127,Jabaloyas,73
+2014,44128,Jarque de la Val,82
+2014,44129,Jatiel,48
+2014,44130,Jorcas,37
+2014,44131,Josa,36
+2014,44132,Lagueruela,78
+2014,44133,Lanzuela,30
+2014,44135,Libros,129
+2014,44136,Lidón,54
+2014,44137,Linares de Mora,274
+2014,44138,Loscos,154
+2014,44141,Lledó,169
+2014,44142,Maicas,35
+2014,44143,Manzanera,526
+2014,44144,Martín del Río,437
+2014,44145,Mas de las Matas,1324
+2014,44146,La Mata de los Olmos,268
+2014,44147,Mazaleón,540
+2014,44148,Mezquita de Jarque,117
+2014,44149,Mirambel,117
+2014,44150,Miravete de la Sierra,34
+2014,44151,Molinos,264
+2014,44152,Monforte de Moyuela,63
+2014,44153,Monreal del Campo,2636
+2014,44154,Monroyo,364
+2014,44155,Montalbán,1335
+2014,44156,Monteagudo del Castillo,55
+2014,44157,Monterde de Albarracín,73
+2014,44158,Mora de Rubielos,1612
+2014,44159,Moscardón,60
+2014,44160,Mosqueruela,601
+2014,44161,Muniesa,638
+2014,44163,Noguera de Albarracín,137
+2014,44164,Nogueras,30
+2014,44165,Nogueruelas,214
+2014,44167,Obón,42
+2014,44168,Odón,237
+2014,44169,Ojos Negros,421
+2014,44171,Olba,263
+2014,44172,Oliete,422
+2014,44173,Los Olmos,130
+2014,44174,Orihuela del Tremedal,539
+2014,44175,Orrios,140
+2014,44176,Palomar de Arroyos,184
+2014,44177,Pancrudo,117
+2014,44178,Las Parras de Castellote,58
+2014,44179,Peñarroya de Tastavins,487
+2014,44180,Peracense,69
+2014,44181,Peralejos,85
+2014,44182,Perales del Alfambra,253
+2014,44183,Pitarque,93
+2014,44184,Plou,46
+2014,44185,El Pobo,148
+2014,44187,La Portellada,234
+2014,44189,Pozondón,63
+2014,44190,Pozuel del Campo,81
+2014,44191,La Puebla de Híjar,965
+2014,44192,La Puebla de Valverde,521
+2014,44193,Puertomingalvo,117
+2014,44194,Ráfales,142
+2014,44195,Rillo,106
+2014,44196,Riodeva,165
+2014,44197,Ródenas,75
+2014,44198,Royuela,227
+2014,44199,Rubiales,51
+2014,44200,Rubielos de la Cérida,41
+2014,44201,Rubielos de Mora,687
+2014,44203,Salcedillo,10
+2014,44204,Saldón,27
+2014,44205,Samper de Calanda,861
+2014,44206,San Agustín,141
+2014,44207,San Martín del Río,179
+2014,44208,Santa Cruz de Nogueras,42
+2014,44209,Santa Eulalia,1111
+2014,44210,Sarrión,1152
+2014,44211,Segura de los Baños,39
+2014,44212,Seno,42
+2014,44213,Singra,76
+2014,44215,Terriente,177
+2014,44216,Teruel,35675
+2014,44217,Toril y Masegoso,32
+2014,44218,Tormón,28
+2014,44219,Tornos,231
+2014,44220,Torralba de los Sisones,170
+2014,44221,Torrecilla de Alcañiz,415
+2014,44222,Torrecilla del Rebollar,142
+2014,44223,Torre de Arcas,83
+2014,44224,Torre de las Arcas,28
+2014,44225,Torre del Compte,142
+2014,44226,Torrelacárcel,197
+2014,44227,Torre los Negros,94
+2014,44228,Torremocha de Jiloca,126
+2014,44229,Torres de Albarracín,174
+2014,44230,Torrevelilla,208
+2014,44231,Torrijas,45
+2014,44232,Torrijo del Campo,509
+2014,44234,Tramacastiel,74
+2014,44235,Tramacastilla,120
+2014,44236,Tronchón,82
+2014,44237,Urrea de Gaén,494
+2014,44238,Utrillas,3194
+2014,44239,Valacloche,23
+2014,44240,Valbona,198
+2014,44241,Valdealgorfa,650
+2014,44243,Valdecuenca,40
+2014,44244,Valdelinares,90
+2014,44245,Valdeltormo,315
+2014,44246,Valderrobres,2337
+2014,44247,Valjunquera,365
+2014,44249,El Vallecillo,50
+2014,44250,Veguillas de la Sierra,23
+2014,44251,Villafranca del Campo,314
+2014,44252,Villahermosa del Campo,104
+2014,44256,Villanueva del Rebollar de la Sierra,52
+2014,44257,Villar del Cobo,190
+2014,44258,Villar del Salz,75
+2014,44260,Villarluengo,194
+2014,44261,Villarquemado,886
+2014,44262,Villarroya de los Pinares,160
+2014,44263,Villastar,522
+2014,44264,Villel,348
+2014,44265,Vinaceite,274
+2014,44266,Visiedo,137
+2014,44267,Vivel del Río Martín,78
+2014,44268,La Zoma,19
+2015,44001,Ababuj,73
+2015,44002,Abejuela,54
+2015,44003,Aguatón,19
+2015,44004,Aguaviva,586
+2015,44005,Aguilar del Alfambra,66
+2015,44006,Alacón,293
+2015,44007,Alba,210
+2015,44008,Albalate del Arzobispo,2001
+2015,44009,Albarracín,1049
+2015,44010,Albentosa,270
+2015,44011,Alcaine,74
+2015,44012,Alcalá de la Selva,399
+2015,44013,Alcañiz,16230
+2015,44014,Alcorisa,3374
+2015,44016,Alfambra,571
+2015,44017,Aliaga,365
+2015,44018,Almohaja,20
+2015,44019,Alobras,70
+2015,44020,Alpeñés,21
+2015,44021,Allepuz,118
+2015,44022,Alloza,604
+2015,44023,Allueva,27
+2015,44024,Anadón,25
+2015,44025,Andorra,8065
+2015,44026,Arcos de las Salinas,105
+2015,44027,Arens de Lledó,206
+2015,44028,Argente,214
+2015,44029,Ariño,763
+2015,44031,Azaila,116
+2015,44032,Bádenas,19
+2015,44033,Báguena,327
+2015,44034,Bañón,150
+2015,44035,Barrachina,133
+2015,44036,Bea,26
+2015,44037,Beceite,566
+2015,44038,Belmonte de San José,117
+2015,44039,Bello,238
+2015,44040,Berge,246
+2015,44041,Bezas,67
+2015,44042,Blancas,149
+2015,44043,Blesa,109
+2015,44044,Bordón,117
+2015,44045,Bronchales,423
+2015,44046,Bueña,55
+2015,44047,Burbáguena,254
+2015,44048,Cabra de Mora,73
+2015,44049,Calaceite,1052
+2015,44050,Calamocha,4417
+2015,44051,Calanda,3893
+2015,44052,Calomarde,87
+2015,44053,Camañas,125
+2015,44054,Camarena de la Sierra,123
+2015,44055,Camarillas,99
+2015,44056,Caminreal,659
+2015,44059,Cantavieja,741
+2015,44060,Cañada de Benatanduz,41
+2015,44061,La Cañada de Verich,102
+2015,44062,Cañada Vellida,36
+2015,44063,Cañizar del Olivar,103
+2015,44064,Cascante del Río,80
+2015,44065,Castejón de Tornos,60
+2015,44066,Castel de Cabra,122
+2015,44067,Castelnou,142
+2015,44068,Castelserás,840
+2015,44070,El Castellar,58
+2015,44071,Castellote,728
+2015,44074,Cedrillas,619
+2015,44075,Celadas,398
+2015,44076,Cella,2776
+2015,44077,La Cerollera,106
+2015,44080,La Codoñera,365
+2015,44082,Corbalán,110
+2015,44084,Cortes de Aragón,58
+2015,44085,Cosa,57
+2015,44086,Cretas,573
+2015,44087,Crivillén,74
+2015,44088,La Cuba,37
+2015,44089,Cubla,54
+2015,44090,Cucalón,104
+2015,44092,El Cuervo,87
+2015,44093,Cuevas de Almudén,140
+2015,44094,Cuevas Labradas,123
+2015,44096,Ejulve,200
+2015,44097,Escorihuela,158
+2015,44099,Escucha,953
+2015,44100,Estercuel,229
+2015,44101,Ferreruela de Huerva,69
+2015,44102,Fonfría,31
+2015,44103,Formiche Alto,180
+2015,44105,Fórnoles,86
+2015,44106,Fortanete,203
+2015,44107,Foz-Calanda,269
+2015,44108,La Fresneda,474
+2015,44109,Frías de Albarracín,131
+2015,44110,Fuenferrada,57
+2015,44111,Fuentes Calientes,93
+2015,44112,Fuentes Claras,528
+2015,44113,Fuentes de Rubielos,121
+2015,44114,Fuentespalda,285
+2015,44115,Galve,167
+2015,44116,Gargallo,103
+2015,44117,Gea de Albarracín,387
+2015,44118,La Ginebrosa,203
+2015,44119,Griegos,157
+2015,44120,Guadalaviar,247
+2015,44121,Gúdar,77
+2015,44122,Híjar,1761
+2015,44123,Hinojosa de Jarque,136
+2015,44124,La Hoz de la Vieja,82
+2015,44125,Huesa del Común,73
+2015,44126,La Iglesuela del Cid,432
+2015,44127,Jabaloyas,77
+2015,44128,Jarque de la Val,78
+2015,44129,Jatiel,48
+2015,44130,Jorcas,41
+2015,44131,Josa,36
+2015,44132,Lagueruela,81
+2015,44133,Lanzuela,29
+2015,44135,Libros,124
+2015,44136,Lidón,52
+2015,44137,Linares de Mora,287
+2015,44138,Loscos,151
+2015,44141,Lledó,169
+2015,44142,Maicas,36
+2015,44143,Manzanera,510
+2015,44144,Martín del Río,441
+2015,44145,Mas de las Matas,1318
+2015,44146,La Mata de los Olmos,261
+2015,44147,Mazaleón,534
+2015,44148,Mezquita de Jarque,115
+2015,44149,Mirambel,119
+2015,44150,Miravete de la Sierra,29
+2015,44151,Molinos,258
+2015,44152,Monforte de Moyuela,66
+2015,44153,Monreal del Campo,2611
+2015,44154,Monroyo,360
+2015,44155,Montalbán,1327
+2015,44156,Monteagudo del Castillo,52
+2015,44157,Monterde de Albarracín,69
+2015,44158,Mora de Rubielos,1585
+2015,44159,Moscardón,58
+2015,44160,Mosqueruela,593
+2015,44161,Muniesa,635
+2015,44163,Noguera de Albarracín,151
+2015,44164,Nogueras,29
+2015,44165,Nogueruelas,207
+2015,44167,Obón,48
+2015,44168,Odón,226
+2015,44169,Ojos Negros,413
+2015,44171,Olba,240
+2015,44172,Oliete,412
+2015,44173,Los Olmos,127
+2015,44174,Orihuela del Tremedal,535
+2015,44175,Orrios,137
+2015,44176,Palomar de Arroyos,182
+2015,44177,Pancrudo,112
+2015,44178,Las Parras de Castellote,59
+2015,44179,Peñarroya de Tastavins,477
+2015,44180,Peracense,72
+2015,44181,Peralejos,86
+2015,44182,Perales del Alfambra,238
+2015,44183,Pitarque,90
+2015,44184,Plou,52
+2015,44185,El Pobo,142
+2015,44187,La Portellada,240
+2015,44189,Pozondón,62
+2015,44190,Pozuel del Campo,74
+2015,44191,La Puebla de Híjar,947
+2015,44192,La Puebla de Valverde,500
+2015,44193,Puertomingalvo,119
+2015,44194,Ráfales,133
+2015,44195,Rillo,97
+2015,44196,Riodeva,163
+2015,44197,Ródenas,66
+2015,44198,Royuela,221
+2015,44199,Rubiales,53
+2015,44200,Rubielos de la Cérida,41
+2015,44201,Rubielos de Mora,661
+2015,44203,Salcedillo,13
+2015,44204,Saldón,27
+2015,44205,Samper de Calanda,854
+2015,44206,San Agustín,141
+2015,44207,San Martín del Río,174
+2015,44208,Santa Cruz de Nogueras,39
+2015,44209,Santa Eulalia,1081
+2015,44210,Sarrión,1167
+2015,44211,Segura de los Baños,40
+2015,44212,Seno,43
+2015,44213,Singra,80
+2015,44215,Terriente,178
+2015,44216,Teruel,35590
+2015,44217,Toril y Masegoso,30
+2015,44218,Tormón,34
+2015,44219,Tornos,235
+2015,44220,Torralba de los Sisones,157
+2015,44221,Torrecilla de Alcañiz,407
+2015,44222,Torrecilla del Rebollar,144
+2015,44223,Torre de Arcas,81
+2015,44224,Torre de las Arcas,29
+2015,44225,Torre del Compte,137
+2015,44226,Torrelacárcel,184
+2015,44227,Torre los Negros,90
+2015,44228,Torremocha de Jiloca,110
+2015,44229,Torres de Albarracín,181
+2015,44230,Torrevelilla,200
+2015,44231,Torrijas,45
+2015,44232,Torrijo del Campo,489
+2015,44234,Tramacastiel,75
+2015,44235,Tramacastilla,107
+2015,44236,Tronchón,68
+2015,44237,Urrea de Gaén,488
+2015,44238,Utrillas,3110
+2015,44239,Valacloche,27
+2015,44240,Valbona,193
+2015,44241,Valdealgorfa,664
+2015,44243,Valdecuenca,40
+2015,44244,Valdelinares,85
+2015,44245,Valdeltormo,312
+2015,44246,Valderrobres,2342
+2015,44247,Valjunquera,358
+2015,44249,El Vallecillo,60
+2015,44250,Veguillas de la Sierra,22
+2015,44251,Villafranca del Campo,299
+2015,44252,Villahermosa del Campo,103
+2015,44256,Villanueva del Rebollar de la Sierra,51
+2015,44257,Villar del Cobo,189
+2015,44258,Villar del Salz,74
+2015,44260,Villarluengo,189
+2015,44261,Villarquemado,869
+2015,44262,Villarroya de los Pinares,163
+2015,44263,Villastar,526
+2015,44264,Villel,342
+2015,44265,Vinaceite,262
+2015,44266,Visiedo,133
+2015,44267,Vivel del Río Martín,83
+2015,44268,La Zoma,18
+2016,44001,Ababuj,76
+2016,44002,Abejuela,56
+2016,44003,Aguatón,19
+2016,44004,Aguaviva,550
+2016,44005,Aguilar del Alfambra,64
+2016,44006,Alacón,279
+2016,44007,Alba,196
+2016,44008,Albalate del Arzobispo,2003
+2016,44009,Albarracín,1054
+2016,44010,Albentosa,267
+2016,44011,Alcaine,70
+2016,44012,Alcalá de la Selva,398
+2016,44013,Alcañiz,16043
+2016,44014,Alcorisa,3326
+2016,44016,Alfambra,568
+2016,44017,Aliaga,348
+2016,44018,Almohaja,19
+2016,44019,Alobras,63
+2016,44020,Alpeñés,23
+2016,44021,Allepuz,128
+2016,44022,Alloza,602
+2016,44023,Allueva,29
+2016,44024,Anadón,27
+2016,44025,Andorra,7875
+2016,44026,Arcos de las Salinas,106
+2016,44027,Arens de Lledó,212
+2016,44028,Argente,207
+2016,44029,Ariño,738
+2016,44031,Azaila,106
+2016,44032,Bádenas,19
+2016,44033,Báguena,316
+2016,44034,Bañón,158
+2016,44035,Barrachina,129
+2016,44036,Bea,35
+2016,44037,Beceite,561
+2016,44038,Belmonte de San José,119
+2016,44039,Bello,245
+2016,44040,Berge,248
+2016,44041,Bezas,65
+2016,44042,Blancas,147
+2016,44043,Blesa,101
+2016,44044,Bordón,114
+2016,44045,Bronchales,417
+2016,44046,Bueña,53
+2016,44047,Burbáguena,254
+2016,44048,Cabra de Mora,68
+2016,44049,Calaceite,1039
+2016,44050,Calamocha,4368
+2016,44051,Calanda,3846
+2016,44052,Calomarde,80
+2016,44053,Camañas,130
+2016,44054,Camarena de la Sierra,127
+2016,44055,Camarillas,94
+2016,44056,Caminreal,637
+2016,44059,Cantavieja,712
+2016,44060,Cañada de Benatanduz,41
+2016,44061,La Cañada de Verich,94
+2016,44062,Cañada Vellida,35
+2016,44063,Cañizar del Olivar,94
+2016,44064,Cascante del Río,74
+2016,44065,Castejón de Tornos,62
+2016,44066,Castel de Cabra,120
+2016,44067,Castelnou,137
+2016,44068,Castelserás,827
+2016,44070,El Castellar,56
+2016,44071,Castellote,706
+2016,44074,Cedrillas,619
+2016,44075,Celadas,403
+2016,44076,Cella,2673
+2016,44077,La Cerollera,96
+2016,44080,La Codoñera,368
+2016,44082,Corbalán,109
+2016,44084,Cortes de Aragón,63
+2016,44085,Cosa,55
+2016,44086,Cretas,554
+2016,44087,Crivillén,71
+2016,44088,La Cuba,38
+2016,44089,Cubla,52
+2016,44090,Cucalón,96
+2016,44092,El Cuervo,89
+2016,44093,Cuevas de Almudén,141
+2016,44094,Cuevas Labradas,127
+2016,44096,Ejulve,189
+2016,44097,Escorihuela,152
+2016,44099,Escucha,954
+2016,44100,Estercuel,237
+2016,44101,Ferreruela de Huerva,67
+2016,44102,Fonfría,31
+2016,44103,Formiche Alto,164
+2016,44105,Fórnoles,86
+2016,44106,Fortanete,204
+2016,44107,Foz-Calanda,264
+2016,44108,La Fresneda,470
+2016,44109,Frías de Albarracín,130
+2016,44110,Fuenferrada,56
+2016,44111,Fuentes Calientes,105
+2016,44112,Fuentes Claras,494
+2016,44113,Fuentes de Rubielos,114
+2016,44114,Fuentespalda,291
+2016,44115,Galve,159
+2016,44116,Gargallo,102
+2016,44117,Gea de Albarracín,374
+2016,44118,La Ginebrosa,199
+2016,44119,Griegos,160
+2016,44120,Guadalaviar,245
+2016,44121,Gúdar,73
+2016,44122,Híjar,1724
+2016,44123,Hinojosa de Jarque,131
+2016,44124,La Hoz de la Vieja,79
+2016,44125,Huesa del Común,69
+2016,44126,La Iglesuela del Cid,424
+2016,44127,Jabaloyas,77
+2016,44128,Jarque de la Val,74
+2016,44129,Jatiel,42
+2016,44130,Jorcas,38
+2016,44131,Josa,34
+2016,44132,Lagueruela,79
+2016,44133,Lanzuela,27
+2016,44135,Libros,113
+2016,44136,Lidón,55
+2016,44137,Linares de Mora,267
+2016,44138,Loscos,138
+2016,44141,Lledó,163
+2016,44142,Maicas,35
+2016,44143,Manzanera,502
+2016,44144,Martín del Río,429
+2016,44145,Mas de las Matas,1302
+2016,44146,La Mata de los Olmos,263
+2016,44147,Mazaleón,540
+2016,44148,Mezquita de Jarque,109
+2016,44149,Mirambel,122
+2016,44150,Miravete de la Sierra,28
+2016,44151,Molinos,251
+2016,44152,Monforte de Moyuela,66
+2016,44153,Monreal del Campo,2526
+2016,44154,Monroyo,338
+2016,44155,Montalbán,1281
+2016,44156,Monteagudo del Castillo,52
+2016,44157,Monterde de Albarracín,66
+2016,44158,Mora de Rubielos,1574
+2016,44159,Moscardón,56
+2016,44160,Mosqueruela,581
+2016,44161,Muniesa,629
+2016,44163,Noguera de Albarracín,146
+2016,44164,Nogueras,29
+2016,44165,Nogueruelas,214
+2016,44167,Obón,44
+2016,44168,Odón,225
+2016,44169,Ojos Negros,405
+2016,44171,Olba,230
+2016,44172,Oliete,365
+2016,44173,Los Olmos,127
+2016,44174,Orihuela del Tremedal,504
+2016,44175,Orrios,133
+2016,44176,Palomar de Arroyos,174
+2016,44177,Pancrudo,116
+2016,44178,Las Parras de Castellote,57
+2016,44179,Peñarroya de Tastavins,465
+2016,44180,Peracense,75
+2016,44181,Peralejos,86
+2016,44182,Perales del Alfambra,227
+2016,44183,Pitarque,91
+2016,44184,Plou,49
+2016,44185,El Pobo,132
+2016,44187,La Portellada,240
+2016,44189,Pozondón,60
+2016,44190,Pozuel del Campo,72
+2016,44191,La Puebla de Híjar,930
+2016,44192,La Puebla de Valverde,460
+2016,44193,Puertomingalvo,112
+2016,44194,Ráfales,138
+2016,44195,Rillo,92
+2016,44196,Riodeva,151
+2016,44197,Ródenas,64
+2016,44198,Royuela,215
+2016,44199,Rubiales,50
+2016,44200,Rubielos de la Cérida,39
+2016,44201,Rubielos de Mora,658
+2016,44203,Salcedillo,17
+2016,44204,Saldón,26
+2016,44205,Samper de Calanda,845
+2016,44206,San Agustín,132
+2016,44207,San Martín del Río,163
+2016,44208,Santa Cruz de Nogueras,40
+2016,44209,Santa Eulalia,1059
+2016,44210,Sarrión,1125
+2016,44211,Segura de los Baños,44
+2016,44212,Seno,41
+2016,44213,Singra,80
+2016,44215,Terriente,173
+2016,44216,Teruel,35564
+2016,44217,Toril y Masegoso,30
+2016,44218,Tormón,34
+2016,44219,Tornos,228
+2016,44220,Torralba de los Sisones,163
+2016,44221,Torrecilla de Alcañiz,424
+2016,44222,Torrecilla del Rebollar,137
+2016,44223,Torre de Arcas,81
+2016,44224,Torre de las Arcas,29
+2016,44225,Torre del Compte,129
+2016,44226,Torrelacárcel,176
+2016,44227,Torre los Negros,87
+2016,44228,Torremocha de Jiloca,110
+2016,44229,Torres de Albarracín,179
+2016,44230,Torrevelilla,203
+2016,44231,Torrijas,45
+2016,44232,Torrijo del Campo,462
+2016,44234,Tramacastiel,66
+2016,44235,Tramacastilla,108
+2016,44236,Tronchón,67
+2016,44237,Urrea de Gaén,475
+2016,44238,Utrillas,3056
+2016,44239,Valacloche,23
+2016,44240,Valbona,186
+2016,44241,Valdealgorfa,645
+2016,44243,Valdecuenca,34
+2016,44244,Valdelinares,90
+2016,44245,Valdeltormo,296
+2016,44246,Valderrobres,2311
+2016,44247,Valjunquera,363
+2016,44249,El Vallecillo,59
+2016,44250,Veguillas de la Sierra,19
+2016,44251,Villafranca del Campo,300
+2016,44252,Villahermosa del Campo,99
+2016,44256,Villanueva del Rebollar de la Sierra,49
+2016,44257,Villar del Cobo,188
+2016,44258,Villar del Salz,70
+2016,44260,Villarluengo,176
+2016,44261,Villarquemado,863
+2016,44262,Villarroya de los Pinares,160
+2016,44263,Villastar,503
+2016,44264,Villel,338
+2016,44265,Vinaceite,262
+2016,44266,Visiedo,138
+2016,44267,Vivel del Río Martín,78
+2016,44268,La Zoma,16
+2017,44001,Ababuj,73
+2017,44002,Abejuela,50
+2017,44003,Aguatón,19
+2017,44004,Aguaviva,531
+2017,44005,Aguilar del Alfambra,65
+2017,44006,Alacón,274
+2017,44007,Alba,185
+2017,44008,Albalate del Arzobispo,1978
+2017,44009,Albarracín,1044
+2017,44010,Albentosa,255
+2017,44011,Alcaine,62
+2017,44012,Alcalá de la Selva,369
+2017,44013,Alcañiz,15937
+2017,44014,Alcorisa,3313
+2017,44016,Alfambra,554
+2017,44017,Aliaga,348
+2017,44018,Almohaja,18
+2017,44019,Alobras,65
+2017,44020,Alpeñés,23
+2017,44021,Allepuz,129
+2017,44022,Alloza,594
+2017,44023,Allueva,31
+2017,44024,Anadón,27
+2017,44025,Andorra,7799
+2017,44026,Arcos de las Salinas,106
+2017,44027,Arens de Lledó,199
+2017,44028,Argente,207
+2017,44029,Ariño,733
+2017,44031,Azaila,97
+2017,44032,Bádenas,18
+2017,44033,Báguena,318
+2017,44034,Bañón,149
+2017,44035,Barrachina,121
+2017,44036,Bea,30
+2017,44037,Beceite,551
+2017,44038,Belmonte de San José,113
+2017,44039,Bello,244
+2017,44040,Berge,245
+2017,44041,Bezas,62
+2017,44042,Blancas,134
+2017,44043,Blesa,97
+2017,44044,Bordón,108
+2017,44045,Bronchales,440
+2017,44046,Bueña,57
+2017,44047,Burbáguena,254
+2017,44048,Cabra de Mora,64
+2017,44049,Calaceite,1038
+2017,44050,Calamocha,4353
+2017,44051,Calanda,3729
+2017,44052,Calomarde,78
+2017,44053,Camañas,129
+2017,44054,Camarena de la Sierra,116
+2017,44055,Camarillas,89
+2017,44056,Caminreal,616
+2017,44059,Cantavieja,717
+2017,44060,Cañada de Benatanduz,42
+2017,44061,La Cañada de Verich,85
+2017,44062,Cañada Vellida,35
+2017,44063,Cañizar del Olivar,93
+2017,44064,Cascante del Río,73
+2017,44065,Castejón de Tornos,62
+2017,44066,Castel de Cabra,112
+2017,44067,Castelnou,146
+2017,44068,Castelserás,823
+2017,44070,El Castellar,54
+2017,44071,Castellote,688
+2017,44074,Cedrillas,611
+2017,44075,Celadas,408
+2017,44076,Cella,2640
+2017,44077,La Cerollera,98
+2017,44080,La Codoñera,362
+2017,44082,Corbalán,109
+2017,44084,Cortes de Aragón,57
+2017,44085,Cosa,55
+2017,44086,Cretas,572
+2017,44087,Crivillén,71
+2017,44088,La Cuba,36
+2017,44089,Cubla,55
+2017,44090,Cucalón,91
+2017,44092,El Cuervo,93
+2017,44093,Cuevas de Almudén,138
+2017,44094,Cuevas Labradas,126
+2017,44096,Ejulve,187
+2017,44097,Escorihuela,147
+2017,44099,Escucha,913
+2017,44100,Estercuel,223
+2017,44101,Ferreruela de Huerva,65
+2017,44102,Fonfría,30
+2017,44103,Formiche Alto,155
+2017,44105,Fórnoles,78
+2017,44106,Fortanete,203
+2017,44107,Foz-Calanda,260
+2017,44108,La Fresneda,436
+2017,44109,Frías de Albarracín,125
+2017,44110,Fuenferrada,51
+2017,44111,Fuentes Calientes,111
+2017,44112,Fuentes Claras,482
+2017,44113,Fuentes de Rubielos,112
+2017,44114,Fuentespalda,298
+2017,44115,Galve,162
+2017,44116,Gargallo,101
+2017,44117,Gea de Albarracín,372
+2017,44118,La Ginebrosa,197
+2017,44119,Griegos,151
+2017,44120,Guadalaviar,241
+2017,44121,Gúdar,81
+2017,44122,Híjar,1697
+2017,44123,Hinojosa de Jarque,132
+2017,44124,La Hoz de la Vieja,86
+2017,44125,Huesa del Común,67
+2017,44126,La Iglesuela del Cid,414
+2017,44127,Jabaloyas,68
+2017,44128,Jarque de la Val,72
+2017,44129,Jatiel,41
+2017,44130,Jorcas,32
+2017,44131,Josa,32
+2017,44132,Lagueruela,84
+2017,44133,Lanzuela,27
+2017,44135,Libros,103
+2017,44136,Lidón,53
+2017,44137,Linares de Mora,260
+2017,44138,Loscos,139
+2017,44141,Lledó,166
+2017,44142,Maicas,31
+2017,44143,Manzanera,512
+2017,44144,Martín del Río,432
+2017,44145,Mas de las Matas,1270
+2017,44146,La Mata de los Olmos,272
+2017,44147,Mazaleón,543
+2017,44148,Mezquita de Jarque,102
+2017,44149,Mirambel,119
+2017,44150,Miravete de la Sierra,31
+2017,44151,Molinos,245
+2017,44152,Monforte de Moyuela,64
+2017,44153,Monreal del Campo,2478
+2017,44154,Monroyo,335
+2017,44155,Montalbán,1256
+2017,44156,Monteagudo del Castillo,51
+2017,44157,Monterde de Albarracín,62
+2017,44158,Mora de Rubielos,1565
+2017,44159,Moscardón,57
+2017,44160,Mosqueruela,558
+2017,44161,Muniesa,630
+2017,44163,Noguera de Albarracín,134
+2017,44164,Nogueras,28
+2017,44165,Nogueruelas,211
+2017,44167,Obón,44
+2017,44168,Odón,217
+2017,44169,Ojos Negros,393
+2017,44171,Olba,227
+2017,44172,Oliete,357
+2017,44173,Los Olmos,122
+2017,44174,Orihuela del Tremedal,493
+2017,44175,Orrios,127
+2017,44176,Palomar de Arroyos,169
+2017,44177,Pancrudo,119
+2017,44178,Las Parras de Castellote,61
+2017,44179,Peñarroya de Tastavins,461
+2017,44180,Peracense,75
+2017,44181,Peralejos,87
+2017,44182,Perales del Alfambra,221
+2017,44183,Pitarque,84
+2017,44184,Plou,45
+2017,44185,El Pobo,129
+2017,44187,La Portellada,246
+2017,44189,Pozondón,54
+2017,44190,Pozuel del Campo,70
+2017,44191,La Puebla de Híjar,944
+2017,44192,La Puebla de Valverde,457
+2017,44193,Puertomingalvo,117
+2017,44194,Ráfales,146
+2017,44195,Rillo,92
+2017,44196,Riodeva,149
+2017,44197,Ródenas,62
+2017,44198,Royuela,209
+2017,44199,Rubiales,52
+2017,44200,Rubielos de la Cérida,38
+2017,44201,Rubielos de Mora,626
+2017,44203,Salcedillo,17
+2017,44204,Saldón,26
+2017,44205,Samper de Calanda,821
+2017,44206,San Agustín,131
+2017,44207,San Martín del Río,155
+2017,44208,Santa Cruz de Nogueras,38
+2017,44209,Santa Eulalia,1033
+2017,44210,Sarrión,1125
+2017,44211,Segura de los Baños,43
+2017,44212,Seno,40
+2017,44213,Singra,79
+2017,44215,Terriente,178
+2017,44216,Teruel,35484
+2017,44217,Toril y Masegoso,29
+2017,44218,Tormón,34
+2017,44219,Tornos,222
+2017,44220,Torralba de los Sisones,162
+2017,44221,Torrecilla de Alcañiz,426
+2017,44222,Torrecilla del Rebollar,136
+2017,44223,Torre de Arcas,83
+2017,44224,Torre de las Arcas,28
+2017,44225,Torre del Compte,130
+2017,44226,Torrelacárcel,169
+2017,44227,Torre los Negros,86
+2017,44228,Torremocha de Jiloca,107
+2017,44229,Torres de Albarracín,178
+2017,44230,Torrevelilla,192
+2017,44231,Torrijas,39
+2017,44232,Torrijo del Campo,447
+2017,44234,Tramacastiel,67
+2017,44235,Tramacastilla,107
+2017,44236,Tronchón,69
+2017,44237,Urrea de Gaén,461
+2017,44238,Utrillas,3014
+2017,44239,Valacloche,23
+2017,44240,Valbona,181
+2017,44241,Valdealgorfa,632
+2017,44243,Valdecuenca,37
+2017,44244,Valdelinares,89
+2017,44245,Valdeltormo,298
+2017,44246,Valderrobres,2338
+2017,44247,Valjunquera,341
+2017,44249,El Vallecillo,49
+2017,44250,Veguillas de la Sierra,19
+2017,44251,Villafranca del Campo,289
+2017,44252,Villahermosa del Campo,94
+2017,44256,Villanueva del Rebollar de la Sierra,43
+2017,44257,Villar del Cobo,175
+2017,44258,Villar del Salz,59
+2017,44260,Villarluengo,169
+2017,44261,Villarquemado,875
+2017,44262,Villarroya de los Pinares,155
+2017,44263,Villastar,501
+2017,44264,Villel,330
+2017,44265,Vinaceite,262
+2017,44266,Visiedo,135
+2017,44267,Vivel del Río Martín,71
+2017,44268,La Zoma,18
+2018,44001,Ababuj,76
+2018,44002,Abejuela,49
+2018,44003,Aguatón,18
+2018,44004,Aguaviva,522
+2018,44005,Aguilar del Alfambra,63
+2018,44006,Alacón,264
+2018,44007,Alba,178
+2018,44008,Albalate del Arzobispo,2004
+2018,44009,Albarracín,1016
+2018,44010,Albentosa,257
+2018,44011,Alcaine,63
+2018,44012,Alcalá de la Selva,347
+2018,44013,Alcañiz,15939
+2018,44014,Alcorisa,3276
+2018,44016,Alfambra,531
+2018,44017,Aliaga,358
+2018,44018,Almohaja,16
+2018,44019,Alobras,62
+2018,44020,Alpeñés,22
+2018,44021,Allepuz,126
+2018,44022,Alloza,582
+2018,44023,Allueva,29
+2018,44024,Anadón,27
+2018,44025,Andorra,7633
+2018,44026,Arcos de las Salinas,105
+2018,44027,Arens de Lledó,206
+2018,44028,Argente,198
+2018,44029,Ariño,708
+2018,44031,Azaila,94
+2018,44032,Bádenas,20
+2018,44033,Báguena,311
+2018,44034,Bañón,153
+2018,44035,Barrachina,118
+2018,44036,Bea,31
+2018,44037,Beceite,541
+2018,44038,Belmonte de San José,113
+2018,44039,Bello,225
+2018,44040,Berge,244
+2018,44041,Bezas,70
+2018,44042,Blancas,125
+2018,44043,Blesa,95
+2018,44044,Bordón,106
+2018,44045,Bronchales,443
+2018,44046,Bueña,63
+2018,44047,Burbáguena,243
+2018,44048,Cabra de Mora,55
+2018,44049,Calaceite,1011
+2018,44050,Calamocha,4319
+2018,44051,Calanda,3708
+2018,44052,Calomarde,74
+2018,44053,Camañas,124
+2018,44054,Camarena de la Sierra,113
+2018,44055,Camarillas,86
+2018,44056,Caminreal,619
+2018,44059,Cantavieja,714
+2018,44060,Cañada de Benatanduz,39
+2018,44061,La Cañada de Verich,87
+2018,44062,Cañada Vellida,35
+2018,44063,Cañizar del Olivar,98
+2018,44064,Cascante del Río,71
+2018,44065,Castejón de Tornos,62
+2018,44066,Castel de Cabra,104
+2018,44067,Castelnou,160
+2018,44068,Castelserás,831
+2018,44070,El Castellar,52
+2018,44071,Castellote,676
+2018,44074,Cedrillas,630
+2018,44075,Celadas,396
+2018,44076,Cella,2606
+2018,44077,La Cerollera,100
+2018,44080,La Codoñera,344
+2018,44082,Corbalán,109
+2018,44084,Cortes de Aragón,61
+2018,44085,Cosa,52
+2018,44086,Cretas,571
+2018,44087,Crivillén,68
+2018,44088,La Cuba,41
+2018,44089,Cubla,54
+2018,44090,Cucalón,80
+2018,44092,El Cuervo,86
+2018,44093,Cuevas de Almudén,122
+2018,44094,Cuevas Labradas,131
+2018,44096,Ejulve,180
+2018,44097,Escorihuela,139
+2018,44099,Escucha,885
+2018,44100,Estercuel,210
+2018,44101,Ferreruela de Huerva,63
+2018,44102,Fonfría,28
+2018,44103,Formiche Alto,151
+2018,44105,Fórnoles,75
+2018,44106,Fortanete,205
+2018,44107,Foz-Calanda,238
+2018,44108,La Fresneda,443
+2018,44109,Frías de Albarracín,116
+2018,44110,Fuenferrada,42
+2018,44111,Fuentes Calientes,101
+2018,44112,Fuentes Claras,461
+2018,44113,Fuentes de Rubielos,114
+2018,44114,Fuentespalda,286
+2018,44115,Galve,161
+2018,44116,Gargallo,89
+2018,44117,Gea de Albarracín,376
+2018,44118,La Ginebrosa,200
+2018,44119,Griegos,143
+2018,44120,Guadalaviar,242
+2018,44121,Gúdar,72
+2018,44122,Híjar,1709
+2018,44123,Hinojosa de Jarque,119
+2018,44124,La Hoz de la Vieja,85
+2018,44125,Huesa del Común,67
+2018,44126,La Iglesuela del Cid,414
+2018,44127,Jabaloyas,65
+2018,44128,Jarque de la Val,70
+2018,44129,Jatiel,40
+2018,44130,Jorcas,34
+2018,44131,Josa,34
+2018,44132,Lagueruela,78
+2018,44133,Lanzuela,24
+2018,44135,Libros,101
+2018,44136,Lidón,55
+2018,44137,Linares de Mora,249
+2018,44138,Loscos,129
+2018,44141,Lledó,172
+2018,44142,Maicas,27
+2018,44143,Manzanera,519
+2018,44144,Martín del Río,417
+2018,44145,Mas de las Matas,1272
+2018,44146,La Mata de los Olmos,265
+2018,44147,Mazaleón,539
+2018,44148,Mezquita de Jarque,98
+2018,44149,Mirambel,116
+2018,44150,Miravete de la Sierra,35
+2018,44151,Molinos,243
+2018,44152,Monforte de Moyuela,65
+2018,44153,Monreal del Campo,2433
+2018,44154,Monroyo,340
+2018,44155,Montalbán,1243
+2018,44156,Monteagudo del Castillo,50
+2018,44157,Monterde de Albarracín,63
+2018,44158,Mora de Rubielos,1541
+2018,44159,Moscardón,55
+2018,44160,Mosqueruela,551
+2018,44161,Muniesa,599
+2018,44163,Noguera de Albarracín,133
+2018,44164,Nogueras,25
+2018,44165,Nogueruelas,217
+2018,44167,Obón,45
+2018,44168,Odón,205
+2018,44169,Ojos Negros,377
+2018,44171,Olba,226
+2018,44172,Oliete,364
+2018,44173,Los Olmos,122
+2018,44174,Orihuela del Tremedal,487
+2018,44175,Orrios,126
+2018,44176,Palomar de Arroyos,169
+2018,44177,Pancrudo,110
+2018,44178,Las Parras de Castellote,53
+2018,44179,Peñarroya de Tastavins,439
+2018,44180,Peracense,76
+2018,44181,Peralejos,88
+2018,44182,Perales del Alfambra,221
+2018,44183,Pitarque,79
+2018,44184,Plou,43
+2018,44185,El Pobo,114
+2018,44187,La Portellada,243
+2018,44189,Pozondón,48
+2018,44190,Pozuel del Campo,68
+2018,44191,La Puebla de Híjar,908
+2018,44192,La Puebla de Valverde,453
+2018,44193,Puertomingalvo,112
+2018,44194,Ráfales,143
+2018,44195,Rillo,93
+2018,44196,Riodeva,144
+2018,44197,Ródenas,61
+2018,44198,Royuela,206
+2018,44199,Rubiales,50
+2018,44200,Rubielos de la Cérida,38
+2018,44201,Rubielos de Mora,627
+2018,44203,Salcedillo,17
+2018,44204,Saldón,26
+2018,44205,Samper de Calanda,783
+2018,44206,San Agustín,125
+2018,44207,San Martín del Río,148
+2018,44208,Santa Cruz de Nogueras,37
+2018,44209,Santa Eulalia,1037
+2018,44210,Sarrión,1133
+2018,44211,Segura de los Baños,39
+2018,44212,Seno,39
+2018,44213,Singra,80
+2018,44215,Terriente,183
+2018,44216,Teruel,35691
+2018,44217,Toril y Masegoso,30
+2018,44218,Tormón,31
+2018,44219,Tornos,213
+2018,44220,Torralba de los Sisones,156
+2018,44221,Torrecilla de Alcañiz,423
+2018,44222,Torrecilla del Rebollar,127
+2018,44223,Torre de Arcas,89
+2018,44224,Torre de las Arcas,28
+2018,44225,Torre del Compte,132
+2018,44226,Torrelacárcel,154
+2018,44227,Torre los Negros,88
+2018,44228,Torremocha de Jiloca,107
+2018,44229,Torres de Albarracín,183
+2018,44230,Torrevelilla,189
+2018,44231,Torrijas,38
+2018,44232,Torrijo del Campo,447
+2018,44234,Tramacastiel,64
+2018,44235,Tramacastilla,106
+2018,44236,Tronchón,65
+2018,44237,Urrea de Gaén,436
+2018,44238,Utrillas,2970
+2018,44239,Valacloche,21
+2018,44240,Valbona,174
+2018,44241,Valdealgorfa,622
+2018,44243,Valdecuenca,35
+2018,44244,Valdelinares,87
+2018,44245,Valdeltormo,279
+2018,44246,Valderrobres,2388
+2018,44247,Valjunquera,325
+2018,44249,El Vallecillo,48
+2018,44250,Veguillas de la Sierra,20
+2018,44251,Villafranca del Campo,297
+2018,44252,Villahermosa del Campo,94
+2018,44256,Villanueva del Rebollar de la Sierra,47
+2018,44257,Villar del Cobo,164
+2018,44258,Villar del Salz,60
+2018,44260,Villarluengo,177
+2018,44261,Villarquemado,862
+2018,44262,Villarroya de los Pinares,160
+2018,44263,Villastar,494
+2018,44264,Villel,327
+2018,44265,Vinaceite,249
+2018,44266,Visiedo,125
+2018,44267,Vivel del Río Martín,79
+2018,44268,La Zoma,16
+2019,44001,Ababuj,73
+2019,44002,Abejuela,48
+2019,44003,Aguatón,18
+2019,44004,Aguaviva,514
+2019,44005,Aguilar del Alfambra,63
+2019,44006,Alacón,252
+2019,44007,Alba,170
+2019,44008,Albalate del Arzobispo,1980
+2019,44009,Albarracín,1025
+2019,44010,Albentosa,276
+2019,44011,Alcaine,59
+2019,44012,Alcalá de la Selva,343
+2019,44013,Alcañiz,15947
+2019,44014,Alcorisa,3266
+2019,44016,Alfambra,508
+2019,44017,Aliaga,341
+2019,44018,Almohaja,16
+2019,44019,Alobras,64
+2019,44020,Alpeñés,22
+2019,44021,Allepuz,125
+2019,44022,Alloza,558
+2019,44023,Allueva,26
+2019,44024,Anadón,28
+2019,44025,Andorra,7472
+2019,44026,Arcos de las Salinas,119
+2019,44027,Arens de Lledó,211
+2019,44028,Argente,195
+2019,44029,Ariño,724
+2019,44031,Azaila,90
+2019,44032,Bádenas,19
+2019,44033,Báguena,287
+2019,44034,Bañón,144
+2019,44035,Barrachina,112
+2019,44036,Bea,31
+2019,44037,Beceite,541
+2019,44038,Belmonte de San José,113
+2019,44039,Bello,224
+2019,44040,Berge,235
+2019,44041,Bezas,70
+2019,44042,Blancas,126
+2019,44043,Blesa,94
+2019,44044,Bordón,100
+2019,44045,Bronchales,432
+2019,44046,Bueña,50
+2019,44047,Burbáguena,249
+2019,44048,Cabra de Mora,54
+2019,44049,Calaceite,994
+2019,44050,Calamocha,4339
+2019,44051,Calanda,3748
+2019,44052,Calomarde,75
+2019,44053,Camañas,134
+2019,44054,Camarena de la Sierra,105
+2019,44055,Camarillas,100
+2019,44056,Caminreal,620
+2019,44059,Cantavieja,709
+2019,44060,Cañada de Benatanduz,36
+2019,44061,La Cañada de Verich,89
+2019,44062,Cañada Vellida,31
+2019,44063,Cañizar del Olivar,100
+2019,44064,Cascante del Río,67
+2019,44065,Castejón de Tornos,60
+2019,44066,Castel de Cabra,96
+2019,44067,Castelnou,141
+2019,44068,Castelserás,815
+2019,44070,El Castellar,58
+2019,44071,Castellote,681
+2019,44074,Cedrillas,664
+2019,44075,Celadas,388
+2019,44076,Cella,2574
+2019,44077,La Cerollera,93
+2019,44080,La Codoñera,336
+2019,44082,Corbalán,107
+2019,44084,Cortes de Aragón,61
+2019,44085,Cosa,50
+2019,44086,Cretas,567
+2019,44087,Crivillén,62
+2019,44088,La Cuba,43
+2019,44089,Cubla,58
+2019,44090,Cucalón,78
+2019,44092,El Cuervo,78
+2019,44093,Cuevas de Almudén,126
+2019,44094,Cuevas Labradas,132
+2019,44096,Ejulve,175
+2019,44097,Escorihuela,136
+2019,44099,Escucha,852
+2019,44100,Estercuel,203
+2019,44101,Ferreruela de Huerva,56
+2019,44102,Fonfría,27
+2019,44103,Formiche Alto,141
+2019,44105,Fórnoles,80
+2019,44106,Fortanete,205
+2019,44107,Foz-Calanda,245
+2019,44108,La Fresneda,438
+2019,44109,Frías de Albarracín,115
+2019,44110,Fuenferrada,37
+2019,44111,Fuentes Calientes,92
+2019,44112,Fuentes Claras,461
+2019,44113,Fuentes de Rubielos,118
+2019,44114,Fuentespalda,284
+2019,44115,Galve,162
+2019,44116,Gargallo,93
+2019,44117,Gea de Albarracín,360
+2019,44118,La Ginebrosa,194
+2019,44119,Griegos,136
+2019,44120,Guadalaviar,241
+2019,44121,Gúdar,76
+2019,44122,Híjar,1721
+2019,44123,Hinojosa de Jarque,111
+2019,44124,La Hoz de la Vieja,83
+2019,44125,Huesa del Común,73
+2019,44126,La Iglesuela del Cid,410
+2019,44127,Jabaloyas,63
+2019,44128,Jarque de la Val,66
+2019,44129,Jatiel,37
+2019,44130,Jorcas,30
+2019,44131,Josa,34
+2019,44132,Lagueruela,73
+2019,44133,Lanzuela,22
+2019,44135,Libros,102
+2019,44136,Lidón,57
+2019,44137,Linares de Mora,234
+2019,44138,Loscos,122
+2019,44141,Lledó,159
+2019,44142,Maicas,28
+2019,44143,Manzanera,531
+2019,44144,Martín del Río,401
+2019,44145,Mas de las Matas,1262
+2019,44146,La Mata de los Olmos,257
+2019,44147,Mazaleón,522
+2019,44148,Mezquita de Jarque,96
+2019,44149,Mirambel,116
+2019,44150,Miravete de la Sierra,31
+2019,44151,Molinos,239
+2019,44152,Monforte de Moyuela,67
+2019,44153,Monreal del Campo,2434
+2019,44154,Monroyo,340
+2019,44155,Montalbán,1233
+2019,44156,Monteagudo del Castillo,54
+2019,44157,Monterde de Albarracín,64
+2019,44158,Mora de Rubielos,1548
+2019,44159,Moscardón,54
+2019,44160,Mosqueruela,537
+2019,44161,Muniesa,583
+2019,44163,Noguera de Albarracín,140
+2019,44164,Nogueras,22
+2019,44165,Nogueruelas,217
+2019,44167,Obón,44
+2019,44168,Odón,206
+2019,44169,Ojos Negros,360
+2019,44171,Olba,228
+2019,44172,Oliete,351
+2019,44173,Los Olmos,120
+2019,44174,Orihuela del Tremedal,463
+2019,44175,Orrios,125
+2019,44176,Palomar de Arroyos,168
+2019,44177,Pancrudo,113
+2019,44178,Las Parras de Castellote,55
+2019,44179,Peñarroya de Tastavins,439
+2019,44180,Peracense,77
+2019,44181,Peralejos,79
+2019,44182,Perales del Alfambra,229
+2019,44183,Pitarque,73
+2019,44184,Plou,43
+2019,44185,El Pobo,110
+2019,44187,La Portellada,235
+2019,44189,Pozondón,50
+2019,44190,Pozuel del Campo,65
+2019,44191,La Puebla de Híjar,897
+2019,44192,La Puebla de Valverde,457
+2019,44193,Puertomingalvo,109
+2019,44194,Ráfales,138
+2019,44195,Rillo,88
+2019,44196,Riodeva,142
+2019,44197,Ródenas,63
+2019,44198,Royuela,204
+2019,44199,Rubiales,52
+2019,44200,Rubielos de la Cérida,39
+2019,44201,Rubielos de Mora,621
+2019,44203,Salcedillo,14
+2019,44204,Saldón,27
+2019,44205,Samper de Calanda,755
+2019,44206,San Agustín,119
+2019,44207,San Martín del Río,137
+2019,44208,Santa Cruz de Nogueras,29
+2019,44209,Santa Eulalia,1061
+2019,44210,Sarrión,1128
+2019,44211,Segura de los Baños,38
+2019,44212,Seno,43
+2019,44213,Singra,75
+2019,44215,Terriente,183
+2019,44216,Teruel,35890
+2019,44217,Toril y Masegoso,32
+2019,44218,Tormón,30
+2019,44219,Tornos,206
+2019,44220,Torralba de los Sisones,155
+2019,44221,Torrecilla de Alcañiz,433
+2019,44222,Torrecilla del Rebollar,124
+2019,44223,Torre de Arcas,90
+2019,44224,Torre de las Arcas,28
+2019,44225,Torre del Compte,120
+2019,44226,Torrelacárcel,151
+2019,44227,Torre los Negros,84
+2019,44228,Torremocha de Jiloca,109
+2019,44229,Torres de Albarracín,180
+2019,44230,Torrevelilla,186
+2019,44231,Torrijas,41
+2019,44232,Torrijo del Campo,455
+2019,44234,Tramacastiel,72
+2019,44235,Tramacastilla,103
+2019,44236,Tronchón,67
+2019,44237,Urrea de Gaén,435
+2019,44238,Utrillas,2978
+2019,44239,Valacloche,22
+2019,44240,Valbona,167
+2019,44241,Valdealgorfa,612
+2019,44243,Valdecuenca,34
+2019,44244,Valdelinares,88
+2019,44245,Valdeltormo,283
+2019,44246,Valderrobres,2425
+2019,44247,Valjunquera,330
+2019,44249,El Vallecillo,47
+2019,44250,Veguillas de la Sierra,19
+2019,44251,Villafranca del Campo,298
+2019,44252,Villahermosa del Campo,89
+2019,44256,Villanueva del Rebollar de la Sierra,39
+2019,44257,Villar del Cobo,164
+2019,44258,Villar del Salz,55
+2019,44260,Villarluengo,170
+2019,44261,Villarquemado,863
+2019,44262,Villarroya de los Pinares,172
+2019,44263,Villastar,505
+2019,44264,Villel,329
+2019,44265,Vinaceite,251
+2019,44266,Visiedo,119
+2019,44267,Vivel del Río Martín,73
+2019,44268,La Zoma,33
 2020,44001,Ababuj,77
 2020,44002,Abejuela,50
 2020,44003,Aguatón,19
@@ -2847,12 +4735,12 @@ year,cp,name,population
 2020,44014,Alcorisa,3298
 2020,44016,Alfambra,482
 2020,44017,Aliaga,326
-2020,44021,Allepuz,124
-2020,44022,Alloza,572
-2020,44023,Allueva,24
 2020,44018,Almohaja,14
 2020,44019,Alobras,64
 2020,44020,Alpeñés,21
+2020,44021,Allepuz,124
+2020,44022,Alloza,572
+2020,44023,Allueva,24
 2020,44024,Anadón,32
 2020,44025,Andorra,7345
 2020,44026,Arcos de las Salinas,118
@@ -2866,8 +4754,8 @@ year,cp,name,population
 2020,44035,Barrachina,109
 2020,44036,Bea,29
 2020,44037,Beceite,531
-2020,44039,Bello,219
 2020,44038,Belmonte de San José,123
+2020,44039,Bello,219
 2020,44040,Berge,241
 2020,44041,Bezas,67
 2020,44042,Blancas,125
@@ -2893,10 +4781,10 @@ year,cp,name,population
 2020,44064,Cascante del Río,67
 2020,44065,Castejón de Tornos,55
 2020,44066,Castel de Cabra,93
-2020,44070,El Castellar,55
-2020,44071,Castellote,676
 2020,44067,Castelnou,134
 2020,44068,Castelserás,800
+2020,44070,El Castellar,55
+2020,44071,Castellote,676
 2020,44074,Cedrillas,639
 2020,44075,Celadas,367
 2020,44076,Cella,2571
@@ -2952,8 +4840,8 @@ year,cp,name,population
 2020,44135,Libros,100
 2020,44136,Lidón,54
 2020,44137,Linares de Mora,225
-2020,44141,Lledó,155
 2020,44138,Loscos,125
+2020,44141,Lledó,155
 2020,44142,Maicas,31
 2020,44143,Manzanera,516
 2020,44144,Martín del Río,387
@@ -3026,13 +4914,13 @@ year,cp,name,population
 2020,44218,Tormón,25
 2020,44219,Tornos,202
 2020,44220,Torralba de los Sisones,157
+2020,44221,Torrecilla de Alcañiz,439
+2020,44222,Torrecilla del Rebollar,123
 2020,44223,Torre de Arcas,94
 2020,44224,Torre de las Arcas,29
 2020,44225,Torre del Compte,117
-2020,44227,Torre los Negros,83
-2020,44221,Torrecilla de Alcañiz,439
-2020,44222,Torrecilla del Rebollar,123
 2020,44226,Torrelacárcel,143
+2020,44227,Torre los Negros,83
 2020,44228,Torremocha de Jiloca,107
 2020,44229,Torres de Albarracín,185
 2020,44230,Torrevelilla,170
@@ -3083,12 +4971,12 @@ year,cp,name,population
 2021,44014,Alcorisa,3293
 2021,44016,Alfambra,483
 2021,44017,Aliaga,333
-2021,44021,Allepuz,128
-2021,44022,Alloza,577
-2021,44023,Allueva,22
 2021,44018,Almohaja,14
 2021,44019,Alobras,65
 2021,44020,Alpeñés,20
+2021,44021,Allepuz,128
+2021,44022,Alloza,577
+2021,44023,Allueva,22
 2021,44024,Anadón,32
 2021,44025,Andorra,7327
 2021,44026,Arcos de las Salinas,112
@@ -3102,8 +4990,8 @@ year,cp,name,population
 2021,44035,Barrachina,113
 2021,44036,Bea,31
 2021,44037,Beceite,544
-2021,44039,Bello,224
 2021,44038,Belmonte de San José,123
+2021,44039,Bello,224
 2021,44040,Berge,237
 2021,44041,Bezas,63
 2021,44042,Blancas,132
@@ -3129,10 +5017,10 @@ year,cp,name,population
 2021,44064,Cascante del Río,69
 2021,44065,Castejón de Tornos,52
 2021,44066,Castel de Cabra,95
-2021,44070,El Castellar,56
-2021,44071,Castellote,687
 2021,44067,Castelnou,120
 2021,44068,Castelserás,789
+2021,44070,El Castellar,56
+2021,44071,Castellote,687
 2021,44074,Cedrillas,609
 2021,44075,Celadas,374
 2021,44076,Cella,2578
@@ -3188,8 +5076,8 @@ year,cp,name,population
 2021,44135,Libros,104
 2021,44136,Lidón,54
 2021,44137,Linares de Mora,226
-2021,44141,Lledó,172
 2021,44138,Loscos,122
+2021,44141,Lledó,172
 2021,44142,Maicas,31
 2021,44143,Manzanera,527
 2021,44144,Martín del Río,372
@@ -3262,13 +5150,13 @@ year,cp,name,population
 2021,44218,Tormón,25
 2021,44219,Tornos,201
 2021,44220,Torralba de los Sisones,162
+2021,44221,Torrecilla de Alcañiz,450
+2021,44222,Torrecilla del Rebollar,122
 2021,44223,Torre de Arcas,93
 2021,44224,Torre de las Arcas,25
 2021,44225,Torre del Compte,122
-2021,44227,Torre los Negros,82
-2021,44221,Torrecilla de Alcañiz,450
-2021,44222,Torrecilla del Rebollar,122
 2021,44226,Torrelacárcel,142
+2021,44227,Torre los Negros,82
 2021,44228,Torremocha de Jiloca,108
 2021,44229,Torres de Albarracín,171
 2021,44230,Torrevelilla,180
@@ -3319,12 +5207,12 @@ year,cp,name,population
 2022,44014,Alcorisa,3252
 2022,44016,Alfambra,490
 2022,44017,Aliaga,323
-2022,44021,Allepuz,124
-2022,44022,Alloza,553
-2022,44023,Allueva,21
 2022,44018,Almohaja,16
 2022,44019,Alobras,67
 2022,44020,Alpeñés,20
+2022,44021,Allepuz,124
+2022,44022,Alloza,553
+2022,44023,Allueva,21
 2022,44024,Anadón,33
 2022,44025,Andorra,7201
 2022,44026,Arcos de las Salinas,117
@@ -3338,8 +5226,8 @@ year,cp,name,population
 2022,44035,Barrachina,116
 2022,44036,Bea,33
 2022,44037,Beceite,550
-2022,44039,Bello,230
 2022,44038,Belmonte de San José,136
+2022,44039,Bello,230
 2022,44040,Berge,231
 2022,44041,Bezas,63
 2022,44042,Blancas,140
@@ -3365,10 +5253,10 @@ year,cp,name,population
 2022,44064,Cascante del Río,66
 2022,44065,Castejón de Tornos,53
 2022,44066,Castel de Cabra,95
-2022,44070,El Castellar,55
-2022,44071,Castellote,677
 2022,44067,Castelnou,113
 2022,44068,Castelserás,793
+2022,44070,El Castellar,55
+2022,44071,Castellote,677
 2022,44074,Cedrillas,634
 2022,44075,Celadas,362
 2022,44076,Cella,2611
@@ -3424,8 +5312,8 @@ year,cp,name,population
 2022,44135,Libros,102
 2022,44136,Lidón,53
 2022,44137,Linares de Mora,235
-2022,44141,Lledó,171
 2022,44138,Loscos,118
+2022,44141,Lledó,171
 2022,44142,Maicas,31
 2022,44143,Manzanera,533
 2022,44144,Martín del Río,372
@@ -3498,13 +5386,13 @@ year,cp,name,population
 2022,44218,Tormón,26
 2022,44219,Tornos,196
 2022,44220,Torralba de los Sisones,151
+2022,44221,Torrecilla de Alcañiz,460
+2022,44222,Torrecilla del Rebollar,121
 2022,44223,Torre de Arcas,82
 2022,44224,Torre de las Arcas,24
 2022,44225,Torre del Compte,125
-2022,44227,Torre los Negros,81
-2022,44221,Torrecilla de Alcañiz,460
-2022,44222,Torrecilla del Rebollar,121
 2022,44226,Torrelacárcel,140
+2022,44227,Torre los Negros,81
 2022,44228,Torremocha de Jiloca,106
 2022,44229,Torres de Albarracín,168
 2022,44230,Torrevelilla,170
@@ -3555,12 +5443,12 @@ year,cp,name,population
 2023,44014,Alcorisa,3243
 2023,44016,Alfambra,482
 2023,44017,Aliaga,343
-2023,44021,Allepuz,121
-2023,44022,Alloza,540
-2023,44023,Allueva,27
 2023,44018,Almohaja,17
 2023,44019,Alobras,71
 2023,44020,Alpeñés,25
+2023,44021,Allepuz,121
+2023,44022,Alloza,540
+2023,44023,Allueva,27
 2023,44024,Anadón,33
 2023,44025,Andorra,7214
 2023,44026,Arcos de las Salinas,116
@@ -3574,8 +5462,8 @@ year,cp,name,population
 2023,44035,Barrachina,120
 2023,44036,Bea,28
 2023,44037,Beceite,569
-2023,44039,Bello,217
 2023,44038,Belmonte de San José,127
+2023,44039,Bello,217
 2023,44040,Berge,226
 2023,44041,Bezas,64
 2023,44042,Blancas,135
@@ -3601,10 +5489,10 @@ year,cp,name,population
 2023,44064,Cascante del Río,70
 2023,44065,Castejón de Tornos,68
 2023,44066,Castel de Cabra,89
-2023,44070,El Castellar,55
-2023,44071,Castellote,678
 2023,44067,Castelnou,108
 2023,44068,Castelserás,795
+2023,44070,El Castellar,55
+2023,44071,Castellote,678
 2023,44074,Cedrillas,653
 2023,44075,Celadas,345
 2023,44076,Cella,2644
@@ -3660,8 +5548,8 @@ year,cp,name,population
 2023,44135,Libros,101
 2023,44136,Lidón,51
 2023,44137,Linares de Mora,232
-2023,44141,Lledó,171
 2023,44138,Loscos,116
+2023,44141,Lledó,171
 2023,44142,Maicas,32
 2023,44143,Manzanera,540
 2023,44144,Martín del Río,370
@@ -3734,13 +5622,13 @@ year,cp,name,population
 2023,44218,Tormón,33
 2023,44219,Tornos,191
 2023,44220,Torralba de los Sisones,148
+2023,44221,Torrecilla de Alcañiz,440
+2023,44222,Torrecilla del Rebollar,125
 2023,44223,Torre de Arcas,82
 2023,44224,Torre de las Arcas,24
 2023,44225,Torre del Compte,118
-2023,44227,Torre los Negros,76
-2023,44221,Torrecilla de Alcañiz,440
-2023,44222,Torrecilla del Rebollar,125
 2023,44226,Torrelacárcel,135
+2023,44227,Torre los Negros,76
 2023,44228,Torremocha de Jiloca,110
 2023,44229,Torres de Albarracín,191
 2023,44230,Torrevelilla,169
@@ -3791,12 +5679,12 @@ year,cp,name,population
 2024,44014,Alcorisa,3234
 2024,44016,Alfambra,487
 2024,44017,Aliaga,345
-2024,44021,Allepuz,124
-2024,44022,Alloza,551
-2024,44023,Allueva,30
 2024,44018,Almohaja,12
 2024,44019,Alobras,69
 2024,44020,Alpeñés,26
+2024,44021,Allepuz,124
+2024,44022,Alloza,551
+2024,44023,Allueva,30
 2024,44024,Anadón,34
 2024,44025,Andorra,7258
 2024,44026,Arcos de las Salinas,110
@@ -3810,8 +5698,8 @@ year,cp,name,population
 2024,44035,Barrachina,115
 2024,44036,Bea,27
 2024,44037,Beceite,562
-2024,44039,Bello,213
 2024,44038,Belmonte de San José,135
+2024,44039,Bello,213
 2024,44040,Berge,216
 2024,44041,Bezas,68
 2024,44042,Blancas,134
@@ -3837,10 +5725,10 @@ year,cp,name,population
 2024,44064,Cascante del Río,65
 2024,44065,Castejón de Tornos,66
 2024,44066,Castel de Cabra,84
-2024,44070,El Castellar,56
-2024,44071,Castellote,663
 2024,44067,Castelnou,99
 2024,44068,Castelserás,801
+2024,44070,El Castellar,56
+2024,44071,Castellote,663
 2024,44074,Cedrillas,647
 2024,44075,Celadas,329
 2024,44076,Cella,2690
@@ -3896,8 +5784,8 @@ year,cp,name,population
 2024,44135,Libros,102
 2024,44136,Lidón,56
 2024,44137,Linares de Mora,233
-2024,44141,Lledó,153
 2024,44138,Loscos,112
+2024,44141,Lledó,153
 2024,44142,Maicas,35
 2024,44143,Manzanera,539
 2024,44144,Martín del Río,370
@@ -3970,13 +5858,13 @@ year,cp,name,population
 2024,44218,Tormón,31
 2024,44219,Tornos,182
 2024,44220,Torralba de los Sisones,146
+2024,44221,Torrecilla de Alcañiz,436
+2024,44222,Torrecilla del Rebollar,117
 2024,44223,Torre de Arcas,82
 2024,44224,Torre de las Arcas,20
 2024,44225,Torre del Compte,122
-2024,44227,Torre los Negros,80
-2024,44221,Torrecilla de Alcañiz,436
-2024,44222,Torrecilla del Rebollar,117
 2024,44226,Torrelacárcel,131
+2024,44227,Torre los Negros,80
 2024,44228,Torremocha de Jiloca,103
 2024,44229,Torres de Albarracín,191
 2024,44230,Torrevelilla,182
@@ -4011,3 +5899,239 @@ year,cp,name,population
 2024,44266,Visiedo,131
 2024,44267,Vivel del Río Martín,63
 2024,44268,La Zoma,27
+2025,44001,Ababuj,73
+2025,44002,Abejuela,62
+2025,44003,Aguatón,18
+2025,44004,Aguaviva,562
+2025,44005,Aguilar del Alfambra,82
+2025,44006,Alacón,204
+2025,44007,Alba,186
+2025,44008,Albalate del Arzobispo,1936
+2025,44009,Albarracín,998
+2025,44010,Albentosa,290
+2025,44011,Alcaine,38
+2025,44012,Alcalá de la Selva,382
+2025,44013,Alcañiz,16505
+2025,44014,Alcorisa,3243
+2025,44016,Alfambra,485
+2025,44017,Aliaga,344
+2025,44018,Almohaja,10
+2025,44019,Alobras,63
+2025,44020,Alpeñés,27
+2025,44021,Allepuz,123
+2025,44022,Alloza,556
+2025,44023,Allueva,31
+2025,44024,Anadón,35
+2025,44025,Andorra,7223
+2025,44026,Arcos de las Salinas,105
+2025,44027,Arens de Lledó,181
+2025,44028,Argente,204
+2025,44029,Ariño,605
+2025,44031,Azaila,94
+2025,44032,Bádenas,28
+2025,44033,Báguena,278
+2025,44034,Bañón,152
+2025,44035,Barrachina,113
+2025,44036,Bea,30
+2025,44037,Beceite,572
+2025,44038,Belmonte de San José,114
+2025,44039,Bello,204
+2025,44040,Berge,218
+2025,44041,Bezas,73
+2025,44042,Blancas,132
+2025,44043,Blesa,74
+2025,44044,Bordón,116
+2025,44045,Bronchales,465
+2025,44046,Bueña,65
+2025,44047,Burbáguena,396
+2025,44048,Cabra de Mora,66
+2025,44049,Calaceite,961
+2025,44050,Calamocha,4655
+2025,44051,Calanda,3745
+2025,44052,Calomarde,76
+2025,44053,Camañas,136
+2025,44054,Camarena de la Sierra,137
+2025,44055,Camarillas,100
+2025,44056,Caminreal,606
+2025,44059,Cantavieja,729
+2025,44060,Cañada de Benatanduz,40
+2025,44061,La Cañada de Verich,72
+2025,44062,Cañada Vellida,36
+2025,44063,Cañizar del Olivar,112
+2025,44064,Cascante del Río,73
+2025,44065,Castejón de Tornos,64
+2025,44066,Castel de Cabra,79
+2025,44067,Castelnou,94
+2025,44068,Castelserás,804
+2025,44070,El Castellar,54
+2025,44071,Castellote,665
+2025,44074,Cedrillas,652
+2025,44075,Celadas,331
+2025,44076,Cella,2702
+2025,44077,La Cerollera,77
+2025,44080,La Codoñera,312
+2025,44082,Corbalán,117
+2025,44084,Cortes de Aragón,62
+2025,44085,Cosa,63
+2025,44086,Cretas,559
+2025,44087,Crivillén,92
+2025,44088,La Cuba,53
+2025,44089,Cubla,56
+2025,44090,Cucalón,77
+2025,44092,El Cuervo,88
+2025,44093,Cuevas de Almudén,119
+2025,44094,Cuevas Labradas,126
+2025,44096,Ejulve,172
+2025,44097,Escorihuela,130
+2025,44099,Escucha,788
+2025,44100,Estercuel,198
+2025,44101,Ferreruela de Huerva,81
+2025,44102,Fonfría,35
+2025,44103,Formiche Alto,156
+2025,44105,Fórnoles,71
+2025,44106,Fortanete,195
+2025,44107,Foz-Calanda,272
+2025,44108,La Fresneda,459
+2025,44109,Frías de Albarracín,109
+2025,44110,Fuenferrada,38
+2025,44111,Fuentes Calientes,89
+2025,44112,Fuentes Claras,428
+2025,44113,Fuentes de Rubielos,148
+2025,44114,Fuentespalda,305
+2025,44115,Galve,149
+2025,44116,Gargallo,88
+2025,44117,Gea de Albarracín,459
+2025,44118,La Ginebrosa,188
+2025,44119,Griegos,154
+2025,44120,Guadalaviar,238
+2025,44121,Gúdar,73
+2025,44122,Híjar,1766
+2025,44123,Hinojosa de Jarque,104
+2025,44124,La Hoz de la Vieja,85
+2025,44125,Huesa del Común,55
+2025,44126,La Iglesuela del Cid,357
+2025,44127,Jabaloyas,66
+2025,44128,Jarque de la Val,66
+2025,44129,Jatiel,48
+2025,44130,Jorcas,42
+2025,44131,Josa,34
+2025,44132,Lagueruela,73
+2025,44133,Lanzuela,24
+2025,44135,Libros,102
+2025,44136,Lidón,56
+2025,44137,Linares de Mora,242
+2025,44138,Loscos,121
+2025,44141,Lledó,150
+2025,44142,Maicas,35
+2025,44143,Manzanera,530
+2025,44144,Martín del Río,367
+2025,44145,Mas de las Matas,1230
+2025,44146,La Mata de los Olmos,255
+2025,44147,Mazaleón,474
+2025,44148,Mezquita de Jarque,83
+2025,44149,Mirambel,110
+2025,44150,Miravete de la Sierra,31
+2025,44151,Molinos,232
+2025,44152,Monforte de Moyuela,84
+2025,44153,Monreal del Campo,2578
+2025,44154,Monroyo,324
+2025,44155,Montalbán,1162
+2025,44156,Monteagudo del Castillo,43
+2025,44157,Monterde de Albarracín,62
+2025,44158,Mora de Rubielos,1752
+2025,44159,Moscardón,62
+2025,44160,Mosqueruela,563
+2025,44161,Muniesa,575
+2025,44163,Noguera de Albarracín,131
+2025,44164,Nogueras,36
+2025,44165,Nogueruelas,188
+2025,44167,Obón,35
+2025,44168,Odón,191
+2025,44169,Ojos Negros,321
+2025,44171,Olba,286
+2025,44172,Oliete,351
+2025,44173,Los Olmos,111
+2025,44174,Orihuela del Tremedal,450
+2025,44175,Orrios,112
+2025,44176,Palomar de Arroyos,166
+2025,44177,Pancrudo,118
+2025,44178,Las Parras de Castellote,61
+2025,44179,Peñarroya de Tastavins,467
+2025,44180,Peracense,68
+2025,44181,Peralejos,89
+2025,44182,Perales del Alfambra,293
+2025,44183,Pitarque,62
+2025,44184,Plou,42
+2025,44185,El Pobo,97
+2025,44187,La Portellada,249
+2025,44189,Pozondón,53
+2025,44190,Pozuel del Campo,76
+2025,44191,La Puebla de Híjar,935
+2025,44192,La Puebla de Valverde,485
+2025,44193,Puertomingalvo,135
+2025,44194,Ráfales,149
+2025,44195,Rillo,95
+2025,44196,Riodeva,113
+2025,44197,Ródenas,57
+2025,44198,Royuela,229
+2025,44199,Rubiales,43
+2025,44200,Rubielos de la Cérida,20
+2025,44201,Rubielos de Mora,600
+2025,44203,Salcedillo,14
+2025,44204,Saldón,32
+2025,44205,Samper de Calanda,734
+2025,44206,San Agustín,132
+2025,44207,San Martín del Río,135
+2025,44208,Santa Cruz de Nogueras,24
+2025,44209,Santa Eulalia,1004
+2025,44210,Sarrión,1261
+2025,44211,Segura de los Baños,55
+2025,44212,Seno,39
+2025,44213,Singra,76
+2025,44215,Terriente,198
+2025,44216,Teruel,36655
+2025,44217,Toril y Masegoso,31
+2025,44218,Tormón,29
+2025,44219,Tornos,175
+2025,44220,Torralba de los Sisones,145
+2025,44221,Torrecilla de Alcañiz,436
+2025,44222,Torrecilla del Rebollar,114
+2025,44223,Torre de Arcas,76
+2025,44224,Torre de las Arcas,19
+2025,44225,Torre del Compte,120
+2025,44226,Torrelacárcel,131
+2025,44227,Torre los Negros,77
+2025,44228,Torremocha de Jiloca,115
+2025,44229,Torres de Albarracín,187
+2025,44230,Torrevelilla,161
+2025,44231,Torrijas,36
+2025,44232,Torrijo del Campo,501
+2025,44234,Tramacastiel,62
+2025,44235,Tramacastilla,133
+2025,44236,Tronchón,56
+2025,44237,Urrea de Gaén,455
+2025,44238,Utrillas,3069
+2025,44239,Valacloche,33
+2025,44240,Valbona,187
+2025,44241,Valdealgorfa,581
+2025,44243,Valdecuenca,33
+2025,44244,Valdelinares,82
+2025,44245,Valdeltormo,304
+2025,44246,Valderrobres,2555
+2025,44247,Valjunquera,336
+2025,44249,El Vallecillo,40
+2025,44250,Veguillas de la Sierra,27
+2025,44251,Villafranca del Campo,290
+2025,44252,Villahermosa del Campo,91
+2025,44256,Villanueva del Rebollar de la Sierra,49
+2025,44257,Villar del Cobo,158
+2025,44258,Villar del Salz,58
+2025,44260,Villarluengo,159
+2025,44261,Villarquemado,901
+2025,44262,Villarroya de los Pinares,160
+2025,44263,Villastar,566
+2025,44264,Villel,336
+2025,44265,Vinaceite,176
+2025,44266,Visiedo,132
+2025,44267,Vivel del Río Martín,63
+2025,44268,La Zoma,28

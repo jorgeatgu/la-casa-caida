@@ -16,7 +16,7 @@ const containerBisSelector = `bar-negative-${provincia}-container-bis`;
 
 <script define:vars={{ municipio, codigo, provincia, chartId, containerClass, containerSelector, containerBisSelector }}>
   document.addEventListener('DOMContentLoaded', () => {
-    const margin = { top: 24, right: 8, bottom: 24, left: 40 };
+    const margin = { top: 24, right: 8, bottom: 24, left: 56 };
     let width = 0;
     let height = 0;
     let w = 0;
@@ -31,10 +31,9 @@ const containerBisSelector = `bar-negative-${provincia}-container-bis`;
       .style('opacity', 0);
 
     function setupScales() {
-      const saldoMin = d3.min(dataVegetative, d => d.saldo);
       const saldoMax = d3.max(dataVegetative, d => d.saldo);
 
-      const saldoMaxMin = -500;
+      // Con saldos positivos pequeños se estira el eje para que las barras positivas se vean
       const saldoMaxMax = 300;
 
       const countX = d3.scaleBand().domain(dataVegetative.map(d => d.year));
@@ -68,10 +67,11 @@ const containerBisSelector = `bar-negative-${provincia}-container-bis`;
     }
 
     function drawAxes(g) {
+      // Se rotula un año de cada `cada`, contando desde el último para que siempre aparezca
+      const anios = scales.count.x.domain();
+      const cada = Math.ceil(anios.length / Math.max(2, Math.floor(width / 60)));
       const axisX = d3.axisBottom(scales.count.x).tickValues(
-        scales.count.x.domain().filter((d, i) => {
-          return !(i % 6);
-        })
+        anios.filter((d, i) => (anios.length - 1 - i) % cada === 0)
       );
 
       g.select('.axis-x').attr('transform', `translate(0,${height})`).call(axisX);
