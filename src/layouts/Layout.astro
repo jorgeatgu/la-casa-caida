@@ -16,7 +16,11 @@ const { title, descripcion, provinciaActual, municipioActual } = Astro.props;
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Playfair+Display:400,700" rel="stylesheet">
-  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script>
+    // Los scripts inline de las gráficas usan d3 como global
+    import * as d3 from '../utils/d3-utils.js';
+    window.d3 = d3;
+  </script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="f10ac894-f008-49ef-a691-a9da640f99c9"></script>
   <script>
     window.adsbygoogle = window.adsbygoogle || [];

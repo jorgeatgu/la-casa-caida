@@ -21,11 +21,6 @@ const hasChart = entry.body.includes('<div id="chart"');
 ---
 
 <BlogPostLayout frontmatter={entry.data}>
-  {/* Carga D3.js solo si es necesario */}
-  {hasChart && (
-    <script is:inline src="https://d3js.org/d3.v7.min.js"></script>
-  )}
-
   <Content />
 
   {/* Script para inicializar D3 si hay un gráfico */}
