@@ -1,4 +1,5 @@
-[{"COD":"MNP162", "Nombre":"Total Nacional. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":318005.0}
+[{"COD":"MNP162", "Nombre":"Total Nacional. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":321684.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":318005.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":320656.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":329251.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":337380.0}
@@ -50,7 +51,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":669378.0}
 ]
 }
-,{"COD":"MNP161", "Nombre":"Total Nacional. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":163732.0}
+,{"COD":"MNP161", "Nombre":"Total Nacional. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":165615.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":163732.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":164617.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":169602.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":174148.0}
@@ -102,7 +104,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":346386.0}
 ]
 }
-,{"COD":"MNP160", "Nombre":"Total Nacional. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":154273.0}
+,{"COD":"MNP160", "Nombre":"Total Nacional. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":156069.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":154273.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":156039.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":159649.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":163232.0}
@@ -154,7 +157,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":322992.0}
 ]
 }
-,{"COD":"MNP156", "Nombre":"Albacete. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2545.0}
+,{"COD":"MNP156", "Nombre":"Albacete. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2661.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2545.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2563.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2698.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2790.0}
@@ -206,7 +210,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":5927.0}
 ]
 }
-,{"COD":"MNP155", "Nombre":"Albacete. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1332.0}
+,{"COD":"MNP155", "Nombre":"Albacete. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1388.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1332.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1307.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1406.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1449.0}
@@ -258,7 +263,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3072.0}
 ]
 }
-,{"COD":"MNP154", "Nombre":"Albacete. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1213.0}
+,{"COD":"MNP154", "Nombre":"Albacete. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1273.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1213.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1256.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1292.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1341.0}
@@ -310,7 +316,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2855.0}
 ]
 }
-,{"COD":"MNP153", "Nombre":"Alicante/Alacant. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":13207.0}
+,{"COD":"MNP153", "Nombre":"Alicante/Alacant. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":13295.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":13207.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":13078.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":13262.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":13371.0}
@@ -362,7 +369,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":21038.0}
 ]
 }
-,{"COD":"MNP152", "Nombre":"Alicante/Alacant. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6787.0}
+,{"COD":"MNP152", "Nombre":"Alicante/Alacant. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":6841.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6787.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":6744.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":6842.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":6913.0}
@@ -414,7 +422,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":10878.0}
 ]
 }
-,{"COD":"MNP151", "Nombre":"Alicante/Alacant. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6420.0}
+,{"COD":"MNP151", "Nombre":"Alicante/Alacant. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":6454.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6420.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":6334.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":6420.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":6458.0}
@@ -466,7 +475,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":10160.0}
 ]
 }
-,{"COD":"MNP150", "Nombre":"Almería. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6576.0}
+,{"COD":"MNP150", "Nombre":"Almería. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":6513.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6576.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":6601.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":6815.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":6888.0}
@@ -518,7 +528,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":7774.0}
 ]
 }
-,{"COD":"MNP149", "Nombre":"Almería. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3425.0}
+,{"COD":"MNP149", "Nombre":"Almería. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3398.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3425.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3405.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3511.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3519.0}
@@ -570,7 +581,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":4058.0}
 ]
 }
-,{"COD":"MNP148", "Nombre":"Almería. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3151.0}
+,{"COD":"MNP148", "Nombre":"Almería. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3115.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3151.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3196.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3304.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3369.0}
@@ -622,7 +634,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3716.0}
 ]
 }
-,{"COD":"MNP147", "Nombre":"Araba/Álava. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2094.0}
+,{"COD":"MNP147", "Nombre":"Araba/Álava. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2158.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2094.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2217.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2273.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2369.0}
@@ -674,7 +687,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":4833.0}
 ]
 }
-,{"COD":"MNP146", "Nombre":"Araba/Álava. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1067.0}
+,{"COD":"MNP146", "Nombre":"Araba/Álava. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1097.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1067.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1168.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1180.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1237.0}
@@ -726,7 +740,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2448.0}
 ]
 }
-,{"COD":"MNP145", "Nombre":"Araba/Álava. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1027.0}
+,{"COD":"MNP145", "Nombre":"Araba/Álava. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1061.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1027.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1049.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1093.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1132.0}
@@ -778,7 +793,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2385.0}
 ]
 }
-,{"COD":"MNP144", "Nombre":"Asturias. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4535.0}
+,{"COD":"MNP144", "Nombre":"Asturias. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":4582.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4535.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":4545.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":4744.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":4785.0}
@@ -830,7 +846,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":17439.0}
 ]
 }
-,{"COD":"MNP143", "Nombre":"Asturias. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2379.0}
+,{"COD":"MNP143", "Nombre":"Asturias. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2380.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2379.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2309.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2408.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2498.0}
@@ -882,7 +899,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":9054.0}
 ]
 }
-,{"COD":"MNP142", "Nombre":"Asturias. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2156.0}
+,{"COD":"MNP142", "Nombre":"Asturias. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2202.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2156.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2236.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2336.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2287.0}
@@ -934,7 +952,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":8385.0}
 ]
 }
-,{"COD":"MNP141", "Nombre":"Ávila. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":854.0}
+,{"COD":"MNP141", "Nombre":"Ávila. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":882.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":854.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":832.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":906.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":875.0}
@@ -986,7 +1005,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2398.0}
 ]
 }
-,{"COD":"MNP140", "Nombre":"Ávila. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":455.0}
+,{"COD":"MNP140", "Nombre":"Ávila. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":439.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":455.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":444.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":479.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":449.0}
@@ -1038,7 +1058,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1254.0}
 ]
 }
-,{"COD":"MNP139", "Nombre":"Ávila. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":399.0}
+,{"COD":"MNP139", "Nombre":"Ávila. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":443.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":399.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":388.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":427.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":426.0}
@@ -1090,7 +1111,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1144.0}
 ]
 }
-,{"COD":"MNP138", "Nombre":"Badajoz. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4364.0}
+,{"COD":"MNP138", "Nombre":"Badajoz. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":4314.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4364.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":4583.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":4556.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":4844.0}
@@ -1142,7 +1164,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":10422.0}
 ]
 }
-,{"COD":"MNP137", "Nombre":"Badajoz. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2208.0}
+,{"COD":"MNP137", "Nombre":"Badajoz. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2188.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2208.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2346.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2426.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2547.0}
@@ -1194,7 +1217,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":5379.0}
 ]
 }
-,{"COD":"MNP136", "Nombre":"Badajoz. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2156.0}
+,{"COD":"MNP136", "Nombre":"Badajoz. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2126.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2156.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2237.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2130.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2297.0}
@@ -1246,7 +1270,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":5043.0}
 ]
 }
-,{"COD":"MNP135", "Nombre":"Balears, Illes. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":9067.0}
+,{"COD":"MNP135", "Nombre":"Balears, Illes. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":9007.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":9067.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":8738.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":9079.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":9520.0}
@@ -1298,7 +1323,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":11116.0}
 ]
 }
-,{"COD":"MNP134", "Nombre":"Balears, Illes. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4662.0}
+,{"COD":"MNP134", "Nombre":"Balears, Illes. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":4603.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4662.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":4506.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":4615.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":4954.0}
@@ -1350,7 +1376,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":5872.0}
 ]
 }
-,{"COD":"MNP133", "Nombre":"Balears, Illes. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4405.0}
+,{"COD":"MNP133", "Nombre":"Balears, Illes. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":4404.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4405.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":4232.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":4464.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":4566.0}
@@ -1402,7 +1429,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":5244.0}
 ]
 }
-,{"COD":"MNP132", "Nombre":"Barcelona. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":39034.0}
+,{"COD":"MNP132", "Nombre":"Barcelona. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":39579.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":39034.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":39360.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":41166.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":42213.0}
@@ -1454,7 +1482,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":88841.0}
 ]
 }
-,{"COD":"MNP131", "Nombre":"Barcelona. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":20069.0}
+,{"COD":"MNP131", "Nombre":"Barcelona. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":20408.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":20069.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":20276.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":21388.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":21670.0}
@@ -1506,7 +1535,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":46181.0}
 ]
 }
-,{"COD":"MNP130", "Nombre":"Barcelona. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":18965.0}
+,{"COD":"MNP130", "Nombre":"Barcelona. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":19171.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":18965.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":19084.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":19778.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":20543.0}
@@ -1558,7 +1588,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":42660.0}
 ]
 }
-,{"COD":"MNP129", "Nombre":"Bizkaia. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6426.0}
+,{"COD":"MNP129", "Nombre":"Bizkaia. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":6641.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6426.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":6677.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":6878.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":6972.0}
@@ -1610,7 +1641,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":22075.0}
 ]
 }
-,{"COD":"MNP128", "Nombre":"Bizkaia. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3244.0}
+,{"COD":"MNP128", "Nombre":"Bizkaia. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3367.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3244.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3416.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3493.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3637.0}
@@ -1662,7 +1694,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":11465.0}
 ]
 }
-,{"COD":"MNP127", "Nombre":"Bizkaia. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3182.0}
+,{"COD":"MNP127", "Nombre":"Bizkaia. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3274.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3182.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3261.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3385.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3335.0}
@@ -1714,7 +1747,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":10610.0}
 ]
 }
-,{"COD":"MNP126", "Nombre":"Burgos. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2031.0}
+,{"COD":"MNP126", "Nombre":"Burgos. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2091.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2031.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1999.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2134.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2096.0}
@@ -1766,7 +1800,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":5577.0}
 ]
 }
-,{"COD":"MNP125", "Nombre":"Burgos. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1072.0}
+,{"COD":"MNP125", "Nombre":"Burgos. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1108.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1072.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1040.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1052.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1098.0}
@@ -1818,7 +1853,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2828.0}
 ]
 }
-,{"COD":"MNP124", "Nombre":"Burgos. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":959.0}
+,{"COD":"MNP124", "Nombre":"Burgos. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":983.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":959.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":959.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1082.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":998.0}
@@ -1870,7 +1906,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2749.0}
 ]
 }
-,{"COD":"MNP123", "Nombre":"Cáceres. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2173.0}
+,{"COD":"MNP123", "Nombre":"Cáceres. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2160.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2173.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2227.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2258.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2403.0}
@@ -1922,7 +1959,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":5865.0}
 ]
 }
-,{"COD":"MNP122", "Nombre":"Cáceres. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1143.0}
+,{"COD":"MNP122", "Nombre":"Cáceres. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1111.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1143.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1133.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1170.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1201.0}
@@ -1974,7 +2012,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3051.0}
 ]
 }
-,{"COD":"MNP121", "Nombre":"Cáceres. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1030.0}
+,{"COD":"MNP121", "Nombre":"Cáceres. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1049.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1030.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1094.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1088.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1202.0}
@@ -2026,7 +2065,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2814.0}
 ]
 }
-,{"COD":"MNP120", "Nombre":"Cádiz. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":7992.0}
+,{"COD":"MNP120", "Nombre":"Cádiz. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":7948.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":7992.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":8402.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":8614.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":8904.0}
@@ -2078,7 +2118,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":21971.0}
 ]
 }
-,{"COD":"MNP119", "Nombre":"Cádiz. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4009.0}
+,{"COD":"MNP119", "Nombre":"Cádiz. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":4123.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4009.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":4341.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":4462.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":4663.0}
@@ -2130,7 +2171,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":11217.0}
 ]
 }
-,{"COD":"MNP118", "Nombre":"Cádiz. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3983.0}
+,{"COD":"MNP118", "Nombre":"Cádiz. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3825.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3983.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":4061.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":4152.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":4241.0}
@@ -2182,7 +2224,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":10754.0}
 ]
 }
-,{"COD":"MNP117", "Nombre":"Cantabria. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3013.0}
+,{"COD":"MNP117", "Nombre":"Cantabria. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2969.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3013.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2976.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3224.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3285.0}
@@ -2234,7 +2277,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":8765.0}
 ]
 }
-,{"COD":"MNP116", "Nombre":"Cantabria. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1545.0}
+,{"COD":"MNP116", "Nombre":"Cantabria. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1520.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1545.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1580.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1651.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1676.0}
@@ -2286,7 +2330,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":4536.0}
 ]
 }
-,{"COD":"MNP115", "Nombre":"Cantabria. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1468.0}
+,{"COD":"MNP115", "Nombre":"Cantabria. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1449.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1468.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1396.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1573.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1609.0}
@@ -2338,7 +2383,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":4229.0}
 ]
 }
-,{"COD":"MNP114", "Nombre":"Castellón/Castelló. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4168.0}
+,{"COD":"MNP114", "Nombre":"Castellón/Castelló. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":4150.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4168.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":4206.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":4178.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":4063.0}
@@ -2390,7 +2436,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":6853.0}
 ]
 }
-,{"COD":"MNP113", "Nombre":"Castellón/Castelló. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2171.0}
+,{"COD":"MNP113", "Nombre":"Castellón/Castelló. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2117.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2171.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2194.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2135.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2083.0}
@@ -2442,7 +2489,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3485.0}
 ]
 }
-,{"COD":"MNP112", "Nombre":"Castellón/Castelló. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1997.0}
+,{"COD":"MNP112", "Nombre":"Castellón/Castelló. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2033.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1997.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2012.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2043.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1980.0}
@@ -2494,7 +2542,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3368.0}
 ]
 }
-,{"COD":"MNP111", "Nombre":"Ciudad Real. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3224.0}
+,{"COD":"MNP111", "Nombre":"Ciudad Real. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3210.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3224.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3223.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3339.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3494.0}
@@ -2546,7 +2595,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":7663.0}
 ]
 }
-,{"COD":"MNP110", "Nombre":"Ciudad Real. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1700.0}
+,{"COD":"MNP110", "Nombre":"Ciudad Real. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1728.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1700.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1646.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1753.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1789.0}
@@ -2598,7 +2648,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3978.0}
 ]
 }
-,{"COD":"MNP109", "Nombre":"Ciudad Real. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1524.0}
+,{"COD":"MNP109", "Nombre":"Ciudad Real. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1482.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1524.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1577.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1586.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1705.0}
@@ -2650,7 +2701,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3685.0}
 ]
 }
-,{"COD":"MNP108", "Nombre":"Córdoba. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5327.0}
+,{"COD":"MNP108", "Nombre":"Córdoba. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":5230.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5327.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":5512.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":5578.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":5799.0}
@@ -2702,7 +2754,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":12692.0}
 ]
 }
-,{"COD":"MNP107", "Nombre":"Córdoba. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2725.0}
+,{"COD":"MNP107", "Nombre":"Córdoba. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2654.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2725.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2777.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2852.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2912.0}
@@ -2754,7 +2807,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":6619.0}
 ]
 }
-,{"COD":"MNP106", "Nombre":"Córdoba. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2602.0}
+,{"COD":"MNP106", "Nombre":"Córdoba. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2576.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2602.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2735.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2726.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2887.0}
@@ -2806,7 +2860,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":6073.0}
 ]
 }
-,{"COD":"MNP105", "Nombre":"Coruña, A. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5795.0}
+,{"COD":"MNP105", "Nombre":"Coruña, A. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":5925.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5795.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":6004.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":6159.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":6318.0}
@@ -2858,7 +2913,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":18232.0}
 ]
 }
-,{"COD":"MNP104", "Nombre":"Coruña, A. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3017.0}
+,{"COD":"MNP104", "Nombre":"Coruña, A. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2996.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3017.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3063.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3102.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3244.0}
@@ -2910,7 +2966,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":9372.0}
 ]
 }
-,{"COD":"MNP103", "Nombre":"Coruña, A. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2778.0}
+,{"COD":"MNP103", "Nombre":"Coruña, A. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2929.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2778.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2941.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3057.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3074.0}
@@ -2962,7 +3019,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":8860.0}
 ]
 }
-,{"COD":"MNP102", "Nombre":"Cuenca. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1322.0}
+,{"COD":"MNP102", "Nombre":"Cuenca. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1321.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1322.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1242.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1304.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1300.0}
@@ -3014,7 +3072,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2862.0}
 ]
 }
-,{"COD":"MNP101", "Nombre":"Cuenca. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":701.0}
+,{"COD":"MNP101", "Nombre":"Cuenca. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":682.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":701.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":629.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":671.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":694.0}
@@ -3066,7 +3125,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1502.0}
 ]
 }
-,{"COD":"MNP100", "Nombre":"Cuenca. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":621.0}
+,{"COD":"MNP100", "Nombre":"Cuenca. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":639.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":621.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":613.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":633.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":606.0}
@@ -3118,7 +3178,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1360.0}
 ]
 }
-,{"COD":"MNP99", "Nombre":"Gipuzkoa. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4430.0}
+,{"COD":"MNP99", "Nombre":"Gipuzkoa. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":4555.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4430.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":4568.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":4512.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":4935.0}
@@ -3170,7 +3231,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":12738.0}
 ]
 }
-,{"COD":"MNP98", "Nombre":"Gipuzkoa. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2282.0}
+,{"COD":"MNP98", "Nombre":"Gipuzkoa. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2374.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2282.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2317.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2371.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2546.0}
@@ -3222,7 +3284,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":6695.0}
 ]
 }
-,{"COD":"MNP97", "Nombre":"Gipuzkoa. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2148.0}
+,{"COD":"MNP97", "Nombre":"Gipuzkoa. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2181.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2148.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2251.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2141.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2389.0}
@@ -3274,7 +3337,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":6043.0}
 ]
 }
-,{"COD":"MNP96", "Nombre":"Girona. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5758.0}
+,{"COD":"MNP96", "Nombre":"Girona. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":5810.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5758.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":5836.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":5926.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":6077.0}
@@ -3326,7 +3390,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":7860.0}
 ]
 }
-,{"COD":"MNP95", "Nombre":"Girona. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2961.0}
+,{"COD":"MNP95", "Nombre":"Girona. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3014.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2961.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3018.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3007.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3097.0}
@@ -3378,7 +3443,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":4082.0}
 ]
 }
-,{"COD":"MNP94", "Nombre":"Girona. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2797.0}
+,{"COD":"MNP94", "Nombre":"Girona. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2796.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2797.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2818.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2919.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2980.0}
@@ -3430,7 +3496,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3778.0}
 ]
 }
-,{"COD":"MNP93", "Nombre":"Granada. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6623.0}
+,{"COD":"MNP93", "Nombre":"Granada. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":6829.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6623.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":6754.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":7057.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":7083.0}
@@ -3482,7 +3549,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":13645.0}
 ]
 }
-,{"COD":"MNP92", "Nombre":"Granada. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3407.0}
+,{"COD":"MNP92", "Nombre":"Granada. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3471.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3407.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3500.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3679.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3578.0}
@@ -3534,7 +3602,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":7021.0}
 ]
 }
-,{"COD":"MNP91", "Nombre":"Granada. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3216.0}
+,{"COD":"MNP91", "Nombre":"Granada. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3358.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3216.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3254.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3378.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3505.0}
@@ -3586,7 +3655,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":6624.0}
 ]
 }
-,{"COD":"MNP90", "Nombre":"Guadalajara. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1850.0}
+,{"COD":"MNP90", "Nombre":"Guadalajara. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1967.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1850.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1850.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1920.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1881.0}
@@ -3638,7 +3708,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1827.0}
 ]
 }
-,{"COD":"MNP89", "Nombre":"Guadalajara. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":977.0}
+,{"COD":"MNP89", "Nombre":"Guadalajara. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":990.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":977.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":934.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":952.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":966.0}
@@ -3690,7 +3761,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":947.0}
 ]
 }
-,{"COD":"MNP88", "Nombre":"Guadalajara. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":873.0}
+,{"COD":"MNP88", "Nombre":"Guadalajara. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":977.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":873.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":916.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":968.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":915.0}
@@ -3742,7 +3814,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":880.0}
 ]
 }
-,{"COD":"MNP87", "Nombre":"Huelva. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3618.0}
+,{"COD":"MNP87", "Nombre":"Huelva. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3676.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3618.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3658.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3899.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":4227.0}
@@ -3794,7 +3867,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":7900.0}
 ]
 }
-,{"COD":"MNP86", "Nombre":"Huelva. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1803.0}
+,{"COD":"MNP86", "Nombre":"Huelva. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1892.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1803.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1861.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1927.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2204.0}
@@ -3846,7 +3920,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":4119.0}
 ]
 }
-,{"COD":"MNP85", "Nombre":"Huelva. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1815.0}
+,{"COD":"MNP85", "Nombre":"Huelva. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1784.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1815.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1797.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1972.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2023.0}
@@ -3898,7 +3973,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3781.0}
 ]
 }
-,{"COD":"MNP84", "Nombre":"Huesca. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1504.0}
+,{"COD":"MNP84", "Nombre":"Huesca. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1463.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1504.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1400.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1509.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1573.0}
@@ -3950,7 +4026,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2794.0}
 ]
 }
-,{"COD":"MNP83", "Nombre":"Huesca. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":765.0}
+,{"COD":"MNP83", "Nombre":"Huesca. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":752.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":765.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":719.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":799.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":821.0}
@@ -4002,7 +4079,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1430.0}
 ]
 }
-,{"COD":"MNP82", "Nombre":"Huesca. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":739.0}
+,{"COD":"MNP82", "Nombre":"Huesca. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":711.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":739.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":681.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":710.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":752.0}
@@ -4054,7 +4132,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1364.0}
 ]
 }
-,{"COD":"MNP81", "Nombre":"Jaén. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4171.0}
+,{"COD":"MNP81", "Nombre":"Jaén. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":4003.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4171.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":4240.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":4252.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":4499.0}
@@ -4106,7 +4185,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":10739.0}
 ]
 }
-,{"COD":"MNP80", "Nombre":"Jaén. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2156.0}
+,{"COD":"MNP80", "Nombre":"Jaén. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2059.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2156.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2174.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2284.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2317.0}
@@ -4158,7 +4238,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":5628.0}
 ]
 }
-,{"COD":"MNP79", "Nombre":"Jaén. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2015.0}
+,{"COD":"MNP79", "Nombre":"Jaén. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1944.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2015.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2066.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1968.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2182.0}
@@ -4210,7 +4291,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":5111.0}
 ]
 }
-,{"COD":"MNP78", "Nombre":"León. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1999.0}
+,{"COD":"MNP78", "Nombre":"León. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1964.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1999.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2103.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2159.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2301.0}
@@ -4262,7 +4344,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":7052.0}
 ]
 }
-,{"COD":"MNP77", "Nombre":"León. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1053.0}
+,{"COD":"MNP77", "Nombre":"León. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1056.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1053.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1119.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1126.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1180.0}
@@ -4314,7 +4397,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3633.0}
 ]
 }
-,{"COD":"MNP76", "Nombre":"León. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":946.0}
+,{"COD":"MNP76", "Nombre":"León. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":908.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":946.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":984.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1033.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1121.0}
@@ -4366,7 +4450,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3419.0}
 ]
 }
-,{"COD":"MNP75", "Nombre":"Lleida. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3173.0}
+,{"COD":"MNP75", "Nombre":"Lleida. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3227.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3173.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3109.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3230.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3216.0}
@@ -4418,7 +4503,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":5090.0}
 ]
 }
-,{"COD":"MNP74", "Nombre":"Lleida. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1627.0}
+,{"COD":"MNP74", "Nombre":"Lleida. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1650.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1627.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1608.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1671.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1679.0}
@@ -4470,7 +4556,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2644.0}
 ]
 }
-,{"COD":"MNP73", "Nombre":"Lleida. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1546.0}
+,{"COD":"MNP73", "Nombre":"Lleida. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1577.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1546.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1501.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1559.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1537.0}
@@ -4522,7 +4609,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2446.0}
 ]
 }
-,{"COD":"MNP72", "Nombre":"Lugo. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1610.0}
+,{"COD":"MNP72", "Nombre":"Lugo. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1628.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1610.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1705.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1734.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1622.0}
@@ -4574,7 +4662,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":4733.0}
 ]
 }
-,{"COD":"MNP71", "Nombre":"Lugo. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":820.0}
+,{"COD":"MNP71", "Nombre":"Lugo. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":842.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":820.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":895.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":903.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":815.0}
@@ -4626,7 +4715,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2412.0}
 ]
 }
-,{"COD":"MNP70", "Nombre":"Lugo. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":790.0}
+,{"COD":"MNP70", "Nombre":"Lugo. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":786.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":790.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":810.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":831.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":807.0}
@@ -4678,7 +4768,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2321.0}
 ]
 }
-,{"COD":"MNP69", "Nombre":"Madrid. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":50770.0}
+,{"COD":"MNP69", "Nombre":"Madrid. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":52449.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":50770.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":50299.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":50961.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":51366.0}
@@ -4730,7 +4821,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":90941.0}
 ]
 }
-,{"COD":"MNP68", "Nombre":"Madrid. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":26199.0}
+,{"COD":"MNP68", "Nombre":"Madrid. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":27045.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":26199.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":25936.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":26161.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":26600.0}
@@ -4782,7 +4874,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":47223.0}
 ]
 }
-,{"COD":"MNP67", "Nombre":"Madrid. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":24571.0}
+,{"COD":"MNP67", "Nombre":"Madrid. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":25404.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":24571.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":24363.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":24800.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":24766.0}
@@ -4834,7 +4927,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":43718.0}
 ]
 }
-,{"COD":"MNP66", "Nombre":"Málaga. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":11719.0}
+,{"COD":"MNP66", "Nombre":"Málaga. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":11706.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":11719.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":11758.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":12148.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":12595.0}
@@ -4886,7 +4980,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":19149.0}
 ]
 }
-,{"COD":"MNP65", "Nombre":"Málaga. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5933.0}
+,{"COD":"MNP65", "Nombre":"Málaga. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":6002.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5933.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":5941.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":6310.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":6577.0}
@@ -4938,7 +5033,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":9878.0}
 ]
 }
-,{"COD":"MNP64", "Nombre":"Málaga. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5786.0}
+,{"COD":"MNP64", "Nombre":"Málaga. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":5704.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5786.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":5817.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":5838.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":6018.0}
@@ -4990,7 +5086,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":9271.0}
 ]
 }
-,{"COD":"MNP63", "Nombre":"Murcia. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":12504.0}
+,{"COD":"MNP63", "Nombre":"Murcia. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":12620.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":12504.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":12860.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":13387.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":13815.0}
@@ -5042,7 +5139,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":18484.0}
 ]
 }
-,{"COD":"MNP62", "Nombre":"Murcia. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6416.0}
+,{"COD":"MNP62", "Nombre":"Murcia. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":6408.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6416.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":6584.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":6849.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":7097.0}
@@ -5094,7 +5192,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":9465.0}
 ]
 }
-,{"COD":"MNP61", "Nombre":"Murcia. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6088.0}
+,{"COD":"MNP61", "Nombre":"Murcia. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":6212.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6088.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":6276.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":6538.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":6718.0}
@@ -5146,7 +5245,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":9019.0}
 ]
 }
-,{"COD":"MNP60", "Nombre":"Navarra. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4568.0}
+,{"COD":"MNP60", "Nombre":"Navarra. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":4542.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4568.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":4496.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":4759.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":5113.0}
@@ -5198,7 +5298,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":8690.0}
 ]
 }
-,{"COD":"MNP59", "Nombre":"Navarra. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2326.0}
+,{"COD":"MNP59", "Nombre":"Navarra. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2412.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2326.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2382.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2429.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2634.0}
@@ -5250,7 +5351,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":4444.0}
 ]
 }
-,{"COD":"MNP58", "Nombre":"Navarra. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2242.0}
+,{"COD":"MNP58", "Nombre":"Navarra. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2130.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2242.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2114.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2330.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2479.0}
@@ -5302,7 +5404,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":4246.0}
 ]
 }
-,{"COD":"MNP57", "Nombre":"Ourense. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1265.0}
+,{"COD":"MNP57", "Nombre":"Ourense. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1346.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1265.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1339.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1341.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1399.0}
@@ -5354,7 +5457,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":4706.0}
 ]
 }
-,{"COD":"MNP56", "Nombre":"Ourense. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":650.0}
+,{"COD":"MNP56", "Nombre":"Ourense. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":682.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":650.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":693.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":698.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":720.0}
@@ -5406,7 +5510,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2324.0}
 ]
 }
-,{"COD":"MNP55", "Nombre":"Ourense. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":615.0}
+,{"COD":"MNP55", "Nombre":"Ourense. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":664.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":615.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":646.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":643.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":679.0}
@@ -5458,7 +5563,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2382.0}
 ]
 }
-,{"COD":"MNP54", "Nombre":"Palencia. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":824.0}
+,{"COD":"MNP54", "Nombre":"Palencia. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":827.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":824.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":788.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":858.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":840.0}
@@ -5510,7 +5616,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2471.0}
 ]
 }
-,{"COD":"MNP53", "Nombre":"Palencia. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":427.0}
+,{"COD":"MNP53", "Nombre":"Palencia. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":455.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":427.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":423.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":450.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":425.0}
@@ -5562,7 +5669,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1211.0}
 ]
 }
-,{"COD":"MNP52", "Nombre":"Palencia. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":397.0}
+,{"COD":"MNP52", "Nombre":"Palencia. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":372.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":397.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":365.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":408.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":415.0}
@@ -5614,7 +5722,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1260.0}
 ]
 }
-,{"COD":"MNP51", "Nombre":"Palmas, Las. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6355.0}
+,{"COD":"MNP51", "Nombre":"Palmas, Las. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":6356.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6355.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":6541.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":6652.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":6873.0}
@@ -5666,7 +5775,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":14527.0}
 ]
 }
-,{"COD":"MNP50", "Nombre":"Palmas, Las. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3250.0}
+,{"COD":"MNP50", "Nombre":"Palmas, Las. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3198.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3250.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3380.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3466.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3539.0}
@@ -5718,7 +5828,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":7590.0}
 ]
 }
-,{"COD":"MNP49", "Nombre":"Palmas, Las. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3105.0}
+,{"COD":"MNP49", "Nombre":"Palmas, Las. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3158.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3105.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3161.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3186.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3334.0}
@@ -5770,7 +5881,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":6937.0}
 ]
 }
-,{"COD":"MNP48", "Nombre":"Pontevedra. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4680.0}
+,{"COD":"MNP48", "Nombre":"Pontevedra. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":4706.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":4680.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":4956.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":5261.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":5448.0}
@@ -5822,7 +5934,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":16179.0}
 ]
 }
-,{"COD":"MNP47", "Nombre":"Pontevedra. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2450.0}
+,{"COD":"MNP47", "Nombre":"Pontevedra. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2384.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2450.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2490.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2673.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2800.0}
@@ -5874,7 +5987,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":8244.0}
 ]
 }
-,{"COD":"MNP46", "Nombre":"Pontevedra. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2230.0}
+,{"COD":"MNP46", "Nombre":"Pontevedra. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2322.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2230.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2466.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2588.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2648.0}
@@ -5926,7 +6040,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":7935.0}
 ]
 }
-,{"COD":"MNP45", "Nombre":"Rioja, La. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2049.0}
+,{"COD":"MNP45", "Nombre":"Rioja, La. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2059.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2049.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1999.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2191.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2192.0}
@@ -5978,7 +6093,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3872.0}
 ]
 }
-,{"COD":"MNP44", "Nombre":"Rioja, La. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1037.0}
+,{"COD":"MNP44", "Nombre":"Rioja, La. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1070.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1037.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":990.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1105.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1128.0}
@@ -6030,7 +6146,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1959.0}
 ]
 }
-,{"COD":"MNP43", "Nombre":"Rioja, La. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1012.0}
+,{"COD":"MNP43", "Nombre":"Rioja, La. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":989.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1012.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1009.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1086.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1064.0}
@@ -6082,7 +6199,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1913.0}
 ]
 }
-,{"COD":"MNP42", "Nombre":"Salamanca. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1670.0}
+,{"COD":"MNP42", "Nombre":"Salamanca. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1600.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1670.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1683.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1745.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1754.0}
@@ -6134,7 +6252,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":4856.0}
 ]
 }
-,{"COD":"MNP41", "Nombre":"Salamanca. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":847.0}
+,{"COD":"MNP41", "Nombre":"Salamanca. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":821.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":847.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":867.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":933.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":874.0}
@@ -6186,7 +6305,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2386.0}
 ]
 }
-,{"COD":"MNP40", "Nombre":"Salamanca. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":823.0}
+,{"COD":"MNP40", "Nombre":"Salamanca. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":779.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":823.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":816.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":812.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":880.0}
@@ -6238,7 +6358,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2470.0}
 ]
 }
-,{"COD":"MNP39", "Nombre":"Santa Cruz de Tenerife. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5344.0}
+,{"COD":"MNP39", "Nombre":"Santa Cruz de Tenerife. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":5519.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5344.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":5457.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":5567.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":5859.0}
@@ -6290,7 +6411,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":13020.0}
 ]
 }
-,{"COD":"MNP38", "Nombre":"Santa Cruz de Tenerife. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2739.0}
+,{"COD":"MNP38", "Nombre":"Santa Cruz de Tenerife. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2793.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2739.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2793.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2813.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3047.0}
@@ -6342,7 +6464,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":6778.0}
 ]
 }
-,{"COD":"MNP37", "Nombre":"Santa Cruz de Tenerife. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2605.0}
+,{"COD":"MNP37", "Nombre":"Santa Cruz de Tenerife. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2726.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2605.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2664.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2754.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2812.0}
@@ -6394,7 +6517,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":6242.0}
 ]
 }
-,{"COD":"MNP36", "Nombre":"Segovia. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":935.0}
+,{"COD":"MNP36", "Nombre":"Segovia. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":949.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":935.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":919.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":930.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":967.0}
@@ -6446,7 +6570,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2194.0}
 ]
 }
-,{"COD":"MNP35", "Nombre":"Segovia. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":490.0}
+,{"COD":"MNP35", "Nombre":"Segovia. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":485.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":490.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":505.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":482.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":505.0}
@@ -6498,7 +6623,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1117.0}
 ]
 }
-,{"COD":"MNP34", "Nombre":"Segovia. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":445.0}
+,{"COD":"MNP34", "Nombre":"Segovia. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":464.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":445.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":414.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":448.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":462.0}
@@ -6550,7 +6676,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1077.0}
 ]
 }
-,{"COD":"MNP33", "Nombre":"Sevilla. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":14103.0}
+,{"COD":"MNP33", "Nombre":"Sevilla. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":14204.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":14103.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":14472.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":14604.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":15655.0}
@@ -6602,7 +6729,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":30447.0}
 ]
 }
-,{"COD":"MNP32", "Nombre":"Sevilla. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":7331.0}
+,{"COD":"MNP32", "Nombre":"Sevilla. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":7375.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":7331.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":7380.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":7434.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":8110.0}
@@ -6654,7 +6782,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":15753.0}
 ]
 }
-,{"COD":"MNP31", "Nombre":"Sevilla. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6772.0}
+,{"COD":"MNP31", "Nombre":"Sevilla. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":6829.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6772.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":7092.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":7170.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":7545.0}
@@ -6706,7 +6835,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":14694.0}
 ]
 }
-,{"COD":"MNP30", "Nombre":"Soria. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":480.0}
+,{"COD":"MNP30", "Nombre":"Soria. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":511.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":480.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":501.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":540.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":533.0}
@@ -6758,7 +6888,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1140.0}
 ]
 }
-,{"COD":"MNP29", "Nombre":"Soria. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":251.0}
+,{"COD":"MNP29", "Nombre":"Soria. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":253.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":251.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":248.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":301.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":267.0}
@@ -6810,7 +6941,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":582.0}
 ]
 }
-,{"COD":"MNP28", "Nombre":"Soria. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":229.0}
+,{"COD":"MNP28", "Nombre":"Soria. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":258.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":229.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":253.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":239.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":266.0}
@@ -6862,7 +6994,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":558.0}
 ]
 }
-,{"COD":"MNP27", "Nombre":"Tarragona. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5782.0}
+,{"COD":"MNP27", "Nombre":"Tarragona. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":5651.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5782.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":5869.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":6022.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":6128.0}
@@ -6914,7 +7047,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":8545.0}
 ]
 }
-,{"COD":"MNP26", "Nombre":"Tarragona. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2920.0}
+,{"COD":"MNP26", "Nombre":"Tarragona. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2947.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2920.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2944.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3095.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3158.0}
@@ -6966,7 +7100,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":4371.0}
 ]
 }
-,{"COD":"MNP25", "Nombre":"Tarragona. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2862.0}
+,{"COD":"MNP25", "Nombre":"Tarragona. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2704.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2862.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2925.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2927.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2970.0}
@@ -7018,7 +7153,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":4174.0}
 ]
 }
-,{"COD":"MNP24", "Nombre":"Teruel. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":880.0}
+,{"COD":"MNP24", "Nombre":"Teruel. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":887.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":880.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":860.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":956.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":917.0}
@@ -7070,7 +7206,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1775.0}
 ]
 }
-,{"COD":"MNP23", "Nombre":"Teruel. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":460.0}
+,{"COD":"MNP23", "Nombre":"Teruel. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":473.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":460.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":431.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":467.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":463.0}
@@ -7122,7 +7259,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":916.0}
 ]
 }
-,{"COD":"MNP22", "Nombre":"Teruel. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":420.0}
+,{"COD":"MNP22", "Nombre":"Teruel. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":414.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":420.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":429.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":489.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":454.0}
@@ -7174,7 +7312,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":859.0}
 ]
 }
-,{"COD":"MNP21", "Nombre":"Toledo. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5256.0}
+,{"COD":"MNP21", "Nombre":"Toledo. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":5477.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":5256.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":5197.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":5250.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":5069.0}
@@ -7226,7 +7365,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":7491.0}
 ]
 }
-,{"COD":"MNP20", "Nombre":"Toledo. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2696.0}
+,{"COD":"MNP20", "Nombre":"Toledo. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2869.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2696.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2652.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2735.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2576.0}
@@ -7278,7 +7418,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3843.0}
 ]
 }
-,{"COD":"MNP19", "Nombre":"Toledo. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2560.0}
+,{"COD":"MNP19", "Nombre":"Toledo. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":2608.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2560.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2545.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":2515.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":2493.0}
@@ -7330,7 +7471,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3648.0}
 ]
 }
-,{"COD":"MNP18", "Nombre":"Valencia/València. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":18147.0}
+,{"COD":"MNP18", "Nombre":"Valencia/València. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":18438.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":18147.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":18094.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":18164.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":18243.0}
@@ -7382,7 +7524,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":37168.0}
 ]
 }
-,{"COD":"MNP17", "Nombre":"Valencia/València. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":9414.0}
+,{"COD":"MNP17", "Nombre":"Valencia/València. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":9552.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":9414.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":9214.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":9403.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":9573.0}
@@ -7434,7 +7577,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":19375.0}
 ]
 }
-,{"COD":"MNP16", "Nombre":"Valencia/València. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":8733.0}
+,{"COD":"MNP16", "Nombre":"Valencia/València. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":8886.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":8733.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":8880.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":8761.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":8670.0}
@@ -7486,7 +7630,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":17793.0}
 ]
 }
-,{"COD":"MNP15", "Nombre":"Valladolid. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3048.0}
+,{"COD":"MNP15", "Nombre":"Valladolid. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3039.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3048.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":2977.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3152.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3020.0}
@@ -7538,7 +7683,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":8223.0}
 ]
 }
-,{"COD":"MNP14", "Nombre":"Valladolid. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1586.0}
+,{"COD":"MNP14", "Nombre":"Valladolid. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1509.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1586.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1525.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1609.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1546.0}
@@ -7590,7 +7736,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":4401.0}
 ]
 }
-,{"COD":"MNP13", "Nombre":"Valladolid. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1462.0}
+,{"COD":"MNP13", "Nombre":"Valladolid. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":1530.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":1462.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":1452.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":1543.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":1474.0}
@@ -7642,7 +7789,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":3822.0}
 ]
 }
-,{"COD":"MNP12", "Nombre":"Zamora. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":700.0}
+,{"COD":"MNP12", "Nombre":"Zamora. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":743.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":700.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":694.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":711.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":709.0}
@@ -7694,7 +7842,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":2750.0}
 ]
 }
-,{"COD":"MNP11", "Nombre":"Zamora. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":325.0}
+,{"COD":"MNP11", "Nombre":"Zamora. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":375.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":325.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":346.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":378.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":343.0}
@@ -7746,7 +7895,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1420.0}
 ]
 }
-,{"COD":"MNP10", "Nombre":"Zamora. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":375.0}
+,{"COD":"MNP10", "Nombre":"Zamora. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":368.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":375.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":348.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":333.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":366.0}
@@ -7798,7 +7948,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1330.0}
 ]
 }
-,{"COD":"MNP9", "Nombre":"Zaragoza. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6213.0}
+,{"COD":"MNP9", "Nombre":"Zaragoza. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":6358.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":6213.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":6409.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":6520.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":6973.0}
@@ -7850,7 +8001,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":13201.0}
 ]
 }
-,{"COD":"MNP8", "Nombre":"Zaragoza. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3259.0}
+,{"COD":"MNP8", "Nombre":"Zaragoza. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3288.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":3259.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3238.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3356.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3580.0}
@@ -7902,7 +8054,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":6801.0}
 ]
 }
-,{"COD":"MNP7", "Nombre":"Zaragoza. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2954.0}
+,{"COD":"MNP7", "Nombre":"Zaragoza. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":3070.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":2954.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":3171.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":3164.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":3393.0}
@@ -7954,7 +8107,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":6400.0}
 ]
 }
-,{"COD":"MNP6", "Nombre":"Ceuta. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":685.0}
+,{"COD":"MNP6", "Nombre":"Ceuta. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":669.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":685.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":683.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":728.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":719.0}
@@ -8006,7 +8160,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":1317.0}
 ]
 }
-,{"COD":"MNP5", "Nombre":"Ceuta. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":342.0}
+,{"COD":"MNP5", "Nombre":"Ceuta. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":322.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":342.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":350.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":391.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":389.0}
@@ -8058,7 +8213,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":668.0}
 ]
 }
-,{"COD":"MNP4", "Nombre":"Ceuta. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":343.0}
+,{"COD":"MNP4", "Nombre":"Ceuta. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":347.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":343.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":333.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":337.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":330.0}
@@ -8110,7 +8266,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":649.0}
 ]
 }
-,{"COD":"MNP3", "Nombre":"Melilla. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":795.0}
+,{"COD":"MNP3", "Nombre":"Melilla. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":752.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":795.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":771.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":894.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":933.0}
@@ -8162,7 +8319,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":729.0}
 ]
 }
-,{"COD":"MNP2", "Nombre":"Melilla. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":423.0}
+,{"COD":"MNP2", "Nombre":"Melilla. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":380.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":423.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":415.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":449.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":480.0}
@@ -8214,7 +8372,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":373.0}
 ]
 }
-,{"COD":"MNP1", "Nombre":"Melilla. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":372.0}
+,{"COD":"MNP1", "Nombre":"Melilla. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":372.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":372.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":356.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":445.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":453.0}
@@ -8266,7 +8425,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":356.0}
 ]
 }
-,{"COD":"MNP159", "Nombre":"No residente. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":750.0}
+,{"COD":"MNP159", "Nombre":"No residente. Nacimiento. Total. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":518.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":750.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":826.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":547.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":557.0}
@@ -8318,7 +8478,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":782.0}
 ]
 }
-,{"COD":"MNP158", "Nombre":"No residente. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":399.0}
+,{"COD":"MNP158", "Nombre":"No residente. Nacimiento. Hombres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":269.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":399.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":421.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":300.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":281.0}
@@ -8370,7 +8531,8 @@
 ,{"Fecha":"1975-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":1975, "Valor":404.0}
 ]
 }
-,{"COD":"MNP157", "Nombre":"No residente. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":351.0}
+,{"COD":"MNP157", "Nombre":"No residente. Nacimiento. Mujeres. Todas las edades. Total. Lugar de residencia de la madre. Dato base. ", "T3_Unidad":"Nacimientos", "T3_Escala":" ", "Data":[{"Fecha":"2025-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2025, "Valor":249.0}
+,{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":351.0}
 ,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":405.0}
 ,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":247.0}
 ,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":276.0}

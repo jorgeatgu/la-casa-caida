@@ -1,7 +1,7 @@
 {
   "anio": 2025,
-  "actualizado": "2026-09-30",
-  "hayProvisionales": true,
+  "actualizado": "2026-11-18",
+  "hayProvisionales": false,
   "aragon": {
     "poblacion": 1358812,
     "superficie": 47680,
@@ -32,7 +32,7 @@
       },
       "saldo": {
         "desde": 1975,
-        "hasta": 2024,
+        "hasta": 2025,
         "maxFallecidos": {
           "anio": 2020,
           "valor": 2888
@@ -66,7 +66,7 @@
       },
       "saldo": {
         "desde": 1975,
-        "hasta": 2024,
+        "hasta": 2025,
         "maxFallecidos": {
           "anio": 2020,
           "valor": 2016
@@ -100,7 +100,7 @@
       },
       "saldo": {
         "desde": 1975,
-        "hasta": 2024,
+        "hasta": 2025,
         "maxFallecidos": {
           "anio": 2020,
           "valor": 11807
