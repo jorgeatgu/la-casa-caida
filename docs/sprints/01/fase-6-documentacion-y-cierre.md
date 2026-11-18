@@ -50,12 +50,12 @@ Depende de la fase 5. Es la última.
 
 ## Tareas
 
-- [ ] Crear la rama `fase-6-documentacion-y-cierre`
-- [ ] `docs/actualizar-datos.md`
-- [ ] `README.md` corregido
-- [ ] `Metodologia.astro` revisada
-- [ ] Guía probada en un clon limpio
-- [ ] Build en verde
+- [x] Crear la rama `fase-6-documentacion-y-cierre`
+- [x] `docs/actualizar-datos.md`
+- [x] `README.md` corregido
+- [x] `Metodologia.astro` revisada
+- [x] Guía probada en un clon limpio
+- [x] Build en verde
 - [ ] PR
 - [ ] QA de producción en escritorio y en móvil
 - [ ] `retro.md`
