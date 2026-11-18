@@ -5,6 +5,7 @@ import { scaleTime, scaleLinear, scaleOrdinal } from 'd3-scale';
 import { axisBottom, axisLeft } from 'd3-axis';
 import { csv } from 'd3-fetch';
 import { format } from 'd3-format';
+import { alinearUltimaMarca, marcasAnio } from './ejeAnios.js';
 
 const d3 = {
   select,
@@ -86,13 +87,14 @@ export function aragonStacked() {
 
   function drawAxes(g) {
     const { count: { x, y } } = scales
+    const [inicio, fin] = d3.extent(dataAragonStacked, d => +d.year);
     const axisX = d3
       .axisBottom(x)
       .tickFormat(d3.format('d'))
       .tickPadding(7)
-      .ticks(9);
+      .tickValues(marcasAnio(inicio, fin, width));
 
-    g.select('.axis-x').attr('transform', `translate(0,${height})`).call(axisX);
+    g.select('.axis-x').attr('transform', `translate(0,${height})`).call(axisX).call(alinearUltimaMarca);
 
     const axisY = d3
       .axisLeft(y)
@@ -178,11 +180,11 @@ export function aragonStacked() {
     function mousemove(event) {
       const { layerX } = event;
       const w = chart.node().offsetWidth;
-      var x0 = scales.count.x.invert(layerX),
+      var x0 = scales.count.x.invert(layerX - margin.left),
         i = bisectDate(dataAragonStacked, x0, 1),
         d0 = dataAragonStacked[i - 1],
         d1 = dataAragonStacked[i],
-        d = x0 - d0.year > d1.year - x0 ? d1 : d0;
+        d = d1 && x0 - d0.year > d1.year - x0 ? d1 : d0;
       const positionX = scales.count.x(d.year) + margin.left;
       const postionWidthTooltip = positionX + 200;
       const positionRightTooltip = w - positionX;
@@ -192,10 +194,10 @@ export function aragonStacked() {
         .html(
           `
           <span class="tooltip-stack-number tooltip-stack-text">${d.year}</span>
-          <span class="tooltip-stack-text">Huesca: <span class="tooltip-number">${d.huescaP}% - ${d.huesca} hab.</span></span>
-          <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruelP}% - ${d.teruel} hab.</span></span>
-          <span class="tooltip-stack-text">Zaragoza: <span class="tooltip-number">${d.zaragozaP}% - ${d.zaragoza} hab.</span></span>
-          <span class="tooltip-stack-text">Total: <span class="tooltip-number">${d.aragon} hab.</span></span>
+          <span class="tooltip-stack-text">Huesca: <span class="tooltip-number">${d.huescaP}% - ${Number(d.huesca).toLocaleString('es-ES')} hab.</span></span>
+          <span class="tooltip-stack-text">Teruel: <span class="tooltip-number">${d.teruelP}% - ${Number(d.teruel).toLocaleString('es-ES')} hab.</span></span>
+          <span class="tooltip-stack-text">Zaragoza: <span class="tooltip-number">${d.zaragozaP}% - ${Number(d.zaragoza).toLocaleString('es-ES')} hab.</span></span>
+          <span class="tooltip-stack-text">Total: <span class="tooltip-number">${Number(d.aragon).toLocaleString('es-ES')} hab.</span></span>
           `
         )
         .style('top', '35%')

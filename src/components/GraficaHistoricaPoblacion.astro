@@ -68,13 +68,15 @@ const containerBisSelector = `line-${provincia}-container-bis`;
     }
 
     function drawAxes(g) {
+      const [inicio, fin] = d3.extent(dataLineHistoric, d => d.year);
       const axisX = d3.axisBottom(scales.count.x)
         .tickFormat(d3.format('d'))
-        .ticks(9);
+        .tickValues(ejeAnios.marcasAnio(inicio, fin, width - 65));
 
       g.select('.axis-x')
         .attr('transform', `translate(-0,${height})`)
-        .call(axisX);
+        .call(axisX)
+        .call(ejeAnios.alinearUltimaMarca);
 
       const localeFormat = locale.format(',.0f');
       const axisY = d3.axisLeft(scales.count.y)
@@ -83,8 +85,10 @@ const containerBisSelector = `line-${provincia}-container-bis`;
         .tickSizeInner(-width);
 
       g.select('.axis-y').call(axisY);
+      // Etiqueta encima de su línea, alineada a la izquierda: las cifras de Zaragoza no caben a la izquierda del eje
       g.selectAll('.axis-y .tick text')
-        .attr('x', 60)
+        .attr('x', 0)
+        .attr('text-anchor', 'start')
         .attr('dy', -5);
     }
 
@@ -144,7 +148,10 @@ const containerBisSelector = `line-${provincia}-container-bis`;
         })
         .attr('cx', d => scales.count.x(d.year))
         .attr('cy', d => scales.count.y(d.total))
-        .attr('r', 3);
+        .attr('r', (d, i) => {
+          const [inicio, fin] = d3.extent(dataLineHistoric, d => d.year);
+          return ejeAnios.radioPunto(dataLineHistoric, i, (width - 65) / (fin - inicio), 3);
+        });
 
       drawAxes(g);
     }

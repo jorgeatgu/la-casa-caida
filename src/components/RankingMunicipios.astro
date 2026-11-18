@@ -1,26 +1,20 @@
 ---
 import fs from 'fs';
 import path from 'path';
+import { parse } from 'csv-parse/sync';
+import { ANIO_REFERENCIA } from '../config/anio.js';
 
 const { tipoRanking = "despoblacion", limite = 10, mostrarLinks = true } = Astro.props;
 
+// escribirCsv entrecomilla los valores con comas: se lee con un parser CSV real
 function parseCSV(content) {
-  const lines = content.split('\n');
-  const headers = lines[0].split(',');
-
-  return lines.slice(1)
-    .filter(line => line.trim() !== '')
-    .map(line => {
-      const values = line.split(',');
-      return headers.reduce((obj, header, i) => {
-        let value = values[i];
-        if (value && !isNaN(value) && value.trim() !== '') {
-          value = parseFloat(value);
-        }
-        obj[header] = value;
-        return obj;
-      }, {});
-    });
+  return parse(content, {
+    columns: true,
+    skip_empty_lines: true,
+    bom: true,
+    cast: (value, { column }) =>
+      column !== 'codigoINE' && value.trim() !== '' && !isNaN(value) ? parseFloat(value) : value
+  });
 }
 
 let datosFiltrados = [];
@@ -45,13 +39,13 @@ try {
     provincia: "Ejemplo",
     slug: `municipio-${i+1}`,
     poblacion1900: 1000,
-    poblacion2024: 500,
+    poblacionActual: 500,
     perdidaPorcentual: 50,
     variacion1900: -50,
     porcentajeMayores: 30,
     porcentajeMenores: 15,
     densidad: 10,
-    poblacion2014: 550,
+    poblacionComparacion: 550,
     varUltimosAnios: -9.1
   }));
 }
@@ -129,7 +123,7 @@ function getBarra(valor, max, invertido = false) {
           {tipoRanking === "despoblacion" && (
             <>
               <th class="column-dato">1900</th>
-              <th class="column-dato">2024</th>
+              <th class="column-dato">{ANIO_REFERENCIA}</th>
               <th class="column-dato">% Pérdida</th>
             </>
           )}
@@ -137,7 +131,7 @@ function getBarra(valor, max, invertido = false) {
           {tipoRanking === "crecimiento" && (
             <>
               <th class="column-dato">1900</th>
-              <th class="column-dato">2024</th>
+              <th class="column-dato">{ANIO_REFERENCIA}</th>
               <th class="column-dato">% Aumento</th>
             </>
           )}
@@ -178,7 +172,7 @@ function getBarra(valor, max, invertido = false) {
             {tipoRanking === "despoblacion" && (
               <>
                 <td class="column-dato historic">{formatearNumero(municipio.poblacion1900)}</td>
-                <td class="column-dato current">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="column-dato current">{formatearNumero(municipio.poblacionActual)}</td>
                 <td class="column-dato valor-destacado">
                   <div class="valor-wrapper negativo">
                     <span class="valor-numero">-{municipio.perdidaPorcentual?.toFixed(1) || 0}%</span>
@@ -191,7 +185,7 @@ function getBarra(valor, max, invertido = false) {
             {tipoRanking === "crecimiento" && (
               <>
                 <td class="column-dato historic">{formatearNumero(municipio.poblacion1900)}</td>
-                <td class="column-dato current">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="column-dato current">{formatearNumero(municipio.poblacionActual)}</td>
                 <td class="column-dato valor-destacado">
                   <div class="valor-wrapper positivo">
                     <span class="valor-numero">+{municipio.variacion1900?.toFixed(1) || 0}%</span>
@@ -203,7 +197,7 @@ function getBarra(valor, max, invertido = false) {
 
             {tipoRanking === "envejecidos" && (
               <>
-                <td class="column-dato">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="column-dato">{formatearNumero(municipio.poblacionActual)}</td>
                 <td class="column-dato valor-destacado">
                   <div class="valor-wrapper">
                     <span class="valor-numero">{municipio.porcentajeMayores?.toFixed(1) || 0}%</span>
@@ -215,7 +209,7 @@ function getBarra(valor, max, invertido = false) {
 
             {tipoRanking === "jovenes" && (
               <>
-                <td class="column-dato">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="column-dato">{formatearNumero(municipio.poblacionActual)}</td>
                 <td class="column-dato valor-destacado">
                   <div class="valor-wrapper positivo">
                     <span class="valor-numero">{municipio.porcentajeMenores?.toFixed(1) || 0}%</span>
@@ -227,7 +221,7 @@ function getBarra(valor, max, invertido = false) {
 
             {(tipoRanking === "densidad-alta" || tipoRanking === "densidad-baja") && (
               <>
-                <td class="column-dato">{formatearNumero(municipio.poblacion2024)}</td>
+                <td class="column-dato">{formatearNumero(municipio.poblacionActual)}</td>
                 <td class="column-dato valor-destacado">
                   <div class="valor-wrapper">
                     <span class="valor-numero">{municipio.densidad?.toFixed(1) || 0}</span>

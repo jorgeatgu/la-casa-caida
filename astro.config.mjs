@@ -10,6 +10,8 @@ export default defineConfig({
       changefreq: 'weekly',
       priority: 0.7,
       lastmod: new Date(),
+      // El blog no tiene posts: no se anuncia a los buscadores
+      filter: (page) => !page.includes('/blog'),
     }),
     mdx()
   ],

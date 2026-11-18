@@ -3,6 +3,10 @@ import BaseLayout from '../layouts/Layout.astro';
 import { aragonStacked } from '../scripts/d3/aragonStacked';
 import { scatterDesert } from '../scripts/d3/scatterDesert';
 import Kofi from '../components/Kofi.astro';
+import cifras from '../data/cifras.json';
+import { fechaLarga, numero, porcentaje } from '../scripts/formato.js';
+
+const { aragon, provincias } = cifras;
 ---
 <BaseLayout title="La casa caída | La despoblación de Aragón">
   <header class="header">
@@ -26,10 +30,10 @@ import Kofi from '../components/Kofi.astro';
       <div class="container-chart">
         <div class="section-text section-text-index">
           <p class="text">La casa caída es una bonita y triste canción de la <a href="http://www.rondadors.com/d2/18/d2_18.php">Ronda de Boltaña</a>, trata sobre la despoblación del Alto Aragón. <span class="bold">Si se nos cae la casa se vuelve a levantar,</span> canta la Ronda. El problema al que nos enfrentamos en Aragón(y en otras partes de España) es que cada día esta más cerca el momento donde no haya nadie para levantar la casa.</p>
-          <p class="text">Según el INE el número total de habitantes en Aragón es de 1.341.289. <span class="bold">El 50.88% de ellos reside en la ciudad de Zaragoza</span>. Estas cifras dejan la densidad de población de Aragón en 28,11 hab/km2, solo por delante de Castilla y León, Castilla-La Mancha y Extremadura.</p>
+          <p class="text">Según el INE el número total de habitantes en Aragón es de {numero(aragon.poblacion)}. <span class="bold">El {porcentaje(aragon.porcentajeZaragozaCapital)} de ellos reside en la ciudad de Zaragoza</span>. Estas cifras dejan la densidad de población de Aragón en {numero(aragon.densidad, 2)} hab/km2, solo por delante de Castilla y León, Castilla-La Mancha y Extremadura.</p>
           <article class="sponsor-card">
-            <p class="sponsor-card-text">Actualizado el <strong>6 de mayo de 2025.</strong></p>
-            <p class="sponsor-card-text">Los datos corresponden al padrón del INE a <strong>fecha 1 de enero de 2025.</strong></p>
+            <p class="sponsor-card-text">Actualizado el <strong>{fechaLarga(cifras.actualizado)}.</strong></p>
+            <p class="sponsor-card-text">Los datos corresponden al padrón del INE a <strong>fecha 1 de enero de {cifras.anio}.</strong></p>
           </article>
          <Kofi />
         </div>
@@ -47,8 +51,8 @@ import Kofi from '../components/Kofi.astro';
             </div>
             <div class="card-content">
               <div class="card-stats">
-                <span class="stat-population huesca-stat">221.909 habitantes</span>
-                <span class="stat-density">15,71 hab/km²</span>
+                <span class="stat-population huesca-stat">{numero(provincias.huesca.poblacion)} habitantes</span>
+                <span class="stat-density">{numero(provincias.huesca.densidad, 2)} hab/km²</span>
               </div>
               <p class="card-description">
                 La provincia más septentrional de Aragón, conocida por sus impresionantes paisajes montañosos del Pirineo y sus valles. Enfrenta retos de despoblación en zonas rurales mientras mantiene centros turísticos activos.
@@ -56,7 +60,7 @@ import Kofi from '../components/Kofi.astro';
               <div class="province-data">
                 <div class="data-item">
                   <span class="data-label">Municipios</span>
-                  <span class="data-value">202</span>
+                  <span class="data-value">{provincias.huesca.municipios}</span>
                 </div>
                 <div class="data-item">
                   <span class="data-label">Capital</span>
@@ -64,7 +68,7 @@ import Kofi from '../components/Kofi.astro';
                 </div>
                 <div class="data-item">
                   <span class="data-label">Superficie</span>
-                  <span class="data-value">15.636 km²</span>
+                  <span class="data-value">{numero(provincias.huesca.superficie)} km²</span>
                 </div>
               </div>
               <a href="/provincia/huesca" class="card-button huesca-button">Ver municipios de Huesca</a>
@@ -79,8 +83,8 @@ import Kofi from '../components/Kofi.astro';
             </div>
             <div class="card-content">
               <div class="card-stats">
-                <span class="stat-population teruel-stat">134.176 habitantes</span>
-                <span class="stat-density">9,09 hab/km²</span>
+                <span class="stat-population teruel-stat">{numero(provincias.teruel.poblacion)} habitantes</span>
+                <span class="stat-density">{numero(provincias.teruel.densidad, 2)} hab/km²</span>
               </div>
               <p class="card-description">
                 La provincia menos poblada de Aragón y una de las más despobladas de España. Con un rico patrimonio histórico y paisajes impresionantes, enfrenta graves desafíos demográficos.
@@ -88,7 +92,7 @@ import Kofi from '../components/Kofi.astro';
               <div class="province-data">
                 <div class="data-item">
                   <span class="data-label">Municipios</span>
-                  <span class="data-value">236</span>
+                  <span class="data-value">{provincias.teruel.municipios}</span>
                 </div>
                 <div class="data-item">
                   <span class="data-label">Capital</span>
@@ -96,7 +100,7 @@ import Kofi from '../components/Kofi.astro';
                 </div>
                 <div class="data-item">
                   <span class="data-label">Superficie</span>
-                  <span class="data-value">14.810 km²</span>
+                  <span class="data-value">{numero(provincias.teruel.superficie)} km²</span>
                 </div>
               </div>
               <a href="/provincia/teruel" class="card-button teruel-button">Ver municipios de Teruel</a>
@@ -111,16 +115,16 @@ import Kofi from '../components/Kofi.astro';
             </div>
             <div class="card-content">
               <div class="card-stats">
-                <span class="stat-population zaragoza-stat">972.528 habitantes</span>
-                <span class="stat-density">56,32 hab/km²</span>
+                <span class="stat-population zaragoza-stat">{numero(provincias.zaragoza.poblacion)} habitantes</span>
+                <span class="stat-density">{numero(provincias.zaragoza.densidad, 2)} hab/km²</span>
               </div>
               <p class="card-description">
-                La provincia más poblada de Aragón, con más del 70% de sus habitantes concentrados en la capital. El contraste entre la metrópoli y las zonas rurales periféricas representa el desequilibrio demográfico aragonés.
+                La provincia más poblada de Aragón, con el {porcentaje(provincias.zaragoza.porcentajeCapital)} de sus habitantes concentrados en la capital. El contraste entre la metrópoli y las zonas rurales periféricas representa el desequilibrio demográfico aragonés.
               </p>
               <div class="province-data">
                 <div class="data-item">
                   <span class="data-label">Municipios</span>
-                  <span class="data-value">293</span>
+                  <span class="data-value">{provincias.zaragoza.municipios}</span>
                 </div>
                 <div class="data-item">
                   <span class="data-label">Capital</span>
@@ -128,7 +132,7 @@ import Kofi from '../components/Kofi.astro';
                 </div>
                 <div class="data-item">
                   <span class="data-label">Superficie</span>
-                  <span class="data-value">17.274 km²</span>
+                  <span class="data-value">{numero(provincias.zaragoza.superficie)} km²</span>
                 </div>
               </div>
               <a href="/provincia/zaragoza" class="card-button zaragoza-button">Ver municipios de Zaragoza</a>

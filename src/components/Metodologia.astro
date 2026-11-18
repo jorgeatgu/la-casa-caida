@@ -1,5 +1,8 @@
 ---
 // Metodologia.astro
+import cifras from '../data/cifras.json';
+import { mesAnio } from '../scripts/formato.js';
+
 const { titulo = "Metodología" } = Astro.props;
 // Podemos definir diferentes secciones de metodología según necesitemos
 const secciones = [
@@ -12,10 +15,12 @@ icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" h
   <line x1="12" y1="15" x2="12" y2="3"></line>
 </svg>`,
 contenido: `
-<p>Los datos de población histórica proceden del Instituto Nacional de Estadística (INE) y del Instituto Aragonés de Estadística (IAEST).</p>
+<p>Los datos proceden del Instituto Nacional de Estadística (INE) y, para los censos históricos, del Instituto Aragonés de Estadística (IAEST).</p>
 <ul>
   <li>Población de 1900-2011: Censos de población</li>
-  <li>Población de 2012-2024: Padrones municipales</li>
+  <li>Población de 2012-${cifras.anio}: Cifras oficiales del padrón municipal a 1 de enero</li>
+  <li>Grupos de edad: Estadística del Padrón Continuo hasta 2022 y Censo Anual de Población desde 2023</li>
+  <li>Saldo vegetativo: Movimiento Natural de la Población</li>
 </ul>
 `
 },
@@ -33,6 +38,7 @@ contenido: `
   <div class="formula">% Variación = ((Población actual - Población 1900) / Población 1900) × 100</div>
 </div>
 <p>La densidad de población se calcula dividiendo el número de habitantes entre la superficie del municipio en kilómetros cuadrados.</p>
+<p>Los porcentajes de menores de 16 años y de mayores de 65 se calculan sobre la población del Censo Anual, que no coincide exactamente con la del padrón.</p>
 `
 },
 {
@@ -43,8 +49,8 @@ icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" h
   <polyline points="12 6 12 12 16 14"></polyline>
 </svg>`,
 contenido: `
-<p>Los datos se actualizan anualmente tras la publicación oficial del padrón municipal por parte del INE (generalmente durante el primer trimestre del año).</p>
-<p>Última actualización: Mayo 2025</p>
+<p>Los datos se actualizan anualmente tras la publicación oficial del padrón municipal por parte del INE (en diciembre, con la población a 1 de enero de ese año).</p>
+<p>Última actualización: ${mesAnio(cifras.actualizado)}</p>
 `
 },
 {
@@ -56,9 +62,22 @@ icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" h
   <line x1="12" y1="17" x2="12.01" y2="17"></line>
 </svg>`,
 contenido: `
-<p>Es importante considerar que a lo largo del periodo analizado (1900-2024) se han producido fusiones y segregaciones de municipios, lo que puede afectar a la comparabilidad de los datos. En esos casos, se ha intentado reconstruir las series históricas para mantener la coherencia temporal.</p>
+<p>Es importante considerar que a lo largo del periodo analizado (1900-${cifras.anio}) se han producido fusiones y segregaciones de municipios, lo que puede afectar a la comparabilidad de los datos. En esos casos, se ha intentado reconstruir las series históricas para mantener la coherencia temporal.</p>
 `
-}
+},
+// Solo mientras algún dato publicado sea una estimación provisional
+...(cifras.hayProvisionales ? [{
+id: "provisionales",
+titulo: "Datos provisionales",
+icono: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+  <line x1="3" y1="15" x2="15" y2="3"></line>
+  <line x1="9" y1="21" x2="21" y2="9"></line>
+</svg>`,
+contenido: `
+<p>El saldo vegetativo del último año sale de las estimaciones mensuales de nacimientos (EMN) y defunciones (EDeS) del INE, sumando el acumulado de diciembre. Es provisional hasta que el INE publica el Movimiento Natural de la Población definitivo, a finales del año siguiente; entonces se sustituye. En las gráficas, la barra de un dato provisional aparece rayada.</p>
+`
+}] : [])
 ];
 ---
 <div class="metodologia-container">
